@@ -1,0 +1,149 @@
+#: __init__.py:127
+msgid "Editors"
+msgstr ""
+
+#: amd/ngw-ngwcluster/AdditionalMenuLinks.js:22 view.py:8
+msgid "Account"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:32
+msgid "Resources"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:34
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:35
+msgid "Unlimited"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:39
+msgid "Users"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:46
+msgid "Basemaps"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:53
+msgid "CORS"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:60
+msgid "Lookup tables & forms"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:67
+msgid "Support"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:74
+msgid "Home path"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:81
+msgid "Private resources"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:88
+msgid "Spatial reference systems"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:95
+msgid "Custom domain"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:102
+msgid "Branding"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:109
+msgid "Higher performance"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:116
+msgid "Higher upload size"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:144
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:146
+msgid " of "
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:160
+msgid "Unavailable"
+msgstr ""
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:181
+msgid "Total of: Vector layers, Raster layers, PostGIS layers, WMS layers, Web Maps"
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
+msgid ""
+"Basemaps management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
+"Premium</a>."
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/CollectorDetail.hbs:2
+msgid ""
+"NextGIS Collector management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/OtherSettings.hbs:2
+msgid ""
+"<a href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Online "
+"feature editing</a> and Web map annotations are not available on your plan.  "
+"<a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/PermissionWidget.hbs:2
+msgid ""
+"Full permission management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>.<br/> "
+"To allow other users edit your data, add them to \"Editors\" group in <a "
+"href=\"/auth/user/\">Control panel</a>."
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
+msgid "Used"
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
+msgid "of"
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
+msgid "resources"
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
+msgid "Upgrade plan"
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/TrackerDetailWidget.hbs:2
+msgid ""
+"Tracker management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
+"Premium</a>."
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:3
+msgid "Upgrade"
+msgstr ""
+
+#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:10
+msgid "Your plan — "
+msgstr ""
+
+#: template/account.mako:53
+msgid "Change plan"
+msgstr ""
+
+#: template/account.mako:56
+msgid "Your plan"
+msgstr ""
+
+#: template/account.mako:62
+msgid "More about plans"
+msgstr ""
+

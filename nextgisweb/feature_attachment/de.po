@@ -1,0 +1,50 @@
+#: __init__.py:15
+msgid "Feature attachments"
+msgstr ""
+
+#: exception.py:15
+msgid "Attachment not found"
+msgstr "Anhang fehlt"
+
+#: exception.py:16
+#, python-format
+msgid "Attachment with id = %d was not found in feature with id = %d."
+msgstr "Anhang mit id = %d fehlt im Objekt mit id = %d."
+
+#: exception.py:17
+msgid "The attachment may have been deleted or an error in the address."
+msgstr "Gelöschter Anhang oder fehlerhafte Eingabe der Adresse."
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:36
+#: amd/ngw-feature-attachment/EditorWidget.js:109
+msgid "Attachments"
+msgstr "Anhänge"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:76
+msgid "File name"
+msgstr "Dateiname"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:84
+msgid "Size"
+msgstr "Größe"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:90
+msgid "MIME type"
+msgstr "MIME-Typ"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:97
+msgid "Description"
+msgstr "Beschreibung"
+
+#: amd/ngw-feature-attachment/EditorWidget.js:130
+msgid "Upload"
+msgstr "Hochladen"
+
+#: amd/ngw-feature-attachment/EditorWidget.js:153
+msgid "Delete"
+msgstr "Löschen"
+

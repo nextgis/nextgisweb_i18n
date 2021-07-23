@@ -1,0 +1,78 @@
+#: api.py:30
+msgid "Output format is not provided."
+msgstr "Výstupní formát není k dispozici."
+
+#: api.py:33
+#, python-format
+msgid "Format '%s' is not supported."
+msgstr "Formát '%s' není podporován."
+
+#: kind_of_data.py:12
+msgid "Rasters and pyramids"
+msgstr ""
+
+#: amd/ngw-raster-layer/Widget.js:26 model.py:61 view.py:31
+msgid "Raster layer"
+msgstr "Rastrová vrstva"
+
+#: model.py:81
+msgid "GDAL library was unable to open the file."
+msgstr "Knihovně GDAL se nepodařilo soubor otevřít."
+
+#: model.py:89
+#, python-format
+msgid ""
+"Raster has format '%(format)s', however only following formats are supported:"
+" %(all_formats)s."
+msgstr ""
+"Rastr má formát '%(format)s', podporovány jsou však pouze následující "
+"formáty: %(all_formats)s."
+
+#: model.py:94
+msgid "Raster files without projection info are not supported."
+msgstr "Rastrové soubory bez informací o projekci nejsou podporovány."
+
+#: model.py:105
+msgid "Complex data types are not supported."
+msgstr "Složité datové typy nejsou podporovány."
+
+#: model.py:179
+msgid "Data type"
+msgstr "Datový typ"
+
+#: view.py:20 view.py:34
+msgid "Save as"
+msgstr "Uložit jako"
+
+#: amd/ngw-raster-layer/ExportForm.js:101
+msgid "Band"
+msgstr "Kapela"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:13
+msgid "Format"
+msgstr "Formát"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:17
+msgid "SRS"
+msgstr "SRS"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:21
+msgid "Bands"
+msgstr "Kapely"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:30
+msgid "Save"
+msgstr "Uložit"
+
+#: amd/ngw-raster-layer/template/Widget.hbs:3
+msgid "Select a dataset"
+msgstr "Vyberte datovou sadu"
+
+#: amd/ngw-raster-layer/template/Widget.hbs:4
+msgid "Dataset should be in GeoTIFF format."
+msgstr "Datová sada by měla být ve formátu GeoTIFF."
+
+#: amd/ngw-raster-layer/template/Widget.hbs:8
+msgid "Coordinate system"
+msgstr "Souřadnicový systém"
+

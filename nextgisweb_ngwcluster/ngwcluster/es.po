@@ -1,0 +1,192 @@
+# Spanish translations for nextgisweb_ngwcluster.
+# Copyright (C) 2021 UNKNOWN
+# This file is distributed under the same license as the
+# nextgisweb_ngwcluster project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nextgisweb_ngwcluster 0.0+7813861\n"
+"Report-Msgid-Bugs-To: UNKNOWN\n"
+"POT-Creation-Date: 2021-04-26 21:46+0000\n"
+"PO-Revision-Date: 2021-04-26 21:46+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: __init__.py:126
+msgid "Editors"
+msgstr "Editores"
+
+#: amd/ngw-ngwcluster/AdditionalMenuLinks.js:22 view.py:8
+msgid "Account"
+msgstr "Cuenta"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:34
+msgid "Resources"
+msgstr "Recursos"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:36
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:37
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:41
+msgid "Users"
+msgstr "Usuarios"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:48
+msgid "Basemaps"
+msgstr "Mapas base"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:55
+msgid "CORS"
+msgstr "CORS"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:62
+msgid "Lookup tables & forms"
+msgstr "Tablas de búsqueda y formularios"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:69
+msgid "Support"
+msgstr "Apoyo"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:76
+msgid "Home path"
+msgstr "Ruta a la página principal"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:83
+msgid "Private resources"
+msgstr "Recursos privados"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:90
+msgid "Spatial reference systems"
+msgstr "Sistemas de referencia espacial"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:97
+msgid "Custom domain"
+msgstr "Dominio personalizado"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:104
+msgid "Branding"
+msgstr "Marca"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:111
+msgid "Higher performance"
+msgstr "Mayor rendimiento"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:118
+msgid "Higher upload size"
+msgstr "Mayor tamaño de carga"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:146
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:148
+msgid " of "
+msgstr " de "
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:162
+msgid "Unavailable"
+msgstr "Indisponible"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:183
+msgid ""
+"Total of: Vector layers, Raster layers, PostGIS layers, WMS layers, Web "
+"Maps"
+msgstr "Total de: capas vectoriales, capas ráster, capas PostGIS, capas WMS, mapas web"
+
+#: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
+msgid ""
+"Basemaps management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
+"Premium</a>."
+msgstr ""
+"La gestión de mapas base no está disponible en su plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a Mini o "
+"Premium</a>."
+
+#: amd/ngw-ngwcluster/template/CollectorDetail.hbs:2
+msgid ""
+"NextGIS Collector management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
+msgstr ""
+"La gestión de NextGIS Collector no está disponible en su plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a Premium</a>."
+
+#: amd/ngw-ngwcluster/template/OtherSettings.hbs:2
+msgid ""
+"<a "
+"href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Online"
+" feature editing</a> and Web map annotations are not available on your "
+"plan.  <a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to "
+"Premium</a>."
+msgstr ""
+"<a "
+"href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Edición"
+" de objetos geográficos y las anotaciones de mapas web no están disponibles en su "
+"plan.  <a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a "
+"Premium</a>."
+
+#: amd/ngw-ngwcluster/template/PermissionWidget.hbs:2
+msgid ""
+"Full permission management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to "
+"Premium</a>.<br/> To allow other users edit your data, add them to "
+"\"Editors\" group in <a href=\"/auth/user/\">Control panel</a>."
+msgstr ""
+"La gestión de permisos completa no está disponible en su plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Cambiar al plan "
+"Premium</a>.<br/> Para permitir que otros usuarios editen sus datos, agréguelos a "
+"el grupo \"Editores\" en "
+"<a href=\"/auth/user/\">Panel de control</a>."
+
+#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
+msgid "Used"
+msgstr "Utilizado"
+
+#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
+msgid "of"
+msgstr "de"
+
+#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
+msgid "resources"
+msgstr "recursos"
+
+#: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
+msgid "Upgrade plan"
+msgstr "Upgrade plan"
+
+#: amd/ngw-ngwcluster/template/TrackerDetailWidget.hbs:2
+msgid ""
+"Tracker management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
+"Premium</a>."
+msgstr ""
+"La gestión de localizadores GPS no está disponible en su plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Cambiar al plan Mini o "
+"Premium</a>."
+
+#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:3
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:10
+msgid "Your plan — "
+msgstr "Tu plan — "
+
+#: template/account.mako:53
+msgid "Change plan"
+msgstr "Cambio de plan"
+
+#: template/account.mako:56
+msgid "Your plan"
+msgstr "Tu plan"
+
+#: template/account.mako:62
+msgid "More about plans"
+msgstr "Más sobre planes"
+

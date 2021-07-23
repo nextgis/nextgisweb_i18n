@@ -1,0 +1,366 @@
+#: __init__.py:91
+msgid "Main resource group"
+msgstr "Hlavní skupina prostředků"
+
+#: api.py:68
+msgid "Root resource could not be deleted."
+msgstr "Kořenový prostředek nelze smazat."
+
+#: api.py:115
+msgid "Resource parent required."
+msgstr "Je vyžadován nadřazený zdroj."
+
+#: api.py:118
+msgid "Resource class required."
+msgstr "Vyžaduje se třída prostředků."
+
+#: api.py:121
+#, python-format
+msgid "Unknown resource class '%s'."
+msgstr "Neznámá třída prostředků '%s'."
+
+#: api.py:127
+#, python-format
+msgid "Resource class '%s' disabled."
+msgstr "Třída prostředků '%s' deaktivována."
+
+#: api.py:209
+msgid "Permission not found"
+msgstr "Oprávnění nebylo nalezeno"
+
+#: exception.py:27
+msgid "Resource not found"
+msgstr "Zdroj nebyl nalezen"
+
+#: exception.py:28
+#, python-format
+msgid "Resource with id = %d was not found."
+msgstr "Zdroj s id = %d nebyl nalezen."
+
+#: exception.py:29
+msgid ""
+"The resource may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired resource."
+msgstr ""
+"Zdroj mohl být odstraněn nebo je chyba v adrese. Opravte adresu nebo přejděte"
+" na domovskou stránku a zkuste najít požadovaný zdroj."
+
+#: exception.py:41
+msgid "Resource display name is not unique"
+msgstr "Zobrazovaný název zdroje není jedinečný"
+
+#: exception.py:42
+#, python-format
+msgid "Resource with same display name already exists (id = %d)."
+msgstr "Prostředek se stejným zobrazovaným názvem již existuje (id = %d)."
+
+#: exception.py:43
+msgid ""
+"Within a single parent resource, each resource must have unique display name."
+" Give the resource a different display name or rename existing."
+msgstr ""
+"V rámci jednoho nadřazeného prostředku musí mít každý prostředek jedinečný "
+"zobrazovaný název. Přiřaďte zdroji jiný zobrazovaný název nebo existující "
+"přejmenujte."
+
+#: exception.py:68
+msgid "Forbidden"
+msgstr "Zakázáno"
+
+#: amd/ngw-resource/CompositeWidget.js:264 exception.py:76
+msgid "Validation error"
+msgstr "Chyba ověření"
+
+#: exception.py:81
+msgid "Hierarchy error"
+msgstr "Chyba v hierarchie"
+
+#: exception.py:88
+msgid "Operational error"
+msgstr "Provozní chyba "
+
+#: amd/ngw-resource/PermissionWidget.js:94 amd/ngw-resource/PermissionWidget.js:183
+#: amd/ngw-resource/Widget.js:31 amd/ngw-resource/form/ResourceLink.js:35
+#: model.py:110 scope.py:27
+msgid "Resource"
+msgstr "Zdroj"
+
+#: model.py:253
+msgid "Resource can not be a parent himself."
+msgstr "Zdrojem nemůže být rodič sám."
+
+#: model.py:266
+msgid "Resource keyname is not unique."
+msgstr "Klíčový název zdroje není jedinečný."
+
+#: model.py:318
+msgid "Resource can not be without a parent."
+msgstr "Zdroj nemůže být bez rodiče."
+
+#: model.py:324
+#, python-format
+msgid "You are not allowed to manage children of resource with id = %d."
+msgstr "Není dovoleno spravovat podřízené položky prostředku s id = %d."
+
+#: model.py:329
+#, python-format
+msgid "Resource can not be a child of resource id = %d."
+msgstr "Zdroj nemůže být podřízeným prvkem id zdroje = %d."
+
+#: model.py:454
+#, python-format
+msgid "Maximum number of resources exceeded. The limit is %s."
+msgstr "Byl překročen maximální počet zdrojů. Limit je %s."
+
+#: model.py:471
+#, python-format
+msgid "Maximum number of resources '%s' exceeded. The limit is %s."
+msgstr "Byl překročen maximální počet zdrojů '%s'. Limit je %s."
+
+#: model.py:527
+msgid "Resource group"
+msgstr "Skupina prostředků"
+
+#: scope.py:29 scope.py:68 scope.py:80 scope.py:90 scope.py:103
+msgid "Read"
+msgstr "Číst"
+
+#: amd/ngw-resource/CompositeWidget.js:77 scope.py:35
+msgid "Create"
+msgstr "Vytvořit"
+
+#: scope.py:42 view.py:311
+msgid "Update"
+msgstr "Aktualizace"
+
+#: amd/ngw-resource/CompositeWidget.js:96 amd/ngw-resource/PermissionWidget.js:321
+#: scope.py:46 view.py:319
+msgid "Delete"
+msgstr "Vymazat"
+
+#: scope.py:51
+msgid "Manage children"
+msgstr "Spravit děti"
+
+#: scope.py:54
+msgid "Change permissions"
+msgstr "Změnit oprávnění"
+
+#: scope.py:66
+msgid "Metadata"
+msgstr "Metadata"
+
+#: scope.py:69 scope.py:81 scope.py:91 scope.py:104
+msgid "Write"
+msgstr "Napsat"
+
+#: scope.py:78
+msgid "Data structure"
+msgstr "Datová struktura"
+
+#: scope.py:88
+msgid "Data"
+msgstr "Data"
+
+#: scope.py:101
+msgid "Connection"
+msgstr "Spojení"
+
+#: scope.py:105 scope.py:117
+msgid "Connect"
+msgstr "Připojit"
+
+#: scope.py:115
+msgid "Service"
+msgstr "Servis"
+
+#: scope.py:118
+msgid "Configure"
+msgstr "Konfigurovat"
+
+#: serialize.py:100
+#, python-format
+msgid "Attribute '%s' forbidden."
+msgstr "Atribut '%s' zakázán."
+
+#: view.py:88 view.py:326
+msgid "JSON view"
+msgstr "Zobrazení JSON"
+
+#: view.py:123
+msgid "Resource tree"
+msgstr "Strom zdrojů"
+
+#: view.py:129 view.py:336
+msgid "Create resource"
+msgstr "Vytvořit zdroj"
+
+#: view.py:137
+msgid "Update resource"
+msgstr "Aktualizovat zdroj"
+
+#: amd/ngw-resource/DeleteWidget.js:20 view.py:144
+msgid "Delete resource"
+msgstr "Smazat zdroj"
+
+#: view.py:203
+#, python-format
+msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
+msgstr "Nedostatečné oprávnění '%s' v oboru '%s' na ID zdroje = %d."
+
+#: view.py:261
+msgid "Child resources"
+msgstr "Dětské zdroje"
+
+#: amd/ngw-resource/DescriptionWidget.js:19 view.py:268
+msgid "Description"
+msgstr "Popis"
+
+#: view.py:275
+msgid "User permissions"
+msgstr "Uživatelská oprávnění"
+
+#: amd/ngw-resource/PermissionWidget.js:66 amd/ngw-resource/PermissionWidget.js:133
+#: view.py:337
+msgid "Action"
+msgstr "Akce"
+
+#: view.py:338
+msgid "Extra"
+msgstr "Další"
+
+#: amd/ngw-resource/CompositeWidget.js:53
+msgid "Please wait. Processing request..."
+msgstr "Prosím, počekejte. Zpracovává se požadavek..."
+
+#: amd/ngw-resource/CompositeWidget.js:82
+msgid "Create and edit"
+msgstr "Vytvořit a upravit"
+
+#: amd/ngw-resource/CompositeWidget.js:89
+msgid "Save"
+msgstr "Uložit"
+
+#: amd/ngw-resource/CompositeWidget.js:256 amd/ngw-resource/CompositeWidget.js:272
+msgid "Unexpected error"
+msgstr "Neočekávaná chyba"
+
+#: amd/ngw-resource/CompositeWidget.js:257
+msgid "Serialization failed"
+msgstr "Serializace se nezdařila"
+
+#: amd/ngw-resource/CompositeWidget.js:265
+msgid "Errors found during data validation. Tabs with errors marked in red."
+msgstr "Chyby zjištěné během ověřování dat. Karty s chybami označenými červeně."
+
+#: amd/ngw-resource/CompositeWidget.js:273
+msgid "Validation failed"
+msgstr "Ověření se nezdařilo"
+
+#: amd/ngw-resource/PermissionWidget.js:57
+msgid "All resources"
+msgstr "Všechny zdroje"
+
+#: amd/ngw-resource/PermissionWidget.js:58
+msgid "All permissions"
+msgstr "Všechna oprávnění"
+
+#: amd/ngw-resource/PermissionWidget.js:69 amd/ngw-resource/PermissionWidget.js:136
+msgid "Allow"
+msgstr "Dovolit"
+
+#: amd/ngw-resource/PermissionWidget.js:70 amd/ngw-resource/PermissionWidget.js:137
+msgid "Deny"
+msgstr "Odmítnout"
+
+#: amd/ngw-resource/PermissionWidget.js:76 amd/ngw-resource/PermissionWidget.js:142
+msgid "Principal"
+msgstr "Hlaveň"
+
+#: amd/ngw-resource/PermissionWidget.js:82 amd/ngw-resource/PermissionWidget.js:177
+msgid "Permission"
+msgstr "Povolení"
+
+#: amd/ngw-resource/PermissionWidget.js:104
+#: amd/ngw-resource/PermissionWidget.js:189
+msgid "Propagate"
+msgstr "Propagovat"
+
+#: amd/ngw-resource/PermissionWidget.js:107
+msgid "Yes"
+msgstr "Ano"
+
+#: amd/ngw-resource/PermissionWidget.js:109
+msgid "No"
+msgstr "Ne"
+
+#: amd/ngw-resource/PermissionWidget.js:120
+msgid "Permission item"
+msgstr "Položka oprávnění"
+
+#: amd/ngw-resource/PermissionWidget.js:197 amd/ngw-resource/ResourcePicker.js:56
+msgid "OK"
+msgstr "OK"
+
+#: amd/ngw-resource/PermissionWidget.js:206 amd/ngw-resource/ResourcePicker.js:65
+msgid "Cancel"
+msgstr "Zrušení"
+
+#: amd/ngw-resource/PermissionWidget.js:240
+msgid "Permissions"
+msgstr "Oprávnění"
+
+#: amd/ngw-resource/PermissionWidget.js:308
+msgid "Add"
+msgstr "Přidat"
+
+#: amd/ngw-resource/PermissionWidget.js:314
+msgid "Edit"
+msgstr "Upravit"
+
+#: amd/ngw-resource/ResourcePicker.js:31
+msgid "Select resource"
+msgstr "Vyberte zdroj"
+
+#: amd/ngw-resource/template/DeleteWidget.hbs:7
+msgid "Confirm deletion of the resource"
+msgstr "Potvrďte odstranění zdroje"
+
+#: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
+#: template/section_summary.mako:6
+msgid "Display name"
+msgstr "Zobrazované jméno"
+
+#: amd/ngw-resource/template/Widget.hbs:13 template/section_summary.mako:15
+msgid "Keyname"
+msgstr "Klíčový název"
+
+#: amd/ngw-resource/template/Widget.hbs:18
+msgid "Parent"
+msgstr "Rodič"
+
+#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:143
+#: template/section_summary.mako:36
+msgid "Type"
+msgstr "Typ"
+
+#: template/section_api.mako:4
+msgid "Use these links to plug data into external applications."
+msgstr "Pomocí těchto odkazů můžete připojit data k externím aplikacím."
+
+#: template/section_children.mako:128
+msgid "Show resources volume"
+msgstr ""
+
+#: template/section_children.mako:144 template/section_summary.mako:44
+msgid "Owner"
+msgstr "Majitel"
+
+#: template/section_children.mako:145
+msgid "Volume"
+msgstr ""
+
+#: template/section_description.mako:4
+msgid "Resource description is empty."
+msgstr "Popis zdroje je prázdný."
+

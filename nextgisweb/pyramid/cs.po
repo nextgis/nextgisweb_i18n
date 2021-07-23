@@ -1,0 +1,341 @@
+#: api.py:478
+msgid "Your Web GIS at nextgis.com"
+msgstr "Váš webový GIS na nextgis.com"
+
+#: exception.py:208 exception.py:264
+msgid "Internal server error"
+msgstr "Interní chyba serveru"
+
+#: exception.py:209
+msgid ""
+"The server encountered an internal error or misconfiguration and was unable "
+"to complete your request."
+msgstr ""
+"Na serveru došlo k interní chybě nebo nesprávné konfiguraci a nemohl dokončit"
+" váš požadavek."
+
+#: exception.py:238
+msgid "Bad request"
+msgstr "Špatný požadavek"
+
+#: exception.py:239
+msgid ""
+"The server could not comply with the request since it is either malformed or "
+"otherwise incorrect."
+msgstr "Server nemohl vyhovět požadavku, protože je znetvořený nebo jinak nesprávný."
+
+#: exception.py:246
+msgid "Forbidden"
+msgstr "Zakázáno"
+
+#: exception.py:247
+msgid "Access was denied to this resource."
+msgstr "Přístup k tomuto prostředku byl odepřen."
+
+#: exception.py:251
+msgid "Page not found"
+msgstr "Stránka nenalezena"
+
+#: exception.py:252
+msgid ""
+"The page may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired page."
+msgstr ""
+"Možná stránka byla odstraněna nebo je chyba v adrese. Opravte adresu nebo "
+"přejděte na domovskou stránku a zkuste najít požadovanou stránku."
+
+#: exception.py:259
+msgid "Unprocessable entity"
+msgstr "Nezpracovatelná entita"
+
+#: exception.py:260
+msgid "Unable to process the contained instructions."
+msgstr "Obsažené instrukce nelze zpracovat."
+
+#: exception.py:265
+msgid ""
+"The server has either erred or is incapable of performing the requested "
+"operation."
+msgstr "Server se buď dopustil chyby, nebo není schopen provést požadovanou operaci."
+
+#: exception.py:272 exception.py:273
+msgid "Not implemented"
+msgstr "Není implementováno"
+
+#: exception.py:277
+msgid "Service unavailable"
+msgstr "Služba je nedostupná"
+
+#: exception.py:278
+msgid "The server is currently unavailable. Please try again at a later time."
+msgstr "Server je momentálně nedostupný. Zkuste to znovu později."
+
+#: template/header.mako:95 view.py:87
+msgid "Control panel"
+msgstr "Kontrolní panel"
+
+#: view.py:109 view.py:462
+msgid "System information"
+msgstr "Systémové informace"
+
+#: view.py:121 view.py:479
+msgid "Storage"
+msgstr ""
+
+#: view.py:131 view.py:484
+msgid "Backups"
+msgstr "Zálohy"
+
+#: view.py:146 view.py:468
+msgid "Cross-origin resource sharing (CORS)"
+msgstr "Sdílení zdrojů mezi zdroji (CORS)"
+
+#: view.py:153 view.py:470
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: view.py:160 view.py:472
+msgid "Custom logo"
+msgstr "Vlastní logo"
+
+#: view.py:167 view.py:466
+msgid "Web GIS name"
+msgstr "Web GIS jméno"
+
+#: view.py:174 view.py:474
+msgid "Home path"
+msgstr "Domácí cesta"
+
+#: view.py:461
+msgid "Info"
+msgstr "Info"
+
+#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:6 view.py:465
+msgid "Settings"
+msgstr "Nastavení"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "Zkopírovat do schránky"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "Zkopírováno"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "Nelze kopírovat"
+
+#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:37
+msgid "Technical information"
+msgstr "Technické informace"
+
+#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:39 template/sysinfo.mako:19
+msgid "Contact support"
+msgstr "Kontaktujte podporu"
+
+#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:41
+msgid "Back to home"
+msgstr "Zpátky domů"
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:35 nodepkg/api/error.js:18
+msgid "Network error"
+msgstr "Chyba sítě"
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:36
+msgid "There is no response from the server or problem connecting to server."
+msgstr "Server neodpovídá nebo se nepodařilo připojit k serveru."
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:37
+msgid "Check network connectivity and try again later."
+msgstr "Zkontrolujte síťové připojení a zkuste to znovu později."
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:45
+msgid "Unexpected server response"
+msgstr "Neočekávaná odpověď serveru"
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:46
+msgid "Something went wrong."
+msgstr "Něco se pokazilo."
+
+#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:28
+msgid "Backward"
+msgstr "Zpět"
+
+#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:29
+msgid "Forward"
+msgstr "Vpřed"
+
+#: amd/ngw-pyramid/company-logo/company-logo.js:24
+msgid "Get your own Web GIS at nextgis.com"
+msgstr "Získejte svůj vlastní web GIS na nextgis.com"
+
+#: amd/ngw-pyramid/form/LangSelect.js:24
+msgid "Browser default"
+msgstr ""
+
+#: amd/ngw-pyramid/form/RTETextBox.js:61
+msgid "Rich Text Editor"
+msgstr "Editor RTF"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:18
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "Zadejte správnou hodnotu měřítka, např. 1:"
+
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:37
+msgid "Create"
+msgstr "Vytvořit"
+
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:39
+#: amd/ngw-pyramid/template/CORSForm.hbs:26
+#: amd/ngw-pyramid/template/CustomCSSForm.hbs:25
+#: amd/ngw-pyramid/template/HomePathForm.hbs:11
+#: amd/ngw-pyramid/template/LogoForm.hbs:22
+#: amd/ngw-pyramid/template/SystemNameForm.hbs:10
+msgid "Save"
+msgstr "Uložit"
+
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:41
+msgid "Delete"
+msgstr "Vymazat"
+
+#: amd/ngw-pyramid/template/CORSForm.hbs:17
+msgid ""
+"Enter allowed origins for cross domain requests to use HTTP API of this Web "
+"GIS on other websites. One origin per line."
+msgstr ""
+"Zadejte povolený původ pro požadavky mezi doménami, aby bylo možné použít "
+"HTTP API tohoto Web GIS na jiných webech. Jeden počátek na řádek."
+
+#: amd/ngw-pyramid/template/CORSForm.hbs:18
+msgid ""
+"Please note that different protocols (HTTP and HTTPS) and subdomains "
+"(example.com and www.example.com) are different origins. Wildcards are not "
+"allowed."
+msgstr ""
+"Pamatujte, že různé protokoly (HTTP a HTTPS) a subdomény (example.com a "
+"www.example.com) mají různý původ. Zástupné znaky nejsou povoleny."
+
+#: amd/ngw-pyramid/template/CustomCSSForm.hbs:17
+msgid ""
+"Enter custom CSS rules here. They will be used to redefine styles, design for"
+" all pages of your Web GIS."
+msgstr ""
+"Zde zadejte vlastní pravidla CSS. Budou použity k předefinování stylů a "
+"designu pro všechny stránky vašeho webového GIS."
+
+#: amd/ngw-pyramid/template/LogoForm.hbs:12
+msgid "We recommend height of 45 px and width of up to 200 px."
+msgstr "Doporučujeme výšku 45 px a šířku až 200 px."
+
+#: amd/ngw-pyramid/template/LogoForm.hbs:25
+msgid "Cancel"
+msgstr "Zrušení"
+
+#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7
+msgid "Sign out"
+msgstr "Odhlásit se"
+
+#: nodepkg/update.js:68
+msgid "Update available"
+msgstr ""
+
+#: nodepkg/api/error.js:11
+msgid "Unknown API error"
+msgstr "Neznámá chyba API"
+
+#: nodepkg/api/error.js:25
+msgid "Invalid API response"
+msgstr "Neplatná odpověď API"
+
+#: nodepkg/example/translation.js:5
+msgid "Translated text"
+msgstr "Přeložený text"
+
+#: template/backup.mako:12
+msgid "Filename"
+msgstr "Název souboru"
+
+#: template/backup.mako:13
+msgid "Timestamp (UTC)"
+msgstr "Časové razítko (UTC)"
+
+#: template/backup.mako:14
+msgid "Size"
+msgstr "Velikost"
+
+#: template/header.mako:30
+msgid "Sign in"
+msgstr "Přihlaste"
+
+#: template/header.mako:90
+msgid "Resources"
+msgstr "Zdroje"
+
+#: template/header.mako:103
+msgid "Help"
+msgstr "Pomoc"
+
+#: template/storage.mako:35
+msgid "Kind of data"
+msgstr ""
+
+#: template/storage.mako:36
+msgid "Volume"
+msgstr ""
+
+#: template/storage.mako:51
+msgid "Total"
+msgstr ""
+
+#: template/storage.mako:73
+#, python-format
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr ""
+
+#: template/storage.mako:76
+#, python-format
+msgid "Storage usage was fully estimated at %s."
+msgstr ""
+
+#: template/storage.mako:78
+#, python-format
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr ""
+
+#: template/storage.mako:80
+msgid "Storage usage hasn't been estimated yet."
+msgstr ""
+
+#: template/storage.mako:83
+msgid "Some changes may be reflected only after full estimation."
+msgstr ""
+
+#: template/sysinfo.mako:14
+msgid "Show details"
+msgstr ""
+
+#: template/sysinfo.mako:15
+msgid "New version available:"
+msgstr ""
+
+#: template/sysinfo.mako:19
+msgid "for update."
+msgstr ""
+
+#: template/sysinfo.mako:29
+msgid "Package"
+msgstr "Balík"
+
+#: template/sysinfo.mako:30
+msgid "Version"
+msgstr "Verze"
+
+#: template/sysinfo.mako:59
+msgid "Platform"
+msgstr "Platforma"
+
+#~ msgid "User settings"
+#~ msgstr "Uživatelské nastavení"
+

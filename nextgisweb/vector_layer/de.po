@@ -1,0 +1,320 @@
+#: kind_of_data.py:12
+msgid "Vector layer features"
+msgstr ""
+
+#: amd/ngw-vector-layer/template/Widget.hbs:28
+#: amd/ngw-vector-layer/template/Widget.hbs:79 model.py:79
+msgid "Point"
+msgstr "Punkt"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:29
+#: amd/ngw-vector-layer/template/Widget.hbs:80 model.py:79
+msgid "Line"
+msgstr "LineString"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:30
+#: amd/ngw-vector-layer/template/Widget.hbs:81 model.py:79
+msgid "Polygon"
+msgstr "Polygon"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:31 model.py:80
+msgid "Multipoint"
+msgstr "Multipunkt"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:32 model.py:80
+msgid "Multiline"
+msgstr "MultiLineString"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:33 model.py:80
+msgid "Multipolygon"
+msgstr "Multipolygon"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:34 model.py:81
+msgid "Point Z"
+msgstr "Z-Punkt"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:35 model.py:81
+msgid "Line Z"
+msgstr "Z-Linie"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:36 model.py:81
+msgid "Polygon Z"
+msgstr "Z-Polygon"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:37 model.py:82
+msgid "Multipoint Z"
+msgstr "Z-Multipunkt"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:38 model.py:82
+msgid "Multiline Z"
+msgstr "Z-Multilinie"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:39 model.py:82
+msgid "Multipolygon Z"
+msgstr "Z-Multipolygon"
+
+#: model.py:281
+msgid "Could not determine a geometry type."
+msgstr "Geometrietyp wurde nicht ermittelt."
+
+#: model.py:283
+msgid "Source layer contains no features satisfying the conditions."
+msgstr "Der Layer enthält keine Objekte, die die Bedingungen erfüllen."
+
+#: model.py:300
+msgid "Parameter 'fid_field' is missing."
+msgstr "'fid_field'-Parameter fehlt"
+
+#: model.py:303
+#, python-format
+msgid "Fields %s not found."
+msgstr ""
+
+#: model.py:305
+#, python-format
+msgid "None of fields %s are integer."
+msgstr ""
+
+#: model.py:315
+#, python-format
+msgid "Field name is forbidden: '%s'. Please remove or rename it."
+msgstr "Feldname ist verboten: '%s'. Entfernen oder benennen Sie ihn um."
+
+#: model.py:330
+#, python-format
+msgid "Unsupported field type: %r."
+msgstr "Nicht unterstützter Feldtyp: %r."
+
+#: model.py:487
+#, python-format
+msgid "Feature #%d doesn't have geometry."
+msgstr "Objekt #%d enthält keine Geometrie."
+
+#: model.py:513 model.py:555
+#, python-format
+msgid "Feature #%d has multiple geometries satisfying the conditions."
+msgstr "Das Objekt #%d enthält mehrere Geometrien, die die Bedingungen erfüllen."
+
+#: model.py:523
+#, python-format
+msgid "Feature #%d has unknown geometry type: %d (%s)."
+msgstr "Das Objekt #%d enthält einen unbekannten Geometrietyp %d (%s)."
+
+#: model.py:536
+#, python-format
+msgid "Feature #%d has unsuitable geometry type: %d (%s)."
+msgstr "Das Objekt #%d enthält einen unpassenden Geometrietyp %d (%s)."
+
+#: model.py:581
+#, python-format
+msgid "Feature #%d has unclosed rings."
+msgstr "Das Objekt #%d enthält nicht geschlossene Ringe."
+
+#: model.py:595
+#, python-format
+msgid "Feature #%d has less than 3 points in a polygon ring."
+msgstr "Das Objekt #%d enthält weniger als 3 Punkte in dem Polygonring."
+
+#: model.py:599
+#, python-format
+msgid "Feature #%d has less than 2 points in a linestring."
+msgstr "Das Objekt #%d enthält weniger als 2 Punkte auf der Linie."
+
+#: model.py:657
+#, python-format
+msgid ""
+"It seems like declared and actual attributes encodings do not match. Unable "
+"to decode attribute #%(attr)d of feature #%(feat)d. Try declaring different "
+"encoding."
+msgstr ""
+"Es scheint, als ob deklarierte und tatsächliche Attribute Kodierungen nicht "
+"übereinstimmen. Das Attribut '%(attr)d des Features '%(feat)d' konnte nicht "
+"dekodiert werden. Versuchen Sie, eine andere Kodierung zu deklarieren."
+
+#: model.py:685
+msgid "Vector layer cannot be written due to errors."
+msgstr "Der Vektor-Layer kann nicht wegen der Fehler gespeichert werden."
+
+#: amd/ngw-vector-layer/Widget.js:34 model.py:713
+msgid "Vector layer"
+msgstr "Vektorlayer"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:26
+#: amd/ngw-vector-layer/template/Widget.hbs:75 model.py:777
+msgid "Geometry type"
+msgstr "Geometrietyp"
+
+#: model.py:779
+msgid "Feature count"
+msgstr "Anzahl Objekte"
+
+#: model.py:871
+#, python-format
+msgid "Geometry type (%s) does not match geometry column type (%s)."
+msgstr "Geometrietyp (%s) entspricht nicht dem Geometriefelddyp (%s)."
+
+#: model.py:1105
+msgid "GDAL library failed to open file."
+msgstr "Die GDAL-Bibliothek konnte die Datei nicht öffnen."
+
+#: model.py:1108
+#, python-format
+msgid "Unsupport OGR driver: %s."
+msgstr "OGR-Treiber nicht unterstützt: %s."
+
+#: model.py:1114
+msgid "Dataset doesn't contain layers."
+msgstr "Datensatz enhält keine Layer."
+
+#: model.py:1117
+msgid "Dataset contains more than one layer."
+msgstr "Datensatz enthält mehr als einen Layer."
+
+#: model.py:1121
+msgid "Unable to open layer."
+msgstr "Layer kann nicht geöffnet werden."
+
+#: model.py:1132
+msgid "Layer doesn't contain coordinate system information."
+msgstr "Layer enthält keine Koordinatenbezugssysteminformationen."
+
+#: model.py:1161
+msgid "Unknown 'fix_errors' value."
+msgstr "Unbekannter Wert des 'fix_errors'-Parameters."
+
+#: model.py:1168
+msgid "Unknown 'cast_geometry_type' value."
+msgstr "Unbekannter Wert des 'cast_geometry_type'-Parameters."
+
+#: model.py:1172
+msgid "Unknown 'cast_is_multi' value."
+msgstr "Unbekannter Wert des Parameters 'cast_is_multi'."
+
+#: model.py:1176
+msgid "Unknown 'cast_has_z' value."
+msgstr "Unbekannter Wert des Parameters 'cast_has_z'."
+
+#: model.py:1210
+msgid "Unsupported geometry type."
+msgstr "Nicht unterstützter Geometrietyp."
+
+#: model.py:1216
+msgid "Geometry type for existing resource can't be changed."
+msgstr "Geometrietyp der existierenden Ressource ist nicht änderbar"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:6
+msgid "Spatial reference system"
+msgstr "Koordinatenbezugssystem"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:14
+msgid "Mode"
+msgstr "Mode"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:16
+msgid "From file"
+msgstr "Aus der Datei"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:17
+msgid "Empty layer"
+msgstr "leerer Layer"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:47
+msgid "Select a dataset"
+msgstr "Datensatz auswählen"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:48
+msgid "Dataset should be in ESRI Shapefile (zip), GeoJSON, GML or KML format."
+msgstr ""
+"Folgende Formate für die Daten sind erforderlich: ESRI-Shapefile (zip-"
+"Archiv), GeoJSON, GML oder KML."
+
+#: amd/ngw-vector-layer/template/Widget.hbs:51
+msgid "Advanced options"
+msgstr "Erweiterte Optionen"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:56
+msgid "Fix errors"
+msgstr "Fehler beheben"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:59
+msgid "None"
+msgstr "nein"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:60
+msgid "Without losing data"
+msgstr "ohne Datenverlust"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:61
+msgid "Whatever possible"
+msgstr "mit möglichem Datenverlust"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:70
+msgid "Skip features with unfixable errors"
+msgstr "Objekte mit nicht behebbaren Fehlern überspringen"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:78
+#: amd/ngw-vector-layer/template/Widget.hbs:97
+#: amd/ngw-vector-layer/template/Widget.hbs:106
+#: amd/ngw-vector-layer/template/Widget.hbs:115
+msgid "Auto"
+msgstr "Automatisch"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:90
+msgid "Only load features of the selected geometry type"
+msgstr "Nur Features des ausgewählten Geometrietyps laden"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:95
+msgid "Multi-geometry"
+msgstr "Multi-Geometrie"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:98
+#: amd/ngw-vector-layer/template/Widget.hbs:107
+msgid "Yes"
+msgstr "Ja"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:99
+#: amd/ngw-vector-layer/template/Widget.hbs:108
+msgid "No"
+msgstr "Nein"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:104
+msgid "Z-coordinate"
+msgstr "Z-Koordinate"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:113
+msgid "FID source"
+msgstr "FID-Quelle"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:116
+msgid "Sequence"
+msgstr "Nummerierung"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:117
+msgid "Field"
+msgstr "Aus dem Feld"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:122
+msgid "FID field(s)"
+msgstr ""
+
+#: amd/ngw-vector-layer/template/Widget.hbs:127
+msgid "Encoding"
+msgstr "Kodierung"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:130
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#: amd/ngw-vector-layer/template/Widget.hbs:131
+msgid "Windows-1251"
+msgstr "Windows-1251"
+
+#~ msgid "FID field"
+#~ msgstr "FID-Feld"
+
+#~ msgid "Field '%s' not found."
+#~ msgstr "'%s'-Feld nicht gefunden"
+
+#~ msgid "Field '%s' type is not integer."
+#~ msgstr "Der Feldtyp '%s' muss Ganzzahl sein"
+

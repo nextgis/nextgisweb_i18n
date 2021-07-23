@@ -1,0 +1,205 @@
+#: scope.py:12
+msgid "Collector"
+msgstr "Collector"
+
+#: scope.py:14
+msgid "Read"
+msgstr "Leer"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
+msgid "Starting screen"
+msgstr "Pantalla de inicio"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
+msgid "NextGIS Collector user credentials"
+msgstr "Credenciales de usuario de NextGIS Collector"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
+msgid "User name"
+msgstr "Usuario"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
+msgid "Password"
+msgstr "Contraseña"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:20
+msgid "Project"
+msgstr "Proyecto"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:23
+msgid "List of forms"
+msgstr "Lista de formularios"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:24
+msgid "Map"
+msgstr "Mapa"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
+msgid "Add item"
+msgstr "Agregar elemento"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
+msgid "Add group"
+msgstr "Agregar grupo"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
+msgid "Remove"
+msgstr "Eliminar"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:120
+msgid "Display name"
+msgstr "Nombre para mostrar"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
+msgid "Visible"
+msgstr "Visible"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
+msgid "Editable"
+msgstr "Editable"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
+msgid "Syncable"
+msgstr "Sincronizable"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
+msgid "Lifetime for tiles (in min)"
+msgstr "Tiempo de vida de los teselas (en min)"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
+msgid "Min zoom"
+msgstr "Zoom mínimo"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
+msgid "Max zoom"
+msgstr "Zoom máximo"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
+msgid "Resource"
+msgstr "Recurso"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:124
+msgid "Expanded"
+msgstr "Expandido"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:57
+msgid "Items"
+msgstr "Elementos"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
+msgid "You have no permissions to manage this section."
+msgstr "No tiene permisos para administrar esta sección."
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
+msgid "Manage collectors"
+msgstr "Gestión de participantes"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
+msgid "Give access to this project for the following collectors:"
+msgstr "Dar acceso a este proyecto para los siguientes participantes:"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
+msgid "Users"
+msgstr "Usuarios"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:32
+msgid "Collectors"
+msgstr "Participantes"
+
+#: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.hbs:4
+msgid "List of collectors"
+msgstr "Lista de participantes"
+
+#: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.js:45
+msgid "Each collector must be first registered at ${ngid}"
+msgstr ""
+
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:12
+msgid "NextGIS ID"
+msgstr ""
+
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:14
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:108
+msgid "Description"
+msgstr "Descripción"
+
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:29
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:33
+msgid "The NextGIS ID is invalid!"
+msgstr ""
+
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:44
+msgid "Edit collector"
+msgstr "Editar participante"
+
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:45
+msgid "New collector"
+msgstr "Nuevo participante"
+
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:48
+msgid "Save"
+msgstr "Guardar"
+
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:49
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:12
+msgid "Create"
+msgstr "Crear"
+
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:16
+msgid "Edit"
+msgstr "Editar"
+
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:20
+msgid "Delete"
+msgstr "Borrar"
+
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:25
+msgid "Search Collector user..."
+msgstr "Buscando usuario de participante..."
+
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:103
+msgid "Email"
+msgstr "Email"
+
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:113
+msgid "Added"
+msgstr "Agregado"
+
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:159
+msgid "Your Collector users limit = 60"
+msgstr "El límite de usuarios de su Collector = 60"
+
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:186
+msgid "Deleting сollector"
+msgstr "Eliminar el miembro"
+
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:187
+msgid "Delete сollector?"
+msgstr "Eliminar el miembro?"
+
+#: models/model_db.py:41
+msgid "Collector project"
+msgstr "Proyecto de Collector"
+
+#: view/settings.py:19
+msgid "NextGIS Collector settings"
+msgstr "Configuración de NextGIS Collector"
+
+#: view/settings.py:25
+msgid "Collector projects"
+msgstr "Proyectos de Collector"
+
+#~ msgid "Each collector must be first registered at "
+#~ msgstr "Cada participante debe registrarse primero en "
+
+#~ msgid "NextGIS ID Email"
+#~ msgstr "NextGIS ID Email"
+
+#~ msgid "The email is invalid!"
+#~ msgstr "¡El correo electrónico no es válido!"
+

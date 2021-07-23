@@ -1,0 +1,50 @@
+#: __init__.py:15
+msgid "Feature attachments"
+msgstr ""
+
+#: exception.py:15
+msgid "Attachment not found"
+msgstr "Příloha nebyla nalezena"
+
+#: exception.py:16
+#, python-format
+msgid "Attachment with id = %d was not found in feature with id = %d."
+msgstr "Příloha s id = %d nebyla nalezena ve funkci s id = %d."
+
+#: exception.py:17
+msgid "The attachment may have been deleted or an error in the address."
+msgstr "Je možné, že byla odstraněna příloha nebo je chyba v adrese."
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:36
+#: amd/ngw-feature-attachment/EditorWidget.js:109
+msgid "Attachments"
+msgstr "Přílohy"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:76
+msgid "File name"
+msgstr "Název souboru"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:84
+msgid "Size"
+msgstr "Velikost"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:90
+msgid "MIME type"
+msgstr "Typ MIME"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:97
+msgid "Description"
+msgstr "Popis"
+
+#: amd/ngw-feature-attachment/EditorWidget.js:130
+msgid "Upload"
+msgstr "Nahrát"
+
+#: amd/ngw-feature-attachment/EditorWidget.js:153
+msgid "Delete"
+msgstr "Vymazat"
+

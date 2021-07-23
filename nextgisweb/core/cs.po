@@ -1,0 +1,41 @@
+#: __init__.py:80
+msgid "NextGIS geoinformation system"
+msgstr "Geoinformační systém NextGIS"
+
+#: __init__.py:208
+msgid "Linux kernel"
+msgstr "Linuxové jádro"
+
+#: __init__.py:211
+msgid "OS distribution"
+msgstr "Distribuce OS"
+
+#: __init__.py:222
+msgid "CPU"
+msgstr "CPU"
+
+#: __init__.py:227
+msgid "RAM"
+msgstr "RAM"
+
+#: exception.py:95
+msgid "Validation error"
+msgstr "Chyba ověření"
+
+#: exception.py:100
+msgid "Insufficient permissions"
+msgstr "Nedostatečná oprávnění"
+
+#: exception.py:105
+msgid "Operational error"
+msgstr "Provozní chyba "
+
+#: storage.py:225
+msgid "Estimation is already running"
+msgstr ""
+
+#: test/test_exception.py:79
+#, python-format
+msgid "The answer is %d"
+msgstr "Odpověď je %d"
+

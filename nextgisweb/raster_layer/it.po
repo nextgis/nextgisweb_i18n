@@ -1,0 +1,78 @@
+#: api.py:30
+msgid "Output format is not provided."
+msgstr "Il formato di output non è stato fornito."
+
+#: api.py:33
+#, python-format
+msgid "Format '%s' is not supported."
+msgstr "Il formato '%s' non è supportato."
+
+#: kind_of_data.py:12
+msgid "Rasters and pyramids"
+msgstr ""
+
+#: amd/ngw-raster-layer/Widget.js:26 model.py:61 view.py:31
+msgid "Raster layer"
+msgstr "Layer raster"
+
+#: model.py:81
+msgid "GDAL library was unable to open the file."
+msgstr "La libreria GDAL non è riuscita ad aprire il file."
+
+#: model.py:89
+#, python-format
+msgid ""
+"Raster has format '%(format)s', however only following formats are supported:"
+" %(all_formats)s."
+msgstr ""
+"Il raster ha formato '%(format)s', ma solamente i seguenti formati sono "
+"supportati: %(all_formats)s."
+
+#: model.py:94
+msgid "Raster files without projection info are not supported."
+msgstr "I files raster senza informazioni sulla proiezione non sono supportati."
+
+#: model.py:105
+msgid "Complex data types are not supported."
+msgstr "Dati complessi non sono supportati."
+
+#: model.py:179
+msgid "Data type"
+msgstr "Tipo di dato"
+
+#: view.py:20 view.py:34
+msgid "Save as"
+msgstr "Salva come"
+
+#: amd/ngw-raster-layer/ExportForm.js:101
+msgid "Band"
+msgstr "Banda"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:13
+msgid "Format"
+msgstr "Formato"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:17
+msgid "SRS"
+msgstr "SRS"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:21
+msgid "Bands"
+msgstr "Bande"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:30
+msgid "Save"
+msgstr "Salva"
+
+#: amd/ngw-raster-layer/template/Widget.hbs:3
+msgid "Select a dataset"
+msgstr "Seleziona un set di dati"
+
+#: amd/ngw-raster-layer/template/Widget.hbs:4
+msgid "Dataset should be in GeoTIFF format."
+msgstr "Il set di dati dovrebbe essere in formato GeoTIFF."
+
+#: amd/ngw-raster-layer/template/Widget.hbs:8
+msgid "Coordinate system"
+msgstr "Sistema di coordinate"
+

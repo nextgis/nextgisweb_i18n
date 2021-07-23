@@ -1,0 +1,55 @@
+#: view.py:24
+msgid "External access"
+msgstr ""
+
+#: amd/ngw-render/TileCacheWidget.js:25
+msgid "Tile cache"
+msgstr ""
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:11
+msgid "Enabled"
+msgstr ""
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:16
+msgid "Allow using tiles in non-tile requests"
+msgstr ""
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:21
+msgid "Max zoom level"
+msgstr ""
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:26
+msgid "TTL, sec."
+msgstr ""
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:31
+msgid "Track changes"
+msgstr ""
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:37
+msgid "Seed zoom level"
+msgstr ""
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:42
+msgid "Flush"
+msgstr ""
+
+#: template/section_api_renderable.mako:8
+msgid "TMS (Tile Map Service)"
+msgstr ""
+
+#: template/section_api_renderable.mako:12
+msgid ""
+"TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
+"is a map displayed in a browser by seamlessly joining dozens of individually "
+"requested image."
+msgstr ""
+
+#: template/section_api_renderable.mako:17
+msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+msgstr ""
+
+#: template/section_api_renderable.mako:18
+msgid "Read more"
+msgstr ""
+

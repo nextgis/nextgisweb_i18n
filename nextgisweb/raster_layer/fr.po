@@ -1,0 +1,80 @@
+#: api.py:30
+msgid "Output format is not provided."
+msgstr "Le format de sortie n'est pas fourni."
+
+#: api.py:33
+#, python-format
+msgid "Format '%s' is not supported."
+msgstr "Le format '% s' est pas pris en charge."
+
+#: kind_of_data.py:12
+msgid "Rasters and pyramids"
+msgstr ""
+
+#: amd/ngw-raster-layer/Widget.js:26 model.py:61 view.py:31
+msgid "Raster layer"
+msgstr "Couche raster"
+
+#: model.py:81
+msgid "GDAL library was unable to open the file."
+msgstr "La bibliothèque GDAL n'a pas pu ouvrir le fichier."
+
+#: model.py:89
+#, python-format
+msgid ""
+"Raster has format '%(format)s', however only following formats are supported:"
+" %(all_formats)s."
+msgstr ""
+"Le raster a le format '%(format)s', mais seuls les formats suivants sont pris"
+" en charge : %(all_formats)s."
+
+#: model.py:94
+msgid "Raster files without projection info are not supported."
+msgstr ""
+"Les fichiers raster sans informations de projection ne sont pas pris en "
+"charge."
+
+#: model.py:105
+msgid "Complex data types are not supported."
+msgstr "Les types de données complexes ne sont pas pris en charge."
+
+#: model.py:179
+msgid "Data type"
+msgstr "Type de données"
+
+#: view.py:20 view.py:34
+msgid "Save as"
+msgstr "Enregistrer sous"
+
+#: amd/ngw-raster-layer/ExportForm.js:101
+msgid "Band"
+msgstr "Bande"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:13
+msgid "Format"
+msgstr "Format"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:17
+msgid "SRS"
+msgstr "SCR"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:21
+msgid "Bands"
+msgstr "Bandes"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:30
+msgid "Save"
+msgstr "Enregistrer"
+
+#: amd/ngw-raster-layer/template/Widget.hbs:3
+msgid "Select a dataset"
+msgstr "Sélectionnez un jeu de données"
+
+#: amd/ngw-raster-layer/template/Widget.hbs:4
+msgid "Dataset should be in GeoTIFF format."
+msgstr "Le jeu de données doit être au format GeoTIFF."
+
+#: amd/ngw-raster-layer/template/Widget.hbs:8
+msgid "Coordinate system"
+msgstr "Système de coordonnées"
+

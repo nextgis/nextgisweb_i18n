@@ -1,0 +1,346 @@
+#: api.py:478
+msgid "Your Web GIS at nextgis.com"
+msgstr "O seu Web GIS em nextgis.com"
+
+#: exception.py:208 exception.py:264
+msgid "Internal server error"
+msgstr "Erro interno no servidor"
+
+#: exception.py:209
+msgid ""
+"The server encountered an internal error or misconfiguration and was unable "
+"to complete your request."
+msgstr ""
+"O servidor encontrou um erro interno ou configuração incorreta e não foi "
+"capaz de concluir o seu pedido."
+
+#: exception.py:238
+msgid "Bad request"
+msgstr "Pedido inválido"
+
+#: exception.py:239
+msgid ""
+"The server could not comply with the request since it is either malformed or "
+"otherwise incorrect."
+msgstr ""
+"O servidor não pôde responder ao pedido porque está mal formatado ou "
+"incorreto."
+
+#: exception.py:246
+msgid "Forbidden"
+msgstr "Proibido"
+
+#: exception.py:247
+msgid "Access was denied to this resource."
+msgstr "O acesso a este recurso foi negado."
+
+#: exception.py:251
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#: exception.py:252
+msgid ""
+"The page may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired page."
+msgstr ""
+"A página pode ter sido apagada ou existir um erro no endereço. Corrija o "
+"endereço ou volte à página inicial e tente encontrar a página desejada."
+
+#: exception.py:259
+msgid "Unprocessable entity"
+msgstr "Entidade não processável"
+
+#: exception.py:260
+msgid "Unable to process the contained instructions."
+msgstr "Não foi possível processar as instruções contidas."
+
+#: exception.py:265
+msgid ""
+"The server has either erred or is incapable of performing the requested "
+"operation."
+msgstr "O servidor deu erro ou não é capaz de executar a operação solicitada."
+
+#: exception.py:272 exception.py:273
+msgid "Not implemented"
+msgstr "Não implementado"
+
+#: exception.py:277
+msgid "Service unavailable"
+msgstr "Serviço indisponível"
+
+#: exception.py:278
+msgid "The server is currently unavailable. Please try again at a later time."
+msgstr ""
+"O servidor não está disponível de momento. Por favor tente novamente mais "
+"tarde."
+
+#: template/header.mako:95 view.py:87
+msgid "Control panel"
+msgstr "Painel de controle"
+
+#: view.py:109 view.py:462
+msgid "System information"
+msgstr "Informação do sistema"
+
+#: view.py:121 view.py:479
+msgid "Storage"
+msgstr ""
+
+#: view.py:131 view.py:484
+msgid "Backups"
+msgstr "Backups"
+
+#: view.py:146 view.py:468
+msgid "Cross-origin resource sharing (CORS)"
+msgstr "Partilha de recursos de origem cruzada (CORS)"
+
+#: view.py:153 view.py:470
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: view.py:160 view.py:472
+msgid "Custom logo"
+msgstr "Logótipo personalizado"
+
+#: view.py:167 view.py:466
+msgid "Web GIS name"
+msgstr "Nome do Web SIG"
+
+#: view.py:174 view.py:474
+msgid "Home path"
+msgstr "Caminho página inicial"
+
+#: view.py:461
+msgid "Info"
+msgstr "Informações"
+
+#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:6 view.py:465
+msgid "Settings"
+msgstr "Configurações"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "Copiar para a área de transferência"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "Copiado"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "Não é possível copiar"
+
+#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:37
+msgid "Technical information"
+msgstr "Informações técnicas"
+
+#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:39 template/sysinfo.mako:19
+msgid "Contact support"
+msgstr "Contate o suporte"
+
+#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:41
+msgid "Back to home"
+msgstr "Voltar à página inicial"
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:35 nodepkg/api/error.js:18
+msgid "Network error"
+msgstr "Erro de rede"
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:36
+msgid "There is no response from the server or problem connecting to server."
+msgstr "Não há resposta do servidor ou problema de ligação ao servidor."
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:37
+msgid "Check network connectivity and try again later."
+msgstr "Verifique a conectividade da rede e tente novamente mais tarde."
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:45
+msgid "Unexpected server response"
+msgstr "Resposta inesperada do servidor"
+
+#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:46
+msgid "Something went wrong."
+msgstr "Aconteceu algo de errado."
+
+#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:28
+msgid "Backward"
+msgstr "Para trás"
+
+#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:29
+msgid "Forward"
+msgstr "Para a frente"
+
+#: amd/ngw-pyramid/company-logo/company-logo.js:24
+msgid "Get your own Web GIS at nextgis.com"
+msgstr "Crie seu próprio Web SIG em nextgis.com"
+
+#: amd/ngw-pyramid/form/LangSelect.js:24
+msgid "Browser default"
+msgstr ""
+
+#: amd/ngw-pyramid/form/RTETextBox.js:61
+msgid "Rich Text Editor"
+msgstr "Editor de Rich Text"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:18
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "Insira o valor de escala correto, e.g., 1:"
+
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:37
+msgid "Create"
+msgstr "Criar"
+
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:39
+#: amd/ngw-pyramid/template/CORSForm.hbs:26
+#: amd/ngw-pyramid/template/CustomCSSForm.hbs:25
+#: amd/ngw-pyramid/template/HomePathForm.hbs:11
+#: amd/ngw-pyramid/template/LogoForm.hbs:22
+#: amd/ngw-pyramid/template/SystemNameForm.hbs:10
+msgid "Save"
+msgstr "Guardar"
+
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:41
+msgid "Delete"
+msgstr "Apagar"
+
+#: amd/ngw-pyramid/template/CORSForm.hbs:17
+msgid ""
+"Enter allowed origins for cross domain requests to use HTTP API of this Web "
+"GIS on other websites. One origin per line."
+msgstr ""
+"Insira as origens permitidas para pedidos de domínio cruzado para usar a API "
+"HTTP deste Web SIG noutros sites. Uma origem por linha."
+
+#: amd/ngw-pyramid/template/CORSForm.hbs:18
+msgid ""
+"Please note that different protocols (HTTP and HTTPS) and subdomains "
+"(example.com and www.example.com) are different origins. Wildcards are not "
+"allowed."
+msgstr ""
+"Note que diferentes protocolos (HTTP e HTTPS) e subdomínios (example.com e "
+"www.example.com) são considerados origens diferentes. Wildcards não são "
+"permitidos."
+
+#: amd/ngw-pyramid/template/CustomCSSForm.hbs:17
+msgid ""
+"Enter custom CSS rules here. They will be used to redefine styles, design for"
+" all pages of your Web GIS."
+msgstr ""
+"Insira regras CSS personalizadas aqui. Serão usadas ​​para redefinir estilos,"
+" design para todas as páginas de seu Web SIG."
+
+#: amd/ngw-pyramid/template/LogoForm.hbs:12
+msgid "We recommend height of 45 px and width of up to 200 px."
+msgstr "Recomendamos altura de 45 px e largura de até 200 px."
+
+#: amd/ngw-pyramid/template/LogoForm.hbs:25
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7
+msgid "Sign out"
+msgstr "Sair"
+
+#: nodepkg/update.js:68
+msgid "Update available"
+msgstr ""
+
+#: nodepkg/api/error.js:11
+msgid "Unknown API error"
+msgstr "Erro de API desconhecido"
+
+#: nodepkg/api/error.js:25
+msgid "Invalid API response"
+msgstr "Resposta de API inválida"
+
+#: nodepkg/example/translation.js:5
+msgid "Translated text"
+msgstr "Texto traduzido"
+
+#: template/backup.mako:12
+msgid "Filename"
+msgstr "Nome do ficheiro"
+
+#: template/backup.mako:13
+msgid "Timestamp (UTC)"
+msgstr "Timestamp (UTC)"
+
+#: template/backup.mako:14
+msgid "Size"
+msgstr "Tamanho"
+
+#: template/header.mako:30
+msgid "Sign in"
+msgstr "Entrar"
+
+#: template/header.mako:90
+msgid "Resources"
+msgstr "Recursos"
+
+#: template/header.mako:103
+msgid "Help"
+msgstr "Ajuda"
+
+#: template/storage.mako:35
+msgid "Kind of data"
+msgstr ""
+
+#: template/storage.mako:36
+msgid "Volume"
+msgstr ""
+
+#: template/storage.mako:51
+msgid "Total"
+msgstr ""
+
+#: template/storage.mako:73
+#, python-format
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr ""
+
+#: template/storage.mako:76
+#, python-format
+msgid "Storage usage was fully estimated at %s."
+msgstr ""
+
+#: template/storage.mako:78
+#, python-format
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr ""
+
+#: template/storage.mako:80
+msgid "Storage usage hasn't been estimated yet."
+msgstr ""
+
+#: template/storage.mako:83
+msgid "Some changes may be reflected only after full estimation."
+msgstr ""
+
+#: template/sysinfo.mako:14
+msgid "Show details"
+msgstr ""
+
+#: template/sysinfo.mako:15
+msgid "New version available:"
+msgstr ""
+
+#: template/sysinfo.mako:19
+msgid "for update."
+msgstr ""
+
+#: template/sysinfo.mako:29
+msgid "Package"
+msgstr "Pacote"
+
+#: template/sysinfo.mako:30
+msgid "Version"
+msgstr "Versão"
+
+#: template/sysinfo.mako:59
+msgid "Platform"
+msgstr "Plataforma"
+
+#~ msgid "User settings"
+#~ msgstr "Configurações do utilizador"
+

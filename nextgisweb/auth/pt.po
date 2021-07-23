@@ -1,0 +1,194 @@
+#: __init__.py:41
+msgid "Guest"
+msgstr "Convidado"
+
+#: __init__.py:47
+msgid "Everyone"
+msgstr "Todos"
+
+#: __init__.py:53
+msgid "Authenticated"
+msgstr "Autenticados"
+
+#: __init__.py:61
+msgid "Administrators"
+msgstr "Administradores"
+
+#: __init__.py:64
+msgid "Administrator"
+msgstr "Administrador"
+
+#: __init__.py:73
+msgid "Owner"
+msgstr "Proprietário"
+
+#: __init__.py:176
+#, python-format
+msgid "Maximum number of users is reached. Your current plan user number limit is %d."
+msgstr ""
+"Foi atingido o número máximo de utilizadores. O limite de número de "
+"utilizadores do seu plano atual é de %d."
+
+#: api.py:218
+msgid "System principals couldn't be chanded."
+msgstr "Os princípios do sistema não puderam ser chanded."
+
+#: exception.py:10
+msgid "Invalid credentials"
+msgstr "Credenciais inválidas"
+
+#: exception.py:15
+msgid "User is disabled"
+msgstr "O utilizador está desativado"
+
+#: oauth.py:127
+msgid "User is already bound"
+msgstr "O utilizador já está vinculado"
+
+#: oauth.py:329
+msgid "OAuth authorization error"
+msgstr "Erro de autorização OAuth"
+
+#: oauth.py:334
+msgid "Invalid OAuth token"
+msgstr "Token OAuth inválido"
+
+#: oauth.py:339
+msgid "OAuth token refresh failed"
+msgstr "Falha na atualização do token OAuth"
+
+#: oauth.py:344
+msgid "OAuth access token is expired"
+msgstr "Token OAuth de acesso expirou"
+
+#: views.py:198
+msgid "User settings"
+msgstr "Configurações do utilizador"
+
+#: views.py:266
+msgid "Group name is not unique."
+msgstr "O nome do grupo não é exclusivo."
+
+#: views.py:304
+msgid "Create new group"
+msgstr "Criar novo grupo"
+
+#: views.py:355
+msgid "Login is not unique."
+msgstr "Login não é exclusivo."
+
+#: views.py:370
+msgid ""
+"You can't disable current administrator. At least one enabled administrator "
+"is required."
+msgstr ""
+"Não é possível desativar o administrador atual. É necessário ter pelo menos "
+"um administrador activo."
+
+#: views.py:414
+msgid "Create new user"
+msgstr "Criar novo utilizador"
+
+#: views.py:447 views.py:512
+msgid "Users"
+msgstr "Utilizadores"
+
+#: views.py:457 views.py:515
+msgid "Groups"
+msgstr "Grupos"
+
+#: views.py:468 views.py:490
+msgid "List"
+msgstr "Lista de"
+
+#: views.py:473 views.py:495
+msgid "Create"
+msgstr "Criar"
+
+#: views.py:479 views.py:501
+msgid "Edit"
+msgstr "Editar"
+
+#: amd/ngw-auth/GroupWidget.js:36
+msgid "Group"
+msgstr "Grupo"
+
+#: amd/ngw-auth/SettingsForm.js:54
+msgid "Saved"
+msgstr ""
+
+#: amd/ngw-auth/UserWidget.js:36
+msgid "User"
+msgstr "Utilizador"
+
+#: amd/ngw-auth/UserWidget.js:45
+msgid "Enter new password here"
+msgstr "Digite a nova senha aqui"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:7 amd/ngw-auth/template/UserWidget.hbs:8
+#: template/group_browse.mako:18 template/user_browse.mako:18
+msgid "Full name"
+msgstr "Nome completo"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:13 template/group_browse.mako:19
+msgid "Group name"
+msgstr "Nome do grupo"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:19 amd/ngw-auth/template/UserWidget.hbs:52
+msgid "Description"
+msgstr "Descrição"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:24
+msgid "Assign at registration"
+msgstr "Atribuir durante o registro"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:30
+msgid "Group members"
+msgstr "Membros do grupo"
+
+#: amd/ngw-auth/template/SettingsForm.hbs:13
+#: amd/ngw-auth/template/UserWidget.hbs:30
+msgid "Language"
+msgstr ""
+
+#: amd/ngw-auth/template/UserWidget.hbs:15 template/login.mako:44
+#: template/user_browse.mako:19
+msgid "Login"
+msgstr "Login"
+
+#: amd/ngw-auth/template/UserWidget.hbs:23 template/login.mako:47
+msgid "Password"
+msgstr "Senha"
+
+#: amd/ngw-auth/template/UserWidget.hbs:37
+msgid "OAuth subject"
+msgstr "Assunto OAuth"
+
+#: amd/ngw-auth/template/UserWidget.hbs:43
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: amd/ngw-auth/template/UserWidget.hbs:59
+msgid "Groups member"
+msgstr "Membro dos grupos"
+
+#: template/login.mako:13
+msgid "Authorization Required"
+msgstr "Autorização necessária"
+
+#: template/login.mako:15
+msgid "Sign in to Web GIS"
+msgstr "Entrar no Web GIS"
+
+#: template/login.mako:27 template/login.mako:37 template/settings.mako:13
+msgid "Sign in with OAuth"
+msgstr "Entrar com OAuth"
+
+#: template/login.mako:53
+msgid "Sign in"
+msgstr "Entrar"
+
+#: template/settings.mako:15
+msgid "Your account is bound to NextGIS ID account"
+msgstr "Sua conta está vinculada à conta NextGIS ID"
+
