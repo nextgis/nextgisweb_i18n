@@ -80,7 +80,7 @@ msgstr "Información del sistema"
 
 #: view.py:121 view.py:479
 msgid "Storage"
-msgstr ""
+msgstr "Almacenamiento"
 
 #: view.py:131 view.py:484
 msgid "Backups"
@@ -240,7 +240,7 @@ msgstr "Desconectarse"
 
 #: nodepkg/update.js:68
 msgid "Update available"
-msgstr ""
+msgstr "Actualización disponible"
 
 #: nodepkg/api/error.js:11
 msgid "Unknown API error"
@@ -280,50 +280,50 @@ msgstr "Ayuda"
 
 #: template/storage.mako:35
 msgid "Kind of data"
-msgstr ""
+msgstr "Tipo de datos"
 
 #: template/storage.mako:36
 msgid "Volume"
-msgstr ""
+msgstr "Volumen"
 
 #: template/storage.mako:51
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: template/storage.mako:73
 #, python-format
 msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr ""
+msgstr "El uso de almacenamiento se estimó completamente en %s y se actualizó en %s."
 
 #: template/storage.mako:76
 #, python-format
 msgid "Storage usage was fully estimated at %s."
-msgstr ""
+msgstr "El uso de almacenamiento se estimó completamente en %s."
 
 #: template/storage.mako:78
 #, python-format
 msgid "Storage usage hasn't been estimated yet but was updated at %s."
-msgstr ""
+msgstr "El uso de almacenamiento aún no se ha estimado, pero se actualizó en %s."
 
 #: template/storage.mako:80
 msgid "Storage usage hasn't been estimated yet."
-msgstr ""
+msgstr "Aún no se ha estimado el uso de almacenamiento."
 
 #: template/storage.mako:83
 msgid "Some changes may be reflected only after full estimation."
-msgstr ""
+msgstr "Algunos cambios pueden reflejarse solo después de una estimación completa."
 
 #: template/sysinfo.mako:14
 msgid "Show details"
-msgstr ""
+msgstr "Mostrar detalles"
 
 #: template/sysinfo.mako:15
 msgid "New version available:"
-msgstr ""
+msgstr "Nueva versión disponible:"
 
 #: template/sysinfo.mako:19
 msgid "for update."
-msgstr ""
+msgstr "para actualización."
 
 #: template/sysinfo.mako:29
 msgid "Package"

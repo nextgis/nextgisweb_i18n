@@ -251,7 +251,7 @@ msgstr "Radio, px"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:28
 msgid "Show feature attributes"
-msgstr ""
+msgstr "Mostrar atributos de objetos geográficos"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:33
 msgid "Measurement"
@@ -343,15 +343,15 @@ msgstr "SRID de medición"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:76
 msgid "Address search"
-msgstr ""
+msgstr "Búsqueda de dirección"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:80
 msgid "Enable"
-msgstr ""
+msgstr "Habilitar"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:84
 msgid "Limit by web map initial extent"
-msgstr ""
+msgstr "Límite por extensión inicial del mapa web"
 
 #: amd/ngw-webmap/tool/Identify.js:212
 msgid "Attributes"

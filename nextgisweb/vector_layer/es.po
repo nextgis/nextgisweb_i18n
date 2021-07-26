@@ -1,6 +1,6 @@
 #: kind_of_data.py:12
 msgid "Vector layer features"
-msgstr ""
+msgstr "Objetos geográficos de la capa vectorial"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:28
 #: amd/ngw-vector-layer/template/Widget.hbs:79 model.py:79
@@ -68,12 +68,12 @@ msgstr "Falta el parámetro 'fid_field'."
 #: model.py:303
 #, python-format
 msgid "Fields %s not found."
-msgstr ""
+msgstr "No se encontraron los campos %s."
 
 #: model.py:305
 #, python-format
 msgid "None of fields %s are integer."
-msgstr ""
+msgstr "Ninguno de los campos %s es entero."
 
 #: model.py:315
 #, python-format
@@ -299,7 +299,7 @@ msgstr "Campo"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:122
 msgid "FID field(s)"
-msgstr ""
+msgstr "Campo(s) de FID"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:127
 msgid "Encoding"

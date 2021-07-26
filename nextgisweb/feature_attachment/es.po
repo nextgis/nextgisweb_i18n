@@ -1,6 +1,6 @@
 #: __init__.py:15
 msgid "Feature attachments"
-msgstr ""
+msgstr "Adjuntos de objetos geográficos"
 
 #: exception.py:15
 msgid "Attachment not found"

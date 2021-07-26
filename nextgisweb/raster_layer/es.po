@@ -9,7 +9,7 @@ msgstr "El formato '%s' no es compatible."
 
 #: kind_of_data.py:12
 msgid "Rasters and pyramids"
-msgstr ""
+msgstr "Rásteres y pirámides"
 
 #: amd/ngw-raster-layer/Widget.js:26 model.py:61 view.py:31
 msgid "Raster layer"

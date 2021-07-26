@@ -353,7 +353,7 @@ msgstr "Utilice estos enlaces para conectar datos a aplicaciones externas."
 
 #: template/section_children.mako:128
 msgid "Show resources volume"
-msgstr ""
+msgstr "Mostrar volumen de recursos"
 
 #: template/section_children.mako:144 template/section_summary.mako:44
 msgid "Owner"
@@ -361,7 +361,7 @@ msgstr "Propietario"
 
 #: template/section_children.mako:145
 msgid "Volume"
-msgstr ""
+msgstr "Volumen"
 
 #: template/section_description.mako:4
 msgid "Resource description is empty."
