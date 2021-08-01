@@ -1,304 +1,310 @@
 #: model.py:28
 msgid "Trackers group"
-msgstr ""
+msgstr "Gruppo di trackers"
 
 #: model.py:39
 msgid "Tracker"
-msgstr ""
+msgstr "Tracker"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:16
 msgid "Unique id (IMEI by default)"
-msgstr ""
+msgstr "ID univoco (IMEI per default)"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:22
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:29
 msgid "Device type"
-msgstr ""
+msgstr "Tipo di dispositivo"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:35
 msgid "Consumption, liters per 100 km (for reports)"
-msgstr ""
+msgstr "Consumo, litri per 100km (per report)"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:37
 msgid "Invalid consumption, should be from 0 to 100"
-msgstr ""
+msgstr "Consumo invalido, dovrebbe essere tra 0 e 100"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:36
 msgid "Tracker detail"
-msgstr ""
+msgstr "Dettagli del tracker"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:40
 msgid "NextGIS software (Mobile, Collector)"
-msgstr ""
+msgstr "Software NextGIS (Mobile, Collector)"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:41
 msgid "ADM (ADM-50, ADM-100)"
-msgstr ""
+msgstr "ADM (ADM-50, ADM-100)"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:3
 msgid "1. Select devices for building the report"
-msgstr ""
+msgstr "1. Seleziona i dispositivi per la costruzione del report"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:10
 msgid "2. Customize the report"
-msgstr ""
+msgstr "2. Personalizza il report"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:14
 msgid "Report type"
-msgstr ""
+msgstr "Tipo di report"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:20
 msgid "Select report type"
-msgstr ""
+msgstr "Seleziona il tipo di report"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:22
 #: template/_consumption_fuel.mako:26 template/_mileage.mako:20
 msgid "Mileage"
-msgstr ""
+msgstr "Chilometraggio"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:23
 msgid "Top speed"
-msgstr ""
+msgstr "Velocità massima"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:24
 msgid "Average speed"
-msgstr ""
+msgstr "Velocità media"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:25
 msgid "Spent fuel"
-msgstr ""
+msgstr "Carburante utilizzato"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:26
 msgid "Stops"
-msgstr ""
+msgstr "Fermate"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:27
 #: template/_gpx.mako:4
 msgid "GPX file"
-msgstr ""
+msgstr "File GPX"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:31
 msgid "Time range"
-msgstr ""
+msgstr "Intervallo di tempo"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:36
 msgid "Group by"
-msgstr ""
+msgstr "Raggruppa per"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:41
 #: template/_avg_speed.mako:17 template/_consumption_fuel.mako:23
 #: template/_mileage.mako:17 template/_top_speed.mako:17
 msgid "Hours"
-msgstr ""
+msgstr "Ore"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:42
 #: template/_avg_speed.mako:15 template/_consumption_fuel.mako:21
 #: template/_mileage.mako:15 template/_top_speed.mako:15
 msgid "Days"
-msgstr ""
+msgstr "Giorni"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:51
 msgid "Build report"
-msgstr ""
+msgstr "Costruisci il report"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.js:77
 msgid "Please select devices for building the report!"
-msgstr ""
+msgstr "Seleziona i dispositivi per costruire il report!"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:4
 msgid "Common settings"
-msgstr ""
+msgstr "Impostazioni comuni"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:10
 msgid "Interval for splitting tracks, min"
-msgstr ""
+msgstr "Intervallo minimo per la suddivisione delle tracce"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:14
 msgid "Stops detecting"
-msgstr ""
+msgstr "Rilevamento delle fermate"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:20
 msgid "Minimal speed, km/h"
-msgstr ""
+msgstr "Velocità minima, km/h"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:24
 msgid "Minimal time stop, sec"
-msgstr ""
+msgstr "Tempo minimo di fermata, secondi"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:28
 msgid "Timezone settings"
-msgstr ""
+msgstr "Impostazioni del fuso orario"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:34
 msgid "Time zone"
-msgstr ""
+msgstr "Fuso orario"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:72
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 #: amd/ngw-tracker/settings/TrackerSettings.js:67
 msgid "Tracker settings has been saved successfully!"
-msgstr ""
+msgstr "Le impostazioni del tracker sono state salvate correttamente!"
 
 #: amd/ngw-tracker/settings/TrackerSettings.js:69
 msgid "Error, Tracker settings not has been saved!"
-msgstr ""
+msgstr "Errore, le impostazioni del tracker non sono state salvate!"
 
 #: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.hbs:3
 msgid "Select date"
-msgstr ""
+msgstr "Seleziona la data"
 
 #: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:29
 msgid "No data"
-msgstr ""
+msgstr "Nessun dato"
 
 #: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:58
 msgid "Last activity by hours"
-msgstr ""
+msgstr "Ultima attività in ore"
 
 #: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:149
 msgid "Count of points per hour"
-msgstr ""
+msgstr "Conteggio dei punti per ora"
 
 #: amd/ngw-tracker/webmap/TrackerButton/TrackerButton.js:20
 msgid "Open trackers panel"
-msgstr ""
+msgstr "Apri il pannello dei trackers"
 
 #: amd/ngw-tracker/webmap/TrackersPane/TrackersPane.hbs:13
 #: amd/ngw-tracker/webmap/TrackersPanel/TrackersPanel.hbs:10
 #: amd/ngw-tracker/webmap/TrackersPanel/TrackersPanel.hbs:12
 #: template/reports.mako:5
 msgid "Reports"
-msgstr ""
+msgstr "Reports"
 
 #: amd/ngw-tracker/webmap/TrackersPane/TrackersPane.js:37
 #: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:53
 #: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:63 view/settings.py:57
 msgid "Trackers"
-msgstr ""
+msgstr "Trackers"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:99
 msgid "Zoom to layer"
-msgstr ""
+msgstr "Zoom sul layer"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:104
 msgid "Zoom to last point"
-msgstr ""
+msgstr "Zoom all'ultimo punto"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:109
 msgid "Set filter to last day with data"
-msgstr ""
+msgstr "Imposta il filtro all'ultimo giorno con dati presenti"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:114
 msgid "Show last activity"
-msgstr ""
+msgstr "Mostra l'ultima attività"
 
 #: amd/ngw-tracker/webmap/map/utils.js:16 amd/ngw-tracker/webmap/map/utils.js:27
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: amd/ngw-tracker/webmap/map/utils.js:21 amd/ngw-tracker/webmap/map/utils.js:28
 msgid "Time"
-msgstr ""
+msgstr "Tempo"
 
 #: amd/ngw-tracker/webmap/map/utils.js:31
 msgid "Speed, km/h"
-msgstr ""
+msgstr "Velocità, km/h"
 
 #: amd/ngw-tracker/webmap/map/utils.js:32
 msgid "Height, m"
-msgstr ""
+msgstr "Altezza, m"
 
 #: amd/ngw-tracker/webmap/map/utils.js:33
 msgid "Course"
-msgstr ""
+msgstr "Corso"
 
 #: amd/ngw-tracker/webmap/map/utils.js:34
 msgid "GPS/GLONASS"
-msgstr ""
+msgstr "GPS/GLONASS"
 
 #: pyramid_tracker/device_type.py:17
 msgid "NextGIS Tracker Hub is unavailable. Try later, please."
 msgstr ""
+"Il NextGIS Tracker Hub non è attualmente disponibile. Si prega di provare più"
+" tardi."
 
 #: pyramid_tracker/register.py:23 pyramid_tracker/register.py:41
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
 msgstr ""
+"Il dispositivo non è registrato sul NextGIS Tracker System. Si prega di "
+"provare più tardi."
 
 #: pyramid_tracker/register.py:25 pyramid_tracker/register.py:43
 msgid "NextGIS Tracker System is unavailable. Try later, please."
 msgstr ""
+"Il NextGIS Tracker System non è attualmente disponibile. Si prega di provare "
+"più tardi."
 
 #: template/_avg_speed.mako:4
 msgid "Avg speed report"
-msgstr ""
+msgstr "Report sulla velocità media"
 
 #: template/_avg_speed.mako:8 template/_consumption_fuel.mako:14
 #: template/_mileage.mako:8 template/_stops.mako:9 template/_top_speed.mako:8
 msgid "No data for selected period"
-msgstr ""
+msgstr "Nessun dato relativo al periodo selezionato"
 
 #: template/_avg_speed.mako:20
 msgid "Avg speed"
-msgstr ""
+msgstr "Velocità media"
 
 #: template/_consumption_fuel.mako:4 template/_consumption_fuel.mako:27
 msgid "Fuel consumption"
-msgstr ""
+msgstr "Consumo di carburante"
 
 #: template/_consumption_fuel.mako:8
 msgid "Fuel consumption, liters per 100 km"
-msgstr ""
+msgstr "Consumo di carburante, litri per 100km"
 
 #: template/_consumption_fuel.mako:10
 msgid "Fuel consumption is not defined"
-msgstr ""
+msgstr "Il consumo di carburante non è definito"
 
 #: template/_gpx.mako:11
 msgid "Download GPX file"
-msgstr ""
+msgstr "Scarica file GPX"
 
 #: template/_mileage.mako:4
 msgid "Mileage report"
-msgstr ""
+msgstr "Report sul chilometraggio"
 
 #: template/_stops.mako:5
 msgid "Stops report"
-msgstr ""
+msgstr "Report sulle fermate"
 
 #: template/_stops.mako:16
 msgid "Start stop"
-msgstr ""
+msgstr "Avvio arresto"
 
 #: template/_stops.mako:17
 msgid "End stop"
-msgstr ""
+msgstr "Termina la fermata"
 
 #: template/_stops.mako:18
 msgid "Duration"
-msgstr ""
+msgstr "Durata"
 
 #: template/_stops.mako:32
 msgid "Count of stops"
-msgstr ""
+msgstr "Conteggio delle fermate"
 
 #: template/_stops.mako:33
 msgid "Total duration"
-msgstr ""
+msgstr "Durata totale"
 
 #: template/_top_speed.mako:4
 msgid "Top speed report"
-msgstr ""
+msgstr "Report sulla velocità massima"
 
 #: template/_top_speed.mako:20
 msgid "Max speed"
-msgstr ""
+msgstr "Velocità massima"
 
 #: view/settings.py:20
 msgid "Trackers settings"
-msgstr ""
+msgstr "Impostazioni dei trackers"
 
