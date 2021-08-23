@@ -1,48 +1,48 @@
 #: amd/ngw-basemap/LayerWidget.js:33 model.py:24
 msgid "Basemap"
-msgstr ""
+msgstr "Grundkarte"
 
 #: amd/ngw-basemap/LayerWidget.js:54
 msgid "Search"
-msgstr ""
+msgstr "Suche..."
 
 #: amd/ngw-basemap/LayerWidget.js:61
 msgid "Use options from QMS"
-msgstr ""
+msgstr "QMS-Einstellungen wiederverwenden"
 
 #: amd/ngw-basemap/WebMapWidget.js:43
 msgid "Basemaps"
-msgstr ""
+msgstr "Grundkarten"
 
 #: amd/ngw-basemap/template/LayerWidget.hbs:11
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:14
 msgid "Add"
-msgstr ""
+msgstr "Hinzufügen"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:18
 msgid "Select basemap"
-msgstr ""
+msgstr "Grundkarte wählen"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:27
 msgid "Remove"
-msgstr ""
+msgstr "Entfernen"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:61
 msgid "Display name"
-msgstr ""
+msgstr "Anzeigename"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:65
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiviert"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:72
 msgid "Opacity"
-msgstr ""
+msgstr "Opazität"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:78
 msgid "Resource"
-msgstr ""
+msgstr "Ressource"
 

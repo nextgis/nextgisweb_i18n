@@ -1,12 +1,12 @@
 #: amd/ngw-formbuilder/FormbuilderFormWidget.js:30 model.py:25 view.py:22
 msgid "Form"
-msgstr ""
+msgstr "Formulář"
 
 #: view.py:26
 msgid "Download as NGFP"
-msgstr ""
+msgstr "Stáhnout jako NGFP"
 
 #: amd/ngw-formbuilder/template/FormbuilderFormWidget.hbs:5
 msgid "NGFP file"
-msgstr ""
+msgstr "Soubor NGFP"
 

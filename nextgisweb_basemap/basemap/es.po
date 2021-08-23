@@ -44,5 +44,5 @@ msgstr "Opacidad"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:78
 msgid "Resource"
-msgstr ""
+msgstr "Recurso"
 

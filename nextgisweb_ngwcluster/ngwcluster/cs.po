@@ -1,80 +1,82 @@
 #: __init__.py:127
 msgid "Editors"
-msgstr ""
+msgstr "Redaktoři"
 
 #: amd/ngw-ngwcluster/AdditionalMenuLinks.js:22 view.py:8
 msgid "Account"
-msgstr ""
+msgstr "Účet"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:32
 msgid "Resources"
-msgstr ""
+msgstr "Zdroje"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:34
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:35
 msgid "Unlimited"
-msgstr ""
+msgstr "Neomezený"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:39
 msgid "Users"
-msgstr ""
+msgstr "Uživatelé"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:46
 msgid "Basemaps"
-msgstr ""
+msgstr "Základní mapy"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:53
 msgid "CORS"
-msgstr ""
+msgstr "CORS"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:60
 msgid "Lookup tables & forms"
-msgstr ""
+msgstr "Vyhledávací tabulky a formuláře"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:67
 msgid "Support"
-msgstr ""
+msgstr "Podpora"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:74
 msgid "Home path"
-msgstr ""
+msgstr "Domácí cesta"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:81
 msgid "Private resources"
-msgstr ""
+msgstr "Soukromé zdroje"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:88
 msgid "Spatial reference systems"
-msgstr ""
+msgstr "Prostorové referenční systémy"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:95
 msgid "Custom domain"
-msgstr ""
+msgstr "Vlastní doména"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:102
 msgid "Branding"
-msgstr ""
+msgstr "Branding"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:109
 msgid "Higher performance"
-msgstr ""
+msgstr "Vyšší výkon"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:116
 msgid "Higher upload size"
-msgstr ""
+msgstr "Vyšší velikost nahrávání"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:144
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:146
 msgid " of "
-msgstr ""
+msgstr " z "
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:160
 msgid "Unavailable"
-msgstr ""
+msgstr "Nedostupné"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:181
 msgid "Total of: Vector layers, Raster layers, PostGIS layers, WMS layers, Web Maps"
 msgstr ""
+"Celkem: vektorové vrstvy, rastrové vrstvy, vrstvy PostGIS, vrstvy WMS, webové"
+" mapy"
 
 #: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
 msgid ""
@@ -82,12 +84,17 @@ msgid ""
 "href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
 "Premium</a>."
 msgstr ""
+"Správa základních map není ve vašem plánu k dispozici. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\"> Upgradujte na Mini nebo "
+"Premium </a>."
 
 #: amd/ngw-ngwcluster/template/CollectorDetail.hbs:2
 msgid ""
 "NextGIS Collector management is not available on your plan. <a "
 "href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
 msgstr ""
+"Správa NextGIS Collector není ve vašem plánu k dispozici. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\"> Upgradovat na Premium </a>."
 
 #: amd/ngw-ngwcluster/template/OtherSettings.hbs:2
 msgid ""
@@ -95,6 +102,10 @@ msgid ""
 "feature editing</a> and Web map annotations are not available on your plan.  "
 "<a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
 msgstr ""
+"<a href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\"> Úpravy"
+" online funkcí </a> a anotace webových map nejsou ve vašem plánu k dispozici."
+" <a href=\"http://nextgis.com/nextgis-com/plans/\"> Upgradovat na Premium "
+"</a>."
 
 #: amd/ngw-ngwcluster/template/PermissionWidget.hbs:2
 msgid ""
@@ -103,22 +114,27 @@ msgid ""
 "To allow other users edit your data, add them to \"Editors\" group in <a "
 "href=\"/auth/user/\">Control panel</a>."
 msgstr ""
+"Úplná správa oprávnění ve vašem plánu není k dispozici. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgradujte na "
+"Premium</a>.<br/> Chcete-li ostatním uživatelům umožnit upravovat vaše data, "
+"přidejte je do skupiny „Redaktoři“ v <a href=\"/auth/user/\">Ovládací "
+"panel</a>."
 
 #: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
 msgid "Used"
-msgstr ""
+msgstr "Použitý"
 
 #: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
 msgid "of"
-msgstr ""
+msgstr "z"
 
 #: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
 msgid "resources"
-msgstr ""
+msgstr "zdroje"
 
 #: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
 msgid "Upgrade plan"
-msgstr ""
+msgstr "Upgradovat plán"
 
 #: amd/ngw-ngwcluster/template/TrackerDetailWidget.hbs:2
 msgid ""
@@ -126,24 +142,26 @@ msgid ""
 "href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
 "Premium</a>."
 msgstr ""
+"Správa trackeru není ve vašem plánu k dispozici. <a href=\"http://nextgis.com"
+"/nextgis-com/plans/\"> Upgradujte na Mini nebo Premium </a>."
 
 #: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:3
 msgid "Upgrade"
-msgstr ""
+msgstr "Vylepšit"
 
 #: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:10
 msgid "Your plan — "
-msgstr ""
+msgstr "Tvůj plán - "
 
 #: template/account.mako:53
 msgid "Change plan"
-msgstr ""
+msgstr "Změnit plán"
 
 #: template/account.mako:56
 msgid "Your plan"
-msgstr ""
+msgstr "Tvůj plán"
 
 #: template/account.mako:62
 msgid "More about plans"
-msgstr ""
+msgstr "Více o plánech"
 

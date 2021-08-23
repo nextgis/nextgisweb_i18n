@@ -1,196 +1,196 @@
 #: scope.py:12
 msgid "Collector"
-msgstr ""
+msgstr "Kolektor"
 
 #: scope.py:14
 msgid "Read"
-msgstr ""
+msgstr "Číst"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
 msgid "Starting screen"
-msgstr ""
+msgstr "Úvodní obrazovka"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
 msgid "NextGIS Collector user credentials"
-msgstr ""
+msgstr "Přihlašovací údaje uživatele NextGIS Collector"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
 msgid "User name"
-msgstr ""
+msgstr "Uživatelské jméno"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
 msgid "Password"
-msgstr ""
+msgstr "Heslo"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:20
 msgid "Project"
-msgstr ""
+msgstr "Projekt"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:23
 msgid "List of forms"
-msgstr ""
+msgstr "Seznam formulářů"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:24
 msgid "Map"
-msgstr ""
+msgstr "Mapa"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
 msgid "Add item"
-msgstr ""
+msgstr "Přidat položku"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
 msgid "Add group"
-msgstr ""
+msgstr "Přidat skupinu"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:120
 msgid "Display name"
-msgstr ""
+msgstr "Zobrazované jméno"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
 msgid "Visible"
-msgstr ""
+msgstr "Viditelné"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
 msgid "Editable"
-msgstr ""
+msgstr "Upravitelné"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
 msgid "Syncable"
-msgstr ""
+msgstr "Synchronizovatelné"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
 msgid "Lifetime for tiles (in min)"
-msgstr ""
+msgstr "Životnost dlaždic (v min)"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
 msgid "Min zoom"
-msgstr ""
+msgstr "Min zoom"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
 msgid "Max zoom"
-msgstr ""
+msgstr "Max zoom "
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
 msgid "Resource"
-msgstr ""
+msgstr "Zdroj"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:124
 msgid "Expanded"
-msgstr ""
+msgstr "Rozšířený"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:57
 msgid "Items"
-msgstr ""
+msgstr "Položky"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
 msgid "You have no permissions to manage this section."
-msgstr ""
+msgstr "Ke správě této sekce nemáte žádná oprávnění."
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
 msgid "Manage collectors"
-msgstr ""
+msgstr "Spravujte sběratele"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
 msgid "Give access to this project for the following collectors:"
-msgstr ""
+msgstr "Poskytněte přístup k tomuto projektu následujícím kolektorům:"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
 msgid "Users"
-msgstr ""
+msgstr "Uživatelé"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:32
 msgid "Collectors"
-msgstr ""
+msgstr "Sběratelé"
 
 #: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.hbs:4
 msgid "List of collectors"
-msgstr ""
+msgstr "Seznam sběratelů"
 
 #: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.js:45
 msgid "Each collector must be first registered at ${ngid}"
-msgstr ""
+msgstr "Každý sběratel musí být nejprve zaregistrován na ${ngid}"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:12
 msgid "NextGIS ID"
-msgstr ""
+msgstr "NextGIS ID"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:14
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:108
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:29
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušení"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:33
 msgid "The NextGIS ID is invalid!"
-msgstr ""
+msgstr "ID NextGIS je neplatné!"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:44
 msgid "Edit collector"
-msgstr ""
+msgstr "Upravit sběratel"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:45
 msgid "New collector"
-msgstr ""
+msgstr "Nový sběratel"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:48
 msgid "Save"
-msgstr ""
+msgstr "Uložit"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:49
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:12
 msgid "Create"
-msgstr ""
+msgstr "Vytvořit"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:16
 msgid "Edit"
-msgstr ""
+msgstr "Upravit"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:20
 msgid "Delete"
-msgstr ""
+msgstr "Vymazat"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:25
 msgid "Search Collector user..."
-msgstr ""
+msgstr "Hledat uživatele kolektoru..."
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:103
 msgid "Email"
-msgstr ""
+msgstr "E-mailem"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:113
 msgid "Added"
-msgstr ""
+msgstr "Přidán"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:159
 msgid "Your Collector users limit = 60"
-msgstr ""
+msgstr "Váš počet uživatelů kolektorů = 60"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:186
 msgid "Deleting сollector"
-msgstr ""
+msgstr "Mazání kolektoru"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:187
 msgid "Delete сollector?"
-msgstr ""
+msgstr "Smazat kolektor?"
 
 #: models/model_db.py:41
 msgid "Collector project"
-msgstr ""
+msgstr "Kolektorský projekt"
 
 #: view/settings.py:19
 msgid "NextGIS Collector settings"
-msgstr ""
+msgstr "Nastavení NextGIS Collector"
 
 #: view/settings.py:25
 msgid "Collector projects"
-msgstr ""
+msgstr "Kolektorský projekty"
 

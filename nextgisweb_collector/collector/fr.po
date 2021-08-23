@@ -1,196 +1,196 @@
 #: scope.py:12
 msgid "Collector"
-msgstr ""
+msgstr "Collector"
 
 #: scope.py:14
 msgid "Read"
-msgstr ""
+msgstr "Lire"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
 msgid "Starting screen"
-msgstr ""
+msgstr "Écran de démarrage"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
 msgid "NextGIS Collector user credentials"
-msgstr ""
+msgstr "Informations d'identification de l'utilisateur NextGIS Collector"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
 msgid "User name"
-msgstr ""
+msgstr "Nom d'utilisateur"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
 msgid "Password"
-msgstr ""
+msgstr "Mot de passe"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:20
 msgid "Project"
-msgstr ""
+msgstr "Projet"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:23
 msgid "List of forms"
-msgstr ""
+msgstr "Liste des formes"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:24
 msgid "Map"
-msgstr ""
+msgstr "Carte"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
 msgid "Add item"
-msgstr ""
+msgstr "Ajouter un élément"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
 msgid "Add group"
-msgstr ""
+msgstr "Ajouter un groupe"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
 msgid "Remove"
-msgstr ""
+msgstr "Supprimer"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:120
 msgid "Display name"
-msgstr ""
+msgstr "Afficher un nom"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
 msgid "Visible"
-msgstr ""
+msgstr "Visible"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
 msgid "Editable"
-msgstr ""
+msgstr "Modifiable"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
 msgid "Syncable"
-msgstr ""
+msgstr "synchronisable"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
 msgid "Lifetime for tiles (in min)"
-msgstr ""
+msgstr "Durée de vie des carreaux (en min)"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
 msgid "Min zoom"
-msgstr ""
+msgstr "Zoom min"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
 msgid "Max zoom"
-msgstr ""
+msgstr "Zoom max"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
 msgid "Resource"
-msgstr ""
+msgstr "Ressource"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:124
 msgid "Expanded"
-msgstr ""
+msgstr "Étendu"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:57
 msgid "Items"
-msgstr ""
+msgstr "éléments"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
 msgid "You have no permissions to manage this section."
-msgstr ""
+msgstr "Vous n'avez aucun droit pour gérer cette section"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
 msgid "Manage collectors"
-msgstr ""
+msgstr "Gérer les collectionneurs"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
 msgid "Give access to this project for the following collectors:"
-msgstr ""
+msgstr "Donner accès à ce projet pour les collectionneurs suivants:"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
 msgid "Users"
-msgstr ""
+msgstr "Utilisateurs"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:32
 msgid "Collectors"
-msgstr ""
+msgstr "Collectionneurs"
 
 #: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.hbs:4
 msgid "List of collectors"
-msgstr ""
+msgstr "Liste des collectionneurs"
 
 #: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.js:45
 msgid "Each collector must be first registered at ${ngid}"
-msgstr ""
+msgstr "Chaque collecteur doit être d'abord enregistré à ${ngid}"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:12
 msgid "NextGIS ID"
-msgstr ""
+msgstr "NextGIS ID"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:14
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:108
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:29
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:33
 msgid "The NextGIS ID is invalid!"
-msgstr ""
+msgstr "NextGIS ID n'est pas valide!"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:44
 msgid "Edit collector"
-msgstr ""
+msgstr "Modifier le collectionneur"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:45
 msgid "New collector"
-msgstr ""
+msgstr "Nouveau collectionneur"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:48
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:49
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:12
 msgid "Create"
-msgstr ""
+msgstr "Créer"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:16
 msgid "Edit"
-msgstr ""
+msgstr "Éditer"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:20
 msgid "Delete"
-msgstr ""
+msgstr "Effacer"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:25
 msgid "Search Collector user..."
-msgstr ""
+msgstr "Rechercher un utilisateur de Collector "
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:103
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:113
 msgid "Added"
-msgstr ""
+msgstr "Ajouté"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:159
 msgid "Your Collector users limit = 60"
-msgstr ""
+msgstr "Votre limite d'utilisateurs Collector = 60"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:186
 msgid "Deleting сollector"
-msgstr ""
+msgstr "Suppression d'un collectionneur"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:187
 msgid "Delete сollector?"
-msgstr ""
+msgstr "Supprimer le collectionneur?"
 
 #: models/model_db.py:41
 msgid "Collector project"
-msgstr ""
+msgstr "Projet Collector"
 
 #: view/settings.py:19
 msgid "NextGIS Collector settings"
-msgstr ""
+msgstr "Paramètres de NextGIS Collector"
 
 #: view/settings.py:25
 msgid "Collector projects"
-msgstr ""
+msgstr "Projets de Collector"
 

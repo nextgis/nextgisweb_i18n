@@ -670,7 +670,7 @@ msgstr ""
 
 #: template/section_api_webmap.mako:16
 msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
-msgstr ""
+msgstr "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
 
 #: template/section_api_webmap.mako:17
 msgid "Read more"

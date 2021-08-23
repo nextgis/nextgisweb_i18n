@@ -1,80 +1,82 @@
 #: __init__.py:127
 msgid "Editors"
-msgstr ""
+msgstr "Editors"
 
 #: amd/ngw-ngwcluster/AdditionalMenuLinks.js:22 view.py:8
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:32
 msgid "Resources"
-msgstr ""
+msgstr "Ressourcen"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:34
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:35
 msgid "Unlimited"
-msgstr ""
+msgstr "nicht eingeschränkt"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:39
 msgid "Users"
-msgstr ""
+msgstr "Benutzer"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:46
 msgid "Basemaps"
-msgstr ""
+msgstr "Grundkarten"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:53
 msgid "CORS"
-msgstr ""
+msgstr "CORS"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:60
 msgid "Lookup tables & forms"
-msgstr ""
+msgstr "Nachschlagtabellen und Formen"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:67
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:74
 msgid "Home path"
-msgstr ""
+msgstr "Pfad Startseite"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:81
 msgid "Private resources"
-msgstr ""
+msgstr "Private Ressourcen"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:88
 msgid "Spatial reference systems"
-msgstr ""
+msgstr "Koordinatenbezugssysteme"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:95
 msgid "Custom domain"
-msgstr ""
+msgstr "Eigene Domäne"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:102
 msgid "Branding"
-msgstr ""
+msgstr "Branding"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:109
 msgid "Higher performance"
-msgstr ""
+msgstr "Hochleistung"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:116
 msgid "Higher upload size"
-msgstr ""
+msgstr "Größere Dateien hochladen"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:144
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:146
 msgid " of "
-msgstr ""
+msgstr " von "
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:160
 msgid "Unavailable"
-msgstr ""
+msgstr "Nicht verfügbar"
 
 #: amd/ngw-ngwcluster/PlanQuotaWidget.js:181
 msgid "Total of: Vector layers, Raster layers, PostGIS layers, WMS layers, Web Maps"
 msgstr ""
+"Zusammenfassung folgender Ressourcen: Vektor-, Raster-, PostGIS-, WMS-Layers "
+"und Web Maps"
 
 #: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
 msgid ""
@@ -82,12 +84,18 @@ msgid ""
 "href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
 "Premium</a>."
 msgstr ""
+"Ihr Plan unterstützt die Arbeit Grundkarten nicht. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Plan hochstufen, Mini oder "
+"Premium wählen</a>"
 
 #: amd/ngw-ngwcluster/template/CollectorDetail.hbs:2
 msgid ""
 "NextGIS Collector management is not available on your plan. <a "
 "href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
 msgstr ""
+"Ihr Plan unterstützt die Arbeit NextGIS-Collector-Projekten nicht. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Plan hochstufen, Mini oder "
+"Premium wählen</a>"
 
 #: amd/ngw-ngwcluster/template/OtherSettings.hbs:2
 msgid ""
@@ -95,6 +103,11 @@ msgid ""
 "feature editing</a> and Web map annotations are not available on your plan.  "
 "<a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
 msgstr ""
+"Ihr Plan unterstützt  <a "
+"href=\"https://docs.nextgis.ru/docs_ngcom/source/data_edit.html\">Online-"
+"Bearbeitung der Objekte</a> auf der Web-Karte und Annotation der Karte nicht."
+" <a href=\"http://nextgis.com/nextgis-com/plans/\">Plan hochstufen, Premium "
+"wählen</a>"
 
 #: amd/ngw-ngwcluster/template/PermissionWidget.hbs:2
 msgid ""
@@ -103,22 +116,27 @@ msgid ""
 "To allow other users edit your data, add them to \"Editors\" group in <a "
 "href=\"/auth/user/\">Control panel</a>."
 msgstr ""
+"Ihr Plan unterstützt vollständige Rechtesteuerung nicht. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Plan hochstufen, Premium "
+"wählen</a>.<br/> Um anderen Benutzern die Rechte für Datenverwaltung "
+"freizuschalten, fügen Sie diese Benutzer der Gruppe \"Editors\" in <a "
+"href=\"/auth/user/\">Systemsteuerung</a> hinzu."
 
 #: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
 msgid "Used"
-msgstr ""
+msgstr "im Einsatz"
 
 #: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
 msgid "of"
-msgstr ""
+msgstr "von"
 
 #: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
 msgid "resources"
-msgstr ""
+msgstr "Ressourcen"
 
 #: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
 msgid "Upgrade plan"
-msgstr ""
+msgstr "Plan hochstufen"
 
 #: amd/ngw-ngwcluster/template/TrackerDetailWidget.hbs:2
 msgid ""
@@ -126,24 +144,27 @@ msgid ""
 "href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
 "Premium</a>."
 msgstr ""
+"Ihr Plan unterstützt die Arbeit mit GPS-Trackern nicht. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Plan hochstufen, Mini oder "
+"Premium wählen</a>"
 
 #: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:3
 msgid "Upgrade"
-msgstr ""
+msgstr "Hochstufen"
 
 #: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:10
 msgid "Your plan — "
-msgstr ""
+msgstr "Ihr Plan: "
 
 #: template/account.mako:53
 msgid "Change plan"
-msgstr ""
+msgstr "Plan ändern"
 
 #: template/account.mako:56
 msgid "Your plan"
-msgstr ""
+msgstr "Ihr Plan"
 
 #: template/account.mako:62
 msgid "More about plans"
-msgstr ""
+msgstr "Über Pläne weiterlesen"
 
