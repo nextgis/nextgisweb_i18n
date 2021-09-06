@@ -2,29 +2,29 @@
 msgid "Main resource group"
 msgstr "Groupe de ressources principal"
 
-#: api.py:68
+#: api.py:71
 msgid "Root resource could not be deleted."
 msgstr "La ressource racine n'a pas pu être supprimée."
 
-#: api.py:115
+#: api.py:119
 msgid "Resource parent required."
 msgstr "Un parent ressource requis."
 
-#: api.py:118
+#: api.py:122
 msgid "Resource class required."
 msgstr "Une classe de ressource requise."
 
-#: api.py:121
+#: api.py:125
 #, python-format
 msgid "Unknown resource class '%s'."
 msgstr "Classe de ressources inconnue '%s'."
 
-#: api.py:127
+#: api.py:131
 #, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Classe de ressources '%s' désactivée."
 
-#: api.py:209
+#: api.py:213
 msgid "Permission not found"
 msgstr "Permission introuvable"
 
@@ -86,39 +86,39 @@ msgstr "Erreur opérationnelle"
 msgid "Resource"
 msgstr "Ressource"
 
-#: model.py:253
+#: model.py:269
 msgid "Resource can not be a parent himself."
 msgstr "La ressource ne peut pas être un parent lui-même."
 
-#: model.py:266
+#: model.py:282
 msgid "Resource keyname is not unique."
 msgstr "Le nom de clé de la ressource n'est pas unique."
 
-#: model.py:318
+#: model.py:334
 msgid "Resource can not be without a parent."
 msgstr "La ressource ne peut pas être sans parent."
 
-#: model.py:324
+#: model.py:340
 #, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Vous n'êtes pas autorisé à gérer les enfants d'une ressource avec id =% d."
 
-#: model.py:329
+#: model.py:345
 #, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "Ressource ne peut pas être un enfant de ressource id =%d."
 
-#: model.py:454
+#: model.py:470
 #, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Nombre maximal de ressources dépassé. La limite est de %s."
 
-#: model.py:471
+#: model.py:487
 #, python-format
 msgid "Maximum number of resources '%s' exceeded. The limit is %s."
 msgstr "Nombre maximal de ressources dépassé. La limite est de %s.\n"
 
-#: model.py:527
+#: model.py:543
 msgid "Resource group"
 msgstr "Groupe de ressources"
 
@@ -130,12 +130,12 @@ msgstr "Lire"
 msgid "Create"
 msgstr "Créer"
 
-#: scope.py:42 view.py:311
+#: scope.py:42 view.py:319
 msgid "Update"
-msgstr "Mettre à jour"
+msgstr "Mise à jour"
 
 #: amd/ngw-resource/CompositeWidget.js:96 amd/ngw-resource/PermissionWidget.js:321
-#: scope.py:46 view.py:319
+#: scope.py:46 view.py:327
 msgid "Delete"
 msgstr "Effacer"
 
@@ -184,7 +184,7 @@ msgstr "Configurer"
 msgid "Attribute '%s' forbidden."
 msgstr "Attribut '%s' interdit."
 
-#: view.py:88 view.py:326
+#: view.py:88 view.py:334
 msgid "JSON view"
 msgstr "Vue JSON"
 
@@ -192,43 +192,47 @@ msgstr "Vue JSON"
 msgid "Resource tree"
 msgstr "Arbre de ressources"
 
-#: view.py:129 view.py:336
+#: view.py:129 view.py:344
 msgid "Create resource"
 msgstr "Créer une ressource"
 
 #: view.py:137
 msgid "Update resource"
-msgstr "Mettre à jour la ressource"
+msgstr "Ressource de mise à jour"
 
 #: amd/ngw-resource/DeleteWidget.js:20 view.py:144
 msgid "Delete resource"
 msgstr "Supprimer la ressource"
 
-#: view.py:203
+#: view.py:190 view.py:352
+msgid "Resource export"
+msgstr ""
+
+#: view.py:211
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr ""
 "La permission '%s' insuffisante dans la portée '%s' sur la ressource avec id "
 "= %d."
 
-#: view.py:261
+#: view.py:269
 msgid "Child resources"
 msgstr "Enfants de ressources"
 
-#: amd/ngw-resource/DescriptionWidget.js:19 view.py:268
+#: amd/ngw-resource/DescriptionWidget.js:19 view.py:276
 msgid "Description"
 msgstr "Description"
 
-#: view.py:275
+#: view.py:283
 msgid "User permissions"
 msgstr "Autorisations utilisateur"
 
 #: amd/ngw-resource/PermissionWidget.js:66 amd/ngw-resource/PermissionWidget.js:133
-#: view.py:337
+#: view.py:345
 msgid "Action"
 msgstr "Action"
 
-#: view.py:338
+#: view.py:346
 msgid "Extra"
 msgstr "Extra"
 
@@ -241,6 +245,7 @@ msgid "Create and edit"
 msgstr "Créer et modifier"
 
 #: amd/ngw-resource/CompositeWidget.js:89
+#: amd/ngw-resource/template/ResourceExportForm.hbs:15
 msgid "Save"
 msgstr "Enregistrer"
 
@@ -327,9 +332,40 @@ msgstr "Éditer"
 msgid "Select resource"
 msgstr "Sélectionnez la ressource"
 
+#: amd/ngw-resource/ResourcesFilter/ResourcesFilter.hbs:5
+msgid "Search"
+msgstr ""
+
+#: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:19
+msgid "Resources not found"
+msgstr ""
+
+#: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:25
+msgid "Search resources"
+msgstr ""
+
 #: amd/ngw-resource/template/DeleteWidget.hbs:7
 msgid "Confirm deletion of the resource"
 msgstr "Confirmer la suppression de la ressource"
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:3
+msgid ""
+"Select the category of users who can use the \"Save as\" link to download "
+"resource data. This will not affect REST API use which will continue to be "
+"governed by permissions."
+msgstr ""
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:8
+msgid "Users with \"Data: Read\" permission"
+msgstr ""
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:9
+msgid "Users with \"Data: Write\" permission"
+msgstr ""
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:10
+msgid "Administrators"
+msgstr ""
 
 #: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
 #: template/section_summary.mako:6

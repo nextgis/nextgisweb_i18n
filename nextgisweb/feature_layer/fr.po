@@ -1,37 +1,36 @@
-msgid ""
-msgstr ""
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: NextGIS Web GUI\n"
-"Language: fr\n"
-
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:16
-msgid "Edit"
-msgstr "Éditer"
-
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:115
-msgid "Delete"
-msgstr "Effacer"
-
-#: api.py:103
+#: api.py:104
 msgid "Output format is not provided."
 msgstr "Le format de sortie n'est pas fourni."
 
-#: api.py:108
+#: api.py:109
+#, python-format
 msgid "Format '%s' is not supported."
 msgstr "Le format '% s' est pas pris en charge."
 
-#: api.py:284 api.py:344
+#: api.py:285 api.py:357
+#, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "Le format de géométrie '%s' n'est pas pris en charge."
+
+#: api.py:287
+msgid "Geometry is not valid."
+msgstr "La géométrie n'est pas valide."
+
+#: api.py:293 api.py:362
+#, python-format
+msgid "Date format '%s' is not supported."
+msgstr ""
+
+#: api.py:583
+msgid "Parameter 'intersects' geometry is not valid."
+msgstr "Le paramètre 'intersects' la géométrie n'est pas valide."
 
 #: exception.py:15
 msgid "Feature not found"
 msgstr "L'entité introuvable"
 
 #: exception.py:16
+#, python-format
 msgid "Feature with id = %d was not found in resource with id = %d."
 msgstr "L'entité avec id = %d n'a pas été trouvée dans la ressource avec id = %d."
 
@@ -40,64 +39,71 @@ msgid "The feature may have been deleted or an error in the address."
 msgstr "L'entité peut avoir été supprimée ou une erreur dans l'adresse."
 
 #: model.py:172
+#, python-format
 msgid "Field not found (ID=%d)."
 msgstr "Champ non trouvé (ID =% d)."
 
-#: amd/ngw-webmap/plugin/FeatureLayer.js:115
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:45
 msgid "Feature table"
 msgstr "Table des entités"
 
-#: view.py:61 view.py:84
+#: view.py:63 view.py:86
+#, python-format
 msgid "Feature #%d"
 msgstr "Entité #%d"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:100
+#: view.py:138 view.py:201
 msgid "Save as"
 msgstr "Enregistrer sous"
 
-#: amd/ngw-webmap/tool/Identify.js:431
+#: view.py:188
 msgid "Features"
 msgstr "Entités"
 
-#: template/section_fields.mako:21 view.py:189
+#: template/section_fields.mako:21 view.py:193
 msgid "Table"
 msgstr "Table"
 
-#: view.py:209
+#: view.py:211
 msgid "External access"
 msgstr "Accès externe"
 
-#: amd/ngw-webmap/tool/Identify.js:212
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:194
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:216
 msgid "Attributes"
 msgstr "Attributs"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:78
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:80
 msgid "Attribute: "
 msgstr "Attribut"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:123
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
 msgid "Set NULL"
 msgstr "Définir NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:124
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:126
 msgid "Set field value to NULL (No data)"
 msgstr "Définir la valeur du champ à NULL (données non)"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:135
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:137
 msgid "NULL"
 msgstr "NULL"
 
-#: amd/ngw-webmap/ItemWidget.js:148 amd/ngw-webmap/template/SettingsForm.hbs:75
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:105
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:43
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:242
+msgid "Please wait. Processing request..."
+msgstr ""
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:266
+#: amd/ngw-feature-layer/template/ExportForm.hbs:42
 msgid "Save"
 msgstr "Enregistrer"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:236
+#: amd/ngw-feature-layer/FeatureGrid.js:240
 msgid "Confirmation"
 msgstr "Confirmation"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:237
+#: amd/ngw-feature-layer/FeatureGrid.js:241
 msgid "Delete feature?"
 msgstr "Supprimer l'entité?"
 
@@ -105,36 +111,35 @@ msgstr "Supprimer l'entité?"
 msgid "N/A"
 msgstr "N/A"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:72 template/section_fields.mako:15
+#: amd/ngw-feature-layer/FieldsWidget.js:70 template/section_fields.mako:15
 msgid "Keyname"
 msgstr "Nom de clé"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:82 template/section_fields.mako:16
+#: amd/ngw-feature-layer/FieldsWidget.js:80 template/section_fields.mako:16
 msgid "Type"
 msgstr "Type"
 
-#: amd/ngw-webmap/template/ItemWidget.hbs:73
-#: amd/ngw-webmap/template/ItemWidget.hbs:122
+#: amd/ngw-feature-layer/FieldsWidget.js:84 template/section_fields.mako:17
 msgid "Display name"
 msgstr "Afficher un nom"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:100
+#: amd/ngw-feature-layer/FieldsWidget.js:98
 msgid "FT"
 msgstr "TE"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:110
+#: amd/ngw-feature-layer/FieldsWidget.js:108
 msgid "LA"
 msgstr "AE"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:154
+#: amd/ngw-feature-layer/FieldsWidget.js:152
 msgid "Label attribute"
 msgstr "Attribut d'étiquette"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:231
+#: amd/ngw-feature-layer/FieldsWidget.js:229
 msgid "Add"
 msgstr "Ajouter"
 
-#: amd/ngw-webmap/template/ItemWidget.hbs:33
+#: amd/ngw-feature-layer/FieldsWidget.js:235
 msgid "Remove"
 msgstr "Supprimer"
 
@@ -146,11 +151,11 @@ msgstr "Format"
 msgid "SRS"
 msgstr "SCR"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:127
+#: amd/ngw-feature-layer/template/ExportForm.hbs:23
 msgid "Encoding"
 msgstr "Encodage"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:122
+#: amd/ngw-feature-layer/template/ExportForm.hbs:30
 msgid "FID field"
 msgstr "Champ FID"
 
@@ -158,11 +163,19 @@ msgstr "Champ FID"
 msgid "Zip archive"
 msgstr "archive Zip"
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:12
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:13
 msgid "Open"
 msgstr "Ouvrir"
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:25
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:18
+msgid "Edit"
+msgstr "Éditer"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:23
+msgid "Delete"
+msgstr "Effacer"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:28
 msgid "Search..."
 msgstr "Rechercher..."
 
@@ -171,14 +184,23 @@ msgid "MVT Vector Tiles"
 msgstr "MVT Tuiles Vectorielles"
 
 #: template/section_api_layer.mako:12
-msgid "The Mapbox Vector Tile is an efficient encoding for map data into vector tiles that can be rendered dynamically."
-msgstr "La tuile vectorielle Mapbox est un encodage efficace pour les données cartographiques en tuiles vectorielles qui peuvent être rendues dynamiquement."
+msgid ""
+"The Mapbox Vector Tile is an efficient encoding for map data into vector "
+"tiles that can be rendered dynamically."
+msgstr ""
+"La tuile vectorielle Mapbox est un encodage efficace pour les données "
+"cartographiques en tuiles vectorielles qui peuvent être rendues "
+"dynamiquement."
 
 #: template/section_api_layer.mako:17
-msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-tiles"
-msgstr "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-tiles"
+msgid ""
+"https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
+"tiles"
+msgstr ""
+"https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
+"tiles"
 
-#: template/section_api_webmap.mako:17
+#: template/section_api_layer.mako:18
 msgid "Read more"
 msgstr "Lire la suite"
 
@@ -186,21 +208,11 @@ msgstr "Lire la suite"
 msgid "Lookup table"
 msgstr "Tableau de référence"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:98
-#: amd/ngw-vector-layer/template/Widget.hbs:107
+#: template/section_fields.mako:32 template/section_fields.mako:38
 msgid "Yes"
 msgstr "Oui"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:99
-#: amd/ngw-vector-layer/template/Widget.hbs:108
+#: template/section_fields.mako:34 template/section_fields.mako:38
 msgid "No"
 msgstr "Non"
-
-#: api.py:286
-msgid "Geometry is not valid."
-msgstr "La géométrie n'est pas valide."
-
-#: api.py:544
-msgid "Parameter 'intersects' geometry is not valid."
-msgstr "Le paramètre 'intersects' la géométrie n'est pas valide."
 
