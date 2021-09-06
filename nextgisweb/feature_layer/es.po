@@ -1,22 +1,27 @@
-#: api.py:103
+#: api.py:104
 msgid "Output format is not provided."
 msgstr "No se proporciona formato de salida."
 
-#: api.py:108
+#: api.py:109
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr "El formato '%s' no es compatible."
 
-#: api.py:284 api.py:344
+#: api.py:285 api.py:357
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "El formato de geometría '%s' no es compatible."
 
-#: api.py:286
+#: api.py:287
 msgid "Geometry is not valid."
 msgstr "La geometría no es válida."
 
-#: api.py:544
+#: api.py:293 api.py:362
+#, python-format
+msgid "Date format '%s' is not supported."
+msgstr ""
+
+#: api.py:583
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "El parámetro 'intersects' de la geometría no es válido."
 
@@ -40,63 +45,67 @@ msgstr ""
 msgid "Field not found (ID=%d)."
 msgstr "Campo no encontrado (ID=%d)."
 
-#: amd/ngw-feature-layer/FieldsWidget.js:159 view.py:44
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:45
 msgid "Feature table"
 msgstr "Tabla de objetos geográficos"
 
-#: view.py:61 view.py:84
+#: view.py:63 view.py:86
 #, python-format
 msgid "Feature #%d"
 msgstr "Objeto geográfico #%d"
 
-#: view.py:135 view.py:196
+#: view.py:138 view.py:201
 msgid "Save as"
 msgstr "Guardar como"
 
-#: view.py:185
+#: view.py:188
 msgid "Features"
 msgstr "Objetos geográficos"
 
-#: template/section_fields.mako:21 view.py:189
+#: template/section_fields.mako:21 view.py:193
 msgid "Table"
 msgstr "Tabla"
 
-#: view.py:206
+#: view.py:211
 msgid "External access"
 msgstr "Acceso externo"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:192
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:194
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:122 view.py:211
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:216
 msgid "Attributes"
 msgstr "Atributos"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:78
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:80
 msgid "Attribute: "
 msgstr "Atributo: "
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:123
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
 msgid "Set NULL"
 msgstr "Colocar a NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:124
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:126
 msgid "Set field value to NULL (No data)"
 msgstr "Colocar el valor del campo en NULL (sin datos)"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:135
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:137
 msgid "NULL"
 msgstr "NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:258
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:242
+msgid "Please wait. Processing request..."
+msgstr ""
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:266
 #: amd/ngw-feature-layer/template/ExportForm.hbs:42
 msgid "Save"
 msgstr "Guardar"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:236
+#: amd/ngw-feature-layer/FeatureGrid.js:240
 msgid "Confirmation"
 msgstr "Confirmación"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:237
+#: amd/ngw-feature-layer/FeatureGrid.js:241
 msgid "Delete feature?"
 msgstr "Borrar el objeto geográfico?"
 
@@ -104,35 +113,35 @@ msgstr "Borrar el objeto geográfico?"
 msgid "N/A"
 msgstr "N/A"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:72 template/section_fields.mako:15
+#: amd/ngw-feature-layer/FieldsWidget.js:70 template/section_fields.mako:15
 msgid "Keyname"
 msgstr "Nombre clave"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:82 template/section_fields.mako:16
+#: amd/ngw-feature-layer/FieldsWidget.js:80 template/section_fields.mako:16
 msgid "Type"
 msgstr "Tipo"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:86 template/section_fields.mako:17
+#: amd/ngw-feature-layer/FieldsWidget.js:84 template/section_fields.mako:17
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:100
+#: amd/ngw-feature-layer/FieldsWidget.js:98
 msgid "FT"
 msgstr "TO"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:110
+#: amd/ngw-feature-layer/FieldsWidget.js:108
 msgid "LA"
 msgstr "AE"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:154
+#: amd/ngw-feature-layer/FieldsWidget.js:152
 msgid "Label attribute"
 msgstr "Atributo de etiqueta"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:231
+#: amd/ngw-feature-layer/FieldsWidget.js:229
 msgid "Add"
 msgstr "Agregar"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:237
+#: amd/ngw-feature-layer/FieldsWidget.js:235
 msgid "Remove"
 msgstr "Eliminar"
 
@@ -156,19 +165,19 @@ msgstr "Campo FID"
 msgid "Zip archive"
 msgstr "Archivo zip"
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:12
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:13
 msgid "Open"
 msgstr "Abrir"
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:16
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:18
 msgid "Edit"
 msgstr "Editar"
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:20
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:23
 msgid "Delete"
 msgstr "Eliminar"
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:25
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:28
 msgid "Search..."
 msgstr "Buscando..."
 
