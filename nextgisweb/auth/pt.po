@@ -1,35 +1,35 @@
-#: __init__.py:41
+#: __init__.py:47
 msgid "Guest"
 msgstr "Convidado"
 
-#: __init__.py:47
+#: __init__.py:53
 msgid "Everyone"
 msgstr "Todos"
 
-#: __init__.py:53
+#: __init__.py:59
 msgid "Authenticated"
 msgstr "Autenticados"
 
-#: __init__.py:61
+#: __init__.py:67
 msgid "Administrators"
 msgstr "Administradores"
 
-#: __init__.py:64
+#: __init__.py:70
 msgid "Administrator"
 msgstr "Administrador"
 
-#: __init__.py:73
+#: __init__.py:79
 msgid "Owner"
 msgstr "Proprietário"
 
-#: __init__.py:176
+#: __init__.py:238
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Foi atingido o número máximo de utilizadores. O limite de número de "
 "utilizadores do seu plano atual é de %d."
 
-#: api.py:218
+#: api.py:214
 msgid "System principals couldn't be chanded."
 msgstr "Os princípios do sistema não puderam ser chanded."
 
@@ -61,23 +61,35 @@ msgstr "Falha na atualização do token OAuth"
 msgid "OAuth access token is expired"
 msgstr "Token OAuth de acesso expirou"
 
-#: views.py:198
+#: views.py:67
+msgid "Session not found."
+msgstr ""
+
+#: views.py:72
+msgid "Invalid 'expires' parameter."
+msgstr ""
+
+#: views.py:74
+msgid "Session expired."
+msgstr ""
+
+#: views.py:231
 msgid "User settings"
 msgstr "Configurações do utilizador"
 
-#: views.py:266
+#: views.py:304
 msgid "Group name is not unique."
 msgstr "O nome do grupo não é exclusivo."
 
-#: views.py:304
+#: views.py:342
 msgid "Create new group"
 msgstr "Criar novo grupo"
 
-#: views.py:355
+#: views.py:393
 msgid "Login is not unique."
 msgstr "Login não é exclusivo."
 
-#: views.py:370
+#: views.py:408
 msgid ""
 "You can't disable current administrator. At least one enabled administrator "
 "is required."
@@ -85,27 +97,27 @@ msgstr ""
 "Não é possível desativar o administrador atual. É necessário ter pelo menos "
 "um administrador activo."
 
-#: views.py:414
+#: views.py:452
 msgid "Create new user"
 msgstr "Criar novo utilizador"
 
-#: views.py:447 views.py:512
+#: views.py:485 views.py:550
 msgid "Users"
 msgstr "Utilizadores"
 
-#: views.py:457 views.py:515
+#: views.py:495 views.py:553
 msgid "Groups"
 msgstr "Grupos"
 
-#: views.py:468 views.py:490
+#: views.py:506 views.py:528
 msgid "List"
 msgstr "Lista de"
 
-#: views.py:473 views.py:495
+#: views.py:511 views.py:533
 msgid "Create"
 msgstr "Criar"
 
-#: views.py:479 views.py:501
+#: views.py:517 views.py:539
 msgid "Edit"
 msgstr "Editar"
 
@@ -184,7 +196,7 @@ msgstr "Entrar no Web GIS"
 msgid "Sign in with OAuth"
 msgstr "Entrar com OAuth"
 
-#: template/login.mako:53
+#: template/login.mako:53 template/session_invite.mako:14
 msgid "Sign in"
 msgstr "Entrar"
 
