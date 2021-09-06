@@ -1,22 +1,27 @@
-#: api.py:103
+#: api.py:104
 msgid "Output format is not provided."
 msgstr ""
 
-#: api.py:108
+#: api.py:109
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr ""
 
-#: api.py:284 api.py:344
+#: api.py:285 api.py:357
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr ""
 
-#: api.py:286
+#: api.py:287
 msgid "Geometry is not valid."
 msgstr ""
 
-#: api.py:553
+#: api.py:293 api.py:362
+#, python-format
+msgid "Date format '%s' is not supported."
+msgstr ""
+
+#: api.py:583
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr ""
 
@@ -38,63 +43,67 @@ msgstr ""
 msgid "Field not found (ID=%d)."
 msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:159 view.py:44
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:45
 msgid "Feature table"
 msgstr ""
 
-#: view.py:61 view.py:84
+#: view.py:63 view.py:86
 #, python-format
 msgid "Feature #%d"
 msgstr ""
 
-#: view.py:135 view.py:196
+#: view.py:138 view.py:201
 msgid "Save as"
 msgstr ""
 
-#: view.py:185
+#: view.py:188
 msgid "Features"
 msgstr ""
 
-#: template/section_fields.mako:21 view.py:189
+#: template/section_fields.mako:21 view.py:193
 msgid "Table"
 msgstr ""
 
-#: view.py:206
+#: view.py:211
 msgid "External access"
 msgstr ""
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:192
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:194
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:122 view.py:211
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:216
 msgid "Attributes"
 msgstr ""
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:78
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:80
 msgid "Attribute: "
 msgstr ""
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:123
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
 msgid "Set NULL"
 msgstr ""
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:124
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:126
 msgid "Set field value to NULL (No data)"
 msgstr ""
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:135
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:137
 msgid "NULL"
 msgstr ""
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:258
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:242
+msgid "Please wait. Processing request..."
+msgstr ""
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:266
 #: amd/ngw-feature-layer/template/ExportForm.hbs:42
 msgid "Save"
 msgstr ""
 
-#: amd/ngw-feature-layer/FeatureGrid.js:236
+#: amd/ngw-feature-layer/FeatureGrid.js:240
 msgid "Confirmation"
 msgstr ""
 
-#: amd/ngw-feature-layer/FeatureGrid.js:237
+#: amd/ngw-feature-layer/FeatureGrid.js:241
 msgid "Delete feature?"
 msgstr ""
 
@@ -102,35 +111,35 @@ msgstr ""
 msgid "N/A"
 msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:72 template/section_fields.mako:15
+#: amd/ngw-feature-layer/FieldsWidget.js:70 template/section_fields.mako:15
 msgid "Keyname"
 msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:82 template/section_fields.mako:16
+#: amd/ngw-feature-layer/FieldsWidget.js:80 template/section_fields.mako:16
 msgid "Type"
 msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:86 template/section_fields.mako:17
+#: amd/ngw-feature-layer/FieldsWidget.js:84 template/section_fields.mako:17
 msgid "Display name"
 msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:100
+#: amd/ngw-feature-layer/FieldsWidget.js:98
 msgid "FT"
 msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:110
+#: amd/ngw-feature-layer/FieldsWidget.js:108
 msgid "LA"
 msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:154
+#: amd/ngw-feature-layer/FieldsWidget.js:152
 msgid "Label attribute"
 msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:231
+#: amd/ngw-feature-layer/FieldsWidget.js:229
 msgid "Add"
 msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:237
+#: amd/ngw-feature-layer/FieldsWidget.js:235
 msgid "Remove"
 msgstr ""
 
@@ -154,19 +163,19 @@ msgstr ""
 msgid "Zip archive"
 msgstr ""
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:12
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:13
 msgid "Open"
 msgstr ""
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:16
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:18
 msgid "Edit"
 msgstr ""
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:20
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:23
 msgid "Delete"
 msgstr ""
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:25
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:28
 msgid "Search..."
 msgstr ""
 

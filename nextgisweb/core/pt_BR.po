@@ -12,7 +12,7 @@ msgstr ""
 
 #: __init__.py:222
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: __init__.py:227
 msgid "RAM"
