@@ -44,9 +44,9 @@ msgstr "Descrizione"
 
 #: amd/ngw-feature-attachment/EditorWidget.js:130
 msgid "Upload"
-msgstr "Caricamento"
+msgstr "Carica"
 
 #: amd/ngw-feature-attachment/EditorWidget.js:153
 msgid "Delete"
-msgstr "Elimina"
+msgstr "Eliminazione"
 

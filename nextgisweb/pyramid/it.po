@@ -75,47 +75,47 @@ msgstr "Servizio non disponibile"
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "Il server non è temporaneamente disponibile. Si prega di riprovare più tardi."
 
-#: template/header.mako:95 view.py:87
+#: template/header.mako:111 view.py:87
 msgid "Control panel"
 msgstr "Pannello di controllo"
 
-#: view.py:109 view.py:462
+#: view.py:109 view.py:466
 msgid "System information"
 msgstr "Informazioni di sistema"
 
-#: view.py:121 view.py:479
+#: view.py:121 view.py:483
 msgid "Storage"
 msgstr ""
 
-#: view.py:131 view.py:484
+#: view.py:131 view.py:488
 msgid "Backups"
 msgstr "Backups"
 
-#: view.py:146 view.py:468
+#: view.py:146 view.py:472
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
-#: view.py:153 view.py:470
+#: view.py:153 view.py:474
 msgid "Custom CSS"
 msgstr "CSS personalizzato"
 
-#: view.py:160 view.py:472
+#: view.py:160 view.py:476
 msgid "Custom logo"
 msgstr "Logo personalizzato"
 
-#: view.py:167 view.py:466
+#: view.py:167 view.py:470
 msgid "Web GIS name"
 msgstr "Nome del Web GIS"
 
-#: view.py:174 view.py:474
+#: view.py:174 view.py:478
 msgid "Home path"
 msgstr "Percorso Home"
 
-#: view.py:461
+#: view.py:465
 msgid "Info"
 msgstr "Informazioni"
 
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:6 view.py:465
+#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7 view.py:469
 msgid "Settings"
 msgstr "Impostazioni"
 
@@ -132,11 +132,37 @@ msgstr "Copiato"
 msgid "Unable to copy"
 msgstr "Impossibile copiare"
 
+#: amd/ngw-pyramid/DistInfo/DistInfo.js:68
+msgid "<a>Contact support</a> for update."
+msgstr ""
+
+#: amd/ngw-pyramid/DistInfo/DistInfo.js:72
+msgid "Checking for updates..."
+msgstr ""
+
+#: amd/ngw-pyramid/DistInfo/DistInfo.js:74
+msgid "Your {distribution} is up-to-date: {version}."
+msgstr ""
+
+#: amd/ngw-pyramid/DistInfo/DistInfo.js:79
+msgid "New version of {distribution} is available: {version}."
+msgstr ""
+
+#: amd/ngw-pyramid/DistInfo/DistInfo.js:84
+msgid ""
+"Critical updates are available: {version}. Please consider updating an soon "
+"as possible."
+msgstr ""
+
+#: amd/ngw-pyramid/DistInfo/DistInfo.js:114
+msgid "Show details"
+msgstr ""
+
 #: amd/ngw-pyramid/ErrorCard/ErrorCard.js:37
 msgid "Technical information"
 msgstr "Informazioni tecniche"
 
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:39 template/sysinfo.mako:19
+#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:39
 msgid "Contact support"
 msgstr "Contatta il supporto"
 
@@ -190,9 +216,9 @@ msgstr "Editor di testo (RTE)"
 msgid "Enter the correct scale value, e.g. 1:"
 msgstr "Inserisci il valore di scala corretto, ad esempio 1:"
 
-#: amd/ngw-pyramid/modelWidget/FormMixin.js:37
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:37 nodepkg/example/typescript.ts:10
 msgid "Create"
-msgstr "Crea"
+msgstr "Creazione"
 
 #: amd/ngw-pyramid/modelWidget/FormMixin.js:39
 #: amd/ngw-pyramid/template/CORSForm.hbs:26
@@ -205,7 +231,19 @@ msgstr "Salva"
 
 #: amd/ngw-pyramid/modelWidget/FormMixin.js:41
 msgid "Delete"
-msgstr "Elimina"
+msgstr "Eliminazione"
+
+#: amd/ngw-pyramid/right-menu/RightMenu.js:90
+msgid "Critical updates are available"
+msgstr ""
+
+#: amd/ngw-pyramid/right-menu/RightMenu.js:91
+msgid "Updates are available"
+msgstr ""
+
+#: amd/ngw-pyramid/right-menu/RightMenu.js:98
+msgid "Click to see what's new"
+msgstr ""
 
 #: amd/ngw-pyramid/template/CORSForm.hbs:17
 msgid ""
@@ -241,12 +279,12 @@ msgstr "Consigliamo un'altezza di 45 px ed una larghezza massima di 200 px."
 msgid "Cancel"
 msgstr "Annulla"
 
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7
+#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:8
 msgid "Sign out"
 msgstr "Disconnetti"
 
-#: nodepkg/update.js:68
-msgid "Update available"
+#: amd/ngw-pyramid/user-avatar/UserAvatar.js:36
+msgid "Invitation session"
 msgstr ""
 
 #: nodepkg/api/error.js:11
@@ -273,15 +311,15 @@ msgstr "Timestamp (UTC)"
 msgid "Size"
 msgstr "Dimensione"
 
-#: template/header.mako:30
+#: template/header.mako:36
 msgid "Sign in"
 msgstr "Accedi"
 
-#: template/header.mako:90
+#: template/header.mako:106
 msgid "Resources"
 msgstr "Risorse"
 
-#: template/header.mako:103
+#: template/header.mako:119
 msgid "Help"
 msgstr "Aiuto"
 
@@ -320,27 +358,15 @@ msgstr ""
 msgid "Some changes may be reflected only after full estimation."
 msgstr ""
 
-#: template/sysinfo.mako:14
-msgid "Show details"
-msgstr ""
-
-#: template/sysinfo.mako:15
-msgid "New version available:"
-msgstr ""
-
-#: template/sysinfo.mako:19
-msgid "for update."
-msgstr ""
-
-#: template/sysinfo.mako:29
+#: template/sysinfo.mako:28
 msgid "Package"
 msgstr "Pacchetto"
 
-#: template/sysinfo.mako:30
+#: template/sysinfo.mako:29
 msgid "Version"
 msgstr "Versione"
 
-#: template/sysinfo.mako:59
+#: template/sysinfo.mako:58
 msgid "Platform"
 msgstr "Piattaforma"
 

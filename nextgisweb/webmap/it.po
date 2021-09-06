@@ -339,7 +339,7 @@ msgstr "Gradi, minuti, secondi"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:69
 msgid "Measurement SRID"
-msgstr "Misurazione SRS"
+msgstr "Misurazione SR"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:76
 msgid "Address search"
@@ -436,7 +436,7 @@ msgstr "Non salvare"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:115
 msgid "Delete"
-msgstr "Elimina"
+msgstr "Eliminazione"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:212
 msgid "Create annotation"
@@ -514,7 +514,7 @@ msgstr "Stampa"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:18
 msgid "Paper format"
-msgstr "Formato carta"
+msgstr "Formato pagina"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:22
 msgid "Select format"

@@ -54,7 +54,7 @@ msgstr "Formato"
 
 #: amd/ngw-raster-layer/template/ExportForm.hbs:17
 msgid "SRS"
-msgstr "SRS"
+msgstr "SR"
 
 #: amd/ngw-raster-layer/template/ExportForm.hbs:21
 msgid "Bands"

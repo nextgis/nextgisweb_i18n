@@ -1,15 +1,6 @@
-msgid ""
-msgstr ""
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: NextGIS Web GUI\n"
-"Language: it\n"
-
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:115
 msgid "Delete"
-msgstr "Elimina"
+msgstr "Eliminazione"
 
 #: api.py:25
 msgid "Uploaded file too large"
