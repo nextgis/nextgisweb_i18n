@@ -63,15 +63,15 @@ msgstr "El token de acceso de OAuth está caducado"
 
 #: views.py:67
 msgid "Session not found."
-msgstr ""
+msgstr "No se ha encontrado la sesión."
 
 #: views.py:72
 msgid "Invalid 'expires' parameter."
-msgstr ""
+msgstr "Parámetro 'expires' no es válido."
 
 #: views.py:74
 msgid "Session expired."
-msgstr ""
+msgstr "La sesión ha expirado."
 
 #: views.py:231
 msgid "User settings"

@@ -206,7 +206,7 @@ msgstr "Eliminar recurso"
 
 #: view.py:190 view.py:352
 msgid "Resource export"
-msgstr ""
+msgstr "Exportar recurso"
 
 #: view.py:211
 #, python-format
@@ -332,15 +332,15 @@ msgstr "Seleccionar recurso"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.hbs:5
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:19
 msgid "Resources not found"
-msgstr ""
+msgstr "Recursos no se han encontrados"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:25
 msgid "Search resources"
-msgstr ""
+msgstr "Buscar recursos"
 
 #: amd/ngw-resource/template/DeleteWidget.hbs:7
 msgid "Confirm deletion of the resource"
@@ -352,18 +352,21 @@ msgid ""
 "resource data. This will not affect REST API use which will continue to be "
 "governed by permissions."
 msgstr ""
+"Seleccione la categoría de usuarios que pueden utilizar el enlace \"Guardar "
+"como\" para descargar datos de recursos. Esto no afectará el uso de la API "
+"REST, que seguirá estando regida por los permisos."
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:8
 msgid "Users with \"Data: Read\" permission"
-msgstr ""
+msgstr "Usuarios con permiso \"Data: Leer\""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:9
 msgid "Users with \"Data: Write\" permission"
-msgstr ""
+msgstr "Usuarios con permiso \"Data: Escribir\""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:10
 msgid "Administrators"
-msgstr ""
+msgstr "Administradores"
 
 #: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
 #: template/section_summary.mako:6

@@ -129,29 +129,31 @@ msgstr "No se ha podido copiar"
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:68
 msgid "<a>Contact support</a> for update."
-msgstr ""
+msgstr "<a>Comunicar con el servicio de asistencia</a> para obtener actualizaciones."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:72
 msgid "Checking for updates..."
-msgstr ""
+msgstr "Comprobando actualizaciones..."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:74
 msgid "Your {distribution} is up-to-date: {version}."
-msgstr ""
+msgstr "Su {distribution} está actualizada: {version}."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:79
 msgid "New version of {distribution} is available: {version}."
-msgstr ""
+msgstr "Hay una nueva versión de {distribution} disponible: {version}."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:84
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr ""
+"Hay actualizaciones críticas disponibles: {version}. Considere actualizar lo "
+"antes posible."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:114
 msgid "Show details"
-msgstr ""
+msgstr "Mostrar detalles"
 
 #: amd/ngw-pyramid/ErrorCard/ErrorCard.js:37
 msgid "Technical information"
@@ -228,15 +230,15 @@ msgstr "Eliminar"
 
 #: amd/ngw-pyramid/right-menu/RightMenu.js:90
 msgid "Critical updates are available"
-msgstr ""
+msgstr "Hay actualizaciones críticas disponibles"
 
 #: amd/ngw-pyramid/right-menu/RightMenu.js:91
 msgid "Updates are available"
-msgstr ""
+msgstr "Hay actualizaciones disponibles"
 
 #: amd/ngw-pyramid/right-menu/RightMenu.js:98
 msgid "Click to see what's new"
-msgstr ""
+msgstr "Haga clic para ver las novedades"
 
 #: amd/ngw-pyramid/template/CORSForm.hbs:17
 msgid ""
@@ -278,7 +280,7 @@ msgstr "Desconectarse"
 
 #: amd/ngw-pyramid/user-avatar/UserAvatar.js:36
 msgid "Invitation session"
-msgstr ""
+msgstr "Sesión de invitación"
 
 #: nodepkg/api/error.js:11
 msgid "Unknown API error"

@@ -92,12 +92,12 @@ msgstr "Tipo de campo no admitido: %r."
 #: model.py:487
 #, python-format
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
-msgstr ""
+msgstr "El objeto geográfico (sec. #%d) no tiene el campo FID '%s'."
 
 #: model.py:490
 #, python-format
 msgid "Feature (seq. #%d) FID field '%s' is null."
-msgstr ""
+msgstr "El campo FID '%s' del objeto geográfico (sec. #%d) es nulo."
 
 #: model.py:498
 #, python-format
@@ -218,7 +218,7 @@ msgstr "No se puede cambiar el tipo de geometría del recurso existente."
 
 #: amd/ngw-vector-layer/Widget.js:91
 msgid "Validation error"
-msgstr ""
+msgstr "Error de validacion"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:6
 msgid "Spatial reference system"
@@ -248,7 +248,7 @@ msgstr ""
 
 #: amd/ngw-vector-layer/template/Widget.hbs:57
 msgid "Source layer"
-msgstr ""
+msgstr "Capa de origen"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:62
 msgid "Advanced options"
