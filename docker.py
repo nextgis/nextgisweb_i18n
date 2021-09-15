@@ -24,3 +24,4 @@ def on_virtualenv(event):
 @AppImage.on_config.handler
 def on_config(event):
     event.image.config_set('core', 'locale.external_path', PTH)
+    event.image.config_set('core', 'locale.poeditor.project_id', '435991')
