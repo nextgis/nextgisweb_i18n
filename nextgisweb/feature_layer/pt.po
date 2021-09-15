@@ -113,7 +113,7 @@ msgstr "N/A"
 
 #: amd/ngw-feature-layer/FieldsWidget.js:70 template/section_fields.mako:15
 msgid "Keyname"
-msgstr "chave"
+msgstr "Chave"
 
 #: amd/ngw-feature-layer/FieldsWidget.js:80 template/section_fields.mako:16
 msgid "Type"

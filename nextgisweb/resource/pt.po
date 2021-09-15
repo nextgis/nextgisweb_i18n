@@ -370,7 +370,7 @@ msgstr "Nome de exibição"
 
 #: amd/ngw-resource/template/Widget.hbs:13 template/section_summary.mako:15
 msgid "Keyname"
-msgstr "chave"
+msgstr "Chave"
 
 #: amd/ngw-resource/template/Widget.hbs:18
 msgid "Parent"

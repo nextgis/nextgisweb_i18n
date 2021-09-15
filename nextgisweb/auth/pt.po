@@ -111,7 +111,7 @@ msgstr "Grupos"
 
 #: views.py:506 views.py:528
 msgid "List"
-msgstr "Lista de"
+msgstr "Listar"
 
 #: views.py:511 views.py:533
 msgid "Create"

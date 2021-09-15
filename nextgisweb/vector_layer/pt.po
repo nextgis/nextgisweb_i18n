@@ -268,7 +268,7 @@ msgstr "Sempre que for possível"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:81
 msgid "Skip features with unfixable errors"
-msgstr "Salta elementos com erros não corrigíveis"
+msgstr "Saltar elementos com erros incorrigíveis"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:89
 #: amd/ngw-vector-layer/template/Widget.hbs:108

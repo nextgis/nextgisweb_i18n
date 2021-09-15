@@ -162,7 +162,7 @@ msgstr "Topo, graus."
 
 #: amd/ngw-webmap/template/ExtentWidget.hbs:22
 msgid "Right, deg."
-msgstr "Certo, graus."
+msgstr "Direita, graus."
 
 #: amd/ngw-webmap/template/ExtentWidget.hbs:28
 msgid "Bottom, deg."
