@@ -1,0 +1,53 @@
+#: api.py:17
+msgid "Raster mosaic item id not provided."
+msgstr "ID на елемента от растерна мозайка не е посочен."
+
+#: api.py:23
+msgid "Raster mosaic item not found."
+msgstr "Елементът от растерна мозайка не е открит."
+
+#: model.py:39
+msgid "Raster mosaic"
+msgstr "Растерна мозайка"
+
+#: model.py:128
+msgid "GDAL library was unable to open the file."
+msgstr "GDAL библиотека не можа да отвори файла."
+
+#: model.py:131
+msgid "Only RGB and RGBA rasters are supported."
+msgstr "Само RGB и RGBA растери са поддържани."
+
+#: model.py:139
+#, python-format
+msgid ""
+"Raster has format '%(format)s', however only following formats are supported:"
+" %(all_formats)s."
+msgstr ""
+"Растерът има формат  '%(format)s', но само следните формати се поддържат: "
+"%(all_formats)s."
+
+#: model.py:144
+msgid "Raster files without projection info are not supported."
+msgstr "Растерните файлове без данни за проекция не се поддържат."
+
+#: model.py:155
+msgid "Complex data types are not supported."
+msgstr "Комплексните типове данни не се поддържат."
+
+#: amd/ngw-raster-mosaic/ItemWidget.js:51
+msgid "File name"
+msgstr "Файлово име"
+
+#: amd/ngw-raster-mosaic/ItemWidget.js:62
+msgid "Items"
+msgstr "Елементи"
+
+#: amd/ngw-raster-mosaic/ItemWidget.js:90
+msgid "Upload"
+msgstr "Прикачи"
+
+#: amd/ngw-raster-mosaic/ItemWidget.js:110
+msgid "Delete"
+msgstr "Изтрий"
+

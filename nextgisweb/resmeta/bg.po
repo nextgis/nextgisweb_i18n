@@ -1,0 +1,36 @@
+#: amd/ngw-resmeta/Widget.js:88 view.py:18
+msgid "Metadata"
+msgstr "Метаданни"
+
+#: amd/ngw-resmeta/Widget.js:50 template/section.mako:9
+msgid "Key"
+msgstr "Ключ"
+
+#: amd/ngw-resmeta/Widget.js:59 template/section.mako:10
+msgid "Type"
+msgstr "Тип"
+
+#: amd/ngw-resmeta/Widget.js:66 template/section.mako:11
+msgid "Value"
+msgstr "Значение"
+
+#: amd/ngw-resmeta/Widget.js:115
+msgid "Text"
+msgstr "Текст"
+
+#: amd/ngw-resmeta/Widget.js:122
+msgid "Integer"
+msgstr "Цяло число"
+
+#: amd/ngw-resmeta/Widget.js:129
+msgid "Float"
+msgstr "Реално число"
+
+#: amd/ngw-resmeta/Widget.js:136
+msgid "Add"
+msgstr "Добави"
+
+#: amd/ngw-resmeta/Widget.js:142
+msgid "Remove"
+msgstr "Премахни"
+

@@ -1,0 +1,109 @@
+#: amd/ngw-tmsclient/ConnectionWidget.js:34
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:55
+msgid "TMS connection"
+msgstr "TMS връзка"
+
+#: model.py:168
+msgid "Zoom is out of range."
+msgstr "Мащабът е извън диапазона"
+
+#: amd/ngw-tmsclient/LayerWidget.js:37 model.py:176
+msgid "TMS layer"
+msgstr "TMS слой"
+
+#: view.py:24
+msgid "TMS capabilities"
+msgstr "Възможности на TMS"
+
+#: amd/ngw-tmsclient/LayersDialog.js:25
+msgid "Select layer"
+msgstr "Избери слой"
+
+#: amd/ngw-tmsclient/LayersDialog.js:63
+msgid "OK"
+msgstr "ОК"
+
+#: amd/ngw-tmsclient/LayersDialog.js:72
+msgid "Cancel"
+msgstr "Откажи"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
+msgid "Capmode"
+msgstr "Начин"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:11
+msgid "Custom"
+msgstr "Персонализиран"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
+msgid "NextGIS geoservices"
+msgstr "NextGIS геоуслуги"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:20
+msgid "URL template"
+msgstr "URL шаблон"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:26
+msgid "API key"
+msgstr "API ключ"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:32
+msgid "API key param"
+msgstr "Параметър на API ключ"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:38
+msgid "Username"
+msgstr "Потребителско име"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
+msgid "Password"
+msgstr "Парола"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:49
+msgid "Scheme"
+msgstr "Схема"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:55
+msgid "Skip SSL/TLS certificate verification"
+msgstr "Пропусни проверката на SSL/TLS сертификат"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:15
+msgid "Choose a layer"
+msgstr "Избиране на слой"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+msgid "Coordinate system"
+msgstr "Координатна система"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:30
+msgid "Layer"
+msgstr "Слой"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:39
+msgid "Min zoom level"
+msgstr "Минимално приближаване"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:45
+msgid "Max zoom level"
+msgstr "Максимално увеличаване"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
+msgid "Left, deg."
+msgstr "Лява граница, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
+msgid "Bottom, deg."
+msgstr "Долна граница, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
+msgid "Right, deg."
+msgstr "Дясна граница, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
+msgid "Top, deg."
+msgstr "Горна граница, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:75
+msgid "Tile size, px"
+msgstr "Размер на плочка, px"
+

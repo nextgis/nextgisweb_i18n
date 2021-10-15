@@ -1,5 +1,5 @@
 {
-  "locales": ["cs", "de", "es", "fr", "it", "pt"],
+  "locales": ["bg", "cs", "de", "es", "fr", "it", "pt"],
   "packages": [
     "nextgisweb",
     "nextgisweb_basemap",

@@ -1,0 +1,28 @@
+#: amd/ngw-svg-marker-library/Widget.js:62 model.py:29 view.py:19 view.py:32
+msgid "SVG marker library"
+msgstr "Библиотека на SVG-маркери"
+
+#: view.py:23
+msgid "Export"
+msgstr "Експортиране"
+
+#: amd/ngw-svg-marker-library/Widget.js:54
+msgid "File name"
+msgstr "Файлово име"
+
+#: amd/ngw-svg-marker-library/Widget.js:82
+msgid "Upload files"
+msgstr "Прикачи файлове"
+
+#: amd/ngw-svg-marker-library/Widget.js:102
+msgid "Upload archive"
+msgstr "Прикачи архиви"
+
+#: amd/ngw-svg-marker-library/Widget.js:133
+msgid "Delete"
+msgstr "Изтрий"
+
+#: template/section.mako:6
+msgid "Name"
+msgstr "Име"
+

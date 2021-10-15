@@ -1,0 +1,4 @@
+#: models.py:12
+msgid "SRS identifier"
+msgstr "Координатна система"
+

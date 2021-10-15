@@ -1,0 +1,407 @@
+#: __init__.py:91
+msgid "Main resource group"
+msgstr "Основна група ресурси"
+
+#: api.py:71
+msgid "Root resource could not be deleted."
+msgstr "Коренен ресурс не може да е изтрит."
+
+#: api.py:119
+msgid "Resource parent required."
+msgstr "Трябва да се посочи родителски ресурс."
+
+#: api.py:122
+msgid "Resource class required."
+msgstr "Трябва да се посочи класа на ресурса."
+
+#: api.py:125
+#, python-format
+msgid "Unknown resource class '%s'."
+msgstr "Неизвестна класа на ресурса '%s'."
+
+#: api.py:131
+#, python-format
+msgid "Resource class '%s' disabled."
+msgstr "Класата на ресурса '%s' е изключена."
+
+#: api.py:213
+msgid "Permission not found"
+msgstr "Разрешителното не е открито"
+
+#: exception.py:27
+msgid "Resource not found"
+msgstr "Ресурсът не е открит"
+
+#: exception.py:28
+#, python-format
+msgid "Resource with id = %d was not found."
+msgstr "Ресурсът с id = %d не е открит."
+
+#: exception.py:29
+msgid ""
+"The resource may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired resource."
+msgstr ""
+"Ресурсът може да е премахнат или да има грешка в адреса. Коригирайте адреса "
+"или преминете към началната страница и се опитайте да намерите искания "
+"ресурс."
+
+#: exception.py:41
+msgid "Resource display name is not unique"
+msgstr "Името на ресурса не е уникално"
+
+#: exception.py:42
+#, python-format
+msgid "Resource with same display name already exists (id = %d)."
+msgstr "Вече съществува ресурс със същото име (id = %d)."
+
+#: exception.py:43
+msgid ""
+"Within a single parent resource, each resource must have unique display name."
+" Give the resource a different display name or rename existing."
+msgstr ""
+"В рамките на един родителски ресурс всички ресурси трябва да имат уникални "
+"имена. Преименувайте този ресурс или един от вече съществуващите."
+
+#: exception.py:68
+msgid "Forbidden"
+msgstr "Забранено"
+
+#: amd/ngw-resource/CompositeWidget.js:264 exception.py:76
+msgid "Validation error"
+msgstr "Грешка при валидация"
+
+#: exception.py:81
+msgid "Hierarchy error"
+msgstr "Йерархична грешка"
+
+#: exception.py:88
+msgid "Operational error"
+msgstr "Операционна грешка"
+
+#: amd/ngw-resource/PermissionWidget.js:94 amd/ngw-resource/PermissionWidget.js:183
+#: amd/ngw-resource/Widget.js:32 amd/ngw-resource/form/ResourceLink.js:35
+#: model.py:110 scope.py:27
+msgid "Resource"
+msgstr "Ресурс"
+
+#: model.py:269
+msgid "Resource can not be a parent himself."
+msgstr "Ресурсът не може да е родител за самия себе си."
+
+#: model.py:282
+msgid "Resource keyname is not unique."
+msgstr "Ключовото име на ресурса не е уникално."
+
+#: model.py:342
+msgid "Resource can not be without a parent."
+msgstr "Ресурсът трябва да има родител."
+
+#: model.py:348
+#, python-format
+msgid "You are not allowed to manage children of resource with id = %d."
+msgstr "Не можете да управлявате дъщерните ресурси с id = %d."
+
+#: model.py:353
+#, python-format
+msgid "Resource can not be a child of resource id = %d."
+msgstr "Ресурсът не може да е дъщерен на този с id = %d."
+
+#: model.py:490
+#, python-format
+msgid "Maximum number of resources exceeded. The limit is %s."
+msgstr "Надвишен е максимален брой ресурси. Пределът е %s."
+
+#: model.py:507
+#, python-format
+msgid "Maximum number of resources '%s' exceeded. The limit is %s."
+msgstr "Надвишен е максимален брой ресурси. Пределът е %s."
+
+#: model.py:563
+msgid "Resource group"
+msgstr "Група ресурси"
+
+#: scope.py:29 scope.py:68 scope.py:80 scope.py:90 scope.py:103
+msgid "Read"
+msgstr "Прочети"
+
+#: amd/ngw-resource/CompositeWidget.js:77 scope.py:35
+msgid "Create"
+msgstr "Създай"
+
+#: scope.py:42 view.py:322
+msgid "Update"
+msgstr "Актуализирай"
+
+#: amd/ngw-resource/CompositeWidget.js:96 amd/ngw-resource/PermissionWidget.js:321
+#: scope.py:46 view.py:330
+msgid "Delete"
+msgstr "Премахни"
+
+#: scope.py:51
+msgid "Manage children"
+msgstr "Управляване на дъщерните ресурси"
+
+#: scope.py:54
+msgid "Change permissions"
+msgstr "Редактирай разрешителни"
+
+#: scope.py:66
+msgid "Metadata"
+msgstr "Метаданни"
+
+#: scope.py:69 scope.py:81 scope.py:91 scope.py:104
+msgid "Write"
+msgstr "Запиши"
+
+#: scope.py:78
+msgid "Data structure"
+msgstr "Структура данни"
+
+#: scope.py:88
+msgid "Data"
+msgstr "Данни"
+
+#: scope.py:101
+msgid "Connection"
+msgstr "Връзка"
+
+#: scope.py:105 scope.py:117
+msgid "Connect"
+msgstr "Съединение"
+
+#: scope.py:115
+msgid "Service"
+msgstr "Услуга"
+
+#: scope.py:118
+msgid "Configure"
+msgstr "Конфигурация"
+
+#: serialize.py:100
+#, python-format
+msgid "Attribute '%s' forbidden."
+msgstr "Атрибутът '%s' е забранен."
+
+#: view.py:88 view.py:337
+msgid "JSON view"
+msgstr "Преглед в JSON"
+
+#: view.py:123
+msgid "Resource tree"
+msgstr "Дърво ресурси"
+
+#: view.py:129 view.py:347
+msgid "Create resource"
+msgstr "Създай ресурс"
+
+#: view.py:137
+msgid "Update resource"
+msgstr "Актуализирай ресурс"
+
+#: amd/ngw-resource/DeleteWidget.js:20 view.py:144
+msgid "Delete resource"
+msgstr "Премахни ресурс"
+
+#: view.py:193 view.py:355
+msgid "Resource export"
+msgstr "Експорт на ресурса"
+
+#: view.py:214
+#, python-format
+msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
+msgstr "Недостатъчни права '%s' в мащаба '%s' за ресурса id = %d."
+
+#: view.py:272
+msgid "Child resources"
+msgstr "Дъщерни ресурси"
+
+#: amd/ngw-resource/DescriptionWidget.js:19 view.py:279
+msgid "Description"
+msgstr "Описание"
+
+#: view.py:286
+msgid "User permissions"
+msgstr "Разрешителни за потребители"
+
+#: amd/ngw-resource/PermissionWidget.js:66 amd/ngw-resource/PermissionWidget.js:133
+#: view.py:348
+msgid "Action"
+msgstr "Действия"
+
+#: view.py:349
+msgid "Extra"
+msgstr "Друго"
+
+#: amd/ngw-resource/CompositeWidget.js:53
+msgid "Please wait. Processing request..."
+msgstr "Изчакайте. Заявката се обработва..."
+
+#: amd/ngw-resource/CompositeWidget.js:82
+msgid "Create and edit"
+msgstr "Създаване и редактиране"
+
+#: amd/ngw-resource/CompositeWidget.js:89
+#: amd/ngw-resource/template/ResourceExportForm.hbs:15
+msgid "Save"
+msgstr "Запази"
+
+#: amd/ngw-resource/CompositeWidget.js:256 amd/ngw-resource/CompositeWidget.js:272
+msgid "Unexpected error"
+msgstr "Неочаквана грешка"
+
+#: amd/ngw-resource/CompositeWidget.js:257
+msgid "Serialization failed"
+msgstr "Сериализацията е неуспешна"
+
+#: amd/ngw-resource/CompositeWidget.js:265
+msgid "Errors found during data validation. Tabs with errors marked in red."
+msgstr "Грешки при валидиране на данните. Табовете, съдържащи грешки, са в червено."
+
+#: amd/ngw-resource/CompositeWidget.js:273
+msgid "Validation failed"
+msgstr "Валидацията е неуспешна"
+
+#: amd/ngw-resource/PermissionWidget.js:57
+msgid "All resources"
+msgstr "Всички ресурси"
+
+#: amd/ngw-resource/PermissionWidget.js:58
+msgid "All permissions"
+msgstr "Всички разрешителни"
+
+#: amd/ngw-resource/PermissionWidget.js:69 amd/ngw-resource/PermissionWidget.js:136
+msgid "Allow"
+msgstr "Разреши"
+
+#: amd/ngw-resource/PermissionWidget.js:70 amd/ngw-resource/PermissionWidget.js:137
+msgid "Deny"
+msgstr "Забрани"
+
+#: amd/ngw-resource/PermissionWidget.js:76 amd/ngw-resource/PermissionWidget.js:142
+msgid "Principal"
+msgstr "Субект"
+
+#: amd/ngw-resource/PermissionWidget.js:82 amd/ngw-resource/PermissionWidget.js:177
+msgid "Permission"
+msgstr "Разрешително"
+
+#: amd/ngw-resource/PermissionWidget.js:104
+#: amd/ngw-resource/PermissionWidget.js:189
+msgid "Propagate"
+msgstr "Разпространи"
+
+#: amd/ngw-resource/PermissionWidget.js:107
+msgid "Yes"
+msgstr "Да"
+
+#: amd/ngw-resource/PermissionWidget.js:109
+msgid "No"
+msgstr "Не"
+
+#: amd/ngw-resource/PermissionWidget.js:120
+msgid "Permission item"
+msgstr "Обект на разрешително"
+
+#: amd/ngw-resource/PermissionWidget.js:197 amd/ngw-resource/ResourcePicker.js:56
+msgid "OK"
+msgstr "ОК"
+
+#: amd/ngw-resource/PermissionWidget.js:206 amd/ngw-resource/ResourcePicker.js:65
+msgid "Cancel"
+msgstr "Откажи"
+
+#: amd/ngw-resource/PermissionWidget.js:240
+msgid "Permissions"
+msgstr "Разрешителни"
+
+#: amd/ngw-resource/PermissionWidget.js:308
+msgid "Add"
+msgstr "Добави"
+
+#: amd/ngw-resource/PermissionWidget.js:314
+msgid "Edit"
+msgstr "Редактирай"
+
+#: amd/ngw-resource/ResourcePicker.js:31
+msgid "Select resource"
+msgstr "Избери ресурс"
+
+#: amd/ngw-resource/ResourcesFilter/ResourcesFilter.hbs:5
+msgid "Search"
+msgstr "Търсене"
+
+#: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:19
+msgid "Resources not found"
+msgstr "Ресурсите не са открити"
+
+#: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:25
+msgid "Search resources"
+msgstr "Търсене на ресурси"
+
+#: amd/ngw-resource/template/DeleteWidget.hbs:7
+msgid "Confirm deletion of the resource"
+msgstr "Потвърди премахването на ресурса"
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:3
+msgid ""
+"Select the category of users who can use the \"Save as\" link to download "
+"resource data. This will not affect REST API use which will continue to be "
+"governed by permissions."
+msgstr ""
+"Изберете категория потребители, които могат да използват линка \"Запази "
+"като\" да изтеглят данните на ресурса. Това няма да повлияе върху "
+"използването на REST API, което ще продължи да се управлява чрез "
+"разрешителни."
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:8
+msgid "Users with \"Data: Read\" permission"
+msgstr "Потребители с разрешително за \"Данни: Четене\""
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:9
+msgid "Users with \"Data: Write\" permission"
+msgstr "Потребители с разрешително за \"Данни: Записване\""
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:10
+msgid "Administrators"
+msgstr "Администратори"
+
+#: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
+#: template/section_summary.mako:6
+msgid "Display name"
+msgstr "Показвано име"
+
+#: amd/ngw-resource/template/Widget.hbs:13 template/section_summary.mako:15
+msgid "Keyname"
+msgstr "Ключ"
+
+#: amd/ngw-resource/template/Widget.hbs:18
+msgid "Parent"
+msgstr "Родител"
+
+#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:144
+#: template/section_summary.mako:44
+msgid "Owner"
+msgstr "Собственик"
+
+#: amd/ngw-resource/template/Widget.hbs:28 template/section_children.mako:143
+#: template/section_summary.mako:36
+msgid "Type"
+msgstr "Тип"
+
+#: template/section_api.mako:4
+msgid "Use these links to plug data into external applications."
+msgstr "Използвайте тези линкове за вкарване не данните в странични приложения."
+
+#: template/section_children.mako:128
+msgid "Show resources volume"
+msgstr "Покажи обема на ресурса"
+
+#: template/section_children.mako:145
+msgid "Volume"
+msgstr "Обем"
+
+#: template/section_description.mako:4
+msgid "Resource description is empty."
+msgstr "Описанието на ресурса е празно."
+

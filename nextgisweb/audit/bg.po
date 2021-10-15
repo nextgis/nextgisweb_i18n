@@ -1,0 +1,61 @@
+#: view.py:32
+msgid "'date_first' and 'date_last' are mutually exclusive."
+msgstr "'date_first' и 'date_last' са взаимноизключващи се."
+
+#: view.py:52 view.py:109
+msgid "Journal"
+msgstr "Журнал"
+
+#: view.py:82
+#, python-format
+msgid "Journal record: %s"
+msgstr "Запис в журнала: %s"
+
+#: view.py:108
+msgid "Audit"
+msgstr "Проверка"
+
+#: amd/ngw-audit/JournalFilter/JournalFilter.hbs:17
+msgid "Search"
+msgstr "Търсене"
+
+#: amd/ngw-audit/JournalFilter/JournalFilter.hbs:23
+msgid "Export"
+msgstr "Експортиране"
+
+#: template/browse.mako:45
+msgid "All users"
+msgstr "Всички потребители"
+
+#: template/browse.mako:46
+msgid "Non-empty users"
+msgstr "Непразни потребители"
+
+#: template/browse.mako:88
+msgid "Timestamp"
+msgstr "Време"
+
+#: template/browse.mako:89
+msgid "Status"
+msgstr "Статут"
+
+#: template/browse.mako:90
+msgid "Method"
+msgstr "Начин"
+
+#: template/browse.mako:91
+msgid "Path"
+msgstr "Път"
+
+#: template/browse.mako:92
+msgid "Route name"
+msgstr "Име на пътя"
+
+#: template/browse.mako:93
+msgid "Context"
+msgstr "Контекст"
+
+#: template/browse.mako:94
+msgid "User"
+msgstr "Потребител"
+

@@ -1,0 +1,58 @@
+#: __init__.py:40 amd/ngw-render/TileCacheWidget.js:25
+msgid "Tile cache"
+msgstr "Кеш на плочките"
+
+#: view.py:24
+msgid "External access"
+msgstr "Външен достъп"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:11
+msgid "Enabled"
+msgstr "Включен"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:16
+msgid "Allow using tiles in non-tile requests"
+msgstr "Разрешава се използването на плочки в заявки за изображения"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:21
+msgid "Max zoom level"
+msgstr "Максимално увеличаване"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:26
+msgid "TTL, sec."
+msgstr "TTL, сек."
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:31
+msgid "Track changes"
+msgstr "Проследяване на промени"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:37
+msgid "Seed zoom level"
+msgstr "Запълни нивото на увеличване"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:42
+msgid "Flush"
+msgstr "Очисти"
+
+#: template/section_api_renderable.mako:8
+msgid "TMS (Tile Map Service)"
+msgstr "TMS (Tile Map Service)"
+
+#: template/section_api_renderable.mako:12
+msgid ""
+"TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
+"is a map displayed in a browser by seamlessly joining dozens of individually "
+"requested image."
+msgstr ""
+"TMS (Tile Map Service) е спецификация за плочки за уеб карти. Уеб карта с "
+"плочки е карта, отразявана в браузъра чрез безшевно комбиниране на десетки "
+"индивидуално откривани изображения."
+
+#: template/section_api_renderable.mako:17
+msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+msgstr "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+
+#: template/section_api_renderable.mako:18
+msgid "Read more"
+msgstr "Детайли"
+

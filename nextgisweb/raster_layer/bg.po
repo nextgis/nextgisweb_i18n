@@ -1,0 +1,78 @@
+#: api.py:30
+msgid "Output format is not provided."
+msgstr "Не е посочен изходящ формат."
+
+#: api.py:33
+#, python-format
+msgid "Format '%s' is not supported."
+msgstr "Форматът '%s' не се поддържа."
+
+#: kind_of_data.py:12
+msgid "Rasters and pyramids"
+msgstr "Растери и пирамиди"
+
+#: amd/ngw-raster-layer/Widget.js:26 model.py:61 view.py:35
+msgid "Raster layer"
+msgstr "Растерен слой"
+
+#: model.py:81
+msgid "GDAL library was unable to open the file."
+msgstr "GDAL библиотека не можа да отвори файла."
+
+#: model.py:89
+#, python-format
+msgid ""
+"Raster has format '%(format)s', however only following formats are supported:"
+" %(all_formats)s."
+msgstr ""
+"Растерът има формат  '%(format)s', но само следните формати се поддържат: "
+"%(all_formats)s."
+
+#: model.py:94
+msgid "Raster files without projection info are not supported."
+msgstr "Растерните файлове без данни за проекция не се поддържат."
+
+#: model.py:105
+msgid "Complex data types are not supported."
+msgstr "Комплексните типове данни не се поддържат."
+
+#: model.py:179
+msgid "Data type"
+msgstr "Тип данни"
+
+#: view.py:24 view.py:39
+msgid "Save as"
+msgstr "Запази като"
+
+#: amd/ngw-raster-layer/ExportForm.js:101
+msgid "Band"
+msgstr "Канал"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:13
+msgid "Format"
+msgstr "Формат"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:17
+msgid "SRS"
+msgstr "Координатна система"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:21
+msgid "Bands"
+msgstr "Канали"
+
+#: amd/ngw-raster-layer/template/ExportForm.hbs:30
+msgid "Save"
+msgstr "Запази"
+
+#: amd/ngw-raster-layer/template/Widget.hbs:3
+msgid "Select a dataset"
+msgstr "Изберете растерен слой"
+
+#: amd/ngw-raster-layer/template/Widget.hbs:4
+msgid "Dataset should be in GeoTIFF format."
+msgstr "Набор от данни трябва да е в GeoTIFF формат."
+
+#: amd/ngw-raster-layer/template/Widget.hbs:8
+msgid "Coordinate system"
+msgstr "Координатна система"
+

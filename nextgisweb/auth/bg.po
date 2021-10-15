@@ -1,0 +1,204 @@
+#: __init__.py:47
+msgid "Guest"
+msgstr "Гост"
+
+#: __init__.py:53
+msgid "Everyone"
+msgstr "Всички"
+
+#: __init__.py:59
+msgid "Authenticated"
+msgstr "Проверен"
+
+#: __init__.py:67
+msgid "Administrators"
+msgstr "Администратори"
+
+#: __init__.py:70
+msgid "Administrator"
+msgstr "Администратор"
+
+#: __init__.py:79
+msgid "Owner"
+msgstr "Собственик"
+
+#: __init__.py:238
+#, python-format
+msgid "Maximum number of users is reached. Your current plan user number limit is %d."
+msgstr "Достигнат е максимален брой потребители. По текущия план пределът е %d."
+
+#: api.py:214
+msgid "System principals couldn't be chanded."
+msgstr "Субектите на системата не могат да бъдат променени."
+
+#: exception.py:10
+msgid "Invalid credentials"
+msgstr "Погрешни данни"
+
+#: exception.py:15
+msgid "User is disabled"
+msgstr "Потребителят е блокиран"
+
+#: oauth.py:127
+msgid "User is already bound"
+msgstr "Потребителят вече е свързан"
+
+#: oauth.py:329
+msgid "OAuth authorization error"
+msgstr "Грешка при авторизация OAuth"
+
+#: oauth.py:334
+msgid "Invalid OAuth token"
+msgstr "OAuth токен не е валиден"
+
+#: oauth.py:339
+msgid "OAuth token refresh failed"
+msgstr "Неуспешно обновяване на OAuth токен"
+
+#: oauth.py:344
+msgid "OAuth access token is expired"
+msgstr "OAuth токен за достъп е с изтекъл срок"
+
+#: views.py:67
+msgid "Session not found."
+msgstr "Сесии не са открити."
+
+#: views.py:72
+msgid "Invalid 'expires' parameter."
+msgstr "Параметърът 'expires' е невалиден."
+
+#: views.py:74
+msgid "Session expired."
+msgstr "Сесията е изтекла."
+
+#: views.py:231
+msgid "User settings"
+msgstr "Потребителски настройки"
+
+#: views.py:304
+msgid "Group name is not unique."
+msgstr "Името на групата не е уникално."
+
+#: views.py:342
+msgid "Create new group"
+msgstr "Нова група"
+
+#: views.py:393
+msgid "Login is not unique."
+msgstr "Потребителското име не е уникално."
+
+#: views.py:408
+msgid ""
+"You can't disable current administrator. At least one enabled administrator "
+"is required."
+msgstr ""
+"Не е възможно да блокирате настоящ администратор. Трябва да има поне един "
+"активен администратор."
+
+#: views.py:452
+msgid "Create new user"
+msgstr "Нов потребител"
+
+#: views.py:485 views.py:550
+msgid "Users"
+msgstr "Потребители"
+
+#: views.py:495 views.py:553
+msgid "Groups"
+msgstr "Групи"
+
+#: views.py:506 views.py:528
+msgid "List"
+msgstr "Списък"
+
+#: views.py:511 views.py:533
+msgid "Create"
+msgstr "Създай"
+
+#: views.py:517 views.py:539
+msgid "Edit"
+msgstr "Редактирай"
+
+#: amd/ngw-auth/GroupWidget.js:36
+msgid "Group"
+msgstr "Група"
+
+#: amd/ngw-auth/SettingsForm.js:54
+msgid "Saved"
+msgstr "Запазено"
+
+#: amd/ngw-auth/UserWidget.js:36
+msgid "User"
+msgstr "Потребител"
+
+#: amd/ngw-auth/UserWidget.js:45
+msgid "Enter new password here"
+msgstr "Въведете нова парола тук"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:7 amd/ngw-auth/template/UserWidget.hbs:8
+#: template/group_browse.mako:18 template/user_browse.mako:18
+msgid "Full name"
+msgstr "Пълно име"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:13 template/group_browse.mako:19
+msgid "Group name"
+msgstr "Име на групата"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:19 amd/ngw-auth/template/UserWidget.hbs:52
+msgid "Description"
+msgstr "Описание"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:24
+msgid "Assign at registration"
+msgstr "Да се назначава при регистриране"
+
+#: amd/ngw-auth/template/GroupWidget.hbs:30
+msgid "Group members"
+msgstr "Членове на групата"
+
+#: amd/ngw-auth/template/SettingsForm.hbs:13
+#: amd/ngw-auth/template/UserWidget.hbs:30
+msgid "Language"
+msgstr "Език"
+
+#: amd/ngw-auth/template/UserWidget.hbs:15 template/login.mako:44
+#: template/user_browse.mako:19
+msgid "Login"
+msgstr "Потребителско име"
+
+#: amd/ngw-auth/template/UserWidget.hbs:23 template/login.mako:47
+msgid "Password"
+msgstr "Парола"
+
+#: amd/ngw-auth/template/UserWidget.hbs:37
+msgid "OAuth subject"
+msgstr "Субект на OAuth"
+
+#: amd/ngw-auth/template/UserWidget.hbs:43
+msgid "Disabled"
+msgstr "Изключен"
+
+#: amd/ngw-auth/template/UserWidget.hbs:59
+msgid "Groups member"
+msgstr "Членува в групи"
+
+#: template/login.mako:13
+msgid "Authorization Required"
+msgstr "Изисква се авторизация"
+
+#: template/login.mako:15
+msgid "Sign in to Web GIS"
+msgstr "Влез в Web GIS"
+
+#: template/login.mako:27 template/login.mako:37 template/settings.mako:13
+msgid "Sign in with OAuth"
+msgstr "Влез с OAuth"
+
+#: template/login.mako:53 template/session_invite.mako:14
+msgid "Sign in"
+msgstr "Влез"
+
+#: template/settings.mako:15
+msgid "Your account is bound to NextGIS ID account"
+msgstr "Вашият профил е свързан с NextGIS ID профил"
+

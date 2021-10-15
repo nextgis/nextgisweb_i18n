@@ -1,0 +1,50 @@
+#: __init__.py:15
+msgid "Feature attachments"
+msgstr "Файлове, прикачени към обекти"
+
+#: exception.py:15
+msgid "Attachment not found"
+msgstr "Прикачен файл не е открит"
+
+#: exception.py:16
+#, python-format
+msgid "Attachment with id = %d was not found in feature with id = %d."
+msgstr "Прикаченият файл с id = %d не е открит в обекта с id = %d."
+
+#: exception.py:17
+msgid "The attachment may have been deleted or an error in the address."
+msgstr "Прикачените файлове може да са изтрити или има грешка в адреса."
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:36
+#: amd/ngw-feature-attachment/EditorWidget.js:109
+msgid "Attachments"
+msgstr "Прикачени файлове"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:76
+msgid "File name"
+msgstr "Файлово име"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:84
+msgid "Size"
+msgstr "Размер"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:90
+msgid "MIME type"
+msgstr "Тип MIME"
+
+#: amd/ngw-feature-attachment/DisplayWidget.js:89
+#: amd/ngw-feature-attachment/EditorWidget.js:97
+msgid "Description"
+msgstr "Описание"
+
+#: amd/ngw-feature-attachment/EditorWidget.js:130
+msgid "Upload"
+msgstr "Прикачи"
+
+#: amd/ngw-feature-attachment/EditorWidget.js:153
+msgid "Delete"
+msgstr "Изтрий"
+

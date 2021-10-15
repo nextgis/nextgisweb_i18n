@@ -1,0 +1,678 @@
+#: __init__.py:28
+msgid "Main web map"
+msgstr "Основна уеб карта"
+
+#: adapter.py:24
+msgid "Tiles"
+msgstr "Плочки"
+
+#: adapter.py:34
+msgid "Image"
+msgstr "Изображение"
+
+#: model.py:31 model.py:40 view.py:181 view.py:202
+msgid "Web map"
+msgstr "Уеб карта"
+
+#: model.py:33 view.py:188
+msgid "Display"
+msgstr "Покажи"
+
+#: model.py:34
+msgid "View annotations"
+msgstr "Покажи анотации"
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:173 model.py:35
+msgid "Edit annotations"
+msgstr "Редактирай анотации"
+
+#: view.py:36 view.py:203
+msgid "Web map settings"
+msgstr "Настройки на уеб картата"
+
+#: view.py:209
+msgid "External access"
+msgstr "Външен достъп"
+
+#: amd/ngw-webmap/Display.js:214 amd/ngw-webmap/Display.js:1011
+#: amd/ngw-webmap/ItemWidget.js:243
+msgid "Layers"
+msgstr "Слоеве"
+
+#: amd/ngw-webmap/Display.js:220
+msgid "Search"
+msgstr "Търсене"
+
+#: amd/ngw-webmap/Display.js:226 amd/ngw-webmap/Display.js:436
+msgid "Share"
+msgstr "Сподели"
+
+#: amd/ngw-webmap/Display.js:232 amd/ngw-webmap/Display.js:331
+msgid "Print map"
+msgstr "Принтирай картата"
+
+#: amd/ngw-webmap/Display.js:370 amd/ngw-webmap/Display.js:377
+msgid "Bookmarks"
+msgstr "Отметки"
+
+#: amd/ngw-webmap/Display.js:400 amd/ngw-webmap/plugin/LayerInfo.js:36
+msgid "Description"
+msgstr "Описание"
+
+#: amd/ngw-webmap/Display.js:537 amd/ngw-webmap/Display.js:547
+msgid "Annotations"
+msgstr "Анотации"
+
+#: amd/ngw-webmap/Display.js:729 amd/ngw-webmap/tool/Zoom.js:18
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:479
+msgid "Zoom in"
+msgstr "Приближи"
+
+#: amd/ngw-webmap/Display.js:730 amd/ngw-webmap/tool/Zoom.js:21
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:480
+msgid "Zoom out"
+msgstr "Отдалечи"
+
+#: amd/ngw-webmap/Display.js:734 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:484
+msgid "Attributions"
+msgstr "Данни за собственниците"
+
+#: amd/ngw-webmap/Display.js:750
+msgid "Initial extent"
+msgstr "Начален обхват"
+
+#: amd/ngw-webmap/Display.js:753 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:493
+msgid "Reset rotation"
+msgstr "Върни в изходно положение"
+
+#: amd/ngw-webmap/ExtentWidget.js:31
+msgid "Extent and bookmarks"
+msgstr "Обхват и отметки"
+
+#: amd/ngw-webmap/ItemWidget.js:94 amd/ngw-webmap/template/ItemWidget.hbs:41
+msgid "Layer order"
+msgstr "Редът на слоевете"
+
+#: amd/ngw-webmap/ItemWidget.js:144
+msgid "Use on the map"
+msgstr "Използвай в картата"
+
+#: amd/ngw-webmap/ItemWidget.js:148 amd/ngw-webmap/template/SettingsForm.hbs:93
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:105
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:43
+msgid "Save"
+msgstr "Запази"
+
+#: amd/ngw-webmap/ItemWidget.js:309 amd/ngw-webmap/template/ItemWidget.hbs:26
+msgid "Add group"
+msgstr "Добави група"
+
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:23
+msgid "Your annotation text"
+msgstr "Вашата анотация"
+
+#: amd/ngw-webmap/layers/annotations/AnnotationsPopup.hbs:7
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:209
+msgid "Edit annotation"
+msgstr "Редактирай анотацията"
+
+#: amd/ngw-webmap/plugin/FeatureLayer.js:59
+msgid "Go to"
+msgstr "Премини към"
+
+#: amd/ngw-webmap/plugin/FeatureLayer.js:115
+msgid "Feature table"
+msgstr "Таблица на обекти"
+
+#: amd/ngw-webmap/plugin/LayerEditor.js:102
+msgid "Editing"
+msgstr "Редактиране"
+
+#: amd/ngw-webmap/plugin/ZoomToLayer.js:24
+msgid "Zoom to layer"
+msgstr "Увеличи до слоя"
+
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.hbs:10
+msgid "Enable layers editing"
+msgstr "Разреши редактирането на слоя"
+
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:40
+msgid "Settings"
+msgstr "Настройки"
+
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:52
+msgid "Enable annotations"
+msgstr "Разреши анотации"
+
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:55
+msgid "Show annotations by default"
+msgstr "Показване на анотации по подразбиране"
+
+#: amd/ngw-webmap/template/Display.hbs:13
+msgid "Map"
+msgstr "Карта"
+
+#: amd/ngw-webmap/template/ExtentWidget.hbs:10
+msgid "Left, deg."
+msgstr "Лява граница, град."
+
+#: amd/ngw-webmap/template/ExtentWidget.hbs:16
+msgid "Top, deg."
+msgstr "Горна граница, град."
+
+#: amd/ngw-webmap/template/ExtentWidget.hbs:22
+msgid "Right, deg."
+msgstr "Дясна граница, град."
+
+#: amd/ngw-webmap/template/ExtentWidget.hbs:28
+msgid "Bottom, deg."
+msgstr "Долна граница, град."
+
+#: amd/ngw-webmap/template/ExtentWidget.hbs:34
+msgid "Set extent from layer"
+msgstr "Избери обхват от слоя"
+
+#: amd/ngw-webmap/template/ExtentWidget.hbs:38
+msgid "Select layer"
+msgstr "Избери слой"
+
+#: amd/ngw-webmap/template/ExtentWidget.hbs:46
+msgid "Constrain to extent"
+msgstr "Фиксирай обхват"
+
+#: amd/ngw-webmap/template/ExtentWidget.hbs:49
+msgid "Select vector layer"
+msgstr "Избери векторен слой"
+
+#: amd/ngw-webmap/template/ExtentWidget.hbs:51
+msgid "Bookmark resource"
+msgstr "Ресурс на отметки"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:14
+msgid "Add layer"
+msgstr "Добави слой"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:18
+msgid "Select layer\\'s style"
+msgstr "Избери стил за слоя"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:33
+msgid "Remove"
+msgstr "Премахни"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:73
+#: amd/ngw-webmap/template/ItemWidget.hbs:122
+msgid "Display name"
+msgstr "Показвано име"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:77
+msgid "Enabled"
+msgstr "Включен"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:84
+msgid "Transparency"
+msgstr "Прозрачност"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:89
+msgid "Min scale"
+msgstr "Мин. мащаб"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:94
+msgid "Max scale"
+msgstr "Макс. мащаб"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:100
+msgid "Adapter"
+msgstr "Адаптер"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:106
+msgid "Style resource"
+msgstr "Ресурс на стилове"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:126
+msgid "Expanded"
+msgstr "Разширена"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:9
+msgid "Identify popup"
+msgstr "Прозорец за идентифициране"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:14
+msgid "Width, px"
+msgstr "Широчина, px"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:19
+msgid "Height, px"
+msgstr "Височина, px"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:24
+msgid "Radius, px"
+msgstr "Радиус, px"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:28
+msgid "Show feature attributes"
+msgstr "Покажи атрибутите на обекта"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:33
+msgid "Measurement"
+msgstr "Измерения"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:37
+msgid "Length units"
+msgstr "Измервателна единица"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:38
+msgid "Meters"
+msgstr "Метри"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:39
+msgid "Kilometers"
+msgstr "Километри"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:40
+msgid "Meters/kilometers (auto)"
+msgstr "Метри/километри (автоматично)"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:41
+msgid "Feet"
+msgstr "Футове"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:42
+msgid "Miles"
+msgstr "Мили"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:43
+msgid "Feet/miles (auto)"
+msgstr "Футове/мили (автоматично)"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:48
+msgid "Area units"
+msgstr "Единици за площ"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:49
+msgid "Sq. meters"
+msgstr "Кв. метри"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:50
+msgid "Sq. kilometers"
+msgstr "Кв. километри"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:51
+msgid "Sq. meters/kilometers (auto)"
+msgstr "Кв. метри/километри (автоматично)"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:52
+msgid "Hectares"
+msgstr "Хектари"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:53
+msgid "Acres"
+msgstr "Акри"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:54
+msgid "Sq. miles"
+msgstr "Кв. мили"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:55
+msgid "Acres/sq. miles (auto)"
+msgstr "Акри/кв. мили (автоматично)"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:56
+msgid "Sq. feet"
+msgstr "Кв. футове"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:61
+msgid "Degree format"
+msgstr "Формат на градуси"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:62
+msgid "Decimal degrees"
+msgstr "Десетични градуси"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:63
+msgid "Degrees, decimal minutes"
+msgstr "Градуси, десетични минути"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:64
+msgid "Degrees, minutes, seconds"
+msgstr "Градуси, минути, секунди"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:69
+msgid "Measurement SRID"
+msgstr "Координатна система за изчисляване"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:76
+msgid "Address search"
+msgstr "Търсене на адрес"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:80
+msgid "Enable"
+msgstr "Включи"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:84
+msgid "Limit by web map initial extent"
+msgstr "Ограничи с началния обхват на картата"
+
+#: amd/ngw-webmap/tool/Identify.js:212
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: amd/ngw-webmap/tool/Identify.js:246
+msgid "Feature"
+msgstr "Обект"
+
+#: amd/ngw-webmap/tool/Identify.js:304 amd/ngw-webmap/tool/Identify.js:321
+msgid "Identify"
+msgstr "Идентификация"
+
+#: amd/ngw-webmap/tool/Identify.js:431
+msgid "Features"
+msgstr "Обекти"
+
+#: amd/ngw-webmap/tool/Measure.js:33
+msgid "Measure distance"
+msgstr "Измерване на разстояние"
+
+#: amd/ngw-webmap/tool/Measure.js:36
+msgid "Measure area"
+msgstr "Измерване на площ"
+
+#: amd/ngw-webmap/tool/Measure.js:40
+msgid "m"
+msgstr "м"
+
+#: amd/ngw-webmap/tool/Measure.js:41
+msgid "km"
+msgstr "км"
+
+#: amd/ngw-webmap/tool/Measure.js:42
+msgid "ft"
+msgstr "фута"
+
+#: amd/ngw-webmap/tool/Measure.js:43
+msgid "mi"
+msgstr "мили"
+
+#: amd/ngw-webmap/tool/Measure.js:44
+msgid "ha"
+msgstr "ха"
+
+#: amd/ngw-webmap/tool/Measure.js:45
+msgid "ac"
+msgstr "акра"
+
+#: amd/ngw-webmap/tool/Measure.js:266
+msgid "Double click to finish."
+msgstr "Щракнете два пъти да завършите."
+
+#: amd/ngw-webmap/tool/Rotate.js:14
+msgid "Rotate"
+msgstr "Въртене"
+
+#: amd/ngw-webmap/tool/Swipe.js:17
+msgid "Vertical swipe"
+msgstr "Вертикална щора"
+
+#: amd/ngw-webmap/tool/Swipe.js:21
+msgid "Horizontal swipe"
+msgstr "Хоризонтална щора"
+
+#: amd/ngw-webmap/tool/editing/CreateFeature.js:16
+msgid "Create features"
+msgstr "Създаване на обекти"
+
+#: amd/ngw-webmap/tool/editing/DeleteFeature.js:16
+msgid "Delete features"
+msgstr "Изтриване на обекти"
+
+#: amd/ngw-webmap/tool/editing/ModifyFeature.js:16
+msgid "Modify features"
+msgstr "Променяне на обекти"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:110
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:48
+msgid "Don't save"
+msgstr "Не запазвай"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:115
+msgid "Delete"
+msgstr "Изтрий"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:212
+msgid "Create annotation"
+msgstr "Създай анотация"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:5
+msgid "Stroke: width / color"
+msgstr "Оконтуряване: ширина / цвят"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:10
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:46
+msgid "Please enter a numeric value"
+msgstr "Въведете числова величина"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:11
+msgid "Invalid width: should be from 0 to 20 px"
+msgstr "Невалидна ширина: трябва да е между 0 и 20 px"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:13
+msgid "Stroke width, px"
+msgstr "Ширината на контура, px"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:18
+msgid "Stroke color"
+msgstr "Цвят на контура"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:25
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:31
+msgid "Fill color"
+msgstr "Цвят за запълване"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:38
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:43
+msgid "Circle size, px"
+msgstr "Големина на кръга"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:47
+msgid "Invalid width: should be from 1 to 100 px"
+msgstr "Невалидна ширина: трябва да е между 1 и 100 px"
+
+#: amd/ngw-webmap/ui/AnnotationsManager/AnnotationsManager.js:262
+#: amd/ngw-webmap/ui/AnnotationsManager/AnnotationsManager.js:282
+#: amd/ngw-webmap/ui/AnnotationsManager/AnnotationsManager.js:301
+msgid "Error on the server:"
+msgstr "Сървърна грешка:"
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:14
+msgid "Show annotations layer"
+msgstr "Покажи слоя на анотациите"
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:19
+msgid "Show messages"
+msgstr "Покажи съобщения"
+
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:27
+msgid "Stopping editing"
+msgstr "Спиране на редактирането"
+
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:35
+msgid "Do you want to save changes?"
+msgstr "Искате ли да запазите промените?"
+
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:53
+msgid "Cancel"
+msgstr "Откажи"
+
+#: amd/ngw-webmap/ui/LayersPanel/LayersPanel.hbs:8
+msgid "Layer"
+msgstr "Слой"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:9
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:94
+msgid "Print"
+msgstr "Принтирай"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:18
+msgid "Paper format"
+msgstr "Формат на хартия"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:22
+msgid "Select format"
+msgstr "Избери формат"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
+msgid "A4 - Portrait"
+msgstr "А4 - Портретен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:25
+msgid "A4 - Landscape"
+msgstr "А4 - Албумен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:26
+msgid "A3 - Portrait"
+msgstr "А3 - Портретен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:27
+msgid "A3 - Landscape"
+msgstr "А3 - Албумен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
+msgid "A2 - Portrait"
+msgstr "А2 - Портретен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:29
+msgid "A2 - Landscape"
+msgstr "А2 - Албумен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
+msgid "A1 - Portrait"
+msgstr "А1 - Портретен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
+msgid "A1 - Landscape"
+msgstr "А1 - Албумен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
+msgid "A0 - Portrait"
+msgstr "А0 - Портретен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
+msgid "A0 - Landscape"
+msgstr "А0 - Албумен"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
+msgid "Custom size"
+msgstr "Персонализиран размер"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:40
+msgid "Height, mm"
+msgstr "Височина, мм"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:51
+msgid "Width, mm"
+msgstr "Широчина, мм"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:62
+msgid "Margin, mm"
+msgstr "Отстъп, мм"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:72
+msgid "Scale value"
+msgstr "Мащабно значение"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:77
+msgid "Scale bar"
+msgstr "Мащабна скала"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:82
+#: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:5
+msgid "Scale"
+msgstr "Мащаб"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:100
+msgid "Save as"
+msgstr "Запази като"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:107
+msgid "JPEG"
+msgstr "JPEG"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:114
+msgid "PNG"
+msgstr "PNG"
+
+#: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:8
+msgid "Select scale"
+msgstr "Избери мащаб"
+
+#: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:24
+msgid "Use Shift+drag for box zooming"
+msgstr "Натиснете Shift и изберете с мишка област за приближаване"
+
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.hbs:7
+msgid "Search on the map"
+msgstr "Търсене в картата"
+
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:158
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:216
+msgid "Refine search criterion"
+msgstr "Уточнете критерий за търсене"
+
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:231
+msgid "Not found"
+msgstr "Не е открито"
+
+#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:2
+msgid "Map link"
+msgstr "Линк към картата"
+
+#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:10
+msgid "Social networks"
+msgstr "Социални мрежи"
+
+#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:18
+msgid "Embed code for your site"
+msgstr "Код за вграждане в сайт"
+
+#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:20
+msgid "Map size:"
+msgstr "Големина на картата:"
+
+#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:43
+msgid "Link to main map"
+msgstr "Линк към основната карта"
+
+#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:50
+msgid "Generate events"
+msgstr "Генерация на събития"
+
+#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:68
+msgid "Preview"
+msgstr "Предварителен преглед"
+
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:511
+msgid "Open full map"
+msgstr "Отвори цялата карта"
+
+#: template/section_api_webmap.mako:7
+msgid "TMS (Tile Map Service)"
+msgstr "TMS (Tile Map Service)"
+
+#: template/section_api_webmap.mako:11
+msgid ""
+"TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
+"is a map displayed in a browser by seamlessly joining dozens of individually "
+"requested image."
+msgstr ""
+"TMS (Tile Map Service) е спецификация за плочки за уеб карти. Уеб карта с "
+"плочки е карта, отразявана в браузъра чрез безшевно комбиниране на десетки "
+"индивидуално откривани изображения."
+
+#: template/section_api_webmap.mako:16
+msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+msgstr "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+
+#: template/section_api_webmap.mako:17
+msgid "Read more"
+msgstr "Детайли"
+

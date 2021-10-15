@@ -1,0 +1,217 @@
+#: api.py:104
+msgid "Output format is not provided."
+msgstr "Не е посочен изходящ формат."
+
+#: api.py:109
+#, python-format
+msgid "Format '%s' is not supported."
+msgstr "Форматът '%s' не се поддържа."
+
+#: api.py:285 api.py:357
+#, python-format
+msgid "Geometry format '%s' is not supported."
+msgstr "Геометричният формат '%s' не се поддържа."
+
+#: api.py:287
+msgid "Geometry is not valid."
+msgstr "Геометрията не е валидна."
+
+#: api.py:293 api.py:362
+#, python-format
+msgid "Date format '%s' is not supported."
+msgstr "Форматът на дата '%s' не е поддържан."
+
+#: api.py:583
+msgid "Parameter 'intersects' geometry is not valid."
+msgstr "Параметрът 'intersects' съдържа невалидна геометрия."
+
+#: exception.py:15
+msgid "Feature not found"
+msgstr "Обектът не е открит"
+
+#: exception.py:16
+#, python-format
+msgid "Feature with id = %d was not found in resource with id = %d."
+msgstr "Обектът с id = %d не е открит в ресурса с id = %d."
+
+#: exception.py:17
+msgid "The feature may have been deleted or an error in the address."
+msgstr "Обектът може да е изтрит или има грешка в адреса."
+
+#: model.py:172
+#, python-format
+msgid "Field not found (ID=%d)."
+msgstr "Полето не е открито (ID=%d)."
+
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:45
+msgid "Feature table"
+msgstr "Таблица на обекти"
+
+#: view.py:63 view.py:86
+#, python-format
+msgid "Feature #%d"
+msgstr "Обект #%d"
+
+#: view.py:138 view.py:201
+msgid "Save as"
+msgstr "Запази като"
+
+#: view.py:188
+msgid "Features"
+msgstr "Обекти"
+
+#: template/section_fields.mako:21 view.py:193
+msgid "Table"
+msgstr "Таблица"
+
+#: view.py:211
+msgid "External access"
+msgstr "Външен достъп"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:194
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:216
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:80
+msgid "Attribute: "
+msgstr "Атрибут: "
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
+msgid "Set NULL"
+msgstr "Установи NULL"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:126
+msgid "Set field value to NULL (No data)"
+msgstr "Установи NULL като значението на полето (Няма данни)"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:137
+msgid "NULL"
+msgstr "NULL"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:242
+msgid "Please wait. Processing request..."
+msgstr "Изчакайте. Заявката се обработва..."
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:266
+#: amd/ngw-feature-layer/template/ExportForm.hbs:42
+msgid "Save"
+msgstr "Запази"
+
+#: amd/ngw-feature-layer/FeatureGrid.js:240
+msgid "Confirmation"
+msgstr "Потвърждение"
+
+#: amd/ngw-feature-layer/FeatureGrid.js:241
+msgid "Delete feature?"
+msgstr "Изтриване на обекта?"
+
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:114
+msgid "N/A"
+msgstr "няма"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:70 template/section_fields.mako:15
+msgid "Keyname"
+msgstr "Ключ"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:80 template/section_fields.mako:16
+msgid "Type"
+msgstr "Тип"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:84 template/section_fields.mako:17
+msgid "Display name"
+msgstr "Показвано име"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:98
+msgid "FT"
+msgstr "ТО"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:108
+msgid "LA"
+msgstr "АИ"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:152
+msgid "Label attribute"
+msgstr "Атрибут на името"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:229
+msgid "Add"
+msgstr "Добави"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:235
+msgid "Remove"
+msgstr "Премахни"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:15
+msgid "Format"
+msgstr "Формат"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:19
+msgid "SRS"
+msgstr "Координатна система"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:23
+msgid "Encoding"
+msgstr "Кодировка"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:30
+msgid "FID field"
+msgstr "FID поле"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:34
+msgid "Zip archive"
+msgstr "Zip архив"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:13
+msgid "Open"
+msgstr "Отвори"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:18
+msgid "Edit"
+msgstr "Редактирай"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:23
+msgid "Delete"
+msgstr "Изтрий"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:28
+msgid "Search..."
+msgstr "Търсене..."
+
+#: template/section_api_layer.mako:8
+msgid "MVT Vector Tiles"
+msgstr "MVT векторни плочки"
+
+#: template/section_api_layer.mako:12
+msgid ""
+"The Mapbox Vector Tile is an efficient encoding for map data into vector "
+"tiles that can be rendered dynamically."
+msgstr ""
+"Векторни плочки MVT е ефикасен механизъм за кодиране на информацията от карти"
+" във векторен формат, който може да се визуализира динамично."
+
+#: template/section_api_layer.mako:17
+msgid ""
+"https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
+"tiles"
+msgstr ""
+"https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
+"tiles"
+
+#: template/section_api_layer.mako:18
+msgid "Read more"
+msgstr "Детайли"
+
+#: template/section_fields.mako:19
+msgid "Lookup table"
+msgstr "Справочник"
+
+#: template/section_fields.mako:32 template/section_fields.mako:38
+msgid "Yes"
+msgstr "Да"
+
+#: template/section_fields.mako:34 template/section_fields.mako:38
+msgid "No"
+msgstr "Не"
+

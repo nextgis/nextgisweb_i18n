@@ -1,0 +1,41 @@
+#: __init__.py:92
+msgid "NextGIS geoinformation system"
+msgstr "Геоинформационна система NextGIS"
+
+#: __init__.py:217
+msgid "Linux kernel"
+msgstr "Ядро на Linux"
+
+#: __init__.py:220
+msgid "OS distribution"
+msgstr "Дистибутив на ОС"
+
+#: __init__.py:231
+msgid "CPU"
+msgstr "CPU"
+
+#: __init__.py:236
+msgid "RAM"
+msgstr "RAM"
+
+#: exception.py:95
+msgid "Validation error"
+msgstr "Грешка при валидация"
+
+#: exception.py:100
+msgid "Insufficient permissions"
+msgstr "Недостатъчни права"
+
+#: exception.py:105
+msgid "Operational error"
+msgstr "Операционна грешка"
+
+#: storage.py:225
+msgid "Estimation is already running"
+msgstr "Оценяването е в процес"
+
+#: test/test_exception.py:79
+#, python-format
+msgid "The answer is %d"
+msgstr "Отговорът е %d"
+

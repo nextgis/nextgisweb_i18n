@@ -1,0 +1,148 @@
+#: api.py:49
+#, python-format
+msgid "Table (%s) not found in schema (%s)."
+msgstr "Таблица (%s) не е открита в схемата (%s)."
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:42 model.py:52
+msgid "Point"
+msgstr "Точка"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:43 model.py:52
+msgid "Line"
+msgstr "Линия"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:44 model.py:52
+msgid "Polygon"
+msgstr "Полигон"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:45 model.py:53
+msgid "Multipoint"
+msgstr "Мултиточка"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:46 model.py:53
+msgid "Multiline"
+msgstr "Мултилиния"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:47 model.py:53
+msgid "Multipolygon"
+msgstr "Мултиполигон"
+
+#: amd/ngw-postgis/ConnectionWidget.js:25 model.py:62
+msgid "PostGIS connection"
+msgstr "PostGIS връзка"
+
+#: model.py:126
+msgid "Cannot connect to the database!"
+msgstr "Базата данни не е достъпна!"
+
+#: amd/ngw-postgis/LayerWidget.js:39 model.py:154
+msgid "PostGIS layer"
+msgstr "PostGIS слой"
+
+#: model.py:212
+#, python-format
+msgid "Table '%(table)s' not found!"
+msgstr "Таблицата '%(table)s' не е открита!"
+
+#: model.py:227
+msgid "SRID missing in geometry_columns table! You should specify it manually."
+msgstr "В таблицата geometry_columns отсъства SRID! Трябва да се въведе ръчно."
+
+#: model.py:230
+msgid "0 is an invalid SRID."
+msgstr "SRID не може да е 0."
+
+#: model.py:237
+msgid "SRID in geometry_columns table does not match specified!"
+msgstr "SRID в таблицата geometry_columns не съответства на посочения!"
+
+#: model.py:245
+msgid ""
+"Geometry type missing in geometry_columns table! You should specify it "
+"manually."
+msgstr ""
+"В таблицата geometry_columns отсъства тип геометрия! Трябва да се въведе "
+"ръчно."
+
+#: model.py:252
+msgid "Geometry type in geometry_columns table does not match specified!"
+msgstr "Тип геометрия в таблицата geometry_columns не съответства на посочения!"
+
+#: model.py:270
+msgid "To use column as ID it should have integer type!"
+msgstr "За да бъде използвана като ID, колоната трябва да е от цялочислен тип!"
+
+#: model.py:313 model.py:316
+#, python-format
+msgid "Column '%(column)s' not found!"
+msgstr "Колоната '%(column)s' не е открита!"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:39 model.py:323
+msgid "Geometry type"
+msgstr "Тип геометрия"
+
+#: amd/ngw-postgis/template/ConnectionWidget.hbs:9
+msgid "Host"
+msgstr "Сървър"
+
+#: amd/ngw-postgis/template/ConnectionWidget.hbs:14
+msgid "Port"
+msgstr "Порт"
+
+#: amd/ngw-postgis/template/ConnectionWidget.hbs:19
+msgid "Database"
+msgstr "База данни"
+
+#: amd/ngw-postgis/template/ConnectionWidget.hbs:24
+msgid "User"
+msgstr "Потребител"
+
+#: amd/ngw-postgis/template/ConnectionWidget.hbs:29
+msgid "Password"
+msgstr "Парола"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:8
+msgid "Select PostGIS connection"
+msgstr "Избери PostGIS връзка"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:10
+msgid "Connection"
+msgstr "Връзка"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:16
+msgid "Schema"
+msgstr "Схема"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:22
+msgid "Table"
+msgstr "Таблица"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:28
+msgid "ID column"
+msgstr "ID колона"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:34
+msgid "Geometry column"
+msgstr "Поле геометрия"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:41
+#: amd/ngw-postgis/template/LayerWidget.hbs:53
+msgid "Autodetect"
+msgstr "Автоматично"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:61
+msgid "Coordinate system"
+msgstr "Координатна система"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:68
+msgid "Attribute definitions"
+msgstr "Описания на атрибутите"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:71
+msgid "Keep"
+msgstr "Съхрани"
+
+#: amd/ngw-postgis/template/LayerWidget.hbs:72
+msgid "Reload"
+msgstr "Презареди"
+

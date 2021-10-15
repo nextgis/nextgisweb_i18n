@@ -1,0 +1,64 @@
+#: amd/ngw-wmsserver/ServiceWidget.js:55 model.py:27
+#: template/section_api_wms.mako:7
+msgid "WMS service"
+msgstr "WMS услуга"
+
+#: view.py:353
+msgid "External access"
+msgstr "Външен достъп"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:14
+msgid "Add"
+msgstr "Добави"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:18
+msgid "Select layer\\'s style"
+msgstr "Избери стил за слоя"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:27
+msgid "Remove"
+msgstr "Премахни"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:62
+msgid "Keyname"
+msgstr "Ключ"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:66
+msgid "Display name"
+msgstr "Показвано име"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:70
+msgid "Min scale"
+msgstr "Мин. мащаб"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:74
+msgid "Max scale"
+msgstr "Макс. мащаб"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:78
+msgid "Resource"
+msgstr "Ресурс"
+
+#: template/section_api_wms.mako:11
+msgid ""
+"Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
+" Consortium for serving georeferenced map images. These images are typically "
+"produced by a map server from data provided by a GIS database."
+msgstr ""
+"Web Map Service (WMS) е стандартен проткол, разработен от Открития "
+"геопространствен консорциум за обслужване на изображения с геореференцирана "
+"карта чрез Интернет. Тези изображения обикновено се произвеждат от сървър на "
+"карти от данни, предоставени от GIS база данни."
+
+#: template/section_api_wms.mako:16
+msgid ""
+"https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-service-"
+"connection"
+msgstr ""
+"https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-service-"
+"connection"
+
+#: template/section_api_wms.mako:17
+msgid "Read more"
+msgstr "Детайли"
+

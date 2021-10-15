@@ -1,0 +1,55 @@
+#: api.py:25
+msgid "Uploaded file too large"
+msgstr "Прикачваният файл е прекалено голям"
+
+#: api.py:30
+msgid "Upload is not completed"
+msgstr "Прикачването не е завършено"
+
+#: amd/ngw-file-upload/Uploader.js:53
+msgid "Select"
+msgstr "Избери"
+
+#: amd/ngw-file-upload/Uploader.js:83
+msgid "max"
+msgstr "максимум"
+
+#: amd/ngw-file-upload/Uploader.js:111
+msgid "Uploading..."
+msgstr "Прикачване..."
+
+#: amd/ngw-file-upload/Uploader.js:119
+msgid " uploaded..."
+msgstr " прикачен(и)..."
+
+#: amd/ngw-file-upload/Uploader.js:147
+msgid "Could not load file!"
+msgstr "Прикачването е неуспешно!"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:9
+msgid "Select an image"
+msgstr "Избери изображение"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:10
+#: amd/ngw-file-upload/template/Uploader.hbs:10
+msgid "Overwrite?"
+msgstr "Презапис?"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:11
+#: amd/ngw-file-upload/template/Uploader.hbs:11
+msgid "Try again"
+msgstr "Опитайте се отново"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:13
+#: amd/ngw-file-upload/template/Uploader.hbs:13
+msgid "or drag and drop here"
+msgstr "или преместете и оставете тук"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:21
+msgid "Delete"
+msgstr "Изтрий"
+
+#: amd/ngw-file-upload/template/Uploader.hbs:9
+msgid "Select a file"
+msgstr "Избери файл"
+
