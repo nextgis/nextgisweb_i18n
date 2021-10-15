@@ -1,8 +1,8 @@
-#: scope.py:10
+#: scope.py:12
 msgid "Collector"
 msgstr "Collector"
 
-#: scope.py:12
+#: scope.py:14
 msgid "Read"
 msgstr "Leer"
 
@@ -22,15 +22,15 @@ msgstr "Usuario"
 msgid "Password"
 msgstr "Contraseña"
 
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:41
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:20
 msgid "Project"
 msgstr "Proyecto"
 
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:44
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:23
 msgid "List of forms"
 msgstr "Lista de formularios"
 
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:45
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:24
 msgid "Map"
 msgstr "Mapa"
 
@@ -39,7 +39,7 @@ msgid "Add item"
 msgstr "Agregar elemento"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:107
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
 msgid "Add group"
 msgstr "Agregar grupo"
 
@@ -48,7 +48,7 @@ msgid "Remove"
 msgstr "Eliminar"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:121
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:120
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
@@ -76,15 +76,15 @@ msgstr "Zoom mínimo"
 msgid "Max zoom"
 msgstr "Zoom máximo"
 
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:105
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
 msgid "Resource"
 msgstr "Recurso"
 
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:125
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:124
 msgid "Expanded"
 msgstr "Expandido"
 
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:58
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:57
 msgid "Items"
 msgstr "Elementos"
 
@@ -104,7 +104,7 @@ msgstr "Dar acceso a este proyecto para los siguientes participantes:"
 msgid "Users"
 msgstr "Usuarios"
 
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:33
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:32
 msgid "Collectors"
 msgstr "Participantes"
 
@@ -112,7 +112,7 @@ msgstr "Participantes"
 msgid "List of collectors"
 msgstr "Lista de participantes"
 
-#: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.js:47
+#: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.js:45
 msgid "Each collector must be first registered at ${ngid}"
 msgstr "Cada participante debe registrarse primero en ${ngid}"
 
@@ -121,7 +121,7 @@ msgid "NextGIS ID"
 msgstr "NextGIS ID"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:14
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:109
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:108
 msgid "Description"
 msgstr "Descripción"
 
@@ -129,68 +129,68 @@ msgstr "Descripción"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:34
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:33
 msgid "The NextGIS ID is invalid!"
 msgstr "¡La ID de NextGIS no es válida!"
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:45
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:44
 msgid "Edit collector"
 msgstr "Editar participante"
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:46
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:45
 msgid "New collector"
 msgstr "Nuevo participante"
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:49
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:48
 msgid "Save"
 msgstr "Guardar"
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:50
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:12
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:49
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:13
 msgid "Create"
 msgstr "Crear"
 
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:16
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:18
 msgid "Edit"
 msgstr "Editar"
 
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:20
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:23
 msgid "Delete"
 msgstr "Eliminar"
 
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:25
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:28
 msgid "Search Collector user..."
 msgstr "Buscando usuario de participante..."
 
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:104
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:103
 msgid "Email"
 msgstr "Email"
 
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:114
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:113
 msgid "Added"
 msgstr "Agregado"
 
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:160
-msgid "Your Collector users limit = 5"
-msgstr ""
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:159
+msgid "Your Collector users limit = 60"
+msgstr "El límite de usuarios de su Collector = 60"
 
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:187
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:186
 msgid "Deleting сollector"
 msgstr "Eliminar el miembro"
 
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:188
+#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:187
 msgid "Delete сollector?"
 msgstr "Eliminar el miembro?"
 
-#: models/model_db.py:33
+#: models/model_db.py:41
 msgid "Collector project"
 msgstr "Proyecto de Collector"
 
-#: view/settings.py:12
+#: view/settings.py:19
 msgid "NextGIS Collector settings"
 msgstr "Configuración de NextGIS Collector"
 
-#: view/settings.py:18
+#: view/settings.py:25
 msgid "Collector projects"
 msgstr "Proyectos de Collector"
 
