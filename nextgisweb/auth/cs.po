@@ -63,15 +63,15 @@ msgstr "OAuth přístupový token vypršel"
 
 #: views.py:67
 msgid "Session not found."
-msgstr ""
+msgstr "Relace nebyla nalezena."
 
 #: views.py:72
 msgid "Invalid 'expires' parameter."
-msgstr ""
+msgstr "Neplatný parametr „vyprší“."
 
 #: views.py:74
 msgid "Session expired."
-msgstr ""
+msgstr "Relace vypršela."
 
 #: views.py:231
 msgid "User settings"
@@ -127,7 +127,7 @@ msgstr "Skupina"
 
 #: amd/ngw-auth/SettingsForm.js:54
 msgid "Saved"
-msgstr ""
+msgstr "Uloženo"
 
 #: amd/ngw-auth/UserWidget.js:36
 msgid "User"
@@ -161,7 +161,7 @@ msgstr "Členové skupiny"
 #: amd/ngw-auth/template/SettingsForm.hbs:13
 #: amd/ngw-auth/template/UserWidget.hbs:30
 msgid "Language"
-msgstr ""
+msgstr "Jazyk"
 
 #: amd/ngw-auth/template/UserWidget.hbs:15 template/login.mako:44
 #: template/user_browse.mako:19

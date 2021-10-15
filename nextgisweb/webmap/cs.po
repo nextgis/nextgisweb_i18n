@@ -251,7 +251,7 @@ msgstr "Poloměr, px"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:28
 msgid "Show feature attributes"
-msgstr ""
+msgstr "Zobrazit atributy funkcí"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:33
 msgid "Measurement"
@@ -343,15 +343,15 @@ msgstr "Měření SRID"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:76
 msgid "Address search"
-msgstr ""
+msgstr "Hledání adresy"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:80
 msgid "Enable"
-msgstr ""
+msgstr "Umožnit"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:84
 msgid "Limit by web map initial extent"
-msgstr ""
+msgstr "Omezit počáteční rozsah webové mapy"
 
 #: amd/ngw-webmap/tool/Identify.js:212
 msgid "Attributes"

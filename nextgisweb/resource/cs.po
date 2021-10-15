@@ -205,7 +205,7 @@ msgstr "Smazat zdroj"
 
 #: view.py:190 view.py:352
 msgid "Resource export"
-msgstr ""
+msgstr "Export zdrojů"
 
 #: view.py:211
 #, python-format
@@ -329,15 +329,15 @@ msgstr "Vyberte zdroj"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.hbs:5
 msgid "Search"
-msgstr ""
+msgstr "Vyhledávání"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:19
 msgid "Resources not found"
-msgstr ""
+msgstr "Zdroje nebyly nalezeny"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:25
 msgid "Search resources"
-msgstr ""
+msgstr "Hledat zdroje"
 
 #: amd/ngw-resource/template/DeleteWidget.hbs:7
 msgid "Confirm deletion of the resource"
@@ -349,18 +349,21 @@ msgid ""
 "resource data. This will not affect REST API use which will continue to be "
 "governed by permissions."
 msgstr ""
+"Vyberte kategorii uživatelů, kteří mohou ke stažení dat o prostředcích použít"
+" odkaz \"Uložit jako\". To neovlivní používání REST API, které se bude i "
+"nadále řídit oprávněními."
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:8
 msgid "Users with \"Data: Read\" permission"
-msgstr ""
+msgstr "Uživatelé s oprávněním \"Data: Číst\""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:9
 msgid "Users with \"Data: Write\" permission"
-msgstr ""
+msgstr "Uživatelé s oprávněním \"Data: Zápis\""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:10
 msgid "Administrators"
-msgstr ""
+msgstr "Správci"
 
 #: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
 #: template/section_summary.mako:6
@@ -386,7 +389,7 @@ msgstr "Pomocí těchto odkazů můžete připojit data k externím aplikacím."
 
 #: template/section_children.mako:128
 msgid "Show resources volume"
-msgstr ""
+msgstr "Zobrazit objem zdrojů"
 
 #: template/section_children.mako:144 template/section_summary.mako:44
 msgid "Owner"
@@ -394,7 +397,7 @@ msgstr "Majitel"
 
 #: template/section_children.mako:145
 msgid "Volume"
-msgstr ""
+msgstr "Objem"
 
 #: template/section_description.mako:4
 msgid "Resource description is empty."

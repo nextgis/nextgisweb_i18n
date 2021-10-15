@@ -19,7 +19,7 @@ msgstr "Geometrie není platná."
 #: api.py:293 api.py:362
 #, python-format
 msgid "Date format '%s' is not supported."
-msgstr ""
+msgstr "Formát data '%s' není podporován."
 
 #: api.py:583
 msgid "Parameter 'intersects' geometry is not valid."
@@ -92,7 +92,7 @@ msgstr "NULL"
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:242
 msgid "Please wait. Processing request..."
-msgstr ""
+msgstr "Prosím, čekejte. Zpracování požadavku..."
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:266
 #: amd/ngw-feature-layer/template/ExportForm.hbs:42

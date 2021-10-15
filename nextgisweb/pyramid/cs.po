@@ -80,7 +80,7 @@ msgstr "Systémové informace"
 
 #: view.py:121 view.py:483
 msgid "Storage"
-msgstr ""
+msgstr "Úložiště"
 
 #: view.py:131 view.py:488
 msgid "Backups"
@@ -129,29 +129,31 @@ msgstr "Nelze kopírovat"
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:68
 msgid "<a>Contact support</a> for update."
-msgstr ""
+msgstr "<a> Kontaktujte podporu </a> pro aktualizaci."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:72
 msgid "Checking for updates..."
-msgstr ""
+msgstr "Kontrola aktualizací..."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:74
 msgid "Your {distribution} is up-to-date: {version}."
-msgstr ""
+msgstr "Vaše {distribution} je aktuální: {version}."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:79
 msgid "New version of {distribution} is available: {version}."
-msgstr ""
+msgstr "K dispozici je nová verze {distribution}: {version}."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:84
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr ""
+"K dispozici jsou kritické aktualizace: {verze}. Zvažte prosím aktualizaci co "
+"nejdříve."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:114
 msgid "Show details"
-msgstr ""
+msgstr "Ukázat detaily"
 
 #: amd/ngw-pyramid/ErrorCard/ErrorCard.js:37
 msgid "Technical information"
@@ -199,7 +201,7 @@ msgstr "Získejte svůj vlastní web GIS na nextgis.com"
 
 #: amd/ngw-pyramid/form/LangSelect.js:24
 msgid "Browser default"
-msgstr ""
+msgstr "Výchozí prohlížeč"
 
 #: amd/ngw-pyramid/form/RTETextBox.js:61
 msgid "Rich Text Editor"
@@ -228,15 +230,15 @@ msgstr "Vymazat"
 
 #: amd/ngw-pyramid/right-menu/RightMenu.js:90
 msgid "Critical updates are available"
-msgstr ""
+msgstr "K dispozici jsou kritické aktualizace"
 
 #: amd/ngw-pyramid/right-menu/RightMenu.js:91
 msgid "Updates are available"
-msgstr ""
+msgstr "Aktualizace jsou k dispozici"
 
 #: amd/ngw-pyramid/right-menu/RightMenu.js:98
 msgid "Click to see what's new"
-msgstr ""
+msgstr "Kliknutím zobrazíte, co je nového"
 
 #: amd/ngw-pyramid/template/CORSForm.hbs:17
 msgid ""
@@ -277,7 +279,7 @@ msgstr "Odhlásit se"
 
 #: amd/ngw-pyramid/user-avatar/UserAvatar.js:36
 msgid "Invitation session"
-msgstr ""
+msgstr "Pozvánka"
 
 #: nodepkg/api/error.js:11
 msgid "Unknown API error"
@@ -317,38 +319,38 @@ msgstr "Pomoc"
 
 #: template/storage.mako:35
 msgid "Kind of data"
-msgstr ""
+msgstr "Druh dat"
 
 #: template/storage.mako:36
 msgid "Volume"
-msgstr ""
+msgstr "Objem"
 
 #: template/storage.mako:51
 msgid "Total"
-msgstr ""
+msgstr "Celek"
 
 #: template/storage.mako:73
 #, python-format
 msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr ""
+msgstr "Využití úložiště bylo plně odhadnuto na %s a aktualizováno na %s."
 
 #: template/storage.mako:76
 #, python-format
 msgid "Storage usage was fully estimated at %s."
-msgstr ""
+msgstr "Využití úložiště bylo plně odhadnuto na %s."
 
 #: template/storage.mako:78
 #, python-format
 msgid "Storage usage hasn't been estimated yet but was updated at %s."
-msgstr ""
+msgstr "Využití úložiště zatím nebylo odhadnuto, ale bylo aktualizováno na %s."
 
 #: template/storage.mako:80
 msgid "Storage usage hasn't been estimated yet."
-msgstr ""
+msgstr "Využití úložiště zatím nebylo odhadnuto."
 
 #: template/storage.mako:83
 msgid "Some changes may be reflected only after full estimation."
-msgstr ""
+msgstr "Některé změny se mohou projevit až po úplném odhadu."
 
 #: template/sysinfo.mako:28
 msgid "Package"

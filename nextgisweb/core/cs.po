@@ -32,7 +32,7 @@ msgstr "Provozní chyba "
 
 #: storage.py:225
 msgid "Estimation is already running"
-msgstr ""
+msgstr "Odhad již běží"
 
 #: test/test_exception.py:79
 #, python-format

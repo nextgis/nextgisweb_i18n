@@ -4,7 +4,7 @@ msgstr "Knihovně GDAL se nepodařilo otevřít soubor."
 
 #: kind_of_data.py:12
 msgid "Vector layer features"
-msgstr ""
+msgstr "Funkce vektorové vrstvy"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:28
 #: amd/ngw-vector-layer/template/Widget.hbs:90 model.py:78
@@ -72,12 +72,12 @@ msgstr "Chybí parametr „fid_field“."
 #: model.py:302
 #, python-format
 msgid "Fields %s not found."
-msgstr ""
+msgstr "Pole %s nebyla nalezena."
 
 #: model.py:304
 #, python-format
 msgid "None of fields %s are integer."
-msgstr ""
+msgstr "Žádné z polí %s není celočíselné."
 
 #: model.py:314
 #, python-format
@@ -92,12 +92,12 @@ msgstr "Nepodporovaný typ pole: %r."
 #: model.py:487
 #, python-format
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
-msgstr ""
+msgstr "Funkce (pokračování #%d) nemá pole FID „%s“."
 
 #: model.py:490
 #, python-format
 msgid "Feature (seq. #%d) FID field '%s' is null."
-msgstr ""
+msgstr "Funkce (sekv. #%d) Pole FID '%s' je prázdné."
 
 #: model.py:498
 #, python-format
@@ -214,7 +214,7 @@ msgstr "Typ geometrie pro existující zdroj nelze změnit."
 
 #: amd/ngw-vector-layer/Widget.js:91
 msgid "Validation error"
-msgstr ""
+msgstr "Chyba ověření"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:6
 msgid "Spatial reference system"
@@ -244,7 +244,7 @@ msgstr ""
 
 #: amd/ngw-vector-layer/template/Widget.hbs:57
 msgid "Source layer"
-msgstr ""
+msgstr "Zdrojová vrstva"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:62
 msgid "Advanced options"
@@ -313,7 +313,7 @@ msgstr "Pole"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:133
 msgid "FID field(s)"
-msgstr ""
+msgstr "Pole FID"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:138
 msgid "Encoding"
