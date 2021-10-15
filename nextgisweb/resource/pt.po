@@ -79,7 +79,7 @@ msgid "Operational error"
 msgstr "Erro operacional"
 
 #: amd/ngw-resource/PermissionWidget.js:94 amd/ngw-resource/PermissionWidget.js:183
-#: amd/ngw-resource/Widget.js:31 amd/ngw-resource/form/ResourceLink.js:35
+#: amd/ngw-resource/Widget.js:32 amd/ngw-resource/form/ResourceLink.js:35
 #: model.py:110 scope.py:27
 msgid "Resource"
 msgstr "Recurso"
@@ -92,31 +92,31 @@ msgstr "Recurso não pode parent dele mesmo."
 msgid "Resource keyname is not unique."
 msgstr "O nome-chave do recurso não é exclusivo."
 
-#: model.py:334
+#: model.py:342
 msgid "Resource can not be without a parent."
 msgstr "O recurso não pode ficar sem um dos parents."
 
-#: model.py:340
+#: model.py:348
 #, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Não tem permissão para gerir os child do recurso com id = %d."
 
-#: model.py:345
+#: model.py:353
 #, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "O recurso não pode ser filho do recurso id = %d."
 
-#: model.py:470
+#: model.py:487
 #, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Número máximo de recursos excedido. O limite é %s."
 
-#: model.py:487
+#: model.py:504
 #, python-format
 msgid "Maximum number of resources '%s' exceeded. The limit is %s."
 msgstr "Número máximo de recursos '%s' excedido. O limite é %s."
 
-#: model.py:543
+#: model.py:560
 msgid "Resource group"
 msgstr "Grupo de recursos"
 
@@ -128,12 +128,12 @@ msgstr "Ler"
 msgid "Create"
 msgstr "Criar"
 
-#: scope.py:42 view.py:319
+#: scope.py:42 view.py:322
 msgid "Update"
 msgstr "Atualizar"
 
 #: amd/ngw-resource/CompositeWidget.js:96 amd/ngw-resource/PermissionWidget.js:321
-#: scope.py:46 view.py:327
+#: scope.py:46 view.py:330
 msgid "Delete"
 msgstr "Apagar"
 
@@ -182,7 +182,7 @@ msgstr "Configurar"
 msgid "Attribute '%s' forbidden."
 msgstr "atributo '%s' proibido."
 
-#: view.py:88 view.py:334
+#: view.py:88 view.py:337
 msgid "JSON view"
 msgstr "Visualização JSON"
 
@@ -190,7 +190,7 @@ msgstr "Visualização JSON"
 msgid "Resource tree"
 msgstr "Árvore de recursos"
 
-#: view.py:129 view.py:344
+#: view.py:129 view.py:347
 msgid "Create resource"
 msgstr "Criar recurso"
 
@@ -202,33 +202,33 @@ msgstr "Atualizar recurso"
 msgid "Delete resource"
 msgstr "Apagar recurso"
 
-#: view.py:190 view.py:352
+#: view.py:193 view.py:355
 msgid "Resource export"
 msgstr ""
 
-#: view.py:211
+#: view.py:214
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Permissão '%s' insuficiente no âmbito '%s' no recurso id = %d."
 
-#: view.py:269
+#: view.py:272
 msgid "Child resources"
 msgstr "Recursos filho"
 
-#: amd/ngw-resource/DescriptionWidget.js:19 view.py:276
+#: amd/ngw-resource/DescriptionWidget.js:19 view.py:279
 msgid "Description"
 msgstr "Descrição"
 
-#: view.py:283
+#: view.py:286
 msgid "User permissions"
 msgstr "Permissões do utilizador"
 
 #: amd/ngw-resource/PermissionWidget.js:66 amd/ngw-resource/PermissionWidget.js:133
-#: view.py:345
+#: view.py:348
 msgid "Action"
 msgstr "Ação"
 
-#: view.py:346
+#: view.py:349
 msgid "Extra"
 msgstr "Extra"
 
@@ -347,8 +347,7 @@ msgstr "Confirmar o apagar do recurso"
 #: amd/ngw-resource/template/ResourceExportForm.hbs:3
 msgid ""
 "Select the category of users who can use the \"Save as\" link to download "
-"resource data. This will not affect REST API use which will continue to be "
-"governed by permissions."
+"resource data."
 msgstr ""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:8
@@ -361,6 +360,12 @@ msgstr ""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:10
 msgid "Administrators"
+msgstr ""
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:17
+msgid ""
+"* This will not affect REST API use which will continue to be governed by "
+"permissions."
 msgstr ""
 
 #: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
@@ -376,7 +381,12 @@ msgstr "Chave"
 msgid "Parent"
 msgstr "Pai"
 
-#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:143
+#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:144
+#: template/section_summary.mako:44
+msgid "Owner"
+msgstr "Proprietário"
+
+#: amd/ngw-resource/template/Widget.hbs:28 template/section_children.mako:143
 #: template/section_summary.mako:36
 msgid "Type"
 msgstr "Tipo"
@@ -388,10 +398,6 @@ msgstr "Use esses links para conectar dados em aplicativos externos."
 #: template/section_children.mako:128
 msgid "Show resources volume"
 msgstr ""
-
-#: template/section_children.mako:144 template/section_summary.mako:44
-msgid "Owner"
-msgstr "Proprietário"
 
 #: template/section_children.mako:145
 msgid "Volume"

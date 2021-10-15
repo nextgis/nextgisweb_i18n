@@ -4,117 +4,117 @@ msgstr "Collector"
 
 #: scope.py:12
 msgid "Read"
-msgstr "Leer"
+msgstr "Прочети"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
 msgid "Starting screen"
-msgstr "Pantalla de inicio"
+msgstr "Начален екран"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
 msgid "NextGIS Collector user credentials"
-msgstr "Credenciales de usuario de NextGIS Collector"
+msgstr "Данни за достъп до NextGIS Collector"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
 msgid "User name"
-msgstr "Usuario"
+msgstr "Потребителско име"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
 msgid "Password"
-msgstr "Contraseña"
+msgstr "Парола"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:41
 msgid "Project"
-msgstr "Proyecto"
+msgstr "Проект"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:44
 msgid "List of forms"
-msgstr "Lista de formularios"
+msgstr "Списък форми"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:45
 msgid "Map"
-msgstr "Mapa"
+msgstr "Карта"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
 msgid "Add item"
-msgstr "Agregar elemento"
+msgstr "Добави елемент"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:107
 msgid "Add group"
-msgstr "Agregar grupo"
+msgstr "Добави група"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
 msgid "Remove"
-msgstr "Eliminar"
+msgstr "Премахни"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:121
 msgid "Display name"
-msgstr "Nombre para mostrar"
+msgstr "Показвано име"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
 msgid "Visible"
-msgstr "Visible"
+msgstr "Видим"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
 msgid "Editable"
-msgstr "Editable"
+msgstr "Редактиращ се"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
 msgid "Syncable"
-msgstr "Sincronizable"
+msgstr "Синхронизиращ се"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
 msgid "Lifetime for tiles (in min)"
-msgstr "Tiempo de vida de los teselas (en min)"
+msgstr "Срок съществуване на плочка (мин)"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
 msgid "Min zoom"
-msgstr "Zoom mínimo"
+msgstr "Минимално приближаване"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
 msgid "Max zoom"
-msgstr "Zoom máximo"
+msgstr "Максимално приближаване"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:105
 msgid "Resource"
-msgstr "Recurso"
+msgstr "Ресурс"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:125
 msgid "Expanded"
-msgstr "Expandido"
+msgstr "Разширена"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:58
 msgid "Items"
-msgstr "Elementos"
+msgstr "Елементи"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
 msgid "You have no permissions to manage this section."
-msgstr "No tiene permisos para administrar esta sección."
+msgstr "Нямате права да управлявате този раздел."
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
 msgid "Manage collectors"
-msgstr "Gestión de participantes"
+msgstr "Управляване на участници"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
 msgid "Give access to this project for the following collectors:"
-msgstr "Dar acceso a este proyecto para los siguientes participantes:"
+msgstr "Достъп до този проект да се даде на следните участници:"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
 msgid "Users"
-msgstr "Usuarios"
+msgstr "Потребители"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:33
 msgid "Collectors"
-msgstr "Participantes"
+msgstr "Участници"
 
 #: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.hbs:4
 msgid "List of collectors"
-msgstr "Lista de participantes"
+msgstr "Списък на участници"
 
 #: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.js:47
 msgid "Each collector must be first registered at ${ngid}"
-msgstr "Cada participante debe registrarse primero en ${ngid}"
+msgstr "Всеки участник трябва да е регистриран в ${ngid}"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:12
 msgid "NextGIS ID"
@@ -123,44 +123,44 @@ msgstr "NextGIS ID"
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:14
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:109
 msgid "Description"
-msgstr "Descripción"
+msgstr "Описание"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:29
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Откажи"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:34
 msgid "The NextGIS ID is invalid!"
-msgstr "¡La ID de NextGIS no es válida!"
+msgstr "NextGIS ID не е валиден!"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:45
 msgid "Edit collector"
-msgstr "Editar participante"
+msgstr "Редактиране на участника"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:46
 msgid "New collector"
-msgstr "Nuevo participante"
+msgstr "Нов участник"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:49
 msgid "Save"
-msgstr "Guardar"
+msgstr "Запази"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:50
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:12
 msgid "Create"
-msgstr "Crear"
+msgstr "Създай"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:16
 msgid "Edit"
-msgstr "Editar"
+msgstr "Редактирай"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:20
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Премахни"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:25
 msgid "Search Collector user..."
-msgstr "Buscando usuario de participante..."
+msgstr "Търсене на участник..."
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:104
 msgid "Email"
@@ -168,7 +168,7 @@ msgstr "Email"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:114
 msgid "Added"
-msgstr "Agregado"
+msgstr "Добавен"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:160
 msgid "Your Collector users limit = 5"
@@ -176,33 +176,21 @@ msgstr ""
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:187
 msgid "Deleting сollector"
-msgstr "Eliminar el miembro"
+msgstr "Премахване на участник"
 
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:188
 msgid "Delete сollector?"
-msgstr "Eliminar el miembro?"
+msgstr "Искате ли да премахнете участника?"
 
 #: models/model_db.py:33
 msgid "Collector project"
-msgstr "Proyecto de Collector"
+msgstr "Проект Collector"
 
 #: view/settings.py:12
 msgid "NextGIS Collector settings"
-msgstr "Configuración de NextGIS Collector"
+msgstr "Настройки на NextGIS Collector"
 
 #: view/settings.py:18
 msgid "Collector projects"
-msgstr "Proyectos de Collector"
-
-#~ msgid "Each collector must be first registered at "
-#~ msgstr "Cada participante debe registrarse primero en "
-
-#~ msgid "NextGIS ID Email"
-#~ msgstr "NextGIS ID Email"
-
-#~ msgid "The email is invalid!"
-#~ msgstr "¡El correo electrónico no es válido!"
-
-#~ msgid "Your Collector users limit = 60"
-#~ msgstr "El límite de usuarios de su Collector = 60"
+msgstr "Проекти Collector"
 

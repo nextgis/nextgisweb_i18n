@@ -1,306 +1,308 @@
-#: model.py:24
+#: model.py:28
 msgid "Trackers group"
-msgstr "Grupo de localizadores"
+msgstr "Група тракери"
 
-#: model.py:35
+#: model.py:39
 msgid "Tracker"
-msgstr "Localizador"
+msgstr "Тракер"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:16
 msgid "Unique id (IMEI by default)"
-msgstr "Identificación única (IMEI por defecto)"
+msgstr "Уникален id (IMEI по подразбиране)"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:22
 msgid "Description"
-msgstr "Descripción"
+msgstr "Описание"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:29
 msgid "Device type"
-msgstr "Tipo de dispositivo"
+msgstr "Тип устройство"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:35
 msgid "Consumption, liters per 100 km (for reports)"
-msgstr "Consumo, litros cada 100 km (para informes)"
+msgstr "Разход, литри на 100 км (за отчети)"
 
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:37
 msgid "Invalid consumption, should be from 0 to 100"
-msgstr "Consumo no válido, debe ser de 0 a 100"
+msgstr "Невалиден разход, трябва да е между 0 и 100"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:38
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:36
 msgid "Tracker detail"
-msgstr "Detalle del localizador"
+msgstr "Детайли на тракера"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:42
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:40
 msgid "NextGIS software (Mobile, Collector)"
-msgstr "Software NextGIS (Mobile, Collector)"
+msgstr "NextGIS софтуер (Mobile, Collector)"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:43
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:41
 msgid "ADM (ADM-50, ADM-100)"
-msgstr "ADM (ADM-50, ADM-100)"
+msgstr "АДМ (АДМ-50, АДМ-100)"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:3
 msgid "1. Select devices for building the report"
-msgstr "1. Seleccione los dispositivos para crear el informe"
+msgstr "1. Изберете устройство за съставяне на отчет"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:10
 msgid "2. Customize the report"
-msgstr "2. Personaliza el informe"
+msgstr "2. Персонализирайте отчета"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:14
 msgid "Report type"
-msgstr "Tipo de informe"
+msgstr "Тип отчет"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:20
 msgid "Select report type"
-msgstr "Seleccione el tipo de informe"
+msgstr "Изберете тип отчет"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:22
 #: template/_consumption_fuel.mako:26 template/_mileage.mako:20
 msgid "Mileage"
-msgstr "Kilometraje"
+msgstr "Пробег"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:23
 msgid "Top speed"
-msgstr "Velocidad máxima"
+msgstr "Максимална скорост"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:24
 msgid "Average speed"
-msgstr "Velocidad media"
+msgstr "Средна скорост"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:25
 msgid "Spent fuel"
-msgstr "Combustible consumido"
+msgstr "Разход гориво"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:26
 msgid "Stops"
-msgstr "Paradas"
+msgstr "Спирки"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:27
 #: template/_gpx.mako:4
 msgid "GPX file"
-msgstr "Archivo GPX"
+msgstr "GPX файл"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:31
 msgid "Time range"
-msgstr "Intervalo de tiempo"
+msgstr "Период"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:36
 msgid "Group by"
-msgstr "Agrupar por"
+msgstr "Групирай по"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:41
 #: template/_avg_speed.mako:17 template/_consumption_fuel.mako:23
 #: template/_mileage.mako:17 template/_top_speed.mako:17
 msgid "Hours"
-msgstr "Horas"
+msgstr "Часове"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:42
 #: template/_avg_speed.mako:15 template/_consumption_fuel.mako:21
 #: template/_mileage.mako:15 template/_top_speed.mako:15
 msgid "Days"
-msgstr "Dias"
+msgstr "Дни"
 
 #: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:51
 msgid "Build report"
-msgstr "Generar informe"
+msgstr "Създай отчет"
 
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.js:78
+#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.js:77
 msgid "Please select devices for building the report!"
-msgstr "¡Por favor seleccione los dispositivos para crear el informe!"
+msgstr "Изберете устройство за отчет!"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:4
 msgid "Common settings"
-msgstr "Configuraciones comunes"
+msgstr "Общи настройки"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:10
 msgid "Interval for splitting tracks, min"
-msgstr "Intervalo para dividir pistas, min"
+msgstr "Интервал за разделяне на тракове, мин"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:14
 msgid "Stops detecting"
-msgstr "Detección de paradas"
+msgstr "Определяне на спирки"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:20
 msgid "Minimal speed, km/h"
-msgstr "Velocidad mínima, km/h"
+msgstr "Минимална скорост, км/ч"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:24
 msgid "Minimal time stop, sec"
-msgstr "Tiempo mínimo de parada, seg"
+msgstr "Минимално време за спирка, сек"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:28
 msgid "Timezone settings"
-msgstr "Configuración de zona horaria"
+msgstr "Настройки на часова зона"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:34
 msgid "Time zone"
-msgstr "Zona horaria"
+msgstr "Часова зона"
 
 #: amd/ngw-tracker/settings/TrackerSettings.hbs:72
 msgid "Save"
-msgstr "Guardar"
+msgstr "Запази"
+
+#: amd/ngw-tracker/settings/TrackerSettings.js:67
+msgid "Tracker settings has been saved successfully!"
+msgstr "Настройките на тракера са запазени успешно!"
 
 #: amd/ngw-tracker/settings/TrackerSettings.js:69
-msgid "Tracker settings has been saved successfully!"
-msgstr "¡La configuración del localizador se ha guardado correctamente!"
-
-#: amd/ngw-tracker/settings/TrackerSettings.js:71
 msgid "Error, Tracker settings not has been saved!"
-msgstr "¡Error, la configuración del localizador no se ha guardado!"
+msgstr "Грешка, настройките не са запазени!"
 
 #: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.hbs:3
 msgid "Select date"
-msgstr "Seleccione fecha"
+msgstr "Изберете дата"
 
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:30
+#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:29
 msgid "No data"
-msgstr "No hay datos"
+msgstr "Няма информация"
 
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:59
+#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:58
 msgid "Last activity by hours"
-msgstr "Última actividad por horas"
+msgstr "Последна активност по часове"
 
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:150
+#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:149
 msgid "Count of points per hour"
-msgstr "Cuenta de puntos por hora"
+msgstr "Брой точки на час"
 
 #: amd/ngw-tracker/webmap/TrackerButton/TrackerButton.js:20
 msgid "Open trackers panel"
-msgstr "Abrir el panel de localizadores"
+msgstr "Отвори панел за проследяване"
 
 #: amd/ngw-tracker/webmap/TrackersPane/TrackersPane.hbs:13
 #: amd/ngw-tracker/webmap/TrackersPanel/TrackersPanel.hbs:10
 #: amd/ngw-tracker/webmap/TrackersPanel/TrackersPanel.hbs:12
 #: template/reports.mako:5
 msgid "Reports"
-msgstr "Informes"
+msgstr "Отчети"
 
-#: amd/ngw-tracker/webmap/TrackersPane/TrackersPane.js:38
+#: amd/ngw-tracker/webmap/TrackersPane/TrackersPane.js:37
 #: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:53
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:63 view/settings.py:49
+#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:63 view/settings.py:57
 msgid "Trackers"
-msgstr "Localizadores"
+msgstr "Тракери"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:99
 msgid "Zoom to layer"
-msgstr "Enfocar la capa"
+msgstr "Увеличи до слоя"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:104
 msgid "Zoom to last point"
-msgstr "Zoom al último punto"
+msgstr "Приближи последната точка"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:109
 msgid "Set filter to last day with data"
-msgstr "Establecer filtro para el último día con dato"
+msgstr "Филтрирай по последен ден, за който има данни"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:114
 msgid "Show last activity"
-msgstr "Mostrar última actividad"
+msgstr "Покажи последни действия"
 
 #: amd/ngw-tracker/webmap/map/utils.js:16 amd/ngw-tracker/webmap/map/utils.js:27
 msgid "Date"
-msgstr "Fecha"
+msgstr "Дата"
 
 #: amd/ngw-tracker/webmap/map/utils.js:21 amd/ngw-tracker/webmap/map/utils.js:28
 msgid "Time"
-msgstr "Hora"
+msgstr "Време"
 
 #: amd/ngw-tracker/webmap/map/utils.js:31
 msgid "Speed, km/h"
-msgstr "Velocidad, km/h"
+msgstr "Скорост, км/ч"
 
 #: amd/ngw-tracker/webmap/map/utils.js:32
 msgid "Height, m"
-msgstr "Altura, m"
+msgstr "Височина, м"
 
 #: amd/ngw-tracker/webmap/map/utils.js:33
 msgid "Course"
-msgstr "Curso"
+msgstr "Посока"
 
 #: amd/ngw-tracker/webmap/map/utils.js:34
 msgid "GPS/GLONASS"
 msgstr "GPS/GLONASS"
 
-#: pyramid_tracker/device_type.py:15
+#: pyramid_tracker/device_type.py:17
 msgid "NextGIS Tracker Hub is unavailable. Try later, please."
-msgstr "NextGIS Tracker Hub no está disponible. Inténtelo más tarde, por favor."
+msgstr "NextGIS Tracker Hub е недостъпен. Опитайте се по-късно."
 
-#: pyramid_tracker/register.py:19 pyramid_tracker/register.py:37
+#: pyramid_tracker/register.py:23 pyramid_tracker/register.py:41
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
 msgstr ""
-"El dispositivo no está registrado en NextGIS Tracker System. Inténtelo más "
-"tarde, por favor."
+"Устройството не е регистрирано в системата за проследяване на NextGIS. "
+"Опитайте се по-късно."
 
-#: pyramid_tracker/register.py:21 pyramid_tracker/register.py:39
+#: pyramid_tracker/register.py:25 pyramid_tracker/register.py:43
 msgid "NextGIS Tracker System is unavailable. Try later, please."
-msgstr "NextGIS Tracker System no está disponible. Inténtalo más tarde, por favor"
+msgstr ""
+"Няма връзка със системата за проследяване на NextGIS. Опитайте се отново "
+"по-късно."
 
 #: template/_avg_speed.mako:4
 msgid "Avg speed report"
-msgstr "Informe de velocidad media"
+msgstr "Отчет за средна скорост"
 
 #: template/_avg_speed.mako:8 template/_consumption_fuel.mako:14
 #: template/_mileage.mako:8 template/_stops.mako:9 template/_top_speed.mako:8
 msgid "No data for selected period"
-msgstr "No hay datos para el período seleccionado"
+msgstr "Няма данни за избрания период"
 
 #: template/_avg_speed.mako:20
 msgid "Avg speed"
-msgstr "Velocidad media"
+msgstr "Средна скорост"
 
 #: template/_consumption_fuel.mako:4 template/_consumption_fuel.mako:27
 msgid "Fuel consumption"
-msgstr "El consumo de combustible"
+msgstr "Разход гориво"
 
 #: template/_consumption_fuel.mako:8
 msgid "Fuel consumption, liters per 100 km"
-msgstr "Consumo de combustible, litros cada 100 km"
+msgstr "Разход гориво, литри на 100 км"
 
 #: template/_consumption_fuel.mako:10
 msgid "Fuel consumption is not defined"
-msgstr "El consumo de combustible no está definido"
+msgstr "Разход гориво не е определен"
 
 #: template/_gpx.mako:11
 msgid "Download GPX file"
-msgstr "Descargar archivo GPX"
+msgstr "Свали GPX файл"
 
 #: template/_mileage.mako:4
 msgid "Mileage report"
-msgstr "Informe de kilometraje"
+msgstr "Отчет за пробег"
 
 #: template/_stops.mako:5
 msgid "Stops report"
-msgstr "Informe de paradas"
+msgstr "Отчет за спирки"
 
 #: template/_stops.mako:16
 msgid "Start stop"
-msgstr "Comienzo"
+msgstr "Начало"
 
 #: template/_stops.mako:17
 msgid "End stop"
-msgstr "Finalizando"
+msgstr "Край"
 
 #: template/_stops.mako:18
 msgid "Duration"
-msgstr "Duración"
+msgstr "Траене"
 
 #: template/_stops.mako:32
 msgid "Count of stops"
-msgstr "Cuenta de paradas"
+msgstr "Брой спирки"
 
 #: template/_stops.mako:33
 msgid "Total duration"
-msgstr "Duración total"
+msgstr "Общо времетраене"
 
 #: template/_top_speed.mako:4
 msgid "Top speed report"
-msgstr "Informe de velocidad máxima"
+msgstr "Отчет за максимална скорост"
 
 #: template/_top_speed.mako:20
 msgid "Max speed"
-msgstr "Máxima velocidad"
+msgstr "Максимална скорост"
 
-#: view/settings.py:12
+#: view/settings.py:20
 msgid "Trackers settings"
-msgstr "Configuración de localizadores"
+msgstr "Настройки на тракерите"
 

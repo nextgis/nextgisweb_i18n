@@ -1,0 +1,14 @@
+#: amd/ngw-mapserver/StyleWidget.js:34 model.py:97
+msgid "MapServer style"
+msgstr "Стил на MapServer"
+
+#: view.py:55
+#, python-format
+msgid "XML syntax error: %(message)s"
+msgstr "Синтактична грешка XML"
+
+#: view.py:58
+#, python-format
+msgid "XML schema error: %(message)s"
+msgstr "Грешка на XML схема"
+

@@ -80,7 +80,7 @@ msgid "Operational error"
 msgstr "Provozní chyba "
 
 #: amd/ngw-resource/PermissionWidget.js:94 amd/ngw-resource/PermissionWidget.js:183
-#: amd/ngw-resource/Widget.js:31 amd/ngw-resource/form/ResourceLink.js:35
+#: amd/ngw-resource/Widget.js:32 amd/ngw-resource/form/ResourceLink.js:35
 #: model.py:110 scope.py:27
 msgid "Resource"
 msgstr "Zdroj"
@@ -93,31 +93,31 @@ msgstr "Zdrojem nemůže být rodič sám."
 msgid "Resource keyname is not unique."
 msgstr "Klíčový název zdroje není jedinečný."
 
-#: model.py:334
+#: model.py:342
 msgid "Resource can not be without a parent."
 msgstr "Zdroj nemůže být bez rodiče."
 
-#: model.py:340
+#: model.py:348
 #, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Není dovoleno spravovat podřízené položky prostředku s id = %d."
 
-#: model.py:345
+#: model.py:353
 #, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "Zdroj nemůže být podřízeným prvkem id zdroje = %d."
 
-#: model.py:470
+#: model.py:487
 #, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Byl překročen maximální počet zdrojů. Limit je %s."
 
-#: model.py:487
+#: model.py:504
 #, python-format
 msgid "Maximum number of resources '%s' exceeded. The limit is %s."
 msgstr "Byl překročen maximální počet zdrojů '%s'. Limit je %s."
 
-#: model.py:543
+#: model.py:560
 msgid "Resource group"
 msgstr "Skupina prostředků"
 
@@ -129,12 +129,12 @@ msgstr "Číst"
 msgid "Create"
 msgstr "Vytvořit"
 
-#: scope.py:42 view.py:319
+#: scope.py:42 view.py:322
 msgid "Update"
 msgstr "Aktualizace"
 
 #: amd/ngw-resource/CompositeWidget.js:96 amd/ngw-resource/PermissionWidget.js:321
-#: scope.py:46 view.py:327
+#: scope.py:46 view.py:330
 msgid "Delete"
 msgstr "Vymazat"
 
@@ -183,7 +183,7 @@ msgstr "Konfigurovat"
 msgid "Attribute '%s' forbidden."
 msgstr "Atribut '%s' zakázán."
 
-#: view.py:88 view.py:334
+#: view.py:88 view.py:337
 msgid "JSON view"
 msgstr "Zobrazení JSON"
 
@@ -191,7 +191,7 @@ msgstr "Zobrazení JSON"
 msgid "Resource tree"
 msgstr "Strom zdrojů"
 
-#: view.py:129 view.py:344
+#: view.py:129 view.py:347
 msgid "Create resource"
 msgstr "Vytvořit zdroj"
 
@@ -203,33 +203,33 @@ msgstr "Aktualizovat zdroj"
 msgid "Delete resource"
 msgstr "Smazat zdroj"
 
-#: view.py:190 view.py:352
+#: view.py:193 view.py:355
 msgid "Resource export"
 msgstr "Export zdrojů"
 
-#: view.py:211
+#: view.py:214
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Nedostatečné oprávnění '%s' v oboru '%s' na ID zdroje = %d."
 
-#: view.py:269
+#: view.py:272
 msgid "Child resources"
 msgstr "Dětské zdroje"
 
-#: amd/ngw-resource/DescriptionWidget.js:19 view.py:276
+#: amd/ngw-resource/DescriptionWidget.js:19 view.py:279
 msgid "Description"
 msgstr "Popis"
 
-#: view.py:283
+#: view.py:286
 msgid "User permissions"
 msgstr "Uživatelská oprávnění"
 
 #: amd/ngw-resource/PermissionWidget.js:66 amd/ngw-resource/PermissionWidget.js:133
-#: view.py:345
+#: view.py:348
 msgid "Action"
 msgstr "Akce"
 
-#: view.py:346
+#: view.py:349
 msgid "Extra"
 msgstr "Další"
 
@@ -346,12 +346,8 @@ msgstr "Potvrďte odstranění zdroje"
 #: amd/ngw-resource/template/ResourceExportForm.hbs:3
 msgid ""
 "Select the category of users who can use the \"Save as\" link to download "
-"resource data. This will not affect REST API use which will continue to be "
-"governed by permissions."
+"resource data."
 msgstr ""
-"Vyberte kategorii uživatelů, kteří mohou ke stažení dat o prostředcích použít"
-" odkaz \"Uložit jako\". To neovlivní používání REST API, které se bude i "
-"nadále řídit oprávněními."
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:8
 msgid "Users with \"Data: Read\" permission"
@@ -364,6 +360,12 @@ msgstr "Uživatelé s oprávněním \"Data: Zápis\""
 #: amd/ngw-resource/template/ResourceExportForm.hbs:10
 msgid "Administrators"
 msgstr "Správci"
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:17
+msgid ""
+"* This will not affect REST API use which will continue to be governed by "
+"permissions."
+msgstr ""
 
 #: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
 #: template/section_summary.mako:6
@@ -378,7 +380,12 @@ msgstr "Klíčový název"
 msgid "Parent"
 msgstr "Rodič"
 
-#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:143
+#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:144
+#: template/section_summary.mako:44
+msgid "Owner"
+msgstr "Majitel"
+
+#: amd/ngw-resource/template/Widget.hbs:28 template/section_children.mako:143
 #: template/section_summary.mako:36
 msgid "Type"
 msgstr "Typ"
@@ -391,10 +398,6 @@ msgstr "Pomocí těchto odkazů můžete připojit data k externím aplikacím."
 msgid "Show resources volume"
 msgstr "Zobrazit objem zdrojů"
 
-#: template/section_children.mako:144 template/section_summary.mako:44
-msgid "Owner"
-msgstr "Majitel"
-
 #: template/section_children.mako:145
 msgid "Volume"
 msgstr "Objem"
@@ -402,4 +405,17 @@ msgstr "Objem"
 #: template/section_description.mako:4
 msgid "Resource description is empty."
 msgstr "Popis zdroje je prázdný."
+
+#~ msgid ""
+#~ "Select the category of users who can"
+#~ " use the \"Save as\" link to "
+#~ "download resource data. This will not "
+#~ "affect REST API use which will "
+#~ "continue to be governed by permissions."
+#~ msgstr ""
+#~ "Vyberte kategorii uživatelů, kteří mohou ke"
+#~ " stažení dat o prostředcích použít odkaz"
+#~ " \"Uložit jako\". To neovlivní používání "
+#~ "REST API, které se bude i nadále "
+#~ "řídit oprávněními."
 

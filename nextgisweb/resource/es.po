@@ -81,7 +81,7 @@ msgid "Operational error"
 msgstr "Error operacional"
 
 #: amd/ngw-resource/PermissionWidget.js:94 amd/ngw-resource/PermissionWidget.js:183
-#: amd/ngw-resource/Widget.js:31 amd/ngw-resource/form/ResourceLink.js:35
+#: amd/ngw-resource/Widget.js:32 amd/ngw-resource/form/ResourceLink.js:35
 #: model.py:110 scope.py:27
 msgid "Resource"
 msgstr "Recurso"
@@ -94,31 +94,31 @@ msgstr "Resource no puede ser un padre él mismo."
 msgid "Resource keyname is not unique."
 msgstr "El nombre clave del recurso no es único."
 
-#: model.py:334
+#: model.py:342
 msgid "Resource can not be without a parent."
 msgstr "El recurso no puede estar sin un padre."
 
-#: model.py:340
+#: model.py:348
 #, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "No se le permite administrar los hijos del recurso con id = %d."
 
-#: model.py:345
+#: model.py:353
 #, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "El recurso no puede ser un hijo del recurso con id = %d."
 
-#: model.py:470
+#: model.py:487
 #, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Se superó el número máximo de recursos. El límite es %s."
 
-#: model.py:487
+#: model.py:504
 #, python-format
 msgid "Maximum number of resources '%s' exceeded. The limit is %s."
 msgstr "Se superó el número máximo de recursos '%s'. El límite es %s."
 
-#: model.py:543
+#: model.py:560
 msgid "Resource group"
 msgstr "Grupo de recursos"
 
@@ -130,12 +130,12 @@ msgstr "Leer"
 msgid "Create"
 msgstr "Crear"
 
-#: scope.py:42 view.py:319
+#: scope.py:42 view.py:322
 msgid "Update"
 msgstr "Actualizar"
 
 #: amd/ngw-resource/CompositeWidget.js:96 amd/ngw-resource/PermissionWidget.js:321
-#: scope.py:46 view.py:327
+#: scope.py:46 view.py:330
 msgid "Delete"
 msgstr "Eliminar"
 
@@ -184,7 +184,7 @@ msgstr "Configurar"
 msgid "Attribute '%s' forbidden."
 msgstr "Atributo '%s' prohibido."
 
-#: view.py:88 view.py:334
+#: view.py:88 view.py:337
 msgid "JSON view"
 msgstr "Vista JSON"
 
@@ -192,7 +192,7 @@ msgstr "Vista JSON"
 msgid "Resource tree"
 msgstr "Arbol de recursos"
 
-#: view.py:129 view.py:344
+#: view.py:129 view.py:347
 msgid "Create resource"
 msgstr "Crear recurso"
 
@@ -204,33 +204,33 @@ msgstr "Actualizar recurso"
 msgid "Delete resource"
 msgstr "Eliminar recurso"
 
-#: view.py:190 view.py:352
+#: view.py:193 view.py:355
 msgid "Resource export"
 msgstr "Exportar recurso"
 
-#: view.py:211
+#: view.py:214
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Permiso '%s' insuficiente en el alcance '%s' del recurso con id = %d."
 
-#: view.py:269
+#: view.py:272
 msgid "Child resources"
 msgstr "Hijos del recurso"
 
-#: amd/ngw-resource/DescriptionWidget.js:19 view.py:276
+#: amd/ngw-resource/DescriptionWidget.js:19 view.py:279
 msgid "Description"
 msgstr "Descripción"
 
-#: view.py:283
+#: view.py:286
 msgid "User permissions"
 msgstr "Permisos de usuario"
 
 #: amd/ngw-resource/PermissionWidget.js:66 amd/ngw-resource/PermissionWidget.js:133
-#: view.py:345
+#: view.py:348
 msgid "Action"
 msgstr "Acción"
 
-#: view.py:346
+#: view.py:349
 msgid "Extra"
 msgstr "Extra"
 
@@ -349,12 +349,8 @@ msgstr "Confirmar la eliminación del recurso"
 #: amd/ngw-resource/template/ResourceExportForm.hbs:3
 msgid ""
 "Select the category of users who can use the \"Save as\" link to download "
-"resource data. This will not affect REST API use which will continue to be "
-"governed by permissions."
+"resource data."
 msgstr ""
-"Seleccione la categoría de usuarios que pueden utilizar el enlace \"Guardar "
-"como\" para descargar datos de recursos. Esto no afectará el uso de la API "
-"REST, que seguirá estando regida por los permisos."
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:8
 msgid "Users with \"Data: Read\" permission"
@@ -367,6 +363,12 @@ msgstr "Usuarios con permiso \"Data: Escribir\""
 #: amd/ngw-resource/template/ResourceExportForm.hbs:10
 msgid "Administrators"
 msgstr "Administradores"
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:17
+msgid ""
+"* This will not affect REST API use which will continue to be governed by "
+"permissions."
+msgstr ""
 
 #: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
 #: template/section_summary.mako:6
@@ -381,7 +383,12 @@ msgstr "Nombre clave"
 msgid "Parent"
 msgstr "Padre"
 
-#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:143
+#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:144
+#: template/section_summary.mako:44
+msgid "Owner"
+msgstr "Propietario"
+
+#: amd/ngw-resource/template/Widget.hbs:28 template/section_children.mako:143
 #: template/section_summary.mako:36
 msgid "Type"
 msgstr "Tipo"
@@ -394,10 +401,6 @@ msgstr "Utilice estos enlaces para conectar datos a aplicaciones externas."
 msgid "Show resources volume"
 msgstr "Mostrar volumen de recursos"
 
-#: template/section_children.mako:144 template/section_summary.mako:44
-msgid "Owner"
-msgstr "Propietario"
-
 #: template/section_children.mako:145
 msgid "Volume"
 msgstr "Volumen"
@@ -405,4 +408,18 @@ msgstr "Volumen"
 #: template/section_description.mako:4
 msgid "Resource description is empty."
 msgstr "La descripción del recurso está vacía."
+
+#~ msgid ""
+#~ "Select the category of users who can"
+#~ " use the \"Save as\" link to "
+#~ "download resource data. This will not "
+#~ "affect REST API use which will "
+#~ "continue to be governed by permissions."
+#~ msgstr ""
+#~ "Seleccione la categoría de usuarios que "
+#~ "pueden utilizar el enlace \"Guardar como\""
+#~ " para descargar datos de recursos. Esto"
+#~ " no afectará el uso de la API "
+#~ "REST, que seguirá estando regida por "
+#~ "los permisos."
 

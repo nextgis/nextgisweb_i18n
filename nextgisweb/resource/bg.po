@@ -107,17 +107,17 @@ msgstr "Не можете да управлявате дъщерните рес�
 msgid "Resource can not be a child of resource id = %d."
 msgstr "Ресурсът не може да е дъщерен на този с id = %d."
 
-#: model.py:490
+#: model.py:487
 #, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Надвишен е максимален брой ресурси. Пределът е %s."
 
-#: model.py:507
+#: model.py:504
 #, python-format
 msgid "Maximum number of resources '%s' exceeded. The limit is %s."
 msgstr "Надвишен е максимален брой ресурси. Пределът е %s."
 
-#: model.py:563
+#: model.py:560
 msgid "Resource group"
 msgstr "Група ресурси"
 
@@ -346,13 +346,8 @@ msgstr "Потвърди премахването на ресурса"
 #: amd/ngw-resource/template/ResourceExportForm.hbs:3
 msgid ""
 "Select the category of users who can use the \"Save as\" link to download "
-"resource data. This will not affect REST API use which will continue to be "
-"governed by permissions."
+"resource data."
 msgstr ""
-"Изберете категория потребители, които могат да използват линка \"Запази "
-"като\" да изтеглят данните на ресурса. Това няма да повлияе върху "
-"използването на REST API, което ще продължи да се управлява чрез "
-"разрешителни."
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:8
 msgid "Users with \"Data: Read\" permission"
@@ -365,6 +360,12 @@ msgstr "Потребители с разрешително за \"Данни: З
 #: amd/ngw-resource/template/ResourceExportForm.hbs:10
 msgid "Administrators"
 msgstr "Администратори"
+
+#: amd/ngw-resource/template/ResourceExportForm.hbs:17
+msgid ""
+"* This will not affect REST API use which will continue to be governed by "
+"permissions."
+msgstr ""
 
 #: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
 #: template/section_summary.mako:6
@@ -404,4 +405,18 @@ msgstr "Обем"
 #: template/section_description.mako:4
 msgid "Resource description is empty."
 msgstr "Описанието на ресурса е празно."
+
+#~ msgid ""
+#~ "Select the category of users who can"
+#~ " use the \"Save as\" link to "
+#~ "download resource data. This will not "
+#~ "affect REST API use which will "
+#~ "continue to be governed by permissions."
+#~ msgstr ""
+#~ "Изберете категория потребители, които могат "
+#~ "да използват линка \"Запази като\" да "
+#~ "изтеглят данните на ресурса. Това няма "
+#~ "да повлияе върху използването на REST "
+#~ "API, което ще продължи да се управлява"
+#~ " чрез разрешителни."
 

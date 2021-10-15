@@ -1,18 +1,18 @@
 #: amd/ngw-basemap/LayerWidget.js:33 model.py:24
 msgid "Basemap"
-msgstr "Fond de carte"
+msgstr "Базова карта"
 
 #: amd/ngw-basemap/LayerWidget.js:54
 msgid "Search"
-msgstr "Rechercher"
+msgstr "Търсене"
 
 #: amd/ngw-basemap/LayerWidget.js:61
 msgid "Use options from QMS"
-msgstr "Utiliser les options de QMS"
+msgstr "Използвай настройките от QMS"
 
 #: amd/ngw-basemap/WebMapWidget.js:43
 msgid "Basemaps"
-msgstr "Fonds de carte"
+msgstr "Базови карти"
 
 #: amd/ngw-basemap/template/LayerWidget.hbs:11
 msgid "URL"
@@ -28,29 +28,29 @@ msgstr ""
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:14
 msgid "Add"
-msgstr "Ajouter"
+msgstr "Добави"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:18
 msgid "Select basemap"
-msgstr "Sélectionnez le fond de carte"
+msgstr "Избери базова карта"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:27
 msgid "Remove"
-msgstr "Supprimer"
+msgstr "Премахни"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:61
 msgid "Display name"
-msgstr "Afficher un nom"
+msgstr "Показвано име"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:65
 msgid "Enabled"
-msgstr "Activé"
+msgstr "Включен"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:72
 msgid "Opacity"
-msgstr "Opacité"
+msgstr "Непрозрачност"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:78
 msgid "Resource"
-msgstr "Ressource"
+msgstr "Ресурс"
 

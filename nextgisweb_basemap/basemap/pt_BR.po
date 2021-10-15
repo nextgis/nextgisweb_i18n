@@ -18,6 +18,14 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
+#: amd/ngw-basemap/template/LayerWidget.hbs:17
+msgid "Copyright text"
+msgstr ""
+
+#: amd/ngw-basemap/template/LayerWidget.hbs:23
+msgid "Copyright URL"
+msgstr ""
+
 #: amd/ngw-basemap/template/WebMapWidget.hbs:14
 msgid "Add"
 msgstr ""

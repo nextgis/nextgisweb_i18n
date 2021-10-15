@@ -1,0 +1,169 @@
+#: __init__.py:126
+msgid "Editors"
+msgstr "Редактори"
+
+#: amd/ngw-ngwcluster/AdditionalMenuLinks.js:22 view.py:8
+msgid "Account"
+msgstr "Профил"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:34
+msgid "Resources"
+msgstr "Ресурси"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:36
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:37
+msgid "Unlimited"
+msgstr "Неограничен"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:41
+msgid "Users"
+msgstr "Потребители"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:48
+msgid "Basemaps"
+msgstr "Базови карти"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:55
+msgid "CORS"
+msgstr "CORS"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:62
+msgid "Lookup tables & forms"
+msgstr "Справочници и форми"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:69
+msgid "Support"
+msgstr "Поддръжка"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:76
+msgid "Home path"
+msgstr "Начална страница"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:83
+msgid "Private resources"
+msgstr "Приватни ресурси"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:90
+msgid "Spatial reference systems"
+msgstr "Координатни системи"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:97
+msgid "Custom domain"
+msgstr "Потребителски домейн"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:104
+msgid "Branding"
+msgstr "Брандиране"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:111
+msgid "Higher performance"
+msgstr "Повишена производителност"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:118
+msgid "Higher upload size"
+msgstr "Качване на големи обеми"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:146
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:148
+msgid " of "
+msgstr " от "
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:162
+msgid "Unavailable"
+msgstr "Недостъпно"
+
+#: amd/ngw-ngwcluster/PlanQuotaWidget.js:183
+msgid "Total of: Vector layers, Raster layers, PostGIS layers, WMS layers, Web Maps"
+msgstr ""
+"Взимат се предвид: векторни слоеве, растерни слоеве, PostGIS слоеве, WMS "
+"слоеве и уеб карти"
+
+#: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
+msgid ""
+"Basemaps management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
+"Premium</a>."
+msgstr ""
+"Управляването на базови карти не е достъпно в рамките на Вашия план. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Преминете към Mini или Premium"
+" план</a>."
+
+#: amd/ngw-ngwcluster/template/CollectorDetail.hbs:2
+msgid ""
+"NextGIS Collector management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
+msgstr ""
+"Управляването на NextGIS Collector не е достъпно в рамките на Вашия план. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Преминете към Premium</a>."
+
+#: amd/ngw-ngwcluster/template/OtherSettings.hbs:2
+msgid ""
+"<a href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Online "
+"feature editing</a> and Web map annotations are not available on your plan.  "
+"<a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
+msgstr ""
+"<a "
+"href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Редактиране"
+" на обекти онлайн</a> и анотации за Уеб карти не са достъпни в рамките на "
+"Вашия план. <a href=\"http://nextgis.com/nextgis-com/plans/\">Преминете към "
+"Premium</a>."
+
+#: amd/ngw-ngwcluster/template/PermissionWidget.hbs:2
+msgid ""
+"Full permission management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>.<br/> "
+"To allow other users edit your data, add them to \"Editors\" group in <a "
+"href=\"/auth/user/\">Control panel</a>."
+msgstr ""
+"Разширеното управляване на достъп не е достъпно в рамките на Вашия план. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Преминете към "
+"Premium</a>.<br/> Добавете потребители в групата \"Редактори\" в <a "
+"href=\"/auth/user/\">Контролния панел</a> да им дадете право да редактират "
+"данните Ви."
+
+#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
+msgid "Used"
+msgstr "Използвано"
+
+#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
+msgid "of"
+msgstr "от"
+
+#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
+msgid "resources"
+msgstr "ресурси"
+
+#: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
+msgid "Upgrade plan"
+msgstr "Разширяване на плана"
+
+#: amd/ngw-ngwcluster/template/TrackerDetailWidget.hbs:2
+msgid ""
+"Tracker management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
+"Premium</a>."
+msgstr ""
+"Текущият Ви план не предвижда управляване на GPS проследяване. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Преминете към Mini или "
+"Premium</a>."
+
+#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:3
+msgid "Upgrade"
+msgstr "Разшири"
+
+#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:10
+msgid "Your plan — "
+msgstr "Вашият план е "
+
+#: template/account.mako:53
+msgid "Change plan"
+msgstr "Промени плана"
+
+#: template/account.mako:56
+msgid "Your plan"
+msgstr "Вашият план"
+
+#: template/account.mako:62
+msgid "More about plans"
+msgstr "Повече за плановете"
+
