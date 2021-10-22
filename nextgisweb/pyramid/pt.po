@@ -1,12 +1,12 @@
-#: api.py:478
+#: api.py:475
 msgid "Your Web GIS at nextgis.com"
 msgstr "O seu Web GIS em nextgis.com"
 
-#: exception.py:208 exception.py:264
+#: exception.py:205 exception.py:266
 msgid "Internal server error"
 msgstr "Erro interno no servidor"
 
-#: exception.py:209
+#: exception.py:206
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -14,11 +14,11 @@ msgstr ""
 "O servidor encontrou um erro interno ou configuração incorreta e não foi "
 "capaz de concluir o seu pedido."
 
-#: exception.py:238
+#: exception.py:235
 msgid "Bad request"
 msgstr "Pedido inválido"
 
-#: exception.py:239
+#: exception.py:236
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
@@ -26,19 +26,27 @@ msgstr ""
 "O servidor não pôde responder ao pedido porque está mal formatado ou "
 "incorreto."
 
-#: exception.py:246
+#: exception.py:243
+msgid "Payment required"
+msgstr ""
+
+#: exception.py:244
+msgid "Access was denied for financial reasons."
+msgstr ""
+
+#: exception.py:248
 msgid "Forbidden"
 msgstr "Proibido"
 
-#: exception.py:247
+#: exception.py:249
 msgid "Access was denied to this resource."
 msgstr "O acesso a este recurso foi negado."
 
-#: exception.py:251
+#: exception.py:253
 msgid "Page not found"
 msgstr "Página não encontrada"
 
-#: exception.py:252
+#: exception.py:254
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -46,75 +54,75 @@ msgstr ""
 "A página pode ter sido apagada ou existir um erro no endereço. Corrija o "
 "endereço ou volte à página inicial e tente encontrar a página desejada."
 
-#: exception.py:259
+#: exception.py:261
 msgid "Unprocessable entity"
 msgstr "Entidade não processável"
 
-#: exception.py:260
+#: exception.py:262
 msgid "Unable to process the contained instructions."
 msgstr "Não foi possível processar as instruções contidas."
 
-#: exception.py:265
+#: exception.py:267
 msgid ""
 "The server has either erred or is incapable of performing the requested "
 "operation."
 msgstr "O servidor deu erro ou não é capaz de executar a operação solicitada."
 
-#: exception.py:272 exception.py:273
+#: exception.py:274 exception.py:275
 msgid "Not implemented"
 msgstr "Não implementado"
 
-#: exception.py:277
+#: exception.py:279
 msgid "Service unavailable"
 msgstr "Serviço indisponível"
 
-#: exception.py:278
+#: exception.py:280
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr ""
 "O servidor não está disponível de momento. Por favor tente novamente mais "
 "tarde."
 
-#: template/header.mako:111 view.py:87
+#: template/header.mako:110 view.py:83
 msgid "Control panel"
 msgstr "Painel de controle"
 
-#: view.py:109 view.py:469
+#: view.py:105 view.py:461
 msgid "System information"
 msgstr "Informação do sistema"
 
-#: view.py:121 view.py:486
+#: view.py:117 view.py:478
 msgid "Storage"
 msgstr ""
 
-#: view.py:131 view.py:491
+#: view.py:127 view.py:483
 msgid "Backups"
 msgstr "Backups"
 
-#: view.py:146 view.py:475
+#: view.py:142 view.py:467
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Partilha de recursos de origem cruzada (CORS)"
 
-#: view.py:153 view.py:477
+#: view.py:149 view.py:469
 msgid "Custom CSS"
 msgstr "CSS personalizado"
 
-#: view.py:160 view.py:479
+#: view.py:156 view.py:471
 msgid "Custom logo"
 msgstr "Logótipo personalizado"
 
-#: view.py:167 view.py:473
+#: view.py:163 view.py:465
 msgid "Web GIS name"
 msgstr "Nome do Web SIG"
 
-#: view.py:174 view.py:481
+#: view.py:170 view.py:473
 msgid "Home path"
 msgstr "Caminho página inicial"
 
-#: view.py:468
+#: view.py:460
 msgid "Info"
 msgstr "Informações"
 
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7 view.py:472
+#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7 view.py:464
 msgid "Settings"
 msgstr "Configurações"
 
@@ -308,15 +316,15 @@ msgstr "Timestamp (UTC)"
 msgid "Size"
 msgstr "Tamanho"
 
-#: template/header.mako:36
+#: template/header.mako:35
 msgid "Sign in"
 msgstr "Entrar"
 
-#: template/header.mako:106
+#: template/header.mako:105
 msgid "Resources"
 msgstr "Recursos"
 
-#: template/header.mako:119
+#: template/header.mako:118
 msgid "Help"
 msgstr "Ajuda"
 
@@ -353,6 +361,14 @@ msgstr ""
 
 #: template/storage.mako:83
 msgid "Some changes may be reflected only after full estimation."
+msgstr ""
+
+#: template/storage.mako:102
+msgid "Estimation is in progress..."
+msgstr ""
+
+#: template/storage.mako:108
+msgid "Estimate storage"
 msgstr ""
 
 #: template/sysinfo.mako:30
