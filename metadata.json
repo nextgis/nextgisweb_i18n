@@ -3,6 +3,7 @@
   "packages": [
     "nextgisweb",
     "nextgisweb_basemap",
+    "nextgisweb_cadaster",
     "nextgisweb_collector",
     "nextgisweb_formbuilder",
     "nextgisweb_mapserver",

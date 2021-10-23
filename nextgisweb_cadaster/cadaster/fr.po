@@ -1,0 +1,207 @@
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:4
+msgid "Common"
+msgstr ""
+
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:13
+msgid "API key"
+msgstr ""
+
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:21
+msgid "Enabled"
+msgstr ""
+
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:28
+msgid "Save"
+msgstr ""
+
+#: amd/ngw-cadaster/settings/CadasterSettings.js:56
+msgid "The settings has been saved successfully!"
+msgstr ""
+
+#: amd/ngw-cadaster/settings/CadasterSettings.js:58
+msgid "Error, the settings not has been saved!"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:24
+msgid "Cadastral number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:25
+msgid "Name"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:26
+msgid "Type"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:27
+msgid "Identifier"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:28
+msgid "Address"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:29
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:49
+msgid "Publication date"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:30
+msgid "Updated"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:31
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:36
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:51
+msgid "District"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:32
+msgid "Change date"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:33
+msgid "Local identifier"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:34
+msgid "County cadastral number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:35
+msgid "Annotation text"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:37
+msgid "District cadastral number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:38
+msgid "Date of creation"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:39
+msgid "Floors"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:40
+msgid "OX type"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:41
+msgid "Quarterly cadastral number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:42
+msgid "Date of value setting"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:43
+msgid "Year of Construction"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:44
+msgid "Year of Commissioning"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:45
+msgid "Underground floors"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:46
+msgid "Destination"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:47
+msgid "Quarterly"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:48
+msgid "Cadastral value"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:50
+msgid "Category type"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
+msgid "Cadastral number of the county"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:58
+msgid "Cadastral quarter"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:59
+msgid "Indentification of cadastral quarters"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:64
+msgid "Land plot"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
+msgid "Land plot identification"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:70
+msgid "Capital construction object"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:71
+msgid "Identification of capital construction objects"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:76
+msgid "Cadastral district"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
+msgid "Identification of cadastral districts"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:83
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:169
+msgid "Attributes"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:99
+msgid "No data"
+msgstr ""
+
+#: api/pkk_request.py:19
+msgid "Cadaster services module error"
+msgstr ""
+
+#: api/pkk_request.py:20
+msgid "Geoservices API is unavailable"
+msgstr ""
+
+#: api/pkk_request.py:25
+msgid "Cadaster services module"
+msgstr ""
+
+#: api/pkk_request.py:42
+msgid ""
+"Geoservices API key in cadaster services module not set. Set the Geoservices "
+"API key in the “Cadaster services” section on the Control panel."
+msgstr ""
+
+#: api/pkk_request.py:86
+msgid "Parameter 'types' is required!"
+msgstr ""
+
+#: api/pkk_request.py:111
+#, python-format
+msgid "Cadaster plot with ID '%(id)s' not found!"
+msgstr ""
+
+#: view/settings.py:11
+msgid "Cadaster services settings"
+msgstr ""
+
+#: view/settings.py:17
+msgid "Cadaster services"
+msgstr ""
+

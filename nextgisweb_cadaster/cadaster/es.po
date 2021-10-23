@@ -1,0 +1,210 @@
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:4
+msgid "Common"
+msgstr "Común"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:13
+msgid "API key"
+msgstr "Clave API"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:21
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:28
+msgid "Save"
+msgstr "Guardar"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.js:56
+msgid "The settings has been saved successfully!"
+msgstr "¡La configuración se ha guardado correctamente!"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.js:58
+msgid "Error, the settings not has been saved!"
+msgstr "¡Error, la configuración no se ha guardado!"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:24
+msgid "Cadastral number"
+msgstr "Número catastral"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:25
+msgid "Name"
+msgstr "Nombre"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:26
+msgid "Type"
+msgstr "Tipo"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:27
+msgid "Identifier"
+msgstr "Identificador"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:28
+msgid "Address"
+msgstr "Dirección"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:29
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:49
+msgid "Publication date"
+msgstr "Fecha de publicación"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:30
+msgid "Updated"
+msgstr "Actualizado"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:31
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:36
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:51
+msgid "District"
+msgstr "Distrito"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:32
+msgid "Change date"
+msgstr "Cambiar fecha"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:33
+msgid "Local identifier"
+msgstr "Identificador local"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:34
+msgid "County cadastral number"
+msgstr "Número catastral del condado"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:35
+msgid "Annotation text"
+msgstr "Texto de anotación"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:37
+msgid "District cadastral number"
+msgstr "Número catastral del distrito"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:38
+msgid "Date of creation"
+msgstr "Fecha de creación"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:39
+msgid "Floors"
+msgstr "Pisos"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:40
+msgid "OX type"
+msgstr "Tipo de OX"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:41
+msgid "Quarterly cadastral number"
+msgstr "Número catastral del barrio"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:42
+msgid "Date of value setting"
+msgstr "Fecha de ajuste del valor"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:43
+msgid "Year of Construction"
+msgstr "Año de construcción"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:44
+msgid "Year of Commissioning"
+msgstr "Año de puesta en servicio"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:45
+msgid "Underground floors"
+msgstr "Pisos subterráneos"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:46
+msgid "Destination"
+msgstr "Propósito"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:47
+msgid "Quarterly"
+msgstr "Barrio"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:48
+msgid "Cadastral value"
+msgstr "Valor catastral"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:50
+msgid "Category type"
+msgstr "Tipo de categoría"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
+msgid "Cadastral number of the county"
+msgstr "Número catastral del condado"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:58
+msgid "Cadastral quarter"
+msgstr "Barrio catastral"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:59
+msgid "Indentification of cadastral quarters"
+msgstr "Identificación de barrios catastrales"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:64
+msgid "Land plot"
+msgstr "Parcela"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
+msgid "Land plot identification"
+msgstr "Identificación de parcelas de tierra"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:70
+msgid "Capital construction object"
+msgstr "Objeto de construcción de capital"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:71
+msgid "Identification of capital construction objects"
+msgstr "Identificación de objetos de construcción de capital"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:76
+msgid "Cadastral district"
+msgstr "Distrito catastral"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
+msgid "Identification of cadastral districts"
+msgstr "Identificación de distritos catastrales"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:83
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:169
+msgid "Attributes"
+msgstr "Atributos"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:99
+msgid "No data"
+msgstr "Sin datos"
+
+#: api/pkk_request.py:19
+msgid "Cadaster services module error"
+msgstr "Error del módulo de servicios catastrales"
+
+#: api/pkk_request.py:20
+msgid "Geoservices API is unavailable"
+msgstr "La API Geoservices no está disponible"
+
+#: api/pkk_request.py:25
+msgid "Cadaster services module"
+msgstr "Módulo de servicios catastrales"
+
+#: api/pkk_request.py:42
+msgid ""
+"Geoservices API key in cadaster services module not set. Set the Geoservices "
+"API key in the “Cadaster services” section on the Control panel."
+msgstr ""
+"La clave de la API de Geoservices en el módulo de servicios de catastro no "
+"está configurada. Configure la clave API de Geoservices en la sección "
+"\"Servicios catastrales\" en el Panel de control."
+
+#: api/pkk_request.py:86
+msgid "Parameter 'types' is required!"
+msgstr "¡Se requiere el parámetro 'tipos'!"
+
+#: api/pkk_request.py:111
+#, python-format
+msgid "Cadaster plot with ID '%(id)s' not found!"
+msgstr "¡No se encontró la parcela catastral con ID '%(id)s'!"
+
+#: view/settings.py:11
+msgid "Cadaster services settings"
+msgstr "Configuración de servicios catastrales"
+
+#: view/settings.py:17
+msgid "Cadaster services"
+msgstr "Servicios catastrales"
+

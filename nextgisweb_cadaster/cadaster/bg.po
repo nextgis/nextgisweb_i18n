@@ -1,0 +1,209 @@
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:4
+msgid "Common"
+msgstr "Общи"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:13
+msgid "API key"
+msgstr "API ключ"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:21
+msgid "Enabled"
+msgstr "Включен"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.hbs:28
+msgid "Save"
+msgstr "Запази"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.js:56
+msgid "The settings has been saved successfully!"
+msgstr "Настройките са запазени успешно!"
+
+#: amd/ngw-cadaster/settings/CadasterSettings.js:58
+msgid "Error, the settings not has been saved!"
+msgstr "Грешка, настройките не са запазени!"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:24
+msgid "Cadastral number"
+msgstr "Номер в кадастъра"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:25
+msgid "Name"
+msgstr "Име"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:26
+msgid "Type"
+msgstr "Тип"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:27
+msgid "Identifier"
+msgstr "Идентификатор"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:28
+msgid "Address"
+msgstr "Адрес"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:29
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:49
+msgid "Publication date"
+msgstr "Дата на публикуване"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:30
+msgid "Updated"
+msgstr "Актуализиран"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:31
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:36
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:51
+msgid "District"
+msgstr "Квартал"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:32
+msgid "Change date"
+msgstr "Промени дата"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:33
+msgid "Local identifier"
+msgstr "Местен идентификатор"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:34
+msgid "County cadastral number"
+msgstr "Кадастрален код на населено място"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:35
+msgid "Annotation text"
+msgstr "Текст на анотацията"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:37
+msgid "District cadastral number"
+msgstr "Номер на кадастрален район"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:38
+msgid "Date of creation"
+msgstr "Дата на създаване"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:39
+msgid "Floors"
+msgstr "Етажи"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:40
+msgid "OX type"
+msgstr "Тип обект на капитално строителство"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:41
+msgid "Quarterly cadastral number"
+msgstr "Кадастрален код на квартала"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:42
+msgid "Date of value setting"
+msgstr "Стойността определена на"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:43
+msgid "Year of Construction"
+msgstr "Изграден"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:44
+msgid "Year of Commissioning"
+msgstr "Въведен в експлоатация"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:45
+msgid "Underground floors"
+msgstr "Подземни етажи"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:46
+msgid "Destination"
+msgstr "Предназначение"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:47
+msgid "Quarterly"
+msgstr "Квартал"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:48
+msgid "Cadastral value"
+msgstr "Кадастрална стойност"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:50
+msgid "Category type"
+msgstr "Тип на категория"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
+msgid "Cadastral number of the county"
+msgstr "Кадастрален код на населено място"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:58
+msgid "Cadastral quarter"
+msgstr "Квартал в кадастъра"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:59
+msgid "Indentification of cadastral quarters"
+msgstr "Идентификация на квартали в кадастъра"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:64
+msgid "Land plot"
+msgstr "Парцел"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
+msgid "Land plot identification"
+msgstr "Идентификация на парцела"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:70
+msgid "Capital construction object"
+msgstr "Обект на капитално строителство"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:71
+msgid "Identification of capital construction objects"
+msgstr "Идентификация на обекта на капитално строителство"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:76
+msgid "Cadastral district"
+msgstr "Кадастрален район"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
+msgid "Identification of cadastral districts"
+msgstr "Идентификация на кадастрален район"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:83
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:169
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:99
+msgid "No data"
+msgstr "Няма данни"
+
+#: api/pkk_request.py:19
+msgid "Cadaster services module error"
+msgstr "Грешка на кадастралния модул"
+
+#: api/pkk_request.py:20
+msgid "Geoservices API is unavailable"
+msgstr "Geoservices API е недостъпен"
+
+#: api/pkk_request.py:25
+msgid "Cadaster services module"
+msgstr "Кадастрален модул"
+
+#: api/pkk_request.py:42
+msgid ""
+"Geoservices API key in cadaster services module not set. Set the Geoservices "
+"API key in the “Cadaster services” section on the Control panel."
+msgstr ""
+"Geoservices API ключ в кадастралния модул не е установен. Установете "
+"Geoservices API ключ в раздела “Кадастър” на Контролния панел."
+
+#: api/pkk_request.py:86
+msgid "Parameter 'types' is required!"
+msgstr "Параметърът \"типове\" е задължителен!"
+
+#: api/pkk_request.py:111
+#, python-format
+msgid "Cadaster plot with ID '%(id)s' not found!"
+msgstr "Кадастрален парцел с ID '%(id)s' не е открит!"
+
+#: view/settings.py:11
+msgid "Cadaster services settings"
+msgstr "Настройките на кадастър"
+
+#: view/settings.py:17
+msgid "Cadaster services"
+msgstr "Кадастър"
+
