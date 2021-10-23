@@ -133,19 +133,23 @@ msgstr "Zrušení"
 msgid "The NextGIS ID is invalid!"
 msgstr "ID NextGIS je neplatné!"
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:44
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:34
+msgid "The NextGIS ID is required!"
+msgstr ""
+
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:47
 msgid "Edit collector"
 msgstr "Upravit sběratel"
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:45
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:48
 msgid "New collector"
 msgstr "Nový sběratel"
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:48
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:51
 msgid "Save"
 msgstr "Uložit"
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:49
+#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:52
 #: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:13
 msgid "Create"
 msgstr "Vytvořit"

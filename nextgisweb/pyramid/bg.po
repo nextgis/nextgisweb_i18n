@@ -146,7 +146,7 @@ msgstr "Проверявам актуализации..."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:74
 msgid "Your {distribution} is up-to-date."
-msgstr ""
+msgstr "Имате най-актуална версия на {distribution}."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:79
 msgid "New version of {distribution} is available: {version}."

@@ -256,7 +256,7 @@ msgstr "Поправяй грешки"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:70
 msgid "None"
-msgstr "Няма"
+msgstr "Не"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:71
 msgid "Without losing data"
@@ -264,7 +264,7 @@ msgstr "Без загуба на данни"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:72
 msgid "Whatever possible"
-msgstr "Загуби на данни се допускат"
+msgstr "Като се допускат загуби на данни"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:81
 msgid "Skip features with unfixable errors"

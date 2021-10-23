@@ -28,7 +28,7 @@ msgstr "Прикачването е неуспешно!"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:9
 msgid "Select an image"
-msgstr "Избери изображение"
+msgstr "Изберете изображение"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:10
 #: amd/ngw-file-upload/template/Uploader.hbs:10
@@ -51,5 +51,5 @@ msgstr "Изтрий"
 
 #: amd/ngw-file-upload/template/Uploader.hbs:9
 msgid "Select a file"
-msgstr "Избери файл"
+msgstr "Изберете файл"
 

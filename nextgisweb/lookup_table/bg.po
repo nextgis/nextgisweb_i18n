@@ -20,7 +20,7 @@ msgstr "Добави"
 
 #: amd/ngw-lookup-table/Widget.js:128
 msgid "Delete"
-msgstr "Изтрий"
+msgstr "Премахни"
 
 #: template/section.mako:2
 msgid "Items"

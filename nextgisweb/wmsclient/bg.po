@@ -63,7 +63,7 @@ msgstr "Не запитвай"
 
 #: amd/ngw-wmsclient/template/ConnectionWidget.hbs:34
 msgid "Query"
-msgstr "Запитване"
+msgstr "Запитай"
 
 #: amd/ngw-wmsclient/template/ConnectionWidget.hbs:35
 msgid "Clear"
@@ -71,7 +71,7 @@ msgstr "Изчисти"
 
 #: amd/ngw-wmsclient/template/LayerWidget.hbs:15
 msgid "Select WMS connection"
-msgstr "Избери WMS връзка"
+msgstr "Изберете WMS връзка"
 
 #: amd/ngw-wmsclient/template/LayerWidget.hbs:22
 msgid "Coordinate system"

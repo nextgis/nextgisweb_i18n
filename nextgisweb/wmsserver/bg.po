@@ -13,7 +13,7 @@ msgstr "Добави"
 
 #: amd/ngw-wmsserver/template/ServiceWidget.hbs:18
 msgid "Select layer\\'s style"
-msgstr "Избери стил за слоя"
+msgstr "Изберете стил за слоя"
 
 #: amd/ngw-wmsserver/template/ServiceWidget.hbs:27
 msgid "Remove"

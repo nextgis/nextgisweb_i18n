@@ -16,15 +16,15 @@ msgstr "Уеб карта"
 
 #: model.py:33 view.py:188
 msgid "Display"
-msgstr "Покажи"
+msgstr "Показване"
 
 #: model.py:34
 msgid "View annotations"
-msgstr "Покажи анотации"
+msgstr "Показване на анотации"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:173 model.py:35
 msgid "Edit annotations"
-msgstr "Редактирай анотации"
+msgstr "Редактиране на анотации"
 
 #: view.py:36 view.py:203
 msgid "Web map settings"
@@ -174,7 +174,7 @@ msgstr "Избери обхват от слоя"
 
 #: amd/ngw-webmap/template/ExtentWidget.hbs:38
 msgid "Select layer"
-msgstr "Избери слой"
+msgstr "Изберете слой"
 
 #: amd/ngw-webmap/template/ExtentWidget.hbs:46
 msgid "Constrain to extent"
@@ -182,7 +182,7 @@ msgstr "Фиксирай обхват"
 
 #: amd/ngw-webmap/template/ExtentWidget.hbs:49
 msgid "Select vector layer"
-msgstr "Избери векторен слой"
+msgstr "Изберете векторен слой"
 
 #: amd/ngw-webmap/template/ExtentWidget.hbs:51
 msgid "Bookmark resource"
@@ -194,7 +194,7 @@ msgstr "Добави слой"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:18
 msgid "Select layer\\'s style"
-msgstr "Избери стил за слоя"
+msgstr "Изберете стил за слоя"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:33
 msgid "Remove"
@@ -518,7 +518,7 @@ msgstr "Формат на хартия"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:22
 msgid "Select format"
-msgstr "Избери формат"
+msgstr "Изберете формат"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
 msgid "A4 - Portrait"
@@ -603,7 +603,7 @@ msgstr "PNG"
 
 #: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:8
 msgid "Select scale"
-msgstr "Избери мащаб"
+msgstr "Изберете мащаб"
 
 #: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:24
 msgid "Use Shift+drag for box zooming"

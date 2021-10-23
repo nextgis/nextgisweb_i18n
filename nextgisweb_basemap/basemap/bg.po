@@ -20,11 +20,11 @@ msgstr "URL"
 
 #: amd/ngw-basemap/template/LayerWidget.hbs:17
 msgid "Copyright text"
-msgstr ""
+msgstr "Текст на копирайта"
 
 #: amd/ngw-basemap/template/LayerWidget.hbs:23
 msgid "Copyright URL"
-msgstr ""
+msgstr "Линк към копирайта"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:14
 msgid "Add"
@@ -32,7 +32,7 @@ msgstr "Добави"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:18
 msgid "Select basemap"
-msgstr "Избери базова карта"
+msgstr "Изберете базова карта"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:27
 msgid "Remove"

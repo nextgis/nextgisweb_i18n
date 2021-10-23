@@ -123,20 +123,20 @@ msgstr "Група ресурси"
 
 #: scope.py:27 scope.py:66 scope.py:78 scope.py:88 scope.py:101
 msgid "Read"
-msgstr "Прочети"
+msgstr "Четене"
 
 #: amd/ngw-resource/CompositeWidget.js:77 scope.py:33
 msgid "Create"
-msgstr "Създай"
+msgstr "Създаване"
 
 #: scope.py:40 view.py:319
 msgid "Update"
-msgstr "Актуализирай"
+msgstr "Актуализиране"
 
 #: amd/ngw-resource/CompositeWidget.js:96 amd/ngw-resource/PermissionWidget.js:321
 #: scope.py:44 view.py:327
 msgid "Delete"
-msgstr "Премахни"
+msgstr "Премахване"
 
 #: scope.py:49
 msgid "Manage children"
@@ -144,7 +144,7 @@ msgstr "Управляване на дъщерните ресурси"
 
 #: scope.py:52
 msgid "Change permissions"
-msgstr "Редактирай разрешителни"
+msgstr "Редактиране на разрешителни"
 
 #: scope.py:64
 msgid "Metadata"
@@ -152,7 +152,7 @@ msgstr "Метаданни"
 
 #: scope.py:67 scope.py:79 scope.py:89 scope.py:102
 msgid "Write"
-msgstr "Запиши"
+msgstr "Записване"
 
 #: scope.py:76
 msgid "Data structure"
@@ -197,7 +197,7 @@ msgstr "Създай ресурс"
 
 #: view.py:134
 msgid "Update resource"
-msgstr "Актуализирай ресурс"
+msgstr "Актуализиране на ресурс"
 
 #: amd/ngw-resource/DeleteWidget.js:20 view.py:141
 msgid "Delete resource"
@@ -325,7 +325,7 @@ msgstr "Редактирай"
 
 #: amd/ngw-resource/ResourcePicker.js:31
 msgid "Select resource"
-msgstr "Избери ресурс"
+msgstr "Изберете ресурс"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.hbs:5
 msgid "Search"
@@ -348,6 +348,8 @@ msgid ""
 "Select the category of users who can use the \"Save as\" link to download "
 "resource data."
 msgstr ""
+"Изберете категория потребители, които могат да използват линка \"Запази "
+"като\" да изтеглят данните на ресурса."
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:8
 msgid "Users with \"Data: Read\" permission"
@@ -366,6 +368,8 @@ msgid ""
 "* This will not affect REST API use which will continue to be governed by "
 "permissions."
 msgstr ""
+"* Това няма да повлияе върху използването на REST API, което ще продължи да "
+"се управлява чрез разрешителни."
 
 #: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
 #: template/section_summary.mako:6
@@ -392,7 +396,7 @@ msgstr "Тип"
 
 #: template/section_api.mako:4
 msgid "Use these links to plug data into external applications."
-msgstr "Използвайте тези линкове за вкарване не данните в странични приложения."
+msgstr "Използвайте тези линкове за вкарване на данните в странични приложения."
 
 #: template/section_children.mako:128
 msgid "Show resources volume"

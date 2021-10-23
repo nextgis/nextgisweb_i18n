@@ -17,7 +17,7 @@ msgstr "Възможности на TMS"
 
 #: amd/ngw-tmsclient/LayersDialog.js:25
 msgid "Select layer"
-msgstr "Избери слой"
+msgstr "Изберете слой"
 
 #: amd/ngw-tmsclient/LayersDialog.js:63
 msgid "OK"

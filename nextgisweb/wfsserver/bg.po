@@ -12,7 +12,7 @@ msgstr "Добави"
 
 #: amd/ngw-wfsserver/template/ServiceWidget.hbs:18
 msgid "Select vector layer"
-msgstr "Избери векторен слой"
+msgstr "Изберете векторен слой"
 
 #: amd/ngw-wfsserver/template/ServiceWidget.hbs:27
 msgid "Remove"

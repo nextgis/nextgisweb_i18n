@@ -20,7 +20,7 @@ msgstr "Прикачи архиви"
 
 #: amd/ngw-svg-marker-library/Widget.js:133
 msgid "Delete"
-msgstr "Изтрий"
+msgstr "Премахни"
 
 #: template/section.mako:6
 msgid "Name"

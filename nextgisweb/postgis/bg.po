@@ -103,7 +103,7 @@ msgstr "Парола"
 
 #: amd/ngw-postgis/template/LayerWidget.hbs:8
 msgid "Select PostGIS connection"
-msgstr "Избери PostGIS връзка"
+msgstr "Изберете PostGIS връзка"
 
 #: amd/ngw-postgis/template/LayerWidget.hbs:10
 msgid "Connection"

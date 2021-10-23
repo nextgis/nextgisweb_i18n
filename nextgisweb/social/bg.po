@@ -8,7 +8,7 @@ msgstr "Предварителен преглед за социални мреж
 
 #: amd/ngw-social/template/Widget.hbs:8
 msgid "Select a preview image"
-msgstr "Избери изображение за предварителен преглед"
+msgstr "Изберете изображение за предварителен преглед"
 
 #: amd/ngw-social/template/Widget.hbs:9
 msgid ""

@@ -72,7 +72,7 @@ msgstr "Изтрий"
 #: amd/ngw-spatial-ref-sys/SRSImportDialog.js:38
 #: amd/ngw-spatial-ref-sys/template/SRSWidget.hbs:24
 msgid "Import definition"
-msgstr "Импортирай определение"
+msgstr "Импортиране на определение"
 
 #: amd/ngw-spatial-ref-sys/SRSImportDialog.js:53
 msgid "Format"
