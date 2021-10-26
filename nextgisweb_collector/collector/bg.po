@@ -135,7 +135,7 @@ msgstr "NextGIS ID не е валиден!"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:34
 msgid "The NextGIS ID is required!"
-msgstr ""
+msgstr "Необходим е NextGIS ID!"
 
 #: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:47
 msgid "Edit collector"

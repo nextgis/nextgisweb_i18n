@@ -1,35 +1,41 @@
-msgid ""
-msgstr ""
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: NextGIS Web GUI\n"
-"Language: pt\n"
-
-#: amd/ngw-audit/JournalFilter/JournalFilter.hbs:23
-msgid "Export"
-msgstr "Exportar"
-
-#: amd/ngw-svg-marker-library/Widget.js:55
-msgid "File name"
-msgstr "Nome do ficheiro"
-
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:115
-msgid "Delete"
-msgstr "Apagar"
-
-#: amd/ngw-svg-marker-library/Widget.js:63 model.py:29 view.py:19 view.py:32
+#: amd/ngw-svg-marker-library/Widget.js:62 model.py:28 view.py:16 view.py:29
 msgid "SVG marker library"
 msgstr "Biblioteca de marcadores SVG"
 
-#: amd/ngw-svg-marker-library/Widget.js:83
+#: model.py:71
+#, python-format
+msgid "Insecure filename \"%s\"."
+msgstr ""
+
+#: model.py:76
+#, python-format
+msgid "File \"%s\" has an invalid extension."
+msgstr ""
+
+#: model.py:82
+#, python-format
+msgid "File type \"%s\" is not SVG."
+msgstr ""
+
+#: view.py:20
+msgid "Export"
+msgstr "Exportar"
+
+#: amd/ngw-svg-marker-library/Widget.js:54
+msgid "File name"
+msgstr "Nome do ficheiro"
+
+#: amd/ngw-svg-marker-library/Widget.js:82
 msgid "Upload files"
 msgstr "Carregar ficheiros"
 
-#: amd/ngw-svg-marker-library/Widget.js:103
+#: amd/ngw-svg-marker-library/Widget.js:102
 msgid "Upload archive"
 msgstr "Carregar arquivo"
+
+#: amd/ngw-svg-marker-library/Widget.js:133
+msgid "Delete"
+msgstr "Apagar"
 
 #: template/section.mako:6
 msgid "Name"

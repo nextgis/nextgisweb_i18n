@@ -1,6 +1,6 @@
 #: __init__.py:15
 msgid "Feature attachments"
-msgstr ""
+msgstr "Caractéristiques des pièces jointes"
 
 #: exception.py:15
 msgid "Attachment not found"

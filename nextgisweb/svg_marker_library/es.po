@@ -1,26 +1,41 @@
-#: amd/ngw-audit/JournalFilter/JournalFilter.hbs:23
-msgid "Export"
-msgstr "Exportar"
-
-#: amd/ngw-svg-marker-library/Widget.js:55
-msgid "File name"
-msgstr "Nombre del archivo"
-
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:98
-msgid "Delete"
-msgstr "Eliminar"
-
-#: amd/ngw-svg-marker-library/Widget.js:63 model.py:29 view.py:19 view.py:32
+#: amd/ngw-svg-marker-library/Widget.js:62 model.py:28 view.py:16 view.py:29
 msgid "SVG marker library"
 msgstr "Biblioteca de marcadores SVG"
 
-#: amd/ngw-svg-marker-library/Widget.js:83
+#: model.py:71
+#, python-format
+msgid "Insecure filename \"%s\"."
+msgstr ""
+
+#: model.py:76
+#, python-format
+msgid "File \"%s\" has an invalid extension."
+msgstr ""
+
+#: model.py:82
+#, python-format
+msgid "File type \"%s\" is not SVG."
+msgstr ""
+
+#: view.py:20
+msgid "Export"
+msgstr "Exportar"
+
+#: amd/ngw-svg-marker-library/Widget.js:54
+msgid "File name"
+msgstr "Nombre del archivo"
+
+#: amd/ngw-svg-marker-library/Widget.js:82
 msgid "Upload files"
 msgstr "Subir archivos"
 
-#: amd/ngw-svg-marker-library/Widget.js:103
+#: amd/ngw-svg-marker-library/Widget.js:102
 msgid "Upload archive"
 msgstr "Subir archivo"
+
+#: amd/ngw-svg-marker-library/Widget.js:133
+msgid "Delete"
+msgstr "Eliminar"
 
 #: template/section.mako:6
 msgid "Name"

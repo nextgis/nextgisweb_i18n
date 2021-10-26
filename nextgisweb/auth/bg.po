@@ -1,93 +1,101 @@
-#: __init__.py:47
+#: __init__.py:45
 msgid "Guest"
 msgstr "Гост"
 
-#: __init__.py:53
+#: __init__.py:51
 msgid "Everyone"
 msgstr "Всички"
 
-#: __init__.py:59
+#: __init__.py:57
 msgid "Authenticated"
 msgstr "Проверен"
 
-#: __init__.py:67
+#: __init__.py:65
 msgid "Administrators"
 msgstr "Администратори"
 
-#: __init__.py:70
+#: __init__.py:68
 msgid "Administrator"
 msgstr "Администратор"
 
-#: __init__.py:79
+#: __init__.py:77
 msgid "Owner"
 msgstr "Собственик"
 
-#: __init__.py:238
+#: __init__.py:236
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr "Достигнат е максимален брой потребители. По текущия план пределът е %d."
 
-#: api.py:214
+#: api.py:213
 msgid "System principals couldn't be chanded."
 msgstr "Субектите на системата не могат да бъдат променени."
 
-#: exception.py:10
+#: api.py:227
+msgid "User is referenced with resources"
+msgstr ""
+
+#: api.py:228
+msgid "Group is referenced with resources"
+msgstr ""
+
+#: exception.py:7
 msgid "Invalid credentials"
 msgstr "Погрешни данни"
 
-#: exception.py:15
+#: exception.py:12
 msgid "User is disabled"
 msgstr "Потребителят е блокиран"
 
-#: oauth.py:127
+#: oauth.py:122
 msgid "User is already bound"
 msgstr "Потребителят вече е свързан"
 
-#: oauth.py:329
+#: oauth.py:324
 msgid "OAuth authorization error"
 msgstr "Грешка при авторизация OAuth"
 
-#: oauth.py:334
+#: oauth.py:329
 msgid "Invalid OAuth token"
 msgstr "OAuth токен не е валиден"
 
-#: oauth.py:339
+#: oauth.py:334
 msgid "OAuth token refresh failed"
 msgstr "Неуспешно обновяване на OAuth токен"
 
-#: oauth.py:344
+#: oauth.py:339
 msgid "OAuth access token is expired"
 msgstr "OAuth токен за достъп е с изтекъл срок"
 
-#: views.py:67
+#: views.py:63
 msgid "Session not found."
 msgstr "Сесии не са открити."
 
-#: views.py:72
+#: views.py:68
 msgid "Invalid 'expires' parameter."
 msgstr "Параметърът 'expires' е невалиден."
 
-#: views.py:74
+#: views.py:70
 msgid "Session expired."
 msgstr "Сесията е изтекла."
 
-#: views.py:231
+#: views.py:227
 msgid "User settings"
 msgstr "Потребителски настройки"
 
-#: views.py:304
+#: views.py:300
 msgid "Group name is not unique."
 msgstr "Името на групата не е уникално."
 
-#: views.py:342
+#: views.py:338
 msgid "Create new group"
 msgstr "Нова група"
 
-#: views.py:393
+#: views.py:389
 msgid "Login is not unique."
 msgstr "Потребителското име не е уникално."
 
-#: views.py:408
+#: views.py:404
 msgid ""
 "You can't disable current administrator. At least one enabled administrator "
 "is required."
@@ -95,27 +103,28 @@ msgstr ""
 "Не е възможно да блокирате настоящ администратор. Трябва да има поне един "
 "активен администратор."
 
-#: views.py:452
+#: views.py:448
 msgid "Create new user"
 msgstr "Нов потребител"
 
-#: views.py:485 views.py:550
+#: views.py:481 views.py:546
 msgid "Users"
 msgstr "Потребители"
 
-#: views.py:495 views.py:553
+#: views.py:491 views.py:549
 msgid "Groups"
 msgstr "Групи"
 
-#: views.py:506 views.py:528
+#: views.py:502 views.py:524
 msgid "List"
 msgstr "Списък"
 
-#: views.py:511 views.py:533
+#: views.py:507 views.py:529
 msgid "Create"
 msgstr "Създай"
 
-#: views.py:517 views.py:539
+#: template/group_browse.mako:30 template/user_browse.mako:30 views.py:513
+#: views.py:535
 msgid "Edit"
 msgstr "Редактирай"
 
@@ -136,11 +145,11 @@ msgid "Enter new password here"
 msgstr "Въведете нова парола тук"
 
 #: amd/ngw-auth/template/GroupWidget.hbs:7 amd/ngw-auth/template/UserWidget.hbs:8
-#: template/group_browse.mako:18 template/user_browse.mako:18
+#: template/group_browse.mako:19 template/user_browse.mako:19
 msgid "Full name"
 msgstr "Пълно име"
 
-#: amd/ngw-auth/template/GroupWidget.hbs:13 template/group_browse.mako:19
+#: amd/ngw-auth/template/GroupWidget.hbs:13 template/group_browse.mako:20
 msgid "Group name"
 msgstr "Име на групата"
 
@@ -162,7 +171,7 @@ msgid "Language"
 msgstr "Език"
 
 #: amd/ngw-auth/template/UserWidget.hbs:15 template/login.mako:44
-#: template/user_browse.mako:19
+#: template/user_browse.mako:20
 msgid "Login"
 msgstr "Потребителско име"
 
@@ -181,6 +190,22 @@ msgstr "Изключен"
 #: amd/ngw-auth/template/UserWidget.hbs:59
 msgid "Groups member"
 msgstr "Членува в групи"
+
+#: nodepkg/browse.js:9
+msgid "Delete user?"
+msgstr ""
+
+#: nodepkg/browse.js:9
+msgid "Delete group?"
+msgstr ""
+
+#: nodepkg/browse.js:11
+msgid "Confirmation"
+msgstr ""
+
+#: template/group_browse.mako:31 template/user_browse.mako:31
+msgid "Delete"
+msgstr ""
 
 #: template/login.mako:13
 msgid "Authorization Required"

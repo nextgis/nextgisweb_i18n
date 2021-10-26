@@ -92,7 +92,7 @@ msgstr "NULL"
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:242
 msgid "Please wait. Processing request..."
-msgstr ""
+msgstr "Veuillez patienter. Traitement de la demande..."
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:266
 #: amd/ngw-feature-layer/template/ExportForm.hbs:42

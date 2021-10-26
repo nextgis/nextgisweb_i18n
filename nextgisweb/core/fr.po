@@ -32,7 +32,7 @@ msgstr "Erreur opérationnelle"
 
 #: storage.py:225
 msgid "Estimation is already running"
-msgstr ""
+msgstr "L'estimation est déjà en cours"
 
 #: test/test_exception.py:79
 #, python-format

@@ -1,95 +1,103 @@
-#: __init__.py:47
+#: __init__.py:45
 msgid "Guest"
 msgstr "Invitado"
 
-#: __init__.py:53
+#: __init__.py:51
 msgid "Everyone"
 msgstr "Todos"
 
-#: __init__.py:59
+#: __init__.py:57
 msgid "Authenticated"
 msgstr "Autentificado"
 
-#: __init__.py:67
+#: __init__.py:65
 msgid "Administrators"
 msgstr "Administradores"
 
-#: __init__.py:70
+#: __init__.py:68
 msgid "Administrator"
 msgstr "Administrador"
 
-#: __init__.py:79
+#: __init__.py:77
 msgid "Owner"
 msgstr "Propietario"
 
-#: __init__.py:238
+#: __init__.py:236
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Se alcanza el número máximo de usuarios. El límite de número de usuarios de "
 "su plan actual es %d."
 
-#: api.py:214
+#: api.py:213
 msgid "System principals couldn't be chanded."
 msgstr "Las principales del sistema no se pueden cambiar."
 
-#: exception.py:10
+#: api.py:227
+msgid "User is referenced with resources"
+msgstr ""
+
+#: api.py:228
+msgid "Group is referenced with resources"
+msgstr ""
+
+#: exception.py:7
 msgid "Invalid credentials"
 msgstr "Credenciales no válidas"
 
-#: exception.py:15
+#: exception.py:12
 msgid "User is disabled"
 msgstr "Usuario deshabilitado"
 
-#: oauth.py:127
+#: oauth.py:122
 msgid "User is already bound"
 msgstr "El usuario ya está vinculado"
 
-#: oauth.py:329
+#: oauth.py:324
 msgid "OAuth authorization error"
 msgstr "Error de autorización de OAuth"
 
-#: oauth.py:334
+#: oauth.py:329
 msgid "Invalid OAuth token"
 msgstr "Token de OAuth no válido"
 
-#: oauth.py:339
+#: oauth.py:334
 msgid "OAuth token refresh failed"
 msgstr "Error al actualizar el token de OAuth"
 
-#: oauth.py:344
+#: oauth.py:339
 msgid "OAuth access token is expired"
 msgstr "El token de acceso de OAuth está caducado"
 
-#: views.py:67
+#: views.py:63
 msgid "Session not found."
 msgstr "No se ha encontrado la sesión."
 
-#: views.py:72
+#: views.py:68
 msgid "Invalid 'expires' parameter."
 msgstr "Parámetro 'expires' no es válido."
 
-#: views.py:74
+#: views.py:70
 msgid "Session expired."
 msgstr "La sesión ha expirado."
 
-#: views.py:231
+#: views.py:227
 msgid "User settings"
 msgstr "Ajustes del usuario"
 
-#: views.py:304
+#: views.py:300
 msgid "Group name is not unique."
 msgstr "El nombre del grupo no es único."
 
-#: views.py:342
+#: views.py:338
 msgid "Create new group"
 msgstr "Crear un grupo nuevo"
 
-#: views.py:393
+#: views.py:389
 msgid "Login is not unique."
 msgstr "El usuario no es único."
 
-#: views.py:408
+#: views.py:404
 msgid ""
 "You can't disable current administrator. At least one enabled administrator "
 "is required."
@@ -97,27 +105,28 @@ msgstr ""
 "No puede deshabilitar al administrador actual. Se requiere al menos un "
 "administrador habilitado."
 
-#: views.py:452
+#: views.py:448
 msgid "Create new user"
 msgstr "Crear un usuario nuevo"
 
-#: views.py:485 views.py:550
+#: views.py:481 views.py:546
 msgid "Users"
 msgstr "Usuarios"
 
-#: views.py:495 views.py:553
+#: views.py:491 views.py:549
 msgid "Groups"
 msgstr "Grupos"
 
-#: views.py:506 views.py:528
+#: views.py:502 views.py:524
 msgid "List"
 msgstr "Lista"
 
-#: views.py:511 views.py:533
+#: views.py:507 views.py:529
 msgid "Create"
 msgstr "Crear"
 
-#: views.py:517 views.py:539
+#: template/group_browse.mako:30 template/user_browse.mako:30 views.py:513
+#: views.py:535
 msgid "Edit"
 msgstr "Editar"
 
@@ -138,11 +147,11 @@ msgid "Enter new password here"
 msgstr "Ingrese la nueva contraseña"
 
 #: amd/ngw-auth/template/GroupWidget.hbs:7 amd/ngw-auth/template/UserWidget.hbs:8
-#: template/group_browse.mako:18 template/user_browse.mako:18
+#: template/group_browse.mako:19 template/user_browse.mako:19
 msgid "Full name"
 msgstr "Nombre completo"
 
-#: amd/ngw-auth/template/GroupWidget.hbs:13 template/group_browse.mako:19
+#: amd/ngw-auth/template/GroupWidget.hbs:13 template/group_browse.mako:20
 msgid "Group name"
 msgstr "Nombre del grupo"
 
@@ -164,7 +173,7 @@ msgid "Language"
 msgstr "Idioma"
 
 #: amd/ngw-auth/template/UserWidget.hbs:15 template/login.mako:44
-#: template/user_browse.mako:19
+#: template/user_browse.mako:20
 msgid "Login"
 msgstr "Usuario"
 
@@ -183,6 +192,22 @@ msgstr "Deshabilitado"
 #: amd/ngw-auth/template/UserWidget.hbs:59
 msgid "Groups member"
 msgstr "Miembro del grupos"
+
+#: nodepkg/browse.js:9
+msgid "Delete user?"
+msgstr ""
+
+#: nodepkg/browse.js:9
+msgid "Delete group?"
+msgstr ""
+
+#: nodepkg/browse.js:11
+msgid "Confirmation"
+msgstr ""
+
+#: template/group_browse.mako:31 template/user_browse.mako:31
+msgid "Delete"
+msgstr ""
 
 #: template/login.mako:13
 msgid "Authorization Required"

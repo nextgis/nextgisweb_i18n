@@ -26,11 +26,11 @@ msgstr "Сървърът не може да изпълни заявката, з�
 
 #: exception.py:243
 msgid "Payment required"
-msgstr ""
+msgstr "Изисква се заплащане"
 
 #: exception.py:244
 msgid "Access was denied for financial reasons."
-msgstr ""
+msgstr "Достъп е забранен по финансови причини."
 
 #: exception.py:248
 msgid "Forbidden"
@@ -365,11 +365,11 @@ msgstr "Някои промени може да са отразени само �
 
 #: template/storage.mako:102
 msgid "Estimation is in progress..."
-msgstr ""
+msgstr "Извършва се оценяването..."
 
 #: template/storage.mako:108
 msgid "Estimate storage"
-msgstr ""
+msgstr "Оцени използването на памет"
 
 #: template/sysinfo.mako:30
 msgid "Package"
