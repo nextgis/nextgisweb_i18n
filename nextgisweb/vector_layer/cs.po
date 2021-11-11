@@ -1,214 +1,213 @@
-#: api.py:15 model.py:1037
+#: api.py:12 model.py:1060
 msgid "GDAL library failed to open file."
 msgstr "Knihovně GDAL se nepodařilo otevřít soubor."
 
-#: kind_of_data.py:12
+#: kind_of_data.py:8
 msgid "Vector layer features"
 msgstr "Funkce vektorové vrstvy"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:28
-#: amd/ngw-vector-layer/template/Widget.hbs:90 model.py:78
+#: amd/ngw-vector-layer/template/Widget.hbs:90 model.py:76
 msgid "Point"
 msgstr "Bod"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:29
-#: amd/ngw-vector-layer/template/Widget.hbs:91 model.py:78
+#: amd/ngw-vector-layer/template/Widget.hbs:91 model.py:76
 msgid "Line"
 msgstr "Čára"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:30
-#: amd/ngw-vector-layer/template/Widget.hbs:92 model.py:78
+#: amd/ngw-vector-layer/template/Widget.hbs:92 model.py:76
 msgid "Polygon"
 msgstr "Polygon"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:31 model.py:79
+#: amd/ngw-vector-layer/template/Widget.hbs:31 model.py:77
 msgid "Multipoint"
 msgstr "Multibod"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:32 model.py:79
+#: amd/ngw-vector-layer/template/Widget.hbs:32 model.py:77
 msgid "Multiline"
 msgstr "Multičáry"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:33 model.py:79
+#: amd/ngw-vector-layer/template/Widget.hbs:33 model.py:77
 msgid "Multipolygon"
 msgstr "Multipolygony"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:34 model.py:80
+#: amd/ngw-vector-layer/template/Widget.hbs:34 model.py:78
 msgid "Point Z"
 msgstr "Bod Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:35 model.py:80
+#: amd/ngw-vector-layer/template/Widget.hbs:35 model.py:78
 msgid "Line Z"
 msgstr "Řádek Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:36 model.py:80
+#: amd/ngw-vector-layer/template/Widget.hbs:36 model.py:78
 msgid "Polygon Z"
 msgstr "Polygon Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:37 model.py:81
+#: amd/ngw-vector-layer/template/Widget.hbs:37 model.py:79
 msgid "Multipoint Z"
 msgstr "Multipoint Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:38 model.py:81
+#: amd/ngw-vector-layer/template/Widget.hbs:38 model.py:79
 msgid "Multiline Z"
 msgstr "Multiline Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:39 model.py:81
+#: amd/ngw-vector-layer/template/Widget.hbs:39 model.py:79
 msgid "Multipolygon Z"
 msgstr "Multipolygon Z"
 
-#: model.py:280
+#: model.py:279
 msgid "Could not determine a geometry type."
 msgstr "Nelze určit typ geometrie."
 
-#: model.py:282
+#: model.py:281
 msgid "Source layer contains no features satisfying the conditions."
 msgstr "Zdrojová vrstva neobsahuje žádné funkce splňující dané podmínky."
 
-#: model.py:299
+#: model.py:296
 msgid "Parameter 'fid_field' is missing."
 msgstr "Chybí parametr „fid_field“."
 
-#: model.py:302
+#: model.py:299
 #, python-format
 msgid "Fields %s not found."
 msgstr "Pole %s nebyla nalezena."
 
-#: model.py:304
+#: model.py:301
 #, python-format
 msgid "None of fields %s are integer."
 msgstr "Žádné z polí %s není celočíselné."
 
-#: model.py:314
+#: model.py:334
+#, python-format
+msgid "Field '%s(?)' encoding is broken."
+msgstr ""
+
+#: model.py:336
 #, python-format
 msgid "Field name is forbidden: '%s'. Please remove or rename it."
 msgstr "Název pole je zakázán: '%s'. Odeberte nebo přejmenujte jeho."
 
-#: model.py:329
+#: model.py:351
 #, python-format
 msgid "Unsupported field type: %r."
 msgstr "Nepodporovaný typ pole: %r."
 
-#: model.py:487
+#: model.py:509
 #, python-format
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
 msgstr "Funkce (pokračování #%d) nemá pole FID „%s“."
 
-#: model.py:490
+#: model.py:512
 #, python-format
 msgid "Feature (seq. #%d) FID field '%s' is null."
 msgstr "Funkce (sekv. #%d) Pole FID '%s' je prázdné."
 
-#: model.py:498
+#: model.py:520
 #, python-format
 msgid "Feature #%d doesn't have geometry."
 msgstr "Objekt #%d nemá geometrii."
 
-#: model.py:524 model.py:566
+#: model.py:546 model.py:588
 #, python-format
 msgid "Feature #%d has multiple geometries satisfying the conditions."
 msgstr "Objekt #%d má více geometrií splňujících podmínky."
 
-#: model.py:534
+#: model.py:556
 #, python-format
 msgid "Feature #%d has unknown geometry type: %d (%s)."
 msgstr "Objekt #%d má neznámý typ geometrie: %d (%s)."
 
-#: model.py:547
+#: model.py:569
 #, python-format
 msgid "Feature #%d has unsuitable geometry type: %d (%s)."
 msgstr "Objekt #%d má nevhodný typ geometrie: %d (%s)."
 
-#: model.py:593
+#: model.py:615
 #, python-format
 msgid "Feature #%d has unclosed rings."
 msgstr "Objekt #%d má neuzavřené kroužky."
 
-#: model.py:607
+#: model.py:629
 #, python-format
 msgid "Feature #%d has less than 3 points in a polygon ring."
 msgstr "Objekt #%d má v polygonovém kruhu méně než 3 body."
 
-#: model.py:611
+#: model.py:633
 #, python-format
 msgid "Feature #%d has less than 2 points in a linestring."
 msgstr "Objekt #%d má v linestringu méně než 2 body."
 
-#: model.py:669
+#: model.py:696
 #, python-format
-msgid ""
-"It seems like declared and actual attributes encodings do not match. Unable "
-"to decode attribute #%(attr)d of feature #%(feat)d. Try declaring different "
-"encoding."
+msgid "Feature #%d contains a broken encoding of field '%s'."
 msgstr ""
-"Zdá se, že deklarované a skutečné atributy kódování se neshodují. Nelze "
-"dekódovat atribut #%(attr)d funkce #%(feat)d. Zkuste deklarovat jiné "
-"kódování."
 
-#: model.py:697
+#: model.py:719
 msgid "Vector layer cannot be written due to errors."
 msgstr "Vektorovou vrstvu nelze zapsat kvůli chybám."
 
-#: amd/ngw-vector-layer/Widget.js:40 model.py:725
+#: amd/ngw-vector-layer/Widget.js:40 model.py:747
 msgid "Vector layer"
 msgstr "Vektorová vrstva"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:26
-#: amd/ngw-vector-layer/template/Widget.hbs:86 model.py:789
+#: amd/ngw-vector-layer/template/Widget.hbs:86 model.py:811
 msgid "Geometry type"
 msgstr "Typ geometrie"
 
-#: model.py:791
+#: model.py:813
 msgid "Feature count"
 msgstr "Počet funkcí"
 
-#: model.py:883
+#: model.py:907
 #, python-format
 msgid "Geometry type (%s) does not match geometry column type (%s)."
 msgstr "Typ geometrie (%s) neodpovídá typu sloupce geometrie (%s)."
 
-#: model.py:1040
+#: model.py:1063
 #, python-format
 msgid "Unsupport OGR driver: %s."
 msgstr "Nepodporovaný ovladač OGR: %s."
 
-#: amd/ngw-vector-layer/Widget.js:92 model.py:1049
+#: amd/ngw-vector-layer/Widget.js:92 model.py:1072
 msgid "Dataset doesn't contain layers."
 msgstr "Datová sada neobsahuje vrstvy."
 
-#: model.py:1052
+#: model.py:1075
 msgid "Dataset contains more than one layer."
 msgstr "Datová sada obsahuje více než jednu vrstvu."
 
-#: model.py:1057
+#: model.py:1080
 msgid "Unable to open layer."
 msgstr "Nelze otevřít vrstvu."
 
-#: model.py:1068
+#: model.py:1091
 msgid "Layer doesn't contain coordinate system information."
 msgstr "Vrstva neobsahuje informace o souřadnicovém systému."
 
-#: model.py:1096
+#: model.py:1115
 msgid "Unknown 'fix_errors' value."
 msgstr "Neznámá hodnota „fix_errors“."
 
-#: model.py:1103
+#: model.py:1122
 msgid "Unknown 'cast_geometry_type' value."
 msgstr "Neznámá hodnota „cast_geometry_type“."
 
-#: model.py:1107
+#: model.py:1126
 msgid "Unknown 'cast_is_multi' value."
 msgstr "Neznámá hodnota „cast_is_multi“."
 
-#: model.py:1111
+#: model.py:1130
 msgid "Unknown 'cast_has_z' value."
 msgstr "Neznámá hodnota „cast_has_z“."
 
-#: model.py:1145
+#: model.py:1164
 msgid "Unsupported geometry type."
 msgstr "Nepodporovaný typ geometrie."
 
-#: model.py:1151
+#: model.py:1170
 msgid "Geometry type for existing resource can't be changed."
 msgstr "Typ geometrie pro existující zdroj nelze změnit."
 
@@ -315,18 +314,6 @@ msgstr "Pole"
 msgid "FID field(s)"
 msgstr "Pole FID"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:138
-msgid "Encoding"
-msgstr "Kódování"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:141
-msgid "UTF-8"
-msgstr "UTF-8"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:142
-msgid "Windows-1251"
-msgstr "Windows-1251"
-
 #~ msgid "FID field"
 #~ msgstr "FID pole"
 
@@ -335,4 +322,24 @@ msgstr "Windows-1251"
 
 #~ msgid "Field '%s' type is not integer."
 #~ msgstr "Typ pole '%s' není celé číslo."
+
+#~ msgid ""
+#~ "It seems like declared and actual "
+#~ "attributes encodings do not match. Unable"
+#~ " to decode attribute #%(attr)d of feature"
+#~ " #%(feat)d. Try declaring different encoding."
+#~ msgstr ""
+#~ "Zdá se, že deklarované a skutečné "
+#~ "atributy kódování se neshodují. Nelze "
+#~ "dekódovat atribut #%(attr)d funkce #%(feat)d. "
+#~ "Zkuste deklarovat jiné kódování."
+
+#~ msgid "Encoding"
+#~ msgstr "Kódování"
+
+#~ msgid "UTF-8"
+#~ msgstr "UTF-8"
+
+#~ msgid "Windows-1251"
+#~ msgstr "Windows-1251"
 

@@ -107,7 +107,7 @@ msgstr "Confirmación"
 
 #: amd/ngw-feature-layer/FeatureGrid.js:241
 msgid "Delete feature?"
-msgstr "Borrar el objeto geográfico?"
+msgstr "Eliminar el objeto geográfico?"
 
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:114
 msgid "N/A"

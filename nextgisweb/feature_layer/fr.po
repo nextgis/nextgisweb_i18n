@@ -19,7 +19,7 @@ msgstr "La géométrie n'est pas valide."
 #: api.py:293 api.py:362
 #, python-format
 msgid "Date format '%s' is not supported."
-msgstr ""
+msgstr "Le format de date '%s' n'est pas pris en charge."
 
 #: api.py:583
 msgid "Parameter 'intersects' geometry is not valid."

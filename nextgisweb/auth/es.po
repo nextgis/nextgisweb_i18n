@@ -1,28 +1,28 @@
-#: __init__.py:45
+#: __init__.py:47
 msgid "Guest"
 msgstr "Invitado"
 
-#: __init__.py:51
+#: __init__.py:53
 msgid "Everyone"
 msgstr "Todos"
 
-#: __init__.py:57
+#: __init__.py:59
 msgid "Authenticated"
 msgstr "Autentificado"
 
-#: __init__.py:65
+#: __init__.py:67
 msgid "Administrators"
 msgstr "Administradores"
 
-#: __init__.py:68
+#: __init__.py:70
 msgid "Administrator"
 msgstr "Administrador"
 
-#: __init__.py:77
+#: __init__.py:79
 msgid "Owner"
 msgstr "Propietario"
 
-#: __init__.py:236
+#: __init__.py:266
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
@@ -35,17 +35,21 @@ msgstr "Las principales del sistema no se pueden cambiar."
 
 #: api.py:227
 msgid "User is referenced with resources"
-msgstr ""
+msgstr "Se hace referencia al usuario con recursos"
 
 #: api.py:228
 msgid "Group is referenced with resources"
-msgstr ""
+msgstr "Se hace referencia al grupo con recursos"
 
 #: exception.py:7
+msgid "Invalid authorization header"
+msgstr "Cabecera de autorización no es válido"
+
+#: exception.py:12
 msgid "Invalid credentials"
 msgstr "Credenciales no válidas"
 
-#: exception.py:12
+#: exception.py:17
 msgid "User is disabled"
 msgstr "Usuario deshabilitado"
 
@@ -195,19 +199,19 @@ msgstr "Miembro del grupos"
 
 #: nodepkg/browse.js:9
 msgid "Delete user?"
-msgstr ""
+msgstr "¿Eliminar usuario?"
 
 #: nodepkg/browse.js:9
 msgid "Delete group?"
-msgstr ""
+msgstr "¿Eliminar grupo?"
 
 #: nodepkg/browse.js:11
 msgid "Confirmation"
-msgstr ""
+msgstr "Confirmación"
 
 #: template/group_browse.mako:31 template/user_browse.mako:31
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 #: template/login.mako:13
 msgid "Authorization Required"

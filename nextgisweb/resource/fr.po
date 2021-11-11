@@ -206,7 +206,7 @@ msgstr "Supprimer la ressource"
 
 #: view.py:190 view.py:352
 msgid "Resource export"
-msgstr ""
+msgstr "Exportation de ressources"
 
 #: view.py:211
 #, python-format
@@ -334,15 +334,15 @@ msgstr "Sélectionnez la ressource"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.hbs:5
 msgid "Search"
-msgstr ""
+msgstr "Chercher"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:19
 msgid "Resources not found"
-msgstr ""
+msgstr "Ressources introuvables"
 
 #: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:25
 msgid "Search resources"
-msgstr ""
+msgstr "Rechercher des ressources"
 
 #: amd/ngw-resource/template/DeleteWidget.hbs:7
 msgid "Confirm deletion of the resource"
@@ -353,24 +353,28 @@ msgid ""
 "Select the category of users who can use the \"Save as\" link to download "
 "resource data."
 msgstr ""
+"Sélectionnez la catégorie d'utilisateurs qui peuvent utiliser le lien « "
+"Enregistrer sous » pour télécharger les données des ressources."
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:8
 msgid "Users with \"Data: Read\" permission"
-msgstr ""
+msgstr "Utilisateurs disposant de l'autorisation \"Données:Lire\""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:9
 msgid "Users with \"Data: Write\" permission"
-msgstr ""
+msgstr "Utilisateurs disposant de l'autorisation \"Données:Ecrire\""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:10
 msgid "Administrators"
-msgstr ""
+msgstr "Administrateurs"
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:17
 msgid ""
 "* This will not affect REST API use which will continue to be governed by "
 "permissions."
 msgstr ""
+"* Cela n'affectera pas l'utilisation de l'API REST qui continuera d'être "
+"régie par des autorisations."
 
 #: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
 #: template/section_summary.mako:6
@@ -401,11 +405,11 @@ msgstr "Utilisez ces liens pour connecter des données à des applications exter
 
 #: template/section_children.mako:128
 msgid "Show resources volume"
-msgstr ""
+msgstr "Afficher le volume des ressources"
 
 #: template/section_children.mako:145
 msgid "Volume"
-msgstr ""
+msgstr "Le volume"
 
 #: template/section_description.mako:4
 msgid "Resource description is empty."

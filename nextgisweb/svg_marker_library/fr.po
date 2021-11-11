@@ -5,17 +5,17 @@ msgstr "Bibliothèque de marqueurs SVG"
 #: model.py:71
 #, python-format
 msgid "Insecure filename \"%s\"."
-msgstr ""
+msgstr "Nom de fichier non sécurisé \"%s\"."
 
 #: model.py:76
 #, python-format
 msgid "File \"%s\" has an invalid extension."
-msgstr ""
+msgstr "Le fichier \"%s\" a une extension non valide."
 
 #: model.py:82
 #, python-format
 msgid "File type \"%s\" is not SVG."
-msgstr ""
+msgstr "Le type de fichier \"%s\" n'est pas SVG."
 
 #: view.py:20
 msgid "Export"

@@ -9,7 +9,7 @@ msgstr "Le format '% s' est pas pris en charge."
 
 #: kind_of_data.py:12
 msgid "Rasters and pyramids"
-msgstr ""
+msgstr "Rasters et pyramides"
 
 #: amd/ngw-raster-layer/Widget.js:26 model.py:61 view.py:31
 msgid "Raster layer"

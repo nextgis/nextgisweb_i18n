@@ -1,87 +1,87 @@
-#: __init__.py:28
+#: __init__.py:30
 msgid "Main web map"
 msgstr "Mapa web principal"
 
-#: adapter.py:24
+#: adapter.py:22
 msgid "Tiles"
 msgstr "Teselas"
 
-#: adapter.py:34
+#: adapter.py:32
 msgid "Image"
 msgstr "Imagen"
 
-#: model.py:31 model.py:40 view.py:181 view.py:202
+#: model.py:29 model.py:38 view.py:179 view.py:200
 msgid "Web map"
 msgstr "Mapa web"
 
-#: model.py:33 view.py:188
+#: model.py:31 view.py:186
 msgid "Display"
 msgstr "Mostrar"
 
-#: model.py:34
+#: model.py:32
 msgid "View annotations"
 msgstr "Ver anotaciones"
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:173 model.py:35
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:173 model.py:33
 msgid "Edit annotations"
 msgstr "Editar anotaciones"
 
-#: view.py:36 view.py:203
+#: view.py:34 view.py:201
 msgid "Web map settings"
 msgstr "Configuración del mapa web"
 
-#: view.py:209
+#: view.py:207
 msgid "External access"
 msgstr "Acceso externo"
 
-#: amd/ngw-webmap/Display.js:214 amd/ngw-webmap/Display.js:1011
+#: amd/ngw-webmap/Display.js:212 amd/ngw-webmap/Display.js:1009
 #: amd/ngw-webmap/ItemWidget.js:243
 msgid "Layers"
 msgstr "Capas"
 
-#: amd/ngw-webmap/Display.js:220
+#: amd/ngw-webmap/Display.js:218
 msgid "Search"
 msgstr "Buscar"
 
-#: amd/ngw-webmap/Display.js:226 amd/ngw-webmap/Display.js:436
+#: amd/ngw-webmap/Display.js:224 amd/ngw-webmap/Display.js:434
 msgid "Share"
 msgstr "Compartir"
 
-#: amd/ngw-webmap/Display.js:232 amd/ngw-webmap/Display.js:331
+#: amd/ngw-webmap/Display.js:230 amd/ngw-webmap/Display.js:329
 msgid "Print map"
 msgstr "Imprimir mapa"
 
-#: amd/ngw-webmap/Display.js:370 amd/ngw-webmap/Display.js:377
+#: amd/ngw-webmap/Display.js:368 amd/ngw-webmap/Display.js:375
 msgid "Bookmarks"
 msgstr "Marcadores"
 
-#: amd/ngw-webmap/Display.js:400 amd/ngw-webmap/plugin/LayerInfo.js:36
+#: amd/ngw-webmap/Display.js:398 amd/ngw-webmap/plugin/LayerInfo.js:36
 msgid "Description"
 msgstr "Descripción"
 
-#: amd/ngw-webmap/Display.js:537 amd/ngw-webmap/Display.js:547
+#: amd/ngw-webmap/Display.js:535 amd/ngw-webmap/Display.js:545
 msgid "Annotations"
 msgstr "Anotaciones"
 
-#: amd/ngw-webmap/Display.js:729 amd/ngw-webmap/tool/Zoom.js:18
+#: amd/ngw-webmap/Display.js:727 amd/ngw-webmap/tool/Zoom.js:18
 #: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:479
 msgid "Zoom in"
 msgstr "Acercarse"
 
-#: amd/ngw-webmap/Display.js:730 amd/ngw-webmap/tool/Zoom.js:21
+#: amd/ngw-webmap/Display.js:728 amd/ngw-webmap/tool/Zoom.js:21
 #: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:480
 msgid "Zoom out"
 msgstr "Alejarse"
 
-#: amd/ngw-webmap/Display.js:734 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:484
+#: amd/ngw-webmap/Display.js:732 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:484
 msgid "Attributions"
 msgstr "Atribuciones"
 
-#: amd/ngw-webmap/Display.js:750
+#: amd/ngw-webmap/Display.js:748
 msgid "Initial extent"
 msgstr "Extensión inicial"
 
-#: amd/ngw-webmap/Display.js:753 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:493
+#: amd/ngw-webmap/Display.js:751 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:493
 msgid "Reset rotation"
 msgstr "Reiniciar rotación"
 
@@ -97,7 +97,7 @@ msgstr "Orden de capas"
 msgid "Use on the map"
 msgstr "Usar en el mapa"
 
-#: amd/ngw-webmap/ItemWidget.js:148 amd/ngw-webmap/template/SettingsForm.hbs:93
+#: amd/ngw-webmap/ItemWidget.js:148 amd/ngw-webmap/template/SettingsForm.hbs:115
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:105
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:43
 msgid "Save"
@@ -106,6 +106,18 @@ msgstr "Guardar"
 #: amd/ngw-webmap/ItemWidget.js:309 amd/ngw-webmap/template/ItemWidget.hbs:26
 msgid "Add group"
 msgstr "Agregar grupo"
+
+#: amd/ngw-webmap/SettingsForm.js:104
+msgid "Validation error"
+msgstr "Error de validación"
+
+#: amd/ngw-webmap/SettingsForm.js:105
+msgid ""
+"Errors found during data validation. Controls with errors marked in red. Fix "
+"it, please."
+msgstr ""
+"Errores encontrados durante la validación de datos. Controles con errores "
+"marcados en rojo. Arréglalo, por favor."
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:23
 msgid "Your annotation text"
@@ -341,17 +353,45 @@ msgstr "Grados, minutos, segundos"
 msgid "Measurement SRID"
 msgstr "SRID de medición"
 
-#: amd/ngw-webmap/template/SettingsForm.hbs:76
+#: amd/ngw-webmap/template/SettingsForm.hbs:78
 msgid "Address search"
 msgstr "Búsqueda de dirección"
 
-#: amd/ngw-webmap/template/SettingsForm.hbs:80
+#: amd/ngw-webmap/template/SettingsForm.hbs:82
 msgid "Enable"
 msgstr "Habilitar"
 
-#: amd/ngw-webmap/template/SettingsForm.hbs:84
+#: amd/ngw-webmap/template/SettingsForm.hbs:86
 msgid "Limit by web map initial extent"
 msgstr "Límite por extensión inicial del mapa web"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:90
+msgid "Provider"
+msgstr "Servicio de geocodificación"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:91
+msgid "Nominatim (OSM)"
+msgstr "Nominatim (OSM)"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:92
+msgid "Yandex.Maps API Geocoder"
+msgstr "Yandex.Maps API Geocoder"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:98
+msgid "For example: ru or gb,de"
+msgstr "Por ejemplo: ru o gb,de"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:100
+msgid "Invalid countries. For example ru or gb,de"
+msgstr "Países no válidos. Por ejemplo ru o gb,de"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:101
+msgid "Limit search results to countries"
+msgstr "Limitar los resultados de búsqueda por países"
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:106
+msgid "Yandex.Maps API Geocoder Key"
+msgstr "Clave de Yandex.Maps API Geocoder"
 
 #: amd/ngw-webmap/tool/Identify.js:212
 msgid "Attributes"
@@ -613,12 +653,13 @@ msgstr "Use Shift+Arrastrar para hacer zoom en el cuadro"
 msgid "Search on the map"
 msgstr "Buscar en el mapa"
 
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:158
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:216
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:184
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:243
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:310
 msgid "Refine search criterion"
 msgstr "Redefinir criteria de busqueda"
 
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:231
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:324
 msgid "Not found"
 msgstr "No encontrado"
 

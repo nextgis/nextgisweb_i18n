@@ -28,11 +28,11 @@ msgstr ""
 
 #: exception.py:243
 msgid "Payment required"
-msgstr ""
+msgstr "Paiement Requis"
 
 #: exception.py:244
 msgid "Access was denied for financial reasons."
-msgstr ""
+msgstr "L'accès lui a été refusé pour des raisons financières."
 
 #: exception.py:248
 msgid "Forbidden"
@@ -93,7 +93,7 @@ msgstr "Informations système"
 
 #: view.py:117 view.py:478
 msgid "Storage"
-msgstr ""
+msgstr "Espace de rangement"
 
 #: view.py:127 view.py:483
 msgid "Backups"
@@ -142,29 +142,31 @@ msgstr "Impossible de copier"
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:68
 msgid "<a>Contact support</a> for update."
-msgstr ""
+msgstr "<a>Contactez le support</a> pour une mise à jour."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:72
 msgid "Checking for updates..."
-msgstr ""
+msgstr "Vérification des mises à jour..."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:74
 msgid "Your {distribution} is up-to-date."
-msgstr ""
+msgstr "Votre {distribution} est à jour."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:79
 msgid "New version of {distribution} is available: {version}."
-msgstr ""
+msgstr "Une nouvelle version de {distribution} est disponible: {version}."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:84
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr ""
+"Des mises à jour critiques sont disponibles : {version}. Veuillez envisager "
+"de mettre à jour dès que possible."
 
 #: amd/ngw-pyramid/DistInfo/DistInfo.js:114
 msgid "Show details"
-msgstr ""
+msgstr "Afficher les détails"
 
 #: amd/ngw-pyramid/ErrorCard/ErrorCard.js:37
 msgid "Technical information"
@@ -212,7 +214,7 @@ msgstr "Obtenez votre propre Web GIS sur nextgis.com"
 
 #: amd/ngw-pyramid/form/LangSelect.js:24
 msgid "Browser default"
-msgstr ""
+msgstr "Navigateur par défaut"
 
 #: amd/ngw-pyramid/form/RTETextBox.js:61
 msgid "Rich Text Editor"
@@ -241,15 +243,15 @@ msgstr "Effacer"
 
 #: amd/ngw-pyramid/right-menu/RightMenu.js:90
 msgid "Critical updates are available"
-msgstr ""
+msgstr "Des mises à jour critiques sont disponibles."
 
 #: amd/ngw-pyramid/right-menu/RightMenu.js:91
 msgid "Updates are available"
-msgstr ""
+msgstr "Des mises à jour sont disponibles"
 
 #: amd/ngw-pyramid/right-menu/RightMenu.js:98
 msgid "Click to see what's new"
-msgstr ""
+msgstr "Cliquez pour voir les nouveautés"
 
 #: amd/ngw-pyramid/template/CORSForm.hbs:17
 msgid ""
@@ -291,7 +293,7 @@ msgstr "Se déconnecter"
 
 #: amd/ngw-pyramid/user-avatar/UserAvatar.js:36
 msgid "Invitation session"
-msgstr ""
+msgstr "Séance d'invitation"
 
 #: nodepkg/api/error.js:11
 msgid "Unknown API error"
@@ -333,46 +335,50 @@ msgstr "Aide"
 
 #: template/storage.mako:35
 msgid "Kind of data"
-msgstr ""
+msgstr "Type de données"
 
 #: template/storage.mako:36
 msgid "Volume"
-msgstr ""
+msgstr "Le volume"
 
 #: template/storage.mako:51
 msgid "Total"
-msgstr ""
+msgstr "Le total"
 
 #: template/storage.mako:73
 #, python-format
 msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr ""
+msgstr "L'utilisation du stockage a été entièrement estimée à %s et mise à jour à %s."
 
 #: template/storage.mako:76
 #, python-format
 msgid "Storage usage was fully estimated at %s."
-msgstr ""
+msgstr "L'utilisation du stockage a été entièrement estimée à %s."
 
 #: template/storage.mako:78
 #, python-format
 msgid "Storage usage hasn't been estimated yet but was updated at %s."
 msgstr ""
+"L'utilisation du stockage n'a pas encore été estimée mais a été mise à jour à"
+" %s."
 
 #: template/storage.mako:80
 msgid "Storage usage hasn't been estimated yet."
-msgstr ""
+msgstr "L'utilisation du stockage n'a pas encore été estimée."
 
 #: template/storage.mako:83
 msgid "Some changes may be reflected only after full estimation."
 msgstr ""
+"Certains changements peuvent être reflétés uniquement après une estimation "
+"complète."
 
 #: template/storage.mako:102
 msgid "Estimation is in progress..."
-msgstr ""
+msgstr "L'estimation est en cours..."
 
 #: template/storage.mako:108
 msgid "Estimate storage"
-msgstr ""
+msgstr "Estimer le stockage"
 
 #: template/sysinfo.mako:30
 msgid "Package"

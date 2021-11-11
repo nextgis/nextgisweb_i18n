@@ -1,214 +1,213 @@
-#: api.py:15 model.py:1037
+#: api.py:12 model.py:1060
 msgid "GDAL library failed to open file."
 msgstr "GDAL библиотека не можа да отвори файла."
 
-#: kind_of_data.py:12
+#: kind_of_data.py:8
 msgid "Vector layer features"
 msgstr "Обекти на векторен слой"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:28
-#: amd/ngw-vector-layer/template/Widget.hbs:90 model.py:78
+#: amd/ngw-vector-layer/template/Widget.hbs:90 model.py:76
 msgid "Point"
 msgstr "Точка"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:29
-#: amd/ngw-vector-layer/template/Widget.hbs:91 model.py:78
+#: amd/ngw-vector-layer/template/Widget.hbs:91 model.py:76
 msgid "Line"
 msgstr "Линия"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:30
-#: amd/ngw-vector-layer/template/Widget.hbs:92 model.py:78
+#: amd/ngw-vector-layer/template/Widget.hbs:92 model.py:76
 msgid "Polygon"
 msgstr "Полигон"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:31 model.py:79
+#: amd/ngw-vector-layer/template/Widget.hbs:31 model.py:77
 msgid "Multipoint"
 msgstr "Мултиточка"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:32 model.py:79
+#: amd/ngw-vector-layer/template/Widget.hbs:32 model.py:77
 msgid "Multiline"
 msgstr "Мултилиния"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:33 model.py:79
+#: amd/ngw-vector-layer/template/Widget.hbs:33 model.py:77
 msgid "Multipolygon"
 msgstr "Мултиполигон"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:34 model.py:80
+#: amd/ngw-vector-layer/template/Widget.hbs:34 model.py:78
 msgid "Point Z"
 msgstr "Точка Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:35 model.py:80
+#: amd/ngw-vector-layer/template/Widget.hbs:35 model.py:78
 msgid "Line Z"
 msgstr "Линия Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:36 model.py:80
+#: amd/ngw-vector-layer/template/Widget.hbs:36 model.py:78
 msgid "Polygon Z"
 msgstr "Полигон Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:37 model.py:81
+#: amd/ngw-vector-layer/template/Widget.hbs:37 model.py:79
 msgid "Multipoint Z"
 msgstr "Мултиточка Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:38 model.py:81
+#: amd/ngw-vector-layer/template/Widget.hbs:38 model.py:79
 msgid "Multiline Z"
 msgstr "Мултилиния Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:39 model.py:81
+#: amd/ngw-vector-layer/template/Widget.hbs:39 model.py:79
 msgid "Multipolygon Z"
 msgstr "Мултиполигон Z"
 
-#: model.py:280
+#: model.py:279
 msgid "Could not determine a geometry type."
 msgstr "Определянето на тип геометрия е неуспешно."
 
-#: model.py:282
+#: model.py:281
 msgid "Source layer contains no features satisfying the conditions."
 msgstr "Слоят не съдържа обекти, отговарящи на условията."
 
-#: model.py:299
+#: model.py:296
 msgid "Parameter 'fid_field' is missing."
 msgstr "Параметърът 'fid_field' не е налице."
 
-#: model.py:302
+#: model.py:299
 #, python-format
 msgid "Fields %s not found."
 msgstr "Полета %s не са открити."
 
-#: model.py:304
+#: model.py:301
 #, python-format
 msgid "None of fields %s are integer."
 msgstr "Нито едно от полета %s не е цялочислено."
 
-#: model.py:314
+#: model.py:334
+#, python-format
+msgid "Field '%s(?)' encoding is broken."
+msgstr ""
+
+#: model.py:336
 #, python-format
 msgid "Field name is forbidden: '%s'. Please remove or rename it."
 msgstr "Забранено име на поле: '%s'. Премахнете го или преименувайте."
 
-#: model.py:329
+#: model.py:351
 #, python-format
 msgid "Unsupported field type: %r."
 msgstr "Този тип поле не е поддържан: %r."
 
-#: model.py:487
+#: model.py:509
 #, python-format
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
 msgstr "Обектът (seq. #%d) няма поле FID '%s'."
 
-#: model.py:490
+#: model.py:512
 #, python-format
 msgid "Feature (seq. #%d) FID field '%s' is null."
 msgstr "Обектът (seq. #%d) съдържа празно поле FID '%s'."
 
-#: model.py:498
+#: model.py:520
 #, python-format
 msgid "Feature #%d doesn't have geometry."
 msgstr "Обектът #%d няма геометрия."
 
-#: model.py:524 model.py:566
+#: model.py:546 model.py:588
 #, python-format
 msgid "Feature #%d has multiple geometries satisfying the conditions."
 msgstr "Обектът #%d има няколко геометрии, отговарящи на условията."
 
-#: model.py:534
+#: model.py:556
 #, python-format
 msgid "Feature #%d has unknown geometry type: %d (%s)."
 msgstr "Обектът #%d има неизвестен тип геометрия: %d (%s)."
 
-#: model.py:547
+#: model.py:569
 #, python-format
 msgid "Feature #%d has unsuitable geometry type: %d (%s)."
 msgstr "Обектът #%d има неподходящ тип геометрия: %d (%s)."
 
-#: model.py:593
+#: model.py:615
 #, python-format
 msgid "Feature #%d has unclosed rings."
 msgstr "В обекта #%d има незатворени пръстени."
 
-#: model.py:607
+#: model.py:629
 #, python-format
 msgid "Feature #%d has less than 3 points in a polygon ring."
 msgstr "Обектът #%d има по-малко от 3 точки в пръстен на полигона."
 
-#: model.py:611
+#: model.py:633
 #, python-format
 msgid "Feature #%d has less than 2 points in a linestring."
 msgstr "Обектът #%d има по-малко от 2 точки в линията."
 
-#: model.py:669
+#: model.py:696
 #, python-format
-msgid ""
-"It seems like declared and actual attributes encodings do not match. Unable "
-"to decode attribute #%(attr)d of feature #%(feat)d. Try declaring different "
-"encoding."
+msgid "Feature #%d contains a broken encoding of field '%s'."
 msgstr ""
-"Изглежда, че заявените и същинските атрибути на кодирането не съвпадат. Не "
-"може да се декодира атрибутът  #%(attr)d на обекта #%(feat)d. Опитайте се да "
-"изберете друга кодировка."
 
-#: model.py:697
+#: model.py:719
 msgid "Vector layer cannot be written due to errors."
 msgstr "Векторният слой не може да бъде записан поради грешки."
 
-#: amd/ngw-vector-layer/Widget.js:40 model.py:725
+#: amd/ngw-vector-layer/Widget.js:40 model.py:747
 msgid "Vector layer"
 msgstr "Векторен слой"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:26
-#: amd/ngw-vector-layer/template/Widget.hbs:86 model.py:789
+#: amd/ngw-vector-layer/template/Widget.hbs:86 model.py:811
 msgid "Geometry type"
 msgstr "Тип геометрия"
 
-#: model.py:791
+#: model.py:813
 msgid "Feature count"
 msgstr "Брой обекти"
 
-#: model.py:883
+#: model.py:907
 #, python-format
 msgid "Geometry type (%s) does not match geometry column type (%s)."
 msgstr "Тип геометрия (%s) не съответства на тип поле за геометрия (%s)."
 
-#: model.py:1040
+#: model.py:1063
 #, python-format
 msgid "Unsupport OGR driver: %s."
 msgstr "Този OGR драйвер не е поддържан: %s."
 
-#: amd/ngw-vector-layer/Widget.js:92 model.py:1049
+#: amd/ngw-vector-layer/Widget.js:92 model.py:1072
 msgid "Dataset doesn't contain layers."
 msgstr "В този набор от данни няма слоеве."
 
-#: model.py:1052
+#: model.py:1075
 msgid "Dataset contains more than one layer."
 msgstr "В този набор от данни има повече от един слой."
 
-#: model.py:1057
+#: model.py:1080
 msgid "Unable to open layer."
 msgstr "Слоят не може да е отворен."
 
-#: model.py:1068
+#: model.py:1091
 msgid "Layer doesn't contain coordinate system information."
 msgstr "Слоят няма информация за координатна система."
 
-#: model.py:1096
+#: model.py:1115
 msgid "Unknown 'fix_errors' value."
 msgstr "Неизвестно значение на 'fix_errors'."
 
-#: model.py:1103
+#: model.py:1122
 msgid "Unknown 'cast_geometry_type' value."
 msgstr "Неизвестно значение на 'cast_geometry_type'."
 
-#: model.py:1107
+#: model.py:1126
 msgid "Unknown 'cast_is_multi' value."
 msgstr "Неизвестно значение на 'cast_is_multi'."
 
-#: model.py:1111
+#: model.py:1130
 msgid "Unknown 'cast_has_z' value."
 msgstr "Неизвестно значение на 'cast_has_z' ."
 
-#: model.py:1145
+#: model.py:1164
 msgid "Unsupported geometry type."
 msgstr "Типът геометрия не е поддържан."
 
-#: model.py:1151
+#: model.py:1170
 msgid "Geometry type for existing resource can't be changed."
 msgstr "Не може да се промени тип геометрия за вече съществуващ ресурс."
 
@@ -315,15 +314,24 @@ msgstr "От поле"
 msgid "FID field(s)"
 msgstr "Поле(та) FID"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:138
-msgid "Encoding"
-msgstr "Кодировка"
+#~ msgid ""
+#~ "It seems like declared and actual "
+#~ "attributes encodings do not match. Unable"
+#~ " to decode attribute #%(attr)d of feature"
+#~ " #%(feat)d. Try declaring different encoding."
+#~ msgstr ""
+#~ "Изглежда, че заявените и същинските атрибути"
+#~ " на кодирането не съвпадат. Не може "
+#~ "да се декодира атрибутът  #%(attr)d на "
+#~ "обекта #%(feat)d. Опитайте се да изберете"
+#~ " друга кодировка."
 
-#: amd/ngw-vector-layer/template/Widget.hbs:141
-msgid "UTF-8"
-msgstr "UTF-8"
+#~ msgid "Encoding"
+#~ msgstr "Кодировка"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:142
-msgid "Windows-1251"
-msgstr "Windows-1251"
+#~ msgid "UTF-8"
+#~ msgstr "UTF-8"
+
+#~ msgid "Windows-1251"
+#~ msgstr "Windows-1251"
 

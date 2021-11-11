@@ -1,28 +1,28 @@
-#: __init__.py:45
+#: __init__.py:47
 msgid "Guest"
 msgstr "Gast"
 
-#: __init__.py:51
+#: __init__.py:53
 msgid "Everyone"
 msgstr "Jeder"
 
-#: __init__.py:57
+#: __init__.py:59
 msgid "Authenticated"
 msgstr "Authentifiziert"
 
-#: __init__.py:65
+#: __init__.py:67
 msgid "Administrators"
 msgstr "Administratoren"
 
-#: __init__.py:68
+#: __init__.py:70
 msgid "Administrator"
 msgstr "Administrator"
 
-#: __init__.py:77
+#: __init__.py:79
 msgid "Owner"
 msgstr "Eigentümer"
 
-#: __init__.py:236
+#: __init__.py:266
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr "Benutzerlimit wurde erreicht. Der aktive Plan erlaubt maximal %d Benutzer."
@@ -40,10 +40,14 @@ msgid "Group is referenced with resources"
 msgstr ""
 
 #: exception.py:7
+msgid "Invalid authorization header"
+msgstr ""
+
+#: exception.py:12
 msgid "Invalid credentials"
 msgstr "Fehlerhafte Anmeldeinformation"
 
-#: exception.py:12
+#: exception.py:17
 msgid "User is disabled"
 msgstr "Benutzer ist gesperrt"
 
