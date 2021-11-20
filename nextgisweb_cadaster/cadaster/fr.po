@@ -1,207 +1,210 @@
 #: amd/ngw-cadaster/settings/CadasterSettings.hbs:4
 msgid "Common"
-msgstr ""
+msgstr "Commun"
 
 #: amd/ngw-cadaster/settings/CadasterSettings.hbs:13
 msgid "API key"
-msgstr ""
+msgstr "Clé API"
 
 #: amd/ngw-cadaster/settings/CadasterSettings.hbs:21
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: amd/ngw-cadaster/settings/CadasterSettings.hbs:28
 msgid "Save"
-msgstr ""
+msgstr "Sauvegarder"
 
 #: amd/ngw-cadaster/settings/CadasterSettings.js:56
 msgid "The settings has been saved successfully!"
-msgstr ""
+msgstr "Les paramètres ont été enregistrés avec succès!"
 
 #: amd/ngw-cadaster/settings/CadasterSettings.js:58
 msgid "Error, the settings not has been saved!"
-msgstr ""
+msgstr "Erreur, les paramètres n'ont pas été enregistrés!"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:24
 msgid "Cadastral number"
-msgstr ""
+msgstr "Numéro de cadastre"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:25
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:26
 msgid "Type"
-msgstr ""
+msgstr "le type"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:27
 msgid "Identifier"
-msgstr ""
+msgstr "Identifiant"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:28
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:29
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:49
 msgid "Publication date"
-msgstr ""
+msgstr "Date de publication"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:30
 msgid "Updated"
-msgstr ""
+msgstr "Actualisé"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:31
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:36
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:51
 msgid "District"
-msgstr ""
+msgstr "Quartier"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:32
 msgid "Change date"
-msgstr ""
+msgstr "Date de modification"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:33
 msgid "Local identifier"
-msgstr ""
+msgstr "Identifiant local"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:34
 msgid "County cadastral number"
-msgstr ""
+msgstr "Numéro cadastral du comté"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:35
 msgid "Annotation text"
-msgstr ""
+msgstr "Texte d'annotation"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:37
 msgid "District cadastral number"
-msgstr ""
+msgstr "Numéro cadastral du quartier"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:38
 msgid "Date of creation"
-msgstr ""
+msgstr "Date de création"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:39
 msgid "Floors"
-msgstr ""
+msgstr "Sols"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:40
 msgid "OX type"
-msgstr ""
+msgstr "type OX"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:41
 msgid "Quarterly cadastral number"
-msgstr ""
+msgstr "Numéro cadastral trimestriel"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:42
 msgid "Date of value setting"
-msgstr ""
+msgstr "Date de mise en valeur"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:43
 msgid "Year of Construction"
-msgstr ""
+msgstr "Année de construction"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:44
 msgid "Year of Commissioning"
-msgstr ""
+msgstr "Année de mise en service"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:45
 msgid "Underground floors"
-msgstr ""
+msgstr "Sous-sols"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:46
 msgid "Destination"
-msgstr ""
+msgstr "Destination"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:47
 msgid "Quarterly"
-msgstr ""
+msgstr "Trimestriel"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:48
 msgid "Cadastral value"
-msgstr ""
+msgstr "Valeur cadastrale"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:50
 msgid "Category type"
-msgstr ""
+msgstr "Type de catégorie"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
 msgid "Cadastral number of the county"
-msgstr ""
+msgstr "Numéro cadastral du comté"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:58
 msgid "Cadastral quarter"
-msgstr ""
+msgstr "Quartier cadastral"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:59
 msgid "Indentification of cadastral quarters"
-msgstr ""
+msgstr "Identification des quartiers cadastraux"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:64
 msgid "Land plot"
-msgstr ""
+msgstr "Terrain"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
 msgid "Land plot identification"
-msgstr ""
+msgstr "Identification du terrain"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:70
 msgid "Capital construction object"
-msgstr ""
+msgstr "Objet de construction capitale"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:71
 msgid "Identification of capital construction objects"
-msgstr ""
+msgstr "Identification des objets de construction d'équipement"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:76
 msgid "Cadastral district"
-msgstr ""
+msgstr "Quartier cadastral"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
 msgid "Identification of cadastral districts"
-msgstr ""
+msgstr "Identification des quartiers cadastraux"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:83
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:169
 msgid "Attributes"
-msgstr ""
+msgstr "Les attributs"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:99
 msgid "No data"
-msgstr ""
+msgstr "Pas de données"
 
 #: api/pkk_request.py:19
 msgid "Cadaster services module error"
-msgstr ""
+msgstr "Erreur du module des services de cadastre"
 
 #: api/pkk_request.py:20
 msgid "Geoservices API is unavailable"
-msgstr ""
+msgstr "API Geoservices n'est pas disponible"
 
 #: api/pkk_request.py:25
 msgid "Cadaster services module"
-msgstr ""
+msgstr "Module des services de cadastre"
 
 #: api/pkk_request.py:42
 msgid ""
 "Geoservices API key in cadaster services module not set. Set the Geoservices "
 "API key in the “Cadaster services” section on the Control panel."
 msgstr ""
+"La clé API Geoservices dans le module de services de cadastre n'est pas "
+"définie. Définissez la clé API Geoservices dans la section « Services de "
+"cadastre » du panneau de configuration."
 
 #: api/pkk_request.py:86
 msgid "Parameter 'types' is required!"
-msgstr ""
+msgstr "Le paramètre « types » est requis !"
 
 #: api/pkk_request.py:111
 #, python-format
 msgid "Cadaster plot with ID '%(id)s' not found!"
-msgstr ""
+msgstr "Le tracé de cadastre avec l'ID '%(id)s' est introuvable !"
 
 #: view/settings.py:11
 msgid "Cadaster services settings"
-msgstr ""
+msgstr "Paramètres des services de cadastre"
 
 #: view/settings.py:17
 msgid "Cadaster services"
-msgstr ""
+msgstr "Services de cadastre"
 

@@ -10,11 +10,11 @@ msgstr "Tiles"
 msgid "Image"
 msgstr "Immagine"
 
-#: model.py:29 model.py:38 view.py:179 view.py:200
+#: model.py:29 model.py:38 view.py:182 view.py:203
 msgid "Web map"
 msgstr "Mappa web"
 
-#: model.py:31 view.py:186
+#: model.py:31 view.py:189
 msgid "Display"
 msgstr "Mostra"
 
@@ -26,11 +26,11 @@ msgstr "Visualizza le note"
 msgid "Edit annotations"
 msgstr "Modifica le note"
 
-#: view.py:34 view.py:201
+#: view.py:34 view.py:204
 msgid "Web map settings"
 msgstr "Impostazioni della mappa web"
 
-#: view.py:207
+#: view.py:210
 msgid "External access"
 msgstr "Accesso esterno"
 
@@ -97,7 +97,7 @@ msgstr "Ordine layer"
 msgid "Use on the map"
 msgstr "Usa sulla mappa"
 
-#: amd/ngw-webmap/ItemWidget.js:148 amd/ngw-webmap/template/SettingsForm.hbs:115
+#: amd/ngw-webmap/ItemWidget.js:148 amd/ngw-webmap/template/SettingsForm.hbs:117
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:105
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:43
 msgid "Save"
@@ -107,11 +107,11 @@ msgstr "Salva"
 msgid "Add group"
 msgstr "Aggiungi gruppo"
 
-#: amd/ngw-webmap/SettingsForm.js:104
+#: amd/ngw-webmap/SettingsForm.js:117
 msgid "Validation error"
 msgstr ""
 
-#: amd/ngw-webmap/SettingsForm.js:105
+#: amd/ngw-webmap/SettingsForm.js:118
 msgid ""
 "Errors found during data validation. Controls with errors marked in red. Fix "
 "it, please."
@@ -388,6 +388,10 @@ msgid "Limit search results to countries"
 msgstr ""
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:106
+msgid "Yandex.Maps Key is required"
+msgstr ""
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:108
 msgid "Yandex.Maps API Geocoder Key"
 msgstr ""
 

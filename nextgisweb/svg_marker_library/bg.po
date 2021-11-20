@@ -5,17 +5,17 @@ msgstr "Библиотека на SVG-маркери"
 #: model.py:71
 #, python-format
 msgid "Insecure filename \"%s\"."
-msgstr ""
+msgstr "Небезопасно файлово име \"%s\"."
 
 #: model.py:76
 #, python-format
 msgid "File \"%s\" has an invalid extension."
-msgstr ""
+msgstr "Файл \"%s\" има невалидно разширение."
 
 #: model.py:82
 #, python-format
 msgid "File type \"%s\" is not SVG."
-msgstr ""
+msgstr "Файлов тип \"%s\" не е SVG."
 
 #: view.py:20
 msgid "Export"

@@ -1,26 +1,30 @@
-#: __init__.py:80
+#: __init__.py:96
 msgid "NextGIS geoinformation system"
 msgstr "NextGIS Geoinformationssystem"
 
-#: __init__.py:208
+#: __init__.py:218
 msgid "Linux kernel"
 msgstr "Linux-Kern"
 
-#: __init__.py:211
+#: __init__.py:221
 msgid "OS distribution"
 msgstr "Betriebssystemverteilung"
 
-#: __init__.py:222
+#: __init__.py:233
 msgid "CPU"
 msgstr "Zentralprozessor"
 
-#: __init__.py:227
+#: __init__.py:237
 msgid "RAM"
 msgstr "RAM"
 
-#: exception.py:95
+#: exception.py:90
 msgid "Validation error"
 msgstr "Validierungsfehler"
+
+#: exception.py:95
+msgid "Forbidden"
+msgstr ""
 
 #: exception.py:100
 msgid "Insufficient permissions"
@@ -30,11 +34,11 @@ msgstr "Berechtigungen nicht ausreichend"
 msgid "Operational error"
 msgstr "Betriebsfehler"
 
-#: storage.py:225
+#: storage.py:222
 msgid "Estimation is already running"
 msgstr ""
 
-#: test/test_exception.py:79
+#: test/test_exception.py:75
 #, python-format
 msgid "The answer is %d"
 msgstr "Die Antwort ist %d"

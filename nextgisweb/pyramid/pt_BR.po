@@ -1,4 +1,4 @@
-#: api.py:475
+#: api.py:498
 msgid "Your Web GIS at nextgis.com"
 msgstr ""
 
@@ -74,47 +74,47 @@ msgstr ""
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr ""
 
-#: template/header.mako:110 view.py:83
+#: template/header.mako:111 view.py:83
 msgid "Control panel"
 msgstr ""
 
-#: view.py:105 view.py:461
+#: view.py:105 view.py:481
 msgid "System information"
 msgstr ""
 
-#: view.py:117 view.py:478
+#: view.py:117 view.py:498
 msgid "Storage"
 msgstr ""
 
-#: view.py:127 view.py:483
+#: view.py:127 view.py:503
 msgid "Backups"
 msgstr ""
 
-#: view.py:142 view.py:467
+#: view.py:142 view.py:487
 msgid "Cross-origin resource sharing (CORS)"
 msgstr ""
 
-#: view.py:149 view.py:469
+#: view.py:149 view.py:489
 msgid "Custom CSS"
 msgstr ""
 
-#: view.py:156 view.py:471
+#: view.py:156 view.py:491
 msgid "Custom logo"
 msgstr ""
 
-#: view.py:163 view.py:465
+#: view.py:163 view.py:485
 msgid "Web GIS name"
 msgstr ""
 
-#: view.py:170 view.py:473
+#: view.py:170 view.py:493
 msgid "Home path"
 msgstr ""
 
-#: view.py:460
+#: view.py:480
 msgid "Info"
 msgstr ""
 
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7 view.py:464
+#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7 view.py:484
 msgid "Settings"
 msgstr ""
 
@@ -251,8 +251,8 @@ msgstr ""
 #: amd/ngw-pyramid/template/CORSForm.hbs:18
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
-"(example.com and www.example.com) are different origins. Wildcards are not "
-"allowed."
+"(example.com and www.example.com) are different origins. Wildcards are "
+"allowed for third-level domains and higher."
 msgstr ""
 
 #: amd/ngw-pyramid/template/CustomCSSForm.hbs:17
@@ -301,58 +301,58 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: template/header.mako:35
+#: template/header.mako:38
 msgid "Sign in"
 msgstr ""
 
-#: template/header.mako:105
+#: template/header.mako:106
 msgid "Resources"
 msgstr ""
 
-#: template/header.mako:118
+#: template/header.mako:119
 msgid "Help"
 msgstr ""
 
-#: template/storage.mako:35
+#: template/storage.mako:36
 msgid "Kind of data"
 msgstr ""
 
-#: template/storage.mako:36
+#: template/storage.mako:37
 msgid "Volume"
 msgstr ""
 
-#: template/storage.mako:51
+#: template/storage.mako:52
 msgid "Total"
 msgstr ""
 
-#: template/storage.mako:73
+#: template/storage.mako:74
 #, python-format
 msgid "Storage usage was fully estimated at %s and updated at %s."
 msgstr ""
 
-#: template/storage.mako:76
+#: template/storage.mako:77
 #, python-format
 msgid "Storage usage was fully estimated at %s."
 msgstr ""
 
-#: template/storage.mako:78
+#: template/storage.mako:79
 #, python-format
 msgid "Storage usage hasn't been estimated yet but was updated at %s."
 msgstr ""
 
-#: template/storage.mako:80
+#: template/storage.mako:81
 msgid "Storage usage hasn't been estimated yet."
 msgstr ""
 
-#: template/storage.mako:83
+#: template/storage.mako:84
 msgid "Some changes may be reflected only after full estimation."
 msgstr ""
 
-#: template/storage.mako:102
+#: template/storage.mako:103
 msgid "Estimation is in progress..."
 msgstr ""
 
-#: template/storage.mako:108
+#: template/storage.mako:109
 msgid "Estimate storage"
 msgstr ""
 

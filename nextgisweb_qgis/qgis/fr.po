@@ -5,7 +5,7 @@ msgstr "Style QGIS"
 
 #: model.py:287 model.py:345
 msgid "QML file is not valid."
-msgstr ""
+msgstr "Le fichier QML n'est pas valide."
 
 #: amd/ngw-qgis/template/QgisRasterStyleWidget.hbs:7
 #: amd/ngw-qgis/template/QgisVectorStyleWidget.hbs:7 view.py:28

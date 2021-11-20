@@ -10,11 +10,11 @@ msgstr "Плочки"
 msgid "Image"
 msgstr "Изображение"
 
-#: model.py:29 model.py:38 view.py:179 view.py:200
+#: model.py:29 model.py:38 view.py:182 view.py:203
 msgid "Web map"
 msgstr "Уеб карта"
 
-#: model.py:31 view.py:186
+#: model.py:31 view.py:189
 msgid "Display"
 msgstr "Показване"
 
@@ -26,11 +26,11 @@ msgstr "Показване на анотации"
 msgid "Edit annotations"
 msgstr "Редактиране на анотации"
 
-#: view.py:34 view.py:201
+#: view.py:34 view.py:204
 msgid "Web map settings"
 msgstr "Настройки на уеб картата"
 
-#: view.py:207
+#: view.py:210
 msgid "External access"
 msgstr "Външен достъп"
 
@@ -97,7 +97,7 @@ msgstr "Редът на слоевете"
 msgid "Use on the map"
 msgstr "Използвай в картата"
 
-#: amd/ngw-webmap/ItemWidget.js:148 amd/ngw-webmap/template/SettingsForm.hbs:115
+#: amd/ngw-webmap/ItemWidget.js:148 amd/ngw-webmap/template/SettingsForm.hbs:117
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:105
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:43
 msgid "Save"
@@ -107,15 +107,17 @@ msgstr "Запази"
 msgid "Add group"
 msgstr "Добави група"
 
-#: amd/ngw-webmap/SettingsForm.js:104
+#: amd/ngw-webmap/SettingsForm.js:117
 msgid "Validation error"
-msgstr ""
+msgstr "Грешка при валидация"
 
-#: amd/ngw-webmap/SettingsForm.js:105
+#: amd/ngw-webmap/SettingsForm.js:118
 msgid ""
 "Errors found during data validation. Controls with errors marked in red. Fix "
 "it, please."
 msgstr ""
+"При валидация са открити грешки. Полета с грешки са в червено. Поправете ги, "
+"моля."
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:23
 msgid "Your annotation text"
@@ -365,31 +367,35 @@ msgstr "Ограничи с началния обхват на картата"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:90
 msgid "Provider"
-msgstr ""
+msgstr "Доставчик"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:91
 msgid "Nominatim (OSM)"
-msgstr ""
+msgstr "Nominatim (OSM)"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:92
 msgid "Yandex.Maps API Geocoder"
-msgstr ""
+msgstr "Yandex.Maps API Геокодер"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:98
 msgid "For example: ru or gb,de"
-msgstr ""
+msgstr "Например: ru или gb,de"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:100
 msgid "Invalid countries. For example ru or gb,de"
-msgstr ""
+msgstr "Невалидни значения. Например: ru или gb,de"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:101
 msgid "Limit search results to countries"
-msgstr ""
+msgstr "Ограничи резултати на търсенето с държави"
 
 #: amd/ngw-webmap/template/SettingsForm.hbs:106
-msgid "Yandex.Maps API Geocoder Key"
+msgid "Yandex.Maps Key is required"
 msgstr ""
+
+#: amd/ngw-webmap/template/SettingsForm.hbs:108
+msgid "Yandex.Maps API Geocoder Key"
+msgstr "Ключ за Yandex.Maps API Геокодер"
 
 #: amd/ngw-webmap/tool/Identify.js:212
 msgid "Attributes"

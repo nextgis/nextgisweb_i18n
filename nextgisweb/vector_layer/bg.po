@@ -82,7 +82,7 @@ msgstr "Нито едно от полета %s не е цялочислено."
 #: model.py:334
 #, python-format
 msgid "Field '%s(?)' encoding is broken."
-msgstr ""
+msgstr "Кодировката на полето  '%s(?)' е счупена."
 
 #: model.py:336
 #, python-format
@@ -142,7 +142,7 @@ msgstr "Обектът #%d има по-малко от 2 точки в лини�
 #: model.py:696
 #, python-format
 msgid "Feature #%d contains a broken encoding of field '%s'."
-msgstr ""
+msgstr "Обект #%d съдържа счупена кодировка в поле '%s'."
 
 #: model.py:719
 msgid "Vector layer cannot be written due to errors."

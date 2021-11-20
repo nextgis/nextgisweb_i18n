@@ -33,15 +33,15 @@ msgstr "Субектите на системата не могат да бъда
 
 #: api.py:227
 msgid "User is referenced with resources"
-msgstr ""
+msgstr "Потребителят е свързан с ресурси"
 
 #: api.py:228
 msgid "Group is referenced with resources"
-msgstr ""
+msgstr "Групата е свързана с ресурси"
 
 #: exception.py:7
 msgid "Invalid authorization header"
-msgstr ""
+msgstr "Невалиден хедър на авторизацията"
 
 #: exception.py:12
 msgid "Invalid credentials"
@@ -197,19 +197,19 @@ msgstr "Членува в групи"
 
 #: nodepkg/browse.js:9
 msgid "Delete user?"
-msgstr ""
+msgstr "Искате ли да премахнете потребителя?"
 
 #: nodepkg/browse.js:9
 msgid "Delete group?"
-msgstr ""
+msgstr "Искате ли да премахнете групата?"
 
 #: nodepkg/browse.js:11
 msgid "Confirmation"
-msgstr ""
+msgstr "Потвръждение"
 
 #: template/group_browse.mako:31 template/user_browse.mako:31
 msgid "Delete"
-msgstr ""
+msgstr "Премахване"
 
 #: template/login.mako:13
 msgid "Authorization Required"
