@@ -5,7 +5,7 @@ msgstr "Conexión TMS"
 
 #: model.py:130
 msgid "API key required."
-msgstr ""
+msgstr "Se requiere clave API."
 
 #: model.py:173
 msgid "Zoom is out of range."
@@ -17,7 +17,7 @@ msgstr "Capa TMS"
 
 #: model.py:321
 msgid "Layer name required."
-msgstr ""
+msgstr "Se requiere el nombre de la capa."
 
 #: view.py:21
 msgid "TMS capabilities"

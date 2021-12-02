@@ -5,7 +5,7 @@ msgstr "La tabla (%s) no se encuentra en el esquema (%s)."
 
 #: exception.py:8
 msgid "External database error"
-msgstr ""
+msgstr "Error de base de datos externa"
 
 #: amd/ngw-postgis/template/LayerWidget.hbs:42 model.py:50
 msgid "Point"

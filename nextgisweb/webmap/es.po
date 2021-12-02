@@ -558,7 +558,7 @@ msgstr "Impimir"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:12
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
 msgid "Paper format"

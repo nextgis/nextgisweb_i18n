@@ -36,7 +36,7 @@ msgstr "Error operacional"
 
 #: exception.py:110
 msgid "External service error"
-msgstr ""
+msgstr "Error de servicio externo"
 
 #: storage.py:222
 msgid "Estimation is already running"

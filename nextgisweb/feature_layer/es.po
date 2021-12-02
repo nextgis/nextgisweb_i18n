@@ -163,7 +163,7 @@ msgstr "Campo FID"
 
 #: amd/ngw-feature-layer/template/ExportForm.hbs:34
 msgid "Use field display names instead of keynames"
-msgstr ""
+msgstr "Utilice nombres para mostrar en lugar de nombres clave"
 
 #: amd/ngw-feature-layer/template/ExportForm.hbs:37
 msgid "Zip archive"
