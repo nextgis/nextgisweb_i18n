@@ -34,7 +34,7 @@ msgstr "Настройки на уеб картата"
 msgid "External access"
 msgstr "Външен достъп"
 
-#: amd/ngw-webmap/Display.js:212 amd/ngw-webmap/Display.js:1009
+#: amd/ngw-webmap/Display.js:212 amd/ngw-webmap/Display.js:1011
 #: amd/ngw-webmap/ItemWidget.js:243
 msgid "Layers"
 msgstr "Слоеве"
@@ -47,7 +47,7 @@ msgstr "Търсене"
 msgid "Share"
 msgstr "Сподели"
 
-#: amd/ngw-webmap/Display.js:230 amd/ngw-webmap/Display.js:329
+#: amd/ngw-webmap/Display.js:230
 msgid "Print map"
 msgstr "Принтирай картата"
 
@@ -551,97 +551,101 @@ msgstr "Откажи"
 msgid "Layer"
 msgstr "Слой"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:9
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:94
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:10
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:100
 msgid "Print"
 msgstr "Принтирай"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:18
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:12
+msgid "Close"
+msgstr ""
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
 msgid "Paper format"
 msgstr "Формат на хартия"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:22
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
 msgid "Select format"
 msgstr "Изберете формат"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
 msgid "A4 - Portrait"
 msgstr "А4 - Портретен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:25
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
 msgid "A4 - Landscape"
 msgstr "А4 - Албумен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:26
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
 msgid "A3 - Portrait"
 msgstr "А3 - Портретен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:27
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
 msgid "A3 - Landscape"
 msgstr "А3 - Албумен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
 msgid "A2 - Portrait"
 msgstr "А2 - Портретен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:29
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:35
 msgid "A2 - Landscape"
 msgstr "А2 - Албумен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:36
 msgid "A1 - Portrait"
 msgstr "А1 - Портретен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:37
 msgid "A1 - Landscape"
 msgstr "А1 - Албумен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:38
 msgid "A0 - Portrait"
 msgstr "А0 - Портретен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:39
 msgid "A0 - Landscape"
 msgstr "А0 - Албумен"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:40
 msgid "Custom size"
 msgstr "Персонализиран размер"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:40
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:46
 msgid "Height, mm"
 msgstr "Височина, мм"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:51
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:57
 msgid "Width, mm"
 msgstr "Широчина, мм"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:62
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:68
 msgid "Margin, mm"
 msgstr "Отстъп, мм"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:72
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:78
 msgid "Scale value"
 msgstr "Мащабно значение"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:77
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:83
 msgid "Scale bar"
 msgstr "Мащабна скала"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:82
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:88
 #: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:5
 msgid "Scale"
 msgstr "Мащаб"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:100
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:106
 msgid "Save as"
 msgstr "Запази като"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:107
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:113
 msgid "JPEG"
 msgstr "JPEG"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:114
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:120
 msgid "PNG"
 msgstr "PNG"
 

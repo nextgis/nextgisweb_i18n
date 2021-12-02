@@ -1,25 +1,38 @@
-#: api.py:30
+#: api.py:47
 msgid "Output format is not provided."
 msgstr "Le format de sortie n'est pas fourni."
 
-#: api.py:33
+#: api.py:50
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr "Le format '% s' est pas pris en charge."
 
-#: kind_of_data.py:12
+#: api.py:101
+msgid "Requested raster is not COG."
+msgstr ""
+
+#: api.py:105
+msgid "Range header is missed or invalid."
+msgstr ""
+
+#: api.py:109
+#, python-format
+msgid "Range %s can not be read."
+msgstr ""
+
+#: kind_of_data.py:8
 msgid "Rasters and pyramids"
 msgstr "Rasters et pyramides"
 
-#: amd/ngw-raster-layer/Widget.js:26 model.py:61 view.py:31
+#: amd/ngw-raster-layer/Widget.js:30 model.py:59 view.py:32
 msgid "Raster layer"
 msgstr "Couche raster"
 
-#: model.py:81
+#: model.py:80
 msgid "GDAL library was unable to open the file."
 msgstr "La bibliothèque GDAL n'a pas pu ouvrir le fichier."
 
-#: model.py:89
+#: model.py:88
 #, python-format
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
@@ -28,23 +41,35 @@ msgstr ""
 "Le raster a le format '%(format)s', mais seuls les formats suivants sont pris"
 " en charge : %(all_formats)s."
 
-#: model.py:94
+#: model.py:93
 msgid "Raster files without projection info are not supported."
 msgstr ""
 "Les fichiers raster sans informations de projection ne sont pas pris en "
 "charge."
 
-#: model.py:105
+#: model.py:104
 msgid "Complex data types are not supported."
 msgstr "Les types de données complexes ne sont pas pris en charge."
 
-#: model.py:179
+#: model.py:199
 msgid "Data type"
 msgstr "Type de données"
 
-#: view.py:20 view.py:34
+#: model.py:200
+msgid "COG"
+msgstr ""
+
+#: model.py:285
+msgid "COG attribute can be set only at creation time."
+msgstr ""
+
+#: view.py:21 view.py:36
 msgid "Save as"
 msgstr "Enregistrer sous"
+
+#: view.py:45
+msgid "External access"
+msgstr ""
 
 #: amd/ngw-raster-layer/ExportForm.js:101
 msgid "Band"
@@ -77,4 +102,21 @@ msgstr "Le jeu de données doit être au format GeoTIFF."
 #: amd/ngw-raster-layer/template/Widget.hbs:8
 msgid "Coordinate system"
 msgstr "Système de coordonnées"
+
+#: amd/ngw-raster-layer/template/Widget.hbs:12
+msgid "Upload as Cloud Optimized GeoTIFF (COG)"
+msgstr ""
+
+#: template/section_api_cog.mako:7
+msgid "Cloud Optimized GeoTIFF"
+msgstr ""
+
+#: template/section_api_cog.mako:11
+msgid ""
+"A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
+"hosted on a HTTP file server, with an internal organization that enables more"
+" efficient workflows on the cloud. It does this by leveraging the ability of "
+"clients issuing ​HTTP GET range requests to ask for just the parts of a file "
+"they need."
+msgstr ""
 

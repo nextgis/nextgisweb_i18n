@@ -34,7 +34,7 @@ msgstr "Nastavení webové mapy"
 msgid "External access"
 msgstr "Externí přístup"
 
-#: amd/ngw-webmap/Display.js:212 amd/ngw-webmap/Display.js:1009
+#: amd/ngw-webmap/Display.js:212 amd/ngw-webmap/Display.js:1011
 #: amd/ngw-webmap/ItemWidget.js:243
 msgid "Layers"
 msgstr "Vrstvy"
@@ -47,7 +47,7 @@ msgstr "vyhledávání"
 msgid "Share"
 msgstr "Podělit se"
 
-#: amd/ngw-webmap/Display.js:230 amd/ngw-webmap/Display.js:329
+#: amd/ngw-webmap/Display.js:230
 msgid "Print map"
 msgstr "Tisk mapy"
 
@@ -549,97 +549,101 @@ msgstr "Zrušení"
 msgid "Layer"
 msgstr "Vrstva"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:9
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:94
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:10
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:100
 msgid "Print"
 msgstr "Tisk"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:18
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:12
+msgid "Close"
+msgstr ""
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
 msgid "Paper format"
 msgstr "Papírový formát"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:22
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
 msgid "Select format"
 msgstr "Vyberte formát"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
 msgid "A4 - Portrait"
 msgstr "A4 - Portrét"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:25
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
 msgid "A4 - Landscape"
 msgstr "A4 - Krajina"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:26
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
 msgid "A3 - Portrait"
 msgstr "A3 - Portrét"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:27
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
 msgid "A3 - Landscape"
 msgstr "A3 - Krajina"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
 msgid "A2 - Portrait"
 msgstr "A2 - Portrét"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:29
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:35
 msgid "A2 - Landscape"
 msgstr "A2 - Krajina"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:36
 msgid "A1 - Portrait"
 msgstr "A1 - Portrét"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:37
 msgid "A1 - Landscape"
 msgstr "A1 - Krajina"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:38
 msgid "A0 - Portrait"
 msgstr "A0 - Portrét"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:39
 msgid "A0 - Landscape"
 msgstr "A0 - Krajina"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:40
 msgid "Custom size"
 msgstr "Vlastní velikost"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:40
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:46
 msgid "Height, mm"
 msgstr "Výška, mm"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:51
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:57
 msgid "Width, mm"
 msgstr "Šířka, mm"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:62
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:68
 msgid "Margin, mm"
 msgstr "Okraj, mm"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:72
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:78
 msgid "Scale value"
 msgstr "Hodnota měřítka"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:77
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:83
 msgid "Scale bar"
 msgstr "Měřítko"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:82
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:88
 #: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:5
 msgid "Scale"
 msgstr "Měřítko"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:100
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:106
 msgid "Save as"
 msgstr "Uložit jako"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:107
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:113
 msgid "JPEG"
 msgstr "JPEG"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:114
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:120
 msgid "PNG"
 msgstr "PNG"
 

@@ -1,76 +1,76 @@
-#: api.py:104
+#: api.py:106
 msgid "Output format is not provided."
 msgstr "Výstupní formát není k dispozici."
 
-#: api.py:109
+#: api.py:111
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr "Formát '%s' není podporován."
 
-#: api.py:285 api.py:357
+#: api.py:303 api.py:378
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "Formát geometrie '%s' není podporován."
 
-#: api.py:287
+#: api.py:305
 msgid "Geometry is not valid."
 msgstr "Geometrie není platná."
 
-#: api.py:293 api.py:362
+#: api.py:311 api.py:383
 #, python-format
 msgid "Date format '%s' is not supported."
 msgstr "Formát data '%s' není podporován."
 
-#: api.py:583
+#: api.py:607
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "Geometrie parametru „protíná“ je neplatná."
 
-#: exception.py:15
+#: exception.py:13
 msgid "Feature not found"
 msgstr "Funkce nebyla nalezena"
 
-#: exception.py:16
+#: exception.py:14
 #, python-format
 msgid "Feature with id = %d was not found in resource with id = %d."
 msgstr "Funkce s id = %d nebyla nalezena ve zdroji s id = %d."
 
-#: exception.py:17
+#: exception.py:15
 msgid "The feature may have been deleted or an error in the address."
 msgstr "Je možné, že byla odstraněna funkce nebo je chyba v adrese."
 
-#: model.py:172
+#: model.py:163
 #, python-format
 msgid "Field not found (ID=%d)."
 msgstr "Pole nebylo nalezeno (ID=%d)."
 
-#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:45
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:43
 msgid "Feature table"
 msgstr "Tabulka funkcí"
 
-#: view.py:63 view.py:86
+#: view.py:61 view.py:84
 #, python-format
 msgid "Feature #%d"
 msgstr "Funkce #%d"
 
-#: view.py:138 view.py:201
+#: view.py:136 view.py:199
 msgid "Save as"
 msgstr "Uložit jako"
 
-#: view.py:188
+#: view.py:186
 msgid "Features"
 msgstr "Funkce"
 
-#: template/section_fields.mako:21 view.py:193
+#: template/section_fields.mako:21 view.py:191
 msgid "Table"
 msgstr "Tabulka"
 
-#: view.py:211
+#: view.py:209
 msgid "External access"
 msgstr "Externí přístup"
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:194
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:216
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:214
 msgid "Attributes"
 msgstr "Atributy"
 
@@ -95,19 +95,19 @@ msgid "Please wait. Processing request..."
 msgstr "Prosím, čekejte. Zpracování požadavku..."
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:266
-#: amd/ngw-feature-layer/template/ExportForm.hbs:42
+#: amd/ngw-feature-layer/template/ExportForm.hbs:45
 msgid "Save"
 msgstr "Uložit"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:240
+#: amd/ngw-feature-layer/FeatureGrid.js:241
 msgid "Confirmation"
 msgstr "Potvrzení"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:241
+#: amd/ngw-feature-layer/FeatureGrid.js:242
 msgid "Delete feature?"
 msgstr "Smazat funkci?"
 
-#: amd/ngw-feature-layer/FieldsDisplayWidget.js:114
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:119
 msgid "N/A"
 msgstr "N/A"
 
@@ -160,6 +160,10 @@ msgid "FID field"
 msgstr "FID pole"
 
 #: amd/ngw-feature-layer/template/ExportForm.hbs:34
+msgid "Use field display names instead of keynames"
+msgstr ""
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:37
 msgid "Zip archive"
 msgstr "Archiv ZIP"
 

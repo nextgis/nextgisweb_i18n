@@ -262,6 +262,9 @@ msgid ""
 "(example.com and www.example.com) are different origins. Wildcards are "
 "allowed for third-level domains and higher."
 msgstr ""
+"Tenga en cuenta que los diferentes protocolos (HTTP y HTTPS) y subdominios "
+"(example.com y www.example.com) tienen diferentes orígenes. Se permiten "
+"comodines para dominios de tercer nivel y superiores."
 
 #: amd/ngw-pyramid/template/CustomCSSForm.hbs:17
 msgid ""

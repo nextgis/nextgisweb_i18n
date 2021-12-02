@@ -1,52 +1,39 @@
-msgid ""
+#: amd/ngw-tmsclient/ConnectionWidget.js:34
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:53
+msgid "TMS connection"
+msgstr "Připojení TMS"
+
+#: model.py:130
+msgid "API key required."
 msgstr ""
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: NextGIS Web GUI\n"
-"Language: cs\n"
 
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
-msgid "Password"
-msgstr "Heslo"
+#: model.py:173
+msgid "Zoom is out of range."
+msgstr "Zvětšení je mimo rozsah."
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
-msgid "Coordinate system"
-msgstr "Souřadnicový systém"
+#: amd/ngw-tmsclient/LayerWidget.js:37 model.py:181
+msgid "TMS layer"
+msgstr "TMS vrstva"
 
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:53
-msgid "Cancel"
-msgstr "Zrušení"
+#: model.py:321
+msgid "Layer name required."
+msgstr ""
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:45
-msgid "Max zoom level"
-msgstr "Maximální úroveň přiblížení"
+#: view.py:21
+msgid "TMS capabilities"
+msgstr "Funkce TMS"
+
+#: amd/ngw-tmsclient/LayersDialog.js:25
+msgid "Select layer"
+msgstr "Vyberte vrstvu"
 
 #: amd/ngw-tmsclient/LayersDialog.js:63
 msgid "OK"
 msgstr "OK"
 
-#: amd/ngw-tmsclient/ConnectionWidget.js:34
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:55
-msgid "TMS connection"
-msgstr "Připojení TMS"
-
-#: model.py:168
-msgid "Zoom is out of range."
-msgstr "Zvětšení je mimo rozsah."
-
-#: amd/ngw-tmsclient/LayerWidget.js:37 model.py:176
-msgid "TMS layer"
-msgstr "TMS vrstva"
-
-#: view.py:24
-msgid "TMS capabilities"
-msgstr "Funkce TMS"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:38
-msgid "Select layer"
-msgstr "Vyberte vrstvu"
+#: amd/ngw-tmsclient/LayersDialog.js:72
+msgid "Cancel"
+msgstr "Zrušení"
 
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
 msgid "Capmode"
@@ -72,6 +59,14 @@ msgstr "Klíč API"
 msgid "API key param"
 msgstr "Parametr klíče API"
 
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:38
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
+msgid "Password"
+msgstr "Heslo"
+
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:49
 msgid "Scheme"
 msgstr "Systém"
@@ -84,7 +79,11 @@ msgstr "Přeskočit ověření certifikátu SSL / TLS"
 msgid "Choose a layer"
 msgstr "Vyberte vrstvu"
 
-#: amd/ngw-webmap/ui/LayersPanel/LayersPanel.hbs:8
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+msgid "Coordinate system"
+msgstr "Souřadnicový systém"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:30
 msgid "Layer"
 msgstr "Vrstva"
 
@@ -92,27 +91,27 @@ msgstr "Vrstva"
 msgid "Min zoom level"
 msgstr "Minimální úroveň přiblížení"
 
-#: amd/ngw-webmap/template/ExtentWidget.hbs:10
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:45
+msgid "Max zoom level"
+msgstr "Maximální úroveň přiblížení"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
 msgid "Left, deg."
 msgstr "Doleva, deg."
 
-#: amd/ngw-webmap/template/ExtentWidget.hbs:28
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
 msgid "Bottom, deg."
 msgstr "Dno, deg."
 
-#: amd/ngw-webmap/template/ExtentWidget.hbs:22
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
 msgid "Right, deg."
 msgstr "Doprava, deg."
 
-#: amd/ngw-webmap/template/ExtentWidget.hbs:16
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
 msgid "Top, deg."
 msgstr "Vrchol, deg."
 
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:75
 msgid "Tile size, px"
 msgstr "Velikost dlaždice, px"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:38
-msgid "Username"
-msgstr "Uživatelské jméno"
 

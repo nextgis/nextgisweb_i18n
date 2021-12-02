@@ -1,52 +1,39 @@
-msgid ""
+#: amd/ngw-tmsclient/ConnectionWidget.js:34
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:53
+msgid "TMS connection"
+msgstr "Connessione TMS"
+
+#: model.py:130
+msgid "API key required."
 msgstr ""
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: NextGIS Web GUI\n"
-"Language: it\n"
 
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
-msgid "Password"
-msgstr "Password"
+#: model.py:173
+msgid "Zoom is out of range."
+msgstr "Zoom fuori intervallo."
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
-msgid "Coordinate system"
-msgstr "Sistema di coordinate"
+#: amd/ngw-tmsclient/LayerWidget.js:37 model.py:181
+msgid "TMS layer"
+msgstr "Layer TMS"
 
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:53
-msgid "Cancel"
-msgstr "Annulla"
+#: model.py:321
+msgid "Layer name required."
+msgstr ""
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:45
-msgid "Max zoom level"
-msgstr "Livello massimo di zoom"
+#: view.py:21
+msgid "TMS capabilities"
+msgstr "Capabilities TMS"
+
+#: amd/ngw-tmsclient/LayersDialog.js:25
+msgid "Select layer"
+msgstr "Seleziona layer"
 
 #: amd/ngw-tmsclient/LayersDialog.js:63
 msgid "OK"
 msgstr "OK"
 
-#: amd/ngw-tmsclient/ConnectionWidget.js:34
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:55
-msgid "TMS connection"
-msgstr "Connessione TMS"
-
-#: model.py:168
-msgid "Zoom is out of range."
-msgstr "Zoom fuori intervallo."
-
-#: amd/ngw-tmsclient/LayerWidget.js:37 model.py:176
-msgid "TMS layer"
-msgstr "Layer TMS"
-
-#: view.py:24
-msgid "TMS capabilities"
-msgstr "Capabilities TMS"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:38
-msgid "Select layer"
-msgstr "Seleziona layer"
+#: amd/ngw-tmsclient/LayersDialog.js:72
+msgid "Cancel"
+msgstr "Annulla"
 
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
 msgid "Capmode"
@@ -72,6 +59,14 @@ msgstr "Chiave API"
 msgid "API key param"
 msgstr "Parametro della chiave API"
 
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:38
+msgid "Username"
+msgstr "Nome utente"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
+msgid "Password"
+msgstr "Password"
+
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:49
 msgid "Scheme"
 msgstr "Schema"
@@ -84,7 +79,11 @@ msgstr "Non verificare il certificato SSL/TLS"
 msgid "Choose a layer"
 msgstr "Scegli un layer"
 
-#: amd/ngw-webmap/ui/LayersPanel/LayersPanel.hbs:8
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+msgid "Coordinate system"
+msgstr "Sistema di coordinate"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:30
 msgid "Layer"
 msgstr "Layer"
 
@@ -92,27 +91,27 @@ msgstr "Layer"
 msgid "Min zoom level"
 msgstr "Livello minimo di zoom"
 
-#: amd/ngw-webmap/template/ExtentWidget.hbs:10
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:45
+msgid "Max zoom level"
+msgstr "Livello massimo di zoom"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
 msgid "Left, deg."
 msgstr "Sinistra, gradi."
 
-#: amd/ngw-webmap/template/ExtentWidget.hbs:28
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
 msgid "Bottom, deg."
 msgstr "Basso, gradi."
 
-#: amd/ngw-webmap/template/ExtentWidget.hbs:22
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
 msgid "Right, deg."
 msgstr "Destra, gradi."
 
-#: amd/ngw-webmap/template/ExtentWidget.hbs:16
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
 msgid "Top, deg."
 msgstr "Alto, gradi."
 
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:75
 msgid "Tile size, px"
 msgstr "Dimensione tile, px"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:38
-msgid "Username"
-msgstr "Nome utente"
 

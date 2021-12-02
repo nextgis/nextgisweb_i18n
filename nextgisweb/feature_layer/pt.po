@@ -1,76 +1,76 @@
-#: api.py:104
+#: api.py:106
 msgid "Output format is not provided."
 msgstr "Formato de saída não fornecido."
 
-#: api.py:109
+#: api.py:111
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr "O formato '%s' não é suportado."
 
-#: api.py:285 api.py:357
+#: api.py:303 api.py:378
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "O formato da geometria '%s' não é suportado."
 
-#: api.py:287
+#: api.py:305
 msgid "Geometry is not valid."
 msgstr "A geometria não é válida."
 
-#: api.py:293 api.py:362
+#: api.py:311 api.py:383
 #, python-format
 msgid "Date format '%s' is not supported."
 msgstr ""
 
-#: api.py:583
+#: api.py:607
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "A geometria do parâmetro 'intersecta' não é válida."
 
-#: exception.py:15
+#: exception.py:13
 msgid "Feature not found"
 msgstr "Elemento não encontrado"
 
-#: exception.py:16
+#: exception.py:14
 #, python-format
 msgid "Feature with id = %d was not found in resource with id = %d."
 msgstr "Elemento com id = %d não foi encontrado no recurso com id = %d."
 
-#: exception.py:17
+#: exception.py:15
 msgid "The feature may have been deleted or an error in the address."
 msgstr "O elemento pode ter sido apagado ou um erro no endereço."
 
-#: model.py:172
+#: model.py:163
 #, python-format
 msgid "Field not found (ID=%d)."
 msgstr "Campo não encontrado (ID = %d)."
 
-#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:45
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:43
 msgid "Feature table"
 msgstr "Tabela de elementos"
 
-#: view.py:63 view.py:86
+#: view.py:61 view.py:84
 #, python-format
 msgid "Feature #%d"
 msgstr "Elemento #%d"
 
-#: view.py:138 view.py:201
+#: view.py:136 view.py:199
 msgid "Save as"
 msgstr "Guardar como"
 
-#: view.py:188
+#: view.py:186
 msgid "Features"
 msgstr "Elementos"
 
-#: template/section_fields.mako:21 view.py:193
+#: template/section_fields.mako:21 view.py:191
 msgid "Table"
 msgstr "Tabela"
 
-#: view.py:211
+#: view.py:209
 msgid "External access"
 msgstr "Acesso Externo"
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:194
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:216
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:214
 msgid "Attributes"
 msgstr "Atributos"
 
@@ -95,19 +95,19 @@ msgid "Please wait. Processing request..."
 msgstr ""
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:266
-#: amd/ngw-feature-layer/template/ExportForm.hbs:42
+#: amd/ngw-feature-layer/template/ExportForm.hbs:45
 msgid "Save"
 msgstr "Guardar"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:240
+#: amd/ngw-feature-layer/FeatureGrid.js:241
 msgid "Confirmation"
 msgstr "Confirmação"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:241
+#: amd/ngw-feature-layer/FeatureGrid.js:242
 msgid "Delete feature?"
 msgstr "Apagar elemento?"
 
-#: amd/ngw-feature-layer/FieldsDisplayWidget.js:114
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:119
 msgid "N/A"
 msgstr "N/A"
 
@@ -160,6 +160,10 @@ msgid "FID field"
 msgstr "Campo FID"
 
 #: amd/ngw-feature-layer/template/ExportForm.hbs:34
+msgid "Use field display names instead of keynames"
+msgstr ""
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:37
 msgid "Zip archive"
 msgstr "Arquivo zip"
 

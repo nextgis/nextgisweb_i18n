@@ -34,7 +34,7 @@ msgstr "Impostazioni della mappa web"
 msgid "External access"
 msgstr "Accesso esterno"
 
-#: amd/ngw-webmap/Display.js:212 amd/ngw-webmap/Display.js:1009
+#: amd/ngw-webmap/Display.js:212 amd/ngw-webmap/Display.js:1011
 #: amd/ngw-webmap/ItemWidget.js:243
 msgid "Layers"
 msgstr "Layers"
@@ -47,7 +47,7 @@ msgstr "Ricerca"
 msgid "Share"
 msgstr "Condividi"
 
-#: amd/ngw-webmap/Display.js:230 amd/ngw-webmap/Display.js:329
+#: amd/ngw-webmap/Display.js:230
 msgid "Print map"
 msgstr "Stampa mappa"
 
@@ -549,97 +549,101 @@ msgstr "Annulla"
 msgid "Layer"
 msgstr "Layer"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:9
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:94
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:10
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:100
 msgid "Print"
 msgstr "Stampa"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:18
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:12
+msgid "Close"
+msgstr ""
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
 msgid "Paper format"
 msgstr "Formato pagina"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:22
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
 msgid "Select format"
 msgstr "Seleziona il formato"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
 msgid "A4 - Portrait"
 msgstr "A4 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:25
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
 msgid "A4 - Landscape"
 msgstr "A4 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:26
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
 msgid "A3 - Portrait"
 msgstr "A3 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:27
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
 msgid "A3 - Landscape"
 msgstr "A4 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
 msgid "A2 - Portrait"
 msgstr "A2 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:29
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:35
 msgid "A2 - Landscape"
 msgstr "A2 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:36
 msgid "A1 - Portrait"
 msgstr "A1 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:37
 msgid "A1 - Landscape"
 msgstr "A1 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:38
 msgid "A0 - Portrait"
 msgstr "A0 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:39
 msgid "A0 - Landscape"
 msgstr "A0 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:40
 msgid "Custom size"
 msgstr "Dimensioni personalizzate"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:40
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:46
 msgid "Height, mm"
 msgstr "Altezza, mm"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:51
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:57
 msgid "Width, mm"
 msgstr "Larghezza, mm"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:62
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:68
 msgid "Margin, mm"
 msgstr "Margini, mm"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:72
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:78
 msgid "Scale value"
 msgstr "Valore della scala"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:77
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:83
 msgid "Scale bar"
 msgstr "Barra della scala"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:82
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:88
 #: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:5
 msgid "Scale"
 msgstr "Scala"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:100
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:106
 msgid "Save as"
 msgstr "Salva come"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:107
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:113
 msgid "JPEG"
 msgstr "JPEG"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:114
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:120
 msgid "PNG"
 msgstr "PNG"
 

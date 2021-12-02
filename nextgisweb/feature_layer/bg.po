@@ -1,76 +1,76 @@
-#: api.py:104
+#: api.py:106
 msgid "Output format is not provided."
 msgstr "Не е посочен изходящ формат."
 
-#: api.py:109
+#: api.py:111
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr "Форматът '%s' не се поддържа."
 
-#: api.py:285 api.py:357
+#: api.py:303 api.py:378
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "Геометричният формат '%s' не се поддържа."
 
-#: api.py:287
+#: api.py:305
 msgid "Geometry is not valid."
 msgstr "Геометрията не е валидна."
 
-#: api.py:293 api.py:362
+#: api.py:311 api.py:383
 #, python-format
 msgid "Date format '%s' is not supported."
 msgstr "Форматът на дата '%s' не е поддържан."
 
-#: api.py:583
+#: api.py:607
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "Параметрът 'intersects' съдържа невалидна геометрия."
 
-#: exception.py:15
+#: exception.py:13
 msgid "Feature not found"
 msgstr "Обектът не е открит"
 
-#: exception.py:16
+#: exception.py:14
 #, python-format
 msgid "Feature with id = %d was not found in resource with id = %d."
 msgstr "Обектът с id = %d не е открит в ресурса с id = %d."
 
-#: exception.py:17
+#: exception.py:15
 msgid "The feature may have been deleted or an error in the address."
 msgstr "Обектът може да е изтрит или има грешка в адреса."
 
-#: model.py:172
+#: model.py:163
 #, python-format
 msgid "Field not found (ID=%d)."
 msgstr "Полето не е открито (ID=%d)."
 
-#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:45
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:43
 msgid "Feature table"
 msgstr "Таблица на обекти"
 
-#: view.py:63 view.py:86
+#: view.py:61 view.py:84
 #, python-format
 msgid "Feature #%d"
 msgstr "Обект #%d"
 
-#: view.py:138 view.py:201
+#: view.py:136 view.py:199
 msgid "Save as"
 msgstr "Запази като"
 
-#: view.py:188
+#: view.py:186
 msgid "Features"
 msgstr "Обекти"
 
-#: template/section_fields.mako:21 view.py:193
+#: template/section_fields.mako:21 view.py:191
 msgid "Table"
 msgstr "Таблица"
 
-#: view.py:211
+#: view.py:209
 msgid "External access"
 msgstr "Външен достъп"
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:194
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:216
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:214
 msgid "Attributes"
 msgstr "Атрибути"
 
@@ -95,19 +95,19 @@ msgid "Please wait. Processing request..."
 msgstr "Изчакайте. Заявката се обработва..."
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:266
-#: amd/ngw-feature-layer/template/ExportForm.hbs:42
+#: amd/ngw-feature-layer/template/ExportForm.hbs:45
 msgid "Save"
 msgstr "Запази"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:240
+#: amd/ngw-feature-layer/FeatureGrid.js:241
 msgid "Confirmation"
 msgstr "Потвърждение"
 
-#: amd/ngw-feature-layer/FeatureGrid.js:241
+#: amd/ngw-feature-layer/FeatureGrid.js:242
 msgid "Delete feature?"
 msgstr "Изтриване на обекта?"
 
-#: amd/ngw-feature-layer/FieldsDisplayWidget.js:114
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:119
 msgid "N/A"
 msgstr "няма"
 
@@ -160,6 +160,10 @@ msgid "FID field"
 msgstr "FID поле"
 
 #: amd/ngw-feature-layer/template/ExportForm.hbs:34
+msgid "Use field display names instead of keynames"
+msgstr ""
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:37
 msgid "Zip archive"
 msgstr "Zip архив"
 

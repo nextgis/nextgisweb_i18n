@@ -1,20 +1,20 @@
-#: __init__.py:96
+#: __init__.py:97
 msgid "NextGIS geoinformation system"
 msgstr "Système d'information géographique (NextGIS)"
 
-#: __init__.py:218
+#: __init__.py:219
 msgid "Linux kernel"
 msgstr "Noyau Linux"
 
-#: __init__.py:221
+#: __init__.py:222
 msgid "OS distribution"
 msgstr "la distribution OS"
 
-#: __init__.py:233
+#: __init__.py:234
 msgid "CPU"
 msgstr "CPU"
 
-#: __init__.py:237
+#: __init__.py:238
 msgid "RAM"
 msgstr "RAM"
 
@@ -33,6 +33,10 @@ msgstr "Permissions insuffisantes"
 #: exception.py:105
 msgid "Operational error"
 msgstr "Erreur opérationnelle"
+
+#: exception.py:110
+msgid "External service error"
+msgstr ""
 
 #: storage.py:222
 msgid "Estimation is already running"
