@@ -1,12 +1,28 @@
-#: api.py:498
+#: __init__.py:150
+msgid "Enabled"
+msgstr ""
+
+#: __init__.py:150
+msgid "Disabled"
+msgstr ""
+
+#: api.py:228
+msgid "Required parameter 'component' is missing."
+msgstr ""
+
+#: api.py:233
+msgid "Invalid component identity."
+msgstr ""
+
+#: api.py:534
 msgid "Your Web GIS at nextgis.com"
 msgstr "Váš webový GIS na nextgis.com"
 
-#: exception.py:205 exception.py:266
+#: exception.py:202 exception.py:263
 msgid "Internal server error"
 msgstr "Interní chyba serveru"
 
-#: exception.py:206
+#: exception.py:203
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -14,37 +30,37 @@ msgstr ""
 "Na serveru došlo k interní chybě nebo nesprávné konfiguraci a nemohl dokončit"
 " váš požadavek."
 
-#: exception.py:235
+#: exception.py:232
 msgid "Bad request"
 msgstr "Špatný požadavek"
 
-#: exception.py:236
+#: exception.py:233
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
 msgstr "Server nemohl vyhovět požadavku, protože je znetvořený nebo jinak nesprávný."
 
-#: exception.py:243
+#: exception.py:240
 msgid "Payment required"
 msgstr ""
 
-#: exception.py:244
+#: exception.py:241
 msgid "Access was denied for financial reasons."
 msgstr ""
 
-#: exception.py:248
+#: exception.py:245
 msgid "Forbidden"
 msgstr "Zakázáno"
 
-#: exception.py:249
+#: exception.py:246
 msgid "Access was denied to this resource."
 msgstr "Přístup k tomuto prostředku byl odepřen."
 
-#: exception.py:253
+#: exception.py:250
 msgid "Page not found"
 msgstr "Stránka nenalezena"
 
-#: exception.py:254
+#: exception.py:251
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -52,73 +68,73 @@ msgstr ""
 "Možná stránka byla odstraněna nebo je chyba v adrese. Opravte adresu nebo "
 "přejděte na domovskou stránku a zkuste najít požadovanou stránku."
 
-#: exception.py:261
+#: exception.py:258
 msgid "Unprocessable entity"
 msgstr "Nezpracovatelná entita"
 
-#: exception.py:262
+#: exception.py:259
 msgid "Unable to process the contained instructions."
 msgstr "Obsažené instrukce nelze zpracovat."
 
-#: exception.py:267
+#: exception.py:264
 msgid ""
 "The server has either erred or is incapable of performing the requested "
 "operation."
 msgstr "Server se buď dopustil chyby, nebo není schopen provést požadovanou operaci."
 
-#: exception.py:274 exception.py:275
+#: exception.py:271 exception.py:272
 msgid "Not implemented"
 msgstr "Není implementováno"
 
-#: exception.py:279
+#: exception.py:276
 msgid "Service unavailable"
 msgstr "Služba je nedostupná"
 
-#: exception.py:280
+#: exception.py:277
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "Server je momentálně nedostupný. Zkuste to znovu později."
 
-#: template/header.mako:111 view.py:83
+#: nodepkg/layout/store.js:42 view.py:81
 msgid "Control panel"
 msgstr "Kontrolní panel"
 
-#: view.py:105 view.py:481
+#: view.py:103 view.py:477
 msgid "System information"
 msgstr "Systémové informace"
 
-#: view.py:117 view.py:498
+#: view.py:116 view.py:494
 msgid "Storage"
 msgstr "Úložiště"
 
-#: view.py:127 view.py:503
+#: view.py:126 view.py:499
 msgid "Backups"
 msgstr "Zálohy"
 
-#: view.py:142 view.py:487
+#: view.py:142 view.py:483
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Sdílení zdrojů mezi zdroji (CORS)"
 
-#: view.py:149 view.py:489
+#: view.py:150 view.py:485
 msgid "Custom CSS"
 msgstr "Vlastní CSS"
 
-#: view.py:156 view.py:491
+#: view.py:158 view.py:487
 msgid "Custom logo"
 msgstr "Vlastní logo"
 
-#: view.py:163 view.py:485
+#: view.py:166 view.py:481
 msgid "Web GIS name"
 msgstr "Web GIS jméno"
 
-#: view.py:170 view.py:493
+#: view.py:174 view.py:489
 msgid "Home path"
 msgstr "Domácí cesta"
 
-#: view.py:480
+#: view.py:476
 msgid "Info"
 msgstr "Info"
 
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7 view.py:484
+#: nodepkg/layout/Avatar.js:21 view.py:480
 msgid "Settings"
 msgstr "Nastavení"
 
@@ -134,66 +150,6 @@ msgstr "Zkopírováno"
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:32
 msgid "Unable to copy"
 msgstr "Nelze kopírovat"
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:68
-msgid "<a>Contact support</a> for update."
-msgstr "<a> Kontaktujte podporu </a> pro aktualizaci."
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:72
-msgid "Checking for updates..."
-msgstr "Kontrola aktualizací..."
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:74
-msgid "Your {distribution} is up-to-date."
-msgstr ""
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:79
-msgid "New version of {distribution} is available: {version}."
-msgstr "K dispozici je nová verze {distribution}: {version}."
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:84
-msgid ""
-"Critical updates are available: {version}. Please consider updating an soon "
-"as possible."
-msgstr ""
-"K dispozici jsou kritické aktualizace: {verze}. Zvažte prosím aktualizaci co "
-"nejdříve."
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:114
-msgid "Show details"
-msgstr "Ukázat detaily"
-
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:37
-msgid "Technical information"
-msgstr "Technické informace"
-
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:39
-msgid "Contact support"
-msgstr "Kontaktujte podporu"
-
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:41
-msgid "Back to home"
-msgstr "Zpátky domů"
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:35 nodepkg/api/error.js:18
-msgid "Network error"
-msgstr "Chyba sítě"
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:36
-msgid "There is no response from the server or problem connecting to server."
-msgstr "Server neodpovídá nebo se nepodařilo připojit k serveru."
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:37
-msgid "Check network connectivity and try again later."
-msgstr "Zkontrolujte síťové připojení a zkuste to znovu později."
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:45
-msgid "Unexpected server response"
-msgstr "Neočekávaná odpověď serveru"
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:46
-msgid "Something went wrong."
-msgstr "Něco se pokazilo."
 
 #: amd/ngw-pyramid/NGWPagination/NGWPagination.js:28
 msgid "Backward"
@@ -211,7 +167,7 @@ msgstr "Získejte svůj vlastní web GIS na nextgis.com"
 msgid "Browser default"
 msgstr "Výchozí prohlížeč"
 
-#: amd/ngw-pyramid/form/RTETextBox.js:61
+#: amd/ngw-pyramid/form/RTETextBox.js:62
 msgid "Rich Text Editor"
 msgstr "Editor RTF"
 
@@ -224,11 +180,6 @@ msgid "Create"
 msgstr "Vytvořit"
 
 #: amd/ngw-pyramid/modelWidget/FormMixin.js:39
-#: amd/ngw-pyramid/template/CORSForm.hbs:26
-#: amd/ngw-pyramid/template/CustomCSSForm.hbs:25
-#: amd/ngw-pyramid/template/HomePathForm.hbs:11
-#: amd/ngw-pyramid/template/LogoForm.hbs:22
-#: amd/ngw-pyramid/template/SystemNameForm.hbs:10
 msgid "Save"
 msgstr "Uložit"
 
@@ -236,19 +187,55 @@ msgstr "Uložit"
 msgid "Delete"
 msgstr "Vymazat"
 
-#: amd/ngw-pyramid/right-menu/RightMenu.js:90
-msgid "Critical updates are available"
-msgstr "K dispozici jsou kritické aktualizace"
+#: nodepkg/api/error.js:10 nodepkg/api/error.js:25
+msgid "Something went wrong."
+msgstr "Něco se pokazilo."
 
-#: amd/ngw-pyramid/right-menu/RightMenu.js:91
-msgid "Updates are available"
-msgstr "Aktualizace jsou k dispozici"
+#: nodepkg/api/error.js:11
+msgid "Unknown API error"
+msgstr "Neznámá chyba API"
 
-#: amd/ngw-pyramid/right-menu/RightMenu.js:98
-msgid "Click to see what's new"
-msgstr "Kliknutím zobrazíte, co je nového"
+#: nodepkg/api/error.js:17
+msgid "There is no response from the server or problem connecting to server."
+msgstr "Server neodpovídá nebo se nepodařilo připojit k serveru."
 
-#: amd/ngw-pyramid/template/CORSForm.hbs:17
+#: nodepkg/api/error.js:18
+msgid "Network error"
+msgstr "Chyba sítě"
+
+#: nodepkg/api/error.js:19
+msgid "Check network connectivity and try again later."
+msgstr "Zkontrolujte síťové připojení a zkuste to znovu později."
+
+#: nodepkg/api/error.js:26
+msgid "Unexpected server response"
+msgstr "Neočekávaná odpověď serveru"
+
+#: nodepkg/api/error.js:41
+msgid "Unexpected error while processing long-running request."
+msgstr ""
+
+#: nodepkg/api/error.js:42
+msgid "Long-running request error"
+msgstr ""
+
+#: nodepkg/api/error.js:49
+msgid "Long-running request was cancelled."
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:35
+msgid "CORS settings updated"
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:42
+msgid "Fix the form errors first"
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:62
+msgid "The value entered is not valid"
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:90
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
@@ -256,14 +243,18 @@ msgstr ""
 "Zadejte povolený původ pro požadavky mezi doménami, aby bylo možné použít "
 "HTTP API tohoto Web GIS na jiných webech. Jeden počátek na řádek."
 
-#: amd/ngw-pyramid/template/CORSForm.hbs:18
+#: nodepkg/cors-settings/CORSSettings.js:95
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
 "allowed for third-level domains and higher."
 msgstr ""
 
-#: amd/ngw-pyramid/template/CustomCSSForm.hbs:17
+#: nodepkg/custom-css-form/CustomCSSForm.js:33
+msgid "Custom styles saved. Reload the page to get them applied."
+msgstr ""
+
+#: nodepkg/custom-css-form/CustomCSSForm.js:63
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -271,33 +262,116 @@ msgstr ""
 "Zde zadejte vlastní pravidla CSS. Budou použity k předefinování stylů a "
 "designu pro všechny stránky vašeho webového GIS."
 
-#: amd/ngw-pyramid/template/LogoForm.hbs:12
-msgid "We recommend height of 45 px and width of up to 200 px."
-msgstr "Doporučujeme výšku 45 px a šířku až 200 px."
-
-#: amd/ngw-pyramid/template/LogoForm.hbs:25
-msgid "Cancel"
-msgstr "Zrušení"
-
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:8
-msgid "Sign out"
-msgstr "Odhlásit se"
-
-#: amd/ngw-pyramid/user-avatar/UserAvatar.js:36
-msgid "Invitation session"
-msgstr "Pozvánka"
-
-#: nodepkg/api/error.js:11
-msgid "Unknown API error"
-msgstr "Neznámá chyba API"
-
-#: nodepkg/api/error.js:25
-msgid "Invalid API response"
-msgstr "Neplatná odpověď API"
-
 #: nodepkg/example/translation.js:5
 msgid "Translated text"
 msgstr "Přeložený text"
+
+#: nodepkg/layout/Avatar.js:9
+msgid "Sign in"
+msgstr "Přihlaste"
+
+#: nodepkg/layout/Avatar.js:18
+msgid "Invitation session"
+msgstr "Pozvánka"
+
+#: nodepkg/layout/Avatar.js:23
+msgid "Sign out"
+msgstr "Odhlásit se"
+
+#: nodepkg/layout/store.js:36
+msgid "Resources"
+msgstr "Zdroje"
+
+#: nodepkg/layout/store.js:49
+msgid "Help"
+msgstr "Pomoc"
+
+#: nodepkg/logo-form/LogoForm.js:5
+msgid "We recommend height of 45 px and width of up to 200 px."
+msgstr "Doporučujeme výšku 45 px a šířku až 200 px."
+
+#: nodepkg/storage-summary/StorageSummary.js:82
+msgid "Kind of data"
+msgstr "Druh dat"
+
+#: nodepkg/storage-summary/StorageSummary.js:88
+msgid "Volume"
+msgstr "Objem"
+
+#: nodepkg/storage-summary/StorageSummary.js:104
+msgid "Total"
+msgstr "Celek"
+
+#: nodepkg/storage-summary/StorageSummary.js:109
+msgid "of"
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:124
+#, python-format
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr "Využití úložiště bylo plně odhadnuto na %s a aktualizováno na %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:128
+#, python-format
+msgid "Storage usage was fully estimated at %s."
+msgstr "Využití úložiště bylo plně odhadnuto na %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:131
+#, python-format
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr "Využití úložiště zatím nebylo odhadnuto, ale bylo aktualizováno na %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:134
+msgid "Storage usage hasn't been estimated yet."
+msgstr "Využití úložiště zatím nebylo odhadnuto."
+
+#: nodepkg/storage-summary/StorageSummary.js:139
+msgid "Some changes may be reflected only after full estimation."
+msgstr "Některé změny se mohou projevit až po úplném odhadu."
+
+#: nodepkg/storage-summary/StorageSummary.js:162
+msgid "Estimate storage"
+msgstr ""
+
+#: nodepkg/update/index.js:55
+msgid "Critical updates are available"
+msgstr "K dispozici jsou kritické aktualizace"
+
+#: nodepkg/update/index.js:56
+msgid "Updates are available"
+msgstr "Aktualizace jsou k dispozici"
+
+#: nodepkg/update/index.js:58
+msgid "Click to see what's new"
+msgstr "Kliknutím zobrazíte, co je nového"
+
+#: nodepkg/update/sysinfo.js:32
+msgid "Checking for updates..."
+msgstr "Kontrola aktualizací..."
+
+#: nodepkg/update/sysinfo.js:35
+msgid ""
+"Critical updates are available: {version}. Please consider updating an soon "
+"as possible."
+msgstr ""
+"K dispozici jsou kritické aktualizace: {verze}. Zvažte prosím aktualizaci co "
+"nejdříve."
+
+#: nodepkg/update/sysinfo.js:36
+msgid "New version of {distribution} is available: {version}."
+msgstr "K dispozici je nová verze {distribution}: {version}."
+
+#: nodepkg/update/sysinfo.js:37
+msgid "Your {distribution} is up-to-date."
+msgstr ""
+
+#: nodepkg/update/sysinfo.js:44
+msgid "<a>Contact support</a> for update."
+msgstr "<a> Kontaktujte podporu </a> pro aktualizaci."
+
+#: nodepkg/update/sysinfo.js:74
+msgid "Show details"
+msgstr "Ukázat detaily"
 
 #: template/backup.mako:12
 msgid "Filename"
@@ -311,72 +385,78 @@ msgstr "Časové razítko (UTC)"
 msgid "Size"
 msgstr "Velikost"
 
-#: template/header.mako:38
-msgid "Sign in"
-msgstr "Přihlaste"
-
-#: template/header.mako:106
-msgid "Resources"
-msgstr "Zdroje"
-
-#: template/header.mako:119
-msgid "Help"
-msgstr "Pomoc"
-
-#: template/storage.mako:36
-msgid "Kind of data"
-msgstr "Druh dat"
-
-#: template/storage.mako:37
-msgid "Volume"
-msgstr "Objem"
-
-#: template/storage.mako:52
-msgid "Total"
-msgstr "Celek"
-
-#: template/storage.mako:74
-#, python-format
-msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr "Využití úložiště bylo plně odhadnuto na %s a aktualizováno na %s."
-
-#: template/storage.mako:77
-#, python-format
-msgid "Storage usage was fully estimated at %s."
-msgstr "Využití úložiště bylo plně odhadnuto na %s."
-
-#: template/storage.mako:79
-#, python-format
-msgid "Storage usage hasn't been estimated yet but was updated at %s."
-msgstr "Využití úložiště zatím nebylo odhadnuto, ale bylo aktualizováno na %s."
-
-#: template/storage.mako:81
-msgid "Storage usage hasn't been estimated yet."
-msgstr "Využití úložiště zatím nebylo odhadnuto."
-
-#: template/storage.mako:84
-msgid "Some changes may be reflected only after full estimation."
-msgstr "Některé změny se mohou projevit až po úplném odhadu."
-
-#: template/storage.mako:103
-msgid "Estimation is in progress..."
-msgstr ""
-
-#: template/storage.mako:109
-msgid "Estimate storage"
-msgstr ""
-
-#: template/sysinfo.mako:30
+#: template/sysinfo.mako:36
 msgid "Package"
 msgstr "Balík"
 
-#: template/sysinfo.mako:31
+#: template/sysinfo.mako:37
 msgid "Version"
 msgstr "Verze"
 
-#: template/sysinfo.mako:60
+#: template/sysinfo.mako:72
 msgid "Platform"
 msgstr "Platforma"
+
+#: template/uacompat.mako:4
+msgid "Browser compatibility test"
+msgstr ""
+
+#: template/uacompat.mako:23
+#, python-format
+msgid "%(name)s %(current)s supported"
+msgstr ""
+
+#: template/uacompat.mako:24
+msgid ""
+"Web GIS browser compatibility test has been passed! The Web GIS should work "
+"fine."
+msgstr ""
+
+#: template/uacompat.mako:27
+#, python-format
+msgid "%(name)s not supported"
+msgstr ""
+
+#: template/uacompat.mako:28
+#, python-format
+msgid ""
+"You're using %(name)s although it's not supported by the Web GIS. It's an "
+"outdated browser lacking required features. Try a different browser or "
+"contact your system administrator if another browser isn't available."
+msgstr ""
+
+#: template/uacompat.mako:30
+#, python-format
+msgid "%(name)s %(current)s not supported"
+msgstr ""
+
+#: template/uacompat.mako:31
+#, python-format
+msgid ""
+"You're using %(name)s %(current)s although it's not supported by the Web GIS."
+" It's an outdated version lacking required features. Contact your system "
+"administrator for upgrading to %(name)s %(required)s+ or try a different "
+"browser."
+msgstr ""
+
+#: template/uacompat.mako:35
+msgid ""
+"If you still want to continue using the current browser, click the link below"
+" to bypass the compatibility test. The Web GIS or some features may degrade "
+"or fail  in this case."
+msgstr ""
+
+#: template/uacompat.mako:36
+msgid "I understood but want to proceed at my own risk. Skip the test!"
+msgstr ""
+
+#: template/uacompat.mako:38
+msgid "Unknown browser"
+msgstr ""
+
+#: template/uacompat.mako:39
+msgid "If you are using an up-to-date browser the Web GIS should be fine."
+msgstr ""
 
 #~ msgid "User settings"
 #~ msgstr "Uživatelské nastavení"
@@ -391,4 +471,19 @@ msgstr "Platforma"
 #~ "HTTPS) a subdomény (example.com a "
 #~ "www.example.com) mají různý původ. Zástupné "
 #~ "znaky nejsou povoleny."
+
+#~ msgid "Technical information"
+#~ msgstr "Technické informace"
+
+#~ msgid "Contact support"
+#~ msgstr "Kontaktujte podporu"
+
+#~ msgid "Back to home"
+#~ msgstr "Zpátky domů"
+
+#~ msgid "Cancel"
+#~ msgstr "Zrušení"
+
+#~ msgid "Invalid API response"
+#~ msgstr "Neplatná odpověď API"
 

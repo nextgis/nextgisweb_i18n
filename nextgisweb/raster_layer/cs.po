@@ -24,15 +24,15 @@ msgstr ""
 msgid "Rasters and pyramids"
 msgstr "Rastry a pyramidy"
 
-#: amd/ngw-raster-layer/Widget.js:30 model.py:59 view.py:32
+#: amd/ngw-raster-layer/Widget.js:30 model.py:61 view.py:32
 msgid "Raster layer"
 msgstr "Rastrová vrstva"
 
-#: model.py:80
+#: model.py:82
 msgid "GDAL library was unable to open the file."
 msgstr "Knihovně GDAL se nepodařilo soubor otevřít."
 
-#: model.py:88
+#: model.py:90
 #, python-format
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
@@ -41,23 +41,49 @@ msgstr ""
 "Rastr má formát '%(format)s', podporovány jsou však pouze následující "
 "formáty: %(all_formats)s."
 
-#: model.py:93
+#: model.py:95
 msgid "Raster files without projection info are not supported."
 msgstr "Rastrové soubory bez informací o projekci nejsou podporovány."
 
-#: model.py:104
-msgid "Complex data types are not supported."
-msgstr "Složité datové typy nejsou podporovány."
+#: model.py:113
+msgid "Mixed band data types are not supported."
+msgstr ""
 
-#: model.py:199
+#: model.py:124
+msgid "GDAL was uanble to parse the raster coordinate system."
+msgstr ""
+
+#: model.py:128
+msgid ""
+"The source raster has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr ""
+
+#: model.py:145
+msgid "Failed to reproject the raster to the target coordinate system."
+msgstr ""
+
+#: model.py:148
+#, python-format
+msgid "GDAL error message: %s"
+msgstr ""
+
+#: model.py:159
+#, python-format
+msgid ""
+"The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
+"%(delta)s. Reduce raster size to fit the limit."
+msgstr ""
+
+#: model.py:241
 msgid "Data type"
 msgstr "Datový typ"
 
-#: model.py:200
+#: model.py:242
 msgid "COG"
 msgstr ""
 
-#: model.py:285
+#: model.py:327
 msgid "COG attribute can be set only at creation time."
 msgstr ""
 
@@ -65,7 +91,7 @@ msgstr ""
 msgid "Save as"
 msgstr "Uložit jako"
 
-#: view.py:45
+#: view.py:46
 msgid "External access"
 msgstr ""
 
@@ -105,7 +131,7 @@ msgstr "Souřadnicový systém"
 msgid "Upload as Cloud Optimized GeoTIFF (COG)"
 msgstr ""
 
-#: template/section_api_cog.mako:7
+#: template/section_api_cog.mako:10
 msgid "Cloud Optimized GeoTIFF"
 msgstr ""
 
@@ -117,4 +143,7 @@ msgid ""
 "clients issuing ​HTTP GET range requests to ask for just the parts of a file "
 "they need."
 msgstr ""
+
+#~ msgid "Complex data types are not supported."
+#~ msgstr "Složité datové typy nejsou podporovány."
 

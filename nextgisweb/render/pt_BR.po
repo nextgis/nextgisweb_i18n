@@ -1,9 +1,37 @@
-#: view.py:24
-msgid "External access"
+#: __init__.py:47 amd/ngw-render/TileCacheWidget.js:25
+msgid "Tile cache"
 msgstr ""
 
-#: amd/ngw-render/TileCacheWidget.js:25
-msgid "Tile cache"
+#: api.py:18
+msgid "Invalid origin"
+msgstr ""
+
+#: api.py:19
+msgid ""
+"Origin validation is enabled for rendering requests, but the given origin "
+"doesn't match with the CORS origins list."
+msgstr ""
+
+#: util.py:81
+msgid "Required parameter '{}' is missing."
+msgstr ""
+
+#: util.py:86
+msgid "Placeholders {x}, {y} and {z} must be filled with values."
+msgstr ""
+
+#: util.py:88
+msgid ""
+"It seems you are trying to open an URL template directly in a browser. To "
+"test it try adding some values for 'x', 'y' and 'z' parameters."
+msgstr ""
+
+#: util.py:93
+msgid "The value of '{}' parameter must be a non-negative integer."
+msgstr ""
+
+#: view.py:21
+msgid "External access"
 msgstr ""
 
 #: amd/ngw-render/template/TileCacheWidget.hbs:11
@@ -34,7 +62,7 @@ msgstr ""
 msgid "Flush"
 msgstr ""
 
-#: template/section_api_renderable.mako:8
+#: template/section_api_renderable.mako:11
 msgid "TMS (Tile Map Service)"
 msgstr ""
 
@@ -45,11 +73,11 @@ msgid ""
 "requested image."
 msgstr ""
 
-#: template/section_api_renderable.mako:17
+#: template/section_api_renderable.mako:15
 msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
 msgstr ""
 
-#: template/section_api_renderable.mako:18
+#: template/section_api_renderable.mako:16
 msgid "Read more"
 msgstr ""
 

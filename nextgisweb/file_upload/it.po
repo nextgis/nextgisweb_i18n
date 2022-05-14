@@ -1,32 +1,28 @@
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:115
-msgid "Delete"
-msgstr "Eliminazione"
-
-#: api.py:25
+#: api.py:24
 msgid "Uploaded file too large"
 msgstr "File caricato troppo grande"
 
-#: api.py:30
+#: api.py:29
 msgid "Upload is not completed"
 msgstr "Il caricamento non è stato completato"
 
-#: amd/ngw-file-upload/Uploader.js:56
+#: amd/ngw-file-upload/Uploader.js:55
 msgid "Select"
 msgstr "Seleziona"
 
-#: amd/ngw-file-upload/Uploader.js:86
+#: amd/ngw-file-upload/Uploader.js:85
 msgid "max"
 msgstr "max"
 
-#: amd/ngw-file-upload/Uploader.js:114
+#: amd/ngw-file-upload/Uploader.js:113
 msgid "Uploading..."
 msgstr "Upload in corso..."
 
-#: amd/ngw-file-upload/Uploader.js:122
+#: amd/ngw-file-upload/Uploader.js:121 nodepkg/image-uploader/ImageUploader.js:63
 msgid " uploaded..."
 msgstr " caricato..."
 
-#: amd/ngw-file-upload/Uploader.js:148
+#: amd/ngw-file-upload/Uploader.js:149
 msgid "Could not load file!"
 msgstr "Impossibile caricare il file!"
 
@@ -46,10 +42,20 @@ msgstr "Riprova"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:13
 #: amd/ngw-file-upload/template/Uploader.hbs:13
+#: nodepkg/image-uploader/ImageUploader.js:14
 msgid "or drag and drop here"
 msgstr "oppure trascina e rilascia qui"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:21
+#: nodepkg/image-uploader/ImageUploader.js:170
+msgid "Delete"
+msgstr "Eliminazione"
 
 #: amd/ngw-file-upload/template/Uploader.hbs:9
 msgid "Select a file"
 msgstr "Seleziona un file"
+
+#: nodepkg/image-uploader/ImageUploader.js:125
+msgid "Stop"
+msgstr ""
 

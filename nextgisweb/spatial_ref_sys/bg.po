@@ -1,23 +1,35 @@
-#: api.py:41
+#: api.py:20
+msgid "Coordinate system name is not unique."
+msgstr "Името на координатната система не е уникално."
+
+#: api.py:63
+msgid "Cannot change wkt definition of standard coordinate system."
+msgstr "Wkt определението на стандартната координатна система не може да е променено."
+
+#: api.py:79
+msgid "Unable to delete standard coordinate system."
+msgstr "Стандартната координатна система не може да се премахне."
+
+#: api.py:91
 msgid "Invalid SRS definition!"
 msgstr "SRS определение е невалидно!"
 
-#: api.py:140
+#: api.py:201
 #, python-format
 msgid "Coordinate system (id=%d) already exists."
 msgstr "Координатната система (id=%d) вече съществува."
 
-#: util.py:43
+#: util.py:39
 #, python-format
 msgid "Invalid MapInfo spatial reference system: %s"
 msgstr "Невалидна координатна система MapInfo: %s"
 
-#: util.py:72
+#: util.py:60
 #, python-format
 msgid "Unknown spatial reference system format: %s!"
 msgstr "Грешен формат на координатна система: %s!"
 
-#: util.py:82
+#: util.py:70
 msgid "Invalid OGC WKT definition!"
 msgstr "OGC WKT определение е невалидно!"
 
@@ -25,114 +37,109 @@ msgstr "OGC WKT определение е невалидно!"
 msgid "Spatial reference system catalog"
 msgstr "Каталог на координатни системи"
 
-#: amd/ngw-spatial-ref-sys/SRSWidget.js:43 views.py:33
+#: views.py:34
 msgid "Spatial reference system"
 msgstr "Координатна система"
 
-#: views.py:51 views.py:127
-msgid "Unable to delete standard coordinate system."
-msgstr "Стандартната координатна система не може да се премахне."
-
-#: views.py:76
-msgid "Coordinate system name is not unique."
-msgstr "Името на координатната система не е уникално."
-
-#: views.py:83
-msgid "Cannot change wkt definition of standard coordinate system."
-msgstr "Wkt определението на стандартната координатна система не може да е променено."
-
-#: views.py:109
-msgid "Create new Spatial reference system"
-msgstr "Създай нова Координатна система"
-
-#: views.py:156 views.py:202
+#: views.py:44 views.py:119
 msgid "Spatial reference systems"
 msgstr "Координатни системи"
 
-#: views.py:167
+#: views.py:57
+msgid "Create new Spatial reference system"
+msgstr "Създай нова Координатна система"
+
+#: views.py:84
 msgid "List"
 msgstr "Списък"
 
-#: views.py:172
+#: views.py:89
 msgid "Create"
 msgstr "Създай"
 
-#: views.py:178
+#: views.py:95
 msgid "Catalog"
 msgstr "Каталог"
 
-#: template/srs_browse.mako:35 views.py:184
+#: views.py:101
 msgid "Edit"
 msgstr "Редактирай"
 
-#: template/srs_browse.mako:37 views.py:192
+#: views.py:109
 msgid "Delete"
 msgstr "Изтрий"
 
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:38
-#: amd/ngw-spatial-ref-sys/template/SRSWidget.hbs:24
-msgid "Import definition"
-msgstr "Импортиране на определение"
+#: nodepkg/srsMessages.js:5
+msgid "Delete SRS?"
+msgstr ""
 
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:53
-msgid "Format"
-msgstr "Формат"
+#: nodepkg/srsMessages.js:6
+msgid "SRS deleted"
+msgstr ""
 
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:68
-msgid "Definition"
-msgstr "Определение"
-
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:86
-msgid "Cancel"
-msgstr "Откажи"
-
-#: amd/ngw-spatial-ref-sys/catalog_browse.js:54
-msgid "Longitude and latitude must be specified at the same time."
-msgstr "Дължината и ширината трябва да бъдат посочени едновременно."
-
-#: amd/ngw-spatial-ref-sys/catalog_browse.js:83
-msgid "View"
-msgstr "Преглед"
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:13
-#: amd/ngw-spatial-ref-sys/template/SRSWidget.hbs:9
-msgid "Display name"
-msgstr "Показвано име"
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:19
-#: amd/ngw-spatial-ref-sys/template/SRSWidget.hbs:16
-msgid "OGC WKT definition"
-msgstr "OGC WKT определение"
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:24
-msgid "View details"
-msgstr "Покажи детайлите"
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:33
-msgid "Import"
-msgstr "Импортирай"
-
-#: template/catalog_browse.mako:27
-msgid "Search"
-msgstr "Търсене"
-
-#: template/catalog_browse.mako:29
-msgid "Latitude"
-msgstr "Ширина"
-
-#: template/catalog_browse.mako:31
-msgid "Longitude"
-msgstr "Дължина"
-
-#: template/catalog_browse.mako:42 template/srs_browse.mako:25
+#: nodepkg/catalog-browse/CatalogBrowse.js:90 nodepkg/srs-browse/SrsBrowse.js:9
 msgid "SRS name"
 msgstr "SRS име"
 
-#: template/catalog_browse.mako:43
+#: nodepkg/catalog-browse/CatalogBrowse.js:96
 msgid "Auth name"
 msgstr "Име на институцията"
 
-#: template/catalog_browse.mako:44
+#: nodepkg/catalog-browse/CatalogBrowse.js:102
 msgid "Auth SRID"
 msgstr "Пространствен референтен идентификатор"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:114
+msgid "View"
+msgstr "Преглед"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:131
+msgid "Search"
+msgstr "Търсене"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:146
+msgid "Latitude"
+msgstr "Ширина"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:159
+msgid "Longitude"
+msgstr "Дължина"
+
+#: nodepkg/catalog-import/CatalogImport.js:17 nodepkg/srs-widget/SRSWidget.js:21
+msgid "Display name"
+msgstr "Показвано име"
+
+#: nodepkg/catalog-import/CatalogImport.js:22 nodepkg/srs-widget/SRSWidget.js:26
+msgid "OGC WKT definition"
+msgstr "OGC WKT определение"
+
+#: nodepkg/catalog-import/CatalogImport.js:59
+msgid "The spatial reference system is imported"
+msgstr ""
+
+#: nodepkg/catalog-import/CatalogImport.js:77
+msgid "View details"
+msgstr "Покажи детайлите"
+
+#: nodepkg/catalog-import/CatalogImport.js:86
+msgid "Import"
+msgstr "Импортирай"
+
+#: nodepkg/srs-widget/SRSImportForm.js:19
+msgid "Format"
+msgstr "Формат"
+
+#: nodepkg/srs-widget/SRSImportForm.js:30
+msgid "Definition"
+msgstr "Определение"
+
+#: nodepkg/srs-widget/SRSWidget.js:68 nodepkg/srs-widget/SRSWidget.js:84
+msgid "Import definition"
+msgstr "Импортиране на определение"
+
+#~ msgid "Cancel"
+#~ msgstr "Откажи"
+
+#~ msgid "Longitude and latitude must be specified at the same time."
+#~ msgstr "Дължината и ширината трябва да бъдат посочени едновременно."
 

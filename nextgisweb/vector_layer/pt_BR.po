@@ -1,4 +1,4 @@
-#: api.py:12 model.py:1060
+#: api.py:12 model.py:1215
 msgid "GDAL library failed to open file."
 msgstr ""
 
@@ -57,157 +57,174 @@ msgstr ""
 msgid "Multipolygon Z"
 msgstr ""
 
-#: model.py:279
+#: model.py:417
 msgid "Could not determine a geometry type."
 msgstr ""
 
-#: model.py:281
+#: model.py:419
 msgid "Source layer contains no features satisfying the conditions."
 msgstr ""
 
-#: model.py:296
+#: model.py:434
+#, python-format
+msgid "Field '%s' is out of int32 range."
+msgstr ""
+
+#: model.py:441
+#, python-format
+msgid "Field '%s' contains non-unique or empty values."
+msgstr ""
+
+#: model.py:452
 msgid "Parameter 'fid_field' is missing."
 msgstr ""
 
-#: model.py:299
+#: model.py:455
 #, python-format
 msgid "Fields %s not found."
 msgstr ""
 
-#: model.py:301
+#: model.py:457
 #, python-format
 msgid "None of fields %s are integer."
 msgstr ""
 
-#: model.py:334
+#: model.py:473
 #, python-format
 msgid "Field '%s(?)' encoding is broken."
 msgstr ""
 
-#: model.py:336
+#: model.py:477
 #, python-format
 msgid "Field name is forbidden: '%s'. Please remove or rename it."
 msgstr ""
 
-#: model.py:351
+#: model.py:513
 #, python-format
 msgid "Unsupported field type: %r."
 msgstr ""
 
-#: model.py:509
+#: model.py:673
 #, python-format
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
 msgstr ""
 
-#: model.py:512
+#: model.py:676
 #, python-format
 msgid "Feature (seq. #%d) FID field '%s' is null."
 msgstr ""
 
-#: model.py:520
+#: model.py:688
 #, python-format
 msgid "Feature #%d doesn't have geometry."
 msgstr ""
 
-#: model.py:546 model.py:588
+#: model.py:716 model.py:758
 #, python-format
 msgid "Feature #%d has multiple geometries satisfying the conditions."
 msgstr ""
 
-#: model.py:556
+#: model.py:726
 #, python-format
 msgid "Feature #%d has unknown geometry type: %d (%s)."
 msgstr ""
 
-#: model.py:569
+#: model.py:739
 #, python-format
 msgid "Feature #%d has unsuitable geometry type: %d (%s)."
 msgstr ""
 
-#: model.py:615
+#: model.py:766
+#, python-format
+msgid ""
+"Feature #%d has a geometry that can't be reprojected to target coordinate "
+"system"
+msgstr ""
+
+#: model.py:791
 #, python-format
 msgid "Feature #%d has unclosed rings."
 msgstr ""
 
-#: model.py:629
+#: model.py:805
 #, python-format
 msgid "Feature #%d has less than 3 points in a polygon ring."
 msgstr ""
 
-#: model.py:633
+#: model.py:809
 #, python-format
 msgid "Feature #%d has less than 2 points in a linestring."
 msgstr ""
 
-#: model.py:696
+#: model.py:850
 #, python-format
 msgid "Feature #%d contains a broken encoding of field '%s'."
 msgstr ""
 
-#: model.py:719
+#: model.py:874
 msgid "Vector layer cannot be written due to errors."
 msgstr ""
 
-#: amd/ngw-vector-layer/Widget.js:40 model.py:747
+#: amd/ngw-vector-layer/Widget.js:40 model.py:902
 msgid "Vector layer"
 msgstr ""
 
 #: amd/ngw-vector-layer/template/Widget.hbs:26
-#: amd/ngw-vector-layer/template/Widget.hbs:86 model.py:811
+#: amd/ngw-vector-layer/template/Widget.hbs:86 model.py:966
 msgid "Geometry type"
 msgstr ""
 
-#: model.py:813
+#: model.py:968
 msgid "Feature count"
 msgstr ""
 
-#: model.py:907
+#: model.py:1062
 #, python-format
 msgid "Geometry type (%s) does not match geometry column type (%s)."
 msgstr ""
 
-#: model.py:1063
+#: model.py:1218
 #, python-format
 msgid "Unsupport OGR driver: %s."
 msgstr ""
 
-#: amd/ngw-vector-layer/Widget.js:92 model.py:1072
+#: amd/ngw-vector-layer/Widget.js:92 model.py:1227
 msgid "Dataset doesn't contain layers."
 msgstr ""
 
-#: model.py:1075
+#: model.py:1230
 msgid "Dataset contains more than one layer."
 msgstr ""
 
-#: model.py:1080
+#: model.py:1235
 msgid "Unable to open layer."
 msgstr ""
 
-#: model.py:1091
+#: model.py:1246
 msgid "Layer doesn't contain coordinate system information."
 msgstr ""
 
-#: model.py:1115
+#: model.py:1270
 msgid "Unknown 'fix_errors' value."
 msgstr ""
 
-#: model.py:1122
+#: model.py:1277
 msgid "Unknown 'cast_geometry_type' value."
 msgstr ""
 
-#: model.py:1126
+#: model.py:1281
 msgid "Unknown 'cast_is_multi' value."
 msgstr ""
 
-#: model.py:1130
+#: model.py:1285
 msgid "Unknown 'cast_has_z' value."
 msgstr ""
 
-#: model.py:1164
+#: model.py:1319
 msgid "Unsupported geometry type."
 msgstr ""
 
-#: model.py:1170
+#: model.py:1325
 msgid "Geometry type for existing resource can't be changed."
 msgstr ""
 
@@ -236,7 +253,9 @@ msgid "Select a dataset"
 msgstr ""
 
 #: amd/ngw-vector-layer/template/Widget.hbs:49
-msgid "Dataset should be in ESRI Shapefile (zip), GeoJSON, GML or KML format."
+msgid ""
+"Dataset should be in ESRI Shapefile (zip), GeoPackage, GeoJSON, GML or KML "
+"format."
 msgstr ""
 
 #: amd/ngw-vector-layer/template/Widget.hbs:57

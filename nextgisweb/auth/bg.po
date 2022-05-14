@@ -22,22 +22,51 @@ msgstr "Администратор"
 msgid "Owner"
 msgstr "Собственик"
 
-#: __init__.py:266
+#: __init__.py:270
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr "Достигнат е максимален брой потребители. По текущия план пределът е %d."
 
-#: api.py:213
-msgid "System principals couldn't be chanded."
-msgstr "Субектите на системата не могат да бъдат променени."
+#: api.py:282
+#, python-format
+msgid "The '%s' attribute of the system principal can't be changed."
+msgstr ""
 
-#: api.py:227
+#: api.py:291
+#, python-format
+msgid "Principal '%s' already exists."
+msgstr ""
+
+#: api.py:293
+#, python-format
+msgid "Principal with full name '%s' already exists."
+msgstr ""
+
+#: api.py:329
+#, python-format
+msgid "User '%s' can't be a member of a group."
+msgstr ""
+
+#: api.py:335
+msgid "System principals can't be deleted."
+msgstr ""
+
+#: api.py:351
 msgid "User is referenced with resources"
 msgstr "Потребителят е свързан с ресурси"
 
-#: api.py:228
+#: api.py:352
 msgid "Group is referenced with resources"
 msgstr "Групата е свързана с ресурси"
+
+#: api.py:364
+#, python-format
+msgid "Invalid principal name: '%s'."
+msgstr ""
+
+#: api.py:399
+msgid "The 'administrators' group must have at least one enabled member."
+msgstr ""
 
 #: exception.py:7
 msgid "Invalid authorization header"
@@ -51,155 +80,71 @@ msgstr "Погрешни данни"
 msgid "User is disabled"
 msgstr "Потребителят е блокиран"
 
-#: oauth.py:122
+#: oauth.py:124
 msgid "User is already bound"
 msgstr "Потребителят вече е свързан"
 
-#: oauth.py:324
+#: oauth.py:349
 msgid "OAuth authorization error"
 msgstr "Грешка при авторизация OAuth"
 
-#: oauth.py:329
+#: oauth.py:354
 msgid "Invalid OAuth token"
 msgstr "OAuth токен не е валиден"
 
-#: oauth.py:334
+#: oauth.py:359
+msgid "Invalid OAuth scope"
+msgstr ""
+
+#: oauth.py:364
 msgid "OAuth token refresh failed"
 msgstr "Неуспешно обновяване на OAuth токен"
 
-#: oauth.py:339
+#: oauth.py:369
 msgid "OAuth access token is expired"
 msgstr "OAuth токен за достъп е с изтекъл срок"
 
-#: views.py:63
+#: views.py:93
 msgid "Session not found."
 msgstr "Сесии не са открити."
 
-#: views.py:68
+#: views.py:98
 msgid "Invalid 'expires' parameter."
 msgstr "Параметърът 'expires' е невалиден."
 
-#: views.py:70
+#: views.py:101
 msgid "Session expired."
 msgstr "Сесията е изтекла."
 
-#: views.py:227
+#: views.py:233
 msgid "User settings"
 msgstr "Потребителски настройки"
 
-#: views.py:300
-msgid "Group name is not unique."
-msgstr "Името на групата не е уникално."
-
-#: views.py:338
-msgid "Create new group"
-msgstr "Нова група"
-
-#: views.py:389
-msgid "Login is not unique."
-msgstr "Потребителското име не е уникално."
-
-#: views.py:404
-msgid ""
-"You can't disable current administrator. At least one enabled administrator "
-"is required."
-msgstr ""
-"Не е възможно да блокирате настоящ администратор. Трябва да има поне един "
-"активен администратор."
-
-#: views.py:448
-msgid "Create new user"
-msgstr "Нов потребител"
-
-#: views.py:481 views.py:546
+#: views.py:240 views.py:353
 msgid "Users"
 msgstr "Потребители"
 
-#: views.py:491 views.py:549
+#: views.py:253
+msgid "Create new user"
+msgstr "Нов потребител"
+
+#: views.py:268 views.py:357
 msgid "Groups"
 msgstr "Групи"
 
-#: views.py:502 views.py:524
-msgid "List"
-msgstr "Списък"
+#: views.py:281
+msgid "Create new group"
+msgstr "Нова група"
 
-#: views.py:507 views.py:529
-msgid "Create"
-msgstr "Създай"
+#: views.py:361
+msgid "Groups and users"
+msgstr ""
 
-#: template/group_browse.mako:30 template/user_browse.mako:30 views.py:513
-#: views.py:535
-msgid "Edit"
-msgstr "Редактирай"
-
-#: amd/ngw-auth/GroupWidget.js:36
-msgid "Group"
-msgstr "Група"
-
-#: amd/ngw-auth/SettingsForm.js:54
-msgid "Saved"
-msgstr "Запазено"
-
-#: amd/ngw-auth/UserWidget.js:36
-msgid "User"
-msgstr "Потребител"
-
-#: amd/ngw-auth/UserWidget.js:45
-msgid "Enter new password here"
-msgstr "Въведете нова парола тук"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:7 amd/ngw-auth/template/UserWidget.hbs:8
-#: template/group_browse.mako:19 template/user_browse.mako:19
-msgid "Full name"
-msgstr "Пълно име"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:13 template/group_browse.mako:20
-msgid "Group name"
-msgstr "Име на групата"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:19 amd/ngw-auth/template/UserWidget.hbs:52
-msgid "Description"
-msgstr "Описание"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:24
-msgid "Assign at registration"
-msgstr "Да се назначава при регистриране"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:30
-msgid "Group members"
-msgstr "Членове на групата"
-
-#: amd/ngw-auth/template/SettingsForm.hbs:13
-#: amd/ngw-auth/template/UserWidget.hbs:30
-msgid "Language"
-msgstr "Език"
-
-#: amd/ngw-auth/template/UserWidget.hbs:15 template/login.mako:44
-#: template/user_browse.mako:20
-msgid "Login"
-msgstr "Потребителско име"
-
-#: amd/ngw-auth/template/UserWidget.hbs:23 template/login.mako:47
-msgid "Password"
-msgstr "Парола"
-
-#: amd/ngw-auth/template/UserWidget.hbs:37
-msgid "OAuth subject"
-msgstr "Субект на OAuth"
-
-#: amd/ngw-auth/template/UserWidget.hbs:43
-msgid "Disabled"
-msgstr "Изключен"
-
-#: amd/ngw-auth/template/UserWidget.hbs:59
-msgid "Groups member"
-msgstr "Членува в групи"
-
-#: nodepkg/browse.js:9
+#: nodepkg/browse.js:9 nodepkg/userMessages.js:5
 msgid "Delete user?"
 msgstr "Искате ли да премахнете потребителя?"
 
-#: nodepkg/browse.js:9
+#: nodepkg/browse.js:9 nodepkg/groupMessages.js:5
 msgid "Delete group?"
 msgstr "Искате ли да премахнете групата?"
 
@@ -207,27 +152,139 @@ msgstr "Искате ли да премахнете групата?"
 msgid "Confirmation"
 msgstr "Потвръждение"
 
-#: template/group_browse.mako:31 template/user_browse.mako:31
-msgid "Delete"
-msgstr "Премахване"
+#: nodepkg/groupMessages.js:6
+msgid "Group deleted"
+msgstr ""
 
-#: template/login.mako:13
-msgid "Authorization Required"
-msgstr "Изисква се авторизация"
+#: nodepkg/userMessages.js:6
+msgid "User deleted"
+msgstr ""
 
-#: template/login.mako:15
-msgid "Sign in to Web GIS"
-msgstr "Влез в Web GIS"
+#: nodepkg/group-browse/GroupBrowse.js:8 nodepkg/group-widget/GroupWidget.js:15
+#: nodepkg/user-browse/UserBrowse.js:17 nodepkg/user-widget/UserWidget.js:15
+msgid "Full name"
+msgstr "Пълно име"
 
-#: template/login.mako:27 template/login.mako:37 template/settings.mako:13
+#: nodepkg/group-browse/GroupBrowse.js:14 nodepkg/group-widget/GroupWidget.js:20
+msgid "Group name"
+msgstr "Име на групата"
+
+#: nodepkg/group-widget/GroupWidget.js:26
+msgid "Group members"
+msgstr "Членове на групата"
+
+#: nodepkg/group-widget/GroupWidget.js:37
+msgid "Assign at registration"
+msgstr "Да се назначава при регистриране"
+
+#: nodepkg/group-widget/GroupWidget.js:42 nodepkg/user-widget/UserWidget.js:58
+msgid "Description"
+msgstr "Описание"
+
+#: nodepkg/login-form/LoginForm.js:13
 msgid "Sign in with OAuth"
 msgstr "Влез с OAuth"
 
-#: template/login.mako:53 template/session_invite.mako:14
+#: nodepkg/login-form/LoginForm.js:14 template/login.mako:5
+msgid "Sign in to Web GIS"
+msgstr "Влез в Web GIS"
+
+#: nodepkg/login-form/LoginForm.js:15 template/session_invite.mako:17
 msgid "Sign in"
 msgstr "Влез"
 
-#: template/settings.mako:15
-msgid "Your account is bound to NextGIS ID account"
-msgstr "Вашият профил е свързан с NextGIS ID профил"
+#: nodepkg/login-form/LoginForm.js:27 nodepkg/user-browse/UserBrowse.js:23
+#: nodepkg/user-widget/UserWidget.js:20
+msgid "Login"
+msgstr "Потребителско име"
+
+#: nodepkg/login-form/LoginForm.js:32 nodepkg/user-widget/UserWidget.js:26
+msgid "Password"
+msgstr "Парола"
+
+#: nodepkg/settings-form/SettingsForm.js:16 nodepkg/user-widget/UserWidget.js:47
+msgid "Language"
+msgstr "Език"
+
+#: nodepkg/settings-form/SettingsForm.js:41
+msgid "Saved"
+msgstr "Запазено"
+
+#: nodepkg/user-browse/UserBrowse.js:10 nodepkg/user-widget/UserWidget.js:35
+msgid "Disabled"
+msgstr "Изключен"
+
+#: nodepkg/user-browse/UserBrowse.js:11
+msgid "Enabled"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:29
+msgid "Last activity"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:41
+msgid "Status"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:113
+msgid "Disable"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:113
+msgid "Enable"
+msgstr ""
+
+#: nodepkg/user-widget/UserWidget.js:31
+msgid "Enter new password here"
+msgstr "Въведете нова парола тук"
+
+#: nodepkg/user-widget/UserWidget.js:40
+msgid "Groups member"
+msgstr "Членува в групи"
+
+#: nodepkg/user-widget/UserWidget.js:53
+msgid "OAuth subject"
+msgstr "Субект на OAuth"
+
+#~ msgid "System principals couldn't be chanded."
+#~ msgstr "Субектите на системата не могат да бъдат променени."
+
+#~ msgid "Group name is not unique."
+#~ msgstr "Името на групата не е уникално."
+
+#~ msgid "Login is not unique."
+#~ msgstr "Потребителското име не е уникално."
+
+#~ msgid ""
+#~ "You can't disable current administrator. At"
+#~ " least one enabled administrator is "
+#~ "required."
+#~ msgstr ""
+#~ "Не е възможно да блокирате настоящ "
+#~ "администратор. Трябва да има поне един "
+#~ "активен администратор."
+
+#~ msgid "List"
+#~ msgstr "Списък"
+
+#~ msgid "Create"
+#~ msgstr "Създай"
+
+#~ msgid "Edit"
+#~ msgstr "Редактирай"
+
+#~ msgid "Group"
+#~ msgstr "Група"
+
+#~ msgid "User"
+#~ msgstr "Потребител"
+
+#~ msgid "Delete"
+#~ msgstr "Премахване"
+
+#~ msgid "Authorization Required"
+#~ msgstr "Изисква се авторизация"
+
+#~ msgid "Your account is bound to NextGIS ID account"
+#~ msgstr "Вашият профил е свързан с NextGIS ID профил"
 

@@ -1,23 +1,35 @@
-#: api.py:41
+#: api.py:20
+msgid "Coordinate system name is not unique."
+msgstr ""
+
+#: api.py:63
+msgid "Cannot change wkt definition of standard coordinate system."
+msgstr ""
+
+#: api.py:79
+msgid "Unable to delete standard coordinate system."
+msgstr ""
+
+#: api.py:91
 msgid "Invalid SRS definition!"
 msgstr ""
 
-#: api.py:140
+#: api.py:201
 #, python-format
 msgid "Coordinate system (id=%d) already exists."
 msgstr ""
 
-#: util.py:43
+#: util.py:39
 #, python-format
 msgid "Invalid MapInfo spatial reference system: %s"
 msgstr ""
 
-#: util.py:72
+#: util.py:60
 #, python-format
 msgid "Unknown spatial reference system format: %s!"
 msgstr ""
 
-#: util.py:82
+#: util.py:70
 msgid "Invalid OGC WKT definition!"
 msgstr ""
 
@@ -25,114 +37,103 @@ msgstr ""
 msgid "Spatial reference system catalog"
 msgstr ""
 
-#: amd/ngw-spatial-ref-sys/SRSWidget.js:46 views.py:33
+#: views.py:34
 msgid "Spatial reference system"
 msgstr ""
 
-#: views.py:51 views.py:127
-msgid "Unable to delete standard coordinate system."
-msgstr ""
-
-#: views.py:76
-msgid "Coordinate system name is not unique."
-msgstr ""
-
-#: views.py:83
-msgid "Cannot change wkt definition of standard coordinate system."
-msgstr ""
-
-#: views.py:109
-msgid "Create new Spatial reference system"
-msgstr ""
-
-#: views.py:156 views.py:202
+#: views.py:44 views.py:119
 msgid "Spatial reference systems"
 msgstr ""
 
-#: views.py:167
+#: views.py:57
+msgid "Create new Spatial reference system"
+msgstr ""
+
+#: views.py:84
 msgid "List"
 msgstr ""
 
-#: views.py:172
+#: views.py:89
 msgid "Create"
 msgstr ""
 
-#: views.py:178
+#: views.py:95
 msgid "Catalog"
 msgstr ""
 
-#: template/srs_browse.mako:35 views.py:184
+#: views.py:101
 msgid "Edit"
 msgstr ""
 
-#: template/srs_browse.mako:37 views.py:192
+#: views.py:109
 msgid "Delete"
 msgstr ""
 
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:38
-#: amd/ngw-spatial-ref-sys/template/SRSWidget.hbs:24
-msgid "Import definition"
+#: nodepkg/srsMessages.js:5
+msgid "Delete SRS?"
 msgstr ""
 
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:53
-msgid "Format"
+#: nodepkg/srsMessages.js:6
+msgid "SRS deleted"
 msgstr ""
 
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:68
-msgid "Definition"
-msgstr ""
-
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:86
-msgid "Cancel"
-msgstr ""
-
-#: amd/ngw-spatial-ref-sys/catalog_browse.js:54
-msgid "Longitude and latitude must be specified at the same time."
-msgstr ""
-
-#: amd/ngw-spatial-ref-sys/catalog_browse.js:83
-msgid "View"
-msgstr ""
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:13
-#: amd/ngw-spatial-ref-sys/template/SRSWidget.hbs:9
-msgid "Display name"
-msgstr ""
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:19
-#: amd/ngw-spatial-ref-sys/template/SRSWidget.hbs:16
-msgid "OGC WKT definition"
-msgstr ""
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:24
-msgid "View details"
-msgstr ""
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:33
-msgid "Import"
-msgstr ""
-
-#: template/catalog_browse.mako:27
-msgid "Search"
-msgstr ""
-
-#: template/catalog_browse.mako:29
-msgid "Latitude"
-msgstr ""
-
-#: template/catalog_browse.mako:31
-msgid "Longitude"
-msgstr ""
-
-#: template/catalog_browse.mako:42 template/srs_browse.mako:25
+#: nodepkg/catalog-browse/CatalogBrowse.js:90 nodepkg/srs-browse/SrsBrowse.js:9
 msgid "SRS name"
 msgstr ""
 
-#: template/catalog_browse.mako:43
+#: nodepkg/catalog-browse/CatalogBrowse.js:96
 msgid "Auth name"
 msgstr ""
 
-#: template/catalog_browse.mako:44
+#: nodepkg/catalog-browse/CatalogBrowse.js:102
 msgid "Auth SRID"
+msgstr ""
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:114
+msgid "View"
+msgstr ""
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:131
+msgid "Search"
+msgstr ""
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:146
+msgid "Latitude"
+msgstr ""
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:159
+msgid "Longitude"
+msgstr ""
+
+#: nodepkg/catalog-import/CatalogImport.js:17 nodepkg/srs-widget/SRSWidget.js:21
+msgid "Display name"
+msgstr ""
+
+#: nodepkg/catalog-import/CatalogImport.js:22 nodepkg/srs-widget/SRSWidget.js:26
+msgid "OGC WKT definition"
+msgstr ""
+
+#: nodepkg/catalog-import/CatalogImport.js:59
+msgid "The spatial reference system is imported"
+msgstr ""
+
+#: nodepkg/catalog-import/CatalogImport.js:77
+msgid "View details"
+msgstr ""
+
+#: nodepkg/catalog-import/CatalogImport.js:86
+msgid "Import"
+msgstr ""
+
+#: nodepkg/srs-widget/SRSImportForm.js:19
+msgid "Format"
+msgstr ""
+
+#: nodepkg/srs-widget/SRSImportForm.js:30
+msgid "Definition"
+msgstr ""
+
+#: nodepkg/srs-widget/SRSWidget.js:68 nodepkg/srs-widget/SRSWidget.js:84
+msgid "Import definition"
 msgstr ""
 

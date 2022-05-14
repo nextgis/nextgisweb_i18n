@@ -10,78 +10,90 @@ msgstr "Tiles"
 msgid "Image"
 msgstr "Immagine"
 
-#: model.py:29 model.py:38 view.py:182 view.py:203
+#: model.py:30 model.py:40 view.py:231 view.py:254
 msgid "Web map"
 msgstr "Mappa web"
 
-#: model.py:31 view.py:189
+#: model.py:32 view.py:238
 msgid "Display"
 msgstr "Mostra"
 
-#: model.py:32
+#: model.py:33
 msgid "View annotations"
 msgstr "Visualizza le note"
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:173 model.py:33
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:184 model.py:34
 msgid "Edit annotations"
 msgstr "Modifica le note"
 
-#: view.py:34 view.py:204
+#: model.py:35
+msgid "Manage annotations"
+msgstr ""
+
+#: view.py:37
 msgid "Web map settings"
 msgstr "Impostazioni della mappa web"
 
-#: view.py:210
+#: view.py:209
+msgid "Embedded webmap preview"
+msgstr ""
+
+#: view.py:259
 msgid "External access"
 msgstr "Accesso esterno"
 
-#: amd/ngw-webmap/Display.js:212 amd/ngw-webmap/Display.js:1011
+#: amd/ngw-webmap/Display.js:216 amd/ngw-webmap/Display.js:1022
 #: amd/ngw-webmap/ItemWidget.js:243
 msgid "Layers"
 msgstr "Layers"
 
-#: amd/ngw-webmap/Display.js:218
+#: amd/ngw-webmap/Display.js:222 amd/ngw-webmap/Display.js:354
 msgid "Search"
 msgstr "Ricerca"
 
-#: amd/ngw-webmap/Display.js:224 amd/ngw-webmap/Display.js:434
+#: amd/ngw-webmap/Display.js:228 amd/ngw-webmap/Display.js:439
 msgid "Share"
 msgstr "Condividi"
 
-#: amd/ngw-webmap/Display.js:230
+#: amd/ngw-webmap/Display.js:234
 msgid "Print map"
 msgstr "Stampa mappa"
 
-#: amd/ngw-webmap/Display.js:368 amd/ngw-webmap/Display.js:375
+#: amd/ngw-webmap/Display.js:373 amd/ngw-webmap/Display.js:380
 msgid "Bookmarks"
 msgstr "Preferiti"
 
-#: amd/ngw-webmap/Display.js:398 amd/ngw-webmap/plugin/LayerInfo.js:36
+#: amd/ngw-webmap/Display.js:403 amd/ngw-webmap/plugin/LayerInfo.js:36
 msgid "Description"
 msgstr "Descrizione"
 
-#: amd/ngw-webmap/Display.js:535 amd/ngw-webmap/Display.js:545
+#: amd/ngw-webmap/Display.js:540 amd/ngw-webmap/Display.js:550
 msgid "Annotations"
 msgstr "Note"
 
-#: amd/ngw-webmap/Display.js:727 amd/ngw-webmap/tool/Zoom.js:18
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:479
+#: amd/ngw-webmap/Display.js:733 amd/ngw-webmap/tool/Zoom.js:20
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:483
 msgid "Zoom in"
 msgstr "Ingrandisci"
 
-#: amd/ngw-webmap/Display.js:728 amd/ngw-webmap/tool/Zoom.js:21
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:480
+#: amd/ngw-webmap/Display.js:734 amd/ngw-webmap/tool/Zoom.js:23
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:484
 msgid "Zoom out"
 msgstr "Rimpicciolisci"
 
-#: amd/ngw-webmap/Display.js:732 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:484
+#: amd/ngw-webmap/Display.js:738 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:488
 msgid "Attributions"
 msgstr "Attribuzioni"
 
-#: amd/ngw-webmap/Display.js:748
+#: amd/ngw-webmap/Display.js:754
 msgid "Initial extent"
 msgstr "Estensione iniziale"
 
-#: amd/ngw-webmap/Display.js:751 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:493
+#: amd/ngw-webmap/Display.js:759
+msgid "Locate me"
+msgstr ""
+
+#: amd/ngw-webmap/Display.js:762 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:497
 msgid "Reset rotation"
 msgstr "Ripristina la rotazione"
 
@@ -97,9 +109,10 @@ msgstr "Ordine layer"
 msgid "Use on the map"
 msgstr "Usa sulla mappa"
 
-#: amd/ngw-webmap/ItemWidget.js:148 amd/ngw-webmap/template/SettingsForm.hbs:117
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:105
+#: amd/ngw-webmap/ItemWidget.js:148
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:126
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:43
+#: nodepkg/settings/SettingsForm.js:260
 msgid "Save"
 msgstr "Salva"
 
@@ -107,22 +120,28 @@ msgstr "Salva"
 msgid "Add group"
 msgstr "Aggiungi gruppo"
 
-#: amd/ngw-webmap/SettingsForm.js:117
-msgid "Validation error"
+#: amd/ngw-webmap/controls/MyLocation.js:124
+msgid "Your location could not be determined"
 msgstr ""
 
-#: amd/ngw-webmap/SettingsForm.js:118
-msgid ""
-"Errors found during data validation. Controls with errors marked in red. Fix "
-"it, please."
-msgstr ""
-
-#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:23
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:25
 msgid "Your annotation text"
 msgstr "La tua annotazione"
 
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:142
+msgid "Public annotation"
+msgstr ""
+
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:144
+msgid "My private annotation"
+msgstr ""
+
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:147
+msgid "Private annotation"
+msgstr ""
+
 #: amd/ngw-webmap/layers/annotations/AnnotationsPopup.hbs:7
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:209
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:267
 msgid "Edit annotation"
 msgstr "Modifica nota"
 
@@ -134,7 +153,7 @@ msgstr "Vai a"
 msgid "Feature table"
 msgstr "Tabella attributi"
 
-#: amd/ngw-webmap/plugin/LayerEditor.js:102
+#: amd/ngw-webmap/plugin/LayerEditor.js:104
 msgid "Editing"
 msgstr "Modifica"
 
@@ -211,7 +230,7 @@ msgid "Remove"
 msgstr "Rimuovi"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:73
-#: amd/ngw-webmap/template/ItemWidget.hbs:122
+#: amd/ngw-webmap/template/ItemWidget.hbs:127
 msgid "Display name"
 msgstr "Nome visualizzato"
 
@@ -219,181 +238,33 @@ msgstr "Nome visualizzato"
 msgid "Enabled"
 msgstr "Abilitato"
 
-#: amd/ngw-webmap/template/ItemWidget.hbs:84
+#: amd/ngw-webmap/template/ItemWidget.hbs:82
+msgid "Identifiable"
+msgstr ""
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:89
 msgid "Transparency"
 msgstr "Trasparenza"
 
-#: amd/ngw-webmap/template/ItemWidget.hbs:89
+#: amd/ngw-webmap/template/ItemWidget.hbs:94
 msgid "Min scale"
 msgstr "Scala min"
 
-#: amd/ngw-webmap/template/ItemWidget.hbs:94
+#: amd/ngw-webmap/template/ItemWidget.hbs:99
 msgid "Max scale"
 msgstr "Scala max"
 
-#: amd/ngw-webmap/template/ItemWidget.hbs:100
+#: amd/ngw-webmap/template/ItemWidget.hbs:105
 msgid "Adapter"
 msgstr "Adattatore"
 
-#: amd/ngw-webmap/template/ItemWidget.hbs:106
+#: amd/ngw-webmap/template/ItemWidget.hbs:111
 msgid "Style resource"
 msgstr "Risorsa stile"
 
-#: amd/ngw-webmap/template/ItemWidget.hbs:126
+#: amd/ngw-webmap/template/ItemWidget.hbs:131
 msgid "Expanded"
 msgstr "Espanso"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:9
-msgid "Identify popup"
-msgstr "Identifica il popup"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:14
-msgid "Width, px"
-msgstr "Larghezza, px"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:19
-msgid "Height, px"
-msgstr "Altezza, px"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:24
-msgid "Radius, px"
-msgstr "Raggio, px"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:28
-msgid "Show feature attributes"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:33
-msgid "Measurement"
-msgstr "Misura"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:37
-msgid "Length units"
-msgstr "Unità di lunghezza"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:38
-msgid "Meters"
-msgstr "Metri"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:39
-msgid "Kilometers"
-msgstr "Chilometri"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:40
-msgid "Meters/kilometers (auto)"
-msgstr "Metri/chilometri (auto)"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:41
-msgid "Feet"
-msgstr "Piedi"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:42
-msgid "Miles"
-msgstr "Miglia"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:43
-msgid "Feet/miles (auto)"
-msgstr "Piedi/miglia (auto)"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:48
-msgid "Area units"
-msgstr "Unità di area"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:49
-msgid "Sq. meters"
-msgstr "Metri quadri"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:50
-msgid "Sq. kilometers"
-msgstr "Chilometri quadri"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:51
-msgid "Sq. meters/kilometers (auto)"
-msgstr "Metri/chilometri quadri (auto)"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:52
-msgid "Hectares"
-msgstr "Ettari"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:53
-msgid "Acres"
-msgstr "Acri"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:54
-msgid "Sq. miles"
-msgstr "Miglia quadrate"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:55
-msgid "Acres/sq. miles (auto)"
-msgstr "Acri/miglia quadrate (auto)"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:56
-msgid "Sq. feet"
-msgstr "Piedi quadrati"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:61
-msgid "Degree format"
-msgstr "Formato gradi"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:62
-msgid "Decimal degrees"
-msgstr "Gradi decimali"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:63
-msgid "Degrees, decimal minutes"
-msgstr "Gradi, minuti decimali"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:64
-msgid "Degrees, minutes, seconds"
-msgstr "Gradi, minuti, secondi"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:69
-msgid "Measurement SRID"
-msgstr "Misurazione SR"
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:78
-msgid "Address search"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:82
-msgid "Enable"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:86
-msgid "Limit by web map initial extent"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:90
-msgid "Provider"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:91
-msgid "Nominatim (OSM)"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:92
-msgid "Yandex.Maps API Geocoder"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:98
-msgid "For example: ru or gb,de"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:100
-msgid "Invalid countries. For example ru or gb,de"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:101
-msgid "Limit search results to countries"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:106
-msgid "Yandex.Maps Key is required"
-msgstr ""
-
-#: amd/ngw-webmap/template/SettingsForm.hbs:108
-msgid "Yandex.Maps API Geocoder Key"
-msgstr ""
 
 #: amd/ngw-webmap/tool/Identify.js:212
 msgid "Attributes"
@@ -411,39 +282,39 @@ msgstr "Identifica"
 msgid "Features"
 msgstr "Elementi"
 
-#: amd/ngw-webmap/tool/Measure.js:33
+#: amd/ngw-webmap/tool/Measure.js:37
 msgid "Measure distance"
 msgstr "Misura distanza"
 
-#: amd/ngw-webmap/tool/Measure.js:36
+#: amd/ngw-webmap/tool/Measure.js:40
 msgid "Measure area"
 msgstr "Misura area"
 
-#: amd/ngw-webmap/tool/Measure.js:40
+#: amd/ngw-webmap/tool/Measure.js:44
 msgid "m"
 msgstr "m"
 
-#: amd/ngw-webmap/tool/Measure.js:41
+#: amd/ngw-webmap/tool/Measure.js:45
 msgid "km"
 msgstr "km"
 
-#: amd/ngw-webmap/tool/Measure.js:42
+#: amd/ngw-webmap/tool/Measure.js:46
 msgid "ft"
 msgstr "ft"
 
-#: amd/ngw-webmap/tool/Measure.js:43
+#: amd/ngw-webmap/tool/Measure.js:47
 msgid "mi"
 msgstr "mi"
 
-#: amd/ngw-webmap/tool/Measure.js:44
+#: amd/ngw-webmap/tool/Measure.js:48
 msgid "ha"
 msgstr "ha"
 
-#: amd/ngw-webmap/tool/Measure.js:45
+#: amd/ngw-webmap/tool/Measure.js:49
 msgid "ac"
 msgstr "ac"
 
-#: amd/ngw-webmap/tool/Measure.js:266
+#: amd/ngw-webmap/tool/Measure.js:272
 msgid "Double click to finish."
 msgstr "Doppio click per terminare."
 
@@ -451,36 +322,48 @@ msgstr "Doppio click per terminare."
 msgid "Rotate"
 msgstr "Ruota"
 
-#: amd/ngw-webmap/tool/Swipe.js:17
+#: amd/ngw-webmap/tool/Swipe.js:19
 msgid "Vertical swipe"
 msgstr "Scorrimento verticale"
 
-#: amd/ngw-webmap/tool/Swipe.js:21
+#: amd/ngw-webmap/tool/Swipe.js:23
 msgid "Horizontal swipe"
 msgstr "Scorrimento orizzontale"
 
-#: amd/ngw-webmap/tool/editing/CreateFeature.js:16
+#: amd/ngw-webmap/tool/editing/CreateFeature.js:18
 msgid "Create features"
 msgstr "Crea elementi"
 
-#: amd/ngw-webmap/tool/editing/DeleteFeature.js:16
+#: amd/ngw-webmap/tool/editing/DeleteFeature.js:18
 msgid "Delete features"
 msgstr "Elimina elementi"
 
-#: amd/ngw-webmap/tool/editing/ModifyFeature.js:16
+#: amd/ngw-webmap/tool/editing/ModifyFeature.js:18
 msgid "Modify features"
 msgstr "Modifica elementi"
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:110
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:48
-msgid "Don't save"
-msgstr "Non salvare"
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:131
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:53
+msgid "Cancel"
+msgstr "Annulla"
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:115
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:136
 msgid "Delete"
 msgstr "Eliminazione"
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:212
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:148
+msgid "Create as public"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:157
+msgid "Create as private"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:166
+msgid "Create"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:272
 msgid "Create annotation"
 msgstr "Crea nota"
 
@@ -519,19 +402,37 @@ msgstr "Dimensioni del cerchio, px"
 msgid "Invalid width: should be from 1 to 100 px"
 msgstr "Larghezza invalida: dovrebbe essere tra 1 e 100 px"
 
-#: amd/ngw-webmap/ui/AnnotationsManager/AnnotationsManager.js:262
-#: amd/ngw-webmap/ui/AnnotationsManager/AnnotationsManager.js:282
-#: amd/ngw-webmap/ui/AnnotationsManager/AnnotationsManager.js:301
-msgid "Error on the server:"
-msgstr "Errore sul server:"
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:7
+msgid "Annotations layer"
+msgstr ""
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:14
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:16
 msgid "Show annotations layer"
 msgstr "Mostra il layer delle note"
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:19
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:21
 msgid "Show messages"
 msgstr "Mostra i messaggi"
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:27
+msgid "Private annotations"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:37
+msgid "Show annotation types"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:43
+msgid "Public annotations"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:49
+msgid "My private annotations"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:220
+msgid "Other private annotations"
+msgstr ""
 
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:27
 msgid "Stopping editing"
@@ -541,111 +442,111 @@ msgstr "Interrompi la modifica"
 msgid "Do you want to save changes?"
 msgstr "Vuoi salvare le modifiche?"
 
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:53
-msgid "Cancel"
-msgstr "Annulla"
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:48
+msgid "Don't save"
+msgstr "Non salvare"
 
 #: amd/ngw-webmap/ui/LayersPanel/LayersPanel.hbs:8
 msgid "Layer"
 msgstr "Layer"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:10
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:100
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:96
 msgid "Print"
 msgstr "Stampa"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:12
-msgid "Close"
-msgstr ""
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:20
 msgid "Paper format"
 msgstr "Formato pagina"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
 msgid "Select format"
 msgstr "Seleziona il formato"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:26
 msgid "A4 - Portrait"
 msgstr "A4 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:27
 msgid "A4 - Landscape"
 msgstr "A4 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
 msgid "A3 - Portrait"
 msgstr "A3 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:29
 msgid "A3 - Landscape"
 msgstr "A4 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
 msgid "A2 - Portrait"
 msgstr "A2 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:35
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
 msgid "A2 - Landscape"
 msgstr "A2 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:36
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
 msgid "A1 - Portrait"
 msgstr "A1 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:37
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
 msgid "A1 - Landscape"
 msgstr "A1 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:38
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
 msgid "A0 - Portrait"
 msgstr "A0 - Verticale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:39
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:35
 msgid "A0 - Landscape"
 msgstr "A0 - Orizzontale"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:40
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:36
 msgid "Custom size"
 msgstr "Dimensioni personalizzate"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:46
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:42
 msgid "Height, mm"
 msgstr "Altezza, mm"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:57
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:53
 msgid "Width, mm"
 msgstr "Larghezza, mm"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:68
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:64
 msgid "Margin, mm"
 msgstr "Margini, mm"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:78
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:74
 msgid "Scale value"
 msgstr "Valore della scala"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:83
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:79
 msgid "Scale bar"
 msgstr "Barra della scala"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:88
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:84
 #: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:5
 msgid "Scale"
 msgstr "Scala"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:106
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:102
 msgid "Save as"
 msgstr "Salva come"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:113
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:109
 msgid "JPEG"
 msgstr "JPEG"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:120
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:116
 msgid "PNG"
 msgstr "PNG"
+
+#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:123
+msgid "Close"
+msgstr ""
 
 #: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:8
 msgid "Select scale"
@@ -655,17 +556,17 @@ msgstr "Seleziona la scala"
 msgid "Use Shift+drag for box zooming"
 msgstr "Usa Shift+trascina per ingrandire"
 
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.hbs:7
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.hbs:6
 msgid "Search on the map"
 msgstr "Cerca sulla mappa"
 
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:184
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:243
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:310
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:197
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:256
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:323
 msgid "Refine search criterion"
 msgstr "Affina il criterio di ricerca"
 
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:324
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:337
 msgid "Not found"
 msgstr "Non trovato"
 
@@ -693,19 +594,183 @@ msgstr "Link alla mappa principale"
 msgid "Generate events"
 msgstr "Genera eventi"
 
-#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:68
+#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:71
 msgid "Preview"
 msgstr "Anteprima"
 
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:511
+#: amd/ngw-webmap/ui/SharePanel/SharePanel.js:115
+msgid ""
+"<a>CORS</a> must be enabled for the target origin when embedding a web map on"
+" a different domain."
+msgstr ""
+
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:515
 msgid "Open full map"
 msgstr "Apri la mappa intera"
 
-#: template/section_api_webmap.mako:7
+#: nodepkg/settings/Settings.js:56
+msgid "Settings saved"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:52
+msgid "Identify popup"
+msgstr "Identifica il popup"
+
+#: nodepkg/settings/SettingsForm.js:58
+msgid "Width, px"
+msgstr "Larghezza, px"
+
+#: nodepkg/settings/SettingsForm.js:71
+msgid "Height, px"
+msgstr "Altezza, px"
+
+#: nodepkg/settings/SettingsForm.js:84
+msgid "Radius, px"
+msgstr "Raggio, px"
+
+#: nodepkg/settings/SettingsForm.js:107
+msgid "Show feature attributes"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:113
+msgid "Measurement"
+msgstr "Misura"
+
+#: nodepkg/settings/SettingsForm.js:119
+msgid "Length units"
+msgstr "Unità di lunghezza"
+
+#: nodepkg/settings/SettingsForm.js:130
+msgid "Area units"
+msgstr "Unità di area"
+
+#: nodepkg/settings/SettingsForm.js:141
+msgid "Degree format"
+msgstr "Formato gradi"
+
+#: nodepkg/settings/SettingsForm.js:155
+msgid "Measurement SRID"
+msgstr "Misurazione SR"
+
+#: nodepkg/settings/SettingsForm.js:165
+msgid "Address search"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:178
+msgid "Enable"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:192
+msgid "Limit by web map initial extent"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:202
+msgid "Provider"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:214
+msgid "Limit search results to countries"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:224
+msgid "Invalid countries. For example ru or gb,de"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:237
+msgid "Yandex.Maps API Geocoder Key"
+msgstr ""
+
+#: nodepkg/settings/select-options.js:5
+msgid "Meters"
+msgstr "Metri"
+
+#: nodepkg/settings/select-options.js:9
+msgid "Kilometers"
+msgstr "Chilometri"
+
+#: nodepkg/settings/select-options.js:13
+msgid "Meters/kilometers (auto)"
+msgstr "Metri/chilometri (auto)"
+
+#: nodepkg/settings/select-options.js:17
+msgid "Feet"
+msgstr "Piedi"
+
+#: nodepkg/settings/select-options.js:21
+msgid "Miles"
+msgstr "Miglia"
+
+#: nodepkg/settings/select-options.js:25
+msgid "Feet/miles (auto)"
+msgstr "Piedi/miglia (auto)"
+
+#: nodepkg/settings/select-options.js:32
+msgid "Sq. meters"
+msgstr "Metri quadri"
+
+#: nodepkg/settings/select-options.js:36
+msgid "Sq. kilometers"
+msgstr "Chilometri quadri"
+
+#: nodepkg/settings/select-options.js:40
+msgid "Sq. meters/kilometers (auto)"
+msgstr "Metri/chilometri quadri (auto)"
+
+#: nodepkg/settings/select-options.js:44
+msgid "Hectares"
+msgstr "Ettari"
+
+#: nodepkg/settings/select-options.js:48
+msgid "Acres"
+msgstr "Acri"
+
+#: nodepkg/settings/select-options.js:52
+msgid "Sq. miles"
+msgstr "Miglia quadrate"
+
+#: nodepkg/settings/select-options.js:56
+msgid "Acres/sq. miles (auto)"
+msgstr "Acri/miglia quadrate (auto)"
+
+#: nodepkg/settings/select-options.js:60
+msgid "Sq. feet"
+msgstr "Piedi quadrati"
+
+#: nodepkg/settings/select-options.js:67
+msgid "Decimal degrees"
+msgstr "Gradi decimali"
+
+#: nodepkg/settings/select-options.js:71
+msgid "Degrees, decimal minutes"
+msgstr "Gradi, minuti decimali"
+
+#: nodepkg/settings/select-options.js:75
+msgid "Degrees, minutes, seconds"
+msgstr "Gradi, minuti, secondi"
+
+#: nodepkg/settings/select-options.js:82
+msgid "Nominatim (OSM)"
+msgstr ""
+
+#: nodepkg/settings/select-options.js:86
+msgid "Yandex.Maps API Geocoder"
+msgstr ""
+
+#: template/invalid_origin.mako:4
+#, python-format
+msgid "Web map embedding is not allowed for %s in the Web GIS settings."
+msgstr ""
+
+#: template/invalid_origin.mako:6
+#, python-format
+msgid "View the map on %s"
+msgstr ""
+
+#: template/section_api_webmap.mako:12
 msgid "TMS (Tile Map Service)"
 msgstr "TMS (Tile Map Service)"
 
-#: template/section_api_webmap.mako:11
+#: template/section_api_webmap.mako:13
 msgid ""
 "TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
 "is a map displayed in a browser by seamlessly joining dozens of individually "
@@ -722,4 +787,7 @@ msgstr "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
 #: template/section_api_webmap.mako:17
 msgid "Read more"
 msgstr "Leggi di più"
+
+#~ msgid "Error on the server:"
+#~ msgstr "Errore sul server:"
 

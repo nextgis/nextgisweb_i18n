@@ -1,32 +1,28 @@
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:98
-msgid "Delete"
-msgstr "Eliminar"
-
-#: api.py:25
+#: api.py:24
 msgid "Uploaded file too large"
 msgstr "El archivo subido es demasiado grande"
 
-#: api.py:30
+#: api.py:29
 msgid "Upload is not completed"
 msgstr "Carga no se completó"
 
-#: amd/ngw-file-upload/Uploader.js:56
+#: amd/ngw-file-upload/Uploader.js:55
 msgid "Select"
 msgstr "Seleccionar"
 
-#: amd/ngw-file-upload/Uploader.js:86
+#: amd/ngw-file-upload/Uploader.js:85
 msgid "max"
 msgstr "máx"
 
-#: amd/ngw-file-upload/Uploader.js:114
+#: amd/ngw-file-upload/Uploader.js:113
 msgid "Uploading..."
 msgstr "Subiendo..."
 
-#: amd/ngw-file-upload/Uploader.js:122
+#: amd/ngw-file-upload/Uploader.js:121 nodepkg/image-uploader/ImageUploader.js:63
 msgid " uploaded..."
 msgstr " subido..."
 
-#: amd/ngw-file-upload/Uploader.js:148
+#: amd/ngw-file-upload/Uploader.js:149
 msgid "Could not load file!"
 msgstr "¡No se ha podido subir el archivo!"
 
@@ -46,10 +42,20 @@ msgstr "Pruebe de nuevo"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:13
 #: amd/ngw-file-upload/template/Uploader.hbs:13
+#: nodepkg/image-uploader/ImageUploader.js:14
 msgid "or drag and drop here"
 msgstr "o arrastrar y soltar aquí"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:21
+#: nodepkg/image-uploader/ImageUploader.js:170
+msgid "Delete"
+msgstr "Eliminar"
 
 #: amd/ngw-file-upload/template/Uploader.hbs:9
 msgid "Select a file"
 msgstr "Seleccionar un archivo"
+
+#: nodepkg/image-uploader/ImageUploader.js:125
+msgid "Stop"
+msgstr ""
 

@@ -1,4 +1,4 @@
-#: api.py:47
+#: api.py:53
 #, python-format
 msgid "Table (%s) not found in schema (%s)."
 msgstr ""
@@ -7,79 +7,103 @@ msgstr ""
 msgid "External database error"
 msgstr ""
 
-#: amd/ngw-postgis/template/LayerWidget.hbs:42 model.py:50
+#: amd/ngw-postgis/template/LayerWidget.hbs:42 model.py:56
 msgid "Point"
 msgstr ""
 
-#: amd/ngw-postgis/template/LayerWidget.hbs:43 model.py:50
+#: amd/ngw-postgis/template/LayerWidget.hbs:43 model.py:56
 msgid "Line"
 msgstr ""
 
-#: amd/ngw-postgis/template/LayerWidget.hbs:44 model.py:50
+#: amd/ngw-postgis/template/LayerWidget.hbs:44 model.py:56
 msgid "Polygon"
 msgstr ""
 
-#: amd/ngw-postgis/template/LayerWidget.hbs:45 model.py:51
+#: amd/ngw-postgis/template/LayerWidget.hbs:45 model.py:57
 msgid "Multipoint"
 msgstr ""
 
-#: amd/ngw-postgis/template/LayerWidget.hbs:46 model.py:51
+#: amd/ngw-postgis/template/LayerWidget.hbs:46 model.py:57
 msgid "Multiline"
 msgstr ""
 
-#: amd/ngw-postgis/template/LayerWidget.hbs:47 model.py:51
+#: amd/ngw-postgis/template/LayerWidget.hbs:47 model.py:57
 msgid "Multipolygon"
 msgstr ""
 
-#: amd/ngw-postgis/ConnectionWidget.js:25 model.py:60
+#: model.py:58
+msgid "Point Z"
+msgstr ""
+
+#: model.py:58
+msgid "Line Z"
+msgstr ""
+
+#: model.py:58
+msgid "Polygon Z"
+msgstr ""
+
+#: model.py:59
+msgid "Multipoint Z"
+msgstr ""
+
+#: model.py:59
+msgid "Multiline Z"
+msgstr ""
+
+#: model.py:59
+msgid "Multipolygon Z"
+msgstr ""
+
+#: amd/ngw-postgis/ConnectionWidget.js:25 model.py:69
 msgid "PostGIS connection"
 msgstr ""
 
-#: model.py:130
+#: model.py:140
 msgid "Cannot connect to the database!"
 msgstr ""
 
-#: amd/ngw-postgis/LayerWidget.js:39 model.py:158
+#: amd/ngw-postgis/LayerWidget.js:39 model.py:174
 msgid "PostGIS layer"
 msgstr ""
 
-#: model.py:216
+#: model.py:230
 #, python-format
 msgid "Table '%(table)s' not found!"
 msgstr ""
 
-#: model.py:231
+#: model.py:245
 msgid "SRID missing in geometry_columns table! You should specify it manually."
 msgstr ""
 
-#: model.py:234
+#: model.py:248
 msgid "0 is an invalid SRID."
 msgstr ""
 
-#: model.py:241
+#: model.py:255
 msgid "SRID in geometry_columns table does not match specified!"
 msgstr ""
 
-#: model.py:249
+#: model.py:263
 msgid ""
 "Geometry type missing in geometry_columns table! You should specify it "
 "manually."
 msgstr ""
 
-#: model.py:256
+#: model.py:273
 msgid "Geometry type in geometry_columns table does not match specified!"
 msgstr ""
 
-#: model.py:274
+#: model.py:291
 msgid "To use column as ID it should have integer type!"
 msgstr ""
 
-#: model.py:317 model.py:320
+#: model.py:334 model.py:337
 #, python-format
 msgid "Column '%(column)s' not found!"
 msgstr ""
 
-#: amd/ngw-postgis/template/LayerWidget.hbs:39 model.py:329
+#: amd/ngw-postgis/template/LayerWidget.hbs:39 model.py:341
 msgid "Geometry type"
 msgstr ""
 

@@ -24,15 +24,15 @@ msgstr "El rango %s no se puede leer."
 msgid "Rasters and pyramids"
 msgstr "Rásteres y pirámides"
 
-#: amd/ngw-raster-layer/Widget.js:30 model.py:59 view.py:32
+#: amd/ngw-raster-layer/Widget.js:30 model.py:61 view.py:32
 msgid "Raster layer"
 msgstr "Capa raster"
 
-#: model.py:80
+#: model.py:82
 msgid "GDAL library was unable to open the file."
 msgstr "La libreria GDAL no pudo abrir el archivo."
 
-#: model.py:88
+#: model.py:90
 #, python-format
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
@@ -41,23 +41,51 @@ msgstr ""
 "El ráster tiene el formato '%(format)s', sin embargo, solo se admiten los "
 "siguientes formatos: %(all_formats)s."
 
-#: model.py:93
+#: model.py:95
 msgid "Raster files without projection info are not supported."
 msgstr "No se admiten archivos ráster sin información de proyección."
 
-#: model.py:104
-msgid "Complex data types are not supported."
-msgstr "No se admiten tipos de datos complejos."
+#: model.py:113
+msgid "Mixed band data types are not supported."
+msgstr "Los tipos de datos de canales mixtos no son compatibles."
 
-#: model.py:199
+#: model.py:124
+msgid "GDAL was uanble to parse the raster coordinate system."
+msgstr ""
+
+#: model.py:128
+msgid ""
+"The source raster has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr ""
+
+#: model.py:145
+msgid "Failed to reproject the raster to the target coordinate system."
+msgstr ""
+
+#: model.py:148
+#, python-format
+msgid "GDAL error message: %s"
+msgstr ""
+
+#: model.py:159
+#, python-format
+msgid ""
+"The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
+"%(delta)s. Reduce raster size to fit the limit."
+msgstr ""
+"El tamaño de ráster sin comprimir (%(size)s) supera el límite (%(limit)s) en "
+"%(delta)s. Reduzca el tamaño del ráster para ajustarse al límite."
+
+#: model.py:241
 msgid "Data type"
 msgstr "Tipo de datos"
 
-#: model.py:200
+#: model.py:242
 msgid "COG"
 msgstr "COG"
 
-#: model.py:285
+#: model.py:327
 msgid "COG attribute can be set only at creation time."
 msgstr "El atributo COG solo se puede establecer en el momento de la creación."
 
@@ -65,7 +93,7 @@ msgstr "El atributo COG solo se puede establecer en el momento de la creación."
 msgid "Save as"
 msgstr "Guardar como"
 
-#: view.py:45
+#: view.py:46
 msgid "External access"
 msgstr "Acceso externo"
 
@@ -105,7 +133,7 @@ msgstr "Sistema de coordenadas"
 msgid "Upload as Cloud Optimized GeoTIFF (COG)"
 msgstr "Subir como Cloud Optimized GeoTIFF (COG)"
 
-#: template/section_api_cog.mako:7
+#: template/section_api_cog.mako:10
 msgid "Cloud Optimized GeoTIFF"
 msgstr "Cloud Optimized GeoTIFF"
 
@@ -122,4 +150,7 @@ msgstr ""
 " permite flujos de trabajo más eficientes en la nube. Lo hace aprovechando la"
 " capacidad de los clientes que emiten solicitudes de rango HTTP GET para "
 "solicitar solo las partes de un archivo que necesitan."
+
+#~ msgid "Complex data types are not supported."
+#~ msgstr "No se admiten tipos de datos complejos."
 

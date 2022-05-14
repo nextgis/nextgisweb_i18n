@@ -1,120 +1,136 @@
-#: api.py:498
+#: __init__.py:150
+msgid "Enabled"
+msgstr ""
+
+#: __init__.py:150
+msgid "Disabled"
+msgstr ""
+
+#: api.py:228
+msgid "Required parameter 'component' is missing."
+msgstr ""
+
+#: api.py:233
+msgid "Invalid component identity."
+msgstr ""
+
+#: api.py:534
 msgid "Your Web GIS at nextgis.com"
 msgstr ""
 
-#: exception.py:205 exception.py:266
+#: exception.py:202 exception.py:263
 msgid "Internal server error"
 msgstr ""
 
-#: exception.py:206
+#: exception.py:203
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
 msgstr ""
 
-#: exception.py:235
+#: exception.py:232
 msgid "Bad request"
 msgstr ""
 
-#: exception.py:236
+#: exception.py:233
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
 msgstr ""
 
-#: exception.py:243
+#: exception.py:240
 msgid "Payment required"
 msgstr ""
 
-#: exception.py:244
+#: exception.py:241
 msgid "Access was denied for financial reasons."
 msgstr ""
 
-#: exception.py:248
+#: exception.py:245
 msgid "Forbidden"
 msgstr ""
 
-#: exception.py:249
+#: exception.py:246
 msgid "Access was denied to this resource."
 msgstr ""
 
-#: exception.py:253
+#: exception.py:250
 msgid "Page not found"
 msgstr ""
 
-#: exception.py:254
+#: exception.py:251
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
 msgstr ""
 
-#: exception.py:261
+#: exception.py:258
 msgid "Unprocessable entity"
 msgstr ""
 
-#: exception.py:262
+#: exception.py:259
 msgid "Unable to process the contained instructions."
 msgstr ""
 
-#: exception.py:267
+#: exception.py:264
 msgid ""
 "The server has either erred or is incapable of performing the requested "
 "operation."
 msgstr ""
 
-#: exception.py:274 exception.py:275
+#: exception.py:271 exception.py:272
 msgid "Not implemented"
 msgstr ""
 
-#: exception.py:279
+#: exception.py:276
 msgid "Service unavailable"
 msgstr ""
 
-#: exception.py:280
+#: exception.py:277
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr ""
 
-#: template/header.mako:111 view.py:83
+#: nodepkg/layout/store.js:42 view.py:81
 msgid "Control panel"
 msgstr ""
 
-#: view.py:105 view.py:481
+#: view.py:103 view.py:477
 msgid "System information"
 msgstr ""
 
-#: view.py:117 view.py:498
+#: view.py:116 view.py:494
 msgid "Storage"
 msgstr ""
 
-#: view.py:127 view.py:503
+#: view.py:126 view.py:499
 msgid "Backups"
 msgstr ""
 
-#: view.py:142 view.py:487
+#: view.py:142 view.py:483
 msgid "Cross-origin resource sharing (CORS)"
 msgstr ""
 
-#: view.py:149 view.py:489
+#: view.py:150 view.py:485
 msgid "Custom CSS"
 msgstr ""
 
-#: view.py:156 view.py:491
+#: view.py:158 view.py:487
 msgid "Custom logo"
 msgstr ""
 
-#: view.py:163 view.py:485
+#: view.py:166 view.py:481
 msgid "Web GIS name"
 msgstr ""
 
-#: view.py:170 view.py:493
+#: view.py:174 view.py:489
 msgid "Home path"
 msgstr ""
 
-#: view.py:480
+#: view.py:476
 msgid "Info"
 msgstr ""
 
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7 view.py:484
+#: nodepkg/layout/Avatar.js:21 view.py:480
 msgid "Settings"
 msgstr ""
 
@@ -129,64 +145,6 @@ msgstr ""
 
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:32
 msgid "Unable to copy"
-msgstr ""
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:68
-msgid "<a>Contact support</a> for update."
-msgstr ""
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:72
-msgid "Checking for updates..."
-msgstr ""
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:74
-msgid "Your {distribution} is up-to-date."
-msgstr ""
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:79
-msgid "New version of {distribution} is available: {version}."
-msgstr ""
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:84
-msgid ""
-"Critical updates are available: {version}. Please consider updating an soon "
-"as possible."
-msgstr ""
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:114
-msgid "Show details"
-msgstr ""
-
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:37
-msgid "Technical information"
-msgstr ""
-
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:39
-msgid "Contact support"
-msgstr ""
-
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:41
-msgid "Back to home"
-msgstr ""
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:35 nodepkg/api/error.js:18
-msgid "Network error"
-msgstr ""
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:36
-msgid "There is no response from the server or problem connecting to server."
-msgstr ""
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:37
-msgid "Check network connectivity and try again later."
-msgstr ""
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:45
-msgid "Unexpected server response"
-msgstr ""
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:46
-msgid "Something went wrong."
 msgstr ""
 
 #: amd/ngw-pyramid/NGWPagination/NGWPagination.js:28
@@ -205,7 +163,7 @@ msgstr ""
 msgid "Browser default"
 msgstr ""
 
-#: amd/ngw-pyramid/form/RTETextBox.js:61
+#: amd/ngw-pyramid/form/RTETextBox.js:62
 msgid "Rich Text Editor"
 msgstr ""
 
@@ -218,11 +176,6 @@ msgid "Create"
 msgstr ""
 
 #: amd/ngw-pyramid/modelWidget/FormMixin.js:39
-#: amd/ngw-pyramid/template/CORSForm.hbs:26
-#: amd/ngw-pyramid/template/CustomCSSForm.hbs:25
-#: amd/ngw-pyramid/template/HomePathForm.hbs:11
-#: amd/ngw-pyramid/template/LogoForm.hbs:22
-#: amd/ngw-pyramid/template/SystemNameForm.hbs:10
 msgid "Save"
 msgstr ""
 
@@ -230,63 +183,184 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: amd/ngw-pyramid/right-menu/RightMenu.js:90
-msgid "Critical updates are available"
-msgstr ""
-
-#: amd/ngw-pyramid/right-menu/RightMenu.js:91
-msgid "Updates are available"
-msgstr ""
-
-#: amd/ngw-pyramid/right-menu/RightMenu.js:98
-msgid "Click to see what's new"
-msgstr ""
-
-#: amd/ngw-pyramid/template/CORSForm.hbs:17
-msgid ""
-"Enter allowed origins for cross domain requests to use HTTP API of this Web "
-"GIS on other websites. One origin per line."
-msgstr ""
-
-#: amd/ngw-pyramid/template/CORSForm.hbs:18
-msgid ""
-"Please note that different protocols (HTTP and HTTPS) and subdomains "
-"(example.com and www.example.com) are different origins. Wildcards are "
-"allowed for third-level domains and higher."
-msgstr ""
-
-#: amd/ngw-pyramid/template/CustomCSSForm.hbs:17
-msgid ""
-"Enter custom CSS rules here. They will be used to redefine styles, design for"
-" all pages of your Web GIS."
-msgstr ""
-
-#: amd/ngw-pyramid/template/LogoForm.hbs:12
-msgid "We recommend height of 45 px and width of up to 200 px."
-msgstr ""
-
-#: amd/ngw-pyramid/template/LogoForm.hbs:25
-msgid "Cancel"
-msgstr ""
-
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:8
-msgid "Sign out"
-msgstr ""
-
-#: amd/ngw-pyramid/user-avatar/UserAvatar.js:36
-msgid "Invitation session"
+#: nodepkg/api/error.js:10 nodepkg/api/error.js:25
+msgid "Something went wrong."
 msgstr ""
 
 #: nodepkg/api/error.js:11
 msgid "Unknown API error"
 msgstr ""
 
-#: nodepkg/api/error.js:25
-msgid "Invalid API response"
+#: nodepkg/api/error.js:17
+msgid "There is no response from the server or problem connecting to server."
+msgstr ""
+
+#: nodepkg/api/error.js:18
+msgid "Network error"
+msgstr ""
+
+#: nodepkg/api/error.js:19
+msgid "Check network connectivity and try again later."
+msgstr ""
+
+#: nodepkg/api/error.js:26
+msgid "Unexpected server response"
+msgstr ""
+
+#: nodepkg/api/error.js:41
+msgid "Unexpected error while processing long-running request."
+msgstr ""
+
+#: nodepkg/api/error.js:42
+msgid "Long-running request error"
+msgstr ""
+
+#: nodepkg/api/error.js:49
+msgid "Long-running request was cancelled."
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:35
+msgid "CORS settings updated"
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:42
+msgid "Fix the form errors first"
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:62
+msgid "The value entered is not valid"
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:90
+msgid ""
+"Enter allowed origins for cross domain requests to use HTTP API of this Web "
+"GIS on other websites. One origin per line."
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:95
+msgid ""
+"Please note that different protocols (HTTP and HTTPS) and subdomains "
+"(example.com and www.example.com) are different origins. Wildcards are "
+"allowed for third-level domains and higher."
+msgstr ""
+
+#: nodepkg/custom-css-form/CustomCSSForm.js:33
+msgid "Custom styles saved. Reload the page to get them applied."
+msgstr ""
+
+#: nodepkg/custom-css-form/CustomCSSForm.js:63
+msgid ""
+"Enter custom CSS rules here. They will be used to redefine styles, design for"
+" all pages of your Web GIS."
 msgstr ""
 
 #: nodepkg/example/translation.js:5
 msgid "Translated text"
+msgstr ""
+
+#: nodepkg/layout/Avatar.js:9
+msgid "Sign in"
+msgstr ""
+
+#: nodepkg/layout/Avatar.js:18
+msgid "Invitation session"
+msgstr ""
+
+#: nodepkg/layout/Avatar.js:23
+msgid "Sign out"
+msgstr ""
+
+#: nodepkg/layout/store.js:36
+msgid "Resources"
+msgstr ""
+
+#: nodepkg/layout/store.js:49
+msgid "Help"
+msgstr ""
+
+#: nodepkg/logo-form/LogoForm.js:5
+msgid "We recommend height of 45 px and width of up to 200 px."
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:82
+msgid "Kind of data"
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:88
+msgid "Volume"
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:104
+msgid "Total"
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:109
+msgid "of"
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:124
+#, python-format
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:128
+#, python-format
+msgid "Storage usage was fully estimated at %s."
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:131
+#, python-format
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:134
+msgid "Storage usage hasn't been estimated yet."
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:139
+msgid "Some changes may be reflected only after full estimation."
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:162
+msgid "Estimate storage"
+msgstr ""
+
+#: nodepkg/update/index.js:55
+msgid "Critical updates are available"
+msgstr ""
+
+#: nodepkg/update/index.js:56
+msgid "Updates are available"
+msgstr ""
+
+#: nodepkg/update/index.js:58
+msgid "Click to see what's new"
+msgstr ""
+
+#: nodepkg/update/sysinfo.js:32
+msgid "Checking for updates..."
+msgstr ""
+
+#: nodepkg/update/sysinfo.js:35
+msgid ""
+"Critical updates are available: {version}. Please consider updating an soon "
+"as possible."
+msgstr ""
+
+#: nodepkg/update/sysinfo.js:36
+msgid "New version of {distribution} is available: {version}."
+msgstr ""
+
+#: nodepkg/update/sysinfo.js:37
+msgid "Your {distribution} is up-to-date."
+msgstr ""
+
+#: nodepkg/update/sysinfo.js:44
+msgid "<a>Contact support</a> for update."
+msgstr ""
+
+#: nodepkg/update/sysinfo.js:74
+msgid "Show details"
 msgstr ""
 
 #: template/backup.mako:12
@@ -301,70 +375,76 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: template/header.mako:38
-msgid "Sign in"
-msgstr ""
-
-#: template/header.mako:106
-msgid "Resources"
-msgstr ""
-
-#: template/header.mako:119
-msgid "Help"
-msgstr ""
-
-#: template/storage.mako:36
-msgid "Kind of data"
-msgstr ""
-
-#: template/storage.mako:37
-msgid "Volume"
-msgstr ""
-
-#: template/storage.mako:52
-msgid "Total"
-msgstr ""
-
-#: template/storage.mako:74
-#, python-format
-msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr ""
-
-#: template/storage.mako:77
-#, python-format
-msgid "Storage usage was fully estimated at %s."
-msgstr ""
-
-#: template/storage.mako:79
-#, python-format
-msgid "Storage usage hasn't been estimated yet but was updated at %s."
-msgstr ""
-
-#: template/storage.mako:81
-msgid "Storage usage hasn't been estimated yet."
-msgstr ""
-
-#: template/storage.mako:84
-msgid "Some changes may be reflected only after full estimation."
-msgstr ""
-
-#: template/storage.mako:103
-msgid "Estimation is in progress..."
-msgstr ""
-
-#: template/storage.mako:109
-msgid "Estimate storage"
-msgstr ""
-
-#: template/sysinfo.mako:30
+#: template/sysinfo.mako:36
 msgid "Package"
 msgstr ""
 
-#: template/sysinfo.mako:31
+#: template/sysinfo.mako:37
 msgid "Version"
 msgstr ""
 
-#: template/sysinfo.mako:60
+#: template/sysinfo.mako:72
 msgid "Platform"
+msgstr ""
+
+#: template/uacompat.mako:4
+msgid "Browser compatibility test"
+msgstr ""
+
+#: template/uacompat.mako:23
+#, python-format
+msgid "%(name)s %(current)s supported"
+msgstr ""
+
+#: template/uacompat.mako:24
+msgid ""
+"Web GIS browser compatibility test has been passed! The Web GIS should work "
+"fine."
+msgstr ""
+
+#: template/uacompat.mako:27
+#, python-format
+msgid "%(name)s not supported"
+msgstr ""
+
+#: template/uacompat.mako:28
+#, python-format
+msgid ""
+"You're using %(name)s although it's not supported by the Web GIS. It's an "
+"outdated browser lacking required features. Try a different browser or "
+"contact your system administrator if another browser isn't available."
+msgstr ""
+
+#: template/uacompat.mako:30
+#, python-format
+msgid "%(name)s %(current)s not supported"
+msgstr ""
+
+#: template/uacompat.mako:31
+#, python-format
+msgid ""
+"You're using %(name)s %(current)s although it's not supported by the Web GIS."
+" It's an outdated version lacking required features. Contact your system "
+"administrator for upgrading to %(name)s %(required)s+ or try a different "
+"browser."
+msgstr ""
+
+#: template/uacompat.mako:35
+msgid ""
+"If you still want to continue using the current browser, click the link below"
+" to bypass the compatibility test. The Web GIS or some features may degrade "
+"or fail  in this case."
+msgstr ""
+
+#: template/uacompat.mako:36
+msgid "I understood but want to proceed at my own risk. Skip the test!"
+msgstr ""
+
+#: template/uacompat.mako:38
+msgid "Unknown browser"
+msgstr ""
+
+#: template/uacompat.mako:39
+msgid "If you are using an up-to-date browser the Web GIS should be fine."
 msgstr ""
 

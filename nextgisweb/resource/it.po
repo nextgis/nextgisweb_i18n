@@ -1,43 +1,43 @@
-#: __init__.py:89
+#: __init__.py:90
 msgid "Main resource group"
 msgstr "Gruppo di risorse principale"
 
-#: api.py:69
+#: api.py:64
 msgid "Root resource could not be deleted."
 msgstr "Impossibile eliminare le risorse di base."
 
-#: api.py:117
+#: api.py:108
 msgid "Resource parent required."
 msgstr "Padre della risorsa richiesto."
 
-#: api.py:120
+#: api.py:111
 msgid "Resource class required."
 msgstr "È richiesta la classe della risorsa."
 
-#: api.py:123
+#: api.py:114
 #, python-format
 msgid "Unknown resource class '%s'."
 msgstr "Classe della risorsa '%s' sconosciuta."
 
-#: api.py:129
+#: api.py:120
 #, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Classe della risorsa '%s' disabilitata."
 
-#: api.py:211
+#: api.py:199
 msgid "Permission not found"
 msgstr "Permesso non trovato"
 
-#: exception.py:25
+#: exception.py:27
 msgid "Resource not found"
 msgstr "Risorsa non trovata"
 
-#: exception.py:26
+#: exception.py:28
 #, python-format
 msgid "Resource with id = %d was not found."
 msgstr "La risorsa con id = %d non è stata trovata."
 
-#: exception.py:27
+#: exception.py:29
 msgid ""
 "The resource may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired resource."
@@ -46,16 +46,16 @@ msgstr ""
 "nell'indirizzo. Correggi l'indirizzo o torna alla pagina principale per "
 "cercare la risorsa desiderata."
 
-#: exception.py:39
+#: exception.py:41
 msgid "Resource display name is not unique"
 msgstr "Il nome visualizzato della risorsa non è univoco"
 
-#: exception.py:40
+#: exception.py:42
 #, python-format
 msgid "Resource with same display name already exists (id = %d)."
 msgstr "È già presente una risorsa con lo stesso nome visualizzato (id = %d)."
 
-#: exception.py:41
+#: exception.py:43
 msgid ""
 "Within a single parent resource, each resource must have unique display name."
 " Give the resource a different display name or rename existing."
@@ -64,61 +64,57 @@ msgstr ""
 "visualizzato univoco. Assegna alla risorsa attuale un diverso nome "
 "visualizzato, o rinomina quella esistente."
 
-#: exception.py:66
-msgid "Forbidden"
-msgstr "Vietato"
-
-#: amd/ngw-resource/CompositeWidget.js:264 exception.py:74
-msgid "Validation error"
-msgstr "Errore di validazione"
-
-#: exception.py:79
+#: exception.py:54
 msgid "Hierarchy error"
 msgstr "Errore di gerarchia"
 
-#: exception.py:86
+#: exception.py:72
+msgid "Forbidden"
+msgstr "Vietato"
+
+#: exception.py:80
 msgid "Operational error"
 msgstr "Errore operativo"
 
 #: amd/ngw-resource/PermissionWidget.js:94 amd/ngw-resource/PermissionWidget.js:183
 #: amd/ngw-resource/Widget.js:32 amd/ngw-resource/form/ResourceLink.js:35
-#: model.py:107 scope.py:25
+#: model.py:103 scope.py:25
 msgid "Resource"
 msgstr "Risorsa"
 
-#: model.py:263
+#: model.py:259
 msgid "Resource can not be a parent himself."
 msgstr "La risorsa non può essere padre di sé stessa."
 
-#: model.py:276
+#: model.py:272
 msgid "Resource keyname is not unique."
 msgstr "Il nome chiave della risorsa non è univoco."
 
-#: model.py:336
+#: model.py:332
 msgid "Resource can not be without a parent."
 msgstr "La risorsa deve avere un padre (origine)."
 
-#: model.py:342
+#: model.py:338
 #, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Non sei abilitato alla gestione dei figli della risorsa con id = %d."
 
-#: model.py:347
+#: model.py:343
 #, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "La risorsa non può essere figlia della risorsa con id = %d."
 
-#: model.py:481
+#: model.py:477
 #, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Numero massimo di risorse superato. Il limite è %s."
 
-#: model.py:498
+#: model.py:494
 #, python-format
 msgid "Maximum number of resources '%s' exceeded. The limit is %s."
 msgstr "Numero massimo di risorse '%s' superato. Il limite è %s."
 
-#: model.py:554
+#: model.py:566
 msgid "Resource group"
 msgstr "Gruppo di risorse"
 
@@ -126,16 +122,16 @@ msgstr "Gruppo di risorse"
 msgid "Read"
 msgstr "Lettura"
 
-#: amd/ngw-resource/CompositeWidget.js:77 scope.py:33
+#: amd/ngw-resource/CompositeWidget.js:73 scope.py:33
 msgid "Create"
 msgstr "Creazione"
 
-#: scope.py:40 view.py:319
+#: scope.py:40 view.py:331
 msgid "Update"
 msgstr "Aggiornamento"
 
-#: amd/ngw-resource/CompositeWidget.js:96 amd/ngw-resource/PermissionWidget.js:321
-#: scope.py:44 view.py:327
+#: amd/ngw-resource/CompositeWidget.js:92 amd/ngw-resource/PermissionWidget.js:321
+#: scope.py:44 view.py:339
 msgid "Delete"
 msgstr "Eliminazione"
 
@@ -179,89 +175,94 @@ msgstr "Servizio"
 msgid "Configure"
 msgstr "Configura"
 
-#: serialize.py:97
+#: serialize.py:96
 #, python-format
 msgid "Attribute '%s' forbidden."
 msgstr "Attributo '%s' vietato."
 
-#: view.py:85 view.py:334
+#: view.py:88 view.py:346
 msgid "JSON view"
 msgstr "Vista JSON"
 
-#: view.py:120
+#: view.py:125
 msgid "Resource tree"
 msgstr "Albero delle risorse"
 
-#: view.py:126 view.py:344
+#: view.py:139 view.py:357
 msgid "Create resource"
 msgstr "Crea risorsa"
 
-#: view.py:134
+#: view.py:146
 msgid "Update resource"
 msgstr "Aggiorna risorsa"
 
-#: amd/ngw-resource/DeleteWidget.js:20 view.py:141
+#: amd/ngw-resource/DeleteWidget.js:20 view.py:153
 msgid "Delete resource"
 msgstr "Elimina risorsa"
 
-#: view.py:190 view.py:352
+#: view.py:202 view.py:365
 msgid "Resource export"
 msgstr ""
 
-#: view.py:211
+#: view.py:223
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Permessi '%s' insufficienti nell'ambito '%s' per la risorsa con id = %d."
 
-#: view.py:269
+#: view.py:281
 msgid "Child resources"
 msgstr "Risorse figlie"
 
-#: amd/ngw-resource/DescriptionWidget.js:19 view.py:276
+#: amd/ngw-resource/DescriptionWidget.js:19 view.py:288
 msgid "Description"
 msgstr "Descrizione"
 
-#: view.py:283
+#: view.py:295
 msgid "User permissions"
 msgstr "Permessi utente"
 
 #: amd/ngw-resource/PermissionWidget.js:66 amd/ngw-resource/PermissionWidget.js:133
-#: view.py:345
+#: view.py:358
 msgid "Action"
 msgstr "Azione"
 
-#: view.py:346
+#: view.py:359
 msgid "Extra"
 msgstr "Extra"
 
-#: amd/ngw-resource/CompositeWidget.js:53
+#: amd/ngw-resource/CompositeWidget.js:49
 msgid "Please wait. Processing request..."
 msgstr "Attendere prego. Richiesta in elaborazione..."
 
-#: amd/ngw-resource/CompositeWidget.js:82
+#: amd/ngw-resource/CompositeWidget.js:78
 msgid "Create and edit"
 msgstr "Crea e modifica"
 
-#: amd/ngw-resource/CompositeWidget.js:89
+#: amd/ngw-resource/CompositeWidget.js:85
 #: amd/ngw-resource/template/ResourceExportForm.hbs:15
+#: nodepkg/export-settings/ExportSettings.js:60
 msgid "Save"
 msgstr "Salva"
 
-#: amd/ngw-resource/CompositeWidget.js:256 amd/ngw-resource/CompositeWidget.js:272
+#: amd/ngw-resource/CompositeWidget.js:241 amd/ngw-resource/CompositeWidget.js:257
 msgid "Unexpected error"
 msgstr "Errore imprevisto"
 
-#: amd/ngw-resource/CompositeWidget.js:257
+#: amd/ngw-resource/CompositeWidget.js:242
 msgid "Serialization failed"
 msgstr "Serializzazione fallita"
 
-#: amd/ngw-resource/CompositeWidget.js:265
+#: amd/ngw-resource/CompositeWidget.js:249
+msgid "Validation error"
+msgstr "Errore di validazione"
+
+#: amd/ngw-resource/CompositeWidget.js:250
 msgid "Errors found during data validation. Tabs with errors marked in red."
 msgstr ""
 "Errori trovati durante la validazione dati. Le schede con errori sono segnate"
 " in rosso."
 
-#: amd/ngw-resource/CompositeWidget.js:273
+#: amd/ngw-resource/CompositeWidget.js:258
 msgid "Validation failed"
 msgstr "Validazione fallita"
 
@@ -330,48 +331,41 @@ msgstr "Modifica"
 msgid "Select resource"
 msgstr "Seleziona la risorsa"
 
-#: amd/ngw-resource/ResourcesFilter/ResourcesFilter.hbs:5
-msgid "Search"
-msgstr ""
-
-#: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:19
-msgid "Resources not found"
-msgstr ""
-
-#: amd/ngw-resource/ResourcesFilter/ResourcesFilter.js:25
-msgid "Search resources"
-msgstr ""
-
 #: amd/ngw-resource/template/DeleteWidget.hbs:7
 msgid "Confirm deletion of the resource"
 msgstr "Conferma l'eliminazione della risorsa"
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:3
+#: nodepkg/export-settings/ExportSettings.js:40
 msgid ""
 "Select the category of users who can use the \"Save as\" link to download "
 "resource data."
 msgstr ""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:8
+#: nodepkg/export-settings/ExportSettings.js:47
 msgid "Users with \"Data: Read\" permission"
 msgstr ""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:9
+#: nodepkg/export-settings/ExportSettings.js:48
 msgid "Users with \"Data: Write\" permission"
 msgstr ""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:10
+#: nodepkg/export-settings/ExportSettings.js:49
 msgid "Administrators"
 msgstr ""
 
 #: amd/ngw-resource/template/ResourceExportForm.hbs:17
+#: nodepkg/export-settings/ExportSettings.js:68
 msgid ""
 "* This will not affect REST API use which will continue to be governed by "
 "permissions."
 msgstr ""
 
-#: amd/ngw-resource/template/Widget.hbs:8 template/section_children.mako:142
-#: template/section_summary.mako:6
+#: amd/ngw-resource/template/Widget.hbs:8
+#: nodepkg/children-section/ChildrenSection.js:69 template/section_summary.mako:6
 msgid "Display name"
 msgstr "Nome visualizzato"
 
@@ -384,27 +378,39 @@ msgstr "Nome della chiave"
 msgid "Parent"
 msgstr "Padre (origine)"
 
-#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:144
-#: template/section_summary.mako:44
+#: amd/ngw-resource/template/Widget.hbs:23
+#: nodepkg/children-section/ChildrenSection.js:90 template/section_summary.mako:44
 msgid "Owner"
 msgstr "Proprietario"
 
-#: amd/ngw-resource/template/Widget.hbs:28 template/section_children.mako:143
-#: template/section_summary.mako:36
+#: amd/ngw-resource/template/Widget.hbs:28
+#: nodepkg/children-section/ChildrenSection.js:83 template/section_summary.mako:36
 msgid "Type"
 msgstr "Tipo"
+
+#: nodepkg/children-section/ChildrenSection.js:98
+msgid "Volume"
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:121
+msgid "Show resources volume"
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:124
+msgid "Hide resources volume"
+msgstr ""
+
+#: nodepkg/resources-filter/ResourcesFilter.js:104
+msgid "Resources not found"
+msgstr ""
+
+#: nodepkg/resources-filter/ResourcesFilter.js:108
+msgid "Search resources"
+msgstr ""
 
 #: template/section_api.mako:4
 msgid "Use these links to plug data into external applications."
 msgstr "Utilizza questi link per utilizzare i dati in applicazioni esterne."
-
-#: template/section_children.mako:128
-msgid "Show resources volume"
-msgstr ""
-
-#: template/section_children.mako:145
-msgid "Volume"
-msgstr ""
 
 #: template/section_description.mako:4
 msgid "Resource description is empty."

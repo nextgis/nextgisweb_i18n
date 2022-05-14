@@ -22,25 +22,53 @@ msgstr "Administrateur"
 msgid "Owner"
 msgstr "Propriétaire"
 
-#: __init__.py:266
+#: __init__.py:270
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Le nombre maximum d'utilisateurs est atteint. La limite actuelle du nombre "
 "d'utilisateurs de votre plan est de %d."
 
-#: api.py:213
-#, fuzzy
-msgid "System principals couldn't be chanded."
-msgstr "Il est impossible de changer les principes du système."
+#: api.py:282
+#, python-format
+msgid "The '%s' attribute of the system principal can't be changed."
+msgstr ""
 
-#: api.py:227
+#: api.py:291
+#, python-format
+msgid "Principal '%s' already exists."
+msgstr ""
+
+#: api.py:293
+#, python-format
+msgid "Principal with full name '%s' already exists."
+msgstr ""
+
+#: api.py:329
+#, python-format
+msgid "User '%s' can't be a member of a group."
+msgstr ""
+
+#: api.py:335
+msgid "System principals can't be deleted."
+msgstr ""
+
+#: api.py:351
 msgid "User is referenced with resources"
 msgstr "L'utilisateur est référencé avec des ressources"
 
-#: api.py:228
+#: api.py:352
 msgid "Group is referenced with resources"
 msgstr "Le groupe est référencé avec des ressources"
+
+#: api.py:364
+#, python-format
+msgid "Invalid principal name: '%s'."
+msgstr ""
+
+#: api.py:399
+msgid "The 'administrators' group must have at least one enabled member."
+msgstr ""
 
 #: exception.py:7
 msgid "Invalid authorization header"
@@ -54,156 +82,71 @@ msgstr "Identifiants non valides"
 msgid "User is disabled"
 msgstr "L'utilisateur est désactivé"
 
-#: oauth.py:122
+#: oauth.py:124
 msgid "User is already bound"
 msgstr "L'utilisateur est déjà lié"
 
-#: oauth.py:324
+#: oauth.py:349
 msgid "OAuth authorization error"
 msgstr "Erreur d'autorisation OAuth"
 
-#: oauth.py:329
+#: oauth.py:354
 msgid "Invalid OAuth token"
 msgstr "Token OAuth non valide"
 
-#: oauth.py:334
+#: oauth.py:359
+msgid "Invalid OAuth scope"
+msgstr ""
+
+#: oauth.py:364
 msgid "OAuth token refresh failed"
 msgstr "Échec de l'actualisation du token OAuth"
 
-#: oauth.py:339
+#: oauth.py:369
 msgid "OAuth access token is expired"
 msgstr "Token d'accès OAuth a expiré"
 
-#: views.py:63
+#: views.py:93
 msgid "Session not found."
 msgstr "Session introuvable"
 
-#: views.py:68
+#: views.py:98
 msgid "Invalid 'expires' parameter."
 msgstr "Paramètre 'expire' non valide."
 
-#: views.py:70
+#: views.py:101
 msgid "Session expired."
 msgstr "La session a expiré."
 
-#: views.py:227
+#: views.py:233
 msgid "User settings"
 msgstr "Paramètres utilisateur"
 
-#: views.py:300
-msgid "Group name is not unique."
-msgstr "Le nom du groupe n'est pas unique."
-
-#: views.py:338
-msgid "Create new group"
-msgstr "Créer un nouveau groupe"
-
-#: views.py:389
-#, fuzzy
-msgid "Login is not unique."
-msgstr "Connexion est pas unique"
-
-#: views.py:404
-msgid ""
-"You can't disable current administrator. At least one enabled administrator "
-"is required."
-msgstr ""
-"Vous ne pouvez pas désactiver l'administrateur actuel. Au moins un "
-"administrateur activé est requis."
-
-#: views.py:448
-msgid "Create new user"
-msgstr "Créer un nouvel utilisateur"
-
-#: views.py:481 views.py:546
+#: views.py:240 views.py:353
 msgid "Users"
 msgstr "Utilisateurs"
 
-#: views.py:491 views.py:549
+#: views.py:253
+msgid "Create new user"
+msgstr "Créer un nouvel utilisateur"
+
+#: views.py:268 views.py:357
 msgid "Groups"
 msgstr "Groupes"
 
-#: views.py:502 views.py:524
-msgid "List"
-msgstr "Liste"
+#: views.py:281
+msgid "Create new group"
+msgstr "Créer un nouveau groupe"
 
-#: views.py:507 views.py:529
-msgid "Create"
-msgstr "Créer"
+#: views.py:361
+msgid "Groups and users"
+msgstr ""
 
-#: template/group_browse.mako:30 template/user_browse.mako:30 views.py:513
-#: views.py:535
-msgid "Edit"
-msgstr "Éditer"
-
-#: amd/ngw-auth/GroupWidget.js:36
-msgid "Group"
-msgstr "Groupe"
-
-#: amd/ngw-auth/SettingsForm.js:54
-msgid "Saved"
-msgstr "Enregistré"
-
-#: amd/ngw-auth/UserWidget.js:36
-msgid "User"
-msgstr "Utilisateur"
-
-#: amd/ngw-auth/UserWidget.js:45
-msgid "Enter new password here"
-msgstr "Entrez le nouveau mot de passe ici"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:7 amd/ngw-auth/template/UserWidget.hbs:8
-#: template/group_browse.mako:19 template/user_browse.mako:19
-msgid "Full name"
-msgstr "Nom complet"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:13 template/group_browse.mako:20
-msgid "Group name"
-msgstr "Nom de groupe"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:19 amd/ngw-auth/template/UserWidget.hbs:52
-msgid "Description"
-msgstr "Description"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:24
-msgid "Assign at registration"
-msgstr "Attribuer à l'inscription"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:30
-msgid "Group members"
-msgstr "Les membres du groupe"
-
-#: amd/ngw-auth/template/SettingsForm.hbs:13
-#: amd/ngw-auth/template/UserWidget.hbs:30
-msgid "Language"
-msgstr "Langue"
-
-#: amd/ngw-auth/template/UserWidget.hbs:15 template/login.mako:44
-#: template/user_browse.mako:20
-msgid "Login"
-msgstr "Connexion"
-
-#: amd/ngw-auth/template/UserWidget.hbs:23 template/login.mako:47
-msgid "Password"
-msgstr "Mot de passe"
-
-#: amd/ngw-auth/template/UserWidget.hbs:37
-msgid "OAuth subject"
-msgstr "Objet OAuth"
-
-#: amd/ngw-auth/template/UserWidget.hbs:43
-msgid "Disabled"
-msgstr "Désactivé"
-
-#: amd/ngw-auth/template/UserWidget.hbs:59
-msgid "Groups member"
-msgstr "Membre des groupes"
-
-#: nodepkg/browse.js:9
+#: nodepkg/browse.js:9 nodepkg/userMessages.js:5
 msgid "Delete user?"
 msgstr "Supprimer l'utilisateur?"
 
-#: nodepkg/browse.js:9
+#: nodepkg/browse.js:9 nodepkg/groupMessages.js:5
 msgid "Delete group?"
 msgstr "Supprimer le groupe ?"
 
@@ -211,27 +154,139 @@ msgstr "Supprimer le groupe ?"
 msgid "Confirmation"
 msgstr "Confirmation"
 
-#: template/group_browse.mako:31 template/user_browse.mako:31
-msgid "Delete"
-msgstr "Effacer"
+#: nodepkg/groupMessages.js:6
+msgid "Group deleted"
+msgstr ""
 
-#: template/login.mako:13
-msgid "Authorization Required"
-msgstr "Autorisation requise"
+#: nodepkg/userMessages.js:6
+msgid "User deleted"
+msgstr ""
 
-#: template/login.mako:15
-msgid "Sign in to Web GIS"
-msgstr "Se connecter à Web GIS"
+#: nodepkg/group-browse/GroupBrowse.js:8 nodepkg/group-widget/GroupWidget.js:15
+#: nodepkg/user-browse/UserBrowse.js:17 nodepkg/user-widget/UserWidget.js:15
+msgid "Full name"
+msgstr "Nom complet"
 
-#: template/login.mako:27 template/login.mako:37 template/settings.mako:13
+#: nodepkg/group-browse/GroupBrowse.js:14 nodepkg/group-widget/GroupWidget.js:20
+msgid "Group name"
+msgstr "Nom de groupe"
+
+#: nodepkg/group-widget/GroupWidget.js:26
+msgid "Group members"
+msgstr "Les membres du groupe"
+
+#: nodepkg/group-widget/GroupWidget.js:37
+msgid "Assign at registration"
+msgstr "Attribuer à l'inscription"
+
+#: nodepkg/group-widget/GroupWidget.js:42 nodepkg/user-widget/UserWidget.js:58
+msgid "Description"
+msgstr "Description"
+
+#: nodepkg/login-form/LoginForm.js:13
 msgid "Sign in with OAuth"
 msgstr "Se connecter avec OAuth"
 
-#: template/login.mako:53 template/session_invite.mako:14
+#: nodepkg/login-form/LoginForm.js:14 template/login.mako:5
+msgid "Sign in to Web GIS"
+msgstr "Se connecter à Web GIS"
+
+#: nodepkg/login-form/LoginForm.js:15 template/session_invite.mako:17
 msgid "Sign in"
 msgstr "Se connecter"
 
-#: template/settings.mako:15
-msgid "Your account is bound to NextGIS ID account"
-msgstr "Votre compte est lié au compte NextGIS ID"
+#: nodepkg/login-form/LoginForm.js:27 nodepkg/user-browse/UserBrowse.js:23
+#: nodepkg/user-widget/UserWidget.js:20
+msgid "Login"
+msgstr "Connexion"
+
+#: nodepkg/login-form/LoginForm.js:32 nodepkg/user-widget/UserWidget.js:26
+msgid "Password"
+msgstr "Mot de passe"
+
+#: nodepkg/settings-form/SettingsForm.js:16 nodepkg/user-widget/UserWidget.js:47
+msgid "Language"
+msgstr "Langue"
+
+#: nodepkg/settings-form/SettingsForm.js:41
+msgid "Saved"
+msgstr "Enregistré"
+
+#: nodepkg/user-browse/UserBrowse.js:10 nodepkg/user-widget/UserWidget.js:35
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: nodepkg/user-browse/UserBrowse.js:11
+msgid "Enabled"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:29
+msgid "Last activity"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:41
+msgid "Status"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:113
+msgid "Disable"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:113
+msgid "Enable"
+msgstr ""
+
+#: nodepkg/user-widget/UserWidget.js:31
+msgid "Enter new password here"
+msgstr "Entrez le nouveau mot de passe ici"
+
+#: nodepkg/user-widget/UserWidget.js:40
+msgid "Groups member"
+msgstr "Membre des groupes"
+
+#: nodepkg/user-widget/UserWidget.js:53
+msgid "OAuth subject"
+msgstr "Objet OAuth"
+
+#~ msgid "System principals couldn't be chanded."
+#~ msgstr "Il est impossible de changer les principes du système."
+
+#~ msgid "Group name is not unique."
+#~ msgstr "Le nom du groupe n'est pas unique."
+
+#~ msgid "Login is not unique."
+#~ msgstr "Connexion est pas unique"
+
+#~ msgid ""
+#~ "You can't disable current administrator. At"
+#~ " least one enabled administrator is "
+#~ "required."
+#~ msgstr ""
+#~ "Vous ne pouvez pas désactiver "
+#~ "l'administrateur actuel. Au moins un "
+#~ "administrateur activé est requis."
+
+#~ msgid "List"
+#~ msgstr "Liste"
+
+#~ msgid "Create"
+#~ msgstr "Créer"
+
+#~ msgid "Edit"
+#~ msgstr "Éditer"
+
+#~ msgid "Group"
+#~ msgstr "Groupe"
+
+#~ msgid "User"
+#~ msgstr "Utilisateur"
+
+#~ msgid "Delete"
+#~ msgstr "Effacer"
+
+#~ msgid "Authorization Required"
+#~ msgstr "Autorisation requise"
+
+#~ msgid "Your account is bound to NextGIS ID account"
+#~ msgstr "Votre compte est lié au compte NextGIS ID"
 

@@ -1,12 +1,28 @@
-#: api.py:498
+#: __init__.py:150
+msgid "Enabled"
+msgstr ""
+
+#: __init__.py:150
+msgid "Disabled"
+msgstr ""
+
+#: api.py:228
+msgid "Required parameter 'component' is missing."
+msgstr ""
+
+#: api.py:233
+msgid "Invalid component identity."
+msgstr ""
+
+#: api.py:534
 msgid "Your Web GIS at nextgis.com"
 msgstr "Вашите онлайн карти на nextgis.com"
 
-#: exception.py:205 exception.py:266
+#: exception.py:202 exception.py:263
 msgid "Internal server error"
 msgstr "Вътрешна грешка на сървъра"
 
-#: exception.py:206
+#: exception.py:203
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -14,37 +30,37 @@ msgstr ""
 "Сървърът има вътрешна грешка, некоректни настройки или не успя да изпълни "
 "заявката."
 
-#: exception.py:235
+#: exception.py:232
 msgid "Bad request"
 msgstr "Грешна заявка"
 
-#: exception.py:236
+#: exception.py:233
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
 msgstr "Сървърът не може да изпълни заявката, защото в нея има грешка."
 
-#: exception.py:243
+#: exception.py:240
 msgid "Payment required"
 msgstr "Изисква се заплащане"
 
-#: exception.py:244
+#: exception.py:241
 msgid "Access was denied for financial reasons."
 msgstr "Достъп е забранен по финансови причини."
 
-#: exception.py:248
+#: exception.py:245
 msgid "Forbidden"
 msgstr "Забранено"
 
-#: exception.py:249
+#: exception.py:246
 msgid "Access was denied to this resource."
 msgstr "Достъпът до ресурса е забранен."
 
-#: exception.py:253
+#: exception.py:250
 msgid "Page not found"
 msgstr "Страницата не е открита"
 
-#: exception.py:254
+#: exception.py:251
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -53,73 +69,73 @@ msgstr ""
 "адреса или се върнете на началната страница и се опитайте да намерите "
 "исканата страница."
 
-#: exception.py:261
+#: exception.py:258
 msgid "Unprocessable entity"
 msgstr "Обектът не може да е обработен"
 
-#: exception.py:262
+#: exception.py:259
 msgid "Unable to process the contained instructions."
 msgstr "Исканата операция не може да е извършена."
 
-#: exception.py:267
+#: exception.py:264
 msgid ""
 "The server has either erred or is incapable of performing the requested "
 "operation."
 msgstr "Сървърът има грешка или не може да извърши исканата операция."
 
-#: exception.py:274 exception.py:275
+#: exception.py:271 exception.py:272
 msgid "Not implemented"
 msgstr "Не е реализирано"
 
-#: exception.py:279
+#: exception.py:276
 msgid "Service unavailable"
 msgstr "Услугата е недостъпна"
 
-#: exception.py:280
+#: exception.py:277
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "Сървърът не е наличен в момента. Опитайте се отново по-късно."
 
-#: template/header.mako:111 view.py:83
+#: nodepkg/layout/store.js:42 view.py:81
 msgid "Control panel"
 msgstr "Контролен панел"
 
-#: view.py:105 view.py:481
+#: view.py:103 view.py:477
 msgid "System information"
 msgstr "Системна информация"
 
-#: view.py:117 view.py:498
+#: view.py:116 view.py:494
 msgid "Storage"
 msgstr "Памет"
 
-#: view.py:127 view.py:503
+#: view.py:126 view.py:499
 msgid "Backups"
 msgstr "Резервни копия"
 
-#: view.py:142 view.py:487
+#: view.py:142 view.py:483
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
-#: view.py:149 view.py:489
+#: view.py:150 view.py:485
 msgid "Custom CSS"
 msgstr "Персонализиран CSS"
 
-#: view.py:156 view.py:491
+#: view.py:158 view.py:487
 msgid "Custom logo"
 msgstr "Персонализирано лого"
 
-#: view.py:163 view.py:485
+#: view.py:166 view.py:481
 msgid "Web GIS name"
 msgstr "Име на Уеб GIS"
 
-#: view.py:170 view.py:493
+#: view.py:174 view.py:489
 msgid "Home path"
 msgstr "Начална страница"
 
-#: view.py:480
+#: view.py:476
 msgid "Info"
 msgstr "Информация"
 
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:7 view.py:484
+#: nodepkg/layout/Avatar.js:21 view.py:480
 msgid "Settings"
 msgstr "Настройки"
 
@@ -135,66 +151,6 @@ msgstr "Копирано"
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:32
 msgid "Unable to copy"
 msgstr "Копирането е неуспешно"
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:68
-msgid "<a>Contact support</a> for update."
-msgstr "<a>Свържи се с поддръжката</a> за актуализация."
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:72
-msgid "Checking for updates..."
-msgstr "Проверявам актуализации..."
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:74
-msgid "Your {distribution} is up-to-date."
-msgstr "Имате най-актуална версия на {distribution}."
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:79
-msgid "New version of {distribution} is available: {version}."
-msgstr "Нова версия на {distribution} е достъпна: {version}."
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:84
-msgid ""
-"Critical updates are available: {version}. Please consider updating an soon "
-"as possible."
-msgstr ""
-"Има достъпни критични актуализации: {version}. Препоръчваме да ги установите "
-"колкото се може по-бързо."
-
-#: amd/ngw-pyramid/DistInfo/DistInfo.js:114
-msgid "Show details"
-msgstr "Покажи детайли"
-
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:37
-msgid "Technical information"
-msgstr "Техническа информация"
-
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:39
-msgid "Contact support"
-msgstr "Връзка с поддръжката"
-
-#: amd/ngw-pyramid/ErrorCard/ErrorCard.js:41
-msgid "Back to home"
-msgstr "Към началната страница"
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:35 nodepkg/api/error.js:18
-msgid "Network error"
-msgstr "Мрежова грешка"
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:36
-msgid "There is no response from the server or problem connecting to server."
-msgstr "Няма отговор от сървъра или има проблем да се установи връзка с него."
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:37
-msgid "Check network connectivity and try again later."
-msgstr "Проверете съединението и се опитайте отново."
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:45
-msgid "Unexpected server response"
-msgstr "Неочакван отговор на сървъра"
-
-#: amd/ngw-pyramid/ErrorDialog/ErrorDialog.js:46
-msgid "Something went wrong."
-msgstr "Нещо не е наред."
 
 #: amd/ngw-pyramid/NGWPagination/NGWPagination.js:28
 msgid "Backward"
@@ -212,7 +168,7 @@ msgstr "Създайте собствен Уеб GIS чрез nextgis.com"
 msgid "Browser default"
 msgstr "По подразбиране в браузъра"
 
-#: amd/ngw-pyramid/form/RTETextBox.js:61
+#: amd/ngw-pyramid/form/RTETextBox.js:62
 msgid "Rich Text Editor"
 msgstr "Редактор на обогатен текст"
 
@@ -225,11 +181,6 @@ msgid "Create"
 msgstr "Създай"
 
 #: amd/ngw-pyramid/modelWidget/FormMixin.js:39
-#: amd/ngw-pyramid/template/CORSForm.hbs:26
-#: amd/ngw-pyramid/template/CustomCSSForm.hbs:25
-#: amd/ngw-pyramid/template/HomePathForm.hbs:11
-#: amd/ngw-pyramid/template/LogoForm.hbs:22
-#: amd/ngw-pyramid/template/SystemNameForm.hbs:10
 msgid "Save"
 msgstr "Запази"
 
@@ -237,19 +188,55 @@ msgstr "Запази"
 msgid "Delete"
 msgstr "Изтрий"
 
-#: amd/ngw-pyramid/right-menu/RightMenu.js:90
-msgid "Critical updates are available"
-msgstr "Има достъпни критични актуализации"
+#: nodepkg/api/error.js:10 nodepkg/api/error.js:25
+msgid "Something went wrong."
+msgstr "Нещо не е наред."
 
-#: amd/ngw-pyramid/right-menu/RightMenu.js:91
-msgid "Updates are available"
-msgstr "Има достъпни актуализации"
+#: nodepkg/api/error.js:11
+msgid "Unknown API error"
+msgstr "Неизвестна API грешка"
 
-#: amd/ngw-pyramid/right-menu/RightMenu.js:98
-msgid "Click to see what's new"
-msgstr "Натисни да видиш какво ново има"
+#: nodepkg/api/error.js:17
+msgid "There is no response from the server or problem connecting to server."
+msgstr "Няма отговор от сървъра или има проблем да се установи връзка с него."
 
-#: amd/ngw-pyramid/template/CORSForm.hbs:17
+#: nodepkg/api/error.js:18
+msgid "Network error"
+msgstr "Мрежова грешка"
+
+#: nodepkg/api/error.js:19
+msgid "Check network connectivity and try again later."
+msgstr "Проверете съединението и се опитайте отново."
+
+#: nodepkg/api/error.js:26
+msgid "Unexpected server response"
+msgstr "Неочакван отговор на сървъра"
+
+#: nodepkg/api/error.js:41
+msgid "Unexpected error while processing long-running request."
+msgstr ""
+
+#: nodepkg/api/error.js:42
+msgid "Long-running request error"
+msgstr ""
+
+#: nodepkg/api/error.js:49
+msgid "Long-running request was cancelled."
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:35
+msgid "CORS settings updated"
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:42
+msgid "Fix the form errors first"
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:62
+msgid "The value entered is not valid"
+msgstr ""
+
+#: nodepkg/cors-settings/CORSSettings.js:90
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
@@ -258,14 +245,18 @@ msgstr ""
 "използвани от HTTP API на този Уеб GIS в други уебсайтове. Всеки ред да има "
 "само един източник."
 
-#: amd/ngw-pyramid/template/CORSForm.hbs:18
+#: nodepkg/cors-settings/CORSSettings.js:95
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
 "allowed for third-level domains and higher."
 msgstr ""
 
-#: amd/ngw-pyramid/template/CustomCSSForm.hbs:17
+#: nodepkg/custom-css-form/CustomCSSForm.js:33
+msgid "Custom styles saved. Reload the page to get them applied."
+msgstr ""
+
+#: nodepkg/custom-css-form/CustomCSSForm.js:63
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -273,33 +264,116 @@ msgstr ""
 "Въведе персонализирани CSS правила тук. Те ще се използват за предефинирането"
 " на стиловете и изгледа на страниците на Вашия Уеб GIS."
 
-#: amd/ngw-pyramid/template/LogoForm.hbs:12
-msgid "We recommend height of 45 px and width of up to 200 px."
-msgstr "Препоръчваме височина от 45 px и широчина не повече от 200 px."
-
-#: amd/ngw-pyramid/template/LogoForm.hbs:25
-msgid "Cancel"
-msgstr "Откажи"
-
-#: amd/ngw-pyramid/user-avatar/UserAvatar.hbs:8
-msgid "Sign out"
-msgstr "Излез"
-
-#: amd/ngw-pyramid/user-avatar/UserAvatar.js:36
-msgid "Invitation session"
-msgstr "Сесия за поканване"
-
-#: nodepkg/api/error.js:11
-msgid "Unknown API error"
-msgstr "Неизвестна API грешка"
-
-#: nodepkg/api/error.js:25
-msgid "Invalid API response"
-msgstr "Невалиден API отговор"
-
 #: nodepkg/example/translation.js:5
 msgid "Translated text"
 msgstr "Преведен текст"
+
+#: nodepkg/layout/Avatar.js:9
+msgid "Sign in"
+msgstr "Влез"
+
+#: nodepkg/layout/Avatar.js:18
+msgid "Invitation session"
+msgstr "Сесия за поканване"
+
+#: nodepkg/layout/Avatar.js:23
+msgid "Sign out"
+msgstr "Излез"
+
+#: nodepkg/layout/store.js:36
+msgid "Resources"
+msgstr "Ресурси"
+
+#: nodepkg/layout/store.js:49
+msgid "Help"
+msgstr "Помощ"
+
+#: nodepkg/logo-form/LogoForm.js:5
+msgid "We recommend height of 45 px and width of up to 200 px."
+msgstr "Препоръчваме височина от 45 px и широчина не повече от 200 px."
+
+#: nodepkg/storage-summary/StorageSummary.js:82
+msgid "Kind of data"
+msgstr "Тип данни"
+
+#: nodepkg/storage-summary/StorageSummary.js:88
+msgid "Volume"
+msgstr "Обем"
+
+#: nodepkg/storage-summary/StorageSummary.js:104
+msgid "Total"
+msgstr "Общо"
+
+#: nodepkg/storage-summary/StorageSummary.js:109
+msgid "of"
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:124
+#, python-format
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr "Оценяването на използването на памет е приключено в %s и актуализирано в %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:128
+#, python-format
+msgid "Storage usage was fully estimated at %s."
+msgstr "Оценяването на използването на памет е приключено в %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:131
+#, python-format
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr "Използването на памет още не е оценено, но е актуализирано в %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:134
+msgid "Storage usage hasn't been estimated yet."
+msgstr "Използването на памет още не е оценено."
+
+#: nodepkg/storage-summary/StorageSummary.js:139
+msgid "Some changes may be reflected only after full estimation."
+msgstr "Някои промени може да са отразени само след пълно оценяване."
+
+#: nodepkg/storage-summary/StorageSummary.js:162
+msgid "Estimate storage"
+msgstr "Оцени използването на памет"
+
+#: nodepkg/update/index.js:55
+msgid "Critical updates are available"
+msgstr "Има достъпни критични актуализации"
+
+#: nodepkg/update/index.js:56
+msgid "Updates are available"
+msgstr "Има достъпни актуализации"
+
+#: nodepkg/update/index.js:58
+msgid "Click to see what's new"
+msgstr "Натисни да видиш какво ново има"
+
+#: nodepkg/update/sysinfo.js:32
+msgid "Checking for updates..."
+msgstr "Проверявам актуализации..."
+
+#: nodepkg/update/sysinfo.js:35
+msgid ""
+"Critical updates are available: {version}. Please consider updating an soon "
+"as possible."
+msgstr ""
+"Има достъпни критични актуализации: {version}. Препоръчваме да ги установите "
+"колкото се може по-бързо."
+
+#: nodepkg/update/sysinfo.js:36
+msgid "New version of {distribution} is available: {version}."
+msgstr "Нова версия на {distribution} е достъпна: {version}."
+
+#: nodepkg/update/sysinfo.js:37
+msgid "Your {distribution} is up-to-date."
+msgstr "Имате най-актуална версия на {distribution}."
+
+#: nodepkg/update/sysinfo.js:44
+msgid "<a>Contact support</a> for update."
+msgstr "<a>Свържи се с поддръжката</a> за актуализация."
+
+#: nodepkg/update/sysinfo.js:74
+msgid "Show details"
+msgstr "Покажи детайли"
 
 #: template/backup.mako:12
 msgid "Filename"
@@ -313,72 +387,78 @@ msgstr "Времево клеймо (UTC)"
 msgid "Size"
 msgstr "Размер"
 
-#: template/header.mako:38
-msgid "Sign in"
-msgstr "Влез"
-
-#: template/header.mako:106
-msgid "Resources"
-msgstr "Ресурси"
-
-#: template/header.mako:119
-msgid "Help"
-msgstr "Помощ"
-
-#: template/storage.mako:36
-msgid "Kind of data"
-msgstr "Тип данни"
-
-#: template/storage.mako:37
-msgid "Volume"
-msgstr "Обем"
-
-#: template/storage.mako:52
-msgid "Total"
-msgstr "Общо"
-
-#: template/storage.mako:74
-#, python-format
-msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr "Оценяването на използването на памет е приключено в %s и актуализирано в %s."
-
-#: template/storage.mako:77
-#, python-format
-msgid "Storage usage was fully estimated at %s."
-msgstr "Оценяването на използването на памет е приключено в %s."
-
-#: template/storage.mako:79
-#, python-format
-msgid "Storage usage hasn't been estimated yet but was updated at %s."
-msgstr "Използването на памет още не е оценено, но е актуализирано в %s."
-
-#: template/storage.mako:81
-msgid "Storage usage hasn't been estimated yet."
-msgstr "Използването на памет още не е оценено."
-
-#: template/storage.mako:84
-msgid "Some changes may be reflected only after full estimation."
-msgstr "Някои промени може да са отразени само след пълно оценяване."
-
-#: template/storage.mako:103
-msgid "Estimation is in progress..."
-msgstr "Извършва се оценяването..."
-
-#: template/storage.mako:109
-msgid "Estimate storage"
-msgstr "Оцени използването на памет"
-
-#: template/sysinfo.mako:30
+#: template/sysinfo.mako:36
 msgid "Package"
 msgstr "Комплект"
 
-#: template/sysinfo.mako:31
+#: template/sysinfo.mako:37
 msgid "Version"
 msgstr "Версия"
 
-#: template/sysinfo.mako:60
+#: template/sysinfo.mako:72
 msgid "Platform"
 msgstr "Платформа"
+
+#: template/uacompat.mako:4
+msgid "Browser compatibility test"
+msgstr ""
+
+#: template/uacompat.mako:23
+#, python-format
+msgid "%(name)s %(current)s supported"
+msgstr ""
+
+#: template/uacompat.mako:24
+msgid ""
+"Web GIS browser compatibility test has been passed! The Web GIS should work "
+"fine."
+msgstr ""
+
+#: template/uacompat.mako:27
+#, python-format
+msgid "%(name)s not supported"
+msgstr ""
+
+#: template/uacompat.mako:28
+#, python-format
+msgid ""
+"You're using %(name)s although it's not supported by the Web GIS. It's an "
+"outdated browser lacking required features. Try a different browser or "
+"contact your system administrator if another browser isn't available."
+msgstr ""
+
+#: template/uacompat.mako:30
+#, python-format
+msgid "%(name)s %(current)s not supported"
+msgstr ""
+
+#: template/uacompat.mako:31
+#, python-format
+msgid ""
+"You're using %(name)s %(current)s although it's not supported by the Web GIS."
+" It's an outdated version lacking required features. Contact your system "
+"administrator for upgrading to %(name)s %(required)s+ or try a different "
+"browser."
+msgstr ""
+
+#: template/uacompat.mako:35
+msgid ""
+"If you still want to continue using the current browser, click the link below"
+" to bypass the compatibility test. The Web GIS or some features may degrade "
+"or fail  in this case."
+msgstr ""
+
+#: template/uacompat.mako:36
+msgid "I understood but want to proceed at my own risk. Skip the test!"
+msgstr ""
+
+#: template/uacompat.mako:38
+msgid "Unknown browser"
+msgstr ""
+
+#: template/uacompat.mako:39
+msgid "If you are using an up-to-date browser the Web GIS should be fine."
+msgstr ""
 
 #~ msgid ""
 #~ "Please note that different protocols (HTTP"
@@ -390,4 +470,22 @@ msgstr "Платформа"
 #~ "(HTTP и HTTPS) и поддомейни (example.com "
 #~ "и www.example.com) са различни източници. "
 #~ "Символът за съвпадение (*) е недопустим."
+
+#~ msgid "Technical information"
+#~ msgstr "Техническа информация"
+
+#~ msgid "Contact support"
+#~ msgstr "Връзка с поддръжката"
+
+#~ msgid "Back to home"
+#~ msgstr "Към началната страница"
+
+#~ msgid "Cancel"
+#~ msgstr "Откажи"
+
+#~ msgid "Invalid API response"
+#~ msgstr "Невалиден API отговор"
+
+#~ msgid "Estimation is in progress..."
+#~ msgstr "Извършва се оценяването..."
 

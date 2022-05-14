@@ -1,44 +1,66 @@
-#: __init__.py:97
+#: __init__.py:100
 msgid "NextGIS geoinformation system"
 msgstr "Servicio geoinformativo NextGIS"
 
-#: __init__.py:219
+#: __init__.py:225
 msgid "Linux kernel"
 msgstr "Núcleo Linux"
 
-#: __init__.py:222
+#: __init__.py:228
 msgid "OS distribution"
 msgstr "OS distribución"
 
-#: __init__.py:234
+#: __init__.py:240
 msgid "CPU"
 msgstr "CPU"
 
-#: __init__.py:238
+#: __init__.py:244
 msgid "RAM"
 msgstr "RAM"
 
-#: exception.py:90
+#: exception.py:85
 msgid "Validation error"
 msgstr "Error de validación"
 
-#: exception.py:95
+#: exception.py:90
 msgid "Forbidden"
 msgstr "Prohibido"
 
-#: exception.py:100
+#: exception.py:95
 msgid "Insufficient permissions"
 msgstr "Permisos insuficientes"
 
-#: exception.py:105
+#: exception.py:100
 msgid "Operational error"
 msgstr "Error operacional"
 
-#: exception.py:110
+#: exception.py:105
 msgid "External service error"
 msgstr "Error de servicio externo"
 
-#: storage.py:222
+#: storage.py:258
+msgid "Storage full"
+msgstr "Almacenamiento lleno"
+
+#: storage.py:259
+#, python-format
+msgid ""
+"This operation can't be performed because the storage limit (%s) has been "
+"already exceeded by %s."
+msgstr ""
+
+#: storage.py:267
+msgid "Not enough storage"
+msgstr "No hay suficiente almacenamiento"
+
+#: storage.py:268
+#, python-format
+msgid ""
+"This operation requires %s of storage and can't be performed because only %s "
+"available."
+msgstr ""
+
+#: storage.py:276
 msgid "Estimation is already running"
 msgstr "Estimación ya se está ejecutando"
 

@@ -22,23 +22,52 @@ msgstr "Administrátor"
 msgid "Owner"
 msgstr "Majitel"
 
-#: __init__.py:266
+#: __init__.py:270
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Bylo dosaženo maximálního počtu uživatelů. Váš aktuální limit počtu uživatelů"
 " plánu je %d."
 
-#: api.py:213
-msgid "System principals couldn't be chanded."
-msgstr "Systémové principy nelze změnit."
+#: api.py:282
+#, python-format
+msgid "The '%s' attribute of the system principal can't be changed."
+msgstr ""
 
-#: api.py:227
+#: api.py:291
+#, python-format
+msgid "Principal '%s' already exists."
+msgstr ""
+
+#: api.py:293
+#, python-format
+msgid "Principal with full name '%s' already exists."
+msgstr ""
+
+#: api.py:329
+#, python-format
+msgid "User '%s' can't be a member of a group."
+msgstr ""
+
+#: api.py:335
+msgid "System principals can't be deleted."
+msgstr ""
+
+#: api.py:351
 msgid "User is referenced with resources"
 msgstr ""
 
-#: api.py:228
+#: api.py:352
 msgid "Group is referenced with resources"
+msgstr ""
+
+#: api.py:364
+#, python-format
+msgid "Invalid principal name: '%s'."
+msgstr ""
+
+#: api.py:399
+msgid "The 'administrators' group must have at least one enabled member."
 msgstr ""
 
 #: exception.py:7
@@ -53,155 +82,71 @@ msgstr "Neplatná pověření"
 msgid "User is disabled"
 msgstr "Uživatel je deaktivován"
 
-#: oauth.py:122
+#: oauth.py:124
 msgid "User is already bound"
 msgstr "Uživatel je již vázán"
 
-#: oauth.py:324
+#: oauth.py:349
 msgid "OAuth authorization error"
 msgstr "Chyba autorizace OAuth"
 
-#: oauth.py:329
+#: oauth.py:354
 msgid "Invalid OAuth token"
 msgstr "Neplatný token OAuth"
 
-#: oauth.py:334
+#: oauth.py:359
+msgid "Invalid OAuth scope"
+msgstr ""
+
+#: oauth.py:364
 msgid "OAuth token refresh failed"
 msgstr "Obnovení tokenu OAuth se nezdařilo"
 
-#: oauth.py:339
+#: oauth.py:369
 msgid "OAuth access token is expired"
 msgstr "OAuth přístupový token vypršel"
 
-#: views.py:63
+#: views.py:93
 msgid "Session not found."
 msgstr "Relace nebyla nalezena."
 
-#: views.py:68
+#: views.py:98
 msgid "Invalid 'expires' parameter."
 msgstr "Neplatný parametr „vyprší“."
 
-#: views.py:70
+#: views.py:101
 msgid "Session expired."
 msgstr "Relace vypršela."
 
-#: views.py:227
+#: views.py:233
 msgid "User settings"
 msgstr "Uživatelské nastavení"
 
-#: views.py:300
-msgid "Group name is not unique."
-msgstr "Název skupiny není jedinečný."
-
-#: views.py:338
-msgid "Create new group"
-msgstr "Vytvořit novou skupinu"
-
-#: views.py:389
-msgid "Login is not unique."
-msgstr "Login není jedinečný."
-
-#: views.py:404
-msgid ""
-"You can't disable current administrator. At least one enabled administrator "
-"is required."
-msgstr ""
-"Aktuálního administrátora nelze deaktivovat. Je vyžadován alespoň jeden "
-"povolený administrátor."
-
-#: views.py:448
-msgid "Create new user"
-msgstr "Vytvořit nového uživatele"
-
-#: views.py:481 views.py:546
+#: views.py:240 views.py:353
 msgid "Users"
 msgstr "Uživatelé"
 
-#: views.py:491 views.py:549
+#: views.py:253
+msgid "Create new user"
+msgstr "Vytvořit nového uživatele"
+
+#: views.py:268 views.py:357
 msgid "Groups"
 msgstr "Skupiny"
 
-#: views.py:502 views.py:524
-msgid "List"
-msgstr "Seznam"
+#: views.py:281
+msgid "Create new group"
+msgstr "Vytvořit novou skupinu"
 
-#: views.py:507 views.py:529
-msgid "Create"
-msgstr "Vytvořit"
+#: views.py:361
+msgid "Groups and users"
+msgstr ""
 
-#: template/group_browse.mako:30 template/user_browse.mako:30 views.py:513
-#: views.py:535
-msgid "Edit"
-msgstr "Upravit"
-
-#: amd/ngw-auth/GroupWidget.js:36
-msgid "Group"
-msgstr "Skupina"
-
-#: amd/ngw-auth/SettingsForm.js:54
-msgid "Saved"
-msgstr "Uloženo"
-
-#: amd/ngw-auth/UserWidget.js:36
-msgid "User"
-msgstr "Uživatel"
-
-#: amd/ngw-auth/UserWidget.js:45
-msgid "Enter new password here"
-msgstr "Zde zadejte nové heslo"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:7 amd/ngw-auth/template/UserWidget.hbs:8
-#: template/group_browse.mako:19 template/user_browse.mako:19
-msgid "Full name"
-msgstr "Celé jméno"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:13 template/group_browse.mako:20
-msgid "Group name"
-msgstr "Jméno skupiny"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:19 amd/ngw-auth/template/UserWidget.hbs:52
-msgid "Description"
-msgstr "Popis"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:24
-msgid "Assign at registration"
-msgstr "Přiřadit při registraci"
-
-#: amd/ngw-auth/template/GroupWidget.hbs:30
-msgid "Group members"
-msgstr "Členové skupiny"
-
-#: amd/ngw-auth/template/SettingsForm.hbs:13
-#: amd/ngw-auth/template/UserWidget.hbs:30
-msgid "Language"
-msgstr "Jazyk"
-
-#: amd/ngw-auth/template/UserWidget.hbs:15 template/login.mako:44
-#: template/user_browse.mako:20
-msgid "Login"
-msgstr "Login"
-
-#: amd/ngw-auth/template/UserWidget.hbs:23 template/login.mako:47
-msgid "Password"
-msgstr "Heslo"
-
-#: amd/ngw-auth/template/UserWidget.hbs:37
-msgid "OAuth subject"
-msgstr "Předmět OAuth"
-
-#: amd/ngw-auth/template/UserWidget.hbs:43
-msgid "Disabled"
-msgstr "Invalidní"
-
-#: amd/ngw-auth/template/UserWidget.hbs:59
-msgid "Groups member"
-msgstr "Člen skupin"
-
-#: nodepkg/browse.js:9
+#: nodepkg/browse.js:9 nodepkg/userMessages.js:5
 msgid "Delete user?"
 msgstr ""
 
-#: nodepkg/browse.js:9
+#: nodepkg/browse.js:9 nodepkg/groupMessages.js:5
 msgid "Delete group?"
 msgstr ""
 
@@ -209,27 +154,136 @@ msgstr ""
 msgid "Confirmation"
 msgstr ""
 
-#: template/group_browse.mako:31 template/user_browse.mako:31
-msgid "Delete"
+#: nodepkg/groupMessages.js:6
+msgid "Group deleted"
 msgstr ""
 
-#: template/login.mako:13
-msgid "Authorization Required"
-msgstr "Vyžadována autorizace"
+#: nodepkg/userMessages.js:6
+msgid "User deleted"
+msgstr ""
 
-#: template/login.mako:15
-msgid "Sign in to Web GIS"
-msgstr "Přihlaste se do Web GIS"
+#: nodepkg/group-browse/GroupBrowse.js:8 nodepkg/group-widget/GroupWidget.js:15
+#: nodepkg/user-browse/UserBrowse.js:17 nodepkg/user-widget/UserWidget.js:15
+msgid "Full name"
+msgstr "Celé jméno"
 
-#: template/login.mako:27 template/login.mako:37 template/settings.mako:13
+#: nodepkg/group-browse/GroupBrowse.js:14 nodepkg/group-widget/GroupWidget.js:20
+msgid "Group name"
+msgstr "Jméno skupiny"
+
+#: nodepkg/group-widget/GroupWidget.js:26
+msgid "Group members"
+msgstr "Členové skupiny"
+
+#: nodepkg/group-widget/GroupWidget.js:37
+msgid "Assign at registration"
+msgstr "Přiřadit při registraci"
+
+#: nodepkg/group-widget/GroupWidget.js:42 nodepkg/user-widget/UserWidget.js:58
+msgid "Description"
+msgstr "Popis"
+
+#: nodepkg/login-form/LoginForm.js:13
 msgid "Sign in with OAuth"
 msgstr "Přihlaste se s pomocí OAuth"
 
-#: template/login.mako:53 template/session_invite.mako:14
+#: nodepkg/login-form/LoginForm.js:14 template/login.mako:5
+msgid "Sign in to Web GIS"
+msgstr "Přihlaste se do Web GIS"
+
+#: nodepkg/login-form/LoginForm.js:15 template/session_invite.mako:17
 msgid "Sign in"
 msgstr "Přihlaste"
 
-#: template/settings.mako:15
-msgid "Your account is bound to NextGIS ID account"
-msgstr "Váš účet je vázán na účet NextGIS ID"
+#: nodepkg/login-form/LoginForm.js:27 nodepkg/user-browse/UserBrowse.js:23
+#: nodepkg/user-widget/UserWidget.js:20
+msgid "Login"
+msgstr "Login"
+
+#: nodepkg/login-form/LoginForm.js:32 nodepkg/user-widget/UserWidget.js:26
+msgid "Password"
+msgstr "Heslo"
+
+#: nodepkg/settings-form/SettingsForm.js:16 nodepkg/user-widget/UserWidget.js:47
+msgid "Language"
+msgstr "Jazyk"
+
+#: nodepkg/settings-form/SettingsForm.js:41
+msgid "Saved"
+msgstr "Uloženo"
+
+#: nodepkg/user-browse/UserBrowse.js:10 nodepkg/user-widget/UserWidget.js:35
+msgid "Disabled"
+msgstr "Invalidní"
+
+#: nodepkg/user-browse/UserBrowse.js:11
+msgid "Enabled"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:29
+msgid "Last activity"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:41
+msgid "Status"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:113
+msgid "Disable"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.js:113
+msgid "Enable"
+msgstr ""
+
+#: nodepkg/user-widget/UserWidget.js:31
+msgid "Enter new password here"
+msgstr "Zde zadejte nové heslo"
+
+#: nodepkg/user-widget/UserWidget.js:40
+msgid "Groups member"
+msgstr "Člen skupin"
+
+#: nodepkg/user-widget/UserWidget.js:53
+msgid "OAuth subject"
+msgstr "Předmět OAuth"
+
+#~ msgid "System principals couldn't be chanded."
+#~ msgstr "Systémové principy nelze změnit."
+
+#~ msgid "Group name is not unique."
+#~ msgstr "Název skupiny není jedinečný."
+
+#~ msgid "Login is not unique."
+#~ msgstr "Login není jedinečný."
+
+#~ msgid ""
+#~ "You can't disable current administrator. At"
+#~ " least one enabled administrator is "
+#~ "required."
+#~ msgstr ""
+#~ "Aktuálního administrátora nelze deaktivovat. Je"
+#~ " vyžadován alespoň jeden povolený "
+#~ "administrátor."
+
+#~ msgid "List"
+#~ msgstr "Seznam"
+
+#~ msgid "Create"
+#~ msgstr "Vytvořit"
+
+#~ msgid "Edit"
+#~ msgstr "Upravit"
+
+#~ msgid "Group"
+#~ msgstr "Skupina"
+
+#~ msgid "User"
+#~ msgstr "Uživatel"
+
+#~ msgid "Authorization Required"
+#~ msgstr "Vyžadována autorizace"
+
+#~ msgid "Your account is bound to NextGIS ID account"
+#~ msgstr "Váš účet je vázán na účet NextGIS ID"
 

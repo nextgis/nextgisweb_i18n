@@ -1,52 +1,35 @@
-#: amd/ngw-audit/JournalFilter/JournalFilter.hbs:17
-msgid "Search"
-msgstr "Buscar"
+#: api.py:20
+msgid "Coordinate system name is not unique."
+msgstr "El nombre del sistema de coordenadas no es único."
 
-#: views.py:467 views.py:489
-msgid "List"
-msgstr "Lista"
+#: api.py:63
+msgid "Cannot change wkt definition of standard coordinate system."
+msgstr "No se puede cambiar la definición de wkt del sistema de coordenadas estándar."
 
-#: views.py:472 views.py:494
-msgid "Create"
-msgstr "Crear"
+#: api.py:79
+msgid "Unable to delete standard coordinate system."
+msgstr "No se puede eliminar el sistema de coordenadas estándar."
 
-#: views.py:478 views.py:500
-msgid "Edit"
-msgstr "Editar"
-
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:98
-msgid "Delete"
-msgstr "Eliminar"
-
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:66
-msgid "Display name"
-msgstr "Nombre para mostrar"
-
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:53
-msgid "Format"
-msgstr "Formato"
-
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:43
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: api.py:41
+#: api.py:91
 msgid "Invalid SRS definition!"
 msgstr "¡Definición de SRS no válida!"
 
-#: api.py:140
+#: api.py:201
+#, python-format
 msgid "Coordinate system (id=%d) already exists."
 msgstr "El sistema de coordenadas (id=%d) ya existe."
 
-#: util.py:43
+#: util.py:39
+#, python-format
 msgid "Invalid MapInfo spatial reference system: %s"
 msgstr "Sistema de referencia espacial MapInfo no válido: %s"
 
-#: util.py:72
+#: util.py:60
+#, python-format
 msgid "Unknown spatial reference system format: %s!"
 msgstr "¡Formato del sistema de referencia espacial desconocido: %s!"
 
-#: util.py:82
+#: util.py:70
 msgid "Invalid OGC WKT definition!"
 msgstr "¡Definición de OGC WKT no válida!"
 
@@ -54,81 +37,109 @@ msgstr "¡Definición de OGC WKT no válida!"
 msgid "Spatial reference system catalog"
 msgstr "Catálogo de sistemas de referencia espacial"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:6
+#: views.py:34
 msgid "Spatial reference system"
 msgstr "Sistema de referencia espacial"
 
-#: views.py:51 views.py:127
-msgid "Unable to delete standard coordinate system."
-msgstr "No se puede eliminar el sistema de coordenadas estándar."
-
-#: views.py:76
-msgid "Coordinate system name is not unique."
-msgstr "El nombre del sistema de coordenadas no es único."
-
-#: views.py:83
-msgid "Cannot change wkt definition of standard coordinate system."
-msgstr "No se puede cambiar la definición de wkt del sistema de coordenadas estándar."
-
-#: views.py:109
-msgid "Create new Spatial reference system"
-msgstr "Crear un nuevo Sistema de referencia espacial"
-
-#: views.py:156 views.py:202
+#: views.py:44 views.py:119
 msgid "Spatial reference systems"
 msgstr "Sistemas de referencia espacial"
 
-#: views.py:178
+#: views.py:57
+msgid "Create new Spatial reference system"
+msgstr "Crear un nuevo Sistema de referencia espacial"
+
+#: views.py:84
+msgid "List"
+msgstr "Lista"
+
+#: views.py:89
+msgid "Create"
+msgstr "Crear"
+
+#: views.py:95
 msgid "Catalog"
 msgstr "Catálogo"
 
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:38
-#: amd/ngw-spatial-ref-sys/template/SRSWidget.hbs:24
-msgid "Import definition"
-msgstr "Importar definición"
+#: views.py:101
+msgid "Edit"
+msgstr "Editar"
 
-#: amd/ngw-spatial-ref-sys/SRSImportDialog.js:68
-msgid "Definition"
-msgstr "Definición"
+#: views.py:109
+msgid "Delete"
+msgstr "Eliminar"
 
-#: amd/ngw-spatial-ref-sys/catalog_browse.js:54
-msgid "Longitude and latitude must be specified at the same time."
-msgstr "La longitud y la latitud deben especificarse al mismo tiempo."
+#: nodepkg/srsMessages.js:5
+msgid "Delete SRS?"
+msgstr ""
 
-#: amd/ngw-spatial-ref-sys/catalog_browse.js:83
-msgid "View"
-msgstr "Vista"
+#: nodepkg/srsMessages.js:6
+msgid "SRS deleted"
+msgstr ""
 
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:19
-#: amd/ngw-spatial-ref-sys/template/SRSWidget.hbs:16
-msgid "OGC WKT definition"
-msgstr "Definición de OGC WKT"
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:24
-msgid "View details"
-msgstr "Ver detalles"
-
-#: amd/ngw-spatial-ref-sys/template/CatalogImportForm.hbs:33
-msgid "Import"
-msgstr "Importar"
-
-#: template/catalog_browse.mako:29
-msgid "Latitude"
-msgstr "Latitud"
-
-#: template/catalog_browse.mako:31
-msgid "Longitude"
-msgstr "Longitud"
-
-#: template/catalog_browse.mako:42 template/srs_browse.mako:25
+#: nodepkg/catalog-browse/CatalogBrowse.js:90 nodepkg/srs-browse/SrsBrowse.js:9
 msgid "SRS name"
 msgstr "Nombre de SRS"
 
-#: template/catalog_browse.mako:43
+#: nodepkg/catalog-browse/CatalogBrowse.js:96
 msgid "Auth name"
 msgstr "Nombre de la autoridad"
 
-#: template/catalog_browse.mako:44
+#: nodepkg/catalog-browse/CatalogBrowse.js:102
 msgid "Auth SRID"
 msgstr "SRID de autoridad"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:114
+msgid "View"
+msgstr "Vista"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:131
+msgid "Search"
+msgstr "Buscar"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:146
+msgid "Latitude"
+msgstr "Latitud"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:159
+msgid "Longitude"
+msgstr "Longitud"
+
+#: nodepkg/catalog-import/CatalogImport.js:17 nodepkg/srs-widget/SRSWidget.js:21
+msgid "Display name"
+msgstr "Nombre para mostrar"
+
+#: nodepkg/catalog-import/CatalogImport.js:22 nodepkg/srs-widget/SRSWidget.js:26
+msgid "OGC WKT definition"
+msgstr "Definición de OGC WKT"
+
+#: nodepkg/catalog-import/CatalogImport.js:59
+msgid "The spatial reference system is imported"
+msgstr ""
+
+#: nodepkg/catalog-import/CatalogImport.js:77
+msgid "View details"
+msgstr "Ver detalles"
+
+#: nodepkg/catalog-import/CatalogImport.js:86
+msgid "Import"
+msgstr "Importar"
+
+#: nodepkg/srs-widget/SRSImportForm.js:19
+msgid "Format"
+msgstr "Formato"
+
+#: nodepkg/srs-widget/SRSImportForm.js:30
+msgid "Definition"
+msgstr "Definición"
+
+#: nodepkg/srs-widget/SRSWidget.js:68 nodepkg/srs-widget/SRSWidget.js:84
+msgid "Import definition"
+msgstr "Importar definición"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Longitude and latitude must be specified at the same time."
+#~ msgstr "La longitud y la latitud deben especificarse al mismo tiempo."
 
