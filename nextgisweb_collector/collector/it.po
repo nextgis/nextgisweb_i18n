@@ -1,8 +1,8 @@
-#: scope.py:12
+#: scope.py:8
 msgid "Collector"
 msgstr "Collettore"
 
-#: scope.py:14
+#: scope.py:10
 msgid "Read"
 msgstr "Lettura"
 
@@ -108,96 +108,121 @@ msgstr "Utenti"
 msgid "Collectors"
 msgstr "Collettori"
 
-#: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.hbs:4
-msgid "List of collectors"
-msgstr "Lista di collettori"
-
-#: amd/ngw-collector/settings/CollectorSettings/CollectorSettings.js:45
-msgid "Each collector must be first registered at ${ngid}"
-msgstr "Ogni collettore deve essere prima registrato a ${ngid}"
-
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:12
-msgid "NextGIS ID"
-msgstr "ID NextGIS"
-
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:14
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:108
-msgid "Description"
-msgstr "Descrizione"
-
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.hbs:29
-msgid "Cancel"
-msgstr "Annulla"
-
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:33
-msgid "The NextGIS ID is invalid!"
-msgstr "L'ID NextGIS è invalido!"
-
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:34
-msgid "The NextGIS ID is required!"
+#: api/collector_user.py:31
+msgid "Membership in group \"Administrators\" required!"
 msgstr ""
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:47
-msgid "Edit collector"
-msgstr "Modifica collettore"
+#: api/collector_user.py:93 api/collector_user.py:120
+msgid ""
+"Unfortunately, you cannot add a new collector. Your collector users limit in "
+"the Web GIS is"
+msgstr ""
 
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:48
-msgid "New collector"
-msgstr "Nuovo collettore"
-
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:51
-msgid "Save"
-msgstr "Salva"
-
-#: amd/ngw-collector/settings/CreateCollectorUserDlg/CreateCollectorUserDlg.js:52
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:13
-msgid "Create"
-msgstr "Creazione"
-
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:18
-msgid "Edit"
-msgstr "Modifica"
-
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:23
-msgid "Delete"
-msgstr "Eliminazione"
-
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.hbs:28
-msgid "Search Collector user..."
-msgstr "Cerca l'utente collettore..."
-
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:103
-msgid "Email"
-msgstr "Email"
-
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:113
-msgid "Added"
-msgstr "Aggiunto"
-
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:159
-msgid "Your Collector users limit = 60"
-msgstr "Il tuo limite di utenti collettori = 60"
-
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:186
-msgid "Deleting сollector"
-msgstr "Sto eliminando il collettore"
-
-#: amd/ngw-collector/settings/UsersGrid/UsersGrid.js:187
-msgid "Delete сollector?"
-msgstr "Elimina collettore?"
-
-#: models/model_db.py:41
+#: models/model_db.py:39
 msgid "Collector project"
 msgstr "Progetto collettore"
 
-#: view/settings.py:19
-msgid "NextGIS Collector settings"
-msgstr "Impostazioni dei collettori NextGIS"
+#: nodepkg/userMessages.js:5
+msgid "Delete collector?"
+msgstr ""
 
-#: view/settings.py:25
+#: nodepkg/userMessages.js:6
+msgid "Collector deleted"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.js:16
+#: nodepkg/collector-user-editor/CollectorUserEditor.js:18
+msgid "NextGIS ID"
+msgstr "ID NextGIS"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.js:22
+#: nodepkg/collector-user-editor/CollectorUserEditor.js:25
+msgid "Description"
+msgstr "Descrizione"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.js:28
+msgid "Added"
+msgstr "Aggiunto"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.js:56
+msgid "You cannot add a new collector. Your collector users limit"
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
+msgid "Collector users:"
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
+msgid "out of"
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:18
+msgid "Each collector must have "
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:19
+msgid "NextGIS ID account"
+msgstr ""
+
+#: nodepkg/fields-form/NgIdTextBox.js:9
+msgid "The value entered is not valid"
+msgstr ""
+
+#: views/__init__.py:18
 msgid "Collector projects"
 msgstr "Progetti collettori"
 
+#: views/settings.py:11
+msgid "List of collectors"
+msgstr "Lista di collettori"
+
+#: views/settings.py:24
+msgid "Create new collector"
+msgstr ""
+
+#: views/settings.py:31
+msgid "Edit collector"
+msgstr "Modifica collettore"
+
 #~ msgid "Your Collector users limit = 60"
 #~ msgstr "Il tuo limite di utenti collettori = 60"
+
+#~ msgid "Each collector must be first registered at ${ngid}"
+#~ msgstr "Ogni collettore deve essere prima registrato a ${ngid}"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "The NextGIS ID is invalid!"
+#~ msgstr "L'ID NextGIS è invalido!"
+
+#~ msgid "New collector"
+#~ msgstr "Nuovo collettore"
+
+#~ msgid "Save"
+#~ msgstr "Salva"
+
+#~ msgid "Create"
+#~ msgstr "Creazione"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+
+#~ msgid "Delete"
+#~ msgstr "Eliminazione"
+
+#~ msgid "Search Collector user..."
+#~ msgstr "Cerca l'utente collettore..."
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Deleting сollector"
+#~ msgstr "Sto eliminando il collettore"
+
+#~ msgid "Delete сollector?"
+#~ msgstr "Elimina collettore?"
+
+#~ msgid "NextGIS Collector settings"
+#~ msgstr "Impostazioni dei collettori NextGIS"
 

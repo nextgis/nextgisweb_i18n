@@ -1,79 +1,97 @@
-#: __init__.py:127
+#: lockable_feature.py:57
+msgid "Additional basemaps"
+msgstr ""
+
+#: lockable_feature.py:88
+msgid "Field data collection"
+msgstr ""
+
+#: lockable_feature.py:105
+msgid "Use on other websites (CORS)"
+msgstr ""
+
+#: lockable_feature.py:122
+msgid "Custom domain and branding"
+msgstr ""
+
+#: lockable_feature.py:134
+msgid "Custom SRS"
+msgstr ""
+
+#: lockable_feature.py:145
+msgid "Improved performance"
+msgstr ""
+
+#: lockable_feature.py:152
+msgid "Access management"
+msgstr ""
+
+#: lockable_feature.py:193
 msgid "Editors"
 msgstr ""
 
-#: amd/ngw-ngwcluster/AdditionalMenuLinks.js:22 view.py:8
-msgid "Account"
+#: lockable_feature.py:231
+msgid "Technical support"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:32
-msgid "Resources"
+#: lockable_feature.py:236
+msgid "On-demand backup restore"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:34
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:35
-msgid "Unlimited"
+#: lockable_feature.py:257
+msgid "Tile caching"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:39
-msgid "Users"
+#: lockable_feature.py:290
+msgid "Data editing on web maps"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:46
-msgid "Basemaps"
+#: lockable_feature.py:309
+msgid "Annotations on web maps"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:53
-msgid "CORS"
+#: service_plan.py:102
+msgid "Number of maps and layers"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:60
-msgid "Lookup tables & forms"
+#: service_plan.py:103
+msgid "Storage limit"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:67
-msgid "Support"
+#: service_plan.py:104
+msgid "User limit"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:74
-msgid "Home path"
+#: service_plan.py:109
+msgid "GPS trackers"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:81
-msgid "Private resources"
+#: service_plan.py:120
+msgid "Maximum file upload"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:88
-msgid "Spatial reference systems"
+#: service_plan.py:121
+msgid "Maximum raster layer"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:95
-msgid "Custom domain"
+#: service_plan.py:281
+msgid "Plan upgrade required"
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:102
-msgid "Branding"
+#: service_plan.py:285
+msgid "This is not available on your plan."
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:109
-msgid "Higher performance"
+#: service_plan.py:288
+msgid "{} feature is not available on your plan."
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:116
-msgid "Higher upload size"
+#: service_plan.py:296
+msgid "To use this feature, please upgrade to {}."
 msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:144
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:146
-msgid " of "
-msgstr ""
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:160
-msgid "Unavailable"
-msgstr ""
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:181
-msgid "Total of: Vector layers, Raster layers, PostGIS layers, WMS layers, Web Maps"
+#: nodepkg/include.js:10 nodepkg/upgrade-button/index.js:26 view.py:10
+msgid "Plan and features"
 msgstr ""
 
 #: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
@@ -104,18 +122,6 @@ msgid ""
 "href=\"/auth/user/\">Control panel</a>."
 msgstr ""
 
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "Used"
-msgstr ""
-
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "of"
-msgstr ""
-
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "resources"
-msgstr ""
-
 #: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
 msgid "Upgrade plan"
 msgstr ""
@@ -127,23 +133,35 @@ msgid ""
 "Premium</a>."
 msgstr ""
 
-#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:3
-msgid "Upgrade"
+#: nodepkg/summary.js:17
+msgid "of"
 msgstr ""
 
-#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:10
+#: nodepkg/summary.js:18
+msgid "Available"
+msgstr ""
+
+#: nodepkg/summary.js:19
+msgid "Unavailable"
+msgstr ""
+
+#: nodepkg/summary.js:20
+msgid "Unlimited"
+msgstr ""
+
+#: nodepkg/plan-and-features/index.js:16 nodepkg/upgrade-button/index.js:57
 msgid "Your plan — "
 msgstr ""
 
-#: template/account.mako:53
+#: nodepkg/plan-and-features/index.js:25
 msgid "Change plan"
 msgstr ""
 
-#: template/account.mako:56
-msgid "Your plan"
+#: nodepkg/plan-and-features/index.js:57
+msgid "More about plans"
 msgstr ""
 
-#: template/account.mako:62
-msgid "More about plans"
+#: nodepkg/upgrade-button/index.js:66
+msgid "Upgrade"
 msgstr ""
 

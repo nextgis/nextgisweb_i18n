@@ -1,8 +1,14 @@
-#: model.py:28
+#: __init__.py:16 amd/ngw-tracker/webmap/TrackersPane/TrackersPane.js:37
+#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:55
+#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:65 view/settings.py:55
+msgid "Trackers"
+msgstr "Тракери"
+
+#: model.py:25
 msgid "Trackers group"
 msgstr "Група тракери"
 
-#: model.py:39
+#: model.py:36
 msgid "Tracker"
 msgstr "Тракер"
 
@@ -108,46 +114,6 @@ msgstr "Създай отчет"
 msgid "Please select devices for building the report!"
 msgstr "Изберете устройство за отчет!"
 
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:4
-msgid "Common settings"
-msgstr "Общи настройки"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:10
-msgid "Interval for splitting tracks, min"
-msgstr "Интервал за разделяне на тракове, мин"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:14
-msgid "Stops detecting"
-msgstr "Определяне на спирки"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:20
-msgid "Minimal speed, km/h"
-msgstr "Минимална скорост, км/ч"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:24
-msgid "Minimal time stop, sec"
-msgstr "Минимално време за спирка, сек"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:28
-msgid "Timezone settings"
-msgstr "Настройки на часова зона"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:34
-msgid "Time zone"
-msgstr "Часова зона"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:72
-msgid "Save"
-msgstr "Запази"
-
-#: amd/ngw-tracker/settings/TrackerSettings.js:67
-msgid "Tracker settings has been saved successfully!"
-msgstr "Настройките на тракера са запазени успешно!"
-
-#: amd/ngw-tracker/settings/TrackerSettings.js:69
-msgid "Error, Tracker settings not has been saved!"
-msgstr "Грешка, настройките не са запазени!"
-
 #: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.hbs:3
 msgid "Select date"
 msgstr "Изберете дата"
@@ -160,7 +126,7 @@ msgstr "Няма информация"
 msgid "Last activity by hours"
 msgstr "Последна активност по часове"
 
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:149
+#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:147
 msgid "Count of points per hour"
 msgstr "Брой точки на час"
 
@@ -174,12 +140,6 @@ msgstr "Отвори панел за проследяване"
 #: template/reports.mako:5
 msgid "Reports"
 msgstr "Отчети"
-
-#: amd/ngw-tracker/webmap/TrackersPane/TrackersPane.js:37
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:53
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:63 view/settings.py:57
-msgid "Trackers"
-msgstr "Тракери"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:99
 msgid "Zoom to layer"
@@ -221,17 +181,53 @@ msgstr "Посока"
 msgid "GPS/GLONASS"
 msgstr "GPS/GLONASS"
 
-#: pyramid_tracker/device_type.py:17
+#: nodepkg/tracker-settings/TrackerSettings.js:43
+msgid "Settings saved"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:35
+msgid "Common settings"
+msgstr "Общи настройки"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:41
+msgid "Interval for splitting tracks, min"
+msgstr "Интервал за разделяне на тракове, мин"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:53
+msgid "Stops detecting"
+msgstr "Определяне на спирки"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:59
+msgid "Minimal speed, km/h"
+msgstr "Минимална скорост, км/ч"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:72
+msgid "Minimal time stop, sec"
+msgstr "Минимално време за спирка, сек"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:84
+msgid "Timezone settings"
+msgstr "Настройки на часова зона"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:90
+msgid "Time zone"
+msgstr "Часова зона"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:115
+msgid "Save"
+msgstr "Запази"
+
+#: pyramid_tracker/device_type.py:14
 msgid "NextGIS Tracker Hub is unavailable. Try later, please."
 msgstr "NextGIS Tracker Hub е недостъпен. Опитайте се по-късно."
 
-#: pyramid_tracker/register.py:23 pyramid_tracker/register.py:41
+#: pyramid_tracker/register.py:20 pyramid_tracker/register.py:38
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
 msgstr ""
 "Устройството не е регистрирано в системата за проследяване на NextGIS. "
 "Опитайте се по-късно."
 
-#: pyramid_tracker/register.py:25 pyramid_tracker/register.py:43
+#: pyramid_tracker/register.py:22 pyramid_tracker/register.py:40
 msgid "NextGIS Tracker System is unavailable. Try later, please."
 msgstr ""
 "Няма връзка със системата за проследяване на NextGIS. Опитайте се отново "
@@ -302,7 +298,13 @@ msgstr "Отчет за максимална скорост"
 msgid "Max speed"
 msgstr "Максимална скорост"
 
-#: view/settings.py:20
+#: view/settings.py:18
 msgid "Trackers settings"
 msgstr "Настройки на тракерите"
+
+#~ msgid "Tracker settings has been saved successfully!"
+#~ msgstr "Настройките на тракера са запазени успешно!"
+
+#~ msgid "Error, Tracker settings not has been saved!"
+#~ msgstr "Грешка, настройките не са запазени!"
 

@@ -91,3 +91,11 @@ msgstr ""
 msgid "Logo saved. Reload the page to get them applied."
 msgstr ""
 
+#: nodepkg/single-setting-form/SingleSettingForm.js:9
+msgid "The setting is saved."
+msgstr ""
+
+#: nodepkg/single-setting-form/SingleSettingForm.js:10
+msgid "Reload the page to get them applied."
+msgstr ""
+

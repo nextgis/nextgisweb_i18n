@@ -1,27 +1,3 @@
-#: amd/ngw-cadaster/settings/CadasterSettings.hbs:4
-msgid "Common"
-msgstr "Общи"
-
-#: amd/ngw-cadaster/settings/CadasterSettings.hbs:13
-msgid "API key"
-msgstr "API ключ"
-
-#: amd/ngw-cadaster/settings/CadasterSettings.hbs:21
-msgid "Enabled"
-msgstr "Включен"
-
-#: amd/ngw-cadaster/settings/CadasterSettings.hbs:28
-msgid "Save"
-msgstr "Запази"
-
-#: amd/ngw-cadaster/settings/CadasterSettings.js:56
-msgid "The settings has been saved successfully!"
-msgstr "Настройките са запазени успешно!"
-
-#: amd/ngw-cadaster/settings/CadasterSettings.js:58
-msgid "Error, the settings not has been saved!"
-msgstr "Грешка, настройките не са запазени!"
-
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:24
 msgid "Cadastral number"
 msgstr "Номер в кадастъра"
@@ -154,35 +130,49 @@ msgid "Identification of capital construction objects"
 msgstr "Идентификация на обекта на капитално строителство"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:76
+msgid "Zone with special usage conditions"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
+msgid "Identification of zones with special usage conditions"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:82
 msgid "Cadastral district"
 msgstr "Кадастрален район"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:83
 msgid "Identification of cadastral districts"
 msgstr "Идентификация на кадастрален район"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:83
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:169
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:89
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:175
 msgid "Attributes"
 msgstr "Атрибути"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:99
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:105
 msgid "No data"
 msgstr "Няма данни"
 
-#: api/pkk_request.py:19
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:40
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:135
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:147
+msgid "Wrong cadaster number: "
+msgstr ""
+
+#: api/pkk_request.py:16
 msgid "Cadaster services module error"
 msgstr "Грешка на кадастралния модул"
 
-#: api/pkk_request.py:20
+#: api/pkk_request.py:17
 msgid "Geoservices API is unavailable"
 msgstr "Geoservices API е недостъпен"
 
-#: api/pkk_request.py:25
+#: api/pkk_request.py:22
 msgid "Cadaster services module"
 msgstr "Кадастрален модул"
 
-#: api/pkk_request.py:42
+#: api/pkk_request.py:39
 msgid ""
 "Geoservices API key in cadaster services module not set. Set the Geoservices "
 "API key in the “Cadaster services” section on the Control panel."
@@ -199,11 +189,39 @@ msgstr "Параметърът \"типове\" е задължителен!"
 msgid "Cadaster plot with ID '%(id)s' not found!"
 msgstr "Кадастрален парцел с ID '%(id)s' не е открит!"
 
-#: view/settings.py:11
+#: nodepkg/cadaster-settings/CadasterSettings.js:52
+msgid "Settings saved"
+msgstr ""
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:72
+msgid "API key"
+msgstr "API ключ"
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:85
+msgid "Enable"
+msgstr ""
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:102
+msgid "Save"
+msgstr "Запази"
+
+#: view/settings.py:9
 msgid "Cadaster services settings"
 msgstr "Настройките на кадастър"
 
-#: view/settings.py:17
+#: view/settings.py:15
 msgid "Cadaster services"
 msgstr "Кадастър"
+
+#~ msgid "Common"
+#~ msgstr "Общи"
+
+#~ msgid "Enabled"
+#~ msgstr "Включен"
+
+#~ msgid "The settings has been saved successfully!"
+#~ msgstr "Настройките са запазени успешно!"
+
+#~ msgid "Error, the settings not has been saved!"
+#~ msgstr "Грешка, настройките не са запазени!"
 

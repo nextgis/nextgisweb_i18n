@@ -142,6 +142,8 @@ msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
 msgstr ""
+"Objeto geográfico #%d tiene una geometría que no se puede reproyectar al "
+"sistema de coordenadas de destino"
 
 #: model.py:791
 #, python-format

@@ -71,11 +71,11 @@ msgstr "Eliminar"
 
 #: nodepkg/srsMessages.js:5
 msgid "Delete SRS?"
-msgstr ""
+msgstr "¿Eliminar SRS?"
 
 #: nodepkg/srsMessages.js:6
 msgid "SRS deleted"
-msgstr ""
+msgstr "SRS eliminado"
 
 #: nodepkg/catalog-browse/CatalogBrowse.js:90 nodepkg/srs-browse/SrsBrowse.js:9
 msgid "SRS name"
@@ -115,7 +115,7 @@ msgstr "Definición de OGC WKT"
 
 #: nodepkg/catalog-import/CatalogImport.js:59
 msgid "The spatial reference system is imported"
-msgstr ""
+msgstr "El sistema de referencia espacial ha sido importado"
 
 #: nodepkg/catalog-import/CatalogImport.js:77
 msgid "View details"

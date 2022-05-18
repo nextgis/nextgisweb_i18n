@@ -1,20 +1,20 @@
-#: __init__.py:150
+#: __init__.py:139
 msgid "Enabled"
 msgstr "Habilitado"
 
-#: __init__.py:150
+#: __init__.py:139
 msgid "Disabled"
 msgstr "Deshabilitado"
 
 #: api.py:228
 msgid "Required parameter 'component' is missing."
-msgstr ""
+msgstr "Falta el parámetro requerido 'component'."
 
 #: api.py:233
 msgid "Invalid component identity."
-msgstr ""
+msgstr "Identidad de componente no válida."
 
-#: api.py:534
+#: api.py:538
 msgid "Your Web GIS at nextgis.com"
 msgstr "Tu Web GIS en nextgis.com"
 
@@ -225,15 +225,15 @@ msgstr "Se canceló la solicitud de larga duración."
 
 #: nodepkg/cors-settings/CORSSettings.js:35
 msgid "CORS settings updated"
-msgstr ""
+msgstr "Configuración de CORS actualizada"
 
 #: nodepkg/cors-settings/CORSSettings.js:42
 msgid "Fix the form errors first"
-msgstr ""
+msgstr "Al principio corrige los errores de formulario"
 
 #: nodepkg/cors-settings/CORSSettings.js:62
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "El valor introducido no es válido"
 
 #: nodepkg/cors-settings/CORSSettings.js:90
 msgid ""
@@ -256,6 +256,8 @@ msgstr ""
 #: nodepkg/custom-css-form/CustomCSSForm.js:33
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr ""
+"Estilos personalizados guardados. Vuelva a cargar la página para que se "
+"aplique."
 
 #: nodepkg/custom-css-form/CustomCSSForm.js:63
 msgid ""
@@ -268,6 +270,10 @@ msgstr ""
 #: nodepkg/example/translation.js:5
 msgid "Translated text"
 msgstr "Texto traducido"
+
+#: nodepkg/home-path/HomePath.js:4
+msgid "The home path setting is saved."
+msgstr ""
 
 #: nodepkg/layout/Avatar.js:9
 msgid "Sign in"
@@ -335,6 +341,10 @@ msgstr "Algunos cambios pueden reflejarse solo después de una estimación compl
 #: nodepkg/storage-summary/StorageSummary.js:162
 msgid "Estimate storage"
 msgstr "Estimar almacenamiento"
+
+#: nodepkg/system-name-form/SystemNameForm.js:4
+msgid "The system name setting is saved."
+msgstr ""
 
 #: nodepkg/update/index.js:55
 msgid "Critical updates are available"

@@ -1,103 +1,98 @@
-# Spanish translations for nextgisweb_ngwcluster.
-# Copyright (C) 2021 UNKNOWN
-# This file is distributed under the same license as the
-# nextgisweb_ngwcluster project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
-msgid ""
+#: lockable_feature.py:57
+msgid "Additional basemaps"
 msgstr ""
-"Project-Id-Version: nextgisweb_ngwcluster 0.0+7813861\n"
-"Report-Msgid-Bugs-To: UNKNOWN\n"
-"POT-Creation-Date: 2021-04-26 21:46+0000\n"
-"PO-Revision-Date: 2021-04-26 21:46+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
 
-#: __init__.py:126
+#: lockable_feature.py:88
+msgid "Field data collection"
+msgstr ""
+
+#: lockable_feature.py:105
+msgid "Use on other websites (CORS)"
+msgstr ""
+
+#: lockable_feature.py:122
+msgid "Custom domain and branding"
+msgstr ""
+
+#: lockable_feature.py:134
+msgid "Custom SRS"
+msgstr ""
+
+#: lockable_feature.py:145
+msgid "Improved performance"
+msgstr ""
+
+#: lockable_feature.py:152
+msgid "Access management"
+msgstr ""
+
+#: lockable_feature.py:193
 msgid "Editors"
 msgstr "Editores"
 
-#: amd/ngw-ngwcluster/AdditionalMenuLinks.js:22 view.py:8
-msgid "Account"
-msgstr "Cuenta"
+#: lockable_feature.py:231
+msgid "Technical support"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:34
-msgid "Resources"
-msgstr "Recursos"
+#: lockable_feature.py:236
+msgid "On-demand backup restore"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:36
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:37
-msgid "Unlimited"
-msgstr "Ilimitado"
+#: lockable_feature.py:257
+msgid "Tile caching"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:41
-msgid "Users"
-msgstr "Usuarios"
+#: lockable_feature.py:290
+msgid "Data editing on web maps"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:48
-msgid "Basemaps"
-msgstr "Mapas base"
+#: lockable_feature.py:309
+msgid "Annotations on web maps"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:55
-msgid "CORS"
-msgstr "CORS"
+#: service_plan.py:102
+msgid "Number of maps and layers"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:62
-msgid "Lookup tables & forms"
-msgstr "Tablas de búsqueda y formularios"
+#: service_plan.py:103
+msgid "Storage limit"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:69
-msgid "Support"
-msgstr "Apoyo"
+#: service_plan.py:104
+msgid "User limit"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:76
-msgid "Home path"
-msgstr "Ruta a la página principal"
+#: service_plan.py:109
+msgid "GPS trackers"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:83
-msgid "Private resources"
-msgstr "Recursos privados"
+#: service_plan.py:120
+msgid "Maximum file upload"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:90
-msgid "Spatial reference systems"
-msgstr "Sistemas de referencia espacial"
+#: service_plan.py:121
+msgid "Maximum raster layer"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:97
-msgid "Custom domain"
-msgstr "Dominio personalizado"
+#: service_plan.py:281
+msgid "Plan upgrade required"
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:104
-msgid "Branding"
-msgstr "Marca"
+#: service_plan.py:285
+msgid "This is not available on your plan."
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:111
-msgid "Higher performance"
-msgstr "Mayor rendimiento"
+#: service_plan.py:288
+msgid "{} feature is not available on your plan."
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:118
-msgid "Higher upload size"
-msgstr "Mayor tamaño de carga"
+#: service_plan.py:296
+msgid "To use this feature, please upgrade to {}."
+msgstr ""
 
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:146
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:148
-msgid " of "
-msgstr " de "
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:162
-msgid "Unavailable"
-msgstr "Indisponible"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:183
-msgid ""
-"Total of: Vector layers, Raster layers, PostGIS layers, WMS layers, Web "
-"Maps"
-msgstr "Total de: capas vectoriales, capas ráster, capas PostGIS, capas WMS, mapas web"
+#: nodepkg/include.js:10 nodepkg/upgrade-button/index.js:26 view.py:10
+msgid "Plan and features"
+msgstr ""
 
 #: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
 msgid ""
@@ -106,8 +101,7 @@ msgid ""
 "Premium</a>."
 msgstr ""
 "La gestión de mapas base no está disponible en su plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a Mini o "
-"Premium</a>."
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a Mini o Premium</a>."
 
 #: amd/ngw-ngwcluster/template/CollectorDetail.hbs:2
 msgid ""
@@ -119,42 +113,27 @@ msgstr ""
 
 #: amd/ngw-ngwcluster/template/OtherSettings.hbs:2
 msgid ""
-"<a "
-"href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Online"
-" feature editing</a> and Web map annotations are not available on your "
-"plan.  <a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to "
-"Premium</a>."
+"<a href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Online "
+"feature editing</a> and Web map annotations are not available on your plan.  "
+"<a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
 msgstr ""
-"<a "
-"href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Edición"
-" de objetos geográficos y las anotaciones de mapas web no están disponibles en su "
-"plan.  <a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a "
+"<a href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Edición"
+" de objetos geográficos y las anotaciones de mapas web no están disponibles "
+"en su plan.  <a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a "
 "Premium</a>."
 
 #: amd/ngw-ngwcluster/template/PermissionWidget.hbs:2
 msgid ""
 "Full permission management is not available on your plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to "
-"Premium</a>.<br/> To allow other users edit your data, add them to "
-"\"Editors\" group in <a href=\"/auth/user/\">Control panel</a>."
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>.<br/> "
+"To allow other users edit your data, add them to \"Editors\" group in <a "
+"href=\"/auth/user/\">Control panel</a>."
 msgstr ""
 "La gestión de permisos completa no está disponible en su plan. <a "
 "href=\"http://nextgis.com/nextgis-com/plans/\">Cambiar al plan "
-"Premium</a>.<br/> Para permitir que otros usuarios editen sus datos, agréguelos a "
-"el grupo \"Editores\" en "
-"<a href=\"/auth/user/\">Panel de control</a>."
-
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "Used"
-msgstr "Utilizado"
-
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "of"
-msgstr "de"
-
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "resources"
-msgstr "recursos"
+"Premium</a>.<br/> Para permitir que otros usuarios editen sus datos, "
+"agréguelos a el grupo \"Editores\" en <a href=\"/auth/user/\">Panel de "
+"control</a>."
 
 #: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
 msgid "Upgrade plan"
@@ -170,23 +149,96 @@ msgstr ""
 "href=\"http://nextgis.com/nextgis-com/plans/\">Cambiar al plan Mini o "
 "Premium</a>."
 
-#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:3
-msgid "Upgrade"
-msgstr "Upgrade"
+#: nodepkg/summary.js:17
+msgid "of"
+msgstr "de"
 
-#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:10
+#: nodepkg/summary.js:18
+msgid "Available"
+msgstr ""
+
+#: nodepkg/summary.js:19
+msgid "Unavailable"
+msgstr "Indisponible"
+
+#: nodepkg/summary.js:20
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: nodepkg/plan-and-features/index.js:16 nodepkg/upgrade-button/index.js:57
 msgid "Your plan — "
 msgstr "Tu plan — "
 
-#: template/account.mako:53
+#: nodepkg/plan-and-features/index.js:25
 msgid "Change plan"
 msgstr "Cambio de plan"
 
-#: template/account.mako:56
-msgid "Your plan"
-msgstr "Tu plan"
-
-#: template/account.mako:62
+#: nodepkg/plan-and-features/index.js:57
 msgid "More about plans"
 msgstr "Más sobre planes"
+
+#: nodepkg/upgrade-button/index.js:66
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#~ msgid "Account"
+#~ msgstr "Cuenta"
+
+#~ msgid "Resources"
+#~ msgstr "Recursos"
+
+#~ msgid "Users"
+#~ msgstr "Usuarios"
+
+#~ msgid "Basemaps"
+#~ msgstr "Mapas base"
+
+#~ msgid "CORS"
+#~ msgstr "CORS"
+
+#~ msgid "Lookup tables & forms"
+#~ msgstr "Tablas de búsqueda y formularios"
+
+#~ msgid "Support"
+#~ msgstr "Apoyo"
+
+#~ msgid "Home path"
+#~ msgstr "Ruta a la página principal"
+
+#~ msgid "Private resources"
+#~ msgstr "Recursos privados"
+
+#~ msgid "Spatial reference systems"
+#~ msgstr "Sistemas de referencia espacial"
+
+#~ msgid "Custom domain"
+#~ msgstr "Dominio personalizado"
+
+#~ msgid "Branding"
+#~ msgstr "Marca"
+
+#~ msgid "Higher performance"
+#~ msgstr "Mayor rendimiento"
+
+#~ msgid "Higher upload size"
+#~ msgstr "Mayor tamaño de carga"
+
+#~ msgid " of "
+#~ msgstr " de "
+
+#~ msgid ""
+#~ "Total of: Vector layers, Raster layers, "
+#~ "PostGIS layers, WMS layers, Web Maps"
+#~ msgstr ""
+#~ "Total de: capas vectoriales, capas ráster,"
+#~ " capas PostGIS, capas WMS, mapas web"
+
+#~ msgid "Used"
+#~ msgstr "Utilizado"
+
+#~ msgid "resources"
+#~ msgstr "recursos"
+
+#~ msgid "Your plan"
+#~ msgstr "Tu plan"
 

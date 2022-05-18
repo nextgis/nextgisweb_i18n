@@ -1,82 +1,98 @@
-#: __init__.py:127
+#: lockable_feature.py:57
+msgid "Additional basemaps"
+msgstr ""
+
+#: lockable_feature.py:88
+msgid "Field data collection"
+msgstr ""
+
+#: lockable_feature.py:105
+msgid "Use on other websites (CORS)"
+msgstr ""
+
+#: lockable_feature.py:122
+msgid "Custom domain and branding"
+msgstr ""
+
+#: lockable_feature.py:134
+msgid "Custom SRS"
+msgstr ""
+
+#: lockable_feature.py:145
+msgid "Improved performance"
+msgstr ""
+
+#: lockable_feature.py:152
+msgid "Access management"
+msgstr ""
+
+#: lockable_feature.py:193
 msgid "Editors"
 msgstr "Éditeurs"
 
-#: amd/ngw-ngwcluster/AdditionalMenuLinks.js:22 view.py:8
-msgid "Account"
-msgstr "Compte"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:32
-msgid "Resources"
-msgstr "Ressources"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:34
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:35
-msgid "Unlimited"
-msgstr "Illimité"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:39
-msgid "Users"
-msgstr "Utilisateurs"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:46
-msgid "Basemaps"
-msgstr "Fonds de carte"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:53
-msgid "CORS"
-msgstr "CORS"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:60
-msgid "Lookup tables & forms"
-msgstr "Tables de recherche et formulaires"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:67
-msgid "Support"
-msgstr "Support"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:74
-msgid "Home path"
-msgstr "Chemin d'accueil"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:81
-msgid "Private resources"
-msgstr "Ressources privées"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:88
-msgid "Spatial reference systems"
-msgstr "Systèmes de référence spatiale"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:95
-msgid "Custom domain"
-msgstr "Domaine personnalisé"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:102
-msgid "Branding"
-msgstr "l'image de marque"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:109
-msgid "Higher performance"
-msgstr "Une productivité plus élevée"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:116
-msgid "Higher upload size"
-msgstr "Taille de téléchargement plus élevée"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:144
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:146
-msgid " of "
-msgstr " de "
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:160
-msgid "Unavailable"
-msgstr "Indisponible"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:181
-msgid "Total of: Vector layers, Raster layers, PostGIS layers, WMS layers, Web Maps"
+#: lockable_feature.py:231
+msgid "Technical support"
 msgstr ""
-"Total de : Couches vectorielles, Couches raster, Couches PostGIS, Couches "
-"WMS, Cartes Web"
+
+#: lockable_feature.py:236
+msgid "On-demand backup restore"
+msgstr ""
+
+#: lockable_feature.py:257
+msgid "Tile caching"
+msgstr ""
+
+#: lockable_feature.py:290
+msgid "Data editing on web maps"
+msgstr ""
+
+#: lockable_feature.py:309
+msgid "Annotations on web maps"
+msgstr ""
+
+#: service_plan.py:102
+msgid "Number of maps and layers"
+msgstr ""
+
+#: service_plan.py:103
+msgid "Storage limit"
+msgstr ""
+
+#: service_plan.py:104
+msgid "User limit"
+msgstr ""
+
+#: service_plan.py:109
+msgid "GPS trackers"
+msgstr ""
+
+#: service_plan.py:120
+msgid "Maximum file upload"
+msgstr ""
+
+#: service_plan.py:121
+msgid "Maximum raster layer"
+msgstr ""
+
+#: service_plan.py:281
+msgid "Plan upgrade required"
+msgstr ""
+
+#: service_plan.py:285
+msgid "This is not available on your plan."
+msgstr ""
+
+#: service_plan.py:288
+msgid "{} feature is not available on your plan."
+msgstr ""
+
+#: service_plan.py:296
+msgid "To use this feature, please upgrade to {}."
+msgstr ""
+
+#: nodepkg/include.js:10 nodepkg/upgrade-button/index.js:26 view.py:10
+msgid "Plan and features"
+msgstr ""
 
 #: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
 msgid ""
@@ -120,18 +136,6 @@ msgstr ""
 "données, ajoutez-les au groupe \"Éditeurs\" dans <a "
 "href=\"/auth/user/\">Panneau de configuration </a>."
 
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "Used"
-msgstr "Utilisé"
-
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "of"
-msgstr "de"
-
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "resources"
-msgstr "ressources"
-
 #: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
 msgid "Upgrade plan"
 msgstr "Plan de mise à niveau"
@@ -146,23 +150,97 @@ msgstr ""
 "href=\"http://nextgis.com/nextgis-com/plans/\">Misez à niveau vers Mini ou "
 "Premium</a>."
 
-#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:3
-msgid "Upgrade"
-msgstr "mise à niveau"
+#: nodepkg/summary.js:17
+msgid "of"
+msgstr "de"
 
-#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:10
+#: nodepkg/summary.js:18
+msgid "Available"
+msgstr ""
+
+#: nodepkg/summary.js:19
+msgid "Unavailable"
+msgstr "Indisponible"
+
+#: nodepkg/summary.js:20
+msgid "Unlimited"
+msgstr "Illimité"
+
+#: nodepkg/plan-and-features/index.js:16 nodepkg/upgrade-button/index.js:57
 msgid "Your plan — "
 msgstr "Votre plan — "
 
-#: template/account.mako:53
+#: nodepkg/plan-and-features/index.js:25
 msgid "Change plan"
 msgstr "Modifier le plan"
 
-#: template/account.mako:56
-msgid "Your plan"
-msgstr "Votre plan"
-
-#: template/account.mako:62
+#: nodepkg/plan-and-features/index.js:57
 msgid "More about plans"
 msgstr "En savoir plus sur les plans"
+
+#: nodepkg/upgrade-button/index.js:66
+msgid "Upgrade"
+msgstr "mise à niveau"
+
+#~ msgid "Account"
+#~ msgstr "Compte"
+
+#~ msgid "Resources"
+#~ msgstr "Ressources"
+
+#~ msgid "Users"
+#~ msgstr "Utilisateurs"
+
+#~ msgid "Basemaps"
+#~ msgstr "Fonds de carte"
+
+#~ msgid "CORS"
+#~ msgstr "CORS"
+
+#~ msgid "Lookup tables & forms"
+#~ msgstr "Tables de recherche et formulaires"
+
+#~ msgid "Support"
+#~ msgstr "Support"
+
+#~ msgid "Home path"
+#~ msgstr "Chemin d'accueil"
+
+#~ msgid "Private resources"
+#~ msgstr "Ressources privées"
+
+#~ msgid "Spatial reference systems"
+#~ msgstr "Systèmes de référence spatiale"
+
+#~ msgid "Custom domain"
+#~ msgstr "Domaine personnalisé"
+
+#~ msgid "Branding"
+#~ msgstr "l'image de marque"
+
+#~ msgid "Higher performance"
+#~ msgstr "Une productivité plus élevée"
+
+#~ msgid "Higher upload size"
+#~ msgstr "Taille de téléchargement plus élevée"
+
+#~ msgid " of "
+#~ msgstr " de "
+
+#~ msgid ""
+#~ "Total of: Vector layers, Raster layers, "
+#~ "PostGIS layers, WMS layers, Web Maps"
+#~ msgstr ""
+#~ "Total de : Couches vectorielles, Couches "
+#~ "raster, Couches PostGIS, Couches WMS, Cartes"
+#~ " Web"
+
+#~ msgid "Used"
+#~ msgstr "Utilisé"
+
+#~ msgid "resources"
+#~ msgstr "ressources"
+
+#~ msgid "Your plan"
+#~ msgstr "Votre plan"
 

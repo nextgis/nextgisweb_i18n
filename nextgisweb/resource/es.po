@@ -401,7 +401,7 @@ msgstr "Mostrar volumen de recursos"
 
 #: nodepkg/children-section/ChildrenSection.js:124
 msgid "Hide resources volume"
-msgstr ""
+msgstr "Ocultar volumen de recursos"
 
 #: nodepkg/resources-filter/ResourcesFilter.js:104
 msgid "Resources not found"

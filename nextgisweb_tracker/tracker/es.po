@@ -1,8 +1,14 @@
-#: model.py:24
+#: __init__.py:16 amd/ngw-tracker/webmap/TrackersPane/TrackersPane.js:37
+#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:55
+#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:65 view/settings.py:55
+msgid "Trackers"
+msgstr "Localizadores"
+
+#: model.py:25
 msgid "Trackers group"
 msgstr "Grupo de localizadores"
 
-#: model.py:35
+#: model.py:36
 msgid "Tracker"
 msgstr "Localizador"
 
@@ -26,15 +32,15 @@ msgstr "Consumo, litros cada 100 km (para informes)"
 msgid "Invalid consumption, should be from 0 to 100"
 msgstr "Consumo no válido, debe ser de 0 a 100"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:38
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:36
 msgid "Tracker detail"
 msgstr "Detalle del localizador"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:42
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:40
 msgid "NextGIS software (Mobile, Collector)"
 msgstr "Software NextGIS (Mobile, Collector)"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:43
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:41
 msgid "ADM (ADM-50, ADM-100)"
 msgstr "ADM (ADM-50, ADM-100)"
 
@@ -104,63 +110,23 @@ msgstr "Dias"
 msgid "Build report"
 msgstr "Generar informe"
 
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.js:78
+#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.js:77
 msgid "Please select devices for building the report!"
 msgstr "¡Por favor seleccione los dispositivos para crear el informe!"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:4
-msgid "Common settings"
-msgstr "Configuraciones comunes"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:10
-msgid "Interval for splitting tracks, min"
-msgstr "Intervalo para dividir pistas, min"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:14
-msgid "Stops detecting"
-msgstr "Detección de paradas"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:20
-msgid "Minimal speed, km/h"
-msgstr "Velocidad mínima, km/h"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:24
-msgid "Minimal time stop, sec"
-msgstr "Tiempo mínimo de parada, seg"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:28
-msgid "Timezone settings"
-msgstr "Configuración de zona horaria"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:34
-msgid "Time zone"
-msgstr "Zona horaria"
-
-#: amd/ngw-tracker/settings/TrackerSettings.hbs:72
-msgid "Save"
-msgstr "Guardar"
-
-#: amd/ngw-tracker/settings/TrackerSettings.js:69
-msgid "Tracker settings has been saved successfully!"
-msgstr "¡La configuración del localizador se ha guardado correctamente!"
-
-#: amd/ngw-tracker/settings/TrackerSettings.js:71
-msgid "Error, Tracker settings not has been saved!"
-msgstr "¡Error, la configuración del localizador no se ha guardado!"
 
 #: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.hbs:3
 msgid "Select date"
 msgstr "Seleccione fecha"
 
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:30
+#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:29
 msgid "No data"
 msgstr "No hay datos"
 
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:59
+#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:58
 msgid "Last activity by hours"
 msgstr "Última actividad por horas"
 
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:150
+#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:147
 msgid "Count of points per hour"
 msgstr "Cuenta de puntos por hora"
 
@@ -174,12 +140,6 @@ msgstr "Abrir el panel de localizadores"
 #: template/reports.mako:5
 msgid "Reports"
 msgstr "Informes"
-
-#: amd/ngw-tracker/webmap/TrackersPane/TrackersPane.js:38
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:53
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:63 view/settings.py:49
-msgid "Trackers"
-msgstr "Localizadores"
 
 #: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:99
 msgid "Zoom to layer"
@@ -221,17 +181,53 @@ msgstr "Curso"
 msgid "GPS/GLONASS"
 msgstr "GPS/GLONASS"
 
-#: pyramid_tracker/device_type.py:15
+#: nodepkg/tracker-settings/TrackerSettings.js:43
+msgid "Settings saved"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:35
+msgid "Common settings"
+msgstr "Configuraciones comunes"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:41
+msgid "Interval for splitting tracks, min"
+msgstr "Intervalo para dividir pistas, min"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:53
+msgid "Stops detecting"
+msgstr "Detección de paradas"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:59
+msgid "Minimal speed, km/h"
+msgstr "Velocidad mínima, km/h"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:72
+msgid "Minimal time stop, sec"
+msgstr "Tiempo mínimo de parada, seg"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:84
+msgid "Timezone settings"
+msgstr "Configuración de zona horaria"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:90
+msgid "Time zone"
+msgstr "Zona horaria"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:115
+msgid "Save"
+msgstr "Guardar"
+
+#: pyramid_tracker/device_type.py:14
 msgid "NextGIS Tracker Hub is unavailable. Try later, please."
 msgstr "NextGIS Tracker Hub no está disponible. Inténtelo más tarde, por favor."
 
-#: pyramid_tracker/register.py:19 pyramid_tracker/register.py:37
+#: pyramid_tracker/register.py:20 pyramid_tracker/register.py:38
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
 msgstr ""
 "El dispositivo no está registrado en NextGIS Tracker System. Inténtelo más "
 "tarde, por favor."
 
-#: pyramid_tracker/register.py:21 pyramid_tracker/register.py:39
+#: pyramid_tracker/register.py:22 pyramid_tracker/register.py:40
 msgid "NextGIS Tracker System is unavailable. Try later, please."
 msgstr "NextGIS Tracker System no está disponible. Inténtalo más tarde, por favor"
 
@@ -300,7 +296,13 @@ msgstr "Informe de velocidad máxima"
 msgid "Max speed"
 msgstr "Máxima velocidad"
 
-#: view/settings.py:12
+#: view/settings.py:18
 msgid "Trackers settings"
 msgstr "Configuración de localizadores"
+
+#~ msgid "Tracker settings has been saved successfully!"
+#~ msgstr "¡La configuración del localizador se ha guardado correctamente!"
+
+#~ msgid "Error, Tracker settings not has been saved!"
+#~ msgstr "¡Error, la configuración del localizador no se ha guardado!"
 

@@ -28,7 +28,7 @@ msgstr "Editar anotaciones"
 
 #: model.py:35
 msgid "Manage annotations"
-msgstr ""
+msgstr "Administrar anotaciones"
 
 #: view.py:37
 msgid "Web map settings"
@@ -36,7 +36,7 @@ msgstr "Configuración del mapa web"
 
 #: view.py:209
 msgid "Embedded webmap preview"
-msgstr ""
+msgstr "Vista previa del mapa web incorporado"
 
 #: view.py:259
 msgid "External access"
@@ -91,7 +91,7 @@ msgstr "Extensión inicial"
 
 #: amd/ngw-webmap/Display.js:759
 msgid "Locate me"
-msgstr ""
+msgstr "Ubícame"
 
 #: amd/ngw-webmap/Display.js:762 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:497
 msgid "Reset rotation"
@@ -122,7 +122,7 @@ msgstr "Agregar grupo"
 
 #: amd/ngw-webmap/controls/MyLocation.js:124
 msgid "Your location could not be determined"
-msgstr ""
+msgstr "No se pudo determinar tu ubicación"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:25
 msgid "Your annotation text"
@@ -130,15 +130,15 @@ msgstr "Tu anotación"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:142
 msgid "Public annotation"
-msgstr ""
+msgstr "Anotación pública"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:144
 msgid "My private annotation"
-msgstr ""
+msgstr "Mi anotación privada"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:147
 msgid "Private annotation"
-msgstr ""
+msgstr "Anotación privada"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationsPopup.hbs:7
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:267
@@ -240,7 +240,7 @@ msgstr "Habilitado"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:82
 msgid "Identifiable"
-msgstr ""
+msgstr "Identificable"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:89
 msgid "Transparency"
@@ -353,15 +353,15 @@ msgstr "Eliminar"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:148
 msgid "Create as public"
-msgstr ""
+msgstr "Crear como publica"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:157
 msgid "Create as private"
-msgstr ""
+msgstr "Crear como privada"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:166
 msgid "Create"
-msgstr ""
+msgstr "Crear"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:272
 msgid "Create annotation"
@@ -404,7 +404,7 @@ msgstr "Ancho inválido: debe ser entre 1 y 100 px"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:7
 msgid "Annotations layer"
-msgstr ""
+msgstr "Capa de anotaciones"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:16
 msgid "Show annotations layer"
@@ -416,23 +416,23 @@ msgstr "Mostrar mensajes"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:27
 msgid "Private annotations"
-msgstr ""
+msgstr "Anotaciones privadas"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:37
 msgid "Show annotation types"
-msgstr ""
+msgstr "Mostrar tipos de anotaciones"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:43
 msgid "Public annotations"
-msgstr ""
+msgstr "Anotaciones públicas"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:49
 msgid "My private annotations"
-msgstr ""
+msgstr "Mis anotaciones privadas"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:220
 msgid "Other private annotations"
-msgstr ""
+msgstr "Otras anotaciones privadas"
 
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:27
 msgid "Stopping editing"
@@ -603,6 +603,8 @@ msgid ""
 "<a>CORS</a> must be enabled for the target origin when embedding a web map on"
 " a different domain."
 msgstr ""
+"<a>CORS</a> debe estar habilitado para el origen de destino al incrustar un "
+"mapa web en un dominio diferente."
 
 #: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:515
 msgid "Open full map"
@@ -610,7 +612,7 @@ msgstr "Abrir mapa completo"
 
 #: nodepkg/settings/Settings.js:56
 msgid "Settings saved"
-msgstr ""
+msgstr "Se guardó la configuración"
 
 #: nodepkg/settings/SettingsForm.js:52
 msgid "Identify popup"
@@ -760,11 +762,13 @@ msgstr "Yandex.Maps API Geocoder"
 #, python-format
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
 msgstr ""
+"La incrustación de mapas web no está permitida para %s en la configuración de"
+" SIG web."
 
 #: template/invalid_origin.mako:6
 #, python-format
 msgid "View the map on %s"
-msgstr ""
+msgstr "Ver el mapa en %s"
 
 #: template/section_api_webmap.mako:12
 msgid "TMS (Tile Map Service)"

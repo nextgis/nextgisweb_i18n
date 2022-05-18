@@ -48,6 +48,8 @@ msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr ""
+"Esta operación no se puede realizar porque %s ya superó el límite de "
+"almacenamiento (%s)."
 
 #: storage.py:267
 msgid "Not enough storage"
@@ -59,6 +61,8 @@ msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
 msgstr ""
+"Esta operación requiere %s de almacenamiento y no se puede realizar porque "
+"solo %s está disponible."
 
 #: storage.py:276
 msgid "Estimation is already running"

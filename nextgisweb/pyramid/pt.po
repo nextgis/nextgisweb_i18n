@@ -1,8 +1,8 @@
-#: __init__.py:150
+#: __init__.py:139
 msgid "Enabled"
 msgstr ""
 
-#: __init__.py:150
+#: __init__.py:139
 msgid "Disabled"
 msgstr ""
 
@@ -14,7 +14,7 @@ msgstr ""
 msgid "Invalid component identity."
 msgstr ""
 
-#: api.py:534
+#: api.py:538
 msgid "Your Web GIS at nextgis.com"
 msgstr "O seu Web GIS em nextgis.com"
 
@@ -270,6 +270,10 @@ msgstr ""
 msgid "Translated text"
 msgstr "Texto traduzido"
 
+#: nodepkg/home-path/HomePath.js:4
+msgid "The home path setting is saved."
+msgstr ""
+
 #: nodepkg/layout/Avatar.js:9
 msgid "Sign in"
 msgstr "Entrar"
@@ -335,6 +339,10 @@ msgstr ""
 
 #: nodepkg/storage-summary/StorageSummary.js:162
 msgid "Estimate storage"
+msgstr ""
+
+#: nodepkg/system-name-form/SystemNameForm.js:4
+msgid "The system name setting is saved."
 msgstr ""
 
 #: nodepkg/update/index.js:55

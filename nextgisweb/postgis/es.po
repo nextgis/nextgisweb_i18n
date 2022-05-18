@@ -33,27 +33,27 @@ msgstr "Multipolígono"
 
 #: model.py:58
 msgid "Point Z"
-msgstr ""
+msgstr "Punto Z"
 
 #: model.py:58
 msgid "Line Z"
-msgstr ""
+msgstr "Linea Z"
 
 #: model.py:58
 msgid "Polygon Z"
-msgstr ""
+msgstr "Polígono Z"
 
 #: model.py:59
 msgid "Multipoint Z"
-msgstr ""
+msgstr "Multipunto Z"
 
 #: model.py:59
 msgid "Multiline Z"
-msgstr ""
+msgstr "Multilinea Z"
 
 #: model.py:59
 msgid "Multipolygon Z"
-msgstr ""
+msgstr "Multipolígono Z"
 
 #: amd/ngw-postgis/ConnectionWidget.js:25 model.py:69
 msgid "PostGIS connection"

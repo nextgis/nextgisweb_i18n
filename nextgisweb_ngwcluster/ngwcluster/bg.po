@@ -1,82 +1,98 @@
-#: __init__.py:126
+#: lockable_feature.py:57
+msgid "Additional basemaps"
+msgstr ""
+
+#: lockable_feature.py:88
+msgid "Field data collection"
+msgstr ""
+
+#: lockable_feature.py:105
+msgid "Use on other websites (CORS)"
+msgstr ""
+
+#: lockable_feature.py:122
+msgid "Custom domain and branding"
+msgstr ""
+
+#: lockable_feature.py:134
+msgid "Custom SRS"
+msgstr ""
+
+#: lockable_feature.py:145
+msgid "Improved performance"
+msgstr ""
+
+#: lockable_feature.py:152
+msgid "Access management"
+msgstr ""
+
+#: lockable_feature.py:193
 msgid "Editors"
 msgstr "Редактори"
 
-#: amd/ngw-ngwcluster/AdditionalMenuLinks.js:22 view.py:8
-msgid "Account"
-msgstr "Профил"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:34
-msgid "Resources"
-msgstr "Ресурси"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:36
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:37
-msgid "Unlimited"
-msgstr "Неограничен"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:41
-msgid "Users"
-msgstr "Потребители"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:48
-msgid "Basemaps"
-msgstr "Базови карти"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:55
-msgid "CORS"
-msgstr "CORS"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:62
-msgid "Lookup tables & forms"
-msgstr "Справочници и форми"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:69
-msgid "Support"
-msgstr "Поддръжка"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:76
-msgid "Home path"
-msgstr "Начална страница"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:83
-msgid "Private resources"
-msgstr "Приватни ресурси"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:90
-msgid "Spatial reference systems"
-msgstr "Координатни системи"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:97
-msgid "Custom domain"
-msgstr "Потребителски домейн"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:104
-msgid "Branding"
-msgstr "Брандиране"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:111
-msgid "Higher performance"
-msgstr "Повишена производителност"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:118
-msgid "Higher upload size"
-msgstr "Качване на големи обеми"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:146
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:148
-msgid " of "
-msgstr " от "
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:162
-msgid "Unavailable"
-msgstr "Недостъпно"
-
-#: amd/ngw-ngwcluster/PlanQuotaWidget.js:183
-msgid "Total of: Vector layers, Raster layers, PostGIS layers, WMS layers, Web Maps"
+#: lockable_feature.py:231
+msgid "Technical support"
 msgstr ""
-"Взимат се предвид: векторни слоеве, растерни слоеве, PostGIS слоеве, WMS "
-"слоеве и уеб карти"
+
+#: lockable_feature.py:236
+msgid "On-demand backup restore"
+msgstr ""
+
+#: lockable_feature.py:257
+msgid "Tile caching"
+msgstr ""
+
+#: lockable_feature.py:290
+msgid "Data editing on web maps"
+msgstr ""
+
+#: lockable_feature.py:309
+msgid "Annotations on web maps"
+msgstr ""
+
+#: service_plan.py:102
+msgid "Number of maps and layers"
+msgstr ""
+
+#: service_plan.py:103
+msgid "Storage limit"
+msgstr ""
+
+#: service_plan.py:104
+msgid "User limit"
+msgstr ""
+
+#: service_plan.py:109
+msgid "GPS trackers"
+msgstr ""
+
+#: service_plan.py:120
+msgid "Maximum file upload"
+msgstr ""
+
+#: service_plan.py:121
+msgid "Maximum raster layer"
+msgstr ""
+
+#: service_plan.py:281
+msgid "Plan upgrade required"
+msgstr ""
+
+#: service_plan.py:285
+msgid "This is not available on your plan."
+msgstr ""
+
+#: service_plan.py:288
+msgid "{} feature is not available on your plan."
+msgstr ""
+
+#: service_plan.py:296
+msgid "To use this feature, please upgrade to {}."
+msgstr ""
+
+#: nodepkg/include.js:10 nodepkg/upgrade-button/index.js:26 view.py:10
+msgid "Plan and features"
+msgstr ""
 
 #: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
 msgid ""
@@ -121,18 +137,6 @@ msgstr ""
 "href=\"/auth/user/\">Контролния панел</a> да им дадете право да редактират "
 "данните Ви."
 
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "Used"
-msgstr "Използвано"
-
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "of"
-msgstr "от"
-
-#: amd/ngw-ngwcluster/template/PlanQuotaWidget_small.hbs:2
-msgid "resources"
-msgstr "ресурси"
-
 #: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
 msgid "Upgrade plan"
 msgstr "Разширяване на плана"
@@ -147,23 +151,97 @@ msgstr ""
 "href=\"http://nextgis.com/nextgis-com/plans/\">Преминете към Mini или "
 "Premium</a>."
 
-#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:3
-msgid "Upgrade"
-msgstr "Разшири"
+#: nodepkg/summary.js:17
+msgid "of"
+msgstr "от"
 
-#: amd/ngw-ngwcluster/template/UpgradePlanWidget.hbs:10
+#: nodepkg/summary.js:18
+msgid "Available"
+msgstr ""
+
+#: nodepkg/summary.js:19
+msgid "Unavailable"
+msgstr "Недостъпно"
+
+#: nodepkg/summary.js:20
+msgid "Unlimited"
+msgstr "Неограничен"
+
+#: nodepkg/plan-and-features/index.js:16 nodepkg/upgrade-button/index.js:57
 msgid "Your plan — "
 msgstr "Вашият план е "
 
-#: template/account.mako:53
+#: nodepkg/plan-and-features/index.js:25
 msgid "Change plan"
 msgstr "Промени плана"
 
-#: template/account.mako:56
-msgid "Your plan"
-msgstr "Вашият план"
-
-#: template/account.mako:62
+#: nodepkg/plan-and-features/index.js:57
 msgid "More about plans"
 msgstr "Повече за плановете"
+
+#: nodepkg/upgrade-button/index.js:66
+msgid "Upgrade"
+msgstr "Разшири"
+
+#~ msgid "Account"
+#~ msgstr "Профил"
+
+#~ msgid "Resources"
+#~ msgstr "Ресурси"
+
+#~ msgid "Users"
+#~ msgstr "Потребители"
+
+#~ msgid "Basemaps"
+#~ msgstr "Базови карти"
+
+#~ msgid "CORS"
+#~ msgstr "CORS"
+
+#~ msgid "Lookup tables & forms"
+#~ msgstr "Справочници и форми"
+
+#~ msgid "Support"
+#~ msgstr "Поддръжка"
+
+#~ msgid "Home path"
+#~ msgstr "Начална страница"
+
+#~ msgid "Private resources"
+#~ msgstr "Приватни ресурси"
+
+#~ msgid "Spatial reference systems"
+#~ msgstr "Координатни системи"
+
+#~ msgid "Custom domain"
+#~ msgstr "Потребителски домейн"
+
+#~ msgid "Branding"
+#~ msgstr "Брандиране"
+
+#~ msgid "Higher performance"
+#~ msgstr "Повишена производителност"
+
+#~ msgid "Higher upload size"
+#~ msgstr "Качване на големи обеми"
+
+#~ msgid " of "
+#~ msgstr " от "
+
+#~ msgid ""
+#~ "Total of: Vector layers, Raster layers, "
+#~ "PostGIS layers, WMS layers, Web Maps"
+#~ msgstr ""
+#~ "Взимат се предвид: векторни слоеве, растерни"
+#~ " слоеве, PostGIS слоеве, WMS слоеве и "
+#~ "уеб карти"
+
+#~ msgid "Used"
+#~ msgstr "Използвано"
+
+#~ msgid "resources"
+#~ msgstr "ресурси"
+
+#~ msgid "Your plan"
+#~ msgstr "Вашият план"
 

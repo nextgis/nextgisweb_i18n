@@ -32,26 +32,26 @@ msgstr ""
 #: api.py:282
 #, python-format
 msgid "The '%s' attribute of the system principal can't be changed."
-msgstr ""
+msgstr "El atributo '%s' del principal del sistema no se puede cambiar."
 
 #: api.py:291
 #, python-format
 msgid "Principal '%s' already exists."
-msgstr ""
+msgstr "Principal '%s' ya existe."
 
 #: api.py:293
 #, python-format
 msgid "Principal with full name '%s' already exists."
-msgstr ""
+msgstr "El principal con el nombre completo '%s' ya existe."
 
 #: api.py:329
 #, python-format
 msgid "User '%s' can't be a member of a group."
-msgstr ""
+msgstr "El usuario '%s' no puede ser miembro de un grupo."
 
 #: api.py:335
 msgid "System principals can't be deleted."
-msgstr ""
+msgstr "Los principales del sistema no se pueden eliminar."
 
 #: api.py:351
 msgid "User is referenced with resources"
@@ -64,11 +64,11 @@ msgstr "Se hace referencia al grupo con recursos"
 #: api.py:364
 #, python-format
 msgid "Invalid principal name: '%s'."
-msgstr ""
+msgstr "Nombre principal no válido: '%s'."
 
 #: api.py:399
 msgid "The 'administrators' group must have at least one enabled member."
-msgstr ""
+msgstr "El grupo 'administrators' debe tener al menos un miembro habilitado."
 
 #: exception.py:7
 msgid "Invalid authorization header"
@@ -96,7 +96,7 @@ msgstr "Token de OAuth no válido"
 
 #: oauth.py:359
 msgid "Invalid OAuth scope"
-msgstr ""
+msgstr "Ámbito de OAuth no válido"
 
 #: oauth.py:364
 msgid "OAuth token refresh failed"
@@ -140,7 +140,7 @@ msgstr "Crear un grupo nuevo"
 
 #: views.py:361
 msgid "Groups and users"
-msgstr ""
+msgstr "Grupos y usuarios"
 
 #: nodepkg/browse.js:9 nodepkg/userMessages.js:5
 msgid "Delete user?"
@@ -156,11 +156,11 @@ msgstr "Confirmación"
 
 #: nodepkg/groupMessages.js:6
 msgid "Group deleted"
-msgstr ""
+msgstr "Grupo eliminado"
 
 #: nodepkg/userMessages.js:6
 msgid "User deleted"
-msgstr ""
+msgstr "Usuario eliminado"
 
 #: nodepkg/group-browse/GroupBrowse.js:8 nodepkg/group-widget/GroupWidget.js:15
 #: nodepkg/user-browse/UserBrowse.js:17 nodepkg/user-widget/UserWidget.js:15
@@ -218,23 +218,23 @@ msgstr "Deshabilitado"
 
 #: nodepkg/user-browse/UserBrowse.js:11
 msgid "Enabled"
-msgstr ""
+msgstr "Habilitado"
 
 #: nodepkg/user-browse/UserBrowse.js:29
 msgid "Last activity"
-msgstr ""
+msgstr "Última actividad"
 
 #: nodepkg/user-browse/UserBrowse.js:41
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: nodepkg/user-browse/UserBrowse.js:113
 msgid "Disable"
-msgstr ""
+msgstr "Deshabilitar"
 
 #: nodepkg/user-browse/UserBrowse.js:113
 msgid "Enable"
-msgstr ""
+msgstr "Habilitar"
 
 #: nodepkg/user-widget/UserWidget.js:31
 msgid "Enter new password here"

@@ -17,21 +17,24 @@ msgstr ""
 
 #: util.py:81
 msgid "Required parameter '{}' is missing."
-msgstr ""
+msgstr "Falta el parámetro obligatorio '{}'."
 
 #: util.py:86
 msgid "Placeholders {x}, {y} and {z} must be filled with values."
-msgstr ""
+msgstr "Los marcadores de posición {x}, {y} y {z} deben llenarse con valores."
 
 #: util.py:88
 msgid ""
 "It seems you are trying to open an URL template directly in a browser. To "
 "test it try adding some values for 'x', 'y' and 'z' parameters."
 msgstr ""
+"Parece que está intentando abrir una plantilla de URL directamente en un "
+"navegador. Para probarlo, intente agregar algunos valores para los parámetros"
+" 'x', 'y' y 'z'."
 
 #: util.py:93
 msgid "The value of '{}' parameter must be a non-negative integer."
-msgstr ""
+msgstr "El valor del parámetro '{}' debe ser un número entero no negativo."
 
 #: view.py:21
 msgid "External access"

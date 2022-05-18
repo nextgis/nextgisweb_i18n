@@ -51,22 +51,24 @@ msgstr "Los tipos de datos de canales mixtos no son compatibles."
 
 #: model.py:124
 msgid "GDAL was uanble to parse the raster coordinate system."
-msgstr ""
+msgstr "GDAL no pudo analizar el sistema de coordenadas del ráster."
 
 #: model.py:128
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
+"El ráster de origen tiene un sistema de coordenadas local y no se puede "
+"reproyectar al sistema de coordenadas de destino."
 
 #: model.py:145
 msgid "Failed to reproject the raster to the target coordinate system."
-msgstr ""
+msgstr "No se pudo reproyectar el ráster en el sistema de coordenadas de destino."
 
 #: model.py:148
 #, python-format
 msgid "GDAL error message: %s"
-msgstr ""
+msgstr "Mensaje de error GDAL: %s"
 
 #: model.py:159
 #, python-format
