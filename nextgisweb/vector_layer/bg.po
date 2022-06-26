@@ -68,12 +68,12 @@ msgstr "Слоят не съдържа обекти, отговарящи на �
 #: model.py:434
 #, python-format
 msgid "Field '%s' is out of int32 range."
-msgstr ""
+msgstr "Полето %s не е в диапазона от тип данни Int32."
 
 #: model.py:441
 #, python-format
 msgid "Field '%s' contains non-unique or empty values."
-msgstr ""
+msgstr "Полето %s е празно или има неуникална стойност."
 
 #: model.py:452
 msgid "Parameter 'fid_field' is missing."
@@ -140,6 +140,8 @@ msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
 msgstr ""
+"Обектът #%d има геометрия, която не може да бъде модифицирана в избраната "
+"координатна система"
 
 #: model.py:791
 #, python-format
@@ -257,6 +259,8 @@ msgid ""
 "Dataset should be in ESRI Shapefile (zip), GeoPackage, GeoJSON, GML or KML "
 "format."
 msgstr ""
+"Набор от данни трябва да е във формат ESRI Shapefile (zip), GeoPackage, "
+"GeoJSON, GML или KML."
 
 #: amd/ngw-vector-layer/template/Widget.hbs:57
 msgid "Source layer"

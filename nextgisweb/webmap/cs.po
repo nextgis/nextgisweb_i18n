@@ -1,4 +1,4 @@
-#: __init__.py:30
+#: __init__.py:36
 msgid "Main web map"
 msgstr "Hlavní webová mapa"
 
@@ -28,7 +28,7 @@ msgstr "Upravit poznámky"
 
 #: model.py:35
 msgid "Manage annotations"
-msgstr ""
+msgstr "Správa anotací"
 
 #: view.py:37
 msgid "Web map settings"
@@ -36,66 +36,74 @@ msgstr "Nastavení webové mapy"
 
 #: view.py:209
 msgid "Embedded webmap preview"
-msgstr ""
+msgstr "Vložený náhled webové mapy"
 
 #: view.py:259
 msgid "External access"
 msgstr "Externí přístup"
 
-#: amd/ngw-webmap/Display.js:216 amd/ngw-webmap/Display.js:1022
+#: amd/ngw-webmap/Display.js:218 amd/ngw-webmap/Display.js:1027
 #: amd/ngw-webmap/ItemWidget.js:243
 msgid "Layers"
 msgstr "Vrstvy"
 
-#: amd/ngw-webmap/Display.js:222 amd/ngw-webmap/Display.js:354
+#: amd/ngw-webmap/Display.js:224 amd/ngw-webmap/Display.js:358
 msgid "Search"
 msgstr "vyhledávání"
 
-#: amd/ngw-webmap/Display.js:228 amd/ngw-webmap/Display.js:439
+#: amd/ngw-webmap/Display.js:230 amd/ngw-webmap/Display.js:443
 msgid "Share"
 msgstr "Podělit se"
 
-#: amd/ngw-webmap/Display.js:234
+#: amd/ngw-webmap/Display.js:236
 msgid "Print map"
 msgstr "Tisk mapy"
 
-#: amd/ngw-webmap/Display.js:373 amd/ngw-webmap/Display.js:380
+#: amd/ngw-webmap/Display.js:377 amd/ngw-webmap/Display.js:384
 msgid "Bookmarks"
 msgstr "Záložky"
 
-#: amd/ngw-webmap/Display.js:403 amd/ngw-webmap/plugin/LayerInfo.js:36
+#: amd/ngw-webmap/Display.js:407 amd/ngw-webmap/plugin/LayerInfo.js:36
 msgid "Description"
 msgstr "Popis"
 
-#: amd/ngw-webmap/Display.js:540 amd/ngw-webmap/Display.js:550
+#: amd/ngw-webmap/Display.js:545 amd/ngw-webmap/Display.js:555
 msgid "Annotations"
 msgstr "Anotace"
 
-#: amd/ngw-webmap/Display.js:733 amd/ngw-webmap/tool/Zoom.js:20
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:483
+#: amd/ngw-webmap/Display.js:738 amd/ngw-webmap/tool/Zoom.js:20
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:488
 msgid "Zoom in"
 msgstr "Přiblížit"
 
-#: amd/ngw-webmap/Display.js:734 amd/ngw-webmap/tool/Zoom.js:23
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:484
+#: amd/ngw-webmap/Display.js:739 amd/ngw-webmap/tool/Zoom.js:23
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:489
 msgid "Zoom out"
 msgstr "Oddálit"
 
-#: amd/ngw-webmap/Display.js:738 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:488
+#: amd/ngw-webmap/Display.js:743 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:493
 msgid "Attributions"
 msgstr "Atribuce"
 
-#: amd/ngw-webmap/Display.js:754
+#: amd/ngw-webmap/Display.js:759
 msgid "Initial extent"
 msgstr "Počáteční rozsah"
 
-#: amd/ngw-webmap/Display.js:759
+#: amd/ngw-webmap/Display.js:764
 msgid "Locate me"
-msgstr ""
+msgstr "Najděte mě"
 
-#: amd/ngw-webmap/Display.js:762 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:497
+#: amd/ngw-webmap/Display.js:767 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:502
 msgid "Reset rotation"
 msgstr "Resetovat rotaci"
+
+#: amd/ngw-webmap/Display.js:1153 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:669
+msgid "Object not found"
+msgstr ""
+
+#: amd/ngw-webmap/Display.js:1154 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:670
+msgid "Object from URL parameters not found"
+msgstr ""
 
 #: amd/ngw-webmap/ExtentWidget.js:31
 msgid "Extent and bookmarks"
@@ -122,7 +130,7 @@ msgstr "Přidat skupinu"
 
 #: amd/ngw-webmap/controls/MyLocation.js:124
 msgid "Your location could not be determined"
-msgstr ""
+msgstr "Vaši polohu nebylo možné určit"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:25
 msgid "Your annotation text"
@@ -130,15 +138,15 @@ msgstr "Váš text poznámky"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:142
 msgid "Public annotation"
-msgstr ""
+msgstr "Veřejná anotace"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:144
 msgid "My private annotation"
-msgstr ""
+msgstr "Moje soukromá anotace"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:147
 msgid "Private annotation"
-msgstr ""
+msgstr "Soukromá anotace"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationsPopup.hbs:7
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:267
@@ -222,8 +230,8 @@ msgid "Add layer"
 msgstr "Přidat vrstvu"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:18
-msgid "Select layer\\'s style"
-msgstr "Vyberte styl vrstvy"
+msgid "Select layer's style"
+msgstr ""
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:33
 msgid "Remove"
@@ -240,7 +248,7 @@ msgstr "Povoleno"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:82
 msgid "Identifiable"
-msgstr ""
+msgstr "Identifikovatelný"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:89
 msgid "Transparency"
@@ -266,19 +274,19 @@ msgstr "Zdroj stylu"
 msgid "Expanded"
 msgstr "Rozšířený"
 
-#: amd/ngw-webmap/tool/Identify.js:212
+#: amd/ngw-webmap/tool/Identify.js:215
 msgid "Attributes"
 msgstr "Atributy"
 
-#: amd/ngw-webmap/tool/Identify.js:246
+#: amd/ngw-webmap/tool/Identify.js:250
 msgid "Feature"
 msgstr "Vlastnost"
 
-#: amd/ngw-webmap/tool/Identify.js:304 amd/ngw-webmap/tool/Identify.js:321
+#: amd/ngw-webmap/tool/Identify.js:308 amd/ngw-webmap/tool/Identify.js:325
 msgid "Identify"
 msgstr "Identifikovat"
 
-#: amd/ngw-webmap/tool/Identify.js:431
+#: amd/ngw-webmap/tool/Identify.js:443
 msgid "Features"
 msgstr "Funkce"
 
@@ -353,15 +361,15 @@ msgstr "Vymazat"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:148
 msgid "Create as public"
-msgstr ""
+msgstr "Vytvořit jako veřejné"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:157
 msgid "Create as private"
-msgstr ""
+msgstr "Vytvořit jako soukromé"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:166
 msgid "Create"
-msgstr ""
+msgstr "Vytvořit"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:272
 msgid "Create annotation"
@@ -404,7 +412,7 @@ msgstr "Neplatná šířka: měla by být od 1 do 100 px"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:7
 msgid "Annotations layer"
-msgstr ""
+msgstr "Vrstva anotací"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:16
 msgid "Show annotations layer"
@@ -416,23 +424,23 @@ msgstr "Zobrazit zprávy"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:27
 msgid "Private annotations"
-msgstr ""
+msgstr "Soukromé anotace"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:37
 msgid "Show annotation types"
-msgstr ""
+msgstr "Zobrazit typy anotací"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:43
 msgid "Public annotations"
-msgstr ""
+msgstr "Veřejné anotace"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:49
 msgid "My private annotations"
-msgstr ""
+msgstr "Moje soukromé anotace"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:220
 msgid "Other private annotations"
-msgstr ""
+msgstr "Další soukromé poznámky"
 
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:27
 msgid "Stopping editing"
@@ -546,7 +554,7 @@ msgstr "PNG"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:123
 msgid "Close"
-msgstr ""
+msgstr "Uzavřít"
 
 #: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:8
 msgid "Select scale"
@@ -603,14 +611,16 @@ msgid ""
 "<a>CORS</a> must be enabled for the target origin when embedding a web map on"
 " a different domain."
 msgstr ""
+"<a>CORS</a> musí být povolen pro cílový původ při vkládání webové mapy do "
+"jiné domény."
 
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:515
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:520
 msgid "Open full map"
 msgstr "Otevřít celou mapu"
 
 #: nodepkg/settings/Settings.js:56
 msgid "Settings saved"
-msgstr ""
+msgstr "Nastavení uloženo"
 
 #: nodepkg/settings/SettingsForm.js:52
 msgid "Identify popup"
@@ -666,19 +676,19 @@ msgstr "Omezit počáteční rozsah webové mapy"
 
 #: nodepkg/settings/SettingsForm.js:202
 msgid "Provider"
-msgstr ""
+msgstr "Poskytovatel"
 
 #: nodepkg/settings/SettingsForm.js:214
 msgid "Limit search results to countries"
-msgstr ""
+msgstr "Omezit výsledky vyhledávání na země"
 
 #: nodepkg/settings/SettingsForm.js:224
 msgid "Invalid countries. For example ru or gb,de"
-msgstr ""
+msgstr "Neplatné země. Například ru nebo gb,de"
 
 #: nodepkg/settings/SettingsForm.js:237
 msgid "Yandex.Maps API Geocoder Key"
-msgstr ""
+msgstr "Yandex.Maps API Geocoder Key"
 
 #: nodepkg/settings/select-options.js:5
 msgid "Meters"
@@ -750,21 +760,21 @@ msgstr "Stupně, minuty, sekundy"
 
 #: nodepkg/settings/select-options.js:82
 msgid "Nominatim (OSM)"
-msgstr ""
+msgstr "Nominatim (OSM)"
 
 #: nodepkg/settings/select-options.js:86
 msgid "Yandex.Maps API Geocoder"
-msgstr ""
+msgstr "Yandex.Maps API Geocoder"
 
 #: template/invalid_origin.mako:4
 #, python-format
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
-msgstr ""
+msgstr "Vkládání webových map není povoleno pro %s v nastavení webového GIS."
 
 #: template/invalid_origin.mako:6
 #, python-format
 msgid "View the map on %s"
-msgstr ""
+msgstr "Zobrazit mapu na %s"
 
 #: template/section_api_webmap.mako:12
 msgid "TMS (Tile Map Service)"
@@ -790,4 +800,7 @@ msgstr "Přečíst více"
 
 #~ msgid "Error on the server:"
 #~ msgstr "Chyba na serveru:"
+
+#~ msgid "Select layer\\'s style"
+#~ msgstr "Vyberte styl vrstvy"
 

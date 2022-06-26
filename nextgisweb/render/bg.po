@@ -4,31 +4,35 @@ msgstr "Кеш на плочките"
 
 #: api.py:18
 msgid "Invalid origin"
-msgstr ""
+msgstr "Невалиден произход"
 
 #: api.py:19
 msgid ""
 "Origin validation is enabled for rendering requests, but the given origin "
 "doesn't match with the CORS origins list."
 msgstr ""
+"Валидирането на произхода е включено за искания на рендериране, но даденият "
+"произход отсъства от списъка на CORS."
 
 #: util.py:81
 msgid "Required parameter '{}' is missing."
-msgstr ""
+msgstr "Отсъства необходим параметър '{}'."
 
 #: util.py:86
 msgid "Placeholders {x}, {y} and {z} must be filled with values."
-msgstr ""
+msgstr "Вместо {x}, {y} и {z} трябва да се въведат значения."
 
 #: util.py:88
 msgid ""
 "It seems you are trying to open an URL template directly in a browser. To "
 "test it try adding some values for 'x', 'y' and 'z' parameters."
 msgstr ""
+"По всяка вероятност се опитвате да отворите линка-образец директно в "
+"браузъра. За да го пробвате, заменете 'x', 'y' и 'z' със значения."
 
 #: util.py:93
 msgid "The value of '{}' parameter must be a non-negative integer."
-msgstr ""
+msgstr "Значението на параметъра '{}' не може да е отрицателно."
 
 #: view.py:21
 msgid "External access"

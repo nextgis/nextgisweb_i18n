@@ -93,9 +93,9 @@ msgstr "Logotipo guardado. Vuelva a cargar la página para que se apliquen."
 
 #: nodepkg/single-setting-form/SingleSettingForm.js:9
 msgid "The setting is saved."
-msgstr ""
+msgstr "Se guardó la configuración."
 
 #: nodepkg/single-setting-form/SingleSettingForm.js:10
 msgid "Reload the page to get them applied."
-msgstr ""
+msgstr "Vuelva a cargar la página para que se apliquen."
 

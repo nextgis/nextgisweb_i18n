@@ -68,12 +68,12 @@ msgstr "Zdrojová vrstva neobsahuje žádné funkce splňující dané podmínky
 #: model.py:434
 #, python-format
 msgid "Field '%s' is out of int32 range."
-msgstr ""
+msgstr "Pole '%s ' je mimo rozsah int32."
 
 #: model.py:441
 #, python-format
 msgid "Field '%s' contains non-unique or empty values."
-msgstr ""
+msgstr "Pole '%s ' obsahuje nejedinečné nebo prázdné hodnoty."
 
 #: model.py:452
 msgid "Parameter 'fid_field' is missing."
@@ -92,7 +92,7 @@ msgstr "Žádné z polí %s není celočíselné."
 #: model.py:473
 #, python-format
 msgid "Field '%s(?)' encoding is broken."
-msgstr ""
+msgstr "Pole ' %s(?) 'kódování je přerušeno."
 
 #: model.py:477
 #, python-format
@@ -140,6 +140,8 @@ msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
 msgstr ""
+"Funkce # %d má geometrii, kterou nelze přeprojektovat do cílového "
+"souřadnicového systému"
 
 #: model.py:791
 #, python-format
@@ -159,7 +161,7 @@ msgstr "Objekt #%d má v linestringu méně než 2 body."
 #: model.py:850
 #, python-format
 msgid "Feature #%d contains a broken encoding of field '%s'."
-msgstr ""
+msgstr "Funkce # %d obsahuje nefunkční kódování pole '%s'."
 
 #: model.py:874
 msgid "Vector layer cannot be written due to errors."
@@ -257,6 +259,8 @@ msgid ""
 "Dataset should be in ESRI Shapefile (zip), GeoPackage, GeoJSON, GML or KML "
 "format."
 msgstr ""
+"Dataset by měl být ve formátu ESRI Shapefile (zip), GeoPackage, GeoJSON, GML "
+"nebo KML."
 
 #: amd/ngw-vector-layer/template/Widget.hbs:57
 msgid "Source layer"

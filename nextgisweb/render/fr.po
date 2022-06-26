@@ -4,7 +4,7 @@ msgstr "Cache de tuiles"
 
 #: api.py:18
 msgid "Invalid origin"
-msgstr ""
+msgstr "Origine invalide"
 
 #: api.py:19
 msgid ""

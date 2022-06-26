@@ -24,7 +24,7 @@ msgstr "Грешка при валидация"
 
 #: exception.py:90
 msgid "Forbidden"
-msgstr ""
+msgstr "Забранено"
 
 #: exception.py:95
 msgid "Insufficient permissions"
@@ -36,11 +36,11 @@ msgstr "Операционна грешка"
 
 #: exception.py:105
 msgid "External service error"
-msgstr ""
+msgstr "Грешка на външен сървиз"
 
 #: storage.py:258
 msgid "Storage full"
-msgstr ""
+msgstr "Няма свободна памет"
 
 #: storage.py:259
 #, python-format
@@ -48,10 +48,12 @@ msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr ""
+"Операцията не може да бъде извършена тъй като максимален обем памет (%s) е "
+"вече надвишен с %s."
 
 #: storage.py:267
 msgid "Not enough storage"
-msgstr ""
+msgstr "Няма достатъчно свободна памет"
 
 #: storage.py:268
 #, python-format
@@ -59,6 +61,8 @@ msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
 msgstr ""
+"Операцията изисква %s памет и не може да бъде извършена, тъй като достъпна "
+"памет е само %s."
 
 #: storage.py:276
 msgid "Estimation is already running"

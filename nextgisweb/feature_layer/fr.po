@@ -7,21 +7,21 @@ msgstr "Le format de sortie n'est pas fourni."
 msgid "Format '%s' is not supported."
 msgstr "Le format '% s' est pas pris en charge."
 
-#: api.py:303 api.py:378
+#: api.py:301 api.py:376
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "Le format de géométrie '%s' n'est pas pris en charge."
 
-#: api.py:305
+#: api.py:303
 msgid "Geometry is not valid."
 msgstr "La géométrie n'est pas valide."
 
-#: api.py:311 api.py:383
+#: api.py:309 api.py:381
 #, python-format
 msgid "Date format '%s' is not supported."
 msgstr "Le format de date '%s' n'est pas pris en charge."
 
-#: api.py:607
+#: api.py:600
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "Le paramètre 'intersects' la géométrie n'est pas valide."
 
@@ -43,58 +43,54 @@ msgstr "L'entité peut avoir été supprimée ou une erreur dans l'adresse."
 msgid "Field not found (ID=%d)."
 msgstr "Champ non trouvé (ID =% d)."
 
-#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:43
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:40
 msgid "Feature table"
 msgstr "Table des entités"
 
-#: view.py:61 view.py:84
+#: view.py:58 view.py:81
 #, python-format
 msgid "Feature #%d"
 msgstr "Entité #%d"
 
-#: view.py:136 view.py:199
+#: view.py:131 view.py:194
 msgid "Save as"
 msgstr "Enregistrer sous"
 
-#: view.py:186
+#: view.py:181
 msgid "Features"
 msgstr "Entités"
 
-#: template/section_fields.mako:21 view.py:191
+#: template/section_fields.mako:21 view.py:186
 msgid "Table"
 msgstr "Table"
 
-#: view.py:209
+#: view.py:205
 msgid "External access"
 msgstr "Accès externe"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:194
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:193
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:214
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:210
 msgid "Attributes"
 msgstr "Attributs"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:80
-msgid "Attribute: "
-msgstr "Attribut"
-
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:124
 msgid "Set NULL"
 msgstr "Définir NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:126
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
 msgid "Set field value to NULL (No data)"
 msgstr "Définir la valeur du champ à NULL (données non)"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:137
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:136
 msgid "NULL"
 msgstr "NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:242
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:241
 msgid "Please wait. Processing request..."
 msgstr "Veuillez patienter. Traitement de la demande..."
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:266
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:265
 #: amd/ngw-feature-layer/template/ExportForm.hbs:45
 msgid "Save"
 msgstr "Enregistrer"
@@ -161,7 +157,7 @@ msgstr "Champ FID"
 
 #: amd/ngw-feature-layer/template/ExportForm.hbs:34
 msgid "Use field display names instead of keynames"
-msgstr ""
+msgstr "Utiliser les noms d'affichage des champs au lieu des noms de clé"
 
 #: amd/ngw-feature-layer/template/ExportForm.hbs:37
 msgid "Zip archive"
@@ -183,7 +179,7 @@ msgstr "Effacer"
 msgid "Search..."
 msgstr "Rechercher..."
 
-#: template/section_api_layer.mako:8
+#: template/section_api_layer.mako:11
 msgid "MVT Vector Tiles"
 msgstr "MVT Tuiles Vectorielles"
 
@@ -196,7 +192,7 @@ msgstr ""
 "cartographiques en tuiles vectorielles qui peuvent être rendues "
 "dynamiquement."
 
-#: template/section_api_layer.mako:17
+#: template/section_api_layer.mako:15
 msgid ""
 "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
 "tiles"
@@ -204,7 +200,7 @@ msgstr ""
 "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
 "tiles"
 
-#: template/section_api_layer.mako:18
+#: template/section_api_layer.mako:16
 msgid "Read more"
 msgstr "Lire la suite"
 
@@ -219,4 +215,7 @@ msgstr "Oui"
 #: template/section_fields.mako:34 template/section_fields.mako:38
 msgid "No"
 msgstr "Non"
+
+#~ msgid "Attribute: "
+#~ msgstr "Attribut"
 

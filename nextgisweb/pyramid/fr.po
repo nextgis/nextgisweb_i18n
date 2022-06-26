@@ -1,10 +1,10 @@
-#: __init__.py:139
+#: __init__.py:144
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
-#: __init__.py:139
+#: __init__.py:144
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: api.py:228
 msgid "Required parameter 'component' is missing."
@@ -14,7 +14,7 @@ msgstr ""
 msgid "Invalid component identity."
 msgstr ""
 
-#: api.py:538
+#: api.py:570
 msgid "Your Web GIS at nextgis.com"
 msgstr "Votre Web GIS sur nextgis.com"
 
@@ -103,43 +103,43 @@ msgstr "Le serveur est actuellement indisponible. Veuillez réessayer ultérieur
 msgid "Control panel"
 msgstr "Panneau de configuration"
 
-#: view.py:103 view.py:477
+#: view.py:103 view.py:481
 msgid "System information"
 msgstr "Informations système"
 
-#: view.py:116 view.py:494
+#: view.py:116 view.py:498
 msgid "Storage"
 msgstr "Espace de rangement"
 
-#: view.py:126 view.py:499
+#: view.py:126 view.py:503
 msgid "Backups"
 msgstr "Sauvegardes"
 
-#: view.py:142 view.py:483
+#: view.py:142 view.py:487
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
-#: view.py:150 view.py:485
+#: view.py:150 view.py:489
 msgid "Custom CSS"
 msgstr "CSS personnalisé"
 
-#: view.py:158 view.py:487
+#: view.py:158 view.py:491
 msgid "Custom logo"
 msgstr "Logo personnalisé"
 
-#: view.py:166 view.py:481
+#: view.py:166 view.py:485
 msgid "Web GIS name"
 msgstr "Nom de Web GIS"
 
-#: view.py:174 view.py:489
+#: view.py:174 view.py:493
 msgid "Home path"
 msgstr "Chemin d'accueil"
 
-#: view.py:476
+#: view.py:480
 msgid "Info"
 msgstr "Info"
 
-#: nodepkg/layout/Avatar.js:21 view.py:480
+#: nodepkg/layout/Avatar.js:21 view.py:484
 msgid "Settings"
 msgstr "Paramètres"
 
@@ -164,17 +164,13 @@ msgstr "En arrière"
 msgid "Forward"
 msgstr "En avant"
 
-#: amd/ngw-pyramid/company-logo/company-logo.js:24
+#: amd/ngw-pyramid/company-logo/company-logo.js:25
 msgid "Get your own Web GIS at nextgis.com"
 msgstr "Obtenez votre propre Web GIS sur nextgis.com"
 
 #: amd/ngw-pyramid/form/LangSelect.js:24
 msgid "Browser default"
 msgstr "Navigateur par défaut"
-
-#: amd/ngw-pyramid/form/RTETextBox.js:62
-msgid "Rich Text Editor"
-msgstr "Éditeur de texte enrichi"
 
 #: amd/ngw-pyramid/form/ScaleTextBox.js:18
 msgid "Enter the correct scale value, e.g. 1:"
@@ -254,6 +250,10 @@ msgid ""
 "(example.com and www.example.com) are different origins. Wildcards are "
 "allowed for third-level domains and higher."
 msgstr ""
+"Veuillez noter que différents protocoles (HTTP et HTTPS) et sous-domaines "
+"(example.com et www.example.com) sont des origines différentes. Les "
+"caractères génériques sont autorisés pour les domaines de troisième niveau et"
+" supérieur."
 
 #: nodepkg/custom-css-form/CustomCSSForm.js:33
 msgid "Custom styles saved. Reload the page to get them applied."
@@ -390,29 +390,29 @@ msgstr "<a>Contactez le support</a> pour une mise à jour."
 msgid "Show details"
 msgstr "Afficher les détails"
 
-#: template/backup.mako:12
+#: template/backup.mako:9
 msgid "Filename"
 msgstr "Nom de fichier"
 
-#: template/backup.mako:13
+#: template/backup.mako:10
 msgid "Timestamp (UTC)"
 msgstr ""
 "\n"
 "Horodatage (UTC)"
 
-#: template/backup.mako:14
+#: template/backup.mako:11
 msgid "Size"
 msgstr "Taille"
 
-#: template/sysinfo.mako:36
+#: template/sysinfo.mako:35
 msgid "Package"
 msgstr "Paquet"
 
-#: template/sysinfo.mako:37
+#: template/sysinfo.mako:36
 msgid "Version"
 msgstr "Version"
 
-#: template/sysinfo.mako:72
+#: template/sysinfo.mako:71
 msgid "Platform"
 msgstr "Plate-forme"
 
@@ -467,15 +467,17 @@ msgstr ""
 
 #: template/uacompat.mako:36
 msgid "I understood but want to proceed at my own risk. Skip the test!"
-msgstr ""
+msgstr "J'ai compris mais je veux continuer à mes risques et périls. Ignorer le test!"
 
 #: template/uacompat.mako:38
 msgid "Unknown browser"
-msgstr ""
+msgstr "Navigateur inconnu"
 
 #: template/uacompat.mako:39
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
 msgstr ""
+"Si vous utilisez un navigateur à jour, le SIG Web devrait fonctionner "
+"correctement."
 
 #~ msgid "User settings"
 #~ msgstr "Paramètres utilisateur"
@@ -509,4 +511,7 @@ msgstr ""
 
 #~ msgid "Estimation is in progress..."
 #~ msgstr "L'estimation est en cours..."
+
+#~ msgid "Rich Text Editor"
+#~ msgstr "Éditeur de texte enrichi"
 

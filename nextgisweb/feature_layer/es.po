@@ -7,21 +7,21 @@ msgstr "No se proporciona formato de salida."
 msgid "Format '%s' is not supported."
 msgstr "El formato '%s' no es compatible."
 
-#: api.py:303 api.py:378
+#: api.py:301 api.py:376
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "El formato de geometría '%s' no es compatible."
 
-#: api.py:305
+#: api.py:303
 msgid "Geometry is not valid."
 msgstr "La geometría no es válida."
 
-#: api.py:311 api.py:383
+#: api.py:309 api.py:381
 #, python-format
 msgid "Date format '%s' is not supported."
 msgstr "El formato de fecha '%s' no es compatible."
 
-#: api.py:607
+#: api.py:600
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "El parámetro 'intersects' de la geometría no es válido."
 
@@ -45,58 +45,54 @@ msgstr ""
 msgid "Field not found (ID=%d)."
 msgstr "Campo no encontrado (ID=%d)."
 
-#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:43
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:40
 msgid "Feature table"
 msgstr "Tabla de objetos geográficos"
 
-#: view.py:61 view.py:84
+#: view.py:58 view.py:81
 #, python-format
 msgid "Feature #%d"
 msgstr "Objeto geográfico #%d"
 
-#: view.py:136 view.py:199
+#: view.py:131 view.py:194
 msgid "Save as"
 msgstr "Guardar como"
 
-#: view.py:186
+#: view.py:181
 msgid "Features"
 msgstr "Objetos geográficos"
 
-#: template/section_fields.mako:21 view.py:191
+#: template/section_fields.mako:21 view.py:186
 msgid "Table"
 msgstr "Tabla"
 
-#: view.py:209
+#: view.py:205
 msgid "External access"
 msgstr "Acceso externo"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:194
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:193
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:214
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:210
 msgid "Attributes"
 msgstr "Atributos"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:80
-msgid "Attribute: "
-msgstr "Atributo: "
-
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:124
 msgid "Set NULL"
 msgstr "Colocar a NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:126
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
 msgid "Set field value to NULL (No data)"
 msgstr "Colocar el valor del campo en NULL (sin datos)"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:137
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:136
 msgid "NULL"
 msgstr "NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:242
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:241
 msgid "Please wait. Processing request..."
 msgstr "Espere por favor. Procesando la solicitud..."
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:266
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:265
 #: amd/ngw-feature-layer/template/ExportForm.hbs:45
 msgid "Save"
 msgstr "Guardar"
@@ -185,7 +181,7 @@ msgstr "Eliminar"
 msgid "Search..."
 msgstr "Buscando..."
 
-#: template/section_api_layer.mako:8
+#: template/section_api_layer.mako:11
 msgid "MVT Vector Tiles"
 msgstr "MVT Teselas Vectoriales"
 
@@ -197,7 +193,7 @@ msgstr ""
 "Mapbox Vector Tile es una codificación eficiente para datos de mapas en "
 "mosaicos vectoriales que se pueden renderizar dinámicamente."
 
-#: template/section_api_layer.mako:17
+#: template/section_api_layer.mako:15
 msgid ""
 "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
 "tiles"
@@ -205,7 +201,7 @@ msgstr ""
 "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
 "tiles"
 
-#: template/section_api_layer.mako:18
+#: template/section_api_layer.mako:16
 msgid "Read more"
 msgstr "Leer mas"
 
@@ -220,4 +216,7 @@ msgstr "Sí"
 #: template/section_fields.mako:34 template/section_fields.mako:38
 msgid "No"
 msgstr "No"
+
+#~ msgid "Attribute: "
+#~ msgstr "Atributo: "
 

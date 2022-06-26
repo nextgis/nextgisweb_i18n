@@ -1,20 +1,20 @@
-#: __init__.py:139
+#: __init__.py:144
 msgid "Enabled"
-msgstr ""
+msgstr "Включено"
 
-#: __init__.py:139
+#: __init__.py:144
 msgid "Disabled"
-msgstr ""
+msgstr "Изключен"
 
 #: api.py:228
 msgid "Required parameter 'component' is missing."
-msgstr ""
+msgstr "Параметърът 'component' не е налице."
 
 #: api.py:233
 msgid "Invalid component identity."
-msgstr ""
+msgstr "Идентификаторът на компонента не е валиден."
 
-#: api.py:538
+#: api.py:570
 msgid "Your Web GIS at nextgis.com"
 msgstr "Вашите онлайн карти на nextgis.com"
 
@@ -99,43 +99,43 @@ msgstr "Сървърът не е наличен в момента. Опитай�
 msgid "Control panel"
 msgstr "Контролен панел"
 
-#: view.py:103 view.py:477
+#: view.py:103 view.py:481
 msgid "System information"
 msgstr "Системна информация"
 
-#: view.py:116 view.py:494
+#: view.py:116 view.py:498
 msgid "Storage"
 msgstr "Памет"
 
-#: view.py:126 view.py:499
+#: view.py:126 view.py:503
 msgid "Backups"
 msgstr "Резервни копия"
 
-#: view.py:142 view.py:483
+#: view.py:142 view.py:487
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
-#: view.py:150 view.py:485
+#: view.py:150 view.py:489
 msgid "Custom CSS"
 msgstr "Персонализиран CSS"
 
-#: view.py:158 view.py:487
+#: view.py:158 view.py:491
 msgid "Custom logo"
 msgstr "Персонализирано лого"
 
-#: view.py:166 view.py:481
+#: view.py:166 view.py:485
 msgid "Web GIS name"
 msgstr "Име на Уеб GIS"
 
-#: view.py:174 view.py:489
+#: view.py:174 view.py:493
 msgid "Home path"
 msgstr "Начална страница"
 
-#: view.py:476
+#: view.py:480
 msgid "Info"
 msgstr "Информация"
 
-#: nodepkg/layout/Avatar.js:21 view.py:480
+#: nodepkg/layout/Avatar.js:21 view.py:484
 msgid "Settings"
 msgstr "Настройки"
 
@@ -160,17 +160,13 @@ msgstr "Назад"
 msgid "Forward"
 msgstr "Напред"
 
-#: amd/ngw-pyramid/company-logo/company-logo.js:24
+#: amd/ngw-pyramid/company-logo/company-logo.js:25
 msgid "Get your own Web GIS at nextgis.com"
 msgstr "Създайте собствен Уеб GIS чрез nextgis.com"
 
 #: amd/ngw-pyramid/form/LangSelect.js:24
 msgid "Browser default"
 msgstr "По подразбиране в браузъра"
-
-#: amd/ngw-pyramid/form/RTETextBox.js:62
-msgid "Rich Text Editor"
-msgstr "Редактор на обогатен текст"
 
 #: amd/ngw-pyramid/form/ScaleTextBox.js:18
 msgid "Enter the correct scale value, e.g. 1:"
@@ -214,27 +210,27 @@ msgstr "Неочакван отговор на сървъра"
 
 #: nodepkg/api/error.js:41
 msgid "Unexpected error while processing long-running request."
-msgstr ""
+msgstr "Непредвидена грешка при извършване на продължително искане."
 
 #: nodepkg/api/error.js:42
 msgid "Long-running request error"
-msgstr ""
+msgstr "Грешка на продължително искане"
 
 #: nodepkg/api/error.js:49
 msgid "Long-running request was cancelled."
-msgstr ""
+msgstr "Продължително искане е отменено."
 
 #: nodepkg/cors-settings/CORSSettings.js:35
 msgid "CORS settings updated"
-msgstr ""
+msgstr "Настройките на CORS са актуализирани"
 
 #: nodepkg/cors-settings/CORSSettings.js:42
 msgid "Fix the form errors first"
-msgstr ""
+msgstr "Трябва да поправите грешките във формата"
 
 #: nodepkg/cors-settings/CORSSettings.js:62
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "Въведеното значение не е валидно"
 
 #: nodepkg/cors-settings/CORSSettings.js:90
 msgid ""
@@ -251,10 +247,13 @@ msgid ""
 "(example.com and www.example.com) are different origins. Wildcards are "
 "allowed for third-level domains and higher."
 msgstr ""
+"Имайте предвид, че различни протоколи (HTTP и HTTPS) и поддомейни "
+"(example.com и www.example.com) са различни произходи. Заместващи символи са "
+"допустими за домейни от трето ниво насам."
 
 #: nodepkg/custom-css-form/CustomCSSForm.js:33
 msgid "Custom styles saved. Reload the page to get them applied."
-msgstr ""
+msgstr "Потребителските стилове са запазени. Презаредете страницата да ги използвате."
 
 #: nodepkg/custom-css-form/CustomCSSForm.js:63
 msgid ""
@@ -270,7 +269,7 @@ msgstr "Преведен текст"
 
 #: nodepkg/home-path/HomePath.js:4
 msgid "The home path setting is saved."
-msgstr ""
+msgstr "Настройките на началната страница са запазени."
 
 #: nodepkg/layout/Avatar.js:9
 msgid "Sign in"
@@ -310,7 +309,7 @@ msgstr "Общо"
 
 #: nodepkg/storage-summary/StorageSummary.js:109
 msgid "of"
-msgstr ""
+msgstr "от"
 
 #: nodepkg/storage-summary/StorageSummary.js:124
 #, python-format
@@ -341,7 +340,7 @@ msgstr "Оцени използването на памет"
 
 #: nodepkg/system-name-form/SystemNameForm.js:4
 msgid "The system name setting is saved."
-msgstr ""
+msgstr "Името на система е запазено."
 
 #: nodepkg/update/index.js:55
 msgid "Critical updates are available"
@@ -383,49 +382,51 @@ msgstr "<a>Свържи се с поддръжката</a> за актуализ
 msgid "Show details"
 msgstr "Покажи детайли"
 
-#: template/backup.mako:12
+#: template/backup.mako:9
 msgid "Filename"
 msgstr "Файлово име"
 
-#: template/backup.mako:13
+#: template/backup.mako:10
 msgid "Timestamp (UTC)"
 msgstr "Времево клеймо (UTC)"
 
-#: template/backup.mako:14
+#: template/backup.mako:11
 msgid "Size"
 msgstr "Размер"
 
-#: template/sysinfo.mako:36
+#: template/sysinfo.mako:35
 msgid "Package"
 msgstr "Комплект"
 
-#: template/sysinfo.mako:37
+#: template/sysinfo.mako:36
 msgid "Version"
 msgstr "Версия"
 
-#: template/sysinfo.mako:72
+#: template/sysinfo.mako:71
 msgid "Platform"
 msgstr "Платформа"
 
 #: template/uacompat.mako:4
 msgid "Browser compatibility test"
-msgstr ""
+msgstr "Проверка на съместимост на браузъра"
 
 #: template/uacompat.mako:23
 #, python-format
 msgid "%(name)s %(current)s supported"
-msgstr ""
+msgstr "%(name)s %(current)s се поддържа"
 
 #: template/uacompat.mako:24
 msgid ""
 "Web GIS browser compatibility test has been passed! The Web GIS should work "
 "fine."
 msgstr ""
+"Съвместимост на браузъра с Уеб GIS е проверена! Уеб GIS би трябвало да работи"
+" нормално."
 
 #: template/uacompat.mako:27
 #, python-format
 msgid "%(name)s not supported"
-msgstr ""
+msgstr "%(name)s не се поддържа"
 
 #: template/uacompat.mako:28
 #, python-format
@@ -434,11 +435,15 @@ msgid ""
 "outdated browser lacking required features. Try a different browser or "
 "contact your system administrator if another browser isn't available."
 msgstr ""
+"Използвате %(name)s, въпреки че не се поддържа от Уеб GIS. Браузърът е "
+"остарял и не притежава необходими функции. Използвайте друг браузър или "
+"обърнете се към системния администратор в случай ако друг браузър не е "
+"достъпен."
 
 #: template/uacompat.mako:30
 #, python-format
 msgid "%(name)s %(current)s not supported"
-msgstr ""
+msgstr "%(name)s %(current)s не се поддържа"
 
 #: template/uacompat.mako:31
 #, python-format
@@ -448,6 +453,10 @@ msgid ""
 "administrator for upgrading to %(name)s %(required)s+ or try a different "
 "browser."
 msgstr ""
+"Използвате %(name)s %(current)s, въпреки че не се поддържа от Уеб GIS. "
+"Версията е остаряла и не притежава необходими функции. Свържете се със "
+"системния администратор за актуализиране до %(name)s %(required)s+ или "
+"използвайте друг браузър."
 
 #: template/uacompat.mako:35
 msgid ""
@@ -455,18 +464,21 @@ msgid ""
 " to bypass the compatibility test. The Web GIS or some features may degrade "
 "or fail  in this case."
 msgstr ""
+"Ако искате все едно да използвате текущия браузър, натиснете линка по-долу да"
+" пропуснете проверката на съвместимост. Уеб GIS или отделни функции може да "
+"не работят или да не бъдат на ниво."
 
 #: template/uacompat.mako:36
 msgid "I understood but want to proceed at my own risk. Skip the test!"
-msgstr ""
+msgstr "Разбирам, но искам да продължа на своя риск. Пропусни проверката!"
 
 #: template/uacompat.mako:38
 msgid "Unknown browser"
-msgstr ""
+msgstr "Неизвестен браузър"
 
 #: template/uacompat.mako:39
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
-msgstr ""
+msgstr "Ако използвате актуализиран браузър, Уеб GIS трябва да работи нормално."
 
 #~ msgid ""
 #~ "Please note that different protocols (HTTP"
@@ -496,4 +508,7 @@ msgstr ""
 
 #~ msgid "Estimation is in progress..."
 #~ msgstr "Извършва се оценяването..."
+
+#~ msgid "Rich Text Editor"
+#~ msgstr "Редактор на обогатен текст"
 

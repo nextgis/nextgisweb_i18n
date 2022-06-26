@@ -24,7 +24,7 @@ msgstr "Chyba ověření"
 
 #: exception.py:90
 msgid "Forbidden"
-msgstr ""
+msgstr "Zakázán"
 
 #: exception.py:95
 msgid "Insufficient permissions"
@@ -36,11 +36,11 @@ msgstr "Provozní chyba "
 
 #: exception.py:105
 msgid "External service error"
-msgstr ""
+msgstr "Chyba externí služby"
 
 #: storage.py:258
 msgid "Storage full"
-msgstr ""
+msgstr "Skladování plné"
 
 #: storage.py:259
 #, python-format
@@ -48,10 +48,12 @@ msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr ""
+"Tuto operaci nelze provést, protože limit úložiště (%s) byl již překročen o "
+"%s."
 
 #: storage.py:267
 msgid "Not enough storage"
-msgstr ""
+msgstr "Nedostatek úložného prostoru"
 
 #: storage.py:268
 #, python-format
@@ -59,6 +61,8 @@ msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
 msgstr ""
+"Tato operace vyžaduje %s úložiště a nelze ji provést, protože je k dispozici "
+"pouze %s."
 
 #: storage.py:276
 msgid "Estimation is already running"

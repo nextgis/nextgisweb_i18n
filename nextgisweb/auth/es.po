@@ -22,51 +22,51 @@ msgstr "Administrador"
 msgid "Owner"
 msgstr "Propietario"
 
-#: __init__.py:270
+#: __init__.py:277
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Se alcanza el número máximo de usuarios. El límite de número de usuarios de "
 "su plan actual es %d."
 
-#: api.py:282
+#: api.py:304
 #, python-format
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr "El atributo '%s' del principal del sistema no se puede cambiar."
 
-#: api.py:291
+#: api.py:313
 #, python-format
 msgid "Principal '%s' already exists."
 msgstr "Principal '%s' ya existe."
 
-#: api.py:293
+#: api.py:315
 #, python-format
 msgid "Principal with full name '%s' already exists."
 msgstr "El principal con el nombre completo '%s' ya existe."
 
-#: api.py:329
+#: api.py:351
 #, python-format
 msgid "User '%s' can't be a member of a group."
 msgstr "El usuario '%s' no puede ser miembro de un grupo."
 
-#: api.py:335
+#: api.py:357
 msgid "System principals can't be deleted."
 msgstr "Los principales del sistema no se pueden eliminar."
 
-#: api.py:351
+#: api.py:373
 msgid "User is referenced with resources"
 msgstr "Se hace referencia al usuario con recursos"
 
-#: api.py:352
+#: api.py:374
 msgid "Group is referenced with resources"
 msgstr "Se hace referencia al grupo con recursos"
 
-#: api.py:364
+#: api.py:386
 #, python-format
 msgid "Invalid principal name: '%s'."
 msgstr "Nombre principal no válido: '%s'."
 
-#: api.py:399
+#: api.py:421
 msgid "The 'administrators' group must have at least one enabled member."
 msgstr "El grupo 'administrators' debe tener al menos un miembro habilitado."
 
@@ -82,63 +82,71 @@ msgstr "Credenciales no válidas"
 msgid "User is disabled"
 msgstr "Usuario deshabilitado"
 
-#: oauth.py:124
+#: oauth.py:161
 msgid "User is already bound"
 msgstr "El usuario ya está vinculado"
 
-#: oauth.py:349
+#: oauth.py:424
 msgid "OAuth authorization error"
 msgstr "Error de autorización de OAuth"
 
-#: oauth.py:354
+#: oauth.py:429
 msgid "Invalid OAuth token"
 msgstr "Token de OAuth no válido"
 
-#: oauth.py:359
+#: oauth.py:434
 msgid "Invalid OAuth scope"
 msgstr "Ámbito de OAuth no válido"
 
-#: oauth.py:364
+#: oauth.py:439
+msgid "OAuth password grant type failed"
+msgstr ""
+
+#: oauth.py:444
 msgid "OAuth token refresh failed"
 msgstr "Error al actualizar el token de OAuth"
 
-#: oauth.py:369
+#: oauth.py:449
 msgid "OAuth access token is expired"
 msgstr "El token de acceso de OAuth está caducado"
 
-#: views.py:93
+#: nodepkg/login-form/LoginForm.js:14 view.py:50
+msgid "Sign in to Web GIS"
+msgstr "Conectarse a Web GIS"
+
+#: view.py:72
 msgid "Session not found."
 msgstr "No se ha encontrado la sesión."
 
-#: views.py:98
+#: view.py:77
 msgid "Invalid 'expires' parameter."
 msgstr "Parámetro 'expires' no es válido."
 
-#: views.py:101
+#: view.py:80
 msgid "Session expired."
 msgstr "La sesión ha expirado."
 
-#: views.py:233
+#: view.py:212
 msgid "User settings"
 msgstr "Ajustes del usuario"
 
-#: views.py:240 views.py:353
+#: view.py:219 view.py:332
 msgid "Users"
 msgstr "Usuarios"
 
-#: views.py:253
+#: view.py:232
 msgid "Create new user"
 msgstr "Crear un usuario nuevo"
 
-#: views.py:268 views.py:357
+#: view.py:247 view.py:336
 msgid "Groups"
 msgstr "Grupos"
 
-#: views.py:281
+#: view.py:260
 msgid "Create new group"
 msgstr "Crear un grupo nuevo"
 
-#: views.py:361
+#: view.py:340
 msgid "Groups and users"
 msgstr "Grupos y usuarios"
 
@@ -186,10 +194,6 @@ msgstr "Descripción"
 #: nodepkg/login-form/LoginForm.js:13
 msgid "Sign in with OAuth"
 msgstr "Conectarse con OAuth"
-
-#: nodepkg/login-form/LoginForm.js:14 template/login.mako:5
-msgid "Sign in to Web GIS"
-msgstr "Conectarse a Web GIS"
 
 #: nodepkg/login-form/LoginForm.js:15 template/session_invite.mako:17
 msgid "Sign in"

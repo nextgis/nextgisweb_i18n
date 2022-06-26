@@ -1,4 +1,4 @@
-#: __init__.py:30
+#: __init__.py:36
 msgid "Main web map"
 msgstr "Основна уеб карта"
 
@@ -28,7 +28,7 @@ msgstr "Редактиране на анотации"
 
 #: model.py:35
 msgid "Manage annotations"
-msgstr ""
+msgstr "Управление на анотациите"
 
 #: view.py:37
 msgid "Web map settings"
@@ -36,66 +36,74 @@ msgstr "Настройки на уеб картата"
 
 #: view.py:209
 msgid "Embedded webmap preview"
-msgstr ""
+msgstr "Преглед на вградена уеб карта"
 
 #: view.py:259
 msgid "External access"
 msgstr "Външен достъп"
 
-#: amd/ngw-webmap/Display.js:216 amd/ngw-webmap/Display.js:1022
+#: amd/ngw-webmap/Display.js:218 amd/ngw-webmap/Display.js:1027
 #: amd/ngw-webmap/ItemWidget.js:243
 msgid "Layers"
 msgstr "Слоеве"
 
-#: amd/ngw-webmap/Display.js:222 amd/ngw-webmap/Display.js:354
+#: amd/ngw-webmap/Display.js:224 amd/ngw-webmap/Display.js:358
 msgid "Search"
 msgstr "Търсене"
 
-#: amd/ngw-webmap/Display.js:228 amd/ngw-webmap/Display.js:439
+#: amd/ngw-webmap/Display.js:230 amd/ngw-webmap/Display.js:443
 msgid "Share"
 msgstr "Сподели"
 
-#: amd/ngw-webmap/Display.js:234
+#: amd/ngw-webmap/Display.js:236
 msgid "Print map"
 msgstr "Принтирай картата"
 
-#: amd/ngw-webmap/Display.js:373 amd/ngw-webmap/Display.js:380
+#: amd/ngw-webmap/Display.js:377 amd/ngw-webmap/Display.js:384
 msgid "Bookmarks"
 msgstr "Отметки"
 
-#: amd/ngw-webmap/Display.js:403 amd/ngw-webmap/plugin/LayerInfo.js:36
+#: amd/ngw-webmap/Display.js:407 amd/ngw-webmap/plugin/LayerInfo.js:36
 msgid "Description"
 msgstr "Описание"
 
-#: amd/ngw-webmap/Display.js:540 amd/ngw-webmap/Display.js:550
+#: amd/ngw-webmap/Display.js:545 amd/ngw-webmap/Display.js:555
 msgid "Annotations"
 msgstr "Анотации"
 
-#: amd/ngw-webmap/Display.js:733 amd/ngw-webmap/tool/Zoom.js:20
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:483
+#: amd/ngw-webmap/Display.js:738 amd/ngw-webmap/tool/Zoom.js:20
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:488
 msgid "Zoom in"
 msgstr "Приближи"
 
-#: amd/ngw-webmap/Display.js:734 amd/ngw-webmap/tool/Zoom.js:23
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:484
+#: amd/ngw-webmap/Display.js:739 amd/ngw-webmap/tool/Zoom.js:23
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:489
 msgid "Zoom out"
 msgstr "Отдалечи"
 
-#: amd/ngw-webmap/Display.js:738 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:488
+#: amd/ngw-webmap/Display.js:743 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:493
 msgid "Attributions"
 msgstr "Данни за собственниците"
 
-#: amd/ngw-webmap/Display.js:754
+#: amd/ngw-webmap/Display.js:759
 msgid "Initial extent"
 msgstr "Начален обхват"
 
-#: amd/ngw-webmap/Display.js:759
+#: amd/ngw-webmap/Display.js:764
 msgid "Locate me"
-msgstr ""
+msgstr "Намери ме"
 
-#: amd/ngw-webmap/Display.js:762 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:497
+#: amd/ngw-webmap/Display.js:767 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:502
 msgid "Reset rotation"
 msgstr "Върни в изходно положение"
+
+#: amd/ngw-webmap/Display.js:1153 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:669
+msgid "Object not found"
+msgstr ""
+
+#: amd/ngw-webmap/Display.js:1154 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:670
+msgid "Object from URL parameters not found"
+msgstr ""
 
 #: amd/ngw-webmap/ExtentWidget.js:31
 msgid "Extent and bookmarks"
@@ -122,7 +130,7 @@ msgstr "Добави група"
 
 #: amd/ngw-webmap/controls/MyLocation.js:124
 msgid "Your location could not be determined"
-msgstr ""
+msgstr "Вашето местоположение не може да е определено"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:25
 msgid "Your annotation text"
@@ -130,15 +138,15 @@ msgstr "Вашата анотация"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:142
 msgid "Public annotation"
-msgstr ""
+msgstr "Публични анотации"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:144
 msgid "My private annotation"
-msgstr ""
+msgstr "Мои лични скрити анотации"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:147
 msgid "Private annotation"
-msgstr ""
+msgstr "Лични анотации"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationsPopup.hbs:7
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:267
@@ -222,8 +230,8 @@ msgid "Add layer"
 msgstr "Добави слой"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:18
-msgid "Select layer\\'s style"
-msgstr "Изберете стил за слоя"
+msgid "Select layer's style"
+msgstr ""
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:33
 msgid "Remove"
@@ -240,7 +248,7 @@ msgstr "Включен"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:82
 msgid "Identifiable"
-msgstr ""
+msgstr "Определим"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:89
 msgid "Transparency"
@@ -266,19 +274,19 @@ msgstr "Ресурс на стилове"
 msgid "Expanded"
 msgstr "Разширена"
 
-#: amd/ngw-webmap/tool/Identify.js:212
+#: amd/ngw-webmap/tool/Identify.js:215
 msgid "Attributes"
 msgstr "Атрибути"
 
-#: amd/ngw-webmap/tool/Identify.js:246
+#: amd/ngw-webmap/tool/Identify.js:250
 msgid "Feature"
 msgstr "Обект"
 
-#: amd/ngw-webmap/tool/Identify.js:304 amd/ngw-webmap/tool/Identify.js:321
+#: amd/ngw-webmap/tool/Identify.js:308 amd/ngw-webmap/tool/Identify.js:325
 msgid "Identify"
 msgstr "Идентификация"
 
-#: amd/ngw-webmap/tool/Identify.js:431
+#: amd/ngw-webmap/tool/Identify.js:443
 msgid "Features"
 msgstr "Обекти"
 
@@ -353,15 +361,15 @@ msgstr "Изтрий"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:148
 msgid "Create as public"
-msgstr ""
+msgstr "Създай с публичен статут"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:157
 msgid "Create as private"
-msgstr ""
+msgstr "Създай с личен статут"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:166
 msgid "Create"
-msgstr ""
+msgstr "Създаване"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:272
 msgid "Create annotation"
@@ -404,7 +412,7 @@ msgstr "Невалидна ширина: трябва да е между 1 и 10
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:7
 msgid "Annotations layer"
-msgstr ""
+msgstr "Слой на анотации"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:16
 msgid "Show annotations layer"
@@ -416,23 +424,23 @@ msgstr "Покажи съобщения"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:27
 msgid "Private annotations"
-msgstr ""
+msgstr "Скрити анотации"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:37
 msgid "Show annotation types"
-msgstr ""
+msgstr "Покажи типове анотации"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:43
 msgid "Public annotations"
-msgstr ""
+msgstr "Публични анотации"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:49
 msgid "My private annotations"
-msgstr ""
+msgstr "Мои лични анотации"
 
 #: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:220
 msgid "Other private annotations"
-msgstr ""
+msgstr "Други лични анотации"
 
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:27
 msgid "Stopping editing"
@@ -546,7 +554,7 @@ msgstr "PNG"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:123
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:8
 msgid "Select scale"
@@ -603,14 +611,16 @@ msgid ""
 "<a>CORS</a> must be enabled for the target origin when embedding a web map on"
 " a different domain."
 msgstr ""
+"При вграждане на карта в друг домейн <a>CORS</a> трябва да е включен за "
+"избрания целев произход."
 
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:515
+#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:520
 msgid "Open full map"
 msgstr "Отвори цялата карта"
 
 #: nodepkg/settings/Settings.js:56
 msgid "Settings saved"
-msgstr ""
+msgstr "Настройките са запазени"
 
 #: nodepkg/settings/SettingsForm.js:52
 msgid "Identify popup"
@@ -759,12 +769,12 @@ msgstr "Yandex.Maps API Геокодер"
 #: template/invalid_origin.mako:4
 #, python-format
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
-msgstr ""
+msgstr "Вграждане на уеб карта не е разрешено за %s в настройките на Уеб GIS."
 
 #: template/invalid_origin.mako:6
 #, python-format
 msgid "View the map on %s"
-msgstr ""
+msgstr "Преглед на картата в %s"
 
 #: template/section_api_webmap.mako:12
 msgid "TMS (Tile Map Service)"
@@ -805,4 +815,7 @@ msgstr "Детайли"
 
 #~ msgid "Error on the server:"
 #~ msgstr "Сървърна грешка:"
+
+#~ msgid "Select layer\\'s style"
+#~ msgstr "Изберете стил за слоя"
 

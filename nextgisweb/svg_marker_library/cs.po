@@ -5,17 +5,17 @@ msgstr "Knihovna značek SVG"
 #: model.py:71
 #, python-format
 msgid "Insecure filename \"%s\"."
-msgstr ""
+msgstr "Nezabezpečený název souboru \"%s\"."
 
 #: model.py:76
 #, python-format
 msgid "File \"%s\" has an invalid extension."
-msgstr ""
+msgstr "Soubor \"%s \" má neplatnou příponu."
 
 #: model.py:82
 #, python-format
 msgid "File type \"%s\" is not SVG."
-msgstr ""
+msgstr "Typ souboru \"%s \" není SVG."
 
 #: view.py:20
 msgid "Export"

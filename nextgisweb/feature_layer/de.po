@@ -7,21 +7,21 @@ msgstr "Dateiformat für Export ist nicht gewählt."
 msgid "Format '%s' is not supported."
 msgstr "Nicht unterstütztes Dateiformat '%s'."
 
-#: api.py:303 api.py:378
+#: api.py:301 api.py:376
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "Nicht unterstütztes Geometrieformat '%s'."
 
-#: api.py:305
+#: api.py:303
 msgid "Geometry is not valid."
 msgstr "Geometrie ist falsch"
 
-#: api.py:311 api.py:383
+#: api.py:309 api.py:381
 #, python-format
 msgid "Date format '%s' is not supported."
 msgstr ""
 
-#: api.py:607
+#: api.py:600
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "'intersects'-Parameter enthält falsche Geometrie."
 
@@ -43,58 +43,54 @@ msgstr "Objekt fehlt oder fehlerhafte Eingabe der Adresse."
 msgid "Field not found (ID=%d)."
 msgstr "Feld nicht gefunden (ID=%d)."
 
-#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:43
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:40
 msgid "Feature table"
 msgstr "Objekte-Tabelle"
 
-#: view.py:61 view.py:84
+#: view.py:58 view.py:81
 #, python-format
 msgid "Feature #%d"
 msgstr "Objekt %d"
 
-#: view.py:136 view.py:199
+#: view.py:131 view.py:194
 msgid "Save as"
 msgstr "Speichern unter"
 
-#: view.py:186
+#: view.py:181
 msgid "Features"
 msgstr "Objekte"
 
-#: template/section_fields.mako:21 view.py:191
+#: template/section_fields.mako:21 view.py:186
 msgid "Table"
 msgstr "Tabelle"
 
-#: view.py:209
+#: view.py:205
 msgid "External access"
 msgstr "externer Zugriff"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:194
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:193
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:214
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:210
 msgid "Attributes"
 msgstr "Attribute"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:80
-msgid "Attribute: "
-msgstr "Attribut: "
-
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:124
 msgid "Set NULL"
 msgstr "NULL setzen"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:126
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
 msgid "Set field value to NULL (No data)"
 msgstr "Feldwert auf NULL setzen (keine Daten)"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:137
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:136
 msgid "NULL"
 msgstr "NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:242
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:241
 msgid "Please wait. Processing request..."
 msgstr ""
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:266
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:265
 #: amd/ngw-feature-layer/template/ExportForm.hbs:45
 msgid "Save"
 msgstr "Speichern"
@@ -183,7 +179,7 @@ msgstr "Löschen"
 msgid "Search..."
 msgstr "Suche..."
 
-#: template/section_api_layer.mako:8
+#: template/section_api_layer.mako:11
 msgid "MVT Vector Tiles"
 msgstr "MVT-Vektorkachel"
 
@@ -195,7 +191,7 @@ msgstr ""
 "MVT-Vektorkachel ist ein effizientes Kodierungsmittel für Kartendaten, das "
 "das dynamische Rendering ermöglicht."
 
-#: template/section_api_layer.mako:17
+#: template/section_api_layer.mako:15
 msgid ""
 "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
 "tiles"
@@ -203,7 +199,7 @@ msgstr ""
 "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
 "tiles"
 
-#: template/section_api_layer.mako:18
+#: template/section_api_layer.mako:16
 msgid "Read more"
 msgstr "Weiterlesen"
 
@@ -218,4 +214,7 @@ msgstr "Ja"
 #: template/section_fields.mako:34 template/section_fields.mako:38
 msgid "No"
 msgstr "Nein"
+
+#~ msgid "Attribute: "
+#~ msgstr "Attribut: "
 

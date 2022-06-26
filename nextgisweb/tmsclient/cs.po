@@ -5,7 +5,7 @@ msgstr "Připojení TMS"
 
 #: model.py:130
 msgid "API key required."
-msgstr ""
+msgstr "Klíč API je povinný."
 
 #: model.py:173
 msgid "Zoom is out of range."
@@ -17,7 +17,7 @@ msgstr "TMS vrstva"
 
 #: model.py:321
 msgid "Layer name required."
-msgstr ""
+msgstr "Název vrstvy je povinný."
 
 #: view.py:21
 msgid "TMS capabilities"

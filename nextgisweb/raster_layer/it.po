@@ -59,32 +59,28 @@ msgid ""
 "the target coordinate system."
 msgstr ""
 
-#: model.py:145
+#: model.py:144
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr ""
 
-#: model.py:148
+#: model.py:147
 #, python-format
 msgid "GDAL error message: %s"
 msgstr ""
 
-#: model.py:159
+#: model.py:160
 #, python-format
 msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
 msgstr ""
 
-#: model.py:241
+#: model.py:242
 msgid "Data type"
 msgstr "Tipo di dato"
 
-#: model.py:242
+#: model.py:243
 msgid "COG"
-msgstr ""
-
-#: model.py:327
-msgid "COG attribute can be set only at creation time."
 msgstr ""
 
 #: view.py:21 view.py:36
@@ -115,20 +111,20 @@ msgstr "Bande"
 msgid "Save"
 msgstr "Salva"
 
-#: amd/ngw-raster-layer/template/Widget.hbs:3
+#: amd/ngw-raster-layer/template/Widget.hbs:4
 msgid "Select a dataset"
 msgstr "Seleziona un set di dati"
 
-#: amd/ngw-raster-layer/template/Widget.hbs:4
+#: amd/ngw-raster-layer/template/Widget.hbs:5
 msgid "Dataset should be in GeoTIFF format."
 msgstr "Il set di dati dovrebbe essere in formato GeoTIFF."
 
-#: amd/ngw-raster-layer/template/Widget.hbs:8
+#: amd/ngw-raster-layer/template/Widget.hbs:9
 msgid "Coordinate system"
 msgstr "Sistema di coordinate"
 
-#: amd/ngw-raster-layer/template/Widget.hbs:12
-msgid "Upload as Cloud Optimized GeoTIFF (COG)"
+#: amd/ngw-raster-layer/template/Widget.hbs:14
+msgid "Cloud Optimized GeoTIFF (COG)"
 msgstr ""
 
 #: template/section_api_cog.mako:10

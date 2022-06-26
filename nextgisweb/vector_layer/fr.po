@@ -75,7 +75,7 @@ msgstr ""
 #: model.py:441
 #, python-format
 msgid "Field '%s' contains non-unique or empty values."
-msgstr ""
+msgstr "Le champ '%s' contient des valeurs non uniques ou vides."
 
 #: model.py:452
 msgid "Parameter 'fid_field' is missing."
@@ -261,6 +261,8 @@ msgid ""
 "Dataset should be in ESRI Shapefile (zip), GeoPackage, GeoJSON, GML or KML "
 "format."
 msgstr ""
+"L'ensemble de données doit être au format ESRI Shapefile (zip), GeoPackage, "
+"GeoJSON, GML ou KML."
 
 #: amd/ngw-vector-layer/template/Widget.hbs:57
 msgid "Source layer"

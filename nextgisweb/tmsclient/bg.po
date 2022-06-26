@@ -5,7 +5,7 @@ msgstr "TMS връзка"
 
 #: model.py:130
 msgid "API key required."
-msgstr ""
+msgstr "Необходим е API ключ."
 
 #: model.py:173
 msgid "Zoom is out of range."
@@ -17,7 +17,7 @@ msgstr "TMS слой"
 
 #: model.py:321
 msgid "Layer name required."
-msgstr ""
+msgstr "Необходимо е име на слоя."
 
 #: view.py:21
 msgid "TMS capabilities"

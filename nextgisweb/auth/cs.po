@@ -22,57 +22,57 @@ msgstr "Administrátor"
 msgid "Owner"
 msgstr "Majitel"
 
-#: __init__.py:270
+#: __init__.py:277
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Bylo dosaženo maximálního počtu uživatelů. Váš aktuální limit počtu uživatelů"
 " plánu je %d."
 
-#: api.py:282
+#: api.py:304
 #, python-format
 msgid "The '%s' attribute of the system principal can't be changed."
-msgstr ""
+msgstr "Atribut '%s ' principal systému nelze změnit."
 
-#: api.py:291
+#: api.py:313
 #, python-format
 msgid "Principal '%s' already exists."
-msgstr ""
+msgstr "Jistina '%s' již existuje."
 
-#: api.py:293
+#: api.py:315
 #, python-format
 msgid "Principal with full name '%s' already exists."
-msgstr ""
-
-#: api.py:329
-#, python-format
-msgid "User '%s' can't be a member of a group."
-msgstr ""
-
-#: api.py:335
-msgid "System principals can't be deleted."
-msgstr ""
+msgstr "Principal s plným názvem '%s ' již existuje."
 
 #: api.py:351
+#, python-format
+msgid "User '%s' can't be a member of a group."
+msgstr "Uživatel '%s ' nemůže být členem skupiny."
+
+#: api.py:357
+msgid "System principals can't be deleted."
+msgstr "Principy systému nelze smazat."
+
+#: api.py:373
 msgid "User is referenced with resources"
-msgstr ""
+msgstr "Uživatel je odkazován na zdroje"
 
-#: api.py:352
+#: api.py:374
 msgid "Group is referenced with resources"
-msgstr ""
+msgstr "Skupina je odkazována na zdroje"
 
-#: api.py:364
+#: api.py:386
 #, python-format
 msgid "Invalid principal name: '%s'."
-msgstr ""
+msgstr "Neplatné Hlavní jméno:'%s'."
 
-#: api.py:399
+#: api.py:421
 msgid "The 'administrators' group must have at least one enabled member."
-msgstr ""
+msgstr "Skupina 'Administrátoři' musí mít alespoň jednoho povoleného člena."
 
 #: exception.py:7
 msgid "Invalid authorization header"
-msgstr ""
+msgstr "Neplatná hlavička autorizace"
 
 #: exception.py:12
 msgid "Invalid credentials"
@@ -82,85 +82,93 @@ msgstr "Neplatná pověření"
 msgid "User is disabled"
 msgstr "Uživatel je deaktivován"
 
-#: oauth.py:124
+#: oauth.py:161
 msgid "User is already bound"
 msgstr "Uživatel je již vázán"
 
-#: oauth.py:349
+#: oauth.py:424
 msgid "OAuth authorization error"
 msgstr "Chyba autorizace OAuth"
 
-#: oauth.py:354
+#: oauth.py:429
 msgid "Invalid OAuth token"
 msgstr "Neplatný token OAuth"
 
-#: oauth.py:359
+#: oauth.py:434
 msgid "Invalid OAuth scope"
+msgstr "Neplatný rozsah OAuth"
+
+#: oauth.py:439
+msgid "OAuth password grant type failed"
 msgstr ""
 
-#: oauth.py:364
+#: oauth.py:444
 msgid "OAuth token refresh failed"
 msgstr "Obnovení tokenu OAuth se nezdařilo"
 
-#: oauth.py:369
+#: oauth.py:449
 msgid "OAuth access token is expired"
 msgstr "OAuth přístupový token vypršel"
 
-#: views.py:93
+#: nodepkg/login-form/LoginForm.js:14 view.py:50
+msgid "Sign in to Web GIS"
+msgstr "Přihlaste se do Web GIS"
+
+#: view.py:72
 msgid "Session not found."
 msgstr "Relace nebyla nalezena."
 
-#: views.py:98
+#: view.py:77
 msgid "Invalid 'expires' parameter."
 msgstr "Neplatný parametr „vyprší“."
 
-#: views.py:101
+#: view.py:80
 msgid "Session expired."
 msgstr "Relace vypršela."
 
-#: views.py:233
+#: view.py:212
 msgid "User settings"
 msgstr "Uživatelské nastavení"
 
-#: views.py:240 views.py:353
+#: view.py:219 view.py:332
 msgid "Users"
 msgstr "Uživatelé"
 
-#: views.py:253
+#: view.py:232
 msgid "Create new user"
 msgstr "Vytvořit nového uživatele"
 
-#: views.py:268 views.py:357
+#: view.py:247 view.py:336
 msgid "Groups"
 msgstr "Skupiny"
 
-#: views.py:281
+#: view.py:260
 msgid "Create new group"
 msgstr "Vytvořit novou skupinu"
 
-#: views.py:361
+#: view.py:340
 msgid "Groups and users"
-msgstr ""
+msgstr "Skupiny a uživatelé"
 
 #: nodepkg/browse.js:9 nodepkg/userMessages.js:5
 msgid "Delete user?"
-msgstr ""
+msgstr "Smazat uživatele?"
 
 #: nodepkg/browse.js:9 nodepkg/groupMessages.js:5
 msgid "Delete group?"
-msgstr ""
+msgstr "Smazat skupinu?"
 
 #: nodepkg/browse.js:11
 msgid "Confirmation"
-msgstr ""
+msgstr "Potvrzení"
 
 #: nodepkg/groupMessages.js:6
 msgid "Group deleted"
-msgstr ""
+msgstr "Skupina smazána"
 
 #: nodepkg/userMessages.js:6
 msgid "User deleted"
-msgstr ""
+msgstr "Uživatel smazán"
 
 #: nodepkg/group-browse/GroupBrowse.js:8 nodepkg/group-widget/GroupWidget.js:15
 #: nodepkg/user-browse/UserBrowse.js:17 nodepkg/user-widget/UserWidget.js:15
@@ -186,10 +194,6 @@ msgstr "Popis"
 #: nodepkg/login-form/LoginForm.js:13
 msgid "Sign in with OAuth"
 msgstr "Přihlaste se s pomocí OAuth"
-
-#: nodepkg/login-form/LoginForm.js:14 template/login.mako:5
-msgid "Sign in to Web GIS"
-msgstr "Přihlaste se do Web GIS"
 
 #: nodepkg/login-form/LoginForm.js:15 template/session_invite.mako:17
 msgid "Sign in"
@@ -218,23 +222,23 @@ msgstr "Invalidní"
 
 #: nodepkg/user-browse/UserBrowse.js:11
 msgid "Enabled"
-msgstr ""
+msgstr "Povoleno"
 
 #: nodepkg/user-browse/UserBrowse.js:29
 msgid "Last activity"
-msgstr ""
+msgstr "Poslední aktivita"
 
 #: nodepkg/user-browse/UserBrowse.js:41
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 #: nodepkg/user-browse/UserBrowse.js:113
 msgid "Disable"
-msgstr ""
+msgstr "Zakázat"
 
 #: nodepkg/user-browse/UserBrowse.js:113
 msgid "Enable"
-msgstr ""
+msgstr "Povolit"
 
 #: nodepkg/user-widget/UserWidget.js:31
 msgid "Enter new password here"

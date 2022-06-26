@@ -1,23 +1,30 @@
-#: api.py:20
-msgid "Coordinate system name is not unique."
-msgstr "El nombre del sistema de coordenadas no es único."
+#: api.py:30
+msgid "SRS attribute '{}' cannot be changed or set during creation."
+msgstr ""
 
-#: api.py:63
-msgid "Cannot change wkt definition of standard coordinate system."
-msgstr "No se puede cambiar la definición de wkt del sistema de coordenadas estándar."
+#: api.py:35
+msgid "SRS attribute '{}' must have a string value."
+msgstr ""
 
-#: api.py:79
-msgid "Unable to delete standard coordinate system."
-msgstr "No se puede eliminar el sistema de coordenadas estándar."
+#: api.py:43
+msgid "SRS display name is not unique."
+msgstr ""
 
-#: api.py:91
+#: api.py:49
+msgid "OGC WKT definition cannot be changed for this SRS."
+msgstr ""
+
+#: api.py:88
+msgid "System SRS cannot be deleted."
+msgstr ""
+
+#: api.py:101
 msgid "Invalid SRS definition!"
 msgstr "¡Definición de SRS no válida!"
 
-#: api.py:201
-#, python-format
-msgid "Coordinate system (id=%d) already exists."
-msgstr "El sistema de coordenadas (id=%d) ya existe."
+#: api.py:212
+msgid "SRS #{} already exists."
+msgstr ""
 
 #: util.py:39
 #, python-format
@@ -33,39 +40,39 @@ msgstr "¡Formato del sistema de referencia espacial desconocido: %s!"
 msgid "Invalid OGC WKT definition!"
 msgstr "¡Definición de OGC WKT no válida!"
 
-#: views.py:23
+#: view.py:24
 msgid "Spatial reference system catalog"
 msgstr "Catálogo de sistemas de referencia espacial"
 
-#: views.py:34
+#: view.py:35
 msgid "Spatial reference system"
 msgstr "Sistema de referencia espacial"
 
-#: views.py:44 views.py:119
+#: view.py:45 view.py:120
 msgid "Spatial reference systems"
 msgstr "Sistemas de referencia espacial"
 
-#: views.py:57
+#: view.py:58
 msgid "Create new Spatial reference system"
 msgstr "Crear un nuevo Sistema de referencia espacial"
 
-#: views.py:84
+#: view.py:85
 msgid "List"
 msgstr "Lista"
 
-#: views.py:89
+#: view.py:90
 msgid "Create"
 msgstr "Crear"
 
-#: views.py:95
+#: view.py:96
 msgid "Catalog"
 msgstr "Catálogo"
 
-#: views.py:101
+#: view.py:102
 msgid "Edit"
 msgstr "Editar"
 
-#: views.py:109
+#: view.py:110
 msgid "Delete"
 msgstr "Eliminar"
 
@@ -77,63 +84,58 @@ msgstr "¿Eliminar SRS?"
 msgid "SRS deleted"
 msgstr "SRS eliminado"
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:90 nodepkg/srs-browse/SrsBrowse.js:9
-msgid "SRS name"
-msgstr "Nombre de SRS"
-
-#: nodepkg/catalog-browse/CatalogBrowse.js:96
-msgid "Auth name"
-msgstr "Nombre de la autoridad"
-
-#: nodepkg/catalog-browse/CatalogBrowse.js:102
-msgid "Auth SRID"
-msgstr "SRID de autoridad"
-
-#: nodepkg/catalog-browse/CatalogBrowse.js:114
-msgid "View"
-msgstr "Vista"
-
-#: nodepkg/catalog-browse/CatalogBrowse.js:131
-msgid "Search"
-msgstr "Buscar"
-
-#: nodepkg/catalog-browse/CatalogBrowse.js:146
-msgid "Latitude"
-msgstr "Latitud"
-
-#: nodepkg/catalog-browse/CatalogBrowse.js:159
-msgid "Longitude"
-msgstr "Longitud"
-
-#: nodepkg/catalog-import/CatalogImport.js:17 nodepkg/srs-widget/SRSWidget.js:21
+#: nodepkg/catalog-browse/CatalogBrowse.js:105
+#: nodepkg/catalog-import/CatalogImport.js:16 nodepkg/srs-browse/SrsBrowse.js:12
+#: nodepkg/srs-widget/SRSWidget.js:24
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
-#: nodepkg/catalog-import/CatalogImport.js:22 nodepkg/srs-widget/SRSWidget.js:26
-msgid "OGC WKT definition"
-msgstr "Definición de OGC WKT"
+#: nodepkg/catalog-browse/CatalogBrowse.js:112
+msgid "Show in catalog"
+msgstr ""
 
-#: nodepkg/catalog-import/CatalogImport.js:59
-msgid "The spatial reference system is imported"
-msgstr "El sistema de referencia espacial ha sido importado"
+#: nodepkg/catalog-browse/CatalogBrowse.js:124 nodepkg/srs-widget/SRSWidget.js:29
+msgid "Authority and code"
+msgstr ""
 
-#: nodepkg/catalog-import/CatalogImport.js:77
-msgid "View details"
-msgstr "Ver detalles"
-
-#: nodepkg/catalog-import/CatalogImport.js:86
+#: nodepkg/catalog-browse/CatalogBrowse.js:136
+#: nodepkg/catalog-import/CatalogImport.js:82
 msgid "Import"
 msgstr "Importar"
 
-#: nodepkg/srs-widget/SRSImportForm.js:19
+#: nodepkg/catalog-browse/CatalogBrowse.js:153
+msgid "Search"
+msgstr "Buscar"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:170
+msgid "Latitude"
+msgstr "Latitud"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:183
+msgid "Longitude"
+msgstr "Longitud"
+
+#: nodepkg/catalog-import/CatalogImport.js:21 nodepkg/srs-widget/SRSWidget.js:37
+msgid "OGC WKT definition"
+msgstr "Definición de OGC WKT"
+
+#: nodepkg/catalog-import/CatalogImport.js:73
+msgid "View details"
+msgstr "Ver detalles"
+
+#: nodepkg/srs-browse/SrsBrowse.js:29
+msgid "Import from catalog"
+msgstr ""
+
+#: nodepkg/srs-widget/SRSImportForm.js:20
 msgid "Format"
 msgstr "Formato"
 
-#: nodepkg/srs-widget/SRSImportForm.js:30
+#: nodepkg/srs-widget/SRSImportForm.js:31
 msgid "Definition"
 msgstr "Definición"
 
-#: nodepkg/srs-widget/SRSWidget.js:68 nodepkg/srs-widget/SRSWidget.js:84
+#: nodepkg/srs-widget/SRSWidget.js:81 nodepkg/srs-widget/SRSWidget.js:109
 msgid "Import definition"
 msgstr "Importar definición"
 
@@ -142,4 +144,33 @@ msgstr "Importar definición"
 
 #~ msgid "Longitude and latitude must be specified at the same time."
 #~ msgstr "La longitud y la latitud deben especificarse al mismo tiempo."
+
+#~ msgid "Coordinate system name is not unique."
+#~ msgstr "El nombre del sistema de coordenadas no es único."
+
+#~ msgid "Cannot change wkt definition of standard coordinate system."
+#~ msgstr ""
+#~ "No se puede cambiar la definición de"
+#~ " wkt del sistema de coordenadas estándar."
+
+#~ msgid "Unable to delete standard coordinate system."
+#~ msgstr "No se puede eliminar el sistema de coordenadas estándar."
+
+#~ msgid "Coordinate system (id=%d) already exists."
+#~ msgstr "El sistema de coordenadas (id=%d) ya existe."
+
+#~ msgid "SRS name"
+#~ msgstr "Nombre de SRS"
+
+#~ msgid "Auth name"
+#~ msgstr "Nombre de la autoridad"
+
+#~ msgid "Auth SRID"
+#~ msgstr "SRID de autoridad"
+
+#~ msgid "View"
+#~ msgstr "Vista"
+
+#~ msgid "The spatial reference system is imported"
+#~ msgstr "El sistema de referencia espacial ha sido importado"
 

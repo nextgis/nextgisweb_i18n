@@ -57,5 +57,5 @@ msgstr "Изберете файл"
 
 #: nodepkg/image-uploader/ImageUploader.js:125
 msgid "Stop"
-msgstr ""
+msgstr "Спри"
 

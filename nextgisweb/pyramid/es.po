@@ -1,8 +1,8 @@
-#: __init__.py:139
+#: __init__.py:144
 msgid "Enabled"
 msgstr "Habilitado"
 
-#: __init__.py:139
+#: __init__.py:144
 msgid "Disabled"
 msgstr "Deshabilitado"
 
@@ -14,7 +14,7 @@ msgstr "Falta el parámetro requerido 'component'."
 msgid "Invalid component identity."
 msgstr "Identidad de componente no válida."
 
-#: api.py:538
+#: api.py:570
 msgid "Your Web GIS at nextgis.com"
 msgstr "Tu Web GIS en nextgis.com"
 
@@ -98,43 +98,43 @@ msgstr "El servidor no esta disponible. Por favor, intente más tarde."
 msgid "Control panel"
 msgstr "Panel de control"
 
-#: view.py:103 view.py:477
+#: view.py:103 view.py:481
 msgid "System information"
 msgstr "Información del sistema"
 
-#: view.py:116 view.py:494
+#: view.py:116 view.py:498
 msgid "Storage"
 msgstr "Almacenamiento"
 
-#: view.py:126 view.py:499
+#: view.py:126 view.py:503
 msgid "Backups"
 msgstr "Copias de seguridad"
 
-#: view.py:142 view.py:483
+#: view.py:142 view.py:487
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
-#: view.py:150 view.py:485
+#: view.py:150 view.py:489
 msgid "Custom CSS"
 msgstr "CSS personalizado"
 
-#: view.py:158 view.py:487
+#: view.py:158 view.py:491
 msgid "Custom logo"
 msgstr "Logo personalizado"
 
-#: view.py:166 view.py:481
+#: view.py:166 view.py:485
 msgid "Web GIS name"
 msgstr "Nombre del Web GIS"
 
-#: view.py:174 view.py:489
+#: view.py:174 view.py:493
 msgid "Home path"
 msgstr "Ruta a la página principal"
 
-#: view.py:476
+#: view.py:480
 msgid "Info"
 msgstr "Información"
 
-#: nodepkg/layout/Avatar.js:21 view.py:480
+#: nodepkg/layout/Avatar.js:21 view.py:484
 msgid "Settings"
 msgstr "Configuración"
 
@@ -159,17 +159,13 @@ msgstr "Atrás"
 msgid "Forward"
 msgstr "Adelante"
 
-#: amd/ngw-pyramid/company-logo/company-logo.js:24
+#: amd/ngw-pyramid/company-logo/company-logo.js:25
 msgid "Get your own Web GIS at nextgis.com"
 msgstr "Obtén tu propio Web GIS en nextgis.com"
 
 #: amd/ngw-pyramid/form/LangSelect.js:24
 msgid "Browser default"
 msgstr "Predeterminado por navegador"
-
-#: amd/ngw-pyramid/form/RTETextBox.js:62
-msgid "Rich Text Editor"
-msgstr "Editor de texto"
 
 #: amd/ngw-pyramid/form/ScaleTextBox.js:18
 msgid "Enter the correct scale value, e.g. 1:"
@@ -273,7 +269,7 @@ msgstr "Texto traducido"
 
 #: nodepkg/home-path/HomePath.js:4
 msgid "The home path setting is saved."
-msgstr ""
+msgstr "Se guarda la configuración de la ruta de inicio."
 
 #: nodepkg/layout/Avatar.js:9
 msgid "Sign in"
@@ -344,7 +340,7 @@ msgstr "Estimar almacenamiento"
 
 #: nodepkg/system-name-form/SystemNameForm.js:4
 msgid "The system name setting is saved."
-msgstr ""
+msgstr "Se guarda la configuración del nombre del sistema."
 
 #: nodepkg/update/index.js:55
 msgid "Critical updates are available"
@@ -386,27 +382,27 @@ msgstr "<a>Comunicar con el servicio de asistencia</a> para obtener actualizacio
 msgid "Show details"
 msgstr "Mostrar detalles"
 
-#: template/backup.mako:12
+#: template/backup.mako:9
 msgid "Filename"
 msgstr "Nombre del archivo"
 
-#: template/backup.mako:13
+#: template/backup.mako:10
 msgid "Timestamp (UTC)"
 msgstr "Marca temporal (UTC)"
 
-#: template/backup.mako:14
+#: template/backup.mako:11
 msgid "Size"
 msgstr "Tamaño"
 
-#: template/sysinfo.mako:36
+#: template/sysinfo.mako:35
 msgid "Package"
 msgstr "Paquete"
 
-#: template/sysinfo.mako:37
+#: template/sysinfo.mako:36
 msgid "Version"
 msgstr "Versión"
 
-#: template/sysinfo.mako:72
+#: template/sysinfo.mako:71
 msgid "Platform"
 msgstr "Plataforma"
 
@@ -533,4 +529,7 @@ msgstr "Si está utilizando un navegador actualizado, Web GIS debería estar bie
 
 #~ msgid "Estimation is in progress..."
 #~ msgstr "La estimación está en curso ..."
+
+#~ msgid "Rich Text Editor"
+#~ msgstr "Editor de texto"
 

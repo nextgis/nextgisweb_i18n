@@ -9,16 +9,16 @@ msgstr "Форматът '%s' не се поддържа."
 
 #: api.py:101
 msgid "Requested raster is not COG."
-msgstr ""
+msgstr "Растерът не е COG."
 
 #: api.py:105
 msgid "Range header is missed or invalid."
-msgstr ""
+msgstr "Заглавието на диапазона отъства или не е валидно."
 
 #: api.py:109
 #, python-format
 msgid "Range %s can not be read."
-msgstr ""
+msgstr "Диапазонът %s не може да е прочетен."
 
 #: kind_of_data.py:8
 msgid "Rasters and pyramids"
@@ -47,45 +47,45 @@ msgstr "Растерните файлове без данни за проекц�
 
 #: model.py:113
 msgid "Mixed band data types are not supported."
-msgstr ""
+msgstr "Типовете данни със смесени канали не се поддържат."
 
 #: model.py:124
 msgid "GDAL was uanble to parse the raster coordinate system."
-msgstr ""
+msgstr "GDAL не успя да обработи координатната система на растера."
 
 #: model.py:128
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
+"Изходен растер има локална координатна система и не може бъде модифициран в "
+"избраната координатна система."
 
-#: model.py:145
+#: model.py:144
 msgid "Failed to reproject the raster to the target coordinate system."
-msgstr ""
+msgstr "Неуспешно модифициране на растера в избраната координанта система."
 
-#: model.py:148
+#: model.py:147
 #, python-format
 msgid "GDAL error message: %s"
-msgstr ""
+msgstr "Грешка на GDAL: %s"
 
-#: model.py:159
+#: model.py:160
 #, python-format
 msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
 msgstr ""
+"Размерът на некомпресирания растер (%(size)s) надвишава предела (%(limit)s) с"
+" %(delta)s. Намалете файла в съответствие с предела."
 
-#: model.py:241
+#: model.py:242
 msgid "Data type"
 msgstr "Тип данни"
 
-#: model.py:242
+#: model.py:243
 msgid "COG"
-msgstr ""
-
-#: model.py:327
-msgid "COG attribute can be set only at creation time."
-msgstr ""
+msgstr "COG"
 
 #: view.py:21 view.py:36
 msgid "Save as"
@@ -93,7 +93,7 @@ msgstr "Запази като"
 
 #: view.py:46
 msgid "External access"
-msgstr ""
+msgstr "Външен достъп"
 
 #: amd/ngw-raster-layer/ExportForm.js:101
 msgid "Band"
@@ -115,25 +115,25 @@ msgstr "Канали"
 msgid "Save"
 msgstr "Запази"
 
-#: amd/ngw-raster-layer/template/Widget.hbs:3
+#: amd/ngw-raster-layer/template/Widget.hbs:4
 msgid "Select a dataset"
 msgstr "Изберете растерен слой"
 
-#: amd/ngw-raster-layer/template/Widget.hbs:4
+#: amd/ngw-raster-layer/template/Widget.hbs:5
 msgid "Dataset should be in GeoTIFF format."
 msgstr "Набор от данни трябва да е в GeoTIFF формат."
 
-#: amd/ngw-raster-layer/template/Widget.hbs:8
+#: amd/ngw-raster-layer/template/Widget.hbs:9
 msgid "Coordinate system"
 msgstr "Координатна система"
 
-#: amd/ngw-raster-layer/template/Widget.hbs:12
-msgid "Upload as Cloud Optimized GeoTIFF (COG)"
+#: amd/ngw-raster-layer/template/Widget.hbs:14
+msgid "Cloud Optimized GeoTIFF (COG)"
 msgstr ""
 
 #: template/section_api_cog.mako:10
 msgid "Cloud Optimized GeoTIFF"
-msgstr ""
+msgstr "Cloud Optimized GeoTIFF"
 
 #: template/section_api_cog.mako:11
 msgid ""
@@ -143,6 +143,11 @@ msgid ""
 "clients issuing ​HTTP GET range requests to ask for just the parts of a file "
 "they need."
 msgstr ""
+"Cloud Optimized GeoTIFF (COG) е обикновен GeoTIFF файл предназначен да бъде "
+"разположен на HTTP сървър с вътрешна организация, целяща по-ефикасна работа в"
+" облака. Това се постига като клиентските HTTP запитвания се отправят само "
+"към необходимите части на растера, без да се зарежда целият файл в "
+"приложението."
 
 #~ msgid "Complex data types are not supported."
 #~ msgstr "Комплексните типове данни не се поддържат."

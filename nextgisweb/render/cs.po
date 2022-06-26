@@ -4,31 +4,36 @@ msgstr "Mezipaměť dlaždic"
 
 #: api.py:18
 msgid "Invalid origin"
-msgstr ""
+msgstr "Neplatný původ"
 
 #: api.py:19
 msgid ""
 "Origin validation is enabled for rendering requests, but the given origin "
 "doesn't match with the CORS origins list."
 msgstr ""
+"Ověření původu je povoleno pro žádosti o vykreslení, ale daný původ "
+"neodpovídá seznamu CORS origins."
 
 #: util.py:81
 msgid "Required parameter '{}' is missing."
-msgstr ""
+msgstr "Požadovaný parametr '{}' chybí."
 
 #: util.py:86
 msgid "Placeholders {x}, {y} and {z} must be filled with values."
-msgstr ""
+msgstr "Zástupné symboly {x}, {y} a {z} musí být vyplněny hodnotami."
 
 #: util.py:88
 msgid ""
 "It seems you are trying to open an URL template directly in a browser. To "
 "test it try adding some values for 'x', 'y' and 'z' parameters."
 msgstr ""
+"Zdá se, že se pokoušíte otevřít šablonu adresy URL přímo v prohlížeči. "
+"Chcete-li to vyzkoušet, zkuste přidat některé hodnoty pro parametry 'x', 'y' "
+"a 'z'."
 
 #: util.py:93
 msgid "The value of '{}' parameter must be a non-negative integer."
-msgstr ""
+msgstr "Hodnota parametru '{}' musí být nezáporné celé číslo."
 
 #: view.py:21
 msgid "External access"

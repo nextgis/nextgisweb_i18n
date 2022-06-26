@@ -1,9 +1,9 @@
-#: amd/ngw-wmsserver/ServiceWidget.js:55 model.py:27
-#: template/section_api_wms.mako:7
+#: amd/ngw-wmsserver/ServiceWidget.js:55 model.py:24
+#: template/section_api_wms.mako:10
 msgid "WMS service"
 msgstr "WMS услуга"
 
-#: view.py:353
+#: view.py:16
 msgid "External access"
 msgstr "Външен достъп"
 
@@ -12,8 +12,8 @@ msgid "Add"
 msgstr "Добави"
 
 #: amd/ngw-wmsserver/template/ServiceWidget.hbs:18
-msgid "Select layer\\'s style"
-msgstr "Изберете стил за слоя"
+msgid "Select layer's style"
+msgstr ""
 
 #: amd/ngw-wmsserver/template/ServiceWidget.hbs:27
 msgid "Remove"
@@ -50,7 +50,7 @@ msgstr ""
 "карта чрез Интернет. Тези изображения обикновено се произвеждат от сървър на "
 "карти от данни, предоставени от GIS база данни."
 
-#: template/section_api_wms.mako:16
+#: template/section_api_wms.mako:14
 msgid ""
 "https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-service-"
 "connection"
@@ -58,7 +58,10 @@ msgstr ""
 "https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-service-"
 "connection"
 
-#: template/section_api_wms.mako:17
+#: template/section_api_wms.mako:15
 msgid "Read more"
 msgstr "Детайли"
+
+#~ msgid "Select layer\\'s style"
+#~ msgstr "Изберете стил за слоя"
 

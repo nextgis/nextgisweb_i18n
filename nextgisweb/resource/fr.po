@@ -2,29 +2,29 @@
 msgid "Main resource group"
 msgstr "Groupe de ressources principal"
 
-#: api.py:64
+#: api.py:62
 msgid "Root resource could not be deleted."
 msgstr "La ressource racine n'a pas pu être supprimée."
 
-#: api.py:108
+#: api.py:106
 msgid "Resource parent required."
 msgstr "Un parent ressource requis."
 
-#: api.py:111
+#: api.py:109
 msgid "Resource class required."
 msgstr "Une classe de ressource requise."
 
-#: api.py:114
+#: api.py:112
 #, python-format
 msgid "Unknown resource class '%s'."
 msgstr "Classe de ressources inconnue '%s'."
 
-#: api.py:120
+#: api.py:118
 #, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Classe de ressources '%s' désactivée."
 
-#: api.py:199
+#: api.py:197
 msgid "Permission not found"
 msgstr "Permission introuvable"
 
@@ -78,43 +78,43 @@ msgstr "Erreur opérationnelle"
 
 #: amd/ngw-resource/PermissionWidget.js:94 amd/ngw-resource/PermissionWidget.js:183
 #: amd/ngw-resource/Widget.js:32 amd/ngw-resource/form/ResourceLink.js:35
-#: model.py:103 scope.py:25
+#: model.py:102 scope.py:25
 msgid "Resource"
 msgstr "Ressource"
 
-#: model.py:259
+#: model.py:258
 msgid "Resource can not be a parent himself."
 msgstr "La ressource ne peut pas être un parent lui-même."
 
-#: model.py:272
+#: model.py:271
 msgid "Resource keyname is not unique."
 msgstr "Le nom de clé de la ressource n'est pas unique."
 
-#: model.py:332
+#: model.py:331
 msgid "Resource can not be without a parent."
 msgstr "La ressource ne peut pas être sans parent."
 
-#: model.py:338
+#: model.py:337
 #, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Vous n'êtes pas autorisé à gérer les enfants d'une ressource avec id =% d."
 
-#: model.py:343
+#: model.py:342
 #, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "Ressource ne peut pas être un enfant de ressource id =%d."
 
-#: model.py:477
+#: model.py:476
 #, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Nombre maximal de ressources dépassé. La limite est de %s."
 
-#: model.py:494
+#: model.py:493
 #, python-format
 msgid "Maximum number of resources '%s' exceeded. The limit is %s."
 msgstr "Nombre maximal de ressources dépassé. La limite est de %s.\n"
 
-#: model.py:566
+#: model.py:565
 msgid "Resource group"
 msgstr "Groupe de ressources"
 
@@ -126,12 +126,14 @@ msgstr "Lire"
 msgid "Create"
 msgstr "Créer"
 
-#: scope.py:40 view.py:331
+#: scope.py:40 view.py:345
 msgid "Update"
 msgstr "Mise à jour"
 
 #: amd/ngw-resource/CompositeWidget.js:92 amd/ngw-resource/PermissionWidget.js:321
-#: scope.py:44 view.py:339
+#: nodepkg/children-section/ChildrenSection.js:42
+#: nodepkg/children-section/ChildrenSection.js:234
+#: nodepkg/delete-page/DeletePage.js:49 scope.py:44 view.py:353
 msgid "Delete"
 msgstr "Effacer"
 
@@ -180,55 +182,55 @@ msgstr "Configurer"
 msgid "Attribute '%s' forbidden."
 msgstr "Attribut '%s' interdit."
 
-#: view.py:88 view.py:346
+#: view.py:98 view.py:360
 msgid "JSON view"
 msgstr "Vue JSON"
 
-#: view.py:125
+#: view.py:135
 msgid "Resource tree"
 msgstr "Arbre de ressources"
 
-#: view.py:139 view.py:357
+#: view.py:149 view.py:371
 msgid "Create resource"
 msgstr "Créer une ressource"
 
-#: view.py:146
+#: view.py:156
 msgid "Update resource"
 msgstr "Ressource de mise à jour"
 
-#: amd/ngw-resource/DeleteWidget.js:20 view.py:153
+#: amd/ngw-resource/DeleteWidget.js:20 view.py:165
 msgid "Delete resource"
 msgstr "Supprimer la ressource"
 
-#: view.py:202 view.py:365
+#: view.py:216 view.py:379
 msgid "Resource export"
 msgstr "Exportation de ressources"
 
-#: view.py:223
+#: view.py:237
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr ""
 "La permission '%s' insuffisante dans la portée '%s' sur la ressource avec id "
 "= %d."
 
-#: view.py:281
+#: view.py:295
 msgid "Child resources"
 msgstr "Enfants de ressources"
 
-#: amd/ngw-resource/DescriptionWidget.js:19 view.py:288
+#: amd/ngw-resource/DescriptionWidget.js:17 view.py:302
 msgid "Description"
 msgstr "Description"
 
-#: view.py:295
+#: view.py:309
 msgid "User permissions"
 msgstr "Autorisations utilisateur"
 
 #: amd/ngw-resource/PermissionWidget.js:66 amd/ngw-resource/PermissionWidget.js:133
-#: view.py:358
+#: view.py:372
 msgid "Action"
 msgstr "Action"
 
-#: view.py:359
+#: view.py:373
 msgid "Extra"
 msgstr "Extra"
 
@@ -334,6 +336,7 @@ msgid "Select resource"
 msgstr "Sélectionnez la ressource"
 
 #: amd/ngw-resource/template/DeleteWidget.hbs:7
+#: nodepkg/delete-page/DeletePage.js:36
 msgid "Confirm deletion of the resource"
 msgstr "Confirmer la suppression de la ressource"
 
@@ -371,7 +374,7 @@ msgstr ""
 "régie par des autorisations."
 
 #: amd/ngw-resource/template/Widget.hbs:8
-#: nodepkg/children-section/ChildrenSection.js:69 template/section_summary.mako:6
+#: nodepkg/children-section/ChildrenSection.js:300 template/section_summary.mako:6
 msgid "Display name"
 msgstr "Afficher un nom"
 
@@ -384,26 +387,58 @@ msgid "Parent"
 msgstr "Parent"
 
 #: amd/ngw-resource/template/Widget.hbs:23
-#: nodepkg/children-section/ChildrenSection.js:90 template/section_summary.mako:44
+#: nodepkg/children-section/ChildrenSection.js:321 template/section_summary.mako:44
 msgid "Owner"
 msgstr "Propriétaire"
 
 #: amd/ngw-resource/template/Widget.hbs:28
-#: nodepkg/children-section/ChildrenSection.js:83 template/section_summary.mako:36
+#: nodepkg/children-section/ChildrenSection.js:314 template/section_summary.mako:36
 msgid "Type"
 msgstr "Type"
 
-#: nodepkg/children-section/ChildrenSection.js:98
-msgid "Volume"
-msgstr "Le volume"
+#: nodepkg/children-section/ChildrenSection.js:37
+msgid "Confirmation required"
+msgstr ""
 
-#: nodepkg/children-section/ChildrenSection.js:121
+#: nodepkg/children-section/ChildrenSection.js:38
+msgid "Please confirm resource deletion. This action cannot be undone."
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:50
+msgid "Resource deleted"
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:51
+msgid "Resources deleted"
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:169
+msgid "The errors occurred during execution"
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:208
+msgid "Turn off multiple selection"
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:209
+msgid "Select multiple resources"
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:218
+msgid "Hide resources volume"
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:219
 msgid "Show resources volume"
 msgstr "Afficher le volume des ressources"
 
-#: nodepkg/children-section/ChildrenSection.js:124
-msgid "Hide resources volume"
+#: nodepkg/children-section/ChildrenSection.js:242
+msgid "Not all of the selected can be deleted."
 msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.js:329
+msgid "Volume"
+msgstr "Le volume"
 
 #: nodepkg/resources-filter/ResourcesFilter.js:104
 msgid "Resources not found"

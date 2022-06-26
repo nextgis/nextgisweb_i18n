@@ -7,21 +7,21 @@ msgstr "Výstupní formát není k dispozici."
 msgid "Format '%s' is not supported."
 msgstr "Formát '%s' není podporován."
 
-#: api.py:303 api.py:378
+#: api.py:301 api.py:376
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "Formát geometrie '%s' není podporován."
 
-#: api.py:305
+#: api.py:303
 msgid "Geometry is not valid."
 msgstr "Geometrie není platná."
 
-#: api.py:311 api.py:383
+#: api.py:309 api.py:381
 #, python-format
 msgid "Date format '%s' is not supported."
 msgstr "Formát data '%s' není podporován."
 
-#: api.py:607
+#: api.py:600
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "Geometrie parametru „protíná“ je neplatná."
 
@@ -43,58 +43,54 @@ msgstr "Je možné, že byla odstraněna funkce nebo je chyba v adrese."
 msgid "Field not found (ID=%d)."
 msgstr "Pole nebylo nalezeno (ID=%d)."
 
-#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:43
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:40
 msgid "Feature table"
 msgstr "Tabulka funkcí"
 
-#: view.py:61 view.py:84
+#: view.py:58 view.py:81
 #, python-format
 msgid "Feature #%d"
 msgstr "Funkce #%d"
 
-#: view.py:136 view.py:199
+#: view.py:131 view.py:194
 msgid "Save as"
 msgstr "Uložit jako"
 
-#: view.py:186
+#: view.py:181
 msgid "Features"
 msgstr "Funkce"
 
-#: template/section_fields.mako:21 view.py:191
+#: template/section_fields.mako:21 view.py:186
 msgid "Table"
 msgstr "Tabulka"
 
-#: view.py:209
+#: view.py:205
 msgid "External access"
 msgstr "Externí přístup"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:194
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:193
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:214
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:210
 msgid "Attributes"
 msgstr "Atributy"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:80
-msgid "Attribute: "
-msgstr "Atribut: "
-
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:124
 msgid "Set NULL"
 msgstr "Nastavit NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:126
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
 msgid "Set field value to NULL (No data)"
 msgstr "Nastavit hodnotu pole na NULL (žádná data)"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:137
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:136
 msgid "NULL"
 msgstr "NULL"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:242
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:241
 msgid "Please wait. Processing request..."
 msgstr "Prosím, čekejte. Zpracování požadavku..."
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:266
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:265
 #: amd/ngw-feature-layer/template/ExportForm.hbs:45
 msgid "Save"
 msgstr "Uložit"
@@ -161,7 +157,7 @@ msgstr "FID pole"
 
 #: amd/ngw-feature-layer/template/ExportForm.hbs:34
 msgid "Use field display names instead of keynames"
-msgstr ""
+msgstr "Místo klíčových jmen použijte názvy zobrazení polí"
 
 #: amd/ngw-feature-layer/template/ExportForm.hbs:37
 msgid "Zip archive"
@@ -183,7 +179,7 @@ msgstr "Vymazat"
 msgid "Search..."
 msgstr "Vyhledávání..."
 
-#: template/section_api_layer.mako:8
+#: template/section_api_layer.mako:11
 msgid "MVT Vector Tiles"
 msgstr "Vektorové dlaždice MVT"
 
@@ -195,7 +191,7 @@ msgstr ""
 "Mapbox Vector Tile je efektivní kódování mapových dat do vektorových dlaždic,"
 " které lze dynamicky poskytnout."
 
-#: template/section_api_layer.mako:17
+#: template/section_api_layer.mako:15
 msgid ""
 "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
 "tiles"
@@ -203,7 +199,7 @@ msgstr ""
 "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
 "tiles"
 
-#: template/section_api_layer.mako:18
+#: template/section_api_layer.mako:16
 msgid "Read more"
 msgstr "Přečíst více"
 
@@ -218,4 +214,7 @@ msgstr "Ano"
 #: template/section_fields.mako:34 template/section_fields.mako:38
 msgid "No"
 msgstr "Ne"
+
+#~ msgid "Attribute: "
+#~ msgstr "Atribut: "
 

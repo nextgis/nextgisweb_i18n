@@ -1,8 +1,8 @@
-#: __init__.py:139
+#: __init__.py:144
 msgid "Enabled"
 msgstr ""
 
-#: __init__.py:139
+#: __init__.py:144
 msgid "Disabled"
 msgstr ""
 
@@ -14,7 +14,7 @@ msgstr ""
 msgid "Invalid component identity."
 msgstr ""
 
-#: api.py:538
+#: api.py:570
 msgid "Your Web GIS at nextgis.com"
 msgstr "O seu Web GIS em nextgis.com"
 
@@ -102,43 +102,43 @@ msgstr ""
 msgid "Control panel"
 msgstr "Painel de controle"
 
-#: view.py:103 view.py:477
+#: view.py:103 view.py:481
 msgid "System information"
 msgstr "Informação do sistema"
 
-#: view.py:116 view.py:494
+#: view.py:116 view.py:498
 msgid "Storage"
 msgstr ""
 
-#: view.py:126 view.py:499
+#: view.py:126 view.py:503
 msgid "Backups"
 msgstr "Backups"
 
-#: view.py:142 view.py:483
+#: view.py:142 view.py:487
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Partilha de recursos de origem cruzada (CORS)"
 
-#: view.py:150 view.py:485
+#: view.py:150 view.py:489
 msgid "Custom CSS"
 msgstr "CSS personalizado"
 
-#: view.py:158 view.py:487
+#: view.py:158 view.py:491
 msgid "Custom logo"
 msgstr "Logótipo personalizado"
 
-#: view.py:166 view.py:481
+#: view.py:166 view.py:485
 msgid "Web GIS name"
 msgstr "Nome do Web SIG"
 
-#: view.py:174 view.py:489
+#: view.py:174 view.py:493
 msgid "Home path"
 msgstr "Caminho página inicial"
 
-#: view.py:476
+#: view.py:480
 msgid "Info"
 msgstr "Informações"
 
-#: nodepkg/layout/Avatar.js:21 view.py:480
+#: nodepkg/layout/Avatar.js:21 view.py:484
 msgid "Settings"
 msgstr "Configurações"
 
@@ -163,17 +163,13 @@ msgstr "Para trás"
 msgid "Forward"
 msgstr "Para a frente"
 
-#: amd/ngw-pyramid/company-logo/company-logo.js:24
+#: amd/ngw-pyramid/company-logo/company-logo.js:25
 msgid "Get your own Web GIS at nextgis.com"
 msgstr "Crie seu próprio Web SIG em nextgis.com"
 
 #: amd/ngw-pyramid/form/LangSelect.js:24
 msgid "Browser default"
 msgstr ""
-
-#: amd/ngw-pyramid/form/RTETextBox.js:62
-msgid "Rich Text Editor"
-msgstr "Editor de Rich Text"
 
 #: amd/ngw-pyramid/form/ScaleTextBox.js:18
 msgid "Enter the correct scale value, e.g. 1:"
@@ -383,27 +379,27 @@ msgstr ""
 msgid "Show details"
 msgstr ""
 
-#: template/backup.mako:12
+#: template/backup.mako:9
 msgid "Filename"
 msgstr "Nome do ficheiro"
 
-#: template/backup.mako:13
+#: template/backup.mako:10
 msgid "Timestamp (UTC)"
 msgstr "Timestamp (UTC)"
 
-#: template/backup.mako:14
+#: template/backup.mako:11
 msgid "Size"
 msgstr "Tamanho"
 
-#: template/sysinfo.mako:36
+#: template/sysinfo.mako:35
 msgid "Package"
 msgstr "Pacote"
 
-#: template/sysinfo.mako:37
+#: template/sysinfo.mako:36
 msgid "Version"
 msgstr "Versão"
 
-#: template/sysinfo.mako:72
+#: template/sysinfo.mako:71
 msgid "Platform"
 msgstr "Plataforma"
 
@@ -496,4 +492,7 @@ msgstr ""
 
 #~ msgid "Invalid API response"
 #~ msgstr "Resposta de API inválida"
+
+#~ msgid "Rich Text Editor"
+#~ msgstr "Editor de Rich Text"
 

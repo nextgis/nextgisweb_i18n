@@ -24,7 +24,7 @@ msgstr "Erreur de validation"
 
 #: exception.py:90
 msgid "Forbidden"
-msgstr ""
+msgstr "Interdit"
 
 #: exception.py:95
 msgid "Insufficient permissions"
@@ -36,11 +36,11 @@ msgstr "Erreur opérationnelle"
 
 #: exception.py:105
 msgid "External service error"
-msgstr ""
+msgstr "Erreur de service externe"
 
 #: storage.py:258
 msgid "Storage full"
-msgstr ""
+msgstr "Stockage plein"
 
 #: storage.py:259
 #, python-format
@@ -51,7 +51,7 @@ msgstr ""
 
 #: storage.py:267
 msgid "Not enough storage"
-msgstr ""
+msgstr "Pas assez de stockage"
 
 #: storage.py:268
 #, python-format
