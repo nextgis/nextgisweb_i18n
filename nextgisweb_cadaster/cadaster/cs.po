@@ -1,213 +1,288 @@
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:24
 msgid "Cadastral number"
-msgstr ""
+msgstr "Katastrální číslo"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:25
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:73
 msgid "Name"
-msgstr ""
+msgstr "Název"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:26
 msgid "Type"
-msgstr ""
+msgstr "Psát"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:27
 msgid "Identifier"
-msgstr ""
+msgstr "Identifikátor"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:28
 msgid "Address"
-msgstr ""
+msgstr "Adresa"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:29
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:49
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:50
 msgid "Publication date"
-msgstr ""
+msgstr "Datum zveřejnění"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:30
 msgid "Updated"
-msgstr ""
+msgstr "Aktualizace"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:31
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:36
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:51
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
 msgid "District"
-msgstr ""
+msgstr "Čtvrt"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:32
 msgid "Change date"
-msgstr ""
+msgstr "Datum změny"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:33
 msgid "Local identifier"
-msgstr ""
+msgstr "Místní identifikátor"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:34
 msgid "County cadastral number"
-msgstr ""
+msgstr "Katastrální číslo okresu"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:35
 msgid "Annotation text"
-msgstr ""
+msgstr "Text anotace"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:37
 msgid "District cadastral number"
-msgstr ""
+msgstr "Okresní katastrální číslo"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:38
 msgid "Date of creation"
-msgstr ""
+msgstr "Datum vytvoření"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:39
 msgid "Floors"
-msgstr ""
+msgstr "Podlaha"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:40
 msgid "OX type"
-msgstr ""
+msgstr "Тyp OX"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:41
 msgid "Quarterly cadastral number"
-msgstr ""
+msgstr "Čtvrtletní katastrální číslo"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:42
 msgid "Date of value setting"
-msgstr ""
+msgstr "Datum nastavení hodnoty"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:43
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:54
 msgid "Year of Construction"
-msgstr ""
+msgstr "Rok výstavby"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:44
 msgid "Year of Commissioning"
-msgstr ""
+msgstr "Rok uvedení do provozu"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:45
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:55
 msgid "Underground floors"
-msgstr ""
+msgstr "Podzemní podlaží"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:46
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:56
 msgid "Destination"
-msgstr ""
+msgstr "Destinace"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:47
 msgid "Quarterly"
-msgstr ""
+msgstr "Čtvrtletní"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:48
 msgid "Cadastral value"
+msgstr "Katastrální hodnota"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:49
+msgid "Monetary unit of value"
 msgstr ""
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:50
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:51
 msgid "Category type"
-msgstr ""
+msgstr "Typ kategorie"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:53
 msgid "Cadastral number of the county"
+msgstr "Katastrální číslo okresu"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:57
+msgid "Date of entering information about cadastral value"
 msgstr ""
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:58
-msgid "Cadastral quarter"
+msgid "Date of cadastral value approval"
 msgstr ""
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:59
-msgid "Indentification of cadastral quarters"
+msgid "Refined area"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:60
+msgid "Dimension of the area"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:61
+msgid "Permitted use according to the document"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:62
+msgid "Permitted use"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:63
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
+msgid "Status"
 msgstr ""
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:64
-msgid "Land plot"
+msgid "Type of area"
 msgstr ""
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
-msgid "Land plot identification"
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:66
+msgid "Customer phone"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:67
+msgid "Contract number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:68
+msgid "Information"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:69
+msgid "Type (as form)"
 msgstr ""
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:70
-msgid "Capital construction object"
+msgid "Description"
 msgstr ""
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:71
+msgid "Registered number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:72
+msgid "Restriction"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:74
+msgid "Registry number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:84
+msgid "Cadastral quarter"
+msgstr "Katastrální čtvrť"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:85
+msgid "Indentification of cadastral quarters"
+msgstr "Identifikace katastrálních území"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:90
+msgid "Land plot"
+msgstr "Pozemek"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:91
+msgid "Land plot identification"
+msgstr "Identifikace pozemku"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:96
+msgid "Capital construction object"
+msgstr "Objekt investiční výstavby"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:97
 msgid "Identification of capital construction objects"
-msgstr ""
+msgstr "Identifikace objektů investiční výstavby"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:76
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:102
 msgid "Zone with special usage conditions"
-msgstr ""
+msgstr "Zóna se zvláštními podmínkami použití"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:103
 msgid "Identification of zones with special usage conditions"
-msgstr ""
+msgstr "Identifikace zón se zvláštními podmínkami použití"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:82
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:108
 msgid "Cadastral district"
-msgstr ""
+msgstr "Katastrální území"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:83
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:109
 msgid "Identification of cadastral districts"
-msgstr ""
+msgstr "Identifikace katastrálních území"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:89
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:175
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:115
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:195
 msgid "Attributes"
-msgstr ""
+msgstr "Atributy"
 
-#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:105
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:129
 msgid "No data"
-msgstr ""
+msgstr "Žádné údaje"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:40
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:135
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:147
 msgid "Wrong cadaster number: "
-msgstr ""
+msgstr "Špatné číslo katastru: "
 
 #: api/pkk_request.py:16
 msgid "Cadaster services module error"
-msgstr ""
+msgstr "Chyba modulu Cadaster services"
 
 #: api/pkk_request.py:17
 msgid "Geoservices API is unavailable"
-msgstr ""
+msgstr "GEOSERVICES API není k dispozici"
 
 #: api/pkk_request.py:22
 msgid "Cadaster services module"
-msgstr ""
+msgstr "Modul Cadaster services"
 
 #: api/pkk_request.py:39
 msgid ""
 "Geoservices API key in cadaster services module not set. Set the Geoservices "
 "API key in the “Cadaster services” section on the Control panel."
 msgstr ""
+"Klíč API Geoservices v modulu cadaster services není nastaven. Nastavte klíč "
+"API Geoservices v části “Cadaster services” na ovládacím panelu."
 
 #: api/pkk_request.py:86
 msgid "Parameter 'types' is required!"
-msgstr ""
+msgstr "Parametr 'typy' je vyžadován!"
 
 #: api/pkk_request.py:111
 #, python-format
 msgid "Cadaster plot with ID '%(id)s' not found!"
-msgstr ""
+msgstr "Cadaster plot s ID '%(id) s ' nebyl nalezen!"
 
 #: nodepkg/cadaster-settings/CadasterSettings.js:52
 msgid "Settings saved"
-msgstr ""
+msgstr "Nastavení uloženo"
 
 #: nodepkg/cadaster-settings/CadasterSettings.js:72
 msgid "API key"
-msgstr ""
+msgstr "API klíč"
 
 #: nodepkg/cadaster-settings/CadasterSettings.js:85
 msgid "Enable"
-msgstr ""
+msgstr "Povolit"
 
 #: nodepkg/cadaster-settings/CadasterSettings.js:102
 msgid "Save"
-msgstr ""
+msgstr "Uložit"
 
 #: view/settings.py:9
 msgid "Cadaster services settings"
-msgstr ""
+msgstr "Nastavení služeb Cadaster"
 
 #: view/settings.py:15
 msgid "Cadaster services"
-msgstr ""
+msgstr "Služby cadasteru"
 

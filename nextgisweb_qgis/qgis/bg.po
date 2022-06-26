@@ -5,7 +5,7 @@ msgstr "Стил на QGIS"
 
 #: model.py:436
 msgid "Layer type mismatch."
-msgstr ""
+msgstr "Тип слой не съответства."
 
 #: model.py:438
 msgid "QML file is not valid."

@@ -110,13 +110,15 @@ msgstr "Участници"
 
 #: api/collector_user.py:31
 msgid "Membership in group \"Administrators\" required!"
-msgstr ""
+msgstr "Изисква се членуване в групата \"Администратори\"!"
 
 #: api/collector_user.py:93 api/collector_user.py:120
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
 msgstr ""
+"За съжаление, не можете да добавите нов участник. Максимално достъпен за Вас "
+"брой участници в Уеб GIS е"
 
 #: models/model_db.py:39
 msgid "Collector project"
@@ -124,11 +126,11 @@ msgstr "Проект Collector"
 
 #: nodepkg/userMessages.js:5
 msgid "Delete collector?"
-msgstr ""
+msgstr "Премахване на участника?"
 
 #: nodepkg/userMessages.js:6
 msgid "Collector deleted"
-msgstr ""
+msgstr "Участникът е премахнат"
 
 #: nodepkg/collector-user-browse/CollectorUserBrowse.js:16
 #: nodepkg/collector-user-editor/CollectorUserEditor.js:18
@@ -146,27 +148,27 @@ msgstr "Добавен"
 
 #: nodepkg/collector-user-browse/CollectorUserBrowse.js:56
 msgid "You cannot add a new collector. Your collector users limit"
-msgstr ""
+msgstr "Не може да добавите нов участник. Максимален брой участници"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:14
 msgid "Collector users:"
-msgstr ""
+msgstr "Брой участници:"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:14
 msgid "out of"
-msgstr ""
+msgstr "от"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:18
 msgid "Each collector must have "
-msgstr ""
+msgstr "Всеки участник трябва да има "
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:19
 msgid "NextGIS ID account"
-msgstr ""
+msgstr "профил NextGIS ID"
 
 #: nodepkg/fields-form/NgIdTextBox.js:9
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "Въведеното значение не е валидно"
 
 #: views/__init__.py:18
 msgid "Collector projects"
@@ -178,7 +180,7 @@ msgstr "Списък на участници"
 
 #: views/settings.py:24
 msgid "Create new collector"
-msgstr ""
+msgstr "Създаване на нов участник"
 
 #: views/settings.py:31
 msgid "Edit collector"

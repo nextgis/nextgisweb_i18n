@@ -1,30 +1,30 @@
 #: lockable_feature.py:57
 msgid "Additional basemaps"
-msgstr ""
+msgstr "Допълнителни базови карти"
 
 #: lockable_feature.py:88
 msgid "Field data collection"
-msgstr ""
+msgstr "Събиране на полеви данни"
 
 #: lockable_feature.py:105
 msgid "Use on other websites (CORS)"
-msgstr ""
+msgstr "Използване на други сайтове (CORS)"
 
 #: lockable_feature.py:122
 msgid "Custom domain and branding"
-msgstr ""
+msgstr "Персонализиране на домейн и външен вид"
 
 #: lockable_feature.py:134
 msgid "Custom SRS"
-msgstr ""
+msgstr "Потребителска КС"
 
 #: lockable_feature.py:145
 msgid "Improved performance"
-msgstr ""
+msgstr "Подобрена производителност"
 
 #: lockable_feature.py:152
 msgid "Access management"
-msgstr ""
+msgstr "Управляване на достъп"
 
 #: lockable_feature.py:193
 msgid "Editors"
@@ -32,67 +32,67 @@ msgstr "Редактори"
 
 #: lockable_feature.py:231
 msgid "Technical support"
-msgstr ""
+msgstr "Техническа поддръжка"
 
 #: lockable_feature.py:236
 msgid "On-demand backup restore"
-msgstr ""
+msgstr "Възстановяване от резервно копие по поискване"
 
 #: lockable_feature.py:257
 msgid "Tile caching"
-msgstr ""
+msgstr "Кеширане на плочките"
 
 #: lockable_feature.py:290
 msgid "Data editing on web maps"
-msgstr ""
+msgstr "Редактиране на данни на уеб карти"
 
 #: lockable_feature.py:309
 msgid "Annotations on web maps"
-msgstr ""
+msgstr "Анотации на уеб карти"
 
 #: service_plan.py:102
 msgid "Number of maps and layers"
-msgstr ""
+msgstr "Брой карти и слоеве"
 
 #: service_plan.py:103
 msgid "Storage limit"
-msgstr ""
+msgstr "Пределът на паметта"
 
 #: service_plan.py:104
 msgid "User limit"
-msgstr ""
+msgstr "Потребители"
 
 #: service_plan.py:109
 msgid "GPS trackers"
-msgstr ""
+msgstr "GPS тракери"
 
 #: service_plan.py:120
 msgid "Maximum file upload"
-msgstr ""
+msgstr "Максимален размер прикачван файл"
 
 #: service_plan.py:121
 msgid "Maximum raster layer"
-msgstr ""
+msgstr "Максимален размер на растров слой"
 
 #: service_plan.py:281
 msgid "Plan upgrade required"
-msgstr ""
+msgstr "Изисква се разширяване на плана"
 
 #: service_plan.py:285
 msgid "This is not available on your plan."
-msgstr ""
+msgstr "Не е достъпно за текущия план."
 
 #: service_plan.py:288
 msgid "{} feature is not available on your plan."
-msgstr ""
+msgstr "Функцията {} не е достъпна в текущия план."
 
 #: service_plan.py:296
 msgid "To use this feature, please upgrade to {}."
-msgstr ""
+msgstr "За да използвате тази функция, преминете към {}."
 
 #: nodepkg/include.js:10 nodepkg/upgrade-button/index.js:26 view.py:10
 msgid "Plan and features"
-msgstr ""
+msgstr "План и функции"
 
 #: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
 msgid ""
@@ -157,7 +157,7 @@ msgstr "от"
 
 #: nodepkg/summary.js:18
 msgid "Available"
-msgstr ""
+msgstr "Достъпно"
 
 #: nodepkg/summary.js:19
 msgid "Unavailable"

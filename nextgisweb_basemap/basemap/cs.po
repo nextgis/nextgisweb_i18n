@@ -20,11 +20,11 @@ msgstr "URL"
 
 #: amd/ngw-basemap/template/LayerWidget.hbs:17
 msgid "Copyright text"
-msgstr ""
+msgstr "Text autorských práv"
 
 #: amd/ngw-basemap/template/LayerWidget.hbs:23
 msgid "Copyright URL"
-msgstr ""
+msgstr "Copyright URL"
 
 #: amd/ngw-basemap/template/WebMapWidget.hbs:14
 msgid "Add"

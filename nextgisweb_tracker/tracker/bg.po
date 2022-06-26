@@ -183,7 +183,7 @@ msgstr "GPS/GLONASS"
 
 #: nodepkg/tracker-settings/TrackerSettings.js:43
 msgid "Settings saved"
-msgstr ""
+msgstr "Настройките са запазени"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:35
 msgid "Common settings"

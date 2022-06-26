@@ -5,12 +5,12 @@ msgstr "Styl MapServer"
 #: model.py:407 view.py:52
 #, python-format
 msgid "XML syntax error: %s"
-msgstr ""
+msgstr "Chyba syntaxe XML: %s"
 
 #: model.py:410 view.py:55
 #, python-format
 msgid "XML schema error: %s"
-msgstr ""
+msgstr "Chyba schématu XML: %s"
 
 #~ msgid "XML syntax error: %(message)s"
 #~ msgstr "Chyba syntaxe XML: %(zpráva)s"

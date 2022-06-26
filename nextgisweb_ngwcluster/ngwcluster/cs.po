@@ -1,30 +1,30 @@
 #: lockable_feature.py:57
 msgid "Additional basemaps"
-msgstr ""
+msgstr "Další podkladové mapy"
 
 #: lockable_feature.py:88
 msgid "Field data collection"
-msgstr ""
+msgstr "Terénní sběr dat"
 
 #: lockable_feature.py:105
 msgid "Use on other websites (CORS)"
-msgstr ""
+msgstr "Použití na jiných webových stránkách (CORS)"
 
 #: lockable_feature.py:122
 msgid "Custom domain and branding"
-msgstr ""
+msgstr "Vlastní doména a branding"
 
 #: lockable_feature.py:134
 msgid "Custom SRS"
-msgstr ""
+msgstr "Vlastní SRS"
 
 #: lockable_feature.py:145
 msgid "Improved performance"
-msgstr ""
+msgstr "Zlepšený výkon"
 
 #: lockable_feature.py:152
 msgid "Access management"
-msgstr ""
+msgstr "Řízení přístupu"
 
 #: lockable_feature.py:193
 msgid "Editors"
@@ -32,67 +32,67 @@ msgstr "Redaktoři"
 
 #: lockable_feature.py:231
 msgid "Technical support"
-msgstr ""
+msgstr "Technická podpora"
 
 #: lockable_feature.py:236
 msgid "On-demand backup restore"
-msgstr ""
+msgstr "Obnovení zálohy na vyžádání"
 
 #: lockable_feature.py:257
 msgid "Tile caching"
-msgstr ""
+msgstr "Ukládání dlaždic do mezipaměti"
 
 #: lockable_feature.py:290
 msgid "Data editing on web maps"
-msgstr ""
+msgstr "Editace dat na webových mapách"
 
 #: lockable_feature.py:309
 msgid "Annotations on web maps"
-msgstr ""
+msgstr "Editace dat na webových mapách"
 
 #: service_plan.py:102
 msgid "Number of maps and layers"
-msgstr ""
+msgstr "Počet map a vrstev"
 
 #: service_plan.py:103
 msgid "Storage limit"
-msgstr ""
+msgstr "Limit úložiště"
 
 #: service_plan.py:104
 msgid "User limit"
-msgstr ""
+msgstr "Uživatelský limit"
 
 #: service_plan.py:109
 msgid "GPS trackers"
-msgstr ""
+msgstr "GPS sledovače"
 
 #: service_plan.py:120
 msgid "Maximum file upload"
-msgstr ""
+msgstr "Maximální nahrání souboru"
 
 #: service_plan.py:121
 msgid "Maximum raster layer"
-msgstr ""
+msgstr "Maximální rastrová vrstva"
 
 #: service_plan.py:281
 msgid "Plan upgrade required"
-msgstr ""
+msgstr "Je vyžadován upgrade plánu"
 
 #: service_plan.py:285
 msgid "This is not available on your plan."
-msgstr ""
+msgstr "Toto není ve vašem plánu k dispozici."
 
 #: service_plan.py:288
 msgid "{} feature is not available on your plan."
-msgstr ""
+msgstr "Funkce {} není ve vašem plánu k dispozici."
 
 #: service_plan.py:296
 msgid "To use this feature, please upgrade to {}."
-msgstr ""
+msgstr "Chcete-li použít tuto funkci, upgradujte na {}."
 
 #: nodepkg/include.js:10 nodepkg/upgrade-button/index.js:26 view.py:10
 msgid "Plan and features"
-msgstr ""
+msgstr "Plán a funkce"
 
 #: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
 msgid ""
@@ -155,7 +155,7 @@ msgstr "z"
 
 #: nodepkg/summary.js:18
 msgid "Available"
-msgstr ""
+msgstr "Dostupný"
 
 #: nodepkg/summary.js:19
 msgid "Unavailable"

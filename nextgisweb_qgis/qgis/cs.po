@@ -5,11 +5,11 @@ msgstr "Styl QGIS"
 
 #: model.py:436
 msgid "Layer type mismatch."
-msgstr ""
+msgstr "Nesoulad typu vrstvy."
 
 #: model.py:438
 msgid "QML file is not valid."
-msgstr ""
+msgstr "Soubor QML není platný."
 
 #: amd/ngw-qgis/template/QgisRasterStyleWidget.hbs:7
 #: amd/ngw-qgis/template/QgisVectorStyleWidget.hbs:7 view.py:28

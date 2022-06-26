@@ -1,6 +1,6 @@
 #: lockable_feature.py:57
 msgid "Additional basemaps"
-msgstr ""
+msgstr "Mapas base adicionales"
 
 #: lockable_feature.py:88
 msgid "Field data collection"
@@ -8,23 +8,23 @@ msgstr ""
 
 #: lockable_feature.py:105
 msgid "Use on other websites (CORS)"
-msgstr ""
+msgstr "Uso en otros sitios web (CORS)"
 
 #: lockable_feature.py:122
 msgid "Custom domain and branding"
-msgstr ""
+msgstr "Dominio personalizado y marca"
 
 #: lockable_feature.py:134
 msgid "Custom SRS"
-msgstr ""
+msgstr "SRS personalizado"
 
 #: lockable_feature.py:145
 msgid "Improved performance"
-msgstr ""
+msgstr "Desempeño mejorado"
 
 #: lockable_feature.py:152
 msgid "Access management"
-msgstr ""
+msgstr "Gestión de acceso"
 
 #: lockable_feature.py:193
 msgid "Editors"
@@ -32,7 +32,7 @@ msgstr "Editores"
 
 #: lockable_feature.py:231
 msgid "Technical support"
-msgstr ""
+msgstr "Soporte técnico"
 
 #: lockable_feature.py:236
 msgid "On-demand backup restore"
@@ -40,23 +40,23 @@ msgstr ""
 
 #: lockable_feature.py:257
 msgid "Tile caching"
-msgstr ""
+msgstr "Caché de teselas"
 
 #: lockable_feature.py:290
 msgid "Data editing on web maps"
-msgstr ""
+msgstr "Edición de datos en mapas web"
 
 #: lockable_feature.py:309
 msgid "Annotations on web maps"
-msgstr ""
+msgstr "Anotaciones en mapas web"
 
 #: service_plan.py:102
 msgid "Number of maps and layers"
-msgstr ""
+msgstr "Número de mapas y capas"
 
 #: service_plan.py:103
 msgid "Storage limit"
-msgstr ""
+msgstr "Límite de almacenamiento"
 
 #: service_plan.py:104
 msgid "User limit"
@@ -155,7 +155,7 @@ msgstr "de"
 
 #: nodepkg/summary.js:18
 msgid "Available"
-msgstr ""
+msgstr "Disponible"
 
 #: nodepkg/summary.js:19
 msgid "Unavailable"

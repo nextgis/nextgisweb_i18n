@@ -162,11 +162,11 @@ msgstr ""
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:19
 msgid "NextGIS ID account"
-msgstr ""
+msgstr "Cuenta de NextGIS ID"
 
 #: nodepkg/fields-form/NgIdTextBox.js:9
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "El valor introducido no es válido"
 
 #: views/__init__.py:18
 msgid "Collector projects"
