@@ -1,0 +1,61 @@
+#: api.py:24
+msgid "Uploaded file too large"
+msgstr "上传的文件过大"
+
+#: api.py:29
+msgid "Upload is not completed"
+msgstr "上传未完成"
+
+#: amd/ngw-file-upload/Uploader.js:55
+msgid "Select"
+msgstr "选择"
+
+#: amd/ngw-file-upload/Uploader.js:85
+msgid "max"
+msgstr "最大值"
+
+#: amd/ngw-file-upload/Uploader.js:113
+msgid "Uploading..."
+msgstr "上传中"
+
+#: amd/ngw-file-upload/Uploader.js:121 nodepkg/image-uploader/ImageUploader.js:63
+msgid " uploaded..."
+msgstr "已上传"
+
+#: amd/ngw-file-upload/Uploader.js:149
+msgid "Could not load file!"
+msgstr "无法加载文件"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:9
+msgid "Select an image"
+msgstr "请选择图像"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:10
+#: amd/ngw-file-upload/template/Uploader.hbs:10
+msgid "Overwrite?"
+msgstr "替换？"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:11
+#: amd/ngw-file-upload/template/Uploader.hbs:11
+msgid "Try again"
+msgstr "再试一次"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:13
+#: amd/ngw-file-upload/template/Uploader.hbs:13
+#: nodepkg/image-uploader/ImageUploader.js:14
+msgid "or drag and drop here"
+msgstr "或者拖拉到这里"
+
+#: amd/ngw-file-upload/template/ImageUploader.hbs:21
+#: nodepkg/image-uploader/ImageUploader.js:170
+msgid "Delete"
+msgstr "删除"
+
+#: amd/ngw-file-upload/template/Uploader.hbs:9
+msgid "Select a file"
+msgstr "选择一个文件"
+
+#: nodepkg/image-uploader/ImageUploader.js:125
+msgid "Stop"
+msgstr "停止"
+

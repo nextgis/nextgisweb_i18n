@@ -1,0 +1,141 @@
+#: api.py:30
+msgid "SRS attribute '{}' cannot be changed or set during creation."
+msgstr ""
+
+#: api.py:35
+msgid "SRS attribute '{}' must have a string value."
+msgstr ""
+
+#: api.py:43
+msgid "SRS display name is not unique."
+msgstr ""
+
+#: api.py:49
+msgid "OGC WKT definition cannot be changed for this SRS."
+msgstr ""
+
+#: api.py:88
+msgid "System SRS cannot be deleted."
+msgstr ""
+
+#: api.py:101
+msgid "Invalid SRS definition!"
+msgstr "无效的SRS定义"
+
+#: api.py:212
+msgid "SRS #{} already exists."
+msgstr ""
+
+#: util.py:39
+#, python-format
+msgid "Invalid MapInfo spatial reference system: %s"
+msgstr "无效的MapInfo空间参照系统 : %s"
+
+#: util.py:60
+#, python-format
+msgid "Unknown spatial reference system format: %s!"
+msgstr "未知空间参照系格式：%s!"
+
+#: util.py:70
+msgid "Invalid OGC WKT definition!"
+msgstr "无效的OGC WKT 定义"
+
+#: view.py:24
+msgid "Spatial reference system catalog"
+msgstr "空间参照系目录"
+
+#: view.py:35
+msgid "Spatial reference system"
+msgstr "空间参照系"
+
+#: view.py:45 view.py:120
+msgid "Spatial reference systems"
+msgstr "空间参照系"
+
+#: view.py:58
+msgid "Create new Spatial reference system"
+msgstr "创建新的空间参照系"
+
+#: view.py:85
+msgid "List"
+msgstr "目录"
+
+#: view.py:90
+msgid "Create"
+msgstr "创建"
+
+#: view.py:96
+msgid "Catalog"
+msgstr "目录"
+
+#: view.py:102
+msgid "Edit"
+msgstr "编辑"
+
+#: view.py:110
+msgid "Delete"
+msgstr "删除"
+
+#: nodepkg/srsMessages.js:5
+msgid "Delete SRS?"
+msgstr "删除SRS?"
+
+#: nodepkg/srsMessages.js:6
+msgid "SRS deleted"
+msgstr "SRS 已删除"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:105
+#: nodepkg/catalog-import/CatalogImport.js:16 nodepkg/srs-browse/SrsBrowse.js:12
+#: nodepkg/srs-widget/SRSWidget.js:24
+msgid "Display name"
+msgstr "显示名字"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:112
+msgid "Show in catalog"
+msgstr ""
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:124 nodepkg/srs-widget/SRSWidget.js:29
+msgid "Authority and code"
+msgstr ""
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:136
+#: nodepkg/catalog-import/CatalogImport.js:82
+msgid "Import"
+msgstr "导入"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:153
+msgid "Search"
+msgstr "搜索"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:170
+msgid "Latitude"
+msgstr "纬度"
+
+#: nodepkg/catalog-browse/CatalogBrowse.js:183
+msgid "Longitude"
+msgstr "经度"
+
+#: nodepkg/catalog-import/CatalogImport.js:21 nodepkg/srs-widget/SRSWidget.js:37
+msgid "OGC WKT definition"
+msgstr "OGC WKT 定义"
+
+#: nodepkg/catalog-import/CatalogImport.js:73
+msgid "View details"
+msgstr "视图详情"
+
+#: nodepkg/srs-browse/SrsBrowse.js:29
+msgid "Import from catalog"
+msgstr ""
+
+#: nodepkg/srs-widget/SRSImportForm.js:20
+msgid "Format"
+msgstr "格式"
+
+#: nodepkg/srs-widget/SRSImportForm.js:31
+msgid "Definition"
+msgstr "定义"
+
+#: nodepkg/srs-widget/SRSWidget.js:81 nodepkg/srs-widget/SRSWidget.js:109
+msgid "Import definition"
+msgstr "导入定义"
+

@@ -1,0 +1,36 @@
+#: amd/ngw-resmeta/Widget.js:88 view.py:15
+msgid "Metadata"
+msgstr "元数据"
+
+#: amd/ngw-resmeta/Widget.js:50 template/section.mako:9
+msgid "Key"
+msgstr "索引"
+
+#: amd/ngw-resmeta/Widget.js:59 template/section.mako:10
+msgid "Type"
+msgstr "类型"
+
+#: amd/ngw-resmeta/Widget.js:66 template/section.mako:11
+msgid "Value"
+msgstr "价值"
+
+#: amd/ngw-resmeta/Widget.js:115
+msgid "Text"
+msgstr "文本"
+
+#: amd/ngw-resmeta/Widget.js:122
+msgid "Integer"
+msgstr "整数"
+
+#: amd/ngw-resmeta/Widget.js:129
+msgid "Float"
+msgstr "浮点"
+
+#: amd/ngw-resmeta/Widget.js:136
+msgid "Add"
+msgstr "添加"
+
+#: amd/ngw-resmeta/Widget.js:142
+msgid "Remove"
+msgstr "删除"
+

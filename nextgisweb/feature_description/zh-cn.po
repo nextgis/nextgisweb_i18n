@@ -1,0 +1,5 @@
+#: amd/ngw-feature-description/DisplayWidget.js:11
+#: amd/ngw-feature-description/EditorWidget.js:15
+msgid "Description"
+msgstr "说明"
+

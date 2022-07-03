@@ -1,0 +1,28 @@
+#: amd/ngw-lookup-table/Widget.js:88 model.py:22 view.py:16
+msgid "Lookup table"
+msgstr "引索表"
+
+#: amd/ngw-lookup-table/Widget.js:50 template/section.mako:7
+msgid "Key"
+msgstr "索引"
+
+#: amd/ngw-lookup-table/Widget.js:59
+msgid "Type"
+msgstr "类型"
+
+#: amd/ngw-lookup-table/Widget.js:66 template/section.mako:8
+msgid "Value"
+msgstr "价值"
+
+#: amd/ngw-lookup-table/Widget.js:122
+msgid "Add"
+msgstr "添加"
+
+#: amd/ngw-lookup-table/Widget.js:128
+msgid "Delete"
+msgstr "删除"
+
+#: template/section.mako:2
+msgid "Items"
+msgstr "物体"
+

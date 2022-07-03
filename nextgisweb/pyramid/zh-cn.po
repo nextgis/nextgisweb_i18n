@@ -1,0 +1,462 @@
+#: __init__.py:144
+msgid "Enabled"
+msgstr "已启用"
+
+#: __init__.py:144
+msgid "Disabled"
+msgstr "已关闭"
+
+#: api.py:228
+msgid "Required parameter 'component' is missing."
+msgstr "缺少所需的参数'component'。"
+
+#: api.py:233
+msgid "Invalid component identity."
+msgstr "无效的ID组件"
+
+#: api.py:570
+msgid "Your Web GIS at nextgis.com"
+msgstr "您的GIS区域网在nextgis.com上"
+
+#: exception.py:202 exception.py:263
+msgid "Internal server error"
+msgstr "服务器内部错误"
+
+#: exception.py:203
+msgid ""
+"The server encountered an internal error or misconfiguration and was unable "
+"to complete your request."
+msgstr "服务器检测到内部错误或错误的配置，无法执行您的请求。"
+
+#: exception.py:232
+msgid "Bad request"
+msgstr "无效请求"
+
+#: exception.py:233
+msgid ""
+"The server could not comply with the request since it is either malformed or "
+"otherwise incorrect."
+msgstr "服务器无法执行请求，因为由于其他原因，它要么不正确，要么被曲解失真"
+
+#: exception.py:240
+msgid "Payment required"
+msgstr "必须支付"
+
+#: exception.py:241
+msgid "Access was denied for financial reasons."
+msgstr "由于财务原因，访问被关闭。"
+
+#: exception.py:245
+msgid "Forbidden"
+msgstr "禁止进入"
+
+#: exception.py:246
+msgid "Access was denied to this resource."
+msgstr "禁止访问该资源"
+
+#: exception.py:250
+msgid "Page not found"
+msgstr "页面未找到"
+
+#: exception.py:251
+msgid ""
+"The page may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired page."
+msgstr "可能，页面被删除或地址中有错误。请更改地址或返回主页面，并尝试找到所需页面。"
+
+#: exception.py:258
+msgid "Unprocessable entity"
+msgstr "原始目标"
+
+#: exception.py:259
+msgid "Unable to process the contained instructions."
+msgstr "未能处理所包含的指令。"
+
+#: exception.py:264
+msgid ""
+"The server has either erred or is incapable of performing the requested "
+"operation."
+msgstr "服务器要么有误，要么无法完成所请求的"
+
+#: exception.py:271 exception.py:272
+msgid "Not implemented"
+msgstr "尚未实现"
+
+#: exception.py:276
+msgid "Service unavailable"
+msgstr "服务不可用"
+
+#: exception.py:277
+msgid "The server is currently unavailable. Please try again at a later time."
+msgstr "当前服务器不可用。请稍后再试。"
+
+#: nodepkg/layout/store.js:42 view.py:81
+msgid "Control panel"
+msgstr "控制面板"
+
+#: view.py:103 view.py:481
+msgid "System information"
+msgstr "系统信息"
+
+#: view.py:116 view.py:498
+msgid "Storage"
+msgstr "存储"
+
+#: view.py:126 view.py:503
+msgid "Backups"
+msgstr "备份"
+
+#: view.py:142 view.py:487
+msgid "Cross-origin resource sharing (CORS)"
+msgstr "Cross-origin resource sharing (CORS)（跨域资源共享）"
+
+#: view.py:150 view.py:489
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: view.py:158 view.py:491
+msgid "Custom logo"
+msgstr "徽标风格设置"
+
+#: view.py:166 view.py:485
+msgid "Web GIS name"
+msgstr "GIS区域网名称"
+
+#: view.py:174 view.py:493
+msgid "Home path"
+msgstr "主目录路径"
+
+#: view.py:480
+msgid "Info"
+msgstr "信息"
+
+#: nodepkg/layout/Avatar.js:21 view.py:484
+msgid "Settings"
+msgstr "设置"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "已复制"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "无法复制"
+
+#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:28
+msgid "Backward"
+msgstr "返回"
+
+#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:29
+msgid "Forward"
+msgstr "前进"
+
+#: amd/ngw-pyramid/company-logo/company-logo.js:25
+msgid "Get your own Web GIS at nextgis.com"
+msgstr "在nextgis.com网站上获取个人的GIS区域网"
+
+#: amd/ngw-pyramid/form/LangSelect.js:24
+msgid "Browser default"
+msgstr "默认浏览器"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:18
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "请输入正确的比例值，比如 1："
+
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:37 nodepkg/example/typescript.ts:10
+msgid "Create"
+msgstr "创建"
+
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:39
+msgid "Save"
+msgstr "保存"
+
+#: amd/ngw-pyramid/modelWidget/FormMixin.js:41
+msgid "Delete"
+msgstr "删除"
+
+#: nodepkg/api/error.js:10 nodepkg/api/error.js:25
+msgid "Something went wrong."
+msgstr "出了点问题。"
+
+#: nodepkg/api/error.js:11
+msgid "Unknown API error"
+msgstr "未知的API错误"
+
+#: nodepkg/api/error.js:17
+msgid "There is no response from the server or problem connecting to server."
+msgstr "服务器无响应，或服务器的连接有问题"
+
+#: nodepkg/api/error.js:18
+msgid "Network error"
+msgstr "网络错误"
+
+#: nodepkg/api/error.js:19
+msgid "Check network connectivity and try again later."
+msgstr "请检查网络连接，并请稍后再试。"
+
+#: nodepkg/api/error.js:26
+msgid "Unexpected server response"
+msgstr "意外的服务器响应"
+
+#: nodepkg/api/error.js:41
+msgid "Unexpected error while processing long-running request."
+msgstr "处理长时间运行的请求时，出现意外错误。"
+
+#: nodepkg/api/error.js:42
+msgid "Long-running request error"
+msgstr "长时间运行的请求错误"
+
+#: nodepkg/api/error.js:49
+msgid "Long-running request was cancelled."
+msgstr "长时间运行的请求已取消。"
+
+#: nodepkg/cors-settings/CORSSettings.js:35
+msgid "CORS settings updated"
+msgstr "CORS设置已更新"
+
+#: nodepkg/cors-settings/CORSSettings.js:42
+msgid "Fix the form errors first"
+msgstr "首先纠正表单中的错误"
+
+#: nodepkg/cors-settings/CORSSettings.js:62
+msgid "The value entered is not valid"
+msgstr "输入的值是无效的"
+
+#: nodepkg/cors-settings/CORSSettings.js:90
+msgid ""
+"Enter allowed origins for cross domain requests to use HTTP API of this Web "
+"GIS on other websites. One origin per line."
+msgstr "请输入跨域请求的允许来源，以便在其他网站上使用此GIS区域网的HTTP API。 每行一个源点。"
+
+#: nodepkg/cors-settings/CORSSettings.js:95
+msgid ""
+"Please note that different protocols (HTTP and HTTPS) and subdomains "
+"(example.com and www.example.com) are different origins. Wildcards are "
+"allowed for third-level domains and higher."
+msgstr ""
+"请注意，不同的协议（HTTP和HTTPS）和子域（example.com 和www.example.com）是不同的起源。 "
+"第三级域和更高级域允许使用通配符。"
+
+#: nodepkg/custom-css-form/CustomCSSForm.js:33
+msgid "Custom styles saved. Reload the page to get them applied."
+msgstr "自定义样式以保存。更新页面，以获得变化信息。"
+
+#: nodepkg/custom-css-form/CustomCSSForm.js:63
+msgid ""
+"Enter custom CSS rules here. They will be used to redefine styles, design for"
+" all pages of your Web GIS."
+msgstr ""
+"在此处可以自定义设置CSS样式风格。 \n"
+"它们将用于GIS区域网所有页面的重新设计和样式制定。"
+
+#: nodepkg/example/translation.js:5
+msgid "Translated text"
+msgstr "已翻译的文章"
+
+#: nodepkg/home-path/HomePath.js:4
+msgid "The home path setting is saved."
+msgstr "主页路径设置已保存。"
+
+#: nodepkg/layout/Avatar.js:9
+msgid "Sign in"
+msgstr "登录"
+
+#: nodepkg/layout/Avatar.js:18
+msgid "Invitation session"
+msgstr "会话邀请"
+
+#: nodepkg/layout/Avatar.js:23
+msgid "Sign out"
+msgstr "退出"
+
+#: nodepkg/layout/store.js:36
+msgid "Resources"
+msgstr "资源"
+
+#: nodepkg/layout/store.js:49
+msgid "Help"
+msgstr "帮助"
+
+#: nodepkg/logo-form/LogoForm.js:5
+msgid "We recommend height of 45 px and width of up to 200 px."
+msgstr "我们建议高45像素，宽低于200像素。"
+
+#: nodepkg/storage-summary/StorageSummary.js:82
+msgid "Kind of data"
+msgstr "数据种类"
+
+#: nodepkg/storage-summary/StorageSummary.js:88
+msgid "Volume"
+msgstr "数值"
+
+#: nodepkg/storage-summary/StorageSummary.js:104
+msgid "Total"
+msgstr "总计"
+
+#: nodepkg/storage-summary/StorageSummary.js:109
+msgid "of"
+msgstr "......的"
+
+#: nodepkg/storage-summary/StorageSummary.js:124
+#, python-format
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr "存储使用情况以%s为单位进行了全面评估，并以%s为单位进行了更新。"
+
+#: nodepkg/storage-summary/StorageSummary.js:128
+#, python-format
+msgid "Storage usage was fully estimated at %s."
+msgstr "存储使用情况以%s为单位进行了全面评估。"
+
+#: nodepkg/storage-summary/StorageSummary.js:131
+#, python-format
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr "存储使用情况尚未评估，但已更新为%s"
+
+#: nodepkg/storage-summary/StorageSummary.js:134
+msgid "Storage usage hasn't been estimated yet."
+msgstr "存储使用情况尚未评估。"
+
+#: nodepkg/storage-summary/StorageSummary.js:139
+msgid "Some changes may be reflected only after full estimation."
+msgstr "一些变化，可能只在完全估计后，才会反映出来。"
+
+#: nodepkg/storage-summary/StorageSummary.js:162
+msgid "Estimate storage"
+msgstr "评估存储"
+
+#: nodepkg/system-name-form/SystemNameForm.js:4
+msgid "The system name setting is saved."
+msgstr "系统名称设置已保存。"
+
+#: nodepkg/update/index.js:55
+msgid "Critical updates are available"
+msgstr "重要更新可用"
+
+#: nodepkg/update/index.js:56
+msgid "Updates are available"
+msgstr "更新可用"
+
+#: nodepkg/update/index.js:58
+msgid "Click to see what's new"
+msgstr "点击并查看新的内容是什么"
+
+#: nodepkg/update/sysinfo.js:32
+msgid "Checking for updates..."
+msgstr "检查更新"
+
+#: nodepkg/update/sysinfo.js:35
+msgid ""
+"Critical updates are available: {version}. Please consider updating an soon "
+"as possible."
+msgstr "重要更新可用：{版本}. 建议请尽快更新。"
+
+#: nodepkg/update/sysinfo.js:36
+msgid "New version of {distribution} is available: {version}."
+msgstr "{distribution} 的新版本可用: {version}"
+
+#: nodepkg/update/sysinfo.js:37
+msgid "Your {distribution} is up-to-date."
+msgstr "您的 {distribution} 为最新版本。"
+
+#: nodepkg/update/sysinfo.js:44
+msgid "<a>Contact support</a> for update."
+msgstr "<a>联系支持</a> 用于安装更新"
+
+#: nodepkg/update/sysinfo.js:74
+msgid "Show details"
+msgstr "详情"
+
+#: template/backup.mako:9
+msgid "Filename"
+msgstr "文件名"
+
+#: template/backup.mako:10
+msgid "Timestamp (UTC)"
+msgstr "时间（UTC）"
+
+#: template/backup.mako:11
+msgid "Size"
+msgstr "尺寸"
+
+#: template/sysinfo.mako:35
+msgid "Package"
+msgstr "包（组）"
+
+#: template/sysinfo.mako:36
+msgid "Version"
+msgstr "版本"
+
+#: template/sysinfo.mako:71
+msgid "Platform"
+msgstr "平台"
+
+#: template/uacompat.mako:4
+msgid "Browser compatibility test"
+msgstr "浏览器的兼容性测试"
+
+#: template/uacompat.mako:23
+#, python-format
+msgid "%(name)s %(current)s supported"
+msgstr "支持%(name)s %(current)s "
+
+#: template/uacompat.mako:24
+msgid ""
+"Web GIS browser compatibility test has been passed! The Web GIS should work "
+"fine."
+msgstr "Web GIS浏览器的兼容性测试已通过！Web GIS应该会正常工作。"
+
+#: template/uacompat.mako:27
+#, python-format
+msgid "%(name)s not supported"
+msgstr "不支持%(name)s"
+
+#: template/uacompat.mako:28
+#, python-format
+msgid ""
+"You're using %(name)s although it's not supported by the Web GIS. It's an "
+"outdated browser lacking required features. Try a different browser or "
+"contact your system administrator if another browser isn't available."
+msgstr ""
+"您正在使用%(name)s，尽管Web GIS不支持它。 这是一个过时的浏览器，缺乏所需的功能。 "
+"如果其他浏览器不可用，请尝试使用其他浏览器或与系统管理员联系。"
+
+#: template/uacompat.mako:30
+#, python-format
+msgid "%(name)s %(current)s not supported"
+msgstr "不支持%(name)s %（current)s"
+
+#: template/uacompat.mako:31
+#, python-format
+msgid ""
+"You're using %(name)s %(current)s although it's not supported by the Web GIS."
+" It's an outdated version lacking required features. Contact your system "
+"administrator for upgrading to %(name)s %(required)s+ or try a different "
+"browser."
+msgstr ""
+"您正在使用%(name)s%(current)s，尽管Web GIS不支持它。 这是一个过时的版本，缺乏所需的功能。 "
+"请与系统管理员联系，使其升级到%(name)s%(required)s+或尝试其他浏览器。"
+
+#: template/uacompat.mako:35
+msgid ""
+"If you still want to continue using the current browser, click the link below"
+" to bypass the compatibility test. The Web GIS or some features may degrade "
+"or fail  in this case."
+msgstr "如果您仍想继续使用当前浏览器，请单击下面的链接，跳过兼容性测试。 在这种情况下，Web GIS或某些功能可能会降级或失败。"
+
+#: template/uacompat.mako:36
+msgid "I understood but want to proceed at my own risk. Skip the test!"
+msgstr "明白了！但是我想继续我的冒险。跳过测试！"
+
+#: template/uacompat.mako:38
+msgid "Unknown browser"
+msgstr "未知浏览器"
+
+#: template/uacompat.mako:39
+msgid "If you are using an up-to-date browser the Web GIS should be fine."
+msgstr "如果您使用的是最新的浏览器，Web GIS应该正常工作。"
+

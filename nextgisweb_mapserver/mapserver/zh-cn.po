@@ -1,0 +1,14 @@
+#: amd/ngw-mapserver/StyleWidget.js:34 model.py:93
+msgid "MapServer style"
+msgstr "地图服务样式"
+
+#: model.py:407
+#, python-format
+msgid "XML syntax error: %s"
+msgstr "XML语法错误：%s"
+
+#: model.py:410
+#, python-format
+msgid "XML schema error: %s"
+msgstr "XM架构错误：%s"
+

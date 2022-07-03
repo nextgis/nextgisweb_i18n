@@ -1,0 +1,4 @@
+#: models.py:10
+msgid "SRS identifier"
+msgstr "SRS标识符"
+

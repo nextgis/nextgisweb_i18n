@@ -1,0 +1,4 @@
+#: models.py:41
+msgid "Raster style"
+msgstr "栅格样式"
+

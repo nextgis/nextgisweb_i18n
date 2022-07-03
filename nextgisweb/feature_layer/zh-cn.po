@@ -1,0 +1,215 @@
+#: api.py:106
+msgid "Output format is not provided."
+msgstr "未提供输出格式"
+
+#: api.py:111
+#, python-format
+msgid "Format '%s' is not supported."
+msgstr "不支持格式“%s”"
+
+#: api.py:301 api.py:376
+#, python-format
+msgid "Geometry format '%s' is not supported."
+msgstr "不支持几何格式“%s”"
+
+#: api.py:303
+msgid "Geometry is not valid."
+msgstr "几何形状是无效的。"
+
+#: api.py:309 api.py:381
+#, python-format
+msgid "Date format '%s' is not supported."
+msgstr "日期格式'%s'不支持。"
+
+#: api.py:600
+msgid "Parameter 'intersects' geometry is not valid."
+msgstr "参数'intersects'为无效的几何形状。"
+
+#: exception.py:13
+msgid "Feature not found"
+msgstr "未找到要素"
+
+#: exception.py:14
+#, python-format
+msgid "Feature with id = %d was not found in resource with id = %d."
+msgstr "带标记符的要素=%d在带标记的资源中未找到=%d"
+
+#: exception.py:15
+msgid "The feature may have been deleted or an error in the address."
+msgstr "可能，要素已被删除和地址上的错误"
+
+#: model.py:163
+#, python-format
+msgid "Field not found (ID=%d)."
+msgstr "字段未找到（ID=%d）"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:40
+msgid "Feature table"
+msgstr "要素列表"
+
+#: view.py:58 view.py:81
+#, python-format
+msgid "Feature #%d"
+msgstr "要素#%d"
+
+#: view.py:131 view.py:194
+msgid "Save as"
+msgstr "保存为"
+
+#: view.py:181
+msgid "Features"
+msgstr "要素"
+
+#: template/section_fields.mako:21 view.py:186
+msgid "Table"
+msgstr "列表"
+
+#: view.py:205
+msgid "External access"
+msgstr "外部访问"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:193
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:210
+msgid "Attributes"
+msgstr "属性"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:124
+msgid "Set NULL"
+msgstr "设置NULL"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:125
+msgid "Set field value to NULL (No data)"
+msgstr "将字段值设置为NULL（无数据）"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:136
+msgid "NULL"
+msgstr "NULL"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:241
+msgid "Please wait. Processing request..."
+msgstr "请稍等。请求正在处理中......"
+
+#: amd/ngw-feature-layer/FeatureEditorWidget.js:265
+#: amd/ngw-feature-layer/template/ExportForm.hbs:45
+msgid "Save"
+msgstr "保存"
+
+#: amd/ngw-feature-layer/FeatureGrid.js:241
+msgid "Confirmation"
+msgstr "确认"
+
+#: amd/ngw-feature-layer/FeatureGrid.js:242
+msgid "Delete feature?"
+msgstr "删除要素？"
+
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:119
+msgid "N/A"
+msgstr "未经授权的访问"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:70 template/section_fields.mako:15
+msgid "Keyname"
+msgstr "密钥名称"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:80 template/section_fields.mako:16
+msgid "Type"
+msgstr "类型"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:84 template/section_fields.mako:17
+msgid "Display name"
+msgstr "显示名字"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:98
+msgid "FT"
+msgstr "FT"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:108
+msgid "LA"
+msgstr "LA"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:152
+msgid "Label attribute"
+msgstr "标签属性"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:229
+msgid "Add"
+msgstr "添加"
+
+#: amd/ngw-feature-layer/FieldsWidget.js:235
+msgid "Remove"
+msgstr "删除"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:15
+msgid "Format"
+msgstr "格式"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:19
+msgid "SRS"
+msgstr "SRS坐标系统"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:23
+msgid "Encoding"
+msgstr "编码"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:30
+msgid "FID field"
+msgstr "字段FID"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:34
+msgid "Use field display names instead of keynames"
+msgstr "使用字段显示名称，而不是密钥名称"
+
+#: amd/ngw-feature-layer/template/ExportForm.hbs:37
+msgid "Zip archive"
+msgstr "ZIP-档案"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:13
+msgid "Open"
+msgstr "打开"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:18
+msgid "Edit"
+msgstr "编辑"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:23
+msgid "Delete"
+msgstr "删除"
+
+#: amd/ngw-feature-layer/template/FeatureGrid.hbs:28
+msgid "Search..."
+msgstr "搜索"
+
+#: template/section_api_layer.mako:11
+msgid "MVT Vector Tiles"
+msgstr "MVT矢量瓦片"
+
+#: template/section_api_layer.mako:12
+msgid ""
+"The Mapbox Vector Tile is an efficient encoding for map data into vector "
+"tiles that can be rendered dynamically."
+msgstr "Mapbox矢量瓦片是将地图数据转换为可以动态呈现的矢量瓦片的有效编码。"
+
+#: template/section_api_layer.mako:15
+msgid ""
+"https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
+"tiles"
+msgstr ""
+"https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-vector-"
+"tiles"
+
+#: template/section_api_layer.mako:16
+msgid "Read more"
+msgstr "详情"
+
+#: template/section_fields.mako:19
+msgid "Lookup table"
+msgstr "参考表"
+
+#: template/section_fields.mako:32 template/section_fields.mako:38
+msgid "Yes"
+msgstr "是"
+
+#: template/section_fields.mako:34 template/section_fields.mako:38
+msgid "No"
+msgstr "否"
+

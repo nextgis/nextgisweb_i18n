@@ -1,0 +1,12 @@
+#: amd/ngw-formbuilder/FormbuilderFormWidget.js:30 model.py:22 view.py:19
+msgid "Form"
+msgstr "表单"
+
+#: view.py:23
+msgid "Download as NGFP"
+msgstr "下载为NGFP"
+
+#: amd/ngw-formbuilder/template/FormbuilderFormWidget.hbs:5
+msgid "NGFP file"
+msgstr "NGFP文件"
+

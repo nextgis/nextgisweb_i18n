@@ -1,0 +1,51 @@
+#: api.py:18
+msgid "Raster mosaic item id not provided."
+msgstr "未指定栅格镶嵌元素的ID。"
+
+#: api.py:24
+msgid "Raster mosaic item not found."
+msgstr "未指定栅格镶嵌元素的ID。"
+
+#: model.py:35
+msgid "Raster mosaic"
+msgstr "栅格镶嵌"
+
+#: model.py:124
+msgid "GDAL library was unable to open the file."
+msgstr "GDAL库无法打开文件"
+
+#: model.py:127
+msgid "Only RGB and RGBA rasters are supported."
+msgstr "仅支持RGB和RGBA栅格"
+
+#: model.py:135
+#, python-format
+msgid ""
+"Raster has format '%(format)s', however only following formats are supported:"
+" %(all_formats)s."
+msgstr "加载栅格的格式为'%(format)s'，但是，仅支持以下类型：%(all_formats)s。 "
+
+#: model.py:140
+msgid "Raster files without projection info are not supported."
+msgstr "不支持没有投影信息的栅格文件。"
+
+#: model.py:151
+msgid "Complex data types are not supported."
+msgstr "不支持复杂数据类型。"
+
+#: amd/ngw-raster-mosaic/ItemWidget.js:51
+msgid "File name"
+msgstr "文件名"
+
+#: amd/ngw-raster-mosaic/ItemWidget.js:62
+msgid "Items"
+msgstr "栅格"
+
+#: amd/ngw-raster-mosaic/ItemWidget.js:90
+msgid "Upload"
+msgstr "上传"
+
+#: amd/ngw-raster-mosaic/ItemWidget.js:110
+msgid "Delete"
+msgstr "删除"
+

@@ -1,0 +1,179 @@
+#: lockable_feature.py:57
+msgid "Additional basemaps"
+msgstr "附加底图"
+
+#: lockable_feature.py:88
+msgid "Field data collection"
+msgstr "现场数据收集"
+
+#: lockable_feature.py:105
+msgid "Use on other websites (CORS)"
+msgstr "在其他网站（CORS）上使用"
+
+#: lockable_feature.py:122
+msgid "Custom domain and branding"
+msgstr "自定义组织的域名和注册"
+
+#: lockable_feature.py:134
+msgid "Custom SRS"
+msgstr "自定义坐标系统"
+
+#: lockable_feature.py:145
+msgid "Improved performance"
+msgstr "改善性能"
+
+#: lockable_feature.py:152
+msgid "Access management"
+msgstr "访问管理权限设置"
+
+#: lockable_feature.py:193
+msgid "Editors"
+msgstr "编辑"
+
+#: lockable_feature.py:231
+msgid "Technical support"
+msgstr "技术支持"
+
+#: lockable_feature.py:236
+msgid "On-demand backup restore"
+msgstr "按需备份还原"
+
+#: lockable_feature.py:257
+msgid "Tile caching"
+msgstr "瓦片缓存"
+
+#: lockable_feature.py:290
+msgid "Data editing on web maps"
+msgstr "Web地图上的数据编辑"
+
+#: lockable_feature.py:309
+msgid "Annotations on web maps"
+msgstr "Web地图上的注释"
+
+#: service_plan.py:99
+msgid "Number of maps and layers"
+msgstr "地图和图层的数目"
+
+#: service_plan.py:100
+msgid "Storage limit"
+msgstr "存储限制"
+
+#: service_plan.py:101
+msgid "User limit"
+msgstr "用户限制"
+
+#: service_plan.py:106
+msgid "GPS trackers"
+msgstr "GPS追踪器"
+
+#: service_plan.py:117
+msgid "Maximum file upload"
+msgstr "上传文件的最大量"
+
+#: service_plan.py:118
+msgid "Maximum raster layer"
+msgstr "栅格图层的最大尺寸"
+
+#: service_plan.py:285
+msgid "Plan upgrade required"
+msgstr "需要升级计划"
+
+#: service_plan.py:289
+msgid "This is not available on your plan."
+msgstr "在您的计划中，这是不可用的"
+
+#: service_plan.py:292
+msgid "{} feature is not available on your plan."
+msgstr "{} 要素在您的计划中不可用。"
+
+#: service_plan.py:300
+msgid "To use this feature, please upgrade to {}."
+msgstr "为了使用此要素，请升级至{}"
+
+#: nodepkg/include.js:10 nodepkg/upgrade-button/index.js:26 view.py:10
+msgid "Plan and features"
+msgstr "计划和要素"
+
+#: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
+msgid ""
+"Basemaps management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
+"Premium</a>."
+msgstr ""
+"在您的资费计划中，底图管理不可用。 <href=\"http://nextekis.com/nextekis-"
+"com/plans/\">升级到Mini或高级计划</a>。"
+
+#: amd/ngw-ngwcluster/template/CollectorDetail.hbs:2
+msgid ""
+"NextGIS Collector management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
+msgstr ""
+"在您的资费计划中，NextGIS收集器管理不可用. <href=\"http://nextekis.com/nextekis-"
+"com/plans/\">升级到高级计划</a>。"
+
+#: amd/ngw-ngwcluster/template/OtherSettings.hbs:2
+msgid ""
+"<a href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Online "
+"feature editing</a> and Web map annotations are not available on your plan.  "
+"<a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
+msgstr ""
+"您当前的资费计划不允许<a href=\"https://docs.nextgis.ru/docs_ngcom/source/data_edit.html"
+" \">通过web地图和web地图的注释在线编辑对象</a>。 <href=\"http://nextgis.ru/nextgis-"
+"com/plans/\">切换到高级计划</a>。"
+
+#: amd/ngw-ngwcluster/template/PermissionWidget.hbs:2
+msgid ""
+"Full permission management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>.<br/> "
+"To allow other users edit your data, add them to \"Editors\" group in <a "
+"href=\"/auth/user/\">Control panel</a>."
+msgstr ""
+"您当前的资费计划，全面访问权限管理不可用。 <href=\"http://nextgis.ru/nextgis-"
+"com/plans/\">升级至高级计划</a>。<br/>要允许其他用户能够编辑您的数据，请将其添加到<a "
+"href=\"/auth/user/\">控制面板</a>中的\"编辑器\"组。"
+
+#: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
+msgid "Upgrade plan"
+msgstr "优化计划"
+
+#: amd/ngw-ngwcluster/template/TrackerDetailWidget.hbs:2
+msgid ""
+"Tracker management is not available on your plan. <a "
+"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
+"Premium</a>."
+msgstr ""
+"在您的资费计划中，追踪器管理不可用。 <a href=\"http://nextgis.com/nextgis-com/plans/\">升级至 Mini"
+" 或者高级计划</a>."
+
+#: nodepkg/summary.js:17
+msgid "of"
+msgstr "......的"
+
+#: nodepkg/summary.js:18
+msgid "Available"
+msgstr "可用的"
+
+#: nodepkg/summary.js:19
+msgid "Unavailable"
+msgstr "不可用"
+
+#: nodepkg/summary.js:20
+msgid "Unlimited"
+msgstr "不限"
+
+#: nodepkg/plan-and-features/index.js:16 nodepkg/upgrade-button/index.js:57
+msgid "Your plan — "
+msgstr "您的计划—"
+
+#: nodepkg/plan-and-features/index.js:25
+msgid "Change plan"
+msgstr "更换计划"
+
+#: nodepkg/plan-and-features/index.js:57
+msgid "More about plans"
+msgstr "更多关于计划"
+
+#: nodepkg/upgrade-button/index.js:66
+msgid "Upgrade"
+msgstr "优化"
+

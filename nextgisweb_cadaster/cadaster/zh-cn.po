@@ -1,0 +1,286 @@
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:24
+msgid "Cadastral number"
+msgstr "地籍编号"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:25
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:73
+msgid "Name"
+msgstr "名字"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:26
+msgid "Type"
+msgstr "类型"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:27
+msgid "Identifier"
+msgstr "标识符"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:28
+msgid "Address"
+msgstr "地址"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:29
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:50
+msgid "Publication date"
+msgstr "出版日期"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:30
+msgid "Updated"
+msgstr "已更新"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:31
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:36
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
+msgid "District"
+msgstr "区"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:32
+msgid "Change date"
+msgstr "更改日期"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:33
+msgid "Local identifier"
+msgstr "本地标记符"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:34
+msgid "County cadastral number"
+msgstr "县地籍编号"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:35
+msgid "Annotation text"
+msgstr "注释文本"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:37
+msgid "District cadastral number"
+msgstr "区地籍编号"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:38
+msgid "Date of creation"
+msgstr "创建日期"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:39
+msgid "Floors"
+msgstr "楼层"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:40
+msgid "OX type"
+msgstr "OX类型"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:41
+msgid "Quarterly cadastral number"
+msgstr "街区地籍编号"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:42
+msgid "Date of value setting"
+msgstr "费用设置日期"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:43
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:54
+msgid "Year of Construction"
+msgstr "建造年份"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:44
+msgid "Year of Commissioning"
+msgstr "投入使用的年份"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:45
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:55
+msgid "Underground floors"
+msgstr "地下楼层"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:46
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:56
+msgid "Destination"
+msgstr "目的地"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:47
+msgid "Quarterly"
+msgstr "街区"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:48
+msgid "Cadastral value"
+msgstr "地籍价值"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:49
+msgid "Monetary unit of value"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:51
+msgid "Category type"
+msgstr "类别类型"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:53
+msgid "Cadastral number of the county"
+msgstr "区的地籍编号"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:57
+msgid "Date of entering information about cadastral value"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:58
+msgid "Date of cadastral value approval"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:59
+msgid "Refined area"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:60
+msgid "Dimension of the area"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:61
+msgid "Permitted use according to the document"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:62
+msgid "Permitted use"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:63
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
+msgid "Status"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:64
+msgid "Type of area"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:66
+msgid "Customer phone"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:67
+msgid "Contract number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:68
+msgid "Information"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:69
+msgid "Type (as form)"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:70
+msgid "Description"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:71
+msgid "Registered number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:72
+msgid "Restriction"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:74
+msgid "Registry number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:84
+msgid "Cadastral quarter"
+msgstr "地籍区"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:85
+msgid "Indentification of cadastral quarters"
+msgstr "地籍区块的识别"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:90
+msgid "Land plot"
+msgstr "地块"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:91
+msgid "Land plot identification"
+msgstr "地块标识"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:96
+msgid "Capital construction object"
+msgstr "基本建设对象"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:97
+msgid "Identification of capital construction objects"
+msgstr "基本建设项目的鉴定"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:102
+msgid "Zone with special usage conditions"
+msgstr "具有特殊使用条件的区域"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:103
+msgid "Identification of zones with special usage conditions"
+msgstr "具有特殊使用条件的区域的识别"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:108
+msgid "Cadastral district"
+msgstr "地籍区"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:109
+msgid "Identification of cadastral districts"
+msgstr "地籍区的识别"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:115
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:195
+msgid "Attributes"
+msgstr "属性"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:129
+msgid "No data"
+msgstr "无数据"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:40
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:135
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:147
+msgid "Wrong cadaster number: "
+msgstr "错误地籍编号"
+
+#: api/pkk_request.py:16
+msgid "Cadaster services module error"
+msgstr "地籍服务模块错误"
+
+#: api/pkk_request.py:17
+msgid "Geoservices API is unavailable"
+msgstr "地理服务API不可用"
+
+#: api/pkk_request.py:22
+msgid "Cadaster services module"
+msgstr "地籍服务模块"
+
+#: api/pkk_request.py:39
+msgid ""
+"Geoservices API key in cadaster services module not set. Set the Geoservices "
+"API key in the “Cadaster services” section on the Control panel."
+msgstr "地籍服务模块的Geoservices API密钥未安装。在控制面板的\"地籍服务\"部分安装密钥。"
+
+#: api/pkk_request.py:86
+msgid "Parameter 'types' is required!"
+msgstr "参数'types类型' 为必须的！"
+
+#: api/pkk_request.py:111
+#, python-format
+msgid "Cadaster plot with ID '%(id)s' not found!"
+msgstr "未找到带ID '%(id)s'的地籍图"
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:52
+msgid "Settings saved"
+msgstr "设置已保存"
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:72
+msgid "API key"
+msgstr "API密钥"
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:85
+msgid "Enable"
+msgstr "启用"
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:102
+msgid "Save"
+msgstr "保存"
+
+#: view/settings.py:9
+msgid "Cadaster services settings"
+msgstr "地籍服务设置"
+
+#: view/settings.py:15
+msgid "Cadaster services"
+msgstr "地籍服务"
+

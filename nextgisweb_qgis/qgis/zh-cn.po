@@ -1,0 +1,22 @@
+#: amd/ngw-qgis/RasterStyleWidget.js:26 amd/ngw-qgis/VectorStyleWidget.js:26
+#: model.py:112 model.py:192 view.py:25
+msgid "QGIS style"
+msgstr "QGIS样式"
+
+#: model.py:444
+msgid "Layer type mismatch."
+msgstr "图层类型不匹配。"
+
+#: model.py:446
+msgid "QML file is not valid."
+msgstr "QML文件为无效。"
+
+#: amd/ngw-qgis/template/QgisRasterStyleWidget.hbs:7
+#: amd/ngw-qgis/template/QgisVectorStyleWidget.hbs:7 view.py:28
+msgid "QML file"
+msgstr "QML文件"
+
+#: amd/ngw-qgis/template/QgisVectorStyleWidget.hbs:13
+msgid "SVG marker library"
+msgstr "SVG标记库"
+

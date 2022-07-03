@@ -1,0 +1,60 @@
+#: amd/ngw-wmsserver/ServiceWidget.js:55 model.py:24
+#: template/section_api_wms.mako:10
+msgid "WMS service"
+msgstr "WMS服务"
+
+#: view.py:16
+msgid "External access"
+msgstr "外部访问"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:14
+msgid "Add"
+msgstr "添加"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:18
+msgid "Select layer's style"
+msgstr ""
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:27
+msgid "Remove"
+msgstr "删除"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:62
+msgid "Keyname"
+msgstr "键名"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:66
+msgid "Display name"
+msgstr "显示名称"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:70
+msgid "Min scale"
+msgstr "最小比例"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:74
+msgid "Max scale"
+msgstr "最大比例"
+
+#: amd/ngw-wmsserver/template/ServiceWidget.hbs:78
+msgid "Resource"
+msgstr "资源"
+
+#: template/section_api_wms.mako:11
+msgid ""
+"Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
+" Consortium for serving georeferenced map images. These images are typically "
+"produced by a map server from data provided by a GIS database."
+msgstr "Web地图服务（WMS）是开放地理空间联盟开发的,用于提供地理参考地图图像的标准协议。 这些图像通常由地图映射服务器，根据GIS数据库提供的数据生成。"
+
+#: template/section_api_wms.mako:14
+msgid ""
+"https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-service-"
+"connection"
+msgstr ""
+"https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-service-"
+"connection _ _"
+
+#: template/section_api_wms.mako:15
+msgid "Read more"
+msgstr "详情"
+

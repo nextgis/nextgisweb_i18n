@@ -1,0 +1,100 @@
+#: amd/ngw-wmsclient/ConnectionWidget.js:34
+#: amd/ngw-wmsclient/template/LayerWidget.hbs:16 model.py:47
+msgid "WMS connection"
+msgstr "WMS连接"
+
+#: amd/ngw-wmsclient/LayerWidget.js:45 model.py:179
+msgid "WMS layer"
+msgstr "WMS图层"
+
+#: view.py:27
+msgid "WMS capabilities"
+msgstr "WMS功能"
+
+#: view.py:35
+msgid "WMS vendor parameters"
+msgstr "WMS供应商参数"
+
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:44
+#: template/section_vendor_params.mako:6
+msgid "Key"
+msgstr "索引"
+
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:53
+#: template/section_vendor_params.mako:7
+msgid "Value"
+msgstr "价值"
+
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:64
+msgid "Vendor parameters"
+msgstr "供应商参数"
+
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:90
+msgid "Add"
+msgstr "添加"
+
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:96
+msgid "Delete"
+msgstr "删除"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:10
+msgid "URL"
+msgstr "URL"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:16
+msgid "Username"
+msgstr "用户名"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:22
+msgid "Password"
+msgstr "密码"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:27
+msgid "Version"
+msgstr "版本"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:31
+msgid "Capabilities"
+msgstr "功能"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:33
+msgid "Do not query"
+msgstr "不要查询"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:34
+msgid "Query"
+msgstr "查询"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:35
+msgid "Clear"
+msgstr "清除"
+
+#: amd/ngw-wmsclient/template/LayerWidget.hbs:15
+msgid "Select WMS connection"
+msgstr "选择WFS连接"
+
+#: amd/ngw-wmsclient/template/LayerWidget.hbs:22
+msgid "Coordinate system"
+msgstr "坐标系统"
+
+#: amd/ngw-wmsclient/template/LayerWidget.hbs:29
+#: template/section_connection.mako:15
+msgid "Image format"
+msgstr "图像格式"
+
+#: amd/ngw-wmsclient/template/LayerWidget.hbs:35
+msgid "WMS layers"
+msgstr "WMS图层"
+
+#: template/section_connection.mako:7
+msgid "Timestamp"
+msgstr "时间戳"
+
+#: template/section_connection.mako:26
+msgid "Layer"
+msgstr "图层"
+
+#: template/section_connection.mako:27
+msgid "Title"
+msgstr "标题"
+

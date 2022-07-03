@@ -1,0 +1,61 @@
+#: view.py:30
+msgid "'date_first' and 'date_last' are mutually exclusive."
+msgstr "'date_first' 与'date_last' 是互相排斥的"
+
+#: view.py:50 view.py:107
+msgid "Journal"
+msgstr "日志\n"
+
+#: view.py:80
+#, python-format
+msgid "Journal record: %s"
+msgstr "日志记录：%s"
+
+#: view.py:106
+msgid "Audit"
+msgstr "审计\n"
+
+#: amd/ngw-audit/JournalFilter/JournalFilter.hbs:17
+msgid "Search"
+msgstr "搜索"
+
+#: amd/ngw-audit/JournalFilter/JournalFilter.hbs:23
+msgid "Export"
+msgstr "输出"
+
+#: template/browse.mako:45
+msgid "All users"
+msgstr "所有用户"
+
+#: template/browse.mako:46
+msgid "Non-empty users"
+msgstr "实际使用用户"
+
+#: template/browse.mako:88
+msgid "Timestamp"
+msgstr "时间"
+
+#: template/browse.mako:89
+msgid "Status"
+msgstr "状态"
+
+#: template/browse.mako:90
+msgid "Method"
+msgstr "方法"
+
+#: template/browse.mako:91
+msgid "Path"
+msgstr "小路"
+
+#: template/browse.mako:92
+msgid "Route name"
+msgstr "路线名称"
+
+#: template/browse.mako:93
+msgid "Context"
+msgstr "语境"
+
+#: template/browse.mako:94
+msgid "User"
+msgstr "用户"
+

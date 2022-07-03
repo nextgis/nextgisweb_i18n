@@ -1,0 +1,85 @@
+#: __init__.py:47 amd/ngw-render/TileCacheWidget.js:25
+msgid "Tile cache"
+msgstr "切片缓存"
+
+#: api.py:18
+msgid "Invalid origin"
+msgstr "无效原点"
+
+#: api.py:19
+msgid ""
+"Origin validation is enabled for rendering requests, but the given origin "
+"doesn't match with the CORS origins list."
+msgstr "对呈现请求启用了源验证，但指定的源与有效CORS源列表不匹配。"
+
+#: util.py:81
+msgid "Required parameter '{}' is missing."
+msgstr "缺少所需的参数'{}'。"
+
+#: util.py:86
+msgid "Placeholders {x}, {y} and {z} must be filled with values."
+msgstr "占位符{x}、{y}和{z}必须填充数值。"
+
+#: util.py:88
+msgid ""
+"It seems you are trying to open an URL template directly in a browser. To "
+"test it try adding some values for 'x', 'y' and 'z' parameters."
+msgstr "看起来您正在尝试直接在浏览器中打开URL模板链接。 测试它，请尝试为'x'，'y'和'z'添加一些参数值。"
+
+#: util.py:93
+msgid "The value of '{}' parameter must be a non-negative integer."
+msgstr "参数'{}'的值必须是非负整数。"
+
+#: view.py:21
+msgid "External access"
+msgstr "外部访问"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:11
+msgid "Enabled"
+msgstr "已启用"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:16
+msgid "Allow using tiles in non-tile requests"
+msgstr "允许使用瓦片用于非瓦片请求"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:21
+msgid "Max zoom level"
+msgstr "最大缩放级别"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:26
+msgid "TTL, sec."
+msgstr "TTL,秒"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:31
+msgid "Track changes"
+msgstr "轨迹更改"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:37
+msgid "Seed zoom level"
+msgstr "种子缩放级别"
+
+#: amd/ngw-render/template/TileCacheWidget.hbs:42
+msgid "Flush"
+msgstr "清除"
+
+#: template/section_api_renderable.mako:11
+msgid "TMS (Tile Map Service)"
+msgstr "TMS（瓦片地图服务）"
+
+#: template/section_api_renderable.mako:12
+msgid ""
+"TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
+"is a map displayed in a browser by seamlessly joining dozens of individually "
+"requested image."
+msgstr "TMS(瓦片地图服务)是图块区域网地图的一种规范。图块区域网地图是通过无缝连接数十个单独加入的图像（图块）而在浏览器上显示出来的地图。"
+
+#: template/section_api_renderable.mako:15
+msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+msgstr ""
+"\n"
+"https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+
+#: template/section_api_renderable.mako:16
+msgid "Read more"
+msgstr "详情"
+

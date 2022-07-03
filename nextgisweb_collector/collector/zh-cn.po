@@ -1,0 +1,186 @@
+#: scope.py:8
+msgid "Collector"
+msgstr "收集器"
+
+#: scope.py:10
+msgid "Read"
+msgstr "读取"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
+msgid "Starting screen"
+msgstr "启动屏幕"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
+msgid "NextGIS Collector user credentials"
+msgstr "NextGIS收集器的用户凭据"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
+msgid "User name"
+msgstr "用户名称"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
+msgid "Password"
+msgstr "密码"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:20
+msgid "Project"
+msgstr "项目"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:23
+msgid "List of forms"
+msgstr "表格目录"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:24
+msgid "Map"
+msgstr "地图"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
+msgid "Add item"
+msgstr "添加项"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
+msgid "Add group"
+msgstr "添加群组"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
+msgid "Remove"
+msgstr "删除"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:120
+msgid "Display name"
+msgstr "显示名称"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
+msgid "Visible"
+msgstr "可视的"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
+msgid "Editable"
+msgstr "可编辑的"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
+msgid "Syncable"
+msgstr "可同步的"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
+msgid "Lifetime for tiles (in min)"
+msgstr "瓦片寿命（按分钟计算）"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
+msgid "Min zoom"
+msgstr "最小缩放"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
+msgid "Max zoom"
+msgstr "最大缩放"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
+msgid "Resource"
+msgstr "资源"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:124
+msgid "Expanded"
+msgstr "已扩展"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:57
+msgid "Items"
+msgstr "（选）项"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
+msgid "You have no permissions to manage this section."
+msgstr "您没有管理这个部分的权限"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
+msgid "Manage collectors"
+msgstr "管理参与者"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
+msgid "Give access to this project for the following collectors:"
+msgstr "为以下参与者提供连接这个项目的访问权限。"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
+msgid "Users"
+msgstr "用户"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:32
+msgid "Collectors"
+msgstr "参与者"
+
+#: api/collector_user.py:31
+msgid "Membership in group \"Administrators\" required!"
+msgstr "需要“管理员”组的成员资格！"
+
+#: api/collector_user.py:93 api/collector_user.py:120
+msgid ""
+"Unfortunately, you cannot add a new collector. Your collector users limit in "
+"the Web GIS is"
+msgstr "很遗憾，您不能添加新的参与者。在Web GIS 中，您的参与者用户上限是"
+
+#: models/model_db.py:39
+msgid "Collector project"
+msgstr "收集器方案"
+
+#: nodepkg/userMessages.js:5
+msgid "Delete collector?"
+msgstr "删除参与者？"
+
+#: nodepkg/userMessages.js:6
+msgid "Collector deleted"
+msgstr "参与者已删除"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.js:16
+#: nodepkg/collector-user-editor/CollectorUserEditor.js:18
+msgid "NextGIS ID"
+msgstr "NextGIS ID"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.js:22
+#: nodepkg/collector-user-editor/CollectorUserEditor.js:25
+msgid "Description"
+msgstr "说明"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.js:28
+msgid "Added"
+msgstr "已添加"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.js:56
+msgid "You cannot add a new collector. Your collector users limit"
+msgstr "您不能添加新的参与者。您的参与者用户上限"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
+msgid "Collector users:"
+msgstr "参与者用户数量"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
+msgid "out of"
+msgstr "超出...."
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:18
+msgid "Each collector must have "
+msgstr "每一个参与者应该有......"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:19
+msgid "NextGIS ID account"
+msgstr "NextGIS ID 账户"
+
+#: nodepkg/fields-form/NgIdTextBox.js:9
+msgid "The value entered is not valid"
+msgstr "输入的值无效"
+
+#: views/__init__.py:18
+msgid "Collector projects"
+msgstr "收集器方案"
+
+#: views/settings.py:11
+msgid "List of collectors"
+msgstr "参与者目录"
+
+#: views/settings.py:24
+msgid "Create new collector"
+msgstr "创建一个新的参与者"
+
+#: views/settings.py:31
+msgid "Edit collector"
+msgstr "更换参与者"
+
