@@ -80,7 +80,7 @@ msgstr ""
 
 #: service_plan.py:285
 msgid "This is not available on your plan."
-msgstr ""
+msgstr "Esto no está disponible en su plan."
 
 #: service_plan.py:288
 msgid "{} feature is not available on your plan."

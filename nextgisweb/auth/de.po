@@ -22,7 +22,7 @@ msgstr "Administrator"
 msgid "Owner"
 msgstr "Eigentümer"
 
-#: __init__.py:277
+#: __init__.py:282
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr "Benutzerlimit wurde erreicht. Der aktive Plan erlaubt maximal %d Benutzer."
@@ -80,35 +80,41 @@ msgstr "Fehlerhafte Anmeldeinformation"
 msgid "User is disabled"
 msgstr "Benutzer ist gesperrt"
 
-#: oauth.py:161
-msgid "User is already bound"
-msgstr "Benutzer ist schon verknüpft"
+#: oauth.py:163
+msgid "{} binding error"
+msgstr ""
 
-#: oauth.py:424
+#: oauth.py:164
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
+"in using this account instead of binding it."
+msgstr ""
+
+#: oauth.py:435
 msgid "OAuth authorization error"
 msgstr "OAuth-Authorisierungsfehler"
 
-#: oauth.py:429
+#: oauth.py:440
 msgid "Invalid OAuth token"
 msgstr "Falscher OAuth-Token"
 
-#: oauth.py:434
+#: oauth.py:445
 msgid "Invalid OAuth scope"
 msgstr ""
 
-#: oauth.py:439
+#: oauth.py:450
 msgid "OAuth password grant type failed"
 msgstr ""
 
-#: oauth.py:444
+#: oauth.py:455
 msgid "OAuth token refresh failed"
 msgstr "OAuth-Token wurde nicht aktualisiert"
 
-#: oauth.py:449
+#: oauth.py:460
 msgid "OAuth access token is expired"
 msgstr "OAuth-Token ist abgelaufen"
 
-#: nodepkg/login-form/LoginForm.js:14 view.py:50
+#: nodepkg/login-form/LoginForm.js:18 view.py:50
 msgid "Sign in to Web GIS"
 msgstr "Bei Web GIS anmelden"
 
@@ -124,27 +130,27 @@ msgstr ""
 msgid "Session expired."
 msgstr ""
 
-#: view.py:212
+#: view.py:230
 msgid "User settings"
 msgstr "Benutzereinstellungen"
 
-#: view.py:219 view.py:332
+#: view.py:237 view.py:350
 msgid "Users"
 msgstr "Benutzer"
 
-#: view.py:232
+#: view.py:250
 msgid "Create new user"
 msgstr "Neuen Benutzer anlegen"
 
-#: view.py:247 view.py:336
+#: view.py:265 view.py:354
 msgid "Groups"
 msgstr "Gruppen"
 
-#: view.py:260
+#: view.py:278
 msgid "Create new group"
 msgstr "Neue Gruppe erstellen"
 
-#: view.py:340
+#: view.py:358
 msgid "Groups and users"
 msgstr ""
 
@@ -169,7 +175,7 @@ msgid "User deleted"
 msgstr ""
 
 #: nodepkg/group-browse/GroupBrowse.js:8 nodepkg/group-widget/GroupWidget.js:15
-#: nodepkg/user-browse/UserBrowse.js:17 nodepkg/user-widget/UserWidget.js:15
+#: nodepkg/user-browse/UserBrowse.js:17 nodepkg/user-widget/UserWidget.js:16
 msgid "Full name"
 msgstr "Vollständiger Name"
 
@@ -185,36 +191,52 @@ msgstr "Gruppenmitglieder"
 msgid "Assign at registration"
 msgstr "Zuweisen bei Registrierung"
 
-#: nodepkg/group-widget/GroupWidget.js:42 nodepkg/user-widget/UserWidget.js:58
+#: nodepkg/group-widget/GroupWidget.js:42 nodepkg/user-widget/UserWidget.js:59
 msgid "Description"
 msgstr "Beschreibung"
 
-#: nodepkg/login-form/LoginForm.js:13
-msgid "Sign in with OAuth"
-msgstr "Mit OAuth anmelden"
+#: nodepkg/login-form/LoginForm.js:15
+msgid "Sign in with {}"
+msgstr ""
 
-#: nodepkg/login-form/LoginForm.js:15 template/session_invite.mako:17
+#: nodepkg/login-form/LoginForm.js:19 template/session_invite.mako:17
 msgid "Sign in"
 msgstr "Anmelden"
 
-#: nodepkg/login-form/LoginForm.js:27 nodepkg/user-browse/UserBrowse.js:23
-#: nodepkg/user-widget/UserWidget.js:20
+#: nodepkg/login-form/LoginForm.js:31 nodepkg/user-browse/UserBrowse.js:23
+#: nodepkg/user-widget/UserWidget.js:21
 msgid "Login"
 msgstr "Login"
 
-#: nodepkg/login-form/LoginForm.js:32 nodepkg/user-widget/UserWidget.js:26
+#: nodepkg/login-form/LoginForm.js:36 nodepkg/user-widget/UserWidget.js:27
 msgid "Password"
 msgstr "Passwort"
 
-#: nodepkg/settings-form/SettingsForm.js:16 nodepkg/user-widget/UserWidget.js:47
+#: nodepkg/login-form/LoginForm.js:92
+msgid "or using login and password"
+msgstr ""
+
+#: nodepkg/settings-form/SettingsForm.js:18
+msgid "Account bound"
+msgstr ""
+
+#: nodepkg/settings-form/SettingsForm.js:29
+msgid "Bind account"
+msgstr ""
+
+#: nodepkg/settings-form/SettingsForm.js:31
+msgid "Account not bound"
+msgstr ""
+
+#: nodepkg/settings-form/SettingsForm.js:43 nodepkg/user-widget/UserWidget.js:48
 msgid "Language"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:41
+#: nodepkg/settings-form/SettingsForm.js:80
 msgid "Saved"
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:10 nodepkg/user-widget/UserWidget.js:35
+#: nodepkg/user-browse/UserBrowse.js:10 nodepkg/user-widget/UserWidget.js:36
 msgid "Disabled"
 msgstr "Deaktiviert"
 
@@ -238,17 +260,13 @@ msgstr ""
 msgid "Enable"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidget.js:31
+#: nodepkg/user-widget/UserWidget.js:32
 msgid "Enter new password here"
 msgstr "Geben Sie hier ein neues Passwort ein"
 
-#: nodepkg/user-widget/UserWidget.js:40
+#: nodepkg/user-widget/UserWidget.js:41
 msgid "Groups member"
 msgstr "Gruppenmitglied"
-
-#: nodepkg/user-widget/UserWidget.js:53
-msgid "OAuth subject"
-msgstr "OAuth-Subjekt"
 
 #~ msgid "System principals couldn't be chanded."
 #~ msgstr "Keine Änderungen der Systemprinzipale sind möglich"
@@ -287,4 +305,13 @@ msgstr "OAuth-Subjekt"
 
 #~ msgid "Your account is bound to NextGIS ID account"
 #~ msgstr "Ihr Konto ist mit dem NextGIS-ID verbunden"
+
+#~ msgid "User is already bound"
+#~ msgstr "Benutzer ist schon verknüpft"
+
+#~ msgid "Sign in with OAuth"
+#~ msgstr "Mit OAuth anmelden"
+
+#~ msgid "OAuth subject"
+#~ msgstr "OAuth-Subjekt"
 

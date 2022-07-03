@@ -140,23 +140,23 @@ msgstr ""
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:63
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:64
 msgid "Type of area"
-msgstr ""
+msgstr "Tipo de area"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:66
 msgid "Customer phone"
-msgstr ""
+msgstr "Teléfono del cliente"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:67
 msgid "Contract number"
-msgstr ""
+msgstr "Número de contrato"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:68
 msgid "Information"
-msgstr ""
+msgstr "Información"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:69
 msgid "Type (as form)"
@@ -168,11 +168,11 @@ msgstr ""
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:71
 msgid "Registered number"
-msgstr ""
+msgstr "Número registrado"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:72
 msgid "Restriction"
-msgstr ""
+msgstr "Restricción"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:74
 msgid "Registry number"

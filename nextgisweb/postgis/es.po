@@ -5,7 +5,7 @@ msgstr "La tabla (%s) no se encuentra en el esquema (%s)."
 
 #: api.py:72
 msgid "PostGIS layer {} not found!"
-msgstr ""
+msgstr "¡No se encontró la capa {} de PostGIS!"
 
 #: api.py:89
 msgid "PostGIS connection {} not found!"
@@ -37,11 +37,11 @@ msgstr ""
 
 #: diagnostics.py:182
 msgid "PostgreSQL version {}."
-msgstr ""
+msgstr "Versión de PostgreSQL {}."
 
 #: diagnostics.py:191
 msgid "PostGIS extension"
-msgstr ""
+msgstr "Extensión PostGIS"
 
 #: diagnostics.py:199
 msgid "PostGIS extension not found."

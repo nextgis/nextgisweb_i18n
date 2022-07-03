@@ -92,7 +92,7 @@ msgstr "Nombre para mostrar"
 
 #: nodepkg/catalog-browse/CatalogBrowse.js:112
 msgid "Show in catalog"
-msgstr ""
+msgstr "Mostrar en el catálogo"
 
 #: nodepkg/catalog-browse/CatalogBrowse.js:124 nodepkg/srs-widget/SRSWidget.js:29
 msgid "Authority and code"
@@ -125,7 +125,7 @@ msgstr "Ver detalles"
 
 #: nodepkg/srs-browse/SrsBrowse.js:29
 msgid "Import from catalog"
-msgstr ""
+msgstr "Importar desde el catálogo"
 
 #: nodepkg/srs-widget/SRSImportForm.js:20
 msgid "Format"
