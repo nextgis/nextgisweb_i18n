@@ -214,15 +214,15 @@ msgstr "Réponse inattendue du serveur"
 
 #: nodepkg/api/error.js:41
 msgid "Unexpected error while processing long-running request."
-msgstr ""
+msgstr "Erreur inattendue lors du traitement d'une demande de longue durée."
 
 #: nodepkg/api/error.js:42
 msgid "Long-running request error"
-msgstr ""
+msgstr "Erreur de requête de longue durée"
 
 #: nodepkg/api/error.js:49
 msgid "Long-running request was cancelled."
-msgstr ""
+msgstr "La demande de longue durée a été annulée."
 
 #: nodepkg/cors-settings/CORSSettings.js:35
 msgid "CORS settings updated"
@@ -313,7 +313,7 @@ msgstr "Le total"
 
 #: nodepkg/storage-summary/StorageSummary.js:109
 msgid "of"
-msgstr ""
+msgstr "de"
 
 #: nodepkg/storage-summary/StorageSummary.js:124
 #, python-format
@@ -418,23 +418,25 @@ msgstr "Plate-forme"
 
 #: template/uacompat.mako:4
 msgid "Browser compatibility test"
-msgstr ""
+msgstr "Test de compatibilité du navigateur"
 
 #: template/uacompat.mako:23
 #, python-format
 msgid "%(name)s %(current)s supported"
-msgstr ""
+msgstr "%(name)s %(currentl)s pris en charge"
 
 #: template/uacompat.mako:24
 msgid ""
 "Web GIS browser compatibility test has been passed! The Web GIS should work "
 "fine."
 msgstr ""
+"Le test de compatibilité du navigateur Web SIG a été passé avec succès ! Le "
+"SIG Web devrait fonctionner correctement."
 
 #: template/uacompat.mako:27
 #, python-format
 msgid "%(name)s not supported"
-msgstr ""
+msgstr "%(name)s non pris en charge"
 
 #: template/uacompat.mako:28
 #, python-format

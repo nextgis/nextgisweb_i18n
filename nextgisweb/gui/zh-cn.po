@@ -91,11 +91,19 @@ msgstr "首先纠正表单中的错误"
 msgid "Logo saved. Reload the page to get them applied."
 msgstr "标记以保存。请更新页面，以便查看使用。"
 
-#: nodepkg/single-setting-form/SingleSettingForm.js:9
+#: nodepkg/progress-modal/ProgressModal.js:4
+msgid "Operation in progress"
+msgstr ""
+
+#: nodepkg/progress-modal/ProgressModal.js:5
+msgid "Cancel"
+msgstr ""
+
+#: nodepkg/single-setting-form/SingleSettingForm.js:10
 msgid "The setting is saved."
 msgstr "该设置已保存"
 
-#: nodepkg/single-setting-form/SingleSettingForm.js:10
+#: nodepkg/single-setting-form/SingleSettingForm.js:11
 msgid "Reload the page to get them applied."
 msgstr "重新加载页面以便应用它们。"
 

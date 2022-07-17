@@ -428,7 +428,7 @@ msgstr ""
 #: template/uacompat.mako:30
 #, python-format
 msgid "%(name)s %(current)s not supported"
-msgstr "不支持%(name)s %（current)s"
+msgstr "不支持%(name)s %(current)s"
 
 #: template/uacompat.mako:31
 #, python-format

@@ -15,6 +15,8 @@ msgid ""
 "The image will be converted to PNG format and downscaled to 1600x630 pixels "
 "if it's bigger."
 msgstr ""
+"La imagen se convertirá a formato PNG y se reducirá a 1600x630 píxeles si es "
+"más grande."
 
 #: amd/ngw-social/template/Widget.hbs:18
 msgid "Preview description"

@@ -13,7 +13,7 @@ msgstr "Agregar"
 
 #: amd/ngw-wmsserver/template/ServiceWidget.hbs:18
 msgid "Select layer's style"
-msgstr ""
+msgstr "Seleccionar estilo de capa"
 
 #: amd/ngw-wmsserver/template/ServiceWidget.hbs:27
 msgid "Remove"

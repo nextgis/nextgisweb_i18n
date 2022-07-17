@@ -1,30 +1,34 @@
-#: api.py:30
+#: api.py:31
 msgid "SRS attribute '{}' cannot be changed or set during creation."
-msgstr ""
+msgstr "El atributo SRS '{}' no se puede cambiar ni establecer durante la creación."
 
-#: api.py:35
+#: api.py:36
 msgid "SRS attribute '{}' must have a string value."
-msgstr ""
+msgstr "El atributo SRS '{}' debe tener un valor de texto."
 
-#: api.py:43
+#: api.py:44
 msgid "SRS display name is not unique."
-msgstr ""
+msgstr "El nombre para mostrar de SRS no es único."
 
-#: api.py:49
+#: api.py:50
 msgid "OGC WKT definition cannot be changed for this SRS."
-msgstr ""
+msgstr "La definición de OGC WKT no se puede cambiar para este SRS."
 
-#: api.py:88
+#: api.py:89
 msgid "System SRS cannot be deleted."
-msgstr ""
+msgstr "La SRS del sistema no se puede eliminar."
 
-#: api.py:101
+#: api.py:102
 msgid "Invalid SRS definition!"
 msgstr "¡Definición de SRS no válida!"
 
-#: api.py:212
-msgid "SRS #{} already exists."
+#: api.py:207
+msgid "SRS authority attributes must be defined while importing from the catalog."
 msgstr ""
+
+#: api.py:232
+msgid "SRS #{} already exists."
+msgstr "SRS #{} ya existe."
 
 #: util.py:39
 #, python-format
@@ -96,7 +100,7 @@ msgstr "Mostrar en el catálogo"
 
 #: nodepkg/catalog-browse/CatalogBrowse.js:124 nodepkg/srs-widget/SRSWidget.js:29
 msgid "Authority and code"
-msgstr ""
+msgstr "Autoridad y código"
 
 #: nodepkg/catalog-browse/CatalogBrowse.js:136
 #: nodepkg/catalog-import/CatalogImport.js:82

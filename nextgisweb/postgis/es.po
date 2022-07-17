@@ -9,31 +9,31 @@ msgstr "¡No se encontró la capa {} de PostGIS!"
 
 #: api.py:89
 msgid "PostGIS connection {} not found!"
-msgstr ""
+msgstr "¡Conexión PostGIS {} no encontrada!"
 
 #: diagnostics.py:97
 msgid "Got an unexpected error."
-msgstr ""
+msgstr "Tengo un error inesperado."
 
 #: diagnostics.py:152
 msgid "PostgreSQL connection"
-msgstr ""
+msgstr "Conexión PostgreSQL"
 
 #: diagnostics.py:158
 msgid "Host name resolution failed: {}."
-msgstr ""
+msgstr "La resolución del nombre de host falló: {}."
 
 #: diagnostics.py:172
 msgid "Failed to connect to the database."
-msgstr ""
+msgstr "No se pudo conectar a la base de datos."
 
 #: diagnostics.py:176
 msgid "Connected to the database."
-msgstr ""
+msgstr "Conectado a la base de datos."
 
 #: diagnostics.py:179
 msgid "Executed {} query."
-msgstr ""
+msgstr "Consulta {} ejecutada."
 
 #: diagnostics.py:182
 msgid "PostgreSQL version {}."
@@ -45,47 +45,47 @@ msgstr "Extensión PostGIS"
 
 #: diagnostics.py:199
 msgid "PostGIS extension not found."
-msgstr ""
+msgstr "Extensión PostGIS no encontrada."
 
 #: diagnostics.py:201
 msgid "PostGIS extension version {}."
-msgstr ""
+msgstr "Versión de la extensión PostGIS {}."
 
 #: diagnostics.py:204
 msgid "Number of geometry columns: {}."
-msgstr ""
+msgstr "Número de columnas de geometría: {}."
 
 #: diagnostics.py:207
 msgid "Number of spatial reference systems: {}."
-msgstr ""
+msgstr "Número de sistemas de referencia espacial: {}."
 
 #: diagnostics.py:233
 msgid "Layer table"
-msgstr ""
+msgstr "Tabla de capa"
 
 #: diagnostics.py:241
 msgid "Table not found."
-msgstr ""
+msgstr "Tabla no encontrada."
 
 #: diagnostics.py:243
 msgid "Table found, table type is {}."
-msgstr ""
+msgstr "Tabla encontrada, el tipo de tabla es {}."
 
 #: diagnostics.py:256
 msgid "{} privilege is present."
-msgstr ""
+msgstr "{} privilegio está presente."
 
 #: diagnostics.py:258 diagnostics.py:260
 msgid "{} privilege is absent."
-msgstr ""
+msgstr "{} privilegio está ausente."
 
 #: diagnostics.py:263
 msgid "Number of records: {}."
-msgstr ""
+msgstr "Número de filas: {}."
 
 #: diagnostics.py:266
 msgid "ID or geometry column isn't set."
-msgstr ""
+msgstr "La columna de ID o geometría no está configurada."
 
 #: amd/ngw-postgis/template/LayerWidget.hbs:28 diagnostics.py:273
 msgid "ID column"
@@ -93,63 +93,63 @@ msgstr "Columna de ID"
 
 #: diagnostics.py:278 diagnostics.py:342
 msgid "Column not found."
-msgstr ""
+msgstr "Columna no encontrada."
 
 #: diagnostics.py:283
 msgid "Column found, but has non-integer type - {}."
-msgstr ""
+msgstr "Se encontró una columna, pero tiene un tipo no entero - {}."
 
 #: diagnostics.py:285 diagnostics.py:356
 msgid "Column found, type is {}."
-msgstr ""
+msgstr "Columna encontrada, el tipo es {}."
 
 #: diagnostics.py:288
 msgid "Column is the primary key."
-msgstr ""
+msgstr "La columna es la clave principal."
 
 #: diagnostics.py:290
 msgid "Column is not the primary key."
-msgstr ""
+msgstr "La columna no es la clave principal."
 
 #: diagnostics.py:298
 msgid "Column can be NULL."
-msgstr ""
+msgstr "La columna puede ser NULL."
 
 #: diagnostics.py:303
 msgid "NULL values in the column."
-msgstr ""
+msgstr "Valores NULL en la columna."
 
 #: diagnostics.py:305
 msgid "No NULL values in the column."
-msgstr ""
+msgstr "Valores no NULL en la columna."
 
 #: diagnostics.py:307
 msgid "Column cannot be NULL."
-msgstr ""
+msgstr "La columna no puede ser NULL."
 
 #: diagnostics.py:310
 msgid "Unique index not found."
-msgstr ""
+msgstr "Índice único no encontrado."
 
 #: diagnostics.py:312
 msgid "Unique index found."
-msgstr ""
+msgstr "Índice único encontrado."
 
 #: diagnostics.py:325
 msgid "Non-unique values in the column."
-msgstr ""
+msgstr "Valores no únicos en la columna."
 
 #: diagnostics.py:327
 msgid "All values are unique."
-msgstr ""
+msgstr "Todos los valores son únicos."
 
 #: diagnostics.py:331
 msgid "Column is auto-incrementable."
-msgstr ""
+msgstr "La columna es autoincrementable."
 
 #: diagnostics.py:333
 msgid "Column isn't auto-incrementable."
-msgstr ""
+msgstr "La columna no es autoincrementable."
 
 #: amd/ngw-postgis/template/LayerWidget.hbs:34 diagnostics.py:337
 msgid "Geometry column"
@@ -157,27 +157,27 @@ msgstr "Columna de geometría"
 
 #: diagnostics.py:352
 msgid "Column found, but has an incompatible type - {}."
-msgstr ""
+msgstr "Se encontró una columna, pero tiene un tipo incompatible - {}."
 
 #: diagnostics.py:359
 msgid "Geometry SRID mismatch."
-msgstr ""
+msgstr "Discrepancia de SRID de geometría."
 
 #: diagnostics.py:363
 msgid "Field columns"
-msgstr ""
+msgstr "Columnas de campo"
 
 #: diagnostics.py:369
 msgid "Column of field '{}' not found."
-msgstr ""
+msgstr "No se encontró la columna del campo '{}'."
 
 #: diagnostics.py:377
 msgid "Column of field '{}' found, but has an incompatible type - {}."
-msgstr ""
+msgstr "Se encontró la columna del campo '{}', pero tiene un tipo incompatible - {}."
 
 #: diagnostics.py:381
 msgid "Column of field '{}' found, type is {}."
-msgstr ""
+msgstr "Se encontró la columna del campo '{}', el tipo es {}."
 
 #: exception.py:8
 msgid "External database error"
@@ -289,11 +289,11 @@ msgstr "Tipo de geometría"
 
 #: view.py:34
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnóstico"
 
 #: view.py:56
 msgid "PostGIS diagnostics"
-msgstr ""
+msgstr "Diagnóstico PostGIS"
 
 #: amd/ngw-postgis/template/ConnectionWidget.hbs:9
 msgid "Host"
@@ -354,17 +354,17 @@ msgstr "Recargar"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:13
 msgid "Unknown"
-msgstr ""
+msgstr "Desconocido"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:14
 msgid "Success"
-msgstr ""
+msgstr "Éxito"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:15
 msgid "Warning"
-msgstr ""
+msgstr "Advertencia"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:16
 msgid "Error"
-msgstr ""
+msgstr "Error"
 

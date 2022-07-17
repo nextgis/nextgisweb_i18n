@@ -1,21 +1,21 @@
-#: api.py:47
+#: api.py:48
 msgid "Output format is not provided."
 msgstr "Výstupní formát není k dispozici."
 
-#: api.py:50
+#: api.py:51
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr "Formát '%s' není podporován."
 
-#: api.py:101
+#: api.py:102
 msgid "Requested raster is not COG."
 msgstr "Požadovaný rastr není COG."
 
-#: api.py:105
+#: api.py:106
 msgid "Range header is missed or invalid."
 msgstr "Záhlaví rozsahu je vynecháno nebo neplatné."
 
-#: api.py:109
+#: api.py:110
 #, python-format
 msgid "Range %s can not be read."
 msgstr "Rozsah %s nelze číst."
@@ -91,7 +91,11 @@ msgstr "COG"
 msgid "Save as"
 msgstr "Uložit jako"
 
-#: view.py:46
+#: view.py:42
+msgid "Download"
+msgstr ""
+
+#: view.py:52
 msgid "External access"
 msgstr "Externí přístup"
 

@@ -103,7 +103,7 @@ msgstr "Valor catastral"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:49
 msgid "Monetary unit of value"
-msgstr ""
+msgstr "Unidad monetaria de valor"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:51
 msgid "Category type"
@@ -115,27 +115,27 @@ msgstr "Número catastral del condado"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:57
 msgid "Date of entering information about cadastral value"
-msgstr ""
+msgstr "Fecha de ingreso de información sobre valor catastral"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:58
 msgid "Date of cadastral value approval"
-msgstr ""
+msgstr "Fecha de aprobación del valor catastral"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:59
 msgid "Refined area"
-msgstr ""
+msgstr "Área refinada"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:60
 msgid "Dimension of the area"
-msgstr ""
+msgstr "Dimensión del área"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:61
 msgid "Permitted use according to the document"
-msgstr ""
+msgstr "Uso permitido según documento"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:62
 msgid "Permitted use"
-msgstr ""
+msgstr "Uso permitido"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:63
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
@@ -160,11 +160,11 @@ msgstr "Información"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:69
 msgid "Type (as form)"
-msgstr ""
+msgstr "Tipo (como formulario)"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:70
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:71
 msgid "Registered number"
@@ -176,7 +176,7 @@ msgstr "Restricción"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:74
 msgid "Registry number"
-msgstr ""
+msgstr "Número de registro"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:84
 msgid "Cadastral quarter"

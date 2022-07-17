@@ -4,7 +4,7 @@ msgstr "Mapas base adicionales"
 
 #: lockable_feature.py:88
 msgid "Field data collection"
-msgstr ""
+msgstr "Recolectar datos"
 
 #: lockable_feature.py:105
 msgid "Use on other websites (CORS)"
@@ -36,7 +36,7 @@ msgstr "Soporte técnico"
 
 #: lockable_feature.py:236
 msgid "On-demand backup restore"
-msgstr ""
+msgstr "Restauración de copia de seguridad bajo demanda"
 
 #: lockable_feature.py:257
 msgid "Tile caching"
@@ -60,23 +60,23 @@ msgstr "Límite de almacenamiento"
 
 #: service_plan.py:104
 msgid "User limit"
-msgstr ""
+msgstr "límite de usuarios"
 
 #: service_plan.py:109
 msgid "GPS trackers"
-msgstr ""
+msgstr "Localizadores GPS"
 
 #: service_plan.py:120
 msgid "Maximum file upload"
-msgstr ""
+msgstr "Carga máxima de archivos"
 
 #: service_plan.py:121
 msgid "Maximum raster layer"
-msgstr ""
+msgstr "Capa ráster máxima"
 
 #: service_plan.py:281
 msgid "Plan upgrade required"
-msgstr ""
+msgstr "Se requiere actualización de plan"
 
 #: service_plan.py:285
 msgid "This is not available on your plan."
@@ -84,15 +84,15 @@ msgstr "Esto no está disponible en su plan."
 
 #: service_plan.py:288
 msgid "{} feature is not available on your plan."
-msgstr ""
+msgstr "La función {} no está disponible en su plan."
 
 #: service_plan.py:296
 msgid "To use this feature, please upgrade to {}."
-msgstr ""
+msgstr "Para utilizar esta función, actualice a {}."
 
 #: nodepkg/include.js:10 nodepkg/upgrade-button/index.js:26 view.py:10
 msgid "Plan and features"
-msgstr ""
+msgstr "Plan y características"
 
 #: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
 msgid ""

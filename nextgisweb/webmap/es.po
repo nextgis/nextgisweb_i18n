@@ -103,7 +103,7 @@ msgstr "Objeto no encontrado"
 
 #: amd/ngw-webmap/Display.js:1154 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:670
 msgid "Object from URL parameters not found"
-msgstr ""
+msgstr "Objeto de parámetros de URL no encontrado"
 
 #: amd/ngw-webmap/ExtentWidget.js:31
 msgid "Extent and bookmarks"
@@ -231,7 +231,7 @@ msgstr "Agregar capa"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:18
 msgid "Select layer's style"
-msgstr ""
+msgstr "Seleccionar estilo de capa"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:33
 msgid "Remove"

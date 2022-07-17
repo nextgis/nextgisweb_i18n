@@ -1,21 +1,21 @@
-#: api.py:47
+#: api.py:48
 msgid "Output format is not provided."
 msgstr "No se proporciona formato de salida."
 
-#: api.py:50
+#: api.py:51
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr "El formato '%s' no es compatible."
 
-#: api.py:101
+#: api.py:102
 msgid "Requested raster is not COG."
 msgstr "El ráster solicitado no es COG."
 
-#: api.py:105
+#: api.py:106
 msgid "Range header is missed or invalid."
 msgstr "El encabezado 'Range' se omite o no es válido."
 
-#: api.py:109
+#: api.py:110
 #, python-format
 msgid "Range %s can not be read."
 msgstr "El rango %s no se puede leer."
@@ -91,7 +91,11 @@ msgstr "COG"
 msgid "Save as"
 msgstr "Guardar como"
 
-#: view.py:46
+#: view.py:42
+msgid "Download"
+msgstr ""
+
+#: view.py:52
 msgid "External access"
 msgstr "Acceso externo"
 
@@ -129,7 +133,7 @@ msgstr "Sistema de coordenadas"
 
 #: amd/ngw-raster-layer/template/Widget.hbs:14
 msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr ""
+msgstr "Cloud Optimized GeoTIFF (COG)"
 
 #: template/section_api_cog.mako:10
 msgid "Cloud Optimized GeoTIFF"

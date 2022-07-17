@@ -1,13 +1,13 @@
 #: amd/ngw-qgis/RasterStyleWidget.js:26 amd/ngw-qgis/VectorStyleWidget.js:26
-#: model.py:111 model.py:191 view.py:25
+#: model.py:112 model.py:182 view.py:25
 msgid "QGIS style"
 msgstr "Estilo QGIS"
 
-#: model.py:436
+#: model.py:447
 msgid "Layer type mismatch."
 msgstr "Falta de coincidencia del tipo de capa."
 
-#: model.py:438
+#: model.py:449
 msgid "QML file is not valid."
 msgstr "El archivo QML no es válido."
 
@@ -19,4 +19,14 @@ msgstr "Archivo QML"
 #: amd/ngw-qgis/template/QgisVectorStyleWidget.hbs:13
 msgid "SVG marker library"
 msgstr "Biblioteca de marcadores SVG"
+
+#: nodepkg/default-style-widget/DefaultStyleWidget.js:29
+msgid ""
+"Layer created. You need a style to add it to a web map. Use the button bellow"
+" to create a default QGIS style or create a style resource using sidebar."
+msgstr ""
+
+#: nodepkg/default-style-widget/DefaultStyleWidget.js:34
+msgid "Create default QGIS style"
+msgstr ""
 

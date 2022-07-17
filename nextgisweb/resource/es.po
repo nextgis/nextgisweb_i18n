@@ -131,8 +131,8 @@ msgid "Update"
 msgstr "Actualizar"
 
 #: amd/ngw-resource/CompositeWidget.js:92 amd/ngw-resource/PermissionWidget.js:321
-#: nodepkg/children-section/ChildrenSection.js:42
-#: nodepkg/children-section/ChildrenSection.js:234
+#: nodepkg/children-section/ChildrenSection.js:34
+#: nodepkg/children-section/ChildrenSection.js:262
 #: nodepkg/delete-page/DeletePage.js:49 scope.py:44 view.py:353
 msgid "Delete"
 msgstr "Eliminar"
@@ -372,7 +372,9 @@ msgstr ""
 "permisos."
 
 #: amd/ngw-resource/template/Widget.hbs:8
-#: nodepkg/children-section/ChildrenSection.js:300 template/section_summary.mako:6
+#: nodepkg/children-section/ChildrenSection.js:337
+#: nodepkg/resource-picker/resource-picker-children/ResourcePickerChildren.js:107
+#: template/section_summary.mako:6
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
@@ -385,64 +387,108 @@ msgid "Parent"
 msgstr "Padre"
 
 #: amd/ngw-resource/template/Widget.hbs:23
-#: nodepkg/children-section/ChildrenSection.js:321 template/section_summary.mako:44
+#: nodepkg/children-section/ChildrenSection.js:358 template/section_summary.mako:44
 msgid "Owner"
 msgstr "Propietario"
 
 #: amd/ngw-resource/template/Widget.hbs:28
-#: nodepkg/children-section/ChildrenSection.js:314 template/section_summary.mako:36
+#: nodepkg/children-section/ChildrenSection.js:351 template/section_summary.mako:36
 msgid "Type"
 msgstr "Tipo"
 
-#: nodepkg/children-section/ChildrenSection.js:37
+#: nodepkg/children-section/ChildrenSection.js:29
 msgid "Confirmation required"
-msgstr ""
+msgstr "Confirmación requerida"
 
-#: nodepkg/children-section/ChildrenSection.js:38
+#: nodepkg/children-section/ChildrenSection.js:30
 msgid "Please confirm resource deletion. This action cannot be undone."
+msgstr "Confirme la eliminación del recurso. Esta acción no se puede deshacer."
+
+#: nodepkg/children-section/ChildrenSection.js:42
+msgid "Resource deleted"
+msgstr "Recurso eliminado"
+
+#: nodepkg/children-section/ChildrenSection.js:43
+msgid "Resources deleted"
+msgstr "Recurso eliminado"
+
+#: nodepkg/children-section/ChildrenSection.js:49
+msgid "Resource has been moved"
 msgstr ""
 
 #: nodepkg/children-section/ChildrenSection.js:50
-msgid "Resource deleted"
+msgid "Resources have been moved"
 msgstr ""
 
-#: nodepkg/children-section/ChildrenSection.js:51
-msgid "Resources deleted"
+#: nodepkg/children-section/ChildrenSection.js:174
+msgid "Moving resources"
 msgstr ""
 
-#: nodepkg/children-section/ChildrenSection.js:169
-msgid "The errors occurred during execution"
+#: nodepkg/children-section/ChildrenSection.js:204
+msgid "Deleting resources"
 msgstr ""
 
-#: nodepkg/children-section/ChildrenSection.js:208
+#: nodepkg/children-section/ChildrenSection.js:236
 msgid "Turn off multiple selection"
-msgstr ""
+msgstr "Desactivar selección múltiple"
 
-#: nodepkg/children-section/ChildrenSection.js:209
+#: nodepkg/children-section/ChildrenSection.js:237
 msgid "Select multiple resources"
-msgstr ""
+msgstr "Seleccionar múltiples recursos"
 
-#: nodepkg/children-section/ChildrenSection.js:218
+#: nodepkg/children-section/ChildrenSection.js:246
 msgid "Hide resources volume"
 msgstr "Ocultar volumen de recursos"
 
-#: nodepkg/children-section/ChildrenSection.js:219
+#: nodepkg/children-section/ChildrenSection.js:247
 msgid "Show resources volume"
 msgstr "Mostrar volumen de recursos"
 
-#: nodepkg/children-section/ChildrenSection.js:242
+#: nodepkg/children-section/ChildrenSection.js:271
 msgid "Not all of the selected can be deleted."
+msgstr "No todos los seleccionados se pueden eliminar."
+
+#: nodepkg/children-section/ChildrenSection.js:286
+msgid "Move"
 msgstr ""
 
-#: nodepkg/children-section/ChildrenSection.js:329
+#: nodepkg/children-section/ChildrenSection.js:366
 msgid "Volume"
 msgstr "Volumen"
 
-#: nodepkg/resources-filter/ResourcesFilter.js:104
+#: nodepkg/children-section/util/forEachSelected.js:5
+msgid "Operation in progress"
+msgstr ""
+
+#: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalFooter.js:13
+msgid "Create group"
+msgstr ""
+
+#: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalFooter.js:14
+msgid "Move to this group"
+msgstr ""
+
+#: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalFooter.js:15
+msgid "Move to selected group"
+msgstr ""
+
+#: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalFooter.js:16
+msgid "Clear selection"
+msgstr ""
+
+#: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalTitle.js:14
+msgid "Go to initial group"
+msgstr ""
+
+#: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalTitle.js:15
+msgid "Refresh"
+msgstr ""
+
+#: nodepkg/resources-filter/ResourcesFilter.js:114
 msgid "Resources not found"
 msgstr "Recursos no se han encontrados"
 
-#: nodepkg/resources-filter/ResourcesFilter.js:108
+#: nodepkg/resources-filter/ResourcesFilter.js:119
 msgid "Search resources"
 msgstr "Buscar recursos"
 

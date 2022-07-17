@@ -30,7 +30,7 @@ msgstr "OK"
 msgid "Back to home"
 msgstr "Zpátky domů"
 
-#: nodepkg/fields-form/FieldsForm.js:54
+#: nodepkg/fields-form/FieldsForm.js:66
 msgid "This value is required"
 msgstr "Tato hodnota je vyžadována"
 
@@ -42,48 +42,48 @@ msgstr "Zadaná hodnota není platná"
 msgid "Browser default"
 msgstr "Výchozí nastavení prohlížeče"
 
-#: nodepkg/model-browse/ModelBrowse.js:49 nodepkg/model-form/ModelForm.js:29
+#: nodepkg/model-browse/ModelBrowse.js:50 nodepkg/model-form/ModelForm.js:32
 msgid "Confirmation"
 msgstr "Potvrzení"
 
-#: nodepkg/model-browse/ModelBrowse.js:50
+#: nodepkg/model-browse/ModelBrowse.js:51
 msgid "Item deleted"
 msgstr "Položka zrušena"
 
-#: nodepkg/model-browse/ModelBrowse.js:52
+#: nodepkg/model-browse/ModelBrowse.js:53
 msgid "Items deleted"
 msgstr "Smazané položky"
 
-#: nodepkg/model-browse/ModelBrowse.js:119
+#: nodepkg/model-browse/ModelBrowse.js:118
 msgid "The errors occurred during execution"
 msgstr "K chybám došlo během provádění"
 
-#: nodepkg/model-browse/ModelBrowse.js:123
+#: nodepkg/model-browse/ModelBrowse.js:122
 msgid "Failed to delete items:"
 msgstr "Nepodařilo se odstranit položky:"
 
-#: nodepkg/model-browse/ModelBrowse.js:146
+#: nodepkg/model-browse/ModelBrowse.js:145
 msgid "Do you want to delete these items?"
 msgstr "Chcete tyto položky smazat?"
 
-#: nodepkg/model-browse/ModelBrowse.js:183
+#: nodepkg/model-browse/ModelBrowse.js:182
 msgid "Edit"
 msgstr "Upravit"
 
-#: nodepkg/model-browse/ModelBrowse.js:192 nodepkg/model-browse/ModelBrowse.js:251
+#: nodepkg/model-browse/ModelBrowse.js:191 nodepkg/model-browse/ModelBrowse.js:260
 #: nodepkg/model-form/ModelForm.js:13
 msgid "Delete"
 msgstr "Odstranit"
 
-#: nodepkg/model-browse/ModelBrowse.js:217
+#: nodepkg/model-browse/ModelBrowse.js:216
 msgid "Search"
 msgstr "Vyhledávání"
 
-#: nodepkg/model-browse/ModelBrowse.js:233 nodepkg/model-form/ModelForm.js:11
+#: nodepkg/model-browse/ModelBrowse.js:238 nodepkg/model-form/ModelForm.js:11
 msgid "Create"
 msgstr "Vytvořit"
 
-#: nodepkg/model-form/ModelForm.js:62
+#: nodepkg/model-form/ModelForm.js:65
 msgid "Fix the form errors first"
 msgstr "Nejprve opravte chyby formuláře"
 
@@ -91,11 +91,19 @@ msgstr "Nejprve opravte chyby formuláře"
 msgid "Logo saved. Reload the page to get them applied."
 msgstr "Logo uloženo. Znovu načtěte stránku, abyste je mohli použít."
 
-#: nodepkg/single-setting-form/SingleSettingForm.js:9
+#: nodepkg/progress-modal/ProgressModal.js:4
+msgid "Operation in progress"
+msgstr ""
+
+#: nodepkg/progress-modal/ProgressModal.js:5
+msgid "Cancel"
+msgstr ""
+
+#: nodepkg/single-setting-form/SingleSettingForm.js:10
 msgid "The setting is saved."
 msgstr "Nastavení se uloží."
 
-#: nodepkg/single-setting-form/SingleSettingForm.js:10
+#: nodepkg/single-setting-form/SingleSettingForm.js:11
 msgid "Reload the page to get them applied."
 msgstr "Znovu načtěte stránku, abyste je mohli použít."
 

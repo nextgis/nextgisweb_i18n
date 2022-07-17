@@ -1,21 +1,21 @@
-#: api.py:47
+#: api.py:48
 msgid "Output format is not provided."
 msgstr "Il formato di output non è stato fornito."
 
-#: api.py:50
+#: api.py:51
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr "Il formato '%s' non è supportato."
 
-#: api.py:101
+#: api.py:102
 msgid "Requested raster is not COG."
 msgstr ""
 
-#: api.py:105
+#: api.py:106
 msgid "Range header is missed or invalid."
 msgstr ""
 
-#: api.py:109
+#: api.py:110
 #, python-format
 msgid "Range %s can not be read."
 msgstr ""
@@ -87,7 +87,11 @@ msgstr ""
 msgid "Save as"
 msgstr "Salva come"
 
-#: view.py:46
+#: view.py:42
+msgid "Download"
+msgstr ""
+
+#: view.py:52
 msgid "External access"
 msgstr ""
 
