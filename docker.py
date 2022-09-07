@@ -25,3 +25,4 @@ def on_virtualenv(event):
 def on_config(event):
     event.image.config_set('core', 'locale.external_path', PTH)
     event.image.config_set('core', 'locale.poeditor.project_id', '435991')
+    event.image.config_set('core', 'locale.contribute_url', 'https://docs.nextgis.com/docs_ngcom/source/translation.html')
