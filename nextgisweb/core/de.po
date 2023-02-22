@@ -62,7 +62,7 @@ msgstr ""
 
 #: storage.py:276
 msgid "Estimation is already running"
-msgstr ""
+msgstr "Schätzung läuft bereits"
 
 #: test/test_exception.py:75
 #, python-format

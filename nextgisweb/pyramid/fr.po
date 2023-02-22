@@ -445,6 +445,10 @@ msgid ""
 "outdated browser lacking required features. Try a different browser or "
 "contact your system administrator if another browser isn't available."
 msgstr ""
+"Vous utilisez %(name)s bien qu'il ne soit pas pris en charge par le SIG Web. "
+"C'est un navigateur obsolète qui manque des fonctionnalités requises. Essayez"
+" un autre navigateur ou contactez votre administrateur système si aucun autre"
+" navigateur n'est disponible."
 
 #: template/uacompat.mako:30
 #, python-format

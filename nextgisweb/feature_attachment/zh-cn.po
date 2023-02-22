@@ -2,6 +2,38 @@
 msgid "Feature attachments"
 msgstr "要素附件"
 
+#: api.py:228
+msgid "Invalid ZIP archive."
+msgstr ""
+
+#: api.py:256
+msgid "File '{}' isn't found in metadata."
+msgstr ""
+
+#: api.py:261
+msgid "Invalid name for file '{}'."
+msgstr ""
+
+#: api.py:267
+msgid "Invalid feature ID for file '{}'."
+msgstr ""
+
+#: api.py:273
+msgid "Invalid MIME type for file '{}'."
+msgstr ""
+
+#: api.py:279
+msgid "Invalid description for file '{}'."
+msgstr ""
+
+#: api.py:291
+msgid "Could not determine feature ID for file '{}'."
+msgstr ""
+
+#: api.py:308
+msgid "File '{}' isn't found in the archive."
+msgstr ""
+
 #: exception.py:12
 msgid "Attachment not found"
 msgstr "未找到附件"
@@ -14,6 +46,10 @@ msgstr "在id=%d的要素中未找到id=%d的附件。"
 #: exception.py:14
 msgid "The attachment may have been deleted or an error in the address."
 msgstr "附件可能被删除，或者地址可能错误"
+
+#: view.py:19 view.py:40
+msgid "Manage attachments"
+msgstr ""
 
 #: amd/ngw-feature-attachment/DisplayWidget.js:36
 #: amd/ngw-feature-attachment/EditorWidget.js:109
@@ -47,4 +83,55 @@ msgstr "上传"
 #: amd/ngw-feature-attachment/EditorWidget.js:153
 msgid "Delete"
 msgstr "删除"
+
+#: nodepkg/attachment-form/AttachmentForm.js:48
+msgid ""
+"Use export to copy feature attachments between different layers or to create "
+"a backup. The resulting ZIP archive will contain all of the attachments put "
+"in directories named after feature IDs. Attachment metadata are put into a "
+"separate JSON file."
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:58
+msgid "Export attachments to ZIP archive"
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:73
+msgid "Back to resource"
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:75
+msgid "Close"
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:78
+msgid "The archive has been successfully imported."
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:81
+msgid "Attachments imported - {i}, skipped - {s}."
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:115
+msgid ""
+"Upload a ZIP archive to batch append attachments to existing features. An "
+"archive must contain directories named after feature IDs. Each folder can "
+"contain one or many attachments. Duplicates will be ignored."
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:124
+msgid "Delete existing attachments"
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:145
+msgid "Import attachments from ZIP archive"
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:157
+msgid "Export"
+msgstr ""
+
+#: nodepkg/attachment-form/AttachmentForm.js:162
+msgid "Import"
+msgstr ""
 

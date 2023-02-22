@@ -297,7 +297,7 @@ msgstr "Empfohlene Größe: 45 px hoch und 200 px breit."
 
 #: nodepkg/storage-summary/StorageSummary.js:82
 msgid "Kind of data"
-msgstr ""
+msgstr "Datentyp"
 
 #: nodepkg/storage-summary/StorageSummary.js:88
 msgid "Volume"
@@ -314,7 +314,7 @@ msgstr ""
 #: nodepkg/storage-summary/StorageSummary.js:124
 #, python-format
 msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr ""
+msgstr "Speichernutzung wurde geschätzt um %s und aktualisiert um %s."
 
 #: nodepkg/storage-summary/StorageSummary.js:128
 #, python-format
@@ -324,15 +324,15 @@ msgstr ""
 #: nodepkg/storage-summary/StorageSummary.js:131
 #, python-format
 msgid "Storage usage hasn't been estimated yet but was updated at %s."
-msgstr ""
+msgstr "Speichernutzung noch nicht geschätzt, wurde aktualisiert um %s."
 
 #: nodepkg/storage-summary/StorageSummary.js:134
 msgid "Storage usage hasn't been estimated yet."
-msgstr ""
+msgstr "Speichernutzung wurde noch nicht geschätzt."
 
 #: nodepkg/storage-summary/StorageSummary.js:139
 msgid "Some changes may be reflected only after full estimation."
-msgstr ""
+msgstr "Einige Änderungen werden erst nach vollständiger Schätzung sichtbar."
 
 #: nodepkg/storage-summary/StorageSummary.js:162
 msgid "Estimate storage"
@@ -344,7 +344,7 @@ msgstr ""
 
 #: nodepkg/update/index.js:55
 msgid "Critical updates are available"
-msgstr ""
+msgstr "Kritische Updates verfügbar."
 
 #: nodepkg/update/index.js:56
 msgid "Updates are available"
@@ -356,25 +356,25 @@ msgstr ""
 
 #: nodepkg/update/sysinfo.js:32
 msgid "Checking for updates..."
-msgstr ""
+msgstr "Überprüfe ob Updates vorhanden sind..."
 
 #: nodepkg/update/sysinfo.js:35
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
-msgstr ""
+msgstr "Kritische Updates verfügbar:{version}. Bitte sobald als möglich updaten."
 
 #: nodepkg/update/sysinfo.js:36
 msgid "New version of {distribution} is available: {version}."
-msgstr ""
+msgstr "Neue Version von {distribution} ist verfügbar:{version}."
 
 #: nodepkg/update/sysinfo.js:37
 msgid "Your {distribution} is up-to-date."
-msgstr ""
+msgstr "Ihre {distribution} ist aktuell."
 
 #: nodepkg/update/sysinfo.js:44
 msgid "<a>Contact support</a> for update."
-msgstr ""
+msgstr "<a>Kontaktiere Support</a> für Update."
 
 #: nodepkg/update/sysinfo.js:74
 msgid "Show details"

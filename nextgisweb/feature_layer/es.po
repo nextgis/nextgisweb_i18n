@@ -1,29 +1,41 @@
-#: api.py:106
+#: api.py:92
 msgid "Output format is not provided."
 msgstr "No se proporciona formato de salida."
 
-#: api.py:111
+#: api.py:94
 #, python-format
 msgid "Format '%s' is not supported."
 msgstr "El formato '%s' no es compatible."
 
-#: api.py:301 api.py:376
+#: api.py:124 api.py:769
+msgid "Parameter 'intersects' geometry is not valid."
+msgstr "El parámetro 'intersects' de la geometría no es válido."
+
+#: api.py:147
+msgid "The export limit is set to {limit} features, but the layer contains {count}."
+msgstr ""
+
+#: api.py:160
+msgid "Failed to reproject 'intersects' geometry."
+msgstr ""
+
+#: api.py:298
+msgid "File name parameter '{}' is not valid."
+msgstr ""
+
+#: api.py:417 api.py:492
 #, python-format
 msgid "Geometry format '%s' is not supported."
 msgstr "El formato de geometría '%s' no es compatible."
 
-#: api.py:303
+#: api.py:419
 msgid "Geometry is not valid."
 msgstr "La geometría no es válida."
 
-#: api.py:309 api.py:381
+#: api.py:425 api.py:497
 #, python-format
 msgid "Date format '%s' is not supported."
 msgstr "El formato de fecha '%s' no es compatible."
-
-#: api.py:600
-msgid "Parameter 'intersects' geometry is not valid."
-msgstr "El parámetro 'intersects' de la geometría no es válido."
 
 #: exception.py:13
 msgid "Feature not found"
@@ -40,39 +52,43 @@ msgstr ""
 "Es posible que el objeto geográfico se haya eliminado o que haya un error en "
 "la dirección."
 
-#: model.py:163
+#: model.py:165
 #, python-format
 msgid "Field not found (ID=%d)."
 msgstr "Campo no encontrado (ID=%d)."
 
-#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:40
+#: model.py:175
+msgid "Field name is forbidden: '{}'. Please remove or rename it."
+msgstr ""
+
+#: amd/ngw-feature-layer/FieldsWidget.js:157 view.py:45
 msgid "Feature table"
 msgstr "Tabla de objetos geográficos"
 
-#: view.py:58 view.py:81
+#: view.py:67 view.py:90
 #, python-format
 msgid "Feature #%d"
 msgstr "Objeto geográfico #%d"
 
-#: view.py:131 view.py:194
+#: view.py:141 view.py:151 view.py:230
 msgid "Save as"
 msgstr "Guardar como"
 
-#: view.py:181
+#: view.py:217
 msgid "Features"
 msgstr "Objetos geográficos"
 
-#: template/section_fields.mako:21 view.py:186
+#: template/section_fields.mako:21 view.py:222
 msgid "Table"
 msgstr "Tabla"
 
-#: view.py:205
+#: view.py:241
 msgid "External access"
 msgstr "Acceso externo"
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:193
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:210
+#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:246
 msgid "Attributes"
 msgstr "Atributos"
 
@@ -93,17 +109,9 @@ msgid "Please wait. Processing request..."
 msgstr "Espere por favor. Procesando la solicitud..."
 
 #: amd/ngw-feature-layer/FeatureEditorWidget.js:265
-#: amd/ngw-feature-layer/template/ExportForm.hbs:45
+#: nodepkg/export-form/ExportForm.js:287
 msgid "Save"
 msgstr "Guardar"
-
-#: amd/ngw-feature-layer/FeatureGrid.js:241
-msgid "Confirmation"
-msgstr "Confirmación"
-
-#: amd/ngw-feature-layer/FeatureGrid.js:242
-msgid "Delete feature?"
-msgstr "Eliminar el objeto geográfico?"
 
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:119
 msgid "N/A"
@@ -141,45 +149,121 @@ msgstr "Agregar"
 msgid "Remove"
 msgstr "Eliminar"
 
-#: amd/ngw-feature-layer/template/ExportForm.hbs:15
+#: amd/ngw-feature-layer/GeometryInfoWidget.js:15
+msgid "Geometry"
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.js:142
+msgid "Resources"
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.js:159
 msgid "Format"
 msgstr "Formato"
 
-#: amd/ngw-feature-layer/template/ExportForm.hbs:19
+#: nodepkg/export-form/ExportForm.js:169
 msgid "SRS"
 msgstr "SRS"
 
-#: amd/ngw-feature-layer/template/ExportForm.hbs:23
+#: nodepkg/export-form/ExportForm.js:175
 msgid "Encoding"
 msgstr "Codificación de caracteres"
 
-#: amd/ngw-feature-layer/template/ExportForm.hbs:30
+#: nodepkg/export-form/ExportForm.js:185
 msgid "FID field"
 msgstr "Campo FID"
 
-#: amd/ngw-feature-layer/template/ExportForm.hbs:34
+#: nodepkg/export-form/ExportForm.js:189
 msgid "Use field display names instead of keynames"
 msgstr "Utilice nombres para mostrar en lugar de nombres clave"
 
-#: amd/ngw-feature-layer/template/ExportForm.hbs:37
+#: nodepkg/export-form/ExportForm.js:196
+msgid "Fields"
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.js:204
+msgid "Limit by extent"
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.js:209
 msgid "Zip archive"
 msgstr "Archivo zip"
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:13
+#: nodepkg/export-form/ExtentInput.js:6
+msgid "deg."
+msgstr ""
+
+#: nodepkg/export-form/ExtentInput.js:8
+msgid "Left"
+msgstr ""
+
+#: nodepkg/export-form/ExtentInput.js:9
+msgid "Bottom"
+msgstr ""
+
+#: nodepkg/export-form/ExtentInput.js:10
+msgid "Right"
+msgstr ""
+
+#: nodepkg/export-form/ExtentInput.js:11
+msgid "Top"
+msgstr ""
+
+#: nodepkg/feature-grid/FeatureGrid.js:23
+msgid "Search..."
+msgstr "Buscando..."
+
+#: nodepkg/feature-grid/FeatureGrid.js:24
 msgid "Open"
 msgstr "Abrir"
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:18
-msgid "Edit"
-msgstr "Editar"
-
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:23
+#: nodepkg/feature-grid/FeatureGrid.js:25
 msgid "Delete"
 msgstr "Eliminar"
 
-#: amd/ngw-feature-layer/template/FeatureGrid.hbs:28
-msgid "Search..."
-msgstr "Buscando..."
+#: nodepkg/feature-grid/FeatureGrid.js:26
+msgid "Edit"
+msgstr "Editar"
+
+#: nodepkg/geometry-info/GeometryInfo.js:60
+msgid "Load geometry info..."
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.js:70
+msgid "Failed to get information about the geometry"
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.js:81
+msgid "Perimeter"
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.js:81
+msgid "Length"
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.js:93
+msgid "Area"
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.js:107
+msgid "Geometry type"
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.js:117
+msgid "Extent (xMin)"
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.js:125
+msgid "Extent (yMin)"
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.js:133
+msgid "Extent (xMax)"
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.js:141
+msgid "Extent (yMax)"
+msgstr ""
 
 #: template/section_api_layer.mako:11
 msgid "MVT Vector Tiles"
@@ -219,4 +303,10 @@ msgstr "No"
 
 #~ msgid "Attribute: "
 #~ msgstr "Atributo: "
+
+#~ msgid "Confirmation"
+#~ msgstr "Confirmación"
+
+#~ msgid "Delete feature?"
+#~ msgstr "Eliminar el objeto geográfico?"
 

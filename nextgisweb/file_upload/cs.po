@@ -6,6 +6,10 @@ msgstr "Nahraný soubor je příliš velký"
 msgid "Upload is not completed"
 msgstr "Nahrávání není dokončeno"
 
+#: view.py:7
+msgid "File Upload testing page"
+msgstr ""
+
 #: amd/ngw-file-upload/Uploader.js:55
 msgid "Select"
 msgstr "Vybrat"
@@ -18,7 +22,7 @@ msgstr "max"
 msgid "Uploading..."
 msgstr "Nahrávání..."
 
-#: amd/ngw-file-upload/Uploader.js:121 nodepkg/image-uploader/ImageUploader.js:63
+#: amd/ngw-file-upload/Uploader.js:121 nodepkg/file-uploader/FileUploader.js:55
 msgid " uploaded..."
 msgstr " nahráno..."
 
@@ -32,6 +36,7 @@ msgstr "Vyberte obrázek"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:10
 #: amd/ngw-file-upload/template/Uploader.hbs:10
+#: nodepkg/file-uploader/FileUploader.js:17
 msgid "Overwrite?"
 msgstr "Přepsat?"
 
@@ -42,20 +47,21 @@ msgstr "Zkuste to znovu"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:13
 #: amd/ngw-file-upload/template/Uploader.hbs:13
-#: nodepkg/image-uploader/ImageUploader.js:14
+#: nodepkg/file-uploader/FileUploader.js:16
 msgid "or drag and drop here"
 msgstr "nebo přetáhněte zde"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:21
-#: nodepkg/image-uploader/ImageUploader.js:170
+#: nodepkg/image-uploader/ImageUploader.js:99
 msgid "Delete"
 msgstr "Vymazat"
 
 #: amd/ngw-file-upload/template/Uploader.hbs:9
+#: nodepkg/file-uploader/FileUploader.js:15
 msgid "Select a file"
 msgstr "Vyberte soubor"
 
-#: nodepkg/image-uploader/ImageUploader.js:125
+#: nodepkg/file-uploader/FileUploader.js:123
 msgid "Stop"
 msgstr "Zastavit"
 

@@ -1,6 +1,39 @@
+#: nodepkg/confirm.js:8
+msgid "Confirmation required"
+msgstr ""
+
+#: nodepkg/confirm.js:9
+msgid "Please confirm this action."
+msgstr ""
+
+#: nodepkg/confirm.js:11 nodepkg/error/shared.js:71
+msgid "OK"
+msgstr "OK"
+
+#: nodepkg/confirm.js:35
+msgid "Please confirm the deletion."
+msgstr ""
+
+#: nodepkg/confirm.js:36 nodepkg/model-browse/ModelBrowse.js:192
+#: nodepkg/model-browse/ModelBrowse.js:259 nodepkg/model-form/ModelForm.js:13
+msgid "Delete"
+msgstr "删除"
+
+#: nodepkg/confirm.js:37
+msgid "Failed to delete."
+msgstr ""
+
 #: nodepkg/example.js:77
 msgid "Internationalization test"
 msgstr "国际化测试"
+
+#: nodepkg/buttons/CopyToClipboardButton.js:11
+msgid "Copied to clipboard"
+msgstr ""
+
+#: nodepkg/buttons/CopyToClipboardButton.js:20
+msgid "Copy to clipboard"
+msgstr ""
 
 #: nodepkg/component/SaveButton.js:9 nodepkg/model-form/ModelForm.js:12
 msgid "Save"
@@ -22,15 +55,11 @@ msgstr "技术信息"
 msgid "Contact support"
 msgstr "联系支持"
 
-#: nodepkg/error/shared.js:71
-msgid "OK"
-msgstr "OK"
-
 #: nodepkg/error/shared.js:75
 msgid "Back to home"
 msgstr "返回主页"
 
-#: nodepkg/fields-form/FieldsForm.js:66
+#: nodepkg/fields-form/FieldsForm.js:88
 msgid "This value is required"
 msgstr "需要的数值"
 
@@ -38,48 +67,47 @@ msgstr "需要的数值"
 msgid "The value entered is not valid"
 msgstr "输入的值无效"
 
-#: nodepkg/fields-form/field/LanguageSelect.js:9
+#: nodepkg/fields-form/field/LanguageSelect.js:7
+msgid "Improve or add new translation"
+msgstr ""
+
+#: nodepkg/fields-form/field/LanguageSelect.js:23
 msgid "Browser default"
 msgstr "浏览器默认值"
 
-#: nodepkg/model-browse/ModelBrowse.js:50 nodepkg/model-form/ModelForm.js:32
+#: nodepkg/model-browse/ModelBrowse.js:51 nodepkg/model-form/ModelForm.js:32
 msgid "Confirmation"
 msgstr "确认"
 
-#: nodepkg/model-browse/ModelBrowse.js:51
+#: nodepkg/model-browse/ModelBrowse.js:52
 msgid "Item deleted"
 msgstr "项已删除"
 
-#: nodepkg/model-browse/ModelBrowse.js:53
+#: nodepkg/model-browse/ModelBrowse.js:54
 msgid "Items deleted"
 msgstr "项已删除"
 
-#: nodepkg/model-browse/ModelBrowse.js:118
+#: nodepkg/model-browse/ModelBrowse.js:119
 msgid "The errors occurred during execution"
 msgstr "执行时发生的错误"
 
-#: nodepkg/model-browse/ModelBrowse.js:122
+#: nodepkg/model-browse/ModelBrowse.js:123
 msgid "Failed to delete items:"
 msgstr "删除项失败"
 
-#: nodepkg/model-browse/ModelBrowse.js:145
+#: nodepkg/model-browse/ModelBrowse.js:146
 msgid "Do you want to delete these items?"
 msgstr "您想要删除这些项？"
 
-#: nodepkg/model-browse/ModelBrowse.js:182
+#: nodepkg/model-browse/ModelBrowse.js:183
 msgid "Edit"
 msgstr "更改"
 
-#: nodepkg/model-browse/ModelBrowse.js:191 nodepkg/model-browse/ModelBrowse.js:260
-#: nodepkg/model-form/ModelForm.js:13
-msgid "Delete"
-msgstr "删除"
-
-#: nodepkg/model-browse/ModelBrowse.js:216
+#: nodepkg/model-browse/ModelBrowse.js:215
 msgid "Search"
 msgstr "搜索"
 
-#: nodepkg/model-browse/ModelBrowse.js:238 nodepkg/model-form/ModelForm.js:11
+#: nodepkg/model-browse/ModelBrowse.js:237 nodepkg/model-form/ModelForm.js:11
 msgid "Create"
 msgstr "创建"
 

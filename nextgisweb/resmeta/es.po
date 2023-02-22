@@ -1,39 +1,67 @@
-#: amd/ngw-resource/template/Widget.hbs:23 template/section_children.mako:62
-#: template/section_summary.mako:36
-msgid "Type"
-msgstr "Tipo"
+#: model.py:58 nodepkg/editor/EditorWidget.js:109
+msgid "String"
+msgstr ""
 
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:14
-msgid "Add"
-msgstr "Agregar"
+#: model.py:59 nodepkg/editor/EditorWidget.js:110
+msgid "Number"
+msgstr ""
 
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:27
-msgid "Remove"
-msgstr "Eliminar"
+#: model.py:60 nodepkg/editor/EditorWidget.js:111
+msgid "Boolean"
+msgstr ""
 
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:46
-#: template/section_vendor_params.mako:6
-msgid "Key"
-msgstr "Clave"
+#: model.py:61 nodepkg/editor/EditorWidget.js:112
+msgid "Empty"
+msgstr ""
 
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:55
-#: template/section_vendor_params.mako:7
-msgid "Value"
-msgstr "Valor"
-
-#: scope.py:66
+#: amd/ngw-resmeta/Widget.js:11 view.py:15
 msgid "Metadata"
 msgstr "Metadatos"
 
-#: amd/ngw-resmeta/Widget.js:117
-msgid "Text"
-msgstr "Texto"
+#: nodepkg/editor/EditorStore.js:30
+msgid "Key name is required."
+msgstr ""
 
-#: amd/ngw-resmeta/Widget.js:124
-msgid "Integer"
-msgstr "Entero"
+#: nodepkg/editor/EditorStore.js:38
+msgid "Key name is not unique."
+msgstr ""
 
-#: amd/ngw-resmeta/Widget.js:131
-msgid "Float"
-msgstr "Flotante"
+#: nodepkg/editor/EditorWidget.js:47
+msgid "Type here to add a new key..."
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.js:86 template/section.mako:21
+msgid "False"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.js:87 template/section.mako:21
+msgid "True"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.js:127 template/section.mako:12
+msgid "Key"
+msgstr "Clave"
+
+#: nodepkg/editor/EditorWidget.js:138 template/section.mako:13
+msgid "Type"
+msgstr "Tipo"
+
+#: nodepkg/editor/EditorWidget.js:148 template/section.mako:14
+msgid "Value"
+msgstr "Valor"
+
+#~ msgid "Add"
+#~ msgstr "Agregar"
+
+#~ msgid "Remove"
+#~ msgstr "Eliminar"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Integer"
+#~ msgstr "Entero"
+
+#~ msgid "Float"
+#~ msgstr "Flotante"
 

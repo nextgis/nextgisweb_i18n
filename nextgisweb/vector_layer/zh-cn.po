@@ -1,4 +1,4 @@
-#: api.py:12 model.py:1194
+#: api.py:12 model.py:1206
 msgid "GDAL library failed to open file."
 msgstr "GDAL库打开文件失败."
 
@@ -7,228 +7,228 @@ msgid "Vector layer features"
 msgstr "矢量图层要素"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:28
-#: amd/ngw-vector-layer/template/Widget.hbs:90 model.py:75
+#: amd/ngw-vector-layer/template/Widget.hbs:90 model.py:77
 msgid "Point"
 msgstr "点"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:29
-#: amd/ngw-vector-layer/template/Widget.hbs:91 model.py:75
+#: amd/ngw-vector-layer/template/Widget.hbs:91 model.py:77
 msgid "Line"
 msgstr "线"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:30
-#: amd/ngw-vector-layer/template/Widget.hbs:92 model.py:75
+#: amd/ngw-vector-layer/template/Widget.hbs:92 model.py:77
 msgid "Polygon"
 msgstr "多边形"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:31 model.py:76
+#: amd/ngw-vector-layer/template/Widget.hbs:31 model.py:78
 msgid "Multipoint"
 msgstr "多点式"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:32 model.py:76
+#: amd/ngw-vector-layer/template/Widget.hbs:32 model.py:78
 msgid "Multiline"
 msgstr "多行的"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:33 model.py:76
+#: amd/ngw-vector-layer/template/Widget.hbs:33 model.py:78
 msgid "Multipolygon"
 msgstr "多边形集"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:34 model.py:77
+#: amd/ngw-vector-layer/template/Widget.hbs:34 model.py:79
 msgid "Point Z"
 msgstr "Z点"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:35 model.py:77
+#: amd/ngw-vector-layer/template/Widget.hbs:35 model.py:79
 msgid "Line Z"
 msgstr "Z线"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:36 model.py:77
+#: amd/ngw-vector-layer/template/Widget.hbs:36 model.py:79
 msgid "Polygon Z"
 msgstr "多边形Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:37 model.py:78
+#: amd/ngw-vector-layer/template/Widget.hbs:37 model.py:80
 msgid "Multipoint Z"
 msgstr "Z点集"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:38 model.py:78
+#: amd/ngw-vector-layer/template/Widget.hbs:38 model.py:80
 msgid "Multiline Z"
 msgstr "线集Z"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:39 model.py:78
+#: amd/ngw-vector-layer/template/Widget.hbs:39 model.py:80
 msgid "Multipolygon Z"
 msgstr "多边形集Z"
 
-#: model.py:420
+#: model.py:422
 msgid "Could not determine a geometry type."
 msgstr "无法确定几何类型。"
 
-#: model.py:422
+#: model.py:424
 msgid "Source layer contains no features satisfying the conditions."
 msgstr "源图层不包括符合条件的要素。"
 
-#: model.py:437
+#: model.py:439
 #, python-format
 msgid "Field '%s' is out of int32 range."
 msgstr "字段'%s'超出int32范围。"
 
-#: model.py:444
+#: model.py:446
 #, python-format
 msgid "Field '%s' contains non-unique or empty values."
 msgstr "字段'%s'包含非唯一值或空值。"
 
-#: model.py:455
+#: model.py:457
 msgid "Parameter 'fid_field' is missing."
 msgstr "无参数 'fid_field'"
 
-#: model.py:458
+#: model.py:460
 #, python-format
 msgid "Fields %s not found."
 msgstr "字段%s未找到。"
 
-#: model.py:460
+#: model.py:462
 #, python-format
 msgid "None of fields %s are integer."
 msgstr "图层%s中没有一个是整数。"
 
-#: model.py:476
+#: model.py:478
 #, python-format
 msgid "Field '%s(?)' encoding is broken."
 msgstr "字段'%s(?)'编码被破坏。"
 
-#: model.py:480
+#: model.py:482
 #, python-format
 msgid "Field name is forbidden: '%s'. Please remove or rename it."
 msgstr "字段名已被禁止：'%s'。 请将其删除或重命名。"
 
-#: model.py:516
+#: model.py:518
 #, python-format
 msgid "Unsupported field type: %r."
 msgstr "不支持字段名：%r"
 
-#: model.py:675
+#: model.py:683
 #, python-format
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
 msgstr "要素 (seq. #%d)没有一个 FID字段 '%s'。"
 
-#: model.py:678
+#: model.py:686
 #, python-format
 msgid "Feature (seq. #%d) FID field '%s' is null."
 msgstr "要素(seq. #%d) FID 字段 '%s' 为空。"
 
-#: model.py:690
+#: model.py:698
 #, python-format
 msgid "Feature #%d doesn't have geometry."
 msgstr "要素#%d不包括几何形状。"
 
-#: model.py:721 model.py:763
+#: model.py:729 model.py:771
 #, python-format
 msgid "Feature #%d has multiple geometries satisfying the conditions."
 msgstr "要素#%d具有一些满足条件的几何形状"
 
-#: model.py:731
+#: model.py:739
 #, python-format
 msgid "Feature #%d has unknown geometry type: %d (%s)."
 msgstr "要素#%d包括未知的几何形状类型：%d (%s)。"
 
-#: model.py:744
+#: model.py:752
 #, python-format
 msgid "Feature #%d has unsuitable geometry type: %d (%s)."
 msgstr "要素#%d包括不适合的几何形状类型：%d (%s)。"
 
-#: model.py:771
+#: model.py:779
 #, python-format
 msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
 msgstr "要素#%d有一个不能重新投影到目标坐标系的几何形状。"
 
-#: model.py:796
+#: model.py:804
 #, python-format
 msgid "Feature #%d has unclosed rings."
 msgstr "要素#%d包括未闭合的环"
 
-#: model.py:810
+#: model.py:818
 #, python-format
 msgid "Feature #%d has less than 3 points in a polygon ring."
 msgstr "要素#%d在多边形环中有少于3个点。"
 
-#: model.py:814
+#: model.py:822
 #, python-format
 msgid "Feature #%d has less than 2 points in a linestring."
 msgstr "要素#%d在线中有少于2个点。"
 
-#: model.py:855
+#: model.py:863
 #, python-format
 msgid "Feature #%d contains a broken encoding of field '%s'."
 msgstr "要素#%d包含字段'%s'的一个损坏的编码。"
 
-#: model.py:879
+#: model.py:887
 msgid "Vector layer cannot be written due to errors."
 msgstr "矢量图层由于错误，无法书写。"
 
-#: amd/ngw-vector-layer/Widget.js:40 model.py:907
+#: amd/ngw-vector-layer/Widget.js:38 model.py:915
 msgid "Vector layer"
 msgstr "矢量图层"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:26
-#: amd/ngw-vector-layer/template/Widget.hbs:86 model.py:958
+#: amd/ngw-vector-layer/template/Widget.hbs:86 model.py:966
 msgid "Geometry type"
 msgstr "几何类型"
 
-#: model.py:960
+#: model.py:968
 msgid "Feature count"
 msgstr "要素数量"
 
-#: model.py:1049
+#: model.py:1057
 #, python-format
 msgid "Geometry type (%s) does not match geometry column type (%s)."
 msgstr "几何类型（%s）与几何列类型（%s）不匹配。"
 
-#: model.py:1197
+#: model.py:1209
 #, python-format
 msgid "Unsupport OGR driver: %s."
 msgstr "不支持OGR的驱动程序：%s。"
 
-#: amd/ngw-vector-layer/Widget.js:92 model.py:1206
+#: amd/ngw-vector-layer/Widget.js:86 model.py:1218
 msgid "Dataset doesn't contain layers."
 msgstr "数据集不包含任何一图层"
 
-#: model.py:1209
+#: model.py:1221
 msgid "Dataset contains more than one layer."
 msgstr "数据集包含不少于一个图层。"
 
-#: model.py:1214
+#: model.py:1226
 msgid "Unable to open layer."
 msgstr "不可能打开图层"
 
-#: model.py:1225
+#: model.py:1241
 msgid "Layer doesn't contain coordinate system information."
 msgstr "图层不包含坐标系信息。"
 
-#: model.py:1249
+#: model.py:1267
 msgid "Unknown 'fix_errors' value."
 msgstr "未知'fix_errors'值"
 
-#: model.py:1256
+#: model.py:1274
 msgid "Unknown 'cast_geometry_type' value."
 msgstr "未知'cast_geometry_type' 值"
 
-#: model.py:1260
+#: model.py:1278
 msgid "Unknown 'cast_is_multi' value."
 msgstr "未知'cast_is_multi'值"
 
-#: model.py:1264
+#: model.py:1282
 msgid "Unknown 'cast_has_z' value."
 msgstr "未知参数值'cast_has_z'"
 
-#: model.py:1298
+#: model.py:1316
 msgid "Unsupported geometry type."
 msgstr "不支持的几何类型"
 
-#: model.py:1304
+#: model.py:1322
 msgid "Geometry type for existing resource can't be changed."
 msgstr "现有资源的几何类型无法改变。"
 
-#: amd/ngw-vector-layer/Widget.js:91
+#: amd/ngw-vector-layer/Widget.js:85
 msgid "Validation error"
 msgstr "验证错误"
 
@@ -254,9 +254,10 @@ msgstr "请选择数据集"
 
 #: amd/ngw-vector-layer/template/Widget.hbs:49
 msgid ""
-"Dataset should be in ESRI Shapefile (zip), GeoPackage, GeoJSON, GML or KML "
-"format."
-msgstr "数据应该是ESRI Shapefile (zip), GeoPackage, GeoJSON, GML 或者KML 格式.的"
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
+"supported. For CSV and XLSX only points are supported, coordinates must be "
+"put in lat and lot columns."
+msgstr ""
 
 #: amd/ngw-vector-layer/template/Widget.hbs:57
 msgid "Source layer"
@@ -330,4 +331,10 @@ msgstr "字段"
 #: amd/ngw-vector-layer/template/Widget.hbs:133
 msgid "FID field(s)"
 msgstr "FID字段(s)"
+
+#~ msgid ""
+#~ "Dataset should be in ESRI Shapefile "
+#~ "(zip), GeoPackage, GeoJSON, GML or KML "
+#~ "format."
+#~ msgstr "数据应该是ESRI Shapefile (zip), GeoPackage, GeoJSON, GML 或者KML 格式.的"
 

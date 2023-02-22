@@ -10,23 +10,23 @@ msgstr "瓦片"
 msgid "Image"
 msgstr "图像"
 
-#: model.py:30 model.py:40 view.py:231 view.py:254
+#: model.py:29 model.py:39 view.py:260 view.py:291
 msgid "Web map"
 msgstr "区域网地图"
 
-#: model.py:32 view.py:238
+#: model.py:31 view.py:265
 msgid "Display"
 msgstr "打开"
 
-#: model.py:33
+#: model.py:32
 msgid "View annotations"
 msgstr "浏览注释"
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:184 model.py:34
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:170 model.py:33
 msgid "Edit annotations"
 msgstr "编辑注释"
 
-#: model.py:35
+#: model.py:34
 msgid "Manage annotations"
 msgstr "管理注释"
 
@@ -34,74 +34,82 @@ msgstr "管理注释"
 msgid "Web map settings"
 msgstr "Web 地图设置"
 
-#: view.py:209
+#: view.py:225
+msgid "Clone web map"
+msgstr ""
+
+#: view.py:233
 msgid "Embedded webmap preview"
 msgstr "嵌入式webmap预览"
 
-#: view.py:259
+#: nodepkg/clone-webmap/CloneWebmap.js:181 view.py:271
+msgid "Clone"
+msgstr ""
+
+#: view.py:296
 msgid "External access"
 msgstr "外部访问"
 
-#: amd/ngw-webmap/Display.js:218 amd/ngw-webmap/Display.js:1027
+#: amd/ngw-webmap/Display.js:220 amd/ngw-webmap/Display.js:1009
 #: amd/ngw-webmap/ItemWidget.js:243
 msgid "Layers"
 msgstr "图层"
 
-#: amd/ngw-webmap/Display.js:224 amd/ngw-webmap/Display.js:358
+#: amd/ngw-webmap/Display.js:226 amd/ngw-webmap/Display.js:353
 msgid "Search"
 msgstr "搜索"
 
-#: amd/ngw-webmap/Display.js:230 amd/ngw-webmap/Display.js:443
+#: amd/ngw-webmap/Display.js:232 amd/ngw-webmap/Display.js:437
 msgid "Share"
 msgstr "分享"
 
-#: amd/ngw-webmap/Display.js:236
+#: amd/ngw-webmap/Display.js:238
 msgid "Print map"
 msgstr "打印地图"
 
-#: amd/ngw-webmap/Display.js:377 amd/ngw-webmap/Display.js:384
+#: amd/ngw-webmap/Display.js:372 amd/ngw-webmap/Display.js:379
 msgid "Bookmarks"
 msgstr "书签"
 
-#: amd/ngw-webmap/Display.js:407 amd/ngw-webmap/plugin/LayerInfo.js:36
+#: amd/ngw-webmap/Display.js:402 nodepkg/layers-tree/DropdownActions.js:30
 msgid "Description"
 msgstr "说明"
 
-#: amd/ngw-webmap/Display.js:545 amd/ngw-webmap/Display.js:555
+#: amd/ngw-webmap/Display.js:534 amd/ngw-webmap/Display.js:551
 msgid "Annotations"
 msgstr "注释"
 
-#: amd/ngw-webmap/Display.js:738 amd/ngw-webmap/tool/Zoom.js:20
+#: amd/ngw-webmap/Display.js:732 amd/ngw-webmap/tool/Zoom.js:20
 #: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:488
 msgid "Zoom in"
 msgstr "放大"
 
-#: amd/ngw-webmap/Display.js:739 amd/ngw-webmap/tool/Zoom.js:23
+#: amd/ngw-webmap/Display.js:733 amd/ngw-webmap/tool/Zoom.js:23
 #: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:489
 msgid "Zoom out"
 msgstr "缩小"
 
-#: amd/ngw-webmap/Display.js:743 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:493
+#: amd/ngw-webmap/Display.js:737 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:493
 msgid "Attributions"
 msgstr "属性，有关版权持有人的资料"
 
-#: amd/ngw-webmap/Display.js:759
+#: amd/ngw-webmap/Display.js:753
 msgid "Initial extent"
 msgstr "初始范围"
 
-#: amd/ngw-webmap/Display.js:764
+#: amd/ngw-webmap/Display.js:758
 msgid "Locate me"
 msgstr "定位我"
 
-#: amd/ngw-webmap/Display.js:767 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:502
+#: amd/ngw-webmap/Display.js:761 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:502
 msgid "Reset rotation"
 msgstr "取消旋转"
 
-#: amd/ngw-webmap/Display.js:1153 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:669
+#: amd/ngw-webmap/Display.js:1173 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:669
 msgid "Object not found"
 msgstr ""
 
-#: amd/ngw-webmap/Display.js:1154 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:670
+#: amd/ngw-webmap/Display.js:1174 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:670
 msgid "Object from URL parameters not found"
 msgstr ""
 
@@ -120,7 +128,7 @@ msgstr "在地图上使用"
 #: amd/ngw-webmap/ItemWidget.js:148
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:126
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:43
-#: nodepkg/settings/SettingsForm.js:260
+#: nodepkg/settings/SettingsForm.js:274
 msgid "Save"
 msgstr "保存"
 
@@ -136,15 +144,15 @@ msgstr "你的位置无法确定"
 msgid "Your annotation text"
 msgstr "您的注释文本"
 
-#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:142
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:143
 msgid "Public annotation"
 msgstr "公共注释"
 
-#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:144
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:145
 msgid "My private annotation"
 msgstr "我的私人注释"
 
-#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:147
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:148
 msgid "Private annotation"
 msgstr "私人注释"
 
@@ -153,37 +161,41 @@ msgstr "私人注释"
 msgid "Edit annotation"
 msgstr "编辑注释"
 
-#: amd/ngw-webmap/plugin/FeatureLayer.js:59
+#: amd/ngw-webmap/plugin/FeatureLayer.js:108
 msgid "Go to"
 msgstr "转至"
-
-#: amd/ngw-webmap/plugin/FeatureLayer.js:115
-msgid "Feature table"
-msgstr "要素列表"
-
-#: amd/ngw-webmap/plugin/LayerEditor.js:104
-msgid "Editing"
-msgstr "编辑"
-
-#: amd/ngw-webmap/plugin/ZoomToLayer.js:24
-msgid "Zoom to layer"
-msgstr "缩放到图层"
 
 #: amd/ngw-webmap/resource/OtherSettings/OtherSettings.hbs:10
 msgid "Enable layers editing"
 msgstr "允许编辑图层"
 
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:40
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:41
 msgid "Settings"
 msgstr "设置"
 
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:52
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:53
 msgid "Enable annotations"
 msgstr "允许注释"
 
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:55
-msgid "Show annotations by default"
-msgstr "显示默认注释"
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:56
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:16
+msgid "Show annotations"
+msgstr ""
+
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:58
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:17
+msgid "No"
+msgstr ""
+
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:59
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:18
+msgid "Yes"
+msgstr ""
+
+#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:60
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:19
+msgid "With messages"
+msgstr ""
 
 #: amd/ngw-webmap/template/Display.hbs:13
 msgid "Map"
@@ -239,6 +251,7 @@ msgstr "删除"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:73
 #: amd/ngw-webmap/template/ItemWidget.hbs:127
+#: nodepkg/clone-webmap/CloneWebmap.js:46
 msgid "Display name"
 msgstr "显示名字"
 
@@ -274,55 +287,35 @@ msgstr "样式资源"
 msgid "Expanded"
 msgstr "已展开"
 
-#: amd/ngw-webmap/tool/Identify.js:215
+#: amd/ngw-webmap/tool/Identify.js:217
 msgid "Attributes"
 msgstr "属性"
 
-#: amd/ngw-webmap/tool/Identify.js:250
+#: amd/ngw-webmap/tool/Identify.js:229
+msgid "Geometry"
+msgstr ""
+
+#: amd/ngw-webmap/tool/Identify.js:263
 msgid "Feature"
 msgstr "要素"
 
-#: amd/ngw-webmap/tool/Identify.js:308 amd/ngw-webmap/tool/Identify.js:325
+#: amd/ngw-webmap/tool/Identify.js:325 amd/ngw-webmap/tool/Identify.js:342
 msgid "Identify"
 msgstr "识别"
 
-#: amd/ngw-webmap/tool/Identify.js:443
+#: amd/ngw-webmap/tool/Identify.js:460
 msgid "Features"
 msgstr "要素"
 
-#: amd/ngw-webmap/tool/Measure.js:37
+#: amd/ngw-webmap/tool/Measure.js:38
 msgid "Measure distance"
 msgstr "距离测量"
 
-#: amd/ngw-webmap/tool/Measure.js:40
+#: amd/ngw-webmap/tool/Measure.js:41
 msgid "Measure area"
 msgstr "面积测量"
 
-#: amd/ngw-webmap/tool/Measure.js:44
-msgid "m"
-msgstr "米"
-
-#: amd/ngw-webmap/tool/Measure.js:45
-msgid "km"
-msgstr "公里"
-
-#: amd/ngw-webmap/tool/Measure.js:46
-msgid "ft"
-msgstr "英尺"
-
-#: amd/ngw-webmap/tool/Measure.js:47
-msgid "mi"
-msgstr "里，英里"
-
-#: amd/ngw-webmap/tool/Measure.js:48
-msgid "ha"
-msgstr "公顷"
-
-#: amd/ngw-webmap/tool/Measure.js:49
-msgid "ac"
-msgstr "英亩"
-
-#: amd/ngw-webmap/tool/Measure.js:272
+#: amd/ngw-webmap/tool/Measure.js:171
 msgid "Double click to finish."
 msgstr "双击完成"
 
@@ -337,6 +330,10 @@ msgstr "垂直上下滑动"
 #: amd/ngw-webmap/tool/Swipe.js:23
 msgid "Horizontal swipe"
 msgstr "水平左右滑动"
+
+#: amd/ngw-webmap/tool/ViewerInfo.js:24
+msgid "Show cursor coordinates / extent"
+msgstr ""
 
 #: amd/ngw-webmap/tool/editing/CreateFeature.js:18
 msgid "Create features"
@@ -414,31 +411,41 @@ msgstr "无效宽度：应该为1-100像素"
 msgid "Annotations layer"
 msgstr "注释图层"
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:16
-msgid "Show annotations layer"
-msgstr "显示注释图层"
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:21
-msgid "Show messages"
-msgstr "显示信息"
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:27
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:25
 msgid "Private annotations"
 msgstr "私有注释"
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:37
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:35
 msgid "Show annotation types"
 msgstr "显示注释类型"
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:43
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:41
 msgid "Public annotations"
 msgstr "公有注释"
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:49
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:47
 msgid "My private annotations"
 msgstr "我的私人注释"
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:220
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:179
+msgid "Geometry type"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:182
+#: nodepkg/utils/geometry-types.js:6
+msgid "Point"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:183
+msgid "Line"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:184
+#: nodepkg/utils/geometry-types.js:15
+msgid "Polygon"
+msgstr ""
+
+#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:221
 msgid "Other private annotations"
 msgstr "其他私人注释"
 
@@ -453,10 +460,6 @@ msgstr "您要保存更改吗？"
 #: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:48
 msgid "Don't save"
 msgstr "不保存"
-
-#: amd/ngw-webmap/ui/LayersPanel/LayersPanel.hbs:8
-msgid "Layer"
-msgstr "图层"
 
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:10
 #: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:96
@@ -568,53 +571,60 @@ msgstr "使用Shift+鼠标拖拽来缩放范围"
 msgid "Search on the map"
 msgstr "在地图上搜索"
 
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:197
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:256
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:323
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:162
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:210
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:270
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:338
 msgid "Refine search criterion"
 msgstr "确定搜索标准"
 
-#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:337
+#: amd/ngw-webmap/ui/SearchPanel/SearchPanel.js:352
 msgid "Not found"
 msgstr "未找到"
-
-#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:2
-msgid "Map link"
-msgstr "地图链接"
-
-#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:10
-msgid "Social networks"
-msgstr "社交网络"
-
-#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:18
-msgid "Embed code for your site"
-msgstr "为您的网站嵌入代码"
-
-#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:20
-msgid "Map size:"
-msgstr "地图尺寸"
-
-#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:43
-msgid "Link to main map"
-msgstr "链接到主地图"
-
-#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:50
-msgid "Generate events"
-msgstr "生成事件"
-
-#: amd/ngw-webmap/ui/SharePanel/SharePanel.hbs:71
-msgid "Preview"
-msgstr "预览"
-
-#: amd/ngw-webmap/ui/SharePanel/SharePanel.js:115
-msgid ""
-"<a>CORS</a> must be enabled for the target origin when embedding a web map on"
-" a different domain."
-msgstr "在不同域上嵌入web地图时，<<a>CORS</a>必须为目标源启用，"
 
 #: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:520
 msgid "Open full map"
 msgstr "打开完整地图"
+
+#: nodepkg/clone-webmap/CloneWebmap.js:35
+msgid "Resource group"
+msgstr ""
+
+#: nodepkg/clone-webmap/CloneWebmap.js:38
+msgid "Clone to selected group"
+msgstr ""
+
+#: nodepkg/clone-webmap/CloneWebmap.js:39
+msgid "Clone to this group"
+msgstr ""
+
+#: nodepkg/layers-dropdown/LayersDropdown.js:18
+msgid "Zoom to all layers"
+msgstr ""
+
+#: nodepkg/layers-tree/DropdownActions.js:38
+msgid "Stop editing"
+msgstr ""
+
+#: nodepkg/layers-tree/DropdownActions.js:39
+msgid "Edit"
+msgstr ""
+
+#: nodepkg/layers-tree/DropdownActions.js:54
+msgid "Zoom to layer"
+msgstr "缩放到图层"
+
+#: nodepkg/layers-tree/DropdownActions.js:64
+msgid "Feature table"
+msgstr "要素列表"
+
+#: nodepkg/map-viewer-info/MapViewerInfo.js:121
+msgid "Show extent"
+msgstr ""
+
+#: nodepkg/map-viewer-info/MapViewerInfo.js:122
+msgid "Show cursor coordinates"
+msgstr ""
 
 #: nodepkg/settings/Settings.js:56
 msgid "Settings saved"
@@ -624,11 +634,11 @@ msgstr "设置已保存"
 msgid "Identify popup"
 msgstr "识别窗口"
 
-#: nodepkg/settings/SettingsForm.js:58
+#: nodepkg/settings/SettingsForm.js:58 nodepkg/share-panel/SharePanel.js:171
 msgid "Width, px"
 msgstr "宽度，像素"
 
-#: nodepkg/settings/SettingsForm.js:71
+#: nodepkg/settings/SettingsForm.js:71 nodepkg/share-panel/SharePanel.js:177
 msgid "Height, px"
 msgstr "高度，像素"
 
@@ -640,51 +650,55 @@ msgstr "半径，像素"
 msgid "Show feature attributes"
 msgstr "显示要素属性"
 
-#: nodepkg/settings/SettingsForm.js:113
+#: nodepkg/settings/SettingsForm.js:121
+msgid "Show geometry info"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:127
 msgid "Measurement"
 msgstr "测量"
 
-#: nodepkg/settings/SettingsForm.js:119
+#: nodepkg/settings/SettingsForm.js:133
 msgid "Length units"
 msgstr "长度单位"
 
-#: nodepkg/settings/SettingsForm.js:130
+#: nodepkg/settings/SettingsForm.js:144
 msgid "Area units"
 msgstr "面积单位"
 
-#: nodepkg/settings/SettingsForm.js:141
+#: nodepkg/settings/SettingsForm.js:155
 msgid "Degree format"
 msgstr "度格式"
 
-#: nodepkg/settings/SettingsForm.js:155
+#: nodepkg/settings/SettingsForm.js:169
 msgid "Measurement SRID"
 msgstr "SRID计量"
 
-#: nodepkg/settings/SettingsForm.js:165
+#: nodepkg/settings/SettingsForm.js:179
 msgid "Address search"
 msgstr "地址搜索"
 
-#: nodepkg/settings/SettingsForm.js:178
+#: nodepkg/settings/SettingsForm.js:192
 msgid "Enable"
 msgstr "启用"
 
-#: nodepkg/settings/SettingsForm.js:192
+#: nodepkg/settings/SettingsForm.js:206
 msgid "Limit by web map initial extent"
 msgstr "限制Web地图初始覆盖范围"
 
-#: nodepkg/settings/SettingsForm.js:202
+#: nodepkg/settings/SettingsForm.js:216
 msgid "Provider"
 msgstr "数据源"
 
-#: nodepkg/settings/SettingsForm.js:214
+#: nodepkg/settings/SettingsForm.js:228
 msgid "Limit search results to countries"
 msgstr "限制搜索在国家内"
 
-#: nodepkg/settings/SettingsForm.js:224
+#: nodepkg/settings/SettingsForm.js:238
 msgid "Invalid countries. For example ru or gb,de"
 msgstr "无效国家。 例如，ru或gb，de"
 
-#: nodepkg/settings/SettingsForm.js:237
+#: nodepkg/settings/SettingsForm.js:251
 msgid "Yandex.Maps API Geocoder Key"
 msgstr "Yandex地图API地理编码器密钥"
 
@@ -764,6 +778,108 @@ msgstr "Nominatim (OSM)"
 msgid "Yandex.Maps API Geocoder"
 msgstr "Yandex地图API地理编码器"
 
+#: nodepkg/share-panel/SharePanel.js:35
+msgid "Social networks"
+msgstr "社交网络"
+
+#: nodepkg/share-panel/SharePanel.js:61
+msgid ""
+"<a>CORS</a> must be enabled for the target origin when embedding a web map on"
+" a different domain."
+msgstr "在不同域上嵌入web地图时，<<a>CORS</a>必须为目标源启用，"
+
+#: nodepkg/share-panel/SharePanel.js:142
+msgid "Map link"
+msgstr "地图链接"
+
+#: nodepkg/share-panel/SharePanel.js:151
+msgid "The map link copied to clipboard."
+msgstr ""
+
+#: nodepkg/share-panel/SharePanel.js:153
+msgid "Copy link"
+msgstr ""
+
+#: nodepkg/share-panel/SharePanel.js:161
+msgid "Embed code for your site"
+msgstr "为您的网站嵌入代码"
+
+#: nodepkg/share-panel/SharePanel.js:168
+msgid "Map size:"
+msgstr "地图尺寸"
+
+#: nodepkg/share-panel/SharePanel.js:182
+msgid "px"
+msgstr ""
+
+#: nodepkg/share-panel/SharePanel.js:191
+msgid "Link to main map"
+msgstr "链接到主地图"
+
+#: nodepkg/share-panel/SharePanel.js:200
+msgid "Generate events"
+msgstr "生成事件"
+
+#: nodepkg/share-panel/SharePanel.js:210
+msgid "The embed code copied to clipboard."
+msgstr ""
+
+#: nodepkg/share-panel/SharePanel.js:212
+msgid "Copy code"
+msgstr ""
+
+#: nodepkg/share-panel/SharePanel.js:218 nodepkg/share-panel/SharePanel.js:229
+msgid "Preview"
+msgstr "预览"
+
+#: nodepkg/utils/format-units.js:11
+msgid "m"
+msgstr "米"
+
+#: nodepkg/utils/format-units.js:12
+msgid "km"
+msgstr "公里"
+
+#: nodepkg/utils/format-units.js:13
+msgid "ft"
+msgstr "英尺"
+
+#: nodepkg/utils/format-units.js:14
+msgid "mi"
+msgstr "里，英里"
+
+#: nodepkg/utils/format-units.js:15
+msgid "ha"
+msgstr "公顷"
+
+#: nodepkg/utils/format-units.js:16
+msgid "ac"
+msgstr "英亩"
+
+#: nodepkg/utils/geometry-types.js:9
+msgid "LineString"
+msgstr ""
+
+#: nodepkg/utils/geometry-types.js:12
+msgid "LinearRing"
+msgstr ""
+
+#: nodepkg/utils/geometry-types.js:18
+msgid "MultiPoint"
+msgstr ""
+
+#: nodepkg/utils/geometry-types.js:21
+msgid "MultiLineString"
+msgstr ""
+
+#: nodepkg/utils/geometry-types.js:24
+msgid "MultiPolygon"
+msgstr ""
+
+#: nodepkg/utils/geometry-types.js:27
+msgid "GeometryCollection"
+msgstr ""
+
 #: template/invalid_origin.mako:4
 #, python-format
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
@@ -792,4 +908,19 @@ msgstr "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
 #: template/section_api_webmap.mako:17
 msgid "Read more"
 msgstr "详情"
+
+#~ msgid "Editing"
+#~ msgstr "编辑"
+
+#~ msgid "Show annotations by default"
+#~ msgstr "显示默认注释"
+
+#~ msgid "Show annotations layer"
+#~ msgstr "显示注释图层"
+
+#~ msgid "Show messages"
+#~ msgstr "显示信息"
+
+#~ msgid "Layer"
+#~ msgstr "图层"
 

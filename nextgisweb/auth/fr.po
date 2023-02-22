@@ -1,72 +1,72 @@
-#: __init__.py:47
+#: __init__.py:46
 msgid "Guest"
 msgstr "Invité"
 
-#: __init__.py:53
+#: __init__.py:52
 msgid "Everyone"
 msgstr "Toutes les personnes"
 
-#: __init__.py:59
+#: __init__.py:58
 msgid "Authenticated"
 msgstr "Authentifié"
 
-#: __init__.py:67
+#: __init__.py:66
 msgid "Administrators"
 msgstr "Administrateurs"
 
-#: __init__.py:70
+#: __init__.py:69
 msgid "Administrator"
 msgstr "Administrateur"
 
-#: __init__.py:79
+#: __init__.py:78
 msgid "Owner"
 msgstr "Propriétaire"
 
-#: __init__.py:287
+#: __init__.py:292
 #, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Le nombre maximum d'utilisateurs est atteint. La limite actuelle du nombre "
 "d'utilisateurs de votre plan est de %d."
 
-#: api.py:306
+#: api.py:320
 #, python-format
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr ""
 
-#: api.py:315
+#: api.py:329
 #, python-format
 msgid "Principal '%s' already exists."
 msgstr ""
 
-#: api.py:317
+#: api.py:331
 #, python-format
 msgid "Principal with full name '%s' already exists."
 msgstr ""
 
-#: api.py:353
+#: api.py:367
 #, python-format
 msgid "User '%s' can't be a member of a group."
 msgstr ""
 
-#: api.py:359
+#: api.py:373
 msgid "System principals can't be deleted."
 msgstr ""
 
-#: api.py:375
+#: api.py:389
 msgid "User is referenced with resources"
 msgstr "L'utilisateur est référencé avec des ressources"
 
-#: api.py:376
+#: api.py:390
 msgid "Group is referenced with resources"
 msgstr "Le groupe est référencé avec des ressources"
 
-#: api.py:388
+#: api.py:402
 #, python-format
 msgid "Invalid principal name: '%s'."
 msgstr ""
 
-#: api.py:423
+#: api.py:437
 msgid "The 'administrators' group must have at least one enabled member."
 msgstr ""
 
@@ -82,87 +82,105 @@ msgstr "Identifiants non valides"
 msgid "User is disabled"
 msgstr "L'utilisateur est désactivé"
 
-#: oauth.py:194
+#: exception.py:22
+msgid "Invalid authorization link"
+msgstr ""
+
+#: model.py:169
+msgid "Password is not set."
+msgstr ""
+
+#: oauth.py:210
 msgid "{} binding error"
 msgstr ""
 
-#: oauth.py:195
+#: oauth.py:211
 msgid ""
 "This {dn} account ({sub}) is already bound to the different user ({id}). Log "
 "in using this account instead of binding it."
 msgstr ""
 
-#: oauth.py:493
+#: oauth.py:534
 msgid "OAuth authorization error"
 msgstr "Erreur d'autorisation OAuth"
 
-#: oauth.py:498
+#: oauth.py:539
 msgid "Invalid OAuth token"
 msgstr "Token OAuth non valide"
 
-#: oauth.py:503
+#: oauth.py:544
 msgid "Invalid OAuth scope"
 msgstr ""
 
-#: oauth.py:508
+#: oauth.py:549
 msgid "OAuth password grant type failed"
 msgstr ""
 
-#: oauth.py:513
+#: oauth.py:554
 msgid "OAuth token refresh failed"
 msgstr "Échec de l'actualisation du token OAuth"
 
-#: oauth.py:518
+#: oauth.py:559
 msgid "OAuth access token is expired"
 msgstr "Token d'accès OAuth a expiré"
 
-#: nodepkg/login-form/LoginForm.js:16 view.py:50
+#: nodepkg/login-form/LoginForm.js:16 view.py:49
 msgid "Sign in to Web GIS"
 msgstr "Se connecter à Web GIS"
 
-#: view.py:72
+#: view.py:71
 msgid "Session not found."
 msgstr "Session introuvable"
 
-#: view.py:77
+#: view.py:75
 msgid "Invalid 'expires' parameter."
 msgstr "Paramètre 'expire' non valide."
 
-#: view.py:80
+#: view.py:78
 msgid "Session expired."
 msgstr "La session a expiré."
 
-#: view.py:123
+#: view.py:98
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr ""
+
+#: view.py:106
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr ""
+
+#: view.py:145
 msgid "Team membership required"
 msgstr ""
 
-#: view.py:124
+#: view.py:146
 msgid ""
 "You are not a member of this Web GIS team. Contact Web GIS administrator and "
 "ask to be added to the team."
 msgstr ""
 
-#: view.py:255
+#: view.py:277
 msgid "User settings"
 msgstr "Paramètres utilisateur"
 
-#: nodepkg/group-widget/GroupWidget.js:26 view.py:262 view.py:375
+#: nodepkg/group-widget/GroupWidget.js:30 view.py:284 view.py:399
 msgid "Users"
 msgstr "Utilisateurs"
 
-#: view.py:275
+#: view.py:297
 msgid "Create new user"
 msgstr "Créer un nouvel utilisateur"
 
-#: nodepkg/user-widget/UserWidget.js:56 view.py:290 view.py:379
+#: nodepkg/user-widget/UserWidget.js:80 view.py:312 view.py:403
 msgid "Groups"
 msgstr "Groupes"
 
-#: view.py:303
+#: view.py:325
 msgid "Create new group"
 msgstr "Créer un nouveau groupe"
 
-#: view.py:383
+#: view.py:407
 msgid "Groups and users"
 msgstr ""
 
@@ -182,7 +200,7 @@ msgstr "Confirmation"
 msgid "Group deleted"
 msgstr ""
 
-#: nodepkg/oauth.js:24
+#: nodepkg/oauth.js:25
 msgid "Manage team"
 msgstr ""
 
@@ -190,30 +208,34 @@ msgstr ""
 msgid "User deleted"
 msgstr ""
 
-#: nodepkg/group-browse/GroupBrowse.js:8 nodepkg/group-widget/GroupWidget.js:15
-#: nodepkg/user-browse/UserBrowse.js:20 nodepkg/user-widget/UserWidget.js:19
+#: nodepkg/group-browse/GroupBrowse.js:9 nodepkg/group-widget/GroupWidget.js:19
+#: nodepkg/user-browse/UserBrowse.js:20 nodepkg/user-widget/UserWidget.js:35
 msgid "Full name"
 msgstr "Nom complet"
 
-#: nodepkg/group-browse/GroupBrowse.js:14 nodepkg/group-widget/GroupWidget.js:20
+#: nodepkg/group-browse/GroupBrowse.js:15 nodepkg/group-widget/GroupWidget.js:24
 msgid "Group name"
 msgstr "Nom de groupe"
 
-#: nodepkg/group-browse/GroupBrowse.js:20 nodepkg/group-widget/GroupWidget.js:37
+#: nodepkg/group-browse/GroupBrowse.js:21 nodepkg/group-widget/GroupWidget.js:42
 msgid "New users"
 msgstr ""
 
-#: nodepkg/group-browse/GroupBrowse.js:24 nodepkg/user-browse/UserBrowse.js:51
-#: nodepkg/user-browse/UserBrowse.js:62
+#: nodepkg/group-browse/GroupBrowse.js:25 nodepkg/group-browse/GroupBrowse.js:35
+#: nodepkg/user-browse/UserBrowse.js:50 nodepkg/user-browse/UserBrowse.js:60
 msgid "Yes"
 msgstr ""
 
-#: nodepkg/group-browse/GroupBrowse.js:24 nodepkg/user-browse/UserBrowse.js:51
-#: nodepkg/user-browse/UserBrowse.js:62
+#: nodepkg/group-browse/GroupBrowse.js:25 nodepkg/group-browse/GroupBrowse.js:35
+#: nodepkg/user-browse/UserBrowse.js:50 nodepkg/user-browse/UserBrowse.js:60
 msgid "No"
 msgstr ""
 
-#: nodepkg/group-widget/GroupWidget.js:42 nodepkg/user-widget/UserWidget.js:71
+#: nodepkg/group-widget/GroupWidget.js:50
+msgid "{dn} mapping"
+msgstr ""
+
+#: nodepkg/group-widget/GroupWidget.js:57 nodepkg/user-widget/UserWidget.js:97
 msgid "Description"
 msgstr "Description"
 
@@ -226,12 +248,12 @@ msgid "Sign in"
 msgstr "Se connecter"
 
 #: nodepkg/login-form/LoginForm.js:29 nodepkg/user-browse/UserBrowse.js:37
-#: nodepkg/user-widget/UserWidget.js:25
+#: nodepkg/user-widget/UserWidget.js:40
 msgid "Login"
 msgstr "Connexion"
 
 #: nodepkg/login-form/LoginForm.js:34 nodepkg/user-browse/UserBrowse.js:47
-#: nodepkg/user-widget/UserWidget.js:32
+#: nodepkg/user-widget/UserWidget.js:46
 msgid "Password"
 msgstr "Mot de passe"
 
@@ -239,27 +261,27 @@ msgstr "Mot de passe"
 msgid "or using login and password"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:14
+#: nodepkg/settings-form/SettingsForm.js:15
 msgid "Account bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:25
+#: nodepkg/settings-form/SettingsForm.js:26
 msgid "Bind account"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:27
+#: nodepkg/settings-form/SettingsForm.js:28
 msgid "Account not bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:39 nodepkg/user-widget/UserWidget.js:64
+#: nodepkg/settings-form/SettingsForm.js:46 nodepkg/user-widget/UserWidget.js:91
 msgid "Language"
 msgstr "Langue"
 
-#: nodepkg/settings-form/SettingsForm.js:76
+#: nodepkg/settings-form/SettingsForm.js:81
 msgid "Saved"
 msgstr "Enregistré"
 
-#: nodepkg/user-browse/UserBrowse.js:13 nodepkg/user-widget/UserWidget.js:50
+#: nodepkg/user-browse/UserBrowse.js:13 nodepkg/user-widget/UserWidget.js:75
 msgid "Disabled"
 msgstr "Désactivé"
 
@@ -271,27 +293,27 @@ msgstr ""
 msgid "Users with a password can sign in with login and password."
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:57
+#: nodepkg/user-browse/UserBrowse.js:56
 msgid "Users bound to {dn} can sign in with {dn}."
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:68
+#: nodepkg/user-browse/UserBrowse.js:66
 msgid "Last activity"
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:81
+#: nodepkg/user-browse/UserBrowse.js:79
 msgid "Status"
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:153
+#: nodepkg/user-browse/UserBrowse.js:151
 msgid "Disable"
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:153
+#: nodepkg/user-browse/UserBrowse.js:151
 msgid "Enable"
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:162
+#: nodepkg/user-browse/UserBrowse.js:160
 msgid ""
 "Your team members won't be shown here until their first logon. Set \"New "
 "users\" flag for a group to automatically assign new user to this group. You "
@@ -299,14 +321,41 @@ msgid ""
 "team members."
 msgstr ""
 
-#: nodepkg/user-widget/UserWidget.js:37
+#: nodepkg/user-widget/UserWidget.js:50
 msgid "Enter new password here"
 msgstr "Entrez le nouveau mot de passe ici"
 
-#: nodepkg/user-widget/UserWidget.js:83
+#: nodepkg/user-widget/UserWidget.js:66
+msgid "Authorization link"
+msgstr ""
+
+#: nodepkg/user-widget/UserWidget.js:111
 msgid ""
 "Consider adding {name} user to your team instead of creating a new user with "
 "a password."
+msgstr ""
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.js:8
+#: nodepkg/user-widget/UserWidgetPassword.js:9
+msgid "Keep existing"
+msgstr ""
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.js:12
+#: nodepkg/user-widget/UserWidgetPassword.js:13
+msgid "Assign new"
+msgstr ""
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.js:16
+#: nodepkg/user-widget/UserWidgetPassword.js:19
+msgid "Turn off"
+msgstr ""
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.js:66
+msgid "The generated link will be available after saving."
+msgstr ""
+
+#: nodepkg/user-widget/UserWidgetPassword.js:18
+msgid "{name} only"
 msgstr ""
 
 #~ msgid "System principals couldn't be chanded."
