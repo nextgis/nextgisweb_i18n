@@ -1,18 +1,18 @@
 #: model.py:58 nodepkg/editor/EditorWidget.js:109
 msgid "String"
-msgstr ""
+msgstr "String"
 
 #: model.py:59 nodepkg/editor/EditorWidget.js:110
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
 #: model.py:60 nodepkg/editor/EditorWidget.js:111
 msgid "Boolean"
-msgstr ""
+msgstr "Booleano"
 
 #: model.py:61 nodepkg/editor/EditorWidget.js:112
 msgid "Empty"
-msgstr ""
+msgstr "Vacío"
 
 #: amd/ngw-resmeta/Widget.js:11 view.py:15
 msgid "Metadata"
@@ -20,23 +20,23 @@ msgstr "Metadatos"
 
 #: nodepkg/editor/EditorStore.js:30
 msgid "Key name is required."
-msgstr ""
+msgstr "El nombre de la clave es obligatorio."
 
 #: nodepkg/editor/EditorStore.js:38
 msgid "Key name is not unique."
-msgstr ""
+msgstr "El nombre de la clave no es único."
 
 #: nodepkg/editor/EditorWidget.js:47
 msgid "Type here to add a new key..."
-msgstr ""
+msgstr "Escriba aquí para agregar una nueva clave..."
 
 #: nodepkg/editor/EditorWidget.js:86 template/section.mako:21
 msgid "False"
-msgstr ""
+msgstr "Falso"
 
 #: nodepkg/editor/EditorWidget.js:87 template/section.mako:21
 msgid "True"
-msgstr ""
+msgstr "Verdadero"
 
 #: nodepkg/editor/EditorWidget.js:127 template/section.mako:12
 msgid "Key"

@@ -93,7 +93,7 @@ msgstr "Guardar como"
 
 #: view.py:42
 msgid "Download"
-msgstr ""
+msgstr "Descargar"
 
 #: view.py:52
 msgid "External access"

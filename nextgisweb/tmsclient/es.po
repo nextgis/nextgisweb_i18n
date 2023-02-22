@@ -97,19 +97,19 @@ msgstr "Nivel de zoom máximo"
 
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:51
 msgid "Left, deg."
-msgstr "Izquierda, deg."
+msgstr "Izquierda, grados"
 
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:57
 msgid "Bottom, deg."
-msgstr "Abajo, deg."
+msgstr "Abajo, grados"
 
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:63
 msgid "Right, deg."
-msgstr "Derecha, deg."
+msgstr "Derecha, grados"
 
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:69
 msgid "Top, deg."
-msgstr "Arriba, deg."
+msgstr "Arriba, grados"
 
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:75
 msgid "Tile size, px"

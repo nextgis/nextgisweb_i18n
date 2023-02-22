@@ -25,6 +25,8 @@ msgstr "¡Definición de SRS no válida!"
 #: api.py:207
 msgid "SRS authority attributes must be defined while importing from the catalog."
 msgstr ""
+"Los atributos de autoridad de SRS deben definirse al importar desde el "
+"catálogo."
 
 #: api.py:232
 msgid "SRS #{} already exists."

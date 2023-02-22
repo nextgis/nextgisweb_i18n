@@ -8,7 +8,7 @@ msgstr "Carga no se completó"
 
 #: view.py:7
 msgid "File Upload testing page"
-msgstr ""
+msgstr "Página de prueba de carga de archivos"
 
 #: amd/ngw-file-upload/Uploader.js:55
 msgid "Select"

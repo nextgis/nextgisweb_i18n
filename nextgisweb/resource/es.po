@@ -31,10 +31,12 @@ msgstr "Permiso no encontrado"
 #: api.py:375
 msgid "Not enough resource quota: {0} required, but only {1} available."
 msgstr ""
+"No hay suficiente cuota de recursos: se requiere {0}, pero solo {1} está "
+"disponible."
 
 #: api.py:379
 msgid "Resource type - {}."
-msgstr ""
+msgstr "Tipo de recurso - {}."
 
 #: exception.py:27
 msgid "Resource not found"
@@ -370,19 +372,19 @@ msgstr "Recurso eliminado"
 
 #: nodepkg/children-section/ChildrenSection.js:43
 msgid "Resource has been moved"
-msgstr ""
+msgstr "Se ha movido el recurso"
 
 #: nodepkg/children-section/ChildrenSection.js:44
 msgid "Resources have been moved"
-msgstr ""
+msgstr "Los recursos se han movido"
 
 #: nodepkg/children-section/ChildrenSection.js:189
 msgid "Moving resources"
-msgstr ""
+msgstr "Mover recursos"
 
 #: nodepkg/children-section/ChildrenSection.js:220
 msgid "Deleting resources"
-msgstr ""
+msgstr "Eliminación de recursos"
 
 #: nodepkg/children-section/ChildrenSection.js:252
 msgid "Turn off multiple selection"
@@ -402,11 +404,11 @@ msgstr "Mostrar volumen de recursos"
 
 #: nodepkg/children-section/ChildrenSection.js:272
 msgid "Hide resource creation date"
-msgstr ""
+msgstr "Ocultar la fecha de creación del recurso"
 
 #: nodepkg/children-section/ChildrenSection.js:273
 msgid "Show resource creation date"
-msgstr ""
+msgstr "Mostrar la fecha de creación del recurso"
 
 #: nodepkg/children-section/ChildrenSection.js:295
 msgid "Not all of the selected can be deleted."
@@ -414,15 +416,15 @@ msgstr "No todos los seleccionados se pueden eliminar."
 
 #: nodepkg/children-section/ChildrenSection.js:310
 msgid "Move"
-msgstr ""
+msgstr "Mover"
 
 #: nodepkg/children-section/ChildrenSection.js:324
 msgid "Export vector layers"
-msgstr ""
+msgstr "Exportar capas vectoriales"
 
 #: nodepkg/children-section/ChildrenSection.js:419
 msgid "Created"
-msgstr ""
+msgstr "Creado"
 
 #: nodepkg/children-section/ChildrenSection.js:438
 msgid "Volume"
@@ -430,7 +432,7 @@ msgstr "Volumen"
 
 #: nodepkg/children-section/util/forEachSelected.js:5
 msgid "Operation in progress"
-msgstr ""
+msgstr "Operación en progreso"
 
 #: nodepkg/delete-page/DeletePage.js:36
 msgid "Confirm deletion of the resource"
@@ -466,23 +468,23 @@ msgstr ""
 
 #: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalFooter.js:15
 msgid "Create group"
-msgstr ""
+msgstr "Crea un grupo"
 
 #: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalFooter.js:16
 msgid "Clear selection"
-msgstr ""
+msgstr "Anular la selección"
 
 #: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalTitle.js:18
 msgid "Go to initial group"
-msgstr ""
+msgstr "Ir al grupo inicial"
 
 #: nodepkg/resource-picker/resource-picker-modal/ResourcePickerModalTitle.js:19
 msgid "Refresh"
-msgstr ""
+msgstr "Actualizar"
 
 #: nodepkg/resource-picker/store/ResourcePickerStore.js:7
 msgid "Pick this group"
-msgstr ""
+msgstr "Elige este grupo"
 
 #: nodepkg/resource-picker/store/ResourcePickerStore.js:9
 msgid "Pick selected"

@@ -25,8 +25,11 @@ msgid ""
 "Layer created. You need a style to add it to a web map. Use the button bellow"
 " to create a default QGIS style or create a style resource using sidebar."
 msgstr ""
+"Capa creada. Necesita un estilo para agregarlo a un mapa web. Use el botón a "
+"continuación para crear un estilo QGIS predeterminado o cree un recurso de "
+"estilo usando la barra lateral."
 
 #: nodepkg/default-style-widget/DefaultStyleWidget.js:34
 msgid "Create default QGIS style"
-msgstr ""
+msgstr "Crear estilo QGIS predeterminado"
 

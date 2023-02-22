@@ -1,10 +1,10 @@
 #: nodepkg/confirm.js:8
 msgid "Confirmation required"
-msgstr ""
+msgstr "Сonfirmación requerida"
 
 #: nodepkg/confirm.js:9
 msgid "Please confirm this action."
-msgstr ""
+msgstr "Por favor, confirme esta acción."
 
 #: nodepkg/confirm.js:11 nodepkg/error/shared.js:71
 msgid "OK"
@@ -12,7 +12,7 @@ msgstr "OK"
 
 #: nodepkg/confirm.js:35
 msgid "Please confirm the deletion."
-msgstr ""
+msgstr "Por favor, confirme la eliminación."
 
 #: nodepkg/confirm.js:36 nodepkg/model-browse/ModelBrowse.js:192
 #: nodepkg/model-browse/ModelBrowse.js:259 nodepkg/model-form/ModelForm.js:13
@@ -29,11 +29,11 @@ msgstr "Prueba de internacionalización"
 
 #: nodepkg/buttons/CopyToClipboardButton.js:11
 msgid "Copied to clipboard"
-msgstr ""
+msgstr "Se ha copiado al portapapele"
 
 #: nodepkg/buttons/CopyToClipboardButton.js:20
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Copiar al portapapeles"
 
 #: nodepkg/component/SaveButton.js:9 nodepkg/model-form/ModelForm.js:12
 msgid "Save"
@@ -69,7 +69,7 @@ msgstr "El valor introducido no es válido"
 
 #: nodepkg/fields-form/field/LanguageSelect.js:7
 msgid "Improve or add new translation"
-msgstr ""
+msgstr "Mejorar o agregar una nueva traducción"
 
 #: nodepkg/fields-form/field/LanguageSelect.js:23
 msgid "Browser default"
@@ -121,11 +121,11 @@ msgstr "Logotipo guardado. Vuelva a cargar la página para que se apliquen."
 
 #: nodepkg/progress-modal/ProgressModal.js:4
 msgid "Operation in progress"
-msgstr ""
+msgstr "Operación en progreso"
 
 #: nodepkg/progress-modal/ProgressModal.js:5
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: nodepkg/single-setting-form/SingleSettingForm.js:10
 msgid "The setting is saved."

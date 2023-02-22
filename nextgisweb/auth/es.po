@@ -84,11 +84,11 @@ msgstr "Usuario deshabilitado"
 
 #: exception.py:22
 msgid "Invalid authorization link"
-msgstr ""
+msgstr "Enlace de autorización no válido"
 
 #: model.py:169
 msgid "Password is not set."
-msgstr ""
+msgstr "La contraseña no está configurada."
 
 #: oauth.py:210
 msgid "{} binding error"
@@ -147,10 +147,12 @@ msgid ""
 "Failed to authenticate using the given authorization link. Please check the "
 "link and contact the administrator."
 msgstr ""
+"No se pudo autenticar usando el enlace de autorización proporcionado. Por "
+"favor, consulte el enlace y póngase en contacto con el administrador."
 
 #: view.py:106
 msgid "Usage of authorization link is forbidden for administrators."
-msgstr ""
+msgstr "El uso del enlace de autorización está prohibido para los administradores."
 
 #: view.py:145
 msgid "Team membership required"
@@ -161,6 +163,8 @@ msgid ""
 "You are not a member of this Web GIS team. Contact Web GIS administrator and "
 "ask to be added to the team."
 msgstr ""
+"No es miembro de este equipo Web GIS. Comuníquese con el administrador de Web"
+" GIS y solicite que lo agreguen al equipo."
 
 #: view.py:277
 msgid "User settings"
@@ -204,7 +208,7 @@ msgstr "Grupo eliminado"
 
 #: nodepkg/oauth.js:25
 msgid "Manage team"
-msgstr ""
+msgstr "Administrar equipo"
 
 #: nodepkg/userMessages.js:6
 msgid "User deleted"
@@ -221,17 +225,17 @@ msgstr "Nombre del grupo"
 
 #: nodepkg/group-browse/GroupBrowse.js:21 nodepkg/group-widget/GroupWidget.js:42
 msgid "New users"
-msgstr ""
+msgstr "Usuarios nuevos"
 
 #: nodepkg/group-browse/GroupBrowse.js:25 nodepkg/group-browse/GroupBrowse.js:35
 #: nodepkg/user-browse/UserBrowse.js:50 nodepkg/user-browse/UserBrowse.js:60
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 #: nodepkg/group-browse/GroupBrowse.js:25 nodepkg/group-browse/GroupBrowse.js:35
 #: nodepkg/user-browse/UserBrowse.js:50 nodepkg/user-browse/UserBrowse.js:60
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: nodepkg/group-widget/GroupWidget.js:50
 msgid "{dn} mapping"
@@ -294,10 +298,12 @@ msgstr "Habilitado"
 #: nodepkg/user-browse/UserBrowse.js:46
 msgid "Users with a password can sign in with login and password."
 msgstr ""
+"Los usuarios con contraseña pueden iniciar sesión con nombre de usuario y "
+"contraseña."
 
 #: nodepkg/user-browse/UserBrowse.js:56
 msgid "Users bound to {dn} can sign in with {dn}."
-msgstr ""
+msgstr "Los usuarios vinculados a {dn} pueden iniciar sesión con {dn}."
 
 #: nodepkg/user-browse/UserBrowse.js:66
 msgid "Last activity"
@@ -322,6 +328,11 @@ msgid ""
 "may also modify permission for authenticated users to manage access for your "
 "team members."
 msgstr ""
+"Los miembros de su equipo no se mostrarán aquí hasta que inicien sesión por "
+"primera vez. Establezca \"Nuevos usuarios\" para que un grupo asigne "
+"automáticamente un nuevo usuario a este grupo. También puede modificar el "
+"permiso de los usuarios autenticados para administrar el acceso de los "
+"miembros de su equipo."
 
 #: nodepkg/user-widget/UserWidget.js:50
 msgid "Enter new password here"
@@ -329,13 +340,15 @@ msgstr "Ingrese la nueva contraseña"
 
 #: nodepkg/user-widget/UserWidget.js:66
 msgid "Authorization link"
-msgstr ""
+msgstr "Enlace de autorización"
 
 #: nodepkg/user-widget/UserWidget.js:111
 msgid ""
 "Consider adding {name} user to your team instead of creating a new user with "
 "a password."
 msgstr ""
+"Considere agregar el usuario {name} a su equipo en lugar de crear un nuevo "
+"usuario con una contraseña."
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.js:8
 #: nodepkg/user-widget/UserWidgetPassword.js:9
@@ -345,16 +358,16 @@ msgstr ""
 #: nodepkg/user-widget/UserWidgetAlinkToken.js:12
 #: nodepkg/user-widget/UserWidgetPassword.js:13
 msgid "Assign new"
-msgstr ""
+msgstr "Asignar nuevo"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.js:16
 #: nodepkg/user-widget/UserWidgetPassword.js:19
 msgid "Turn off"
-msgstr ""
+msgstr "Apagar"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.js:66
 msgid "The generated link will be available after saving."
-msgstr ""
+msgstr "El enlace generado estará disponible después de guardar."
 
 #: nodepkg/user-widget/UserWidgetPassword.js:18
 msgid "{name} only"

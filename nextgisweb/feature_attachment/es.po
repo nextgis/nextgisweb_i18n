@@ -4,7 +4,7 @@ msgstr "Adjuntos de objetos geográficos"
 
 #: api.py:228
 msgid "Invalid ZIP archive."
-msgstr ""
+msgstr "Archivo ZIP no válido."
 
 #: api.py:256
 msgid "File '{}' isn't found in metadata."
@@ -12,7 +12,7 @@ msgstr ""
 
 #: api.py:261
 msgid "Invalid name for file '{}'."
-msgstr ""
+msgstr "Nombre no válido para el archivo '{}'."
 
 #: api.py:267
 msgid "Invalid feature ID for file '{}'."
@@ -20,11 +20,11 @@ msgstr ""
 
 #: api.py:273
 msgid "Invalid MIME type for file '{}'."
-msgstr ""
+msgstr "Tipo MIME no válido para el archivo '{}'."
 
 #: api.py:279
 msgid "Invalid description for file '{}'."
-msgstr ""
+msgstr "Descripción no válida para el archivo '{}'."
 
 #: api.py:291
 msgid "Could not determine feature ID for file '{}'."
@@ -32,7 +32,7 @@ msgstr ""
 
 #: api.py:308
 msgid "File '{}' isn't found in the archive."
-msgstr ""
+msgstr "El fichero '{}' no se encuentra en el archivo."
 
 #: exception.py:12
 msgid "Attachment not found"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: view.py:19 view.py:40
 msgid "Manage attachments"
-msgstr ""
+msgstr "Administrar adjuntos"
 
 #: amd/ngw-feature-attachment/DisplayWidget.js:36
 #: amd/ngw-feature-attachment/EditorWidget.js:109
@@ -95,26 +95,31 @@ msgid ""
 "in directories named after feature IDs. Attachment metadata are put into a "
 "separate JSON file."
 msgstr ""
+"Use exportar para copiar archivos adjuntos de entidades entre diferentes "
+"capas o para crear una copia de seguridad. El archivo ZIP resultante "
+"contendrá todos los archivos adjuntos colocados en directorios con nombres de"
+" ID de objeto geográfico. Los metadatos de los archivos adjuntos se colocan "
+"en un archivo JSON separado."
 
 #: nodepkg/attachment-form/AttachmentForm.js:58
 msgid "Export attachments to ZIP archive"
-msgstr ""
+msgstr "Exportar los adjuntos a un archivo ZIP"
 
 #: nodepkg/attachment-form/AttachmentForm.js:73
 msgid "Back to resource"
-msgstr ""
+msgstr "Volver al recurso"
 
 #: nodepkg/attachment-form/AttachmentForm.js:75
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: nodepkg/attachment-form/AttachmentForm.js:78
 msgid "The archive has been successfully imported."
-msgstr ""
+msgstr "El archivo se ha importado con éxito."
 
 #: nodepkg/attachment-form/AttachmentForm.js:81
 msgid "Attachments imported - {i}, skipped - {s}."
-msgstr ""
+msgstr "Archivos adjuntos importados - {i}, omitidos - {s}."
 
 #: nodepkg/attachment-form/AttachmentForm.js:115
 msgid ""
@@ -122,20 +127,24 @@ msgid ""
 "archive must contain directories named after feature IDs. Each folder can "
 "contain one or many attachments. Duplicates will be ignored."
 msgstr ""
+"Cargue un archivo ZIP para agregar archivos adjuntos a los objetos "
+"geográficos existentes. Un archivo debe contener directorios con nombres de "
+"ID de objeto geográfico. Cada carpeta puede contener uno o varios archivos "
+"adjuntos. Los duplicados serán ignorados."
 
 #: nodepkg/attachment-form/AttachmentForm.js:124
 msgid "Delete existing attachments"
-msgstr ""
+msgstr "Eliminar adjuntos existentes"
 
 #: nodepkg/attachment-form/AttachmentForm.js:145
 msgid "Import attachments from ZIP archive"
-msgstr ""
+msgstr "Importar adjuntos desde un archivo ZIP"
 
 #: nodepkg/attachment-form/AttachmentForm.js:157
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 #: nodepkg/attachment-form/AttachmentForm.js:162
 msgid "Import"
-msgstr ""
+msgstr "Importar"
 

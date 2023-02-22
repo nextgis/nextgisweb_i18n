@@ -264,6 +264,9 @@ msgid ""
 "supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
+"Se admiten los formatos ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, "
+"CSV o XLSX. Para CSV y XLSX solo se admiten puntos, las coordenadas deben "
+"colocarse en columnas lat y lot."
 
 #: amd/ngw-vector-layer/template/Widget.hbs:57
 msgid "Source layer"

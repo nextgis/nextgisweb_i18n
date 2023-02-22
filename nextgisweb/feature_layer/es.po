@@ -14,14 +14,16 @@ msgstr "El parámetro 'intersects' de la geometría no es válido."
 #: api.py:147
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
+"El límite de exportación está establecido en {limit} entidades, pero la capa "
+"contiene {count}."
 
 #: api.py:160
 msgid "Failed to reproject 'intersects' geometry."
-msgstr ""
+msgstr "No se pudo reproyectar la geometría de 'intersección'."
 
 #: api.py:298
 msgid "File name parameter '{}' is not valid."
-msgstr ""
+msgstr "El parámetro de nombre de archivo '{}' no es válido."
 
 #: api.py:417 api.py:492
 #, python-format
@@ -151,11 +153,11 @@ msgstr "Eliminar"
 
 #: amd/ngw-feature-layer/GeometryInfoWidget.js:15
 msgid "Geometry"
-msgstr ""
+msgstr "Geometría"
 
 #: nodepkg/export-form/ExportForm.js:142
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #: nodepkg/export-form/ExportForm.js:159
 msgid "Format"
@@ -179,11 +181,11 @@ msgstr "Utilice nombres para mostrar en lugar de nombres clave"
 
 #: nodepkg/export-form/ExportForm.js:196
 msgid "Fields"
-msgstr ""
+msgstr "Campos"
 
 #: nodepkg/export-form/ExportForm.js:204
 msgid "Limit by extent"
-msgstr ""
+msgstr "Limitar por extensión"
 
 #: nodepkg/export-form/ExportForm.js:209
 msgid "Zip archive"
@@ -191,23 +193,23 @@ msgstr "Archivo zip"
 
 #: nodepkg/export-form/ExtentInput.js:6
 msgid "deg."
-msgstr ""
+msgstr "grados"
 
 #: nodepkg/export-form/ExtentInput.js:8
 msgid "Left"
-msgstr ""
+msgstr "Izquierda"
 
 #: nodepkg/export-form/ExtentInput.js:9
 msgid "Bottom"
-msgstr ""
+msgstr "Abajo"
 
 #: nodepkg/export-form/ExtentInput.js:10
 msgid "Right"
-msgstr ""
+msgstr "Derecha"
 
 #: nodepkg/export-form/ExtentInput.js:11
 msgid "Top"
-msgstr ""
+msgstr "Arriba"
 
 #: nodepkg/feature-grid/FeatureGrid.js:23
 msgid "Search..."
@@ -227,43 +229,43 @@ msgstr "Editar"
 
 #: nodepkg/geometry-info/GeometryInfo.js:60
 msgid "Load geometry info..."
-msgstr ""
+msgstr "Cargar información de geometría..."
 
 #: nodepkg/geometry-info/GeometryInfo.js:70
 msgid "Failed to get information about the geometry"
-msgstr ""
+msgstr "Error al obtener información sobre la geometría"
 
 #: nodepkg/geometry-info/GeometryInfo.js:81
 msgid "Perimeter"
-msgstr ""
+msgstr "Perímetro"
 
 #: nodepkg/geometry-info/GeometryInfo.js:81
 msgid "Length"
-msgstr ""
+msgstr "Longitud"
 
 #: nodepkg/geometry-info/GeometryInfo.js:93
 msgid "Area"
-msgstr ""
+msgstr "Área"
 
 #: nodepkg/geometry-info/GeometryInfo.js:107
 msgid "Geometry type"
-msgstr ""
+msgstr "Tipo de geometría"
 
 #: nodepkg/geometry-info/GeometryInfo.js:117
 msgid "Extent (xMin)"
-msgstr ""
+msgstr "Extensión (xMin)"
 
 #: nodepkg/geometry-info/GeometryInfo.js:125
 msgid "Extent (yMin)"
-msgstr ""
+msgstr "Extensión (yMin)"
 
 #: nodepkg/geometry-info/GeometryInfo.js:133
 msgid "Extent (xMax)"
-msgstr ""
+msgstr "Extensión (xMax)"
 
 #: nodepkg/geometry-info/GeometryInfo.js:141
 msgid "Extent (yMax)"
-msgstr ""
+msgstr "Extensión (yMax)"
 
 #: template/section_api_layer.mako:11
 msgid "MVT Vector Tiles"
