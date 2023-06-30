@@ -1,27 +1,23 @@
 #: amd/ngw-tmsclient/ConnectionWidget.js:34
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:53
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:39
 msgid "TMS connection"
 msgstr "Připojení TMS"
 
-#: model.py:130
+#: model.py:88
 msgid "API key required."
 msgstr "Klíč API je povinný."
 
-#: model.py:173
+#: model.py:131
 msgid "Zoom is out of range."
 msgstr "Zvětšení je mimo rozsah."
 
-#: amd/ngw-tmsclient/LayerWidget.js:37 model.py:181
+#: amd/ngw-tmsclient/LayerWidget.js:35 model.py:139
 msgid "TMS layer"
 msgstr "TMS vrstva"
 
-#: model.py:321
+#: model.py:274
 msgid "Layer name required."
 msgstr "Název vrstvy je povinný."
-
-#: view.py:21
-msgid "TMS capabilities"
-msgstr "Funkce TMS"
 
 #: amd/ngw-tmsclient/LayersDialog.js:25
 msgid "Select layer"
@@ -114,4 +110,7 @@ msgstr "Vrchol, deg."
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:75
 msgid "Tile size, px"
 msgstr "Velikost dlaždice, px"
+
+#~ msgid "TMS capabilities"
+#~ msgstr "Funkce TMS"
 

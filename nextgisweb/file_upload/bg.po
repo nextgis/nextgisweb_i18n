@@ -1,12 +1,12 @@
-#: api.py:24
+#: api.py:23
 msgid "Uploaded file too large"
 msgstr "Прикачваният файл е прекалено голям"
 
-#: api.py:29
+#: api.py:28
 msgid "Upload is not completed"
 msgstr "Прикачването не е завършено"
 
-#: view.py:7
+#: view.py:9
 msgid "File Upload testing page"
 msgstr ""
 
@@ -22,7 +22,7 @@ msgstr "максимум"
 msgid "Uploading..."
 msgstr "Прикачване..."
 
-#: amd/ngw-file-upload/Uploader.js:121 nodepkg/file-uploader/FileUploader.js:55
+#: amd/ngw-file-upload/Uploader.js:121 nodepkg/hook/useFileUploader.js:46
 msgid " uploaded..."
 msgstr " прикачен(и)..."
 
@@ -36,7 +36,7 @@ msgstr "Изберете изображение"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:10
 #: amd/ngw-file-upload/template/Uploader.hbs:10
-#: nodepkg/file-uploader/FileUploader.js:17
+#: nodepkg/file-uploader/FileUploader.js:15
 msgid "Overwrite?"
 msgstr "Презапис?"
 
@@ -47,7 +47,7 @@ msgstr "Опитайте се отново"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:13
 #: amd/ngw-file-upload/template/Uploader.hbs:13
-#: nodepkg/file-uploader/FileUploader.js:16
+#: nodepkg/file-uploader/FileUploader.js:14
 msgid "or drag and drop here"
 msgstr "или преместете и оставете тук"
 
@@ -57,11 +57,15 @@ msgid "Delete"
 msgstr "Изтрий"
 
 #: amd/ngw-file-upload/template/Uploader.hbs:9
-#: nodepkg/file-uploader/FileUploader.js:15
+#: nodepkg/file-uploader/FileUploader.js:13
 msgid "Select a file"
 msgstr "Изберете файл"
 
-#: nodepkg/file-uploader/FileUploader.js:123
+#: nodepkg/file-uploader/FileUploader.js:68
 msgid "Stop"
 msgstr "Спри"
+
+#: nodepkg/file-uploader/FileUploaderButton.js:8
+msgid "Upload"
+msgstr ""
 

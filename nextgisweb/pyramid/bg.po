@@ -1,28 +1,28 @@
-#: __init__.py:144
-msgid "Enabled"
-msgstr "Включено"
-
-#: __init__.py:144
-msgid "Disabled"
-msgstr "Изключен"
-
-#: api.py:228
+#: api.py:224
 msgid "Required parameter 'component' is missing."
 msgstr "Параметърът 'component' не е налице."
 
-#: api.py:233
+#: api.py:229
 msgid "Invalid component identity."
 msgstr "Идентификаторът на компонента не е валиден."
 
-#: api.py:570
+#: api.py:566
 msgid "Your Web GIS at nextgis.com"
 msgstr "Вашите онлайн карти на nextgis.com"
 
-#: exception.py:202 exception.py:263
+#: component.py:137
+msgid "Enabled"
+msgstr "Включено"
+
+#: component.py:137
+msgid "Disabled"
+msgstr "Изключен"
+
+#: exception.py:203 exception.py:264
 msgid "Internal server error"
 msgstr "Вътрешна грешка на сървъра"
 
-#: exception.py:203
+#: exception.py:204
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -30,37 +30,37 @@ msgstr ""
 "Сървърът има вътрешна грешка, некоректни настройки или не успя да изпълни "
 "заявката."
 
-#: exception.py:232
+#: exception.py:233
 msgid "Bad request"
 msgstr "Грешна заявка"
 
-#: exception.py:233
+#: exception.py:234
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
 msgstr "Сървърът не може да изпълни заявката, защото в нея има грешка."
 
-#: exception.py:240
+#: exception.py:241
 msgid "Payment required"
 msgstr "Изисква се заплащане"
 
-#: exception.py:241
+#: exception.py:242
 msgid "Access was denied for financial reasons."
 msgstr "Достъп е забранен по финансови причини."
 
-#: exception.py:245
+#: exception.py:246
 msgid "Forbidden"
 msgstr "Забранено"
 
-#: exception.py:246
+#: exception.py:247
 msgid "Access was denied to this resource."
 msgstr "Достъпът до ресурса е забранен."
 
-#: exception.py:250
+#: exception.py:251
 msgid "Page not found"
 msgstr "Страницата не е открита"
 
-#: exception.py:251
+#: exception.py:252
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -69,73 +69,73 @@ msgstr ""
 "адреса или се върнете на началната страница и се опитайте да намерите "
 "исканата страница."
 
-#: exception.py:258
+#: exception.py:259
 msgid "Unprocessable entity"
 msgstr "Обектът не може да е обработен"
 
-#: exception.py:259
+#: exception.py:260
 msgid "Unable to process the contained instructions."
 msgstr "Исканата операция не може да е извършена."
 
-#: exception.py:264
+#: exception.py:265
 msgid ""
 "The server has either erred or is incapable of performing the requested "
 "operation."
 msgstr "Сървърът има грешка или не може да извърши исканата операция."
 
-#: exception.py:271 exception.py:272
+#: exception.py:272 exception.py:273
 msgid "Not implemented"
 msgstr "Не е реализирано"
 
-#: exception.py:276
+#: exception.py:277
 msgid "Service unavailable"
 msgstr "Услугата е недостъпна"
 
-#: exception.py:277
+#: exception.py:278
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "Сървърът не е наличен в момента. Опитайте се отново по-късно."
 
-#: nodepkg/layout/store.js:42 view.py:81
+#: nodepkg/layout/store.js:42 view.py:97
 msgid "Control panel"
 msgstr "Контролен панел"
 
-#: view.py:103 view.py:481
+#: view.py:120 view.py:516
 msgid "System information"
 msgstr "Системна информация"
 
-#: view.py:116 view.py:498
+#: view.py:134 view.py:533
 msgid "Storage"
 msgstr "Памет"
 
-#: view.py:126 view.py:503
+#: view.py:145 view.py:538
 msgid "Backups"
 msgstr "Резервни копия"
 
-#: view.py:142 view.py:487
+#: view.py:162 view.py:522
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
-#: view.py:150 view.py:489
+#: view.py:171 view.py:524
 msgid "Custom CSS"
 msgstr "Персонализиран CSS"
 
-#: view.py:158 view.py:491
+#: view.py:180 view.py:526
 msgid "Custom logo"
 msgstr "Персонализирано лого"
 
-#: view.py:166 view.py:485
+#: view.py:189 view.py:520
 msgid "Web GIS name"
 msgstr "Име на Уеб GIS"
 
-#: view.py:174 view.py:493
+#: view.py:198 view.py:528
 msgid "Home path"
 msgstr "Начална страница"
 
-#: view.py:480
+#: view.py:515
 msgid "Info"
 msgstr "Информация"
 
-#: nodepkg/layout/Avatar.js:21 view.py:484
+#: nodepkg/layout/Avatar.js:22 view.py:519
 msgid "Settings"
 msgstr "Настройки"
 
@@ -220,19 +220,7 @@ msgstr "Грешка на продължително искане"
 msgid "Long-running request was cancelled."
 msgstr "Продължително искане е отменено."
 
-#: nodepkg/cors-settings/CORSSettings.js:35
-msgid "CORS settings updated"
-msgstr "Настройките на CORS са актуализирани"
-
-#: nodepkg/cors-settings/CORSSettings.js:42
-msgid "Fix the form errors first"
-msgstr "Трябва да поправите грешките във формата"
-
-#: nodepkg/cors-settings/CORSSettings.js:62
-msgid "The value entered is not valid"
-msgstr "Въведеното значение не е валидно"
-
-#: nodepkg/cors-settings/CORSSettings.js:90
+#: nodepkg/cors-settings/CORSSettings.js:17
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
@@ -241,7 +229,7 @@ msgstr ""
 "използвани от HTTP API на този Уеб GIS в други уебсайтове. Всеки ред да има "
 "само един източник."
 
-#: nodepkg/cors-settings/CORSSettings.js:95
+#: nodepkg/cors-settings/CORSSettings.js:20
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
@@ -251,11 +239,23 @@ msgstr ""
 "(example.com и www.example.com) са различни произходи. Заместващи символи са "
 "допустими за домейни от трето ниво насам."
 
-#: nodepkg/custom-css-form/CustomCSSForm.js:33
+#: nodepkg/cors-settings/CORSSettings.js:47
+msgid "CORS settings updated"
+msgstr "Настройките на CORS са актуализирани"
+
+#: nodepkg/cors-settings/CORSSettings.js:52
+msgid "Fix the form errors first"
+msgstr "Трябва да поправите грешките във формата"
+
+#: nodepkg/cors-settings/CORSSettings.js:72
+msgid "The value entered is not valid"
+msgstr "Въведеното значение не е валидно"
+
+#: nodepkg/custom-css-form/CustomCSSForm.js:35
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr "Потребителските стилове са запазени. Презаредете страницата да ги използвате."
 
-#: nodepkg/custom-css-form/CustomCSSForm.js:63
+#: nodepkg/custom-css-form/CustomCSSForm.js:57
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -271,15 +271,15 @@ msgstr "Преведен текст"
 msgid "The home path setting is saved."
 msgstr "Настройките на началната страница са запазени."
 
-#: nodepkg/layout/Avatar.js:9
+#: nodepkg/layout/Avatar.js:10
 msgid "Sign in"
 msgstr "Влез"
 
-#: nodepkg/layout/Avatar.js:18
+#: nodepkg/layout/Avatar.js:19
 msgid "Invitation session"
 msgstr "Сесия за поканване"
 
-#: nodepkg/layout/Avatar.js:23
+#: nodepkg/layout/Avatar.js:24
 msgid "Sign out"
 msgstr "Излез"
 
@@ -394,17 +394,33 @@ msgstr "Времево клеймо (UTC)"
 msgid "Size"
 msgstr "Размер"
 
-#: template/sysinfo.mako:35
+#: template/sysinfo.mako:38
 msgid "Package"
 msgstr "Комплект"
 
-#: template/sysinfo.mako:36
+#: template/sysinfo.mako:39
 msgid "Version"
 msgstr "Версия"
 
-#: template/sysinfo.mako:71
+#: template/sysinfo.mako:74
 msgid "Platform"
 msgstr "Платформа"
+
+#: template/sysinfo.mako:89
+msgid "Browser support"
+msgstr ""
+
+#: template/sysinfo.mako:100
+msgid "or higher"
+msgstr ""
+
+#: template/sysinfo.mako:102
+msgid "Not supported"
+msgstr ""
+
+#: template/sysinfo.mako:114
+msgid "Your browser"
+msgstr ""
 
 #: template/uacompat.mako:4
 msgid "Browser compatibility test"

@@ -1,12 +1,12 @@
-#: api.py:24
+#: api.py:23
 msgid "Uploaded file too large"
 msgstr "El archivo subido es demasiado grande"
 
-#: api.py:29
+#: api.py:28
 msgid "Upload is not completed"
 msgstr "Carga no se completó"
 
-#: view.py:7
+#: view.py:9
 msgid "File Upload testing page"
 msgstr "Página de prueba de carga de archivos"
 
@@ -22,7 +22,7 @@ msgstr "máx"
 msgid "Uploading..."
 msgstr "Subiendo..."
 
-#: amd/ngw-file-upload/Uploader.js:121 nodepkg/file-uploader/FileUploader.js:55
+#: amd/ngw-file-upload/Uploader.js:121 nodepkg/hook/useFileUploader.js:46
 msgid " uploaded..."
 msgstr " subido..."
 
@@ -36,7 +36,7 @@ msgstr "Seleccionar una imagen"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:10
 #: amd/ngw-file-upload/template/Uploader.hbs:10
-#: nodepkg/file-uploader/FileUploader.js:17
+#: nodepkg/file-uploader/FileUploader.js:15
 msgid "Overwrite?"
 msgstr "¿Sobreescribir?"
 
@@ -47,7 +47,7 @@ msgstr "Pruebe de nuevo"
 
 #: amd/ngw-file-upload/template/ImageUploader.hbs:13
 #: amd/ngw-file-upload/template/Uploader.hbs:13
-#: nodepkg/file-uploader/FileUploader.js:16
+#: nodepkg/file-uploader/FileUploader.js:14
 msgid "or drag and drop here"
 msgstr "o arrastrar y soltar aquí"
 
@@ -57,11 +57,15 @@ msgid "Delete"
 msgstr "Eliminar"
 
 #: amd/ngw-file-upload/template/Uploader.hbs:9
-#: nodepkg/file-uploader/FileUploader.js:15
+#: nodepkg/file-uploader/FileUploader.js:13
 msgid "Select a file"
 msgstr "Seleccionar un archivo"
 
-#: nodepkg/file-uploader/FileUploader.js:123
+#: nodepkg/file-uploader/FileUploader.js:68
 msgid "Stop"
 msgstr "Detener"
+
+#: nodepkg/file-uploader/FileUploaderButton.js:8
+msgid "Upload"
+msgstr ""
 

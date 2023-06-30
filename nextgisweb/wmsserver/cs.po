@@ -1,11 +1,17 @@
-#: amd/ngw-wmsserver/ServiceWidget.js:55 model.py:24
-#: template/section_api_wms.mako:10
+#: amd/ngw-wmsserver/ServiceWidget.js:57 model.py:21 view.py:15
 msgid "WMS service"
 msgstr "Služba WMS"
 
 #: view.py:16
-msgid "External access"
-msgstr "Externí přístup"
+msgid ""
+"Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
+" Consortium for serving georeferenced map images. These images are typically "
+"produced by a map server from data provided by a GIS database."
+msgstr ""
+"Služba Web Map Service (WMS) je standardní protokol vyvinutý konsorciem Open "
+"Geospatial Consortium pro poskytování georeferencovaných mapových obrazů. "
+"Tyto obrázky jsou obvykle vytvářeny mapovým serverem z dat poskytovaných "
+"databází GIS."
 
 #: amd/ngw-wmsserver/template/ServiceWidget.hbs:14
 msgid "Add"
@@ -39,29 +45,19 @@ msgstr "Maximální měřítko"
 msgid "Resource"
 msgstr "Zdroj"
 
-#: template/section_api_wms.mako:11
-msgid ""
-"Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
-" Consortium for serving georeferenced map images. These images are typically "
-"produced by a map server from data provided by a GIS database."
-msgstr ""
-"Služba Web Map Service (WMS) je standardní protokol vyvinutý konsorciem Open "
-"Geospatial Consortium pro poskytování georeferencovaných mapových obrazů. "
-"Tyto obrázky jsou obvykle vytvářeny mapovým serverem z dat poskytovaných "
-"databází GIS."
-
-#: template/section_api_wms.mako:14
-msgid ""
-"https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-service-"
-"connection"
-msgstr ""
-"https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-service-"
-"connection"
-
-#: template/section_api_wms.mako:15
-msgid "Read more"
-msgstr "Přečíst více"
-
 #~ msgid "Select layer\\'s style"
 #~ msgstr "Vyberte styl vrstvy"
+
+#~ msgid "External access"
+#~ msgstr "Externí přístup"
+
+#~ msgid ""
+#~ "https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-"
+#~ "service-connection"
+#~ msgstr ""
+#~ "https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-"
+#~ "service-connection"
+
+#~ msgid "Read more"
+#~ msgstr "Přečíst více"
 

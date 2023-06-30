@@ -1,27 +1,23 @@
 #: amd/ngw-tmsclient/ConnectionWidget.js:34
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:52
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:39
 msgid "TMS connection"
 msgstr "TMS连接"
 
-#: model.py:129
+#: model.py:88
 msgid "API key required."
 msgstr "需要API密钥"
 
-#: model.py:172
+#: model.py:131
 msgid "Zoom is out of range."
 msgstr "缩放超出范围"
 
-#: amd/ngw-tmsclient/LayerWidget.js:35 model.py:180
+#: amd/ngw-tmsclient/LayerWidget.js:35 model.py:139
 msgid "TMS layer"
 msgstr "TMS图层"
 
-#: model.py:320
+#: model.py:274
 msgid "Layer name required."
 msgstr "需要图层名称"
-
-#: view.py:21
-msgid "TMS capabilities"
-msgstr "TMS功能"
 
 #: amd/ngw-tmsclient/LayersDialog.js:25
 msgid "Select layer"
@@ -114,4 +110,7 @@ msgstr "上，度"
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:75
 msgid "Tile size, px"
 msgstr "瓦片尺寸，像素"
+
+#~ msgid "TMS capabilities"
+#~ msgstr "TMS功能"
 

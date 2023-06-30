@@ -1,15 +1,23 @@
-#: __init__.py:47 amd/ngw-render/TileCacheWidget.js:25
-msgid "Tile cache"
-msgstr "Cache de tuiles"
-
-#: api.py:18
+#: api.py:22
 msgid "Invalid origin"
 msgstr "Origine invalide"
 
-#: api.py:19
+#: api.py:23
 msgid ""
 "Origin validation is enabled for rendering requests, but the given origin "
 "doesn't match with the CORS origins list."
+msgstr ""
+
+#: component.py:26 nodepkg/tile-cache-widget/TileCacheWidget.js:93
+msgid "Tile cache"
+msgstr "Cache de tuiles"
+
+#: component.py:58 nodepkg/tile-cache-widget/TileCacheWidget.js:27
+msgid "Enabled"
+msgstr "Activé"
+
+#: component.py:58
+msgid "Disabled"
 msgstr ""
 
 #: util.py:81
@@ -30,43 +38,11 @@ msgstr ""
 msgid "The value of '{}' parameter must be a non-negative integer."
 msgstr ""
 
-#: view.py:21
-msgid "External access"
-msgstr "Accès externe"
-
-#: amd/ngw-render/template/TileCacheWidget.hbs:11
-msgid "Enabled"
-msgstr "Activé"
-
-#: amd/ngw-render/template/TileCacheWidget.hbs:16
-msgid "Allow using tiles in non-tile requests"
-msgstr "Autoriser les tuiles pour les demandes d'images"
-
-#: amd/ngw-render/template/TileCacheWidget.hbs:21
-msgid "Max zoom level"
-msgstr "Niveau de zoom maximum"
-
-#: amd/ngw-render/template/TileCacheWidget.hbs:26
-msgid "TTL, sec."
-msgstr "TTL, sec."
-
-#: amd/ngw-render/template/TileCacheWidget.hbs:31
-msgid "Track changes"
-msgstr "Suivi des modifications"
-
-#: amd/ngw-render/template/TileCacheWidget.hbs:37
-msgid "Seed zoom level"
-msgstr "Ensemencement au niveau de zoom"
-
-#: amd/ngw-render/template/TileCacheWidget.hbs:42
-msgid "Flush"
-msgstr "Dégager"
-
-#: template/section_api_renderable.mako:11
+#: view.py:30
 msgid "TMS (Tile Map Service)"
 msgstr "TMS (Tile Map Service)"
 
-#: template/section_api_renderable.mako:12
+#: view.py:31
 msgid ""
 "TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
 "is a map displayed in a browser by seamlessly joining dozens of individually "
@@ -76,13 +52,42 @@ msgstr ""
 "carte Web tuilée est une carte affichée dans un navigateur en joignant de "
 "manière transparente des dizaines d'images demandées individuellement."
 
-#: template/section_api_renderable.mako:15
-msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+#: view.py:44
+msgid "Legend symbols"
 msgstr ""
-"\n"
-"https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
 
-#: template/section_api_renderable.mako:16
-msgid "Read more"
-msgstr "Lire la suite"
+#: nodepkg/tile-cache-widget/TileCacheWidget.js:36
+msgid "Allow using tiles in non-tile requests"
+msgstr "Autoriser les tuiles pour les demandes d'images"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.js:46
+msgid "Track changes"
+msgstr "Suivi des modifications"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.js:50
+msgid "Max zoom level"
+msgstr "Niveau de zoom maximum"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.js:63
+msgid "Seed zoom level"
+msgstr "Ensemencement au niveau de zoom"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.js:76
+msgid "TTL, sec."
+msgstr "TTL, sec."
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.js:88
+msgid "Flush"
+msgstr "Dégager"
+
+#~ msgid "External access"
+#~ msgstr "Accès externe"
+
+#~ msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+#~ msgstr ""
+#~ "\n"
+#~ "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
+
+#~ msgid "Read more"
+#~ msgstr "Lire la suite"
 

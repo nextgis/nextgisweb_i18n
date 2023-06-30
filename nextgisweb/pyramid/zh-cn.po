@@ -1,136 +1,136 @@
-#: __init__.py:144
-msgid "Enabled"
-msgstr "已启用"
-
-#: __init__.py:144
-msgid "Disabled"
-msgstr "已关闭"
-
-#: api.py:228
+#: api.py:224
 msgid "Required parameter 'component' is missing."
 msgstr "缺少所需的参数'component'。"
 
-#: api.py:233
+#: api.py:229
 msgid "Invalid component identity."
 msgstr "无效的ID组件"
 
-#: api.py:570
+#: api.py:566
 msgid "Your Web GIS at nextgis.com"
 msgstr "您的GIS区域网在nextgis.com上"
 
-#: exception.py:202 exception.py:263
+#: component.py:137
+msgid "Enabled"
+msgstr "已启用"
+
+#: component.py:137
+msgid "Disabled"
+msgstr "已关闭"
+
+#: exception.py:203 exception.py:264
 msgid "Internal server error"
 msgstr "服务器内部错误"
 
-#: exception.py:203
+#: exception.py:204
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
 msgstr "服务器检测到内部错误或错误的配置，无法执行您的请求。"
 
-#: exception.py:232
+#: exception.py:233
 msgid "Bad request"
 msgstr "无效请求"
 
-#: exception.py:233
+#: exception.py:234
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
 msgstr "服务器无法执行请求，因为由于其他原因，它要么不正确，要么被曲解失真"
 
-#: exception.py:240
+#: exception.py:241
 msgid "Payment required"
 msgstr "必须支付"
 
-#: exception.py:241
+#: exception.py:242
 msgid "Access was denied for financial reasons."
 msgstr "由于财务原因，访问被关闭。"
 
-#: exception.py:245
+#: exception.py:246
 msgid "Forbidden"
 msgstr "禁止进入"
 
-#: exception.py:246
+#: exception.py:247
 msgid "Access was denied to this resource."
 msgstr "禁止访问该资源"
 
-#: exception.py:250
+#: exception.py:251
 msgid "Page not found"
 msgstr "页面未找到"
 
-#: exception.py:251
+#: exception.py:252
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
 msgstr "可能，页面被删除或地址中有错误。请更改地址或返回主页面，并尝试找到所需页面。"
 
-#: exception.py:258
+#: exception.py:259
 msgid "Unprocessable entity"
 msgstr "原始目标"
 
-#: exception.py:259
+#: exception.py:260
 msgid "Unable to process the contained instructions."
 msgstr "未能处理所包含的指令。"
 
-#: exception.py:264
+#: exception.py:265
 msgid ""
 "The server has either erred or is incapable of performing the requested "
 "operation."
 msgstr "服务器要么有误，要么无法完成所请求的"
 
-#: exception.py:271 exception.py:272
+#: exception.py:272 exception.py:273
 msgid "Not implemented"
 msgstr "尚未实现"
 
-#: exception.py:276
+#: exception.py:277
 msgid "Service unavailable"
 msgstr "服务不可用"
 
-#: exception.py:277
+#: exception.py:278
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "当前服务器不可用。请稍后再试。"
 
-#: nodepkg/layout/store.js:42 view.py:81
+#: nodepkg/layout/store.js:42 view.py:97
 msgid "Control panel"
 msgstr "控制面板"
 
-#: view.py:103 view.py:481
+#: view.py:120 view.py:516
 msgid "System information"
 msgstr "系统信息"
 
-#: view.py:116 view.py:498
+#: view.py:134 view.py:533
 msgid "Storage"
 msgstr "存储"
 
-#: view.py:126 view.py:503
+#: view.py:145 view.py:538
 msgid "Backups"
 msgstr "备份"
 
-#: view.py:142 view.py:487
+#: view.py:162 view.py:522
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)（跨域资源共享）"
 
-#: view.py:150 view.py:489
+#: view.py:171 view.py:524
 msgid "Custom CSS"
 msgstr "自定义CSS"
 
-#: view.py:158 view.py:491
+#: view.py:180 view.py:526
 msgid "Custom logo"
 msgstr "徽标风格设置"
 
-#: view.py:166 view.py:485
+#: view.py:189 view.py:520
 msgid "Web GIS name"
 msgstr "GIS区域网名称"
 
-#: view.py:174 view.py:493
+#: view.py:198 view.py:528
 msgid "Home path"
 msgstr "主目录路径"
 
-#: view.py:480
+#: view.py:515
 msgid "Info"
 msgstr "信息"
 
-#: nodepkg/layout/Avatar.js:21 view.py:484
+#: nodepkg/layout/Avatar.js:22 view.py:519
 msgid "Settings"
 msgstr "设置"
 
@@ -215,25 +215,13 @@ msgstr "长时间运行的请求错误"
 msgid "Long-running request was cancelled."
 msgstr "长时间运行的请求已取消。"
 
-#: nodepkg/cors-settings/CORSSettings.js:35
-msgid "CORS settings updated"
-msgstr "CORS设置已更新"
-
-#: nodepkg/cors-settings/CORSSettings.js:42
-msgid "Fix the form errors first"
-msgstr "首先纠正表单中的错误"
-
-#: nodepkg/cors-settings/CORSSettings.js:62
-msgid "The value entered is not valid"
-msgstr "输入的值是无效的"
-
-#: nodepkg/cors-settings/CORSSettings.js:90
+#: nodepkg/cors-settings/CORSSettings.js:17
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
 msgstr "请输入跨域请求的允许来源，以便在其他网站上使用此GIS区域网的HTTP API。 每行一个源点。"
 
-#: nodepkg/cors-settings/CORSSettings.js:95
+#: nodepkg/cors-settings/CORSSettings.js:20
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
@@ -242,11 +230,23 @@ msgstr ""
 "请注意，不同的协议（HTTP和HTTPS）和子域（example.com 和www.example.com）是不同的起源。 "
 "第三级域和更高级域允许使用通配符。"
 
-#: nodepkg/custom-css-form/CustomCSSForm.js:33
+#: nodepkg/cors-settings/CORSSettings.js:47
+msgid "CORS settings updated"
+msgstr "CORS设置已更新"
+
+#: nodepkg/cors-settings/CORSSettings.js:52
+msgid "Fix the form errors first"
+msgstr "首先纠正表单中的错误"
+
+#: nodepkg/cors-settings/CORSSettings.js:72
+msgid "The value entered is not valid"
+msgstr "输入的值是无效的"
+
+#: nodepkg/custom-css-form/CustomCSSForm.js:35
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr "自定义样式以保存。更新页面，以获得变化信息。"
 
-#: nodepkg/custom-css-form/CustomCSSForm.js:63
+#: nodepkg/custom-css-form/CustomCSSForm.js:57
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -262,15 +262,15 @@ msgstr "已翻译的文章"
 msgid "The home path setting is saved."
 msgstr "主页路径设置已保存。"
 
-#: nodepkg/layout/Avatar.js:9
+#: nodepkg/layout/Avatar.js:10
 msgid "Sign in"
 msgstr "登录"
 
-#: nodepkg/layout/Avatar.js:18
+#: nodepkg/layout/Avatar.js:19
 msgid "Invitation session"
 msgstr "会话邀请"
 
-#: nodepkg/layout/Avatar.js:23
+#: nodepkg/layout/Avatar.js:24
 msgid "Sign out"
 msgstr "退出"
 
@@ -383,17 +383,33 @@ msgstr "时间（UTC）"
 msgid "Size"
 msgstr "尺寸"
 
-#: template/sysinfo.mako:35
+#: template/sysinfo.mako:38
 msgid "Package"
 msgstr "包（组）"
 
-#: template/sysinfo.mako:36
+#: template/sysinfo.mako:39
 msgid "Version"
 msgstr "版本"
 
-#: template/sysinfo.mako:71
+#: template/sysinfo.mako:74
 msgid "Platform"
 msgstr "平台"
+
+#: template/sysinfo.mako:89
+msgid "Browser support"
+msgstr ""
+
+#: template/sysinfo.mako:100
+msgid "or higher"
+msgstr ""
+
+#: template/sysinfo.mako:102
+msgid "Not supported"
+msgstr ""
+
+#: template/sysinfo.mako:114
+msgid "Your browser"
+msgstr ""
 
 #: template/uacompat.mako:4
 msgid "Browser compatibility test"

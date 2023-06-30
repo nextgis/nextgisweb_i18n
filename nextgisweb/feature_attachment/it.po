@@ -1,90 +1,86 @@
-#: __init__.py:12
+#: component.py:11
 msgid "Feature attachments"
 msgstr ""
 
-#: api.py:228
-msgid "Invalid ZIP archive."
-msgstr ""
-
-#: api.py:256
-msgid "File '{}' isn't found in metadata."
-msgstr ""
-
-#: api.py:261
-msgid "Invalid name for file '{}'."
-msgstr ""
-
-#: api.py:267
-msgid "Invalid feature ID for file '{}'."
-msgstr ""
-
-#: api.py:273
-msgid "Invalid MIME type for file '{}'."
-msgstr ""
-
-#: api.py:279
-msgid "Invalid description for file '{}'."
-msgstr ""
-
-#: api.py:291
-msgid "Could not determine feature ID for file '{}'."
-msgstr ""
-
-#: api.py:308
-msgid "File '{}' isn't found in the archive."
-msgstr ""
-
-#: exception.py:12
+#: exception.py:11
 msgid "Attachment not found"
 msgstr "Allegato non trovato"
 
-#: exception.py:13
+#: exception.py:12
 #, python-format
 msgid "Attachment with id = %d was not found in feature with id = %d."
 msgstr "L'allegato con id = %d non è stato trovato nell'elemento con id = %d."
 
-#: exception.py:14
+#: exception.py:13
 msgid "The attachment may have been deleted or an error in the address."
 msgstr ""
 "L'allegato potrebbe essere stato cancellato, o è presente un errore "
 "nell'indirizzo."
 
-#: view.py:19 view.py:40
+#: util.py:29
+msgid "Invalid ZIP archive."
+msgstr ""
+
+#: util.py:57
+msgid "File '{}' isn't found in metadata."
+msgstr ""
+
+#: util.py:62
+msgid "Invalid name for file '{}'."
+msgstr ""
+
+#: util.py:68
+msgid "Invalid feature ID for file '{}'."
+msgstr ""
+
+#: util.py:74
+msgid "Invalid MIME type for file '{}'."
+msgstr ""
+
+#: util.py:80
+msgid "Invalid description for file '{}'."
+msgstr ""
+
+#: util.py:92
+msgid "Could not determine feature ID for file '{}'."
+msgstr ""
+
+#: util.py:109
+msgid "File '{}' isn't found in the archive."
+msgstr ""
+
+#: view.py:21 view.py:42
 msgid "Manage attachments"
 msgstr ""
 
 #: amd/ngw-feature-attachment/DisplayWidget.js:36
-#: amd/ngw-feature-attachment/EditorWidget.js:109
+#: amd/ngw-feature-attachment/EditorWidget.js:19
 msgid "Attachments"
 msgstr "Allegati"
 
 #: amd/ngw-feature-attachment/DisplayWidget.js:91
-#: amd/ngw-feature-attachment/EditorWidget.js:76
+#: nodepkg/attachment-editor/AttachmentEditor.js:176
 msgid "File name"
 msgstr "Nome del file"
 
 #: amd/ngw-feature-attachment/DisplayWidget.js:91
-#: amd/ngw-feature-attachment/EditorWidget.js:84
+#: nodepkg/attachment-editor/AttachmentEditor.js:182
 msgid "Size"
 msgstr "Dimensione"
 
 #: amd/ngw-feature-attachment/DisplayWidget.js:91
-#: amd/ngw-feature-attachment/EditorWidget.js:90
+#: nodepkg/attachment-editor/AttachmentEditor.js:188
 msgid "MIME type"
 msgstr "Tipo MIME"
 
 #: amd/ngw-feature-attachment/DisplayWidget.js:91
-#: amd/ngw-feature-attachment/EditorWidget.js:97
+#: nodepkg/attachment-editor/AttachmentEditor.js:193
 msgid "Description"
 msgstr "Descrizione"
 
-#: amd/ngw-feature-attachment/EditorWidget.js:130
-msgid "Upload"
-msgstr "Carica"
-
-#: amd/ngw-feature-attachment/EditorWidget.js:153
-msgid "Delete"
-msgstr "Eliminazione"
+#: nodepkg/attachment-editor/AttachmentEditor.js:150
+msgid "Preview"
+msgstr ""
 
 #: nodepkg/attachment-form/AttachmentForm.js:48
 msgid ""
@@ -136,4 +132,10 @@ msgstr ""
 #: nodepkg/attachment-form/AttachmentForm.js:162
 msgid "Import"
 msgstr ""
+
+#~ msgid "Upload"
+#~ msgstr "Carica"
+
+#~ msgid "Delete"
+#~ msgstr "Eliminazione"
 

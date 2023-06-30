@@ -1,19 +1,15 @@
 #: amd/ngw-wmsclient/ConnectionWidget.js:34
-#: amd/ngw-wmsclient/template/LayerWidget.hbs:16 model.py:47
+#: amd/ngw-wmsclient/template/LayerWidget.hbs:16 model.py:44
 msgid "WMS connection"
 msgstr "WMS连接"
 
-#: amd/ngw-wmsclient/LayerWidget.js:45 model.py:179
+#: amd/ngw-wmsclient/LayerWidget.js:45 model.py:177
 msgid "WMS layer"
 msgstr "WMS图层"
 
 #: view.py:27
 msgid "WMS capabilities"
 msgstr "WMS功能"
-
-#: view.py:35
-msgid "WMS vendor parameters"
-msgstr "WMS供应商参数"
 
 #: amd/ngw-wmsclient/LayerVendorParamsWidget.js:44
 #: template/section_vendor_params.mako:6
@@ -97,4 +93,7 @@ msgstr "图层"
 #: template/section_connection.mako:27
 msgid "Title"
 msgstr "标题"
+
+#~ msgid "WMS vendor parameters"
+#~ msgstr "WMS供应商参数"
 

@@ -239,7 +239,7 @@ msgstr "No"
 
 #: nodepkg/group-widget/GroupWidget.js:50
 msgid "{dn} mapping"
-msgstr ""
+msgstr "{dn} mapping"
 
 #: nodepkg/group-widget/GroupWidget.js:57 nodepkg/user-widget/UserWidget.js:97
 msgid "Description"
@@ -371,7 +371,7 @@ msgstr "El enlace generado estará disponible después de guardar."
 
 #: nodepkg/user-widget/UserWidgetPassword.js:18
 msgid "{name} only"
-msgstr ""
+msgstr "solo {name}"
 
 #~ msgid "System principals couldn't be chanded."
 #~ msgstr "Las principales del sistema no se pueden cambiar."

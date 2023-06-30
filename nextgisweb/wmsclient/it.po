@@ -1,69 +1,53 @@
-#: template/browse.mako:92
-msgid "Timestamp"
-msgstr "Timestamp"
+#: amd/ngw-wmsclient/ConnectionWidget.js:34
+#: amd/ngw-wmsclient/template/LayerWidget.hbs:16 model.py:44
+msgid "WMS connection"
+msgstr "Connessione WMS"
 
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
-msgid "Password"
-msgstr "Password"
+#: amd/ngw-wmsclient/LayerWidget.js:45 model.py:177
+msgid "WMS layer"
+msgstr "Layer WMS"
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:115
-msgid "Delete"
-msgstr "Eliminazione"
+#: view.py:27
+msgid "WMS capabilities"
+msgstr "WMS capabilities"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:231
-msgid "Add"
-msgstr "Aggiungi"
-
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:46
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:44
 #: template/section_vendor_params.mako:6
 msgid "Key"
 msgstr "Chiave"
 
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:55
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:53
 #: template/section_vendor_params.mako:7
 msgid "Value"
 msgstr "Valore"
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
-msgid "Coordinate system"
-msgstr "Sistema di coordinate"
-
-#: template/sysinfo.mako:21
-msgid "Version"
-msgstr "Versione"
-
-#: amd/ngw-webmap/ui/LayersPanel/LayersPanel.hbs:8
-msgid "Layer"
-msgstr "Layer"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:38
-msgid "Username"
-msgstr "Nome utente"
-
-#: amd/ngw-wmsclient/ConnectionWidget.js:37
-#: amd/ngw-wmsclient/template/LayerWidget.hbs:16 model.py:49
-msgid "WMS connection"
-msgstr "Connessione WMS"
-
-#: amd/ngw-wmsclient/LayerWidget.js:48 model.py:176
-msgid "WMS layer"
-msgstr "Layer WMS"
-
-#: view.py:30
-msgid "WMS capabilities"
-msgstr "WMS capabilities"
-
-#: view.py:38
-msgid "WMS vendor parameters"
-msgstr "Parametri personalizzati del WMS"
-
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:66
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:64
 msgid "Vendor parameters"
 msgstr "Parametri personalizzati"
+
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:90
+msgid "Add"
+msgstr "Aggiungi"
+
+#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:96
+msgid "Delete"
+msgstr "Eliminazione"
 
 #: amd/ngw-wmsclient/template/ConnectionWidget.hbs:10
 msgid "URL"
 msgstr "URL"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:16
+msgid "Username"
+msgstr "Nome utente"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:22
+msgid "Password"
+msgstr "Password"
+
+#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:27
+msgid "Version"
+msgstr "Versione"
 
 #: amd/ngw-wmsclient/template/ConnectionWidget.hbs:31
 msgid "Capabilities"
@@ -85,6 +69,10 @@ msgstr "Pulisci"
 msgid "Select WMS connection"
 msgstr "Seleziona la connessione WMS"
 
+#: amd/ngw-wmsclient/template/LayerWidget.hbs:22
+msgid "Coordinate system"
+msgstr "Sistema di coordinate"
+
 #: amd/ngw-wmsclient/template/LayerWidget.hbs:29
 #: template/section_connection.mako:15
 msgid "Image format"
@@ -94,7 +82,18 @@ msgstr "Formato immagine"
 msgid "WMS layers"
 msgstr "Layers WMS"
 
+#: template/section_connection.mako:7
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: template/section_connection.mako:26
+msgid "Layer"
+msgstr "Layer"
+
 #: template/section_connection.mako:27
 msgid "Title"
 msgstr "Titolo"
+
+#~ msgid "WMS vendor parameters"
+#~ msgstr "Parametri personalizzati del WMS"
 
