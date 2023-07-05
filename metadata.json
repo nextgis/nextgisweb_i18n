@@ -2,7 +2,6 @@
   "locales": ["bg", "cs", "de", "es", "fr", "it", "pt", "zh-cn"],
   "packages": [
     "nextgisweb",
-    "nextgisweb_basemap",
     "nextgisweb_cadaster",
     "nextgisweb_collector",
     "nextgisweb_formbuilder",
