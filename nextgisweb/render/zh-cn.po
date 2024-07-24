@@ -1,90 +1,56 @@
-#: api.py:22
+#: api.py:82
 msgid "Invalid origin"
 msgstr "无效原点"
 
-#: api.py:23
+#: api.py:83
 msgid ""
 "Origin validation is enabled for rendering requests, but the given origin "
 "doesn't match with the CORS origins list."
 msgstr "对呈现请求启用了源验证，但指定的源与有效CORS源列表不匹配。"
 
-#: component.py:26 nodepkg/tile-cache-widget/TileCacheWidget.js:93
+#: api.py:158
+msgid "Invalid symbols sequence"
+msgstr ""
+
+#: component.py:24 nodepkg/tile-cache-widget/TileCacheWidget.tsx:93
 msgid "Tile cache"
 msgstr "切片缓存"
 
-#: component.py:58 nodepkg/tile-cache-widget/TileCacheWidget.js:27
+#: component.py:51 nodepkg/tile-cache-widget/TileCacheWidget.tsx:50
 msgid "Enabled"
 msgstr "已启用"
 
-#: component.py:58
+#: component.py:51
 msgid "Disabled"
 msgstr ""
 
-#: util.py:81
-msgid "Required parameter '{}' is missing."
-msgstr "缺少所需的参数'{}'。"
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:58
+msgid "Allow using tiles in non-tile requests"
+msgstr "允许使用瓦片用于非瓦片请求"
 
-#: util.py:86
-msgid "Placeholders {x}, {y} and {z} must be filled with values."
-msgstr "占位符{x}、{y}和{z}必须填充数值。"
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:62
+msgid "Max zoom level"
+msgstr "最大缩放级别"
 
-#: util.py:88
-msgid ""
-"It seems you are trying to open an URL template directly in a browser. To "
-"test it try adding some values for 'x', 'y' and 'z' parameters."
-msgstr "看起来您正在尝试直接在浏览器中打开URL模板链接。 测试它，请尝试为'x'，'y'和'z'添加一些参数值。"
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:71
+msgid "TTL, sec."
+msgstr "TTL,秒"
 
-#: util.py:93
-msgid "The value of '{}' parameter must be a non-negative integer."
-msgstr "参数'{}'的值必须是非负整数。"
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:85
+msgid "Flush"
+msgstr "清除"
 
-#: view.py:30
+#: view.py:25
 msgid "TMS (Tile Map Service)"
 msgstr "TMS（瓦片地图服务）"
 
-#: view.py:31
+#: view.py:26
 msgid ""
 "TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
 "is a map displayed in a browser by seamlessly joining dozens of individually "
 "requested image."
 msgstr "TMS(瓦片地图服务)是图块区域网地图的一种规范。图块区域网地图是通过无缝连接数十个单独加入的图像（图块）而在浏览器上显示出来的地图。"
 
-#: view.py:44
+#: view.py:42
 msgid "Legend symbols"
 msgstr ""
-
-#: nodepkg/tile-cache-widget/TileCacheWidget.js:36
-msgid "Allow using tiles in non-tile requests"
-msgstr "允许使用瓦片用于非瓦片请求"
-
-#: nodepkg/tile-cache-widget/TileCacheWidget.js:46
-msgid "Track changes"
-msgstr "轨迹更改"
-
-#: nodepkg/tile-cache-widget/TileCacheWidget.js:50
-msgid "Max zoom level"
-msgstr "最大缩放级别"
-
-#: nodepkg/tile-cache-widget/TileCacheWidget.js:63
-msgid "Seed zoom level"
-msgstr "种子缩放级别"
-
-#: nodepkg/tile-cache-widget/TileCacheWidget.js:76
-msgid "TTL, sec."
-msgstr "TTL,秒"
-
-#: nodepkg/tile-cache-widget/TileCacheWidget.js:88
-msgid "Flush"
-msgstr "清除"
-
-#~ msgid "External access"
-#~ msgstr "外部访问"
-
-#~ msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
-#~ msgstr ""
-#~ "\n"
-#~ "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
-
-#~ msgid "Read more"
-#~ msgstr "详情"
-

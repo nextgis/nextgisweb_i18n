@@ -1,0 +1,230 @@
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
+#, amd
+msgid "Starting screen"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
+#, amd
+msgid "NextGIS Collector user credentials"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
+#, amd
+msgid "User name"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
+#, amd
+msgid "Password"
+msgstr "Пароль"
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:44
+#, amd
+msgid "Project"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:47
+#, amd
+msgid "List of forms"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:48
+#, amd
+msgid "Map"
+msgstr "Карта"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
+#, amd
+msgid "Add item"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:114
+#, amd
+msgid "Add group"
+msgstr "Дадаць групу"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
+#, amd
+msgid "Remove"
+msgstr "Выдаліць"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:120
+#, amd
+msgid "Display name"
+msgstr "Адлюстроўваемае імя"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
+#, amd
+msgid "Visible"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
+#, amd
+msgid "Editable"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
+#, amd
+msgid "Syncable"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
+#, amd
+msgid "Lifetime for tiles (in min)"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
+#, amd
+msgid "Min zoom"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
+#, amd
+msgid "Max zoom"
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
+#, amd
+msgid "Resource"
+msgstr "Рэсурс"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:124
+#, amd
+msgid "Expanded"
+msgstr "Разгорнуты"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:55
+#, amd
+msgid "Items"
+msgstr "Прадметы"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
+#, amd
+msgid "You have no permissions to manage this section."
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
+#, amd
+msgid "Manage collectors"
+msgstr "Кіраванне збіральнікамі"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
+#, amd
+msgid "Give access to this project for the following collectors:"
+msgstr "Дайце доступ да гэтага праекта наступным збіральнікам:"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
+#, amd
+msgid "Users"
+msgstr "Карыстальнікі"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:52
+#, amd
+msgid "Collectors"
+msgstr "Збіральнікі"
+
+#: api/collector_user.py:33
+#, server
+msgid "Membership in group \"Administrators\" required!"
+msgstr ""
+
+#: api/collector_user.py:95 api/collector_user.py:121
+#, server
+msgid ""
+"Unfortunately, you cannot add a new collector. Your collector users limit in "
+"the Web GIS is"
+msgstr ""
+
+#: models/model_db.py:49
+#, server
+msgid "Collector project"
+msgstr "Праект калектара"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:16
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:18
+#, jsrealm
+msgid "NextGIS ID"
+msgstr "NextGIS ID"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:22
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
+#, jsrealm
+msgid "Description"
+msgstr "Апісанне"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:28
+#, jsrealm
+msgid "Added"
+msgstr "Дададзена"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:43
+#, jsrealm
+msgid "You cannot add a new collector. Your collector users limit"
+msgstr ""
+
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:23
+#, jsrealm
+msgid "The value entered is not valid"
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:21
+#, jsrealm
+msgid "Collector users:"
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:21
+#, jsrealm
+msgid "out of"
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:28
+#, jsrealm
+msgid "Each collector must have "
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:29
+#, jsrealm
+msgid "NextGIS ID account"
+msgstr ""
+
+#: nodepkg/userMessages.ts:5
+#, jsrealm
+msgid "Delete collector?"
+msgstr ""
+
+#: nodepkg/userMessages.ts:6
+#, jsrealm
+msgid "Collector deleted"
+msgstr ""
+
+#: scope.py:8
+#, server
+msgid "Collector"
+msgstr ""
+
+#: scope.py:10
+#, server
+msgid "Read"
+msgstr "Чытаць"
+
+#: views/__init__.py:26
+#, server
+msgid "Collector projects"
+msgstr "Праекты Collector"
+
+#: views/settings.py:14
+#, server
+msgid "List of collectors"
+msgstr "Спіс зібаральнікаў"
+
+#: views/settings.py:28
+#, server
+msgid "Create new collector"
+msgstr ""
+
+#: views/settings.py:35
+#, server
+msgid "Edit collector"
+msgstr "Рэдагаваць збіральніка"

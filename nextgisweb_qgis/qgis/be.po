@@ -1,0 +1,105 @@
+#: api.py:38
+#, server
+msgid ""
+"The original QML was requested but the style has '{}' format. Use other "
+"values of the 'original' parameter."
+msgstr ""
+
+#: model.py:155
+#, server
+msgid "QGIS raster style"
+msgstr ""
+
+#: model.py:206
+#, server
+msgid "Band {}"
+msgstr ""
+
+#: model.py:256
+#, server
+msgid "QGIS vector style"
+msgstr ""
+
+#: model.py:462 model.py:476 model.py:508
+#, server
+msgid "Style format mismatch."
+msgstr ""
+
+#: model.py:506 model.py:660
+#, server
+msgid "Style file is not valid."
+msgstr ""
+
+#: model.py:658
+#, server
+msgid "Layer type mismatch."
+msgstr ""
+
+#: nodepkg/CopyFromComponent.tsx:7
+#, jsrealm
+msgid "Source"
+msgstr ""
+
+#: nodepkg/default-style-widget/DefaultStyleWidget.tsx:12
+#, jsrealm
+msgid "Create default QGIS style"
+msgstr ""
+
+#: nodepkg/default-style-widget/DefaultStyleWidget.tsx:13
+#, jsrealm
+msgid ""
+"Layer created. You need a style to add it to a web map. Use the button bellow"
+" to create a default QGIS style or create a style resource using sidebar."
+msgstr ""
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:30
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:31
+#, jsrealm
+msgid "Style from file"
+msgstr ""
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:31
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:32
+#, jsrealm
+msgid "User-defined style"
+msgstr ""
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:32
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:33
+#, jsrealm
+msgid "Default style"
+msgstr ""
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:33
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:34
+#, jsrealm
+msgid "Copy from resource"
+msgstr ""
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:66
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:68 view.py:38
+#, jsrealm, server
+msgid "QGIS style"
+msgstr "Стыль QGIS"
+
+#: nodepkg/raster-editor-widget/component/FileModeComponent.tsx:9
+#: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:10
+#, jsrealm
+msgid "Select a style"
+msgstr ""
+
+#: nodepkg/raster-editor-widget/component/FileModeComponent.tsx:10
+#: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:11
+#, jsrealm
+msgid "QML or SLD formats are supported."
+msgstr ""
+
+#: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:12
+#, jsrealm
+msgid "SVG marker library"
+msgstr "Бібліятэка маркераў SVG"
+
+#: view.py:41
+#, server
+msgid "QML file"
+msgstr "YML файл"

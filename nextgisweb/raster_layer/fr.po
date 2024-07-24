@@ -1,13 +1,12 @@
-#: api.py:48
+#: api.py:46
 msgid "Output format is not provided."
 msgstr "Le format de sortie n'est pas fourni."
 
-#: api.py:51
-#, python-format
+#: api.py:49
 msgid "Format '%s' is not supported."
 msgstr "Le format '% s' est pas pris en charge."
 
-#: api.py:102
+#: api.py:94
 msgid "Requested raster is not COG."
 msgstr "Le raster demandé n'est pas COG."
 
@@ -16,7 +15,6 @@ msgid "Range header is missed or invalid."
 msgstr "L'en-tête de plage est manquant ou invalide."
 
 #: api.py:110
-#, python-format
 msgid "Range %s can not be read."
 msgstr "Impossible de lire la plage %s"
 
@@ -24,16 +22,15 @@ msgstr "Impossible de lire la plage %s"
 msgid "Rasters and pyramids"
 msgstr "Rasters et pyramides"
 
-#: amd/ngw-raster-layer/Widget.js:30 model.py:56 view.py:56
+#: model.py:69 nodepkg/editor-widget/EditorWidget.tsx:47 view.py:58
 msgid "Raster layer"
 msgstr "Couche raster"
 
-#: model.py:77
+#: model.py:101
 msgid "GDAL library was unable to open the file."
 msgstr "La bibliothèque GDAL n'a pas pu ouvrir le fichier."
 
-#: model.py:85
-#, python-format
+#: model.py:109
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
 " %(all_formats)s."
@@ -41,37 +38,35 @@ msgstr ""
 "Le raster a le format '%(format)s', mais seuls les formats suivants sont pris"
 " en charge : %(all_formats)s."
 
-#: model.py:90
+#: model.py:116
 msgid "Raster files without projection info are not supported."
 msgstr ""
 "Les fichiers raster sans informations de projection ne sont pas pris en "
 "charge."
 
-#: model.py:109
+#: model.py:135
 msgid "Mixed band data types are not supported."
 msgstr "Les types de données à bandes mixtes ne sont pas pris en charge."
 
-#: model.py:136
+#: model.py:163
 msgid "GDAL was uanble to parse the raster coordinate system."
 msgstr ""
 
-#: model.py:140
+#: model.py:167
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
 
-#: model.py:156
+#: model.py:184
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr ""
 
-#: model.py:159
-#, python-format
+#: model.py:187
 msgid "GDAL error message: %s"
 msgstr ""
 
-#: model.py:172
-#, python-format
+#: model.py:203
 msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
@@ -79,15 +74,47 @@ msgstr ""
 "La taille du raster non compressé (%(taille)s) dépasse la limite (%(limite)s)"
 " de %(delta)s. Réduisez la taille du raster pour respecter la limite."
 
-#: model.py:259
+#: model.py:315
 msgid "Data type"
 msgstr "Type de données"
 
-#: model.py:260
+#: model.py:316
 msgid "COG"
 msgstr "COG"
 
-#: view.py:25 view.py:60
+#: nodepkg/editor-widget/EditorWidget.tsx:16
+msgid "Select a dataset"
+msgstr "Sélectionnez un jeu de données"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:17
+msgid "Dataset should be in GeoTIFF format."
+msgstr "Le jeu de données doit être au format GeoTIFF."
+
+#: nodepkg/editor-widget/EditorWidget.tsx:39
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.tsx:55
+msgid "Band"
+msgstr "Bande"
+
+#: nodepkg/export-form/ExportForm.tsx:79
+msgid "Format"
+msgstr "Format"
+
+#: nodepkg/export-form/ExportForm.tsx:91
+msgid "SRS"
+msgstr "SCR"
+
+#: nodepkg/export-form/ExportForm.tsx:96
+msgid "Bands"
+msgstr "Bandes"
+
+#: nodepkg/export-form/ExportForm.tsx:129
+msgid "Save"
+msgstr "Enregistrer"
+
+#: view.py:25 view.py:63
 msgid "Save as"
 msgstr "Enregistrer sous"
 
@@ -109,49 +136,6 @@ msgstr ""
 "faire, il exploite la capacité des clients émettant des requêtes de plage "
 "HTTP GET à ne demander que les parties d'un fichier dont ils ont besoin."
 
-#: view.py:66
+#: view.py:69
 msgid "Download"
 msgstr ""
-
-#: amd/ngw-raster-layer/template/Widget.hbs:4
-msgid "Select a dataset"
-msgstr "Sélectionnez un jeu de données"
-
-#: amd/ngw-raster-layer/template/Widget.hbs:5
-msgid "Dataset should be in GeoTIFF format."
-msgstr "Le jeu de données doit être au format GeoTIFF."
-
-#: amd/ngw-raster-layer/template/Widget.hbs:9
-msgid "Coordinate system"
-msgstr "Système de coordonnées"
-
-#: amd/ngw-raster-layer/template/Widget.hbs:14
-msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr ""
-
-#: nodepkg/export-form/ExportForm.js:24
-msgid "Band"
-msgstr "Bande"
-
-#: nodepkg/export-form/ExportForm.js:66
-msgid "Format"
-msgstr "Format"
-
-#: nodepkg/export-form/ExportForm.js:75
-msgid "SRS"
-msgstr "SCR"
-
-#: nodepkg/export-form/ExportForm.js:81
-msgid "Bands"
-msgstr "Bandes"
-
-#: nodepkg/export-form/ExportForm.js:116
-msgid "Save"
-msgstr "Enregistrer"
-
-#~ msgid "Complex data types are not supported."
-#~ msgstr "Les types de données complexes ne sont pas pris en charge."
-
-#~ msgid "External access"
-#~ msgstr "Accès externe"
-

@@ -1,0 +1,4 @@
+#: favorite.py:5 view.py:37 view.py:62
+#, server
+msgid "Preview"
+msgstr "Прадпрагляд"

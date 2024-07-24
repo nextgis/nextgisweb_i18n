@@ -1,74 +1,52 @@
-#: __init__.py:46
-msgid "Guest"
-msgstr "Convidado"
+#: api.py:81
+msgid "The '%s' attribute of the system principal can't be changed."
+msgstr ""
 
-#: __init__.py:52
-msgid "Everyone"
-msgstr "Todos"
+#: api.py:88
+msgid "Principal '%s' already exists."
+msgstr ""
 
-#: __init__.py:58
-msgid "Authenticated"
-msgstr "Autenticados"
+#: api.py:90
+msgid "Principal with full name '%s' already exists."
+msgstr ""
 
-#: __init__.py:66
-msgid "Administrators"
-msgstr "Administradores"
+#: api.py:160
+msgid "Password is not set."
+msgstr ""
 
-#: __init__.py:69
+#: api.py:586
+msgid "User '%s' can't be a member of a group."
+msgstr ""
+
+#: api.py:592
+msgid "System principals can't be deleted."
+msgstr ""
+
+#: api.py:607
+msgid "User is referenced with resources"
+msgstr ""
+
+#: api.py:609
+msgid "Group is referenced with resources"
+msgstr ""
+
+#: api.py:615
+msgid "Administrator required"
+msgstr ""
+
+#: api.py:616
+msgid "The 'administrators' group must have at least one enabled member."
+msgstr ""
+
+#: component.py:48
 msgid "Administrator"
 msgstr "Administrador"
 
-#: __init__.py:78
-msgid "Owner"
-msgstr "Proprietário"
-
-#: __init__.py:292
-#, python-format
+#: component.py:258
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Foi atingido o número máximo de utilizadores. O limite de número de "
 "utilizadores do seu plano atual é de %d."
-
-#: api.py:320
-#, python-format
-msgid "The '%s' attribute of the system principal can't be changed."
-msgstr ""
-
-#: api.py:329
-#, python-format
-msgid "Principal '%s' already exists."
-msgstr ""
-
-#: api.py:331
-#, python-format
-msgid "Principal with full name '%s' already exists."
-msgstr ""
-
-#: api.py:367
-#, python-format
-msgid "User '%s' can't be a member of a group."
-msgstr ""
-
-#: api.py:373
-msgid "System principals can't be deleted."
-msgstr ""
-
-#: api.py:389
-msgid "User is referenced with resources"
-msgstr ""
-
-#: api.py:390
-msgid "Group is referenced with resources"
-msgstr ""
-
-#: api.py:402
-#, python-format
-msgid "Invalid principal name: '%s'."
-msgstr ""
-
-#: api.py:437
-msgid "The 'administrators' group must have at least one enabled member."
-msgstr ""
 
 #: exception.py:7
 msgid "Invalid authorization header"
@@ -86,234 +64,156 @@ msgstr "O utilizador está desativado"
 msgid "Invalid authorization link"
 msgstr ""
 
-#: model.py:169
-msgid "Password is not set."
-msgstr ""
+#: model.py:92
+msgid "Guest"
+msgstr "Convidado"
 
-#: oauth.py:210
-msgid "{} binding error"
-msgstr ""
+#: model.py:93
+msgid "Everyone"
+msgstr "Todos"
 
-#: oauth.py:211
-msgid ""
-"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
-"in using this account instead of binding it."
-msgstr ""
+#: model.py:94
+msgid "Authenticated"
+msgstr "Autenticados"
 
-#: oauth.py:534
-msgid "OAuth authorization error"
-msgstr "Erro de autorização OAuth"
+#: model.py:95
+msgid "Owner"
+msgstr "Proprietário"
 
-#: oauth.py:539
-msgid "Invalid OAuth token"
-msgstr "Token OAuth inválido"
+#: model.py:202
+msgid "Administrators"
+msgstr "Administradores"
 
-#: oauth.py:544
-msgid "Invalid OAuth scope"
-msgstr ""
-
-#: oauth.py:549
-msgid "OAuth password grant type failed"
-msgstr ""
-
-#: oauth.py:554
-msgid "OAuth token refresh failed"
-msgstr "Falha na atualização do token OAuth"
-
-#: oauth.py:559
-msgid "OAuth access token is expired"
-msgstr "Token OAuth de acesso expirou"
-
-#: nodepkg/login-form/LoginForm.js:16 view.py:49
-msgid "Sign in to Web GIS"
-msgstr "Entrar no Web GIS"
-
-#: view.py:71
-msgid "Session not found."
-msgstr ""
-
-#: view.py:75
-msgid "Invalid 'expires' parameter."
-msgstr ""
-
-#: view.py:78
-msgid "Session expired."
-msgstr ""
-
-#: view.py:98
-msgid ""
-"Failed to authenticate using the given authorization link. Please check the "
-"link and contact the administrator."
-msgstr ""
-
-#: view.py:106
-msgid "Usage of authorization link is forbidden for administrators."
-msgstr ""
-
-#: view.py:145
-msgid "Team membership required"
-msgstr ""
-
-#: view.py:146
-msgid ""
-"You are not a member of this Web GIS team. Contact Web GIS administrator and "
-"ask to be added to the team."
-msgstr ""
-
-#: view.py:277
-msgid "User settings"
-msgstr "Configurações do utilizador"
-
-#: nodepkg/group-widget/GroupWidget.js:30 view.py:284 view.py:399
-msgid "Users"
-msgstr "Utilizadores"
-
-#: view.py:297
-msgid "Create new user"
-msgstr "Criar novo utilizador"
-
-#: nodepkg/user-widget/UserWidget.js:80 view.py:312 view.py:403
-msgid "Groups"
-msgstr "Grupos"
-
-#: view.py:325
-msgid "Create new group"
-msgstr "Criar novo grupo"
-
-#: view.py:407
-msgid "Groups and users"
-msgstr ""
-
-#: nodepkg/browse.js:9 nodepkg/userMessages.js:5
-msgid "Delete user?"
-msgstr ""
-
-#: nodepkg/browse.js:9 nodepkg/groupMessages.js:5
+#: nodepkg/group-browse/GroupBrowse.tsx:8 nodepkg/group-widget/GroupWidget.tsx:19
 msgid "Delete group?"
 msgstr ""
 
-#: nodepkg/browse.js:11
-msgid "Confirmation"
-msgstr ""
-
-#: nodepkg/groupMessages.js:6
+#: nodepkg/group-browse/GroupBrowse.tsx:9 nodepkg/group-widget/GroupWidget.tsx:20
 msgid "Group deleted"
 msgstr ""
 
-#: nodepkg/oauth.js:25
-msgid "Manage team"
-msgstr ""
-
-#: nodepkg/userMessages.js:6
-msgid "User deleted"
-msgstr ""
-
-#: nodepkg/group-browse/GroupBrowse.js:9 nodepkg/group-widget/GroupWidget.js:19
-#: nodepkg/user-browse/UserBrowse.js:20 nodepkg/user-widget/UserWidget.js:35
+#: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
+#: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:42
 msgid "Full name"
 msgstr "Nome completo"
 
-#: nodepkg/group-browse/GroupBrowse.js:15 nodepkg/group-widget/GroupWidget.js:24
+#: nodepkg/group-browse/GroupBrowse.tsx:25 nodepkg/group-widget/GroupWidget.tsx:34
 msgid "Group name"
 msgstr "Nome do grupo"
 
-#: nodepkg/group-browse/GroupBrowse.js:21 nodepkg/group-widget/GroupWidget.js:42
+#: nodepkg/group-browse/GroupBrowse.tsx:31 nodepkg/group-widget/GroupWidget.tsx:59
 msgid "New users"
 msgstr ""
 
-#: nodepkg/group-browse/GroupBrowse.js:25 nodepkg/group-browse/GroupBrowse.js:35
-#: nodepkg/user-browse/UserBrowse.js:50 nodepkg/user-browse/UserBrowse.js:60
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:27
 msgid "Yes"
 msgstr ""
 
-#: nodepkg/group-browse/GroupBrowse.js:25 nodepkg/group-browse/GroupBrowse.js:35
-#: nodepkg/user-browse/UserBrowse.js:50 nodepkg/user-browse/UserBrowse.js:60
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:28
 msgid "No"
 msgstr ""
 
-#: nodepkg/group-widget/GroupWidget.js:50
+#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:285 view.py:378
+msgid "Users"
+msgstr "Utilizadores"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:100
+msgid "Permissions"
+msgstr ""
+
+#: nodepkg/group-widget/GroupWidget.tsx:65
 msgid "{dn} mapping"
 msgstr ""
 
-#: nodepkg/group-widget/GroupWidget.js:57 nodepkg/user-widget/UserWidget.js:97
+#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:112
 msgid "Description"
 msgstr "Descrição"
 
-#: nodepkg/login-form/LoginForm.js:14
+#: nodepkg/login/LoginForm.tsx:20
 msgid "Sign in with {}"
 msgstr ""
 
-#: nodepkg/login-form/LoginForm.js:17 template/session_invite.mako:17
+#: nodepkg/login/LoginForm.tsx:21 view.py:32
+msgid "Sign in to Web GIS"
+msgstr "Entrar no Web GIS"
+
+#: nodepkg/login/LoginForm.tsx:22 template/session_invite.mako:16
 msgid "Sign in"
 msgstr "Entrar"
 
-#: nodepkg/login-form/LoginForm.js:29 nodepkg/user-browse/UserBrowse.js:37
-#: nodepkg/user-widget/UserWidget.js:40
+#: nodepkg/login/LoginForm.tsx:35 nodepkg/user-browse/UserBrowse.tsx:25
+#: nodepkg/user-widget/UserWidget.tsx:48
 msgid "Login"
 msgstr "Login"
 
-#: nodepkg/login-form/LoginForm.js:34 nodepkg/user-browse/UserBrowse.js:47
-#: nodepkg/user-widget/UserWidget.js:46
+#: nodepkg/login/LoginForm.tsx:40 nodepkg/user-browse/UserBrowse.tsx:26
+#: nodepkg/user-widget/UserWidget.tsx:55
 msgid "Password"
 msgstr "Senha"
 
-#: nodepkg/login-form/LoginForm.js:90
+#: nodepkg/login/LoginForm.tsx:94
 msgid "or using login and password"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:15
+#: nodepkg/oauth.tsx:26
+msgid "Manage team"
+msgstr ""
+
+#: nodepkg/settings-form/SettingsForm.tsx:27
 msgid "Account bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:26
+#: nodepkg/settings-form/SettingsForm.tsx:38
 msgid "Bind account"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:28
+#: nodepkg/settings-form/SettingsForm.tsx:40
 msgid "Account not bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:46 nodepkg/user-widget/UserWidget.js:91
+#: nodepkg/settings-form/SettingsForm.tsx:55 nodepkg/user-widget/UserWidget.tsx:106
 msgid "Language"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:81
+#: nodepkg/settings-form/SettingsForm.tsx:71
 msgid "Saved"
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:13 nodepkg/user-widget/UserWidget.js:75
+#: nodepkg/user-browse/UserBrowse.tsx:22 nodepkg/user-widget/UserWidget.tsx:83
 msgid "Disabled"
 msgstr "Desactivado"
 
-#: nodepkg/user-browse/UserBrowse.js:14
+#: nodepkg/user-browse/UserBrowse.tsx:23
 msgid "Enabled"
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:46
-msgid "Users with a password can sign in with login and password."
-msgstr ""
-
-#: nodepkg/user-browse/UserBrowse.js:56
-msgid "Users bound to {dn} can sign in with {dn}."
-msgstr ""
-
-#: nodepkg/user-browse/UserBrowse.js:66
+#: nodepkg/user-browse/UserBrowse.tsx:29
 msgid "Last activity"
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:79
+#: nodepkg/user-browse/UserBrowse.tsx:30
 msgid "Status"
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:151
-msgid "Disable"
+#: nodepkg/user-browse/UserBrowse.tsx:34
+msgid "Users with a password can sign in with login and password."
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:151
-msgid "Enable"
+#: nodepkg/user-browse/UserBrowse.tsx:35
+msgid "Users bound to {dn} can sign in with {dn}."
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:160
+#: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:22
+msgid "Delete user?"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.tsx:40 nodepkg/user-widget/UserWidget.tsx:23
+msgid "User deleted"
+msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.tsx:122
 msgid ""
 "Your team members won't be shown here until their first logon. Set \"New "
 "users\" flag for a group to automatically assign new user to this group. You "
@@ -321,97 +221,141 @@ msgid ""
 "team members."
 msgstr ""
 
-#: nodepkg/user-widget/UserWidget.js:50
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+msgid "Disable"
+msgstr ""
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+msgid "Enable"
+msgstr ""
+
+#: nodepkg/user-widget/UserWidget.tsx:59 nodepkg/user-widget/UserWidget.tsx:64
 msgid "Enter new password here"
 msgstr "Digite a nova senha aqui"
 
-#: nodepkg/user-widget/UserWidget.js:66
+#: nodepkg/user-widget/UserWidget.tsx:77
 msgid "Authorization link"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidget.js:111
+#: nodepkg/user-widget/UserWidget.tsx:89 view.py:319 view.py:384
+msgid "Groups"
+msgstr "Grupos"
+
+#: nodepkg/user-widget/UserWidget.tsx:126
 msgid ""
 "Consider adding {name} user to your team instead of creating a new user with "
 "a password."
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetAlinkToken.js:8
-#: nodepkg/user-widget/UserWidgetPassword.js:9
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:10
 msgid "Keep existing"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetAlinkToken.js:12
-#: nodepkg/user-widget/UserWidgetPassword.js:13
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
+#: nodepkg/user-widget/UserWidgetPassword.tsx:14
 msgid "Assign new"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetAlinkToken.js:16
-#: nodepkg/user-widget/UserWidgetPassword.js:19
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
+#: nodepkg/user-widget/UserWidgetPassword.tsx:20
 msgid "Turn off"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetAlinkToken.js:66
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
 msgid "The generated link will be available after saving."
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetPassword.js:18
+#: nodepkg/user-widget/UserWidgetPassword.tsx:19
 msgid "{name} only"
 msgstr ""
 
-#~ msgid "System principals couldn't be chanded."
-#~ msgstr "Os princípios do sistema não puderam ser chanded."
+#: oauth.py:323
+msgid "{} binding error"
+msgstr ""
 
-#~ msgid "Group name is not unique."
-#~ msgstr "O nome do grupo não é exclusivo."
+#: oauth.py:324
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
+"in using this account instead of binding it."
+msgstr ""
 
-#~ msgid "Login is not unique."
-#~ msgstr "Login não é exclusivo."
+#: oauth.py:638
+msgid "OAuth authorization error"
+msgstr "Erro de autorização OAuth"
 
-#~ msgid ""
-#~ "You can't disable current administrator. At"
-#~ " least one enabled administrator is "
-#~ "required."
-#~ msgstr ""
-#~ "Não é possível desativar o administrador "
-#~ "atual. É necessário ter pelo menos um"
-#~ " administrador activo."
+#: oauth.py:643
+msgid "Invalid OAuth token"
+msgstr "Token OAuth inválido"
 
-#~ msgid "List"
-#~ msgstr "Listar"
+#: oauth.py:648
+msgid "Invalid OAuth scope"
+msgstr ""
 
-#~ msgid "Create"
-#~ msgstr "Criar"
+#: oauth.py:653
+msgid "OAuth password grant type failed"
+msgstr ""
 
-#~ msgid "Edit"
-#~ msgstr "Editar"
+#: oauth.py:658
+msgid "OAuth token refresh failed"
+msgstr "Falha na atualização do token OAuth"
 
-#~ msgid "Group"
-#~ msgstr "Grupo"
+#: oauth.py:663
+msgid "OAuth access token is expired"
+msgstr "Token OAuth de acesso expirou"
 
-#~ msgid "User"
-#~ msgstr "Utilizador"
+#: permission.py:12
+msgid "View"
+msgstr ""
 
-#~ msgid "Authorization Required"
-#~ msgstr "Autorização necessária"
+#: permission.py:13
+msgid "Manage"
+msgstr ""
 
-#~ msgid "Your account is bound to NextGIS ID account"
-#~ msgstr "Sua conta está vinculada à conta NextGIS ID"
+#: permission.py:39 view.py:374
+msgid "Groups and users"
+msgstr ""
 
-#~ msgid "User is already bound"
-#~ msgstr "O utilizador já está vinculado"
+#: view.py:57
+msgid "Session not found."
+msgstr ""
 
-#~ msgid "Sign in with OAuth"
-#~ msgstr "Entrar com OAuth"
+#: view.py:61
+msgid "Invalid 'expires' parameter."
+msgstr ""
 
-#~ msgid "OAuth subject"
-#~ msgstr "Assunto OAuth"
+#: view.py:64
+msgid "Session expired."
+msgstr ""
 
-#~ msgid "Group members"
-#~ msgstr "Membros do grupo"
+#: view.py:83
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr ""
 
-#~ msgid "Assign at registration"
-#~ msgstr "Atribuir durante o registro"
+#: view.py:94
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr ""
 
-#~ msgid "Groups member"
-#~ msgstr "Membro dos grupos"
+#: view.py:133
+msgid "Team membership required"
+msgstr ""
 
+#: view.py:134
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and "
+"ask to be added to the team."
+msgstr ""
+
+#: view.py:278
+msgid "User settings"
+msgstr "Configurações do utilizador"
+
+#: view.py:301
+msgid "Create new user"
+msgstr "Criar novo utilizador"
+
+#: view.py:335
+msgid "Create new group"
+msgstr "Criar novo grupo"

@@ -1,12 +1,12 @@
-#: lockable_feature.py:57
+#: lockable_feature.py:60
 msgid "Additional basemaps"
 msgstr "Mapas base adicionales"
 
-#: lockable_feature.py:88
+#: lockable_feature.py:93
 msgid "Field data collection"
 msgstr "Recolectar datos"
 
-#: lockable_feature.py:105
+#: lockable_feature.py:101
 msgid "Use on other websites (CORS)"
 msgstr "Uso en otros sitios web (CORS)"
 
@@ -14,140 +14,91 @@ msgstr "Uso en otros sitios web (CORS)"
 msgid "Custom domain and branding"
 msgstr "Dominio personalizado y marca"
 
-#: lockable_feature.py:134
+#: lockable_feature.py:135
 msgid "Custom SRS"
 msgstr "SRS personalizado"
 
-#: lockable_feature.py:145
+#: lockable_feature.py:147
 msgid "Improved performance"
 msgstr "Desempeño mejorado"
 
-#: lockable_feature.py:152
+#: lockable_feature.py:154
 msgid "Access management"
 msgstr "Gestión de acceso"
 
-#: lockable_feature.py:193
-msgid "Editors"
-msgstr "Editores"
-
-#: lockable_feature.py:231
+#: lockable_feature.py:229
 msgid "Technical support"
 msgstr "Soporte técnico"
 
-#: lockable_feature.py:236
+#: lockable_feature.py:234
 msgid "On-demand backup restore"
 msgstr "Restauración de copia de seguridad bajo demanda"
 
-#: lockable_feature.py:257
+#: lockable_feature.py:255
 msgid "Tile caching"
 msgstr "Caché de teselas"
 
-#: lockable_feature.py:290
+#: lockable_feature.py:285
 msgid "Data editing on web maps"
 msgstr "Edición de datos en mapas web"
 
-#: lockable_feature.py:309
+#: lockable_feature.py:311
 msgid "Annotations on web maps"
 msgstr "Anotaciones en mapas web"
 
-#: service_plan.py:102
-msgid "Number of maps and layers"
-msgstr "Número de mapas y capas"
-
-#: service_plan.py:103
-msgid "Storage limit"
-msgstr "Límite de almacenamiento"
-
-#: service_plan.py:104
-msgid "User limit"
-msgstr "límite de usuarios"
-
-#: service_plan.py:109
-msgid "GPS trackers"
-msgstr "Localizadores GPS"
-
-#: service_plan.py:120
-msgid "Maximum file upload"
-msgstr "Carga máxima de archivos"
-
-#: service_plan.py:121
-msgid "Maximum raster layer"
-msgstr "Capa ráster máxima"
-
-#: service_plan.py:281
-msgid "Plan upgrade required"
-msgstr "Se requiere actualización de plan"
-
-#: service_plan.py:285
-msgid "This is not available on your plan."
-msgstr "Esto no está disponible en su plan."
-
-#: service_plan.py:288
-msgid "{} feature is not available on your plan."
-msgstr "La función {} no está disponible en su plan."
-
-#: service_plan.py:296
-msgid "To use this feature, please upgrade to {}."
-msgstr "Para utilizar esta función, actualice a {}."
-
-#: nodepkg/include.js:10 nodepkg/upgrade-button/index.js:26 view.py:10
+#: nodepkg/include.js:11 nodepkg/upgrade-button/index.js:28 view.py:15
 msgid "Plan and features"
 msgstr "Plan y características"
 
-#: amd/ngw-ngwcluster/template/BasemapWebMapWidget.hbs:2
-msgid ""
-"Basemaps management is not available on your plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
-"Premium</a>."
-msgstr ""
-"La gestión de mapas base no está disponible en su plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a Mini o Premium</a>."
+#: nodepkg/plan-and-features/index.js:22 nodepkg/upgrade-button/index.js:58
+msgid "Your plan — "
+msgstr "Tu plan — "
 
-#: amd/ngw-ngwcluster/template/CollectorDetail.hbs:2
-msgid ""
-"NextGIS Collector management is not available on your plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
-msgstr ""
-"La gestión de NextGIS Collector no está disponible en su plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a Premium</a>."
+#: nodepkg/plan-and-features/index.js:27 nodepkg/resource-widget/base.js:22
+msgid "Change plan"
+msgstr "Cambio de plan"
 
-#: amd/ngw-ngwcluster/template/OtherSettings.hbs:2
-msgid ""
-"<a href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Online "
-"feature editing</a> and Web map annotations are not available on your plan.  "
-"<a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>."
-msgstr ""
-"<a href=\"https://docs.nextgis.com/docs_ngcom/source/data_edit.html\">Edición"
-" de objetos geográficos y las anotaciones de mapas web no están disponibles "
-"en su plan.  <a href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade a "
-"Premium</a>."
+#: nodepkg/plan-and-features/index.js:55
+msgid "More about plans"
+msgstr "Más sobre planes"
 
-#: amd/ngw-ngwcluster/template/PermissionWidget.hbs:2
-msgid ""
-"Full permission management is not available on your plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Premium</a>.<br/> "
-"To allow other users edit your data, add them to \"Editors\" group in <a "
-"href=\"/auth/user/\">Control panel</a>."
+#: nodepkg/qgis-banner/QgisBanner.js:23
+msgid "Easy start with QGIS"
 msgstr ""
-"La gestión de permisos completa no está disponible en su plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Cambiar al plan "
-"Premium</a>.<br/> Para permitir que otros usuarios editen sus datos, "
-"agréguelos a el grupo \"Editores\" en <a href=\"/auth/user/\">Panel de "
-"control</a>."
 
-#: amd/ngw-ngwcluster/template/SidebarPlanQuotaWidget.hbs:5
-msgid "Upgrade plan"
-msgstr "Upgrade plan"
-
-#: amd/ngw-ngwcluster/template/TrackerDetailWidget.hbs:2
+#: nodepkg/qgis-banner/QgisBanner.js:26
 msgid ""
-"Tracker management is not available on your plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Upgrade to Mini or "
-"Premium</a>."
+"Use the NextGIS Connect plugin for QGIS to upload your data and create "
+"interactive maps."
 msgstr ""
-"La gestión de localizadores GPS no está disponible en su plan. <a "
-"href=\"http://nextgis.com/nextgis-com/plans/\">Cambiar al plan Mini o "
-"Premium</a>."
+
+#: nodepkg/qgis-banner/QgisBanner.js:33
+msgid "Install the NextGIS Connect plugin for QGIS"
+msgstr ""
+
+#: nodepkg/qgis-banner/QgisBanner.js:37
+msgid "Connect the plugin to your Web GIS"
+msgstr ""
+
+#: nodepkg/qgis-banner/QgisBanner.js:39
+msgid "Upload your layers and projects to your Web GIS"
+msgstr ""
+
+#: nodepkg/qgis-banner/QgisBanner.js:56
+msgid "Learn more"
+msgstr ""
+
+#: nodepkg/qgis-banner/QgisBanner.js:64
+msgid "Hide"
+msgstr ""
+
+#: nodepkg/resource-widget/base.js:20 service_plan.py:303
+msgid "{} feature is not available on your plan."
+msgstr "La función {} no está disponible en su plan."
+
+#: nodepkg/resource-widget/base.js:21
+msgid "These features are not available on your plan:"
+msgstr ""
 
 #: nodepkg/summary.js:17
 msgid "of"
@@ -165,80 +116,42 @@ msgstr "Indisponible"
 msgid "Unlimited"
 msgstr "Ilimitado"
 
-#: nodepkg/plan-and-features/index.js:16 nodepkg/upgrade-button/index.js:57
-msgid "Your plan — "
-msgstr "Tu plan — "
-
-#: nodepkg/plan-and-features/index.js:25
-msgid "Change plan"
-msgstr "Cambio de plan"
-
-#: nodepkg/plan-and-features/index.js:57
-msgid "More about plans"
-msgstr "Más sobre planes"
-
-#: nodepkg/upgrade-button/index.js:66
+#: nodepkg/upgrade-button/index.js:67
 msgid "Upgrade"
 msgstr "Upgrade"
 
-#~ msgid "Account"
-#~ msgstr "Cuenta"
+#: service_plan.py:99
+msgid "Number of maps and layers"
+msgstr "Número de mapas y capas"
 
-#~ msgid "Resources"
-#~ msgstr "Recursos"
+#: service_plan.py:100
+msgid "Storage limit"
+msgstr "Límite de almacenamiento"
 
-#~ msgid "Users"
-#~ msgstr "Usuarios"
+#: service_plan.py:101
+msgid "User limit"
+msgstr "límite de usuarios"
 
-#~ msgid "Basemaps"
-#~ msgstr "Mapas base"
+#: service_plan.py:106
+msgid "GPS trackers"
+msgstr "Localizadores GPS"
 
-#~ msgid "CORS"
-#~ msgstr "CORS"
+#: service_plan.py:117
+msgid "Maximum file upload"
+msgstr "Carga máxima de archivos"
 
-#~ msgid "Lookup tables & forms"
-#~ msgstr "Tablas de búsqueda y formularios"
+#: service_plan.py:118
+msgid "Maximum raster layer"
+msgstr "Capa ráster máxima"
 
-#~ msgid "Support"
-#~ msgstr "Apoyo"
+#: service_plan.py:296
+msgid "Plan upgrade required"
+msgstr "Se requiere actualización de plan"
 
-#~ msgid "Home path"
-#~ msgstr "Ruta a la página principal"
+#: service_plan.py:300
+msgid "This is not available on your plan."
+msgstr "Esto no está disponible en su plan."
 
-#~ msgid "Private resources"
-#~ msgstr "Recursos privados"
-
-#~ msgid "Spatial reference systems"
-#~ msgstr "Sistemas de referencia espacial"
-
-#~ msgid "Custom domain"
-#~ msgstr "Dominio personalizado"
-
-#~ msgid "Branding"
-#~ msgstr "Marca"
-
-#~ msgid "Higher performance"
-#~ msgstr "Mayor rendimiento"
-
-#~ msgid "Higher upload size"
-#~ msgstr "Mayor tamaño de carga"
-
-#~ msgid " of "
-#~ msgstr " de "
-
-#~ msgid ""
-#~ "Total of: Vector layers, Raster layers, "
-#~ "PostGIS layers, WMS layers, Web Maps"
-#~ msgstr ""
-#~ "Total de: capas vectoriales, capas ráster,"
-#~ " capas PostGIS, capas WMS, mapas web"
-
-#~ msgid "Used"
-#~ msgstr "Utilizado"
-
-#~ msgid "resources"
-#~ msgstr "recursos"
-
-#~ msgid "Your plan"
-#~ msgstr "Tu plan"
-
+#: service_plan.py:311
+msgid "To use this feature, please upgrade."
+msgstr ""

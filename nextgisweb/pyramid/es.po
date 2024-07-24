@@ -1,143 +1,3 @@
-#: api.py:224
-msgid "Required parameter 'component' is missing."
-msgstr "Falta el parámetro requerido 'component'."
-
-#: api.py:229
-msgid "Invalid component identity."
-msgstr "Identidad de componente no válida."
-
-#: api.py:566
-msgid "Your Web GIS at nextgis.com"
-msgstr "Tu Web GIS en nextgis.com"
-
-#: component.py:137
-msgid "Enabled"
-msgstr "Habilitado"
-
-#: component.py:137
-msgid "Disabled"
-msgstr "Deshabilitado"
-
-#: exception.py:203 exception.py:264
-msgid "Internal server error"
-msgstr "Error interno en el servidor"
-
-#: exception.py:204
-msgid ""
-"The server encountered an internal error or misconfiguration and was unable "
-"to complete your request."
-msgstr "El servidor no pudo completar su solicitud por una falla interna."
-
-#: exception.py:233
-msgid "Bad request"
-msgstr "Solicitud incorrecta"
-
-#: exception.py:234
-msgid ""
-"The server could not comply with the request since it is either malformed or "
-"otherwise incorrect."
-msgstr ""
-"El servidor no pudo completar su solicitud porque es incorrecta o posee "
-"errores."
-
-#: exception.py:241
-msgid "Payment required"
-msgstr "Pago requerido"
-
-#: exception.py:242
-msgid "Access was denied for financial reasons."
-msgstr "Se denegó el acceso por motivos económicos."
-
-#: exception.py:246
-msgid "Forbidden"
-msgstr "Prohibido"
-
-#: exception.py:247
-msgid "Access was denied to this resource."
-msgstr "Acceso denegado al recurso."
-
-#: exception.py:251
-msgid "Page not found"
-msgstr "Página no encontrada"
-
-#: exception.py:252
-msgid ""
-"The page may have been deleted or an error in the address. Correct the "
-"address or go to the home page and try to find the desired page."
-msgstr ""
-"La página pudo haber sido borrada o hay un error en el enlace. Corríjalo o "
-"diríjase a la página principal e intente encontrar la dirección deseada."
-
-#: exception.py:259
-msgid "Unprocessable entity"
-msgstr "Entidad no procesable"
-
-#: exception.py:260
-msgid "Unable to process the contained instructions."
-msgstr "No se pueden procesar las instrucciones."
-
-#: exception.py:265
-msgid ""
-"The server has either erred or is incapable of performing the requested "
-"operation."
-msgstr "El servidor no pudo completar la solicitud."
-
-#: exception.py:272 exception.py:273
-msgid "Not implemented"
-msgstr "No implementado"
-
-#: exception.py:277
-msgid "Service unavailable"
-msgstr "Servicio no disponible"
-
-#: exception.py:278
-msgid "The server is currently unavailable. Please try again at a later time."
-msgstr "El servidor no esta disponible. Por favor, intente más tarde."
-
-#: nodepkg/layout/store.js:42 view.py:97
-msgid "Control panel"
-msgstr "Panel de control"
-
-#: view.py:120 view.py:516
-msgid "System information"
-msgstr "Información del sistema"
-
-#: view.py:134 view.py:533
-msgid "Storage"
-msgstr "Almacenamiento"
-
-#: view.py:145 view.py:538
-msgid "Backups"
-msgstr "Copias de seguridad"
-
-#: view.py:162 view.py:522
-msgid "Cross-origin resource sharing (CORS)"
-msgstr "Cross-origin resource sharing (CORS)"
-
-#: view.py:171 view.py:524
-msgid "Custom CSS"
-msgstr "CSS personalizado"
-
-#: view.py:180 view.py:526
-msgid "Custom logo"
-msgstr "Logo personalizado"
-
-#: view.py:189 view.py:520
-msgid "Web GIS name"
-msgstr "Nombre del Web GIS"
-
-#: view.py:198 view.py:528
-msgid "Home path"
-msgstr "Ruta a la página principal"
-
-#: view.py:515
-msgid "Info"
-msgstr "Información"
-
-#: nodepkg/layout/Avatar.js:22 view.py:519
-msgid "Settings"
-msgstr "Configuración"
-
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:28
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:30
 msgid "Copy to clipboard"
@@ -151,75 +11,163 @@ msgstr "Copiado"
 msgid "Unable to copy"
 msgstr "No se ha podido copiar"
 
-#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:28
-msgid "Backward"
-msgstr "Atrás"
-
-#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:29
-msgid "Forward"
-msgstr "Adelante"
-
-#: amd/ngw-pyramid/company-logo/company-logo.js:25
-msgid "Get your own Web GIS at nextgis.com"
-msgstr "Obtén tu propio Web GIS en nextgis.com"
-
-#: amd/ngw-pyramid/form/LangSelect.js:24
-msgid "Browser default"
-msgstr "Predeterminado por navegador"
-
-#: amd/ngw-pyramid/form/ScaleTextBox.js:18
+#: amd/ngw-pyramid/form/ScaleTextBox.js:13
 msgid "Enter the correct scale value, e.g. 1:"
 msgstr "Ingrese un valor de escala correcto, ej. 1:"
 
-#: amd/ngw-pyramid/modelWidget/FormMixin.js:37 nodepkg/example/typescript.ts:10
-msgid "Create"
-msgstr "Crear"
+#: api.py:196
+msgid "Storage management is not enabled on this server."
+msgstr ""
 
-#: amd/ngw-pyramid/modelWidget/FormMixin.js:39
-msgid "Save"
-msgstr "Guardar"
+#: api.py:406
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr ""
 
-#: amd/ngw-pyramid/modelWidget/FormMixin.js:41
-msgid "Delete"
-msgstr "Eliminar"
+#: api.py:534
+msgid "Got an unsupported MIME type: '{}'."
+msgstr ""
 
-#: nodepkg/api/error.js:10 nodepkg/api/error.js:25
+#: api.py:537
+msgid "64K should be enough for a logo."
+msgstr ""
+
+#: api.py:669
+msgid "Your Web GIS at nextgis.com"
+msgstr "Tu Web GIS en nextgis.com"
+
+#: component.py:163
+msgid "Request timeout"
+msgstr ""
+
+#: component.py:166
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: component.py:166
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: exception.py:204
+msgid "Internal server error"
+msgstr "Error interno en el servidor"
+
+#: exception.py:205
+msgid ""
+"The server encountered an internal error or misconfiguration and was unable "
+"to complete your request."
+msgstr "El servidor no pudo completar su solicitud por una falla interna."
+
+#: exception.py:238
+msgid "Bad request"
+msgstr "Solicitud incorrecta"
+
+#: exception.py:239
+msgid ""
+"The server could not comply with the request since it is either malformed or "
+"otherwise incorrect."
+msgstr ""
+"El servidor no pudo completar su solicitud porque es incorrecta o posee "
+"errores."
+
+#: exception.py:247
+msgid "Payment required"
+msgstr "Pago requerido"
+
+#: exception.py:248
+msgid "Access was denied for financial reasons."
+msgstr "Se denegó el acceso por motivos económicos."
+
+#: exception.py:253
+msgid "Forbidden"
+msgstr "Prohibido"
+
+#: exception.py:254
+msgid "Access was denied to this resource."
+msgstr "Acceso denegado al recurso."
+
+#: exception.py:259
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: exception.py:260
+msgid ""
+"The page may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired page."
+msgstr ""
+"La página pudo haber sido borrada o hay un error en el enlace. Corríjalo o "
+"diríjase a la página principal e intente encontrar la dirección deseada."
+
+#: exception.py:268
+msgid "Unprocessable entity"
+msgstr "Entidad no procesable"
+
+#: exception.py:269
+msgid "Unable to process the contained instructions."
+msgstr "No se pueden procesar las instrucciones."
+
+#: exception.py:274 exception.py:275
+msgid "Not implemented"
+msgstr "No implementado"
+
+#: exception.py:280
+msgid "Service unavailable"
+msgstr "Servicio no disponible"
+
+#: exception.py:281
+msgid "The server is currently unavailable. Please try again at a later time."
+msgstr "El servidor no esta disponible. Por favor, intente más tarde."
+
+#: lunkwill.py:25
+msgid "Lunkwill not enabled"
+msgstr ""
+
+#: lunkwill.py:26
+msgid "The Lunkwill extension is not configured on this server."
+msgstr ""
+
+#: nodepkg/api/error.ts:11 nodepkg/api/error.ts:29
 msgid "Something went wrong."
 msgstr "Algo ocurrió."
 
-#: nodepkg/api/error.js:11
+#: nodepkg/api/error.ts:12
 msgid "Unknown API error"
 msgstr "Error de API desconocido"
 
-#: nodepkg/api/error.js:17
+#: nodepkg/api/error.ts:21
 msgid "There is no response from the server or problem connecting to server."
 msgstr "No hay respuesta o hay un problema con el servidor."
 
-#: nodepkg/api/error.js:18
+#: nodepkg/api/error.ts:22
 msgid "Network error"
 msgstr "Error de conexión"
 
-#: nodepkg/api/error.js:19
+#: nodepkg/api/error.ts:23
 msgid "Check network connectivity and try again later."
 msgstr "Compruebe la conexión e intente de nuevo más tarde."
 
-#: nodepkg/api/error.js:26
+#: nodepkg/api/error.ts:30
 msgid "Unexpected server response"
 msgstr "Respuesta del servidor inesperada"
 
-#: nodepkg/api/error.js:41
+#: nodepkg/api/error.ts:59
 msgid "Unexpected error while processing long-running request."
 msgstr "Error inesperado al procesar una solicitud de larga duración."
 
-#: nodepkg/api/error.js:42
+#: nodepkg/api/error.ts:60
 msgid "Long-running request error"
 msgstr "Error de la solicitud de larga duración"
 
-#: nodepkg/api/error.js:49
+#: nodepkg/api/error.ts:67
 msgid "Long-running request was cancelled."
 msgstr "Se canceló la solicitud de larga duración."
 
-#: nodepkg/cors-settings/CORSSettings.js:17
+#: nodepkg/company-logo.ts:32
+msgid "Get your own Web GIS at nextgis.com"
+msgstr "Obtén tu propio Web GIS en nextgis.com"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:24
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
@@ -227,7 +175,7 @@ msgstr ""
 "Ingrese los dominios permitidos para utilizar la API HTTP de su Web GIS en "
 "otros sitios. Uno por linea."
 
-#: nodepkg/cors-settings/CORSSettings.js:20
+#: nodepkg/cors-settings/CORSSettings.tsx:25
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
@@ -237,25 +185,25 @@ msgstr ""
 "(example.com y www.example.com) tienen diferentes orígenes. Se permiten "
 "comodines para dominios de tercer nivel y superiores."
 
-#: nodepkg/cors-settings/CORSSettings.js:47
+#: nodepkg/cors-settings/CORSSettings.tsx:58
 msgid "CORS settings updated"
 msgstr "Configuración de CORS actualizada"
 
-#: nodepkg/cors-settings/CORSSettings.js:52
+#: nodepkg/cors-settings/CORSSettings.tsx:63
 msgid "Fix the form errors first"
 msgstr "Al principio corrige los errores de formulario"
 
-#: nodepkg/cors-settings/CORSSettings.js:72
+#: nodepkg/cors-settings/CORSSettings.tsx:79
 msgid "The value entered is not valid"
 msgstr "El valor introducido no es válido"
 
-#: nodepkg/custom-css-form/CustomCSSForm.js:35
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:41
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr ""
 "Estilos personalizados guardados. Vuelva a cargar la página para que se "
 "aplique."
 
-#: nodepkg/custom-css-form/CustomCSSForm.js:57
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:63
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -263,102 +211,164 @@ msgstr ""
 "Ingrese el CSS personalizado. Será utilizado para redefinir los estilos para "
 "todas las páginas de su Web GIS."
 
-#: nodepkg/example/translation.js:5
-msgid "Translated text"
-msgstr "Texto traducido"
-
-#: nodepkg/home-path/HomePath.js:4
+#: nodepkg/home-path/HomePath.tsx:4
 msgid "The home path setting is saved."
 msgstr "Se guarda la configuración de la ruta de inicio."
 
-#: nodepkg/layout/Avatar.js:10
+#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12 test/test_i18n.py:15
+msgctxt "test"
+msgid "unit"
+msgid_plural "units"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nodepkg/layout/Avatar.tsx:12
 msgid "Sign in"
 msgstr "Conectarse"
 
-#: nodepkg/layout/Avatar.js:19
+#: nodepkg/layout/Avatar.tsx:20
 msgid "Invitation session"
 msgstr "Sesión de invitación"
 
-#: nodepkg/layout/Avatar.js:24
+#: nodepkg/layout/Avatar.tsx:23
+msgid "User settings"
+msgstr ""
+
+#: nodepkg/layout/Avatar.tsx:25
 msgid "Sign out"
 msgstr "Desconectarse"
 
-#: nodepkg/layout/store.js:36
+#: nodepkg/layout/store.ts:48
 msgid "Resources"
 msgstr "Recursos"
 
-#: nodepkg/layout/store.js:49
+#: nodepkg/layout/store.ts:54 view.py:169
+msgid "Control panel"
+msgstr "Panel de control"
+
+#: nodepkg/layout/store.ts:61
 msgid "Help"
 msgstr "Ayuda"
 
-#: nodepkg/logo-form/LogoForm.js:5
+#: nodepkg/logo-form/LogoForm.tsx:5
 msgid "We recommend height of 45 px and width of up to 200 px."
 msgstr "Recomendamos una altura de 45 px y una anchura de hasta 200 px."
 
-#: nodepkg/storage-summary/StorageSummary.js:82
+#: nodepkg/logo-form/LogoForm.tsx:6
+msgid "Only PNG and SVG images are supported."
+msgstr ""
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+msgid "Measurement ID"
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:19
+msgid "Add"
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:20
+msgid "The setting is saved."
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+msgid "Reload the page to get them applied."
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+msgid "Add one or more counters to your Web GIS."
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:26
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow you"
+" to track user activity."
+msgstr ""
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+msgid "Tag number"
+msgstr ""
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:51
+msgid "Webvisor"
+msgstr ""
+
+#: nodepkg/metrics/tab.ts:31
+msgid "Google Analytics"
+msgstr ""
+
+#: nodepkg/metrics/tab.ts:38
+msgid "Yandex.Metrica"
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:96
 msgid "Kind of data"
 msgstr "Tipo de datos"
 
-#: nodepkg/storage-summary/StorageSummary.js:88
+#: nodepkg/storage-summary/StorageSummary.js:102
 msgid "Volume"
 msgstr "Volumen"
 
-#: nodepkg/storage-summary/StorageSummary.js:104
+#: nodepkg/storage-summary/StorageSummary.js:118
 msgid "Total"
 msgstr "Total"
 
-#: nodepkg/storage-summary/StorageSummary.js:109
+#: nodepkg/storage-summary/StorageSummary.js:123
 msgid "of"
 msgstr "de"
 
-#: nodepkg/storage-summary/StorageSummary.js:124
-#, python-format
+#: nodepkg/storage-summary/StorageSummary.js:140
 msgid "Storage usage was fully estimated at %s and updated at %s."
 msgstr "El uso de almacenamiento se estimó completamente en %s y se actualizó en %s."
 
-#: nodepkg/storage-summary/StorageSummary.js:128
-#, python-format
+#: nodepkg/storage-summary/StorageSummary.js:146
 msgid "Storage usage was fully estimated at %s."
 msgstr "El uso de almacenamiento se estimó completamente en %s."
 
-#: nodepkg/storage-summary/StorageSummary.js:131
-#, python-format
+#: nodepkg/storage-summary/StorageSummary.js:151
 msgid "Storage usage hasn't been estimated yet but was updated at %s."
 msgstr "El uso de almacenamiento aún no se ha estimado, pero se actualizó en %s."
 
-#: nodepkg/storage-summary/StorageSummary.js:134
+#: nodepkg/storage-summary/StorageSummary.js:155
 msgid "Storage usage hasn't been estimated yet."
 msgstr "Aún no se ha estimado el uso de almacenamiento."
 
-#: nodepkg/storage-summary/StorageSummary.js:139
+#: nodepkg/storage-summary/StorageSummary.js:160
 msgid "Some changes may be reflected only after full estimation."
 msgstr "Algunos cambios pueden reflejarse solo después de una estimación completa."
 
-#: nodepkg/storage-summary/StorageSummary.js:162
+#: nodepkg/storage-summary/StorageSummary.js:184
 msgid "Estimate storage"
 msgstr "Estimar almacenamiento"
 
-#: nodepkg/system-name-form/SystemNameForm.js:4
+#: nodepkg/system-name-form/SystemNameForm.tsx:4
 msgid "The system name setting is saved."
 msgstr "Se guarda la configuración del nombre del sistema."
 
-#: nodepkg/update/index.js:55
+#: nodepkg/update/index.js:56
 msgid "Critical updates are available"
 msgstr "Hay actualizaciones críticas disponibles"
 
-#: nodepkg/update/index.js:56
+#: nodepkg/update/index.js:57
 msgid "Updates are available"
 msgstr "Hay actualizaciones disponibles"
 
-#: nodepkg/update/index.js:58
+#: nodepkg/update/index.js:59
 msgid "Click to see what's new"
 msgstr "Haga clic para ver las novedades"
 
-#: nodepkg/update/sysinfo.js:32
+#: nodepkg/update/sysinfo.js:14
 msgid "Checking for updates..."
 msgstr "Comprobando actualizaciones..."
 
-#: nodepkg/update/sysinfo.js:35
+#: nodepkg/update/sysinfo.js:15
+msgid "<a>Contact support</a> for update."
+msgstr "<a>Comunicar con el servicio de asistencia</a> para obtener actualizaciones."
+
+#: nodepkg/update/sysinfo.js:16
+msgid "Show details"
+msgstr "Mostrar detalles"
+
+#: nodepkg/update/sysinfo.js:20
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
@@ -366,72 +376,67 @@ msgstr ""
 "Hay actualizaciones críticas disponibles: {version}. Considere actualizar lo "
 "antes posible."
 
-#: nodepkg/update/sysinfo.js:36
+#: nodepkg/update/sysinfo.js:21
 msgid "New version of {distribution} is available: {version}."
 msgstr "Hay una nueva versión de {distribution} disponible: {version}."
 
-#: nodepkg/update/sysinfo.js:37
+#: nodepkg/update/sysinfo.js:22
 msgid "Your {distribution} is up-to-date."
 msgstr "Tu {distribution} está actualizado"
 
-#: nodepkg/update/sysinfo.js:44
-msgid "<a>Contact support</a> for update."
-msgstr "<a>Comunicar con el servicio de asistencia</a> para obtener actualizaciones."
+#: permission.py:5 view.py:216 view.py:559
+msgid "Cross-origin resource sharing (CORS)"
+msgstr "Cross-origin resource sharing (CORS)"
 
-#: nodepkg/update/sysinfo.js:74
-msgid "Show details"
-msgstr "Mostrar detalles"
-
-#: template/backup.mako:9
+#: template/backup.mako:5
 msgid "Filename"
 msgstr "Nombre del archivo"
 
-#: template/backup.mako:10
+#: template/backup.mako:6
 msgid "Timestamp (UTC)"
 msgstr "Marca temporal (UTC)"
 
-#: template/backup.mako:11
+#: template/backup.mako:7
 msgid "Size"
 msgstr "Tamaño"
 
-#: template/sysinfo.mako:38
+#: template/sysinfo.mako:34
 msgid "Package"
 msgstr "Paquete"
 
-#: template/sysinfo.mako:39
+#: template/sysinfo.mako:35
 msgid "Version"
 msgstr "Versión"
 
-#: template/sysinfo.mako:74
+#: template/sysinfo.mako:65
 msgid "Platform"
 msgstr "Plataforma"
 
-#: template/sysinfo.mako:89
+#: template/sysinfo.mako:80
 msgid "Browser support"
 msgstr ""
 
-#: template/sysinfo.mako:100
+#: template/sysinfo.mako:91
 msgid "or higher"
 msgstr ""
 
-#: template/sysinfo.mako:102
+#: template/sysinfo.mako:93
 msgid "Not supported"
 msgstr ""
 
-#: template/sysinfo.mako:114
+#: template/sysinfo.mako:105
 msgid "Your browser"
 msgstr ""
 
-#: template/uacompat.mako:4
+#: template/uacompat.mako:3
 msgid "Browser compatibility test"
 msgstr "Prueba de compatibilidad del navegador"
 
-#: template/uacompat.mako:23
-#, python-format
+#: template/uacompat.mako:22
 msgid "%(name)s %(current)s supported"
 msgstr "%(name)s %(current)s es compatible"
 
-#: template/uacompat.mako:24
+#: template/uacompat.mako:23
 msgid ""
 "Web GIS browser compatibility test has been passed! The Web GIS should work "
 "fine."
@@ -439,13 +444,11 @@ msgstr ""
 "¡Se ha superado la prueba de compatibilidad del navegador Web GIS! El Web GIS"
 " debería funcionar bien."
 
-#: template/uacompat.mako:27
-#, python-format
+#: template/uacompat.mako:26
 msgid "%(name)s not supported"
 msgstr "%(name)s no es compatible"
 
-#: template/uacompat.mako:28
-#, python-format
+#: template/uacompat.mako:27
 msgid ""
 "You're using %(name)s although it's not supported by the Web GIS. It's an "
 "outdated browser lacking required features. Try a different browser or "
@@ -456,13 +459,11 @@ msgstr ""
 "navegador diferente o comuníquese con el administrador del sistema si no hay "
 "otro navegador disponible."
 
-#: template/uacompat.mako:30
-#, python-format
+#: template/uacompat.mako:29
 msgid "%(name)s %(current)s not supported"
 msgstr "%(name)s %(current)s no es compatible"
 
-#: template/uacompat.mako:31
-#, python-format
+#: template/uacompat.mako:30
 msgid ""
 "You're using %(name)s %(current)s although it's not supported by the Web GIS."
 " It's an outdated version lacking required features. Contact your system "
@@ -474,7 +475,7 @@ msgstr ""
 "Comuníquese con el administrador de su sistema para actualizar a %(name)s "
 "%(required)s+ o pruebe con otro navegador."
 
-#: template/uacompat.mako:35
+#: template/uacompat.mako:34
 msgid ""
 "If you still want to continue using the current browser, click the link below"
 " to bypass the compatibility test. The Web GIS or some features may degrade "
@@ -484,68 +485,74 @@ msgstr ""
 "continuación para omitir la prueba de compatibilidad. El Web GIS o algunas "
 "características pueden degradarse o fallar en este caso."
 
-#: template/uacompat.mako:36
+#: template/uacompat.mako:35
 msgid "I understood but want to proceed at my own risk. Skip the test!"
 msgstr "Lo entiendo, pero quiero proceder bajo mi propio riesgo. ¡Sáltate la prueba!"
 
-#: template/uacompat.mako:38
+#: template/uacompat.mako:37
 msgid "Unknown browser"
 msgstr "Navegador desconocido"
 
-#: template/uacompat.mako:39
+#: template/uacompat.mako:38
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
 msgstr "Si está utilizando un navegador actualizado, Web GIS debería estar bien."
 
-#~ msgid "Package versions"
-#~ msgstr "Versiones de paquetes"
+#: tomb/config.py:95
+msgid "Parameter required"
+msgstr ""
 
-#~ msgid "Packages"
-#~ msgstr "Paquetes"
+#: tomb/config.py:96
+msgid "The '{}' query parameter is required."
+msgstr ""
 
-#~ msgid "User settings"
-#~ msgstr "Ajustes del usuario"
+#: tomb/config.py:98
+msgid "Invalid parameter"
+msgstr ""
 
-#~ msgid "Update available"
-#~ msgstr "Actualización disponible"
+#: tomb/config.py:99
+msgid "The '{}' query parameter has an invalid value."
+msgstr ""
 
-#~ msgid "New version available:"
-#~ msgstr "Nueva versión disponible:"
+#: view.py:157
+msgid "HTTP API documentation"
+msgstr ""
 
-#~ msgid "for update."
-#~ msgstr "para actualización."
+#: view.py:182 view.py:568
+msgid "System information"
+msgstr "Información del sistema"
 
-#~ msgid "Your {distribution} is up-to-date: {version}."
-#~ msgstr "Su {distribution} está actualizada: {version}."
+#: view.py:190 view.py:605
+msgid "Storage"
+msgstr "Almacenamiento"
 
-#~ msgid ""
-#~ "Please note that different protocols (HTTP"
-#~ " and HTTPS) and subdomains (example.com "
-#~ "and www.example.com) are different origins. "
-#~ "Wildcards are not allowed."
-#~ msgstr ""
-#~ "Los diferentes protocolos (HTTP y HTTPS) "
-#~ "y subdominios (example.com y www.example.com) "
-#~ "son diferentes origines. Los comodínes (*)"
-#~ " no estan permitidos."
+#: view.py:201 view.py:612
+msgid "Backups"
+msgstr "Copias de seguridad"
 
-#~ msgid "Technical information"
-#~ msgstr "Información técnica"
+#: view.py:228 view.py:580
+msgid "Custom CSS"
+msgstr "CSS personalizado"
 
-#~ msgid "Contact support"
-#~ msgstr "Contacta a soporte"
+#: view.py:238 view.py:586
+msgid "Custom logo"
+msgstr "Logo personalizado"
 
-#~ msgid "Back to home"
-#~ msgstr "Volver a la página principal"
+#: view.py:248 view.py:574
+msgid "Web GIS name"
+msgstr "Nombre del Web GIS"
 
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
+#: view.py:258 view.py:592
+msgid "Home path"
+msgstr "Ruta a la página principal"
 
-#~ msgid "Invalid API response"
-#~ msgstr "Respuesta de API no válida"
+#: view.py:268 view.py:598
+msgid "Metrics and analytics"
+msgstr ""
 
-#~ msgid "Estimation is in progress..."
-#~ msgstr "La estimación está en curso ..."
+#: view.py:548
+msgid "Info"
+msgstr "Información"
 
-#~ msgid "Rich Text Editor"
-#~ msgstr "Editor de texto"
-
+#: view.py:549
+msgid "Settings"
+msgstr "Configuración"

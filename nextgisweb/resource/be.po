@@ -1,0 +1,715 @@
+#: amd/ngw-resource/CompositeWidget.js:52
+#, amd
+msgid "Please wait. Processing request..."
+msgstr "Калі ласка, пачакайце. Апрацоўка запыту..."
+
+#: amd/ngw-resource/CompositeWidget.js:85
+#, amd
+msgid "Create"
+msgstr "Стварыць"
+
+#: amd/ngw-resource/CompositeWidget.js:94
+#, amd
+msgid "Create and edit"
+msgstr "Стварыць і рэдагаваць"
+
+#: amd/ngw-resource/CompositeWidget.js:103
+#: nodepkg/export-settings/ExportSettings.tsx:80
+#, amd, jsrealm
+msgid "Save"
+msgstr "Захаваць"
+
+#: amd/ngw-resource/CompositeWidget.js:110
+#: nodepkg/children-section/component/MenuDropdown.tsx:209
+#: nodepkg/children-section/util/createResourceTableItemOptions.ts:8
+#: nodepkg/delete-page/DeletePage.tsx:60 view.py:415
+#, amd, jsrealm, server
+msgid "Delete"
+msgstr "Выдаліць"
+
+#: amd/ngw-resource/CompositeWidget.js:273 amd/ngw-resource/CompositeWidget.js:295
+#, amd
+msgid "Unexpected error"
+msgstr "Нечаканая памылка"
+
+#: amd/ngw-resource/CompositeWidget.js:274
+#, amd
+msgid "Serialization failed"
+msgstr "Збой серыялізацыі"
+
+#: amd/ngw-resource/CompositeWidget.js:285
+#, amd
+msgid "Validation error"
+msgstr "Памылка валідацыі"
+
+#: amd/ngw-resource/CompositeWidget.js:286
+#, amd
+msgid "Errors found during data validation. Tabs with errors marked in red."
+msgstr ""
+"Падчас праверкі даных выяўлены памылкі. Укладкі з памылкамі пазначаныя "
+"чырвоным колерам."
+
+#: amd/ngw-resource/CompositeWidget.js:296
+#, amd
+msgid "Validation failed"
+msgstr "Памылка валідацыі"
+
+#: amd/ngw-resource/ResourcePicker.js:29
+#, amd
+msgid "Select resource"
+msgstr "Выберыце рэсурс"
+
+#: amd/ngw-resource/ResourcePicker.js:70
+#, amd
+msgid "OK"
+msgstr "OK"
+
+#: amd/ngw-resource/ResourcePicker.js:79
+#, amd
+msgid "Cancel"
+msgstr "Адмяніць"
+
+#: amd/ngw-resource/form/ResourceLink.js:27 model.py:84
+#: nodepkg/editor-widget/EditorWidget.tsx:68 scope.py:12
+#, amd, jsrealm, server
+msgid "Resource"
+msgstr "Рэсурс"
+
+#: api.py:140
+#, server
+msgid "Root resource could not be deleted."
+msgstr "Немагчыма выдаліць каранёвы рэсурс."
+
+#: api.py:195
+#, server
+msgid "Resource parent required."
+msgstr "Патрабуецца рэсурс-продак."
+
+#: api.py:200
+#, server
+msgid "Resource class required."
+msgstr "Патрабуецца клас рэсурсаў."
+
+#: api.py:202
+#, python-format, server
+msgid "Unknown resource class '%s'."
+msgstr "Невядомы клас рэсурса '%s'."
+
+#: api.py:303
+#, server
+msgid "Permission not found"
+msgstr "Дазвол не знойдзены"
+
+#: component.py:94
+#, server
+msgid "Main resource group"
+msgstr "Асноўная група рэсурсаў"
+
+#: exception.py:7
+#, server
+msgid "Resource not found"
+msgstr "Рэсурс не знойдзены"
+
+#: exception.py:8
+#, python-format, server
+msgid "Resource with id = %d was not found."
+msgstr "Рэсурс з ідэнтыфікатарам = %d не знойдзены."
+
+#: exception.py:9
+#, server
+msgid ""
+"The resource may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired resource."
+msgstr ""
+"Магчыма, рэсурс быў выдалены або памылка ў адрасе. Выпраўце адрас або "
+"перайдзіце на галоўную старонку і паспрабуйце знайсці патрэбны рэсурс."
+
+#: exception.py:27
+#, server
+msgid ""
+"Modification of the '{attribute}' attribute requires the '{scope}: "
+"{permission}' permission."
+msgstr ""
+
+#: exception.py:33
+#, server
+msgid "The '{attribute}' attribute is read-only and cannot be updated."
+msgstr ""
+
+#: exception.py:40
+#, server
+msgid "Interface not supported"
+msgstr ""
+
+#: exception.py:45
+#, server
+msgid "Resource display name is not unique"
+msgstr "Адлюстраванае імя рэсурсу не з'яўляецца унікальным"
+
+#: exception.py:46
+#, python-format, server
+msgid "Resource with same display name already exists (id = %d)."
+msgstr "Рэсурс з такім жа назвай ужо існуе (ідэнтыфікатар = %d)."
+
+#: exception.py:47
+#, server
+msgid ""
+"Within a single parent resource, each resource must have unique display name."
+" Give the resource a different display name or rename existing."
+msgstr ""
+"У межах аднаго рэсурсу-продку кожны рэсурс павінен мець унікальнае "
+"адлюстраванае імя. Дайце рэсурсу іншае адлюстраванае імя або перайменуйце "
+"існуючае."
+
+#: exception.py:59
+#, server
+msgid "Hierarchy error"
+msgstr "Памылка іерархіі"
+
+#: exception.py:63
+#, python-format, server
+msgid "Resource class '%s' disabled."
+msgstr "Клас рэсурсаў '%s' адключаны."
+
+#: exception.py:72
+#, server
+msgid "Quota exceeded"
+msgstr ""
+
+#: exception.py:78
+#, python-format, server
+msgid "Maximum number of resources exceeded. The limit is %s."
+msgstr "Перавышана максімальная колькасць рэсурсаў. Ліміт складае %s."
+
+#: exception.py:80
+#, server
+msgid "Not enough resource quota: {0} required, but only {1} available."
+msgstr ""
+
+#: exception.py:84
+#, server
+msgid "Resource type - {}."
+msgstr ""
+
+#: favorite/__init__.py:6
+#, server
+msgid "Go to"
+msgstr ""
+
+#: favorite/__init__.py:7 nodepkg/favorite/FavoritePage.tsx:379
+#, jsrealm, server
+msgid "Edit"
+msgstr ""
+
+#: favorite/view.py:15 nodepkg/favorite/Avatar.tsx:54
+#, jsrealm, server
+msgid "Favorites"
+msgstr ""
+
+#: home.py:23
+#, server
+msgid "User resources"
+msgstr ""
+
+#: model.py:265
+#, server
+msgid "Resource can not be a parent himself."
+msgstr "Рэсурсам не можа быць яго ж рэсурс-продак."
+
+#: model.py:278
+#, server
+msgid "Resource keyname is not unique."
+msgstr "Ключавое імя рэсурсу не з'яўляецца унікальным."
+
+#: model.py:310
+#, server
+msgid "Default style"
+msgstr ""
+
+#: model.py:426
+#, server
+msgid "Resource can not be without a parent."
+msgstr "Рэсурс не можа быць без рэсурсаў-продкаў."
+
+#: model.py:433
+#, python-format, server
+msgid "You are not allowed to manage children of resource with id = %d."
+msgstr "Вам не дазволена кіраваць рэсурсам-нашчадкам з id = %d."
+
+#: model.py:439
+#, python-format, server
+msgid "Resource can not be a child of resource id = %d."
+msgstr "Рэсурс не можа быць рэсурсам-нашчадкам рэсурсу з ідэнтыфікатарам = %d."
+
+#: model.py:514
+#, server
+msgid ""
+"Unable to revoke '{s}: {p}' permission for '{u}' as the user belongs to the "
+"administrators group. Administrators must always have ability to configure "
+"permissions of resources."
+msgstr ""
+
+#: model.py:614
+#, server
+msgid "Resource group"
+msgstr "Група рэсурсаў"
+
+#: nodepkg/children-section/ChildrenSection.tsx:76
+#: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:26
+#: nodepkg/editor-widget/EditorWidget.tsx:20
+#, jsrealm
+msgid "Display name"
+msgstr "Адлюстроўваемае імя"
+
+#: nodepkg/children-section/ChildrenSection.tsx:90
+#: template/resource_section_summary.mako:5
+#, jsrealm, server
+msgid "Type"
+msgstr "Тып"
+
+#: nodepkg/children-section/ChildrenSection.tsx:97
+#: nodepkg/editor-widget/EditorWidget.tsx:43
+#: template/resource_section_summary.mako:20
+#, jsrealm, server
+msgid "Owner"
+msgstr "Уладальнік"
+
+#: nodepkg/children-section/ChildrenSection.tsx:105
+#, jsrealm
+msgid "Created"
+msgstr ""
+
+#: nodepkg/children-section/ChildrenSection.tsx:124
+#, jsrealm
+msgid "Volume"
+msgstr "Аб'ём"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:100
+#, jsrealm
+msgid "Moving resources"
+msgstr ""
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:146
+#, jsrealm
+msgid "Deleting resources"
+msgstr ""
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:171
+#, jsrealm
+msgid "Turn off multiple selection"
+msgstr ""
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:172
+#, jsrealm
+msgid "Select multiple resources"
+msgstr ""
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:182
+#, jsrealm
+msgid "Hide resources volume"
+msgstr "Схаваць аб'ём рэсурсаў"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:183
+#, jsrealm
+msgid "Show resources volume"
+msgstr "Паказаць аб'ём рэсурсаў"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:194
+#, jsrealm
+msgid "Hide resource creation date"
+msgstr ""
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:195
+#, jsrealm
+msgid "Show resource creation date"
+msgstr ""
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:218
+#, jsrealm
+msgid "Not all of the selected can be deleted."
+msgstr ""
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:234
+#, jsrealm
+msgid "Move"
+msgstr ""
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:253
+#, jsrealm
+msgid "Export vector layers"
+msgstr ""
+
+#: nodepkg/children-section/util/createResourceTableItemOptions.ts:7
+#, jsrealm
+msgid "Change"
+msgstr ""
+
+#: nodepkg/children-section/util/forEachSelected.ts:8
+#, jsrealm
+msgid "Operation in progress"
+msgstr ""
+
+#: nodepkg/children-section/util/notify.ts:8
+#, jsrealm
+msgid "Please confirm resource deletion. This action cannot be undone."
+msgstr ""
+
+#: nodepkg/children-section/util/notify.ts:16
+#, jsrealm
+msgid "The resource has been deleted"
+msgid_plural "{} resources have been deleted"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: nodepkg/children-section/util/notify.ts:25
+#: nodepkg/children-section/util/notify.ts:42
+#, jsrealm
+msgid "The resource has been moved"
+msgid_plural "{} resources have been moved"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:31
+#, jsrealm
+msgid "Create group"
+msgstr ""
+
+#: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:32
+#, jsrealm
+msgid "Clear selection"
+msgstr ""
+
+#: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:17
+#, jsrealm
+msgid "Go to initial group"
+msgstr ""
+
+#: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:18
+#, jsrealm
+msgid "Refresh"
+msgstr ""
+
+#: nodepkg/component/resource-picker/pickToFocusTable.tsx:47
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:25
+#, jsrealm
+msgid "Add"
+msgstr "Дадаць"
+
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:18
+#, jsrealm
+msgid "Pick this group"
+msgstr ""
+
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:19
+#, jsrealm
+msgid "Pick selected"
+msgstr ""
+
+#: nodepkg/delete-page/DeletePage.tsx:47
+#, jsrealm
+msgid "Confirm deletion of the resource"
+msgstr "Пацвердзіце выдаленне рэсурсу"
+
+#: nodepkg/description-editor/DescriptionEditorWidget.tsx:31
+#, jsrealm
+msgid "Description"
+msgstr "Апісанне"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:13
+#, jsrealm
+msgid "Identifier for API integration (optional)"
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.tsx:29
+#, jsrealm
+msgid "Parent"
+msgstr "Продак"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:55
+#: template/resource_section_summary.mako:9
+#, jsrealm, server
+msgid "Keyname"
+msgstr "Ключавое імя"
+
+#: nodepkg/effective-permissions/EffectivePermissions.tsx:15
+#, jsrealm
+msgid "No"
+msgstr "Не"
+
+#: nodepkg/effective-permissions/EffectivePermissions.tsx:15
+#, jsrealm
+msgid "Yes"
+msgstr "Так"
+
+#: nodepkg/export-settings/ExportSettings.tsx:36
+#, jsrealm
+msgid "The setting is saved."
+msgstr ""
+
+#: nodepkg/export-settings/ExportSettings.tsx:57
+#, jsrealm
+msgid ""
+"Select the category of users who can use the \"Save as\" link to download "
+"resource data."
+msgstr ""
+"Выберыце катэгорыю карыстальнікаў, якія могуць выкарыстоўваць спасылку "
+"«Захаваць як» для загрузкі дадзеных рэсурсу."
+
+#: nodepkg/export-settings/ExportSettings.tsx:67
+#, jsrealm
+msgid "Users with \"Data: Read\" permission"
+msgstr "Карыстальнікі з дазволам \"Даныя: чытанне\""
+
+#: nodepkg/export-settings/ExportSettings.tsx:70
+#, jsrealm
+msgid "Users with \"Data: Modify\" permission"
+msgstr ""
+
+#: nodepkg/export-settings/ExportSettings.tsx:73
+#, jsrealm
+msgid "Administrators"
+msgstr "Адміністратары"
+
+#: nodepkg/export-settings/ExportSettings.tsx:88
+#, jsrealm
+msgid ""
+"* This will not affect REST API use which will continue to be governed by "
+"permissions."
+msgstr ""
+"* Гэта не паўплывае на выкарыстанне REST API, якое па-ранейшаму будзе "
+"рэгулявацца дазволамі."
+
+#: nodepkg/external-access/ExternalAccess.tsx:10
+#, jsrealm
+msgid "Use these links to plug data into external applications."
+msgstr ""
+"Выкарыстоўвайце гэтыя спасылкі, каб падключыць даныя да знешніх прыкладных "
+"праграм."
+
+#: nodepkg/external-access/ExternalAccess.tsx:11
+#, jsrealm
+msgid "Read more"
+msgstr ""
+
+#: nodepkg/favorite/FavoritePage.tsx:29
+#, jsrealm
+msgid ""
+"No favorite resources have been added yet. Use the star icon ({}) in the "
+"user's context menu to add items here."
+msgstr ""
+
+#: nodepkg/favorite/FavoritePage.tsx:379
+#, jsrealm
+msgid "Done"
+msgstr ""
+
+#: nodepkg/favorite/useFavorites.tsx:33
+#, jsrealm
+msgid "Added to favorites"
+msgstr ""
+
+#: nodepkg/favorite/useFavorites.tsx:48
+#, jsrealm
+msgid "Removed from favorites"
+msgstr ""
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:13
+#, jsrealm
+msgid "All fields are required"
+msgstr ""
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:14
+#, jsrealm
+msgid "Row conflicts with another"
+msgstr ""
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:20 view.py:360
+#, jsrealm, server
+msgid "Action"
+msgstr "Дзеянне"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:21
+#, jsrealm
+msgid "Principal"
+msgstr "Удзельнік бяспекі"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:22
+#, jsrealm
+msgid "Apply to"
+msgstr ""
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:23
+#, jsrealm
+msgid "Permission"
+msgstr "Права доступу"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:26
+#, jsrealm
+msgid "Allow"
+msgstr "Дазволіць"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:27
+#, jsrealm
+msgid "Deny"
+msgstr "Забараніць"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:29
+#, jsrealm
+msgid "This and subresources"
+msgstr ""
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:30
+#, jsrealm
+msgid "This resource only"
+msgstr ""
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:32
+#, jsrealm
+msgid "All permissions"
+msgstr "Усе дазволы"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:229
+#, jsrealm
+msgid "Permissions"
+msgstr "Правы доступу"
+
+#: nodepkg/resources-filter/ResourcesFilter.tsx:127
+#, jsrealm
+msgid "Resources not found"
+msgstr "Рэсурсы не знойдзены"
+
+#: nodepkg/resources-filter/ResourcesFilter.tsx:132
+#, jsrealm
+msgid "Search resources"
+msgstr "Пошук рэсурсаў"
+
+#: scope.py:14 scope.py:30 scope.py:40 scope.py:53
+#, server
+msgctxt "permission"
+msgid "Read"
+msgstr "Чытаць"
+
+#: scope.py:15
+#, server
+msgctxt "permission"
+msgid "Create"
+msgstr "Стварыць"
+
+#: scope.py:16 scope.py:31 scope.py:41
+#, server
+msgctxt "permission"
+msgid "Modify"
+msgstr ""
+
+#: scope.py:17
+#, server
+msgctxt "permission"
+msgid "Delete"
+msgstr "Выдаліць"
+
+#: scope.py:18
+#, server
+msgctxt "permission"
+msgid "Manage subresources"
+msgstr ""
+
+#: scope.py:19
+#, server
+msgctxt "permission"
+msgid "Configure permissions"
+msgstr ""
+
+#: scope.py:28
+#, server
+msgid "Data structure"
+msgstr "Структура даных"
+
+#: scope.py:38
+#, server
+msgid "Data"
+msgstr "Даныя"
+
+#: scope.py:51
+#, server
+msgid "Connection"
+msgstr "Злучэнне"
+
+#: scope.py:54 scope.py:68
+#, server
+msgctxt "permission"
+msgid "Configure"
+msgstr "Канфігурацыя"
+
+#: scope.py:55
+#, server
+msgctxt "permission"
+msgid "Use"
+msgstr ""
+
+#: scope.py:65
+#, server
+msgid "Service"
+msgstr "Сэрвіс"
+
+#: scope.py:67
+#, server
+msgctxt "permission"
+msgid "Access"
+msgstr ""
+
+#: template/resource_section_description.mako:5
+#, server
+msgid "Resource description is empty."
+msgstr "Апісанне рэсурсу пустое."
+
+#: template/resource_section_external_access.mako:3
+#, server
+msgid "External access"
+msgstr ""
+
+#: view.py:124 view.py:424
+#, server
+msgid "JSON view"
+msgstr "Прагляд JSON"
+
+#: view.py:136 view.py:431
+#, server
+msgid "User permissions"
+msgstr "Дазволы карыстальнікаў"
+
+#: view.py:181 view.py:359
+#, server
+msgid "Create resource"
+msgstr "Стварыць рэсурс"
+
+#: view.py:192
+#, server
+msgid "Update resource"
+msgstr "Абнавіць рэсурс"
+
+#: view.py:204
+#, server
+msgid "Delete resource"
+msgstr "Выдаліць рэсурс"
+
+#: view.py:261 view.py:444
+#, server
+msgid "Resource export"
+msgstr ""
+
+#: view.py:285
+#, python-format, server
+msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
+msgstr "Недастатковы дазвол '%s' ў вобласці '%s' для рэсурсу з ідэнтыфікатарам = %d."
+
+#: view.py:361
+#, server
+msgid "Extra"
+msgstr "Дадаткова"
+
+#: view.py:402
+#, server
+msgid "Update"
+msgstr "Абнавіць"

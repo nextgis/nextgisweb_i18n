@@ -1,71 +1,79 @@
-#: __init__.py:100
+#: component.py:90
 msgid "NextGIS geoinformation system"
 msgstr "Système d'information géographique (NextGIS)"
 
-#: __init__.py:225
+#: component.py:269
 msgid "Linux kernel"
 msgstr "Noyau Linux"
 
-#: __init__.py:228
+#: component.py:272
 msgid "OS distribution"
 msgstr "la distribution OS"
 
-#: __init__.py:240
+#: component.py:284
 msgid "CPU"
 msgstr "CPU"
 
-#: __init__.py:244
+#: component.py:287
 msgid "RAM"
 msgstr "RAM"
 
-#: exception.py:85
+#: component.py:316
+msgid "Last backup"
+msgstr ""
+
+#: component.py:320
+msgid "Last maintenance"
+msgstr ""
+
+#: exception.py:116
 msgid "Validation error"
 msgstr "Erreur de validation"
 
-#: exception.py:90
+#: exception.py:121
 msgid "Forbidden"
 msgstr "Interdit"
 
-#: exception.py:95
+#: exception.py:126
 msgid "Insufficient permissions"
 msgstr "Permissions insuffisantes"
 
-#: exception.py:100
+#: exception.py:131
 msgid "Operational error"
 msgstr "Erreur opérationnelle"
 
-#: exception.py:105
+#: exception.py:136
 msgid "External service error"
 msgstr "Erreur de service externe"
 
-#: storage.py:258
+#: exception.py:145
+msgid "Not configured"
+msgstr ""
+
+#: storage.py:289
 msgid "Storage full"
 msgstr "Stockage plein"
 
-#: storage.py:259
-#, python-format
+#: storage.py:290
 msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr ""
 
-#: storage.py:267
+#: storage.py:300
 msgid "Not enough storage"
 msgstr "Pas assez de stockage"
 
-#: storage.py:268
-#, python-format
+#: storage.py:301
 msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
 msgstr ""
 
-#: storage.py:276
+#: storage.py:311
 msgid "Estimation is already running"
 msgstr "L'estimation est déjà en cours"
 
-#: test/test_exception.py:75
-#, python-format
+#: test/test_exception.py:76
 msgid "The answer is %d"
 msgstr "La réponse est %d"
-

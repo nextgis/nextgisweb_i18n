@@ -1,72 +1,50 @@
-#: __init__.py:46
-msgid "Guest"
-msgstr "Гост"
-
-#: __init__.py:52
-msgid "Everyone"
-msgstr "Всички"
-
-#: __init__.py:58
-msgid "Authenticated"
-msgstr "Проверен"
-
-#: __init__.py:66
-msgid "Administrators"
-msgstr "Администратори"
-
-#: __init__.py:69
-msgid "Administrator"
-msgstr "Администратор"
-
-#: __init__.py:78
-msgid "Owner"
-msgstr "Собственик"
-
-#: __init__.py:292
-#, python-format
-msgid "Maximum number of users is reached. Your current plan user number limit is %d."
-msgstr "Достигнат е максимален брой потребители. По текущия план пределът е %d."
-
-#: api.py:320
-#, python-format
+#: api.py:81
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr "Атрибутът '%s' на системния субект не може да бъде променен."
 
-#: api.py:329
-#, python-format
+#: api.py:88
 msgid "Principal '%s' already exists."
 msgstr "Субектът '%s' вече съществува."
 
-#: api.py:331
-#, python-format
+#: api.py:90
 msgid "Principal with full name '%s' already exists."
 msgstr "Субектът с име '%s' вече съществува."
 
-#: api.py:367
-#, python-format
+#: api.py:160
+msgid "Password is not set."
+msgstr ""
+
+#: api.py:586
 msgid "User '%s' can't be a member of a group."
 msgstr "Потребителят '%s' не може да е включен в група."
 
-#: api.py:373
+#: api.py:592
 msgid "System principals can't be deleted."
 msgstr "Системните субекти не може да бъдат премахнати."
 
-#: api.py:389
+#: api.py:607
 msgid "User is referenced with resources"
 msgstr "Потребителят е свързан с ресурси"
 
-#: api.py:390
+#: api.py:609
 msgid "Group is referenced with resources"
 msgstr "Групата е свързана с ресурси"
 
-#: api.py:402
-#, python-format
-msgid "Invalid principal name: '%s'."
-msgstr "Невалидно име на субект: '%s'"
+#: api.py:615
+msgid "Administrator required"
+msgstr ""
 
-#: api.py:437
+#: api.py:616
 msgid "The 'administrators' group must have at least one enabled member."
 msgstr "Група 'администратори' трябва да има поне един включен участник."
+
+#: component.py:48
+msgid "Administrator"
+msgstr "Администратор"
+
+#: component.py:258
+msgid "Maximum number of users is reached. Your current plan user number limit is %d."
+msgstr "Достигнат е максимален брой потребители. По текущия план пределът е %d."
 
 #: exception.py:7
 msgid "Invalid authorization header"
@@ -84,234 +62,156 @@ msgstr "Потребителят е блокиран"
 msgid "Invalid authorization link"
 msgstr ""
 
-#: model.py:169
-msgid "Password is not set."
-msgstr ""
+#: model.py:92
+msgid "Guest"
+msgstr "Гост"
 
-#: oauth.py:210
-msgid "{} binding error"
-msgstr ""
+#: model.py:93
+msgid "Everyone"
+msgstr "Всички"
 
-#: oauth.py:211
-msgid ""
-"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
-"in using this account instead of binding it."
-msgstr ""
+#: model.py:94
+msgid "Authenticated"
+msgstr "Проверен"
 
-#: oauth.py:534
-msgid "OAuth authorization error"
-msgstr "Грешка при авторизация OAuth"
+#: model.py:95
+msgid "Owner"
+msgstr "Собственик"
 
-#: oauth.py:539
-msgid "Invalid OAuth token"
-msgstr "OAuth токен не е валиден"
+#: model.py:202
+msgid "Administrators"
+msgstr "Администратори"
 
-#: oauth.py:544
-msgid "Invalid OAuth scope"
-msgstr "Невалидни възможности на OAuth"
-
-#: oauth.py:549
-msgid "OAuth password grant type failed"
-msgstr ""
-
-#: oauth.py:554
-msgid "OAuth token refresh failed"
-msgstr "Неуспешно обновяване на OAuth токен"
-
-#: oauth.py:559
-msgid "OAuth access token is expired"
-msgstr "OAuth токен за достъп е с изтекъл срок"
-
-#: nodepkg/login-form/LoginForm.js:16 view.py:49
-msgid "Sign in to Web GIS"
-msgstr "Влез в Уеб GIS"
-
-#: view.py:71
-msgid "Session not found."
-msgstr "Сесии не са открити."
-
-#: view.py:75
-msgid "Invalid 'expires' parameter."
-msgstr "Параметърът 'expires' е невалиден."
-
-#: view.py:78
-msgid "Session expired."
-msgstr "Сесията е изтекла."
-
-#: view.py:98
-msgid ""
-"Failed to authenticate using the given authorization link. Please check the "
-"link and contact the administrator."
-msgstr ""
-
-#: view.py:106
-msgid "Usage of authorization link is forbidden for administrators."
-msgstr ""
-
-#: view.py:145
-msgid "Team membership required"
-msgstr ""
-
-#: view.py:146
-msgid ""
-"You are not a member of this Web GIS team. Contact Web GIS administrator and "
-"ask to be added to the team."
-msgstr ""
-
-#: view.py:277
-msgid "User settings"
-msgstr "Потребителски настройки"
-
-#: nodepkg/group-widget/GroupWidget.js:30 view.py:284 view.py:399
-msgid "Users"
-msgstr "Потребители"
-
-#: view.py:297
-msgid "Create new user"
-msgstr "Нов потребител"
-
-#: nodepkg/user-widget/UserWidget.js:80 view.py:312 view.py:403
-msgid "Groups"
-msgstr "Групи"
-
-#: view.py:325
-msgid "Create new group"
-msgstr "Нова група"
-
-#: view.py:407
-msgid "Groups and users"
-msgstr "Групи и потребители"
-
-#: nodepkg/browse.js:9 nodepkg/userMessages.js:5
-msgid "Delete user?"
-msgstr "Искате ли да премахнете потребителя?"
-
-#: nodepkg/browse.js:9 nodepkg/groupMessages.js:5
+#: nodepkg/group-browse/GroupBrowse.tsx:8 nodepkg/group-widget/GroupWidget.tsx:19
 msgid "Delete group?"
 msgstr "Искате ли да премахнете групата?"
 
-#: nodepkg/browse.js:11
-msgid "Confirmation"
-msgstr "Потвръждение"
-
-#: nodepkg/groupMessages.js:6
+#: nodepkg/group-browse/GroupBrowse.tsx:9 nodepkg/group-widget/GroupWidget.tsx:20
 msgid "Group deleted"
 msgstr "Групата е изтрита"
 
-#: nodepkg/oauth.js:25
-msgid "Manage team"
-msgstr ""
-
-#: nodepkg/userMessages.js:6
-msgid "User deleted"
-msgstr "Потребителят е премахнат"
-
-#: nodepkg/group-browse/GroupBrowse.js:9 nodepkg/group-widget/GroupWidget.js:19
-#: nodepkg/user-browse/UserBrowse.js:20 nodepkg/user-widget/UserWidget.js:35
+#: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
+#: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:42
 msgid "Full name"
 msgstr "Пълно име"
 
-#: nodepkg/group-browse/GroupBrowse.js:15 nodepkg/group-widget/GroupWidget.js:24
+#: nodepkg/group-browse/GroupBrowse.tsx:25 nodepkg/group-widget/GroupWidget.tsx:34
 msgid "Group name"
 msgstr "Име на групата"
 
-#: nodepkg/group-browse/GroupBrowse.js:21 nodepkg/group-widget/GroupWidget.js:42
+#: nodepkg/group-browse/GroupBrowse.tsx:31 nodepkg/group-widget/GroupWidget.tsx:59
 msgid "New users"
 msgstr ""
 
-#: nodepkg/group-browse/GroupBrowse.js:25 nodepkg/group-browse/GroupBrowse.js:35
-#: nodepkg/user-browse/UserBrowse.js:50 nodepkg/user-browse/UserBrowse.js:60
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:27
 msgid "Yes"
 msgstr ""
 
-#: nodepkg/group-browse/GroupBrowse.js:25 nodepkg/group-browse/GroupBrowse.js:35
-#: nodepkg/user-browse/UserBrowse.js:50 nodepkg/user-browse/UserBrowse.js:60
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:28
 msgid "No"
 msgstr ""
 
-#: nodepkg/group-widget/GroupWidget.js:50
+#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:285 view.py:378
+msgid "Users"
+msgstr "Потребители"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:100
+msgid "Permissions"
+msgstr ""
+
+#: nodepkg/group-widget/GroupWidget.tsx:65
 msgid "{dn} mapping"
 msgstr ""
 
-#: nodepkg/group-widget/GroupWidget.js:57 nodepkg/user-widget/UserWidget.js:97
+#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:112
 msgid "Description"
 msgstr "Описание"
 
-#: nodepkg/login-form/LoginForm.js:14
+#: nodepkg/login/LoginForm.tsx:20
 msgid "Sign in with {}"
 msgstr ""
 
-#: nodepkg/login-form/LoginForm.js:17 template/session_invite.mako:17
+#: nodepkg/login/LoginForm.tsx:21 view.py:32
+msgid "Sign in to Web GIS"
+msgstr "Влез в Уеб GIS"
+
+#: nodepkg/login/LoginForm.tsx:22 template/session_invite.mako:16
 msgid "Sign in"
 msgstr "Влез"
 
-#: nodepkg/login-form/LoginForm.js:29 nodepkg/user-browse/UserBrowse.js:37
-#: nodepkg/user-widget/UserWidget.js:40
+#: nodepkg/login/LoginForm.tsx:35 nodepkg/user-browse/UserBrowse.tsx:25
+#: nodepkg/user-widget/UserWidget.tsx:48
 msgid "Login"
 msgstr "Потребителско име"
 
-#: nodepkg/login-form/LoginForm.js:34 nodepkg/user-browse/UserBrowse.js:47
-#: nodepkg/user-widget/UserWidget.js:46
+#: nodepkg/login/LoginForm.tsx:40 nodepkg/user-browse/UserBrowse.tsx:26
+#: nodepkg/user-widget/UserWidget.tsx:55
 msgid "Password"
 msgstr "Парола"
 
-#: nodepkg/login-form/LoginForm.js:90
+#: nodepkg/login/LoginForm.tsx:94
 msgid "or using login and password"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:15
+#: nodepkg/oauth.tsx:26
+msgid "Manage team"
+msgstr ""
+
+#: nodepkg/settings-form/SettingsForm.tsx:27
 msgid "Account bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:26
+#: nodepkg/settings-form/SettingsForm.tsx:38
 msgid "Bind account"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:28
+#: nodepkg/settings-form/SettingsForm.tsx:40
 msgid "Account not bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.js:46 nodepkg/user-widget/UserWidget.js:91
+#: nodepkg/settings-form/SettingsForm.tsx:55 nodepkg/user-widget/UserWidget.tsx:106
 msgid "Language"
 msgstr "Език"
 
-#: nodepkg/settings-form/SettingsForm.js:81
+#: nodepkg/settings-form/SettingsForm.tsx:71
 msgid "Saved"
 msgstr "Запазено"
 
-#: nodepkg/user-browse/UserBrowse.js:13 nodepkg/user-widget/UserWidget.js:75
+#: nodepkg/user-browse/UserBrowse.tsx:22 nodepkg/user-widget/UserWidget.tsx:83
 msgid "Disabled"
 msgstr "Блокиран"
 
-#: nodepkg/user-browse/UserBrowse.js:14
+#: nodepkg/user-browse/UserBrowse.tsx:23
 msgid "Enabled"
 msgstr "Включен"
 
-#: nodepkg/user-browse/UserBrowse.js:46
-msgid "Users with a password can sign in with login and password."
-msgstr ""
-
-#: nodepkg/user-browse/UserBrowse.js:56
-msgid "Users bound to {dn} can sign in with {dn}."
-msgstr ""
-
-#: nodepkg/user-browse/UserBrowse.js:66
+#: nodepkg/user-browse/UserBrowse.tsx:29
 msgid "Last activity"
 msgstr "Последни действия"
 
-#: nodepkg/user-browse/UserBrowse.js:79
+#: nodepkg/user-browse/UserBrowse.tsx:30
 msgid "Status"
 msgstr "Статут"
 
-#: nodepkg/user-browse/UserBrowse.js:151
-msgid "Disable"
-msgstr "Блокирай"
+#: nodepkg/user-browse/UserBrowse.tsx:34
+msgid "Users with a password can sign in with login and password."
+msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:151
-msgid "Enable"
-msgstr "Включи"
+#: nodepkg/user-browse/UserBrowse.tsx:35
+msgid "Users bound to {dn} can sign in with {dn}."
+msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.js:160
+#: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:22
+msgid "Delete user?"
+msgstr "Искате ли да премахнете потребителя?"
+
+#: nodepkg/user-browse/UserBrowse.tsx:40 nodepkg/user-widget/UserWidget.tsx:23
+msgid "User deleted"
+msgstr "Потребителят е премахнат"
+
+#: nodepkg/user-browse/UserBrowse.tsx:122
 msgid ""
 "Your team members won't be shown here until their first logon. Set \"New "
 "users\" flag for a group to automatically assign new user to this group. You "
@@ -319,100 +219,141 @@ msgid ""
 "team members."
 msgstr ""
 
-#: nodepkg/user-widget/UserWidget.js:50
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+msgid "Disable"
+msgstr "Блокирай"
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+msgid "Enable"
+msgstr "Включи"
+
+#: nodepkg/user-widget/UserWidget.tsx:59 nodepkg/user-widget/UserWidget.tsx:64
 msgid "Enter new password here"
 msgstr "Въведете нова парола тук"
 
-#: nodepkg/user-widget/UserWidget.js:66
+#: nodepkg/user-widget/UserWidget.tsx:77
 msgid "Authorization link"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidget.js:111
+#: nodepkg/user-widget/UserWidget.tsx:89 view.py:319 view.py:384
+msgid "Groups"
+msgstr "Групи"
+
+#: nodepkg/user-widget/UserWidget.tsx:126
 msgid ""
 "Consider adding {name} user to your team instead of creating a new user with "
 "a password."
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetAlinkToken.js:8
-#: nodepkg/user-widget/UserWidgetPassword.js:9
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:10
 msgid "Keep existing"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetAlinkToken.js:12
-#: nodepkg/user-widget/UserWidgetPassword.js:13
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
+#: nodepkg/user-widget/UserWidgetPassword.tsx:14
 msgid "Assign new"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetAlinkToken.js:16
-#: nodepkg/user-widget/UserWidgetPassword.js:19
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
+#: nodepkg/user-widget/UserWidgetPassword.tsx:20
 msgid "Turn off"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetAlinkToken.js:66
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
 msgid "The generated link will be available after saving."
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetPassword.js:18
+#: nodepkg/user-widget/UserWidgetPassword.tsx:19
 msgid "{name} only"
 msgstr ""
 
-#~ msgid "System principals couldn't be chanded."
-#~ msgstr "Субектите на системата не могат да бъдат променени."
+#: oauth.py:323
+msgid "{} binding error"
+msgstr ""
 
-#~ msgid "Group name is not unique."
-#~ msgstr "Името на групата не е уникално."
+#: oauth.py:324
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
+"in using this account instead of binding it."
+msgstr ""
 
-#~ msgid "Login is not unique."
-#~ msgstr "Потребителското име не е уникално."
+#: oauth.py:638
+msgid "OAuth authorization error"
+msgstr "Грешка при авторизация OAuth"
 
-#~ msgid ""
-#~ "You can't disable current administrator. At"
-#~ " least one enabled administrator is "
-#~ "required."
-#~ msgstr ""
-#~ "Не е възможно да блокирате настоящ "
-#~ "администратор. Трябва да има поне един "
-#~ "активен администратор."
+#: oauth.py:643
+msgid "Invalid OAuth token"
+msgstr "OAuth токен не е валиден"
 
-#~ msgid "List"
-#~ msgstr "Списък"
+#: oauth.py:648
+msgid "Invalid OAuth scope"
+msgstr "Невалидни възможности на OAuth"
 
-#~ msgid "Create"
-#~ msgstr "Създай"
+#: oauth.py:653
+msgid "OAuth password grant type failed"
+msgstr ""
 
-#~ msgid "Edit"
-#~ msgstr "Редактирай"
+#: oauth.py:658
+msgid "OAuth token refresh failed"
+msgstr "Неуспешно обновяване на OAuth токен"
 
-#~ msgid "Group"
-#~ msgstr "Група"
+#: oauth.py:663
+msgid "OAuth access token is expired"
+msgstr "OAuth токен за достъп е с изтекъл срок"
 
-#~ msgid "User"
-#~ msgstr "Потребител"
+#: permission.py:12
+msgid "View"
+msgstr ""
 
-#~ msgid "Delete"
-#~ msgstr "Премахване"
+#: permission.py:13
+msgid "Manage"
+msgstr ""
 
-#~ msgid "Authorization Required"
-#~ msgstr "Изисква се авторизация"
+#: permission.py:39 view.py:374
+msgid "Groups and users"
+msgstr "Групи и потребители"
 
-#~ msgid "Your account is bound to NextGIS ID account"
-#~ msgstr "Вашият профил е свързан с NextGIS ID профил"
+#: view.py:57
+msgid "Session not found."
+msgstr "Сесии не са открити."
 
-#~ msgid "User is already bound"
-#~ msgstr "Потребителят вече е свързан"
+#: view.py:61
+msgid "Invalid 'expires' parameter."
+msgstr "Параметърът 'expires' е невалиден."
 
-#~ msgid "Sign in with OAuth"
-#~ msgstr "Влез с OAuth"
+#: view.py:64
+msgid "Session expired."
+msgstr "Сесията е изтекла."
 
-#~ msgid "OAuth subject"
-#~ msgstr "Субект на OAuth"
+#: view.py:83
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr ""
 
-#~ msgid "Group members"
-#~ msgstr "Членове на групата"
+#: view.py:94
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr ""
 
-#~ msgid "Assign at registration"
-#~ msgstr "Да се назначава при регистриране"
+#: view.py:133
+msgid "Team membership required"
+msgstr ""
 
-#~ msgid "Groups member"
-#~ msgstr "Членува в групи"
+#: view.py:134
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and "
+"ask to be added to the team."
+msgstr ""
 
+#: view.py:278
+msgid "User settings"
+msgstr "Потребителски настройки"
+
+#: view.py:301
+msgid "Create new user"
+msgstr "Нов потребител"
+
+#: view.py:335
+msgid "Create new group"
+msgstr "Нова група"

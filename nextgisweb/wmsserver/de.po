@@ -1,8 +1,32 @@
-#: amd/ngw-wmsserver/ServiceWidget.js:57 model.py:21 view.py:15
+#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:145 view.py:16
 msgid "WMS service"
 msgstr "WMS-Dienst"
 
-#: view.py:16
+#: nodepkg/service-widget/ServiceWidget.tsx:24
+msgid "Not set"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:56
+msgid "Display name"
+msgstr "Anzeigename"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:61
+msgid "Keyname"
+msgstr "Schlüsselname"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:66
+msgid "Min scale"
+msgstr "Von-Maßstab"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:71
+msgid "Max scale"
+msgstr "Bis-Maßstab"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:76
+msgid "Resource"
+msgstr "Ressource"
+
+#: view.py:17
 msgid ""
 "Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
 " Consortium for serving georeferenced map images. These images are typically "
@@ -12,52 +36,3 @@ msgstr ""
 "Consortium entwickelt wurde. Sein Zweck ist die Bereitstellung der "
 "georeferenzierten Kartenbilder. Diese Bilder generiert häufigerweise ein "
 "Kartenserver, der dafür eine GIS-Datenbank nutzt."
-
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:14
-msgid "Add"
-msgstr "Hinzufügen"
-
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:18
-msgid "Select layer's style"
-msgstr ""
-
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:27
-msgid "Remove"
-msgstr "Entfernen"
-
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:62
-msgid "Keyname"
-msgstr "Schlüsselname"
-
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:66
-msgid "Display name"
-msgstr "Anzeigename"
-
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:70
-msgid "Min scale"
-msgstr "Von-Maßstab"
-
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:74
-msgid "Max scale"
-msgstr "Bis-Maßstab"
-
-#: amd/ngw-wmsserver/template/ServiceWidget.hbs:78
-msgid "Resource"
-msgstr "Ressource"
-
-#~ msgid "Select layer\\'s style"
-#~ msgstr "Layerstil wählen"
-
-#~ msgid "External access"
-#~ msgstr "externer Zugriff"
-
-#~ msgid ""
-#~ "https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-"
-#~ "service-connection"
-#~ msgstr ""
-#~ "https://docs.nextgis.com/docs_ngweb/source/layers.html#using-wms-"
-#~ "service-connection"
-
-#~ msgid "Read more"
-#~ msgstr "Weiterlesen"
-

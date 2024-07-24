@@ -1,0 +1,41 @@
+#: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
+#, jsrealm, server
+msgid "WFS service"
+msgstr "Сэрвіс WFS"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:27
+#, jsrealm
+msgid "Display name"
+msgstr "Адлюстроўваемае імя"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:32
+#, jsrealm
+msgid "Keyname"
+msgstr "Ключавое імя"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:37
+#, jsrealm
+msgid "Features per request"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:42
+#, jsrealm
+msgid "Not set"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:47
+#, jsrealm
+msgid "Resource"
+msgstr "Рэсурс"
+
+#: view.py:16
+#, server
+msgid "Web Feature Service (WFS)"
+msgstr ""
+
+#: view.py:17
+#, server
+msgid ""
+"Web Feature Service (WFS) provides an interface allowing requests for "
+"geographical features across the web using platform-independent calls."
+msgstr ""

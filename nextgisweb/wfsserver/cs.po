@@ -1,53 +1,35 @@
-#: amd/ngw-wfsserver/ServiceWidget.js:56 model.py:19
+#: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
 msgstr "Služba WFS"
 
-#: view.py:15
+#: nodepkg/service-widget/ServiceWidget.tsx:27
+msgid "Display name"
+msgstr "Zobrazované jméno"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:32
+msgid "Keyname"
+msgstr "Klíčový název"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:37
+msgid "Features per request"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:42
+msgid "Not set"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:47
+msgid "Resource"
+msgstr "Zdroj"
+
+#: view.py:16
 msgid "Web Feature Service (WFS)"
 msgstr "Služba webových funkcí (WFS)"
 
-#: view.py:16
+#: view.py:17
 msgid ""
 "Web Feature Service (WFS) provides an interface allowing requests for "
 "geographical features across the web using platform-independent calls."
 msgstr ""
 "Služba webových funkcí (WFS) poskytuje rozhraní umožňující požadavky na "
 "geografické prvky na celém webu pomocí volání nezávislých na platformě."
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:14
-msgid "Add"
-msgstr "Přidat"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:18
-msgid "Select vector layer"
-msgstr "Vyberte vektorovou vrstvu"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:27
-msgid "Remove"
-msgstr "Odstranit"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:62
-msgid "Keyname"
-msgstr "Klíčový název"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:66
-msgid "Display name"
-msgstr "Zobrazované jméno"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:70
-msgid "Default count of returned features"
-msgstr "Výchozí počet vrácených funkcí"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:74
-msgid "Resource"
-msgstr "Zdroj"
-
-#~ msgid "External access"
-#~ msgstr "Externí přístup"
-
-#~ msgid "Read more"
-#~ msgstr "Přečíst více"
-
-#~ msgid "https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service"
-#~ msgstr "https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service"
-

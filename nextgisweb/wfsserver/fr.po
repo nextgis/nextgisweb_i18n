@@ -1,12 +1,32 @@
-#: amd/ngw-wfsserver/ServiceWidget.js:56 model.py:19
+#: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
 msgstr "Service WFS"
 
-#: view.py:15
+#: nodepkg/service-widget/ServiceWidget.tsx:27
+msgid "Display name"
+msgstr "Afficher un nom"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:32
+msgid "Keyname"
+msgstr "Nom de clé"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:37
+msgid "Features per request"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:42
+msgid "Not set"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:47
+msgid "Resource"
+msgstr "Ressource"
+
+#: view.py:16
 msgid "Web Feature Service (WFS)"
 msgstr "Web Feature Service (WFS)"
 
-#: view.py:16
+#: view.py:17
 msgid ""
 "Web Feature Service (WFS) provides an interface allowing requests for "
 "geographical features across the web using platform-independent calls."
@@ -14,41 +34,3 @@ msgstr ""
 "Web Feature Service (WFS) fournit une interface qui vous permet d'interroger "
 "des entités géographiques sur Web via des appels indépendants de la plate-"
 "forme."
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:14
-msgid "Add"
-msgstr "Ajouter"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:18
-msgid "Select vector layer"
-msgstr "Sélectionnez le couche vectoriel"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:27
-msgid "Remove"
-msgstr "Supprimer"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:62
-msgid "Keyname"
-msgstr "Nom de clé"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:66
-msgid "Display name"
-msgstr "Afficher un nom"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:70
-msgid "Default count of returned features"
-msgstr "Nombre par défaut des entités renvoyées"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:74
-msgid "Resource"
-msgstr "Ressource"
-
-#~ msgid "External access"
-#~ msgstr "Accès externe"
-
-#~ msgid "Read more"
-#~ msgstr "Lire la suite"
-
-#~ msgid "https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service"
-#~ msgstr "https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service"
-

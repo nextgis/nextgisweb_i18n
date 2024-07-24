@@ -1,31 +1,17 @@
-#: amd/ngw-social/Widget.js:29
-msgid "Social"
-msgstr "Sociální"
-
-#: amd/ngw-social/template/Widget.hbs:4
-msgid "Preview for social media and messengers:"
-msgstr "Náhled pro sociální média a posly:"
-
-#: amd/ngw-social/template/Widget.hbs:8
+#: nodepkg/editor-widget/EditorWidget.tsx:20
 msgid "Select a preview image"
 msgstr "Vyberte náhled"
 
-#: amd/ngw-social/template/Widget.hbs:9
+#: nodepkg/editor-widget/EditorWidget.tsx:21
 msgid ""
 "The image will be converted to PNG format and downscaled to 1600x630 pixels "
 "if it's bigger."
 msgstr ""
 
-#: amd/ngw-social/template/Widget.hbs:18
+#: nodepkg/editor-widget/EditorWidget.tsx:58
 msgid "Preview description"
 msgstr "Popis náhledu"
 
-#~ msgid ""
-#~ "The image will be converted to PNG "
-#~ "format and downscaled to 1600x630 pixels "
-#~ "if it\\'s bigger."
-#~ msgstr ""
-#~ "Obrázek bude převeden do formátu PNG a"
-#~ " zmenšen na 1600x630 pixelů, pokud je "
-#~ "větší."
-
+#: nodepkg/editor-widget/EditorWidget.tsx:65
+msgid "Social"
+msgstr "Sociální"

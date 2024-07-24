@@ -1,5 +1,5 @@
 {
-  "locales": ["bg", "cs", "de", "es", "fr", "it", "pt", "zh-cn"],
+  "locales": ["be", "bg", "cs", "de", "es", "fr", "it", "pt", "zh-cn"],
   "packages": [
     "nextgisweb",
     "nextgisweb_cadaster",
@@ -8,6 +8,7 @@
     "nextgisweb_mapserver",
     "nextgisweb_ngwcluster",
     "nextgisweb_qgis",
+    "nextgisweb_threedim",
     "nextgisweb_tracker"
   ]
 }

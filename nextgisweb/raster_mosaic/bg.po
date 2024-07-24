@@ -1,25 +1,24 @@
-#: api.py:17
+#: api.py:18
 msgid "Raster mosaic item id not provided."
 msgstr "ID на елемента от растерна мозайка не е посочен."
 
-#: api.py:23
+#: api.py:24
 msgid "Raster mosaic item not found."
 msgstr "Елементът от растерна мозайка не е открит."
 
-#: model.py:39
+#: model.py:36
 msgid "Raster mosaic"
 msgstr "Растерна мозайка"
 
-#: model.py:128
+#: model.py:121
 msgid "GDAL library was unable to open the file."
 msgstr "GDAL библиотека не можа да отвори файла."
 
-#: model.py:131
+#: model.py:124
 msgid "Only RGB and RGBA rasters are supported."
 msgstr "Само RGB и RGBA растери са поддържани."
 
-#: model.py:139
-#, python-format
+#: model.py:132
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
 " %(all_formats)s."
@@ -27,27 +26,22 @@ msgstr ""
 "Растерът има формат  '%(format)s', но само следните формати се поддържат: "
 "%(all_formats)s."
 
-#: model.py:144
+#: model.py:139
 msgid "Raster files without projection info are not supported."
 msgstr "Растерните файлове без данни за проекция не се поддържат."
 
-#: model.py:155
+#: model.py:150
 msgid "Complex data types are not supported."
 msgstr "Комплексните типове данни не се поддържат."
 
-#: amd/ngw-raster-mosaic/ItemWidget.js:51
-msgid "File name"
-msgstr "Файлово име"
+#: nodepkg/resource-widget/Store.ts:73
+msgid "File '{}' has an invalid extension."
+msgstr ""
 
-#: amd/ngw-raster-mosaic/ItemWidget.js:62
-msgid "Items"
-msgstr "Елементи"
-
-#: amd/ngw-raster-mosaic/ItemWidget.js:90
+#: nodepkg/resource-widget/Widget.tsx:43
 msgid "Upload"
 msgstr "Прикачи"
 
-#: amd/ngw-raster-mosaic/ItemWidget.js:110
-msgid "Delete"
-msgstr "Изтрий"
-
+#: nodepkg/resource-widget/Widget.tsx:64
+msgid "Rasters"
+msgstr ""

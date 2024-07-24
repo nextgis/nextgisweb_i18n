@@ -1,71 +1,40 @@
-#: api.py:23
+#: api.py:25
 msgid "Uploaded file too large"
 msgstr "O ficheiro carregado é demasiado grande"
 
-#: api.py:28
+#: model.py:137
+msgid "Uploaded file not found"
+msgstr ""
+
+#: model.py:141
 msgid "Upload is not completed"
 msgstr "O carregamento não foi concluído"
 
-#: view.py:9
-msgid "File Upload testing page"
-msgstr ""
-
-#: amd/ngw-file-upload/Uploader.js:55
-msgid "Select"
-msgstr "Selecione"
-
-#: amd/ngw-file-upload/Uploader.js:85
-msgid "max"
-msgstr "máximo"
-
-#: amd/ngw-file-upload/Uploader.js:113
-msgid "Uploading..."
-msgstr "A carregar..."
-
-#: amd/ngw-file-upload/Uploader.js:121 nodepkg/hook/useFileUploader.js:46
-msgid " uploaded..."
-msgstr " carregado..."
-
-#: amd/ngw-file-upload/Uploader.js:149
-msgid "Could not load file!"
-msgstr "Não foi possível carregar o ficheiro!"
-
-#: amd/ngw-file-upload/template/ImageUploader.hbs:9
-msgid "Select an image"
-msgstr "Selecione uma imagem"
-
-#: amd/ngw-file-upload/template/ImageUploader.hbs:10
-#: amd/ngw-file-upload/template/Uploader.hbs:10
-#: nodepkg/file-uploader/FileUploader.js:15
-msgid "Overwrite?"
-msgstr "Substituir?"
-
-#: amd/ngw-file-upload/template/ImageUploader.hbs:11
-#: amd/ngw-file-upload/template/Uploader.hbs:11
-msgid "Try again"
-msgstr "Tente novamente"
-
-#: amd/ngw-file-upload/template/ImageUploader.hbs:13
-#: amd/ngw-file-upload/template/Uploader.hbs:13
-#: nodepkg/file-uploader/FileUploader.js:14
-msgid "or drag and drop here"
-msgstr "ou arraste e solte aqui"
-
-#: amd/ngw-file-upload/template/ImageUploader.hbs:21
-#: nodepkg/image-uploader/ImageUploader.js:99
-msgid "Delete"
-msgstr "Apagar"
-
-#: amd/ngw-file-upload/template/Uploader.hbs:9
-#: nodepkg/file-uploader/FileUploader.js:13
+#: nodepkg/file-uploader/FileUploader.tsx:19
+#: nodepkg/image-uploader/ImageUploader.tsx:17
 msgid "Select a file"
 msgstr "Selecione um ficheiro"
 
-#: nodepkg/file-uploader/FileUploader.js:68
+#: nodepkg/file-uploader/FileUploader.tsx:20
+msgid "or drag and drop here"
+msgstr "ou arraste e solte aqui"
+
+#: nodepkg/file-uploader/FileUploader.tsx:21
+msgid "max"
+msgstr "máximo"
+
+#: nodepkg/file-uploader/FileUploader.tsx:22
 msgid "Stop"
 msgstr ""
 
-#: nodepkg/file-uploader/FileUploaderButton.js:8
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
 msgid "Upload"
 msgstr ""
 
+#: nodepkg/file-uploader/hook/useFileUploader.ts:17
+msgid "{} uploaded..."
+msgstr ""
+
+#: nodepkg/image-uploader/ImageUploader.tsx:18
+msgid "Delete"
+msgstr "Apagar"

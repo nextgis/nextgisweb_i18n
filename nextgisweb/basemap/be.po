@@ -1,0 +1,65 @@
+#: model.py:24
+#, server
+msgid "Basemap"
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:18
+#, jsrealm
+msgid "Pick from QMS"
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:20
+#, jsrealm
+msgid "Search for geoservices provided by "
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:21
+#, jsrealm
+msgid "You can search by name or ID"
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:24
+#, jsrealm
+msgid "If a service from QMS is selected, this field cannot be edited."
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:80
+#, jsrealm
+msgid "URL"
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:88
+#, jsrealm
+msgid "Copyright text"
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:97
+#, jsrealm
+msgid "Copyright URL"
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:109
+#: nodepkg/webmap-widget/WebMapWidget.tsx:125
+#, jsrealm
+msgid "Basemaps"
+msgstr "Базавыя карты"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:54
+#, jsrealm
+msgid "Display name"
+msgstr "Адлюстроўваемае імя"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:61
+#, jsrealm
+msgid "Default basemap"
+msgstr ""
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:64
+#, jsrealm
+msgid "Opacity"
+msgstr ""
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:69
+#, jsrealm
+msgid "Resource"
+msgstr "Рэсурс"

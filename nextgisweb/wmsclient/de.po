@@ -1,99 +1,93 @@
-#: amd/ngw-wmsclient/ConnectionWidget.js:34
-#: amd/ngw-wmsclient/template/LayerWidget.hbs:16 model.py:44
+#: model.py:49
 msgid "WMS connection"
 msgstr "WMS-Verbindung"
 
-#: amd/ngw-wmsclient/LayerWidget.js:45 model.py:177
-msgid "WMS layer"
-msgstr "WMS-Layer"
-
-#: view.py:27
+#: model.py:143 view.py:24
 msgid "WMS capabilities"
 msgstr "WMS-Capabilities"
 
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:44
-#: template/section_vendor_params.mako:6
-msgid "Key"
-msgstr "Schlüssel"
-
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:53
-#: template/section_vendor_params.mako:7
-msgid "Value"
-msgstr "Wert"
-
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:64
-msgid "Vendor parameters"
-msgstr "Anbieterparameter"
-
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:90
-msgid "Add"
-msgstr "Hinzufügen"
-
-#: amd/ngw-wmsclient/LayerVendorParamsWidget.js:96
-msgid "Delete"
-msgstr "Löschen"
-
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:10
-msgid "URL"
-msgstr "URL"
-
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:16
-msgid "Username"
-msgstr "Benutzername"
-
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:22
-msgid "Password"
-msgstr "Passwort"
-
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:27
-msgid "Version"
-msgstr "Version"
-
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:31
-msgid "Capabilities"
-msgstr "Capabilities"
-
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:33
-msgid "Do not query"
-msgstr "Nicht abfragen"
-
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:34
-msgid "Query"
-msgstr "Abfrage"
-
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:35
-msgid "Clear"
-msgstr "Zurücksetzen"
-
-#: amd/ngw-wmsclient/template/LayerWidget.hbs:15
-msgid "Select WMS connection"
-msgstr "WMS-Verbindung wählen"
-
-#: amd/ngw-wmsclient/template/LayerWidget.hbs:22
-msgid "Coordinate system"
-msgstr "Koordinatensystem"
-
-#: amd/ngw-wmsclient/template/LayerWidget.hbs:29
-#: template/section_connection.mako:15
+#: model.py:144 nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:97
 msgid "Image format"
 msgstr "Bildformat"
 
-#: amd/ngw-wmsclient/template/LayerWidget.hbs:35
+#: model.py:226
+msgid "WMS layer"
+msgstr "WMS-Layer"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:15
+msgid "Query"
+msgstr "Abfrage"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:16
+msgid "Clear"
+msgstr "Zurücksetzen"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:17
+msgid "Do not query"
+msgstr "Nicht abfragen"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:25
+msgid "WMS Connection URL"
+msgstr ""
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:34
+msgid "URL"
+msgstr "URL"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:42
+msgid "Username"
+msgstr "Benutzername"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:49
+msgid "Password"
+msgstr "Passwort"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:56
+msgid "Version"
+msgstr "Version"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:67
+msgid "Capabilities"
+msgstr "Capabilities"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:76
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:87
+msgid "WMS Connection"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:108
 msgid "WMS layers"
 msgstr "WMS-Layer"
 
-#: template/section_connection.mako:7
-msgid "Timestamp"
-msgstr "Zeitstempel"
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:117
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:110
+msgid "Vendor parameters"
+msgstr "Anbieterparameter"
 
-#: template/section_connection.mako:26
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:130
+msgid "Edit vendor parameters"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
+msgid "WMS Layer"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:20
+msgid "Type to add a new vendor parameter"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:66
+msgid "Key"
+msgstr "Schlüssel"
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:72
+msgid "Value"
+msgstr "Wert"
+
+#: template/section_connection.mako:10
 msgid "Layer"
 msgstr "Layer"
 
-#: template/section_connection.mako:27
+#: template/section_connection.mako:11
 msgid "Title"
 msgstr "Titel"
-
-#~ msgid "WMS vendor parameters"
-#~ msgstr "WMS-Anbieterparameter"
-

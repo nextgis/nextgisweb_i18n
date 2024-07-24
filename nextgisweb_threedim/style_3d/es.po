@@ -1,0 +1,117 @@
+#: interface.py:14
+#, server
+msgid "POI"
+msgstr "POI"
+
+#: interface.py:15 model.py:13 nodepkg/style-3d-widget/Style3d.tsx:404
+#, jsrealm, server
+msgid "3D style"
+msgstr "Estilo 3D"
+
+#: interface.py:16
+#, server
+msgid "3D model"
+msgstr "Modelo 3D"
+
+#: interface.py:17
+#, server
+msgid "Sphere"
+msgstr "Esfera"
+
+#: interface.py:18
+#, server
+msgid "Ellipsoid"
+msgstr "Elipsoide"
+
+#: interface.py:29
+#, server
+msgid "Value"
+msgstr "Valor"
+
+#: interface.py:30
+#, server
+msgid "From attribute"
+msgstr "De los atributos"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:131
+#, jsrealm
+msgid "Style type"
+msgstr "Tipo de estilo"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:143
+#, jsrealm
+msgid "POI icon"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:154
+#, jsrealm
+msgid "POI color"
+msgstr "Color de POI"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:165
+#, jsrealm
+msgid "Priority"
+msgstr "Prioridad"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:176
+#, jsrealm
+msgid "Inverse"
+msgstr "Inverso"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:188 nodepkg/style-3d-widget/Style3d.tsx:279
+#: nodepkg/style-3d-widget/Style3d.tsx:325
+#, jsrealm
+msgid "Stroke color"
+msgstr "Color de marca"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:199 nodepkg/style-3d-widget/Style3d.tsx:290
+#: nodepkg/style-3d-widget/Style3d.tsx:336
+#, jsrealm
+msgid "Stroke width"
+msgstr "Anchura de línea de marco"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:210 nodepkg/style-3d-widget/Style3d.tsx:301
+#: nodepkg/style-3d-widget/Style3d.tsx:347
+#, jsrealm
+msgid "Fill color"
+msgstr "Color de relleno"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:221 nodepkg/style-3d-widget/Style3d.tsx:380
+#, jsrealm
+msgid "Height"
+msgstr "Altura"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:234
+#, jsrealm
+msgid "3D model ID"
+msgstr "Identificación del modelo 3D"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:255
+#, jsrealm
+msgid "Scale"
+msgstr "Escala"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:266
+#, jsrealm
+msgid "Rotate, deg."
+msgstr "Rotar, grados"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:312
+#, jsrealm
+msgid "Radius"
+msgstr "Radio"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:358
+#, jsrealm
+msgid "Length"
+msgstr "Longitud"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:369
+#, jsrealm
+msgid "Width"
+msgstr "Ancho"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:393
+#, jsrealm
+msgid "Z offset"
+msgstr "Desplazamiento Z"

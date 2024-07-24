@@ -1,137 +1,209 @@
-#: nodepkg/confirm.js:8
-msgid "Confirmation required"
-msgstr "Сonfirmación requerida"
-
-#: nodepkg/confirm.js:9
-msgid "Please confirm this action."
-msgstr "Por favor, confirme esta acción."
-
-#: nodepkg/confirm.js:11 nodepkg/error/shared.js:71
-msgid "OK"
-msgstr "OK"
-
-#: nodepkg/confirm.js:35
-msgid "Please confirm the deletion."
-msgstr "Por favor, confirme la eliminación."
-
-#: nodepkg/confirm.js:36 nodepkg/model-browse/ModelBrowse.js:192
-#: nodepkg/model-browse/ModelBrowse.js:259 nodepkg/model-form/ModelForm.js:13
-msgid "Delete"
-msgstr "Eliminar"
-
-#: nodepkg/confirm.js:37
-msgid "Failed to delete."
+#: nodepkg/arm/validate.ts:5
+msgid "Value required"
 msgstr ""
 
-#: nodepkg/example.js:77
-msgid "Internationalization test"
-msgstr "Prueba de internacionalización"
+#: nodepkg/arm/validate.ts:7
+msgid "At least {} character required"
+msgid_plural "At least {} characters required"
+msgstr[0] ""
+msgstr[1] ""
 
-#: nodepkg/buttons/CopyToClipboardButton.js:11
+#: nodepkg/arm/validate.ts:13
+msgid "No more than {} character required"
+msgid_plural "No more than {} characters required"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nodepkg/arm/validate.ts:18
+msgid "Value should be at least {}"
+msgstr ""
+
+#: nodepkg/arm/validate.ts:19
+msgid "Value should be no more than {}"
+msgstr ""
+
+#: nodepkg/arm/validate.ts:21
+msgid "Invalid value"
+msgstr ""
+
+#: nodepkg/arm/validate.ts:22
+msgid "Value not unique"
+msgstr ""
+
+#: nodepkg/arm/validate.ts:23
+msgid "Invalid URL"
+msgstr ""
+
+#: nodepkg/buttons/CopyToClipboardButton.tsx:23
 msgid "Copied to clipboard"
 msgstr "Se ha copiado al portapapele"
 
-#: nodepkg/buttons/CopyToClipboardButton.js:20
+#: nodepkg/buttons/CopyToClipboardButton.tsx:28
 msgid "Copy to clipboard"
 msgstr "Copiar al portapapeles"
 
-#: nodepkg/component/SaveButton.js:9 nodepkg/model-form/ModelForm.js:12
+#: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:47
 msgid "Save"
 msgstr "Guardar"
 
-#: nodepkg/error/index.js:37
-msgid "Unexpected error"
-msgstr "Error inesperado"
+#: nodepkg/component/extent-row/ExtentRow.tsx:79
+msgid "From layer"
+msgstr ""
 
-#: nodepkg/error/index.js:41
-msgid "Something went wrong."
-msgstr "Algo salió mal."
+#: nodepkg/component/extent-row/ExtentRow.tsx:87
+msgid "West"
+msgstr ""
 
-#: nodepkg/error/shared.js:58
-msgid "Technical information"
-msgstr "Información técnica"
+#: nodepkg/component/extent-row/ExtentRow.tsx:98
+msgid "South"
+msgstr ""
 
-#: nodepkg/error/shared.js:67
-msgid "Contact support"
-msgstr "Ponerse en contacto con soporte"
+#: nodepkg/component/extent-row/ExtentRow.tsx:107
+msgid "East"
+msgstr ""
 
-#: nodepkg/error/shared.js:75
-msgid "Back to home"
-msgstr "Volver a la página de inicio"
+#: nodepkg/component/extent-row/ExtentRow.tsx:116
+msgid "North"
+msgstr ""
 
-#: nodepkg/fields-form/FieldsForm.js:88
-msgid "This value is required"
-msgstr "Este valor es obligatorio"
-
-#: nodepkg/fields-form/field/KeynameTextBox.js:9
-msgid "The value entered is not valid"
-msgstr "El valor introducido no es válido"
-
-#: nodepkg/fields-form/field/LanguageSelect.js:7
+#: nodepkg/component/language-select/LanguageSelect.tsx:15
 msgid "Improve or add new translation"
 msgstr "Mejorar o agregar una nueva traducción"
 
-#: nodepkg/fields-form/field/LanguageSelect.js:23
+#: nodepkg/component/language-select/LanguageSelect.tsx:31
 msgid "Browser default"
 msgstr "Navegador predeterminado"
 
-#: nodepkg/model-browse/ModelBrowse.js:51 nodepkg/model-form/ModelForm.js:32
+#: nodepkg/confirm.ts:13
+msgid "Confirmation required"
+msgstr "Сonfirmación requerida"
+
+#: nodepkg/confirm.ts:14
+msgid "Please confirm this action."
+msgstr "Por favor, confirme esta acción."
+
+#: nodepkg/confirm.ts:16 nodepkg/error/shared.js:69
+msgid "OK"
+msgstr "OK"
+
+#: nodepkg/confirm.ts:43
+msgid "Please confirm the deletion."
+msgstr "Por favor, confirme la eliminación."
+
+#: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:78
+#: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:262
+#: nodepkg/model-browse/ModelBrowse.tsx:329 nodepkg/model-form/ModelForm.tsx:48
+msgid "Delete"
+msgstr "Eliminar"
+
+#: nodepkg/confirm.ts:45
+msgid "Failed to delete."
+msgstr ""
+
+#: nodepkg/edi-table/RowAction.tsx:73
+msgid "Clone"
+msgstr ""
+
+#: nodepkg/edi-table/store/RecordItem.ts:35
+msgid "Key required"
+msgstr ""
+
+#: nodepkg/edi-table/store/RecordItem.ts:41
+msgid "Key not unique"
+msgstr ""
+
+#: nodepkg/error/index.ts:44
+msgid "Unexpected error"
+msgstr "Error inesperado"
+
+#: nodepkg/error/index.ts:48
+msgid "Something went wrong."
+msgstr "Algo salió mal."
+
+#: nodepkg/error/shared.js:54
+msgid "Technical information"
+msgstr "Información técnica"
+
+#: nodepkg/error/shared.js:64
+msgid "Contact support"
+msgstr "Ponerse en contacto con soporte"
+
+#: nodepkg/error/shared.js:73
+msgid "Back to home"
+msgstr "Volver a la página de inicio"
+
+#: nodepkg/fields-form/FormItem.tsx:11
+msgid "This value is required"
+msgstr "Este valor es obligatorio"
+
+#: nodepkg/fields-form/rules/KeynameRule.ts:5
+msgid "The value entered is not valid"
+msgstr "El valor introducido no es válido"
+
+#: nodepkg/focus-table/action.tsx:13
+msgid "Add"
+msgstr ""
+
+#: nodepkg/model-browse/ModelBrowse.tsx:109 nodepkg/model-form/ModelForm.tsx:68
 msgid "Confirmation"
 msgstr "Confirmación"
 
-#: nodepkg/model-browse/ModelBrowse.js:52
+#: nodepkg/model-browse/ModelBrowse.tsx:110
 msgid "Item deleted"
 msgstr "Elemento eliminado"
 
-#: nodepkg/model-browse/ModelBrowse.js:54
+#: nodepkg/model-browse/ModelBrowse.tsx:112
 msgid "Items deleted"
 msgstr "Elementos eliminados"
 
-#: nodepkg/model-browse/ModelBrowse.js:119
+#: nodepkg/model-browse/ModelBrowse.tsx:185
 msgid "The errors occurred during execution"
 msgstr "Los errores ocurrieron durante la ejecución."
 
-#: nodepkg/model-browse/ModelBrowse.js:123
+#: nodepkg/model-browse/ModelBrowse.tsx:189
 msgid "Failed to delete items:"
 msgstr "Error al eliminar elementos:"
 
-#: nodepkg/model-browse/ModelBrowse.js:146
+#: nodepkg/model-browse/ModelBrowse.tsx:212
 msgid "Do you want to delete these items?"
 msgstr "¿Quieres eliminar estos elementos?"
 
-#: nodepkg/model-browse/ModelBrowse.js:183
+#: nodepkg/model-browse/ModelBrowse.tsx:252
 msgid "Edit"
 msgstr "Editar"
 
-#: nodepkg/model-browse/ModelBrowse.js:215
+#: nodepkg/model-browse/ModelBrowse.tsx:252
+msgid "View"
+msgstr ""
+
+#: nodepkg/model-browse/ModelBrowse.tsx:285
 msgid "Search"
 msgstr "Buscar"
 
-#: nodepkg/model-browse/ModelBrowse.js:237 nodepkg/model-form/ModelForm.js:11
+#: nodepkg/model-browse/ModelBrowse.tsx:307 nodepkg/model-form/ModelForm.tsx:46
 msgid "Create"
 msgstr "Crear"
 
-#: nodepkg/model-form/ModelForm.js:65
+#: nodepkg/model-form/ModelForm.tsx:105
 msgid "Fix the form errors first"
 msgstr "Al principio corrige los errores de formulario"
 
-#: nodepkg/model-logo-form/ModelLogoForm.js:11
+#: nodepkg/model-logo-form/ModelLogoForm.tsx:29
 msgid "Logo saved. Reload the page to get them applied."
 msgstr "Logotipo guardado. Vuelva a cargar la página para que se apliquen."
 
-#: nodepkg/progress-modal/ProgressModal.js:4
+#: nodepkg/progress-modal/ProgressModal.tsx:5
 msgid "Operation in progress"
 msgstr "Operación en progreso"
 
-#: nodepkg/progress-modal/ProgressModal.js:5
+#: nodepkg/progress-modal/ProgressModal.tsx:6
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: nodepkg/single-setting-form/SingleSettingForm.js:10
+#: nodepkg/single-setting-form/SingleSettingForm.tsx:25
 msgid "The setting is saved."
 msgstr "Se guardó la configuración."
 
-#: nodepkg/single-setting-form/SingleSettingForm.js:11
+#: nodepkg/single-setting-form/SingleSettingForm.tsx:26
 msgid "Reload the page to get them applied."
 msgstr "Vuelva a cargar la página para que se apliquen."
-

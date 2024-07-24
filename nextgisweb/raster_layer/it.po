@@ -1,13 +1,12 @@
-#: api.py:48
+#: api.py:46
 msgid "Output format is not provided."
 msgstr "Il formato di output non è stato fornito."
 
-#: api.py:51
-#, python-format
+#: api.py:49
 msgid "Format '%s' is not supported."
 msgstr "Il formato '%s' non è supportato."
 
-#: api.py:102
+#: api.py:94
 msgid "Requested raster is not COG."
 msgstr ""
 
@@ -16,7 +15,6 @@ msgid "Range header is missed or invalid."
 msgstr ""
 
 #: api.py:110
-#, python-format
 msgid "Range %s can not be read."
 msgstr ""
 
@@ -24,16 +22,15 @@ msgstr ""
 msgid "Rasters and pyramids"
 msgstr ""
 
-#: amd/ngw-raster-layer/Widget.js:30 model.py:56 view.py:56
+#: model.py:69 nodepkg/editor-widget/EditorWidget.tsx:47 view.py:58
 msgid "Raster layer"
 msgstr "Layer raster"
 
-#: model.py:77
+#: model.py:101
 msgid "GDAL library was unable to open the file."
 msgstr "La libreria GDAL non è riuscita ad aprire il file."
 
-#: model.py:85
-#, python-format
+#: model.py:109
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
 " %(all_formats)s."
@@ -41,49 +38,79 @@ msgstr ""
 "Il raster ha formato '%(format)s', ma solamente i seguenti formati sono "
 "supportati: %(all_formats)s."
 
-#: model.py:90
+#: model.py:116
 msgid "Raster files without projection info are not supported."
 msgstr "I files raster senza informazioni sulla proiezione non sono supportati."
 
-#: model.py:109
+#: model.py:135
 msgid "Mixed band data types are not supported."
 msgstr ""
 
-#: model.py:136
+#: model.py:163
 msgid "GDAL was uanble to parse the raster coordinate system."
 msgstr ""
 
-#: model.py:140
+#: model.py:167
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
 
-#: model.py:156
+#: model.py:184
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr ""
 
-#: model.py:159
-#, python-format
+#: model.py:187
 msgid "GDAL error message: %s"
 msgstr ""
 
-#: model.py:172
-#, python-format
+#: model.py:203
 msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
 msgstr ""
 
-#: model.py:259
+#: model.py:315
 msgid "Data type"
 msgstr "Tipo di dato"
 
-#: model.py:260
+#: model.py:316
 msgid "COG"
 msgstr ""
 
-#: view.py:25 view.py:60
+#: nodepkg/editor-widget/EditorWidget.tsx:16
+msgid "Select a dataset"
+msgstr "Seleziona un set di dati"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:17
+msgid "Dataset should be in GeoTIFF format."
+msgstr "Il set di dati dovrebbe essere in formato GeoTIFF."
+
+#: nodepkg/editor-widget/EditorWidget.tsx:39
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.tsx:55
+msgid "Band"
+msgstr "Banda"
+
+#: nodepkg/export-form/ExportForm.tsx:79
+msgid "Format"
+msgstr "Formato"
+
+#: nodepkg/export-form/ExportForm.tsx:91
+msgid "SRS"
+msgstr "SR"
+
+#: nodepkg/export-form/ExportForm.tsx:96
+msgid "Bands"
+msgstr "Bande"
+
+#: nodepkg/export-form/ExportForm.tsx:129
+msgid "Save"
+msgstr "Salva"
+
+#: view.py:25 view.py:63
 msgid "Save as"
 msgstr "Salva come"
 
@@ -100,46 +127,6 @@ msgid ""
 "they need."
 msgstr ""
 
-#: view.py:66
+#: view.py:69
 msgid "Download"
 msgstr ""
-
-#: amd/ngw-raster-layer/template/Widget.hbs:4
-msgid "Select a dataset"
-msgstr "Seleziona un set di dati"
-
-#: amd/ngw-raster-layer/template/Widget.hbs:5
-msgid "Dataset should be in GeoTIFF format."
-msgstr "Il set di dati dovrebbe essere in formato GeoTIFF."
-
-#: amd/ngw-raster-layer/template/Widget.hbs:9
-msgid "Coordinate system"
-msgstr "Sistema di coordinate"
-
-#: amd/ngw-raster-layer/template/Widget.hbs:14
-msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr ""
-
-#: nodepkg/export-form/ExportForm.js:24
-msgid "Band"
-msgstr "Banda"
-
-#: nodepkg/export-form/ExportForm.js:66
-msgid "Format"
-msgstr "Formato"
-
-#: nodepkg/export-form/ExportForm.js:75
-msgid "SRS"
-msgstr "SR"
-
-#: nodepkg/export-form/ExportForm.js:81
-msgid "Bands"
-msgstr "Bande"
-
-#: nodepkg/export-form/ExportForm.js:116
-msgid "Save"
-msgstr "Salva"
-
-#~ msgid "Complex data types are not supported."
-#~ msgstr "Dati complessi non sono supportati."
-

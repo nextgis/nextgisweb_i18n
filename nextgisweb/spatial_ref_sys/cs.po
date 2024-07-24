@@ -1,175 +1,134 @@
-#: api.py:31
-msgid "SRS attribute '{}' cannot be changed or set during creation."
-msgstr ""
-
-#: api.py:36
-msgid "SRS attribute '{}' must have a string value."
-msgstr ""
-
-#: api.py:44
-msgid "SRS display name is not unique."
-msgstr ""
-
-#: api.py:50
-msgid "OGC WKT definition cannot be changed for this SRS."
-msgstr ""
-
-#: api.py:89
+#: api.py:141
 msgid "System SRS cannot be deleted."
 msgstr ""
 
-#: api.py:102
+#: api.py:160
 msgid "Invalid SRS definition!"
 msgstr "Neplatná definice SRS!"
 
-#: api.py:207
+#: api.py:367
 msgid "SRS authority attributes must be defined while importing from the catalog."
 msgstr ""
 
-#: api.py:232
+#: api.py:392
 msgid "SRS #{} already exists."
 msgstr ""
 
-#: util.py:39
-#, python-format
-msgid "Invalid MapInfo spatial reference system: %s"
-msgstr "Neplatný prostorový referenční systém MapInfo: %s"
-
-#: util.py:60
-#, python-format
-msgid "Unknown spatial reference system format: %s!"
-msgstr "Neznámý formát prostorového referenčního systému: %s!"
-
-#: util.py:70
-msgid "Invalid OGC WKT definition!"
-msgstr "Neplatná definice OGC WKT!"
-
-#: view.py:24
-msgid "Spatial reference system catalog"
-msgstr "Spatial reference system catalog"
-
-#: view.py:35
-msgid "Spatial reference system"
-msgstr "Prostorový referenční systém"
-
-#: view.py:45 view.py:120
+#: model.py:53 model.py:54 view.py:18 view.py:91
 msgid "Spatial reference systems"
 msgstr "Prostorové referenční systémy"
 
-#: view.py:58
-msgid "Create new Spatial reference system"
-msgstr "Vytvořte nový prostorový referenční systém"
-
-#: view.py:85
-msgid "List"
-msgstr "Seznam"
-
-#: view.py:90
-msgid "Create"
-msgstr "Vytvořit"
-
-#: view.py:96
-msgid "Catalog"
-msgstr "Katalog"
-
-#: view.py:102
-msgid "Edit"
-msgstr "Upravit"
-
-#: view.py:110
-msgid "Delete"
-msgstr "Vymazat"
-
-#: nodepkg/srsMessages.js:5
-msgid "Delete SRS?"
-msgstr "Smazat SRS?"
-
-#: nodepkg/srsMessages.js:6
-msgid "SRS deleted"
-msgstr "SRS je smazáno"
-
-#: nodepkg/catalog-browse/CatalogBrowse.js:105
-#: nodepkg/catalog-import/CatalogImport.js:16 nodepkg/srs-browse/SrsBrowse.js:12
-#: nodepkg/srs-widget/SRSWidget.js:24
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:87
+#: nodepkg/catalog-import/CatalogImport.tsx:31 nodepkg/srs-browse/SrsBrowse.tsx:38
+#: nodepkg/srs-widget/SRSWidget.tsx:31
 msgid "Display name"
 msgstr "Zobrazované jméno"
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:112
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:94
 msgid "Show in catalog"
 msgstr ""
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:124 nodepkg/srs-widget/SRSWidget.js:29
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:107 nodepkg/srs-widget/SRSWidget.tsx:37
 msgid "Authority and code"
 msgstr ""
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:136
-#: nodepkg/catalog-import/CatalogImport.js:82
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:119
+#: nodepkg/catalog-import/CatalogImport.tsx:88
 msgid "Import"
 msgstr "Import"
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:153
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:136
 msgid "Search"
 msgstr "vyhledávání"
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:170
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:153
 msgid "Latitude"
 msgstr "Zeměpisná šířka"
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:183
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:165
 msgid "Longitude"
 msgstr "Zeměpisná délka"
 
-#: nodepkg/catalog-import/CatalogImport.js:21 nodepkg/srs-widget/SRSWidget.js:37
+#: nodepkg/catalog-import/CatalogImport.tsx:36 nodepkg/srs-widget/SRSWidget.tsx:46
 msgid "OGC WKT definition"
 msgstr "Definice OGC WKT"
 
-#: nodepkg/catalog-import/CatalogImport.js:73
+#: nodepkg/catalog-import/CatalogImport.tsx:79
 msgid "View details"
 msgstr "Zobrazit podrobnosti"
 
-#: nodepkg/srs-browse/SrsBrowse.js:29
+#: nodepkg/srs-browse/SrsBrowse.tsx:26
 msgid "Import from catalog"
 msgstr ""
 
-#: nodepkg/srs-widget/SRSImportForm.js:20
+#: nodepkg/srs-widget/SRSImportForm.tsx:59
 msgid "Format"
 msgstr "Formát"
 
-#: nodepkg/srs-widget/SRSImportForm.js:31
+#: nodepkg/srs-widget/SRSImportForm.tsx:64
 msgid "Definition"
 msgstr "Definice"
 
-#: nodepkg/srs-widget/SRSWidget.js:81 nodepkg/srs-widget/SRSWidget.js:109
+#: nodepkg/srs-widget/SRSWidget.tsx:86 nodepkg/srs-widget/SRSWidget.tsx:114
 msgid "Import definition"
 msgstr "Definice importu"
 
-#~ msgid "Cancel"
-#~ msgstr "Zrušení"
+#: nodepkg/srsMessages.ts:5
+msgid "Delete SRS?"
+msgstr "Smazat SRS?"
 
-#~ msgid "Longitude and latitude must be specified at the same time."
-#~ msgstr "Zeměpisnou délku a šířku je třeba zadat současně."
+#: nodepkg/srsMessages.ts:6
+msgid "SRS deleted"
+msgstr "SRS je smazáno"
 
-#~ msgid "Coordinate system name is not unique."
-#~ msgstr "Název souřadnicového systému není jedinečný."
+#: pyramid.py:9
+msgid "Catalog not cofigured"
+msgstr ""
 
-#~ msgid "Cannot change wkt definition of standard coordinate system."
-#~ msgstr "Nelze změnit definici wkt standardního souřadnicového systému."
+#: pyramid.py:10
+msgid "The spatial reference system catalog is not configured on this server."
+msgstr ""
 
-#~ msgid "Unable to delete standard coordinate system."
-#~ msgstr "Nelze smazat standardní souřadnicový systém."
+#: util.py:38
+msgid "Invalid MapInfo spatial reference system: %s"
+msgstr "Neplatný prostorový referenční systém MapInfo: %s"
 
-#~ msgid "Coordinate system (id=%d) already exists."
-#~ msgstr "Souřadnicový systém (id = %d) již existuje."
+#: util.py:61
+msgid "Unknown spatial reference system format: %s!"
+msgstr "Neznámý formát prostorového referenčního systému: %s!"
 
-#~ msgid "SRS name"
-#~ msgstr "Název SRS"
+#: util.py:71
+msgid "Invalid OGC WKT definition!"
+msgstr "Neplatná definice OGC WKT!"
 
-#~ msgid "Auth name"
-#~ msgstr "Jméno autora"
+#: view.py:34
+msgid "Create new Spatial reference system"
+msgstr "Vytvořte nový prostorový referenční systém"
 
-#~ msgid "Auth SRID"
-#~ msgstr "Ověření SRID"
+#: view.py:54
+msgid "Spatial reference system catalog"
+msgstr "Spatial reference system catalog"
 
-#~ msgid "View"
-#~ msgstr "Pohled"
+#: view.py:69
+msgid "Spatial reference system"
+msgstr "Prostorový referenční systém"
 
+#: view.py:95
+msgid "List"
+msgstr "Seznam"
+
+#: view.py:102
+msgid "Create"
+msgstr "Vytvořit"
+
+#: view.py:109
+msgid "Catalog"
+msgstr "Katalog"
+
+#: view.py:116
+msgid "Edit"
+msgstr "Upravit"
+
+#: view.py:123
+msgid "Delete"
+msgstr "Vymazat"

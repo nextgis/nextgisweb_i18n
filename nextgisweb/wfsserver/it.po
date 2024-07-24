@@ -1,54 +1,35 @@
-#: amd/ngw-wfsserver/ServiceWidget.js:56 model.py:19
+#: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
 msgstr "Servizio WFS"
 
-#: view.py:15
+#: nodepkg/service-widget/ServiceWidget.tsx:27
+msgid "Display name"
+msgstr "Nome visualizzato"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:32
+msgid "Keyname"
+msgstr "Nome della chiave"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:37
+msgid "Features per request"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:42
+msgid "Not set"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:47
+msgid "Resource"
+msgstr "Risorsa"
+
+#: view.py:16
 msgid "Web Feature Service (WFS)"
 msgstr "Web Feature Service (WFS)"
 
-#: view.py:16
+#: view.py:17
 msgid ""
 "Web Feature Service (WFS) provides an interface allowing requests for "
 "geographical features across the web using platform-independent calls."
 msgstr ""
 "Web Feature Service (WFS) fonrniscono un'interfaccia a dati geografici come "
 "elementi (vettori) usando chiamate indipendenti."
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:14
-msgid "Add"
-msgstr "Aggiungi"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:18
-msgid "Select vector layer"
-msgstr "Seleziona layer vettoriale"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:27
-msgid "Remove"
-msgstr "Rimuovi"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:62
-#, fuzzy
-msgid "Keyname"
-msgstr "Nome della chiave"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:66
-msgid "Display name"
-msgstr "Nome visualizzato"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:70
-msgid "Default count of returned features"
-msgstr "Conteggio predefinito per gli elementi restituiti"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:74
-msgid "Resource"
-msgstr "Risorsa"
-
-#~ msgid "External access"
-#~ msgstr "Accesso esterno"
-
-#~ msgid "Read more"
-#~ msgstr "Leggi di più"
-
-#~ msgid "https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service"
-#~ msgstr "https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service"
-

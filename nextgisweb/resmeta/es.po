@@ -1,67 +1,43 @@
-#: model.py:58 nodepkg/editor/EditorWidget.js:109
+#: model.py:60 nodepkg/editor/EditorWidget.tsx:98
 msgid "String"
 msgstr "String"
 
-#: model.py:59 nodepkg/editor/EditorWidget.js:110
+#: model.py:61 nodepkg/editor/EditorWidget.tsx:99
 msgid "Number"
 msgstr "Número"
 
-#: model.py:60 nodepkg/editor/EditorWidget.js:111
+#: model.py:62 nodepkg/editor/EditorWidget.tsx:100
 msgid "Boolean"
 msgstr "Booleano"
 
-#: model.py:61 nodepkg/editor/EditorWidget.js:112
+#: model.py:63 nodepkg/editor/EditorWidget.tsx:101
 msgid "Empty"
 msgstr "Vacío"
 
-#: amd/ngw-resmeta/Widget.js:11 view.py:15
-msgid "Metadata"
-msgstr "Metadatos"
-
-#: nodepkg/editor/EditorStore.js:30
-msgid "Key name is required."
-msgstr "El nombre de la clave es obligatorio."
-
-#: nodepkg/editor/EditorStore.js:38
-msgid "Key name is not unique."
-msgstr "El nombre de la clave no es único."
-
-#: nodepkg/editor/EditorWidget.js:47
+#: nodepkg/editor/EditorWidget.tsx:22
 msgid "Type here to add a new key..."
 msgstr "Escriba aquí para agregar una nueva clave..."
 
-#: nodepkg/editor/EditorWidget.js:86 template/section.mako:21
+#: nodepkg/editor/EditorWidget.tsx:79 template/resource_section.mako:21
 msgid "False"
 msgstr "Falso"
 
-#: nodepkg/editor/EditorWidget.js:87 template/section.mako:21
+#: nodepkg/editor/EditorWidget.tsx:80 template/resource_section.mako:21
 msgid "True"
 msgstr "Verdadero"
 
-#: nodepkg/editor/EditorWidget.js:127 template/section.mako:12
+#: nodepkg/editor/EditorWidget.tsx:109 template/resource_section.mako:12
 msgid "Key"
 msgstr "Clave"
 
-#: nodepkg/editor/EditorWidget.js:138 template/section.mako:13
+#: nodepkg/editor/EditorWidget.tsx:115 template/resource_section.mako:13
 msgid "Type"
 msgstr "Tipo"
 
-#: nodepkg/editor/EditorWidget.js:148 template/section.mako:14
+#: nodepkg/editor/EditorWidget.tsx:121 template/resource_section.mako:14
 msgid "Value"
 msgstr "Valor"
 
-#~ msgid "Add"
-#~ msgstr "Agregar"
-
-#~ msgid "Remove"
-#~ msgstr "Eliminar"
-
-#~ msgid "Text"
-#~ msgstr "Texto"
-
-#~ msgid "Integer"
-#~ msgstr "Entero"
-
-#~ msgid "Float"
-#~ msgstr "Flotante"
-
+#: nodepkg/editor/EditorWidget.tsx:135 view.py:14
+msgid "Metadata"
+msgstr "Metadatos"

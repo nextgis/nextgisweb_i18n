@@ -1,0 +1,428 @@
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
+#, amd
+msgid "Cadastral number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:53
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:103
+#, amd
+msgid "Name"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:54
+#, amd
+msgid "Type"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:55
+#, amd
+msgid "Identifier"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:56
+#, amd
+msgid "Address"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:57
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:78
+#, amd
+msgid "Publication date"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:58
+#, amd
+msgid "Updated"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:59
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:64
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:80
+#, amd
+msgid "District"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:60
+#, amd
+msgid "Change date"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:61
+#, amd
+msgid "Local identifier"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:62
+#, amd
+msgid "County cadastral number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:63
+#, amd
+msgid "Annotation text"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:65
+#, amd
+msgid "District cadastral number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:66
+#, amd
+msgid "Date of creation"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:67
+#, amd
+msgid "Floors"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:68
+#, amd
+msgid "OX type"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:69
+#, amd
+msgid "Quarterly cadastral number"
+msgstr "Квартальны кадастравы нумар"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:70
+#, amd
+msgid "Date of value setting"
+msgstr "Дата ўстанаўлення значэння"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:71
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:82
+#, amd
+msgid "Year of Construction"
+msgstr "Год пабудовы"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:72
+#, amd
+msgid "Year of Commissioning"
+msgstr "Год уводу ў эксплуатацыю"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:73
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:83
+#, amd
+msgid "Underground floors"
+msgstr "Падземныя паверхі"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:74
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:84
+#, amd
+msgid "Destination"
+msgstr "Пункт прызначэння"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:75
+#, amd
+msgid "Quarterly"
+msgstr "Квартальны"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:76
+#, amd
+msgid "Cadastral value"
+msgstr "Кадастравы кошт"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
+#, amd
+msgid "Monetary unit of value"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:79
+#, amd
+msgid "Category type"
+msgstr "Тып катэгорыі"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:81
+#, amd
+msgid "Cadastral number of the county"
+msgstr "Кадастравы нумар павета"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:85
+#, amd
+msgid "Date of entering information about cadastral value"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:88
+#, amd
+msgid "Date of cadastral value approval"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:89
+#, amd
+msgid "Refined area"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:90
+#, amd
+msgid "Dimension of the area"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:91
+#, amd
+msgid "Permitted use according to the document"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:92
+#, amd
+msgid "Permitted use"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:93
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:95
+#, amd
+msgid "Status"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:94
+#, amd
+msgid "Type of area"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:96
+#, amd
+msgid "Customer phone"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:97
+#, amd
+msgid "Contract number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:98
+#, amd
+msgid "Information"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:99
+#, amd
+msgid "Type (as form)"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:100
+#, amd
+msgid "Description"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:101
+#, amd
+msgid "Registered number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:102
+#, amd
+msgid "Restriction"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:104
+#, amd
+msgid "Registry number"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:114
+#, amd
+msgid "Cadastral quarter"
+msgstr "Кадастравы квартал"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:115
+#, amd
+msgid "Indentification of cadastral quarters"
+msgstr "Вызначэнне кадастравых кварталаў"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:120
+#, amd
+msgid "Land plot"
+msgstr "Зямельны ўчастак"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:121
+#, amd
+msgid "Land plot identification"
+msgstr "Ідэнтыфікацыя зямельнага ўчастка"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:126
+#, amd
+msgid "Capital construction object"
+msgstr "Аб'ект капітальнага будаўніцтва"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:127
+#, amd
+msgid "Identification of capital construction objects"
+msgstr "Вызначэнне аб'ектаў капітальнага будаўніцтва"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:134
+#, amd
+msgid "Zone with special usage conditions"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:135
+#, amd
+msgid "Identification of zones with special usage conditions"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:142
+#, amd
+msgid "Cadastral district"
+msgstr "Кадастравы раён"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:143
+#, amd
+msgid "Identification of cadastral districts"
+msgstr "Вызначэнне кадастравых раёнаў"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:149
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:246
+#, amd
+msgid "Attributes"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:166
+#, amd
+msgid "No data"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:50
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:155
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:168
+#, amd
+msgid "Cadaster services error"
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:51
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:156
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:169
+#, amd
+msgid "Wrong cadaster number: ${cadno}"
+msgstr ""
+
+#: api/exceptions.py:11
+#, server
+msgid "The Geoservices API unknown error"
+msgstr ""
+
+#: api/exceptions.py:12
+#, server
+msgid "The Geoservices API: unknown error"
+msgstr ""
+
+#: api/exceptions.py:16
+#, server
+msgid "The Geoservices API timeout error"
+msgstr ""
+
+#: api/exceptions.py:17
+#, server
+msgid "The Geoservices API is currently unavailable due to a timeout error"
+msgstr ""
+
+#: api/exceptions.py:21
+#, server
+msgid "The Geoservices API parsing error"
+msgstr ""
+
+#: api/exceptions.py:22
+#, server
+msgid "The Geoservices API failed to parse the JSON data returned by the PKK service"
+msgstr ""
+
+#: api/exceptions.py:26
+#, server
+msgid "The Geoservices API error"
+msgstr ""
+
+#: api/exceptions.py:27
+#, server
+msgid ""
+"NextGIS Geoservices encountered an internal error or the PKK service is "
+"currently unavailable"
+msgstr ""
+
+#: api/exceptions.py:33
+#, server
+msgid "The NextGIS Geoservices is currently unavailable"
+msgstr ""
+
+#: api/exceptions.py:42
+#, server
+msgid "The Geoservices API: The request for attribute retrieval ended in failure"
+msgstr ""
+
+#: api/exceptions.py:51
+#, server
+msgid ""
+"The Geoservices API: The 'extent' field is not present in the received "
+"attributes"
+msgstr ""
+
+#: api/exceptions.py:62
+#, server
+msgid "The Geoservices API: The object geometry retrieval request failed"
+msgstr ""
+
+#: api/exceptions.py:71
+#, server
+msgid "The Geoservices API: Unable to create the feature based on previous requests"
+msgstr ""
+
+#: api/exceptions.py:75
+#, server
+msgid "The Geoservices API: Plot not found"
+msgstr ""
+
+#: api/geoservices.py:50
+#, server
+msgid "'Cadaster services' module is disabled!"
+msgstr ""
+
+#: api/geoservices.py:60
+#, server
+msgid ""
+"Geoservices API key in cadaster services module not set. Set the Geoservices "
+"API key in the `Cadaster services` section on the Control panel."
+msgstr ""
+
+#: api/geoservices.py:96
+#, server
+msgid "Required parameters: lon, lat, types!"
+msgstr ""
+
+#: api/geoservices.py:131
+#, server
+msgid "Parameter 'types' is required"
+msgstr ""
+
+#: api/geoservices.py:168
+#, python-format, server
+msgid "Cadaster plot with ID '%(id)s' not found!"
+msgstr ""
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:45
+#, jsrealm
+msgid "Settings saved"
+msgstr ""
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:65
+#, jsrealm
+msgid "API key"
+msgstr ""
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:82
+#, jsrealm
+msgid "Enable"
+msgstr ""
+
+#: nodepkg/cadaster-settings/CadasterSettings.js:103
+#, jsrealm
+msgid "Save"
+msgstr ""
+
+#: view/settings.py:12
+#, server
+msgid "Cadaster services settings"
+msgstr ""
+
+#: view/settings.py:25
+#, server
+msgid "Cadaster services"
+msgstr ""

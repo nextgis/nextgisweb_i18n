@@ -1,0 +1,98 @@
+#: component.py:90
+#, server
+msgid "NextGIS geoinformation system"
+msgstr "Геаінфармацыйная сістэма NextGIS"
+
+#: component.py:269
+#, server
+msgid "Linux kernel"
+msgstr "Ядро Linux"
+
+#: component.py:272
+#, server
+msgid "OS distribution"
+msgstr "Дыстрыбутыў АС"
+
+#: component.py:284
+#, server
+msgid "CPU"
+msgstr "CPU"
+
+#: component.py:287
+#, server
+msgid "RAM"
+msgstr "RAM"
+
+#: component.py:316
+#, server
+msgid "Last backup"
+msgstr ""
+
+#: component.py:320
+#, server
+msgid "Last maintenance"
+msgstr ""
+
+#: exception.py:116
+#, server
+msgid "Validation error"
+msgstr "Памылка валідацыі"
+
+#: exception.py:121
+#, server
+msgid "Forbidden"
+msgstr "Забаронена"
+
+#: exception.py:126
+#, server
+msgid "Insufficient permissions"
+msgstr "Недастаткова дазволаў"
+
+#: exception.py:131
+#, server
+msgid "Operational error"
+msgstr "Аперацыйная памылка"
+
+#: exception.py:136
+#, server
+msgid "External service error"
+msgstr "Памылка знешняй службы"
+
+#: exception.py:145
+#, server
+msgid "Not configured"
+msgstr ""
+
+#: storage.py:289
+#, server
+msgid "Storage full"
+msgstr ""
+
+#: storage.py:290
+#, python-format, server
+msgid ""
+"This operation can't be performed because the storage limit (%s) has been "
+"already exceeded by %s."
+msgstr ""
+
+#: storage.py:300
+#, server
+msgid "Not enough storage"
+msgstr ""
+
+#: storage.py:301
+#, python-format, server
+msgid ""
+"This operation requires %s of storage and can't be performed because only %s "
+"available."
+msgstr ""
+
+#: storage.py:311
+#, server
+msgid "Estimation is already running"
+msgstr "Эстымацыя ўжо запушчана"
+
+#: test/test_exception.py:76
+#, python-format, server
+msgid "The answer is %d"
+msgstr "Адказ: %d"

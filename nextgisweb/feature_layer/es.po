@@ -1,299 +1,347 @@
-#: api.py:92
-msgid "Output format is not provided."
-msgstr "No se proporciona formato de salida."
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
+#: nodepkg/attribute-editor/index.ts:7 view.py:222
+msgid "Attributes"
+msgstr "Atributos"
 
-#: api.py:94
-#, python-format
-msgid "Format '%s' is not supported."
-msgstr "El formato '%s' no es compatible."
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:178
+msgid "N/A"
+msgstr "N/A"
 
-#: api.py:124 api.py:746
+#: amd/ngw-feature-layer/GeometryInfoWidget.js:9
+msgid "Geometry"
+msgstr "Geometría"
+
+#: api.py:93
+msgid "Geometry is not valid."
+msgstr "La geometría no es válida."
+
+#: api.py:335
+msgid "Unknown spatial reference system"
+msgstr ""
+
+#: api.py:408 api_export.py:121
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "El parámetro 'intersects' de la geometría no es válido."
 
-#: api.py:149
+#: api_export.py:89
+msgid "Output format is not provided."
+msgstr "No se proporciona formato de salida."
+
+#: api_export.py:91
+msgid "Format '%s' is not supported."
+msgstr "El formato '%s' no es compatible."
+
+#: api_export.py:146
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
 "El límite de exportación está establecido en {limit} entidades, pero la capa "
 "contiene {count}."
 
-#: api.py:162
+#: api_export.py:159
 msgid "Failed to reproject 'intersects' geometry."
 msgstr "No se pudo reproyectar la geometría de 'intersección'."
 
-#: api.py:305
+#: api_export.py:301
 msgid "File name parameter '{}' is not valid."
 msgstr "El parámetro de nombre de archivo '{}' no es válido."
 
-#: api.py:424 api.py:499
-#, python-format
-msgid "Geometry format '%s' is not supported."
-msgstr "El formato de geometría '%s' no es compatible."
-
-#: api.py:426
-msgid "Geometry is not valid."
-msgstr "La geometría no es válida."
-
-#: api.py:432 api.py:504
-#, python-format
-msgid "Date format '%s' is not supported."
-msgstr "El formato de fecha '%s' no es compatible."
-
-#: api.py:630
-msgid "Unknown spatial reference system"
-msgstr ""
-
-#: exception.py:12
+#: exception.py:7
 msgid "Feature not found"
 msgstr "Objeto geográfico no encontrado"
 
-#: exception.py:13
-#, python-format
+#: exception.py:8
 msgid "Feature with id = %d was not found in resource with id = %d."
 msgstr "Objeto geográfico con id = %d no se encontró en el recurso con id = %d."
 
-#: exception.py:14
+#: exception.py:9
 msgid "The feature may have been deleted or an error in the address."
 msgstr ""
 "Es posible que el objeto geográfico se haya eliminado o que haya un error en "
 "la dirección."
 
-#: model.py:159
-#, python-format
-msgid "Field not found (ID=%d)."
-msgstr "Campo no encontrado (ID=%d)."
+#: exception.py:20
+msgid "Feature not deleted"
+msgstr ""
 
-#: model.py:169
-msgid "Field name is forbidden: '{}'. Please remove or rename it."
-msgstr "El nombre del campo está prohibido: '{}'. Elimínelo o cámbiele el nombre."
+#: exception.py:21
+msgid "Unable to restore the #{} feature as it is not deleted."
+msgstr ""
 
-#: amd/ngw-feature-layer/FieldsWidget.js:160 view.py:47
+#: favorite.py:5 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:56
 msgid "Feature table"
 msgstr "Tabla de objetos geográficos"
 
-#: view.py:69 view.py:92
-#, python-format
-msgid "Feature #%d"
-msgstr "Objeto geográfico #%d"
+#: model.py:163
+msgid "Field not found (ID=%d)."
+msgstr "Campo no encontrado (ID=%d)."
 
-#: nodepkg/feature-grid/component/ExportAction.js:20 view.py:112 view.py:123
-#: view.py:211
-msgid "Save as"
-msgstr "Guardar como"
+#: model.py:174
+msgid "Field name is forbidden: '{}'. Please remove or rename it."
+msgstr "El nombre del campo está prohibido: '{}'. Elimínelo o cámbiele el nombre."
 
-#: view.py:131
-msgid "MVT Vector Tiles"
-msgstr "MVT Teselas Vectoriales"
-
-#: view.py:132
-msgid ""
-"The Mapbox Vector Tile is an efficient encoding for map data into vector "
-"tiles that can be rendered dynamically."
+#: model.py:236
+msgid "Versioning not supported"
 msgstr ""
-"Mapbox Vector Tile es una codificación eficiente para datos de mapas en "
-"mosaicos vectoriales que se pueden renderizar dinámicamente."
 
-#: view.py:198
-msgid "Features"
-msgstr "Objetos geográficos"
+#: nodepkg/attribute-editor/AttributeEditor.tsx:32
+msgid "Set field value to NULL (No data)"
+msgstr "Colocar el valor del campo en NULL (sin datos)"
 
-#: template/resource_section_fields.mako:21 view.py:203
-msgid "Table"
-msgstr "Tabla"
+#: nodepkg/attribute-editor/AttributeEditor.tsx:33
+msgid "There are no attributes in the vector layer"
+msgstr ""
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:34
-#: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: amd/ngw-feature-layer/FieldsWidget.js:120 view.py:219
-msgid "Attributes"
-msgstr "Atributos"
+#: nodepkg/export-form/ExportForm.tsx:177
+msgid "Resources"
+msgstr "Recursos"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:76
-msgid "Please wait. Processing request..."
-msgstr "Espere por favor. Procesando la solicitud..."
+#: nodepkg/export-form/ExportForm.tsx:199
+msgid "Format"
+msgstr "Formato"
 
-#: amd/ngw-feature-layer/FeatureEditorWidget.js:104
-#: nodepkg/export-form/ExportForm.js:249
+#: nodepkg/export-form/ExportForm.tsx:212
+msgid "SRS"
+msgstr "SRS"
+
+#: nodepkg/export-form/ExportForm.tsx:217
+msgid "Encoding"
+msgstr "Codificación de caracteres"
+
+#: nodepkg/export-form/ExportForm.tsx:231
+msgid "FID field"
+msgstr "Campo FID"
+
+#: nodepkg/export-form/ExportForm.tsx:235
+msgid "Use field display names instead of keynames"
+msgstr "Utilice nombres para mostrar en lugar de nombres clave"
+
+#: nodepkg/export-form/ExportForm.tsx:241
+#: nodepkg/fields-widget/FieldsWidget.tsx:167
+msgid "Fields"
+msgstr "Campos"
+
+#: nodepkg/export-form/ExportForm.tsx:247
+msgid "Limit by extent"
+msgstr "Limitar por extensión"
+
+#: nodepkg/export-form/ExportForm.tsx:253
+msgid "Filter text"
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.tsx:257
+msgid "Zip archive"
+msgstr "Archivo zip"
+
+#: nodepkg/export-form/ExportForm.tsx:300
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:34
 msgid "Save"
 msgstr "Guardar"
 
-#: amd/ngw-feature-layer/FieldsDisplayWidget.js:120
-msgid "N/A"
-msgstr "N/A"
+#: nodepkg/export-form/ExtentInput.tsx:6
+msgid "deg."
+msgstr "grados"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:70
-#: template/resource_section_fields.mako:15
-msgid "Keyname"
-msgstr "Nombre clave"
+#: nodepkg/export-form/ExtentInput.tsx:9
+msgid "Left"
+msgstr "Izquierda"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:80
-#: template/resource_section_fields.mako:16
-msgid "Type"
-msgstr "Tipo"
+#: nodepkg/export-form/ExtentInput.tsx:10
+msgid "Bottom"
+msgstr "Abajo"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:84
+#: nodepkg/export-form/ExtentInput.tsx:11
+msgid "Right"
+msgstr "Derecha"
+
+#: nodepkg/export-form/ExtentInput.tsx:12
+msgid "Top"
+msgstr "Arriba"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:18
+msgid "Cancel"
+msgstr ""
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
+msgid "Are you sure?"
+msgstr ""
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
+msgid "Unsaved changes will be lost if you close the window."
+msgstr ""
+
+#: nodepkg/feature-editor/FeatureEditorStore.ts:20
+msgid "Feature saved"
+msgstr ""
+
+#: nodepkg/feature-editor/FeatureEditorStore.ts:21
+msgid "No changes to save"
+msgstr ""
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:33
+msgid "Loading..."
+msgstr ""
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:35
+msgid "Reset"
+msgstr ""
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:24
+msgid "Open table settings"
+msgstr ""
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:25
+msgid "Refresh table"
+msgstr ""
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:24
+msgid "Open"
+msgstr "Abrir"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:25
+msgid "Delete"
+msgstr "Eliminar"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:26
+msgid "Edit"
+msgstr "Editar"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+msgid "Edit on a new page"
+msgstr ""
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:29
+msgid "Search..."
+msgstr "Buscando..."
+
+#: nodepkg/feature-grid/FeatureTable.tsx:95
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:53
+msgid "Last changed"
+msgstr ""
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:117 view.py:128
+#: view.py:217
+msgid "Save as"
+msgstr "Guardar como"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:31
+msgid "Advanced Export"
+msgstr ""
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:32
+msgid "Quick Export"
+msgstr ""
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:33
+msgid "Filters are applied"
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:23
 #: template/resource_section_fields.mako:17
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:98
-msgid "FT"
-msgstr "TO"
+#: nodepkg/fields-widget/FieldsWidget.tsx:24
+#: template/resource_section_fields.mako:15
+msgid "Keyname"
+msgstr "Nombre clave"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:108
-msgid "LA"
-msgstr "AE"
+#: nodepkg/fields-widget/FieldsWidget.tsx:25
+#: template/resource_section_fields.mako:16
+msgid "Type"
+msgstr "Tipo"
 
-#: amd/ngw-feature-layer/FieldsWidget.js:155
-msgid "Label attribute"
-msgstr "Atributo de etiqueta"
-
-#: amd/ngw-feature-layer/FieldsWidget.js:232
-msgid "Add"
-msgstr "Agregar"
-
-#: amd/ngw-feature-layer/FieldsWidget.js:238
-msgid "Remove"
-msgstr "Eliminar"
-
-#: amd/ngw-feature-layer/GeometryInfoWidget.js:15
-msgid "Geometry"
-msgstr "Geometría"
-
-#: nodepkg/export-form/ExportForm.js:142
-msgid "Resources"
-msgstr "Recursos"
-
-#: nodepkg/export-form/ExportForm.js:159
-msgid "Format"
-msgstr "Formato"
-
-#: nodepkg/export-form/ExportForm.js:169
-msgid "SRS"
-msgstr "SRS"
-
-#: nodepkg/export-form/ExportForm.js:175
-msgid "Encoding"
-msgstr "Codificación de caracteres"
-
-#: nodepkg/export-form/ExportForm.js:185
-msgid "FID field"
-msgstr "Campo FID"
-
-#: nodepkg/export-form/ExportForm.js:189
-msgid "Use field display names instead of keynames"
-msgstr "Utilice nombres para mostrar en lugar de nombres clave"
-
-#: nodepkg/export-form/ExportForm.js:196
-msgid "Fields"
-msgstr "Campos"
-
-#: nodepkg/export-form/ExportForm.js:204
-msgid "Limit by extent"
-msgstr "Limitar por extensión"
-
-#: nodepkg/export-form/ExportForm.js:209
-msgid "Filter text"
-msgstr ""
-
-#: nodepkg/export-form/ExportForm.js:213
-msgid "Zip archive"
-msgstr "Archivo zip"
-
-#: nodepkg/export-form/ExtentInput.js:6
-msgid "deg."
-msgstr "grados"
-
-#: nodepkg/export-form/ExtentInput.js:8
-msgid "Left"
-msgstr "Izquierda"
-
-#: nodepkg/export-form/ExtentInput.js:9
-msgid "Bottom"
-msgstr "Abajo"
-
-#: nodepkg/export-form/ExtentInput.js:10
-msgid "Right"
-msgstr "Derecha"
-
-#: nodepkg/export-form/ExtentInput.js:11
-msgid "Top"
-msgstr "Arriba"
-
-#: nodepkg/feature-editor/AttributesForm.js:36
-msgid "Set field value to NULL (No data)"
-msgstr "Colocar el valor del campo en NULL (sin datos)"
-
-#: nodepkg/feature-grid/FeatureGrid.js:26
-msgid "Search..."
-msgstr "Buscando..."
-
-#: nodepkg/feature-grid/FeatureGrid.js:27
-msgid "Open"
-msgstr "Abrir"
-
-#: nodepkg/feature-grid/FeatureGrid.js:28
-msgid "Delete"
-msgstr "Eliminar"
-
-#: nodepkg/feature-grid/FeatureGrid.js:29
-msgid "Edit"
-msgstr "Editar"
-
-#: nodepkg/feature-grid/component/ExportAction.js:21
-msgid "Advanced Export"
-msgstr ""
-
-#: nodepkg/feature-grid/component/ExportAction.js:22
-msgid "Quick Export"
-msgstr ""
-
-#: nodepkg/feature-grid/component/ExportAction.js:23
-msgid "Filters are applied"
-msgstr ""
-
-#: nodepkg/geometry-info/GeometryInfo.js:60
-msgid "Load geometry info..."
-msgstr "Cargar información de geometría..."
-
-#: nodepkg/geometry-info/GeometryInfo.js:70
-msgid "Failed to get information about the geometry"
-msgstr "Error al obtener información sobre la geometría"
-
-#: nodepkg/geometry-info/GeometryInfo.js:81
-msgid "Perimeter"
-msgstr "Perímetro"
-
-#: nodepkg/geometry-info/GeometryInfo.js:81
-msgid "Length"
-msgstr "Longitud"
-
-#: nodepkg/geometry-info/GeometryInfo.js:93
-msgid "Area"
-msgstr "Área"
-
-#: nodepkg/geometry-info/GeometryInfo.js:107
-msgid "Geometry type"
-msgstr "Tipo de geometría"
-
-#: nodepkg/geometry-info/GeometryInfo.js:117
-msgid "Extent (xMin)"
-msgstr "Extensión (xMin)"
-
-#: nodepkg/geometry-info/GeometryInfo.js:125
-msgid "Extent (yMin)"
-msgstr "Extensión (yMin)"
-
-#: nodepkg/geometry-info/GeometryInfo.js:133
-msgid "Extent (xMax)"
-msgstr "Extensión (xMax)"
-
-#: nodepkg/geometry-info/GeometryInfo.js:141
-msgid "Extent (yMax)"
-msgstr "Extensión (yMax)"
-
+#: nodepkg/fields-widget/FieldsWidget.tsx:26
 #: template/resource_section_fields.mako:19
 msgid "Lookup table"
 msgstr "Tabla de búsqueda"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
+msgid "Text search"
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:29
+msgid "Label attribute"
+msgstr "Atributo de etiqueta"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:31
+msgid "Please select"
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:32
+msgid "Not used"
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:115
+msgid "Field"
+msgstr ""
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:56
+msgid "Load geometry info..."
+msgstr "Cargar información de geometría..."
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:65
+msgid "Failed to get information about the geometry"
+msgstr "Error al obtener información sobre la geometría"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:75
+msgid "Perimeter"
+msgstr "Perímetro"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:76
+msgid "Length"
+msgstr "Longitud"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:84
+msgid "Area"
+msgstr "Área"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:92
+msgid "Geometry type"
+msgstr "Tipo de geometría"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:100
+msgid "Extent (xMin)"
+msgstr "Extensión (xMin)"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:104
+msgid "Extent (yMin)"
+msgstr "Extensión (yMin)"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:108
+msgid "Extent (xMax)"
+msgstr "Extensión (xMax)"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:112
+msgid "Extent (yMax)"
+msgstr "Extensión (yMax)"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:18
+msgid "Feature versioning"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:19
+msgid ""
+"Experimental feature. Some operations may not work if feature versioning is "
+"enabled."
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
+msgid "Disable feature versioning?"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:41
+msgid ""
+"Turning off feature versioning will truncate the history and keep only the "
+"latest state."
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:64
+msgid "Settings"
+msgstr ""
+
+#: template/resource_section_fields.mako:21 view.py:206
+msgid "Table"
+msgstr "Tabla"
 
 #: template/resource_section_fields.mako:32
 #: template/resource_section_fields.mako:38
@@ -305,31 +353,73 @@ msgstr "Sí"
 msgid "No"
 msgstr "No"
 
-#~ msgid "Attribute: "
-#~ msgstr "Atributo: "
+#: transaction/exception.py:7
+msgid "Transaction not found"
+msgstr ""
 
-#~ msgid "Confirmation"
-#~ msgstr "Confirmación"
+#: transaction/exception.py:12
+msgid "Operation conflict in transaction"
+msgstr ""
 
-#~ msgid "Delete feature?"
-#~ msgstr "Eliminar el objeto geográfico?"
+#: transaction/exception.py:20
+msgid "Transaction not committed"
+msgstr ""
 
-#~ msgid "External access"
-#~ msgstr "Acceso externo"
+#: versioning/exception.py:17
+msgid "Not implemented for feature versioning"
+msgstr ""
 
-#~ msgid "Set NULL"
-#~ msgstr "Colocar a NULL"
+#: versioning/exception.py:18
+msgid ""
+"This operation cannot be performed on a resource with feature versioning "
+"enabled. Disable feature versioning for the resource first, and then try "
+"again."
+msgstr ""
 
-#~ msgid "NULL"
-#~ msgstr "NULL"
+#: versioning/exception.py:27
+msgid "Feature versioning required"
+msgstr ""
 
-#~ msgid ""
-#~ "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-"
-#~ "vector-tiles"
-#~ msgstr ""
-#~ "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#mvt-"
-#~ "vector-tiles"
+#: versioning/exception.py:32
+msgid "Feature versioning is not supported for this resource."
+msgstr ""
 
-#~ msgid "Read more"
-#~ msgstr "Leer mas"
+#: versioning/exception.py:34
+msgid "Feature versioning is not enabled for this resource."
+msgstr ""
 
+#: versioning/exception.py:41
+msgid "Epoch required"
+msgstr ""
+
+#: versioning/exception.py:45
+msgid "Epoch mismatch"
+msgstr ""
+
+#: versioning/exception.py:55
+msgid "Version out of range"
+msgstr ""
+
+#: versioning/exception.py:65
+msgid "Invalid range"
+msgstr ""
+
+#: view.py:78 view.py:95
+msgid "Feature #%d"
+msgstr "Objeto geográfico #%d"
+
+#: view.py:136
+msgid "MVT Vector Tiles"
+msgstr "MVT Teselas Vectoriales"
+
+#: view.py:137
+msgid ""
+"The Mapbox Vector Tile is an efficient encoding for map data into vector "
+"tiles that can be rendered dynamically."
+msgstr ""
+"Mapbox Vector Tile es una codificación eficiente para datos de mapas en "
+"mosaicos vectoriales que se pueden renderizar dinámicamente."
+
+#: view.py:200
+msgid "Features"
+msgstr "Objetos geográficos"

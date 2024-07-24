@@ -1,0 +1,50 @@
+#: api.py:25
+#, server
+msgid "Uploaded file too large"
+msgstr "Запампаваны файл занадта вялікі"
+
+#: model.py:137
+#, server
+msgid "Uploaded file not found"
+msgstr ""
+
+#: model.py:141
+#, server
+msgid "Upload is not completed"
+msgstr "Запампоўка не завершана"
+
+#: nodepkg/file-uploader/FileUploader.tsx:19
+#: nodepkg/image-uploader/ImageUploader.tsx:17
+#, jsrealm
+msgid "Select a file"
+msgstr "Выберыце файл"
+
+#: nodepkg/file-uploader/FileUploader.tsx:20
+#, jsrealm
+msgid "or drag and drop here"
+msgstr "або перацягнуць сюды"
+
+#: nodepkg/file-uploader/FileUploader.tsx:21
+#, jsrealm
+msgid "max"
+msgstr "макс"
+
+#: nodepkg/file-uploader/FileUploader.tsx:22
+#, jsrealm
+msgid "Stop"
+msgstr ""
+
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
+#, jsrealm
+msgid "Upload"
+msgstr ""
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:17
+#, jsrealm
+msgid "{} uploaded..."
+msgstr ""
+
+#: nodepkg/image-uploader/ImageUploader.tsx:18
+#, jsrealm
+msgid "Delete"
+msgstr "Выдаліць"

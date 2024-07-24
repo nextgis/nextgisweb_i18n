@@ -1,53 +1,35 @@
-#: amd/ngw-wfsserver/ServiceWidget.js:56 model.py:19
+#: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
 msgstr "Serviço WFS"
 
-#: view.py:15
+#: nodepkg/service-widget/ServiceWidget.tsx:27
+msgid "Display name"
+msgstr "Nome de exibição"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:32
+msgid "Keyname"
+msgstr "Chave"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:37
+msgid "Features per request"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:42
+msgid "Not set"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:47
+msgid "Resource"
+msgstr "Recurso"
+
+#: view.py:16
 msgid "Web Feature Service (WFS)"
 msgstr "Web Feature Service (WFS)"
 
-#: view.py:16
+#: view.py:17
 msgid ""
 "Web Feature Service (WFS) provides an interface allowing requests for "
 "geographical features across the web using platform-independent calls."
 msgstr ""
 "Web Feature Service (WFS) fornece uma interface que permite pedidos de "
 "elementos geográficos pela web usando chamadas independentes da plataforma"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:14
-msgid "Add"
-msgstr "Adicionar"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:18
-msgid "Select vector layer"
-msgstr "Selecionar camada vetorial"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:27
-msgid "Remove"
-msgstr "Remover"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:62
-msgid "Keyname"
-msgstr "Chave"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:66
-msgid "Display name"
-msgstr "Nome de exibição"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:70
-msgid "Default count of returned features"
-msgstr "Contagem de elementos recebidos por omissão"
-
-#: amd/ngw-wfsserver/template/ServiceWidget.hbs:74
-msgid "Resource"
-msgstr "Recurso"
-
-#~ msgid "External access"
-#~ msgstr "Acesso Externo"
-
-#~ msgid "Read more"
-#~ msgstr "Saiba mais"
-
-#~ msgid "https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service"
-#~ msgstr "https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service"
-

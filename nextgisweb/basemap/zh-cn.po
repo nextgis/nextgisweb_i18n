@@ -1,56 +1,52 @@
-#: amd/ngw-basemap/LayerWidget.js:33 model.py:21
+#: model.py:24
 msgid "Basemap"
 msgstr "底图"
 
-#: amd/ngw-basemap/LayerWidget.js:54
-msgid "Search"
-msgstr "搜索"
+#: nodepkg/layer-widget/LayerWidget.tsx:18
+msgid "Pick from QMS"
+msgstr ""
 
-#: amd/ngw-basemap/LayerWidget.js:61
-msgid "Use options from QMS"
-msgstr "使用QMS中的选项"
+#: nodepkg/layer-widget/LayerWidget.tsx:20
+msgid "Search for geoservices provided by "
+msgstr ""
 
-#: amd/ngw-basemap/WebMapWidget.js:43
-msgid "Basemaps"
-msgstr "底图"
+#: nodepkg/layer-widget/LayerWidget.tsx:21
+msgid "You can search by name or ID"
+msgstr ""
 
-#: amd/ngw-basemap/template/LayerWidget.hbs:11
+#: nodepkg/layer-widget/LayerWidget.tsx:24
+msgid "If a service from QMS is selected, this field cannot be edited."
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:80
 msgid "URL"
 msgstr "URL"
 
-#: amd/ngw-basemap/template/LayerWidget.hbs:17
+#: nodepkg/layer-widget/LayerWidget.tsx:88
 msgid "Copyright text"
 msgstr "版权文本"
 
-#: amd/ngw-basemap/template/LayerWidget.hbs:23
+#: nodepkg/layer-widget/LayerWidget.tsx:97
 msgid "Copyright URL"
 msgstr "URL版权链接"
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:14
-msgid "Add"
-msgstr "添加"
+#: nodepkg/layer-widget/LayerWidget.tsx:109
+#: nodepkg/webmap-widget/WebMapWidget.tsx:125
+msgid "Basemaps"
+msgstr "底图"
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:18
-msgid "Select basemap"
-msgstr "选择底图"
-
-#: amd/ngw-basemap/template/WebMapWidget.hbs:27
-msgid "Remove"
-msgstr "删除"
-
-#: amd/ngw-basemap/template/WebMapWidget.hbs:61
+#: nodepkg/webmap-widget/WebMapWidget.tsx:54
 msgid "Display name"
 msgstr "显示名称"
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:65
-msgid "Enabled"
-msgstr "已启用"
+#: nodepkg/webmap-widget/WebMapWidget.tsx:61
+msgid "Default basemap"
+msgstr ""
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:72
+#: nodepkg/webmap-widget/WebMapWidget.tsx:64
 msgid "Opacity"
 msgstr "不透明度"
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:78
+#: nodepkg/webmap-widget/WebMapWidget.tsx:69
 msgid "Resource"
 msgstr "资源"
-

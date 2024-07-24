@@ -1,0 +1,19 @@
+#: model.py:12 nodepkg/editor-widget/EditorWidget.js:32 view.py:19
+#, jsrealm, server
+msgid "Form"
+msgstr "Форма"
+
+#: nodepkg/editor-widget/EditorWidget.js:9
+#, jsrealm
+msgid "Select a dataset"
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.js:10
+#, jsrealm
+msgid "Dataset should be in NGFP format."
+msgstr ""
+
+#: view.py:24
+#, server
+msgid "Download as NGFP"
+msgstr ""

@@ -1,0 +1,116 @@
+#: model.py:49
+#, server
+msgid "WMS connection"
+msgstr ""
+
+#: model.py:143 view.py:24
+#, server
+msgid "WMS capabilities"
+msgstr ""
+
+#: model.py:144 nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:97
+#, jsrealm, server
+msgid "Image format"
+msgstr ""
+
+#: model.py:226
+#, server
+msgid "WMS layer"
+msgstr ""
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:15
+#, jsrealm
+msgid "Query"
+msgstr ""
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:16
+#, jsrealm
+msgid "Clear"
+msgstr ""
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:17
+#, jsrealm
+msgid "Do not query"
+msgstr ""
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:25
+#, jsrealm
+msgid "WMS Connection URL"
+msgstr ""
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:34
+#, jsrealm
+msgid "URL"
+msgstr ""
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:42
+#, jsrealm
+msgid "Username"
+msgstr "Імя карыстальніка"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:49
+#, jsrealm
+msgid "Password"
+msgstr "Пароль"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:56
+#, jsrealm
+msgid "Version"
+msgstr "Версія"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:67
+#, jsrealm
+msgid "Capabilities"
+msgstr ""
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:76
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:87
+#, jsrealm
+msgid "WMS Connection"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:108
+#, jsrealm
+msgid "WMS layers"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:117
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:110
+#, jsrealm
+msgid "Vendor parameters"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:130
+#, jsrealm
+msgid "Edit vendor parameters"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
+#, jsrealm
+msgid "WMS Layer"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:20
+#, jsrealm
+msgid "Type to add a new vendor parameter"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:66
+#, jsrealm
+msgid "Key"
+msgstr "Ключ"
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:72
+#, jsrealm
+msgid "Value"
+msgstr "Значэнне"
+
+#: template/section_connection.mako:10
+#, server
+msgid "Layer"
+msgstr "Слой"
+
+#: template/section_connection.mako:11
+#, server
+msgid "Title"
+msgstr ""

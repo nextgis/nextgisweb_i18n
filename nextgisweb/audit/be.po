@@ -1,0 +1,78 @@
+#: backend/base.py:36
+#, server
+msgid "Audit backend not enabled"
+msgstr ""
+
+#: backend/base.py:37
+#, server
+msgid "The '{}' audit backend is not configured on this server."
+msgstr ""
+
+#: nodepkg/journal/Journal.js:47
+#, jsrealm
+msgid "Request"
+msgstr ""
+
+#: nodepkg/journal/Journal.js:64
+#, jsrealm
+msgid "IP address"
+msgstr ""
+
+#: nodepkg/journal/Journal.js:68
+#, jsrealm
+msgid "User"
+msgstr "Карыстальнік"
+
+#: nodepkg/journal/Journal.js:72
+#, jsrealm
+msgid "Route name"
+msgstr "Назва маршруту"
+
+#: nodepkg/journal/Journal.js:76
+#, jsrealm
+msgid "Context"
+msgstr "Кантэкст"
+
+#: nodepkg/journal/Journal.js:158
+#, jsrealm
+msgid "Last {} minute"
+msgid_plural "Last {} minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: nodepkg/journal/Journal.js:160
+#, jsrealm
+msgid "Last {} hour"
+msgid_plural "Last {} hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: nodepkg/journal/Journal.js:162
+#, jsrealm
+msgid "Last {} day"
+msgid_plural "Last {} days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: nodepkg/journal/Journal.js:292
+#, jsrealm
+msgid "Filter by user"
+msgstr ""
+
+#: nodepkg/journal/Journal.js:301
+#, jsrealm
+msgid "Export CSV"
+msgstr ""
+
+#: nodepkg/journal/Journal.js:312
+#, jsrealm
+msgid "Timestamp"
+msgstr "Метка часу"
+
+#: view.py:15 view.py:41
+#, server
+msgid "Journal"
+msgstr "Журнал"

@@ -1,145 +1,134 @@
-#: api.py:31
-msgid "SRS attribute '{}' cannot be changed or set during creation."
-msgstr ""
-
-#: api.py:36
-msgid "SRS attribute '{}' must have a string value."
-msgstr ""
-
-#: api.py:44
-msgid "SRS display name is not unique."
-msgstr ""
-
-#: api.py:50
-msgid "OGC WKT definition cannot be changed for this SRS."
-msgstr ""
-
-#: api.py:89
+#: api.py:141
 msgid "System SRS cannot be deleted."
 msgstr ""
 
-#: api.py:102
+#: api.py:160
 msgid "Invalid SRS definition!"
 msgstr "无效的SRS定义"
 
-#: api.py:207
+#: api.py:367
 msgid "SRS authority attributes must be defined while importing from the catalog."
 msgstr ""
 
-#: api.py:232
+#: api.py:392
 msgid "SRS #{} already exists."
 msgstr ""
 
-#: util.py:39
-#, python-format
-msgid "Invalid MapInfo spatial reference system: %s"
-msgstr "无效的MapInfo空间参照系统 : %s"
-
-#: util.py:60
-#, python-format
-msgid "Unknown spatial reference system format: %s!"
-msgstr "未知空间参照系格式：%s!"
-
-#: util.py:70
-msgid "Invalid OGC WKT definition!"
-msgstr "无效的OGC WKT 定义"
-
-#: view.py:24
-msgid "Spatial reference system catalog"
-msgstr "空间参照系目录"
-
-#: view.py:35
-msgid "Spatial reference system"
-msgstr "空间参照系"
-
-#: view.py:45 view.py:120
+#: model.py:53 model.py:54 view.py:18 view.py:91
 msgid "Spatial reference systems"
 msgstr "空间参照系"
 
-#: view.py:58
-msgid "Create new Spatial reference system"
-msgstr "创建新的空间参照系"
-
-#: view.py:85
-msgid "List"
-msgstr "目录"
-
-#: view.py:90
-msgid "Create"
-msgstr "创建"
-
-#: view.py:96
-msgid "Catalog"
-msgstr "目录"
-
-#: view.py:102
-msgid "Edit"
-msgstr "编辑"
-
-#: view.py:110
-msgid "Delete"
-msgstr "删除"
-
-#: nodepkg/srsMessages.js:5
-msgid "Delete SRS?"
-msgstr "删除SRS?"
-
-#: nodepkg/srsMessages.js:6
-msgid "SRS deleted"
-msgstr "SRS 已删除"
-
-#: nodepkg/catalog-browse/CatalogBrowse.js:105
-#: nodepkg/catalog-import/CatalogImport.js:16 nodepkg/srs-browse/SrsBrowse.js:12
-#: nodepkg/srs-widget/SRSWidget.js:24
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:87
+#: nodepkg/catalog-import/CatalogImport.tsx:31 nodepkg/srs-browse/SrsBrowse.tsx:38
+#: nodepkg/srs-widget/SRSWidget.tsx:31
 msgid "Display name"
 msgstr "显示名字"
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:112
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:94
 msgid "Show in catalog"
 msgstr ""
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:124 nodepkg/srs-widget/SRSWidget.js:29
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:107 nodepkg/srs-widget/SRSWidget.tsx:37
 msgid "Authority and code"
 msgstr ""
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:136
-#: nodepkg/catalog-import/CatalogImport.js:82
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:119
+#: nodepkg/catalog-import/CatalogImport.tsx:88
 msgid "Import"
 msgstr "导入"
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:153
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:136
 msgid "Search"
 msgstr "搜索"
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:170
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:153
 msgid "Latitude"
 msgstr "纬度"
 
-#: nodepkg/catalog-browse/CatalogBrowse.js:183
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:165
 msgid "Longitude"
 msgstr "经度"
 
-#: nodepkg/catalog-import/CatalogImport.js:21 nodepkg/srs-widget/SRSWidget.js:37
+#: nodepkg/catalog-import/CatalogImport.tsx:36 nodepkg/srs-widget/SRSWidget.tsx:46
 msgid "OGC WKT definition"
 msgstr "OGC WKT 定义"
 
-#: nodepkg/catalog-import/CatalogImport.js:73
+#: nodepkg/catalog-import/CatalogImport.tsx:79
 msgid "View details"
 msgstr "视图详情"
 
-#: nodepkg/srs-browse/SrsBrowse.js:29
+#: nodepkg/srs-browse/SrsBrowse.tsx:26
 msgid "Import from catalog"
 msgstr ""
 
-#: nodepkg/srs-widget/SRSImportForm.js:20
+#: nodepkg/srs-widget/SRSImportForm.tsx:59
 msgid "Format"
 msgstr "格式"
 
-#: nodepkg/srs-widget/SRSImportForm.js:31
+#: nodepkg/srs-widget/SRSImportForm.tsx:64
 msgid "Definition"
 msgstr "定义"
 
-#: nodepkg/srs-widget/SRSWidget.js:81 nodepkg/srs-widget/SRSWidget.js:109
+#: nodepkg/srs-widget/SRSWidget.tsx:86 nodepkg/srs-widget/SRSWidget.tsx:114
 msgid "Import definition"
 msgstr "导入定义"
 
+#: nodepkg/srsMessages.ts:5
+msgid "Delete SRS?"
+msgstr "删除SRS?"
+
+#: nodepkg/srsMessages.ts:6
+msgid "SRS deleted"
+msgstr "SRS 已删除"
+
+#: pyramid.py:9
+msgid "Catalog not cofigured"
+msgstr ""
+
+#: pyramid.py:10
+msgid "The spatial reference system catalog is not configured on this server."
+msgstr ""
+
+#: util.py:38
+msgid "Invalid MapInfo spatial reference system: %s"
+msgstr "无效的MapInfo空间参照系统 : %s"
+
+#: util.py:61
+msgid "Unknown spatial reference system format: %s!"
+msgstr "未知空间参照系格式：%s!"
+
+#: util.py:71
+msgid "Invalid OGC WKT definition!"
+msgstr "无效的OGC WKT 定义"
+
+#: view.py:34
+msgid "Create new Spatial reference system"
+msgstr "创建新的空间参照系"
+
+#: view.py:54
+msgid "Spatial reference system catalog"
+msgstr "空间参照系目录"
+
+#: view.py:69
+msgid "Spatial reference system"
+msgstr "空间参照系"
+
+#: view.py:95
+msgid "List"
+msgstr "目录"
+
+#: view.py:102
+msgid "Create"
+msgstr "创建"
+
+#: view.py:109
+msgid "Catalog"
+msgstr "目录"
+
+#: view.py:116
+msgid "Edit"
+msgstr "编辑"
+
+#: view.py:123
+msgid "Delete"
+msgstr "删除"

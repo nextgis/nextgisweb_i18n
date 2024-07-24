@@ -1,0 +1,46 @@
+#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:145 view.py:16
+#, jsrealm, server
+msgid "WMS service"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:24
+#, jsrealm
+msgid "Not set"
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:56
+#, jsrealm
+msgid "Display name"
+msgstr "Адлюстроўваемае імя"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:61
+#, jsrealm
+msgid "Keyname"
+msgstr "Ключавое імя"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:66
+#, jsrealm
+msgid "Min scale"
+msgstr "Мінімальная маштаб"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:71
+#, jsrealm
+msgid "Max scale"
+msgstr "Максімальны маштаб"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:76
+#, jsrealm
+msgid "Resource"
+msgstr "Рэсурс"
+
+#: view.py:17
+#, server
+msgid ""
+"Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
+" Consortium for serving georeferenced map images. These images are typically "
+"produced by a map server from data provided by a GIS database."
+msgstr ""
+"Web Map Service (WMS) — гэта стандартны пратакол, распрацаваны Open "
+"Geospatial Consortium для абслугоўвання малюнкаў карт з геапрывязкай. Гэтыя "
+"выявы звычайна вырабляюцца картаграфічным серверам з дадзеных, прадстаўленых "
+"базай дадзеных ГІС."

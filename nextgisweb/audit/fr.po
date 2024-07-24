@@ -1,61 +1,61 @@
-#: view.py:32
-msgid "'date_first' and 'date_last' are mutually exclusive."
-msgstr "'date_first' et 'date_last' sont mutuellement exclusifs."
+#: backend/base.py:36
+msgid "Audit backend not enabled"
+msgstr ""
 
-#: view.py:30 view.py:85
-msgid "Journal"
-msgstr "Journal"
+#: backend/base.py:37
+msgid "The '{}' audit backend is not configured on this server."
+msgstr ""
 
-#: view.py:59
-#, python-format
-msgid "Journal record: %s"
-msgstr "Entrée de journal: %s"
+#: nodepkg/journal/Journal.js:47
+msgid "Request"
+msgstr ""
 
-#: view.py:84
-msgid "Audit"
-msgstr "Audit"
+#: nodepkg/journal/Journal.js:64
+msgid "IP address"
+msgstr ""
 
-#: amd/ngw-webmap/Display.js:220
-msgid "Search"
-msgstr "Rechercher"
-
-#: amd/ngw-audit/JournalFilter/JournalFilter.hbs:23
-msgid "Export"
-msgstr "Exporter"
-
-#: template/browse.mako:49
-msgid "All users"
-msgstr "Tous les utilisateurs"
-
-#: template/browse.mako:50
-msgid "Non-empty users"
-msgstr "Utilisateurs non vides"
-
-#: template/browse.mako:92
-msgid "Timestamp"
-msgstr "Horodatage"
-
-#: template/browse.mako:93
-msgid "Status"
-msgstr "Statut"
-
-#: template/browse.mako:94
-msgid "Method"
-msgstr "Méthode"
-
-#: template/browse.mako:95
-msgid "Path"
-msgstr "Chemin"
-
-#: template/browse.mako:96
-msgid "Route name"
-msgstr "Nom du chemin"
-
-#: template/browse.mako:97
-msgid "Context"
-msgstr "Contexte"
-
-#: template/browse.mako:98
+#: nodepkg/journal/Journal.js:68
 msgid "User"
 msgstr "Utilisateur"
 
+#: nodepkg/journal/Journal.js:72
+msgid "Route name"
+msgstr "Nom du chemin"
+
+#: nodepkg/journal/Journal.js:76
+msgid "Context"
+msgstr "Contexte"
+
+#: nodepkg/journal/Journal.js:158
+msgid "Last {} minute"
+msgid_plural "Last {} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nodepkg/journal/Journal.js:160
+msgid "Last {} hour"
+msgid_plural "Last {} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nodepkg/journal/Journal.js:162
+msgid "Last {} day"
+msgid_plural "Last {} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nodepkg/journal/Journal.js:292
+msgid "Filter by user"
+msgstr ""
+
+#: nodepkg/journal/Journal.js:301
+msgid "Export CSV"
+msgstr ""
+
+#: nodepkg/journal/Journal.js:312
+msgid "Timestamp"
+msgstr "Horodatage"
+
+#: view.py:15 view.py:41
+msgid "Journal"
+msgstr "Journal"

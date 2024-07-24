@@ -1,71 +1,79 @@
-#: __init__.py:107
+#: component.py:90
 msgid "NextGIS geoinformation system"
 msgstr "NextGIS地理信息系统"
 
-#: __init__.py:235
+#: component.py:269
 msgid "Linux kernel"
 msgstr "Linux 内核"
 
-#: __init__.py:238
+#: component.py:272
 msgid "OS distribution"
 msgstr "OS分布"
 
-#: __init__.py:250
+#: component.py:284
 msgid "CPU"
 msgstr "CPU"
 
-#: __init__.py:254
+#: component.py:287
 msgid "RAM"
 msgstr "RAM或随机存取存储器"
 
-#: exception.py:85
+#: component.py:316
+msgid "Last backup"
+msgstr ""
+
+#: component.py:320
+msgid "Last maintenance"
+msgstr ""
+
+#: exception.py:116
 msgid "Validation error"
 msgstr "检测错误"
 
-#: exception.py:90
+#: exception.py:121
 msgid "Forbidden"
 msgstr "禁止"
 
-#: exception.py:95
+#: exception.py:126
 msgid "Insufficient permissions"
 msgstr "权限不足"
 
-#: exception.py:100
+#: exception.py:131
 msgid "Operational error"
 msgstr "操作错误"
 
-#: exception.py:105
+#: exception.py:136
 msgid "External service error"
 msgstr "外部服务错误"
 
-#: storage.py:257
+#: exception.py:145
+msgid "Not configured"
+msgstr ""
+
+#: storage.py:289
 msgid "Storage full"
 msgstr "存储已满"
 
-#: storage.py:258
-#, python-format
+#: storage.py:290
 msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr "无法执行该操作，因为存储使用限制(%s)已超过%s。"
 
-#: storage.py:266
+#: storage.py:300
 msgid "Not enough storage"
 msgstr "存储不够"
 
-#: storage.py:267
-#, python-format
+#: storage.py:301
 msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
 msgstr "无法执行该操作，因为该操作需要存储中的%s，但只有%s可用。"
 
-#: storage.py:275
+#: storage.py:311
 msgid "Estimation is already running"
 msgstr "存储评估过程已经开始"
 
-#: test/test_exception.py:75
-#, python-format
+#: test/test_exception.py:76
 msgid "The answer is %d"
 msgstr "回答：%d"
-

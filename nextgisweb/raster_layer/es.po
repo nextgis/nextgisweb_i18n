@@ -1,13 +1,12 @@
-#: api.py:48
+#: api.py:46
 msgid "Output format is not provided."
 msgstr "No se proporciona formato de salida."
 
-#: api.py:51
-#, python-format
+#: api.py:49
 msgid "Format '%s' is not supported."
 msgstr "El formato '%s' no es compatible."
 
-#: api.py:102
+#: api.py:94
 msgid "Requested raster is not COG."
 msgstr "El ráster solicitado no es COG."
 
@@ -16,7 +15,6 @@ msgid "Range header is missed or invalid."
 msgstr "El encabezado 'Range' se omite o no es válido."
 
 #: api.py:110
-#, python-format
 msgid "Range %s can not be read."
 msgstr "El rango %s no se puede leer."
 
@@ -24,16 +22,15 @@ msgstr "El rango %s no se puede leer."
 msgid "Rasters and pyramids"
 msgstr "Rásteres y pirámides"
 
-#: amd/ngw-raster-layer/Widget.js:30 model.py:56 view.py:56
+#: model.py:69 nodepkg/editor-widget/EditorWidget.tsx:47 view.py:58
 msgid "Raster layer"
 msgstr "Capa raster"
 
-#: model.py:77
+#: model.py:101
 msgid "GDAL library was unable to open the file."
 msgstr "La libreria GDAL no pudo abrir el archivo."
 
-#: model.py:85
-#, python-format
+#: model.py:109
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
 " %(all_formats)s."
@@ -41,19 +38,19 @@ msgstr ""
 "El ráster tiene el formato '%(format)s', sin embargo, solo se admiten los "
 "siguientes formatos: %(all_formats)s."
 
-#: model.py:90
+#: model.py:116
 msgid "Raster files without projection info are not supported."
 msgstr "No se admiten archivos ráster sin información de proyección."
 
-#: model.py:109
+#: model.py:135
 msgid "Mixed band data types are not supported."
 msgstr "Los tipos de datos de canales mixtos no son compatibles."
 
-#: model.py:136
+#: model.py:163
 msgid "GDAL was uanble to parse the raster coordinate system."
 msgstr "GDAL no pudo analizar el sistema de coordenadas del ráster."
 
-#: model.py:140
+#: model.py:167
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
@@ -61,17 +58,15 @@ msgstr ""
 "El ráster de origen tiene un sistema de coordenadas local y no se puede "
 "reproyectar al sistema de coordenadas de destino."
 
-#: model.py:156
+#: model.py:184
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr "No se pudo reproyectar el ráster en el sistema de coordenadas de destino."
 
-#: model.py:159
-#, python-format
+#: model.py:187
 msgid "GDAL error message: %s"
 msgstr "Mensaje de error GDAL: %s"
 
-#: model.py:172
-#, python-format
+#: model.py:203
 msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
@@ -79,15 +74,47 @@ msgstr ""
 "El tamaño de ráster sin comprimir (%(size)s) supera el límite (%(limit)s) en "
 "%(delta)s. Reduzca el tamaño del ráster para ajustarse al límite."
 
-#: model.py:259
+#: model.py:315
 msgid "Data type"
 msgstr "Tipo de datos"
 
-#: model.py:260
+#: model.py:316
 msgid "COG"
 msgstr "COG"
 
-#: view.py:25 view.py:60
+#: nodepkg/editor-widget/EditorWidget.tsx:16
+msgid "Select a dataset"
+msgstr "Seleccione un set de datos"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:17
+msgid "Dataset should be in GeoTIFF format."
+msgstr "El dataset debe estar en formato GeoTIFF."
+
+#: nodepkg/editor-widget/EditorWidget.tsx:39
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr "Cloud Optimized GeoTIFF (COG)"
+
+#: nodepkg/export-form/ExportForm.tsx:55
+msgid "Band"
+msgstr "Canal"
+
+#: nodepkg/export-form/ExportForm.tsx:79
+msgid "Format"
+msgstr "Formato"
+
+#: nodepkg/export-form/ExportForm.tsx:91
+msgid "SRS"
+msgstr "SRS"
+
+#: nodepkg/export-form/ExportForm.tsx:96
+msgid "Bands"
+msgstr "Canales"
+
+#: nodepkg/export-form/ExportForm.tsx:129
+msgid "Save"
+msgstr "Guardar"
+
+#: view.py:25 view.py:63
 msgid "Save as"
 msgstr "Guardar como"
 
@@ -109,55 +136,6 @@ msgstr ""
 " capacidad de los clientes que emiten solicitudes de rango HTTP GET para "
 "solicitar solo las partes de un archivo que necesitan."
 
-#: view.py:66
+#: view.py:69
 msgid "Download"
 msgstr "Descargar"
-
-#: amd/ngw-raster-layer/template/Widget.hbs:4
-msgid "Select a dataset"
-msgstr "Seleccione un set de datos"
-
-#: amd/ngw-raster-layer/template/Widget.hbs:5
-msgid "Dataset should be in GeoTIFF format."
-msgstr "El dataset debe estar en formato GeoTIFF."
-
-#: amd/ngw-raster-layer/template/Widget.hbs:9
-msgid "Coordinate system"
-msgstr "Sistema de coordenadas"
-
-#: amd/ngw-raster-layer/template/Widget.hbs:14
-msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr "Cloud Optimized GeoTIFF (COG)"
-
-#: nodepkg/export-form/ExportForm.js:24
-msgid "Band"
-msgstr "Canal"
-
-#: nodepkg/export-form/ExportForm.js:66
-msgid "Format"
-msgstr "Formato"
-
-#: nodepkg/export-form/ExportForm.js:75
-msgid "SRS"
-msgstr "SRS"
-
-#: nodepkg/export-form/ExportForm.js:81
-msgid "Bands"
-msgstr "Canales"
-
-#: nodepkg/export-form/ExportForm.js:116
-msgid "Save"
-msgstr "Guardar"
-
-#~ msgid "Complex data types are not supported."
-#~ msgstr "No se admiten tipos de datos complejos."
-
-#~ msgid "COG attribute can be set only at creation time."
-#~ msgstr "El atributo COG solo se puede establecer en el momento de la creación."
-
-#~ msgid "Upload as Cloud Optimized GeoTIFF (COG)"
-#~ msgstr "Subir como Cloud Optimized GeoTIFF (COG)"
-
-#~ msgid "External access"
-#~ msgstr "Acceso externo"
-

@@ -1,233 +1,254 @@
-#: __init__.py:16 amd/ngw-tracker/webmap/TrackersPane/TrackersPane.js:37
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:55
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:65 view/settings.py:55
-msgid "Trackers"
-msgstr "Тракери"
-
-#: model.py:25
-msgid "Trackers group"
-msgstr "Група тракери"
-
-#: model.py:36
-msgid "Tracker"
-msgstr "Тракер"
-
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:16
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:11
 msgid "Unique id (IMEI by default)"
 msgstr "Уникален id (IMEI по подразбиране)"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:22
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:17
 msgid "Description"
 msgstr "Описание"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:29
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:24
 msgid "Device type"
 msgstr "Тип устройство"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:35
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:30
 msgid "Consumption, liters per 100 km (for reports)"
 msgstr "Разход, литри на 100 км (за отчети)"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:37
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:32
 msgid "Invalid consumption, should be from 0 to 100"
 msgstr "Невалиден разход, трябва да е между 0 и 100"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:36
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:43
 msgid "Tracker detail"
 msgstr "Детайли на тракера"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:40
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:47
 msgid "NextGIS software (Mobile, Collector)"
 msgstr "NextGIS софтуер (Mobile, Collector)"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:41
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:48
 msgid "ADM (ADM-50, ADM-100)"
 msgstr "АДМ (АДМ-50, АДМ-100)"
 
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:3
-msgid "1. Select devices for building the report"
-msgstr "1. Изберете устройство за съставяне на отчет"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:10
-msgid "2. Customize the report"
-msgstr "2. Персонализирайте отчета"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:14
-msgid "Report type"
-msgstr "Тип отчет"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:20
-msgid "Select report type"
-msgstr "Изберете тип отчет"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:22
-#: template/_consumption_fuel.mako:26 template/_mileage.mako:20
-msgid "Mileage"
-msgstr "Пробег"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:23
-msgid "Top speed"
-msgstr "Максимална скорост"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:24
-msgid "Average speed"
-msgstr "Средна скорост"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:25
-msgid "Spent fuel"
-msgstr "Разход гориво"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:26
-msgid "Stops"
-msgstr "Спирки"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:27
-#: template/_gpx.mako:4
-msgid "GPX file"
-msgstr "GPX файл"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:31
-msgid "Time range"
-msgstr "Период"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:36
-msgid "Group by"
-msgstr "Групирай по"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:41
-#: template/_avg_speed.mako:17 template/_consumption_fuel.mako:23
-#: template/_mileage.mako:17 template/_top_speed.mako:17
-msgid "Hours"
-msgstr "Часове"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:42
-#: template/_avg_speed.mako:15 template/_consumption_fuel.mako:21
-#: template/_mileage.mako:15 template/_top_speed.mako:15
-msgid "Days"
-msgstr "Дни"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:51
-msgid "Build report"
-msgstr "Създай отчет"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.js:77
-msgid "Please select devices for building the report!"
-msgstr "Изберете устройство за отчет!"
-
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.hbs:3
-msgid "Select date"
-msgstr "Изберете дата"
-
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:29
-msgid "No data"
-msgstr "Няма информация"
-
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:58
-msgid "Last activity by hours"
-msgstr "Последна активност по часове"
-
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:147
-msgid "Count of points per hour"
-msgstr "Брой точки на час"
-
-#: amd/ngw-tracker/webmap/TrackerButton/TrackerButton.js:20
-msgid "Open trackers panel"
-msgstr "Отвори панел за проследяване"
-
-#: amd/ngw-tracker/webmap/TrackersPane/TrackersPane.hbs:13
-#: amd/ngw-tracker/webmap/TrackersPanel/TrackersPanel.hbs:10
-#: amd/ngw-tracker/webmap/TrackersPanel/TrackersPanel.hbs:12
-#: template/reports.mako:5
-msgid "Reports"
-msgstr "Отчети"
-
-#: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:99
-msgid "Zoom to layer"
-msgstr "Увеличи до слоя"
-
-#: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:104
-msgid "Zoom to last point"
-msgstr "Приближи последната точка"
-
-#: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:109
-msgid "Set filter to last day with data"
-msgstr "Филтрирай по последен ден, за който има данни"
-
-#: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:114
-msgid "Show last activity"
-msgstr "Покажи последни действия"
-
-#: amd/ngw-tracker/webmap/map/utils.js:16 amd/ngw-tracker/webmap/map/utils.js:27
+#: amd/ngw-tracker/webmap/map/utils.js:20 amd/ngw-tracker/webmap/map/utils.js:38
 msgid "Date"
 msgstr "Дата"
 
-#: amd/ngw-tracker/webmap/map/utils.js:21 amd/ngw-tracker/webmap/map/utils.js:28
+#: amd/ngw-tracker/webmap/map/utils.js:29 amd/ngw-tracker/webmap/map/utils.js:40
+#: nodepkg/trackers-panel/TrackersPanel.js:188
 msgid "Time"
 msgstr "Време"
 
-#: amd/ngw-tracker/webmap/map/utils.js:31
+#: amd/ngw-tracker/webmap/map/utils.js:45
 msgid "Speed, km/h"
 msgstr "Скорост, км/ч"
 
-#: amd/ngw-tracker/webmap/map/utils.js:32
+#: amd/ngw-tracker/webmap/map/utils.js:51
 msgid "Height, m"
 msgstr "Височина, м"
 
-#: amd/ngw-tracker/webmap/map/utils.js:33
+#: amd/ngw-tracker/webmap/map/utils.js:57
 msgid "Course"
 msgstr "Посока"
 
-#: amd/ngw-tracker/webmap/map/utils.js:34
-msgid "GPS/GLONASS"
-msgstr "GPS/GLONASS"
+#: amd/ngw-tracker/webmap/map/utils.js:63
+msgid "Satellites"
+msgstr ""
 
-#: nodepkg/tracker-settings/TrackerSettings.js:43
-msgid "Settings saved"
-msgstr "Настройките са запазени"
+#: amd/ngw-tracker/webmap/map/utils.js:69
+msgid "HDOP"
+msgstr ""
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:35
-msgid "Common settings"
-msgstr "Общи настройки"
+#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:33 component.py:13
+#: nodepkg/reports/Reports.js:175 nodepkg/trackers-panel/TrackersPanel.js:272
+#: view/__init__.py:50
+msgid "Trackers"
+msgstr "Тракери"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:41
-msgid "Interval for splitting tracks, min"
-msgstr "Интервал за разделяне на тракове, мин"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:53
-msgid "Stops detecting"
-msgstr "Определяне на спирки"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:59
-msgid "Minimal speed, km/h"
-msgstr "Минимална скорост, км/ч"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:72
-msgid "Minimal time stop, sec"
-msgstr "Минимално време за спирка, сек"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:84
-msgid "Timezone settings"
-msgstr "Настройки на часова зона"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:90
-msgid "Time zone"
-msgstr "Часова зона"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:115
-msgid "Save"
-msgstr "Запази"
-
-#: pyramid_tracker/device_type.py:14
+#: api/device_types.py:15
 msgid "NextGIS Tracker Hub is unavailable. Try later, please."
 msgstr "NextGIS Tracker Hub е недостъпен. Опитайте се по-късно."
 
-#: pyramid_tracker/register.py:20 pyramid_tracker/register.py:38
+#: model.py:20
+msgid "Trackers group"
+msgstr "Група тракери"
+
+#: model.py:31
+msgid "Tracker"
+msgstr "Тракер"
+
+#: model.py:51
+msgid "Tracker UID is not unique"
+msgstr ""
+
+#: model.py:78
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr ""
+
+#: nodepkg/reports/Reports.js:23 template/_consumption_fuel.mako:26
+#: template/_mileage.mako:20
+msgid "Mileage"
+msgstr "Пробег"
+
+#: nodepkg/reports/Reports.js:24
+msgid "Top speed"
+msgstr "Максимална скорост"
+
+#: nodepkg/reports/Reports.js:25
+msgid "Average speed"
+msgstr "Средна скорост"
+
+#: nodepkg/reports/Reports.js:26
+msgid "Spent fuel"
+msgstr "Разход гориво"
+
+#: nodepkg/reports/Reports.js:27 nodepkg/trackers-panel/TrackersPanel.js:53
+msgid "Stops"
+msgstr "Спирки"
+
+#: nodepkg/reports/Reports.js:28 template/_gpx.mako:4
+msgid "GPX file"
+msgstr "GPX файл"
+
+#: nodepkg/reports/Reports.js:32 template/_avg_speed.mako:15
+#: template/_consumption_fuel.mako:21 template/_mileage.mako:15
+#: template/_top_speed.mako:15
+msgid "Days"
+msgstr "Дни"
+
+#: nodepkg/reports/Reports.js:33 template/_avg_speed.mako:17
+#: template/_consumption_fuel.mako:23 template/_mileage.mako:17
+#: template/_top_speed.mako:17
+msgid "Hours"
+msgstr "Часове"
+
+#: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
+#: nodepkg/trackers-panel/TrackersPanel.js:97
+#: nodepkg/trackers-panel/TrackersPanel.js:98
+msgid "Unknown"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:131
+msgid "Result"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:142
+msgid "Settings"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:146
+msgid "Report type"
+msgstr "Тип отчет"
+
+#: nodepkg/reports/Reports.js:155 nodepkg/trackers-panel/TrackersPanel.js:262
+msgid "Time range"
+msgstr "Период"
+
+#: nodepkg/reports/Reports.js:166
+msgid "Group by"
+msgstr "Групирай по"
+
+#: nodepkg/reports/Reports.js:183
+msgid "Build report"
+msgstr "Създай отчет"
+
+#: nodepkg/tracker-activity/ChartHelper.js:44
+msgid "Count of packets per hour"
+msgstr ""
+
+#: nodepkg/tracker-activity/TrackerActivity.js:53
+msgid "Cancel"
+msgstr ""
+
+#: nodepkg/tracker-activity/TrackerActivity.js:63
+msgid "Last activity by hours"
+msgstr "Последна активност по часове"
+
+#: nodepkg/tracker-settings/TrackerSettings.js:34
+msgid "Settings saved"
+msgstr "Настройките са запазени"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:29
+msgid "Common settings"
+msgstr "Общи настройки"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:35
+msgid "Interval for splitting tracks, min"
+msgstr "Интервал за разделяне на тракове, мин"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:47
+msgid "Stops detecting"
+msgstr "Определяне на спирки"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:53
+msgid "Minimal speed, km/h"
+msgstr "Минимална скорост, км/ч"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:66
+msgid "Minimal time stop, sec"
+msgstr "Минимално време за спирка, сек"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:78
+msgid "Timezone settings"
+msgstr "Настройки на часова зона"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:82
+msgid "Time zone"
+msgstr "Часова зона"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:106
+msgid "Save"
+msgstr "Запази"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:40
+msgid "Last known point"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:45
+msgid "GPS tracks"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:50
+msgid "Track points"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:65
+msgid "Zoom to layer"
+msgstr "Увеличи до слоя"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:72
+msgid "Zoom to last point"
+msgstr "Приближи последната точка"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:79
+msgid "Set filter to last day with data"
+msgstr "Филтрирай по последен ден, за който има данни"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:85
+msgid "Show last activity"
+msgstr "Покажи последни действия"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:187
+msgid "Sort by"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:189
+msgid "Name"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:284
+msgid "Reports"
+msgstr "Отчети"
+
+#: pyramid_tracker/register.py:20 pyramid_tracker/register.py:40
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
 msgstr ""
 "Устройството не е регистрирано в системата за проследяване на NextGIS. "
 "Опитайте се по-късно."
 
-#: pyramid_tracker/register.py:22 pyramid_tracker/register.py:40
+#: pyramid_tracker/register.py:24 pyramid_tracker/register.py:42
 msgid "NextGIS Tracker System is unavailable. Try later, please."
 msgstr ""
 "Няма връзка със системата за проследяване на NextGIS. Опитайте се отново "
@@ -298,13 +319,10 @@ msgstr "Отчет за максимална скорост"
 msgid "Max speed"
 msgstr "Максимална скорост"
 
-#: view/settings.py:18
+#: view/__init__.py:21
 msgid "Trackers settings"
 msgstr "Настройки на тракерите"
 
-#~ msgid "Tracker settings has been saved successfully!"
-#~ msgstr "Настройките на тракера са запазени успешно!"
-
-#~ msgid "Error, Tracker settings not has been saved!"
-#~ msgstr "Грешка, настройките не са запазени!"
-
+#: view/reports.py:18
+msgid "Trackers reports"
+msgstr ""

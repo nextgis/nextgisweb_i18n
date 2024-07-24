@@ -1,0 +1,105 @@
+#: amd/ngw-wfsclient/WFSConnectionWidget.js:34 model.py:127
+#, amd, server
+msgid "WFS connection"
+msgstr "WFS злучэнне"
+
+#: amd/ngw-wfsclient/WFSLayerWidget.js:46 model.py:434
+#, amd, server
+msgid "WFS layer"
+msgstr "Слой WFS"
+
+#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:10
+#, amd
+msgid "WFS path"
+msgstr "Шлях WFS"
+
+#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:16
+#, amd
+msgid "Username"
+msgstr "Імя карыстальніка"
+
+#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:22
+#, amd
+msgid "Password"
+msgstr "Пароль"
+
+#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:27
+#, amd
+msgid "Version"
+msgstr "Версія"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:8
+#, amd
+msgid "Select WFS connection"
+msgstr "Выберыце злучэнне WFS"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:10
+#, amd
+msgid "Connection"
+msgstr "Злучэнне"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:16
+#, amd
+msgid "Layer"
+msgstr "Слой"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:20
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:36
+#, amd
+msgid "Autodetect"
+msgstr "Аўтавызначэнне"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:28
+#, amd
+msgid "Geometry column"
+msgstr "Слупок геаметрыі"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:34
+#, amd
+msgid "Geometry type"
+msgstr "Тып геаметрыі"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:37
+#, amd
+msgid "Point"
+msgstr "Кропка"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:38
+#, amd
+msgid "Line"
+msgstr "Лінія"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:39
+#, amd
+msgid "Polygon"
+msgstr "Палігон"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:40
+#, amd
+msgid "Multipoint"
+msgstr "Мульцікропка"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:41
+#, amd
+msgid "Multiline"
+msgstr "Мульцілінія"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:42
+#, amd
+msgid "Multipolygon"
+msgstr "Мультыпалігон"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:50
+#, amd
+msgid "Attribute definitions"
+msgstr "Азначэнні атрыбутаў"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:53
+#, amd
+msgid "Keep"
+msgstr "Захоўваць"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:54
+#, amd
+msgid "Reload"
+msgstr "Перазагрузіць"

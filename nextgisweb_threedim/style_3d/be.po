@@ -1,0 +1,117 @@
+#: interface.py:14
+#, server
+msgid "POI"
+msgstr ""
+
+#: interface.py:15 model.py:13 nodepkg/style-3d-widget/Style3d.tsx:404
+#, jsrealm, server
+msgid "3D style"
+msgstr ""
+
+#: interface.py:16
+#, server
+msgid "3D model"
+msgstr ""
+
+#: interface.py:17
+#, server
+msgid "Sphere"
+msgstr ""
+
+#: interface.py:18
+#, server
+msgid "Ellipsoid"
+msgstr ""
+
+#: interface.py:29
+#, server
+msgid "Value"
+msgstr ""
+
+#: interface.py:30
+#, server
+msgid "From attribute"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:131
+#, jsrealm
+msgid "Style type"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:143
+#, jsrealm
+msgid "POI icon"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:154
+#, jsrealm
+msgid "POI color"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:165
+#, jsrealm
+msgid "Priority"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:176
+#, jsrealm
+msgid "Inverse"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:188 nodepkg/style-3d-widget/Style3d.tsx:279
+#: nodepkg/style-3d-widget/Style3d.tsx:325
+#, jsrealm
+msgid "Stroke color"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:199 nodepkg/style-3d-widget/Style3d.tsx:290
+#: nodepkg/style-3d-widget/Style3d.tsx:336
+#, jsrealm
+msgid "Stroke width"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:210 nodepkg/style-3d-widget/Style3d.tsx:301
+#: nodepkg/style-3d-widget/Style3d.tsx:347
+#, jsrealm
+msgid "Fill color"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:221 nodepkg/style-3d-widget/Style3d.tsx:380
+#, jsrealm
+msgid "Height"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:234
+#, jsrealm
+msgid "3D model ID"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:255
+#, jsrealm
+msgid "Scale"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:266
+#, jsrealm
+msgid "Rotate, deg."
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:312
+#, jsrealm
+msgid "Radius"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:358
+#, jsrealm
+msgid "Length"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:369
+#, jsrealm
+msgid "Width"
+msgstr ""
+
+#: nodepkg/style-3d-widget/Style3d.tsx:393
+#, jsrealm
+msgid "Z offset"
+msgstr ""

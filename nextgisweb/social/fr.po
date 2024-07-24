@@ -1,31 +1,17 @@
-#: amd/ngw-social/Widget.js:29
-msgid "Social"
-msgstr "Social"
-
-#: amd/ngw-social/template/Widget.hbs:4
-msgid "Preview for social media and messengers:"
-msgstr "Aperçu pour les médias sociaux et les messagers :"
-
-#: amd/ngw-social/template/Widget.hbs:8
+#: nodepkg/editor-widget/EditorWidget.tsx:20
 msgid "Select a preview image"
 msgstr "Sélectionnez une image d'aperçu"
 
-#: amd/ngw-social/template/Widget.hbs:9
+#: nodepkg/editor-widget/EditorWidget.tsx:21
 msgid ""
 "The image will be converted to PNG format and downscaled to 1600x630 pixels "
 "if it's bigger."
 msgstr ""
 
-#: amd/ngw-social/template/Widget.hbs:18
+#: nodepkg/editor-widget/EditorWidget.tsx:58
 msgid "Preview description"
 msgstr "Aperçu de la description"
 
-#~ msgid ""
-#~ "The image will be converted to PNG "
-#~ "format and downscaled to 1600x630 pixels "
-#~ "if it\\'s bigger."
-#~ msgstr ""
-#~ "L'image sera convertie au format PNG "
-#~ "et réduite à 1600x630 pixels si elle"
-#~ " est plus grande."
-
+#: nodepkg/editor-widget/EditorWidget.tsx:65
+msgid "Social"
+msgstr "Social"

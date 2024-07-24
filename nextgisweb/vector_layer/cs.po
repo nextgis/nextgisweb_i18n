@@ -1,4 +1,4 @@
-#: api.py:14 model.py:416
+#: api.py:23 model.py:692
 msgid "GDAL library failed to open file."
 msgstr "Knihovně GDAL se nepodařilo otevřít soubor."
 
@@ -6,195 +6,267 @@ msgstr "Knihovně GDAL se nepodařilo otevřít soubor."
 msgid "Vector layer features"
 msgstr "Funkce vektorové vrstvy"
 
-#: amd/ngw-vector-layer/Widget.js:53 amd/ngw-vector-layer/template/Widget.hbs:70
-#: model.py:48
+#: model.py:54 nodepkg/resource-widget/Widget.tsx:54
+#: nodepkg/resource-widget/Widget.tsx:177
 msgid "Point"
 msgstr "Bod"
 
-#: amd/ngw-vector-layer/Widget.js:54 amd/ngw-vector-layer/template/Widget.hbs:71
-#: model.py:48
+#: model.py:55 nodepkg/resource-widget/Widget.tsx:55
+#: nodepkg/resource-widget/Widget.tsx:178
 msgid "Line"
 msgstr "Čára"
 
-#: amd/ngw-vector-layer/Widget.js:55 amd/ngw-vector-layer/template/Widget.hbs:72
-#: model.py:48
+#: model.py:56 nodepkg/resource-widget/Widget.tsx:56
+#: nodepkg/resource-widget/Widget.tsx:179
 msgid "Polygon"
 msgstr "Polygon"
 
-#: amd/ngw-vector-layer/Widget.js:56 model.py:49
+#: model.py:57 nodepkg/resource-widget/Widget.tsx:180
 msgid "Multipoint"
 msgstr "Multibod"
 
-#: amd/ngw-vector-layer/Widget.js:57 model.py:49
+#: model.py:58 nodepkg/resource-widget/Widget.tsx:181
 msgid "Multiline"
 msgstr "Multičáry"
 
-#: amd/ngw-vector-layer/Widget.js:58 model.py:49
+#: model.py:59 nodepkg/resource-widget/Widget.tsx:182
 msgid "Multipolygon"
 msgstr "Multipolygony"
 
-#: amd/ngw-vector-layer/Widget.js:59 model.py:50
+#: model.py:60 nodepkg/resource-widget/Widget.tsx:183
 msgid "Point Z"
 msgstr "Bod Z"
 
-#: amd/ngw-vector-layer/Widget.js:60 model.py:50
+#: model.py:61 nodepkg/resource-widget/Widget.tsx:184
 msgid "Line Z"
 msgstr "Řádek Z"
 
-#: amd/ngw-vector-layer/Widget.js:61 model.py:50
+#: model.py:62 nodepkg/resource-widget/Widget.tsx:185
 msgid "Polygon Z"
 msgstr "Polygon Z"
 
-#: amd/ngw-vector-layer/Widget.js:62 model.py:51
+#: model.py:63 nodepkg/resource-widget/Widget.tsx:186
 msgid "Multipoint Z"
 msgstr "Multipoint Z"
 
-#: amd/ngw-vector-layer/Widget.js:63 model.py:51
+#: model.py:64 nodepkg/resource-widget/Widget.tsx:187
 msgid "Multiline Z"
 msgstr "Multiline Z"
 
-#: amd/ngw-vector-layer/Widget.js:64 model.py:51
+#: model.py:65 nodepkg/resource-widget/Widget.tsx:188
 msgid "Multipolygon Z"
 msgstr "Multipolygon Z"
 
-#: amd/ngw-vector-layer/Widget.js:45 model.py:101
+#: model.py:114 nodepkg/resource-widget/Widget.tsx:298
 msgid "Vector layer"
 msgstr "Vektorová vrstva"
 
-#: amd/ngw-vector-layer/template/Widget.hbs:19
-#: amd/ngw-vector-layer/template/Widget.hbs:66 model.py:169
+#: model.py:134 nodepkg/resource-widget/Widget.tsx:106
+#: nodepkg/resource-widget/Widget.tsx:263
 msgid "Geometry type"
 msgstr "Typ geometrie"
 
-#: model.py:171
+#: model.py:135
 msgid "Feature count"
 msgstr "Počet funkcí"
 
-#: model.py:308
-#, python-format
-msgid "Geometry type (%s) does not match geometry column type (%s)."
-msgstr "Typ geometrie (%s) neodpovídá typu sloupce geometrie (%s)."
-
-#: model.py:419
-#, python-format
+#: model.py:695
 msgid "Unsupport OGR driver: %s."
 msgstr "Nepodporovaný ovladač OGR: %s."
 
-#: amd/ngw-vector-layer/Widget.js:160 model.py:428
+#: model.py:704
 msgid "Dataset doesn't contain layers."
 msgstr "Datová sada neobsahuje vrstvy."
 
-#: model.py:431
+#: model.py:707
 msgid "Dataset contains more than one layer."
 msgstr "Datová sada obsahuje více než jednu vrstvu."
 
-#: model.py:436
+#: model.py:712
 msgid "Unable to open layer."
 msgstr "Nelze otevřít vrstvu."
 
-#: model.py:451
+#: model.py:725
 msgid "Layer doesn't contain coordinate system information."
 msgstr "Vrstva neobsahuje informace o souřadnicovém systému."
 
-#: model.py:476
+#: model.py:748
 msgid "Unknown 'fix_errors' value."
 msgstr "Neznámá hodnota „fix_errors“."
 
-#: model.py:483
+#: model.py:756
 msgid "Unknown 'cast_geometry_type' value."
 msgstr "Neznámá hodnota „cast_geometry_type“."
 
-#: model.py:487
+#: model.py:761
 msgid "Unknown 'cast_is_multi' value."
 msgstr "Neznámá hodnota „cast_is_multi“."
 
-#: model.py:491
+#: model.py:766
 msgid "Unknown 'cast_has_z' value."
 msgstr "Neznámá hodnota „cast_has_z“."
 
-#: model.py:523
+#: model.py:771
+msgid "Unknown 'fid_source' value."
+msgstr ""
+
+#: model.py:794
 msgid "Unsupported geometry type."
 msgstr "Nepodporovaný typ geometrie."
 
-#: table_info.py:300
+#: nodepkg/resource-widget/Store.tsx:168
+msgid "Confirm deletion of existing features"
+msgstr ""
+
+#: nodepkg/resource-widget/Store.tsx:175
+msgid "Confirm change of geometry type"
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:33
+msgid "Select a dataset"
+msgstr "Vyberte datovou sadu"
+
+#: nodepkg/resource-widget/Widget.tsx:34
+msgid ""
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
+"supported. For CSV and XLSX only points are supported, coordinates must be "
+"put in lat and lot columns."
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:45
+msgid "Whenever possible"
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:46
+msgid "Without losing data"
+msgstr "Bez ztráty dat"
+
+#: nodepkg/resource-widget/Widget.tsx:47
+msgid "None"
+msgstr "Žádný"
+
+#: nodepkg/resource-widget/Widget.tsx:53 nodepkg/resource-widget/Widget.tsx:62
+#: nodepkg/resource-widget/Widget.tsx:70
+msgid "Auto"
+msgstr "Auto"
+
+#: nodepkg/resource-widget/Widget.tsx:63
+msgid "Yes"
+msgstr "Ano"
+
+#: nodepkg/resource-widget/Widget.tsx:64
+msgid "No"
+msgstr "Ne"
+
+#: nodepkg/resource-widget/Widget.tsx:71
+msgid "Sequence"
+msgstr "Sekvence"
+
+#: nodepkg/resource-widget/Widget.tsx:72
+msgid "Field"
+msgstr "Pole"
+
+#: nodepkg/resource-widget/Widget.tsx:98
+msgid "Fix errors"
+msgstr "Opravit chyby"
+
+#: nodepkg/resource-widget/Widget.tsx:102
+msgid "Skip features with unfixable errors"
+msgstr "Přeskočit funkce s neopravitelnými chybami"
+
+#: nodepkg/resource-widget/Widget.tsx:114
+msgid "Only load features of the selected geometry type"
+msgstr "Načíst pouze prvky vybraného typu geometrie"
+
+#: nodepkg/resource-widget/Widget.tsx:118
+msgid "Multi-geometry"
+msgstr "Multi-geometrie"
+
+#: nodepkg/resource-widget/Widget.tsx:121
+msgid "Z-coordinate"
+msgstr "Souřadnice Z"
+
+#: nodepkg/resource-widget/Widget.tsx:124
+msgid "FID source"
+msgstr "Zdroj FID"
+
+#: nodepkg/resource-widget/Widget.tsx:151
+msgid "Load features from file"
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:152
+msgid "Create empty layer"
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:154
+msgid "Keep existing layer features"
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:155
+msgid "Change geometry type"
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:156
+msgid "Replace layer features from file"
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:157
+msgid "Delete all features from layer"
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:173
+msgid "current"
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:251
+msgid "Source layer"
+msgstr "Zdrojová vrstva"
+
+#: nodepkg/resource-widget/Widget.tsx:287
+msgid "Advanced options"
+msgstr "Pokročilé možnosti"
+
+#: ogrloader.py:311
 msgid "Could not determine a geometry type."
 msgstr "Nelze určit typ geometrie."
 
-#: table_info.py:302
+#: ogrloader.py:313
 msgid "Source layer contains no features satisfying the conditions."
 msgstr "Zdrojová vrstva neobsahuje žádné funkce splňující dané podmínky."
 
-#: table_info.py:317
-#, python-format
+#: ogrloader.py:329
 msgid "Field '%s' is out of int32 range."
 msgstr "Pole '%s ' je mimo rozsah int32."
 
-#: table_info.py:324
-#, python-format
+#: ogrloader.py:337
 msgid "Field '%s' contains non-unique or empty values."
 msgstr "Pole '%s ' obsahuje nejedinečné nebo prázdné hodnoty."
 
-#: table_info.py:336
+#: ogrloader.py:354
 msgid "Parameter 'fid_field' is missing."
 msgstr "Chybí parametr „fid_field“."
 
-#: table_info.py:339
-#, python-format
+#: ogrloader.py:357
 msgid "Fields %s not found."
 msgstr "Pole %s nebyla nalezena."
 
-#: table_info.py:341
-#, python-format
+#: ogrloader.py:359
 msgid "None of fields %s are integer."
 msgstr "Žádné z polí %s není celočíselné."
 
-#: table_info.py:357
-#, python-format
+#: ogrloader.py:374
 msgid "Field '%s(?)' encoding is broken."
 msgstr "Pole ' %s(?) 'kódování je přerušeno."
 
-#: table_info.py:361
-#, python-format
+#: ogrloader.py:379
 msgid "Field name is forbidden: '%s'. Please remove or rename it."
 msgstr "Název pole je zakázán: '%s'. Odeberte nebo přejmenujte jeho."
 
-#: table_info.py:397
-#, python-format
+#: ogrloader.py:412
 msgid "Unsupported field type: %r."
 msgstr "Nepodporovaný typ pole: %r."
 
-#: table_info.py:562
-#, python-format
-msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
-msgstr "Funkce (pokračování #%d) nemá pole FID „%s“."
-
-#: table_info.py:566
-#, python-format
-msgid "Feature (seq. #%d) FID field '%s' is null."
-msgstr "Funkce (sekv. #%d) Pole FID '%s' je prázdné."
-
-#: table_info.py:579
-#, python-format
-msgid "Feature #%d doesn't have geometry."
-msgstr "Objekt #%d nemá geometrii."
-
-#: table_info.py:612 table_info.py:656
-#, python-format
-msgid "Feature #%d has multiple geometries satisfying the conditions."
-msgstr "Objekt #%d má více geometrií splňujících podmínky."
-
-#: table_info.py:624
-#, python-format
-msgid "Feature #%d has unknown geometry type: %d (%s)."
-msgstr "Objekt #%d má neznámý typ geometrie: %d (%s)."
-
-#: table_info.py:637
-#, python-format
-msgid "Feature #%d has unsuitable geometry type: %d (%s)."
-msgstr "Objekt #%d má nevhodný typ geometrie: %d (%s)."
-
-#: table_info.py:662
-#, python-format
+#: ogrloader.py:509
 msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
@@ -202,211 +274,50 @@ msgstr ""
 "Funkce # %d má geometrii, kterou nelze přeprojektovat do cílového "
 "souřadnicového systému"
 
-#: table_info.py:687
-#, python-format
-msgid "Feature #%d has unclosed rings."
-msgstr "Objekt #%d má neuzavřené kroužky."
-
-#: table_info.py:701
-#, python-format
-msgid "Feature #%d has less than 3 points in a polygon ring."
-msgstr "Objekt #%d má v polygonovém kruhu méně než 3 body."
-
-#: table_info.py:707
-#, python-format
-msgid "Feature #%d has less than 2 points in a linestring."
-msgstr "Objekt #%d má v linestringu méně než 2 body."
-
-#: table_info.py:749
-#, python-format
-msgid "Feature #%d contains a broken encoding of field '%s'."
-msgstr "Funkce # %d obsahuje nefunkční kódování pole '%s'."
-
-#: table_info.py:773
+#: ogrloader.py:554
 msgid "Vector layer cannot be written due to errors."
 msgstr "Vektorovou vrstvu nelze zapsat kvůli chybám."
 
-#: amd/ngw-vector-layer/Widget.js:120
-msgid "Confirm deletion of existing features"
+#: ogrloader.py:579
+msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
+msgstr "Funkce (pokračování #%d) nemá pole FID „%s“."
+
+#: ogrloader.py:582
+msgid "Feature (seq. #%d) FID field '%s' is null."
+msgstr "Funkce (sekv. #%d) Pole FID '%s' je prázdné."
+
+#: ogrloader.py:603
+msgid "Feature #%d doesn't have geometry."
+msgstr "Objekt #%d nemá geometrii."
+
+#: ogrloader.py:631 ogrloader.py:669
+msgid "Feature #%d has multiple geometries satisfying the conditions."
+msgstr "Objekt #%d má více geometrií splňujících podmínky."
+
+#: ogrloader.py:640
+msgid "Feature #%d has unknown geometry type: %d (%s)."
+msgstr "Objekt #%d má neznámý typ geometrie: %d (%s)."
+
+#: ogrloader.py:649
+msgid "Feature #%d has unsuitable geometry type: %d (%s)."
+msgstr "Objekt #%d má nevhodný typ geometrie: %d (%s)."
+
+#: ogrloader.py:684
+msgid "Feature #%d has unclosed rings."
+msgstr "Objekt #%d má neuzavřené kroužky."
+
+#: ogrloader.py:701
+msgid "Feature #%d has empty rings."
 msgstr ""
 
-#: amd/ngw-vector-layer/Widget.js:123
-msgid "Confirm change of geometry type"
-msgstr ""
+#: ogrloader.py:715
+msgid "Feature #%d has less than 3 points in a polygon ring."
+msgstr "Objekt #%d má v polygonovém kruhu méně než 3 body."
 
-#: amd/ngw-vector-layer/Widget.js:133
-msgid "Load features from file"
-msgstr ""
+#: ogrloader.py:728
+msgid "Feature #%d has less than 2 points in a linestring."
+msgstr "Objekt #%d má v linestringu méně než 2 body."
 
-#: amd/ngw-vector-layer/Widget.js:134
-msgid "Create empty layer"
-msgstr ""
-
-#: amd/ngw-vector-layer/Widget.js:136
-msgid "Keep existing layer features"
-msgstr ""
-
-#: amd/ngw-vector-layer/Widget.js:137
-msgid "Replace layer features from file"
-msgstr ""
-
-#: amd/ngw-vector-layer/Widget.js:138
-msgid "Delete all features from layer"
-msgstr ""
-
-#: amd/ngw-vector-layer/Widget.js:139
-msgid "Change geometry type"
-msgstr ""
-
-#: amd/ngw-vector-layer/Widget.js:159
-msgid "Validation error"
-msgstr "Chyba ověření"
-
-#: amd/ngw-vector-layer/Widget.js:196
-msgid "current"
-msgstr ""
-
-#: amd/ngw-vector-layer/template/Widget.hbs:6
-msgid "Spatial reference system"
-msgstr "Prostorový referenční systém"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:28
-msgid "Select a dataset"
-msgstr "Vyberte datovou sadu"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:29
-msgid ""
-"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
-"supported. For CSV and XLSX only points are supported, coordinates must be "
-"put in lat and lot columns."
-msgstr ""
-
-#: amd/ngw-vector-layer/template/Widget.hbs:37
-msgid "Source layer"
-msgstr "Zdrojová vrstva"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:42
-msgid "Advanced options"
-msgstr "Pokročilé možnosti"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:47
-msgid "Fix errors"
-msgstr "Opravit chyby"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:50
-msgid "None"
-msgstr "Žádný"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:51
-msgid "Without losing data"
-msgstr "Bez ztráty dat"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:52
-msgid "Whatever possible"
-msgstr "Jak je to možné"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:61
-msgid "Skip features with unfixable errors"
-msgstr "Přeskočit funkce s neopravitelnými chybami"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:69
-#: amd/ngw-vector-layer/template/Widget.hbs:88
-#: amd/ngw-vector-layer/template/Widget.hbs:97
-#: amd/ngw-vector-layer/template/Widget.hbs:106
-msgid "Auto"
-msgstr "Auto"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:81
-msgid "Only load features of the selected geometry type"
-msgstr "Načíst pouze prvky vybraného typu geometrie"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:86
-msgid "Multi-geometry"
-msgstr "Multi-geometrie"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:89
-#: amd/ngw-vector-layer/template/Widget.hbs:98
-msgid "Yes"
-msgstr "Ano"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:90
-#: amd/ngw-vector-layer/template/Widget.hbs:99
-msgid "No"
-msgstr "Ne"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:95
-msgid "Z-coordinate"
-msgstr "Souřadnice Z"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:104
-msgid "FID source"
-msgstr "Zdroj FID"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:107
-msgid "Sequence"
-msgstr "Sekvence"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:108
-msgid "Field"
-msgstr "Pole"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:113
-msgid "FID field(s)"
-msgstr "Pole FID"
-
-#~ msgid "FID field"
-#~ msgstr "FID pole"
-
-#~ msgid "Field '%s' not found."
-#~ msgstr "Pole '%s' nebylo nalezeno."
-
-#~ msgid "Field '%s' type is not integer."
-#~ msgstr "Typ pole '%s' není celé číslo."
-
-#~ msgid ""
-#~ "It seems like declared and actual "
-#~ "attributes encodings do not match. Unable"
-#~ " to decode attribute #%(attr)d of feature"
-#~ " #%(feat)d. Try declaring different encoding."
-#~ msgstr ""
-#~ "Zdá se, že deklarované a skutečné "
-#~ "atributy kódování se neshodují. Nelze "
-#~ "dekódovat atribut #%(attr)d funkce #%(feat)d. "
-#~ "Zkuste deklarovat jiné kódování."
-
-#~ msgid "Encoding"
-#~ msgstr "Kódování"
-
-#~ msgid "UTF-8"
-#~ msgstr "UTF-8"
-
-#~ msgid "Windows-1251"
-#~ msgstr "Windows-1251"
-
-#~ msgid "Dataset should be in ESRI Shapefile (zip), GeoJSON, GML or KML format."
-#~ msgstr ""
-#~ "Datová sada by měla být ve formátu "
-#~ "ESRI Shapefile (zip), GeoJSON, GML nebo "
-#~ "KML."
-
-#~ msgid ""
-#~ "Dataset should be in ESRI Shapefile "
-#~ "(zip), GeoPackage, GeoJSON, GML or KML "
-#~ "format."
-#~ msgstr ""
-#~ "Dataset by měl být ve formátu ESRI "
-#~ "Shapefile (zip), GeoPackage, GeoJSON, GML "
-#~ "nebo KML."
-
-#~ msgid "Geometry type for existing resource can't be changed."
-#~ msgstr "Typ geometrie pro existující zdroj nelze změnit."
-
-#~ msgid "Mode"
-#~ msgstr "Režim"
-
-#~ msgid "From file"
-#~ msgstr "Ze souboru"
-
-#~ msgid "Empty layer"
-#~ msgstr "Prázdná vrstva"
-
+#: ogrloader.py:754
+msgid "Feature #%d contains a broken encoding of field '%s'."
+msgstr "Funkce # %d obsahuje nefunkční kódování pole '%s'."

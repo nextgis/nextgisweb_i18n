@@ -1,143 +1,3 @@
-#: api.py:224
-msgid "Required parameter 'component' is missing."
-msgstr "Chybí požadovaný parametr 'komponenta'."
-
-#: api.py:229
-msgid "Invalid component identity."
-msgstr "Neplatná identita komponenty."
-
-#: api.py:566
-msgid "Your Web GIS at nextgis.com"
-msgstr "Váš webový GIS na nextgis.com"
-
-#: component.py:137
-msgid "Enabled"
-msgstr "Povolit"
-
-#: component.py:137
-msgid "Disabled"
-msgstr "Zakázán"
-
-#: exception.py:203 exception.py:264
-msgid "Internal server error"
-msgstr "Interní chyba serveru"
-
-#: exception.py:204
-msgid ""
-"The server encountered an internal error or misconfiguration and was unable "
-"to complete your request."
-msgstr ""
-"Na serveru došlo k interní chybě nebo nesprávné konfiguraci a nemohl dokončit"
-" váš požadavek."
-
-#: exception.py:233
-msgid "Bad request"
-msgstr "Špatný požadavek"
-
-#: exception.py:234
-msgid ""
-"The server could not comply with the request since it is either malformed or "
-"otherwise incorrect."
-msgstr "Server nemohl vyhovět požadavku, protože je znetvořený nebo jinak nesprávný."
-
-#: exception.py:241
-msgid "Payment required"
-msgstr "Požadovaná platba"
-
-#: exception.py:242
-msgid "Access was denied for financial reasons."
-msgstr "Přístup byl z finančních důvodů odepřen."
-
-#: exception.py:246
-msgid "Forbidden"
-msgstr "Zakázáno"
-
-#: exception.py:247
-msgid "Access was denied to this resource."
-msgstr "Přístup k tomuto prostředku byl odepřen."
-
-#: exception.py:251
-msgid "Page not found"
-msgstr "Stránka nenalezena"
-
-#: exception.py:252
-msgid ""
-"The page may have been deleted or an error in the address. Correct the "
-"address or go to the home page and try to find the desired page."
-msgstr ""
-"Možná stránka byla odstraněna nebo je chyba v adrese. Opravte adresu nebo "
-"přejděte na domovskou stránku a zkuste najít požadovanou stránku."
-
-#: exception.py:259
-msgid "Unprocessable entity"
-msgstr "Nezpracovatelná entita"
-
-#: exception.py:260
-msgid "Unable to process the contained instructions."
-msgstr "Obsažené instrukce nelze zpracovat."
-
-#: exception.py:265
-msgid ""
-"The server has either erred or is incapable of performing the requested "
-"operation."
-msgstr "Server se buď dopustil chyby, nebo není schopen provést požadovanou operaci."
-
-#: exception.py:272 exception.py:273
-msgid "Not implemented"
-msgstr "Není implementováno"
-
-#: exception.py:277
-msgid "Service unavailable"
-msgstr "Služba je nedostupná"
-
-#: exception.py:278
-msgid "The server is currently unavailable. Please try again at a later time."
-msgstr "Server je momentálně nedostupný. Zkuste to znovu později."
-
-#: nodepkg/layout/store.js:42 view.py:97
-msgid "Control panel"
-msgstr "Kontrolní panel"
-
-#: view.py:120 view.py:516
-msgid "System information"
-msgstr "Systémové informace"
-
-#: view.py:134 view.py:533
-msgid "Storage"
-msgstr "Úložiště"
-
-#: view.py:145 view.py:538
-msgid "Backups"
-msgstr "Zálohy"
-
-#: view.py:162 view.py:522
-msgid "Cross-origin resource sharing (CORS)"
-msgstr "Sdílení zdrojů mezi zdroji (CORS)"
-
-#: view.py:171 view.py:524
-msgid "Custom CSS"
-msgstr "Vlastní CSS"
-
-#: view.py:180 view.py:526
-msgid "Custom logo"
-msgstr "Vlastní logo"
-
-#: view.py:189 view.py:520
-msgid "Web GIS name"
-msgstr "Web GIS jméno"
-
-#: view.py:198 view.py:528
-msgid "Home path"
-msgstr "Domácí cesta"
-
-#: view.py:515
-msgid "Info"
-msgstr "Info"
-
-#: nodepkg/layout/Avatar.js:22 view.py:519
-msgid "Settings"
-msgstr "Nastavení"
-
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:28
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:30
 msgid "Copy to clipboard"
@@ -151,75 +11,163 @@ msgstr "Zkopírováno"
 msgid "Unable to copy"
 msgstr "Nelze kopírovat"
 
-#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:28
-msgid "Backward"
-msgstr "Zpět"
-
-#: amd/ngw-pyramid/NGWPagination/NGWPagination.js:29
-msgid "Forward"
-msgstr "Vpřed"
-
-#: amd/ngw-pyramid/company-logo/company-logo.js:25
-msgid "Get your own Web GIS at nextgis.com"
-msgstr "Získejte svůj vlastní web GIS na nextgis.com"
-
-#: amd/ngw-pyramid/form/LangSelect.js:24
-msgid "Browser default"
-msgstr "Výchozí prohlížeč"
-
-#: amd/ngw-pyramid/form/ScaleTextBox.js:18
+#: amd/ngw-pyramid/form/ScaleTextBox.js:13
 msgid "Enter the correct scale value, e.g. 1:"
 msgstr "Zadejte správnou hodnotu měřítka, např. 1:"
 
-#: amd/ngw-pyramid/modelWidget/FormMixin.js:37 nodepkg/example/typescript.ts:10
-msgid "Create"
-msgstr "Vytvořit"
+#: api.py:196
+msgid "Storage management is not enabled on this server."
+msgstr ""
 
-#: amd/ngw-pyramid/modelWidget/FormMixin.js:39
-msgid "Save"
-msgstr "Uložit"
+#: api.py:406
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr ""
 
-#: amd/ngw-pyramid/modelWidget/FormMixin.js:41
-msgid "Delete"
-msgstr "Vymazat"
+#: api.py:534
+msgid "Got an unsupported MIME type: '{}'."
+msgstr ""
 
-#: nodepkg/api/error.js:10 nodepkg/api/error.js:25
+#: api.py:537
+msgid "64K should be enough for a logo."
+msgstr ""
+
+#: api.py:669
+msgid "Your Web GIS at nextgis.com"
+msgstr "Váš webový GIS na nextgis.com"
+
+#: component.py:163
+msgid "Request timeout"
+msgstr ""
+
+#: component.py:166
+msgid "Enabled"
+msgstr "Povolit"
+
+#: component.py:166
+msgid "Disabled"
+msgstr "Zakázán"
+
+#: exception.py:204
+msgid "Internal server error"
+msgstr "Interní chyba serveru"
+
+#: exception.py:205
+msgid ""
+"The server encountered an internal error or misconfiguration and was unable "
+"to complete your request."
+msgstr ""
+"Na serveru došlo k interní chybě nebo nesprávné konfiguraci a nemohl dokončit"
+" váš požadavek."
+
+#: exception.py:238
+msgid "Bad request"
+msgstr "Špatný požadavek"
+
+#: exception.py:239
+msgid ""
+"The server could not comply with the request since it is either malformed or "
+"otherwise incorrect."
+msgstr "Server nemohl vyhovět požadavku, protože je znetvořený nebo jinak nesprávný."
+
+#: exception.py:247
+msgid "Payment required"
+msgstr "Požadovaná platba"
+
+#: exception.py:248
+msgid "Access was denied for financial reasons."
+msgstr "Přístup byl z finančních důvodů odepřen."
+
+#: exception.py:253
+msgid "Forbidden"
+msgstr "Zakázáno"
+
+#: exception.py:254
+msgid "Access was denied to this resource."
+msgstr "Přístup k tomuto prostředku byl odepřen."
+
+#: exception.py:259
+msgid "Page not found"
+msgstr "Stránka nenalezena"
+
+#: exception.py:260
+msgid ""
+"The page may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired page."
+msgstr ""
+"Možná stránka byla odstraněna nebo je chyba v adrese. Opravte adresu nebo "
+"přejděte na domovskou stránku a zkuste najít požadovanou stránku."
+
+#: exception.py:268
+msgid "Unprocessable entity"
+msgstr "Nezpracovatelná entita"
+
+#: exception.py:269
+msgid "Unable to process the contained instructions."
+msgstr "Obsažené instrukce nelze zpracovat."
+
+#: exception.py:274 exception.py:275
+msgid "Not implemented"
+msgstr "Není implementováno"
+
+#: exception.py:280
+msgid "Service unavailable"
+msgstr "Služba je nedostupná"
+
+#: exception.py:281
+msgid "The server is currently unavailable. Please try again at a later time."
+msgstr "Server je momentálně nedostupný. Zkuste to znovu později."
+
+#: lunkwill.py:25
+msgid "Lunkwill not enabled"
+msgstr ""
+
+#: lunkwill.py:26
+msgid "The Lunkwill extension is not configured on this server."
+msgstr ""
+
+#: nodepkg/api/error.ts:11 nodepkg/api/error.ts:29
 msgid "Something went wrong."
 msgstr "Něco se pokazilo."
 
-#: nodepkg/api/error.js:11
+#: nodepkg/api/error.ts:12
 msgid "Unknown API error"
 msgstr "Neznámá chyba API"
 
-#: nodepkg/api/error.js:17
+#: nodepkg/api/error.ts:21
 msgid "There is no response from the server or problem connecting to server."
 msgstr "Server neodpovídá nebo se nepodařilo připojit k serveru."
 
-#: nodepkg/api/error.js:18
+#: nodepkg/api/error.ts:22
 msgid "Network error"
 msgstr "Chyba sítě"
 
-#: nodepkg/api/error.js:19
+#: nodepkg/api/error.ts:23
 msgid "Check network connectivity and try again later."
 msgstr "Zkontrolujte síťové připojení a zkuste to znovu později."
 
-#: nodepkg/api/error.js:26
+#: nodepkg/api/error.ts:30
 msgid "Unexpected server response"
 msgstr "Neočekávaná odpověď serveru"
 
-#: nodepkg/api/error.js:41
+#: nodepkg/api/error.ts:59
 msgid "Unexpected error while processing long-running request."
 msgstr "Neočekávaná chyba při zpracování dlouhodobého požadavku."
 
-#: nodepkg/api/error.js:42
+#: nodepkg/api/error.ts:60
 msgid "Long-running request error"
 msgstr "Chyba dlouhodobého požadavku"
 
-#: nodepkg/api/error.js:49
+#: nodepkg/api/error.ts:67
 msgid "Long-running request was cancelled."
 msgstr "Dlouhodobý požadavek byl zrušen."
 
-#: nodepkg/cors-settings/CORSSettings.js:17
+#: nodepkg/company-logo.ts:32
+msgid "Get your own Web GIS at nextgis.com"
+msgstr "Získejte svůj vlastní web GIS na nextgis.com"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:24
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
@@ -227,7 +175,7 @@ msgstr ""
 "Zadejte povolený původ pro požadavky mezi doménami, aby bylo možné použít "
 "HTTP API tohoto Web GIS na jiných webech. Jeden počátek na řádek."
 
-#: nodepkg/cors-settings/CORSSettings.js:20
+#: nodepkg/cors-settings/CORSSettings.tsx:25
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
@@ -237,23 +185,23 @@ msgstr ""
 "www.example.com) jsou různého původu. Zástupné znaky jsou povoleny pro domény"
 " třetí úrovně a vyšší."
 
-#: nodepkg/cors-settings/CORSSettings.js:47
+#: nodepkg/cors-settings/CORSSettings.tsx:58
 msgid "CORS settings updated"
 msgstr "Nastavení CORS aktualizováno"
 
-#: nodepkg/cors-settings/CORSSettings.js:52
+#: nodepkg/cors-settings/CORSSettings.tsx:63
 msgid "Fix the form errors first"
 msgstr "Nejprve opravte chyby formuláře"
 
-#: nodepkg/cors-settings/CORSSettings.js:72
+#: nodepkg/cors-settings/CORSSettings.tsx:79
 msgid "The value entered is not valid"
 msgstr "Zadaná hodnota není platná"
 
-#: nodepkg/custom-css-form/CustomCSSForm.js:35
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:41
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr "Vlastní styly uloženy. Znovu načtěte stránku, abyste je mohli použít."
 
-#: nodepkg/custom-css-form/CustomCSSForm.js:57
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:63
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -261,102 +209,165 @@ msgstr ""
 "Zde zadejte vlastní pravidla CSS. Budou použity k předefinování stylů a "
 "designu pro všechny stránky vašeho webového GIS."
 
-#: nodepkg/example/translation.js:5
-msgid "Translated text"
-msgstr "Přeložený text"
-
-#: nodepkg/home-path/HomePath.js:4
+#: nodepkg/home-path/HomePath.tsx:4
 msgid "The home path setting is saved."
 msgstr "Nastavení domovské cesty se uloží."
 
-#: nodepkg/layout/Avatar.js:10
+#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12 test/test_i18n.py:15
+msgctxt "test"
+msgid "unit"
+msgid_plural "units"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: nodepkg/layout/Avatar.tsx:12
 msgid "Sign in"
 msgstr "Přihlaste"
 
-#: nodepkg/layout/Avatar.js:19
+#: nodepkg/layout/Avatar.tsx:20
 msgid "Invitation session"
 msgstr "Pozvánka"
 
-#: nodepkg/layout/Avatar.js:24
+#: nodepkg/layout/Avatar.tsx:23
+msgid "User settings"
+msgstr ""
+
+#: nodepkg/layout/Avatar.tsx:25
 msgid "Sign out"
 msgstr "Odhlásit se"
 
-#: nodepkg/layout/store.js:36
+#: nodepkg/layout/store.ts:48
 msgid "Resources"
 msgstr "Zdroje"
 
-#: nodepkg/layout/store.js:49
+#: nodepkg/layout/store.ts:54 view.py:169
+msgid "Control panel"
+msgstr "Kontrolní panel"
+
+#: nodepkg/layout/store.ts:61
 msgid "Help"
 msgstr "Pomoc"
 
-#: nodepkg/logo-form/LogoForm.js:5
+#: nodepkg/logo-form/LogoForm.tsx:5
 msgid "We recommend height of 45 px and width of up to 200 px."
 msgstr "Doporučujeme výšku 45 px a šířku až 200 px."
 
-#: nodepkg/storage-summary/StorageSummary.js:82
+#: nodepkg/logo-form/LogoForm.tsx:6
+msgid "Only PNG and SVG images are supported."
+msgstr ""
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+msgid "Measurement ID"
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:19
+msgid "Add"
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:20
+msgid "The setting is saved."
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+msgid "Reload the page to get them applied."
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+msgid "Add one or more counters to your Web GIS."
+msgstr ""
+
+#: nodepkg/metrics/MetricSettings.tsx:26
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow you"
+" to track user activity."
+msgstr ""
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+msgid "Tag number"
+msgstr ""
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:51
+msgid "Webvisor"
+msgstr ""
+
+#: nodepkg/metrics/tab.ts:31
+msgid "Google Analytics"
+msgstr ""
+
+#: nodepkg/metrics/tab.ts:38
+msgid "Yandex.Metrica"
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.js:96
 msgid "Kind of data"
 msgstr "Druh dat"
 
-#: nodepkg/storage-summary/StorageSummary.js:88
+#: nodepkg/storage-summary/StorageSummary.js:102
 msgid "Volume"
 msgstr "Objem"
 
-#: nodepkg/storage-summary/StorageSummary.js:104
+#: nodepkg/storage-summary/StorageSummary.js:118
 msgid "Total"
 msgstr "Celek"
 
-#: nodepkg/storage-summary/StorageSummary.js:109
+#: nodepkg/storage-summary/StorageSummary.js:123
 msgid "of"
 msgstr "z"
 
-#: nodepkg/storage-summary/StorageSummary.js:124
-#, python-format
+#: nodepkg/storage-summary/StorageSummary.js:140
 msgid "Storage usage was fully estimated at %s and updated at %s."
 msgstr "Využití úložiště bylo plně odhadnuto na %s a aktualizováno na %s."
 
-#: nodepkg/storage-summary/StorageSummary.js:128
-#, python-format
+#: nodepkg/storage-summary/StorageSummary.js:146
 msgid "Storage usage was fully estimated at %s."
 msgstr "Využití úložiště bylo plně odhadnuto na %s."
 
-#: nodepkg/storage-summary/StorageSummary.js:131
-#, python-format
+#: nodepkg/storage-summary/StorageSummary.js:151
 msgid "Storage usage hasn't been estimated yet but was updated at %s."
 msgstr "Využití úložiště zatím nebylo odhadnuto, ale bylo aktualizováno na %s."
 
-#: nodepkg/storage-summary/StorageSummary.js:134
+#: nodepkg/storage-summary/StorageSummary.js:155
 msgid "Storage usage hasn't been estimated yet."
 msgstr "Využití úložiště zatím nebylo odhadnuto."
 
-#: nodepkg/storage-summary/StorageSummary.js:139
+#: nodepkg/storage-summary/StorageSummary.js:160
 msgid "Some changes may be reflected only after full estimation."
 msgstr "Některé změny se mohou projevit až po úplném odhadu."
 
-#: nodepkg/storage-summary/StorageSummary.js:162
+#: nodepkg/storage-summary/StorageSummary.js:184
 msgid "Estimate storage"
 msgstr "Odhad skladování"
 
-#: nodepkg/system-name-form/SystemNameForm.js:4
+#: nodepkg/system-name-form/SystemNameForm.tsx:4
 msgid "The system name setting is saved."
 msgstr "Nastavení názvu systému se uloží."
 
-#: nodepkg/update/index.js:55
+#: nodepkg/update/index.js:56
 msgid "Critical updates are available"
 msgstr "K dispozici jsou kritické aktualizace"
 
-#: nodepkg/update/index.js:56
+#: nodepkg/update/index.js:57
 msgid "Updates are available"
 msgstr "Aktualizace jsou k dispozici"
 
-#: nodepkg/update/index.js:58
+#: nodepkg/update/index.js:59
 msgid "Click to see what's new"
 msgstr "Kliknutím zobrazíte, co je nového"
 
-#: nodepkg/update/sysinfo.js:32
+#: nodepkg/update/sysinfo.js:14
 msgid "Checking for updates..."
 msgstr "Kontrola aktualizací..."
 
-#: nodepkg/update/sysinfo.js:35
+#: nodepkg/update/sysinfo.js:15
+msgid "<a>Contact support</a> for update."
+msgstr "<a> Kontaktujte podporu </a> pro aktualizaci."
+
+#: nodepkg/update/sysinfo.js:16
+msgid "Show details"
+msgstr "Ukázat detaily"
+
+#: nodepkg/update/sysinfo.js:20
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
@@ -364,72 +375,67 @@ msgstr ""
 "K dispozici jsou kritické aktualizace: {verze}. Zvažte prosím aktualizaci co "
 "nejdříve."
 
-#: nodepkg/update/sysinfo.js:36
+#: nodepkg/update/sysinfo.js:21
 msgid "New version of {distribution} is available: {version}."
 msgstr "K dispozici je nová verze {distribution}: {version}."
 
-#: nodepkg/update/sysinfo.js:37
+#: nodepkg/update/sysinfo.js:22
 msgid "Your {distribution} is up-to-date."
 msgstr "Vaše {distribuce} je aktuální."
 
-#: nodepkg/update/sysinfo.js:44
-msgid "<a>Contact support</a> for update."
-msgstr "<a> Kontaktujte podporu </a> pro aktualizaci."
+#: permission.py:5 view.py:216 view.py:559
+msgid "Cross-origin resource sharing (CORS)"
+msgstr "Sdílení zdrojů mezi zdroji (CORS)"
 
-#: nodepkg/update/sysinfo.js:74
-msgid "Show details"
-msgstr "Ukázat detaily"
-
-#: template/backup.mako:9
+#: template/backup.mako:5
 msgid "Filename"
 msgstr "Název souboru"
 
-#: template/backup.mako:10
+#: template/backup.mako:6
 msgid "Timestamp (UTC)"
 msgstr "Časové razítko (UTC)"
 
-#: template/backup.mako:11
+#: template/backup.mako:7
 msgid "Size"
 msgstr "Velikost"
 
-#: template/sysinfo.mako:38
+#: template/sysinfo.mako:34
 msgid "Package"
 msgstr "Balík"
 
-#: template/sysinfo.mako:39
+#: template/sysinfo.mako:35
 msgid "Version"
 msgstr "Verze"
 
-#: template/sysinfo.mako:74
+#: template/sysinfo.mako:65
 msgid "Platform"
 msgstr "Platforma"
 
-#: template/sysinfo.mako:89
+#: template/sysinfo.mako:80
 msgid "Browser support"
 msgstr ""
 
-#: template/sysinfo.mako:100
+#: template/sysinfo.mako:91
 msgid "or higher"
 msgstr ""
 
-#: template/sysinfo.mako:102
+#: template/sysinfo.mako:93
 msgid "Not supported"
 msgstr ""
 
-#: template/sysinfo.mako:114
+#: template/sysinfo.mako:105
 msgid "Your browser"
 msgstr ""
 
-#: template/uacompat.mako:4
+#: template/uacompat.mako:3
 msgid "Browser compatibility test"
 msgstr "Test kompatibility prohlížeče"
 
-#: template/uacompat.mako:23
-#, python-format
+#: template/uacompat.mako:22
 msgid "%(name)s %(current)s supported"
 msgstr "%(name)s %(current)s podporováno"
 
-#: template/uacompat.mako:24
+#: template/uacompat.mako:23
 msgid ""
 "Web GIS browser compatibility test has been passed! The Web GIS should work "
 "fine."
@@ -437,13 +443,11 @@ msgstr ""
 "Test kompatibility webového prohlížeče GIS byl předán! Webový GIS by měl "
 "fungovat dobře."
 
-#: template/uacompat.mako:27
-#, python-format
+#: template/uacompat.mako:26
 msgid "%(name)s not supported"
 msgstr "%(name)s není podporováno"
 
-#: template/uacompat.mako:28
-#, python-format
+#: template/uacompat.mako:27
 msgid ""
 "You're using %(name)s although it's not supported by the Web GIS. It's an "
 "outdated browser lacking required features. Try a different browser or "
@@ -453,13 +457,11 @@ msgstr ""
 "prohlížeč, který postrádá požadované funkce. Zkuste jiný prohlížeč nebo se "
 "obraťte na správce systému, pokud jiný prohlížeč není k dispozici."
 
-#: template/uacompat.mako:30
-#, python-format
+#: template/uacompat.mako:29
 msgid "%(name)s %(current)s not supported"
 msgstr "%(name) s %(current) s není podporováno"
 
-#: template/uacompat.mako:31
-#, python-format
+#: template/uacompat.mako:30
 msgid ""
 "You're using %(name)s %(current)s although it's not supported by the Web GIS."
 " It's an outdated version lacking required features. Contact your system "
@@ -470,7 +472,7 @@ msgstr ""
 "to zastaralá verze, která postrádá požadované funkce. Obraťte se na správce "
 "systému pro upgrade na %(name) s %(required) s+ nebo zkuste jiný prohlížeč."
 
-#: template/uacompat.mako:35
+#: template/uacompat.mako:34
 msgid ""
 "If you still want to continue using the current browser, click the link below"
 " to bypass the compatibility test. The Web GIS or some features may degrade "
@@ -480,47 +482,74 @@ msgstr ""
 " odkaz níže obejdete test kompatibility. Webový GIS nebo některé funkce se v "
 "tomto případě mohou zhoršit nebo selhat."
 
-#: template/uacompat.mako:36
+#: template/uacompat.mako:35
 msgid "I understood but want to proceed at my own risk. Skip the test!"
 msgstr "Pochopil jsem, ale chci postupovat na vlastní nebezpečí. Přeskočte test!"
 
-#: template/uacompat.mako:38
+#: template/uacompat.mako:37
 msgid "Unknown browser"
 msgstr "Neznámý prohlížeč"
 
-#: template/uacompat.mako:39
+#: template/uacompat.mako:38
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
 msgstr "Pokud používáte aktuální prohlížeč, Web GIS by měl být v pořádku."
 
-#~ msgid "User settings"
-#~ msgstr "Uživatelské nastavení"
+#: tomb/config.py:95
+msgid "Parameter required"
+msgstr ""
 
-#~ msgid ""
-#~ "Please note that different protocols (HTTP"
-#~ " and HTTPS) and subdomains (example.com "
-#~ "and www.example.com) are different origins. "
-#~ "Wildcards are not allowed."
-#~ msgstr ""
-#~ "Pamatujte, že různé protokoly (HTTP a "
-#~ "HTTPS) a subdomény (example.com a "
-#~ "www.example.com) mají různý původ. Zástupné "
-#~ "znaky nejsou povoleny."
+#: tomb/config.py:96
+msgid "The '{}' query parameter is required."
+msgstr ""
 
-#~ msgid "Technical information"
-#~ msgstr "Technické informace"
+#: tomb/config.py:98
+msgid "Invalid parameter"
+msgstr ""
 
-#~ msgid "Contact support"
-#~ msgstr "Kontaktujte podporu"
+#: tomb/config.py:99
+msgid "The '{}' query parameter has an invalid value."
+msgstr ""
 
-#~ msgid "Back to home"
-#~ msgstr "Zpátky domů"
+#: view.py:157
+msgid "HTTP API documentation"
+msgstr ""
 
-#~ msgid "Cancel"
-#~ msgstr "Zrušení"
+#: view.py:182 view.py:568
+msgid "System information"
+msgstr "Systémové informace"
 
-#~ msgid "Invalid API response"
-#~ msgstr "Neplatná odpověď API"
+#: view.py:190 view.py:605
+msgid "Storage"
+msgstr "Úložiště"
 
-#~ msgid "Rich Text Editor"
-#~ msgstr "Editor RTF"
+#: view.py:201 view.py:612
+msgid "Backups"
+msgstr "Zálohy"
 
+#: view.py:228 view.py:580
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: view.py:238 view.py:586
+msgid "Custom logo"
+msgstr "Vlastní logo"
+
+#: view.py:248 view.py:574
+msgid "Web GIS name"
+msgstr "Web GIS jméno"
+
+#: view.py:258 view.py:592
+msgid "Home path"
+msgstr "Domácí cesta"
+
+#: view.py:268 view.py:598
+msgid "Metrics and analytics"
+msgstr ""
+
+#: view.py:548
+msgid "Info"
+msgstr "Info"
+
+#: view.py:549
+msgid "Settings"
+msgstr "Nastavení"

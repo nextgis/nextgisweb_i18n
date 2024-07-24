@@ -1,67 +1,43 @@
-#: model.py:58 nodepkg/editor/EditorWidget.js:109
+#: model.py:60 nodepkg/editor/EditorWidget.tsx:98
 msgid "String"
 msgstr ""
 
-#: model.py:59 nodepkg/editor/EditorWidget.js:110
+#: model.py:61 nodepkg/editor/EditorWidget.tsx:99
 msgid "Number"
 msgstr ""
 
-#: model.py:60 nodepkg/editor/EditorWidget.js:111
+#: model.py:62 nodepkg/editor/EditorWidget.tsx:100
 msgid "Boolean"
 msgstr ""
 
-#: model.py:61 nodepkg/editor/EditorWidget.js:112
+#: model.py:63 nodepkg/editor/EditorWidget.tsx:101
 msgid "Empty"
 msgstr ""
 
-#: amd/ngw-resmeta/Widget.js:11 view.py:15
-msgid "Metadata"
-msgstr "Метаданни"
-
-#: nodepkg/editor/EditorStore.js:30
-msgid "Key name is required."
-msgstr ""
-
-#: nodepkg/editor/EditorStore.js:38
-msgid "Key name is not unique."
-msgstr ""
-
-#: nodepkg/editor/EditorWidget.js:47
+#: nodepkg/editor/EditorWidget.tsx:22
 msgid "Type here to add a new key..."
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.js:86 template/section.mako:21
+#: nodepkg/editor/EditorWidget.tsx:79 template/resource_section.mako:21
 msgid "False"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.js:87 template/section.mako:21
+#: nodepkg/editor/EditorWidget.tsx:80 template/resource_section.mako:21
 msgid "True"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.js:127 template/section.mako:12
+#: nodepkg/editor/EditorWidget.tsx:109 template/resource_section.mako:12
 msgid "Key"
 msgstr "Ключ"
 
-#: nodepkg/editor/EditorWidget.js:138 template/section.mako:13
+#: nodepkg/editor/EditorWidget.tsx:115 template/resource_section.mako:13
 msgid "Type"
 msgstr "Тип"
 
-#: nodepkg/editor/EditorWidget.js:148 template/section.mako:14
+#: nodepkg/editor/EditorWidget.tsx:121 template/resource_section.mako:14
 msgid "Value"
 msgstr "Значение"
 
-#~ msgid "Text"
-#~ msgstr "Текст"
-
-#~ msgid "Integer"
-#~ msgstr "Цяло число"
-
-#~ msgid "Float"
-#~ msgstr "Реално число"
-
-#~ msgid "Add"
-#~ msgstr "Добави"
-
-#~ msgid "Remove"
-#~ msgstr "Премахни"
-
+#: nodepkg/editor/EditorWidget.tsx:135 view.py:14
+msgid "Metadata"
+msgstr "Метаданни"

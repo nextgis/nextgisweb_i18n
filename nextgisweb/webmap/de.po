@@ -1,192 +1,127 @@
-#: adapter.py:25
+#: adapter.py:24
 msgid "Tiles"
 msgstr "Kacheln"
 
-#: adapter.py:34
+#: adapter.py:33
 msgid "Image"
 msgstr "Bild"
 
-#: component.py:30
-msgid "Main web map"
-msgstr "Haupt-Webkarte"
-
-#: model.py:34 model.py:53 view.py:311 view.py:342
-msgid "Web map"
-msgstr "Webkarte"
-
-#: model.py:36 view.py:316
-msgid "Display"
-msgstr "Anzeigen"
-
-#: model.py:37
-msgid "View annotations"
-msgstr "Anmerkungen anzeigen"
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:170 model.py:38
-msgid "Edit annotations"
-msgstr "Anmerkungen bearbeiten"
-
-#: model.py:39
-msgid "Manage annotations"
-msgstr ""
-
-#: view.py:44
-msgid "Web map settings"
-msgstr "Einstellungen der Web-Karte"
-
-#: view.py:262
-msgid "Clone web map"
-msgstr ""
-
-#: view.py:274
-msgid "Embedded webmap preview"
-msgstr ""
-
-#: nodepkg/clone-webmap/CloneWebmap.js:180 view.py:322
-msgid "Clone"
-msgstr ""
-
-#: amd/ngw-webmap/Display.js:229 amd/ngw-webmap/Display.js:1134
-#: amd/ngw-webmap/ItemWidget.js:247
-msgid "Layers"
-msgstr "Layer"
-
-#: amd/ngw-webmap/Display.js:235 amd/ngw-webmap/Display.js:375
-msgid "Search"
-msgstr "Suche..."
-
-#: amd/ngw-webmap/Display.js:241 amd/ngw-webmap/Display.js:466
-msgid "Share"
-msgstr "Teilen"
-
-#: amd/ngw-webmap/Display.js:247
-msgid "Print map"
-msgstr "Karte drucken"
-
-#: amd/ngw-webmap/Display.js:397 amd/ngw-webmap/Display.js:408
-msgid "Bookmarks"
-msgstr "Lesezeichen"
-
-#: amd/ngw-webmap/Display.js:431 amd/ngw-webmap/plugin/LayerInfo.js:50
-msgid "Description"
-msgstr "Beschreibung"
-
-#: amd/ngw-webmap/Display.js:573 amd/ngw-webmap/Display.js:594
-msgid "Annotations"
-msgstr "Anmerkungen"
-
-#: amd/ngw-webmap/Display.js:778 amd/ngw-webmap/tool/Zoom.js:20
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:444
-msgid "Zoom in"
-msgstr "Vergrößern"
-
-#: amd/ngw-webmap/Display.js:779 amd/ngw-webmap/tool/Zoom.js:23
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:445
-msgid "Zoom out"
-msgstr "Verkleinern"
-
-#: amd/ngw-webmap/Display.js:783 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:449
-msgid "Attributions"
-msgstr "Zuweisungen"
-
-#: amd/ngw-webmap/Display.js:799
-msgid "Initial extent"
-msgstr "Anfängliche Ausdehnung"
-
-#: amd/ngw-webmap/Display.js:804
-msgid "Locate me"
-msgstr ""
-
-#: amd/ngw-webmap/Display.js:807 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:458
-msgid "Reset rotation"
-msgstr "Rotation zurücksetzen"
-
-#: amd/ngw-webmap/Display.js:1331 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:625
+#: amd/ngw-webmap/Display.js:853
 msgid "Object not found"
 msgstr ""
 
-#: amd/ngw-webmap/Display.js:1332 amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:626
+#: amd/ngw-webmap/Display.js:854
 msgid "Object from URL parameters not found"
 msgstr ""
 
-#: amd/ngw-webmap/ExtentWidget.js:31
-msgid "Extent and bookmarks"
-msgstr "Ausdehnung und Lesezeichen"
+#: amd/ngw-webmap/Display.js:946 amd/ngw-webmap/ItemWidget.js:309
+msgid "Layers"
+msgstr "Layer"
+
+#: amd/ngw-webmap/Display.js:957
+msgid "Search"
+msgstr "Suche..."
+
+#: amd/ngw-webmap/Display.js:968
+msgid "Print map"
+msgstr "Karte drucken"
+
+#: amd/ngw-webmap/Display.js:982 nodepkg/settings-widget/SettingsWidget.tsx:25
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+#: amd/ngw-webmap/Display.js:1000 amd/ngw-webmap/plugin/LayerInfo.js:28
+msgid "Description"
+msgstr "Beschreibung"
+
+#: amd/ngw-webmap/Display.js:1019
+msgid "Share"
+msgstr "Teilen"
+
+#: amd/ngw-webmap/Display.js:1071 nodepkg/settings-widget/SettingsWidget.tsx:23
+msgid "Annotations"
+msgstr "Anmerkungen"
+
+#: amd/ngw-webmap/Display.js:1116
+msgid "Open full map"
+msgstr "Öffne Karte im Vollbildmodus"
 
 #: amd/ngw-webmap/ItemWidget.js:97 amd/ngw-webmap/template/ItemWidget.hbs:40
 msgid "Layer order"
 msgstr "Layer-Reihenfolge"
 
-#: amd/ngw-webmap/ItemWidget.js:147
+#: amd/ngw-webmap/ItemWidget.js:174
 msgid "Use on the map"
 msgstr "Auf Karte verwenden"
 
-#: amd/ngw-webmap/ItemWidget.js:151
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:126
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:43
-#: nodepkg/settings/SettingsForm.js:296
+#: amd/ngw-webmap/ItemWidget.js:179
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:109
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:47
+#: nodepkg/settings/SettingsForm.js:313
 msgid "Save"
 msgstr "Speichern"
 
-#: amd/ngw-webmap/ItemWidget.js:314 amd/ngw-webmap/template/ItemWidget.hbs:25
+#: amd/ngw-webmap/ItemWidget.js:395 amd/ngw-webmap/template/ItemWidget.hbs:25
 msgid "Add group"
 msgstr "Gruppe hinzufügen"
 
-#: amd/ngw-webmap/controls/MyLocation.js:124
+#: amd/ngw-webmap/controls/MyLocation.js:128
 msgid "Your location could not be determined"
 msgstr ""
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:7
-#: nodepkg/settings/SettingsForm.js:260
+#: nodepkg/panel/print/PrintPanel.tsx:481
+#: nodepkg/settings-widget/SettingsWidget.tsx:22
+#: nodepkg/settings/SettingsForm.js:277
 msgid "Legend"
 msgstr ""
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:9
+#: nodepkg/settings-widget/SettingsWidget.tsx:30
 #: nodepkg/settings/select-options.js:92
 msgid "Default"
 msgstr ""
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:10
+#: nodepkg/settings-widget/SettingsWidget.tsx:38
 #: nodepkg/settings/select-options.js:93
 msgid "Expand"
 msgstr ""
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:11
+#: nodepkg/settings-widget/SettingsWidget.tsx:39
 #: nodepkg/settings/select-options.js:94
 msgid "Collapse"
 msgstr ""
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:12
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
 #: nodepkg/settings/select-options.js:95
 msgid "Disable"
 msgstr ""
 
-#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:25
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:10
 msgid "Your annotation text"
 msgstr "Ihre Anmerkung"
 
-#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:143
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:127
 msgid "Public annotation"
 msgstr ""
 
-#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:145
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:129
 msgid "My private annotation"
 msgstr ""
 
-#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:148
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:132
 msgid "Private annotation"
 msgstr ""
 
 #: amd/ngw-webmap/layers/annotations/AnnotationsPopup.hbs:7
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:267
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:250
 msgid "Edit annotation"
 msgstr "Anmerkung bearbeiten"
 
-#: amd/ngw-webmap/plugin/FeatureLayer.js:107
-msgid "Go to"
-msgstr "Gehe zu"
-
-#: amd/ngw-webmap/plugin/FeatureLayer.js:240
+#: amd/ngw-webmap/plugin/FeatureLayer.js:18
 msgid "Feature table"
 msgstr "Objekte-Tabelle"
 
@@ -195,84 +130,13 @@ msgid "Stop editing"
 msgstr ""
 
 #: amd/ngw-webmap/plugin/LayerEditor.js:143
+#: nodepkg/panel/annotations/AnnotationsPanel.js:86
 msgid "Edit"
 msgstr ""
 
-#: amd/ngw-webmap/plugin/ZoomToLayer.js:32
+#: amd/ngw-webmap/plugin/ZoomToLayer.js:25
 msgid "Zoom to layer"
 msgstr "Zoomen auf Layer"
-
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.hbs:10
-msgid "Enable layers editing"
-msgstr "Aktivieren der Layer-Bearbeitung"
-
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:37
-msgid "Settings"
-msgstr "Einstellungen"
-
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:49
-msgid "Enable annotations"
-msgstr "Anmerkungen aktivieren"
-
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:52
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:16
-msgid "Show annotations"
-msgstr ""
-
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:54
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:17
-msgid "No"
-msgstr ""
-
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:55
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:18
-msgid "Yes"
-msgstr ""
-
-#: amd/ngw-webmap/resource/OtherSettings/OtherSettings.js:56
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:19
-msgid "With messages"
-msgstr ""
-
-#: amd/ngw-webmap/template/Display.hbs:13
-msgid "Map"
-msgstr "Karte"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:10
-msgid "Left, deg."
-msgstr "Links, Grad"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:16
-msgid "Top, deg."
-msgstr "Oben, Grad"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:22
-msgid "Right, deg."
-msgstr "Rechts, Grad"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:28
-msgid "Bottom, deg."
-msgstr "Unten, Grad"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:34
-msgid "Set extent from layer"
-msgstr "Ausdehnung von Layer übernehmen"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:38
-msgid "Select layer"
-msgstr "Layer auswählen"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:46
-msgid "Constrain to extent"
-msgstr "Ausdehnung fixieren"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:49
-msgid "Select vector layer"
-msgstr "Vektorlayer wählen"
-
-#: amd/ngw-webmap/template/ExtentWidget.hbs:51
-msgid "Bookmark resource"
-msgstr "Ressource als Lesezeichen setzen"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:14
 msgid "Add layer"
@@ -288,7 +152,7 @@ msgstr "Entfernen"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:71
 #: amd/ngw-webmap/template/ItemWidget.hbs:128
-#: nodepkg/clone-webmap/CloneWebmap.js:45
+#: nodepkg/clone-webmap/CloneWebmap.tsx:84
 msgid "Display name"
 msgstr "Anzeigename"
 
@@ -324,88 +188,98 @@ msgstr "Stil-Ressource"
 msgid "Expanded"
 msgstr "Erweitert"
 
-#: amd/ngw-webmap/tool/Identify.js:222
+#: amd/ngw-webmap/template/ItemWidget.hbs:136
+msgid "Exclusive"
+msgstr ""
+
+#: amd/ngw-webmap/tool/Identify.js:277
 msgid "Attributes"
 msgstr "Attribute"
 
-#: amd/ngw-webmap/tool/Identify.js:234
+#: amd/ngw-webmap/tool/Identify.js:289
 msgid "Geometry"
 msgstr ""
 
-#: amd/ngw-webmap/tool/Identify.js:269
-msgid "Feature"
-msgstr "Objekt"
-
-#: amd/ngw-webmap/tool/Identify.js:323 amd/ngw-webmap/tool/Identify.js:340
+#: amd/ngw-webmap/tool/Identify.js:388 amd/ngw-webmap/tool/Identify.js:404
 msgid "Identify"
 msgstr "Identifizieren"
 
-#: amd/ngw-webmap/tool/Identify.js:458
+#: amd/ngw-webmap/tool/Identify.js:548
 msgid "Features"
 msgstr "Objekte"
 
-#: amd/ngw-webmap/tool/Measure.js:38
+#: amd/ngw-webmap/tool/Measure.js:36 nodepkg/map-controls/map-tools.ts:42
 msgid "Measure distance"
 msgstr "Distanz messen"
 
-#: amd/ngw-webmap/tool/Measure.js:41
+#: amd/ngw-webmap/tool/Measure.js:42 nodepkg/map-controls/map-tools.ts:51
 msgid "Measure area"
 msgstr "Fläche messen"
 
-#: amd/ngw-webmap/tool/Measure.js:171
+#: amd/ngw-webmap/tool/Measure.js:235
 msgid "Double click to finish."
 msgstr "Doppelklicken, um zu beenden."
 
-#: amd/ngw-webmap/tool/Rotate.js:14
+#: amd/ngw-webmap/tool/Rotate.js:9
 msgid "Rotate"
 msgstr "Drehen"
 
-#: amd/ngw-webmap/tool/Swipe.js:19
+#: amd/ngw-webmap/tool/Swipe.js:13 nodepkg/map-controls/map-tools.ts:60
 msgid "Vertical swipe"
 msgstr "Vertikales Wischen"
 
-#: amd/ngw-webmap/tool/Swipe.js:23
+#: amd/ngw-webmap/tool/Swipe.js:20
 msgid "Horizontal swipe"
 msgstr "Horizontales Wischen"
 
-#: amd/ngw-webmap/tool/ViewerInfo.js:24
+#: amd/ngw-webmap/tool/ViewerInfo.js:16
 msgid "Show cursor coordinates / extent"
 msgstr ""
 
-#: amd/ngw-webmap/tool/editing/CreateFeature.js:18
+#: amd/ngw-webmap/tool/Zoom.js:14 nodepkg/map-controls/map-controls.ts:46
+#: nodepkg/map-controls/map-tools.ts:24
+msgid "Zoom in"
+msgstr "Vergrößern"
+
+#: amd/ngw-webmap/tool/Zoom.js:20 nodepkg/map-controls/map-controls.ts:47
+#: nodepkg/map-controls/map-tools.ts:33
+msgid "Zoom out"
+msgstr "Verkleinern"
+
+#: amd/ngw-webmap/tool/editing/CreateFeature.js:13
 msgid "Create features"
 msgstr "Objekte erstellen"
 
-#: amd/ngw-webmap/tool/editing/DeleteFeature.js:18
+#: amd/ngw-webmap/tool/editing/DeleteFeature.js:13
 msgid "Delete features"
 msgstr "Objekte löschen"
 
-#: amd/ngw-webmap/tool/editing/ModifyFeature.js:18
+#: amd/ngw-webmap/tool/editing/ModifyFeature.js:13
 msgid "Modify features"
 msgstr "Objekte editieren"
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:131
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:53
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:114
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:57
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:136
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:119
 msgid "Delete"
 msgstr "Löschen"
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:148
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:131
 msgid "Create as public"
 msgstr ""
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:157
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:140
 msgid "Create as private"
 msgstr ""
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:166
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:149
 msgid "Create"
 msgstr ""
 
-#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:272
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:255
 msgid "Create annotation"
 msgstr "Anmerkung erstellen"
 
@@ -444,287 +318,537 @@ msgstr "Kreisgröße, px"
 msgid "Invalid width: should be from 1 to 100 px"
 msgstr "Fehlerhafte Breite. Soll-Wert liegt zwischen 1 und 100 px."
 
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:7
-msgid "Annotations layer"
-msgstr ""
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:25
-msgid "Private annotations"
-msgstr ""
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:35
-msgid "Show annotation types"
-msgstr ""
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:41
-msgid "Public annotations"
-msgstr ""
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.hbs:47
-msgid "My private annotations"
-msgstr ""
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:179
-msgid "Geometry type"
-msgstr ""
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:182
-#: nodepkg/utils/geometry-types.js:6
-msgid "Point"
-msgstr ""
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:183
-msgid "Line"
-msgstr ""
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:184
-#: nodepkg/utils/geometry-types.js:15
-msgid "Polygon"
-msgstr ""
-
-#: amd/ngw-webmap/ui/AnnotationsPanel/AnnotationsPanel.js:221
-msgid "Other private annotations"
-msgstr ""
-
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:27
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:24
 msgid "Stopping editing"
 msgstr "Bearbeitung beenden"
 
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:35
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:34
 msgid "Do you want to save changes?"
 msgstr "Möchten Sie die Änderungen speichern?"
 
-#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:48
+#: amd/ngw-webmap/ui/FinishEditingDialog/FinishEditingDialog.js:52
 msgid "Don't save"
 msgstr "Verwerfen"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:10
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:96
-msgid "Print"
-msgstr "Drucken"
+#: component.py:31
+msgid "Main web map"
+msgstr "Haupt-Webkarte"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:20
-msgid "Paper format"
-msgstr "Papierformat"
+#: favorite.py:5 view.py:326
+msgid "Display"
+msgstr "Anzeigen"
 
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:24
-msgid "Select format"
-msgstr "Format auswählen"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:26
-msgid "A4 - Portrait"
-msgstr "A4 - Porträt"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:27
-msgid "A4 - Landscape"
-msgstr "A4 - Landschaft"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:28
-msgid "A3 - Portrait"
-msgstr "A3 - Porträt"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:29
-msgid "A3 - Landscape"
-msgstr "A3 - Landschaft"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:30
-msgid "A2 - Portrait"
-msgstr "A2 - Porträt"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:31
-msgid "A2 - Landscape"
-msgstr "A2 - Landschaft"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:32
-msgid "A1 - Portrait"
-msgstr "A1 - Porträt"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:33
-msgid "A1 - Landscape"
-msgstr "A1 - Landschaft"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:34
-msgid "A0 - Portrait"
-msgstr "A0 - Porträt"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:35
-msgid "A0 - Landscape"
-msgstr "A0 - Landschaft"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:36
-msgid "Custom size"
-msgstr "Größe anpassen"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:42
-msgid "Height, mm"
-msgstr "Höhe, mm"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:53
-msgid "Width, mm"
-msgstr "Breite, mm"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:64
-msgid "Margin, mm"
-msgstr "Rand, mm"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:74
-msgid "Scale value"
-msgstr "Maßstab"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:79
-msgid "Scale bar"
-msgstr "Maßstableiste"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:84
-#: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:5
-msgid "Scale"
-msgstr "Maßstab"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:102
-msgid "Save as"
-msgstr "Speichern unter"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:109
-msgid "JPEG"
-msgstr "JPEG"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:116
-msgid "PNG"
-msgstr "PNG"
-
-#: amd/ngw-webmap/ui/PrintMapPanel/PrintMapPanel.hbs:123
-msgid "Close"
+#: favorite.py:10
+msgid "Fragment"
 msgstr ""
 
-#: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:8
-msgid "Select scale"
-msgstr "Maßstab wählen"
+#: model.py:39 model.py:57 view.py:321 view.py:348
+msgid "Web map"
+msgstr "Webkarte"
 
-#: amd/ngw-webmap/ui/ScalesSelect/ScalesSelect.hbs:24
-msgid "Use Shift+drag for box zooming"
-msgstr "Mit Umschalttaste+Maus Rahmen-Zoomen aktivieren"
+#: model.py:41
+msgctxt "permission"
+msgid "View annotations"
+msgstr "Anmerkungen anzeigen"
 
-#: amd/ngw-webmap/ui/TinyDisplay/TinyDisplay.js:476
-msgid "Open full map"
-msgstr "Öffne Karte im Vollbildmodus"
+#: model.py:42
+msgctxt "permission"
+msgid "Draw annotations"
+msgstr ""
 
-#: nodepkg/clone-webmap/CloneWebmap.js:35
+#: model.py:43
+msgctxt "permission"
+msgid "Manage annotations"
+msgstr ""
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:336
+msgid "Clone"
+msgstr ""
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:77
 msgid "Resource group"
 msgstr ""
 
-#: nodepkg/layer-opacity-slider/LayerOpacitySlider.js:8
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:61
+msgid "Radius:"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:62
+#: nodepkg/utils/format-units.tsx:13
+msgid "m"
+msgstr "m"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:82
+msgid "Circle"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:89
+#: nodepkg/panel/annotations/AnnotationsPanel.js:109
+msgid "Line"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:95
+msgid "Rectangle"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:102
+#: nodepkg/panel/annotations/AnnotationsPanel.js:113
+#: nodepkg/utils/geometry-types.ts:15
+msgid "Polygon"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+msgid "Hide"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+msgid "Show"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:125
+msgid "Zoom to filtering geometry"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:130
+msgid "Clear filtering geometry"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:136
+msgid "Draw filtering geometry"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:137
+msgid "Change filtering geometry"
+msgstr ""
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:138
+msgid "Stop drawing..."
+msgstr ""
+
+#: nodepkg/layer-opacity-slider/LayerOpacitySlider.tsx:8
 msgid "Opacity"
 msgstr ""
 
-#: nodepkg/layers-dropdown/LayersDropdown.js:20
-msgid "Zoom to all layers"
-msgstr ""
-
-#: nodepkg/layers-tree/Legend.js:10
+#: nodepkg/layers-tree/LegendAction.tsx:10
 msgid "Show legend"
 msgstr ""
 
-#: nodepkg/layers-tree/Legend.js:11
+#: nodepkg/layers-tree/LegendAction.tsx:11
 msgid "Hide legend"
 msgstr ""
 
-#: nodepkg/map-viewer-info/MapViewerInfo.js:121
+#: nodepkg/map-controls/map-controls.ts:58
+msgid "Attributions"
+msgstr "Zuweisungen"
+
+#: nodepkg/map-controls/map-controls.ts:70 nodepkg/print-map/PrintMap.tsx:52
+msgid "Reset rotation"
+msgstr "Rotation zurücksetzen"
+
+#: nodepkg/map-controls/map-controls.ts:85
+msgid "Scale line"
+msgstr ""
+
+#: nodepkg/map-controls/map-controls.ts:97
+msgid "Info scale"
+msgstr ""
+
+#: nodepkg/map-controls/map-controls.ts:107
+#: nodepkg/map-controls/map-controls.ts:110
+#: nodepkg/settings-widget/SettingsWidget.tsx:20
+msgid "Initial extent"
+msgstr "Anfängliche Ausdehnung"
+
+#: nodepkg/map-controls/map-controls.ts:120
+#: nodepkg/map-controls/map-controls.ts:123
+msgid "Locate me"
+msgstr ""
+
+#: nodepkg/map-controls/map-controls.ts:128
+msgid "Identification"
+msgstr ""
+
+#: nodepkg/map-controls/map-tools.ts:68
+msgid "Cursor coordinates / extent"
+msgstr ""
+
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
 msgid "Show extent"
 msgstr ""
 
-#: nodepkg/map-viewer-info/MapViewerInfo.js:122
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:88
 msgid "Show cursor coordinates"
 msgstr ""
 
-#: nodepkg/search-panel/SearchPanel.js:296
+#: nodepkg/panel/annotations/AnnotationsPanel.js:94
+msgid "Edit annotations"
+msgstr "Anmerkungen bearbeiten"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:99
+msgid "Geometry type"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:106
+#: nodepkg/utils/geometry-types.ts:6
+msgid "Point"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:135
+msgid "Annotations layer"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:138
+msgid "Show annotations"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:144
+msgid "No"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:145
+msgid "Yes"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:148
+msgid "With messages"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:159
+msgid "Private annotations"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:170
+msgid "Public annotations"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:180
+msgid "My private annotations"
+msgstr ""
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:193
+msgid "Other private annotations"
+msgstr ""
+
+#: nodepkg/panel/layers/LayersDropdown.js:12
+msgid "Zoom to all layers"
+msgstr ""
+
+#: nodepkg/panel/print/PrintMapExport/PrintMapExport.tsx:147
+msgid "Print"
+msgstr "Drucken"
+
+#: nodepkg/panel/print/PrintMapExport/PrintMapExport.tsx:152
+msgid "Save as"
+msgstr "Speichern unter"
+
+#: nodepkg/panel/print/PrintPanel.tsx:231
+msgid "Custom scale"
+msgstr ""
+
+#: nodepkg/panel/print/PrintPanel.tsx:419
+msgid "Paper format"
+msgstr "Papierformat"
+
+#: nodepkg/panel/print/PrintPanel.tsx:429
+msgid "Height, mm"
+msgstr "Höhe, mm"
+
+#: nodepkg/panel/print/PrintPanel.tsx:445
+msgid "Width, mm"
+msgstr "Breite, mm"
+
+#: nodepkg/panel/print/PrintPanel.tsx:461
+msgid "Margin, mm"
+msgstr "Rand, mm"
+
+#: nodepkg/panel/print/PrintPanel.tsx:475
+msgid "Elements"
+msgstr ""
+
+#: nodepkg/panel/print/PrintPanel.tsx:494
+msgid "Number of legend columns"
+msgstr ""
+
+#: nodepkg/panel/print/PrintPanel.tsx:503
+msgid "Title"
+msgstr ""
+
+#: nodepkg/panel/print/PrintPanel.tsx:506
+msgid "Map title text"
+msgstr ""
+
+#: nodepkg/panel/print/PrintPanel.tsx:524
+msgid "North Arrow"
+msgstr ""
+
+#: nodepkg/panel/print/PrintPanel.tsx:530 nodepkg/panel/print/PrintPanel.tsx:551
+msgid "Scale"
+msgstr "Maßstab"
+
+#: nodepkg/panel/print/PrintPanel.tsx:537
+msgid "Scale value"
+msgstr "Maßstab"
+
+#: nodepkg/panel/print/PrintPanel.tsx:546
+msgid "Scale bar"
+msgstr "Maßstableiste"
+
+#: nodepkg/panel/print/PrintPanel.tsx:572
+msgid "Copy link to the print map"
+msgstr ""
+
+#: nodepkg/panel/print/options.tsx:11
+msgid "Portrait"
+msgstr ""
+
+#: nodepkg/panel/print/options.tsx:12
+msgid "Landscape"
+msgstr ""
+
+#: nodepkg/panel/print/options.tsx:48
+msgid "Custom size"
+msgstr "Größe anpassen"
+
+#: nodepkg/panel/print/options.tsx:71
+msgid "JPEG"
+msgstr "JPEG"
+
+#: nodepkg/panel/print/options.tsx:72
+msgid "PNG"
+msgstr "PNG"
+
+#: nodepkg/panel/print/options.tsx:73
+msgid "TIFF"
+msgstr ""
+
+#: nodepkg/panel/print/options.tsx:74
+msgid "PDF"
+msgstr ""
+
+#: nodepkg/panel/search/SearchPanel.js:323
 msgid "Not found"
 msgstr "Nicht gefunden"
 
-#: nodepkg/search-panel/SearchPanel.js:302
+#: nodepkg/panel/search/SearchPanel.js:328
 msgid "Refine search criterion. Displayed first 100 search results."
 msgstr ""
 
-#: nodepkg/search-panel/SearchPanel.js:344
+#: nodepkg/panel/search/SearchPanel.js:361
 msgid "Enter at least 2 characters"
 msgstr ""
 
-#: nodepkg/settings/Settings.js:56
-msgid "Settings saved"
+#: nodepkg/panel/share/SharePanel.js:34
+msgid ""
+"<a>CORS</a> must be enabled for the target origin when embedding a web map on"
+" a different domain."
 msgstr ""
 
-#: nodepkg/settings/SettingsForm.js:53
-msgid "Identify popup"
-msgstr "Identifikationsfenster"
+#: nodepkg/panel/share/SharePanel.js:35
+msgid "Add web map fragment to favorites"
+msgstr ""
 
-#: nodepkg/settings/SettingsForm.js:59 nodepkg/share-panel/SharePanel.js:171
+#: nodepkg/panel/share/SharePanel.js:88
+msgid "Select tools"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:104
+msgid "Select panels"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:112
+msgid "None"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:259
+msgid "Active panel"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:285
+msgid "Map link"
+msgstr "Kartenlink"
+
+#: nodepkg/panel/share/SharePanel.js:293
+msgid "The map link copied to clipboard."
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:297
+msgid "Copy link"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:333
+msgid "Optional fragment label"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:343
+msgid "Embed code for your site"
+msgstr "Einbetten von Code für eine Webseite"
+
+#: nodepkg/panel/share/SharePanel.js:347
+msgid "Map size:"
+msgstr "Kartengröße:"
+
+#: nodepkg/panel/share/SharePanel.js:349 nodepkg/settings/SettingsForm.js:81
 msgid "Width, px"
 msgstr "Breite, px"
 
-#: nodepkg/settings/SettingsForm.js:72 nodepkg/share-panel/SharePanel.js:177
+#: nodepkg/panel/share/SharePanel.js:355 nodepkg/settings/SettingsForm.js:94
 msgid "Height, px"
 msgstr "Höhe, px"
 
-#: nodepkg/settings/SettingsForm.js:85
+#: nodepkg/panel/share/SharePanel.js:359
+msgid "px"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:362
+msgid "Map tools"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:366
+msgid "Panels"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:381
+msgid "Link to main map"
+msgstr "Link zur Hauptkarte"
+
+#: nodepkg/panel/share/SharePanel.js:390
+msgid "Generate events"
+msgstr "Ereignisse erstellen"
+
+#: nodepkg/panel/share/SharePanel.js:394
+msgid "Embed code"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:407
+msgid "The embed code copied to clipboard."
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:411
+msgid "Copy code"
+msgstr ""
+
+#: nodepkg/panel/share/SharePanel.js:414
+msgid "Preview"
+msgstr "Vorschau"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:21
+msgid "Constraining extent"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
+msgid "Select mode"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:26
+msgid "Select resource"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:27
+#: nodepkg/settings/SettingsForm.js:189
+msgid "Measurement SRS"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:28
+msgid "Layers editing"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:33
+msgid "Web map will start at this extent"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:34
+msgid "Web map will not allow to move outside of this extent"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:44
+msgid "Hide by default"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:45
+msgid "Show without messages"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:46
+msgid "Show with messages"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:142
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: nodepkg/settings/Settings.js:48
+msgid "Settings saved"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:54
+msgid "General"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:67
+msgid "Hide navigation menu for guest"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.js:75
+msgid "Identify popup"
+msgstr "Identifikationsfenster"
+
+#: nodepkg/settings/SettingsForm.js:107
 msgid "Radius, px"
 msgstr "Radius, px"
 
-#: nodepkg/settings/SettingsForm.js:108
+#: nodepkg/settings/SettingsForm.js:130
 msgid "Show feature attributes"
 msgstr "Zeige Featureattribute"
 
-#: nodepkg/settings/SettingsForm.js:122
+#: nodepkg/settings/SettingsForm.js:144
 msgid "Show geometry info"
 msgstr ""
 
-#: nodepkg/settings/SettingsForm.js:128
+#: nodepkg/settings/SettingsForm.js:150
 msgid "Measurement"
 msgstr "Messungen"
 
-#: nodepkg/settings/SettingsForm.js:134
+#: nodepkg/settings/SettingsForm.js:156
 msgid "Length units"
 msgstr "Längeeinheiten"
 
-#: nodepkg/settings/SettingsForm.js:145
+#: nodepkg/settings/SettingsForm.js:165
 msgid "Area units"
 msgstr "Flächeneinheiten"
 
-#: nodepkg/settings/SettingsForm.js:156
+#: nodepkg/settings/SettingsForm.js:175
 msgid "Degree format"
 msgstr "Winkel- und Gradmessung"
 
-#: nodepkg/settings/SettingsForm.js:170
-msgid "Measurement SRID"
-msgstr "Raumbezugskennung (SRID) für Messungen"
-
-#: nodepkg/settings/SettingsForm.js:180
+#: nodepkg/settings/SettingsForm.js:199
 msgid "Address search"
 msgstr "Adresssuche"
 
-#: nodepkg/settings/SettingsForm.js:193
+#: nodepkg/settings/SettingsForm.js:212
 msgid "Enable"
 msgstr "Aktivieren"
 
-#: nodepkg/settings/SettingsForm.js:207
+#: nodepkg/settings/SettingsForm.js:226
 msgid "Limit by web map initial extent"
 msgstr "Begrenze ursprünglichen Ausschnitt"
 
-#: nodepkg/settings/SettingsForm.js:217
+#: nodepkg/settings/SettingsForm.js:236
 msgid "Provider"
 msgstr ""
 
-#: nodepkg/settings/SettingsForm.js:229
+#: nodepkg/settings/SettingsForm.js:248
 msgid "Limit search results to countries"
 msgstr ""
 
-#: nodepkg/settings/SettingsForm.js:239
+#: nodepkg/settings/SettingsForm.js:256
 msgid "Invalid countries. For example ru or gb,de"
 msgstr ""
 
-#: nodepkg/settings/SettingsForm.js:252
+#: nodepkg/settings/SettingsForm.js:269
 msgid "Yandex.Maps API Geocoder Key"
 msgstr ""
 
-#: nodepkg/settings/SettingsForm.js:271
+#: nodepkg/settings/SettingsForm.js:288
 msgid "Visibility"
 msgstr ""
 
@@ -804,185 +928,94 @@ msgstr ""
 msgid "Yandex.Maps API Geocoder"
 msgstr ""
 
-#: nodepkg/share-panel/SharePanel.js:35
-msgid "Social networks"
-msgstr "Soziale Netzwerke"
-
-#: nodepkg/share-panel/SharePanel.js:61
-msgid ""
-"<a>CORS</a> must be enabled for the target origin when embedding a web map on"
-" a different domain."
-msgstr ""
-
-#: nodepkg/share-panel/SharePanel.js:142
-msgid "Map link"
-msgstr "Kartenlink"
-
-#: nodepkg/share-panel/SharePanel.js:151
-msgid "The map link copied to clipboard."
-msgstr ""
-
-#: nodepkg/share-panel/SharePanel.js:153
-msgid "Copy link"
-msgstr ""
-
-#: nodepkg/share-panel/SharePanel.js:161
-msgid "Embed code for your site"
-msgstr "Einbetten von Code für eine Webseite"
-
-#: nodepkg/share-panel/SharePanel.js:168
-msgid "Map size:"
-msgstr "Kartengröße:"
-
-#: nodepkg/share-panel/SharePanel.js:182
-msgid "px"
-msgstr ""
-
-#: nodepkg/share-panel/SharePanel.js:191
-msgid "Link to main map"
-msgstr "Link zur Hauptkarte"
-
-#: nodepkg/share-panel/SharePanel.js:200
-msgid "Generate events"
-msgstr "Ereignisse erstellen"
-
-#: nodepkg/share-panel/SharePanel.js:210
-msgid "The embed code copied to clipboard."
-msgstr ""
-
-#: nodepkg/share-panel/SharePanel.js:212
-msgid "Copy code"
-msgstr ""
-
-#: nodepkg/share-panel/SharePanel.js:218 nodepkg/share-panel/SharePanel.js:229
-msgid "Preview"
-msgstr "Vorschau"
-
-#: nodepkg/utils/format-units.js:11
-msgid "m"
-msgstr "m"
-
-#: nodepkg/utils/format-units.js:12
+#: nodepkg/utils/format-units.tsx:14
 msgid "km"
 msgstr "km"
 
-#: nodepkg/utils/format-units.js:13
+#: nodepkg/utils/format-units.tsx:15
 msgid "ft"
 msgstr "ft"
 
-#: nodepkg/utils/format-units.js:14
+#: nodepkg/utils/format-units.tsx:16
 msgid "mi"
 msgstr "mi"
 
-#: nodepkg/utils/format-units.js:15
+#: nodepkg/utils/format-units.tsx:17
 msgid "ha"
 msgstr "ha"
 
-#: nodepkg/utils/format-units.js:16
+#: nodepkg/utils/format-units.tsx:18
 msgid "ac"
 msgstr "ac"
 
-#: nodepkg/utils/geometry-types.js:9
+#: nodepkg/utils/geometry-types.ts:9
 msgid "LineString"
 msgstr ""
 
-#: nodepkg/utils/geometry-types.js:12
+#: nodepkg/utils/geometry-types.ts:12
 msgid "LinearRing"
 msgstr ""
 
-#: nodepkg/utils/geometry-types.js:18
+#: nodepkg/utils/geometry-types.ts:18
 msgid "MultiPoint"
 msgstr ""
 
-#: nodepkg/utils/geometry-types.js:21
+#: nodepkg/utils/geometry-types.ts:21
 msgid "MultiLineString"
 msgstr ""
 
-#: nodepkg/utils/geometry-types.js:24
+#: nodepkg/utils/geometry-types.ts:24
 msgid "MultiPolygon"
 msgstr ""
 
-#: nodepkg/utils/geometry-types.js:27
+#: nodepkg/utils/geometry-types.ts:27
 msgid "GeometryCollection"
 msgstr ""
 
-#: nodepkg/zoom-to-filtered-btn/ZoomToFilteredBtn.js:11
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:23
+msgid "Go to"
+msgstr "Gehe zu"
+
+#: nodepkg/webmap-tabs/WebMapTabs.tsx:16
+msgid "Loading"
+msgstr ""
+
+#: nodepkg/zoom-to-filtered-btn/ZoomToFilteredBtn.tsx:20
 msgid "Zoom to filtered features"
 msgstr ""
 
-#: template/invalid_origin.mako:4
+#: template/invalid_origin.mako:3
 #, python-format
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
 msgstr ""
 
-#: template/invalid_origin.mako:6
+#: template/invalid_origin.mako:5
 #, python-format
 msgid "View the map on %s"
 msgstr ""
 
-#: template/preview_embedded.mako:10
+#: template/preview_embedded.mako:15
 msgid "This page is for a preview of the web map to be embedded on the site."
 msgstr ""
 
-#: template/preview_embedded.mako:11
+#: template/preview_embedded.mako:16
 msgid ""
 "Most likely, you went from the \"Share\" section of the web map and refreshed"
 " the page."
 msgstr ""
 
-#: template/preview_embedded.mako:12
+#: template/preview_embedded.mako:17
 msgid "To generate a preview, go back to the web map page and click \"Preview\"."
 msgstr ""
 
-#~ msgid "Error on the server:"
-#~ msgstr "Server-Fehler:"
+#: view.py:41
+msgid "Web map settings"
+msgstr "Einstellungen der Web-Karte"
 
-#~ msgid "Select layer\\'s style"
-#~ msgstr "Layerstil wählen"
+#: view.py:262
+msgid "Clone web map"
+msgstr ""
 
-#~ msgid "Editing"
-#~ msgstr "Bearbeiten"
-
-#~ msgid "Show annotations by default"
-#~ msgstr "Standardmäßig Anmerkungen anzeigen"
-
-#~ msgid "Show annotations layer"
-#~ msgstr "Anmerkungen-Layer anzeigen"
-
-#~ msgid "Show messages"
-#~ msgstr "Nachrichten zeigen"
-
-#~ msgid "Layer"
-#~ msgstr "Layer"
-
-#~ msgid "External access"
-#~ msgstr "externer Zugriff"
-
-#~ msgid "Search on the map"
-#~ msgstr "Suche auf der Karte"
-
-#~ msgid "Refine search criterion"
-#~ msgstr "Verfeinern des Suchkriteriums"
-
-#~ msgid "TMS (Tile Map Service)"
-#~ msgstr "Gekacheltes Karten-Service (TMS)"
-
-#~ msgid ""
-#~ "TMS (Tile Map Service) is a "
-#~ "specification for tiled web maps. Tiled "
-#~ "web map is a map displayed in a"
-#~ " browser by seamlessly joining dozens of"
-#~ " individually requested image."
-#~ msgstr ""
-#~ "Gekacheltes Karten-Service (Tile Map "
-#~ "Service, TMS) ist eine Spezifikation der "
-#~ "gekachelten Karten. Gekachelte Karte wird im"
-#~ " Browser fugenlos aus Dutzenden individuell "
-#~ "geladenen Bildern (Kacheln) gezeigt."
-
-#~ msgid "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
-#~ msgstr "https://docs.nextgis.com/docs_ngweb_dev/doc/developer/misc.html#render"
-
-#~ msgid "Read more"
-#~ msgstr "Weiterlesen"
-
+#: view.py:275
+msgid "Embedded webmap preview"
+msgstr ""

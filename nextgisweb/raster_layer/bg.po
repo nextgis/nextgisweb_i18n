@@ -1,13 +1,12 @@
-#: api.py:48
+#: api.py:46
 msgid "Output format is not provided."
 msgstr "Не е посочен изходящ формат."
 
-#: api.py:51
-#, python-format
+#: api.py:49
 msgid "Format '%s' is not supported."
 msgstr "Форматът '%s' не се поддържа."
 
-#: api.py:102
+#: api.py:94
 msgid "Requested raster is not COG."
 msgstr "Растерът не е COG."
 
@@ -16,7 +15,6 @@ msgid "Range header is missed or invalid."
 msgstr "Заглавието на диапазона отъства или не е валидно."
 
 #: api.py:110
-#, python-format
 msgid "Range %s can not be read."
 msgstr "Диапазонът %s не може да е прочетен."
 
@@ -24,16 +22,15 @@ msgstr "Диапазонът %s не може да е прочетен."
 msgid "Rasters and pyramids"
 msgstr "Растери и пирамиди"
 
-#: amd/ngw-raster-layer/Widget.js:30 model.py:56 view.py:56
+#: model.py:69 nodepkg/editor-widget/EditorWidget.tsx:47 view.py:58
 msgid "Raster layer"
 msgstr "Растерен слой"
 
-#: model.py:77
+#: model.py:101
 msgid "GDAL library was unable to open the file."
 msgstr "GDAL библиотека не можа да отвори файла."
 
-#: model.py:85
-#, python-format
+#: model.py:109
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
 " %(all_formats)s."
@@ -41,19 +38,19 @@ msgstr ""
 "Растерът има формат  '%(format)s', но само следните формати се поддържат: "
 "%(all_formats)s."
 
-#: model.py:90
+#: model.py:116
 msgid "Raster files without projection info are not supported."
 msgstr "Растерните файлове без данни за проекция не се поддържат."
 
-#: model.py:109
+#: model.py:135
 msgid "Mixed band data types are not supported."
 msgstr "Типовете данни със смесени канали не се поддържат."
 
-#: model.py:136
+#: model.py:163
 msgid "GDAL was uanble to parse the raster coordinate system."
 msgstr "GDAL не успя да обработи координатната система на растера."
 
-#: model.py:140
+#: model.py:167
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
@@ -61,17 +58,15 @@ msgstr ""
 "Изходен растер има локална координатна система и не може бъде модифициран в "
 "избраната координатна система."
 
-#: model.py:156
+#: model.py:184
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr "Неуспешно модифициране на растера в избраната координанта система."
 
-#: model.py:159
-#, python-format
+#: model.py:187
 msgid "GDAL error message: %s"
 msgstr "Грешка на GDAL: %s"
 
-#: model.py:172
-#, python-format
+#: model.py:203
 msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
@@ -79,15 +74,47 @@ msgstr ""
 "Размерът на некомпресирания растер (%(size)s) надвишава предела (%(limit)s) с"
 " %(delta)s. Намалете файла в съответствие с предела."
 
-#: model.py:259
+#: model.py:315
 msgid "Data type"
 msgstr "Тип данни"
 
-#: model.py:260
+#: model.py:316
 msgid "COG"
 msgstr "COG"
 
-#: view.py:25 view.py:60
+#: nodepkg/editor-widget/EditorWidget.tsx:16
+msgid "Select a dataset"
+msgstr "Изберете растерен слой"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:17
+msgid "Dataset should be in GeoTIFF format."
+msgstr "Набор от данни трябва да е в GeoTIFF формат."
+
+#: nodepkg/editor-widget/EditorWidget.tsx:39
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.tsx:55
+msgid "Band"
+msgstr "Канал"
+
+#: nodepkg/export-form/ExportForm.tsx:79
+msgid "Format"
+msgstr "Формат"
+
+#: nodepkg/export-form/ExportForm.tsx:91
+msgid "SRS"
+msgstr "Координатна система"
+
+#: nodepkg/export-form/ExportForm.tsx:96
+msgid "Bands"
+msgstr "Канали"
+
+#: nodepkg/export-form/ExportForm.tsx:129
+msgid "Save"
+msgstr "Запази"
+
+#: view.py:25 view.py:63
 msgid "Save as"
 msgstr "Запази като"
 
@@ -109,49 +136,6 @@ msgstr ""
 "към необходимите части на растера, без да се зарежда целият файл в "
 "приложението."
 
-#: view.py:66
+#: view.py:69
 msgid "Download"
 msgstr ""
-
-#: amd/ngw-raster-layer/template/Widget.hbs:4
-msgid "Select a dataset"
-msgstr "Изберете растерен слой"
-
-#: amd/ngw-raster-layer/template/Widget.hbs:5
-msgid "Dataset should be in GeoTIFF format."
-msgstr "Набор от данни трябва да е в GeoTIFF формат."
-
-#: amd/ngw-raster-layer/template/Widget.hbs:9
-msgid "Coordinate system"
-msgstr "Координатна система"
-
-#: amd/ngw-raster-layer/template/Widget.hbs:14
-msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr ""
-
-#: nodepkg/export-form/ExportForm.js:24
-msgid "Band"
-msgstr "Канал"
-
-#: nodepkg/export-form/ExportForm.js:66
-msgid "Format"
-msgstr "Формат"
-
-#: nodepkg/export-form/ExportForm.js:75
-msgid "SRS"
-msgstr "Координатна система"
-
-#: nodepkg/export-form/ExportForm.js:81
-msgid "Bands"
-msgstr "Канали"
-
-#: nodepkg/export-form/ExportForm.js:116
-msgid "Save"
-msgstr "Запази"
-
-#~ msgid "Complex data types are not supported."
-#~ msgstr "Комплексните типове данни не се поддържат."
-
-#~ msgid "External access"
-#~ msgstr "Външен достъп"
-

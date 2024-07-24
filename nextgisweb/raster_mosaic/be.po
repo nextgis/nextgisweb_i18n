@@ -1,0 +1,58 @@
+#: api.py:18
+#, server
+msgid "Raster mosaic item id not provided."
+msgstr "Ідэнтыфікатар элемента растравай мазаікі не пададзены."
+
+#: api.py:24
+#, server
+msgid "Raster mosaic item not found."
+msgstr "Элемент растравай мазаікі не знойдзены."
+
+#: model.py:36
+#, server
+msgid "Raster mosaic"
+msgstr "Растравая мазаіка"
+
+#: model.py:121
+#, server
+msgid "GDAL library was unable to open the file."
+msgstr "Бібліятэцы GDAL не ўдалося адкрыць файл."
+
+#: model.py:124
+#, server
+msgid "Only RGB and RGBA rasters are supported."
+msgstr "Падтрымліваюцца толькі растры RGB і RGBA."
+
+#: model.py:132
+#, python-format, server
+msgid ""
+"Raster has format '%(format)s', however only following formats are supported:"
+" %(all_formats)s."
+msgstr ""
+"Растр мае фармат '%(format)s', аднак падтрымліваюцца толькі наступныя "
+"фарматы: %(all_formats)s."
+
+#: model.py:139
+#, server
+msgid "Raster files without projection info are not supported."
+msgstr "Растравыя файлы без інфармацыі аб праекцыі не падтрымліваюцца."
+
+#: model.py:150
+#, server
+msgid "Complex data types are not supported."
+msgstr "Складаныя тыпы даных не падтрымліваюцца."
+
+#: nodepkg/resource-widget/Store.ts:73
+#, jsrealm
+msgid "File '{}' has an invalid extension."
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:43
+#, jsrealm
+msgid "Upload"
+msgstr "Загрузіць"
+
+#: nodepkg/resource-widget/Widget.tsx:64
+#, jsrealm
+msgid "Rasters"
+msgstr ""

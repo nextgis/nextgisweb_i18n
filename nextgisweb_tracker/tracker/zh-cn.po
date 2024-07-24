@@ -1,231 +1,252 @@
-#: __init__.py:16 amd/ngw-tracker/webmap/TrackersPane/TrackersPane.js:37
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:55
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:65 view/settings.py:55
-msgid "Trackers"
-msgstr "追踪器"
-
-#: model.py:25
-msgid "Trackers group"
-msgstr "追踪器群组"
-
-#: model.py:36
-msgid "Tracker"
-msgstr "追踪器"
-
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:16
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:11
 msgid "Unique id (IMEI by default)"
 msgstr "唯一ID（默认为IMEI）"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:22
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:17
 msgid "Description"
 msgstr "说明"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:29
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:24
 msgid "Device type"
 msgstr "设备类型"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:35
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:30
 msgid "Consumption, liters per 100 km (for reports)"
 msgstr "燃料消耗，升/每100公里（用于报告）"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:37
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:32
 msgid "Invalid consumption, should be from 0 to 100"
 msgstr "无效消耗，应该为0-100"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:36
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:43
 msgid "Tracker detail"
 msgstr "追踪器详细信息"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:40
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:47
 msgid "NextGIS software (Mobile, Collector)"
 msgstr "NextGIS 软件(Mobile, Collector)"
 
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:41
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:48
 msgid "ADM (ADM-50, ADM-100)"
 msgstr "ADM (ADM-50, ADM-100)"
 
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:3
-msgid "1. Select devices for building the report"
-msgstr "选择用于生成报告的设备"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:10
-msgid "2. Customize the report"
-msgstr "2.配置报告"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:14
-msgid "Report type"
-msgstr "报告类型"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:20
-msgid "Select report type"
-msgstr "选择报告类型"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:22
-#: template/_consumption_fuel.mako:26 template/_mileage.mako:20
-msgid "Mileage"
-msgstr "里程数"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:23
-msgid "Top speed"
-msgstr "最快速度"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:24
-msgid "Average speed"
-msgstr "平均速度"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:25
-msgid "Spent fuel"
-msgstr "燃料消耗量"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:26
-msgid "Stops"
-msgstr "终止"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:27
-#: template/_gpx.mako:4
-msgid "GPX file"
-msgstr "GPX文档"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:31
-msgid "Time range"
-msgstr "时间段"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:36
-msgid "Group by"
-msgstr "按...分组"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:41
-#: template/_avg_speed.mako:17 template/_consumption_fuel.mako:23
-#: template/_mileage.mako:17 template/_top_speed.mako:17
-msgid "Hours"
-msgstr "小时"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:42
-#: template/_avg_speed.mako:15 template/_consumption_fuel.mako:21
-#: template/_mileage.mako:15 template/_top_speed.mako:15
-msgid "Days"
-msgstr "天数"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.hbs:51
-msgid "Build report"
-msgstr "生成报告"
-
-#: amd/ngw-tracker/reports/ReportsManager/ReportsManager.js:77
-msgid "Please select devices for building the report!"
-msgstr "请选择用于生成报告的设备"
-
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.hbs:3
-msgid "Select date"
-msgstr "选择日期"
-
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:29
-msgid "No data"
-msgstr "无数据"
-
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:58
-msgid "Last activity by hours"
-msgstr "上一次活动（按小时）"
-
-#: amd/ngw-tracker/webmap/TrackerActivityDialog/TrackerActivityDialog.js:147
-msgid "Count of points per hour"
-msgstr "每小时点数计数"
-
-#: amd/ngw-tracker/webmap/TrackerButton/TrackerButton.js:20
-msgid "Open trackers panel"
-msgstr "打开追踪器面板"
-
-#: amd/ngw-tracker/webmap/TrackersPane/TrackersPane.hbs:13
-#: amd/ngw-tracker/webmap/TrackersPanel/TrackersPanel.hbs:10
-#: amd/ngw-tracker/webmap/TrackersPanel/TrackersPanel.hbs:12
-#: template/reports.mako:5
-msgid "Reports"
-msgstr "报告"
-
-#: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:99
-msgid "Zoom to layer"
-msgstr "缩放到图层"
-
-#: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:104
-msgid "Zoom to last point"
-msgstr "缩放到最后的点"
-
-#: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:109
-msgid "Set filter to last day with data"
-msgstr "设置过滤器为最后一天"
-
-#: amd/ngw-tracker/webmap/TrackersTree/TrackersTree.js:114
-msgid "Show last activity"
-msgstr "显示上次活动"
-
-#: amd/ngw-tracker/webmap/map/utils.js:16 amd/ngw-tracker/webmap/map/utils.js:27
+#: amd/ngw-tracker/webmap/map/utils.js:20 amd/ngw-tracker/webmap/map/utils.js:38
 msgid "Date"
 msgstr "日期"
 
-#: amd/ngw-tracker/webmap/map/utils.js:21 amd/ngw-tracker/webmap/map/utils.js:28
+#: amd/ngw-tracker/webmap/map/utils.js:29 amd/ngw-tracker/webmap/map/utils.js:40
+#: nodepkg/trackers-panel/TrackersPanel.js:188
 msgid "Time"
 msgstr "时间"
 
-#: amd/ngw-tracker/webmap/map/utils.js:31
+#: amd/ngw-tracker/webmap/map/utils.js:45
 msgid "Speed, km/h"
 msgstr "速度，公里/小时"
 
-#: amd/ngw-tracker/webmap/map/utils.js:32
+#: amd/ngw-tracker/webmap/map/utils.js:51
 msgid "Height, m"
 msgstr "重量，"
 
-#: amd/ngw-tracker/webmap/map/utils.js:33
+#: amd/ngw-tracker/webmap/map/utils.js:57
 msgid "Course"
 msgstr "方向（方位）"
 
-#: amd/ngw-tracker/webmap/map/utils.js:34
-msgid "GPS/GLONASS"
-msgstr "GPS/GLONASS"
+#: amd/ngw-tracker/webmap/map/utils.js:63
+msgid "Satellites"
+msgstr ""
 
-#: nodepkg/tracker-settings/TrackerSettings.js:43
-msgid "Settings saved"
-msgstr "设置已保存"
+#: amd/ngw-tracker/webmap/map/utils.js:69
+msgid "HDOP"
+msgstr ""
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:35
-msgid "Common settings"
-msgstr "总设置"
+#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:33 component.py:13
+#: nodepkg/reports/Reports.js:175 nodepkg/trackers-panel/TrackersPanel.js:272
+#: view/__init__.py:50
+msgid "Trackers"
+msgstr "追踪器"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:41
-msgid "Interval for splitting tracks, min"
-msgstr "轨道分离的间隔时间，以分钟为单位"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:53
-msgid "Stops detecting"
-msgstr "终止确认"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:59
-msgid "Minimal speed, km/h"
-msgstr "最小速度，公里/小时"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:72
-msgid "Minimal time stop, sec"
-msgstr "最小终止时间，秒"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:84
-msgid "Timezone settings"
-msgstr "时区设置"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:90
-msgid "Time zone"
-msgstr "时区"
-
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:115
-msgid "Save"
-msgstr "保存"
-
-#: pyramid_tracker/device_type.py:14
+#: api/device_types.py:15
 msgid "NextGIS Tracker Hub is unavailable. Try later, please."
 msgstr "无法接通NextGIS 追踪系统。请稍后再试。"
 
-#: pyramid_tracker/register.py:20 pyramid_tracker/register.py:38
+#: model.py:20
+msgid "Trackers group"
+msgstr "追踪器群组"
+
+#: model.py:31
+msgid "Tracker"
+msgstr "追踪器"
+
+#: model.py:51
+msgid "Tracker UID is not unique"
+msgstr ""
+
+#: model.py:78
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr ""
+
+#: nodepkg/reports/Reports.js:23 template/_consumption_fuel.mako:26
+#: template/_mileage.mako:20
+msgid "Mileage"
+msgstr "里程数"
+
+#: nodepkg/reports/Reports.js:24
+msgid "Top speed"
+msgstr "最快速度"
+
+#: nodepkg/reports/Reports.js:25
+msgid "Average speed"
+msgstr "平均速度"
+
+#: nodepkg/reports/Reports.js:26
+msgid "Spent fuel"
+msgstr "燃料消耗量"
+
+#: nodepkg/reports/Reports.js:27 nodepkg/trackers-panel/TrackersPanel.js:53
+msgid "Stops"
+msgstr "终止"
+
+#: nodepkg/reports/Reports.js:28 template/_gpx.mako:4
+msgid "GPX file"
+msgstr "GPX文档"
+
+#: nodepkg/reports/Reports.js:32 template/_avg_speed.mako:15
+#: template/_consumption_fuel.mako:21 template/_mileage.mako:15
+#: template/_top_speed.mako:15
+msgid "Days"
+msgstr "天数"
+
+#: nodepkg/reports/Reports.js:33 template/_avg_speed.mako:17
+#: template/_consumption_fuel.mako:23 template/_mileage.mako:17
+#: template/_top_speed.mako:17
+msgid "Hours"
+msgstr "小时"
+
+#: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
+#: nodepkg/trackers-panel/TrackersPanel.js:97
+#: nodepkg/trackers-panel/TrackersPanel.js:98
+msgid "Unknown"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:131
+msgid "Result"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:142
+msgid "Settings"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:146
+msgid "Report type"
+msgstr "报告类型"
+
+#: nodepkg/reports/Reports.js:155 nodepkg/trackers-panel/TrackersPanel.js:262
+msgid "Time range"
+msgstr "时间段"
+
+#: nodepkg/reports/Reports.js:166
+msgid "Group by"
+msgstr "按...分组"
+
+#: nodepkg/reports/Reports.js:183
+msgid "Build report"
+msgstr "生成报告"
+
+#: nodepkg/tracker-activity/ChartHelper.js:44
+msgid "Count of packets per hour"
+msgstr ""
+
+#: nodepkg/tracker-activity/TrackerActivity.js:53
+msgid "Cancel"
+msgstr ""
+
+#: nodepkg/tracker-activity/TrackerActivity.js:63
+msgid "Last activity by hours"
+msgstr "上一次活动（按小时）"
+
+#: nodepkg/tracker-settings/TrackerSettings.js:34
+msgid "Settings saved"
+msgstr "设置已保存"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:29
+msgid "Common settings"
+msgstr "总设置"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:35
+msgid "Interval for splitting tracks, min"
+msgstr "轨道分离的间隔时间，以分钟为单位"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:47
+msgid "Stops detecting"
+msgstr "终止确认"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:53
+msgid "Minimal speed, km/h"
+msgstr "最小速度，公里/小时"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:66
+msgid "Minimal time stop, sec"
+msgstr "最小终止时间，秒"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:78
+msgid "Timezone settings"
+msgstr "时区设置"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:82
+msgid "Time zone"
+msgstr "时区"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:106
+msgid "Save"
+msgstr "保存"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:40
+msgid "Last known point"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:45
+msgid "GPS tracks"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:50
+msgid "Track points"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:65
+msgid "Zoom to layer"
+msgstr "缩放到图层"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:72
+msgid "Zoom to last point"
+msgstr "缩放到最后的点"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:79
+msgid "Set filter to last day with data"
+msgstr "设置过滤器为最后一天"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:85
+msgid "Show last activity"
+msgstr "显示上次活动"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:187
+msgid "Sort by"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:189
+msgid "Name"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:284
+msgid "Reports"
+msgstr "报告"
+
+#: pyramid_tracker/register.py:20 pyramid_tracker/register.py:40
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
 msgstr "设备在NextGIS追踪系统上未注册。请稍后再试。"
 
-#: pyramid_tracker/register.py:22 pyramid_tracker/register.py:40
+#: pyramid_tracker/register.py:24 pyramid_tracker/register.py:42
 msgid "NextGIS Tracker System is unavailable. Try later, please."
 msgstr "无法接通NextGIS 追踪系统。请稍后再试。"
 
@@ -294,7 +315,10 @@ msgstr "最大速度报告"
 msgid "Max speed"
 msgstr "最大速度"
 
-#: view/settings.py:18
+#: view/__init__.py:21
 msgid "Trackers settings"
 msgstr "追踪器设置"
 
+#: view/reports.py:18
+msgid "Trackers reports"
+msgstr ""

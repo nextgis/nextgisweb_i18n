@@ -1,43 +1,39 @@
-#: amd/ngw-svg-marker-library/Widget.js:62 model.py:29 view.py:16 view.py:29
+#: model.py:26 nodepkg/resource-widget/Widget.tsx:93 view.py:22 view.py:30
 msgid "SVG marker library"
 msgstr "SVG标记库"
 
-#: model.py:72
-#, python-format
-msgid "Insecure filename \"%s\"."
-msgstr "不安全文件名称\"%s\""
+#: model.py:87
+msgid "File '{}' has an insecure name."
+msgstr ""
 
-#: model.py:77
-#, python-format
-msgid "File \"%s\" has an invalid extension."
-msgstr "文件\"%s\"有一个无效扩展名。"
+#: model.py:92 nodepkg/resource-widget/Store.ts:75
+msgid "File '{}' has an invalid extension."
+msgstr ""
 
-#: model.py:83
-#, python-format
-msgid "File type \"%s\" is not SVG."
-msgstr "文件类型\"%s\"不是SVG"
+#: model.py:98
+msgid "File '{}' has a format different from SVG."
+msgstr ""
 
-#: view.py:20
-msgid "Export"
-msgstr "输出"
+#: nodepkg/resource-widget/Store.ts:92
+msgid "ZIP archive required"
+msgstr ""
 
-#: amd/ngw-svg-marker-library/Widget.js:54
-msgid "File name"
-msgstr "文档名称"
+#: nodepkg/resource-widget/Widget.tsx:45
+msgid "Add SVG files"
+msgstr ""
 
-#: amd/ngw-svg-marker-library/Widget.js:82
-msgid "Upload files"
-msgstr "上传文件"
+#: nodepkg/resource-widget/Widget.tsx:54
+msgid "Import from ZIP archive"
+msgstr ""
 
-#: amd/ngw-svg-marker-library/Widget.js:102
-msgid "Upload archive"
-msgstr "上传档案"
+#: nodepkg/resource-widget/Widget.tsx:65
+msgid "SVG markers will be imported from:"
+msgstr ""
 
-#: amd/ngw-svg-marker-library/Widget.js:133
-msgid "Delete"
-msgstr "删除"
-
-#: template/section.mako:6
+#: template/resource_section.mako:8
 msgid "Name"
 msgstr "名称"
 
+#: view.py:26
+msgid "Export"
+msgstr "输出"

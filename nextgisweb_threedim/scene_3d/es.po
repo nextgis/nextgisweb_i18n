@@ -1,0 +1,170 @@
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
+#, amd
+msgid "Add item"
+msgstr "Añadir elemento"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
+#, amd
+msgid "Add group"
+msgstr "Añadir grupo"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
+#, amd
+msgid "Remove"
+msgstr "Eliminar"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:63
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:97
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:54
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:24
+#, amd, jsrealm
+msgid "Display name"
+msgstr "Nombre de visualización"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:67
+#, amd
+msgid "Visible"
+msgstr "Visible"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
+#, amd
+msgid "Select classification layer"
+msgstr "Seleccionar capa de clasificación"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:74
+#, amd
+msgid "Classification layer"
+msgstr "Capa de clasificación"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:78
+#, amd
+msgid "3D tileset color"
+msgstr "Color de los conjuntos de teselas"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
+#, amd
+msgid "Style resource"
+msgstr "Recurso de estilo"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:101
+#, amd
+msgid "Expanded"
+msgstr "Expandido"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:95
+#, amd
+msgid "Items"
+msgstr "Elementos"
+
+#: model/scene_3d.py:26 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:64
+#: view.py:70
+#, jsrealm, server
+msgid "3D scene"
+msgstr "Escena 3D"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
+#, jsrealm
+msgid "Default basemap"
+msgstr ""
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:64
+#, jsrealm
+msgid "Opacity"
+msgstr "Opacidad"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:69
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:34
+#, jsrealm
+msgid "Resource"
+msgstr "Recurso"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:125
+#, jsrealm
+msgid "Basemaps"
+msgstr "Mapas base"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:16
+#, jsrealm
+msgid "Globe"
+msgstr "Globo"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:17
+#, jsrealm
+msgid "Plane"
+msgstr "Plano"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:21
+#, jsrealm
+msgid "Minimum"
+msgstr "Mínimo"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:22
+#, jsrealm
+msgid "Low"
+msgstr "Baja"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:23
+#, jsrealm
+msgid "Medium"
+msgstr "Media"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
+#, jsrealm
+msgid "High"
+msgstr "Arriba"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:25
+#, jsrealm
+msgid "Maximum"
+msgstr "Máximo"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:34
+#, jsrealm
+msgid "View"
+msgstr "Vista"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:44
+#, jsrealm
+msgid "Quality"
+msgstr "Calidad"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:54
+#, jsrealm
+msgid "Enable Yandex Panoramas"
+msgstr "Habilitar Yandex Panoramas"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:63
+#, jsrealm
+msgid "Yandex Panoramas API key"
+msgstr "Clave API de Yandex Panoramas"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:72
+#, jsrealm
+msgid "Enable Google Street View"
+msgstr "Habilitar Google Street View"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:81
+#, jsrealm
+msgid "Google Street View API key"
+msgstr "Clave API de Google Street View"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:90
+#, jsrealm
+msgid "Extent"
+msgstr "Extensión"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:31
+#, jsrealm
+msgid "Default terrain"
+msgstr ""
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:89
+#, jsrealm
+msgid "Terrain"
+msgstr "Terreno"
+
+#: view.py:76
+#, server
+msgid "Display"
+msgstr "Mostrar"

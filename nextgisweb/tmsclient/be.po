@@ -1,0 +1,140 @@
+#: amd/ngw-tmsclient/ConnectionWidget.js:42
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:45
+#, amd, server
+msgid "TMS connection"
+msgstr "TMS злучэнне"
+
+#: amd/ngw-tmsclient/LayerWidget.js:42 model.py:158
+#, amd, server
+msgid "TMS layer"
+msgstr "TMS слой"
+
+#: amd/ngw-tmsclient/LayersDialog.js:25
+#, amd
+msgid "Select layer"
+msgstr "Выбярыце слой"
+
+#: amd/ngw-tmsclient/LayersDialog.js:75
+#, amd
+msgid "OK"
+msgstr "OK"
+
+#: amd/ngw-tmsclient/LayersDialog.js:84
+#, amd
+msgid "Cancel"
+msgstr "Адмяніць"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
+#, amd
+msgid "Capmode"
+msgstr "Capmode"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:11
+#, amd
+msgid "Custom"
+msgstr "Custom"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
+#, amd
+msgid "NextGIS geoservices"
+msgstr "Геасэрвісы NextGIS"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:20
+#, amd
+msgid "URL template"
+msgstr "Шаблон URL"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:26
+#, amd
+msgid "API key"
+msgstr "Ключ API"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:32
+#, amd
+msgid "API key param"
+msgstr "Параметр ключа API"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:38
+#, amd
+msgid "Username"
+msgstr "Імя карыстальніка"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
+#, amd
+msgid "Password"
+msgstr "Пароль"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:49
+#, amd
+msgid "Scheme"
+msgstr "Схема"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:55
+#, amd
+msgid "Skip SSL/TLS certificate verification"
+msgstr "Прапусціць праверку сертыфіката SSL/TLS"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:15
+#, amd
+msgid "Choose a layer"
+msgstr "Выберыце слой"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+#, amd
+msgid "Coordinate system"
+msgstr "Сістэма каардынат"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:30
+#, amd
+msgid "Layer"
+msgstr "Слой"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:39
+#, amd
+msgid "Min zoom level"
+msgstr "Мінімальны ўзровень маштабавання"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:45
+#, amd
+msgid "Max zoom level"
+msgstr "Максімальны ўзровень маштабавання"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
+#, amd
+msgid "Left, deg."
+msgstr "Лева, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
+#, amd
+msgid "Bottom, deg."
+msgstr "Унізе, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
+#, amd
+msgid "Right, deg."
+msgstr "Справа, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
+#, amd
+msgid "Top, deg."
+msgstr "Зверху, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:75
+#, amd
+msgid "Tile size, px"
+msgstr "Памер тайла, пікс"
+
+#: model.py:106
+#, server
+msgid "API key required."
+msgstr ""
+
+#: model.py:150
+#, server
+msgid "Zoom is out of range."
+msgstr "Маштаб па-за дыяпазонам."
+
+#: model.py:303
+#, server
+msgid "Layer name required."
+msgstr ""

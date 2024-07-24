@@ -1,28 +1,37 @@
-#: amd/ngw-lookup-table/Widget.js:88 model.py:22 view.py:16
+#: model.py:23 nodepkg/editor/EditorWidget.tsx:168 view.py:16
 msgid "Lookup table"
 msgstr "引索表"
 
-#: amd/ngw-lookup-table/Widget.js:50 template/section.mako:7
+#: nodepkg/editor/EditorWidget.tsx:34
+msgid "Type here to add a new item..."
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:35
+msgid "Export"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:36
+msgid "Import"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:37
+msgid "Clear"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:40
+msgid ""
+"All existing records will be deleted after import. Are you sure you want to "
+"proceed?"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:86 template/resource_section.mako:8
 msgid "Key"
 msgstr "索引"
 
-#: amd/ngw-lookup-table/Widget.js:59
-msgid "Type"
-msgstr "类型"
-
-#: amd/ngw-lookup-table/Widget.js:66 template/section.mako:8
+#: nodepkg/editor/EditorWidget.tsx:92 template/resource_section.mako:9
 msgid "Value"
 msgstr "价值"
 
-#: amd/ngw-lookup-table/Widget.js:122
-msgid "Add"
-msgstr "添加"
-
-#: amd/ngw-lookup-table/Widget.js:128
-msgid "Delete"
-msgstr "删除"
-
-#: template/section.mako:2
+#: template/resource_section.mako:3
 msgid "Items"
 msgstr "物体"
-

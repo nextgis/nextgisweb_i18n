@@ -1,56 +1,52 @@
-#: amd/ngw-basemap/LayerWidget.js:33 model.py:24
+#: model.py:24
 msgid "Basemap"
 msgstr "Mapas base"
 
-#: amd/ngw-basemap/LayerWidget.js:54
-msgid "Search"
-msgstr "Buscar"
+#: nodepkg/layer-widget/LayerWidget.tsx:18
+msgid "Pick from QMS"
+msgstr ""
 
-#: amd/ngw-basemap/LayerWidget.js:61
-msgid "Use options from QMS"
-msgstr "Usar opciones de QMS"
+#: nodepkg/layer-widget/LayerWidget.tsx:20
+msgid "Search for geoservices provided by "
+msgstr ""
 
-#: amd/ngw-basemap/WebMapWidget.js:43
-msgid "Basemaps"
-msgstr "Mapas base"
+#: nodepkg/layer-widget/LayerWidget.tsx:21
+msgid "You can search by name or ID"
+msgstr ""
 
-#: amd/ngw-basemap/template/LayerWidget.hbs:11
+#: nodepkg/layer-widget/LayerWidget.tsx:24
+msgid "If a service from QMS is selected, this field cannot be edited."
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:80
 msgid "URL"
 msgstr "URL"
 
-#: amd/ngw-basemap/template/LayerWidget.hbs:17
+#: nodepkg/layer-widget/LayerWidget.tsx:88
 msgid "Copyright text"
 msgstr "Texto de copyright"
 
-#: amd/ngw-basemap/template/LayerWidget.hbs:23
+#: nodepkg/layer-widget/LayerWidget.tsx:97
 msgid "Copyright URL"
 msgstr "URL de copyright"
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:14
-msgid "Add"
-msgstr "Agregar"
+#: nodepkg/layer-widget/LayerWidget.tsx:109
+#: nodepkg/webmap-widget/WebMapWidget.tsx:125
+msgid "Basemaps"
+msgstr "Mapas base"
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:18
-msgid "Select basemap"
-msgstr "Seleccionar mapa base"
-
-#: amd/ngw-basemap/template/WebMapWidget.hbs:27
-msgid "Remove"
-msgstr "Eliminar"
-
-#: amd/ngw-basemap/template/WebMapWidget.hbs:61
+#: nodepkg/webmap-widget/WebMapWidget.tsx:54
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:65
-msgid "Enabled"
-msgstr "Habilitado"
+#: nodepkg/webmap-widget/WebMapWidget.tsx:61
+msgid "Default basemap"
+msgstr ""
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:72
+#: nodepkg/webmap-widget/WebMapWidget.tsx:64
 msgid "Opacity"
 msgstr "Opacidad"
 
-#: amd/ngw-basemap/template/WebMapWidget.hbs:78
+#: nodepkg/webmap-widget/WebMapWidget.tsx:69
 msgid "Resource"
 msgstr "Recurso"
-

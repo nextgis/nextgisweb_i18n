@@ -1,5 +1,8 @@
-#: amd/ngw-feature-description/DisplayWidget.js:11
-#: amd/ngw-feature-description/EditorWidget.js:15
+#: amd/ngw-feature-description/DisplayWidget.js:7
+#: nodepkg/description-editor/index.ts:7
 msgid "Description"
 msgstr "说明"
 
+#: util.py:19
+msgid "Invalid ZIP archive."
+msgstr ""

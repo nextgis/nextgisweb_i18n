@@ -1,90 +1,71 @@
-#: component.py:11
+#: amd/ngw-feature-attachment/DisplayWidget.js:9
+#: nodepkg/attachment-bundle/ol-control/control.js:14
+#: nodepkg/attachment-bundle/ol-control/control.js:30
+#: nodepkg/attachment-bundle/plugin/plugin.ts:15
+#: nodepkg/attachment-editor/index.ts:8
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#: component.py:13
 msgid "Feature attachments"
 msgstr "Adjuntos de objetos geográficos"
 
-#: exception.py:11
+#: exception.py:7
 msgid "Attachment not found"
 msgstr "Adjunto no encontrado"
 
-#: exception.py:12
-#, python-format
+#: exception.py:8
 msgid "Attachment with id = %d was not found in feature with id = %d."
 msgstr ""
 "No se encontró un archivo adjunto con id = %d  en el objeto geográfico con id"
 " = %d."
 
-#: exception.py:13
+#: exception.py:9
 msgid "The attachment may have been deleted or an error in the address."
 msgstr ""
 "Es posible que el archivo adjunto se haya eliminado o que haya un error en la"
 " dirección."
 
-#: util.py:29
-msgid "Invalid ZIP archive."
-msgstr "Archivo ZIP no válido."
-
-#: util.py:57
-msgid "File '{}' isn't found in metadata."
-msgstr "El archivo '{}' no se encuentra en los metadatos."
-
-#: util.py:62
-msgid "Invalid name for file '{}'."
-msgstr "Nombre no válido para el archivo '{}'."
-
-#: util.py:68
-msgid "Invalid feature ID for file '{}'."
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:33
+msgid "Draw the geometry on the map to visualize the attachments to the objects"
 msgstr ""
 
-#: util.py:74
-msgid "Invalid MIME type for file '{}'."
-msgstr "Tipo MIME no válido para el archivo '{}'."
-
-#: util.py:80
-msgid "Invalid description for file '{}'."
-msgstr "Descripción no válida para el archivo '{}'."
-
-#: util.py:92
-msgid "Could not determine feature ID for file '{}'."
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
+msgid "Object: "
 msgstr ""
 
-#: util.py:109
-msgid "File '{}' isn't found in the archive."
-msgstr "El fichero '{}' no se encuentra en el archivo."
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:139
+msgid "Identify object"
+msgstr ""
 
-#: view.py:21 view.py:42
-msgid "Manage attachments"
-msgstr "Administrar adjuntos"
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:160
+msgid "Attachments: "
+msgstr ""
 
-#: amd/ngw-feature-attachment/DisplayWidget.js:36
-#: amd/ngw-feature-attachment/EditorWidget.js:19
-msgid "Attachments"
-msgstr "Adjuntos"
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:187
+msgid "No attachments"
+msgstr ""
 
-#: amd/ngw-feature-attachment/DisplayWidget.js:91
-#: nodepkg/attachment-editor/AttachmentEditor.js:176
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:253
+msgid "Download all attachments"
+msgstr ""
+
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:166
+#: nodepkg/attachment-table/AttachmentTable.tsx:45
 msgid "File name"
 msgstr "Nombre del archivo"
 
-#: amd/ngw-feature-attachment/DisplayWidget.js:91
-#: nodepkg/attachment-editor/AttachmentEditor.js:182
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:172
+#: nodepkg/attachment-table/AttachmentTable.tsx:63
 msgid "Size"
 msgstr "Tamaño"
 
-#: amd/ngw-feature-attachment/DisplayWidget.js:91
-#: nodepkg/attachment-editor/AttachmentEditor.js:188
-msgid "MIME type"
-msgstr "Tipo MIME"
-
-#: amd/ngw-feature-attachment/DisplayWidget.js:91
-#: nodepkg/attachment-editor/AttachmentEditor.js:193
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:178
+#: nodepkg/attachment-table/AttachmentTable.tsx:78
 msgid "Description"
 msgstr "Descripción"
 
-#: nodepkg/attachment-editor/AttachmentEditor.js:150
-msgid "Preview"
-msgstr ""
-
-#: nodepkg/attachment-form/AttachmentForm.js:48
+#: nodepkg/attachment-form/AttachmentForm.tsx:56
 msgid ""
 "Use export to copy feature attachments between different layers or to create "
 "a backup. The resulting ZIP archive will contain all of the attachments put "
@@ -97,27 +78,27 @@ msgstr ""
 " ID de objeto geográfico. Los metadatos de los archivos adjuntos se colocan "
 "en un archivo JSON separado."
 
-#: nodepkg/attachment-form/AttachmentForm.js:58
+#: nodepkg/attachment-form/AttachmentForm.tsx:66
 msgid "Export attachments to ZIP archive"
 msgstr "Exportar los adjuntos a un archivo ZIP"
 
-#: nodepkg/attachment-form/AttachmentForm.js:73
+#: nodepkg/attachment-form/AttachmentForm.tsx:84
 msgid "Back to resource"
 msgstr "Volver al recurso"
 
-#: nodepkg/attachment-form/AttachmentForm.js:75
+#: nodepkg/attachment-form/AttachmentForm.tsx:86
 msgid "Close"
 msgstr "Cerrar"
 
-#: nodepkg/attachment-form/AttachmentForm.js:78
+#: nodepkg/attachment-form/AttachmentForm.tsx:89
 msgid "The archive has been successfully imported."
 msgstr "El archivo se ha importado con éxito."
 
-#: nodepkg/attachment-form/AttachmentForm.js:81
+#: nodepkg/attachment-form/AttachmentForm.tsx:91
 msgid "Attachments imported - {i}, skipped - {s}."
 msgstr "Archivos adjuntos importados - {i}, omitidos - {s}."
 
-#: nodepkg/attachment-form/AttachmentForm.js:115
+#: nodepkg/attachment-form/AttachmentForm.tsx:125
 msgid ""
 "Upload a ZIP archive to batch append attachments to existing features. An "
 "archive must contain directories named after feature IDs. Each folder can "
@@ -128,25 +109,66 @@ msgstr ""
 "ID de objeto geográfico. Cada carpeta puede contener uno o varios archivos "
 "adjuntos. Los duplicados serán ignorados."
 
-#: nodepkg/attachment-form/AttachmentForm.js:124
+#: nodepkg/attachment-form/AttachmentForm.tsx:134
 msgid "Delete existing attachments"
 msgstr "Eliminar adjuntos existentes"
 
-#: nodepkg/attachment-form/AttachmentForm.js:145
+#: nodepkg/attachment-form/AttachmentForm.tsx:159
 msgid "Import attachments from ZIP archive"
 msgstr "Importar adjuntos desde un archivo ZIP"
 
-#: nodepkg/attachment-form/AttachmentForm.js:157
+#: nodepkg/attachment-form/AttachmentForm.tsx:171
 msgid "Export"
 msgstr "Exportar"
 
-#: nodepkg/attachment-form/AttachmentForm.js:162
+#: nodepkg/attachment-form/AttachmentForm.tsx:176
 msgid "Import"
 msgstr "Importar"
 
-#~ msgid "Upload"
-#~ msgstr "Subir"
+#: nodepkg/attachment-table/AttachmentTable.tsx:72
+msgid "MIME type"
+msgstr "Tipo MIME"
 
-#~ msgid "Delete"
-#~ msgstr "Eliminar"
+#: nodepkg/image-thumbnail/component/CarouselRender.tsx:23
+msgid "Toggle panorama viewer"
+msgstr ""
 
+#: util.py:26
+msgid "Invalid ZIP archive."
+msgstr "Archivo ZIP no válido."
+
+#: util.py:55
+msgid "File '{}' isn't found in metadata."
+msgstr "El archivo '{}' no se encuentra en los metadatos."
+
+#: util.py:61
+msgid "Invalid feature ID for file '{}'."
+msgstr ""
+
+#: util.py:68
+msgid "Invalid keyname for file '{}'."
+msgstr ""
+
+#: util.py:74
+msgid "Invalid name for file '{}'."
+msgstr "Nombre no válido para el archivo '{}'."
+
+#: util.py:80
+msgid "Invalid MIME type for file '{}'."
+msgstr "Tipo MIME no válido para el archivo '{}'."
+
+#: util.py:87
+msgid "Invalid description for file '{}'."
+msgstr "Descripción no válida para el archivo '{}'."
+
+#: util.py:100
+msgid "Could not determine feature ID for file '{}'."
+msgstr ""
+
+#: util.py:118
+msgid "File '{}' isn't found in the archive."
+msgstr "El fichero '{}' no se encuentra en el archivo."
+
+#: view.py:20 view.py:43
+msgid "Manage attachments"
+msgstr "Administrar adjuntos"

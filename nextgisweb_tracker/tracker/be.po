@@ -1,0 +1,404 @@
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:11
+#, amd
+msgid "Unique id (IMEI by default)"
+msgstr "Унікальны ідэнтыфікатар (IMEI па змаўчанні)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:17
+#, amd
+msgid "Description"
+msgstr "Апісанне"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:24
+#, amd
+msgid "Device type"
+msgstr "Тып прылады"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:30
+#, amd
+msgid "Consumption, liters per 100 km (for reports)"
+msgstr "Расход, літры на 100 км (для справаздач)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:32
+#, amd
+msgid "Invalid consumption, should be from 0 to 100"
+msgstr "Няправільны расход, павінен быць ад 0 да 100"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:43
+#, amd
+msgid "Tracker detail"
+msgstr "Падрабязнасці трэкера"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:47
+#, amd
+msgid "NextGIS software (Mobile, Collector)"
+msgstr "Праграмнае забеспячэнне NextGIS (мабільнае, калектар)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:48
+#, amd
+msgid "ADM (ADM-50, ADM-100)"
+msgstr "ADM (ADM-50, ADM-100)"
+
+#: amd/ngw-tracker/webmap/map/utils.js:20 amd/ngw-tracker/webmap/map/utils.js:38
+#, amd
+msgid "Date"
+msgstr "Дата"
+
+#: amd/ngw-tracker/webmap/map/utils.js:29 amd/ngw-tracker/webmap/map/utils.js:40
+#: nodepkg/trackers-panel/TrackersPanel.js:188
+#, amd, jsrealm
+msgid "Time"
+msgstr "Час"
+
+#: amd/ngw-tracker/webmap/map/utils.js:45
+#, amd
+msgid "Speed, km/h"
+msgstr "Хуткасць, км/г"
+
+#: amd/ngw-tracker/webmap/map/utils.js:51
+#, amd
+msgid "Height, m"
+msgstr "Вышыня, м"
+
+#: amd/ngw-tracker/webmap/map/utils.js:57
+#, amd
+msgid "Course"
+msgstr "Курс"
+
+#: amd/ngw-tracker/webmap/map/utils.js:63
+#, amd
+msgid "Satellites"
+msgstr ""
+
+#: amd/ngw-tracker/webmap/map/utils.js:69
+#, amd
+msgid "HDOP"
+msgstr ""
+
+#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:33 component.py:13
+#: nodepkg/reports/Reports.js:175 nodepkg/trackers-panel/TrackersPanel.js:272
+#: view/__init__.py:50
+#, amd, jsrealm, server
+msgid "Trackers"
+msgstr ""
+
+#: api/device_types.py:15
+#, server
+msgid "NextGIS Tracker Hub is unavailable. Try later, please."
+msgstr "NextGIS Tracker Hub недаступны. Паспрабуйце пазней, калі ласка."
+
+#: model.py:20
+#, server
+msgid "Trackers group"
+msgstr "Група трэкераў"
+
+#: model.py:31
+#, server
+msgid "Tracker"
+msgstr "Трэкер"
+
+#: model.py:51
+#, server
+msgid "Tracker UID is not unique"
+msgstr ""
+
+#: model.py:78
+#, server
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr ""
+
+#: nodepkg/reports/Reports.js:23 template/_consumption_fuel.mako:26
+#: template/_mileage.mako:20
+#, jsrealm, server
+msgid "Mileage"
+msgstr "Прабег"
+
+#: nodepkg/reports/Reports.js:24
+#, jsrealm
+msgid "Top speed"
+msgstr "Максімальная хуткасць"
+
+#: nodepkg/reports/Reports.js:25
+#, jsrealm
+msgid "Average speed"
+msgstr "Сярэдняя хуткасць"
+
+#: nodepkg/reports/Reports.js:26
+#, jsrealm
+msgid "Spent fuel"
+msgstr "Адпрацаванае паліва"
+
+#: nodepkg/reports/Reports.js:27 nodepkg/trackers-panel/TrackersPanel.js:53
+#, jsrealm
+msgid "Stops"
+msgstr "Прыпынкі"
+
+#: nodepkg/reports/Reports.js:28 template/_gpx.mako:4
+#, jsrealm, server
+msgid "GPX file"
+msgstr "GPX файл"
+
+#: nodepkg/reports/Reports.js:32 template/_avg_speed.mako:15
+#: template/_consumption_fuel.mako:21 template/_mileage.mako:15
+#: template/_top_speed.mako:15
+#, jsrealm, server
+msgid "Days"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:33 template/_avg_speed.mako:17
+#: template/_consumption_fuel.mako:23 template/_mileage.mako:17
+#: template/_top_speed.mako:17
+#, jsrealm, server
+msgid "Hours"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
+#: nodepkg/trackers-panel/TrackersPanel.js:97
+#: nodepkg/trackers-panel/TrackersPanel.js:98
+#, jsrealm
+msgid "Unknown"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:131
+#, jsrealm
+msgid "Result"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:142
+#, jsrealm
+msgid "Settings"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:146
+#, jsrealm
+msgid "Report type"
+msgstr "Тып справаздачы"
+
+#: nodepkg/reports/Reports.js:155 nodepkg/trackers-panel/TrackersPanel.js:262
+#, jsrealm
+msgid "Time range"
+msgstr "Дыяпазон часу"
+
+#: nodepkg/reports/Reports.js:166
+#, jsrealm
+msgid "Group by"
+msgstr ""
+
+#: nodepkg/reports/Reports.js:183
+#, jsrealm
+msgid "Build report"
+msgstr ""
+
+#: nodepkg/tracker-activity/ChartHelper.js:44
+#, jsrealm
+msgid "Count of packets per hour"
+msgstr ""
+
+#: nodepkg/tracker-activity/TrackerActivity.js:53
+#, jsrealm
+msgid "Cancel"
+msgstr ""
+
+#: nodepkg/tracker-activity/TrackerActivity.js:63
+#, jsrealm
+msgid "Last activity by hours"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettings.js:34
+#, jsrealm
+msgid "Settings saved"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:29
+#, jsrealm
+msgid "Common settings"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:35
+#, jsrealm
+msgid "Interval for splitting tracks, min"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:47
+#, jsrealm
+msgid "Stops detecting"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:53
+#, jsrealm
+msgid "Minimal speed, km/h"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:66
+#, jsrealm
+msgid "Minimal time stop, sec"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:78
+#, jsrealm
+msgid "Timezone settings"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:82
+#, jsrealm
+msgid "Time zone"
+msgstr ""
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:106
+#, jsrealm
+msgid "Save"
+msgstr "Захаваць"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:40
+#, jsrealm
+msgid "Last known point"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:45
+#, jsrealm
+msgid "GPS tracks"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:50
+#, jsrealm
+msgid "Track points"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:65
+#, jsrealm
+msgid "Zoom to layer"
+msgstr "Прыблізіць да слоя"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:72
+#, jsrealm
+msgid "Zoom to last point"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:79
+#, jsrealm
+msgid "Set filter to last day with data"
+msgstr "Усталюйце фільтр на апошні дзень з данымі"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:85
+#, jsrealm
+msgid "Show last activity"
+msgstr "Паказаць апошнюю дзейнасць"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:187
+#, jsrealm
+msgid "Sort by"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:189
+#, jsrealm
+msgid "Name"
+msgstr ""
+
+#: nodepkg/trackers-panel/TrackersPanel.js:284
+#, jsrealm
+msgid "Reports"
+msgstr ""
+
+#: pyramid_tracker/register.py:20 pyramid_tracker/register.py:40
+#, server
+msgid "Device is not registered on NextGIS Tracker System. Try later, please."
+msgstr ""
+"Прылада не зарэгістравана ў сістэме NextGIS Tracker. Паспрабуйце пазней, калі"
+" ласка."
+
+#: pyramid_tracker/register.py:24 pyramid_tracker/register.py:42
+#, server
+msgid "NextGIS Tracker System is unavailable. Try later, please."
+msgstr "Сістэма NextGIS Tracker недаступная. Паспрабуйце пазней, калі ласка."
+
+#: template/_avg_speed.mako:4
+#, server
+msgid "Avg speed report"
+msgstr "Справаздача аб сярэдняй хуткасці"
+
+#: template/_avg_speed.mako:8 template/_consumption_fuel.mako:14
+#: template/_mileage.mako:8 template/_stops.mako:9 template/_top_speed.mako:8
+#, server
+msgid "No data for selected period"
+msgstr "Няма даных за выбраны перыяд"
+
+#: template/_avg_speed.mako:20
+#, server
+msgid "Avg speed"
+msgstr "Сярэдняя хуткасць"
+
+#: template/_consumption_fuel.mako:4 template/_consumption_fuel.mako:27
+#, server
+msgid "Fuel consumption"
+msgstr "Расход паліва"
+
+#: template/_consumption_fuel.mako:8
+#, server
+msgid "Fuel consumption, liters per 100 km"
+msgstr "Расход паліва, літраў на 100 км"
+
+#: template/_consumption_fuel.mako:10
+#, server
+msgid "Fuel consumption is not defined"
+msgstr "Выдатак паліва не вызначаны"
+
+#: template/_gpx.mako:11
+#, server
+msgid "Download GPX file"
+msgstr "Спампаваць файл GPX"
+
+#: template/_mileage.mako:4
+#, server
+msgid "Mileage report"
+msgstr "Справаздача аб прабегу"
+
+#: template/_stops.mako:5
+#, server
+msgid "Stops report"
+msgstr "Справаздача аб прыпынках"
+
+#: template/_stops.mako:16
+#, server
+msgid "Start stop"
+msgstr "Пачатоквы прыпынак"
+
+#: template/_stops.mako:17
+#, server
+msgid "End stop"
+msgstr "Канцавы прыпынак"
+
+#: template/_stops.mako:18
+#, server
+msgid "Duration"
+msgstr "Працягласць"
+
+#: template/_stops.mako:32
+#, server
+msgid "Count of stops"
+msgstr "Колькасць прыпынкаў"
+
+#: template/_stops.mako:33
+#, server
+msgid "Total duration"
+msgstr "Агульная працягласць"
+
+#: template/_top_speed.mako:4
+#, server
+msgid "Top speed report"
+msgstr "Справаздача аб максімальнай хуткасці"
+
+#: template/_top_speed.mako:20
+#, server
+msgid "Max speed"
+msgstr "Максімальная хуткасць"
+
+#: view/__init__.py:21
+#, server
+msgid "Trackers settings"
+msgstr "Налады трэкераў"
+
+#: view/reports.py:18
+#, server
+msgid "Trackers reports"
+msgstr ""
