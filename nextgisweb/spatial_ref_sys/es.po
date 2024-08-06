@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:141
 msgid "System SRS cannot be deleted."
 msgstr "La SRS del sistema no se puede eliminar."
@@ -7,7 +11,8 @@ msgid "Invalid SRS definition!"
 msgstr "¡Definición de SRS no válida!"
 
 #: api.py:367
-msgid "SRS authority attributes must be defined while importing from the catalog."
+msgid ""
+"SRS authority attributes must be defined while importing from the catalog."
 msgstr ""
 "Los atributos de autoridad de SRS deben definirse al importar desde el "
 "catálogo."
@@ -21,8 +26,8 @@ msgid "Spatial reference systems"
 msgstr "Sistemas de referencia espacial"
 
 #: nodepkg/catalog-browse/CatalogBrowse.tsx:87
-#: nodepkg/catalog-import/CatalogImport.tsx:31 nodepkg/srs-browse/SrsBrowse.tsx:38
-#: nodepkg/srs-widget/SRSWidget.tsx:31
+#: nodepkg/catalog-import/CatalogImport.tsx:31
+#: nodepkg/srs-browse/SrsBrowse.tsx:38 nodepkg/srs-widget/SRSWidget.tsx:31
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
@@ -30,7 +35,8 @@ msgstr "Nombre para mostrar"
 msgid "Show in catalog"
 msgstr "Mostrar en el catálogo"
 
-#: nodepkg/catalog-browse/CatalogBrowse.tsx:107 nodepkg/srs-widget/SRSWidget.tsx:37
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:107
+#: nodepkg/srs-widget/SRSWidget.tsx:37
 msgid "Authority and code"
 msgstr "Autoridad y código"
 
@@ -51,7 +57,8 @@ msgstr "Latitud"
 msgid "Longitude"
 msgstr "Longitud"
 
-#: nodepkg/catalog-import/CatalogImport.tsx:36 nodepkg/srs-widget/SRSWidget.tsx:46
+#: nodepkg/catalog-import/CatalogImport.tsx:36
+#: nodepkg/srs-widget/SRSWidget.tsx:46
 msgid "OGC WKT definition"
 msgstr "Definición de OGC WKT"
 
@@ -85,11 +92,13 @@ msgstr "SRS eliminado"
 
 #: pyramid.py:9
 msgid "Catalog not cofigured"
-msgstr ""
+msgstr "Catálogo no configurado"
 
 #: pyramid.py:10
 msgid "The spatial reference system catalog is not configured on this server."
 msgstr ""
+"El catálogo de sistemas de referencia espacial no está configurado en este "
+"servidor."
 
 #: util.py:38
 msgid "Invalid MapInfo spatial reference system: %s"

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-mapserver/StyleWidget.js:34 model.py:93
 msgid "MapServer style"
 msgstr "Estilo MapServer"
@@ -13,7 +17,8 @@ msgid "XML schema error: %s"
 msgstr "Error de esquema XML: %s"
 
 #~ msgid "<!-- An unknown error occurred during the file conversion -->"
-#~ msgstr "<! - Se produjo un error desconocido durante la conversión del archivo ->"
+#~ msgstr ""
+#~ "<! - Se produjo un error desconocido durante la conversión del archivo ->"
 
 #~ msgid "Import QGIS style"
 #~ msgstr "Importar estilo QGIS"
@@ -23,4 +28,3 @@ msgstr "Error de esquema XML: %s"
 
 #~ msgid "XML schema error: %(message)s"
 #~ msgstr "Error de esquema XML: %(message)s"
-

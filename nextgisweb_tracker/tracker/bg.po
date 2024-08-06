@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:11
 msgid "Unique id (IMEI by default)"
 msgstr "Уникален id (IMEI по подразбиране)"
@@ -30,11 +34,13 @@ msgstr "NextGIS софтуер (Mobile, Collector)"
 msgid "ADM (ADM-50, ADM-100)"
 msgstr "АДМ (АДМ-50, АДМ-100)"
 
-#: amd/ngw-tracker/webmap/map/utils.js:20 amd/ngw-tracker/webmap/map/utils.js:38
+#: amd/ngw-tracker/webmap/map/utils.js:20
+#: amd/ngw-tracker/webmap/map/utils.js:38
 msgid "Date"
 msgstr "Дата"
 
-#: amd/ngw-tracker/webmap/map/utils.js:29 amd/ngw-tracker/webmap/map/utils.js:40
+#: amd/ngw-tracker/webmap/map/utils.js:29
+#: amd/ngw-tracker/webmap/map/utils.js:40
 #: nodepkg/trackers-panel/TrackersPanel.js:188
 msgid "Time"
 msgstr "Време"
@@ -53,11 +59,11 @@ msgstr "Посока"
 
 #: amd/ngw-tracker/webmap/map/utils.js:63
 msgid "Satellites"
-msgstr ""
+msgstr "Сателити"
 
 #: amd/ngw-tracker/webmap/map/utils.js:69
 msgid "HDOP"
-msgstr ""
+msgstr "HDOP"
 
 #: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:33 component.py:13
 #: nodepkg/reports/Reports.js:175 nodepkg/trackers-panel/TrackersPanel.js:272
@@ -79,13 +85,15 @@ msgstr "Тракер"
 
 #: model.py:51
 msgid "Tracker UID is not unique"
-msgstr ""
+msgstr "UID на тракера не е уникален"
 
 #: model.py:78
 msgid ""
 "The '{}' attribute is immutable and cannot be changed once the tracker is "
 "created."
 msgstr ""
+"Атрибутът '{}' е непроменяем и не може да бъде изменен след като тракерът е "
+"създаден."
 
 #: nodepkg/reports/Reports.js:23 template/_consumption_fuel.mako:26
 #: template/_mileage.mako:20
@@ -128,15 +136,15 @@ msgstr "Часове"
 #: nodepkg/trackers-panel/TrackersPanel.js:97
 #: nodepkg/trackers-panel/TrackersPanel.js:98
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестен"
 
 #: nodepkg/reports/Reports.js:131
 msgid "Result"
-msgstr ""
+msgstr "Резултат"
 
 #: nodepkg/reports/Reports.js:142
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: nodepkg/reports/Reports.js:146
 msgid "Report type"
@@ -156,11 +164,11 @@ msgstr "Създай отчет"
 
 #: nodepkg/tracker-activity/ChartHelper.js:44
 msgid "Count of packets per hour"
-msgstr ""
+msgstr "Брой пакети на час"
 
 #: nodepkg/tracker-activity/TrackerActivity.js:53
 msgid "Cancel"
-msgstr ""
+msgstr "Отказ"
 
 #: nodepkg/tracker-activity/TrackerActivity.js:63
 msgid "Last activity by hours"
@@ -204,15 +212,15 @@ msgstr "Запази"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:40
 msgid "Last known point"
-msgstr ""
+msgstr "Последна известна точка"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:45
 msgid "GPS tracks"
-msgstr ""
+msgstr "GPS тракове"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:50
 msgid "Track points"
-msgstr ""
+msgstr "Точки на трака"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:65
 msgid "Zoom to layer"
@@ -232,11 +240,11 @@ msgstr "Покажи последни действия"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:187
 msgid "Sort by"
-msgstr ""
+msgstr "Сортиране по"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:189
 msgid "Name"
-msgstr ""
+msgstr "Име"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:284
 msgid "Reports"
@@ -251,8 +259,8 @@ msgstr ""
 #: pyramid_tracker/register.py:24 pyramid_tracker/register.py:42
 msgid "NextGIS Tracker System is unavailable. Try later, please."
 msgstr ""
-"Няма връзка със системата за проследяване на NextGIS. Опитайте се отново "
-"по-късно."
+"Няма връзка със системата за проследяване на NextGIS. Опитайте се отново по-"
+"късно."
 
 #: template/_avg_speed.mako:4
 msgid "Avg speed report"
@@ -325,4 +333,4 @@ msgstr "Настройки на тракерите"
 
 #: view/reports.py:18
 msgid "Trackers reports"
-msgstr ""
+msgstr "Доклади на тракерите"

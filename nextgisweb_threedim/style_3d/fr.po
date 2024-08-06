@@ -1,117 +1,125 @@
+#
+msgid ""
+msgstr ""
+
 #: interface.py:14
 #, server
 msgid "POI"
-msgstr ""
+msgstr "POI"
 
 #: interface.py:15 model.py:13 nodepkg/style-3d-widget/Style3d.tsx:404
 #, jsrealm, server
 msgid "3D style"
-msgstr ""
+msgstr "style 3D"
 
 #: interface.py:16
 #, server
 msgid "3D model"
-msgstr ""
+msgstr "modèle 3D"
 
 #: interface.py:17
 #, server
 msgid "Sphere"
-msgstr ""
+msgstr "Sphère"
 
 #: interface.py:18
 #, server
 msgid "Ellipsoid"
-msgstr ""
+msgstr "Ellipsoïde"
 
 #: interface.py:29
 #, server
 msgid "Value"
-msgstr ""
+msgstr "Valeur"
 
 #: interface.py:30
 #, server
 msgid "From attribute"
-msgstr ""
+msgstr "Depuis l'attribut"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:131
 #, jsrealm
 msgid "Style type"
-msgstr ""
+msgstr "Type de style"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:143
 #, jsrealm
 msgid "POI icon"
-msgstr ""
+msgstr "Icône de POI"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:154
 #, jsrealm
 msgid "POI color"
-msgstr ""
+msgstr "Couleur de POI"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:165
 #, jsrealm
 msgid "Priority"
-msgstr ""
+msgstr "Priorité"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:176
 #, jsrealm
 msgid "Inverse"
-msgstr ""
+msgstr "Inverser"
 
-#: nodepkg/style-3d-widget/Style3d.tsx:188 nodepkg/style-3d-widget/Style3d.tsx:279
+#: nodepkg/style-3d-widget/Style3d.tsx:188
+#: nodepkg/style-3d-widget/Style3d.tsx:279
 #: nodepkg/style-3d-widget/Style3d.tsx:325
 #, jsrealm
 msgid "Stroke color"
-msgstr ""
+msgstr "Couleur de trait"
 
-#: nodepkg/style-3d-widget/Style3d.tsx:199 nodepkg/style-3d-widget/Style3d.tsx:290
+#: nodepkg/style-3d-widget/Style3d.tsx:199
+#: nodepkg/style-3d-widget/Style3d.tsx:290
 #: nodepkg/style-3d-widget/Style3d.tsx:336
 #, jsrealm
 msgid "Stroke width"
-msgstr ""
+msgstr "Largeur du trait"
 
-#: nodepkg/style-3d-widget/Style3d.tsx:210 nodepkg/style-3d-widget/Style3d.tsx:301
+#: nodepkg/style-3d-widget/Style3d.tsx:210
+#: nodepkg/style-3d-widget/Style3d.tsx:301
 #: nodepkg/style-3d-widget/Style3d.tsx:347
 #, jsrealm
 msgid "Fill color"
-msgstr ""
+msgstr "Couleur de remplissage"
 
-#: nodepkg/style-3d-widget/Style3d.tsx:221 nodepkg/style-3d-widget/Style3d.tsx:380
+#: nodepkg/style-3d-widget/Style3d.tsx:221
+#: nodepkg/style-3d-widget/Style3d.tsx:380
 #, jsrealm
 msgid "Height"
-msgstr ""
+msgstr "Hauteur"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:234
 #, jsrealm
 msgid "3D model ID"
-msgstr ""
+msgstr "ID du modèle 3D"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:255
 #, jsrealm
 msgid "Scale"
-msgstr ""
+msgstr "Échelle"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:266
 #, jsrealm
 msgid "Rotate, deg."
-msgstr ""
+msgstr "Rotation, degrés"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:312
 #, jsrealm
 msgid "Radius"
-msgstr ""
+msgstr "Rayon"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:358
 #, jsrealm
 msgid "Length"
-msgstr ""
+msgstr "Longueur"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:369
 #, jsrealm
 msgid "Width"
-msgstr ""
+msgstr "Largeur"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:393
 #, jsrealm
 msgid "Z offset"
-msgstr ""
+msgstr "Décalage Z"

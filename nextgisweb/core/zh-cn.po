@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: component.py:90
 msgid "NextGIS geoinformation system"
 msgstr "NextGIS地理信息系统"
@@ -20,11 +24,11 @@ msgstr "RAM或随机存取存储器"
 
 #: component.py:316
 msgid "Last backup"
-msgstr ""
+msgstr "上次备份"
 
 #: component.py:320
 msgid "Last maintenance"
-msgstr ""
+msgstr "上次维护"
 
 #: exception.py:116
 msgid "Validation error"
@@ -48,7 +52,7 @@ msgstr "外部服务错误"
 
 #: exception.py:145
 msgid "Not configured"
-msgstr ""
+msgstr "未配置"
 
 #: storage.py:289
 msgid "Storage full"
@@ -66,8 +70,8 @@ msgstr "存储不够"
 
 #: storage.py:301
 msgid ""
-"This operation requires %s of storage and can't be performed because only %s "
-"available."
+"This operation requires %s of storage and can't be performed because only %s"
+" available."
 msgstr "无法执行该操作，因为该操作需要存储中的%s，但只有%s可用。"
 
 #: storage.py:311

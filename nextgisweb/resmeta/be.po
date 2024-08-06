@@ -1,37 +1,41 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:60 nodepkg/editor/EditorWidget.tsx:98
 #, jsrealm, server
 msgid "String"
-msgstr ""
+msgstr "Радкуна"
 
 #: model.py:61 nodepkg/editor/EditorWidget.tsx:99
 #, jsrealm, server
 msgid "Number"
-msgstr ""
+msgstr "Лік"
 
 #: model.py:62 nodepkg/editor/EditorWidget.tsx:100
 #, jsrealm, server
 msgid "Boolean"
-msgstr ""
+msgstr "Булевае"
 
 #: model.py:63 nodepkg/editor/EditorWidget.tsx:101
 #, jsrealm, server
 msgid "Empty"
-msgstr ""
+msgstr "Пустое"
 
 #: nodepkg/editor/EditorWidget.tsx:22
 #, jsrealm
 msgid "Type here to add a new key..."
-msgstr ""
+msgstr "Удзячыце тут, каб дадаць новы ключ..."
 
 #: nodepkg/editor/EditorWidget.tsx:79 template/resource_section.mako:21
 #, jsrealm, server
 msgid "False"
-msgstr ""
+msgstr "Лжива"
 
 #: nodepkg/editor/EditorWidget.tsx:80 template/resource_section.mako:21
 #, jsrealm, server
 msgid "True"
-msgstr ""
+msgstr "Надзіпныя"
 
 #: nodepkg/editor/EditorWidget.tsx:109 template/resource_section.mako:12
 #, jsrealm, server

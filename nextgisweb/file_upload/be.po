@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:25
 #, server
 msgid "Uploaded file too large"
@@ -6,7 +10,7 @@ msgstr "Запампаваны файл занадта вялікі"
 #: model.py:137
 #, server
 msgid "Uploaded file not found"
-msgstr ""
+msgstr "Запампаваны файл не знойдзены"
 
 #: model.py:141
 #, server
@@ -32,17 +36,17 @@ msgstr "макс"
 #: nodepkg/file-uploader/FileUploader.tsx:22
 #, jsrealm
 msgid "Stop"
-msgstr ""
+msgstr "Спыніць"
 
 #: nodepkg/file-uploader/FileUploaderButton.tsx:9
 #, jsrealm
 msgid "Upload"
-msgstr ""
+msgstr "Запампаваць"
 
 #: nodepkg/file-uploader/hook/useFileUploader.ts:17
 #, jsrealm
 msgid "{} uploaded..."
-msgstr ""
+msgstr "{} запампаваны..."
 
 #: nodepkg/image-uploader/ImageUploader.tsx:18
 #, jsrealm

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-auth/template/UserWidget.hbs:23 template/login.mako:47
 msgid "Password"
 msgstr "Contraseña"
@@ -82,4 +86,3 @@ msgstr "Nombre de usuario"
 #: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:8
 msgid "Select WFS connection"
 msgstr "Seleccione la conexión WFS"
-

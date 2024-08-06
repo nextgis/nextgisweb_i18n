@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:23 model.py:692
 msgid "GDAL library failed to open file."
 msgstr "GDAL библиотека не можа да отвори файла."
@@ -108,7 +112,7 @@ msgstr "Неизвестно значение на 'cast_has_z' ."
 
 #: model.py:771
 msgid "Unknown 'fid_source' value."
-msgstr ""
+msgstr "Неизвестна стойност за 'fid_source'."
 
 #: model.py:794
 msgid "Unsupported geometry type."
@@ -116,11 +120,11 @@ msgstr "Типът геометрия не е поддържан."
 
 #: nodepkg/resource-widget/Store.tsx:168
 msgid "Confirm deletion of existing features"
-msgstr ""
+msgstr "Потвърдете изтриването на съществуващите обекти"
 
 #: nodepkg/resource-widget/Store.tsx:175
 msgid "Confirm change of geometry type"
-msgstr ""
+msgstr "Потвърдете промяната на типа геометрия"
 
 #: nodepkg/resource-widget/Widget.tsx:33
 msgid "Select a dataset"
@@ -128,14 +132,17 @@ msgstr "Изберете набор от данни"
 
 #: nodepkg/resource-widget/Widget.tsx:34
 msgid ""
-"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
-"supported. For CSV and XLSX only points are supported, coordinates must be "
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
+"Поддържат се формати ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, "
+"CSV или XLSX. За CSV и XLSX се поддържат само точки, а координатите трябва "
+"да са в колони lat и long."
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Whenever possible"
-msgstr ""
+msgstr "Когато е възможно"
 
 #: nodepkg/resource-widget/Widget.tsx:46
 msgid "Without losing data"
@@ -192,31 +199,31 @@ msgstr "FID източник"
 
 #: nodepkg/resource-widget/Widget.tsx:151
 msgid "Load features from file"
-msgstr ""
+msgstr "Зареждане на обекти от файл"
 
 #: nodepkg/resource-widget/Widget.tsx:152
 msgid "Create empty layer"
-msgstr ""
+msgstr "Създаване на празен слой"
 
 #: nodepkg/resource-widget/Widget.tsx:154
 msgid "Keep existing layer features"
-msgstr ""
+msgstr "Запазване на съществуващите обекти в слоя"
 
 #: nodepkg/resource-widget/Widget.tsx:155
 msgid "Change geometry type"
-msgstr ""
+msgstr "Промяна на типа геометрия"
 
 #: nodepkg/resource-widget/Widget.tsx:156
 msgid "Replace layer features from file"
-msgstr ""
+msgstr "Замяна на обектите в слоя от файл"
 
 #: nodepkg/resource-widget/Widget.tsx:157
 msgid "Delete all features from layer"
-msgstr ""
+msgstr "Изтриване на всички обекти от слоя"
 
 #: nodepkg/resource-widget/Widget.tsx:173
 msgid "current"
-msgstr ""
+msgstr "текущ"
 
 #: nodepkg/resource-widget/Widget.tsx:251
 msgid "Source layer"
@@ -308,7 +315,7 @@ msgstr "В обекта #%d има незатворени пръстени."
 
 #: ogrloader.py:701
 msgid "Feature #%d has empty rings."
-msgstr ""
+msgstr "Обект #%d има празни пръстени."
 
 #: ogrloader.py:715
 msgid "Feature #%d has less than 3 points in a polygon ring."

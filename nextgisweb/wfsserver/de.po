@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
 msgstr "WFS-Dienst"
@@ -12,11 +16,11 @@ msgstr "Schlüsselname"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Features per request"
-msgstr ""
+msgstr "Features pro Anfrage"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Not set"
-msgstr ""
+msgstr "Nicht gesetzt"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"

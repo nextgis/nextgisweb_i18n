@@ -1,37 +1,46 @@
+#
+msgid ""
+msgstr ""
+
 #: exception.py:7
 #, server
 msgid "Conversion from {} format not configured"
-msgstr ""
+msgstr "Konverze z formátu {} není nakonfigurována"
 
 #: exception.py:15
 #, server
 msgid "Conversion failed"
-msgstr ""
+msgstr "Konverze selhala"
 
 #: exception.py:16
 #, server
 msgid ""
-"Unable to convert the file into 3D Tiles. There is some problem with the file"
-" or it may be corrupted during upload."
+"Unable to convert the file into 3D Tiles. There is some problem with the "
+"file or it may be corrupted during upload."
 msgstr ""
+"Nelze převést soubor do 3D Tiles. Se souborem je nějaký problém nebo mohl "
+"být poškozen během nahrávání."
 
 #: model.py:37 nodepkg/editor-widget/EditorWidget.js:47 view.py:17
 #, jsrealm, server
 msgid "3D tileset"
-msgstr "3D tileset"
+msgstr "3D Tileset"
 
 #: model.py:56
 #, python-format, server
 msgid "Filename '%s' is not valid."
-msgstr ""
+msgstr "Název souboru \"%s\" není platný."
 
 #: nodepkg/editor-widget/EditorWidget.js:11
 #, jsrealm
 msgid ""
-"3D Tiles in ZIP archives and LAS/LAZ files are supported. File names in a ZIP"
-" archive must contain only ASCII characters. LAS/LAZ files will be converted "
-"into 3D Tiles."
+"3D Tiles in ZIP archives and LAS/LAZ files are supported. File names in a "
+"ZIP archive must contain only ASCII characters. LAS/LAZ files will be "
+"converted into 3D Tiles."
 msgstr ""
+"3D Tiles v ZIP archivech a soubory LAS/LAZ jsou podporovány. Názvy souborů v"
+" ZIP archivu mohou obsahovat pouze ASCII znaky. Soubory LAS/LAZ budou "
+"převedeny na 3D Tiles."
 
 #: nodepkg/editor-widget/EditorWidget.js:33
 #, jsrealm
@@ -41,7 +50,7 @@ msgstr "S výškou terénu"
 #: nodepkg/editor-widget/EditorWidget.js:35
 #, jsrealm
 msgid "Z offset"
-msgstr "Z offset"
+msgstr "Z posun"
 
 #: view.py:23
 #, server

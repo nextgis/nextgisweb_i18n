@@ -1,49 +1,58 @@
+#
+msgid ""
+msgstr ""
+
 #: exception.py:7
 #, server
 msgid "Conversion from {} format not configured"
-msgstr ""
+msgstr "Conversion à partir du format {} non configuré"
 
 #: exception.py:15
 #, server
 msgid "Conversion failed"
-msgstr ""
+msgstr "Échec de la conversion"
 
 #: exception.py:16
 #, server
 msgid ""
-"Unable to convert the file into 3D Tiles. There is some problem with the file"
-" or it may be corrupted during upload."
+"Unable to convert the file into 3D Tiles. There is some problem with the "
+"file or it may be corrupted during upload."
 msgstr ""
+"Impossible de convertir le fichier en 3D Tiles. Il y a un problème avec le "
+"fichier ou il a peut-être été corrompu lors du téléchargement."
 
 #: model.py:37 nodepkg/editor-widget/EditorWidget.js:47 view.py:17
 #, jsrealm, server
 msgid "3D tileset"
-msgstr ""
+msgstr "Ensemble de tuiles 3D"
 
 #: model.py:56
 #, python-format, server
 msgid "Filename '%s' is not valid."
-msgstr ""
+msgstr "Le nom de fichier '%s' n'est pas valide."
 
 #: nodepkg/editor-widget/EditorWidget.js:11
 #, jsrealm
 msgid ""
-"3D Tiles in ZIP archives and LAS/LAZ files are supported. File names in a ZIP"
-" archive must contain only ASCII characters. LAS/LAZ files will be converted "
-"into 3D Tiles."
+"3D Tiles in ZIP archives and LAS/LAZ files are supported. File names in a "
+"ZIP archive must contain only ASCII characters. LAS/LAZ files will be "
+"converted into 3D Tiles."
 msgstr ""
+"Les 3D Tiles dans les archives ZIP et les fichiers LAS/LAZ sont supportés. "
+"Les noms de fichiers dans une archive ZIP doivent contenir uniquement des "
+"caractères ASCII. Les fichiers LAS/LAZ seront convertis en 3D Tiles."
 
 #: nodepkg/editor-widget/EditorWidget.js:33
 #, jsrealm
 msgid "With terrain height"
-msgstr ""
+msgstr "Avec hauteur du terrain"
 
 #: nodepkg/editor-widget/EditorWidget.js:35
 #, jsrealm
 msgid "Z offset"
-msgstr ""
+msgstr "Décalage en Z"
 
 #: view.py:23
 #, server
 msgid "Export"
-msgstr ""
+msgstr "Exportation"

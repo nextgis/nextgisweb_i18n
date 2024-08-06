@@ -1,10 +1,14 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:25
 msgid "Uploaded file too large"
 msgstr "上传的文件过大"
 
 #: model.py:137
 msgid "Uploaded file not found"
-msgstr ""
+msgstr "上传的文件未找到"
 
 #: model.py:141
 msgid "Upload is not completed"
@@ -29,11 +33,11 @@ msgstr "停止"
 
 #: nodepkg/file-uploader/FileUploaderButton.tsx:9
 msgid "Upload"
-msgstr ""
+msgstr "上传"
 
 #: nodepkg/file-uploader/hook/useFileUploader.ts:17
 msgid "{} uploaded..."
-msgstr ""
+msgstr "{} 上传完成..."
 
 #: nodepkg/image-uploader/ImageUploader.tsx:18
 msgid "Delete"

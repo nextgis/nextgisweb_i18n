@@ -1,7 +1,11 @@
+#
+msgid ""
+msgstr ""
+
 #: nodepkg/arm/validate.ts:5
 #, jsrealm
 msgid "Value required"
-msgstr ""
+msgstr "Патрабуецца значэнне"
 
 #: nodepkg/arm/validate.ts:7
 #, jsrealm
@@ -22,241 +26,244 @@ msgstr[2] ""
 #: nodepkg/arm/validate.ts:18
 #, jsrealm
 msgid "Value should be at least {}"
-msgstr ""
+msgstr "Значэнне павінна быць не менш {}"
 
 #: nodepkg/arm/validate.ts:19
 #, jsrealm
 msgid "Value should be no more than {}"
-msgstr ""
+msgstr "Значэнне павінна быць не больш {}"
 
 #: nodepkg/arm/validate.ts:21
 #, jsrealm
 msgid "Invalid value"
-msgstr ""
+msgstr "Няправільнае значэнне"
 
 #: nodepkg/arm/validate.ts:22
 #, jsrealm
 msgid "Value not unique"
-msgstr ""
+msgstr "Значэнне не ўнікальнае"
 
 #: nodepkg/arm/validate.ts:23
 #, jsrealm
 msgid "Invalid URL"
-msgstr ""
+msgstr "Няправільны URL"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:23
 #, jsrealm
 msgid "Copied to clipboard"
-msgstr ""
+msgstr "Скапіравана ў буфер абмену"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:28
 #, jsrealm
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Скапіяваць у буфер абмену"
 
 #: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:47
 #, jsrealm
 msgid "Save"
-msgstr ""
+msgstr "Захаваць"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:79
 #, jsrealm
 msgid "From layer"
-msgstr ""
+msgstr "З layer-а"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:87
 #, jsrealm
 msgid "West"
-msgstr ""
+msgstr "Захад"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:98
 #, jsrealm
 msgid "South"
-msgstr ""
+msgstr "Поўдзень"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:107
 #, jsrealm
 msgid "East"
-msgstr ""
+msgstr "Усход"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:116
 #, jsrealm
 msgid "North"
-msgstr ""
+msgstr "Поўнач"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:15
 #, jsrealm
 msgid "Improve or add new translation"
-msgstr ""
+msgstr "Палепшыце або дадайце новы пераклад"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:31
 #, jsrealm
 msgid "Browser default"
-msgstr ""
+msgstr "Па змаўчанні браўзера"
 
 #: nodepkg/confirm.ts:13
 #, jsrealm
 msgid "Confirmation required"
-msgstr ""
+msgstr "Патрабуецца пацверджанне"
 
 #: nodepkg/confirm.ts:14
 #, jsrealm
 msgid "Please confirm this action."
-msgstr ""
+msgstr "Калі ласка, пацвердзіце гэтае дзеянне."
 
 #: nodepkg/confirm.ts:16 nodepkg/error/shared.js:69
 #, jsrealm
 msgid "OK"
-msgstr ""
+msgstr "Добра"
 
 #: nodepkg/confirm.ts:43
 #, jsrealm
 msgid "Please confirm the deletion."
-msgstr ""
+msgstr "Калі ласка, пацвердзіце выдаленне."
 
 #: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:78
 #: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:262
-#: nodepkg/model-browse/ModelBrowse.tsx:329 nodepkg/model-form/ModelForm.tsx:48
+#: nodepkg/model-browse/ModelBrowse.tsx:329
+#: nodepkg/model-form/ModelForm.tsx:48
 #, jsrealm
 msgid "Delete"
-msgstr ""
+msgstr "Выдаліць"
 
 #: nodepkg/confirm.ts:45
 #, jsrealm
 msgid "Failed to delete."
-msgstr ""
+msgstr "Не ўдалося выдаліць."
 
 #: nodepkg/edi-table/RowAction.tsx:73
 #, jsrealm
 msgid "Clone"
-msgstr ""
+msgstr "Кланаваць"
 
 #: nodepkg/edi-table/store/RecordItem.ts:35
 #, jsrealm
 msgid "Key required"
-msgstr ""
+msgstr "Патрабуецца ключ"
 
 #: nodepkg/edi-table/store/RecordItem.ts:41
 #, jsrealm
 msgid "Key not unique"
-msgstr ""
+msgstr "Ключ не ўнікальны"
 
 #: nodepkg/error/index.ts:44
 #, jsrealm
 msgid "Unexpected error"
-msgstr ""
+msgstr "Нечаканая памылка"
 
 #: nodepkg/error/index.ts:48
 #, jsrealm
 msgid "Something went wrong."
-msgstr ""
+msgstr "Штосьці пайшло не так."
 
 #: nodepkg/error/shared.js:54
 #, jsrealm
 msgid "Technical information"
-msgstr ""
+msgstr "Тэхнічная інфармацыя"
 
 #: nodepkg/error/shared.js:64
 #, jsrealm
 msgid "Contact support"
-msgstr ""
+msgstr "Звяжыцеся з падтрымкай"
 
 #: nodepkg/error/shared.js:73
 #, jsrealm
 msgid "Back to home"
-msgstr ""
+msgstr "Назад на галоўную"
 
 #: nodepkg/fields-form/FormItem.tsx:11
 #, jsrealm
 msgid "This value is required"
-msgstr ""
+msgstr "Гэта значэнне абавязкова"
 
 #: nodepkg/fields-form/rules/KeynameRule.ts:5
 #, jsrealm
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "Уведзенае значэнне не сапраўднае"
 
 #: nodepkg/focus-table/action.tsx:13
 #, jsrealm
 msgid "Add"
-msgstr ""
+msgstr "Дадаць"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:109 nodepkg/model-form/ModelForm.tsx:68
+#: nodepkg/model-browse/ModelBrowse.tsx:109
+#: nodepkg/model-form/ModelForm.tsx:68
 #, jsrealm
 msgid "Confirmation"
-msgstr ""
+msgstr "Пацверджанне"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:110
 #, jsrealm
 msgid "Item deleted"
-msgstr ""
+msgstr "Элемент выдалены"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:112
 #, jsrealm
 msgid "Items deleted"
-msgstr ""
+msgstr "Элементы выдалены"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:185
 #, jsrealm
 msgid "The errors occurred during execution"
-msgstr ""
+msgstr "Памылкі адбыліся падчас выканання"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:189
 #, jsrealm
 msgid "Failed to delete items:"
-msgstr ""
+msgstr "Не ўдалося выдаліць элементы:"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:212
 #, jsrealm
 msgid "Do you want to delete these items?"
-msgstr ""
+msgstr "Вы хочаце выдаліць гэтыя элементы?"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:252
 #, jsrealm
 msgid "Edit"
-msgstr ""
+msgstr "Рэдагаваць"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:252
 #, jsrealm
 msgid "View"
-msgstr ""
+msgstr "Прагляд"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:285
 #, jsrealm
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:307 nodepkg/model-form/ModelForm.tsx:46
+#: nodepkg/model-browse/ModelBrowse.tsx:307
+#: nodepkg/model-form/ModelForm.tsx:46
 #, jsrealm
 msgid "Create"
-msgstr ""
+msgstr "Стварыць"
 
 #: nodepkg/model-form/ModelForm.tsx:105
 #, jsrealm
 msgid "Fix the form errors first"
-msgstr ""
+msgstr "Спачатку выправіце памылкі ў форме"
 
 #: nodepkg/model-logo-form/ModelLogoForm.tsx:29
 #, jsrealm
 msgid "Logo saved. Reload the page to get them applied."
-msgstr ""
+msgstr "Лагатып захаваны. Перазагрузіце старонку для прымянення."
 
 #: nodepkg/progress-modal/ProgressModal.tsx:5
 #, jsrealm
 msgid "Operation in progress"
-msgstr ""
+msgstr "Апрацоўка выконваецца"
 
 #: nodepkg/progress-modal/ProgressModal.tsx:6
 #, jsrealm
 msgid "Cancel"
-msgstr ""
+msgstr "Адмена"
 
 #: nodepkg/single-setting-form/SingleSettingForm.tsx:25
 #, jsrealm
 msgid "The setting is saved."
-msgstr ""
+msgstr "Налада захавана."
 
 #: nodepkg/single-setting-form/SingleSettingForm.tsx:26
 #, jsrealm
 msgid "Reload the page to get them applied."
-msgstr ""
+msgstr "Перазагрузіце старонку для прымянення."

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:46
 msgid "Output format is not provided."
 msgstr "Výstupní formát není k dispozici."
@@ -32,8 +36,8 @@ msgstr "Knihovně GDAL se nepodařilo soubor otevřít."
 
 #: model.py:109
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
 "Rastr má formát '%(format)s', podporovány jsou však pouze následující "
 "formáty: %(all_formats)s."
@@ -60,7 +64,8 @@ msgstr ""
 
 #: model.py:184
 msgid "Failed to reproject the raster to the target coordinate system."
-msgstr "Nepodařilo se přeprojektovat rastr do cílového souřadnicového systému."
+msgstr ""
+"Nepodařilo se přeprojektovat rastr do cílového souřadnicového systému."
 
 #: model.py:187
 msgid "GDAL error message: %s"
@@ -92,7 +97,7 @@ msgstr "Datová sada by měla být ve formátu GeoTIFF."
 
 #: nodepkg/editor-widget/EditorWidget.tsx:39
 msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr ""
+msgstr "Cloud Optimized GeoTIFF (COG)"
 
 #: nodepkg/export-form/ExportForm.tsx:55
 msgid "Band"
@@ -125,17 +130,17 @@ msgstr "Cloud Optimalizovaný GeoTIFF"
 #: view.py:34
 msgid ""
 "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
-"hosted on a HTTP file server, with an internal organization that enables more"
-" efficient workflows on the cloud. It does this by leveraging the ability of "
-"clients issuing ​HTTP GET range requests to ask for just the parts of a file "
-"they need."
+"hosted on a HTTP file server, with an internal organization that enables "
+"more efficient workflows on the cloud. It does this by leveraging the "
+"ability of clients issuing ​HTTP GET range requests to ask for just the "
+"parts of a file they need."
 msgstr ""
 "Cloud optimalizovaný GeoTIFF (COG) je běžný soubor GeoTIFF, jehož cílem je "
 "hostit na souborovém serveru HTTP, s interní organizací, která umožňuje "
 "efektivnější pracovní postupy v cloudu. Dělá to tím, že využívá schopnost "
-"klientů vydávajících požadavky HTTP GET range požádat pouze o části souboru, "
-"které potřebují."
+"klientů vydávajících požadavky HTTP GET range požádat pouze o části souboru,"
+" které potřebují."
 
 #: view.py:69
 msgid "Download"
-msgstr ""
+msgstr "Stáhnout"

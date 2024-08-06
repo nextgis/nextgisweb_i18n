@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:81
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr "Атрибутът '%s' на системния субект не може да бъде променен."
@@ -12,7 +16,7 @@ msgstr "Субектът с име '%s' вече съществува."
 
 #: api.py:160
 msgid "Password is not set."
-msgstr ""
+msgstr "Паролата не е зададена."
 
 #: api.py:586
 msgid "User '%s' can't be a member of a group."
@@ -32,7 +36,7 @@ msgstr "Групата е свързана с ресурси"
 
 #: api.py:615
 msgid "Administrator required"
-msgstr ""
+msgstr "Изисква се администратор"
 
 #: api.py:616
 msgid "The 'administrators' group must have at least one enabled member."
@@ -43,8 +47,11 @@ msgid "Administrator"
 msgstr "Администратор"
 
 #: component.py:258
-msgid "Maximum number of users is reached. Your current plan user number limit is %d."
-msgstr "Достигнат е максимален брой потребители. По текущия план пределът е %d."
+msgid ""
+"Maximum number of users is reached. Your current plan user number limit is "
+"%d."
+msgstr ""
+"Достигнат е максимален брой потребители. По текущия план пределът е %d."
 
 #: exception.py:7
 msgid "Invalid authorization header"
@@ -60,7 +67,7 @@ msgstr "Потребителят е блокиран"
 
 #: exception.py:22
 msgid "Invalid authorization link"
-msgstr ""
+msgstr "Невалиден линк за оторизация"
 
 #: model.py:92
 msgid "Guest"
@@ -82,56 +89,65 @@ msgstr "Собственик"
 msgid "Administrators"
 msgstr "Администратори"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:8 nodepkg/group-widget/GroupWidget.tsx:19
+#: nodepkg/group-browse/GroupBrowse.tsx:8
+#: nodepkg/group-widget/GroupWidget.tsx:19
 msgid "Delete group?"
 msgstr "Искате ли да премахнете групата?"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:9 nodepkg/group-widget/GroupWidget.tsx:20
+#: nodepkg/group-browse/GroupBrowse.tsx:9
+#: nodepkg/group-widget/GroupWidget.tsx:20
 msgid "Group deleted"
 msgstr "Групата е изтрита"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
+#: nodepkg/group-browse/GroupBrowse.tsx:19
+#: nodepkg/group-widget/GroupWidget.tsx:28
 #: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:42
 msgid "Full name"
 msgstr "Пълно име"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:25 nodepkg/group-widget/GroupWidget.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:25
+#: nodepkg/group-widget/GroupWidget.tsx:34
 msgid "Group name"
 msgstr "Име на групата"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:31 nodepkg/group-widget/GroupWidget.tsx:59
+#: nodepkg/group-browse/GroupBrowse.tsx:31
+#: nodepkg/group-widget/GroupWidget.tsx:59
 msgid "New users"
-msgstr ""
+msgstr "Нови потребители"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
 #: nodepkg/user-browse/UserBrowse.tsx:27
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
 #: nodepkg/user-browse/UserBrowse.tsx:28
 msgid "No"
-msgstr ""
+msgstr "Не"
 
 #: nodepkg/group-widget/GroupWidget.tsx:41 view.py:285 view.py:378
 msgid "Users"
 msgstr "Потребители"
 
-#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:100
+#: nodepkg/group-widget/GroupWidget.tsx:53
+#: nodepkg/user-widget/UserWidget.tsx:100
 msgid "Permissions"
-msgstr ""
+msgstr "Разрешения"
 
 #: nodepkg/group-widget/GroupWidget.tsx:65
 msgid "{dn} mapping"
-msgstr ""
+msgstr "Мапинг на {dn}"
 
-#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:112
+#: nodepkg/group-widget/GroupWidget.tsx:72
+#: nodepkg/user-widget/UserWidget.tsx:112
 msgid "Description"
 msgstr "Описание"
 
 #: nodepkg/login/LoginForm.tsx:20
 msgid "Sign in with {}"
-msgstr ""
+msgstr "Влезте с {}"
 
 #: nodepkg/login/LoginForm.tsx:21 view.py:32
 msgid "Sign in to Web GIS"
@@ -153,25 +169,26 @@ msgstr "Парола"
 
 #: nodepkg/login/LoginForm.tsx:94
 msgid "or using login and password"
-msgstr ""
+msgstr "или използвайки логин и парола"
 
 #: nodepkg/oauth.tsx:26
 msgid "Manage team"
-msgstr ""
+msgstr "Управление на екип"
 
 #: nodepkg/settings-form/SettingsForm.tsx:27
 msgid "Account bound"
-msgstr ""
+msgstr "Акаунтът е свързан"
 
 #: nodepkg/settings-form/SettingsForm.tsx:38
 msgid "Bind account"
-msgstr ""
+msgstr "Свържете акаунт"
 
 #: nodepkg/settings-form/SettingsForm.tsx:40
 msgid "Account not bound"
-msgstr ""
+msgstr "Акаунтът не е свързан"
 
-#: nodepkg/settings-form/SettingsForm.tsx:55 nodepkg/user-widget/UserWidget.tsx:106
+#: nodepkg/settings-form/SettingsForm.tsx:55
+#: nodepkg/user-widget/UserWidget.tsx:106
 msgid "Language"
 msgstr "Език"
 
@@ -197,11 +214,11 @@ msgstr "Статут"
 
 #: nodepkg/user-browse/UserBrowse.tsx:34
 msgid "Users with a password can sign in with login and password."
-msgstr ""
+msgstr "Потребители с парола могат да влязат с логин и парола."
 
 #: nodepkg/user-browse/UserBrowse.tsx:35
 msgid "Users bound to {dn} can sign in with {dn}."
-msgstr ""
+msgstr "Потребители свързани с {dn} могат да влязат с {dn}."
 
 #: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:22
 msgid "Delete user?"
@@ -214,10 +231,14 @@ msgstr "Потребителят е премахнат"
 #: nodepkg/user-browse/UserBrowse.tsx:122
 msgid ""
 "Your team members won't be shown here until their first logon. Set \"New "
-"users\" flag for a group to automatically assign new user to this group. You "
-"may also modify permission for authenticated users to manage access for your "
-"team members."
+"users\" flag for a group to automatically assign new user to this group. You"
+" may also modify permission for authenticated users to manage access for "
+"your team members."
 msgstr ""
+"Членовете на вашия екип няма да се покажат тук до първото им влизане. "
+"Задайте флага „Нови потребители“ за група, за да назначите автоматично нов "
+"потребител в тази група. Можете също да промените разрешението за "
+"проверените потребители, за да управлявате достъпа до вашите екипни членове."
 
 #: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
 msgid "Disable"
@@ -233,7 +254,7 @@ msgstr "Въведете нова парола тук"
 
 #: nodepkg/user-widget/UserWidget.tsx:77
 msgid "Authorization link"
-msgstr ""
+msgstr "Линк за оторизация"
 
 #: nodepkg/user-widget/UserWidget.tsx:89 view.py:319 view.py:384
 msgid "Groups"
@@ -241,42 +262,46 @@ msgstr "Групи"
 
 #: nodepkg/user-widget/UserWidget.tsx:126
 msgid ""
-"Consider adding {name} user to your team instead of creating a new user with "
-"a password."
+"Consider adding {name} user to your team instead of creating a new user with"
+" a password."
 msgstr ""
+"Разгледайте възможността да добавите потребител {name} към вашия екип, "
+"вместо да създавате нов потребител с парола."
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
 #: nodepkg/user-widget/UserWidgetPassword.tsx:10
 msgid "Keep existing"
-msgstr ""
+msgstr "Запазете съществуващите"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
 #: nodepkg/user-widget/UserWidgetPassword.tsx:14
 msgid "Assign new"
-msgstr ""
+msgstr "Задайте ново"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
 #: nodepkg/user-widget/UserWidgetPassword.tsx:20
 msgid "Turn off"
-msgstr ""
+msgstr "Изключване"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
 msgid "The generated link will be available after saving."
-msgstr ""
+msgstr "Генерираният линк ще бъде достъпен след запазване."
 
 #: nodepkg/user-widget/UserWidgetPassword.tsx:19
 msgid "{name} only"
-msgstr ""
+msgstr "само {name}"
 
 #: oauth.py:323
 msgid "{} binding error"
-msgstr ""
+msgstr "грешка при свързване на {}"
 
 #: oauth.py:324
 msgid ""
-"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
-"in using this account instead of binding it."
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log"
+" in using this account instead of binding it."
 msgstr ""
+"Този {dn} акаунт ({sub}) вече е свързан с друг потребител ({id}). Влезте "
+"като използвате този акаунт вместо да го свързвате."
 
 #: oauth.py:638
 msgid "OAuth authorization error"
@@ -292,7 +317,7 @@ msgstr "Невалидни възможности на OAuth"
 
 #: oauth.py:653
 msgid "OAuth password grant type failed"
-msgstr ""
+msgstr "Грешка при тип на OAuth предоставяне на парола"
 
 #: oauth.py:658
 msgid "OAuth token refresh failed"
@@ -304,11 +329,11 @@ msgstr "OAuth токен за достъп е с изтекъл срок"
 
 #: permission.py:12
 msgid "View"
-msgstr ""
+msgstr "Преглед"
 
 #: permission.py:13
 msgid "Manage"
-msgstr ""
+msgstr "Управление"
 
 #: permission.py:39 view.py:374
 msgid "Groups and users"
@@ -331,20 +356,24 @@ msgid ""
 "Failed to authenticate using the given authorization link. Please check the "
 "link and contact the administrator."
 msgstr ""
+"Неуспешна автентификация с предоставената връзка за авторизация. Моля, "
+"проверете връзката и се свържете с администратора."
 
 #: view.py:94
 msgid "Usage of authorization link is forbidden for administrators."
-msgstr ""
+msgstr "Използването на връзка за авторизация е забранено за администратори."
 
 #: view.py:133
 msgid "Team membership required"
-msgstr ""
+msgstr "Изисква се членство в екип"
 
 #: view.py:134
 msgid ""
-"You are not a member of this Web GIS team. Contact Web GIS administrator and "
-"ask to be added to the team."
+"You are not a member of this Web GIS team. Contact Web GIS administrator and"
+" ask to be added to the team."
 msgstr ""
+"Вие не сте член на този Web GIS екип. Свържете се с администратора на Web "
+"GIS и поискайте да бъдете добавени към екипа."
 
 #: view.py:278
 msgid "User settings"

@@ -1,7 +1,11 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:24 nodepkg/resource-widget/ResourceWidget.tsx:44
 #, jsrealm, server
 msgid "Terrain provider"
-msgstr ""
+msgstr "Пастаўшчык рэльефу"
 
 #: nodepkg/resource-widget/ResourceWidget.tsx:31
 #, jsrealm

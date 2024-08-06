@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: scope.py:8
 msgid "Collector"
 msgstr "Collettore"
@@ -110,13 +114,15 @@ msgstr "Collettori"
 
 #: api/collector_user.py:31
 msgid "Membership in group \"Administrators\" required!"
-msgstr ""
+msgstr "È necessaria l'appartenenza al gruppo \"Administrators\"!"
 
 #: api/collector_user.py:93 api/collector_user.py:120
 msgid ""
-"Unfortunately, you cannot add a new collector. Your collector users limit in "
-"the Web GIS is"
+"Unfortunately, you cannot add a new collector. Your collector users limit in"
+" the Web GIS is"
 msgstr ""
+"Sfortunatamente, non puoi aggiungere un nuovo collettore. Il tuo limite di "
+"utenti del collettore nel Web GIS è"
 
 #: models/model_db.py:39
 msgid "Collector project"
@@ -124,11 +130,11 @@ msgstr "Progetto collettore"
 
 #: nodepkg/userMessages.js:5
 msgid "Delete collector?"
-msgstr ""
+msgstr "Eliminare il collettore?"
 
 #: nodepkg/userMessages.js:6
 msgid "Collector deleted"
-msgstr ""
+msgstr "Collettore eliminato"
 
 #: nodepkg/collector-user-browse/CollectorUserBrowse.js:16
 #: nodepkg/collector-user-editor/CollectorUserEditor.js:18
@@ -147,26 +153,28 @@ msgstr "Aggiunto"
 #: nodepkg/collector-user-browse/CollectorUserBrowse.js:56
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr ""
+"Non puoi aggiungere un nuovo collettore. Il tuo limite di utenti del "
+"collettore"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:14
 msgid "Collector users:"
-msgstr ""
+msgstr "Utenti del collettore:"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:14
 msgid "out of"
-msgstr ""
+msgstr "su"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:18
 msgid "Each collector must have "
-msgstr ""
+msgstr "Ogni collettore deve avere"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:19
 msgid "NextGIS ID account"
-msgstr ""
+msgstr "Account NextGIS ID"
 
 #: nodepkg/fields-form/NgIdTextBox.js:9
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "Il valore inserito non è valido"
 
 #: views/__init__.py:18
 msgid "Collector projects"
@@ -178,7 +186,7 @@ msgstr "Lista di collettori"
 
 #: views/settings.py:24
 msgid "Create new collector"
-msgstr ""
+msgstr "Crea nuovo collettore"
 
 #: views/settings.py:31
 msgid "Edit collector"
@@ -225,4 +233,3 @@ msgstr "Modifica collettore"
 
 #~ msgid "NextGIS Collector settings"
 #~ msgstr "Impostazioni dei collettori NextGIS"
-

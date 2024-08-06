@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
 #: nodepkg/attribute-editor/index.ts:7 view.py:222
 msgid "Attributes"
@@ -9,7 +13,7 @@ msgstr "N/A"
 
 #: amd/ngw-feature-layer/GeometryInfoWidget.js:9
 msgid "Geometry"
-msgstr ""
+msgstr "Geometrie"
 
 #: api.py:93
 msgid "Geometry is not valid."
@@ -17,7 +21,7 @@ msgstr "Geometrie není platná."
 
 #: api.py:335
 msgid "Unknown spatial reference system"
-msgstr ""
+msgstr "Neznámý prostorový referenční systém"
 
 #: api.py:408 api_export.py:121
 msgid "Parameter 'intersects' geometry is not valid."
@@ -32,16 +36,18 @@ msgid "Format '%s' is not supported."
 msgstr "Formát '%s' není podporován."
 
 #: api_export.py:146
-msgid "The export limit is set to {limit} features, but the layer contains {count}."
+msgid ""
+"The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
+"Limit exportu je nastaven na {limit} funkcí, ale vrstva obsahuje {count}."
 
 #: api_export.py:159
 msgid "Failed to reproject 'intersects' geometry."
-msgstr ""
+msgstr "Nepodařilo se reprojektovat geometrii „protíná“."
 
 #: api_export.py:301
 msgid "File name parameter '{}' is not valid."
-msgstr ""
+msgstr "Parametr názvu souboru '{}' není platný."
 
 #: exception.py:7
 msgid "Feature not found"
@@ -57,11 +63,11 @@ msgstr "Je možné, že byla odstraněna funkce nebo je chyba v adrese."
 
 #: exception.py:20
 msgid "Feature not deleted"
-msgstr ""
+msgstr "Funkce nebyla smazána"
 
 #: exception.py:21
 msgid "Unable to restore the #{} feature as it is not deleted."
-msgstr ""
+msgstr "Nelze obnovit funkci #{}, protože nebyla smazána."
 
 #: favorite.py:5 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:56
 msgid "Feature table"
@@ -73,11 +79,11 @@ msgstr "Pole nebylo nalezeno (ID=%d)."
 
 #: model.py:174
 msgid "Field name is forbidden: '{}'. Please remove or rename it."
-msgstr ""
+msgstr "Název pole je zakázán: '{}'. Odstraňte jej nebo jej přejmenujte."
 
 #: model.py:236
 msgid "Versioning not supported"
-msgstr ""
+msgstr "Verze nejsou podporovány"
 
 #: nodepkg/attribute-editor/AttributeEditor.tsx:32
 msgid "Set field value to NULL (No data)"
@@ -85,11 +91,11 @@ msgstr "Nastavit hodnotu pole na NULL (žádná data)"
 
 #: nodepkg/attribute-editor/AttributeEditor.tsx:33
 msgid "There are no attributes in the vector layer"
-msgstr ""
+msgstr "Ve vektorové vrstvě nejsou žádné atributy"
 
 #: nodepkg/export-form/ExportForm.tsx:177
 msgid "Resources"
-msgstr ""
+msgstr "Zdroje"
 
 #: nodepkg/export-form/ExportForm.tsx:199
 msgid "Format"
@@ -114,15 +120,15 @@ msgstr "Místo klíčových jmen použijte názvy zobrazení polí"
 #: nodepkg/export-form/ExportForm.tsx:241
 #: nodepkg/fields-widget/FieldsWidget.tsx:167
 msgid "Fields"
-msgstr ""
+msgstr "Pole"
 
 #: nodepkg/export-form/ExportForm.tsx:247
 msgid "Limit by extent"
-msgstr ""
+msgstr "Omezit podle rozsahu"
 
 #: nodepkg/export-form/ExportForm.tsx:253
 msgid "Filter text"
-msgstr ""
+msgstr "Filtr textu"
 
 #: nodepkg/export-form/ExportForm.tsx:257
 msgid "Zip archive"
@@ -135,59 +141,59 @@ msgstr "Uložit"
 
 #: nodepkg/export-form/ExtentInput.tsx:6
 msgid "deg."
-msgstr ""
+msgstr "stu."
 
 #: nodepkg/export-form/ExtentInput.tsx:9
 msgid "Left"
-msgstr ""
+msgstr "Vlevo"
 
 #: nodepkg/export-form/ExtentInput.tsx:10
 msgid "Bottom"
-msgstr ""
+msgstr "Dole"
 
 #: nodepkg/export-form/ExtentInput.tsx:11
 msgid "Right"
-msgstr ""
+msgstr "Vpravo"
 
 #: nodepkg/export-form/ExtentInput.tsx:12
 msgid "Top"
-msgstr ""
+msgstr "Nahoru"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:18
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
 msgid "Are you sure?"
-msgstr ""
+msgstr "Jste si jisti?"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
 msgid "Unsaved changes will be lost if you close the window."
-msgstr ""
+msgstr "Neuložené změny budou ztraceny, pokud zavřete okno."
 
 #: nodepkg/feature-editor/FeatureEditorStore.ts:20
 msgid "Feature saved"
-msgstr ""
+msgstr "Funkce uložena"
 
 #: nodepkg/feature-editor/FeatureEditorStore.ts:21
 msgid "No changes to save"
-msgstr ""
+msgstr "Žádné změny k uložení"
 
 #: nodepkg/feature-editor/FeatureEditorWidget.tsx:33
 msgid "Loading..."
-msgstr ""
+msgstr "Načítání..."
 
 #: nodepkg/feature-editor/FeatureEditorWidget.tsx:35
 msgid "Reset"
-msgstr ""
+msgstr "Resetovat"
 
 #: nodepkg/feature-grid/FeatureGrid.tsx:24
 msgid "Open table settings"
-msgstr ""
+msgstr "Otevřít nastavení tabulky"
 
 #: nodepkg/feature-grid/FeatureGrid.tsx:25
 msgid "Refresh table"
-msgstr ""
+msgstr "Obnovit tabulku"
 
 #: nodepkg/feature-grid/FeatureGridActions.tsx:24
 msgid "Open"
@@ -203,7 +209,7 @@ msgstr "Upravit"
 
 #: nodepkg/feature-grid/FeatureGridActions.tsx:27
 msgid "Edit on a new page"
-msgstr ""
+msgstr "Upravit na nové stránce"
 
 #: nodepkg/feature-grid/FeatureGridActions.tsx:29
 msgid "Search..."
@@ -212,7 +218,7 @@ msgstr "Vyhledávání..."
 #: nodepkg/feature-grid/FeatureTable.tsx:95
 #: nodepkg/feature-grid/component/TableConfigModal.tsx:53
 msgid "Last changed"
-msgstr ""
+msgstr "Poslední změna"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:117 view.py:128
 #: view.py:217
@@ -221,15 +227,15 @@ msgstr "Uložit jako"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:31
 msgid "Advanced Export"
-msgstr ""
+msgstr "Pokročilý export"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:32
 msgid "Quick Export"
-msgstr ""
+msgstr "Rychlý export"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:33
 msgid "Filters are applied"
-msgstr ""
+msgstr "Filtry jsou aplikovány"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:23
 #: template/resource_section_fields.mako:17
@@ -253,7 +259,7 @@ msgstr "Vyhledávací tabulka"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:28
 msgid "Text search"
-msgstr ""
+msgstr "Textové vyhledávání"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:29
 msgid "Label attribute"
@@ -261,79 +267,82 @@ msgstr "Označení  atribut"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:31
 msgid "Please select"
-msgstr ""
+msgstr "Vyberte prosím"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:32
 msgid "Not used"
-msgstr ""
+msgstr "Nepoužito"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:115
 msgid "Field"
-msgstr ""
+msgstr "Pole"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:56
 msgid "Load geometry info..."
-msgstr ""
+msgstr "Načítání informací o geometrii..."
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:65
 msgid "Failed to get information about the geometry"
-msgstr ""
+msgstr "Nepodařilo se získat informace o geometrii"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:75
 msgid "Perimeter"
-msgstr ""
+msgstr "Obvod"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:76
 msgid "Length"
-msgstr ""
+msgstr "Délka"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:84
 msgid "Area"
-msgstr ""
+msgstr "Plocha"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:92
 msgid "Geometry type"
-msgstr ""
+msgstr "Typ geometrie"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:100
 msgid "Extent (xMin)"
-msgstr ""
+msgstr "Rozsah (xMin)"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:104
 msgid "Extent (yMin)"
-msgstr ""
+msgstr "Rozsah (yMin)"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:108
 msgid "Extent (xMax)"
-msgstr ""
+msgstr "Rozsah (xMax)"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:112
 msgid "Extent (yMax)"
-msgstr ""
+msgstr "Rozsah (yMax)"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:18
 msgid "Feature versioning"
-msgstr ""
+msgstr "Verze funkcí"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:19
 msgid ""
 "Experimental feature. Some operations may not work if feature versioning is "
 "enabled."
 msgstr ""
+"Experimentální funkce. Některé operace nemusí fungovat, pokud je povoleno "
+"verzování funkcí."
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:40
 msgid "Disable feature versioning?"
-msgstr ""
+msgstr "Zakázat verzování funkcí?"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:41
 msgid ""
 "Turning off feature versioning will truncate the history and keep only the "
 "latest state."
 msgstr ""
+"Vypnutím verzování funkcí se historie zkrátí a zůstane pouze poslední stav."
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:64
 msgid "Settings"
-msgstr ""
+msgstr "Nastavení"
 
 #: template/resource_section_fields.mako:21 view.py:206
 msgid "Table"
@@ -351,19 +360,19 @@ msgstr "Ne"
 
 #: transaction/exception.py:7
 msgid "Transaction not found"
-msgstr ""
+msgstr "Transakce nebyla nalezena"
 
 #: transaction/exception.py:12
 msgid "Operation conflict in transaction"
-msgstr ""
+msgstr "Konflikt operací v transakci"
 
 #: transaction/exception.py:20
 msgid "Transaction not committed"
-msgstr ""
+msgstr "Transakce nebyla potvrzena"
 
 #: versioning/exception.py:17
 msgid "Not implemented for feature versioning"
-msgstr ""
+msgstr "Není implementováno pro verzování funkcí"
 
 #: versioning/exception.py:18
 msgid ""
@@ -371,34 +380,36 @@ msgid ""
 "enabled. Disable feature versioning for the resource first, and then try "
 "again."
 msgstr ""
+"Tuto operaci nelze provést na zdroji se zapnutým verzováním funkcí. Nejprve "
+"zakažte verzování funkcí pro zdroj a poté to zkuste znovu."
 
 #: versioning/exception.py:27
 msgid "Feature versioning required"
-msgstr ""
+msgstr "Vyžadováno verzování funkcí"
 
 #: versioning/exception.py:32
 msgid "Feature versioning is not supported for this resource."
-msgstr ""
+msgstr "Verze funkcí není pro tento zdroj podporována."
 
 #: versioning/exception.py:34
 msgid "Feature versioning is not enabled for this resource."
-msgstr ""
+msgstr "Verze funkcí není pro tento zdroj povolena."
 
 #: versioning/exception.py:41
 msgid "Epoch required"
-msgstr ""
+msgstr "Vyžadována epocha"
 
 #: versioning/exception.py:45
 msgid "Epoch mismatch"
-msgstr ""
+msgstr "Nesoulad epochy"
 
 #: versioning/exception.py:55
 msgid "Version out of range"
-msgstr ""
+msgstr "Verze je mimo rozsah"
 
 #: versioning/exception.py:65
 msgid "Invalid range"
-msgstr ""
+msgstr "Neplatný rozsah"
 
 #: view.py:78 view.py:95
 msgid "Feature #%d"
@@ -413,8 +424,8 @@ msgid ""
 "The Mapbox Vector Tile is an efficient encoding for map data into vector "
 "tiles that can be rendered dynamically."
 msgstr ""
-"Mapbox Vector Tile je efektivní kódování mapových dat do vektorových dlaždic,"
-" které lze dynamicky poskytnout."
+"Mapbox Vector Tile je efektivní kódování mapových dat do vektorových "
+"dlaždic, které lze dynamicky poskytnout."
 
 #: view.py:200
 msgid "Features"

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: component.py:90
 #, server
 msgid "NextGIS geoinformation system"
@@ -16,22 +20,22 @@ msgstr "Дыстрыбутыў АС"
 #: component.py:284
 #, server
 msgid "CPU"
-msgstr "CPU"
+msgstr "ЦПУ"
 
 #: component.py:287
 #, server
 msgid "RAM"
-msgstr "RAM"
+msgstr "АЗП"
 
 #: component.py:316
 #, server
 msgid "Last backup"
-msgstr ""
+msgstr "Апошні рэзервовыя копіі"
 
 #: component.py:320
 #, server
 msgid "Last maintenance"
-msgstr ""
+msgstr "Апошняе абслугоўванне"
 
 #: exception.py:116
 #, server
@@ -61,12 +65,12 @@ msgstr "Памылка знешняй службы"
 #: exception.py:145
 #, server
 msgid "Not configured"
-msgstr ""
+msgstr "Не настроена"
 
 #: storage.py:289
 #, server
 msgid "Storage full"
-msgstr ""
+msgstr "Сховішча запоўнена"
 
 #: storage.py:290
 #, python-format, server
@@ -74,18 +78,22 @@ msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr ""
+"Гэтая аперацыя не можа быць выканана, таму што ліміт сховішча (%s) ужо "
+"перавышаны на %s."
 
 #: storage.py:300
 #, server
 msgid "Not enough storage"
-msgstr ""
+msgstr "Недастаткова сховішча"
 
 #: storage.py:301
 #, python-format, server
 msgid ""
-"This operation requires %s of storage and can't be performed because only %s "
-"available."
+"This operation requires %s of storage and can't be performed because only %s"
+" available."
 msgstr ""
+"Гэтая аперацыя патрабуе %s сховішча і не можа быць выканана, таму што "
+"даступна толькі %s."
 
 #: storage.py:311
 #, server

@@ -1,66 +1,77 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:38
 msgid ""
 "The original QML was requested but the style has '{}' format. Use other "
 "values of the 'original' parameter."
 msgstr ""
+"Die ursprüngliche QML wurde angefordert, aber der Stil hat das Format '{}'. "
+"Verwenden Sie andere Werte für den 'original'-Parameter."
 
 #: model.py:155
 msgid "QGIS raster style"
-msgstr ""
+msgstr "QGIS-Rasterstil"
 
 #: model.py:206
 msgid "Band {}"
-msgstr ""
+msgstr "Band {}"
 
 #: model.py:256
 msgid "QGIS vector style"
-msgstr ""
+msgstr "QGIS-Vektorstil"
 
 #: model.py:462 model.py:476 model.py:508
 msgid "Style format mismatch."
-msgstr ""
+msgstr "Stilformat stimmt nicht überein."
 
 #: model.py:506 model.py:660
 msgid "Style file is not valid."
-msgstr ""
+msgstr "Stildatei ist nicht gültig."
 
 #: model.py:658
 msgid "Layer type mismatch."
-msgstr ""
+msgstr "Layertyp stimmt nicht überein."
 
 #: nodepkg/CopyFromComponent.tsx:7
 msgid "Source"
-msgstr ""
+msgstr "Quelle"
 
 #: nodepkg/default-style-widget/DefaultStyleWidget.tsx:12
 msgid "Create default QGIS style"
-msgstr ""
+msgstr "Standard-QGIS-Stil erstellen"
 
 #: nodepkg/default-style-widget/DefaultStyleWidget.tsx:13
 msgid ""
-"Layer created. You need a style to add it to a web map. Use the button bellow"
-" to create a default QGIS style or create a style resource using sidebar."
+"Layer created. You need a style to add it to a web map. Use the button "
+"bellow to create a default QGIS style or create a style resource using "
+"sidebar."
 msgstr ""
+"Layer erstellt. Sie benötigen einen Stil, um ihn zu einer Webkarte "
+"hinzuzufügen. Verwenden Sie die Schaltfläche unten, um einen Standard-QGIS-"
+"Stil zu erstellen, oder erstellen Sie eine Stilressource über die "
+"Seitenleiste."
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:30
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:31
 msgid "Style from file"
-msgstr ""
+msgstr "Stil aus Datei"
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:31
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:32
 msgid "User-defined style"
-msgstr ""
+msgstr "Benutzerdefinierter Stil"
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:32
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:33
 msgid "Default style"
-msgstr ""
+msgstr "Standardstil"
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:33
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:34
 msgid "Copy from resource"
-msgstr ""
+msgstr "Aus Ressource kopieren"
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:66
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:68 view.py:38
@@ -70,12 +81,12 @@ msgstr "QGIS-Stil"
 #: nodepkg/raster-editor-widget/component/FileModeComponent.tsx:9
 #: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:10
 msgid "Select a style"
-msgstr ""
+msgstr "Wählen Sie einen Stil aus"
 
 #: nodepkg/raster-editor-widget/component/FileModeComponent.tsx:10
 #: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:11
 msgid "QML or SLD formats are supported."
-msgstr ""
+msgstr "QML- oder SLD-Formate werden unterstützt."
 
 #: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:12
 msgid "SVG marker library"

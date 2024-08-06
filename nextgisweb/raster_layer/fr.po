@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:46
 msgid "Output format is not provided."
 msgstr "Le format de sortie n'est pas fourni."
@@ -32,11 +36,11 @@ msgstr "La bibliothèque GDAL n'a pas pu ouvrir le fichier."
 
 #: model.py:109
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
-"Le raster a le format '%(format)s', mais seuls les formats suivants sont pris"
-" en charge : %(all_formats)s."
+"Le raster a le format '%(format)s', mais seuls les formats suivants sont "
+"pris en charge : %(all_formats)s."
 
 #: model.py:116
 msgid "Raster files without projection info are not supported."
@@ -50,29 +54,33 @@ msgstr "Les types de données à bandes mixtes ne sont pas pris en charge."
 
 #: model.py:163
 msgid "GDAL was uanble to parse the raster coordinate system."
-msgstr ""
+msgstr "GDAL n'a pas pu analyser le système de coordonnées du raster."
 
 #: model.py:167
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
+"Le raster source a un système de coordonnées local et ne peut pas être "
+"reprojeté dans le système de coordonnées cible."
 
 #: model.py:184
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr ""
+"Échec de la reprojection du raster dans le système de coordonnées cible."
 
 #: model.py:187
 msgid "GDAL error message: %s"
-msgstr ""
+msgstr "Message d'erreur GDAL : %s"
 
 #: model.py:203
 msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
 msgstr ""
-"La taille du raster non compressé (%(taille)s) dépasse la limite (%(limite)s)"
-" de %(delta)s. Réduisez la taille du raster pour respecter la limite."
+"La taille du raster non compressé (%(taille)s) dépasse la limite "
+"(%(limite)s) de %(delta)s. Réduisez la taille du raster pour respecter la "
+"limite."
 
 #: model.py:315
 msgid "Data type"
@@ -92,7 +100,7 @@ msgstr "Le jeu de données doit être au format GeoTIFF."
 
 #: nodepkg/editor-widget/EditorWidget.tsx:39
 msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr ""
+msgstr "GeoTIFF Optimisé pour le Cloud (COG)"
 
 #: nodepkg/export-form/ExportForm.tsx:55
 msgid "Band"
@@ -125,17 +133,18 @@ msgstr "GéoTIFF optimisé pour le cloud"
 #: view.py:34
 msgid ""
 "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
-"hosted on a HTTP file server, with an internal organization that enables more"
-" efficient workflows on the cloud. It does this by leveraging the ability of "
-"clients issuing ​HTTP GET range requests to ask for just the parts of a file "
-"they need."
+"hosted on a HTTP file server, with an internal organization that enables "
+"more efficient workflows on the cloud. It does this by leveraging the "
+"ability of clients issuing ​HTTP GET range requests to ask for just the "
+"parts of a file they need."
 msgstr ""
 "Un GeoTIFF optimisé pour le cloud (COG) est un fichier GeoTIFF standard, "
-"destiné à être hébergé sur un serveur de fichiers HTTP, avec une organisation"
-" interne qui permet des flux de travail plus efficaces sur le cloud. Pour ce "
-"faire, il exploite la capacité des clients émettant des requêtes de plage "
-"HTTP GET à ne demander que les parties d'un fichier dont ils ont besoin."
+"destiné à être hébergé sur un serveur de fichiers HTTP, avec une "
+"organisation interne qui permet des flux de travail plus efficaces sur le "
+"cloud. Pour ce faire, il exploite la capacité des clients émettant des "
+"requêtes de plage HTTP GET à ne demander que les parties d'un fichier dont "
+"ils ont besoin."
 
 #: view.py:69
 msgid "Download"
-msgstr ""
+msgstr "Télécharger"

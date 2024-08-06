@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-feature-description/DisplayWidget.js:7
 #: nodepkg/description-editor/index.ts:7
 msgid "Description"
@@ -5,4 +9,4 @@ msgstr "Descripción"
 
 #: util.py:19
 msgid "Invalid ZIP archive."
-msgstr ""
+msgstr "Archivo ZIP no válido."

@@ -1,7 +1,11 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:82
 #, server
 msgid "Invalid origin"
-msgstr ""
+msgstr "Няслушнае паходжанне"
 
 #: api.py:83
 #, server
@@ -9,11 +13,13 @@ msgid ""
 "Origin validation is enabled for rendering requests, but the given origin "
 "doesn't match with the CORS origins list."
 msgstr ""
+"Праверка паходжання ўключана для запытаў на адлюстраванне, але ўказанае "
+"паходжанне не адпавядае спісу паходжанняў CORS."
 
 #: api.py:158
 #, server
 msgid "Invalid symbols sequence"
-msgstr ""
+msgstr "Няслушная паслядоўнасць сімвалаў"
 
 #: component.py:24 nodepkg/tile-cache-widget/TileCacheWidget.tsx:93
 #, jsrealm, server
@@ -28,7 +34,7 @@ msgstr "Уключана"
 #: component.py:51
 #, server
 msgid "Disabled"
-msgstr ""
+msgstr "Адключана"
 
 #: nodepkg/tile-cache-widget/TileCacheWidget.tsx:58
 #, jsrealm
@@ -53,14 +59,14 @@ msgstr "Запоўніць"
 #: view.py:25
 #, server
 msgid "TMS (Tile Map Service)"
-msgstr "TMS (Tile Map Service)"
+msgstr "\"TMS (Tile Map Service)\""
 
 #: view.py:26
 #, server
 msgid ""
 "TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
-"is a map displayed in a browser by seamlessly joining dozens of individually "
-"requested image."
+"is a map displayed in a browser by seamlessly joining dozens of individually"
+" requested image."
 msgstr ""
 "TMS (Tile Map Service) - гэта спецыфікацыя для тайлавых вэб-карт. Тайлавая "
 "вэб-карта - гэта карта, якая адлюстроўваецца ў браўзеры шляхам "
@@ -69,4 +75,4 @@ msgstr ""
 #: view.py:42
 #, server
 msgid "Legend symbols"
-msgstr ""
+msgstr "Сімвалы легенды"

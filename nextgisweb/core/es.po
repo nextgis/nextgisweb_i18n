@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: component.py:90
 msgid "NextGIS geoinformation system"
 msgstr "Servicio geoinformativo NextGIS"
@@ -20,11 +24,11 @@ msgstr "RAM"
 
 #: component.py:316
 msgid "Last backup"
-msgstr ""
+msgstr "Última copia de seguridad"
 
 #: component.py:320
 msgid "Last maintenance"
-msgstr ""
+msgstr "Último mantenimiento"
 
 #: exception.py:116
 msgid "Validation error"
@@ -48,7 +52,7 @@ msgstr "Error de servicio externo"
 
 #: exception.py:145
 msgid "Not configured"
-msgstr ""
+msgstr "No configurado"
 
 #: storage.py:289
 msgid "Storage full"
@@ -68,8 +72,8 @@ msgstr "No hay suficiente almacenamiento"
 
 #: storage.py:301
 msgid ""
-"This operation requires %s of storage and can't be performed because only %s "
-"available."
+"This operation requires %s of storage and can't be performed because only %s"
+" available."
 msgstr ""
 "Esta operación requiere %s de almacenamiento y no se puede realizar porque "
 "solo %s está disponible."

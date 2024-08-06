@@ -1,41 +1,45 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:16 nodepkg/service-widget/ServiceWidget.tsx:103
 #, jsrealm, server
 msgid "OGC API Features service"
-msgstr ""
+msgstr "OGC API Features 服务"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:27
 #, jsrealm
 msgid "Display name"
-msgstr ""
+msgstr "显示名称"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:32
 #, jsrealm
 msgid "Keyname"
-msgstr ""
+msgstr "关键名称"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:37
 #, jsrealm
 msgid "Features per request"
-msgstr ""
+msgstr "每个请求的要素"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:42
 #, jsrealm
 msgid "Not set"
-msgstr ""
+msgstr "未设置"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:47
 #, jsrealm
 msgid "Resource"
-msgstr ""
+msgstr "资源"
 
 #: view.py:16
 #, server
 msgid "OGC API Features"
-msgstr ""
+msgstr "OGC API Features 功能"
 
 #: view.py:17
 #, server
 msgid ""
 "OGC API Features provides API building blocks to create, modify and query "
 "features on the Web."
-msgstr ""
+msgstr "OGC API Features 提供了创建、修改和查询 Web 上要素的 API 构建模块。"

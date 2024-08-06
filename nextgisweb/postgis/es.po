@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:83
 msgid "Table (%s) not found in schema (%s)."
 msgstr "La tabla (%s) no se encuentra en el esquema (%s)."
@@ -164,11 +168,11 @@ msgstr "Discrepancia de SRID de geometría."
 
 #: diagnostics.py:408
 msgid "Failed to reproject extent to SRID {}."
-msgstr ""
+msgstr "Falló al reproyectar el alcance al SRID {}."
 
 #: diagnostics.py:412
 msgid "Extent (SRID {}): {}."
-msgstr ""
+msgstr "Extensión (SRID {}): {}."
 
 #: diagnostics.py:416
 msgid "Field columns"
@@ -180,7 +184,8 @@ msgstr "No se encontró la columna del campo '{}'."
 
 #: diagnostics.py:431
 msgid "Column of field '{}' found, but has an incompatible type - {}."
-msgstr "Se encontró la columna del campo '{}', pero tiene un tipo incompatible - {}."
+msgstr ""
+"Se encontró la columna del campo '{}', pero tiene un tipo incompatible - {}."
 
 #: diagnostics.py:437
 msgid "Column of field '{}' found, type is {}."
@@ -255,8 +260,10 @@ msgid "Table '%(table)s' not found!"
 msgstr "¡Tabla '%(table)s' no encontrada!"
 
 #: model.py:307
-msgid "SRID missing in geometry_columns table! You should specify it manually."
-msgstr "¡Falta SRID en la tabla geometry_columns! Debe especificarlo manualmente."
+msgid ""
+"SRID missing in geometry_columns table! You should specify it manually."
+msgstr ""
+"¡Falta SRID en la tabla geometry_columns! Debe especificarlo manualmente."
 
 #: model.py:313
 msgid "0 is an invalid SRID."
@@ -271,8 +278,8 @@ msgid ""
 "Geometry type missing in geometry_columns table! You should specify it "
 "manually."
 msgstr ""
-"¡Falta el tipo de geometría en la tabla geometry_columns! Debe especificarlo "
-"manualmente."
+"¡Falta el tipo de geometría en la tabla geometry_columns! Debe especificarlo"
+" manualmente."
 
 #: model.py:345
 msgid "Geometry type in geometry_columns table does not match specified!"
@@ -330,7 +337,7 @@ msgstr "Error"
 
 #: nodepkg/layer-widget/LayerStore.ts:13
 msgid "Fields need to be updated due to autodetection"
-msgstr ""
+msgstr "Campos necesitan ser actualizados debido a la autodetección"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:28
 msgid "Connection"
@@ -350,19 +357,19 @@ msgstr "Detección automática"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:35
 msgid "SRID"
-msgstr ""
+msgstr "SRID"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:36
 msgid "Fields"
-msgstr ""
+msgstr "Campos"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:107
 msgid "Keep existing definitions untouched"
-msgstr ""
+msgstr "Mantener las definiciones existentes sin cambios"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:108
 msgid "Update definitions from the database"
-msgstr ""
+msgstr "Actualizar definiciones desde la base de datos"
 
 #: view.py:39
 msgid "Diagnostics"

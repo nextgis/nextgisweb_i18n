@@ -1,34 +1,38 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:26 nodepkg/resource-widget/Widget.tsx:93 view.py:22 view.py:30
 msgid "SVG marker library"
 msgstr "SVG标记库"
 
 #: model.py:87
 msgid "File '{}' has an insecure name."
-msgstr ""
+msgstr "文件'{}'的名称不安全。"
 
 #: model.py:92 nodepkg/resource-widget/Store.ts:75
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "文件'{}'的扩展名无效。"
 
 #: model.py:98
 msgid "File '{}' has a format different from SVG."
-msgstr ""
+msgstr "文件'{}'的格式与SVG不同。"
 
 #: nodepkg/resource-widget/Store.ts:92
 msgid "ZIP archive required"
-msgstr ""
+msgstr "需要ZIP档案"
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Add SVG files"
-msgstr ""
+msgstr "添加SVG文件"
 
 #: nodepkg/resource-widget/Widget.tsx:54
 msgid "Import from ZIP archive"
-msgstr ""
+msgstr "从ZIP档案导入"
 
 #: nodepkg/resource-widget/Widget.tsx:65
 msgid "SVG markers will be imported from:"
-msgstr ""
+msgstr "SVG标记将从以下位置导入："
 
 #: template/resource_section.mako:8
 msgid "Name"

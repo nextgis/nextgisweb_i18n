@@ -1,22 +1,28 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:24
 msgid "Basemap"
 msgstr "Grundkarte"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:18
 msgid "Pick from QMS"
-msgstr ""
+msgstr "Aus QMS auswählen"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:20
 msgid "Search for geoservices provided by "
-msgstr ""
+msgstr "Suche nach Geodiensten bereitgestellt von"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:21
 msgid "You can search by name or ID"
-msgstr ""
+msgstr "Sie können nach Name oder ID suchen"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:24
 msgid "If a service from QMS is selected, this field cannot be edited."
 msgstr ""
+"Wenn ein Dienst aus QMS ausgewählt ist, kann dieses Feld nicht bearbeitet "
+"werden."
 
 #: nodepkg/layer-widget/LayerWidget.tsx:80
 msgid "URL"
@@ -24,11 +30,11 @@ msgstr "URL"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:88
 msgid "Copyright text"
-msgstr ""
+msgstr "Urheberrechtstext"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:97
 msgid "Copyright URL"
-msgstr ""
+msgstr "Urheberrechts-URL"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:109
 #: nodepkg/webmap-widget/WebMapWidget.tsx:125
@@ -41,7 +47,7 @@ msgstr "Anzeigename"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:61
 msgid "Default basemap"
-msgstr ""
+msgstr "Standard-Grundkarte"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:64
 msgid "Opacity"

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:81
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr "El atributo '%s' del principal del sistema no se puede cambiar."
@@ -32,7 +36,7 @@ msgstr "Se hace referencia al grupo con recursos"
 
 #: api.py:615
 msgid "Administrator required"
-msgstr ""
+msgstr "Se requiere administrador"
 
 #: api.py:616
 msgid "The 'administrators' group must have at least one enabled member."
@@ -43,7 +47,9 @@ msgid "Administrator"
 msgstr "Administrador"
 
 #: component.py:258
-msgid "Maximum number of users is reached. Your current plan user number limit is %d."
+msgid ""
+"Maximum number of users is reached. Your current plan user number limit is "
+"%d."
 msgstr ""
 "Se alcanza el número máximo de usuarios. El límite de número de usuarios de "
 "su plan actual es %d."
@@ -84,33 +90,40 @@ msgstr "Propietario"
 msgid "Administrators"
 msgstr "Administradores"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:8 nodepkg/group-widget/GroupWidget.tsx:19
+#: nodepkg/group-browse/GroupBrowse.tsx:8
+#: nodepkg/group-widget/GroupWidget.tsx:19
 msgid "Delete group?"
 msgstr "¿Eliminar grupo?"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:9 nodepkg/group-widget/GroupWidget.tsx:20
+#: nodepkg/group-browse/GroupBrowse.tsx:9
+#: nodepkg/group-widget/GroupWidget.tsx:20
 msgid "Group deleted"
 msgstr "Grupo eliminado"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
+#: nodepkg/group-browse/GroupBrowse.tsx:19
+#: nodepkg/group-widget/GroupWidget.tsx:28
 #: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:42
 msgid "Full name"
 msgstr "Nombre completo"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:25 nodepkg/group-widget/GroupWidget.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:25
+#: nodepkg/group-widget/GroupWidget.tsx:34
 msgid "Group name"
 msgstr "Nombre del grupo"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:31 nodepkg/group-widget/GroupWidget.tsx:59
+#: nodepkg/group-browse/GroupBrowse.tsx:31
+#: nodepkg/group-widget/GroupWidget.tsx:59
 msgid "New users"
 msgstr "Usuarios nuevos"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
 #: nodepkg/user-browse/UserBrowse.tsx:27
 msgid "Yes"
 msgstr "Sí"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
 #: nodepkg/user-browse/UserBrowse.tsx:28
 msgid "No"
 msgstr "No"
@@ -119,15 +132,17 @@ msgstr "No"
 msgid "Users"
 msgstr "Usuarios"
 
-#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:100
+#: nodepkg/group-widget/GroupWidget.tsx:53
+#: nodepkg/user-widget/UserWidget.tsx:100
 msgid "Permissions"
-msgstr ""
+msgstr "Permisos"
 
 #: nodepkg/group-widget/GroupWidget.tsx:65
 msgid "{dn} mapping"
-msgstr "{dn} mapping"
+msgstr "Mapeo de {dn}"
 
-#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:112
+#: nodepkg/group-widget/GroupWidget.tsx:72
+#: nodepkg/user-widget/UserWidget.tsx:112
 msgid "Description"
 msgstr "Descripción"
 
@@ -173,7 +188,8 @@ msgstr "Ligar cuenta"
 msgid "Account not bound"
 msgstr "Cuenta no ligada"
 
-#: nodepkg/settings-form/SettingsForm.tsx:55 nodepkg/user-widget/UserWidget.tsx:106
+#: nodepkg/settings-form/SettingsForm.tsx:55
+#: nodepkg/user-widget/UserWidget.tsx:106
 msgid "Language"
 msgstr "Idioma"
 
@@ -218,9 +234,9 @@ msgstr "Usuario eliminado"
 #: nodepkg/user-browse/UserBrowse.tsx:122
 msgid ""
 "Your team members won't be shown here until their first logon. Set \"New "
-"users\" flag for a group to automatically assign new user to this group. You "
-"may also modify permission for authenticated users to manage access for your "
-"team members."
+"users\" flag for a group to automatically assign new user to this group. You"
+" may also modify permission for authenticated users to manage access for "
+"your team members."
 msgstr ""
 "Los miembros de su equipo no se mostrarán aquí hasta que inicien sesión por "
 "primera vez. Establezca \"Nuevos usuarios\" para que un grupo asigne "
@@ -250,8 +266,8 @@ msgstr "Grupos"
 
 #: nodepkg/user-widget/UserWidget.tsx:126
 msgid ""
-"Consider adding {name} user to your team instead of creating a new user with "
-"a password."
+"Consider adding {name} user to your team instead of creating a new user with"
+" a password."
 msgstr ""
 "Considere agregar el usuario {name} a su equipo en lugar de crear un nuevo "
 "usuario con una contraseña."
@@ -259,7 +275,7 @@ msgstr ""
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
 #: nodepkg/user-widget/UserWidgetPassword.tsx:10
 msgid "Keep existing"
-msgstr ""
+msgstr "Mantener existente"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
 #: nodepkg/user-widget/UserWidgetPassword.tsx:14
@@ -285,8 +301,8 @@ msgstr "{} error de ligada"
 
 #: oauth.py:324
 msgid ""
-"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
-"in using this account instead of binding it."
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log"
+" in using this account instead of binding it."
 msgstr ""
 "Esta cuenta {dn} ({sub}) ya está ligada al usuario diferente ({id}). Inicie "
 "sesión con esta cuenta en lugar de ligarla."
@@ -317,11 +333,11 @@ msgstr "El token de acceso de OAuth está caducado"
 
 #: permission.py:12
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: permission.py:13
 msgid "Manage"
-msgstr ""
+msgstr "Gestionar"
 
 #: permission.py:39 view.py:374
 msgid "Groups and users"
@@ -349,19 +365,20 @@ msgstr ""
 
 #: view.py:94
 msgid "Usage of authorization link is forbidden for administrators."
-msgstr "El uso del enlace de autorización está prohibido para los administradores."
+msgstr ""
+"El uso del enlace de autorización está prohibido para los administradores."
 
 #: view.py:133
 msgid "Team membership required"
-msgstr ""
+msgstr "Se requiere membresía de equipo"
 
 #: view.py:134
 msgid ""
-"You are not a member of this Web GIS team. Contact Web GIS administrator and "
-"ask to be added to the team."
+"You are not a member of this Web GIS team. Contact Web GIS administrator and"
+" ask to be added to the team."
 msgstr ""
-"No es miembro de este equipo Web GIS. Comuníquese con el administrador de Web"
-" GIS y solicite que lo agreguen al equipo."
+"No es miembro de este equipo Web GIS. Comuníquese con el administrador de "
+"Web GIS y solicite que lo agreguen al equipo."
 
 #: view.py:278
 msgid "User settings"

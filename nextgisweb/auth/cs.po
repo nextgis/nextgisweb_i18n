@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:81
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr "Atribut '%s ' principal systému nelze změnit."
@@ -12,7 +16,7 @@ msgstr "Principal s plným názvem '%s ' již existuje."
 
 #: api.py:160
 msgid "Password is not set."
-msgstr ""
+msgstr "Heslo není nastaveno."
 
 #: api.py:586
 msgid "User '%s' can't be a member of a group."
@@ -32,7 +36,7 @@ msgstr "Skupina je odkazována na zdroje"
 
 #: api.py:615
 msgid "Administrator required"
-msgstr ""
+msgstr "Vyžadován administrátor"
 
 #: api.py:616
 msgid "The 'administrators' group must have at least one enabled member."
@@ -43,10 +47,12 @@ msgid "Administrator"
 msgstr "Administrátor"
 
 #: component.py:258
-msgid "Maximum number of users is reached. Your current plan user number limit is %d."
+msgid ""
+"Maximum number of users is reached. Your current plan user number limit is "
+"%d."
 msgstr ""
-"Bylo dosaženo maximálního počtu uživatelů. Váš aktuální limit počtu uživatelů"
-" plánu je %d."
+"Bylo dosaženo maximálního počtu uživatelů. Váš aktuální limit počtu "
+"uživatelů plánu je %d."
 
 #: exception.py:7
 msgid "Invalid authorization header"
@@ -62,7 +68,7 @@ msgstr "Uživatel je deaktivován"
 
 #: exception.py:22
 msgid "Invalid authorization link"
-msgstr ""
+msgstr "Neplatný autorizační odkaz"
 
 #: model.py:92
 msgid "Guest"
@@ -84,56 +90,65 @@ msgstr "Majitel"
 msgid "Administrators"
 msgstr "Administrátoři"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:8 nodepkg/group-widget/GroupWidget.tsx:19
+#: nodepkg/group-browse/GroupBrowse.tsx:8
+#: nodepkg/group-widget/GroupWidget.tsx:19
 msgid "Delete group?"
 msgstr "Smazat skupinu?"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:9 nodepkg/group-widget/GroupWidget.tsx:20
+#: nodepkg/group-browse/GroupBrowse.tsx:9
+#: nodepkg/group-widget/GroupWidget.tsx:20
 msgid "Group deleted"
 msgstr "Skupina smazána"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
+#: nodepkg/group-browse/GroupBrowse.tsx:19
+#: nodepkg/group-widget/GroupWidget.tsx:28
 #: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:42
 msgid "Full name"
 msgstr "Celé jméno"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:25 nodepkg/group-widget/GroupWidget.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:25
+#: nodepkg/group-widget/GroupWidget.tsx:34
 msgid "Group name"
 msgstr "Jméno skupiny"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:31 nodepkg/group-widget/GroupWidget.tsx:59
+#: nodepkg/group-browse/GroupBrowse.tsx:31
+#: nodepkg/group-widget/GroupWidget.tsx:59
 msgid "New users"
-msgstr ""
+msgstr "Noví uživatelé"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
 #: nodepkg/user-browse/UserBrowse.tsx:27
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
-#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
 #: nodepkg/user-browse/UserBrowse.tsx:28
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: nodepkg/group-widget/GroupWidget.tsx:41 view.py:285 view.py:378
 msgid "Users"
 msgstr "Uživatelé"
 
-#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:100
+#: nodepkg/group-widget/GroupWidget.tsx:53
+#: nodepkg/user-widget/UserWidget.tsx:100
 msgid "Permissions"
-msgstr ""
+msgstr "Oprávnění"
 
 #: nodepkg/group-widget/GroupWidget.tsx:65
 msgid "{dn} mapping"
-msgstr ""
+msgstr "{dn} mapování"
 
-#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:112
+#: nodepkg/group-widget/GroupWidget.tsx:72
+#: nodepkg/user-widget/UserWidget.tsx:112
 msgid "Description"
 msgstr "Popis"
 
 #: nodepkg/login/LoginForm.tsx:20
 msgid "Sign in with {}"
-msgstr ""
+msgstr "Přihlásit se pomocí {}"
 
 #: nodepkg/login/LoginForm.tsx:21 view.py:32
 msgid "Sign in to Web GIS"
@@ -146,7 +161,7 @@ msgstr "Přihlaste"
 #: nodepkg/login/LoginForm.tsx:35 nodepkg/user-browse/UserBrowse.tsx:25
 #: nodepkg/user-widget/UserWidget.tsx:48
 msgid "Login"
-msgstr "Login"
+msgstr "Přihlášení"
 
 #: nodepkg/login/LoginForm.tsx:40 nodepkg/user-browse/UserBrowse.tsx:26
 #: nodepkg/user-widget/UserWidget.tsx:55
@@ -155,25 +170,26 @@ msgstr "Heslo"
 
 #: nodepkg/login/LoginForm.tsx:94
 msgid "or using login and password"
-msgstr ""
+msgstr "nebo použitím přihlášení a hesla"
 
 #: nodepkg/oauth.tsx:26
 msgid "Manage team"
-msgstr ""
+msgstr "Spravovat tým"
 
 #: nodepkg/settings-form/SettingsForm.tsx:27
 msgid "Account bound"
-msgstr ""
+msgstr "Účet svázán"
 
 #: nodepkg/settings-form/SettingsForm.tsx:38
 msgid "Bind account"
-msgstr ""
+msgstr "Svázat účet"
 
 #: nodepkg/settings-form/SettingsForm.tsx:40
 msgid "Account not bound"
-msgstr ""
+msgstr "Účet není svázán"
 
-#: nodepkg/settings-form/SettingsForm.tsx:55 nodepkg/user-widget/UserWidget.tsx:106
+#: nodepkg/settings-form/SettingsForm.tsx:55
+#: nodepkg/user-widget/UserWidget.tsx:106
 msgid "Language"
 msgstr "Jazyk"
 
@@ -199,11 +215,11 @@ msgstr "Stav"
 
 #: nodepkg/user-browse/UserBrowse.tsx:34
 msgid "Users with a password can sign in with login and password."
-msgstr ""
+msgstr "Uživatelé s heslem se mohou přihlásit pomocí přihlášení a hesla."
 
 #: nodepkg/user-browse/UserBrowse.tsx:35
 msgid "Users bound to {dn} can sign in with {dn}."
-msgstr ""
+msgstr "Uživatelé svázaní s {dn} se mohou přihlásit pomocí {dn}."
 
 #: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:22
 msgid "Delete user?"
@@ -216,10 +232,14 @@ msgstr "Uživatel smazán"
 #: nodepkg/user-browse/UserBrowse.tsx:122
 msgid ""
 "Your team members won't be shown here until their first logon. Set \"New "
-"users\" flag for a group to automatically assign new user to this group. You "
-"may also modify permission for authenticated users to manage access for your "
-"team members."
+"users\" flag for a group to automatically assign new user to this group. You"
+" may also modify permission for authenticated users to manage access for "
+"your team members."
 msgstr ""
+"Členové vašeho týmu se zde nezobrazí, dokud se poprvé nepřihlásí. Nastavte "
+"příznak \"Noví uživatelé\" pro skupinu, aby se noví uživatelé automaticky "
+"přiřadili do této skupiny. Můžete také upravit oprávnění pro ověřené "
+"uživatele pro správu přístupu členů vašeho týmu."
 
 #: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
 msgid "Disable"
@@ -235,7 +255,7 @@ msgstr "Zde zadejte nové heslo"
 
 #: nodepkg/user-widget/UserWidget.tsx:77
 msgid "Authorization link"
-msgstr ""
+msgstr "Autorizační odkaz"
 
 #: nodepkg/user-widget/UserWidget.tsx:89 view.py:319 view.py:384
 msgid "Groups"
@@ -243,42 +263,46 @@ msgstr "Skupiny"
 
 #: nodepkg/user-widget/UserWidget.tsx:126
 msgid ""
-"Consider adding {name} user to your team instead of creating a new user with "
-"a password."
+"Consider adding {name} user to your team instead of creating a new user with"
+" a password."
 msgstr ""
+"Zvažte přidání uživatele {name} do vašeho týmu místo vytváření nového "
+"uživatele s heslem."
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
 #: nodepkg/user-widget/UserWidgetPassword.tsx:10
 msgid "Keep existing"
-msgstr ""
+msgstr "Zachovat stávající"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
 #: nodepkg/user-widget/UserWidgetPassword.tsx:14
 msgid "Assign new"
-msgstr ""
+msgstr "Přidělit nové"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
 #: nodepkg/user-widget/UserWidgetPassword.tsx:20
 msgid "Turn off"
-msgstr ""
+msgstr "Vypnout"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
 msgid "The generated link will be available after saving."
-msgstr ""
+msgstr "Generovaný odkaz bude dostupný po uložení."
 
 #: nodepkg/user-widget/UserWidgetPassword.tsx:19
 msgid "{name} only"
-msgstr ""
+msgstr "Pouze {name}"
 
 #: oauth.py:323
 msgid "{} binding error"
-msgstr ""
+msgstr "Chyba přiřazení {}"
 
 #: oauth.py:324
 msgid ""
-"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
-"in using this account instead of binding it."
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log"
+" in using this account instead of binding it."
 msgstr ""
+"Tento účet {dn} ({sub}) již je přiřazen jinému uživateli ({id}). Přihlaste "
+"se pomocí tohoto účtu místo jeho přiřazování."
 
 #: oauth.py:638
 msgid "OAuth authorization error"
@@ -294,7 +318,7 @@ msgstr "Neplatný rozsah OAuth"
 
 #: oauth.py:653
 msgid "OAuth password grant type failed"
-msgstr ""
+msgstr "OAuth typ oprávnění hesla selhal"
 
 #: oauth.py:658
 msgid "OAuth token refresh failed"
@@ -306,11 +330,11 @@ msgstr "OAuth přístupový token vypršel"
 
 #: permission.py:12
 msgid "View"
-msgstr ""
+msgstr "Zobrazit"
 
 #: permission.py:13
 msgid "Manage"
-msgstr ""
+msgstr "Spravovat"
 
 #: permission.py:39 view.py:374
 msgid "Groups and users"
@@ -333,20 +357,24 @@ msgid ""
 "Failed to authenticate using the given authorization link. Please check the "
 "link and contact the administrator."
 msgstr ""
+"Nepodařilo se ověřit pomocí uvedeného autorizačního odkazu. Zkontrolujte "
+"odkaz a kontaktujte administrátora."
 
 #: view.py:94
 msgid "Usage of authorization link is forbidden for administrators."
-msgstr ""
+msgstr "Použití autorizačního odkazu je pro administrátory zakázáno."
 
 #: view.py:133
 msgid "Team membership required"
-msgstr ""
+msgstr "Požadováno členství v týmu"
 
 #: view.py:134
 msgid ""
-"You are not a member of this Web GIS team. Contact Web GIS administrator and "
-"ask to be added to the team."
+"You are not a member of this Web GIS team. Contact Web GIS administrator and"
+" ask to be added to the team."
 msgstr ""
+"Nejste členem tohoto Web GIS týmu. Kontaktujte administrátora Web GIS a "
+"požádejte o přidání do týmu."
 
 #: view.py:278
 msgid "User settings"

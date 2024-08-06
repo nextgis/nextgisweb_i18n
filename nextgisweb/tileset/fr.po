@@ -1,57 +1,63 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:88
 #, server
 msgid "Tilesets"
-msgstr ""
+msgstr "Jeux de tuiles"
 
 #: model.py:118 nodepkg/resource-widget/Widget.tsx:38
 #, jsrealm, server
 msgid "Tileset"
-msgstr ""
+msgstr "Jeu de tuiles"
 
 #: model.py:203
 #, server
 msgid "Number of tiles"
-msgstr ""
+msgstr "Nombre de tuiles"
 
 #: model.py:205
 #, server
 msgid "Zoom levels"
-msgstr ""
+msgstr "Niveaux de zoom"
 
 #: model.py:206
 #, server
 msgid "From {min} to {max}"
-msgstr ""
+msgstr "De {min} à {max}"
 
 #: model.py:238
 #, server
 msgid "Tiles '{}' and '{}' are located in different subdirectories."
 msgstr ""
+"Les tuiles \"{}\" et \"{}\" sont situées dans des sous-répertoires "
+"différents."
 
 #: model.py:244
 #, server
 msgid "Tiles '{}' and '{}' have different extensions."
-msgstr ""
+msgstr "Les tuiles \"{}\" et \"{}\" ont des extensions différentes."
 
 #: model.py:301 model.py:310
 #, server
 msgid "Unsupported data format."
-msgstr ""
+msgstr "Format de données non pris en charge."
 
 #: model.py:343
 #, server
 msgid "Only 256x256 px tiles are supported."
-msgstr ""
+msgstr "Seules les tuiles de 256x256 px sont prises en charge."
 
 #: model.py:363
 #, server
 msgid "No tiles found in source."
-msgstr ""
+msgstr "Aucune tuile trouvée dans la source."
 
 #: nodepkg/resource-widget/Widget.tsx:15
 #, jsrealm
 msgid "Select a tileset"
-msgstr ""
+msgstr "Sélectionnez un jeu de tuiles"
 
 #: nodepkg/resource-widget/Widget.tsx:16
 #, jsrealm
@@ -59,3 +65,6 @@ msgid ""
 "MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
 "JPEG format and have a size of 256x256 pixels."
 msgstr ""
+"Les fichiers MBTiles et les archives ZIP de tuiles sont pris en charge. Les "
+"tuiles doivent être au format PNG ou JPEG et avoir une taille de 256x256 "
+"pixels."

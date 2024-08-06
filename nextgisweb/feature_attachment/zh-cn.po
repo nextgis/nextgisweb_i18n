@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-feature-attachment/DisplayWidget.js:9
 #: nodepkg/attachment-bundle/ol-control/control.js:14
 #: nodepkg/attachment-bundle/ol-control/control.js:30
@@ -23,28 +27,29 @@ msgid "The attachment may have been deleted or an error in the address."
 msgstr "附件可能被删除，或者地址可能错误"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:33
-msgid "Draw the geometry on the map to visualize the attachments to the objects"
-msgstr ""
+msgid ""
+"Draw the geometry on the map to visualize the attachments to the objects"
+msgstr "在地图上绘制几何图形以可视化对象的附件"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
 msgid "Object: "
-msgstr ""
+msgstr "对象:"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:139
 msgid "Identify object"
-msgstr ""
+msgstr "标识对象"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:160
 msgid "Attachments: "
-msgstr ""
+msgstr "附件:"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:187
 msgid "No attachments"
-msgstr ""
+msgstr "无附件"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:253
 msgid "Download all attachments"
-msgstr ""
+msgstr "下载所有附件"
 
 #: nodepkg/attachment-editor/AttachmentEditor.tsx:166
 #: nodepkg/attachment-table/AttachmentTable.tsx:45
@@ -63,54 +68,55 @@ msgstr "说明"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:56
 msgid ""
-"Use export to copy feature attachments between different layers or to create "
-"a backup. The resulting ZIP archive will contain all of the attachments put "
-"in directories named after feature IDs. Attachment metadata are put into a "
+"Use export to copy feature attachments between different layers or to create"
+" a backup. The resulting ZIP archive will contain all of the attachments put"
+" in directories named after feature IDs. Attachment metadata are put into a "
 "separate JSON file."
 msgstr ""
+"使用导出功能在不同图层之间复制要素附件或创建备份。生成的ZIP压缩包将包含以要素ID命名的目录中的所有附件。附件元数据会放入一个单独的JSON文件中。"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:66
 msgid "Export attachments to ZIP archive"
-msgstr ""
+msgstr "导出附件到ZIP压缩包"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:84
 msgid "Back to resource"
-msgstr ""
+msgstr "返回资源"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:86
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:89
 msgid "The archive has been successfully imported."
-msgstr ""
+msgstr "压缩包已成功导入。"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:91
 msgid "Attachments imported - {i}, skipped - {s}."
-msgstr ""
+msgstr "导入的附件数量 - {i}，跳过的附件数量 - {s}。"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:125
 msgid ""
 "Upload a ZIP archive to batch append attachments to existing features. An "
 "archive must contain directories named after feature IDs. Each folder can "
 "contain one or many attachments. Duplicates will be ignored."
-msgstr ""
+msgstr "上传一个ZIP压缩包以批量添加附件到现有要素。压缩包必须包含以要素ID命名的目录。每个文件夹可以包含一个或多个附件。重复项将被忽略。"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:134
 msgid "Delete existing attachments"
-msgstr ""
+msgstr "删除现有附件"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:159
 msgid "Import attachments from ZIP archive"
-msgstr ""
+msgstr "从ZIP压缩包中导入附件"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:171
 msgid "Export"
-msgstr ""
+msgstr "导出"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:176
 msgid "Import"
-msgstr ""
+msgstr "导入"
 
 #: nodepkg/attachment-table/AttachmentTable.tsx:72
 msgid "MIME type"
@@ -118,44 +124,44 @@ msgstr "MIME类型"
 
 #: nodepkg/image-thumbnail/component/CarouselRender.tsx:23
 msgid "Toggle panorama viewer"
-msgstr ""
+msgstr "切换全景查看器"
 
 #: util.py:26
 msgid "Invalid ZIP archive."
-msgstr ""
+msgstr "无效的ZIP压缩包。"
 
 #: util.py:55
 msgid "File '{}' isn't found in metadata."
-msgstr ""
+msgstr "在元数据中未找到文件'{}'。"
 
 #: util.py:61
 msgid "Invalid feature ID for file '{}'."
-msgstr ""
+msgstr "文件'{}'的要素ID无效。"
 
 #: util.py:68
 msgid "Invalid keyname for file '{}'."
-msgstr ""
+msgstr "文件'{}'的键名无效。"
 
 #: util.py:74
 msgid "Invalid name for file '{}'."
-msgstr ""
+msgstr "文件'{}'的名称无效。"
 
 #: util.py:80
 msgid "Invalid MIME type for file '{}'."
-msgstr ""
+msgstr "文件'{}'的MIME类型无效。"
 
 #: util.py:87
 msgid "Invalid description for file '{}'."
-msgstr ""
+msgstr "文件'{}'的描述无效。"
 
 #: util.py:100
 msgid "Could not determine feature ID for file '{}'."
-msgstr ""
+msgstr "无法确定文件'{}'的要素ID。"
 
 #: util.py:118
 msgid "File '{}' isn't found in the archive."
-msgstr ""
+msgstr "在档案中未找到文件'{}'。"
 
 #: view.py:20 view.py:43
 msgid "Manage attachments"
-msgstr ""
+msgstr "管理附件"

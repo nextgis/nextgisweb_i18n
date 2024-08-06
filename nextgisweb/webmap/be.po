@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: adapter.py:24
 #, server
 msgid "Tiles"
@@ -11,12 +15,12 @@ msgstr "Малюнак"
 #: amd/ngw-webmap/Display.js:853
 #, amd
 msgid "Object not found"
-msgstr ""
+msgstr "Аб'ект не знойдзены"
 
 #: amd/ngw-webmap/Display.js:854
 #, amd
 msgid "Object from URL parameters not found"
-msgstr ""
+msgstr "Аб'ект з параметраў URL не знойдзены"
 
 #: amd/ngw-webmap/Display.js:946 amd/ngw-webmap/ItemWidget.js:309
 #, amd
@@ -48,7 +52,8 @@ msgstr "Апісанне"
 msgid "Share"
 msgstr "Падзяліцца"
 
-#: amd/ngw-webmap/Display.js:1071 nodepkg/settings-widget/SettingsWidget.tsx:23
+#: amd/ngw-webmap/Display.js:1071
+#: nodepkg/settings-widget/SettingsWidget.tsx:23
 #, amd, jsrealm
 msgid "Annotations"
 msgstr "Анатацыі"
@@ -84,7 +89,7 @@ msgstr "Дадаць групу"
 #: amd/ngw-webmap/controls/MyLocation.js:128
 #, amd
 msgid "Your location could not be determined"
-msgstr ""
+msgstr "Вашу месцазнаходжанне немагчыма вызначыць"
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:7
 #: nodepkg/panel/print/PrintPanel.tsx:481
@@ -92,35 +97,35 @@ msgstr ""
 #: nodepkg/settings/SettingsForm.js:277
 #, amd, jsrealm
 msgid "Legend"
-msgstr ""
+msgstr "Легенда"
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:9
 #: nodepkg/settings-widget/SettingsWidget.tsx:30
 #: nodepkg/settings/select-options.js:92
 #, amd, jsrealm
 msgid "Default"
-msgstr ""
+msgstr "Па змаўчанні"
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:10
 #: nodepkg/settings-widget/SettingsWidget.tsx:38
 #: nodepkg/settings/select-options.js:93
 #, amd, jsrealm
 msgid "Expand"
-msgstr ""
+msgstr "Разгарнуць"
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:11
 #: nodepkg/settings-widget/SettingsWidget.tsx:39
 #: nodepkg/settings/select-options.js:94
 #, amd, jsrealm
 msgid "Collapse"
-msgstr ""
+msgstr "Згарнуць"
 
 #: amd/ngw-webmap/form/LegendSymbolsSelect.js:12
 #: nodepkg/settings-widget/SettingsWidget.tsx:40
 #: nodepkg/settings/select-options.js:95
 #, amd, jsrealm
 msgid "Disable"
-msgstr ""
+msgstr "Адключыць"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:10
 #, amd
@@ -130,17 +135,17 @@ msgstr "Тэкст анатацыі"
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:127
 #, amd
 msgid "Public annotation"
-msgstr ""
+msgstr "Грамадская анатацыя"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:129
 #, amd
 msgid "My private annotation"
-msgstr ""
+msgstr "Мая прыватная анатацыя"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:132
 #, amd
 msgid "Private annotation"
-msgstr ""
+msgstr "Прыватная анатацыя"
 
 #: amd/ngw-webmap/layers/annotations/AnnotationsPopup.hbs:7
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:250
@@ -156,13 +161,13 @@ msgstr "Табліца аб'ектаў"
 #: amd/ngw-webmap/plugin/LayerEditor.js:142
 #, amd
 msgid "Stop editing"
-msgstr ""
+msgstr "Спыніць рэдагаванне"
 
 #: amd/ngw-webmap/plugin/LayerEditor.js:143
 #: nodepkg/panel/annotations/AnnotationsPanel.js:86
 #, amd, jsrealm
 msgid "Edit"
-msgstr ""
+msgstr "Рэдагаваць"
 
 #: amd/ngw-webmap/plugin/ZoomToLayer.js:25
 #, amd
@@ -177,7 +182,7 @@ msgstr "Дадаць слой"
 #: amd/ngw-webmap/template/ItemWidget.hbs:18
 #, amd
 msgid "Select layer's style"
-msgstr ""
+msgstr "Выбраць стыль слою"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:32
 #, amd
@@ -199,7 +204,7 @@ msgstr "Уключана"
 #: amd/ngw-webmap/template/ItemWidget.hbs:80
 #, amd
 msgid "Identifiable"
-msgstr ""
+msgstr "Ідэнтыфікуемы"
 
 #: amd/ngw-webmap/template/ItemWidget.hbs:87
 #, amd
@@ -234,7 +239,7 @@ msgstr "Разгорнуты"
 #: amd/ngw-webmap/template/ItemWidget.hbs:136
 #, amd
 msgid "Exclusive"
-msgstr ""
+msgstr "Эксклюзіўны"
 
 #: amd/ngw-webmap/tool/Identify.js:277
 #, amd
@@ -244,7 +249,7 @@ msgstr "Атрыбуты"
 #: amd/ngw-webmap/tool/Identify.js:289
 #, amd
 msgid "Geometry"
-msgstr ""
+msgstr "Геаметрыя"
 
 #: amd/ngw-webmap/tool/Identify.js:388 amd/ngw-webmap/tool/Identify.js:404
 #, amd
@@ -289,7 +294,7 @@ msgstr "Гарызантальны падзел"
 #: amd/ngw-webmap/tool/ViewerInfo.js:16
 #, amd
 msgid "Show cursor coordinates / extent"
-msgstr ""
+msgstr "Паказаць каардынаты курсора / маштаб"
 
 #: amd/ngw-webmap/tool/Zoom.js:14 nodepkg/map-controls/map-controls.ts:46
 #: nodepkg/map-controls/map-tools.ts:24
@@ -332,17 +337,17 @@ msgstr "Выдаліць"
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:131
 #, amd
 msgid "Create as public"
-msgstr ""
+msgstr "Стварыць як грамадскую"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:140
 #, amd
 msgid "Create as private"
-msgstr ""
+msgstr "Стварыць як прыватную"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:149
 #, amd
 msgid "Create"
-msgstr ""
+msgstr "Стварыць"
 
 #: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsDialog.js:255
 #, amd
@@ -420,7 +425,7 @@ msgstr "Адкрыць"
 #: favorite.py:10
 #, server
 msgid "Fragment"
-msgstr ""
+msgstr "Фрагмент"
 
 #: model.py:39 model.py:57 view.py:321 view.py:348
 #, server
@@ -437,28 +442,28 @@ msgstr "Праглядваць анатацыі"
 #, server
 msgctxt "permission"
 msgid "Draw annotations"
-msgstr ""
+msgstr "Нацыянуць анатацыі"
 
 #: model.py:43
 #, server
 msgctxt "permission"
 msgid "Manage annotations"
-msgstr ""
+msgstr "Кіраваць анатацыямі"
 
 #: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:336
 #, jsrealm, server
 msgid "Clone"
-msgstr ""
+msgstr "Клонаваць"
 
 #: nodepkg/clone-webmap/CloneWebmap.tsx:77
 #, jsrealm
 msgid "Resource group"
-msgstr ""
+msgstr "Група рэсурсаў"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:61
 #, jsrealm
 msgid "Radius:"
-msgstr ""
+msgstr "Радыус:"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:62
 #: nodepkg/utils/format-units.tsx:13
@@ -469,75 +474,75 @@ msgstr "м"
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:82
 #, jsrealm
 msgid "Circle"
-msgstr ""
+msgstr "Кола"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:89
 #: nodepkg/panel/annotations/AnnotationsPanel.js:109
 #, jsrealm
 msgid "Line"
-msgstr ""
+msgstr "Лінія"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:95
 #, jsrealm
 msgid "Rectangle"
-msgstr ""
+msgstr "прямакутнік"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:102
 #: nodepkg/panel/annotations/AnnotationsPanel.js:113
 #: nodepkg/utils/geometry-types.ts:15
 #, jsrealm
 msgid "Polygon"
-msgstr ""
+msgstr "Полігон"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
 #, jsrealm
 msgid "Hide"
-msgstr ""
+msgstr "Схаваць"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
 #, jsrealm
 msgid "Show"
-msgstr ""
+msgstr "Паказаць"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:125
 #, jsrealm
 msgid "Zoom to filtering geometry"
-msgstr ""
+msgstr "Прыблізіць да фільтруюшчай геаметрыі"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:130
 #, jsrealm
 msgid "Clear filtering geometry"
-msgstr ""
+msgstr "Ачысціць фільтруюшчую геаметрыю"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:136
 #, jsrealm
 msgid "Draw filtering geometry"
-msgstr ""
+msgstr "Нацыянуць фільтруюшчую геаметрыю"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:137
 #, jsrealm
 msgid "Change filtering geometry"
-msgstr ""
+msgstr "Змяніць фільтруюшчую геаметрыю"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:138
 #, jsrealm
 msgid "Stop drawing..."
-msgstr ""
+msgstr "Стаміць нацыянванне..."
 
 #: nodepkg/layer-opacity-slider/LayerOpacitySlider.tsx:8
 #, jsrealm
 msgid "Opacity"
-msgstr ""
+msgstr "Празрачнасць"
 
 #: nodepkg/layers-tree/LegendAction.tsx:10
 #, jsrealm
 msgid "Show legend"
-msgstr ""
+msgstr "Паказаць легенду"
 
 #: nodepkg/layers-tree/LegendAction.tsx:11
 #, jsrealm
 msgid "Hide legend"
-msgstr ""
+msgstr "Схаваць легенду"
 
 #: nodepkg/map-controls/map-controls.ts:58
 #, jsrealm
@@ -552,12 +557,12 @@ msgstr "Скінуць паварот"
 #: nodepkg/map-controls/map-controls.ts:85
 #, jsrealm
 msgid "Scale line"
-msgstr ""
+msgstr "Лінія маштабу"
 
 #: nodepkg/map-controls/map-controls.ts:97
 #, jsrealm
 msgid "Info scale"
-msgstr ""
+msgstr "Шкала інфармацыі"
 
 #: nodepkg/map-controls/map-controls.ts:107
 #: nodepkg/map-controls/map-controls.ts:110
@@ -570,27 +575,27 @@ msgstr "Пачатковы экстэнт"
 #: nodepkg/map-controls/map-controls.ts:123
 #, jsrealm
 msgid "Locate me"
-msgstr ""
+msgstr "Мае месца"
 
 #: nodepkg/map-controls/map-controls.ts:128
 #, jsrealm
 msgid "Identification"
-msgstr ""
+msgstr "ЇДынтыфікацыя"
 
 #: nodepkg/map-controls/map-tools.ts:68
 #, jsrealm
 msgid "Cursor coordinates / extent"
-msgstr ""
+msgstr "Каордынаты / прастор"
 
 #: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
 #, jsrealm
 msgid "Show extent"
-msgstr ""
+msgstr "Паказаць прастор"
 
 #: nodepkg/map-viewer-info/MapViewerInfo.tsx:88
 #, jsrealm
 msgid "Show cursor coordinates"
-msgstr ""
+msgstr "Паказаць каордынаты курсору"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:94
 #, jsrealm
@@ -600,63 +605,78 @@ msgstr "Рэдагаваць анатацыі"
 #: nodepkg/panel/annotations/AnnotationsPanel.js:99
 #, jsrealm
 msgid "Geometry type"
-msgstr ""
+msgstr "Тып геаметрыї"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:106
 #: nodepkg/utils/geometry-types.ts:6
 #, jsrealm
 msgid "Point"
-msgstr ""
+msgstr "Кѐлек"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:135
 #, jsrealm
 msgid "Annotations layer"
-msgstr ""
+msgstr "Слой анатацый"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:138
 #, jsrealm
 msgid "Show annotations"
-msgstr ""
+msgstr "Паказаць анатацыі"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:144
 #, jsrealm
 msgid "No"
-msgstr ""
+msgstr "\\u041D\\u044F\\u043C\\u0430"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:145
 #, jsrealm
 msgid "Yes"
-msgstr ""
+msgstr "\\u0422\\u0430\\u043A"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:148
 #, jsrealm
 msgid "With messages"
 msgstr ""
+"\\u0417 "
+"\\u043F\\u0430\\u0432\\u0435\\u0434\\u0430\\u043C\\u043B\\u0435\\u043D\\u043D\\u044F\\u043C\\u0456"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:159
 #, jsrealm
 msgid "Private annotations"
 msgstr ""
+"\\u041F\\u0440\\u044B\\u0432\\u0430\\u0442\\u043D\\u044B\\u044F "
+"\\u0430\\u043D\\u0430\\u0442\\u0430\\u0446\\u044B\\u0456"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:170
 #, jsrealm
 msgid "Public annotations"
 msgstr ""
+"\\u0413\\u0440\\u0430\\u043C\\u0430\\u0434\\u0441\\u043A\\u0456\\u044F "
+"\\u0430\\u043D\\u0430\\u0442\\u0430\\u0446\\u044B\\u0456"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:180
 #, jsrealm
 msgid "My private annotations"
 msgstr ""
+"\\u041C\\u043E\\u0456 "
+"\\u043F\\u0440\\u044B\\u0432\\u0430\\u0442\\u043D\\u044B\\u044F "
+"\\u0430\\u043D\\u0430\\u0442\\u0430\\u0446\\u044B\\u0456"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.js:193
 #, jsrealm
 msgid "Other private annotations"
 msgstr ""
+"\\u0406\\u043D\\u0448\\u044B\\u044F "
+"\\u043F\\u0440\\u044B\\u0432\\u0430\\u0442\\u043D\\u044B\\u044F "
+"\\u0430\\u043D\\u0430\\u0442\\u0430\\u0446\\u044B\\u0456"
 
 #: nodepkg/panel/layers/LayersDropdown.js:12
 #, jsrealm
 msgid "Zoom to all layers"
 msgstr ""
+"\\u041F\\u0440\\u044B\\u0431\\u043B\\u0456\\u0437\\u0456\\u0446\\u044C "
+"\\u0434\\u0430 \\u0443\\u0441\\u0456\\u0445 "
+"\\u0441\\u043B\\u0430\\u0451\\u045E"
 
 #: nodepkg/panel/print/PrintMapExport/PrintMapExport.tsx:147
 #, jsrealm
@@ -671,7 +691,7 @@ msgstr "Захаваць як"
 #: nodepkg/panel/print/PrintPanel.tsx:231
 #, jsrealm
 msgid "Custom scale"
-msgstr ""
+msgstr "Нестандартны маштаб"
 
 #: nodepkg/panel/print/PrintPanel.tsx:419
 #, jsrealm
@@ -696,29 +716,30 @@ msgstr "Поле, мм"
 #: nodepkg/panel/print/PrintPanel.tsx:475
 #, jsrealm
 msgid "Elements"
-msgstr ""
+msgstr "Элементы"
 
 #: nodepkg/panel/print/PrintPanel.tsx:494
 #, jsrealm
 msgid "Number of legend columns"
-msgstr ""
+msgstr "Колькасць калон легенды"
 
 #: nodepkg/panel/print/PrintPanel.tsx:503
 #, jsrealm
 msgid "Title"
-msgstr ""
+msgstr "Назва"
 
 #: nodepkg/panel/print/PrintPanel.tsx:506
 #, jsrealm
 msgid "Map title text"
-msgstr ""
+msgstr "Тэкст назвы карты"
 
 #: nodepkg/panel/print/PrintPanel.tsx:524
 #, jsrealm
 msgid "North Arrow"
-msgstr ""
+msgstr "Паўночная стрэлка"
 
-#: nodepkg/panel/print/PrintPanel.tsx:530 nodepkg/panel/print/PrintPanel.tsx:551
+#: nodepkg/panel/print/PrintPanel.tsx:530
+#: nodepkg/panel/print/PrintPanel.tsx:551
 #, jsrealm
 msgid "Scale"
 msgstr "Лінейка маштабу"
@@ -731,22 +752,22 @@ msgstr "Маштабнае значэнне"
 #: nodepkg/panel/print/PrintPanel.tsx:546
 #, jsrealm
 msgid "Scale bar"
-msgstr "Scale bar"
+msgstr "Шкала маштабу"
 
 #: nodepkg/panel/print/PrintPanel.tsx:572
 #, jsrealm
 msgid "Copy link to the print map"
-msgstr ""
+msgstr "Скапіяваць спасылку на раздрукаваную карту"
 
 #: nodepkg/panel/print/options.tsx:11
 #, jsrealm
 msgid "Portrait"
-msgstr ""
+msgstr "Партрэт"
 
 #: nodepkg/panel/print/options.tsx:12
 #, jsrealm
 msgid "Landscape"
-msgstr ""
+msgstr "Альбом"
 
 #: nodepkg/panel/print/options.tsx:48
 #, jsrealm
@@ -766,12 +787,12 @@ msgstr "PNG"
 #: nodepkg/panel/print/options.tsx:73
 #, jsrealm
 msgid "TIFF"
-msgstr ""
+msgstr "TIFF"
 
 #: nodepkg/panel/print/options.tsx:74
 #, jsrealm
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: nodepkg/panel/search/SearchPanel.js:323
 #, jsrealm
@@ -781,44 +802,46 @@ msgstr "Не знойдзены"
 #: nodepkg/panel/search/SearchPanel.js:328
 #, jsrealm
 msgid "Refine search criterion. Displayed first 100 search results."
-msgstr ""
+msgstr "Удакладніце крытэр пошуку. Паказаны першыя 100 вынікаў пошуку."
 
 #: nodepkg/panel/search/SearchPanel.js:361
 #, jsrealm
 msgid "Enter at least 2 characters"
-msgstr ""
+msgstr "Увядзіце не менш за 2 сімвалы"
 
 #: nodepkg/panel/share/SharePanel.js:34
 #, jsrealm
 msgid ""
-"<a>CORS</a> must be enabled for the target origin when embedding a web map on"
-" a different domain."
+"<a>CORS</a> must be enabled for the target origin when embedding a web map "
+"on a different domain."
 msgstr ""
+"<a>CORS</a> павінен быць уключаны для мэтавага паходжання пры ўбудаванні "
+"вэб-карты на іншым дамене."
 
 #: nodepkg/panel/share/SharePanel.js:35
 #, jsrealm
 msgid "Add web map fragment to favorites"
-msgstr ""
+msgstr "Дадаць фрагмент вэб-карты ў абранае"
 
 #: nodepkg/panel/share/SharePanel.js:88
 #, jsrealm
 msgid "Select tools"
-msgstr ""
+msgstr "Абраць інструменты"
 
 #: nodepkg/panel/share/SharePanel.js:104
 #, jsrealm
 msgid "Select panels"
-msgstr ""
+msgstr "Абраць панэлі"
 
 #: nodepkg/panel/share/SharePanel.js:112
 #, jsrealm
 msgid "None"
-msgstr ""
+msgstr "Нішто"
 
 #: nodepkg/panel/share/SharePanel.js:259
 #, jsrealm
 msgid "Active panel"
-msgstr ""
+msgstr "Актыўны панэль"
 
 #: nodepkg/panel/share/SharePanel.js:285
 #, jsrealm
@@ -828,17 +851,17 @@ msgstr "Спасылка на карту"
 #: nodepkg/panel/share/SharePanel.js:293
 #, jsrealm
 msgid "The map link copied to clipboard."
-msgstr ""
+msgstr "Спасылка на карту скапіявана у буфер обмену."
 
 #: nodepkg/panel/share/SharePanel.js:297
 #, jsrealm
 msgid "Copy link"
-msgstr ""
+msgstr "Скапіяваць спасылку"
 
 #: nodepkg/panel/share/SharePanel.js:333
 #, jsrealm
 msgid "Optional fragment label"
-msgstr ""
+msgstr "Дадатковы маркер фрагменту"
 
 #: nodepkg/panel/share/SharePanel.js:343
 #, jsrealm
@@ -863,17 +886,17 @@ msgstr "Вышыня, пікс"
 #: nodepkg/panel/share/SharePanel.js:359
 #, jsrealm
 msgid "px"
-msgstr ""
+msgstr "пікс"
 
 #: nodepkg/panel/share/SharePanel.js:362
 #, jsrealm
 msgid "Map tools"
-msgstr ""
+msgstr "Знастроі карты"
 
 #: nodepkg/panel/share/SharePanel.js:366
 #, jsrealm
 msgid "Panels"
-msgstr ""
+msgstr "Панэлі"
 
 #: nodepkg/panel/share/SharePanel.js:381
 #, jsrealm
@@ -888,17 +911,17 @@ msgstr "Генерацыя падзей"
 #: nodepkg/panel/share/SharePanel.js:394
 #, jsrealm
 msgid "Embed code"
-msgstr ""
+msgstr "Код для убудовы"
 
 #: nodepkg/panel/share/SharePanel.js:407
 #, jsrealm
 msgid "The embed code copied to clipboard."
-msgstr ""
+msgstr "Код для убудовы скапіяваны у буфер обмену."
 
 #: nodepkg/panel/share/SharePanel.js:411
 #, jsrealm
 msgid "Copy code"
-msgstr ""
+msgstr "Скапіяваць код"
 
 #: nodepkg/panel/share/SharePanel.js:414
 #, jsrealm
@@ -908,53 +931,53 @@ msgstr "Папярэдні прагляд"
 #: nodepkg/settings-widget/SettingsWidget.tsx:21
 #, jsrealm
 msgid "Constraining extent"
-msgstr ""
+msgstr "Абмежаванне розмераў"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:24
 #, jsrealm
 msgid "Select mode"
-msgstr ""
+msgstr "Выбар рэжыму"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:26
 #, jsrealm
 msgid "Select resource"
-msgstr ""
+msgstr "Выбар рэсурса"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:27
 #: nodepkg/settings/SettingsForm.js:189
 #, jsrealm
 msgid "Measurement SRS"
-msgstr ""
+msgstr "Вымеранне SRS"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:28
 #, jsrealm
 msgid "Layers editing"
-msgstr ""
+msgstr "Рэдагаванне слоёў"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:33
 #, jsrealm
 msgid "Web map will start at this extent"
-msgstr ""
+msgstr "Веб-карта пачнецца з гэтага розмеру"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:34
 #, jsrealm
 msgid "Web map will not allow to move outside of this extent"
-msgstr ""
+msgstr "Веб-карта не дазволіць рухацца паза гэтага розмеру"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:44
 #, jsrealm
 msgid "Hide by default"
-msgstr ""
+msgstr "Схаваць па змоўчанні"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:45
 #, jsrealm
 msgid "Show without messages"
-msgstr ""
+msgstr "Паказваць без паведамленняў"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:46
 #, jsrealm
 msgid "Show with messages"
-msgstr ""
+msgstr "Паказаць з паведамленнямі"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:142
 #, jsrealm
@@ -964,17 +987,17 @@ msgstr "Налады"
 #: nodepkg/settings/Settings.js:48
 #, jsrealm
 msgid "Settings saved"
-msgstr ""
+msgstr "Наладкі захаваныя"
 
 #: nodepkg/settings/SettingsForm.js:54
 #, jsrealm
 msgid "General"
-msgstr ""
+msgstr "Агульныя"
 
 #: nodepkg/settings/SettingsForm.js:67
 #, jsrealm
 msgid "Hide navigation menu for guest"
-msgstr ""
+msgstr "Схаваць меню навігацыі для гасцей"
 
 #: nodepkg/settings/SettingsForm.js:75
 #, jsrealm
@@ -994,7 +1017,7 @@ msgstr "Паказаць атрыбуты аб'ектаў"
 #: nodepkg/settings/SettingsForm.js:144
 #, jsrealm
 msgid "Show geometry info"
-msgstr ""
+msgstr "Паказаць інфармацыю пра геаметрыю"
 
 #: nodepkg/settings/SettingsForm.js:150
 #, jsrealm
@@ -1054,7 +1077,7 @@ msgstr "Ключ геакодэра API Яндэкс.Карт"
 #: nodepkg/settings/SettingsForm.js:288
 #, jsrealm
 msgid "Visibility"
-msgstr ""
+msgstr "Бачнасць"
 
 #: nodepkg/settings/select-options.js:5
 #, jsrealm
@@ -1179,32 +1202,32 @@ msgstr "ак"
 #: nodepkg/utils/geometry-types.ts:9
 #, jsrealm
 msgid "LineString"
-msgstr ""
+msgstr "ЛінейныРадок"
 
 #: nodepkg/utils/geometry-types.ts:12
 #, jsrealm
 msgid "LinearRing"
-msgstr ""
+msgstr "ЛінейнаеКальцо"
 
 #: nodepkg/utils/geometry-types.ts:18
 #, jsrealm
 msgid "MultiPoint"
-msgstr ""
+msgstr "МультыПойнт"
 
 #: nodepkg/utils/geometry-types.ts:21
 #, jsrealm
 msgid "MultiLineString"
-msgstr ""
+msgstr "МультыЛінейныРадок"
 
 #: nodepkg/utils/geometry-types.ts:24
 #, jsrealm
 msgid "MultiPolygon"
-msgstr ""
+msgstr "МультыПалігон"
 
 #: nodepkg/utils/geometry-types.ts:27
 #, jsrealm
 msgid "GeometryCollection"
-msgstr ""
+msgstr "КалекцыяГеаметрый"
 
 #: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:23
 #, jsrealm
@@ -1214,39 +1237,45 @@ msgstr "Перайсці да"
 #: nodepkg/webmap-tabs/WebMapTabs.tsx:16
 #, jsrealm
 msgid "Loading"
-msgstr ""
+msgstr "Загрузка"
 
 #: nodepkg/zoom-to-filtered-btn/ZoomToFilteredBtn.tsx:20
 #, jsrealm
 msgid "Zoom to filtered features"
-msgstr ""
+msgstr "Прыблізіць да адфільтраваных аб'ектаў"
 
 #: template/invalid_origin.mako:3
 #, python-format, server
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
-msgstr ""
+msgstr "Убудаванне вэб-карты не дазволена для %s у наладах Web GIS."
 
 #: template/invalid_origin.mako:5
 #, python-format, server
 msgid "View the map on %s"
-msgstr ""
+msgstr "Прагляд карты на %s"
 
 #: template/preview_embedded.mako:15
 #, server
 msgid "This page is for a preview of the web map to be embedded on the site."
 msgstr ""
+"Гэта старонка для папярэдняга прагляду вэб-карты, якая будзе ўбудавана на "
+"сайт."
 
 #: template/preview_embedded.mako:16
 #, server
 msgid ""
-"Most likely, you went from the \"Share\" section of the web map and refreshed"
-" the page."
+"Most likely, you went from the \"Share\" section of the web map and "
+"refreshed the page."
 msgstr ""
+"Хутчэй за ўсё, вы перайшлі з раздзела 'Падзяліцца' вэб-карты і абнавілі "
+"старонку."
 
 #: template/preview_embedded.mako:17
 #, server
 msgid "To generate a preview, go back to the web map page and click \"Preview\"."
 msgstr ""
+"Для стварэння папярэдняга прагляду, вярніцеся на старонку вэб-карты і "
+"націсніце 'Папярэдні прагляд'."
 
 #: view.py:41
 #, server
@@ -1256,9 +1285,9 @@ msgstr "Налады вэб-карты"
 #: view.py:262
 #, server
 msgid "Clone web map"
-msgstr ""
+msgstr "Кланаваць вэб-карту"
 
 #: view.py:275
 #, server
 msgid "Embedded webmap preview"
-msgstr ""
+msgstr "Папярэдні прагляд убудаванай веб-карты"

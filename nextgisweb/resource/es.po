@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-resource/CompositeWidget.js:52
 msgid "Please wait. Processing request..."
 msgstr "Espere por favor. Procesando solicitud ..."
@@ -22,7 +26,8 @@ msgstr "Guardar"
 msgid "Delete"
 msgstr "Eliminar"
 
-#: amd/ngw-resource/CompositeWidget.js:273 amd/ngw-resource/CompositeWidget.js:295
+#: amd/ngw-resource/CompositeWidget.js:273
+#: amd/ngw-resource/CompositeWidget.js:295
 msgid "Unexpected error"
 msgstr "Error inesperado"
 
@@ -109,14 +114,17 @@ msgid ""
 "Modification of the '{attribute}' attribute requires the '{scope}: "
 "{permission}' permission."
 msgstr ""
+"La modificación del atributo '{attribute}' requiere el permiso '{scope}: "
+"{permission}'."
 
 #: exception.py:33
 msgid "The '{attribute}' attribute is read-only and cannot be updated."
 msgstr ""
+"El atributo '{attribute}' es de solo lectura y no puede ser actualizado."
 
 #: exception.py:40
 msgid "Interface not supported"
-msgstr ""
+msgstr "Interfaz no soportada"
 
 #: exception.py:45
 msgid "Resource display name is not unique"
@@ -129,12 +137,12 @@ msgstr "El recurso con el mismo nombre para mostrar ya existe (id = %d)."
 
 #: exception.py:47
 msgid ""
-"Within a single parent resource, each resource must have unique display name."
-" Give the resource a different display name or rename existing."
+"Within a single parent resource, each resource must have unique display "
+"name. Give the resource a different display name or rename existing."
 msgstr ""
 "Dentro de un recurso padre cada recurso debe tener un nombre para mostrar "
-"único. Asigne al recurso un nombre para mostrar diferente o cambie el nombre "
-"existente."
+"único. Asigne al recurso un nombre para mostrar diferente o cambie el nombre"
+" existente."
 
 #: exception.py:59
 msgid "Hierarchy error"
@@ -147,7 +155,7 @@ msgstr "Clase de recurso '%s' deshabilitada."
 
 #: exception.py:72
 msgid "Quota exceeded"
-msgstr ""
+msgstr "Cuota excedida"
 
 #: exception.py:78
 #, python-format
@@ -166,19 +174,19 @@ msgstr "Tipo de recurso - {}."
 
 #: favorite/__init__.py:6
 msgid "Go to"
-msgstr ""
+msgstr "Ir a"
 
 #: favorite/__init__.py:7 nodepkg/favorite/FavoritePage.tsx:379
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: favorite/view.py:15 nodepkg/favorite/Avatar.tsx:54
 msgid "Favorites"
-msgstr ""
+msgstr "Favoritos"
 
 #: home.py:23
 msgid "User resources"
-msgstr ""
+msgstr "Recursos del usuario"
 
 #: model.py:265
 msgid "Resource can not be a parent himself."
@@ -190,7 +198,7 @@ msgstr "El nombre clave del recurso no es único."
 
 #: model.py:310
 msgid "Default style"
-msgstr ""
+msgstr "Estilo predeterminado"
 
 #: model.py:426
 msgid "Resource can not be without a parent."
@@ -212,6 +220,9 @@ msgid ""
 "administrators group. Administrators must always have ability to configure "
 "permissions of resources."
 msgstr ""
+"No se puede revocar el permiso '{s}: {p}' para '{u}' ya que el usuario "
+"pertenece al grupo de administradores. Los administradores siempre deben "
+"tener la capacidad de configurar permisos de recursos."
 
 #: model.py:614
 msgid "Resource group"
@@ -288,7 +299,7 @@ msgstr "Exportar capas vectoriales"
 
 #: nodepkg/children-section/util/createResourceTableItemOptions.ts:7
 msgid "Change"
-msgstr ""
+msgstr "Cambiar"
 
 #: nodepkg/children-section/util/forEachSelected.ts:8
 msgid "Operation in progress"
@@ -296,7 +307,8 @@ msgstr "Operación en progreso"
 
 #: nodepkg/children-section/util/notify.ts:8
 msgid "Please confirm resource deletion. This action cannot be undone."
-msgstr "Confirme la eliminación del recurso. Esta acción no se puede deshacer."
+msgstr ""
+"Confirme la eliminación del recurso. Esta acción no se puede deshacer."
 
 #: nodepkg/children-section/util/notify.ts:16
 msgid "The resource has been deleted"
@@ -338,7 +350,7 @@ msgstr "Elige este grupo"
 
 #: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:19
 msgid "Pick selected"
-msgstr ""
+msgstr "Seleccionar elegido"
 
 #: nodepkg/delete-page/DeletePage.tsx:47
 msgid "Confirm deletion of the resource"
@@ -350,7 +362,7 @@ msgstr "Descripción"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:13
 msgid "Identifier for API integration (optional)"
-msgstr ""
+msgstr "Identificador para la integración de API (opcional)"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:29
 msgid "Parent"
@@ -371,7 +383,7 @@ msgstr "Sí"
 
 #: nodepkg/export-settings/ExportSettings.tsx:36
 msgid "The setting is saved."
-msgstr ""
+msgstr "La configuración ha sido guardada."
 
 #: nodepkg/export-settings/ExportSettings.tsx:57
 msgid ""
@@ -387,7 +399,7 @@ msgstr "Usuarios con permiso \"Data: Leer\""
 
 #: nodepkg/export-settings/ExportSettings.tsx:70
 msgid "Users with \"Data: Modify\" permission"
-msgstr ""
+msgstr "Usuarios con permiso de \"Datos: Modificar\""
 
 #: nodepkg/export-settings/ExportSettings.tsx:73
 msgid "Administrators"
@@ -398,8 +410,8 @@ msgid ""
 "* This will not affect REST API use which will continue to be governed by "
 "permissions."
 msgstr ""
-"* Esto no afectará el uso de la API REST, que seguirá estando regida por los "
-"permisos."
+"* Esto no afectará el uso de la API REST, que seguirá estando regida por los"
+" permisos."
 
 #: nodepkg/external-access/ExternalAccess.tsx:10
 msgid "Use these links to plug data into external applications."
@@ -407,33 +419,35 @@ msgstr "Utilice estos enlaces para conectar datos a aplicaciones externas."
 
 #: nodepkg/external-access/ExternalAccess.tsx:11
 msgid "Read more"
-msgstr ""
+msgstr "Leer más"
 
 #: nodepkg/favorite/FavoritePage.tsx:29
 msgid ""
 "No favorite resources have been added yet. Use the star icon ({}) in the "
 "user's context menu to add items here."
 msgstr ""
+"Todavía no se han añadido recursos favoritos. Utilice el icono de estrella "
+"({}) en el menú contextual del usuario para añadir elementos aquí."
 
 #: nodepkg/favorite/FavoritePage.tsx:379
 msgid "Done"
-msgstr ""
+msgstr "Hecho"
 
 #: nodepkg/favorite/useFavorites.tsx:33
 msgid "Added to favorites"
-msgstr ""
+msgstr "Añadido a favoritos"
 
 #: nodepkg/favorite/useFavorites.tsx:48
 msgid "Removed from favorites"
-msgstr ""
+msgstr "Eliminado de favoritos"
 
 #: nodepkg/permissions-widget/PermissionStoreItem.ts:13
 msgid "All fields are required"
-msgstr ""
+msgstr "Todos los campos son obligatorios"
 
 #: nodepkg/permissions-widget/PermissionStoreItem.ts:14
 msgid "Row conflicts with another"
-msgstr ""
+msgstr "La fila entra en conflicto con otra"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:20 view.py:360
 msgid "Action"
@@ -445,7 +459,7 @@ msgstr "Principal"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:22
 msgid "Apply to"
-msgstr ""
+msgstr "Aplicar a"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:23
 msgid "Permission"
@@ -461,11 +475,11 @@ msgstr "Prohibir"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:29
 msgid "This and subresources"
-msgstr ""
+msgstr "Este y subrecursos"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:30
 msgid "This resource only"
-msgstr ""
+msgstr "Solo este recurso"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:32
 msgid "All permissions"
@@ -496,7 +510,7 @@ msgstr "Crear"
 #: scope.py:16 scope.py:31 scope.py:41
 msgctxt "permission"
 msgid "Modify"
-msgstr ""
+msgstr "Modificar"
 
 #: scope.py:17
 msgctxt "permission"
@@ -506,12 +520,12 @@ msgstr "Eliminar"
 #: scope.py:18
 msgctxt "permission"
 msgid "Manage subresources"
-msgstr ""
+msgstr "Gestionar subrecursos"
 
 #: scope.py:19
 msgctxt "permission"
 msgid "Configure permissions"
-msgstr ""
+msgstr "Configurar permisos"
 
 #: scope.py:28
 msgid "Data structure"
@@ -533,7 +547,7 @@ msgstr "Configurar"
 #: scope.py:55
 msgctxt "permission"
 msgid "Use"
-msgstr ""
+msgstr "Usar"
 
 #: scope.py:65
 msgid "Service"
@@ -542,7 +556,7 @@ msgstr "Servicio"
 #: scope.py:67
 msgctxt "permission"
 msgid "Access"
-msgstr ""
+msgstr "Acceso"
 
 #: template/resource_section_description.mako:5
 msgid "Resource description is empty."
@@ -550,7 +564,7 @@ msgstr "La descripción del recurso está vacía."
 
 #: template/resource_section_external_access.mako:3
 msgid "External access"
-msgstr ""
+msgstr "Acceso externo"
 
 #: view.py:124 view.py:424
 msgid "JSON view"

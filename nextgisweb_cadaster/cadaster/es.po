@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
 msgid "Cadastral number"
 msgstr "Número catastral"
@@ -231,91 +235,110 @@ msgstr "Sin datos"
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:155
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:168
 msgid "Cadaster services error"
-msgstr ""
+msgstr "Error en los servicios catastrales"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:51
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:156
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:169
 msgid "Wrong cadaster number: ${cadno}"
-msgstr ""
+msgstr "Número catastral incorrecto: ${cadno}"
 
 #: api/exceptions.py:11
 msgid "The Geoservices API unknown error"
-msgstr ""
+msgstr "Error desconocido de la API de Geoservices"
 
 #: api/exceptions.py:12
 msgid "The Geoservices API: unknown error"
-msgstr ""
+msgstr "La API de Geoservices: error desconocido"
 
 #: api/exceptions.py:16
 msgid "The Geoservices API timeout error"
-msgstr ""
+msgstr "Error de tiempo de espera en la API de Geoservices"
 
 #: api/exceptions.py:17
 msgid "The Geoservices API is currently unavailable due to a timeout error"
 msgstr ""
+"La API de Geoservices no está disponible actualmente debido a un error de "
+"tiempo de espera"
 
 #: api/exceptions.py:21
 msgid "The Geoservices API parsing error"
-msgstr ""
+msgstr "Error de interpretación de la API de Geoservices"
 
 #: api/exceptions.py:22
-msgid "The Geoservices API failed to parse the JSON data returned by the PKK service"
+msgid ""
+"The Geoservices API failed to parse the JSON data returned by the PKK "
+"service"
 msgstr ""
+"La API de Geoservices no pudo interpretar los datos JSON devueltos por el "
+"servicio PKK"
 
 #: api/exceptions.py:26
 msgid "The Geoservices API error"
-msgstr ""
+msgstr "Error en la API de Geoservices"
 
 #: api/exceptions.py:27
 msgid ""
 "NextGIS Geoservices encountered an internal error or the PKK service is "
 "currently unavailable"
 msgstr ""
+"NextGIS Geoservices encontró un error interno o el servicio PKK no está "
+"disponible actualmente"
 
 #: api/exceptions.py:33
 msgid "The NextGIS Geoservices is currently unavailable"
-msgstr ""
+msgstr "NextGIS Geoservices no está disponible actualmente"
 
 #: api/exceptions.py:42
-msgid "The Geoservices API: The request for attribute retrieval ended in failure"
-msgstr ""
+msgid ""
+"The Geoservices API: The request for attribute retrieval ended in failure"
+msgstr "La API de Geoservices: La solicitud para recuperar atributos falló"
 
 #: api/exceptions.py:51
 msgid ""
 "The Geoservices API: The 'extent' field is not present in the received "
 "attributes"
 msgstr ""
+"La API de Geoservices: El campo 'extent' no está presente en los atributos "
+"recibidos"
 
 #: api/exceptions.py:62
 msgid "The Geoservices API: The object geometry retrieval request failed"
 msgstr ""
+"La API de Geoservices: La solicitud para recuperar la geometría del objeto "
+"falló"
 
 #: api/exceptions.py:71
-msgid "The Geoservices API: Unable to create the feature based on previous requests"
+msgid ""
+"The Geoservices API: Unable to create the feature based on previous requests"
 msgstr ""
+"La API de Geoservices: No se pudo crear la entidad basada en solicitudes "
+"anteriores"
 
 #: api/exceptions.py:75
 msgid "The Geoservices API: Plot not found"
-msgstr ""
+msgstr "La API de Geoservices: Parcela no encontrada"
 
 #: api/geoservices.py:50
 msgid "'Cadaster services' module is disabled!"
-msgstr ""
+msgstr "¡El módulo de 'servicios catastrales' está deshabilitado!"
 
 #: api/geoservices.py:60
 msgid ""
-"Geoservices API key in cadaster services module not set. Set the Geoservices "
-"API key in the `Cadaster services` section on the Control panel."
+"Geoservices API key in cadaster services module not set. Set the Geoservices"
+" API key in the `Cadaster services` section on the Control panel."
 msgstr ""
+"La clave de API de Geoservices en el módulo de servicios catastrales no está"
+" establecida. Establece la clave de API de Geoservices en la sección "
+"`Servicios catastrales` del Panel de control."
 
 #: api/geoservices.py:96
 msgid "Required parameters: lon, lat, types!"
-msgstr ""
+msgstr "¡Parámetros requeridos: lon, lat, types!"
 
 #: api/geoservices.py:131
 msgid "Parameter 'types' is required"
-msgstr ""
+msgstr "Se requiere el parámetro 'types"
 
 #: api/geoservices.py:168
 msgid "Cadaster plot with ID '%(id)s' not found!"

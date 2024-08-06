@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
 msgstr "Služba WFS"
@@ -12,11 +16,11 @@ msgstr "Klíčový název"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Features per request"
-msgstr ""
+msgstr "Prvky na požadavek"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Not set"
-msgstr ""
+msgstr "Nestanoveno"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"

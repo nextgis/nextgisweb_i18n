@@ -1,10 +1,14 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:145 view.py:16
 msgid "WMS service"
 msgstr "Service WMS"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:24
 msgid "Not set"
-msgstr ""
+msgstr "Non défini"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:56
 msgid "Display name"
@@ -28,11 +32,11 @@ msgstr "Ressource"
 
 #: view.py:17
 msgid ""
-"Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
-" Consortium for serving georeferenced map images. These images are typically "
-"produced by a map server from data provided by a GIS database."
+"Web Map Service (WMS) is a standard protocol developed by the Open "
+"Geospatial Consortium for serving georeferenced map images. These images are"
+" typically produced by a map server from data provided by a GIS database."
 msgstr ""
 "Web Map Service (WMS) est un protocole standard développé par l'Open "
-"Geospatial Consortium pour servir des images cartographiques géoréférencées. "
-"Ces images sont généralement produites par un serveur cartographique à partir"
-" de données fournies par une base de données GIS."
+"Geospatial Consortium pour servir des images cartographiques géoréférencées."
+" Ces images sont généralement produites par un serveur cartographique à "
+"partir de données fournies par une base de données GIS."

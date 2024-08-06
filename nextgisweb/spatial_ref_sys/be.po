@@ -1,7 +1,11 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:141
 #, server
 msgid "System SRS cannot be deleted."
-msgstr ""
+msgstr "Сістэмная SRS нельга выдаліць."
 
 #: api.py:160
 #, server
@@ -10,13 +14,15 @@ msgstr "Няправільнае вызначэнне SRS!"
 
 #: api.py:367
 #, server
-msgid "SRS authority attributes must be defined while importing from the catalog."
+msgid ""
+"SRS authority attributes must be defined while importing from the catalog."
 msgstr ""
+"Атрыбуты аўтарытэту SRS павінны быць вызначаны пры імпарце з каталога."
 
 #: api.py:392
 #, server
 msgid "SRS #{} already exists."
-msgstr ""
+msgstr "SRS #{} ужо існуе."
 
 #: model.py:53 model.py:54 view.py:18 view.py:91
 #, server
@@ -24,8 +30,8 @@ msgid "Spatial reference systems"
 msgstr "Каардынатныя сістэмы"
 
 #: nodepkg/catalog-browse/CatalogBrowse.tsx:87
-#: nodepkg/catalog-import/CatalogImport.tsx:31 nodepkg/srs-browse/SrsBrowse.tsx:38
-#: nodepkg/srs-widget/SRSWidget.tsx:31
+#: nodepkg/catalog-import/CatalogImport.tsx:31
+#: nodepkg/srs-browse/SrsBrowse.tsx:38 nodepkg/srs-widget/SRSWidget.tsx:31
 #, jsrealm
 msgid "Display name"
 msgstr "Адлюстроўваемае імя"
@@ -33,12 +39,13 @@ msgstr "Адлюстроўваемае імя"
 #: nodepkg/catalog-browse/CatalogBrowse.tsx:94
 #, jsrealm
 msgid "Show in catalog"
-msgstr ""
+msgstr "Паказаць у каталогу"
 
-#: nodepkg/catalog-browse/CatalogBrowse.tsx:107 nodepkg/srs-widget/SRSWidget.tsx:37
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:107
+#: nodepkg/srs-widget/SRSWidget.tsx:37
 #, jsrealm
 msgid "Authority and code"
-msgstr ""
+msgstr "Аўтарытэт і код"
 
 #: nodepkg/catalog-browse/CatalogBrowse.tsx:119
 #: nodepkg/catalog-import/CatalogImport.tsx:88
@@ -61,7 +68,8 @@ msgstr "Шырата"
 msgid "Longitude"
 msgstr "Даўгата"
 
-#: nodepkg/catalog-import/CatalogImport.tsx:36 nodepkg/srs-widget/SRSWidget.tsx:46
+#: nodepkg/catalog-import/CatalogImport.tsx:36
+#: nodepkg/srs-widget/SRSWidget.tsx:46
 #, jsrealm
 msgid "OGC WKT definition"
 msgstr "Вызначэнне OGC WKT"
@@ -74,7 +82,7 @@ msgstr "Прагляд падрабязнасцяў"
 #: nodepkg/srs-browse/SrsBrowse.tsx:26
 #, jsrealm
 msgid "Import from catalog"
-msgstr ""
+msgstr "Імпартаваць з каталога"
 
 #: nodepkg/srs-widget/SRSImportForm.tsx:59
 #, jsrealm
@@ -94,22 +102,22 @@ msgstr "Вызначэнне імпарту"
 #: nodepkg/srsMessages.ts:5
 #, jsrealm
 msgid "Delete SRS?"
-msgstr ""
+msgstr "Выдаліць SRS?"
 
 #: nodepkg/srsMessages.ts:6
 #, jsrealm
 msgid "SRS deleted"
-msgstr ""
+msgstr "SRS выдалена"
 
 #: pyramid.py:9
 #, server
 msgid "Catalog not cofigured"
-msgstr ""
+msgstr "Каталог не настроены"
 
 #: pyramid.py:10
 #, server
 msgid "The spatial reference system catalog is not configured on this server."
-msgstr ""
+msgstr "Каталог каардынатных сістэм не настроены на гэтым серверы."
 
 #: util.py:38
 #, python-format, server

@@ -1,18 +1,22 @@
+#
+msgid ""
+msgstr ""
+
 #: backend/base.py:36
 msgid "Audit backend not enabled"
-msgstr ""
+msgstr "Audit backend není povolen"
 
 #: backend/base.py:37
 msgid "The '{}' audit backend is not configured on this server."
-msgstr ""
+msgstr "Audit backend '{}' není na tomto serveru konfigurován"
 
 #: nodepkg/journal/Journal.js:47
 msgid "Request"
-msgstr ""
+msgstr "Požadavek"
 
 #: nodepkg/journal/Journal.js:64
 msgid "IP address"
-msgstr ""
+msgstr "IP adresa"
 
 #: nodepkg/journal/Journal.js:68
 msgid "User"
@@ -49,11 +53,11 @@ msgstr[2] ""
 
 #: nodepkg/journal/Journal.js:292
 msgid "Filter by user"
-msgstr ""
+msgstr "Filtrovat podle uživatele"
 
 #: nodepkg/journal/Journal.js:301
 msgid "Export CSV"
-msgstr ""
+msgstr "Exportovat CSV"
 
 #: nodepkg/journal/Journal.js:312
 msgid "Timestamp"

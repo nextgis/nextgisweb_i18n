@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:18
 msgid "Raster mosaic item id not provided."
 msgstr "ID на елемента от растерна мозайка не е посочен."
@@ -20,8 +24,8 @@ msgstr "Само RGB и RGBA растери са поддържани."
 
 #: model.py:132
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
 "Растерът има формат  '%(format)s', но само следните формати се поддържат: "
 "%(all_formats)s."
@@ -36,7 +40,7 @@ msgstr "Комплексните типове данни не се поддър�
 
 #: nodepkg/resource-widget/Store.ts:73
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "Файлът '{}' има невалидно разширение."
 
 #: nodepkg/resource-widget/Widget.tsx:43
 msgid "Upload"
@@ -44,4 +48,4 @@ msgstr "Прикачи"
 
 #: nodepkg/resource-widget/Widget.tsx:64
 msgid "Rasters"
-msgstr ""
+msgstr "Растери"

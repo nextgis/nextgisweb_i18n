@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:26 nodepkg/resource-widget/Widget.tsx:93 view.py:22 view.py:30
 #, jsrealm, server
 msgid "SVG marker library"
@@ -6,37 +10,37 @@ msgstr "Бібліятэка маркераў SVG"
 #: model.py:87
 #, server
 msgid "File '{}' has an insecure name."
-msgstr ""
+msgstr "Файл '{}' мае ненадзейнае імя."
 
 #: model.py:92 nodepkg/resource-widget/Store.ts:75
 #, jsrealm, server
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "Файл '{}' мае недапушчальнае пашырэнне."
 
 #: model.py:98
 #, server
 msgid "File '{}' has a format different from SVG."
-msgstr ""
+msgstr "Файл '{}' мае фармат, які адрозніваецца ад SVG."
 
 #: nodepkg/resource-widget/Store.ts:92
 #, jsrealm
 msgid "ZIP archive required"
-msgstr ""
+msgstr "Трэба ZIP архіў"
 
 #: nodepkg/resource-widget/Widget.tsx:45
 #, jsrealm
 msgid "Add SVG files"
-msgstr ""
+msgstr "Дадаць файлы SVG"
 
 #: nodepkg/resource-widget/Widget.tsx:54
 #, jsrealm
 msgid "Import from ZIP archive"
-msgstr ""
+msgstr "Імпарт з архіва ZIP"
 
 #: nodepkg/resource-widget/Widget.tsx:65
 #, jsrealm
 msgid "SVG markers will be imported from:"
-msgstr ""
+msgstr "Маркеркі SVG будуць імпартаваныя з:"
 
 #: template/resource_section.mako:8
 #, server

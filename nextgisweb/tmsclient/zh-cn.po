@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-tmsclient/ConnectionWidget.js:34
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:39
 msgid "TMS connection"
@@ -25,7 +29,7 @@ msgstr "选择图层"
 
 #: amd/ngw-tmsclient/LayersDialog.js:63
 msgid "OK"
-msgstr "OK"
+msgstr "好"
 
 #: amd/ngw-tmsclient/LayersDialog.js:72
 msgid "Cancel"
@@ -113,4 +117,3 @@ msgstr "瓦片尺寸，像素"
 
 #~ msgid "TMS capabilities"
 #~ msgstr "TMS功能"
-

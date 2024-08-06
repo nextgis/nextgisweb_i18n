@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:18
 msgid "Raster mosaic item id not provided."
 msgstr "未指定栅格镶嵌元素的ID。"
@@ -20,8 +24,8 @@ msgstr "仅支持RGB和RGBA栅格"
 
 #: model.py:132
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr "加载栅格的格式为'%(format)s'，但是，仅支持以下类型：%(all_formats)s。 "
 
 #: model.py:139
@@ -34,7 +38,7 @@ msgstr "不支持复杂数据类型。"
 
 #: nodepkg/resource-widget/Store.ts:73
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "文件'{}'的扩展名无效。"
 
 #: nodepkg/resource-widget/Widget.tsx:43
 msgid "Upload"
@@ -42,4 +46,4 @@ msgstr "上传"
 
 #: nodepkg/resource-widget/Widget.tsx:64
 msgid "Rasters"
-msgstr ""
+msgstr "栅格"

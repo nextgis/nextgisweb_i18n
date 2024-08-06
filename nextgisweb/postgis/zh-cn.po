@@ -1,90 +1,94 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:83
 msgid "Table (%s) not found in schema (%s)."
 msgstr "在示意图（%s）中未找到表格"
 
 #: api.py:148
 msgid "PostGIS layer {} not found!"
-msgstr ""
+msgstr "PostGIS层{}未找到!"
 
 #: api.py:172
 msgid "PostGIS connection {} not found!"
-msgstr ""
+msgstr "PostGIS连接{}未找到!"
 
 #: diagnostics.py:99
 msgid "Got an unexpected error."
-msgstr ""
+msgstr "发生意外错误。"
 
 #: diagnostics.py:156
 msgid "PostgreSQL connection"
-msgstr ""
+msgstr "PostgreSQL连接"
 
 #: diagnostics.py:162
 msgid "Host name resolution failed: {}."
-msgstr ""
+msgstr "主机名解析失败：{}。"
 
 #: diagnostics.py:180
 msgid "Failed to connect to the database."
-msgstr ""
+msgstr "无法连接到数据库。"
 
 #: diagnostics.py:184
 msgid "Connected to the database."
-msgstr ""
+msgstr "已连接到数据库。"
 
 #: diagnostics.py:187
 msgid "Executed {} query."
-msgstr ""
+msgstr "执行了{}查询。"
 
 #: diagnostics.py:190
 msgid "PostgreSQL version {}."
-msgstr ""
+msgstr "PostgreSQL版本{}。"
 
 #: diagnostics.py:199
 msgid "PostGIS extension"
-msgstr ""
+msgstr "PostGIS扩展"
 
 #: diagnostics.py:209
 msgid "PostGIS extension not found."
-msgstr ""
+msgstr "未找到PostGIS扩展。"
 
 #: diagnostics.py:211
 msgid "PostGIS extension version {}."
-msgstr ""
+msgstr "PostGIS扩展版本{}。"
 
 #: diagnostics.py:214
 msgid "Number of geometry columns: {}."
-msgstr ""
+msgstr "几何列数：{}。"
 
 #: diagnostics.py:217
 msgid "Number of spatial reference systems: {}."
-msgstr ""
+msgstr "空间参考系统数量：{}。"
 
 #: diagnostics.py:257
 msgid "Layer table"
-msgstr ""
+msgstr "图层表"
 
 #: diagnostics.py:263
 msgid "Table not found."
-msgstr ""
+msgstr "未找到表。"
 
 #: diagnostics.py:265
 msgid "Table found, table type is {}."
-msgstr ""
+msgstr "找到表，表类型是{}。"
 
 #: diagnostics.py:283
 msgid "{} privilege is present."
-msgstr ""
+msgstr "存在{}权限。"
 
 #: diagnostics.py:285 diagnostics.py:287
 msgid "{} privilege is absent."
-msgstr ""
+msgstr "缺少{}权限。"
 
 #: diagnostics.py:290
 msgid "Number of records: {}."
-msgstr ""
+msgstr "记录数：{}。"
 
 #: diagnostics.py:293
 msgid "ID or geometry column isn't set."
-msgstr ""
+msgstr "ID或几何栏位未设置。"
 
 #: diagnostics.py:300 nodepkg/layer-widget/LayerWidget.tsx:31
 msgid "ID column"
@@ -92,63 +96,63 @@ msgstr "ID 列"
 
 #: diagnostics.py:305 diagnostics.py:378
 msgid "Column not found."
-msgstr ""
+msgstr "未找到列。"
 
 #: diagnostics.py:310
 msgid "Column found, but has non-integer type - {}."
-msgstr ""
+msgstr "找到列，但具有非整数类型 - {}."
 
 #: diagnostics.py:312 diagnostics.py:390
 msgid "Column found, type is {}."
-msgstr ""
+msgstr "找到列，类型为 {}."
 
 #: diagnostics.py:317
 msgid "Column is the primary key."
-msgstr ""
+msgstr "列是主键。"
 
 #: diagnostics.py:320
 msgid "Column is not the primary key."
-msgstr ""
+msgstr "列不是主键。"
 
 #: diagnostics.py:329
 msgid "Column can be NULL."
-msgstr ""
+msgstr "列可以为 NULL。"
 
 #: diagnostics.py:334
 msgid "NULL values in the column."
-msgstr ""
+msgstr "列中有 NULL值。"
 
 #: diagnostics.py:336
 msgid "No NULL values in the column."
-msgstr ""
+msgstr "列中无 NULL值。"
 
 #: diagnostics.py:338
 msgid "Column cannot be NULL."
-msgstr ""
+msgstr "列不能为 NULL。"
 
 #: diagnostics.py:342
 msgid "Unique index not found."
-msgstr ""
+msgstr "唯一索引未找到。"
 
 #: diagnostics.py:344
 msgid "Unique index found."
-msgstr ""
+msgstr "找到唯一索引。"
 
 #: diagnostics.py:360
 msgid "Non-unique values in the column."
-msgstr ""
+msgstr "列中有非唯一值。"
 
 #: diagnostics.py:362
 msgid "All values are unique."
-msgstr ""
+msgstr "所有值均唯一。"
 
 #: diagnostics.py:367
 msgid "Column is auto-incrementable."
-msgstr ""
+msgstr "列可自动增长。"
 
 #: diagnostics.py:369
 msgid "Column isn't auto-incrementable."
-msgstr ""
+msgstr "列不可自动增长。"
 
 #: diagnostics.py:373 nodepkg/layer-widget/LayerWidget.tsx:32
 msgid "Geometry column"
@@ -156,35 +160,35 @@ msgstr "几何栏位"
 
 #: diagnostics.py:388
 msgid "Column found, but has an incompatible type - {}."
-msgstr ""
+msgstr "找到列，但具有不兼容类型 - {}."
 
 #: diagnostics.py:393
 msgid "Geometry SRID mismatch."
-msgstr ""
+msgstr "几何座标系统识别码不匹配。"
 
 #: diagnostics.py:408
 msgid "Failed to reproject extent to SRID {}."
-msgstr ""
+msgstr "无法重抛大小至 SRID {}."
 
 #: diagnostics.py:412
 msgid "Extent (SRID {}): {}."
-msgstr ""
+msgstr "范围(SRID {}): {}."
 
 #: diagnostics.py:416
 msgid "Field columns"
-msgstr ""
+msgstr "字段列"
 
 #: diagnostics.py:422
 msgid "Column of field '{}' not found."
-msgstr ""
+msgstr "未找到字段 '{}' 的列。"
 
 #: diagnostics.py:431
 msgid "Column of field '{}' found, but has an incompatible type - {}."
-msgstr ""
+msgstr "找到字段 '{}' 的列，但类型不兼容 - {}。"
 
 #: diagnostics.py:437
 msgid "Column of field '{}' found, type is {}."
-msgstr ""
+msgstr "找到字段 '{}' 的列，类型为 {}。"
 
 #: exception.py:9
 msgid "External database error"
@@ -255,7 +259,8 @@ msgid "Table '%(table)s' not found!"
 msgstr "'%(table)s'表未找到。 "
 
 #: model.py:307
-msgid "SRID missing in geometry_columns table! You should specify it manually."
+msgid ""
+"SRID missing in geometry_columns table! You should specify it manually."
 msgstr "在geometry_columns表内缺少SRID(空间参考标识符)！您应该手动指定它。"
 
 #: model.py:313
@@ -310,23 +315,23 @@ msgstr "资料库"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:12
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:13
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:14
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:15
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #: nodepkg/layer-widget/LayerStore.ts:13
 msgid "Fields need to be updated due to autodetection"
-msgstr ""
+msgstr "由于自动检测，字段需要更新"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:28
 msgid "Connection"
@@ -346,24 +351,24 @@ msgstr "自动侦测"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:35
 msgid "SRID"
-msgstr ""
+msgstr "空间参考标识符"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:36
 msgid "Fields"
-msgstr ""
+msgstr "字段"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:107
 msgid "Keep existing definitions untouched"
-msgstr ""
+msgstr "保持现有定义不变"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:108
 msgid "Update definitions from the database"
-msgstr ""
+msgstr "从数据库更新定义"
 
 #: view.py:39
 msgid "Diagnostics"
-msgstr ""
+msgstr "诊断"
 
 #: view.py:59
 msgid "PostGIS diagnostics"
-msgstr ""
+msgstr "PostGIS诊断"

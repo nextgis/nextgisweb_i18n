@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-feature-attachment/DisplayWidget.js:9
 #: nodepkg/attachment-bundle/ol-control/control.js:14
 #: nodepkg/attachment-bundle/ol-control/control.js:30
@@ -17,38 +21,40 @@ msgstr "Adjunto no encontrado"
 #: exception.py:8
 msgid "Attachment with id = %d was not found in feature with id = %d."
 msgstr ""
-"No se encontró un archivo adjunto con id = %d  en el objeto geográfico con id"
-" = %d."
+"No se encontró un archivo adjunto con id = %d  en el objeto geográfico con "
+"id = %d."
 
 #: exception.py:9
 msgid "The attachment may have been deleted or an error in the address."
 msgstr ""
-"Es posible que el archivo adjunto se haya eliminado o que haya un error en la"
-" dirección."
+"Es posible que el archivo adjunto se haya eliminado o que haya un error en "
+"la dirección."
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:33
-msgid "Draw the geometry on the map to visualize the attachments to the objects"
+msgid ""
+"Draw the geometry on the map to visualize the attachments to the objects"
 msgstr ""
+"Dibuje la geometría en el mapa para visualizar los adjuntos a los objetos"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
 msgid "Object: "
-msgstr ""
+msgstr "Objeto:"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:139
 msgid "Identify object"
-msgstr ""
+msgstr "Identificar objeto"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:160
 msgid "Attachments: "
-msgstr ""
+msgstr "Adjuntos:"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:187
 msgid "No attachments"
-msgstr ""
+msgstr "No hay adjuntos"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:253
 msgid "Download all attachments"
-msgstr ""
+msgstr "Descargar todos los adjuntos"
 
 #: nodepkg/attachment-editor/AttachmentEditor.tsx:166
 #: nodepkg/attachment-table/AttachmentTable.tsx:45
@@ -67,16 +73,16 @@ msgstr "Descripción"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:56
 msgid ""
-"Use export to copy feature attachments between different layers or to create "
-"a backup. The resulting ZIP archive will contain all of the attachments put "
-"in directories named after feature IDs. Attachment metadata are put into a "
+"Use export to copy feature attachments between different layers or to create"
+" a backup. The resulting ZIP archive will contain all of the attachments put"
+" in directories named after feature IDs. Attachment metadata are put into a "
 "separate JSON file."
 msgstr ""
 "Use exportar para copiar archivos adjuntos de entidades entre diferentes "
 "capas o para crear una copia de seguridad. El archivo ZIP resultante "
-"contendrá todos los archivos adjuntos colocados en directorios con nombres de"
-" ID de objeto geográfico. Los metadatos de los archivos adjuntos se colocan "
-"en un archivo JSON separado."
+"contendrá todos los archivos adjuntos colocados en directorios con nombres "
+"de ID de objeto geográfico. Los metadatos de los archivos adjuntos se "
+"colocan en un archivo JSON separado."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:66
 msgid "Export attachments to ZIP archive"
@@ -131,7 +137,7 @@ msgstr "Tipo MIME"
 
 #: nodepkg/image-thumbnail/component/CarouselRender.tsx:23
 msgid "Toggle panorama viewer"
-msgstr ""
+msgstr "Alternar visualizador de panorama"
 
 #: util.py:26
 msgid "Invalid ZIP archive."
@@ -143,11 +149,11 @@ msgstr "El archivo '{}' no se encuentra en los metadatos."
 
 #: util.py:61
 msgid "Invalid feature ID for file '{}'."
-msgstr ""
+msgstr "ID de objeto geográfico no válido para el archivo '{}'."
 
 #: util.py:68
 msgid "Invalid keyname for file '{}'."
-msgstr ""
+msgstr "Nombre de clave no válido para el archivo '{}'."
 
 #: util.py:74
 msgid "Invalid name for file '{}'."
@@ -164,6 +170,7 @@ msgstr "Descripción no válida para el archivo '{}'."
 #: util.py:100
 msgid "Could not determine feature ID for file '{}'."
 msgstr ""
+"No se pudo determinar el ID del objeto geográfico para el archivo '{}'."
 
 #: util.py:118
 msgid "File '{}' isn't found in the archive."

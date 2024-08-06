@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-tmsclient/ConnectionWidget.js:34
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:39
 msgid "TMS connection"
@@ -5,7 +9,7 @@ msgstr "Ligação TMS"
 
 #: model.py:88
 msgid "API key required."
-msgstr ""
+msgstr "Chave API necessária."
 
 #: model.py:131
 msgid "Zoom is out of range."
@@ -17,7 +21,7 @@ msgstr "Camada TMS"
 
 #: model.py:274
 msgid "Layer name required."
-msgstr ""
+msgstr "Nome da camada necessário."
 
 #: amd/ngw-tmsclient/LayersDialog.js:25
 msgid "Select layer"
@@ -33,7 +37,7 @@ msgstr "Cancelar"
 
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
 msgid "Capmode"
-msgstr "Capmode"
+msgstr "Modo Cap"
 
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:11
 msgid "Custom"
@@ -113,4 +117,3 @@ msgstr "Tamanho do tile, px"
 
 #~ msgid "TMS capabilities"
 #~ msgstr "Capacidades do TMS"
-

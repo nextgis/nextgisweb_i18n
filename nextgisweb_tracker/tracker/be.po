@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:11
 #, amd
 msgid "Unique id (IMEI by default)"
@@ -38,12 +42,14 @@ msgstr "Праграмнае забеспячэнне NextGIS (мабільна�
 msgid "ADM (ADM-50, ADM-100)"
 msgstr "ADM (ADM-50, ADM-100)"
 
-#: amd/ngw-tracker/webmap/map/utils.js:20 amd/ngw-tracker/webmap/map/utils.js:38
+#: amd/ngw-tracker/webmap/map/utils.js:20
+#: amd/ngw-tracker/webmap/map/utils.js:38
 #, amd
 msgid "Date"
 msgstr "Дата"
 
-#: amd/ngw-tracker/webmap/map/utils.js:29 amd/ngw-tracker/webmap/map/utils.js:40
+#: amd/ngw-tracker/webmap/map/utils.js:29
+#: amd/ngw-tracker/webmap/map/utils.js:40
 #: nodepkg/trackers-panel/TrackersPanel.js:188
 #, amd, jsrealm
 msgid "Time"
@@ -67,19 +73,19 @@ msgstr "Курс"
 #: amd/ngw-tracker/webmap/map/utils.js:63
 #, amd
 msgid "Satellites"
-msgstr ""
+msgstr "Спадарожнікі"
 
 #: amd/ngw-tracker/webmap/map/utils.js:69
 #, amd
 msgid "HDOP"
-msgstr ""
+msgstr "HDOP"
 
 #: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:33 component.py:13
 #: nodepkg/reports/Reports.js:175 nodepkg/trackers-panel/TrackersPanel.js:272
 #: view/__init__.py:50
 #, amd, jsrealm, server
 msgid "Trackers"
-msgstr ""
+msgstr "Трэкеры"
 
 #: api/device_types.py:15
 #, server
@@ -99,14 +105,14 @@ msgstr "Трэкер"
 #: model.py:51
 #, server
 msgid "Tracker UID is not unique"
-msgstr ""
+msgstr "UID трэкера не ўнікальны"
 
 #: model.py:78
 #, server
 msgid ""
 "The '{}' attribute is immutable and cannot be changed once the tracker is "
 "created."
-msgstr ""
+msgstr "Атрыбут '{}' незменны і не можа быць зменены пасля стварэння трэкера."
 
 #: nodepkg/reports/Reports.js:23 template/_consumption_fuel.mako:26
 #: template/_mileage.mako:20
@@ -144,31 +150,31 @@ msgstr "GPX файл"
 #: template/_top_speed.mako:15
 #, jsrealm, server
 msgid "Days"
-msgstr ""
+msgstr "Дні"
 
 #: nodepkg/reports/Reports.js:33 template/_avg_speed.mako:17
 #: template/_consumption_fuel.mako:23 template/_mileage.mako:17
 #: template/_top_speed.mako:17
 #, jsrealm, server
 msgid "Hours"
-msgstr ""
+msgstr "Гадзіны"
 
 #: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
 #: nodepkg/trackers-panel/TrackersPanel.js:97
 #: nodepkg/trackers-panel/TrackersPanel.js:98
 #, jsrealm
 msgid "Unknown"
-msgstr ""
+msgstr "Невядома"
 
 #: nodepkg/reports/Reports.js:131
 #, jsrealm
 msgid "Result"
-msgstr ""
+msgstr "Вынік"
 
 #: nodepkg/reports/Reports.js:142
 #, jsrealm
 msgid "Settings"
-msgstr ""
+msgstr "Налады"
 
 #: nodepkg/reports/Reports.js:146
 #, jsrealm
@@ -183,67 +189,67 @@ msgstr "Дыяпазон часу"
 #: nodepkg/reports/Reports.js:166
 #, jsrealm
 msgid "Group by"
-msgstr ""
+msgstr "Групаваць па"
 
 #: nodepkg/reports/Reports.js:183
 #, jsrealm
 msgid "Build report"
-msgstr ""
+msgstr "Скласці справаздачу"
 
 #: nodepkg/tracker-activity/ChartHelper.js:44
 #, jsrealm
 msgid "Count of packets per hour"
-msgstr ""
+msgstr "Колькасць пакетаў за гадзіну"
 
 #: nodepkg/tracker-activity/TrackerActivity.js:53
 #, jsrealm
 msgid "Cancel"
-msgstr ""
+msgstr "Адмяніць"
 
 #: nodepkg/tracker-activity/TrackerActivity.js:63
 #, jsrealm
 msgid "Last activity by hours"
-msgstr ""
+msgstr "Апошняя актыўнасць па гадзінах"
 
 #: nodepkg/tracker-settings/TrackerSettings.js:34
 #, jsrealm
 msgid "Settings saved"
-msgstr ""
+msgstr "Налады захаваныя"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:29
 #, jsrealm
 msgid "Common settings"
-msgstr ""
+msgstr "Агульныя налады"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:35
 #, jsrealm
 msgid "Interval for splitting tracks, min"
-msgstr ""
+msgstr "Інтэрвал для падзелу трэкаў, мін"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:47
 #, jsrealm
 msgid "Stops detecting"
-msgstr ""
+msgstr "Вызначэнне прыпынкаў"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:53
 #, jsrealm
 msgid "Minimal speed, km/h"
-msgstr ""
+msgstr "Мінімальная хуткасць, км/г"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:66
 #, jsrealm
 msgid "Minimal time stop, sec"
-msgstr ""
+msgstr "Мінімальны час прыпынку, сек"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:78
 #, jsrealm
 msgid "Timezone settings"
-msgstr ""
+msgstr "Нанастроўкі часовой зоны"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:82
 #, jsrealm
 msgid "Time zone"
-msgstr ""
+msgstr "Часовая зона"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:106
 #, jsrealm
@@ -253,17 +259,17 @@ msgstr "Захаваць"
 #: nodepkg/trackers-panel/TrackersPanel.js:40
 #, jsrealm
 msgid "Last known point"
-msgstr ""
+msgstr "Апошняя вядомая канкрэтная Купла"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:45
 #, jsrealm
 msgid "GPS tracks"
-msgstr ""
+msgstr "ГСП трэке"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:50
 #, jsrealm
 msgid "Track points"
-msgstr ""
+msgstr "Канкрэтная трэке"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:65
 #, jsrealm
@@ -273,7 +279,7 @@ msgstr "Прыблізіць да слоя"
 #: nodepkg/trackers-panel/TrackersPanel.js:72
 #, jsrealm
 msgid "Zoom to last point"
-msgstr ""
+msgstr "Вызначыць на апошнесь мовчанне канкрэтная Купла"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:79
 #, jsrealm
@@ -288,24 +294,24 @@ msgstr "Паказаць апошнюю дзейнасць"
 #: nodepkg/trackers-panel/TrackersPanel.js:187
 #, jsrealm
 msgid "Sort by"
-msgstr ""
+msgstr "Унік па"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:189
 #, jsrealm
 msgid "Name"
-msgstr ""
+msgstr "Ѓыскніць"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:284
 #, jsrealm
 msgid "Reports"
-msgstr ""
+msgstr "Рапортаж"
 
 #: pyramid_tracker/register.py:20 pyramid_tracker/register.py:40
 #, server
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
 msgstr ""
-"Прылада не зарэгістравана ў сістэме NextGIS Tracker. Паспрабуйце пазней, калі"
-" ласка."
+"Прылада не зарэгістравана ў сістэме NextGIS Tracker. Паспрабуйце пазней, "
+"калі ласка."
 
 #: pyramid_tracker/register.py:24 pyramid_tracker/register.py:42
 #, server
@@ -401,4 +407,4 @@ msgstr "Налады трэкераў"
 #: view/reports.py:18
 #, server
 msgid "Trackers reports"
-msgstr ""
+msgstr "Тракерою перапартаж"

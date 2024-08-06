@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:46
 msgid "Output format is not provided."
 msgstr "No se proporciona formato de salida."
@@ -32,8 +36,8 @@ msgstr "La libreria GDAL no pudo abrir el archivo."
 
 #: model.py:109
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
 "El ráster tiene el formato '%(format)s', sin embargo, solo se admiten los "
 "siguientes formatos: %(all_formats)s."
@@ -60,7 +64,8 @@ msgstr ""
 
 #: model.py:184
 msgid "Failed to reproject the raster to the target coordinate system."
-msgstr "No se pudo reproyectar el ráster en el sistema de coordenadas de destino."
+msgstr ""
+"No se pudo reproyectar el ráster en el sistema de coordenadas de destino."
 
 #: model.py:187
 msgid "GDAL error message: %s"
@@ -71,8 +76,8 @@ msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
 msgstr ""
-"El tamaño de ráster sin comprimir (%(size)s) supera el límite (%(limit)s) en "
-"%(delta)s. Reduzca el tamaño del ráster para ajustarse al límite."
+"El tamaño de ráster sin comprimir (%(size)s) supera el límite (%(limit)s) en"
+" %(delta)s. Reduzca el tamaño del ráster para ajustarse al límite."
 
 #: model.py:315
 msgid "Data type"
@@ -80,7 +85,7 @@ msgstr "Tipo de datos"
 
 #: model.py:316
 msgid "COG"
-msgstr "COG"
+msgstr "\"COG\""
 
 #: nodepkg/editor-widget/EditorWidget.tsx:16
 msgid "Select a dataset"
@@ -92,7 +97,7 @@ msgstr "El dataset debe estar en formato GeoTIFF."
 
 #: nodepkg/editor-widget/EditorWidget.tsx:39
 msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr "Cloud Optimized GeoTIFF (COG)"
+msgstr "GeoTIFF Optimizado para la Nube (COG)"
 
 #: nodepkg/export-form/ExportForm.tsx:55
 msgid "Band"
@@ -104,7 +109,7 @@ msgstr "Formato"
 
 #: nodepkg/export-form/ExportForm.tsx:91
 msgid "SRS"
-msgstr "SRS"
+msgstr "\"SRS\""
 
 #: nodepkg/export-form/ExportForm.tsx:96
 msgid "Bands"
@@ -120,21 +125,21 @@ msgstr "Guardar como"
 
 #: view.py:33
 msgid "Cloud Optimized GeoTIFF"
-msgstr "Cloud Optimized GeoTIFF"
+msgstr "GeoTIFF Optimizado para la Nube"
 
 #: view.py:34
 msgid ""
 "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
-"hosted on a HTTP file server, with an internal organization that enables more"
-" efficient workflows on the cloud. It does this by leveraging the ability of "
-"clients issuing ​HTTP GET range requests to ask for just the parts of a file "
-"they need."
+"hosted on a HTTP file server, with an internal organization that enables "
+"more efficient workflows on the cloud. It does this by leveraging the "
+"ability of clients issuing ​HTTP GET range requests to ask for just the "
+"parts of a file they need."
 msgstr ""
 "Un Cloud Optimized GeoTIFF (COG) es un archivo GeoTIFF normal, destinado a "
-"ser alojado en un servidor de archivos HTTP, con una organización interna que"
-" permite flujos de trabajo más eficientes en la nube. Lo hace aprovechando la"
-" capacidad de los clientes que emiten solicitudes de rango HTTP GET para "
-"solicitar solo las partes de un archivo que necesitan."
+"ser alojado en un servidor de archivos HTTP, con una organización interna "
+"que permite flujos de trabajo más eficientes en la nube. Lo hace "
+"aprovechando la capacidad de los clientes que emiten solicitudes de rango "
+"HTTP GET para solicitar solo las partes de un archivo que necesitan."
 
 #: view.py:69
 msgid "Download"

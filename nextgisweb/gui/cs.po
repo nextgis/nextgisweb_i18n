@@ -1,6 +1,10 @@
+#
+msgid ""
+msgstr ""
+
 #: nodepkg/arm/validate.ts:5
 msgid "Value required"
-msgstr ""
+msgstr "Hodnota je povinná"
 
 #: nodepkg/arm/validate.ts:7
 msgid "At least {} character required"
@@ -18,31 +22,31 @@ msgstr[2] ""
 
 #: nodepkg/arm/validate.ts:18
 msgid "Value should be at least {}"
-msgstr ""
+msgstr "Hodnota by měla být alespoň {}"
 
 #: nodepkg/arm/validate.ts:19
 msgid "Value should be no more than {}"
-msgstr ""
+msgstr "Hodnota by neměla být vyšší než {}"
 
 #: nodepkg/arm/validate.ts:21
 msgid "Invalid value"
-msgstr ""
+msgstr "Neplatná hodnota"
 
 #: nodepkg/arm/validate.ts:22
 msgid "Value not unique"
-msgstr ""
+msgstr "Hodnota není jedinečná"
 
 #: nodepkg/arm/validate.ts:23
 msgid "Invalid URL"
-msgstr ""
+msgstr "Neplatná URL"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:23
 msgid "Copied to clipboard"
-msgstr ""
+msgstr "Zkopírováno do schránky"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:28
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Kopírovat do schránky"
 
 #: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:47
 msgid "Save"
@@ -50,27 +54,27 @@ msgstr "Uložit"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:79
 msgid "From layer"
-msgstr ""
+msgstr "Z vrstvy"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:87
 msgid "West"
-msgstr ""
+msgstr "Západ"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:98
 msgid "South"
-msgstr ""
+msgstr "Jih"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:107
 msgid "East"
-msgstr ""
+msgstr "Východ"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:116
 msgid "North"
-msgstr ""
+msgstr "Sever"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:15
 msgid "Improve or add new translation"
-msgstr ""
+msgstr "Vylepšit nebo přidat nový překlad"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:31
 msgid "Browser default"
@@ -78,11 +82,11 @@ msgstr "Výchozí nastavení prohlížeče"
 
 #: nodepkg/confirm.ts:13
 msgid "Confirmation required"
-msgstr ""
+msgstr "Vyžaduje se potvrzení"
 
 #: nodepkg/confirm.ts:14
 msgid "Please confirm this action."
-msgstr ""
+msgstr "Prosím potvrďte tuto akci."
 
 #: nodepkg/confirm.ts:16 nodepkg/error/shared.js:69
 msgid "OK"
@@ -90,29 +94,30 @@ msgstr "OK"
 
 #: nodepkg/confirm.ts:43
 msgid "Please confirm the deletion."
-msgstr ""
+msgstr "Prosím potvrďte odstranění."
 
 #: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:78
 #: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:262
-#: nodepkg/model-browse/ModelBrowse.tsx:329 nodepkg/model-form/ModelForm.tsx:48
+#: nodepkg/model-browse/ModelBrowse.tsx:329
+#: nodepkg/model-form/ModelForm.tsx:48
 msgid "Delete"
 msgstr "Odstranit"
 
 #: nodepkg/confirm.ts:45
 msgid "Failed to delete."
-msgstr ""
+msgstr "Nepodařilo se odstranit."
 
 #: nodepkg/edi-table/RowAction.tsx:73
 msgid "Clone"
-msgstr ""
+msgstr "Klonovat"
 
 #: nodepkg/edi-table/store/RecordItem.ts:35
 msgid "Key required"
-msgstr ""
+msgstr "Klíč je vyžadován"
 
 #: nodepkg/edi-table/store/RecordItem.ts:41
 msgid "Key not unique"
-msgstr ""
+msgstr "Klíč není jedinečný"
 
 #: nodepkg/error/index.ts:44
 msgid "Unexpected error"
@@ -144,9 +149,10 @@ msgstr "Zadaná hodnota není platná"
 
 #: nodepkg/focus-table/action.tsx:13
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:109 nodepkg/model-form/ModelForm.tsx:68
+#: nodepkg/model-browse/ModelBrowse.tsx:109
+#: nodepkg/model-form/ModelForm.tsx:68
 msgid "Confirmation"
 msgstr "Potvrzení"
 
@@ -176,13 +182,14 @@ msgstr "Upravit"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:252
 msgid "View"
-msgstr ""
+msgstr "Zobrazit"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:285
 msgid "Search"
 msgstr "Vyhledávání"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:307 nodepkg/model-form/ModelForm.tsx:46
+#: nodepkg/model-browse/ModelBrowse.tsx:307
+#: nodepkg/model-form/ModelForm.tsx:46
 msgid "Create"
 msgstr "Vytvořit"
 
@@ -196,11 +203,11 @@ msgstr "Logo uloženo. Znovu načtěte stránku, abyste je mohli použít."
 
 #: nodepkg/progress-modal/ProgressModal.tsx:5
 msgid "Operation in progress"
-msgstr ""
+msgstr "Operace probíhá"
 
 #: nodepkg/progress-modal/ProgressModal.tsx:6
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: nodepkg/single-setting-form/SingleSettingForm.tsx:25
 msgid "The setting is saved."

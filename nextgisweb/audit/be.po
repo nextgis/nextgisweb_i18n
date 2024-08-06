@@ -1,22 +1,26 @@
+#
+msgid ""
+msgstr ""
+
 #: backend/base.py:36
 #, server
 msgid "Audit backend not enabled"
-msgstr ""
+msgstr "Ајдыт заднёсевая часцка не ѓ"
 
 #: backend/base.py:37
 #, server
 msgid "The '{}' audit backend is not configured on this server."
-msgstr ""
+msgstr "Аїдыт заднёсевая часцка '{}' не конфігуравана на гэтай сервер."
 
 #: nodepkg/journal/Journal.js:47
 #, jsrealm
 msgid "Request"
-msgstr ""
+msgstr "Запыт"
 
 #: nodepkg/journal/Journal.js:64
 #, jsrealm
 msgid "IP address"
-msgstr ""
+msgstr "Адрас IP"
 
 #: nodepkg/journal/Journal.js:68
 #, jsrealm
@@ -60,12 +64,12 @@ msgstr[2] ""
 #: nodepkg/journal/Journal.js:292
 #, jsrealm
 msgid "Filter by user"
-msgstr ""
+msgstr "Фільтр па карыстальніку"
 
 #: nodepkg/journal/Journal.js:301
 #, jsrealm
 msgid "Export CSV"
-msgstr ""
+msgstr "Экспарт CSV"
 
 #: nodepkg/journal/Journal.js:312
 #, jsrealm

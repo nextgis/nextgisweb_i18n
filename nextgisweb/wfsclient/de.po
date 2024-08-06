@@ -1,11 +1,12 @@
+#
 msgid ""
 msgstr ""
+"Project-Id-Version: NextGIS Web GUI\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: NextGIS Web GUI\n"
-"Language: de\n"
 
 #. Вообще, у ребят есть прекрасное слово Kennwort. Предлагаю поменять
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
@@ -96,4 +97,3 @@ msgstr "Benutzername"
 #: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:8
 msgid "Select WFS connection"
 msgstr "WFS-Verbindung wählen"
-

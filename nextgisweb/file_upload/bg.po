@@ -1,10 +1,14 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:25
 msgid "Uploaded file too large"
 msgstr "Прикачваният файл е прекалено голям"
 
 #: model.py:137
 msgid "Uploaded file not found"
-msgstr ""
+msgstr "Прикачваният файл не е намерен"
 
 #: model.py:141
 msgid "Upload is not completed"
@@ -29,11 +33,11 @@ msgstr "Спри"
 
 #: nodepkg/file-uploader/FileUploaderButton.tsx:9
 msgid "Upload"
-msgstr ""
+msgstr "Качване"
 
 #: nodepkg/file-uploader/hook/useFileUploader.ts:17
 msgid "{} uploaded..."
-msgstr ""
+msgstr "{} качен..."
 
 #: nodepkg/image-uploader/ImageUploader.tsx:18
 msgid "Delete"

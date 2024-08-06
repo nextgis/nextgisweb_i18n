@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: scope.py:8
 msgid "Collector"
 msgstr "收集器"
@@ -114,8 +118,8 @@ msgstr "需要“管理员”组的成员资格！"
 
 #: api/collector_user.py:93 api/collector_user.py:120
 msgid ""
-"Unfortunately, you cannot add a new collector. Your collector users limit in "
-"the Web GIS is"
+"Unfortunately, you cannot add a new collector. Your collector users limit in"
+" the Web GIS is"
 msgstr "很遗憾，您不能添加新的参与者。在Web GIS 中，您的参与者用户上限是"
 
 #: models/model_db.py:39
@@ -183,4 +187,3 @@ msgstr "创建一个新的参与者"
 #: views/settings.py:31
 msgid "Edit collector"
 msgstr "更换参与者"
-

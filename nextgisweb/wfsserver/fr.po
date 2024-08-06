@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
 msgstr "Service WFS"
@@ -12,11 +16,11 @@ msgstr "Nom de clé"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Features per request"
-msgstr ""
+msgstr "Entités par requête"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Not set"
-msgstr ""
+msgstr "Non défini"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"
@@ -24,13 +28,13 @@ msgstr "Ressource"
 
 #: view.py:16
 msgid "Web Feature Service (WFS)"
-msgstr "Web Feature Service (WFS)"
+msgstr "Service Web Feature (WFS)"
 
 #: view.py:17
 msgid ""
 "Web Feature Service (WFS) provides an interface allowing requests for "
 "geographical features across the web using platform-independent calls."
 msgstr ""
-"Web Feature Service (WFS) fournit une interface qui vous permet d'interroger "
-"des entités géographiques sur Web via des appels indépendants de la plate-"
+"Web Feature Service (WFS) fournit une interface qui vous permet d'interroger"
+" des entités géographiques sur Web via des appels indépendants de la plate-"
 "forme."

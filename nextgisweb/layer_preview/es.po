@@ -1,4 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: view.py:36 view.py:57
 msgid "Preview"
 msgstr "Previsualizar"
-

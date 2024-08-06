@@ -1,26 +1,30 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:24
 msgid "Basemap"
 msgstr "底图"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:18
 msgid "Pick from QMS"
-msgstr ""
+msgstr "从QMS中选择"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:20
 msgid "Search for geoservices provided by "
-msgstr ""
+msgstr "搜索由提供的地理服务"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:21
 msgid "You can search by name or ID"
-msgstr ""
+msgstr "您可以通过名称或ID进行搜索"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:24
 msgid "If a service from QMS is selected, this field cannot be edited."
-msgstr ""
+msgstr "如果选择了来自QMS的服务，则无法编辑此字段。"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:80
 msgid "URL"
-msgstr "URL"
+msgstr "\"URL\""
 
 #: nodepkg/layer-widget/LayerWidget.tsx:88
 msgid "Copyright text"
@@ -41,7 +45,7 @@ msgstr "显示名称"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:61
 msgid "Default basemap"
-msgstr ""
+msgstr "默认底图"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:64
 msgid "Opacity"

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:23 nodepkg/editor/EditorWidget.tsx:168 view.py:16
 #, jsrealm, server
 msgid "Lookup table"
@@ -6,22 +10,22 @@ msgstr "Табліца пошуку"
 #: nodepkg/editor/EditorWidget.tsx:34
 #, jsrealm
 msgid "Type here to add a new item..."
-msgstr ""
+msgstr "Увядзіце тут, каб дадаць новы прадмет..."
 
 #: nodepkg/editor/EditorWidget.tsx:35
 #, jsrealm
 msgid "Export"
-msgstr ""
+msgstr "Экспарт"
 
 #: nodepkg/editor/EditorWidget.tsx:36
 #, jsrealm
 msgid "Import"
-msgstr ""
+msgstr "Імпарт"
 
 #: nodepkg/editor/EditorWidget.tsx:37
 #, jsrealm
 msgid "Clear"
-msgstr ""
+msgstr "Ачысціць"
 
 #: nodepkg/editor/EditorWidget.tsx:40
 #, jsrealm
@@ -29,6 +33,8 @@ msgid ""
 "All existing records will be deleted after import. Are you sure you want to "
 "proceed?"
 msgstr ""
+"Усе існуючыя запісы будуць выдалены пасля імпарту. Вы ўпэўнены, што хочаце "
+"працягнуць?"
 
 #: nodepkg/editor/EditorWidget.tsx:86 template/resource_section.mako:8
 #, jsrealm, server

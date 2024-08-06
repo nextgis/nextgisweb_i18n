@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: interface.py:14
 #, server
 msgid "POI"
@@ -41,7 +45,7 @@ msgstr "Tipo de estilo"
 #: nodepkg/style-3d-widget/Style3d.tsx:143
 #, jsrealm
 msgid "POI icon"
-msgstr ""
+msgstr "Icono de POI"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:154
 #, jsrealm
@@ -58,25 +62,29 @@ msgstr "Prioridad"
 msgid "Inverse"
 msgstr "Inverso"
 
-#: nodepkg/style-3d-widget/Style3d.tsx:188 nodepkg/style-3d-widget/Style3d.tsx:279
+#: nodepkg/style-3d-widget/Style3d.tsx:188
+#: nodepkg/style-3d-widget/Style3d.tsx:279
 #: nodepkg/style-3d-widget/Style3d.tsx:325
 #, jsrealm
 msgid "Stroke color"
 msgstr "Color de marca"
 
-#: nodepkg/style-3d-widget/Style3d.tsx:199 nodepkg/style-3d-widget/Style3d.tsx:290
+#: nodepkg/style-3d-widget/Style3d.tsx:199
+#: nodepkg/style-3d-widget/Style3d.tsx:290
 #: nodepkg/style-3d-widget/Style3d.tsx:336
 #, jsrealm
 msgid "Stroke width"
 msgstr "Anchura de línea de marco"
 
-#: nodepkg/style-3d-widget/Style3d.tsx:210 nodepkg/style-3d-widget/Style3d.tsx:301
+#: nodepkg/style-3d-widget/Style3d.tsx:210
+#: nodepkg/style-3d-widget/Style3d.tsx:301
 #: nodepkg/style-3d-widget/Style3d.tsx:347
 #, jsrealm
 msgid "Fill color"
 msgstr "Color de relleno"
 
-#: nodepkg/style-3d-widget/Style3d.tsx:221 nodepkg/style-3d-widget/Style3d.tsx:380
+#: nodepkg/style-3d-widget/Style3d.tsx:221
+#: nodepkg/style-3d-widget/Style3d.tsx:380
 #, jsrealm
 msgid "Height"
 msgstr "Altura"

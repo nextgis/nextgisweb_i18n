@@ -1,17 +1,21 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
 #, amd
 msgid "Starting screen"
-msgstr ""
+msgstr "Початковы экран"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
 #, amd
 msgid "NextGIS Collector user credentials"
-msgstr ""
+msgstr "Захаваннћя даных карыстальніка NextGIS Collector"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
 #, amd
 msgid "User name"
-msgstr ""
+msgstr "Імя карыстальніка"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
 #, amd
@@ -21,12 +25,12 @@ msgstr "Пароль"
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:44
 #, amd
 msgid "Project"
-msgstr ""
+msgstr "Праект"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:47
 #, amd
 msgid "List of forms"
-msgstr ""
+msgstr "Спіс форм"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:48
 #, amd
@@ -36,7 +40,7 @@ msgstr "Карта"
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
 #, amd
 msgid "Add item"
-msgstr ""
+msgstr "Дадаць прадмет"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:114
@@ -58,32 +62,32 @@ msgstr "Адлюстроўваемае імя"
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
 #, amd
 msgid "Visible"
-msgstr ""
+msgstr "Відочны"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
 #, amd
 msgid "Editable"
-msgstr ""
+msgstr "Рэдагуемы"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
 #, amd
 msgid "Syncable"
-msgstr ""
+msgstr "Сінхранізуемы"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
 #, amd
 msgid "Lifetime for tiles (in min)"
-msgstr ""
+msgstr "Тэрмін захоўвання кахель (u мінутах)"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
 #, amd
 msgid "Min zoom"
-msgstr ""
+msgstr "Мінімальны зум"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
 #, amd
 msgid "Max zoom"
-msgstr ""
+msgstr "Максімальны зум"
 
 #: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
 #, amd
@@ -103,7 +107,7 @@ msgstr "Прадметы"
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
 #, amd
 msgid "You have no permissions to manage this section."
-msgstr ""
+msgstr "У вас няма дазволу кіраваць гэтай надзелам."
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
 #, amd
@@ -128,14 +132,15 @@ msgstr "Збіральнікі"
 #: api/collector_user.py:33
 #, server
 msgid "Membership in group \"Administrators\" required!"
-msgstr ""
+msgstr "Патрэбуецца удзел у групе \"Інджынеры\"!"
 
 #: api/collector_user.py:95 api/collector_user.py:121
 #, server
 msgid ""
-"Unfortunately, you cannot add a new collector. Your collector users limit in "
-"the Web GIS is"
+"Unfortunately, you cannot add a new collector. Your collector users limit in"
+" the Web GIS is"
 msgstr ""
+"Нажаль, вы не можаце дадаць новага збіронега. Ліміт калектараў у Web GIS—"
 
 #: models/model_db.py:49
 #, server
@@ -146,7 +151,7 @@ msgstr "Праект калектара"
 #: nodepkg/collector-user-editor/CollectorUserEditor.tsx:18
 #, jsrealm
 msgid "NextGIS ID"
-msgstr "NextGIS ID"
+msgstr "Нехтгісіє ID"
 
 #: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:22
 #: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
@@ -162,47 +167,47 @@ msgstr "Дададзена"
 #: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:43
 #, jsrealm
 msgid "You cannot add a new collector. Your collector users limit"
-msgstr ""
+msgstr "Вы не можаце дадаць новага збір калектара. Ліміт вашых пакаралункаў"
 
 #: nodepkg/collector-user-editor/CollectorUserEditor.tsx:23
 #, jsrealm
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "Уведзеннае значэнне ня дубчыці"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.tsx:21
 #, jsrealm
 msgid "Collector users:"
-msgstr ""
+msgstr "Збіральнікі:"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.tsx:21
 #, jsrealm
 msgid "out of"
-msgstr ""
+msgstr "з"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.tsx:28
 #, jsrealm
 msgid "Each collector must have "
-msgstr ""
+msgstr "Кожны збіральнік павінен мець"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.tsx:29
 #, jsrealm
 msgid "NextGIS ID account"
-msgstr ""
+msgstr "уліковы запіс NextGIS ID"
 
 #: nodepkg/userMessages.ts:5
 #, jsrealm
 msgid "Delete collector?"
-msgstr ""
+msgstr "Выдаліць збіральніка?"
 
 #: nodepkg/userMessages.ts:6
 #, jsrealm
 msgid "Collector deleted"
-msgstr ""
+msgstr "Збіральнік выдалены"
 
 #: scope.py:8
 #, server
 msgid "Collector"
-msgstr ""
+msgstr "Збіральнік"
 
 #: scope.py:10
 #, server
@@ -222,7 +227,7 @@ msgstr "Спіс зібаральнікаў"
 #: views/settings.py:28
 #, server
 msgid "Create new collector"
-msgstr ""
+msgstr "Стварыць новага збіральніка"
 
 #: views/settings.py:35
 #, server

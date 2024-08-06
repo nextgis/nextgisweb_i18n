@@ -1,90 +1,94 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:83
 msgid "Table (%s) not found in schema (%s)."
 msgstr "Tabulka (%s) nebyla ve schématu nalezena (%s)."
 
 #: api.py:148
 msgid "PostGIS layer {} not found!"
-msgstr ""
+msgstr "PostGIS vrstva {} nenalezena!"
 
 #: api.py:172
 msgid "PostGIS connection {} not found!"
-msgstr ""
+msgstr "PostGIS připojení {} nenalezeno!"
 
 #: diagnostics.py:99
 msgid "Got an unexpected error."
-msgstr ""
+msgstr "Došlo k neočekávané chybě."
 
 #: diagnostics.py:156
 msgid "PostgreSQL connection"
-msgstr ""
+msgstr "Připojení PostgreSQL"
 
 #: diagnostics.py:162
 msgid "Host name resolution failed: {}."
-msgstr ""
+msgstr "Nepodařilo se rozpoznat název hostitele: {}."
 
 #: diagnostics.py:180
 msgid "Failed to connect to the database."
-msgstr ""
+msgstr "Nepodařilo se připojit k databázi."
 
 #: diagnostics.py:184
 msgid "Connected to the database."
-msgstr ""
+msgstr "Připojeno k databázi."
 
 #: diagnostics.py:187
 msgid "Executed {} query."
-msgstr ""
+msgstr "Vykonáno {} dotazů."
 
 #: diagnostics.py:190
 msgid "PostgreSQL version {}."
-msgstr ""
+msgstr "Verze PostgreSQL {}."
 
 #: diagnostics.py:199
 msgid "PostGIS extension"
-msgstr ""
+msgstr "PostGIS rozšíření"
 
 #: diagnostics.py:209
 msgid "PostGIS extension not found."
-msgstr ""
+msgstr "PostGIS rozšíření nenalezeno."
 
 #: diagnostics.py:211
 msgid "PostGIS extension version {}."
-msgstr ""
+msgstr "Verze PostGIS rozšíření {}."
 
 #: diagnostics.py:214
 msgid "Number of geometry columns: {}."
-msgstr ""
+msgstr "Počet sloupců geometrie: {}."
 
 #: diagnostics.py:217
 msgid "Number of spatial reference systems: {}."
-msgstr ""
+msgstr "Počet souřadnicových referenčních systémů: {}."
 
 #: diagnostics.py:257
 msgid "Layer table"
-msgstr ""
+msgstr "Vrstva tabulka"
 
 #: diagnostics.py:263
 msgid "Table not found."
-msgstr ""
+msgstr "Tabulka nenalezena."
 
 #: diagnostics.py:265
 msgid "Table found, table type is {}."
-msgstr ""
+msgstr "Tabulka nalezena, typ tabulky je {}."
 
 #: diagnostics.py:283
 msgid "{} privilege is present."
-msgstr ""
+msgstr "Oprávnění {} je přítomno."
 
 #: diagnostics.py:285 diagnostics.py:287
 msgid "{} privilege is absent."
-msgstr ""
+msgstr "Oprávnění {} chybí."
 
 #: diagnostics.py:290
 msgid "Number of records: {}."
-msgstr ""
+msgstr "Počet záznamů: {}."
 
 #: diagnostics.py:293
 msgid "ID or geometry column isn't set."
-msgstr ""
+msgstr "Sloupec ID nebo geometrie není nastaven."
 
 #: diagnostics.py:300 nodepkg/layer-widget/LayerWidget.tsx:31
 msgid "ID column"
@@ -92,63 +96,63 @@ msgstr "Sloupec ID"
 
 #: diagnostics.py:305 diagnostics.py:378
 msgid "Column not found."
-msgstr ""
+msgstr "Sloupec nenalezen."
 
 #: diagnostics.py:310
 msgid "Column found, but has non-integer type - {}."
-msgstr ""
+msgstr "Sloupec nalezen, ale má necelé číselné typ - {}."
 
 #: diagnostics.py:312 diagnostics.py:390
 msgid "Column found, type is {}."
-msgstr ""
+msgstr "Sloupec nalezen, typ je {}."
 
 #: diagnostics.py:317
 msgid "Column is the primary key."
-msgstr ""
+msgstr "Sloupec je primární klíč."
 
 #: diagnostics.py:320
 msgid "Column is not the primary key."
-msgstr ""
+msgstr "Sloupec není primární klíč."
 
 #: diagnostics.py:329
 msgid "Column can be NULL."
-msgstr ""
+msgstr "Sloupec může obsahovat hodnoty NULL."
 
 #: diagnostics.py:334
 msgid "NULL values in the column."
-msgstr ""
+msgstr "Sloupec obsahuje hodnoty NULL."
 
 #: diagnostics.py:336
 msgid "No NULL values in the column."
-msgstr ""
+msgstr "Sloupec neobsahuje hodnoty NULL."
 
 #: diagnostics.py:338
 msgid "Column cannot be NULL."
-msgstr ""
+msgstr "Sloupec nesmí obsahovat hodnoty NULL."
 
 #: diagnostics.py:342
 msgid "Unique index not found."
-msgstr ""
+msgstr "Unikátní index nenalezen."
 
 #: diagnostics.py:344
 msgid "Unique index found."
-msgstr ""
+msgstr "Unikátní index nalezen."
 
 #: diagnostics.py:360
 msgid "Non-unique values in the column."
-msgstr ""
+msgstr "Sloupec obsahuje neunikátní hodnoty."
 
 #: diagnostics.py:362
 msgid "All values are unique."
-msgstr ""
+msgstr "Všechny hodnoty jsou unikátní."
 
 #: diagnostics.py:367
 msgid "Column is auto-incrementable."
-msgstr ""
+msgstr "Sloupec je auto-increment."
 
 #: diagnostics.py:369
 msgid "Column isn't auto-incrementable."
-msgstr ""
+msgstr "Sloupec není auto-increment."
 
 #: diagnostics.py:373 nodepkg/layer-widget/LayerWidget.tsx:32
 msgid "Geometry column"
@@ -156,35 +160,35 @@ msgstr "Sloupec geometrie"
 
 #: diagnostics.py:388
 msgid "Column found, but has an incompatible type - {}."
-msgstr ""
+msgstr "Sloupec nalezen, ale má nekompatibilní typ - {}."
 
 #: diagnostics.py:393
 msgid "Geometry SRID mismatch."
-msgstr ""
+msgstr "Neshoda SRID geometrie."
 
 #: diagnostics.py:408
 msgid "Failed to reproject extent to SRID {}."
-msgstr ""
+msgstr "Nepodařilo se reprojektovat rozsah na SRID {}."
 
 #: diagnostics.py:412
 msgid "Extent (SRID {}): {}."
-msgstr ""
+msgstr "Rozsah (SRID {}): {}."
 
 #: diagnostics.py:416
 msgid "Field columns"
-msgstr ""
+msgstr "Sloupce pole"
 
 #: diagnostics.py:422
 msgid "Column of field '{}' not found."
-msgstr ""
+msgstr "Sloupec pole '{}' nebyl nalezen."
 
 #: diagnostics.py:431
 msgid "Column of field '{}' found, but has an incompatible type - {}."
-msgstr ""
+msgstr "Sloupec pole '{}' nalezen, ale má nekompatibilní typ - {}."
 
 #: diagnostics.py:437
 msgid "Column of field '{}' found, type is {}."
-msgstr ""
+msgstr "Sloupec pole '{}' nalezen, typ je {}."
 
 #: exception.py:9
 msgid "External database error"
@@ -255,7 +259,8 @@ msgid "Table '%(table)s' not found!"
 msgstr "Tabulka '%(tabulka)s' nebyla nalezena!"
 
 #: model.py:307
-msgid "SRID missing in geometry_columns table! You should specify it manually."
+msgid ""
+"SRID missing in geometry_columns table! You should specify it manually."
 msgstr "V tabulce geometry_columns chybí SRID! Měli byste to zadat ručně."
 
 #: model.py:313
@@ -270,7 +275,8 @@ msgstr "SRID v tabulce geometry_columns neodpovídá zadané!"
 msgid ""
 "Geometry type missing in geometry_columns table! You should specify it "
 "manually."
-msgstr "V tabulce geometry_columns chybí typ geometrie! Měli byste to zadat ručně."
+msgstr ""
+"V tabulce geometry_columns chybí typ geometrie! Měli byste to zadat ručně."
 
 #: model.py:345
 msgid "Geometry type in geometry_columns table does not match specified!"
@@ -310,23 +316,23 @@ msgstr "Databáze"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:12
 msgid "Unknown"
-msgstr ""
+msgstr "Neznámý"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:13
 msgid "Success"
-msgstr ""
+msgstr "Úspěch"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:14
 msgid "Warning"
-msgstr ""
+msgstr "Varování"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:15
 msgid "Error"
-msgstr ""
+msgstr "Chyba"
 
 #: nodepkg/layer-widget/LayerStore.ts:13
 msgid "Fields need to be updated due to autodetection"
-msgstr ""
+msgstr "Pole je nutné aktualizovat kvůli autodetekci"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:28
 msgid "Connection"
@@ -346,24 +352,24 @@ msgstr "Auto detekc"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:35
 msgid "SRID"
-msgstr ""
+msgstr "SRID"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:36
 msgid "Fields"
-msgstr ""
+msgstr "Pole"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:107
 msgid "Keep existing definitions untouched"
-msgstr ""
+msgstr "Ponechat stávající definice beze změny"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:108
 msgid "Update definitions from the database"
-msgstr ""
+msgstr "Aktualizovat definice z databáze"
 
 #: view.py:39
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnostika"
 
 #: view.py:59
 msgid "PostGIS diagnostics"
-msgstr ""
+msgstr "Diagnostika PostGIS"

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: component.py:90
 msgid "NextGIS geoinformation system"
 msgstr "Système d'information géographique (NextGIS)"
@@ -20,11 +24,11 @@ msgstr "RAM"
 
 #: component.py:316
 msgid "Last backup"
-msgstr ""
+msgstr "Dernière sauvegarde"
 
 #: component.py:320
 msgid "Last maintenance"
-msgstr ""
+msgstr "Dernière maintenance"
 
 #: exception.py:116
 msgid "Validation error"
@@ -48,7 +52,7 @@ msgstr "Erreur de service externe"
 
 #: exception.py:145
 msgid "Not configured"
-msgstr ""
+msgstr "Non configuré"
 
 #: storage.py:289
 msgid "Storage full"
@@ -59,6 +63,8 @@ msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr ""
+"Cette opération ne peut pas être effectuée car la limite de stockage (%s) a "
+"déjà été dépassée de %s."
 
 #: storage.py:300
 msgid "Not enough storage"
@@ -66,9 +72,11 @@ msgstr "Pas assez de stockage"
 
 #: storage.py:301
 msgid ""
-"This operation requires %s of storage and can't be performed because only %s "
-"available."
+"This operation requires %s of storage and can't be performed because only %s"
+" available."
 msgstr ""
+"Cette opération nécessite %s de stockage et ne peut pas être effectuée car "
+"seulement %s sont disponibles."
 
 #: storage.py:311
 msgid "Estimation is already running"

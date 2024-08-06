@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-tmsclient/ConnectionWidget.js:42
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:45
 #, amd, server
@@ -17,7 +21,7 @@ msgstr "Выбярыце слой"
 #: amd/ngw-tmsclient/LayersDialog.js:75
 #, amd
 msgid "OK"
-msgstr "OK"
+msgstr "Добра"
 
 #: amd/ngw-tmsclient/LayersDialog.js:84
 #, amd
@@ -27,12 +31,12 @@ msgstr "Адмяніць"
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
 #, amd
 msgid "Capmode"
-msgstr "Capmode"
+msgstr "Рэжым Cap"
 
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:11
 #, amd
 msgid "Custom"
-msgstr "Custom"
+msgstr "Наладжаны"
 
 #: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
 #, amd
@@ -127,7 +131,7 @@ msgstr "Памер тайла, пікс"
 #: model.py:106
 #, server
 msgid "API key required."
-msgstr ""
+msgstr "Патрабуецца ключ API."
 
 #: model.py:150
 #, server
@@ -137,4 +141,4 @@ msgstr "Маштаб па-за дыяпазонам."
 #: model.py:303
 #, server
 msgid "Layer name required."
-msgstr ""
+msgstr "Патрабуецца назва слою."

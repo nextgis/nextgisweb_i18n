@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:82
 msgid "Invalid origin"
 msgstr "Origen inválido"
@@ -13,7 +17,7 @@ msgstr ""
 
 #: api.py:158
 msgid "Invalid symbols sequence"
-msgstr ""
+msgstr "Secuencia de símbolos inválida"
 
 #: component.py:24 nodepkg/tile-cache-widget/TileCacheWidget.tsx:93
 msgid "Tile cache"
@@ -25,7 +29,7 @@ msgstr "Habilitado"
 
 #: component.py:51
 msgid "Disabled"
-msgstr ""
+msgstr "Deshabilitado"
 
 #: nodepkg/tile-cache-widget/TileCacheWidget.tsx:58
 msgid "Allow using tiles in non-tile requests"
@@ -37,7 +41,7 @@ msgstr "Nivel de zoom máximo"
 
 #: nodepkg/tile-cache-widget/TileCacheWidget.tsx:71
 msgid "TTL, sec."
-msgstr "TTL, sec."
+msgstr "TTL, seg."
 
 #: nodepkg/tile-cache-widget/TileCacheWidget.tsx:85
 msgid "Flush"
@@ -45,13 +49,13 @@ msgstr "Vaciar"
 
 #: view.py:25
 msgid "TMS (Tile Map Service)"
-msgstr "TMS (Tile Map Service)"
+msgstr "\"TMS (Tile Map Service)\""
 
 #: view.py:26
 msgid ""
 "TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
-"is a map displayed in a browser by seamlessly joining dozens of individually "
-"requested image."
+"is a map displayed in a browser by seamlessly joining dozens of individually"
+" requested image."
 msgstr ""
 "TMS (Tile Map Service) es una especificación para mapas web de teselas. El "
 "mapa web de teselas es un mapa que se muestra en un navegador al unir sin "
@@ -59,4 +63,4 @@ msgstr ""
 
 #: view.py:42
 msgid "Legend symbols"
-msgstr ""
+msgstr "Símbolos de la leyenda"

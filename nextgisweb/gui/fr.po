@@ -1,6 +1,10 @@
+#
+msgid ""
+msgstr ""
+
 #: nodepkg/arm/validate.ts:5
 msgid "Value required"
-msgstr ""
+msgstr "Valeur requise"
 
 #: nodepkg/arm/validate.ts:7
 msgid "At least {} character required"
@@ -16,194 +20,197 @@ msgstr[1] ""
 
 #: nodepkg/arm/validate.ts:18
 msgid "Value should be at least {}"
-msgstr ""
+msgstr "La valeur doit être d'au moins {}"
 
 #: nodepkg/arm/validate.ts:19
 msgid "Value should be no more than {}"
-msgstr ""
+msgstr "La valeur ne doit pas dépasser {}"
 
 #: nodepkg/arm/validate.ts:21
 msgid "Invalid value"
-msgstr ""
+msgstr "Valeur invalide"
 
 #: nodepkg/arm/validate.ts:22
 msgid "Value not unique"
-msgstr ""
+msgstr "Valeur non unique"
 
 #: nodepkg/arm/validate.ts:23
 msgid "Invalid URL"
-msgstr ""
+msgstr "URL invalide"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:23
 msgid "Copied to clipboard"
-msgstr ""
+msgstr "Copié dans le presse-papiers"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:28
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Copier dans le presse-papiers"
 
 #: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:47
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:79
 msgid "From layer"
-msgstr ""
+msgstr "Depuis la couche"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:87
 msgid "West"
-msgstr ""
+msgstr "Ouest"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:98
 msgid "South"
-msgstr ""
+msgstr "Sud"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:107
 msgid "East"
-msgstr ""
+msgstr "Est"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:116
 msgid "North"
-msgstr ""
+msgstr "Nord"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:15
 msgid "Improve or add new translation"
-msgstr ""
+msgstr "Améliorer ou ajouter une nouvelle traduction"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:31
 msgid "Browser default"
-msgstr ""
+msgstr "Défaut du navigateur"
 
 #: nodepkg/confirm.ts:13
 msgid "Confirmation required"
-msgstr ""
+msgstr "Confirmation requise"
 
 #: nodepkg/confirm.ts:14
 msgid "Please confirm this action."
-msgstr ""
+msgstr "Veuillez confirmer cette action."
 
 #: nodepkg/confirm.ts:16 nodepkg/error/shared.js:69
 msgid "OK"
-msgstr ""
+msgstr "D'accord"
 
 #: nodepkg/confirm.ts:43
 msgid "Please confirm the deletion."
-msgstr ""
+msgstr "Veuillez confirmer la suppression."
 
 #: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:78
 #: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:262
-#: nodepkg/model-browse/ModelBrowse.tsx:329 nodepkg/model-form/ModelForm.tsx:48
+#: nodepkg/model-browse/ModelBrowse.tsx:329
+#: nodepkg/model-form/ModelForm.tsx:48
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: nodepkg/confirm.ts:45
 msgid "Failed to delete."
-msgstr ""
+msgstr "Échec de la suppression."
 
 #: nodepkg/edi-table/RowAction.tsx:73
 msgid "Clone"
-msgstr ""
+msgstr "Cloner"
 
 #: nodepkg/edi-table/store/RecordItem.ts:35
 msgid "Key required"
-msgstr ""
+msgstr "Clé requise"
 
 #: nodepkg/edi-table/store/RecordItem.ts:41
 msgid "Key not unique"
-msgstr ""
+msgstr "Clé non unique"
 
 #: nodepkg/error/index.ts:44
 msgid "Unexpected error"
-msgstr ""
+msgstr "Erreur inattendue"
 
 #: nodepkg/error/index.ts:48
 msgid "Something went wrong."
-msgstr ""
+msgstr "Quelque chose a mal tourné."
 
 #: nodepkg/error/shared.js:54
 msgid "Technical information"
-msgstr ""
+msgstr "Informations techniques"
 
 #: nodepkg/error/shared.js:64
 msgid "Contact support"
-msgstr ""
+msgstr "Contacter le support"
 
 #: nodepkg/error/shared.js:73
 msgid "Back to home"
-msgstr ""
+msgstr "Retour à l'accueil"
 
 #: nodepkg/fields-form/FormItem.tsx:11
 msgid "This value is required"
-msgstr ""
+msgstr "Cette valeur est requise"
 
 #: nodepkg/fields-form/rules/KeynameRule.ts:5
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "La valeur entrée n'est pas valide"
 
 #: nodepkg/focus-table/action.tsx:13
 msgid "Add"
-msgstr ""
+msgstr "Ajouter"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:109 nodepkg/model-form/ModelForm.tsx:68
+#: nodepkg/model-browse/ModelBrowse.tsx:109
+#: nodepkg/model-form/ModelForm.tsx:68
 msgid "Confirmation"
-msgstr ""
+msgstr "Confirmation"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:110
 msgid "Item deleted"
-msgstr ""
+msgstr "Élément supprimé"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:112
 msgid "Items deleted"
-msgstr ""
+msgstr "Éléments supprimés"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:185
 msgid "The errors occurred during execution"
-msgstr ""
+msgstr "Les erreurs sont survenues pendant l'exécution"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:189
 msgid "Failed to delete items:"
-msgstr ""
+msgstr "Échec de la suppression des éléments :"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:212
 msgid "Do you want to delete these items?"
-msgstr ""
+msgstr "Voulez-vous supprimer ces éléments ?"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:252
 msgid "Edit"
-msgstr ""
+msgstr "Modifier"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:252
 msgid "View"
-msgstr ""
+msgstr "Voir"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:285
 msgid "Search"
-msgstr ""
+msgstr "Rechercher"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:307 nodepkg/model-form/ModelForm.tsx:46
+#: nodepkg/model-browse/ModelBrowse.tsx:307
+#: nodepkg/model-form/ModelForm.tsx:46
 msgid "Create"
-msgstr ""
+msgstr "Créer"
 
 #: nodepkg/model-form/ModelForm.tsx:105
 msgid "Fix the form errors first"
-msgstr ""
+msgstr "Corrigez d'abord les erreurs du formulaire"
 
 #: nodepkg/model-logo-form/ModelLogoForm.tsx:29
 msgid "Logo saved. Reload the page to get them applied."
-msgstr ""
+msgstr "Logo enregistré. Rechargez la page pour appliquer les modifications."
 
 #: nodepkg/progress-modal/ProgressModal.tsx:5
 msgid "Operation in progress"
-msgstr ""
+msgstr "Opération en cours"
 
 #: nodepkg/progress-modal/ProgressModal.tsx:6
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: nodepkg/single-setting-form/SingleSettingForm.tsx:25
 msgid "The setting is saved."
-msgstr ""
+msgstr "Le paramètre est enregistré."
 
 #: nodepkg/single-setting-form/SingleSettingForm.tsx:26
 msgid "Reload the page to get them applied."
-msgstr ""
+msgstr "Rechargez la page pour appliquer les modifications."

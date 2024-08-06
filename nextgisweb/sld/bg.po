@@ -1,127 +1,131 @@
+#
+msgid ""
+msgstr ""
+
 #: nodepkg/style-editor/RasterStyleEditor.tsx:70
 #, jsrealm
 msgid "Band {}"
-msgstr ""
+msgstr "Лента {}"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:148
 #, jsrealm
 msgid "Red channel"
-msgstr ""
+msgstr "Червен канал"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:152
 #: nodepkg/style-editor/RasterStyleEditor.tsx:165
 #: nodepkg/style-editor/RasterStyleEditor.tsx:178
 #, jsrealm
 msgid "Min"
-msgstr ""
+msgstr "Мин"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:156
 #: nodepkg/style-editor/RasterStyleEditor.tsx:169
 #: nodepkg/style-editor/RasterStyleEditor.tsx:182
 #, jsrealm
 msgid "Max"
-msgstr ""
+msgstr "Мах"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:161
 #, jsrealm
 msgid "Green channel"
-msgstr ""
+msgstr "Зелен канал"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:174
 #, jsrealm
 msgid "Blue channel"
-msgstr ""
+msgstr "Син канал"
 
 #: nodepkg/style-editor/component/KindEditor.tsx:28
 #, jsrealm
 msgid "Symbolizer unknown!"
-msgstr ""
+msgstr "Символизаторът е неизвестен!"
 
 #: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:15
 #, jsrealm
 msgid "Mark"
-msgstr ""
+msgstr "Маркировка"
 
 #: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:16
 #, jsrealm
 msgid "Fill"
-msgstr ""
+msgstr "Запълване"
 
 #: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:17
 #, jsrealm
 msgid "Line"
-msgstr ""
+msgstr "Линия"
 
 #: nodepkg/style-editor/component/TypeSelect/TypeSelect.tsx:18
 #, jsrealm
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: nodepkg/style-editor/component/editor/FillEditor.tsx:15
 #: nodepkg/style-editor/component/editor/LineEditor.tsx:15
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:20
 #, jsrealm
 msgid "Fill color"
-msgstr ""
+msgstr "Цвят на запълване"
 
 #: nodepkg/style-editor/component/editor/FillEditor.tsx:16
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:21
 #, jsrealm
 msgid "Stroke color"
-msgstr ""
+msgstr "Цвят на контур"
 
 #: nodepkg/style-editor/component/editor/FillEditor.tsx:17
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:22
 #, jsrealm
 msgid "Stroke width"
-msgstr ""
+msgstr "Ширина на контур"
 
 #: nodepkg/style-editor/component/editor/LineEditor.tsx:16
 #, jsrealm
 msgid "Width"
-msgstr ""
+msgstr "Ширина"
 
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:18
 #, jsrealm
 msgid "Shape"
-msgstr ""
+msgstr "Форма"
 
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:19
 #, jsrealm
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 #: nodepkg/style-editor/field/ColorInput.tsx:18
 #, jsrealm
 msgid "None"
-msgstr ""
+msgstr "Няма"
 
 #: nodepkg/style-editor/field/ColorInput.tsx:19
 #, jsrealm
 msgid "Transparent"
-msgstr ""
+msgstr "Прозрачен"
 
 #: nodepkg/style-editor/util/constant.ts:6
 #, jsrealm
 msgid "Square"
-msgstr ""
+msgstr "Квадрат"
 
 #: nodepkg/style-editor/util/constant.ts:7
 #, jsrealm
 msgid "Circle"
-msgstr ""
+msgstr "Круг"
 
 #: nodepkg/style-editor/util/constant.ts:8
 #, jsrealm
 msgid "Triangle"
-msgstr ""
+msgstr "Триъгълник"
 
 #: nodepkg/style-editor/util/constant.ts:9
 #, jsrealm
 msgid "Star"
-msgstr ""
+msgstr "Звезда"
 
 #: nodepkg/style-editor/util/constant.ts:10
 #, jsrealm
 msgid "Cross"
-msgstr ""
+msgstr "Кръст"

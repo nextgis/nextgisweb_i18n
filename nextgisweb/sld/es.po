@@ -1,127 +1,131 @@
+#
+msgid ""
+msgstr ""
+
 #: nodepkg/style-editor/RasterStyleEditor.tsx:70
 #, jsrealm
 msgid "Band {}"
-msgstr ""
+msgstr "Banda {}"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:148
 #, jsrealm
 msgid "Red channel"
-msgstr ""
+msgstr "Canal rojo"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:152
 #: nodepkg/style-editor/RasterStyleEditor.tsx:165
 #: nodepkg/style-editor/RasterStyleEditor.tsx:178
 #, jsrealm
 msgid "Min"
-msgstr ""
+msgstr "Mín"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:156
 #: nodepkg/style-editor/RasterStyleEditor.tsx:169
 #: nodepkg/style-editor/RasterStyleEditor.tsx:182
 #, jsrealm
 msgid "Max"
-msgstr ""
+msgstr "Máx"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:161
 #, jsrealm
 msgid "Green channel"
-msgstr ""
+msgstr "Canal verde"
 
 #: nodepkg/style-editor/RasterStyleEditor.tsx:174
 #, jsrealm
 msgid "Blue channel"
-msgstr ""
+msgstr "Canal azul"
 
 #: nodepkg/style-editor/component/KindEditor.tsx:28
 #, jsrealm
 msgid "Symbolizer unknown!"
-msgstr ""
+msgstr "¡Simbolizador desconocido!"
 
 #: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:15
 #, jsrealm
 msgid "Mark"
-msgstr ""
+msgstr "Marca"
 
 #: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:16
 #, jsrealm
 msgid "Fill"
-msgstr ""
+msgstr "Relleno"
 
 #: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:17
 #, jsrealm
 msgid "Line"
-msgstr ""
+msgstr "Línea"
 
 #: nodepkg/style-editor/component/TypeSelect/TypeSelect.tsx:18
 #, jsrealm
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: nodepkg/style-editor/component/editor/FillEditor.tsx:15
 #: nodepkg/style-editor/component/editor/LineEditor.tsx:15
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:20
 #, jsrealm
 msgid "Fill color"
-msgstr ""
+msgstr "Color de relleno"
 
 #: nodepkg/style-editor/component/editor/FillEditor.tsx:16
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:21
 #, jsrealm
 msgid "Stroke color"
-msgstr ""
+msgstr "Color de trazo"
 
 #: nodepkg/style-editor/component/editor/FillEditor.tsx:17
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:22
 #, jsrealm
 msgid "Stroke width"
-msgstr ""
+msgstr "Ancho de trazo"
 
 #: nodepkg/style-editor/component/editor/LineEditor.tsx:16
 #, jsrealm
 msgid "Width"
-msgstr ""
+msgstr "Ancho"
 
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:18
 #, jsrealm
 msgid "Shape"
-msgstr ""
+msgstr "Forma"
 
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:19
 #, jsrealm
 msgid "Size"
-msgstr ""
+msgstr "Tamaño"
 
 #: nodepkg/style-editor/field/ColorInput.tsx:18
 #, jsrealm
 msgid "None"
-msgstr ""
+msgstr "Ninguno"
 
 #: nodepkg/style-editor/field/ColorInput.tsx:19
 #, jsrealm
 msgid "Transparent"
-msgstr ""
+msgstr "Transparente"
 
 #: nodepkg/style-editor/util/constant.ts:6
 #, jsrealm
 msgid "Square"
-msgstr ""
+msgstr "Cuadrado"
 
 #: nodepkg/style-editor/util/constant.ts:7
 #, jsrealm
 msgid "Circle"
-msgstr ""
+msgstr "Círculo"
 
 #: nodepkg/style-editor/util/constant.ts:8
 #, jsrealm
 msgid "Triangle"
-msgstr ""
+msgstr "Triángulo"
 
 #: nodepkg/style-editor/util/constant.ts:9
 #, jsrealm
 msgid "Star"
-msgstr ""
+msgstr "Estrella"
 
 #: nodepkg/style-editor/util/constant.ts:10
 #, jsrealm
 msgid "Cross"
-msgstr ""
+msgstr "Cruz"

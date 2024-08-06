@@ -1,10 +1,14 @@
+#
+msgid ""
+msgstr ""
+
 #: scope.py:8
 msgid "Collector"
-msgstr "Collector"
+msgstr "Sammler"
 
 #: scope.py:10
 msgid "Read"
-msgstr "Read"
+msgstr "Lesen"
 
 #: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
 msgid "Starting screen"
@@ -106,17 +110,19 @@ msgstr "Benutzer"
 
 #: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:32
 msgid "Collectors"
-msgstr "Collectors"
+msgstr "Sammler"
 
 #: api/collector_user.py:31
 msgid "Membership in group \"Administrators\" required!"
-msgstr ""
+msgstr "Mitgliedschaft in der Gruppe \"Administratoren\" erforderlich!"
 
 #: api/collector_user.py:93 api/collector_user.py:120
 msgid ""
-"Unfortunately, you cannot add a new collector. Your collector users limit in "
-"the Web GIS is"
+"Unfortunately, you cannot add a new collector. Your collector users limit in"
+" the Web GIS is"
 msgstr ""
+"Leider können Sie keinen neuen Sammler hinzufügen. Ihr Limit für Sammler-"
+"Benutzer im Web GIS ist erreicht."
 
 #: models/model_db.py:39
 msgid "Collector project"
@@ -124,11 +130,11 @@ msgstr "Collector-Projekt"
 
 #: nodepkg/userMessages.js:5
 msgid "Delete collector?"
-msgstr ""
+msgstr "Sammler löschen?"
 
 #: nodepkg/userMessages.js:6
 msgid "Collector deleted"
-msgstr ""
+msgstr "Sammler gelöscht"
 
 #: nodepkg/collector-user-browse/CollectorUserBrowse.js:16
 #: nodepkg/collector-user-editor/CollectorUserEditor.js:18
@@ -147,26 +153,27 @@ msgstr "Hinzugefügt"
 #: nodepkg/collector-user-browse/CollectorUserBrowse.js:56
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr ""
+"Sie können keinen neuen Sammler hinzufügen. Ihr Limit für Sammler-Benutzer"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:14
 msgid "Collector users:"
-msgstr ""
+msgstr "Sammler-Benutzer:"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:14
 msgid "out of"
-msgstr ""
+msgstr "von"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:18
 msgid "Each collector must have "
-msgstr ""
+msgstr "Jeder Sammler muss ein"
 
 #: nodepkg/collector-users-message/CollectorUsersMessage.js:19
 msgid "NextGIS ID account"
-msgstr ""
+msgstr "NextGIS ID Konto"
 
 #: nodepkg/fields-form/NgIdTextBox.js:9
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "Der eingegebene Wert ist ungültig"
 
 #: views/__init__.py:18
 msgid "Collector projects"
@@ -178,7 +185,7 @@ msgstr "Liste der Collectors"
 
 #: views/settings.py:24
 msgid "Create new collector"
-msgstr ""
+msgstr "Neuen Sammler erstellen"
 
 #: views/settings.py:31
 msgid "Edit collector"
@@ -225,4 +232,3 @@ msgstr "Collector verwalten"
 
 #~ msgid "NextGIS Collector settings"
 #~ msgstr "Einstellungen für NextGIS-Collector"
-

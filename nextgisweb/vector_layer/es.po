@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:23 model.py:692
 msgid "GDAL library failed to open file."
 msgstr "La librería GDAL no pudo abrir el archivo."
@@ -108,7 +112,7 @@ msgstr "'cast_has_z' no es un valor conocido."
 
 #: model.py:771
 msgid "Unknown 'fid_source' value."
-msgstr ""
+msgstr "Valor desconocido de 'fid_source'."
 
 #: model.py:794
 msgid "Unsupported geometry type."
@@ -116,11 +120,11 @@ msgstr "Tipo de geometría no admitida."
 
 #: nodepkg/resource-widget/Store.tsx:168
 msgid "Confirm deletion of existing features"
-msgstr ""
+msgstr "Confirmar eliminación de las características existentes"
 
 #: nodepkg/resource-widget/Store.tsx:175
 msgid "Confirm change of geometry type"
-msgstr ""
+msgstr "Confirmar cambio de tipo de geometría"
 
 #: nodepkg/resource-widget/Widget.tsx:33
 msgid "Select a dataset"
@@ -128,17 +132,17 @@ msgstr "Seleccione un set de datos"
 
 #: nodepkg/resource-widget/Widget.tsx:34
 msgid ""
-"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
-"supported. For CSV and XLSX only points are supported, coordinates must be "
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
-"Se admiten los formatos ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, "
-"CSV o XLSX. Para CSV y XLSX solo se admiten puntos, las coordenadas deben "
+"Se admiten los formatos ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML,"
+" CSV o XLSX. Para CSV y XLSX solo se admiten puntos, las coordenadas deben "
 "colocarse en columnas lat y lot."
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Whenever possible"
-msgstr ""
+msgstr "Siempre que sea posible"
 
 #: nodepkg/resource-widget/Widget.tsx:46
 msgid "Without losing data"
@@ -195,31 +199,31 @@ msgstr "Origen de FID"
 
 #: nodepkg/resource-widget/Widget.tsx:151
 msgid "Load features from file"
-msgstr ""
+msgstr "Cargar objetos geográficos desde archivo"
 
 #: nodepkg/resource-widget/Widget.tsx:152
 msgid "Create empty layer"
-msgstr ""
+msgstr "Crear capa vacía"
 
 #: nodepkg/resource-widget/Widget.tsx:154
 msgid "Keep existing layer features"
-msgstr ""
+msgstr "Mantener los objetos geográficos existentes en la capa"
 
 #: nodepkg/resource-widget/Widget.tsx:155
 msgid "Change geometry type"
-msgstr ""
+msgstr "Cambiar tipo de geometría"
 
 #: nodepkg/resource-widget/Widget.tsx:156
 msgid "Replace layer features from file"
-msgstr ""
+msgstr "Reemplazar los objetos geográficos de la capa desde el archivo"
 
 #: nodepkg/resource-widget/Widget.tsx:157
 msgid "Delete all features from layer"
-msgstr ""
+msgstr "Eliminar todos los objetos geográficos de la capa"
 
 #: nodepkg/resource-widget/Widget.tsx:173
 msgid "current"
-msgstr ""
+msgstr "actual"
 
 #: nodepkg/resource-widget/Widget.tsx:251
 msgid "Source layer"
@@ -263,7 +267,8 @@ msgstr "La codificación de caracteres del campo '%s(?)' está mal."
 
 #: ogrloader.py:379
 msgid "Field name is forbidden: '%s'. Please remove or rename it."
-msgstr "El nombre del campo está prohibido: '%s'. Elimínelo o cámbiele el nombre."
+msgstr ""
+"El nombre del campo está prohibido: '%s'. Elimínelo o cámbiele el nombre."
 
 #: ogrloader.py:412
 msgid "Unsupported field type: %r."
@@ -301,11 +306,13 @@ msgstr ""
 
 #: ogrloader.py:640
 msgid "Feature #%d has unknown geometry type: %d (%s)."
-msgstr "El objeto geográfico #%d tiene un tipo de geometría desconocido: %d (%s)."
+msgstr ""
+"El objeto geográfico #%d tiene un tipo de geometría desconocido: %d (%s)."
 
 #: ogrloader.py:649
 msgid "Feature #%d has unsuitable geometry type: %d (%s)."
-msgstr "El objeto geográfico #%d tiene un tipo de geometría inadecuado: %d (%s)."
+msgstr ""
+"El objeto geográfico #%d tiene un tipo de geometría inadecuado: %d (%s)."
 
 #: ogrloader.py:684
 msgid "Feature #%d has unclosed rings."
@@ -313,16 +320,19 @@ msgstr "El objeto geográfico #%d tiene anillos sin cerrar."
 
 #: ogrloader.py:701
 msgid "Feature #%d has empty rings."
-msgstr ""
+msgstr "El objeto geográfico #%d tiene anillos vacíos."
 
 #: ogrloader.py:715
 msgid "Feature #%d has less than 3 points in a polygon ring."
-msgstr "El objeto geográfico #%d tiene menos de 3 puntos en un anillo poligonal."
+msgstr ""
+"El objeto geográfico #%d tiene menos de 3 puntos en un anillo poligonal."
 
 #: ogrloader.py:728
 msgid "Feature #%d has less than 2 points in a linestring."
-msgstr "El objeto geográfico #%d tiene menos de 2 puntos en una cadena lineal."
+msgstr ""
+"El objeto geográfico #%d tiene menos de 2 puntos en una cadena lineal."
 
 #: ogrloader.py:754
 msgid "Feature #%d contains a broken encoding of field '%s'."
-msgstr "El objeto geográfico #%d contiene una mal codificación del campo '%s'."
+msgstr ""
+"El objeto geográfico #%d contiene una mal codificación del campo '%s'."

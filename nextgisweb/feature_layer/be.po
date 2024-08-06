@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
 #: nodepkg/attribute-editor/index.ts:7 view.py:222
 #, amd, jsrealm, server
@@ -7,12 +11,12 @@ msgstr "Атрыбуты"
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:178
 #, amd
 msgid "N/A"
-msgstr "N/A"
+msgstr "Н/Д"
 
 #: amd/ngw-feature-layer/GeometryInfoWidget.js:9
 #, amd
 msgid "Geometry"
-msgstr ""
+msgstr "Геаметрыя"
 
 #: api.py:93
 #, server
@@ -22,7 +26,7 @@ msgstr "Невалідная геаметрыя."
 #: api.py:335
 #, server
 msgid "Unknown spatial reference system"
-msgstr ""
+msgstr "Невядомая сістэма прасторавых каардынат"
 
 #: api.py:408 api_export.py:121
 #, server
@@ -41,18 +45,20 @@ msgstr "Фармат '%s' не падтрымліваецца."
 
 #: api_export.py:146
 #, server
-msgid "The export limit is set to {limit} features, but the layer contains {count}."
+msgid ""
+"The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
+"Межа экспарту ўсталявана на {limit} аб'ектаў, але слой утрымлівае {count}."
 
 #: api_export.py:159
 #, server
 msgid "Failed to reproject 'intersects' geometry."
-msgstr ""
+msgstr "Не ўдалося перапраецыраваць геаметрыю 'intersects'."
 
 #: api_export.py:301
 #, server
 msgid "File name parameter '{}' is not valid."
-msgstr ""
+msgstr "Параметр імя файла '{}' не сапраўдны."
 
 #: exception.py:7
 #, server
@@ -72,12 +78,12 @@ msgstr "Магчыма, аб'ект быў выдалены або ў адрас
 #: exception.py:20
 #, server
 msgid "Feature not deleted"
-msgstr ""
+msgstr "Аб'ект не выдалены"
 
 #: exception.py:21
 #, server
 msgid "Unable to restore the #{} feature as it is not deleted."
-msgstr ""
+msgstr "Немагчыма аднавіць аб'ект з №#{}, паколькі ён не выдалены."
 
 #: favorite.py:5 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:56
 #, jsrealm, server
@@ -93,11 +99,12 @@ msgstr "Поле не знойдзена (ID=%d)."
 #, server
 msgid "Field name is forbidden: '{}'. Please remove or rename it."
 msgstr ""
+"Назва поля забаронена: ''{}''. Калі ласка, выдаліце або пераназавіце яго."
 
 #: model.py:236
 #, server
 msgid "Versioning not supported"
-msgstr ""
+msgstr "Версіяніўанне не падтрымліваецца"
 
 #: nodepkg/attribute-editor/AttributeEditor.tsx:32
 #, jsrealm
@@ -107,12 +114,12 @@ msgstr "Задаць значэнне поля ў NULL (No data)"
 #: nodepkg/attribute-editor/AttributeEditor.tsx:33
 #, jsrealm
 msgid "There are no attributes in the vector layer"
-msgstr ""
+msgstr "У вектарным слоі няма атрыбутаў"
 
 #: nodepkg/export-form/ExportForm.tsx:177
 #, jsrealm
 msgid "Resources"
-msgstr ""
+msgstr "Рэсурсы"
 
 #: nodepkg/export-form/ExportForm.tsx:199
 #, jsrealm
@@ -122,7 +129,7 @@ msgstr "Фармат"
 #: nodepkg/export-form/ExportForm.tsx:212
 #, jsrealm
 msgid "SRS"
-msgstr "SRS"
+msgstr "Сістэма прасторавых каардынат (SRS)"
 
 #: nodepkg/export-form/ExportForm.tsx:217
 #, jsrealm
@@ -143,17 +150,17 @@ msgstr "Выкарыстоўвайце імёны для адлюстраван�
 #: nodepkg/fields-widget/FieldsWidget.tsx:167
 #, jsrealm
 msgid "Fields"
-msgstr ""
+msgstr "Палі"
 
 #: nodepkg/export-form/ExportForm.tsx:247
 #, jsrealm
 msgid "Limit by extent"
-msgstr ""
+msgstr "Межаваць па ахопу"
 
 #: nodepkg/export-form/ExportForm.tsx:253
 #, jsrealm
 msgid "Filter text"
-msgstr ""
+msgstr "Тэкст фільтра"
 
 #: nodepkg/export-form/ExportForm.tsx:257
 #, jsrealm
@@ -169,72 +176,72 @@ msgstr "Захаваць"
 #: nodepkg/export-form/ExtentInput.tsx:6
 #, jsrealm
 msgid "deg."
-msgstr ""
+msgstr "град."
 
 #: nodepkg/export-form/ExtentInput.tsx:9
 #, jsrealm
 msgid "Left"
-msgstr ""
+msgstr "Злева"
 
 #: nodepkg/export-form/ExtentInput.tsx:10
 #, jsrealm
 msgid "Bottom"
-msgstr ""
+msgstr "Знізу"
 
 #: nodepkg/export-form/ExtentInput.tsx:11
 #, jsrealm
 msgid "Right"
-msgstr ""
+msgstr "Справа"
 
 #: nodepkg/export-form/ExtentInput.tsx:12
 #, jsrealm
 msgid "Top"
-msgstr ""
+msgstr "Уверх"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:18
 #, jsrealm
 msgid "Cancel"
-msgstr ""
+msgstr "Адмяніць"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
 #, jsrealm
 msgid "Are you sure?"
-msgstr ""
+msgstr "Вы ўпэўнены?"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
 #, jsrealm
 msgid "Unsaved changes will be lost if you close the window."
-msgstr ""
+msgstr "Несапраўданыя змены будуць страчаны, калі вы зачыніце акно."
 
 #: nodepkg/feature-editor/FeatureEditorStore.ts:20
 #, jsrealm
 msgid "Feature saved"
-msgstr ""
+msgstr "Аб'ект захаваны"
 
 #: nodepkg/feature-editor/FeatureEditorStore.ts:21
 #, jsrealm
 msgid "No changes to save"
-msgstr ""
+msgstr "Няма зменаў для захавання"
 
 #: nodepkg/feature-editor/FeatureEditorWidget.tsx:33
 #, jsrealm
 msgid "Loading..."
-msgstr ""
+msgstr "Загрузка..."
 
 #: nodepkg/feature-editor/FeatureEditorWidget.tsx:35
 #, jsrealm
 msgid "Reset"
-msgstr ""
+msgstr "Скід"
 
 #: nodepkg/feature-grid/FeatureGrid.tsx:24
 #, jsrealm
 msgid "Open table settings"
-msgstr ""
+msgstr "Адкрыць налады табліцы"
 
 #: nodepkg/feature-grid/FeatureGrid.tsx:25
 #, jsrealm
 msgid "Refresh table"
-msgstr ""
+msgstr "Абнавіць табліцу"
 
 #: nodepkg/feature-grid/FeatureGridActions.tsx:24
 #, jsrealm
@@ -254,7 +261,7 @@ msgstr "Рэдагаваць"
 #: nodepkg/feature-grid/FeatureGridActions.tsx:27
 #, jsrealm
 msgid "Edit on a new page"
-msgstr ""
+msgstr "Рэдагаваць на новай старонцы"
 
 #: nodepkg/feature-grid/FeatureGridActions.tsx:29
 #, jsrealm
@@ -265,7 +272,7 @@ msgstr "Шукаць..."
 #: nodepkg/feature-grid/component/TableConfigModal.tsx:53
 #, jsrealm
 msgid "Last changed"
-msgstr ""
+msgstr "Апошнія змены"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:117 view.py:128
 #: view.py:217
@@ -276,17 +283,17 @@ msgstr "Захаваць як"
 #: nodepkg/feature-grid/component/ExportAction.tsx:31
 #, jsrealm
 msgid "Advanced Export"
-msgstr ""
+msgstr "Прасунуты экспарт"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:32
 #, jsrealm
 msgid "Quick Export"
-msgstr ""
+msgstr "Хуткі экспарт"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:33
 #, jsrealm
 msgid "Filters are applied"
-msgstr ""
+msgstr "Фільтры ўжыты"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:23
 #: template/resource_section_fields.mako:17
@@ -315,7 +322,7 @@ msgstr "Табліца пошуку"
 #: nodepkg/fields-widget/FieldsWidget.tsx:28
 #, jsrealm
 msgid "Text search"
-msgstr ""
+msgstr "Тэкставы пошук"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:29
 #, jsrealm
@@ -325,72 +332,72 @@ msgstr "Пазнака атрыбуту"
 #: nodepkg/fields-widget/FieldsWidget.tsx:31
 #, jsrealm
 msgid "Please select"
-msgstr ""
+msgstr "Калі ласка, выберыце"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:32
 #, jsrealm
 msgid "Not used"
-msgstr ""
+msgstr "Не выкарыстоўваецца"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:115
 #, jsrealm
 msgid "Field"
-msgstr ""
+msgstr "Поле"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:56
 #, jsrealm
 msgid "Load geometry info..."
-msgstr ""
+msgstr "Загрузка інфармацыі пра геаметрыю..."
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:65
 #, jsrealm
 msgid "Failed to get information about the geometry"
-msgstr ""
+msgstr "Не атрымалася атрымаць інфармацыю пра геаметрыю"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:75
 #, jsrealm
 msgid "Perimeter"
-msgstr ""
+msgstr "Перыметр"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:76
 #, jsrealm
 msgid "Length"
-msgstr ""
+msgstr "Даўжыня"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:84
 #, jsrealm
 msgid "Area"
-msgstr ""
+msgstr "Плошча"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:92
 #, jsrealm
 msgid "Geometry type"
-msgstr ""
+msgstr "Тып геаметрыі"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:100
 #, jsrealm
 msgid "Extent (xMin)"
-msgstr ""
+msgstr "Мяжы (xMin)"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:104
 #, jsrealm
 msgid "Extent (yMin)"
-msgstr ""
+msgstr "Мяжы (yMin)"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:108
 #, jsrealm
 msgid "Extent (xMax)"
-msgstr ""
+msgstr "Мяжы (xMax)"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:112
 #, jsrealm
 msgid "Extent (yMax)"
-msgstr ""
+msgstr "Мяжы (yMax)"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:18
 #, jsrealm
 msgid "Feature versioning"
-msgstr ""
+msgstr "Версіяніраванне аб'ектаў"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:19
 #, jsrealm
@@ -398,11 +405,13 @@ msgid ""
 "Experimental feature. Some operations may not work if feature versioning is "
 "enabled."
 msgstr ""
+"Эксперыментальная функцыя. Некаторыя аперацыі могуць не працаваць, калі "
+"ўключана версіяніраванне аб'ектаў."
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:40
 #, jsrealm
 msgid "Disable feature versioning?"
-msgstr ""
+msgstr "Адключыць версіяніраванне аб'ектаў?"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:41
 #, jsrealm
@@ -410,11 +419,13 @@ msgid ""
 "Turning off feature versioning will truncate the history and keep only the "
 "latest state."
 msgstr ""
+"Адключэнне версіяніравання аб'ектаў абріжае гісторыю і захоўвае толькі "
+"апошні стан."
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:64
 #, jsrealm
 msgid "Settings"
-msgstr ""
+msgstr "Налады"
 
 #: template/resource_section_fields.mako:21 view.py:206
 #, server
@@ -436,22 +447,22 @@ msgstr "Не"
 #: transaction/exception.py:7
 #, server
 msgid "Transaction not found"
-msgstr ""
+msgstr "Транзакцыя не знойдзена"
 
 #: transaction/exception.py:12
 #, server
 msgid "Operation conflict in transaction"
-msgstr ""
+msgstr "Канфлікт аперацыі ў транзакцыі"
 
 #: transaction/exception.py:20
 #, server
 msgid "Transaction not committed"
-msgstr ""
+msgstr "Транзакцыя не захавана"
 
 #: versioning/exception.py:17
 #, server
 msgid "Not implemented for feature versioning"
-msgstr ""
+msgstr "Не рэалізавана для версіяніравання аб'ектаў"
 
 #: versioning/exception.py:18
 #, server
@@ -460,41 +471,44 @@ msgid ""
 "enabled. Disable feature versioning for the resource first, and then try "
 "again."
 msgstr ""
+"Гэта аперацыя не можа быць выканана на рэсурсе з уключаным версіяніраваннем "
+"аб'ектаў. Спачатку адключыце версіяніраванне аб'ектаў для рэсурсу, а затым "
+"паспрабуйце зноў."
 
 #: versioning/exception.py:27
 #, server
 msgid "Feature versioning required"
-msgstr ""
+msgstr "Патрабуецца версіяніраванне аб'ектаў"
 
 #: versioning/exception.py:32
 #, server
 msgid "Feature versioning is not supported for this resource."
-msgstr ""
+msgstr "Версіянаванне аб'ектаў не падтрымліваецца для гэтага рэсурсу."
 
 #: versioning/exception.py:34
 #, server
 msgid "Feature versioning is not enabled for this resource."
-msgstr ""
+msgstr "Версіянаванне аб'ектаў не ўключана для гэтага рэсурсу."
 
 #: versioning/exception.py:41
 #, server
 msgid "Epoch required"
-msgstr ""
+msgstr "Патрабуецца эпоха"
 
 #: versioning/exception.py:45
 #, server
 msgid "Epoch mismatch"
-msgstr ""
+msgstr "Няспадзяванне з эпохай"
 
 #: versioning/exception.py:55
 #, server
 msgid "Version out of range"
-msgstr ""
+msgstr "Версія па-за межамі дапушчальнага диапазону"
 
 #: versioning/exception.py:65
 #, server
 msgid "Invalid range"
-msgstr ""
+msgstr "Няправільны диапазон"
 
 #: view.py:78 view.py:95
 #, python-format, server

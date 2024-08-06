@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-feature-description/DisplayWidget.js:7
 #: nodepkg/description-editor/index.ts:7
 #, amd, jsrealm
@@ -7,4 +11,4 @@ msgstr "Апісанне"
 #: util.py:19
 #, server
 msgid "Invalid ZIP archive."
-msgstr ""
+msgstr "Няправільны ZIP архіў."

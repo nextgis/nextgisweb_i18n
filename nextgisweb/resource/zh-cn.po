@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-resource/CompositeWidget.js:52
 msgid "Please wait. Processing request..."
 msgstr "请稍等，请求处理中......"
@@ -22,7 +26,8 @@ msgstr "保存"
 msgid "Delete"
 msgstr "删除"
 
-#: amd/ngw-resource/CompositeWidget.js:273 amd/ngw-resource/CompositeWidget.js:295
+#: amd/ngw-resource/CompositeWidget.js:273
+#: amd/ngw-resource/CompositeWidget.js:295
 msgid "Unexpected error"
 msgstr "意外错误"
 
@@ -48,7 +53,7 @@ msgstr "选择资源"
 
 #: amd/ngw-resource/ResourcePicker.js:70
 msgid "OK"
-msgstr "OK"
+msgstr "确定"
 
 #: amd/ngw-resource/ResourcePicker.js:79
 msgid "Cancel"
@@ -103,15 +108,15 @@ msgstr "该资源可能已被删除或地址上有一个错误。修改地址或
 msgid ""
 "Modification of the '{attribute}' attribute requires the '{scope}: "
 "{permission}' permission."
-msgstr ""
+msgstr "修改属性''{attribute}''需要''{scope}:{permission}''权限。"
 
 #: exception.py:33
 msgid "The '{attribute}' attribute is read-only and cannot be updated."
-msgstr ""
+msgstr "属性'{attribute}'是只读的，无法更新。"
 
 #: exception.py:40
 msgid "Interface not supported"
-msgstr ""
+msgstr "不支持此接口"
 
 #: exception.py:45
 msgid "Resource display name is not unique"
@@ -124,8 +129,8 @@ msgstr "该资源的名称已存在（id = %d）"
 
 #: exception.py:47
 msgid ""
-"Within a single parent resource, each resource must have unique display name."
-" Give the resource a different display name or rename existing."
+"Within a single parent resource, each resource must have unique display "
+"name. Give the resource a different display name or rename existing."
 msgstr "在单个父资源中，每个资源都必须具有唯一的显示名称。 给资源一个不同的显示名称或重命名。"
 
 #: exception.py:59
@@ -139,7 +144,7 @@ msgstr "资源级 '%s'被禁止"
 
 #: exception.py:72
 msgid "Quota exceeded"
-msgstr ""
+msgstr "超出配额"
 
 #: exception.py:78
 #, python-format
@@ -148,27 +153,27 @@ msgstr "已超过最大资源数量。 限制为%s。"
 
 #: exception.py:80
 msgid "Not enough resource quota: {0} required, but only {1} available."
-msgstr ""
+msgstr "资源配额不足: 需要{0}，但仅有{1}可用。"
 
 #: exception.py:84
 msgid "Resource type - {}."
-msgstr ""
+msgstr "资源类型 - {}。"
 
 #: favorite/__init__.py:6
 msgid "Go to"
-msgstr ""
+msgstr "前往"
 
 #: favorite/__init__.py:7 nodepkg/favorite/FavoritePage.tsx:379
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: favorite/view.py:15 nodepkg/favorite/Avatar.tsx:54
 msgid "Favorites"
-msgstr ""
+msgstr "收藏"
 
 #: home.py:23
 msgid "User resources"
-msgstr ""
+msgstr "用户资源"
 
 #: model.py:265
 msgid "Resource can not be a parent himself."
@@ -180,7 +185,7 @@ msgstr "资源密钥不是唯一的。"
 
 #: model.py:310
 msgid "Default style"
-msgstr ""
+msgstr "默认样式"
 
 #: model.py:426
 msgid "Resource can not be without a parent."
@@ -201,7 +206,7 @@ msgid ""
 "Unable to revoke '{s}: {p}' permission for '{u}' as the user belongs to the "
 "administrators group. Administrators must always have ability to configure "
 "permissions of resources."
-msgstr ""
+msgstr "无法撤销用户''{u}''的''{s}:{p}''权限，因为该用户属于管理员组。管理员必须始终拥有配置资源权限的能力。"
 
 #: model.py:614
 msgid "Resource group"
@@ -226,7 +231,7 @@ msgstr "持有者"
 
 #: nodepkg/children-section/ChildrenSection.tsx:105
 msgid "Created"
-msgstr ""
+msgstr "已创建"
 
 #: nodepkg/children-section/ChildrenSection.tsx:124
 msgid "Volume"
@@ -234,19 +239,19 @@ msgstr "数值"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:100
 msgid "Moving resources"
-msgstr ""
+msgstr "正在移动资源"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:146
 msgid "Deleting resources"
-msgstr ""
+msgstr "正在删除资源"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:171
 msgid "Turn off multiple selection"
-msgstr ""
+msgstr "关闭多选"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:172
 msgid "Select multiple resources"
-msgstr ""
+msgstr "选择多个资源"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:182
 msgid "Hide resources volume"
@@ -258,35 +263,35 @@ msgstr "显示资源量"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:194
 msgid "Hide resource creation date"
-msgstr ""
+msgstr "隐藏资源创建日期"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:195
 msgid "Show resource creation date"
-msgstr ""
+msgstr "显示资源创建日期"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:218
 msgid "Not all of the selected can be deleted."
-msgstr ""
+msgstr "不可删除所选的所有项。"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:234
 msgid "Move"
-msgstr ""
+msgstr "移动"
 
 #: nodepkg/children-section/component/MenuDropdown.tsx:253
 msgid "Export vector layers"
-msgstr ""
+msgstr "导出矢量图层"
 
 #: nodepkg/children-section/util/createResourceTableItemOptions.ts:7
 msgid "Change"
-msgstr ""
+msgstr "更改"
 
 #: nodepkg/children-section/util/forEachSelected.ts:8
 msgid "Operation in progress"
-msgstr ""
+msgstr "操作进行中"
 
 #: nodepkg/children-section/util/notify.ts:8
 msgid "Please confirm resource deletion. This action cannot be undone."
-msgstr ""
+msgstr "请确认资源删除。此操作无法撤销。"
 
 #: nodepkg/children-section/util/notify.ts:16
 msgid "The resource has been deleted"
@@ -301,19 +306,19 @@ msgstr[0] ""
 
 #: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:31
 msgid "Create group"
-msgstr ""
+msgstr "创建组"
 
 #: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:32
 msgid "Clear selection"
-msgstr ""
+msgstr "清除选择"
 
 #: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:17
 msgid "Go to initial group"
-msgstr ""
+msgstr "前往初始组"
 
 #: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:18
 msgid "Refresh"
-msgstr ""
+msgstr "刷新"
 
 #: nodepkg/component/resource-picker/pickToFocusTable.tsx:47
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:25
@@ -322,11 +327,11 @@ msgstr "添加"
 
 #: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:18
 msgid "Pick this group"
-msgstr ""
+msgstr "选择此组"
 
 #: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:19
 msgid "Pick selected"
-msgstr ""
+msgstr "选择选中项"
 
 #: nodepkg/delete-page/DeletePage.tsx:47
 msgid "Confirm deletion of the resource"
@@ -338,7 +343,7 @@ msgstr "说明"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:13
 msgid "Identifier for API integration (optional)"
-msgstr ""
+msgstr "API集成标识符（可选）"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:29
 msgid "Parent"
@@ -359,7 +364,7 @@ msgstr "是"
 
 #: nodepkg/export-settings/ExportSettings.tsx:36
 msgid "The setting is saved."
-msgstr ""
+msgstr "设置已保存。"
 
 #: nodepkg/export-settings/ExportSettings.tsx:57
 msgid ""
@@ -373,7 +378,7 @@ msgstr "具有\"数据：读取\"权限的用户"
 
 #: nodepkg/export-settings/ExportSettings.tsx:70
 msgid "Users with \"Data: Modify\" permission"
-msgstr ""
+msgstr "具有“数据：修改”权限的用户"
 
 #: nodepkg/export-settings/ExportSettings.tsx:73
 msgid "Administrators"
@@ -391,33 +396,33 @@ msgstr "使用这些链接，将数据与外部应用程序连接。"
 
 #: nodepkg/external-access/ExternalAccess.tsx:11
 msgid "Read more"
-msgstr ""
+msgstr "阅读更多"
 
 #: nodepkg/favorite/FavoritePage.tsx:29
 msgid ""
 "No favorite resources have been added yet. Use the star icon ({}) in the "
 "user's context menu to add items here."
-msgstr ""
+msgstr "尚未添加收藏资源。使用用户上下文菜单中的星形图标 ({}) 添加项目到这里。"
 
 #: nodepkg/favorite/FavoritePage.tsx:379
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: nodepkg/favorite/useFavorites.tsx:33
 msgid "Added to favorites"
-msgstr ""
+msgstr "已添加到收藏"
 
 #: nodepkg/favorite/useFavorites.tsx:48
 msgid "Removed from favorites"
-msgstr ""
+msgstr "已从收藏中移除"
 
 #: nodepkg/permissions-widget/PermissionStoreItem.ts:13
 msgid "All fields are required"
-msgstr ""
+msgstr "所有字段都是必填的"
 
 #: nodepkg/permissions-widget/PermissionStoreItem.ts:14
 msgid "Row conflicts with another"
-msgstr ""
+msgstr "行与另一行冲突"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:20 view.py:360
 msgid "Action"
@@ -429,7 +434,7 @@ msgstr "主体"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:22
 msgid "Apply to"
-msgstr ""
+msgstr "应用到"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:23
 msgid "Permission"
@@ -445,11 +450,11 @@ msgstr "禁止"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:29
 msgid "This and subresources"
-msgstr ""
+msgstr "此资源及其子资源"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:30
 msgid "This resource only"
-msgstr ""
+msgstr "仅此资源"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:32
 msgid "All permissions"
@@ -480,7 +485,7 @@ msgstr "创建"
 #: scope.py:16 scope.py:31 scope.py:41
 msgctxt "permission"
 msgid "Modify"
-msgstr ""
+msgstr "修改"
 
 #: scope.py:17
 msgctxt "permission"
@@ -490,12 +495,12 @@ msgstr "删除"
 #: scope.py:18
 msgctxt "permission"
 msgid "Manage subresources"
-msgstr ""
+msgstr "管理子资源"
 
 #: scope.py:19
 msgctxt "permission"
 msgid "Configure permissions"
-msgstr ""
+msgstr "配置权限"
 
 #: scope.py:28
 msgid "Data structure"
@@ -517,7 +522,7 @@ msgstr "配置"
 #: scope.py:55
 msgctxt "permission"
 msgid "Use"
-msgstr ""
+msgstr "使用"
 
 #: scope.py:65
 msgid "Service"
@@ -526,7 +531,7 @@ msgstr "服务"
 #: scope.py:67
 msgctxt "permission"
 msgid "Access"
-msgstr ""
+msgstr "访问"
 
 #: template/resource_section_description.mako:5
 msgid "Resource description is empty."
@@ -534,7 +539,7 @@ msgstr "该资源无说明。"
 
 #: template/resource_section_external_access.mako:3
 msgid "External access"
-msgstr ""
+msgstr "外部访问"
 
 #: view.py:124 view.py:424
 msgid "JSON view"

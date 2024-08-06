@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:28
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:30
 msgid "Copy to clipboard"
@@ -17,21 +21,23 @@ msgstr "Въведете валидно значение на мащаба, пр
 
 #: api.py:196
 msgid "Storage management is not enabled on this server."
-msgstr ""
+msgstr "Управлението на съхранението не е активирано на този сървър."
 
 #: api.py:406
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
+"Параметърът на заявката '{}' не трябва да съдържа допълнителни стойности, "
+"ако е посочено 'all'."
 
 #: api.py:534
 msgid "Got an unsupported MIME type: '{}'."
-msgstr ""
+msgstr "Получен е неподдържан MIME тип: ''{}''."
 
 #: api.py:537
 msgid "64K should be enough for a logo."
-msgstr ""
+msgstr "64K трябва да бъдат достатъчни за лого."
 
 #: api.py:669
 msgid "Your Web GIS at nextgis.com"
@@ -39,7 +45,7 @@ msgstr "Вашите онлайн карти на nextgis.com"
 
 #: component.py:163
 msgid "Request timeout"
-msgstr ""
+msgstr "Изтичане на времето за заявката"
 
 #: component.py:166
 msgid "Enabled"
@@ -67,8 +73,8 @@ msgstr "Грешна заявка"
 
 #: exception.py:239
 msgid ""
-"The server could not comply with the request since it is either malformed or "
-"otherwise incorrect."
+"The server could not comply with the request since it is either malformed or"
+" otherwise incorrect."
 msgstr "Сървърът не може да изпълни заявката, защото в нея има грешка."
 
 #: exception.py:247
@@ -122,11 +128,11 @@ msgstr "Сървърът не е наличен в момента. Опитай�
 
 #: lunkwill.py:25
 msgid "Lunkwill not enabled"
-msgstr ""
+msgstr "Lunkwill не е активиран"
 
 #: lunkwill.py:26
 msgid "The Lunkwill extension is not configured on this server."
-msgstr ""
+msgstr "Разширението Lunkwill не е конфигурирано на този сървър."
 
 #: nodepkg/api/error.ts:11 nodepkg/api/error.ts:29
 msgid "Something went wrong."
@@ -184,8 +190,8 @@ msgid ""
 "allowed for third-level domains and higher."
 msgstr ""
 "Имайте предвид, че различни протоколи (HTTP и HTTPS) и поддомейни "
-"(example.com и www.example.com) са различни произходи. Заместващи символи са "
-"допустими за домейни от трето ниво насам."
+"(example.com и www.example.com) са различни произходи. Заместващи символи са"
+" допустими за домейни от трето ниво насам."
 
 #: nodepkg/cors-settings/CORSSettings.tsx:58
 msgid "CORS settings updated"
@@ -201,21 +207,24 @@ msgstr "Въведеното значение не е валидно"
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:41
 msgid "Custom styles saved. Reload the page to get them applied."
-msgstr "Потребителските стилове са запазени. Презаредете страницата да ги използвате."
+msgstr ""
+"Потребителските стилове са запазени. Презаредете страницата да ги "
+"използвате."
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:63
 msgid ""
-"Enter custom CSS rules here. They will be used to redefine styles, design for"
-" all pages of your Web GIS."
+"Enter custom CSS rules here. They will be used to redefine styles, design "
+"for all pages of your Web GIS."
 msgstr ""
-"Въведе персонализирани CSS правила тук. Те ще се използват за предефинирането"
-" на стиловете и изгледа на страниците на Вашия Уеб GIS."
+"Въведе персонализирани CSS правила тук. Те ще се използват за "
+"предефинирането на стиловете и изгледа на страниците на Вашия Уеб GIS."
 
 #: nodepkg/home-path/HomePath.tsx:4
 msgid "The home path setting is saved."
 msgstr "Настройките на началната страница са запазени."
 
-#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12 test/test_i18n.py:15
+#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12
+#: test/test_i18n.py:15
 msgctxt "test"
 msgid "unit"
 msgid_plural "units"
@@ -232,7 +241,7 @@ msgstr "Сесия за поканване"
 
 #: nodepkg/layout/Avatar.tsx:23
 msgid "User settings"
-msgstr ""
+msgstr "Потребителски настройки"
 
 #: nodepkg/layout/Avatar.tsx:25
 msgid "Sign out"
@@ -256,49 +265,51 @@ msgstr "Препоръчваме височина от 45 px и широчина
 
 #: nodepkg/logo-form/LogoForm.tsx:6
 msgid "Only PNG and SVG images are supported."
-msgstr ""
+msgstr "Поддържат се само изображения в PNG и SVG формат."
 
 #: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
 msgid "Measurement ID"
-msgstr ""
+msgstr "Идентификатор за измерване"
 
 #: nodepkg/metrics/MetricSettings.tsx:19
 msgid "Add"
-msgstr ""
+msgstr "Добави"
 
 #: nodepkg/metrics/MetricSettings.tsx:20
 msgid "The setting is saved."
-msgstr ""
+msgstr "Настройката е запазена."
 
 #: nodepkg/metrics/MetricSettings.tsx:21
 msgid "Reload the page to get them applied."
-msgstr ""
+msgstr "Презаредете страницата, за да приложите настройките."
 
 #: nodepkg/metrics/MetricSettings.tsx:25
 msgid "Add one or more counters to your Web GIS."
-msgstr ""
+msgstr "Добавете един или повече броячи към вашия Web GIS."
 
 #: nodepkg/metrics/MetricSettings.tsx:26
 msgid ""
-"HTML code of these counters will be embeded into each page and will allow you"
-" to track user activity."
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
 msgstr ""
+"HTML кодът на тези броячи ще бъде вграден на всяка страница и ще позволи "
+"проследяване на потребителската активност."
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:31
 msgid "Tag number"
-msgstr ""
+msgstr "Номер на етикет"
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:51
 msgid "Webvisor"
-msgstr ""
+msgstr "Webvisor"
 
 #: nodepkg/metrics/tab.ts:31
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: nodepkg/metrics/tab.ts:38
 msgid "Yandex.Metrica"
-msgstr ""
+msgstr "Yandex.Metrica"
 
 #: nodepkg/storage-summary/StorageSummary.js:96
 msgid "Kind of data"
@@ -318,7 +329,8 @@ msgstr "от"
 
 #: nodepkg/storage-summary/StorageSummary.js:140
 msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr "Оценяването на използването на памет е приключено в %s и актуализирано в %s."
+msgstr ""
+"Оценяването на използването на памет е приключено в %s и актуализирано в %s."
 
 #: nodepkg/storage-summary/StorageSummary.js:146
 msgid "Storage usage was fully estimated at %s."
@@ -373,8 +385,8 @@ msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr ""
-"Има достъпни критични актуализации: {version}. Препоръчваме да ги установите "
-"колкото се може по-бързо."
+"Има достъпни критични актуализации: {version}. Препоръчваме да ги установите"
+" колкото се може по-бързо."
 
 #: nodepkg/update/sysinfo.js:21
 msgid "New version of {distribution} is available: {version}."
@@ -386,7 +398,7 @@ msgstr "Имате най-актуална версия на {distribution}."
 
 #: permission.py:5 view.py:216 view.py:559
 msgid "Cross-origin resource sharing (CORS)"
-msgstr "Cross-origin resource sharing (CORS)"
+msgstr "Споделяне на ресурси между различни източници (CORS)"
 
 #: template/backup.mako:5
 msgid "Filename"
@@ -414,19 +426,19 @@ msgstr "Платформа"
 
 #: template/sysinfo.mako:80
 msgid "Browser support"
-msgstr ""
+msgstr "Поддръжка на браузър"
 
 #: template/sysinfo.mako:91
 msgid "or higher"
-msgstr ""
+msgstr "или по-нов"
 
 #: template/sysinfo.mako:93
 msgid "Not supported"
-msgstr ""
+msgstr "Не се поддържа"
 
 #: template/sysinfo.mako:105
 msgid "Your browser"
-msgstr ""
+msgstr "Вашият браузър"
 
 #: template/uacompat.mako:3
 msgid "Browser compatibility test"
@@ -441,8 +453,8 @@ msgid ""
 "Web GIS browser compatibility test has been passed! The Web GIS should work "
 "fine."
 msgstr ""
-"Съвместимост на браузъра с Уеб GIS е проверена! Уеб GIS би трябвало да работи"
-" нормално."
+"Съвместимост на браузъра с Уеб GIS е проверена! Уеб GIS би трябвало да "
+"работи нормално."
 
 #: template/uacompat.mako:26
 msgid "%(name)s not supported"
@@ -465,9 +477,9 @@ msgstr "%(name)s %(current)s не се поддържа"
 
 #: template/uacompat.mako:30
 msgid ""
-"You're using %(name)s %(current)s although it's not supported by the Web GIS."
-" It's an outdated version lacking required features. Contact your system "
-"administrator for upgrading to %(name)s %(required)s+ or try a different "
+"You're using %(name)s %(current)s although it's not supported by the Web "
+"GIS. It's an outdated version lacking required features. Contact your system"
+" administrator for upgrading to %(name)s %(required)s+ or try a different "
 "browser."
 msgstr ""
 "Използвате %(name)s %(current)s, въпреки че не се поддържа от Уеб GIS. "
@@ -477,13 +489,13 @@ msgstr ""
 
 #: template/uacompat.mako:34
 msgid ""
-"If you still want to continue using the current browser, click the link below"
-" to bypass the compatibility test. The Web GIS or some features may degrade "
-"or fail  in this case."
+"If you still want to continue using the current browser, click the link "
+"below to bypass the compatibility test. The Web GIS or some features may "
+"degrade or fail  in this case."
 msgstr ""
-"Ако искате все едно да използвате текущия браузър, натиснете линка по-долу да"
-" пропуснете проверката на съвместимост. Уеб GIS или отделни функции може да "
-"не работят или да не бъдат на ниво."
+"Ако искате все едно да използвате текущия браузър, натиснете линка по-долу "
+"да пропуснете проверката на съвместимост. Уеб GIS или отделни функции може "
+"да не работят или да не бъдат на ниво."
 
 #: template/uacompat.mako:35
 msgid "I understood but want to proceed at my own risk. Skip the test!"
@@ -495,27 +507,28 @@ msgstr "Неизвестен браузър"
 
 #: template/uacompat.mako:38
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
-msgstr "Ако използвате актуализиран браузър, Уеб GIS трябва да работи нормално."
+msgstr ""
+"Ако използвате актуализиран браузър, Уеб GIS трябва да работи нормално."
 
 #: tomb/config.py:95
 msgid "Parameter required"
-msgstr ""
+msgstr "Изисква се параметър"
 
 #: tomb/config.py:96
 msgid "The '{}' query parameter is required."
-msgstr ""
+msgstr "Изисква се параметърът от заявката '{}'."
 
 #: tomb/config.py:98
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Невалиден параметър"
 
 #: tomb/config.py:99
 msgid "The '{}' query parameter has an invalid value."
-msgstr ""
+msgstr "Параметърът от заявката '{}' има невалидна стойност."
 
 #: view.py:157
 msgid "HTTP API documentation"
-msgstr ""
+msgstr "HTTP API документация"
 
 #: view.py:182 view.py:568
 msgid "System information"
@@ -547,7 +560,7 @@ msgstr "Начална страница"
 
 #: view.py:268 view.py:598
 msgid "Metrics and analytics"
-msgstr ""
+msgstr "Метрики и анализи"
 
 #: view.py:548
 msgid "Info"

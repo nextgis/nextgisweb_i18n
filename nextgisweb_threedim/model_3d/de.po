@@ -1,14 +1,18 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:17 nodepkg/editor-widget/EditorWidget.js:30
 #, jsrealm, server
 msgid "3D model"
-msgstr ""
+msgstr "3D-Modell"
 
 #: nodepkg/editor-widget/EditorWidget.js:10
 #, jsrealm
 msgid "Select a 3D model"
-msgstr ""
+msgstr "Wählen Sie ein 3D-Modell aus"
 
 #: nodepkg/editor-widget/EditorWidget.js:11
 #, jsrealm
 msgid "3D model should be in FBX or GLB format."
-msgstr ""
+msgstr "Das 3D-Modell sollte im FBX- oder GLB-Format vorliegen."

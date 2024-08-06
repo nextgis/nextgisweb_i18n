@@ -1,80 +1,90 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:38
 #, server
 msgid ""
 "The original QML was requested but the style has '{}' format. Use other "
 "values of the 'original' parameter."
 msgstr ""
+"Быў запытаны арыгінальны QML, але стыль мае фармат '{}'. Выкарыстоўвайце "
+"іншыя значэнні параметра 'original'."
 
 #: model.py:155
 #, server
 msgid "QGIS raster style"
-msgstr ""
+msgstr "Растравы стыль QGIS"
 
 #: model.py:206
 #, server
 msgid "Band {}"
-msgstr ""
+msgstr "Дыяпазон {}"
 
 #: model.py:256
 #, server
 msgid "QGIS vector style"
-msgstr ""
+msgstr "Вектарны стыль QGIS"
 
 #: model.py:462 model.py:476 model.py:508
 #, server
 msgid "Style format mismatch."
-msgstr ""
+msgstr "Неспадзяванне фармату стылю."
 
 #: model.py:506 model.py:660
 #, server
 msgid "Style file is not valid."
-msgstr ""
+msgstr "Файл стылю не сапраўдны."
 
 #: model.py:658
 #, server
 msgid "Layer type mismatch."
-msgstr ""
+msgstr "Неспадзяванне тыпу слою."
 
 #: nodepkg/CopyFromComponent.tsx:7
 #, jsrealm
 msgid "Source"
-msgstr ""
+msgstr "Крыніца"
 
 #: nodepkg/default-style-widget/DefaultStyleWidget.tsx:12
 #, jsrealm
 msgid "Create default QGIS style"
-msgstr ""
+msgstr "Стварыць стандартны стыль QGIS"
 
 #: nodepkg/default-style-widget/DefaultStyleWidget.tsx:13
 #, jsrealm
 msgid ""
-"Layer created. You need a style to add it to a web map. Use the button bellow"
-" to create a default QGIS style or create a style resource using sidebar."
+"Layer created. You need a style to add it to a web map. Use the button "
+"bellow to create a default QGIS style or create a style resource using "
+"sidebar."
 msgstr ""
+"Слой створаны. Вам патрэбны стыль, каб дадаць яго на вэб-карту. Выкарыстайце"
+" кнопку ніжэй, каб стварыць стандартны стыль QGIS, або стварэце рэсурс стылю"
+" з дапамогай бакавой панэлі."
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:30
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:31
 #, jsrealm
 msgid "Style from file"
-msgstr ""
+msgstr "Стайль з файла"
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:31
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:32
 #, jsrealm
 msgid "User-defined style"
-msgstr ""
+msgstr "Стайль, вызначаны карыстальнікам"
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:32
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:33
 #, jsrealm
 msgid "Default style"
-msgstr ""
+msgstr "Стандартны стыль"
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:33
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:34
 #, jsrealm
 msgid "Copy from resource"
-msgstr ""
+msgstr "Скапіраваць з рэсурсу"
 
 #: nodepkg/raster-editor-widget/EditorWidget.tsx:66
 #: nodepkg/vector-editor-widget/EditorWidget.tsx:68 view.py:38
@@ -86,13 +96,13 @@ msgstr "Стыль QGIS"
 #: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:10
 #, jsrealm
 msgid "Select a style"
-msgstr ""
+msgstr "Абярыце стыль"
 
 #: nodepkg/raster-editor-widget/component/FileModeComponent.tsx:10
 #: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:11
 #, jsrealm
 msgid "QML or SLD formats are supported."
-msgstr ""
+msgstr "Падтрымліваюцца фарматы QML або SLD."
 
 #: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:12
 #, jsrealm

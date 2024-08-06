@@ -1,67 +1,71 @@
+#
+msgid ""
+msgstr ""
+
 #: lockable_feature.py:60
 #, server
 msgid "Additional basemaps"
-msgstr ""
+msgstr "Дадатковыя базавыя карты"
 
 #: lockable_feature.py:93
 #, server
 msgid "Field data collection"
-msgstr ""
+msgstr "Збор палявых дадзеных"
 
 #: lockable_feature.py:101
 #, server
 msgid "Use on other websites (CORS)"
-msgstr ""
+msgstr "Выкарыстанне на іншых вэб-сайтах (CORS)"
 
 #: lockable_feature.py:122
 #, server
 msgid "Custom domain and branding"
-msgstr ""
+msgstr "Карыстальніцкі дамен і брэндынг"
 
 #: lockable_feature.py:135
 #, server
 msgid "Custom SRS"
-msgstr ""
+msgstr "Карыстальніцкая прасторавыя сістэма каардынат (SRS)"
 
 #: lockable_feature.py:147
 #, server
 msgid "Improved performance"
-msgstr ""
+msgstr "Павышаная прадукцыйнасць"
 
 #: lockable_feature.py:154
 #, server
 msgid "Access management"
-msgstr ""
+msgstr "Кіраванне доступам"
 
 #: lockable_feature.py:229
 #, server
 msgid "Technical support"
-msgstr ""
+msgstr "Тэхнічная падтрымка"
 
 #: lockable_feature.py:234
 #, server
 msgid "On-demand backup restore"
-msgstr ""
+msgstr "Аднаўленне рэзервовай копіі па запыце"
 
 #: lockable_feature.py:255
 #, server
 msgid "Tile caching"
-msgstr ""
+msgstr "Кэшаванне тайлаў"
 
 #: lockable_feature.py:285
 #, server
 msgid "Data editing on web maps"
-msgstr ""
+msgstr "Рэдагаванне дадзеных на вэб-картах"
 
 #: lockable_feature.py:311
 #, server
 msgid "Annotations on web maps"
-msgstr ""
+msgstr "Анатацыі на вэб-картах"
 
 #: nodepkg/include.js:11 nodepkg/upgrade-button/index.js:28 view.py:15
 #, jsrealm, server
 msgid "Plan and features"
-msgstr ""
+msgstr "План і функцыі"
 
 #: nodepkg/plan-and-features/index.js:22 nodepkg/upgrade-button/index.js:58
 #, jsrealm
@@ -81,7 +85,7 @@ msgstr "Больш падрабязна аб планах"
 #: nodepkg/qgis-banner/QgisBanner.js:23
 #, jsrealm
 msgid "Easy start with QGIS"
-msgstr ""
+msgstr "Лёгкі старт з QGIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:26
 #, jsrealm
@@ -89,41 +93,43 @@ msgid ""
 "Use the NextGIS Connect plugin for QGIS to upload your data and create "
 "interactive maps."
 msgstr ""
+"Выкарыстоўвайце NextGIS Connect убудова для QGIS для загрузкі дадзеных і "
+"стварэння інтэрактыўных карт."
 
 #: nodepkg/qgis-banner/QgisBanner.js:33
 #, jsrealm
 msgid "Install the NextGIS Connect plugin for QGIS"
-msgstr ""
+msgstr "Усталюйце убудову NextGIS Connect для QGIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:37
 #, jsrealm
 msgid "Connect the plugin to your Web GIS"
-msgstr ""
+msgstr "Падключыце убудову да вашага Web GIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:39
 #, jsrealm
 msgid "Upload your layers and projects to your Web GIS"
-msgstr ""
+msgstr "Загрузіце свае слоі і праекты ў ваш Web GIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:56
 #, jsrealm
 msgid "Learn more"
-msgstr ""
+msgstr "Даведайцеся больш"
 
 #: nodepkg/qgis-banner/QgisBanner.js:64
 #, jsrealm
 msgid "Hide"
-msgstr ""
+msgstr "Схаваць"
 
 #: nodepkg/resource-widget/base.js:20 service_plan.py:303
 #, jsrealm, server
 msgid "{} feature is not available on your plan."
-msgstr ""
+msgstr "{} функцыя недаступная ў вашым плане."
 
 #: nodepkg/resource-widget/base.js:21
 #, jsrealm
 msgid "These features are not available on your plan:"
-msgstr ""
+msgstr "Гэтыя функцыі недаступныя ў вашым плане:"
 
 #: nodepkg/summary.js:17
 #, jsrealm
@@ -133,7 +139,7 @@ msgstr "з"
 #: nodepkg/summary.js:18
 #, jsrealm
 msgid "Available"
-msgstr ""
+msgstr "Даступны"
 
 #: nodepkg/summary.js:19
 #, jsrealm
@@ -153,44 +159,44 @@ msgstr "Абнавіць"
 #: service_plan.py:99
 #, server
 msgid "Number of maps and layers"
-msgstr ""
+msgstr "Колькасць карт і layers"
 
 #: service_plan.py:100
 #, server
 msgid "Storage limit"
-msgstr ""
+msgstr "Ліміт захоўвання"
 
 #: service_plan.py:101
 #, server
 msgid "User limit"
-msgstr ""
+msgstr "Ліміт карыстальнікаў"
 
 #: service_plan.py:106
 #, server
 msgid "GPS trackers"
-msgstr ""
+msgstr "GPS-трэкер"
 
 #: service_plan.py:117
 #, server
 msgid "Maximum file upload"
-msgstr ""
+msgstr "Максімальны памер загружанага файла"
 
 #: service_plan.py:118
 #, server
 msgid "Maximum raster layer"
-msgstr ""
+msgstr "Максімальны памер raster layer"
 
 #: service_plan.py:296
 #, server
 msgid "Plan upgrade required"
-msgstr ""
+msgstr "Патрабуецца абнаўленне плана"
 
 #: service_plan.py:300
 #, server
 msgid "This is not available on your plan."
-msgstr ""
+msgstr "Гэта недаступна ў вашым плане."
 
 #: service_plan.py:311
 #, server
 msgid "To use this feature, please upgrade."
-msgstr ""
+msgstr "Для выкарыстання гэтай функцыі, калі ласка, абнавіце план."

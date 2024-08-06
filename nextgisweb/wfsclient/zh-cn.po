@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-wfsclient/WFSConnectionWidget.js:26 model.py:115
 msgid "WFS connection"
 msgstr "WFS连接"
@@ -82,4 +86,3 @@ msgstr "保持"
 #: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:54
 msgid "Reload"
 msgstr "重启"
-

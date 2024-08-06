@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: lockable_feature.py:60
 msgid "Additional basemaps"
 msgstr "附加底图"
@@ -64,33 +68,33 @@ msgstr "更多关于计划"
 
 #: nodepkg/qgis-banner/QgisBanner.js:23
 msgid "Easy start with QGIS"
-msgstr ""
+msgstr "轻松开始使用QGIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:26
 msgid ""
 "Use the NextGIS Connect plugin for QGIS to upload your data and create "
 "interactive maps."
-msgstr ""
+msgstr "使用QGIS的NextGIS Connect插件上传您的数据并创建交互式地图。"
 
 #: nodepkg/qgis-banner/QgisBanner.js:33
 msgid "Install the NextGIS Connect plugin for QGIS"
-msgstr ""
+msgstr "安装QGIS的NextGIS Connect插件"
 
 #: nodepkg/qgis-banner/QgisBanner.js:37
 msgid "Connect the plugin to your Web GIS"
-msgstr ""
+msgstr "将插件连接到您的Web GIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:39
 msgid "Upload your layers and projects to your Web GIS"
-msgstr ""
+msgstr "将您的图层和项目上传到Web GIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:56
 msgid "Learn more"
-msgstr ""
+msgstr "了解更多"
 
 #: nodepkg/qgis-banner/QgisBanner.js:64
 msgid "Hide"
-msgstr ""
+msgstr "隐藏"
 
 #: nodepkg/resource-widget/base.js:20 service_plan.py:303
 msgid "{} feature is not available on your plan."
@@ -98,7 +102,7 @@ msgstr "{} 要素在您的计划中不可用。"
 
 #: nodepkg/resource-widget/base.js:21
 msgid "These features are not available on your plan:"
-msgstr ""
+msgstr "这些功能在您的计划中不可用："
 
 #: nodepkg/summary.js:17
 msgid "of"
@@ -154,4 +158,4 @@ msgstr "在您的计划中，这是不可用的"
 
 #: service_plan.py:311
 msgid "To use this feature, please upgrade."
-msgstr ""
+msgstr "要使用此功能，请升级。"

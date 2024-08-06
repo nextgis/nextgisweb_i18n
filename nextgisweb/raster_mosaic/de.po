@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:18
 msgid "Raster mosaic item id not provided."
 msgstr "Rastermosaik-Element hat keine ID."
@@ -20,8 +24,8 @@ msgstr "Es werden nur RGB- und RGBA-Raster unterstützt."
 
 #: model.py:132
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
 "Das geladene Raster '%(format)s' wird nicht unterstützt. Die unterstützten "
 "Rasterformate sind: %(all_formats)s."
@@ -36,7 +40,7 @@ msgstr "Komplexe Datentypen werden nicht unterstützt."
 
 #: nodepkg/resource-widget/Store.ts:73
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "Die Datei '{}' hat eine ungültige Erweiterung."
 
 #: nodepkg/resource-widget/Widget.tsx:43
 msgid "Upload"
@@ -44,4 +48,4 @@ msgstr "Hochladen"
 
 #: nodepkg/resource-widget/Widget.tsx:64
 msgid "Rasters"
-msgstr ""
+msgstr "Raster"

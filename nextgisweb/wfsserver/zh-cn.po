@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
 msgstr "WFS服务"
@@ -12,11 +16,11 @@ msgstr "键名"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Features per request"
-msgstr ""
+msgstr "每次请求的要素"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Not set"
-msgstr ""
+msgstr "未设置"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"

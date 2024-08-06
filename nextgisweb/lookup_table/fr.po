@@ -1,28 +1,34 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:23 nodepkg/editor/EditorWidget.tsx:168 view.py:16
 msgid "Lookup table"
 msgstr "Tableau de référence"
 
 #: nodepkg/editor/EditorWidget.tsx:34
 msgid "Type here to add a new item..."
-msgstr ""
+msgstr "Tapez ici pour ajouter un nouvel élément..."
 
 #: nodepkg/editor/EditorWidget.tsx:35
 msgid "Export"
-msgstr ""
+msgstr "Exporter"
 
 #: nodepkg/editor/EditorWidget.tsx:36
 msgid "Import"
-msgstr ""
+msgstr "Importer"
 
 #: nodepkg/editor/EditorWidget.tsx:37
 msgid "Clear"
-msgstr ""
+msgstr "Vider"
 
 #: nodepkg/editor/EditorWidget.tsx:40
 msgid ""
 "All existing records will be deleted after import. Are you sure you want to "
 "proceed?"
 msgstr ""
+"Tous les enregistrements existants seront supprimés après l'importation. "
+"Êtes-vous sûr de vouloir continuer?"
 
 #: nodepkg/editor/EditorWidget.tsx:86 template/resource_section.mako:8
 msgid "Key"

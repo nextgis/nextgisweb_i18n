@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:23 model.py:692
 msgid "GDAL library failed to open file."
 msgstr "GDAL库打开文件失败."
@@ -108,7 +112,7 @@ msgstr "未知参数值'cast_has_z'"
 
 #: model.py:771
 msgid "Unknown 'fid_source' value."
-msgstr ""
+msgstr "未知的 'fid_source' 值。"
 
 #: model.py:794
 msgid "Unsupported geometry type."
@@ -116,11 +120,11 @@ msgstr "不支持的几何类型"
 
 #: nodepkg/resource-widget/Store.tsx:168
 msgid "Confirm deletion of existing features"
-msgstr ""
+msgstr "确认删除现有要素"
 
 #: nodepkg/resource-widget/Store.tsx:175
 msgid "Confirm change of geometry type"
-msgstr ""
+msgstr "确认更改几何类型"
 
 #: nodepkg/resource-widget/Widget.tsx:33
 msgid "Select a dataset"
@@ -128,14 +132,16 @@ msgstr "请选择数据集"
 
 #: nodepkg/resource-widget/Widget.tsx:34
 msgid ""
-"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
-"supported. For CSV and XLSX only points are supported, coordinates must be "
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
+"支持ESRI "
+"Shapefile（zip）、GeoPackage、GeoJSON、GML、KML、CSV或XLSX格式。对于CSV和XLSX只支持点类型，坐标必须放在lat和long列中。"
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Whenever possible"
-msgstr ""
+msgstr "尽可能"
 
 #: nodepkg/resource-widget/Widget.tsx:46
 msgid "Without losing data"
@@ -192,31 +198,31 @@ msgstr "FID资源"
 
 #: nodepkg/resource-widget/Widget.tsx:151
 msgid "Load features from file"
-msgstr ""
+msgstr "从文件加载要素"
 
 #: nodepkg/resource-widget/Widget.tsx:152
 msgid "Create empty layer"
-msgstr ""
+msgstr "创建空图层"
 
 #: nodepkg/resource-widget/Widget.tsx:154
 msgid "Keep existing layer features"
-msgstr ""
+msgstr "保留现有图层要素"
 
 #: nodepkg/resource-widget/Widget.tsx:155
 msgid "Change geometry type"
-msgstr ""
+msgstr "更改几何类型"
 
 #: nodepkg/resource-widget/Widget.tsx:156
 msgid "Replace layer features from file"
-msgstr ""
+msgstr "从文件替换图层要素"
 
 #: nodepkg/resource-widget/Widget.tsx:157
 msgid "Delete all features from layer"
-msgstr ""
+msgstr "删除图层中的所有要素"
 
 #: nodepkg/resource-widget/Widget.tsx:173
 msgid "current"
-msgstr ""
+msgstr "当前"
 
 #: nodepkg/resource-widget/Widget.tsx:251
 msgid "Source layer"
@@ -306,7 +312,7 @@ msgstr "要素#%d包括未闭合的环"
 
 #: ogrloader.py:701
 msgid "Feature #%d has empty rings."
-msgstr ""
+msgstr "要素 #%d 有空环。"
 
 #: ogrloader.py:715
 msgid "Feature #%d has less than 3 points in a polygon ring."

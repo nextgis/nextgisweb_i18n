@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:18
 msgid "Raster mosaic item id not provided."
 msgstr "ID položky rastrové mozaiky není poskytnuto."
@@ -20,8 +24,8 @@ msgstr "Podporovány jsou pouze rastry RGB a RGBA."
 
 #: model.py:132
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
 "Rastr má formát '%(format)s', podporovány jsou však pouze následující "
 "formáty: %(all_formats)s."
@@ -36,7 +40,7 @@ msgstr "Složité datové typy nejsou podporovány."
 
 #: nodepkg/resource-widget/Store.ts:73
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "Soubor '{}' má neplatnou příponu."
 
 #: nodepkg/resource-widget/Widget.tsx:43
 msgid "Upload"
@@ -44,4 +48,4 @@ msgstr "Nahrát"
 
 #: nodepkg/resource-widget/Widget.tsx:64
 msgid "Rasters"
-msgstr ""
+msgstr "Rastry"

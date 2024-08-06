@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
 #: nodepkg/attribute-editor/index.ts:7 view.py:222
 msgid "Attributes"
@@ -9,7 +13,7 @@ msgstr "未经授权的访问"
 
 #: amd/ngw-feature-layer/GeometryInfoWidget.js:9
 msgid "Geometry"
-msgstr ""
+msgstr "几何"
 
 #: api.py:93
 msgid "Geometry is not valid."
@@ -17,7 +21,7 @@ msgstr "几何形状是无效的。"
 
 #: api.py:335
 msgid "Unknown spatial reference system"
-msgstr ""
+msgstr "未知的空间参考系统"
 
 #: api.py:408 api_export.py:121
 msgid "Parameter 'intersects' geometry is not valid."
@@ -32,16 +36,17 @@ msgid "Format '%s' is not supported."
 msgstr "不支持格式“%s”"
 
 #: api_export.py:146
-msgid "The export limit is set to {limit} features, but the layer contains {count}."
-msgstr ""
+msgid ""
+"The export limit is set to {limit} features, but the layer contains {count}."
+msgstr "导出限制设置为{limit}个要素，但图层包含{count}个。"
 
 #: api_export.py:159
 msgid "Failed to reproject 'intersects' geometry."
-msgstr ""
+msgstr "重新投影'intersects'几何形状失败。"
 
 #: api_export.py:301
 msgid "File name parameter '{}' is not valid."
-msgstr ""
+msgstr "文件名参数'{}'无效。"
 
 #: exception.py:7
 msgid "Feature not found"
@@ -57,11 +62,11 @@ msgstr "可能，要素已被删除和地址上的错误"
 
 #: exception.py:20
 msgid "Feature not deleted"
-msgstr ""
+msgstr "要素未被删除"
 
 #: exception.py:21
 msgid "Unable to restore the #{} feature as it is not deleted."
-msgstr ""
+msgstr "无法还原编号为#{}的要素，因为它没有被删除。"
 
 #: favorite.py:5 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:56
 msgid "Feature table"
@@ -73,11 +78,11 @@ msgstr "字段未找到（ID=%d）"
 
 #: model.py:174
 msgid "Field name is forbidden: '{}'. Please remove or rename it."
-msgstr ""
+msgstr "字段名称被禁止: ''{}''。请删除或重命名。"
 
 #: model.py:236
 msgid "Versioning not supported"
-msgstr ""
+msgstr "不支持版本控制"
 
 #: nodepkg/attribute-editor/AttributeEditor.tsx:32
 msgid "Set field value to NULL (No data)"
@@ -85,11 +90,11 @@ msgstr "将字段值设置为NULL（无数据）"
 
 #: nodepkg/attribute-editor/AttributeEditor.tsx:33
 msgid "There are no attributes in the vector layer"
-msgstr ""
+msgstr "矢量图层中没有属性"
 
 #: nodepkg/export-form/ExportForm.tsx:177
 msgid "Resources"
-msgstr ""
+msgstr "资源"
 
 #: nodepkg/export-form/ExportForm.tsx:199
 msgid "Format"
@@ -114,15 +119,15 @@ msgstr "使用字段显示名称，而不是密钥名称"
 #: nodepkg/export-form/ExportForm.tsx:241
 #: nodepkg/fields-widget/FieldsWidget.tsx:167
 msgid "Fields"
-msgstr ""
+msgstr "字段"
 
 #: nodepkg/export-form/ExportForm.tsx:247
 msgid "Limit by extent"
-msgstr ""
+msgstr "按范围限制"
 
 #: nodepkg/export-form/ExportForm.tsx:253
 msgid "Filter text"
-msgstr ""
+msgstr "过滤文本"
 
 #: nodepkg/export-form/ExportForm.tsx:257
 msgid "Zip archive"
@@ -135,59 +140,59 @@ msgstr "保存"
 
 #: nodepkg/export-form/ExtentInput.tsx:6
 msgid "deg."
-msgstr ""
+msgstr "度"
 
 #: nodepkg/export-form/ExtentInput.tsx:9
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #: nodepkg/export-form/ExtentInput.tsx:10
 msgid "Bottom"
-msgstr ""
+msgstr "底"
 
 #: nodepkg/export-form/ExtentInput.tsx:11
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #: nodepkg/export-form/ExtentInput.tsx:12
 msgid "Top"
-msgstr ""
+msgstr "顶"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:18
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
 msgid "Are you sure?"
-msgstr ""
+msgstr "确定吗？"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
 msgid "Unsaved changes will be lost if you close the window."
-msgstr ""
+msgstr "如果关闭窗口，未保存的更改将会丢失。"
 
 #: nodepkg/feature-editor/FeatureEditorStore.ts:20
 msgid "Feature saved"
-msgstr ""
+msgstr "要素已保存"
 
 #: nodepkg/feature-editor/FeatureEditorStore.ts:21
 msgid "No changes to save"
-msgstr ""
+msgstr "没有要保存的更改"
 
 #: nodepkg/feature-editor/FeatureEditorWidget.tsx:33
 msgid "Loading..."
-msgstr ""
+msgstr "加载中..."
 
 #: nodepkg/feature-editor/FeatureEditorWidget.tsx:35
 msgid "Reset"
-msgstr ""
+msgstr "重置"
 
 #: nodepkg/feature-grid/FeatureGrid.tsx:24
 msgid "Open table settings"
-msgstr ""
+msgstr "打开表格设置"
 
 #: nodepkg/feature-grid/FeatureGrid.tsx:25
 msgid "Refresh table"
-msgstr ""
+msgstr "刷新表格"
 
 #: nodepkg/feature-grid/FeatureGridActions.tsx:24
 msgid "Open"
@@ -203,7 +208,7 @@ msgstr "编辑"
 
 #: nodepkg/feature-grid/FeatureGridActions.tsx:27
 msgid "Edit on a new page"
-msgstr ""
+msgstr "在新页面编辑"
 
 #: nodepkg/feature-grid/FeatureGridActions.tsx:29
 msgid "Search..."
@@ -212,7 +217,7 @@ msgstr "搜索"
 #: nodepkg/feature-grid/FeatureTable.tsx:95
 #: nodepkg/feature-grid/component/TableConfigModal.tsx:53
 msgid "Last changed"
-msgstr ""
+msgstr "最后更改"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:117 view.py:128
 #: view.py:217
@@ -221,15 +226,15 @@ msgstr "保存为"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:31
 msgid "Advanced Export"
-msgstr ""
+msgstr "高级导出"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:32
 msgid "Quick Export"
-msgstr ""
+msgstr "快速导出"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:33
 msgid "Filters are applied"
-msgstr ""
+msgstr "筛选已应用"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:23
 #: template/resource_section_fields.mako:17
@@ -253,7 +258,7 @@ msgstr "参考表"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:28
 msgid "Text search"
-msgstr ""
+msgstr "文本搜索"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:29
 msgid "Label attribute"
@@ -261,79 +266,79 @@ msgstr "标签属性"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:31
 msgid "Please select"
-msgstr ""
+msgstr "请选择"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:32
 msgid "Not used"
-msgstr ""
+msgstr "未使用"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:115
 msgid "Field"
-msgstr ""
+msgstr "字段"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:56
 msgid "Load geometry info..."
-msgstr ""
+msgstr "加载几何信息..."
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:65
 msgid "Failed to get information about the geometry"
-msgstr ""
+msgstr "获取几何信息失败"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:75
 msgid "Perimeter"
-msgstr ""
+msgstr "周长"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:76
 msgid "Length"
-msgstr ""
+msgstr "长度"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:84
 msgid "Area"
-msgstr ""
+msgstr "面积"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:92
 msgid "Geometry type"
-msgstr ""
+msgstr "几何类型"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:100
 msgid "Extent (xMin)"
-msgstr ""
+msgstr "范围 (xMin)"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:104
 msgid "Extent (yMin)"
-msgstr ""
+msgstr "范围 (yMin)"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:108
 msgid "Extent (xMax)"
-msgstr ""
+msgstr "范围 (xMax)"
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:112
 msgid "Extent (yMax)"
-msgstr ""
+msgstr "范围 (yMax)"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:18
 msgid "Feature versioning"
-msgstr ""
+msgstr "要素版本控制"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:19
 msgid ""
 "Experimental feature. Some operations may not work if feature versioning is "
 "enabled."
-msgstr ""
+msgstr "实验性功能。如果启用要素版本控制，某些操作可能无法正常工作。"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:40
 msgid "Disable feature versioning?"
-msgstr ""
+msgstr "禁用要素版本控制？"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:41
 msgid ""
 "Turning off feature versioning will truncate the history and keep only the "
 "latest state."
-msgstr ""
+msgstr "关闭要素版本控制将截断历史记录，仅保留最新状态。"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:64
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: template/resource_section_fields.mako:21 view.py:206
 msgid "Table"
@@ -351,54 +356,54 @@ msgstr "否"
 
 #: transaction/exception.py:7
 msgid "Transaction not found"
-msgstr ""
+msgstr "未找到事务"
 
 #: transaction/exception.py:12
 msgid "Operation conflict in transaction"
-msgstr ""
+msgstr "事务中的操作冲突"
 
 #: transaction/exception.py:20
 msgid "Transaction not committed"
-msgstr ""
+msgstr "事务未提交"
 
 #: versioning/exception.py:17
 msgid "Not implemented for feature versioning"
-msgstr ""
+msgstr "未对要素版本控制实现"
 
 #: versioning/exception.py:18
 msgid ""
 "This operation cannot be performed on a resource with feature versioning "
 "enabled. Disable feature versioning for the resource first, and then try "
 "again."
-msgstr ""
+msgstr "无法对启用了要素版本控制的资源执行此操作。请先禁用资源的要素版本控制，然后再试。"
 
 #: versioning/exception.py:27
 msgid "Feature versioning required"
-msgstr ""
+msgstr "需要要素版本控制"
 
 #: versioning/exception.py:32
 msgid "Feature versioning is not supported for this resource."
-msgstr ""
+msgstr "该资源不支持要素版本控制。"
 
 #: versioning/exception.py:34
 msgid "Feature versioning is not enabled for this resource."
-msgstr ""
+msgstr "该资源未启用要素版本控制。"
 
 #: versioning/exception.py:41
 msgid "Epoch required"
-msgstr ""
+msgstr "需要 Epoch"
 
 #: versioning/exception.py:45
 msgid "Epoch mismatch"
-msgstr ""
+msgstr "Epoch 不匹配"
 
 #: versioning/exception.py:55
 msgid "Version out of range"
-msgstr ""
+msgstr "版本超出范围"
 
 #: versioning/exception.py:65
 msgid "Invalid range"
-msgstr ""
+msgstr "无效范围"
 
 #: view.py:78 view.py:95
 msgid "Feature #%d"

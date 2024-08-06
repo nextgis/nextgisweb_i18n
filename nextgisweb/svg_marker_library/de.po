@@ -1,34 +1,38 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:26 nodepkg/resource-widget/Widget.tsx:93 view.py:22 view.py:30
 msgid "SVG marker library"
 msgstr "SVG-Marker-Bibliothek"
 
 #: model.py:87
 msgid "File '{}' has an insecure name."
-msgstr ""
+msgstr "Datei '{}' hat einen unsicheren Namen."
 
 #: model.py:92 nodepkg/resource-widget/Store.ts:75
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "Datei '{}' hat eine ungültige Erweiterung."
 
 #: model.py:98
 msgid "File '{}' has a format different from SVG."
-msgstr ""
+msgstr "Datei '{}' hat ein anderes Format als SVG."
 
 #: nodepkg/resource-widget/Store.ts:92
 msgid "ZIP archive required"
-msgstr ""
+msgstr "ZIP-Archiv benötigt"
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Add SVG files"
-msgstr ""
+msgstr "SVG-Dateien hinzufügen"
 
 #: nodepkg/resource-widget/Widget.tsx:54
 msgid "Import from ZIP archive"
-msgstr ""
+msgstr "Aus ZIP-Archiv importieren"
 
 #: nodepkg/resource-widget/Widget.tsx:65
 msgid "SVG markers will be imported from:"
-msgstr ""
+msgstr "SVG-Marker werden importiert von:"
 
 #: template/resource_section.mako:8
 msgid "Name"
@@ -36,4 +40,4 @@ msgstr "Name"
 
 #: view.py:26
 msgid "Export"
-msgstr "Export"
+msgstr "Exportieren"

@@ -1,16 +1,22 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:82
 msgid "Invalid origin"
-msgstr ""
+msgstr "Origine non valida"
 
 #: api.py:83
 msgid ""
 "Origin validation is enabled for rendering requests, but the given origin "
 "doesn't match with the CORS origins list."
 msgstr ""
+"La validazione dell'origine è abilitata per le richieste di rendering, ma "
+"l'origine fornita non corrisponde all'elenco delle origini CORS."
 
 #: api.py:158
 msgid "Invalid symbols sequence"
-msgstr ""
+msgstr "Sequenza di simboli non valida"
 
 #: component.py:24 nodepkg/tile-cache-widget/TileCacheWidget.tsx:93
 msgid "Tile cache"
@@ -22,7 +28,7 @@ msgstr "Abilitato"
 
 #: component.py:51
 msgid "Disabled"
-msgstr ""
+msgstr "Disabilitato"
 
 #: nodepkg/tile-cache-widget/TileCacheWidget.tsx:58
 msgid "Allow using tiles in non-tile requests"
@@ -47,13 +53,13 @@ msgstr "TMS (Tile Map Service)"
 #: view.py:26
 msgid ""
 "TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
-"is a map displayed in a browser by seamlessly joining dozens of individually "
-"requested image."
+"is a map displayed in a browser by seamlessly joining dozens of individually"
+" requested image."
 msgstr ""
 "Il TMS (Tile Map Service) è una specifica per le mappe web a tasselli. Una "
-"mappa a tasselli è una mappa mostrata nel browser unendo senza discontinuità "
-"decine di immagini richieste separatamente."
+"mappa a tasselli è una mappa mostrata nel browser unendo senza discontinuità"
+" decine di immagini richieste separatamente."
 
 #: view.py:42
 msgid "Legend symbols"
-msgstr ""
+msgstr "Simboli della legenda"

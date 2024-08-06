@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-wfsclient/WFSConnectionWidget.js:34 model.py:127
 #, amd, server
 msgid "WFS connection"

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:49
 msgid "WMS connection"
 msgstr "WMS连接"
@@ -28,11 +32,11 @@ msgstr "不要查询"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:25
 msgid "WMS Connection URL"
-msgstr ""
+msgstr "WMS连接地址"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:34
 msgid "URL"
-msgstr "URL"
+msgstr "网址"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:42
 msgid "Username"
@@ -53,7 +57,7 @@ msgstr "功能"
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:76
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:87
 msgid "WMS Connection"
-msgstr ""
+msgstr "WMS连接"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:108
 msgid "WMS layers"
@@ -66,15 +70,15 @@ msgstr "供应商参数"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:130
 msgid "Edit vendor parameters"
-msgstr ""
+msgstr "编辑供应商参数"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
 msgid "WMS Layer"
-msgstr ""
+msgstr "WMS图层"
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:20
 msgid "Type to add a new vendor parameter"
-msgstr ""
+msgstr "请输入以添加新供应商参数"
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:66
 msgid "Key"

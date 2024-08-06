@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-mapserver/StyleWidget.js:34 model.py:93
 msgid "MapServer style"
 msgstr "MapServer-Stil"
@@ -5,16 +9,15 @@ msgstr "MapServer-Stil"
 #: model.py:407 view.py:52
 #, python-format
 msgid "XML syntax error: %s"
-msgstr ""
+msgstr "XML-Syntaxfehler: %s"
 
 #: model.py:410 view.py:55
 #, python-format
 msgid "XML schema error: %s"
-msgstr ""
+msgstr "Fehler des XML-Schemas: %s"
 
 #~ msgid "XML syntax error: %(message)s"
 #~ msgstr "XML Syntaxfehler"
 
 #~ msgid "XML schema error: %(message)s"
 #~ msgstr "Fehler des XML-Schemas"
-

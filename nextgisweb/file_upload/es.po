@@ -1,10 +1,14 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:25
 msgid "Uploaded file too large"
 msgstr "El archivo subido es demasiado grande"
 
 #: model.py:137
 msgid "Uploaded file not found"
-msgstr ""
+msgstr "Archivo subido no encontrado"
 
 #: model.py:141
 msgid "Upload is not completed"
@@ -29,11 +33,11 @@ msgstr "Detener"
 
 #: nodepkg/file-uploader/FileUploaderButton.tsx:9
 msgid "Upload"
-msgstr ""
+msgstr "Subir"
 
 #: nodepkg/file-uploader/hook/useFileUploader.ts:17
 msgid "{} uploaded..."
-msgstr ""
+msgstr "{} subido..."
 
 #: nodepkg/image-uploader/ImageUploader.tsx:18
 msgid "Delete"

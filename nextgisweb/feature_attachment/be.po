@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-feature-attachment/DisplayWidget.js:9
 #: nodepkg/attachment-bundle/ol-control/control.js:14
 #: nodepkg/attachment-bundle/ol-control/control.js:30
@@ -29,33 +33,34 @@ msgstr "Магчыма, далучэнне было выдалена або па
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:33
 #, jsrealm
-msgid "Draw the geometry on the map to visualize the attachments to the objects"
-msgstr ""
+msgid ""
+"Draw the geometry on the map to visualize the attachments to the objects"
+msgstr "Намалюйце геаметрыю на мапе, каб убачыць укладанні да аб'ектаў"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
 #, jsrealm
 msgid "Object: "
-msgstr ""
+msgstr "Аб'ект:"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:139
 #, jsrealm
 msgid "Identify object"
-msgstr ""
+msgstr "Ідэнтыфікаваць аб'ект"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:160
 #, jsrealm
 msgid "Attachments: "
-msgstr ""
+msgstr "Укладанні:"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:187
 #, jsrealm
 msgid "No attachments"
-msgstr ""
+msgstr "Няма ўкладанняў"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:253
 #, jsrealm
 msgid "Download all attachments"
-msgstr ""
+msgstr "Спампаваць усе ўкладанні"
 
 #: nodepkg/attachment-editor/AttachmentEditor.tsx:166
 #: nodepkg/attachment-table/AttachmentTable.tsx:45
@@ -78,36 +83,40 @@ msgstr "Апісанне"
 #: nodepkg/attachment-form/AttachmentForm.tsx:56
 #, jsrealm
 msgid ""
-"Use export to copy feature attachments between different layers or to create "
-"a backup. The resulting ZIP archive will contain all of the attachments put "
-"in directories named after feature IDs. Attachment metadata are put into a "
+"Use export to copy feature attachments between different layers or to create"
+" a backup. The resulting ZIP archive will contain all of the attachments put"
+" in directories named after feature IDs. Attachment metadata are put into a "
 "separate JSON file."
 msgstr ""
+"Выкарыстоўвайце экспарт для капіравання ўкладанняў функцый паміж рознымі "
+"слоямі або для стварэння рэзервовай копіі. Атрыманы ZIP-архіў будзе змяшчаць"
+" усе ўкладанні, размешчаныя ў каталогах, названых па ID функцый. Метаданыя "
+"ўкладанняў змяшчаюцца ў асобны JSON-файл."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:66
 #, jsrealm
 msgid "Export attachments to ZIP archive"
-msgstr ""
+msgstr "Экспартаваць укладанні ў ZIP-архіў"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:84
 #, jsrealm
 msgid "Back to resource"
-msgstr ""
+msgstr "Вярнуцца да рэсурсу"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:86
 #, jsrealm
 msgid "Close"
-msgstr ""
+msgstr "Закрыць"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:89
 #, jsrealm
 msgid "The archive has been successfully imported."
-msgstr ""
+msgstr "Архіў паспяхова імпартаваны."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:91
 #, jsrealm
 msgid "Attachments imported - {i}, skipped - {s}."
-msgstr ""
+msgstr "Імпартавана ўкладанняў - {i}, прапушчана - {s}."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:125
 #, jsrealm
@@ -116,26 +125,29 @@ msgid ""
 "archive must contain directories named after feature IDs. Each folder can "
 "contain one or many attachments. Duplicates will be ignored."
 msgstr ""
+"Загрузіце ZIP-архіў, каб пакетна дадаць укладанні да існуючых функцый. Архіў"
+" павінен змяшчаць каталогі, названые па ID функцый. Кожная папка можа "
+"змяшчаць адно або некалькі ўкладанняў. Дублікатары будуць ігнаравацца."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:134
 #, jsrealm
 msgid "Delete existing attachments"
-msgstr ""
+msgstr "Выдаліць існуючыя ўкладанні"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:159
 #, jsrealm
 msgid "Import attachments from ZIP archive"
-msgstr ""
+msgstr "Імпартаваць укладанні з ZIP-архіва"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:171
 #, jsrealm
 msgid "Export"
-msgstr ""
+msgstr "Экспарт"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:176
 #, jsrealm
 msgid "Import"
-msgstr ""
+msgstr "Імпарт"
 
 #: nodepkg/attachment-table/AttachmentTable.tsx:72
 #, jsrealm
@@ -145,54 +157,54 @@ msgstr "Тып MIME"
 #: nodepkg/image-thumbnail/component/CarouselRender.tsx:23
 #, jsrealm
 msgid "Toggle panorama viewer"
-msgstr ""
+msgstr "Пераключыць прагляд панарамы"
 
 #: util.py:26
 #, server
 msgid "Invalid ZIP archive."
-msgstr ""
+msgstr "Няправільны ZIP-архіў."
 
 #: util.py:55
 #, server
 msgid "File '{}' isn't found in metadata."
-msgstr ""
+msgstr "Файл '{}' не знойдзены ў метаданых."
 
 #: util.py:61
 #, server
 msgid "Invalid feature ID for file '{}'."
-msgstr ""
+msgstr "Няправільны ID функцыі для файла '{}'."
 
 #: util.py:68
 #, server
 msgid "Invalid keyname for file '{}'."
-msgstr ""
+msgstr "Няправільная назва ключа для файла '{}'."
 
 #: util.py:74
 #, server
 msgid "Invalid name for file '{}'."
-msgstr ""
+msgstr "Няправільная назва для файла '{}'."
 
 #: util.py:80
 #, server
 msgid "Invalid MIME type for file '{}'."
-msgstr ""
+msgstr "Няправільны тып MIME для файла '{}'."
 
 #: util.py:87
 #, server
 msgid "Invalid description for file '{}'."
-msgstr ""
+msgstr "Няправільнае апісанне для файла '{}'."
 
 #: util.py:100
 #, server
 msgid "Could not determine feature ID for file '{}'."
-msgstr ""
+msgstr "Немагчыма вызначыць ID функцыі для файла '{}'."
 
 #: util.py:118
 #, server
 msgid "File '{}' isn't found in the archive."
-msgstr ""
+msgstr "Файл '{}' не знойдзены ў архіве."
 
 #: view.py:20 view.py:43
 #, server
 msgid "Manage attachments"
-msgstr ""
+msgstr "Кіраванне ўкладаннямі"

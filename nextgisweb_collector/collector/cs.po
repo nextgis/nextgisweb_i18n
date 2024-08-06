@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: scope.py:8
 msgid "Collector"
 msgstr "Kolektor"
@@ -114,11 +118,11 @@ msgstr "Je vyžadováno členství ve skupině \"Administrátoři\"!"
 
 #: api/collector_user.py:93 api/collector_user.py:120
 msgid ""
-"Unfortunately, you cannot add a new collector. Your collector users limit in "
-"the Web GIS is"
+"Unfortunately, you cannot add a new collector. Your collector users limit in"
+" the Web GIS is"
 msgstr ""
-"Bohužel nemůžete přidat nového sběratele. Váš limit sběratelů ve webovém GIS "
-"je"
+"Bohužel nemůžete přidat nového sběratele. Váš limit sběratelů ve webovém GIS"
+" je"
 
 #: models/model_db.py:39
 msgid "Collector project"
@@ -227,4 +231,3 @@ msgstr "Upravit sběratel"
 
 #~ msgid "NextGIS Collector settings"
 #~ msgstr "Nastavení NextGIS Collector"
-

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:18
 msgid "Raster mosaic item id not provided."
 msgstr "ID dell'elemento del mosaico raster non fornito."
@@ -20,15 +24,16 @@ msgstr "Sono supportati solamente i raster RGB ed RGBA."
 
 #: model.py:132
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
 "Il raster ha formato '%(format)s', ma solamente i seguenti formati sono "
 "supportati: %(all_formats)s."
 
 #: model.py:139
 msgid "Raster files without projection info are not supported."
-msgstr "I files raster senza informazioni sulla proiezione non sono supportati."
+msgstr ""
+"I files raster senza informazioni sulla proiezione non sono supportati."
 
 #: model.py:150
 msgid "Complex data types are not supported."
@@ -36,7 +41,7 @@ msgstr "Dati complessi non sono supportati."
 
 #: nodepkg/resource-widget/Store.ts:73
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "Il file '{}' ha un'estensione non valida."
 
 #: nodepkg/resource-widget/Widget.tsx:43
 msgid "Upload"
@@ -44,4 +49,4 @@ msgstr "Carica"
 
 #: nodepkg/resource-widget/Widget.tsx:64
 msgid "Rasters"
-msgstr ""
+msgstr "Raster"

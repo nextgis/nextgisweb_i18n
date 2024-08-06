@@ -1,90 +1,94 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:83
 msgid "Table (%s) not found in schema (%s)."
 msgstr "Таблица (%s) не е открита в схемата (%s)."
 
 #: api.py:148
 msgid "PostGIS layer {} not found!"
-msgstr ""
+msgstr "PostGIS слой {} не е открит!"
 
 #: api.py:172
 msgid "PostGIS connection {} not found!"
-msgstr ""
+msgstr "PostGIS връзка {} не е открита!"
 
 #: diagnostics.py:99
 msgid "Got an unexpected error."
-msgstr ""
+msgstr "Възникна неочаквана грешка."
 
 #: diagnostics.py:156
 msgid "PostgreSQL connection"
-msgstr ""
+msgstr "PostgreSQL връзка"
 
 #: diagnostics.py:162
 msgid "Host name resolution failed: {}."
-msgstr ""
+msgstr "Неуспешно разрешаване на името на хоста: {}."
 
 #: diagnostics.py:180
 msgid "Failed to connect to the database."
-msgstr ""
+msgstr "Неуспешна връзка с базата данни."
 
 #: diagnostics.py:184
 msgid "Connected to the database."
-msgstr ""
+msgstr "Свързан към базата данни."
 
 #: diagnostics.py:187
 msgid "Executed {} query."
-msgstr ""
+msgstr "Изпълнена {} заявка."
 
 #: diagnostics.py:190
 msgid "PostgreSQL version {}."
-msgstr ""
+msgstr "PostgreSQL версия {}."
 
 #: diagnostics.py:199
 msgid "PostGIS extension"
-msgstr ""
+msgstr "PostGIS разширение"
 
 #: diagnostics.py:209
 msgid "PostGIS extension not found."
-msgstr ""
+msgstr "PostGIS разширение не е намерено."
 
 #: diagnostics.py:211
 msgid "PostGIS extension version {}."
-msgstr ""
+msgstr "PostGIS разширение версия {}."
 
 #: diagnostics.py:214
 msgid "Number of geometry columns: {}."
-msgstr ""
+msgstr "Брой на колоните с геометрия: {}."
 
 #: diagnostics.py:217
 msgid "Number of spatial reference systems: {}."
-msgstr ""
+msgstr "Брой на системите за пространствено рефериране: {}."
 
 #: diagnostics.py:257
 msgid "Layer table"
-msgstr ""
+msgstr "Таблица на слоя"
 
 #: diagnostics.py:263
 msgid "Table not found."
-msgstr ""
+msgstr "Таблицата не е намерена."
 
 #: diagnostics.py:265
 msgid "Table found, table type is {}."
-msgstr ""
+msgstr "Таблицата е намерена, типът на таблицата е {}."
 
 #: diagnostics.py:283
 msgid "{} privilege is present."
-msgstr ""
+msgstr "{} привилегия присъства."
 
 #: diagnostics.py:285 diagnostics.py:287
 msgid "{} privilege is absent."
-msgstr ""
+msgstr "{} привилегия липсва."
 
 #: diagnostics.py:290
 msgid "Number of records: {}."
-msgstr ""
+msgstr "Брой на записите: {}."
 
 #: diagnostics.py:293
 msgid "ID or geometry column isn't set."
-msgstr ""
+msgstr "ID или геометрична колона не е зададена."
 
 #: diagnostics.py:300 nodepkg/layer-widget/LayerWidget.tsx:31
 msgid "ID column"
@@ -92,63 +96,63 @@ msgstr "ID колона"
 
 #: diagnostics.py:305 diagnostics.py:378
 msgid "Column not found."
-msgstr ""
+msgstr "Колоната не е намерена."
 
 #: diagnostics.py:310
 msgid "Column found, but has non-integer type - {}."
-msgstr ""
+msgstr "Колоната е намерена, но има тип, различен от цяло число - {}."
 
 #: diagnostics.py:312 diagnostics.py:390
 msgid "Column found, type is {}."
-msgstr ""
+msgstr "Колоната е намерена, типът е {}."
 
 #: diagnostics.py:317
 msgid "Column is the primary key."
-msgstr ""
+msgstr "Колоната е първичен ключ."
 
 #: diagnostics.py:320
 msgid "Column is not the primary key."
-msgstr ""
+msgstr "Колоната не е първичен ключ."
 
 #: diagnostics.py:329
 msgid "Column can be NULL."
-msgstr ""
+msgstr "Колоната може да бъде NULL."
 
 #: diagnostics.py:334
 msgid "NULL values in the column."
-msgstr ""
+msgstr "NULL стойности в колоната."
 
 #: diagnostics.py:336
 msgid "No NULL values in the column."
-msgstr ""
+msgstr "Няма NULL стойности в колоната."
 
 #: diagnostics.py:338
 msgid "Column cannot be NULL."
-msgstr ""
+msgstr "Колоната не може да бъде NULL."
 
 #: diagnostics.py:342
 msgid "Unique index not found."
-msgstr ""
+msgstr "Уникалният индекс не е намерен."
 
 #: diagnostics.py:344
 msgid "Unique index found."
-msgstr ""
+msgstr "Уникалният индекс е намерен."
 
 #: diagnostics.py:360
 msgid "Non-unique values in the column."
-msgstr ""
+msgstr "Неуникални стойности в колоната."
 
 #: diagnostics.py:362
 msgid "All values are unique."
-msgstr ""
+msgstr "Всички стойности са уникални."
 
 #: diagnostics.py:367
 msgid "Column is auto-incrementable."
-msgstr ""
+msgstr "Колоната е автоинкрементируема."
 
 #: diagnostics.py:369
 msgid "Column isn't auto-incrementable."
-msgstr ""
+msgstr "Колоната не е автоинкрементируема."
 
 #: diagnostics.py:373 nodepkg/layer-widget/LayerWidget.tsx:32
 msgid "Geometry column"
@@ -156,35 +160,35 @@ msgstr "Поле геометрия"
 
 #: diagnostics.py:388
 msgid "Column found, but has an incompatible type - {}."
-msgstr ""
+msgstr "Колоната е намерена, но има несъвместим тип - {}."
 
 #: diagnostics.py:393
 msgid "Geometry SRID mismatch."
-msgstr ""
+msgstr "Несъответствие на SRID на геометрията."
 
 #: diagnostics.py:408
 msgid "Failed to reproject extent to SRID {}."
-msgstr ""
+msgstr "Неуспешно преизчисляване на обхвата към SRID {}."
 
 #: diagnostics.py:412
 msgid "Extent (SRID {}): {}."
-msgstr ""
+msgstr "Обхват (SRID {}): {}."
 
 #: diagnostics.py:416
 msgid "Field columns"
-msgstr ""
+msgstr "Колони на полето"
 
 #: diagnostics.py:422
 msgid "Column of field '{}' not found."
-msgstr ""
+msgstr "Колона на полето '{}' не е намерена."
 
 #: diagnostics.py:431
 msgid "Column of field '{}' found, but has an incompatible type - {}."
-msgstr ""
+msgstr "Колона на полето '{}' е намерена, но има несъвместим тип - {}."
 
 #: diagnostics.py:437
 msgid "Column of field '{}' found, type is {}."
-msgstr ""
+msgstr "Колона на полето '{}' е намерена, типът е {}."
 
 #: exception.py:9
 msgid "External database error"
@@ -255,8 +259,10 @@ msgid "Table '%(table)s' not found!"
 msgstr "Таблицата '%(table)s' не е открита!"
 
 #: model.py:307
-msgid "SRID missing in geometry_columns table! You should specify it manually."
-msgstr "В таблицата geometry_columns отсъства SRID! Трябва да се въведе ръчно."
+msgid ""
+"SRID missing in geometry_columns table! You should specify it manually."
+msgstr ""
+"В таблицата geometry_columns отсъства SRID! Трябва да се въведе ръчно."
 
 #: model.py:313
 msgid "0 is an invalid SRID."
@@ -276,11 +282,13 @@ msgstr ""
 
 #: model.py:345
 msgid "Geometry type in geometry_columns table does not match specified!"
-msgstr "Тип геометрия в таблицата geometry_columns не съответства на посочения!"
+msgstr ""
+"Тип геометрия в таблицата geometry_columns не съответства на посочения!"
 
 #: model.py:358
 msgid "To use column as ID it should have integer type!"
-msgstr "За да бъде използвана като ID, колоната трябва да е от цялочислен тип!"
+msgstr ""
+"За да бъде използвана като ID, колоната трябва да е от цялочислен тип!"
 
 #: model.py:401 model.py:406
 msgid "Column '%(column)s' not found!"
@@ -312,23 +320,23 @@ msgstr "База данни"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:12
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестно"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:13
 msgid "Success"
-msgstr ""
+msgstr "Успех"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:14
 msgid "Warning"
-msgstr ""
+msgstr "Предупреждение"
 
 #: nodepkg/diagnostics-widget/DiagnosticsWidget.js:15
 msgid "Error"
-msgstr ""
+msgstr "Грешка"
 
 #: nodepkg/layer-widget/LayerStore.ts:13
 msgid "Fields need to be updated due to autodetection"
-msgstr ""
+msgstr "Полета трябва да бъдат обновени заради автоматично откриване"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:28
 msgid "Connection"
@@ -348,24 +356,24 @@ msgstr "Автоматично"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:35
 msgid "SRID"
-msgstr ""
+msgstr "\"SRID\""
 
 #: nodepkg/layer-widget/LayerWidget.tsx:36
 msgid "Fields"
-msgstr ""
+msgstr "Полета"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:107
 msgid "Keep existing definitions untouched"
-msgstr ""
+msgstr "Запази съществуващите дефиниции непроменени"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:108
 msgid "Update definitions from the database"
-msgstr ""
+msgstr "Обновяване на дефинициите от базата данни"
 
 #: view.py:39
 msgid "Diagnostics"
-msgstr ""
+msgstr "Диагностика"
 
 #: view.py:59
 msgid "PostGIS diagnostics"
-msgstr ""
+msgstr "PostGIS диагностика"

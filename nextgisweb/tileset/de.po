@@ -1,57 +1,63 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:88
 #, server
 msgid "Tilesets"
-msgstr ""
+msgstr "Kachelsets"
 
 #: model.py:118 nodepkg/resource-widget/Widget.tsx:38
 #, jsrealm, server
 msgid "Tileset"
-msgstr ""
+msgstr "Kachelset"
 
 #: model.py:203
 #, server
 msgid "Number of tiles"
-msgstr ""
+msgstr "Anzahl der Kacheln"
 
 #: model.py:205
 #, server
 msgid "Zoom levels"
-msgstr ""
+msgstr "Zoomstufen"
 
 #: model.py:206
 #, server
 msgid "From {min} to {max}"
-msgstr ""
+msgstr "Von {min} bis {max}"
 
 #: model.py:238
 #, server
 msgid "Tiles '{}' and '{}' are located in different subdirectories."
 msgstr ""
+"Die Kacheln '{}' und '{}' befinden sich in verschiedenen "
+"Unterverzeichnissen."
 
 #: model.py:244
 #, server
 msgid "Tiles '{}' and '{}' have different extensions."
-msgstr ""
+msgstr "Die Kacheln '{}' und '{}' haben unterschiedliche Erweiterungen."
 
 #: model.py:301 model.py:310
 #, server
 msgid "Unsupported data format."
-msgstr ""
+msgstr "Nicht unterstütztes Datenformat."
 
 #: model.py:343
 #, server
 msgid "Only 256x256 px tiles are supported."
-msgstr ""
+msgstr "Es werden nur 256x256 px Kacheln unterstützt."
 
 #: model.py:363
 #, server
 msgid "No tiles found in source."
-msgstr ""
+msgstr "Keine Kacheln in der Quelle gefunden."
 
 #: nodepkg/resource-widget/Widget.tsx:15
 #, jsrealm
 msgid "Select a tileset"
-msgstr ""
+msgstr "Wählen Sie ein Kachelset aus"
 
 #: nodepkg/resource-widget/Widget.tsx:16
 #, jsrealm
@@ -59,3 +65,5 @@ msgid ""
 "MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
 "JPEG format and have a size of 256x256 pixels."
 msgstr ""
+"MBTiles und ZIP-Archive mit Kacheln werden unterstützt. Kacheln sollten im "
+"PNG- oder JPEG-Format und in der Größe 256x256 Pixel vorliegen."

@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:49
 msgid "WMS connection"
 msgstr "Ligação WMS"
@@ -28,7 +32,7 @@ msgstr "Não consultar"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:25
 msgid "WMS Connection URL"
-msgstr ""
+msgstr "URL de ligação WMS"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:34
 msgid "URL"
@@ -53,7 +57,7 @@ msgstr "Capacidades"
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:76
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:87
 msgid "WMS Connection"
-msgstr ""
+msgstr "Ligação WMS"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:108
 msgid "WMS layers"
@@ -66,15 +70,15 @@ msgstr "Parâmetros do fornecedor"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:130
 msgid "Edit vendor parameters"
-msgstr ""
+msgstr "Editar parâmetros do fornecedor"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
 msgid "WMS Layer"
-msgstr ""
+msgstr "Camada WMS"
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:20
 msgid "Type to add a new vendor parameter"
-msgstr ""
+msgstr "Digite para adicionar um novo parâmetro do fornecedor"
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:66
 msgid "Key"

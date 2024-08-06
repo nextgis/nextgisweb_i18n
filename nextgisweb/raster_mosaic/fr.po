@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:18
 msgid "Raster mosaic item id not provided."
 msgstr "L'élément de mosaïque raster non fourni."
@@ -20,11 +24,11 @@ msgstr "Seuls les rasters RVB et RVBA sont pris en charge."
 
 #: model.py:132
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
-"Le raster a le format '%(format)s', mais seuls les formats suivants sont pris"
-" en charge : %(all_formats)s."
+"Le raster a le format '%(format)s', mais seuls les formats suivants sont "
+"pris en charge : %(all_formats)s."
 
 #: model.py:139
 msgid "Raster files without projection info are not supported."
@@ -38,7 +42,7 @@ msgstr "Les types de données complexes ne sont pas pris en charge."
 
 #: nodepkg/resource-widget/Store.ts:73
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "Le fichier '{}' a une extension invalide."
 
 #: nodepkg/resource-widget/Widget.tsx:43
 msgid "Upload"
@@ -46,4 +50,4 @@ msgstr "Télécharger"
 
 #: nodepkg/resource-widget/Widget.tsx:64
 msgid "Rasters"
-msgstr ""
+msgstr "Rasters"

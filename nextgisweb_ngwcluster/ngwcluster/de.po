@@ -1,54 +1,58 @@
+#
+msgid ""
+msgstr ""
+
 #: lockable_feature.py:60
 msgid "Additional basemaps"
-msgstr ""
+msgstr "Zusätzliche Basiskarten"
 
 #: lockable_feature.py:93
 msgid "Field data collection"
-msgstr ""
+msgstr "Felddatenerfassung"
 
 #: lockable_feature.py:101
 msgid "Use on other websites (CORS)"
-msgstr ""
+msgstr "Nutzung auf anderen Websites (CORS)"
 
 #: lockable_feature.py:122
 msgid "Custom domain and branding"
-msgstr ""
+msgstr "Eigene Domain und Branding"
 
 #: lockable_feature.py:135
 msgid "Custom SRS"
-msgstr ""
+msgstr "Benutzerdefiniertes SRS"
 
 #: lockable_feature.py:147
 msgid "Improved performance"
-msgstr ""
+msgstr "Verbesserte Leistung"
 
 #: lockable_feature.py:154
 msgid "Access management"
-msgstr ""
+msgstr "Zugriffsverwaltung"
 
 #: lockable_feature.py:229
 msgid "Technical support"
-msgstr ""
+msgstr "Technischer Support"
 
 #: lockable_feature.py:234
 msgid "On-demand backup restore"
-msgstr ""
+msgstr "Wiederherstellung von Backups auf Anforderung"
 
 #: lockable_feature.py:255
 msgid "Tile caching"
-msgstr ""
+msgstr "Kachelspeicherung"
 
 #: lockable_feature.py:285
 msgid "Data editing on web maps"
-msgstr ""
+msgstr "Datenbearbeitung auf Webkarten"
 
 #: lockable_feature.py:311
 msgid "Annotations on web maps"
-msgstr ""
+msgstr "Anmerkungen auf Webkarten"
 
 #: nodepkg/include.js:11 nodepkg/upgrade-button/index.js:28 view.py:15
 msgid "Plan and features"
-msgstr ""
+msgstr "Plan und Funktionen"
 
 #: nodepkg/plan-and-features/index.js:22 nodepkg/upgrade-button/index.js:58
 msgid "Your plan — "
@@ -64,41 +68,43 @@ msgstr "Über Pläne weiterlesen"
 
 #: nodepkg/qgis-banner/QgisBanner.js:23
 msgid "Easy start with QGIS"
-msgstr ""
+msgstr "Einfacher Start mit QGIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:26
 msgid ""
 "Use the NextGIS Connect plugin for QGIS to upload your data and create "
 "interactive maps."
 msgstr ""
+"Verwenden Sie das NextGIS Connect-Plugin für QGIS, um Ihre Daten hochzuladen"
+" und interaktive Karten zu erstellen."
 
 #: nodepkg/qgis-banner/QgisBanner.js:33
 msgid "Install the NextGIS Connect plugin for QGIS"
-msgstr ""
+msgstr "Installieren Sie das NextGIS Connect-Plugin für QGIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:37
 msgid "Connect the plugin to your Web GIS"
-msgstr ""
+msgstr "Verbinden Sie das Plugin mit Ihrem Web GIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:39
 msgid "Upload your layers and projects to your Web GIS"
-msgstr ""
+msgstr "Laden Sie Ihre Layer und Projekte in Ihr Web GIS hoch"
 
 #: nodepkg/qgis-banner/QgisBanner.js:56
 msgid "Learn more"
-msgstr ""
+msgstr "Mehr erfahren"
 
 #: nodepkg/qgis-banner/QgisBanner.js:64
 msgid "Hide"
-msgstr ""
+msgstr "Ausblenden"
 
 #: nodepkg/resource-widget/base.js:20 service_plan.py:303
 msgid "{} feature is not available on your plan."
-msgstr ""
+msgstr "{}-Funktion ist in Ihrem Plan nicht verfügbar."
 
 #: nodepkg/resource-widget/base.js:21
 msgid "These features are not available on your plan:"
-msgstr ""
+msgstr "Diese Funktionen sind in Ihrem Plan nicht verfügbar:"
 
 #: nodepkg/summary.js:17
 msgid "of"
@@ -106,7 +112,7 @@ msgstr "von"
 
 #: nodepkg/summary.js:18
 msgid "Available"
-msgstr ""
+msgstr "Verfügbar"
 
 #: nodepkg/summary.js:19
 msgid "Unavailable"
@@ -122,36 +128,36 @@ msgstr "Hochstufen"
 
 #: service_plan.py:99
 msgid "Number of maps and layers"
-msgstr ""
+msgstr "Anzahl von Karten und Layern"
 
 #: service_plan.py:100
 msgid "Storage limit"
-msgstr ""
+msgstr "Speicherlimit"
 
 #: service_plan.py:101
 msgid "User limit"
-msgstr ""
+msgstr "Benutzerlimit"
 
 #: service_plan.py:106
 msgid "GPS trackers"
-msgstr ""
+msgstr "GPS-Tracker"
 
 #: service_plan.py:117
 msgid "Maximum file upload"
-msgstr ""
+msgstr "Maximale Dateigröße beim Hochladen"
 
 #: service_plan.py:118
 msgid "Maximum raster layer"
-msgstr ""
+msgstr "Maximale Rasterlayer"
 
 #: service_plan.py:296
 msgid "Plan upgrade required"
-msgstr ""
+msgstr "Plan-Hochstufung erforderlich"
 
 #: service_plan.py:300
 msgid "This is not available on your plan."
-msgstr ""
+msgstr "Dies ist in Ihrem Plan nicht verfügbar."
 
 #: service_plan.py:311
 msgid "To use this feature, please upgrade."
-msgstr ""
+msgstr "Um diese Funktion zu nutzen, bitte hochstufen."

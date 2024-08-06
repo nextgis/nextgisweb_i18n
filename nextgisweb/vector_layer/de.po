@@ -1,10 +1,14 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:23 model.py:692
 msgid "GDAL library failed to open file."
 msgstr "Die GDAL-Bibliothek konnte die Datei nicht öffnen."
 
 #: kind_of_data.py:8
 msgid "Vector layer features"
-msgstr ""
+msgstr "Vektorlayer-Objekte"
 
 #: model.py:54 nodepkg/resource-widget/Widget.tsx:54
 #: nodepkg/resource-widget/Widget.tsx:177
@@ -108,7 +112,7 @@ msgstr "Unbekannter Wert des Parameters 'cast_has_z'."
 
 #: model.py:771
 msgid "Unknown 'fid_source' value."
-msgstr ""
+msgstr "Unbekannter Wert für 'fid_source'."
 
 #: model.py:794
 msgid "Unsupported geometry type."
@@ -116,11 +120,11 @@ msgstr "Nicht unterstützter Geometrietyp."
 
 #: nodepkg/resource-widget/Store.tsx:168
 msgid "Confirm deletion of existing features"
-msgstr ""
+msgstr "Löschung der vorhandenen Objekte bestätigen"
 
 #: nodepkg/resource-widget/Store.tsx:175
 msgid "Confirm change of geometry type"
-msgstr ""
+msgstr "Änderung des Geometrietyp bestätigen"
 
 #: nodepkg/resource-widget/Widget.tsx:33
 msgid "Select a dataset"
@@ -128,14 +132,17 @@ msgstr "Datensatz auswählen"
 
 #: nodepkg/resource-widget/Widget.tsx:34
 msgid ""
-"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
-"supported. For CSV and XLSX only points are supported, coordinates must be "
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV oder XLSX Formate "
+"werden unterstützt. Für CSV und XLSX werden nur Punkte unterstützt, die "
+"Koordinaten müssen in Lat- und Lot-Spalten angegeben werden."
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Whenever possible"
-msgstr ""
+msgstr "Wann immer möglich"
 
 #: nodepkg/resource-widget/Widget.tsx:46
 msgid "Without losing data"
@@ -192,31 +199,31 @@ msgstr "FID-Quelle"
 
 #: nodepkg/resource-widget/Widget.tsx:151
 msgid "Load features from file"
-msgstr ""
+msgstr "Objekte aus Datei laden"
 
 #: nodepkg/resource-widget/Widget.tsx:152
 msgid "Create empty layer"
-msgstr ""
+msgstr "Leeren Layer erstellen"
 
 #: nodepkg/resource-widget/Widget.tsx:154
 msgid "Keep existing layer features"
-msgstr ""
+msgstr "Vorhandene Layer-Objekte behalten"
 
 #: nodepkg/resource-widget/Widget.tsx:155
 msgid "Change geometry type"
-msgstr ""
+msgstr "Geometrietyp ändern"
 
 #: nodepkg/resource-widget/Widget.tsx:156
 msgid "Replace layer features from file"
-msgstr ""
+msgstr "Layer-Objekte aus Datei ersetzen"
 
 #: nodepkg/resource-widget/Widget.tsx:157
 msgid "Delete all features from layer"
-msgstr ""
+msgstr "Alle Objekte aus Layer löschen"
 
 #: nodepkg/resource-widget/Widget.tsx:173
 msgid "current"
-msgstr ""
+msgstr "aktuell"
 
 #: nodepkg/resource-widget/Widget.tsx:251
 msgid "Source layer"
@@ -236,11 +243,11 @@ msgstr "Der Layer enthält keine Objekte, die die Bedingungen erfüllen."
 
 #: ogrloader.py:329
 msgid "Field '%s' is out of int32 range."
-msgstr ""
+msgstr "Feld '%s' liegt außerhalb des int32-Bereichs."
 
 #: ogrloader.py:337
 msgid "Field '%s' contains non-unique or empty values."
-msgstr ""
+msgstr "Feld '%s' enthält nicht eindeutige oder leere Werte."
 
 #: ogrloader.py:354
 msgid "Parameter 'fid_field' is missing."
@@ -256,7 +263,7 @@ msgstr "Keine Felder %s sind Integer"
 
 #: ogrloader.py:374
 msgid "Field '%s(?)' encoding is broken."
-msgstr ""
+msgstr "Kodierung des Feldes '%s(?)' ist defekt."
 
 #: ogrloader.py:379
 msgid "Field name is forbidden: '%s'. Please remove or rename it."
@@ -271,6 +278,8 @@ msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
 msgstr ""
+"Das Objekt #%d hat eine Geometrie, die nicht auf das Zielkoordinatensystem "
+"reprojiziert werden kann."
 
 #: ogrloader.py:554
 msgid "Vector layer cannot be written due to errors."
@@ -282,7 +291,7 @@ msgstr "Feature  (seq. #%d) hat kein FID Feld '%s'."
 
 #: ogrloader.py:582
 msgid "Feature (seq. #%d) FID field '%s' is null."
-msgstr ""
+msgstr "Das Objekt (seq. #%d) hat ein FID-Feld '%s', das null ist."
 
 #: ogrloader.py:603
 msgid "Feature #%d doesn't have geometry."
@@ -290,7 +299,8 @@ msgstr "Objekt #%d enthält keine Geometrie."
 
 #: ogrloader.py:631 ogrloader.py:669
 msgid "Feature #%d has multiple geometries satisfying the conditions."
-msgstr "Das Objekt #%d enthält mehrere Geometrien, die die Bedingungen erfüllen."
+msgstr ""
+"Das Objekt #%d enthält mehrere Geometrien, die die Bedingungen erfüllen."
 
 #: ogrloader.py:640
 msgid "Feature #%d has unknown geometry type: %d (%s)."
@@ -306,7 +316,7 @@ msgstr "Das Objekt #%d enthält nicht geschlossene Ringe."
 
 #: ogrloader.py:701
 msgid "Feature #%d has empty rings."
-msgstr ""
+msgstr "Objekt #%d hat leere Ringe."
 
 #: ogrloader.py:715
 msgid "Feature #%d has less than 3 points in a polygon ring."
@@ -318,4 +328,4 @@ msgstr "Das Objekt #%d enthält weniger als 2 Punkte auf der Linie."
 
 #: ogrloader.py:754
 msgid "Feature #%d contains a broken encoding of field '%s'."
-msgstr ""
+msgstr "Objekt #%d enthält eine fehlerhafte Kodierung des Feldes '%s'."

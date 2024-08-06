@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: nodepkg/editor-widget/EditorWidget.tsx:20
 msgid "Select a preview image"
 msgstr "Seleziona un'immagine di anteprima"
@@ -7,6 +11,8 @@ msgid ""
 "The image will be converted to PNG format and downscaled to 1600x630 pixels "
 "if it's bigger."
 msgstr ""
+"L'immagine verrà convertita in formato PNG e ridimensionata a 1600x630 pixel"
+" se è più grande."
 
 #: nodepkg/editor-widget/EditorWidget.tsx:58
 msgid "Preview description"
@@ -14,4 +20,4 @@ msgstr "Descrizione dell'anteprima"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:65
 msgid "Social"
-msgstr "Social"
+msgstr "Sociale"

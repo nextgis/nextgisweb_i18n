@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: component.py:90
 msgid "NextGIS geoinformation system"
 msgstr "Геоинформационна система NextGIS"
@@ -12,19 +16,19 @@ msgstr "Дистибутив на ОС"
 
 #: component.py:284
 msgid "CPU"
-msgstr "CPU"
+msgstr "ЦПУ"
 
 #: component.py:287
 msgid "RAM"
-msgstr "RAM"
+msgstr "Памет"
 
 #: component.py:316
 msgid "Last backup"
-msgstr ""
+msgstr "Последно архивиране"
 
 #: component.py:320
 msgid "Last maintenance"
-msgstr ""
+msgstr "Последна поддръжка"
 
 #: exception.py:116
 msgid "Validation error"
@@ -48,7 +52,7 @@ msgstr "Грешка на външен сървиз"
 
 #: exception.py:145
 msgid "Not configured"
-msgstr ""
+msgstr "Не е конфигурирано"
 
 #: storage.py:289
 msgid "Storage full"
@@ -68,8 +72,8 @@ msgstr "Няма достатъчно свободна памет"
 
 #: storage.py:301
 msgid ""
-"This operation requires %s of storage and can't be performed because only %s "
-"available."
+"This operation requires %s of storage and can't be performed because only %s"
+" available."
 msgstr ""
 "Операцията изисква %s памет и не може да бъде извършена, тъй като достъпна "
 "памет е само %s."

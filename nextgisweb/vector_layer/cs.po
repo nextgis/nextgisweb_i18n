@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:23 model.py:692
 msgid "GDAL library failed to open file."
 msgstr "Knihovně GDAL se nepodařilo otevřít soubor."
@@ -19,7 +23,7 @@ msgstr "Čára"
 #: model.py:56 nodepkg/resource-widget/Widget.tsx:56
 #: nodepkg/resource-widget/Widget.tsx:179
 msgid "Polygon"
-msgstr "Polygon"
+msgstr "Polygony"
 
 #: model.py:57 nodepkg/resource-widget/Widget.tsx:180
 msgid "Multipoint"
@@ -43,19 +47,19 @@ msgstr "Řádek Z"
 
 #: model.py:62 nodepkg/resource-widget/Widget.tsx:185
 msgid "Polygon Z"
-msgstr "Polygon Z"
+msgstr "Polygony Z"
 
 #: model.py:63 nodepkg/resource-widget/Widget.tsx:186
 msgid "Multipoint Z"
-msgstr "Multipoint Z"
+msgstr "Multibod Z"
 
 #: model.py:64 nodepkg/resource-widget/Widget.tsx:187
 msgid "Multiline Z"
-msgstr "Multiline Z"
+msgstr "Multilinka Z"
 
 #: model.py:65 nodepkg/resource-widget/Widget.tsx:188
 msgid "Multipolygon Z"
-msgstr "Multipolygon Z"
+msgstr "Multipolygony Z"
 
 #: model.py:114 nodepkg/resource-widget/Widget.tsx:298
 msgid "Vector layer"
@@ -108,7 +112,7 @@ msgstr "Neznámá hodnota „cast_has_z“."
 
 #: model.py:771
 msgid "Unknown 'fid_source' value."
-msgstr ""
+msgstr "Neznámá hodnota 'fid_source'."
 
 #: model.py:794
 msgid "Unsupported geometry type."
@@ -116,11 +120,11 @@ msgstr "Nepodporovaný typ geometrie."
 
 #: nodepkg/resource-widget/Store.tsx:168
 msgid "Confirm deletion of existing features"
-msgstr ""
+msgstr "Potvrďte smazání stávajících funkcí"
 
 #: nodepkg/resource-widget/Store.tsx:175
 msgid "Confirm change of geometry type"
-msgstr ""
+msgstr "Potvrďte změnu typu geometrie"
 
 #: nodepkg/resource-widget/Widget.tsx:33
 msgid "Select a dataset"
@@ -128,14 +132,17 @@ msgstr "Vyberte datovou sadu"
 
 #: nodepkg/resource-widget/Widget.tsx:34
 msgid ""
-"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
-"supported. For CSV and XLSX only points are supported, coordinates must be "
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
+"Podporované formáty jsou ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, "
+"KML, CSV nebo XLSX. Pro CSV a XLSX jsou podporovány pouze body, souřadnice "
+"musí být uvedeny ve sloupcích lat a lon."
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Whenever possible"
-msgstr ""
+msgstr "Kdykoliv je to možné"
 
 #: nodepkg/resource-widget/Widget.tsx:46
 msgid "Without losing data"
@@ -148,7 +155,7 @@ msgstr "Žádný"
 #: nodepkg/resource-widget/Widget.tsx:53 nodepkg/resource-widget/Widget.tsx:62
 #: nodepkg/resource-widget/Widget.tsx:70
 msgid "Auto"
-msgstr "Auto"
+msgstr "Automatický"
 
 #: nodepkg/resource-widget/Widget.tsx:63
 msgid "Yes"
@@ -192,31 +199,31 @@ msgstr "Zdroj FID"
 
 #: nodepkg/resource-widget/Widget.tsx:151
 msgid "Load features from file"
-msgstr ""
+msgstr "Načíst funkce ze souboru"
 
 #: nodepkg/resource-widget/Widget.tsx:152
 msgid "Create empty layer"
-msgstr ""
+msgstr "Vytvořit prázdnou vrstvu"
 
 #: nodepkg/resource-widget/Widget.tsx:154
 msgid "Keep existing layer features"
-msgstr ""
+msgstr "Zachovat stávající funkce vrstvy"
 
 #: nodepkg/resource-widget/Widget.tsx:155
 msgid "Change geometry type"
-msgstr ""
+msgstr "Změnit typ geometrie"
 
 #: nodepkg/resource-widget/Widget.tsx:156
 msgid "Replace layer features from file"
-msgstr ""
+msgstr "Nahradit funkce vrstvy ze souboru"
 
 #: nodepkg/resource-widget/Widget.tsx:157
 msgid "Delete all features from layer"
-msgstr ""
+msgstr "Smazat všechny funkce z vrstvy"
 
 #: nodepkg/resource-widget/Widget.tsx:173
 msgid "current"
-msgstr ""
+msgstr "aktuální"
 
 #: nodepkg/resource-widget/Widget.tsx:251
 msgid "Source layer"
@@ -308,7 +315,7 @@ msgstr "Objekt #%d má neuzavřené kroužky."
 
 #: ogrloader.py:701
 msgid "Feature #%d has empty rings."
-msgstr ""
+msgstr "Funkce #%d má prázdné kružnice."
 
 #: ogrloader.py:715
 msgid "Feature #%d has less than 3 points in a polygon ring."

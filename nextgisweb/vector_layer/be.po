@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:23 model.py:692
 #, server
 msgid "GDAL library failed to open file."
@@ -135,7 +139,7 @@ msgstr "Невядомае значэнне 'cast_has_z'."
 #: model.py:771
 #, server
 msgid "Unknown 'fid_source' value."
-msgstr ""
+msgstr "Невядомае значэнне 'fid_source'."
 
 #: model.py:794
 #, server
@@ -145,12 +149,12 @@ msgstr "Тып геаметрыі не падтрымліваецца."
 #: nodepkg/resource-widget/Store.tsx:168
 #, jsrealm
 msgid "Confirm deletion of existing features"
-msgstr ""
+msgstr "Пацвердзіць выдаленне існуючых аб'ектаў"
 
 #: nodepkg/resource-widget/Store.tsx:175
 #, jsrealm
 msgid "Confirm change of geometry type"
-msgstr ""
+msgstr "Пацвердзіць змену тыпу геаметрыі"
 
 #: nodepkg/resource-widget/Widget.tsx:33
 #, jsrealm
@@ -160,15 +164,18 @@ msgstr "Выберыце набор даных"
 #: nodepkg/resource-widget/Widget.tsx:34
 #, jsrealm
 msgid ""
-"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
-"supported. For CSV and XLSX only points are supported, coordinates must be "
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
+"Падтрымліваюцца фарматы ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML,"
+" CSV або XLSX. Для CSV і XLSX падтрымліваюцца толькі кропкі, каардынаты "
+"павінны размяшчацца ў калонках lat і lot."
 
 #: nodepkg/resource-widget/Widget.tsx:45
 #, jsrealm
 msgid "Whenever possible"
-msgstr ""
+msgstr "Калі магчыма"
 
 #: nodepkg/resource-widget/Widget.tsx:46
 #, jsrealm
@@ -239,37 +246,37 @@ msgstr "Крыніца FID"
 #: nodepkg/resource-widget/Widget.tsx:151
 #, jsrealm
 msgid "Load features from file"
-msgstr ""
+msgstr "Загрузіць аб'екты з файла"
 
 #: nodepkg/resource-widget/Widget.tsx:152
 #, jsrealm
 msgid "Create empty layer"
-msgstr ""
+msgstr "Стварыць пусты слой"
 
 #: nodepkg/resource-widget/Widget.tsx:154
 #, jsrealm
 msgid "Keep existing layer features"
-msgstr ""
+msgstr "Захаваць існуючыя аб'екты слоя"
 
 #: nodepkg/resource-widget/Widget.tsx:155
 #, jsrealm
 msgid "Change geometry type"
-msgstr ""
+msgstr "Змяніць тып геаметрыі"
 
 #: nodepkg/resource-widget/Widget.tsx:156
 #, jsrealm
 msgid "Replace layer features from file"
-msgstr ""
+msgstr "Замяніць аб'екты слоя з файла"
 
 #: nodepkg/resource-widget/Widget.tsx:157
 #, jsrealm
 msgid "Delete all features from layer"
-msgstr ""
+msgstr "Выдаліць усіх аб'ектаў са слоя"
 
 #: nodepkg/resource-widget/Widget.tsx:173
 #, jsrealm
 msgid "current"
-msgstr ""
+msgstr "цяперашні"
 
 #: nodepkg/resource-widget/Widget.tsx:251
 #, jsrealm
@@ -294,12 +301,12 @@ msgstr "Зыходны слой не ўтрымлівае аб'ектаў, як�
 #: ogrloader.py:329
 #, python-format, server
 msgid "Field '%s' is out of int32 range."
-msgstr ""
+msgstr "Поле '%s' знаходзіцца па-за межамі дыяпазону int32."
 
 #: ogrloader.py:337
 #, python-format, server
 msgid "Field '%s' contains non-unique or empty values."
-msgstr ""
+msgstr "Поле '%s' змяшчае неунікальныя або пустыя значэнні."
 
 #: ogrloader.py:354
 #, server
@@ -337,6 +344,8 @@ msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
 msgstr ""
+"Аб'ект #%d мае геаметрыю, якая не можа быць переканвертавана ў мэтавую "
+"каардынатную сістэму"
 
 #: ogrloader.py:554
 #, server
@@ -381,7 +390,7 @@ msgstr "Аб'ект #%d мае незачыненыя кольцы."
 #: ogrloader.py:701
 #, python-format, server
 msgid "Feature #%d has empty rings."
-msgstr ""
+msgstr "Аб'ект #%d мае пустыя кольцы."
 
 #: ogrloader.py:715
 #, python-format, server

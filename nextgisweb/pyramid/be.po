@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:28
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:30
 #, amd
@@ -22,7 +26,7 @@ msgstr "Увядзіце правільнае значэнне шкалы, на�
 #: api.py:196
 #, server
 msgid "Storage management is not enabled on this server."
-msgstr ""
+msgstr "Кіраванне захоўваннем не ўключана на гэтым серверы."
 
 #: api.py:406
 #, server
@@ -30,16 +34,18 @@ msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
+"Параметр запыту '{}' не павінен уключаць дадатковыя значэнні, калі ўказана "
+"'all'."
 
 #: api.py:534
 #, server
 msgid "Got an unsupported MIME type: '{}'."
-msgstr ""
+msgstr "Атрыманы непадтрымліваючы тып MIME: ''{}''."
 
 #: api.py:537
 #, server
 msgid "64K should be enough for a logo."
-msgstr ""
+msgstr "64K павінна быць дастаткова для лагатыпа."
 
 #: api.py:669
 #, server
@@ -49,17 +55,17 @@ msgstr "Ваша вэб-ГІС на nextgis.com"
 #: component.py:163
 #, server
 msgid "Request timeout"
-msgstr ""
+msgstr "Перавышаны час запыту"
 
 #: component.py:166
 #, server
 msgid "Enabled"
-msgstr ""
+msgstr "Уключана"
 
 #: component.py:166
 #, server
 msgid "Disabled"
-msgstr ""
+msgstr "Адключана"
 
 #: exception.py:204
 #, server
@@ -83,19 +89,20 @@ msgstr "Несапраўдны запыт"
 #: exception.py:239
 #, server
 msgid ""
-"The server could not comply with the request since it is either malformed or "
-"otherwise incorrect."
-msgstr "Сервер не змог выканаць запыт, бо ён няправільна сформаваны або некарэктны."
+"The server could not comply with the request since it is either malformed or"
+" otherwise incorrect."
+msgstr ""
+"Сервер не змог выканаць запыт, бо ён няправільна сформаваны або некарэктны."
 
 #: exception.py:247
 #, server
 msgid "Payment required"
-msgstr ""
+msgstr "Патрабуецца аплата"
 
 #: exception.py:248
 #, server
 msgid "Access was denied for financial reasons."
-msgstr ""
+msgstr "Доступ адмоўлены па фінансавых прычынах."
 
 #: exception.py:253
 #, server
@@ -118,8 +125,9 @@ msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
 msgstr ""
-"Магчыма, старонка была выдалена або ёсць памылка ў адрасе. Выпраўце адрас або"
-" перайдзіце на галоўную старонку і паспрабуйце знайсці патрэбную старонку."
+"Магчыма, старонка была выдалена або ёсць памылка ў адрасе. Выпраўце адрас "
+"або перайдзіце на галоўную старонку і паспрабуйце знайсці патрэбную "
+"старонку."
 
 #: exception.py:268
 #, server
@@ -149,12 +157,12 @@ msgstr "Сервер зараз недаступны. Паўтарыце спр�
 #: lunkwill.py:25
 #, server
 msgid "Lunkwill not enabled"
-msgstr ""
+msgstr "Lunkwill не ўключаны"
 
 #: lunkwill.py:26
 #, server
 msgid "The Lunkwill extension is not configured on this server."
-msgstr ""
+msgstr "Пашырэнне Lunkwill не канфігуравана на гэтым серверы."
 
 #: nodepkg/api/error.ts:11 nodepkg/api/error.ts:29
 #, jsrealm
@@ -189,17 +197,17 @@ msgstr "Нечаканы адказ сервера"
 #: nodepkg/api/error.ts:59
 #, jsrealm
 msgid "Unexpected error while processing long-running request."
-msgstr ""
+msgstr "Нечаканая памылка пры апрацоўцы доўгачасовага запыту."
 
 #: nodepkg/api/error.ts:60
 #, jsrealm
 msgid "Long-running request error"
-msgstr ""
+msgstr "Памылка доўгачасовага запыту"
 
 #: nodepkg/api/error.ts:67
 #, jsrealm
 msgid "Long-running request was cancelled."
-msgstr ""
+msgstr "Доўгачасовы запыт быў адменены."
 
 #: nodepkg/company-logo.ts:32
 #, jsrealm
@@ -212,8 +220,8 @@ msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
 msgstr ""
-"Увядзіце дазволеныя крыніцы для міждаменных запытаў, каб выкарыстоўваць HTTP "
-"API гэтай вэб-ГІС на іншых вэб-сайтах. Адзіны origin на радок."
+"Увядзіце дазволеныя крыніцы для міждаменных запытаў, каб выкарыстоўваць HTTP"
+" API гэтай вэб-ГІС на іншых вэб-сайтах. Адзіны origin на радок."
 
 #: nodepkg/cors-settings/CORSSettings.tsx:25
 #, jsrealm
@@ -222,35 +230,35 @@ msgid ""
 "(example.com and www.example.com) are different origins. Wildcards are "
 "allowed for third-level domains and higher."
 msgstr ""
-"Звярніце ўвагу, што розныя пратаколы (HTTP і HTTPS) і паддамены (example.com "
-"і www.example.com) маюць рознае паходжанне. Знакі падстаноўкі дазволены для "
-"даменаў трэцяга ўзроўню і вышэй."
+"Звярніце ўвагу, што розныя пратаколы (HTTP і HTTPS) і паддамены (example.com"
+" і www.example.com) маюць рознае паходжанне. Знакі падстаноўкі дазволены для"
+" даменаў трэцяга ўзроўню і вышэй."
 
 #: nodepkg/cors-settings/CORSSettings.tsx:58
 #, jsrealm
 msgid "CORS settings updated"
-msgstr ""
+msgstr "Налады CORS абноўлены"
 
 #: nodepkg/cors-settings/CORSSettings.tsx:63
 #, jsrealm
 msgid "Fix the form errors first"
-msgstr ""
+msgstr "Спачатку выправіце памылкі ў форме"
 
 #: nodepkg/cors-settings/CORSSettings.tsx:79
 #, jsrealm
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "Уведзенае значэнне не з'яўляецца сапраўдным"
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:41
 #, jsrealm
 msgid "Custom styles saved. Reload the page to get them applied."
-msgstr ""
+msgstr "Карыстацкія стылі захаваны. Перазагрузіце старонку, каб прымяніць іх."
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:63
 #, jsrealm
 msgid ""
-"Enter custom CSS rules here. They will be used to redefine styles, design for"
-" all pages of your Web GIS."
+"Enter custom CSS rules here. They will be used to redefine styles, design "
+"for all pages of your Web GIS."
 msgstr ""
 "Увядзіце карыстальніцкія правілы CSS. Яны будуць выкарыстоўвацца для "
 "перавызначэння стыляў і дызайну для ўсіх старонак вашай вэб-ГІС."
@@ -258,9 +266,10 @@ msgstr ""
 #: nodepkg/home-path/HomePath.tsx:4
 #, jsrealm
 msgid "The home path setting is saved."
-msgstr ""
+msgstr "Налада хатняга шляху захавана."
 
-#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12 test/test_i18n.py:15
+#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12
+#: test/test_i18n.py:15
 #, jsrealm, server
 msgctxt "test"
 msgid "unit"
@@ -277,12 +286,12 @@ msgstr "Увайсці"
 #: nodepkg/layout/Avatar.tsx:20
 #, jsrealm
 msgid "Invitation session"
-msgstr ""
+msgstr "Сесія запрашэння"
 
 #: nodepkg/layout/Avatar.tsx:23
 #, jsrealm
 msgid "User settings"
-msgstr ""
+msgstr "Налады карыстальніка"
 
 #: nodepkg/layout/Avatar.tsx:25
 #, jsrealm
@@ -312,134 +321,136 @@ msgstr "Мы рэкамендуем вышыню 45 пікселяў і шыры
 #: nodepkg/logo-form/LogoForm.tsx:6
 #, jsrealm
 msgid "Only PNG and SVG images are supported."
-msgstr ""
+msgstr "Падтрымліваюцца толькі выявы PNG і SVG."
 
 #: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
 #, jsrealm
 msgid "Measurement ID"
-msgstr ""
+msgstr "Ідэнтыфікатар вымярэння"
 
 #: nodepkg/metrics/MetricSettings.tsx:19
 #, jsrealm
 msgid "Add"
-msgstr ""
+msgstr "Дадаць"
 
 #: nodepkg/metrics/MetricSettings.tsx:20
 #, jsrealm
 msgid "The setting is saved."
-msgstr ""
+msgstr "Налада захавана."
 
 #: nodepkg/metrics/MetricSettings.tsx:21
 #, jsrealm
 msgid "Reload the page to get them applied."
-msgstr ""
+msgstr "Перазагрузіце старонку, каб прымяніць іх."
 
 #: nodepkg/metrics/MetricSettings.tsx:25
 #, jsrealm
 msgid "Add one or more counters to your Web GIS."
-msgstr ""
+msgstr "Дадайце адзін або некалькі лічыльнікаў у вашу Вэб ГІС."
 
 #: nodepkg/metrics/MetricSettings.tsx:26
 #, jsrealm
 msgid ""
-"HTML code of these counters will be embeded into each page and will allow you"
-" to track user activity."
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
 msgstr ""
+"HTML-код гэтых лічыльнікаў будзе ўбудаваны на кожную старонку і дазволіць "
+"адсочваць актыўнасць карыстальнікаў."
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:31
 #, jsrealm
 msgid "Tag number"
-msgstr ""
+msgstr "Нумар тэга"
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:51
 #, jsrealm
 msgid "Webvisor"
-msgstr ""
+msgstr "Webvisor"
 
 #: nodepkg/metrics/tab.ts:31
 #, jsrealm
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: nodepkg/metrics/tab.ts:38
 #, jsrealm
 msgid "Yandex.Metrica"
-msgstr ""
+msgstr "Yandex.Metrica"
 
 #: nodepkg/storage-summary/StorageSummary.js:96
 #, jsrealm
 msgid "Kind of data"
-msgstr ""
+msgstr "Тып дадзеных"
 
 #: nodepkg/storage-summary/StorageSummary.js:102
 #, jsrealm
 msgid "Volume"
-msgstr ""
+msgstr "Аб'ём"
 
 #: nodepkg/storage-summary/StorageSummary.js:118
 #, jsrealm
 msgid "Total"
-msgstr ""
+msgstr "Агульная колькасць"
 
 #: nodepkg/storage-summary/StorageSummary.js:123
 #, jsrealm
 msgid "of"
-msgstr ""
+msgstr "з"
 
 #: nodepkg/storage-summary/StorageSummary.js:140
 #, jsrealm, python-format
 msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr ""
+msgstr "Выкарыстанне сховішча было поўнасцю ацэнена ў %s і абноўлена ў %s."
 
 #: nodepkg/storage-summary/StorageSummary.js:146
 #, jsrealm, python-format
 msgid "Storage usage was fully estimated at %s."
-msgstr ""
+msgstr "Выкарыстанне сховішча было поўнасцю ацэнена ў %s."
 
 #: nodepkg/storage-summary/StorageSummary.js:151
 #, jsrealm, python-format
 msgid "Storage usage hasn't been estimated yet but was updated at %s."
-msgstr ""
+msgstr "Выкарыстанне сховішча яшчэ не было ацэнена, але было абноўлена ў %s."
 
 #: nodepkg/storage-summary/StorageSummary.js:155
 #, jsrealm
 msgid "Storage usage hasn't been estimated yet."
-msgstr ""
+msgstr "Выкарыстанне сховішча яшчэ не ацэнена."
 
 #: nodepkg/storage-summary/StorageSummary.js:160
 #, jsrealm
 msgid "Some changes may be reflected only after full estimation."
-msgstr ""
+msgstr "Некаторыя змены могуць адлюстроўвацца толькі пасля поўнай ацэнкі."
 
 #: nodepkg/storage-summary/StorageSummary.js:184
 #, jsrealm
 msgid "Estimate storage"
-msgstr ""
+msgstr "Ацаніць сховішча"
 
 #: nodepkg/system-name-form/SystemNameForm.tsx:4
 #, jsrealm
 msgid "The system name setting is saved."
-msgstr ""
+msgstr "Налада назвы сістэмы захавана."
 
 #: nodepkg/update/index.js:56
 #, jsrealm
 msgid "Critical updates are available"
-msgstr ""
+msgstr "Даступныя крытычныя абнаўленні"
 
 #: nodepkg/update/index.js:57
 #, jsrealm
 msgid "Updates are available"
-msgstr ""
+msgstr "Даступныя абнаўленні"
 
 #: nodepkg/update/index.js:59
 #, jsrealm
 msgid "Click to see what's new"
-msgstr ""
+msgstr "Націсніце, каб паглядзець, што новага"
 
 #: nodepkg/update/sysinfo.js:14
 #, jsrealm
 msgid "Checking for updates..."
-msgstr ""
+msgstr "Праверка на абнаўленні..."
 
 #: nodepkg/update/sysinfo.js:15
 #, jsrealm
@@ -449,7 +460,7 @@ msgstr "<a>Звярніцеся ў службу падтрымкі</a> для а
 #: nodepkg/update/sysinfo.js:16
 #, jsrealm
 msgid "Show details"
-msgstr ""
+msgstr "Паказаць падрабязнасці"
 
 #: nodepkg/update/sysinfo.js:20
 #, jsrealm
@@ -457,11 +468,13 @@ msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr ""
+"Даступныя крытычныя абнаўленні: {version}. Калі ласка, абнавіце як мага "
+"хутчэй."
 
 #: nodepkg/update/sysinfo.js:21
 #, jsrealm
 msgid "New version of {distribution} is available: {version}."
-msgstr ""
+msgstr "Даступная новая версія {distribution}: {version}."
 
 #: nodepkg/update/sysinfo.js:22
 #, jsrealm
@@ -471,7 +484,7 @@ msgstr "Ваш {distribution} абноўлены."
 #: permission.py:5 view.py:216 view.py:559
 #, server
 msgid "Cross-origin resource sharing (CORS)"
-msgstr "Cross-origin resource sharing (CORS)"
+msgstr "Агульны доступ да рэсурсаў па-за межамі (CORS)"
 
 #: template/backup.mako:5
 #, server
@@ -506,32 +519,32 @@ msgstr "Платформа"
 #: template/sysinfo.mako:80
 #, server
 msgid "Browser support"
-msgstr ""
+msgstr "Падтрымка браўзера"
 
 #: template/sysinfo.mako:91
 #, server
 msgid "or higher"
-msgstr ""
+msgstr "або вышэй"
 
 #: template/sysinfo.mako:93
 #, server
 msgid "Not supported"
-msgstr ""
+msgstr "Не падтрымліваецца"
 
 #: template/sysinfo.mako:105
 #, server
 msgid "Your browser"
-msgstr ""
+msgstr "Ваш браўзер"
 
 #: template/uacompat.mako:3
 #, server
 msgid "Browser compatibility test"
-msgstr ""
+msgstr "Тэст на сумяшчальнасць браўзера"
 
 #: template/uacompat.mako:22
 #, python-format, server
 msgid "%(name)s %(current)s supported"
-msgstr ""
+msgstr "%(name)s %(current)s падтрымліваецца"
 
 #: template/uacompat.mako:23
 #, server
@@ -539,11 +552,13 @@ msgid ""
 "Web GIS browser compatibility test has been passed! The Web GIS should work "
 "fine."
 msgstr ""
+"Тэст на сумяшчальнасць браўзера Web GIS пройдзены! Web GIS павінна працаваць"
+" добра."
 
 #: template/uacompat.mako:26
 #, python-format, server
 msgid "%(name)s not supported"
-msgstr ""
+msgstr "%(name)s не падтрымліваецца"
 
 #: template/uacompat.mako:27
 #, python-format, server
@@ -552,68 +567,82 @@ msgid ""
 "outdated browser lacking required features. Try a different browser or "
 "contact your system administrator if another browser isn't available."
 msgstr ""
+"Вы выкарыстоўваеце %(name)s, хаця ён не падтрымліваецца Web GIS. Гэта "
+"састарэлы браузэр, у якім адсутнічаюць неабходныя функцыі. Паспрабуйце іншы "
+"браузэр або звярніцеся да свайго сістэмнага адміністратара, калі іншы "
+"браузэр недаступны."
 
 #: template/uacompat.mako:29
 #, python-format, server
 msgid "%(name)s %(current)s not supported"
-msgstr ""
+msgstr "%(name)s %(current)s не падтрымліваецца"
 
 #: template/uacompat.mako:30
 #, python-format, server
 msgid ""
-"You're using %(name)s %(current)s although it's not supported by the Web GIS."
-" It's an outdated version lacking required features. Contact your system "
-"administrator for upgrading to %(name)s %(required)s+ or try a different "
+"You're using %(name)s %(current)s although it's not supported by the Web "
+"GIS. It's an outdated version lacking required features. Contact your system"
+" administrator for upgrading to %(name)s %(required)s+ or try a different "
 "browser."
 msgstr ""
+"Вы выкарыстоўваеце %(name)s %(current)s, хаця ён не падтрымліваецца Web GIS."
+" Гэта састарэлая версія, у якой адсутнічаюць неабходныя функцыі. Звярніцеся "
+"да свайго сістэмнага адміністратара, каб абнавіцца да %(name)s %(required)s+"
+" або паспрабуйце іншы браузэр."
 
 #: template/uacompat.mako:34
 #, server
 msgid ""
-"If you still want to continue using the current browser, click the link below"
-" to bypass the compatibility test. The Web GIS or some features may degrade "
-"or fail  in this case."
+"If you still want to continue using the current browser, click the link "
+"below to bypass the compatibility test. The Web GIS or some features may "
+"degrade or fail  in this case."
 msgstr ""
+"Калі вы ўсё яшчэ жадаеце працягваць выкарыстоўваць бягучы браузэр, націсніце"
+" на спасылку ніжэй, каб абыйсці тэст сумяшчальнасці. У гэтым выпадку Web GIS"
+" або некаторыя функцыі могуць працуець не належным чынам або наогул не "
+"працаваць."
 
 #: template/uacompat.mako:35
 #, server
 msgid "I understood but want to proceed at my own risk. Skip the test!"
-msgstr ""
+msgstr "Я зразумеў, але хачу працягнуць на ўласны рызыку. Прапусціць тэст!"
 
 #: template/uacompat.mako:37
 #, server
 msgid "Unknown browser"
-msgstr ""
+msgstr "Невядомы браузэр"
 
 #: template/uacompat.mako:38
 #, server
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
 msgstr ""
+"Калі вы выкарыстоўваеце сучасны браузэр, Web GIS павінен працаваць належным "
+"чынам."
 
 #: tomb/config.py:95
 #, server
 msgid "Parameter required"
-msgstr ""
+msgstr "Неабходны параметр"
 
 #: tomb/config.py:96
 #, server
 msgid "The '{}' query parameter is required."
-msgstr ""
+msgstr "Неабходны параметр запыту '{}'."
 
 #: tomb/config.py:98
 #, server
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Няправільны параметр"
 
 #: tomb/config.py:99
 #, server
 msgid "The '{}' query parameter has an invalid value."
-msgstr ""
+msgstr "Параметр запыту '{}' мае няправільнае значэнне."
 
 #: view.py:157
 #, server
 msgid "HTTP API documentation"
-msgstr ""
+msgstr "Дакументацыя HTTP API"
 
 #: view.py:182 view.py:568
 #, server
@@ -623,7 +652,7 @@ msgstr "Інфармацыя аб сістэме"
 #: view.py:190 view.py:605
 #, server
 msgid "Storage"
-msgstr ""
+msgstr "Сховішча"
 
 #: view.py:201 view.py:612
 #, server
@@ -653,7 +682,7 @@ msgstr "Дамашні шлях"
 #: view.py:268 view.py:598
 #, server
 msgid "Metrics and analytics"
-msgstr ""
+msgstr "Метрыка і аналітыка"
 
 #: view.py:548
 #, server

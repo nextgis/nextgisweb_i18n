@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:102
 msgid "WFS service"
 msgstr "Serviço WFS"
@@ -12,11 +16,11 @@ msgstr "Chave"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Features per request"
-msgstr ""
+msgstr "Elementos por pedido"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Not set"
-msgstr ""
+msgstr "Não definido"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"
@@ -24,7 +28,7 @@ msgstr "Recurso"
 
 #: view.py:16
 msgid "Web Feature Service (WFS)"
-msgstr "Web Feature Service (WFS)"
+msgstr "Serviço Web Feature (WFS)"
 
 #: view.py:17
 msgid ""

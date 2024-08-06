@@ -1,6 +1,10 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:60 nodepkg/editor/EditorWidget.tsx:98
 msgid "String"
-msgstr "String"
+msgstr "Cadena"
 
 #: model.py:61 nodepkg/editor/EditorWidget.tsx:99
 msgid "Number"

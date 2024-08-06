@@ -1,54 +1,58 @@
+#
+msgid ""
+msgstr ""
+
 #: lockable_feature.py:60
 msgid "Additional basemaps"
-msgstr ""
+msgstr "Mapas base adicionais"
 
 #: lockable_feature.py:93
 msgid "Field data collection"
-msgstr ""
+msgstr "Coleta de dados de campo"
 
 #: lockable_feature.py:101
 msgid "Use on other websites (CORS)"
-msgstr ""
+msgstr "Uso em outros sites (CORS)"
 
 #: lockable_feature.py:122
 msgid "Custom domain and branding"
-msgstr ""
+msgstr "Domínio personalizado e branding"
 
 #: lockable_feature.py:135
 msgid "Custom SRS"
-msgstr ""
+msgstr "SRS personalizado"
 
 #: lockable_feature.py:147
 msgid "Improved performance"
-msgstr ""
+msgstr "Desempenho melhorado"
 
 #: lockable_feature.py:154
 msgid "Access management"
-msgstr ""
+msgstr "Gerenciamento de acesso"
 
 #: lockable_feature.py:229
 msgid "Technical support"
-msgstr ""
+msgstr "Suporte técnico"
 
 #: lockable_feature.py:234
 msgid "On-demand backup restore"
-msgstr ""
+msgstr "Restauração de backup sob demanda"
 
 #: lockable_feature.py:255
 msgid "Tile caching"
-msgstr ""
+msgstr "Cache de tiles"
 
 #: lockable_feature.py:285
 msgid "Data editing on web maps"
-msgstr ""
+msgstr "Edição de dados em mapas web"
 
 #: lockable_feature.py:311
 msgid "Annotations on web maps"
-msgstr ""
+msgstr "Anotações em mapas web"
 
 #: nodepkg/include.js:11 nodepkg/upgrade-button/index.js:28 view.py:15
 msgid "Plan and features"
-msgstr ""
+msgstr "Plano e funcionalidades"
 
 #: nodepkg/plan-and-features/index.js:22 nodepkg/upgrade-button/index.js:58
 msgid "Your plan — "
@@ -64,41 +68,43 @@ msgstr "Mais sobre planos"
 
 #: nodepkg/qgis-banner/QgisBanner.js:23
 msgid "Easy start with QGIS"
-msgstr ""
+msgstr "Início fácil com QGIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:26
 msgid ""
 "Use the NextGIS Connect plugin for QGIS to upload your data and create "
 "interactive maps."
 msgstr ""
+"Use o plugin NextGIS Connect para QGIS para enviar seus dados e criar mapas "
+"interativos."
 
 #: nodepkg/qgis-banner/QgisBanner.js:33
 msgid "Install the NextGIS Connect plugin for QGIS"
-msgstr ""
+msgstr "Instalar o plugin NextGIS Connect para QGIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:37
 msgid "Connect the plugin to your Web GIS"
-msgstr ""
+msgstr "Conectar o plugin ao seu Web GIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:39
 msgid "Upload your layers and projects to your Web GIS"
-msgstr ""
+msgstr "Carregue suas camadas e projetos no seu Web GIS"
 
 #: nodepkg/qgis-banner/QgisBanner.js:56
 msgid "Learn more"
-msgstr ""
+msgstr "Saiba mais"
 
 #: nodepkg/qgis-banner/QgisBanner.js:64
 msgid "Hide"
-msgstr ""
+msgstr "Esconder"
 
 #: nodepkg/resource-widget/base.js:20 service_plan.py:303
 msgid "{} feature is not available on your plan."
-msgstr ""
+msgstr "O recurso {} não está disponível no seu plano."
 
 #: nodepkg/resource-widget/base.js:21
 msgid "These features are not available on your plan:"
-msgstr ""
+msgstr "Esses recursos não estão disponíveis no seu plano:"
 
 #: nodepkg/summary.js:17
 msgid "of"
@@ -106,7 +112,7 @@ msgstr "do"
 
 #: nodepkg/summary.js:18
 msgid "Available"
-msgstr ""
+msgstr "Disponível"
 
 #: nodepkg/summary.js:19
 msgid "Unavailable"
@@ -122,36 +128,36 @@ msgstr "Upgrade"
 
 #: service_plan.py:99
 msgid "Number of maps and layers"
-msgstr ""
+msgstr "Número de mapas e camadas"
 
 #: service_plan.py:100
 msgid "Storage limit"
-msgstr ""
+msgstr "Limite de armazenamento"
 
 #: service_plan.py:101
 msgid "User limit"
-msgstr ""
+msgstr "Limite de usuários"
 
 #: service_plan.py:106
 msgid "GPS trackers"
-msgstr ""
+msgstr "Rastreadores GPS"
 
 #: service_plan.py:117
 msgid "Maximum file upload"
-msgstr ""
+msgstr "Tamanho máximo do arquivo carregado"
 
 #: service_plan.py:118
 msgid "Maximum raster layer"
-msgstr ""
+msgstr "Tamanho máximo da camada raster"
 
 #: service_plan.py:296
 msgid "Plan upgrade required"
-msgstr ""
+msgstr "Necessário upgrade no plano"
 
 #: service_plan.py:300
 msgid "This is not available on your plan."
-msgstr ""
+msgstr "Isso não está disponível no seu plano."
 
 #: service_plan.py:311
 msgid "To use this feature, please upgrade."
-msgstr ""
+msgstr "Para usar este recurso, por favor faça um upgrade."

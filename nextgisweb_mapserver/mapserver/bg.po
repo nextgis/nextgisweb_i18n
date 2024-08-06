@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-mapserver/StyleWidget.js:34 model.py:93
 msgid "MapServer style"
 msgstr "Стил на MapServer"
@@ -17,4 +21,3 @@ msgstr "Грешка на XML схема: %s"
 
 #~ msgid "XML schema error: %(message)s"
 #~ msgstr "Грешка на XML схема"
-

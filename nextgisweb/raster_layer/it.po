@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:46
 msgid "Output format is not provided."
 msgstr "Il formato di output non è stato fornito."
@@ -8,19 +12,19 @@ msgstr "Il formato '%s' non è supportato."
 
 #: api.py:94
 msgid "Requested raster is not COG."
-msgstr ""
+msgstr "Il raster richiesto non è COG."
 
 #: api.py:106
 msgid "Range header is missed or invalid."
-msgstr ""
+msgstr "L'header del range è mancante o non valido."
 
 #: api.py:110
 msgid "Range %s can not be read."
-msgstr ""
+msgstr "Il range %s non può essere letto."
 
 #: kind_of_data.py:8
 msgid "Rasters and pyramids"
-msgstr ""
+msgstr "Raster e piramidi"
 
 #: model.py:69 nodepkg/editor-widget/EditorWidget.tsx:47 view.py:58
 msgid "Raster layer"
@@ -32,43 +36,52 @@ msgstr "La libreria GDAL non è riuscita ad aprire il file."
 
 #: model.py:109
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
 "Il raster ha formato '%(format)s', ma solamente i seguenti formati sono "
 "supportati: %(all_formats)s."
 
 #: model.py:116
 msgid "Raster files without projection info are not supported."
-msgstr "I files raster senza informazioni sulla proiezione non sono supportati."
+msgstr ""
+"I files raster senza informazioni sulla proiezione non sono supportati."
 
 #: model.py:135
 msgid "Mixed band data types are not supported."
-msgstr ""
+msgstr "I tipi di dati di bande miste non sono supportati."
 
 #: model.py:163
 msgid "GDAL was uanble to parse the raster coordinate system."
 msgstr ""
+"GDAL non è riuscito a interpretare il sistema di coordinate del raster."
 
 #: model.py:167
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
+"Il raster sorgente ha un sistema di coordinate locale e non può essere "
+"riproiettato nel sistema di coordinate di destinazione."
 
 #: model.py:184
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr ""
+"Non è riuscito il tentativo di riproiettare il raster nel sistema di "
+"coordinate di destinazione."
 
 #: model.py:187
 msgid "GDAL error message: %s"
-msgstr ""
+msgstr "Messaggio di errore di GDAL: %s"
 
 #: model.py:203
 msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
 msgstr ""
+"La dimensione del raster non compresso (%(size)s) supera il limite "
+"(%(limit)s) di %(delta)s. Ridurre la dimensione del raster per rientrare nel"
+" limite."
 
 #: model.py:315
 msgid "Data type"
@@ -76,7 +89,7 @@ msgstr "Tipo di dato"
 
 #: model.py:316
 msgid "COG"
-msgstr ""
+msgstr "COG"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:16
 msgid "Select a dataset"
@@ -88,7 +101,7 @@ msgstr "Il set di dati dovrebbe essere in formato GeoTIFF."
 
 #: nodepkg/editor-widget/EditorWidget.tsx:39
 msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr ""
+msgstr "GeoTIFF Ottimizzato per il Cloud (COG)"
 
 #: nodepkg/export-form/ExportForm.tsx:55
 msgid "Band"
@@ -116,17 +129,22 @@ msgstr "Salva come"
 
 #: view.py:33
 msgid "Cloud Optimized GeoTIFF"
-msgstr ""
+msgstr "GeoTIFF Ottimizzato per il Cloud"
 
 #: view.py:34
 msgid ""
 "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
-"hosted on a HTTP file server, with an internal organization that enables more"
-" efficient workflows on the cloud. It does this by leveraging the ability of "
-"clients issuing ​HTTP GET range requests to ask for just the parts of a file "
-"they need."
+"hosted on a HTTP file server, with an internal organization that enables "
+"more efficient workflows on the cloud. It does this by leveraging the "
+"ability of clients issuing ​HTTP GET range requests to ask for just the "
+"parts of a file they need."
 msgstr ""
+"Un Cloud Optimized GeoTIFF (COG) è un file GeoTIFF regolare, pensato per "
+"essere ospitato su un server di file HTTP, con un’organizzazione interna che"
+" consente flussi di lavoro più efficienti nel cloud. Lo fa sfruttando la "
+"capacità dei client di emettere richieste HTTP GET range per chiedere solo "
+"le parti di un file di cui hanno bisogno."
 
 #: view.py:69
 msgid "Download"
-msgstr ""
+msgstr "Scarica"

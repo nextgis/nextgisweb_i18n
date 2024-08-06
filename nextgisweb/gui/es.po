@@ -1,6 +1,10 @@
+#
+msgid ""
+msgstr ""
+
 #: nodepkg/arm/validate.ts:5
 msgid "Value required"
-msgstr ""
+msgstr "Valor requerido"
 
 #: nodepkg/arm/validate.ts:7
 msgid "At least {} character required"
@@ -16,23 +20,23 @@ msgstr[1] ""
 
 #: nodepkg/arm/validate.ts:18
 msgid "Value should be at least {}"
-msgstr ""
+msgstr "El valor debe ser al menos {}"
 
 #: nodepkg/arm/validate.ts:19
 msgid "Value should be no more than {}"
-msgstr ""
+msgstr "El valor no debe ser más de {}"
 
 #: nodepkg/arm/validate.ts:21
 msgid "Invalid value"
-msgstr ""
+msgstr "Valor inválido"
 
 #: nodepkg/arm/validate.ts:22
 msgid "Value not unique"
-msgstr ""
+msgstr "Valor no único"
 
 #: nodepkg/arm/validate.ts:23
 msgid "Invalid URL"
-msgstr ""
+msgstr "URL inválida"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:23
 msgid "Copied to clipboard"
@@ -48,23 +52,23 @@ msgstr "Guardar"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:79
 msgid "From layer"
-msgstr ""
+msgstr "De la capa"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:87
 msgid "West"
-msgstr ""
+msgstr "Oeste"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:98
 msgid "South"
-msgstr ""
+msgstr "Sur"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:107
 msgid "East"
-msgstr ""
+msgstr "Este"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:116
 msgid "North"
-msgstr ""
+msgstr "Norte"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:15
 msgid "Improve or add new translation"
@@ -84,7 +88,7 @@ msgstr "Por favor, confirme esta acción."
 
 #: nodepkg/confirm.ts:16 nodepkg/error/shared.js:69
 msgid "OK"
-msgstr "OK"
+msgstr "Aceptar"
 
 #: nodepkg/confirm.ts:43
 msgid "Please confirm the deletion."
@@ -92,25 +96,26 @@ msgstr "Por favor, confirme la eliminación."
 
 #: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:78
 #: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:262
-#: nodepkg/model-browse/ModelBrowse.tsx:329 nodepkg/model-form/ModelForm.tsx:48
+#: nodepkg/model-browse/ModelBrowse.tsx:329
+#: nodepkg/model-form/ModelForm.tsx:48
 msgid "Delete"
 msgstr "Eliminar"
 
 #: nodepkg/confirm.ts:45
 msgid "Failed to delete."
-msgstr ""
+msgstr "No se pudo eliminar."
 
 #: nodepkg/edi-table/RowAction.tsx:73
 msgid "Clone"
-msgstr ""
+msgstr "Clonar"
 
 #: nodepkg/edi-table/store/RecordItem.ts:35
 msgid "Key required"
-msgstr ""
+msgstr "Clave requerida"
 
 #: nodepkg/edi-table/store/RecordItem.ts:41
 msgid "Key not unique"
-msgstr ""
+msgstr "Clave no única"
 
 #: nodepkg/error/index.ts:44
 msgid "Unexpected error"
@@ -142,9 +147,10 @@ msgstr "El valor introducido no es válido"
 
 #: nodepkg/focus-table/action.tsx:13
 msgid "Add"
-msgstr ""
+msgstr "Agregar"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:109 nodepkg/model-form/ModelForm.tsx:68
+#: nodepkg/model-browse/ModelBrowse.tsx:109
+#: nodepkg/model-form/ModelForm.tsx:68
 msgid "Confirmation"
 msgstr "Confirmación"
 
@@ -174,13 +180,14 @@ msgstr "Editar"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:252
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:285
 msgid "Search"
 msgstr "Buscar"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:307 nodepkg/model-form/ModelForm.tsx:46
+#: nodepkg/model-browse/ModelBrowse.tsx:307
+#: nodepkg/model-form/ModelForm.tsx:46
 msgid "Create"
 msgstr "Crear"
 

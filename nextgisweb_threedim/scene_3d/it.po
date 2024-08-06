@@ -1,18 +1,22 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
 #, amd
 msgid "Add item"
-msgstr ""
+msgstr "Aggiungi elemento"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
 #, amd
 msgid "Add group"
-msgstr ""
+msgstr "Aggiungi gruppo"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
 #, amd
 msgid "Remove"
-msgstr ""
+msgstr "Rimuovi"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:63
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:97
@@ -20,151 +24,151 @@ msgstr ""
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:24
 #, amd, jsrealm
 msgid "Display name"
-msgstr ""
+msgstr "Nome visualizzato"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:67
 #, amd
 msgid "Visible"
-msgstr ""
+msgstr "Visibile"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
 #, amd
 msgid "Select classification layer"
-msgstr ""
+msgstr "Seleziona layer di classificazione"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:74
 #, amd
 msgid "Classification layer"
-msgstr ""
+msgstr "Layer di classificazione"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:78
 #, amd
 msgid "3D tileset color"
-msgstr ""
+msgstr "Colore tileset 3D"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
 #, amd
 msgid "Style resource"
-msgstr ""
+msgstr "Risorsa stile"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:101
 #, amd
 msgid "Expanded"
-msgstr ""
+msgstr "Espanso"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:95
 #, amd
 msgid "Items"
-msgstr ""
+msgstr "Elementi"
 
-#: model/scene_3d.py:26 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:64
-#: view.py:70
+#: model/scene_3d.py:26 nodepkg/settings-widget/SettingsWidget.tsx:98
+#: view.py:64 view.py:70
 #, jsrealm, server
 msgid "3D scene"
-msgstr ""
+msgstr "Scena 3D"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
 #, jsrealm
 msgid "Default basemap"
-msgstr ""
+msgstr "Basemap predefinita"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:64
 #, jsrealm
 msgid "Opacity"
-msgstr ""
+msgstr "Opacità"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:69
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:34
 #, jsrealm
 msgid "Resource"
-msgstr ""
+msgstr "Risorsa"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:125
 #, jsrealm
 msgid "Basemaps"
-msgstr ""
+msgstr "Basemap"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:16
 #, jsrealm
 msgid "Globe"
-msgstr ""
+msgstr "Globo"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:17
 #, jsrealm
 msgid "Plane"
-msgstr ""
+msgstr "Piano"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:21
 #, jsrealm
 msgid "Minimum"
-msgstr ""
+msgstr "Minimo"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:22
 #, jsrealm
 msgid "Low"
-msgstr ""
+msgstr "Basso"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:23
 #, jsrealm
 msgid "Medium"
-msgstr ""
+msgstr "Medio"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:24
 #, jsrealm
 msgid "High"
-msgstr ""
+msgstr "Alto"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:25
 #, jsrealm
 msgid "Maximum"
-msgstr ""
+msgstr "Massimo"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:34
 #, jsrealm
 msgid "View"
-msgstr ""
+msgstr "Vista"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:44
 #, jsrealm
 msgid "Quality"
-msgstr ""
+msgstr "Qualità"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:54
 #, jsrealm
 msgid "Enable Yandex Panoramas"
-msgstr ""
+msgstr "Abilita Yandex Panoramas"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:63
 #, jsrealm
 msgid "Yandex Panoramas API key"
-msgstr ""
+msgstr "Chiave API Yandex Panoramas"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:72
 #, jsrealm
 msgid "Enable Google Street View"
-msgstr ""
+msgstr "Abilita Google Street View"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:81
 #, jsrealm
 msgid "Google Street View API key"
-msgstr ""
+msgstr "Chiave API Google Street View"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:90
 #, jsrealm
 msgid "Extent"
-msgstr ""
+msgstr "Estensione"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:31
 #, jsrealm
 msgid "Default terrain"
-msgstr ""
+msgstr "Terreno di default"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:89
 #, jsrealm
 msgid "Terrain"
-msgstr ""
+msgstr "Terreno"
 
 #: view.py:76
 #, server
 msgid "Display"
-msgstr ""
+msgstr "Visualizzazione"

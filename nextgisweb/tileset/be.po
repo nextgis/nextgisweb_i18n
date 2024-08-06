@@ -1,57 +1,61 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:88
 #, server
 msgid "Tilesets"
-msgstr ""
+msgstr "Тайлы"
 
 #: model.py:118 nodepkg/resource-widget/Widget.tsx:38
 #, jsrealm, server
 msgid "Tileset"
-msgstr ""
+msgstr "Тайлавы набор"
 
 #: model.py:203
 #, server
 msgid "Number of tiles"
-msgstr ""
+msgstr "Колькасць тайлаў"
 
 #: model.py:205
 #, server
 msgid "Zoom levels"
-msgstr ""
+msgstr "Узроўні маштабавання"
 
 #: model.py:206
 #, server
 msgid "From {min} to {max}"
-msgstr ""
+msgstr "Ад {min} да {max}"
 
 #: model.py:238
 #, server
 msgid "Tiles '{}' and '{}' are located in different subdirectories."
-msgstr ""
+msgstr "Тайлы '{}' і '{}' знаходзяцца ў розных падкатэгорыях."
 
 #: model.py:244
 #, server
 msgid "Tiles '{}' and '{}' have different extensions."
-msgstr ""
+msgstr "Тайлы '{}' і '{}' маюць розныя пашырэнні."
 
 #: model.py:301 model.py:310
 #, server
 msgid "Unsupported data format."
-msgstr ""
+msgstr "Непадтрымліваемы фармат дадзеных."
 
 #: model.py:343
 #, server
 msgid "Only 256x256 px tiles are supported."
-msgstr ""
+msgstr "Падтрымліваюцца толькі тайлы памерам 256x256 пікселяў."
 
 #: model.py:363
 #, server
 msgid "No tiles found in source."
-msgstr ""
+msgstr "Тайлы не знойдзены ў крыніцы."
 
 #: nodepkg/resource-widget/Widget.tsx:15
 #, jsrealm
 msgid "Select a tileset"
-msgstr ""
+msgstr "Абярыце тайлавы набор"
 
 #: nodepkg/resource-widget/Widget.tsx:16
 #, jsrealm
@@ -59,3 +63,5 @@ msgid ""
 "MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
 "JPEG format and have a size of 256x256 pixels."
 msgstr ""
+"Падтрымліваюцца MBTiles і ZIP архівы тайлаў. Тайлы павінны быць у фармаце "
+"PNG або JPEG і мець памер 256x256 пікселяў."

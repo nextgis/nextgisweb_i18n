@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: api.py:46
 #, server
 msgid "Output format is not provided."
@@ -26,7 +30,7 @@ msgstr "Немагчыма прачытаць дыяпазон %s."
 #: kind_of_data.py:8
 #, server
 msgid "Rasters and pyramids"
-msgstr ""
+msgstr "Растры і піраміды"
 
 #: model.py:69 nodepkg/editor-widget/EditorWidget.tsx:47 view.py:58
 #, jsrealm, server
@@ -41,8 +45,8 @@ msgstr "Бібліятэцы GDAL не ўдалося адкрыць файл."
 #: model.py:109
 #, python-format, server
 msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
+"Raster has format '%(format)s', however only following formats are "
+"supported: %(all_formats)s."
 msgstr ""
 "Растр мае фармат '%(format)s', аднак падтрымліваюцца толькі наступныя "
 "фарматы: %(all_formats)s."
@@ -55,12 +59,12 @@ msgstr "Растравыя файлы без інфармацыі аб прае�
 #: model.py:135
 #, server
 msgid "Mixed band data types are not supported."
-msgstr ""
+msgstr "Змешаныя тыпы даных каналоў не падтрымліваюцца."
 
 #: model.py:163
 #, server
 msgid "GDAL was uanble to parse the raster coordinate system."
-msgstr ""
+msgstr "Бібліятэкцы GDAL не ўдалося парсераваць каардынацый сэрвіс растра."
 
 #: model.py:167
 #, server
@@ -68,16 +72,18 @@ msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
+"Крынічны растр мае лакальны каардынацый сэрвіс і не можна быць "
+"рэепраекцаваны у мэтавы каардынацый сэрвіс."
 
 #: model.py:184
 #, server
 msgid "Failed to reproject the raster to the target coordinate system."
-msgstr ""
+msgstr "Не удалося рээпраекцаваць растр у мэтавы каардынацый сэрвіс."
 
 #: model.py:187
 #, python-format, server
 msgid "GDAL error message: %s"
-msgstr ""
+msgstr "Памылка GDAL: %s"
 
 #: model.py:203
 #, python-format, server
@@ -85,6 +91,8 @@ msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
 msgstr ""
+"Нескампрэсаваны размер растра (%(size)s) перавышае ліміт (%(limit)s) на "
+"%(delta)s. Зменшыце размер растра, каб уклаєцца у ліміт."
 
 #: model.py:315
 #, server
@@ -109,7 +117,7 @@ msgstr "Набор даных павінен быць у фармаце GeoTIFF.
 #: nodepkg/editor-widget/EditorWidget.tsx:39
 #, jsrealm
 msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr ""
+msgstr "Аптымізаваны для воблака GeoTIFF (COG)"
 
 #: nodepkg/export-form/ExportForm.tsx:55
 #, jsrealm
@@ -144,24 +152,24 @@ msgstr "Захаваць як"
 #: view.py:33
 #, server
 msgid "Cloud Optimized GeoTIFF"
-msgstr "Cloud Optimized GeoTIFF"
+msgstr "Аптымізаваны для воблака GeoTIFF"
 
 #: view.py:34
 #, server
 msgid ""
 "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
-"hosted on a HTTP file server, with an internal organization that enables more"
-" efficient workflows on the cloud. It does this by leveraging the ability of "
-"clients issuing ​HTTP GET range requests to ask for just the parts of a file "
-"they need."
+"hosted on a HTTP file server, with an internal organization that enables "
+"more efficient workflows on the cloud. It does this by leveraging the "
+"ability of clients issuing ​HTTP GET range requests to ask for just the "
+"parts of a file they need."
 msgstr ""
 "Cloud Optimized GeoTIFF (COG) - гэта звычайны файл GeoTIFF, прызначаны для "
-"размяшчэння на файлавым серверы HTTP з унутранай арганізацыяй, якая дазваляе "
-"больш эфектыўна працаваць у воблаку. Ён робіць гэта, выкарыстоўваючы "
-"магчымасць кліентаў, якія выдаюць запыты дыяпазону HTTP GET, запытваць толькі"
-" тыя часткі файла, якія ім патрэбны."
+"размяшчэння на файлавым серверы HTTP з унутранай арганізацыяй, якая дазваляе"
+" больш эфектыўна працаваць у воблаку. Ён робіць гэта, выкарыстоўваючы "
+"магчымасць кліентаў, якія выдаюць запыты дыяпазону HTTP GET, запытваць "
+"толькі тыя часткі файла, якія ім патрэбны."
 
 #: view.py:69
 #, server
 msgid "Download"
-msgstr ""
+msgstr "Скачаць"

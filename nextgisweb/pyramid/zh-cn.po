@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:28
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:30
 msgid "Copy to clipboard"
@@ -17,21 +21,21 @@ msgstr "请输入正确的比例值，比如 1："
 
 #: api.py:196
 msgid "Storage management is not enabled on this server."
-msgstr ""
+msgstr "该服务器未启用存储管理功能。"
 
 #: api.py:406
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
-msgstr ""
+msgstr "如果指定了'all'，'{}'查询参数不应包含额外值。"
 
 #: api.py:534
 msgid "Got an unsupported MIME type: '{}'."
-msgstr ""
+msgstr "记得了一个不支持的MIME类型: ''{}''."
 
 #: api.py:537
 msgid "64K should be enough for a logo."
-msgstr ""
+msgstr "标志的64K应话够用了。"
 
 #: api.py:669
 msgid "Your Web GIS at nextgis.com"
@@ -39,7 +43,7 @@ msgstr "您的GIS区域网在nextgis.com上"
 
 #: component.py:163
 msgid "Request timeout"
-msgstr ""
+msgstr "请求超时"
 
 #: component.py:166
 msgid "Enabled"
@@ -65,8 +69,8 @@ msgstr "无效请求"
 
 #: exception.py:239
 msgid ""
-"The server could not comply with the request since it is either malformed or "
-"otherwise incorrect."
+"The server could not comply with the request since it is either malformed or"
+" otherwise incorrect."
 msgstr "服务器无法执行请求，因为由于其他原因，它要么不正确，要么被曲解失真"
 
 #: exception.py:247
@@ -117,11 +121,11 @@ msgstr "当前服务器不可用。请稍后再试。"
 
 #: lunkwill.py:25
 msgid "Lunkwill not enabled"
-msgstr ""
+msgstr "Lunkwill未启用"
 
 #: lunkwill.py:26
 msgid "The Lunkwill extension is not configured on this server."
-msgstr ""
+msgstr "该服务器没有配置Lunkwill扩展。"
 
 #: nodepkg/api/error.ts:11 nodepkg/api/error.ts:29
 msgid "Something went wrong."
@@ -196,8 +200,8 @@ msgstr "自定义样式以保存。更新页面，以获得变化信息。"
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:63
 msgid ""
-"Enter custom CSS rules here. They will be used to redefine styles, design for"
-" all pages of your Web GIS."
+"Enter custom CSS rules here. They will be used to redefine styles, design "
+"for all pages of your Web GIS."
 msgstr ""
 "在此处可以自定义设置CSS样式风格。 \n"
 "它们将用于GIS区域网所有页面的重新设计和样式制定。"
@@ -206,7 +210,8 @@ msgstr ""
 msgid "The home path setting is saved."
 msgstr "主页路径设置已保存。"
 
-#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12 test/test_i18n.py:15
+#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12
+#: test/test_i18n.py:15
 msgctxt "test"
 msgid "unit"
 msgid_plural "units"
@@ -222,7 +227,7 @@ msgstr "会话邀请"
 
 #: nodepkg/layout/Avatar.tsx:23
 msgid "User settings"
-msgstr ""
+msgstr "用户设置"
 
 #: nodepkg/layout/Avatar.tsx:25
 msgid "Sign out"
@@ -246,49 +251,49 @@ msgstr "我们建议高45像素，宽低于200像素。"
 
 #: nodepkg/logo-form/LogoForm.tsx:6
 msgid "Only PNG and SVG images are supported."
-msgstr ""
+msgstr "只支持PNG和SVG图像。"
 
 #: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
 msgid "Measurement ID"
-msgstr ""
+msgstr "测量ID"
 
 #: nodepkg/metrics/MetricSettings.tsx:19
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: nodepkg/metrics/MetricSettings.tsx:20
 msgid "The setting is saved."
-msgstr ""
+msgstr "设置已保存。"
 
 #: nodepkg/metrics/MetricSettings.tsx:21
 msgid "Reload the page to get them applied."
-msgstr ""
+msgstr "重新加载页面以应用设置。"
 
 #: nodepkg/metrics/MetricSettings.tsx:25
 msgid "Add one or more counters to your Web GIS."
-msgstr ""
+msgstr "添加一个或多个计数器到您的Web GIS。"
 
 #: nodepkg/metrics/MetricSettings.tsx:26
 msgid ""
-"HTML code of these counters will be embeded into each page and will allow you"
-" to track user activity."
-msgstr ""
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
+msgstr "该计数器的HTML代码将嵌入到每个页面，并允许您调查用户活动。"
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:31
 msgid "Tag number"
-msgstr ""
+msgstr "标签号"
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:51
 msgid "Webvisor"
-msgstr ""
+msgstr "Webvisor"
 
 #: nodepkg/metrics/tab.ts:31
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: nodepkg/metrics/tab.ts:38
 msgid "Yandex.Metrica"
-msgstr ""
+msgstr "Yandex.Metrica"
 
 #: nodepkg/storage-summary/StorageSummary.js:96
 msgid "Kind of data"
@@ -402,19 +407,19 @@ msgstr "平台"
 
 #: template/sysinfo.mako:80
 msgid "Browser support"
-msgstr ""
+msgstr "浏览器支持"
 
 #: template/sysinfo.mako:91
 msgid "or higher"
-msgstr ""
+msgstr "或更高版本"
 
 #: template/sysinfo.mako:93
 msgid "Not supported"
-msgstr ""
+msgstr "不支持"
 
 #: template/sysinfo.mako:105
 msgid "Your browser"
-msgstr ""
+msgstr "您的浏览器"
 
 #: template/uacompat.mako:3
 msgid "Browser compatibility test"
@@ -449,9 +454,9 @@ msgstr "不支持%(name)s %(current)s"
 
 #: template/uacompat.mako:30
 msgid ""
-"You're using %(name)s %(current)s although it's not supported by the Web GIS."
-" It's an outdated version lacking required features. Contact your system "
-"administrator for upgrading to %(name)s %(required)s+ or try a different "
+"You're using %(name)s %(current)s although it's not supported by the Web "
+"GIS. It's an outdated version lacking required features. Contact your system"
+" administrator for upgrading to %(name)s %(required)s+ or try a different "
 "browser."
 msgstr ""
 "您正在使用%(name)s%(current)s，尽管Web GIS不支持它。 这是一个过时的版本，缺乏所需的功能。 "
@@ -459,9 +464,9 @@ msgstr ""
 
 #: template/uacompat.mako:34
 msgid ""
-"If you still want to continue using the current browser, click the link below"
-" to bypass the compatibility test. The Web GIS or some features may degrade "
-"or fail  in this case."
+"If you still want to continue using the current browser, click the link "
+"below to bypass the compatibility test. The Web GIS or some features may "
+"degrade or fail  in this case."
 msgstr "如果您仍想继续使用当前浏览器，请单击下面的链接，跳过兼容性测试。 在这种情况下，Web GIS或某些功能可能会降级或失败。"
 
 #: template/uacompat.mako:35
@@ -478,23 +483,23 @@ msgstr "如果您使用的是最新的浏览器，Web GIS应该正常工作。"
 
 #: tomb/config.py:95
 msgid "Parameter required"
-msgstr ""
+msgstr "需要参数"
 
 #: tomb/config.py:96
 msgid "The '{}' query parameter is required."
-msgstr ""
+msgstr "查询参数'{}'是必需的。"
 
 #: tomb/config.py:98
 msgid "Invalid parameter"
-msgstr ""
+msgstr "无效参数"
 
 #: tomb/config.py:99
 msgid "The '{}' query parameter has an invalid value."
-msgstr ""
+msgstr "查询参数'{}'的值无效。"
 
 #: view.py:157
 msgid "HTTP API documentation"
-msgstr ""
+msgstr "HTTP API文档"
 
 #: view.py:182 view.py:568
 msgid "System information"
@@ -526,7 +531,7 @@ msgstr "主目录路径"
 
 #: view.py:268 view.py:598
 msgid "Metrics and analytics"
-msgstr ""
+msgstr "指标和分析"
 
 #: view.py:548
 msgid "Info"

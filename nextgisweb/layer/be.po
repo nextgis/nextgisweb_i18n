@@ -1,4 +1,8 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:10
 #, server
 msgid "Spatial reference system"
-msgstr ""
+msgstr "Прасторавая сістэма адліку"

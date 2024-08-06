@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:11
 msgid "Unique id (IMEI by default)"
 msgstr "ID único (IMEI por omissão)"
@@ -30,11 +34,13 @@ msgstr "Software NextGIS (Mobile, Collector)"
 msgid "ADM (ADM-50, ADM-100)"
 msgstr "ADM (ADM-50, ADM-100)"
 
-#: amd/ngw-tracker/webmap/map/utils.js:20 amd/ngw-tracker/webmap/map/utils.js:38
+#: amd/ngw-tracker/webmap/map/utils.js:20
+#: amd/ngw-tracker/webmap/map/utils.js:38
 msgid "Date"
 msgstr "Data"
 
-#: amd/ngw-tracker/webmap/map/utils.js:29 amd/ngw-tracker/webmap/map/utils.js:40
+#: amd/ngw-tracker/webmap/map/utils.js:29
+#: amd/ngw-tracker/webmap/map/utils.js:40
 #: nodepkg/trackers-panel/TrackersPanel.js:188
 msgid "Time"
 msgstr "Hora"
@@ -53,11 +59,11 @@ msgstr "Caminho"
 
 #: amd/ngw-tracker/webmap/map/utils.js:63
 msgid "Satellites"
-msgstr ""
+msgstr "Satélites"
 
 #: amd/ngw-tracker/webmap/map/utils.js:69
 msgid "HDOP"
-msgstr ""
+msgstr "HDOP"
 
 #: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:33 component.py:13
 #: nodepkg/reports/Reports.js:175 nodepkg/trackers-panel/TrackersPanel.js:272
@@ -67,7 +73,8 @@ msgstr "Trackers"
 
 #: api/device_types.py:15
 msgid "NextGIS Tracker Hub is unavailable. Try later, please."
-msgstr "O NextGIS Tracker Hub não está disponível. Tente mais tarde, por favor."
+msgstr ""
+"O NextGIS Tracker Hub não está disponível. Tente mais tarde, por favor."
 
 #: model.py:20
 msgid "Trackers group"
@@ -79,13 +86,15 @@ msgstr "Tracker"
 
 #: model.py:51
 msgid "Tracker UID is not unique"
-msgstr ""
+msgstr "O UID do Tracker não é exclusivo"
 
 #: model.py:78
 msgid ""
 "The '{}' attribute is immutable and cannot be changed once the tracker is "
 "created."
 msgstr ""
+"O atributo '{}' é imutável e não pode ser alterado uma vez que o tracker é "
+"criado."
 
 #: nodepkg/reports/Reports.js:23 template/_consumption_fuel.mako:26
 #: template/_mileage.mako:20
@@ -128,15 +137,15 @@ msgstr "Horas"
 #: nodepkg/trackers-panel/TrackersPanel.js:97
 #: nodepkg/trackers-panel/TrackersPanel.js:98
 msgid "Unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 #: nodepkg/reports/Reports.js:131
 msgid "Result"
-msgstr ""
+msgstr "Resultado"
 
 #: nodepkg/reports/Reports.js:142
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: nodepkg/reports/Reports.js:146
 msgid "Report type"
@@ -156,11 +165,11 @@ msgstr "Criar relatório"
 
 #: nodepkg/tracker-activity/ChartHelper.js:44
 msgid "Count of packets per hour"
-msgstr ""
+msgstr "Contagem de pacotes por hora"
 
 #: nodepkg/tracker-activity/TrackerActivity.js:53
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: nodepkg/tracker-activity/TrackerActivity.js:63
 msgid "Last activity by hours"
@@ -168,7 +177,7 @@ msgstr "Última atividade por hora"
 
 #: nodepkg/tracker-settings/TrackerSettings.js:34
 msgid "Settings saved"
-msgstr ""
+msgstr "Configurações salvas"
 
 #: nodepkg/tracker-settings/TrackerSettingsForm.js:29
 msgid "Common settings"
@@ -204,15 +213,15 @@ msgstr "Guardar"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:40
 msgid "Last known point"
-msgstr ""
+msgstr "Último ponto conhecido"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:45
 msgid "GPS tracks"
-msgstr ""
+msgstr "Trilhas GPS"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:50
 msgid "Track points"
-msgstr ""
+msgstr "Pontos da trilha"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:65
 msgid "Zoom to layer"
@@ -232,11 +241,11 @@ msgstr "Mostrar última atividade"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:187
 msgid "Sort by"
-msgstr ""
+msgstr "Ordenar por"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:189
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: nodepkg/trackers-panel/TrackersPanel.js:284
 msgid "Reports"
@@ -250,7 +259,8 @@ msgstr ""
 
 #: pyramid_tracker/register.py:24 pyramid_tracker/register.py:42
 msgid "NextGIS Tracker System is unavailable. Try later, please."
-msgstr "O NextGIS Tracker System não está disponível. Tente mais tarde, por favor."
+msgstr ""
+"O NextGIS Tracker System não está disponível. Tente mais tarde, por favor."
 
 #: template/_avg_speed.mako:4
 msgid "Avg speed report"
@@ -323,4 +333,4 @@ msgstr "Configurações dos trackers"
 
 #: view/reports.py:18
 msgid "Trackers reports"
-msgstr ""
+msgstr "Relatórios de Trackers"

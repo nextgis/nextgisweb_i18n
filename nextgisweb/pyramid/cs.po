@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:28
 #: amd/ngw-pyramid/CopyButton/CopyButton.js:30
 msgid "Copy to clipboard"
@@ -17,21 +21,23 @@ msgstr "Zadejte správnou hodnotu měřítka, např. 1:"
 
 #: api.py:196
 msgid "Storage management is not enabled on this server."
-msgstr ""
+msgstr "Správa úložiště není na tomto serveru povolena."
 
 #: api.py:406
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
+"Parametr dotazu '{}' by neměl obsahovat další hodnoty, pokud je "
+"specifikováno 'all'."
 
 #: api.py:534
 msgid "Got an unsupported MIME type: '{}'."
-msgstr ""
+msgstr "Byl získán nepodporovaný MIME typ: ''{}''."
 
 #: api.py:537
 msgid "64K should be enough for a logo."
-msgstr ""
+msgstr "64 KB by mělo být dostatečné pro logo."
 
 #: api.py:669
 msgid "Your Web GIS at nextgis.com"
@@ -39,7 +45,7 @@ msgstr "Váš webový GIS na nextgis.com"
 
 #: component.py:163
 msgid "Request timeout"
-msgstr ""
+msgstr "Vypršel časový limit požadavku"
 
 #: component.py:166
 msgid "Enabled"
@@ -58,8 +64,8 @@ msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
 msgstr ""
-"Na serveru došlo k interní chybě nebo nesprávné konfiguraci a nemohl dokončit"
-" váš požadavek."
+"Na serveru došlo k interní chybě nebo nesprávné konfiguraci a nemohl "
+"dokončit váš požadavek."
 
 #: exception.py:238
 msgid "Bad request"
@@ -67,9 +73,10 @@ msgstr "Špatný požadavek"
 
 #: exception.py:239
 msgid ""
-"The server could not comply with the request since it is either malformed or "
-"otherwise incorrect."
-msgstr "Server nemohl vyhovět požadavku, protože je znetvořený nebo jinak nesprávný."
+"The server could not comply with the request since it is either malformed or"
+" otherwise incorrect."
+msgstr ""
+"Server nemohl vyhovět požadavku, protože je znetvořený nebo jinak nesprávný."
 
 #: exception.py:247
 msgid "Payment required"
@@ -121,11 +128,11 @@ msgstr "Server je momentálně nedostupný. Zkuste to znovu později."
 
 #: lunkwill.py:25
 msgid "Lunkwill not enabled"
-msgstr ""
+msgstr "Lunkwill není povolen"
 
 #: lunkwill.py:26
 msgid "The Lunkwill extension is not configured on this server."
-msgstr ""
+msgstr "Rozšíření Lunkwill není na tomto serveru nakonfigurováno."
 
 #: nodepkg/api/error.ts:11 nodepkg/api/error.ts:29
 msgid "Something went wrong."
@@ -182,8 +189,8 @@ msgid ""
 "allowed for third-level domains and higher."
 msgstr ""
 "Upozorňujeme, že různé protokoly (HTTP a HTTPS) a subdomény (example.com a "
-"www.example.com) jsou různého původu. Zástupné znaky jsou povoleny pro domény"
-" třetí úrovně a vyšší."
+"www.example.com) jsou různého původu. Zástupné znaky jsou povoleny pro "
+"domény třetí úrovně a vyšší."
 
 #: nodepkg/cors-settings/CORSSettings.tsx:58
 msgid "CORS settings updated"
@@ -203,8 +210,8 @@ msgstr "Vlastní styly uloženy. Znovu načtěte stránku, abyste je mohli použ
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:63
 msgid ""
-"Enter custom CSS rules here. They will be used to redefine styles, design for"
-" all pages of your Web GIS."
+"Enter custom CSS rules here. They will be used to redefine styles, design "
+"for all pages of your Web GIS."
 msgstr ""
 "Zde zadejte vlastní pravidla CSS. Budou použity k předefinování stylů a "
 "designu pro všechny stránky vašeho webového GIS."
@@ -213,7 +220,8 @@ msgstr ""
 msgid "The home path setting is saved."
 msgstr "Nastavení domovské cesty se uloží."
 
-#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12 test/test_i18n.py:15
+#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12
+#: test/test_i18n.py:15
 msgctxt "test"
 msgid "unit"
 msgid_plural "units"
@@ -231,7 +239,7 @@ msgstr "Pozvánka"
 
 #: nodepkg/layout/Avatar.tsx:23
 msgid "User settings"
-msgstr ""
+msgstr "Uživatelská nastavení"
 
 #: nodepkg/layout/Avatar.tsx:25
 msgid "Sign out"
@@ -255,49 +263,51 @@ msgstr "Doporučujeme výšku 45 px a šířku až 200 px."
 
 #: nodepkg/logo-form/LogoForm.tsx:6
 msgid "Only PNG and SVG images are supported."
-msgstr ""
+msgstr "Podporovány jsou pouze obrázky ve formátech PNG a SVG."
 
 #: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
 msgid "Measurement ID"
-msgstr ""
+msgstr "ID měření"
 
 #: nodepkg/metrics/MetricSettings.tsx:19
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
 #: nodepkg/metrics/MetricSettings.tsx:20
 msgid "The setting is saved."
-msgstr ""
+msgstr "Nastavení bylo uloženo."
 
 #: nodepkg/metrics/MetricSettings.tsx:21
 msgid "Reload the page to get them applied."
-msgstr ""
+msgstr "Pro aplikaci nastavení znovu načtěte stránku."
 
 #: nodepkg/metrics/MetricSettings.tsx:25
 msgid "Add one or more counters to your Web GIS."
-msgstr ""
+msgstr "Přidejte jeden nebo více čítačů do svého webového GIS."
 
 #: nodepkg/metrics/MetricSettings.tsx:26
 msgid ""
-"HTML code of these counters will be embeded into each page and will allow you"
-" to track user activity."
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
 msgstr ""
+"HTML kód těchto čítačů bude vložen do každé stránky a umožní vám sledovat "
+"aktivitu uživatelů."
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:31
 msgid "Tag number"
-msgstr ""
+msgstr "Číslo štítku"
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:51
 msgid "Webvisor"
-msgstr ""
+msgstr "Webvisor"
 
 #: nodepkg/metrics/tab.ts:31
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: nodepkg/metrics/tab.ts:38
 msgid "Yandex.Metrica"
-msgstr ""
+msgstr "Yandex.Metrica"
 
 #: nodepkg/storage-summary/StorageSummary.js:96
 msgid "Kind of data"
@@ -325,7 +335,8 @@ msgstr "Využití úložiště bylo plně odhadnuto na %s."
 
 #: nodepkg/storage-summary/StorageSummary.js:151
 msgid "Storage usage hasn't been estimated yet but was updated at %s."
-msgstr "Využití úložiště zatím nebylo odhadnuto, ale bylo aktualizováno na %s."
+msgstr ""
+"Využití úložiště zatím nebylo odhadnuto, ale bylo aktualizováno na %s."
 
 #: nodepkg/storage-summary/StorageSummary.js:155
 msgid "Storage usage hasn't been estimated yet."
@@ -372,8 +383,8 @@ msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr ""
-"K dispozici jsou kritické aktualizace: {verze}. Zvažte prosím aktualizaci co "
-"nejdříve."
+"K dispozici jsou kritické aktualizace: {verze}. Zvažte prosím aktualizaci co"
+" nejdříve."
 
 #: nodepkg/update/sysinfo.js:21
 msgid "New version of {distribution} is available: {version}."
@@ -413,19 +424,19 @@ msgstr "Platforma"
 
 #: template/sysinfo.mako:80
 msgid "Browser support"
-msgstr ""
+msgstr "Podpora prohlížeče"
 
 #: template/sysinfo.mako:91
 msgid "or higher"
-msgstr ""
+msgstr "nebo vyšší"
 
 #: template/sysinfo.mako:93
 msgid "Not supported"
-msgstr ""
+msgstr "Neni podporováno"
 
 #: template/sysinfo.mako:105
 msgid "Your browser"
-msgstr ""
+msgstr "Váš prohlížeč"
 
 #: template/uacompat.mako:3
 msgid "Browser compatibility test"
@@ -453,8 +464,8 @@ msgid ""
 "outdated browser lacking required features. Try a different browser or "
 "contact your system administrator if another browser isn't available."
 msgstr ""
-"Používáte %(name) s, i když to není podporováno webovým GIS. Je to zastaralý "
-"prohlížeč, který postrádá požadované funkce. Zkuste jiný prohlížeč nebo se "
+"Používáte %(name) s, i když to není podporováno webovým GIS. Je to zastaralý"
+" prohlížeč, který postrádá požadované funkce. Zkuste jiný prohlížeč nebo se "
 "obraťte na správce systému, pokud jiný prohlížeč není k dispozici."
 
 #: template/uacompat.mako:29
@@ -463,28 +474,29 @@ msgstr "%(name) s %(current) s není podporováno"
 
 #: template/uacompat.mako:30
 msgid ""
-"You're using %(name)s %(current)s although it's not supported by the Web GIS."
-" It's an outdated version lacking required features. Contact your system "
-"administrator for upgrading to %(name)s %(required)s+ or try a different "
+"You're using %(name)s %(current)s although it's not supported by the Web "
+"GIS. It's an outdated version lacking required features. Contact your system"
+" administrator for upgrading to %(name)s %(required)s+ or try a different "
 "browser."
 msgstr ""
-"Používáte %(name) s %(current) s, i když to není podporováno webovým GIS. Je "
-"to zastaralá verze, která postrádá požadované funkce. Obraťte se na správce "
-"systému pro upgrade na %(name) s %(required) s+ nebo zkuste jiný prohlížeč."
+"Používáte %(name) s %(current) s, i když to není podporováno webovým GIS. Je"
+" to zastaralá verze, která postrádá požadované funkce. Obraťte se na správce"
+" systému pro upgrade na %(name) s %(required) s+ nebo zkuste jiný prohlížeč."
 
 #: template/uacompat.mako:34
 msgid ""
-"If you still want to continue using the current browser, click the link below"
-" to bypass the compatibility test. The Web GIS or some features may degrade "
-"or fail  in this case."
+"If you still want to continue using the current browser, click the link "
+"below to bypass the compatibility test. The Web GIS or some features may "
+"degrade or fail  in this case."
 msgstr ""
-"Pokud stále chcete pokračovat v používání aktuálního prohlížeče, kliknutím na"
-" odkaz níže obejdete test kompatibility. Webový GIS nebo některé funkce se v "
-"tomto případě mohou zhoršit nebo selhat."
+"Pokud stále chcete pokračovat v používání aktuálního prohlížeče, kliknutím "
+"na odkaz níže obejdete test kompatibility. Webový GIS nebo některé funkce se"
+" v tomto případě mohou zhoršit nebo selhat."
 
 #: template/uacompat.mako:35
 msgid "I understood but want to proceed at my own risk. Skip the test!"
-msgstr "Pochopil jsem, ale chci postupovat na vlastní nebezpečí. Přeskočte test!"
+msgstr ""
+"Pochopil jsem, ale chci postupovat na vlastní nebezpečí. Přeskočte test!"
 
 #: template/uacompat.mako:37
 msgid "Unknown browser"
@@ -496,23 +508,23 @@ msgstr "Pokud používáte aktuální prohlížeč, Web GIS by měl být v poř�
 
 #: tomb/config.py:95
 msgid "Parameter required"
-msgstr ""
+msgstr "Požadováný parametr"
 
 #: tomb/config.py:96
 msgid "The '{}' query parameter is required."
-msgstr ""
+msgstr "Dotazovací parametr '{}' je požadován."
 
 #: tomb/config.py:98
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Neplatný parametr"
 
 #: tomb/config.py:99
 msgid "The '{}' query parameter has an invalid value."
-msgstr ""
+msgstr "Dotazovací parametr '{}' má neplatnou hodnotu."
 
 #: view.py:157
 msgid "HTTP API documentation"
-msgstr ""
+msgstr "HTTP API dokumentace"
 
 #: view.py:182 view.py:568
 msgid "System information"
@@ -544,11 +556,11 @@ msgstr "Domácí cesta"
 
 #: view.py:268 view.py:598
 msgid "Metrics and analytics"
-msgstr ""
+msgstr "Metriky a analytika"
 
 #: view.py:548
 msgid "Info"
-msgstr "Info"
+msgstr "Informace"
 
 #: view.py:549
 msgid "Settings"

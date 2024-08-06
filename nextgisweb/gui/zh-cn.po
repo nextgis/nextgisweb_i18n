@@ -1,6 +1,10 @@
+#
+msgid ""
+msgstr ""
+
 #: nodepkg/arm/validate.ts:5
 msgid "Value required"
-msgstr ""
+msgstr "需要值"
 
 #: nodepkg/arm/validate.ts:7
 msgid "At least {} character required"
@@ -14,31 +18,31 @@ msgstr[0] ""
 
 #: nodepkg/arm/validate.ts:18
 msgid "Value should be at least {}"
-msgstr ""
+msgstr "值应至少为 {}"
 
 #: nodepkg/arm/validate.ts:19
 msgid "Value should be no more than {}"
-msgstr ""
+msgstr "值不应超过 {}"
 
 #: nodepkg/arm/validate.ts:21
 msgid "Invalid value"
-msgstr ""
+msgstr "无效值"
 
 #: nodepkg/arm/validate.ts:22
 msgid "Value not unique"
-msgstr ""
+msgstr "值不唯一"
 
 #: nodepkg/arm/validate.ts:23
 msgid "Invalid URL"
-msgstr ""
+msgstr "无效 URL"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:23
 msgid "Copied to clipboard"
-msgstr ""
+msgstr "已复制到剪贴板"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:28
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "复制到剪贴板"
 
 #: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:47
 msgid "Save"
@@ -46,27 +50,27 @@ msgstr "保存"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:79
 msgid "From layer"
-msgstr ""
+msgstr "来自图层"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:87
 msgid "West"
-msgstr ""
+msgstr "西"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:98
 msgid "South"
-msgstr ""
+msgstr "南"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:107
 msgid "East"
-msgstr ""
+msgstr "东"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:116
 msgid "North"
-msgstr ""
+msgstr "北"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:15
 msgid "Improve or add new translation"
-msgstr ""
+msgstr "改进或添加新翻译"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:31
 msgid "Browser default"
@@ -74,41 +78,42 @@ msgstr "浏览器默认值"
 
 #: nodepkg/confirm.ts:13
 msgid "Confirmation required"
-msgstr ""
+msgstr "需要确认"
 
 #: nodepkg/confirm.ts:14
 msgid "Please confirm this action."
-msgstr ""
+msgstr "请确认此操作。"
 
 #: nodepkg/confirm.ts:16 nodepkg/error/shared.js:69
 msgid "OK"
-msgstr "OK"
+msgstr "确定"
 
 #: nodepkg/confirm.ts:43
 msgid "Please confirm the deletion."
-msgstr ""
+msgstr "请确认删除。"
 
 #: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:78
 #: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:262
-#: nodepkg/model-browse/ModelBrowse.tsx:329 nodepkg/model-form/ModelForm.tsx:48
+#: nodepkg/model-browse/ModelBrowse.tsx:329
+#: nodepkg/model-form/ModelForm.tsx:48
 msgid "Delete"
 msgstr "删除"
 
 #: nodepkg/confirm.ts:45
 msgid "Failed to delete."
-msgstr ""
+msgstr "删除失败。"
 
 #: nodepkg/edi-table/RowAction.tsx:73
 msgid "Clone"
-msgstr ""
+msgstr "克隆"
 
 #: nodepkg/edi-table/store/RecordItem.ts:35
 msgid "Key required"
-msgstr ""
+msgstr "需要键值"
 
 #: nodepkg/edi-table/store/RecordItem.ts:41
 msgid "Key not unique"
-msgstr ""
+msgstr "键值不唯一"
 
 #: nodepkg/error/index.ts:44
 msgid "Unexpected error"
@@ -140,9 +145,10 @@ msgstr "输入的值无效"
 
 #: nodepkg/focus-table/action.tsx:13
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:109 nodepkg/model-form/ModelForm.tsx:68
+#: nodepkg/model-browse/ModelBrowse.tsx:109
+#: nodepkg/model-form/ModelForm.tsx:68
 msgid "Confirmation"
 msgstr "确认"
 
@@ -172,13 +178,14 @@ msgstr "更改"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:252
 msgid "View"
-msgstr ""
+msgstr "查看"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:285
 msgid "Search"
 msgstr "搜索"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:307 nodepkg/model-form/ModelForm.tsx:46
+#: nodepkg/model-browse/ModelBrowse.tsx:307
+#: nodepkg/model-form/ModelForm.tsx:46
 msgid "Create"
 msgstr "创建"
 
@@ -192,11 +199,11 @@ msgstr "标记以保存。请更新页面，以便查看使用。"
 
 #: nodepkg/progress-modal/ProgressModal.tsx:5
 msgid "Operation in progress"
-msgstr ""
+msgstr "操作中"
 
 #: nodepkg/progress-modal/ProgressModal.tsx:6
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: nodepkg/single-setting-form/SingleSettingForm.tsx:25
 msgid "The setting is saved."

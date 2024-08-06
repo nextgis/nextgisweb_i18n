@@ -1,6 +1,10 @@
+#
+msgid ""
+msgstr ""
+
 #: nodepkg/arm/validate.ts:5
 msgid "Value required"
-msgstr ""
+msgstr "Задължително значение"
 
 #: nodepkg/arm/validate.ts:7
 msgid "At least {} character required"
@@ -16,31 +20,31 @@ msgstr[1] ""
 
 #: nodepkg/arm/validate.ts:18
 msgid "Value should be at least {}"
-msgstr ""
+msgstr "Значението трябва да бъде поне {0}"
 
 #: nodepkg/arm/validate.ts:19
 msgid "Value should be no more than {}"
-msgstr ""
+msgstr "Значението не трябва да бъде повече от {0}"
 
 #: nodepkg/arm/validate.ts:21
 msgid "Invalid value"
-msgstr ""
+msgstr "Невалидно значение"
 
 #: nodepkg/arm/validate.ts:22
 msgid "Value not unique"
-msgstr ""
+msgstr "Неповтарящо се значение"
 
 #: nodepkg/arm/validate.ts:23
 msgid "Invalid URL"
-msgstr ""
+msgstr "Невалиден URL"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:23
 msgid "Copied to clipboard"
-msgstr ""
+msgstr "Копирано в клипборда"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:28
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Копирай в клипборда"
 
 #: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:47
 msgid "Save"
@@ -48,27 +52,27 @@ msgstr "Запазване"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:79
 msgid "From layer"
-msgstr ""
+msgstr "От лейера"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:87
 msgid "West"
-msgstr ""
+msgstr "Запад"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:98
 msgid "South"
-msgstr ""
+msgstr "Юг"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:107
 msgid "East"
-msgstr ""
+msgstr "Изток"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:116
 msgid "North"
-msgstr ""
+msgstr "Север"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:15
 msgid "Improve or add new translation"
-msgstr ""
+msgstr "Подобрете или добавете нов превод"
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:31
 msgid "Browser default"
@@ -76,11 +80,11 @@ msgstr "По подразбиране в браузъра"
 
 #: nodepkg/confirm.ts:13
 msgid "Confirmation required"
-msgstr ""
+msgstr "Нужно е потвърждение"
 
 #: nodepkg/confirm.ts:14
 msgid "Please confirm this action."
-msgstr ""
+msgstr "Моля, потвърдете това действие."
 
 #: nodepkg/confirm.ts:16 nodepkg/error/shared.js:69
 msgid "OK"
@@ -88,29 +92,30 @@ msgstr "Да"
 
 #: nodepkg/confirm.ts:43
 msgid "Please confirm the deletion."
-msgstr ""
+msgstr "Моля, потвърдете изтриването."
 
 #: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:78
 #: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:262
-#: nodepkg/model-browse/ModelBrowse.tsx:329 nodepkg/model-form/ModelForm.tsx:48
+#: nodepkg/model-browse/ModelBrowse.tsx:329
+#: nodepkg/model-form/ModelForm.tsx:48
 msgid "Delete"
 msgstr "Изтриване"
 
 #: nodepkg/confirm.ts:45
 msgid "Failed to delete."
-msgstr ""
+msgstr "Грешка при изтриване"
 
 #: nodepkg/edi-table/RowAction.tsx:73
 msgid "Clone"
-msgstr ""
+msgstr "Клониране"
 
 #: nodepkg/edi-table/store/RecordItem.ts:35
 msgid "Key required"
-msgstr ""
+msgstr "Нужен ключ"
 
 #: nodepkg/edi-table/store/RecordItem.ts:41
 msgid "Key not unique"
-msgstr ""
+msgstr "Ключът не е уникален"
 
 #: nodepkg/error/index.ts:44
 msgid "Unexpected error"
@@ -142,11 +147,12 @@ msgstr "Въведеното значение не е валидно"
 
 #: nodepkg/focus-table/action.tsx:13
 msgid "Add"
-msgstr ""
+msgstr "Добавяне"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:109 nodepkg/model-form/ModelForm.tsx:68
+#: nodepkg/model-browse/ModelBrowse.tsx:109
+#: nodepkg/model-form/ModelForm.tsx:68
 msgid "Confirmation"
-msgstr "Confirmation"
+msgstr "Потвърждение"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:110
 msgid "Item deleted"
@@ -174,13 +180,14 @@ msgstr "Редактиране"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:252
 msgid "View"
-msgstr ""
+msgstr "Преглед"
 
 #: nodepkg/model-browse/ModelBrowse.tsx:285
 msgid "Search"
 msgstr "Търсене"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:307 nodepkg/model-form/ModelForm.tsx:46
+#: nodepkg/model-browse/ModelBrowse.tsx:307
+#: nodepkg/model-form/ModelForm.tsx:46
 msgid "Create"
 msgstr "Създаване"
 
@@ -194,11 +201,11 @@ msgstr "Логото е запазено. За да използвате пре�
 
 #: nodepkg/progress-modal/ProgressModal.tsx:5
 msgid "Operation in progress"
-msgstr ""
+msgstr "Операцията е в ход"
 
 #: nodepkg/progress-modal/ProgressModal.tsx:6
 msgid "Cancel"
-msgstr ""
+msgstr "Отменяне"
 
 #: nodepkg/single-setting-form/SingleSettingForm.tsx:25
 msgid "The setting is saved."

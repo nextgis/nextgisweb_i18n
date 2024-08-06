@@ -1,26 +1,30 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:24
 msgid "Basemap"
 msgstr "Базова карта"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:18
 msgid "Pick from QMS"
-msgstr ""
+msgstr "Изберете от QMS"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:20
 msgid "Search for geoservices provided by "
-msgstr ""
+msgstr "Търсете геосервиси, предоставени от"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:21
 msgid "You can search by name or ID"
-msgstr ""
+msgstr "Можете да търсите по име или ID"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:24
 msgid "If a service from QMS is selected, this field cannot be edited."
-msgstr ""
+msgstr "Ако е избран сервиз от QMS, това поле не може да бъде редактирано."
 
 #: nodepkg/layer-widget/LayerWidget.tsx:80
 msgid "URL"
-msgstr "URL"
+msgstr "Линк"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:88
 msgid "Copyright text"
@@ -41,7 +45,7 @@ msgstr "Показвано име"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:61
 msgid "Default basemap"
-msgstr ""
+msgstr "Базова карта по подразбиране"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:64
 msgid "Opacity"

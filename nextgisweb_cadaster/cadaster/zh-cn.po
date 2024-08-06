@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:52
 msgid "Cadastral number"
 msgstr "地籍编号"
@@ -103,7 +107,7 @@ msgstr "地籍价值"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
 msgid "Monetary unit of value"
-msgstr ""
+msgstr "货币单位"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:79
 msgid "Category type"
@@ -115,68 +119,68 @@ msgstr "区的地籍编号"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:85
 msgid "Date of entering information about cadastral value"
-msgstr ""
+msgstr "录入地籍价值信息的日期"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:88
 msgid "Date of cadastral value approval"
-msgstr ""
+msgstr "地籍价值审批日期"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:89
 msgid "Refined area"
-msgstr ""
+msgstr "精确面积"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:90
 msgid "Dimension of the area"
-msgstr ""
+msgstr "面积尺寸"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:91
 msgid "Permitted use according to the document"
-msgstr ""
+msgstr "根据文件允许的用途"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:92
 msgid "Permitted use"
-msgstr ""
+msgstr "允许用途"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:93
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:95
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:94
 msgid "Type of area"
-msgstr ""
+msgstr "区域类型"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:96
 msgid "Customer phone"
-msgstr ""
+msgstr "客户电话"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:97
 msgid "Contract number"
-msgstr ""
+msgstr "合同编号"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:98
 msgid "Information"
-msgstr ""
+msgstr "信息"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:99
 msgid "Type (as form)"
-msgstr ""
+msgstr "类型 (作为表单)"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:100
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:101
 msgid "Registered number"
-msgstr ""
+msgstr "注册号"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:102
 msgid "Restriction"
-msgstr ""
+msgstr "限制"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:104
 msgid "Registry number"
-msgstr ""
+msgstr "登记号"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:114
 msgid "Cadastral quarter"
@@ -231,91 +235,97 @@ msgstr "无数据"
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:155
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:168
 msgid "Cadaster services error"
-msgstr ""
+msgstr "地籍服务错误"
 
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:51
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:156
 #: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:169
 msgid "Wrong cadaster number: ${cadno}"
-msgstr ""
+msgstr "错误的地籍编号：${cadno}"
 
 #: api/exceptions.py:11
 msgid "The Geoservices API unknown error"
-msgstr ""
+msgstr "Geoservices API 未知错误"
 
 #: api/exceptions.py:12
 msgid "The Geoservices API: unknown error"
-msgstr ""
+msgstr "Geoservices API：未知错误"
 
 #: api/exceptions.py:16
 msgid "The Geoservices API timeout error"
-msgstr ""
+msgstr "Geoservices API超时错误"
 
 #: api/exceptions.py:17
 msgid "The Geoservices API is currently unavailable due to a timeout error"
-msgstr ""
+msgstr "由于超时错误，Geoservices API当前不可用"
 
 #: api/exceptions.py:21
 msgid "The Geoservices API parsing error"
-msgstr ""
+msgstr "Geoservices API解析错误"
 
 #: api/exceptions.py:22
-msgid "The Geoservices API failed to parse the JSON data returned by the PKK service"
-msgstr ""
+msgid ""
+"The Geoservices API failed to parse the JSON data returned by the PKK "
+"service"
+msgstr "Geoservices API无法解析PKK服务返回的JSON数据"
 
 #: api/exceptions.py:26
 msgid "The Geoservices API error"
-msgstr ""
+msgstr "Geoservices API错误"
 
 #: api/exceptions.py:27
 msgid ""
 "NextGIS Geoservices encountered an internal error or the PKK service is "
 "currently unavailable"
-msgstr ""
+msgstr "NextGIS Geoservices遇到内部错误或PKK服务当前不可用"
 
 #: api/exceptions.py:33
 msgid "The NextGIS Geoservices is currently unavailable"
-msgstr ""
+msgstr "NextGIS Geoservices当前不可用"
 
 #: api/exceptions.py:42
-msgid "The Geoservices API: The request for attribute retrieval ended in failure"
-msgstr ""
+msgid ""
+"The Geoservices API: The request for attribute retrieval ended in failure"
+msgstr "Geoservices API：属性检索请求失败"
 
 #: api/exceptions.py:51
 msgid ""
 "The Geoservices API: The 'extent' field is not present in the received "
 "attributes"
-msgstr ""
+msgstr "Geoservices API：接收到的属性中没有“extent”字段"
 
 #: api/exceptions.py:62
 msgid "The Geoservices API: The object geometry retrieval request failed"
-msgstr ""
+msgstr "Geoservices API：对象几何检索请求失败"
 
 #: api/exceptions.py:71
-msgid "The Geoservices API: Unable to create the feature based on previous requests"
-msgstr ""
+msgid ""
+"The Geoservices API: Unable to create the feature based on previous requests"
+msgstr "Geoservices API：无法根据之前的请求创建要素"
 
 #: api/exceptions.py:75
 msgid "The Geoservices API: Plot not found"
-msgstr ""
+msgstr "Geoservices API：找不到地块"
 
 #: api/geoservices.py:50
 msgid "'Cadaster services' module is disabled!"
-msgstr ""
+msgstr "“Cadaster services”模块已禁用！"
 
 #: api/geoservices.py:60
 msgid ""
-"Geoservices API key in cadaster services module not set. Set the Geoservices "
-"API key in the `Cadaster services` section on the Control panel."
+"Geoservices API key in cadaster services module not set. Set the Geoservices"
+" API key in the `Cadaster services` section on the Control panel."
 msgstr ""
+"Cadaster services模块中的Geoservices API密钥尚未设置。请在控制面板的“Cadaster "
+"services”部分设置Geoservices API密钥。"
 
 #: api/geoservices.py:96
 msgid "Required parameters: lon, lat, types!"
-msgstr ""
+msgstr "必需的参数：lon, lat, types！"
 
 #: api/geoservices.py:131
 msgid "Parameter 'types' is required"
-msgstr ""
+msgstr "参数“types”是必需的"
 
 #: api/geoservices.py:168
 msgid "Cadaster plot with ID '%(id)s' not found!"

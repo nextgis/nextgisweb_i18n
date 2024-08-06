@@ -1,3 +1,7 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-tmsclient/ConnectionWidget.js:34
 #: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:39
 msgid "TMS connection"
@@ -113,4 +117,3 @@ msgstr "Размер на плочка, px"
 
 #~ msgid "TMS capabilities"
 #~ msgstr "Възможности на TMS"
-

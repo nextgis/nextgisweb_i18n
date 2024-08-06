@@ -1,57 +1,61 @@
+#
+msgid ""
+msgstr ""
+
 #: model.py:88
 #, server
 msgid "Tilesets"
-msgstr ""
+msgstr "Tileset"
 
 #: model.py:118 nodepkg/resource-widget/Widget.tsx:38
 #, jsrealm, server
 msgid "Tileset"
-msgstr ""
+msgstr "Tileset"
 
 #: model.py:203
 #, server
 msgid "Number of tiles"
-msgstr ""
+msgstr "Numero di tile"
 
 #: model.py:205
 #, server
 msgid "Zoom levels"
-msgstr ""
+msgstr "Livelli di zoom"
 
 #: model.py:206
 #, server
 msgid "From {min} to {max}"
-msgstr ""
+msgstr "Da {min} a {max}"
 
 #: model.py:238
 #, server
 msgid "Tiles '{}' and '{}' are located in different subdirectories."
-msgstr ""
+msgstr "Le tile '{}' e '{}' si trovano in sottodirectory diverse."
 
 #: model.py:244
 #, server
 msgid "Tiles '{}' and '{}' have different extensions."
-msgstr ""
+msgstr "Le tile '{}' e '{}' hanno estensioni diverse."
 
 #: model.py:301 model.py:310
 #, server
 msgid "Unsupported data format."
-msgstr ""
+msgstr "Formato dati non supportato."
 
 #: model.py:343
 #, server
 msgid "Only 256x256 px tiles are supported."
-msgstr ""
+msgstr "Supportate solo tile 256x256 px."
 
 #: model.py:363
 #, server
 msgid "No tiles found in source."
-msgstr ""
+msgstr "Nessuna tile trovata nella fonte."
 
 #: nodepkg/resource-widget/Widget.tsx:15
 #, jsrealm
 msgid "Select a tileset"
-msgstr ""
+msgstr "Seleziona un tileset"
 
 #: nodepkg/resource-widget/Widget.tsx:16
 #, jsrealm
@@ -59,3 +63,5 @@ msgid ""
 "MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
 "JPEG format and have a size of 256x256 pixels."
 msgstr ""
+"Supportati archivi MBTiles e ZIP di tile. Le tile devono essere in formato "
+"PNG o JPEG e avere una dimensione di 256x256 pixel."

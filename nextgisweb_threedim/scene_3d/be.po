@@ -1,18 +1,22 @@
+#
+msgid ""
+msgstr ""
+
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
 #, amd
 msgid "Add item"
-msgstr ""
+msgstr "Дадаць элемент"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
 #, amd
 msgid "Add group"
-msgstr ""
+msgstr "Дадаць групу"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
 #, amd
 msgid "Remove"
-msgstr ""
+msgstr "Выдаліць"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:63
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:97
@@ -20,151 +24,151 @@ msgstr ""
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:24
 #, amd, jsrealm
 msgid "Display name"
-msgstr ""
+msgstr "Імя адлюстравання"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:67
 #, amd
 msgid "Visible"
-msgstr ""
+msgstr "Бачны"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
 #, amd
 msgid "Select classification layer"
-msgstr ""
+msgstr "Абярыце класіфікацыйны слой"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:74
 #, amd
 msgid "Classification layer"
-msgstr ""
+msgstr "Класіфікацыйны слой"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:78
 #, amd
 msgid "3D tileset color"
-msgstr ""
+msgstr "Колер 3D тайлсэта"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
 #, amd
 msgid "Style resource"
-msgstr ""
+msgstr "Рэсурс стылю"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:101
 #, amd
 msgid "Expanded"
-msgstr ""
+msgstr "Разгорнуты"
 
 #: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:95
 #, amd
 msgid "Items"
-msgstr ""
+msgstr "Элементы"
 
-#: model/scene_3d.py:26 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:64
-#: view.py:70
+#: model/scene_3d.py:26 nodepkg/settings-widget/SettingsWidget.tsx:98
+#: view.py:64 view.py:70
 #, jsrealm, server
 msgid "3D scene"
-msgstr ""
+msgstr "3D сцэна"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
 #, jsrealm
 msgid "Default basemap"
-msgstr ""
+msgstr "Базавая карта па змаўчанні"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:64
 #, jsrealm
 msgid "Opacity"
-msgstr ""
+msgstr "Празрыстасць"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:69
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:34
 #, jsrealm
 msgid "Resource"
-msgstr ""
+msgstr "Рэсурс"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:125
 #, jsrealm
 msgid "Basemaps"
-msgstr ""
+msgstr "Базавыя карты"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:16
 #, jsrealm
 msgid "Globe"
-msgstr ""
+msgstr "Глобус"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:17
 #, jsrealm
 msgid "Plane"
-msgstr ""
+msgstr "Самалёт"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:21
 #, jsrealm
 msgid "Minimum"
-msgstr ""
+msgstr "Мінімум"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:22
 #, jsrealm
 msgid "Low"
-msgstr ""
+msgstr "Нізкі"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:23
 #, jsrealm
 msgid "Medium"
-msgstr ""
+msgstr "Сярэдні"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:24
 #, jsrealm
 msgid "High"
-msgstr ""
+msgstr "Высокі"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:25
 #, jsrealm
 msgid "Maximum"
-msgstr ""
+msgstr "Максімальны"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:34
 #, jsrealm
 msgid "View"
-msgstr ""
+msgstr "Пагляд"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:44
 #, jsrealm
 msgid "Quality"
-msgstr ""
+msgstr "Якасць"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:54
 #, jsrealm
 msgid "Enable Yandex Panoramas"
-msgstr ""
+msgstr "Уключыць Яндэкс Панарамы"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:63
 #, jsrealm
 msgid "Yandex Panoramas API key"
-msgstr ""
+msgstr "Ключ API для Яндэкс Панарамы"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:72
 #, jsrealm
 msgid "Enable Google Street View"
-msgstr ""
+msgstr "Уключыць Google Street View"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:81
 #, jsrealm
 msgid "Google Street View API key"
-msgstr ""
+msgstr "Ключ API для Google Street View"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:90
 #, jsrealm
 msgid "Extent"
-msgstr ""
+msgstr "Ахоп"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:31
 #, jsrealm
 msgid "Default terrain"
-msgstr ""
+msgstr "Стандартны рэльеф"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:89
 #, jsrealm
 msgid "Terrain"
-msgstr ""
+msgstr "Рэльеф"
 
 #: view.py:76
 #, server
 msgid "Display"
-msgstr ""
+msgstr "Адлюстраванне"
