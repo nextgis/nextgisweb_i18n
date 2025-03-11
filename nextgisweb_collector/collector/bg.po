@@ -1,118 +1,4 @@
-#: scope.py:8
-msgid "Collector"
-msgstr "Collector"
-
-#: scope.py:10
-msgid "Read"
-msgstr "Прочети"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
-msgid "Starting screen"
-msgstr "Начален екран"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
-msgid "NextGIS Collector user credentials"
-msgstr "Данни за достъп до NextGIS Collector"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
-msgid "User name"
-msgstr "Потребителско име"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
-msgid "Password"
-msgstr "Парола"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:20
-msgid "Project"
-msgstr "Проект"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:23
-msgid "List of forms"
-msgstr "Списък форми"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:24
-msgid "Map"
-msgstr "Карта"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
-msgid "Add item"
-msgstr "Добави елемент"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
-msgid "Add group"
-msgstr "Добави група"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
-msgid "Remove"
-msgstr "Премахни"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:120
-msgid "Display name"
-msgstr "Показвано име"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
-msgid "Visible"
-msgstr "Видим"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
-msgid "Editable"
-msgstr "Редактиращ се"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
-msgid "Syncable"
-msgstr "Синхронизиращ се"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
-msgid "Lifetime for tiles (in min)"
-msgstr "Срок съществуване на плочка (мин)"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
-msgid "Min zoom"
-msgstr "Минимално приближаване"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
-msgid "Max zoom"
-msgstr "Максимално приближаване"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
-msgid "Resource"
-msgstr "Ресурс"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:124
-msgid "Expanded"
-msgstr "Разширена"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:57
-msgid "Items"
-msgstr "Елементи"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
-msgid "You have no permissions to manage this section."
-msgstr "Нямате права да управлявате този раздел."
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
-msgid "Manage collectors"
-msgstr "Управляване на участници"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
-msgid "Give access to this project for the following collectors:"
-msgstr "Достъп до този проект да се даде на следните участници:"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
-msgid "Users"
-msgstr "Потребители"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:32
-msgid "Collectors"
-msgstr "Участници"
-
-#: api/collector_user.py:31
-msgid "Membership in group \"Administrators\" required!"
-msgstr "Изисква се членуване в групата \"Администратори\"!"
-
-#: api/collector_user.py:93 api/collector_user.py:120
+#: api.py:63 api.py:96
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
@@ -120,114 +6,164 @@ msgstr ""
 "За съжаление, не можете да добавите нов участник. Максимално достъпен за Вас "
 "брой участници в Уеб GIS е"
 
-#: models/model_db.py:39
+#: models/model_db.py:58
 msgid "Collector project"
 msgstr "Проект Collector"
 
-#: nodepkg/userMessages.js:5
-msgid "Delete collector?"
-msgstr "Премахване на участника?"
-
-#: nodepkg/userMessages.js:6
-msgid "Collector deleted"
-msgstr "Участникът е премахнат"
-
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:16
-#: nodepkg/collector-user-editor/CollectorUserEditor.js:18
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:47
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:18
 msgid "NextGIS ID"
 msgstr "NextGIS ID"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:22
-#: nodepkg/collector-user-editor/CollectorUserEditor.js:25
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:53
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
 msgid "Description"
 msgstr "Описание"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:28
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:59
 msgid "Added"
 msgstr "Добавен"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:56
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:79
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr "Не може да добавите нов участник. Максимален брой участници"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
-msgid "Collector users:"
-msgstr "Брой участници:"
-
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
-msgid "out of"
-msgstr "от"
-
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:18
-msgid "Each collector must have "
-msgstr "Всеки участник трябва да има "
-
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:19
-msgid "NextGIS ID account"
-msgstr "профил NextGIS ID"
-
-#: nodepkg/fields-form/NgIdTextBox.js:9
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:23
 msgid "The value entered is not valid"
 msgstr "Въведеното значение не е валидно"
 
-#: views/__init__.py:18
-msgid "Collector projects"
-msgstr "Проекти Collector"
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+msgid "Collector users:"
+msgstr "Брой участници:"
 
-#: views/settings.py:11
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+msgid "out of"
+msgstr "от"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:26
+msgid "Each collector must have "
+msgstr "Всеки участник трябва да има "
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:27
+msgid "NextGIS ID account"
+msgstr "профил NextGIS ID"
+
+#: nodepkg/resource-items/Item.ts:103
+msgid "Group members have errors"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:25
+msgid "Display name"
+msgstr "Показвано име"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:26
+msgid "Expanded"
+msgstr "Разширена"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:27
+msgid "Editable"
+msgstr "Редактиращ се"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:28
+msgid "Visible"
+msgstr "Видим"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:29
+msgid "Syncable"
+msgstr "Синхронизиращ се"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:30
+msgid "Lifetime for tiles (in min)"
+msgstr "Срок съществуване на плочка (мин)"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:31
+msgid "Resource"
+msgstr "Ресурс"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:32
+msgid "Zoom level visibility"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:33
+msgid "Min zoom"
+msgstr "Минимално приближаване"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:34
+msgid "Max zoom"
+msgstr "Максимално приближаване"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:35
+msgid "Layer"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:36
+msgid "Group"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:188
+msgid "Items"
+msgstr "Елементи"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:23
+msgid "Starting screen"
+msgstr "Начален екран"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:34
+msgid "NextGIS Collector user credentials"
+msgstr "Данни за достъп до NextGIS Collector"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:39
+msgid "User name"
+msgstr "Потребителско име"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:45
+msgid "Password"
+msgstr "Парола"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:55
+msgid "Project"
+msgstr "Проект"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:19
+msgid "List of forms"
+msgstr "Списък форми"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:23
+msgid "Map"
+msgstr "Карта"
+
+#: nodepkg/resource-users/CollectorUsersWidget.tsx:33
+msgid "Collectors"
+msgstr "Участници"
+
+#: nodepkg/userMessages.ts:5
+msgid "Delete collector?"
+msgstr "Премахване на участника?"
+
+#: nodepkg/userMessages.ts:6
+msgid "Collector deleted"
+msgstr "Участникът е премахнат"
+
+#: scope.py:9
+msgid "Collector"
+msgstr "Collector"
+
+#: scope.py:11
+msgid "Read"
+msgstr "Прочети"
+
+#: view.py:58
 msgid "List of collectors"
 msgstr "Списък на участници"
 
-#: views/settings.py:24
+#: view.py:70
 msgid "Create new collector"
 msgstr "Създаване на нов участник"
 
-#: views/settings.py:31
+#: view.py:77
 msgid "Edit collector"
 msgstr "Редактиране на участника"
 
-#~ msgid "Each collector must be first registered at ${ngid}"
-#~ msgstr "Всеки участник трябва да е регистриран в ${ngid}"
-
-#~ msgid "Cancel"
-#~ msgstr "Откажи"
-
-#~ msgid "The NextGIS ID is invalid!"
-#~ msgstr "NextGIS ID не е валиден!"
-
-#~ msgid "The NextGIS ID is required!"
-#~ msgstr "Необходим е NextGIS ID!"
-
-#~ msgid "New collector"
-#~ msgstr "Нов участник"
-
-#~ msgid "Save"
-#~ msgstr "Запази"
-
-#~ msgid "Create"
-#~ msgstr "Създай"
-
-#~ msgid "Edit"
-#~ msgstr "Редактирай"
-
-#~ msgid "Delete"
-#~ msgstr "Премахни"
-
-#~ msgid "Search Collector user..."
-#~ msgstr "Търсене на участник..."
-
-#~ msgid "Email"
-#~ msgstr "Email"
-
-#~ msgid "Your Collector users limit = 60"
-#~ msgstr "Вашият максимален брой участници е 60"
-
-#~ msgid "Deleting сollector"
-#~ msgstr "Премахване на участник"
-
-#~ msgid "Delete сollector?"
-#~ msgstr "Искате ли да премахнете участника?"
-
-#~ msgid "NextGIS Collector settings"
-#~ msgstr "Настройки на NextGIS Collector"
-
+#: view.py:101
+msgid "Collector projects"
+msgstr "Проекти Collector"

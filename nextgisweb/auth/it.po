@@ -1,40 +1,40 @@
-#: api.py:81
+#: api.py:82
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr ""
 
-#: api.py:88
+#: api.py:89
 msgid "Principal '%s' already exists."
 msgstr ""
 
-#: api.py:90
+#: api.py:91
 msgid "Principal with full name '%s' already exists."
 msgstr ""
 
-#: api.py:160
+#: api.py:161
 msgid "Password is not set."
 msgstr ""
 
-#: api.py:586
+#: api.py:605
 msgid "User '%s' can't be a member of a group."
 msgstr ""
 
-#: api.py:592
+#: api.py:611
 msgid "System principals can't be deleted."
 msgstr ""
 
-#: api.py:607
+#: api.py:626
 msgid "User is referenced with resources"
 msgstr ""
 
-#: api.py:609
+#: api.py:628
 msgid "Group is referenced with resources"
 msgstr ""
 
-#: api.py:615
+#: api.py:634
 msgid "Administrator required"
 msgstr ""
 
-#: api.py:616
+#: api.py:635
 msgid "The 'administrators' group must have at least one enabled member."
 msgstr ""
 
@@ -42,7 +42,7 @@ msgstr ""
 msgid "Administrator"
 msgstr "Amministratore"
 
-#: component.py:258
+#: component.py:261
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "È stato raggiunto il numero massimo di utenti. Il limite di utenti per il tuo"
@@ -61,26 +61,30 @@ msgid "User is disabled"
 msgstr "L'utente è disabilitato"
 
 #: exception.py:22
+msgid "Session authentication required"
+msgstr ""
+
+#: exception.py:27
 msgid "Invalid authorization link"
 msgstr ""
 
-#: model.py:92
+#: model.py:96
 msgid "Guest"
 msgstr "Ospite"
 
-#: model.py:93
+#: model.py:97
 msgid "Everyone"
 msgstr "Tutti"
 
-#: model.py:94
+#: model.py:98
 msgid "Authenticated"
 msgstr "Autenticati"
 
-#: model.py:95
+#: model.py:99
 msgid "Owner"
 msgstr "Proprietario"
 
-#: model.py:202
+#: model.py:206
 msgid "Administrators"
 msgstr "Amministratori"
 
@@ -115,7 +119,7 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:285 view.py:378
+#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:303 view.py:388
 msgid "Users"
 msgstr "Utenti"
 
@@ -135,25 +139,25 @@ msgstr "Descrizione"
 msgid "Sign in with {}"
 msgstr ""
 
-#: nodepkg/login/LoginForm.tsx:21 view.py:32
+#: nodepkg/login/LoginForm.tsx:21 view.py:36
 msgid "Sign in to Web GIS"
 msgstr "Accedi al Web GIS"
 
-#: nodepkg/login/LoginForm.tsx:22 template/session_invite.mako:16
+#: nodepkg/login/LoginForm.tsx:22 nodepkg/session-invite/SessionInvite.tsx:18
 msgid "Sign in"
 msgstr "Accedi"
 
-#: nodepkg/login/LoginForm.tsx:35 nodepkg/user-browse/UserBrowse.tsx:25
-#: nodepkg/user-widget/UserWidget.tsx:48
+#: nodepkg/login/LoginForm.tsx:37 nodepkg/settings-form/SettingsForm.tsx:53
+#: nodepkg/user-browse/UserBrowse.tsx:25 nodepkg/user-widget/UserWidget.tsx:48
 msgid "Login"
 msgstr "Nome utente"
 
-#: nodepkg/login/LoginForm.tsx:40 nodepkg/user-browse/UserBrowse.tsx:26
+#: nodepkg/login/LoginForm.tsx:42 nodepkg/user-browse/UserBrowse.tsx:26
 #: nodepkg/user-widget/UserWidget.tsx:55
 msgid "Password"
 msgstr "Password"
 
-#: nodepkg/login/LoginForm.tsx:94
+#: nodepkg/login/LoginForm.tsx:100
 msgid "or using login and password"
 msgstr ""
 
@@ -173,11 +177,11 @@ msgstr ""
 msgid "Account not bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.tsx:55 nodepkg/user-widget/UserWidget.tsx:106
+#: nodepkg/settings-form/SettingsForm.tsx:61 nodepkg/user-widget/UserWidget.tsx:106
 msgid "Language"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.tsx:71
+#: nodepkg/settings-form/SettingsForm.tsx:77
 msgid "Saved"
 msgstr ""
 
@@ -237,7 +241,7 @@ msgstr "Inserisci qui la nuova password"
 msgid "Authorization link"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidget.tsx:89 view.py:319 view.py:384
+#: nodepkg/user-widget/UserWidget.tsx:89 view.py:333 view.py:394
 msgid "Groups"
 msgstr "Gruppi"
 
@@ -280,27 +284,27 @@ msgid ""
 "in using this account instead of binding it."
 msgstr ""
 
-#: oauth.py:638
+#: oauth.py:639
 msgid "OAuth authorization error"
 msgstr "Errore di autenticazione OAuth"
 
-#: oauth.py:643
+#: oauth.py:644
 msgid "Invalid OAuth token"
 msgstr "Token OAuth invalido"
 
-#: oauth.py:648
+#: oauth.py:649
 msgid "Invalid OAuth scope"
 msgstr ""
 
-#: oauth.py:653
+#: oauth.py:654
 msgid "OAuth password grant type failed"
 msgstr ""
 
-#: oauth.py:658
+#: oauth.py:659
 msgid "OAuth token refresh failed"
 msgstr "Aggiornamento del token OAuth fallito"
 
-#: oauth.py:663
+#: oauth.py:664
 msgid "OAuth access token is expired"
 msgstr "Il token di accesso OAuth è scaduto"
 
@@ -312,50 +316,54 @@ msgstr ""
 msgid "Manage"
 msgstr ""
 
-#: permission.py:39 view.py:374
+#: permission.py:39 view.py:384
 msgid "Groups and users"
 msgstr ""
 
-#: view.py:57
+#: view.py:51
+msgid "Invitation session"
+msgstr ""
+
+#: view.py:68
 msgid "Session not found."
 msgstr ""
 
-#: view.py:61
+#: view.py:72
 msgid "Invalid 'expires' parameter."
 msgstr ""
 
-#: view.py:64
+#: view.py:74
 msgid "Session expired."
 msgstr ""
 
-#: view.py:83
+#: view.py:93
 msgid ""
 "Failed to authenticate using the given authorization link. Please check the "
 "link and contact the administrator."
 msgstr ""
 
-#: view.py:94
+#: view.py:104
 msgid "Usage of authorization link is forbidden for administrators."
 msgstr ""
 
-#: view.py:133
+#: view.py:143
 msgid "Team membership required"
 msgstr ""
 
-#: view.py:134
+#: view.py:144
 msgid ""
 "You are not a member of this Web GIS team. Contact Web GIS administrator and "
 "ask to be added to the team."
 msgstr ""
 
-#: view.py:278
+#: view.py:296
 msgid "User settings"
 msgstr "Impostazioni utente"
 
-#: view.py:301
+#: view.py:315
 msgid "Create new user"
 msgstr "Crea un nuovo utente"
 
-#: view.py:335
+#: view.py:345
 msgid "Create new group"
 msgstr "Crea un nuovo gruppo"

@@ -1,118 +1,4 @@
-#: scope.py:8
-msgid "Collector"
-msgstr "Kolektor"
-
-#: scope.py:10
-msgid "Read"
-msgstr "Číst"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
-msgid "Starting screen"
-msgstr "Úvodní obrazovka"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
-msgid "NextGIS Collector user credentials"
-msgstr "Přihlašovací údaje uživatele NextGIS Collector"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
-msgid "User name"
-msgstr "Uživatelské jméno"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
-msgid "Password"
-msgstr "Heslo"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:20
-msgid "Project"
-msgstr "Projekt"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:23
-msgid "List of forms"
-msgstr "Seznam formulářů"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:24
-msgid "Map"
-msgstr "Mapa"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
-msgid "Add item"
-msgstr "Přidat položku"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
-msgid "Add group"
-msgstr "Přidat skupinu"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
-msgid "Remove"
-msgstr "Odstranit"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:120
-msgid "Display name"
-msgstr "Zobrazované jméno"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
-msgid "Visible"
-msgstr "Viditelné"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
-msgid "Editable"
-msgstr "Upravitelné"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
-msgid "Syncable"
-msgstr "Synchronizovatelné"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
-msgid "Lifetime for tiles (in min)"
-msgstr "Životnost dlaždic (v min)"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
-msgid "Min zoom"
-msgstr "Min zoom"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
-msgid "Max zoom"
-msgstr "Max zoom "
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
-msgid "Resource"
-msgstr "Zdroj"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:124
-msgid "Expanded"
-msgstr "Rozšířený"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:57
-msgid "Items"
-msgstr "Položky"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
-msgid "You have no permissions to manage this section."
-msgstr "Ke správě této sekce nemáte žádná oprávnění."
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
-msgid "Manage collectors"
-msgstr "Spravujte sběratele"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
-msgid "Give access to this project for the following collectors:"
-msgstr "Poskytněte přístup k tomuto projektu následujícím kolektorům:"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
-msgid "Users"
-msgstr "Uživatelé"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:32
-msgid "Collectors"
-msgstr "Sběratelé"
-
-#: api/collector_user.py:31
-msgid "Membership in group \"Administrators\" required!"
-msgstr "Je vyžadováno členství ve skupině \"Administrátoři\"!"
-
-#: api/collector_user.py:93 api/collector_user.py:120
+#: api.py:63 api.py:96
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
@@ -120,111 +6,164 @@ msgstr ""
 "Bohužel nemůžete přidat nového sběratele. Váš limit sběratelů ve webovém GIS "
 "je"
 
-#: models/model_db.py:39
+#: models/model_db.py:58
 msgid "Collector project"
 msgstr "Kolektorský projekt"
 
-#: nodepkg/userMessages.js:5
-msgid "Delete collector?"
-msgstr "Smazat collector?"
-
-#: nodepkg/userMessages.js:6
-msgid "Collector deleted"
-msgstr "Collector smazán"
-
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:16
-#: nodepkg/collector-user-editor/CollectorUserEditor.js:18
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:47
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:18
 msgid "NextGIS ID"
 msgstr "NextGIS ID"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:22
-#: nodepkg/collector-user-editor/CollectorUserEditor.js:25
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:53
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
 msgid "Description"
 msgstr "Popis"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:28
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:59
 msgid "Added"
 msgstr "Přidán"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:56
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:79
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr "Nemůžete přidat nového sběratele. Váš limit sběratelů"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
-msgid "Collector users:"
-msgstr "Uživatelé Collector:"
-
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
-msgid "out of"
-msgstr "mimo"
-
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:18
-msgid "Each collector must have "
-msgstr "Každý collector musí mít "
-
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:19
-msgid "NextGIS ID account"
-msgstr "Účet NextGIS ID"
-
-#: nodepkg/fields-form/NgIdTextBox.js:9
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:23
 msgid "The value entered is not valid"
 msgstr "Zadaná hodnota není platná"
 
-#: views/__init__.py:18
-msgid "Collector projects"
-msgstr "Kolektorský projekty"
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+msgid "Collector users:"
+msgstr "Uživatelé Collector:"
 
-#: views/settings.py:11
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+msgid "out of"
+msgstr "mimo"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:26
+msgid "Each collector must have "
+msgstr "Každý collector musí mít "
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:27
+msgid "NextGIS ID account"
+msgstr "Účet NextGIS ID"
+
+#: nodepkg/resource-items/Item.ts:103
+msgid "Group members have errors"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:25
+msgid "Display name"
+msgstr "Zobrazované jméno"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:26
+msgid "Expanded"
+msgstr "Rozšířený"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:27
+msgid "Editable"
+msgstr "Upravitelné"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:28
+msgid "Visible"
+msgstr "Viditelné"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:29
+msgid "Syncable"
+msgstr "Synchronizovatelné"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:30
+msgid "Lifetime for tiles (in min)"
+msgstr "Životnost dlaždic (v min)"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:31
+msgid "Resource"
+msgstr "Zdroj"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:32
+msgid "Zoom level visibility"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:33
+msgid "Min zoom"
+msgstr "Min zoom"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:34
+msgid "Max zoom"
+msgstr "Max zoom "
+
+#: nodepkg/resource-items/ItemsWidget.tsx:35
+msgid "Layer"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:36
+msgid "Group"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:188
+msgid "Items"
+msgstr "Položky"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:23
+msgid "Starting screen"
+msgstr "Úvodní obrazovka"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:34
+msgid "NextGIS Collector user credentials"
+msgstr "Přihlašovací údaje uživatele NextGIS Collector"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:39
+msgid "User name"
+msgstr "Uživatelské jméno"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:45
+msgid "Password"
+msgstr "Heslo"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:55
+msgid "Project"
+msgstr "Projekt"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:19
+msgid "List of forms"
+msgstr "Seznam formulářů"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:23
+msgid "Map"
+msgstr "Mapa"
+
+#: nodepkg/resource-users/CollectorUsersWidget.tsx:33
+msgid "Collectors"
+msgstr "Sběratelé"
+
+#: nodepkg/userMessages.ts:5
+msgid "Delete collector?"
+msgstr "Smazat collector?"
+
+#: nodepkg/userMessages.ts:6
+msgid "Collector deleted"
+msgstr "Collector smazán"
+
+#: scope.py:9
+msgid "Collector"
+msgstr "Kolektor"
+
+#: scope.py:11
+msgid "Read"
+msgstr "Číst"
+
+#: view.py:58
 msgid "List of collectors"
 msgstr "Seznam sběratelů"
 
-#: views/settings.py:24
+#: view.py:70
 msgid "Create new collector"
 msgstr "Vytvořit nového collector"
 
-#: views/settings.py:31
+#: view.py:77
 msgid "Edit collector"
 msgstr "Upravit sběratel"
 
-#~ msgid "Your Collector users limit = 60"
-#~ msgstr "Váš počet uživatelů kolektorů = 60"
-
-#~ msgid "Each collector must be first registered at ${ngid}"
-#~ msgstr "Každý sběratel musí být nejprve zaregistrován na ${ngid}"
-
-#~ msgid "Cancel"
-#~ msgstr "Zrušení"
-
-#~ msgid "The NextGIS ID is invalid!"
-#~ msgstr "ID NextGIS je neplatné!"
-
-#~ msgid "New collector"
-#~ msgstr "Nový sběratel"
-
-#~ msgid "Save"
-#~ msgstr "Uložit"
-
-#~ msgid "Create"
-#~ msgstr "Vytvořit"
-
-#~ msgid "Edit"
-#~ msgstr "Upravit"
-
-#~ msgid "Delete"
-#~ msgstr "Vymazat"
-
-#~ msgid "Search Collector user..."
-#~ msgstr "Hledat uživatele kolektoru..."
-
-#~ msgid "Email"
-#~ msgstr "E-mailem"
-
-#~ msgid "Deleting сollector"
-#~ msgstr "Mazání kolektoru"
-
-#~ msgid "Delete сollector?"
-#~ msgstr "Smazat kolektor?"
-
-#~ msgid "NextGIS Collector settings"
-#~ msgstr "Nastavení NextGIS Collector"
-
+#: view.py:101
+msgid "Collector projects"
+msgstr "Kolektorský projekty"

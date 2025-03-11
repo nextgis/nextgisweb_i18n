@@ -1,32 +1,26 @@
 #: exception.py:7
-#, server
-msgid "Conversion from {} format not configured"
-msgstr ""
-
-#: exception.py:15
-#, server
 msgid "Conversion failed"
 msgstr ""
 
-#: exception.py:16
-#, server
+#: exception.py:8
 msgid ""
 "Unable to convert the file into 3D Tiles. There is some problem with the file"
 " or it may be corrupted during upload."
 msgstr ""
 
-#: model.py:37 nodepkg/editor-widget/EditorWidget.js:47 view.py:17
-#, jsrealm, server
+#: model.py:42 nodepkg/editor-widget/EditorWidget.js:47 view.py:18
 msgid "3D tileset"
 msgstr "Набор 3D плочки"
 
-#: model.py:56
-#, python-format, server
+#: model.py:61 model.py:87
 msgid "Filename '%s' is not valid."
 msgstr ""
 
+#: model.py:168
+msgid "No SRS in .las file"
+msgstr ""
+
 #: nodepkg/editor-widget/EditorWidget.js:11
-#, jsrealm
 msgid ""
 "3D Tiles in ZIP archives and LAS/LAZ files are supported. File names in a ZIP"
 " archive must contain only ASCII characters. LAS/LAZ files will be converted "
@@ -34,16 +28,13 @@ msgid ""
 msgstr ""
 
 #: nodepkg/editor-widget/EditorWidget.js:33
-#, jsrealm
 msgid "With terrain height"
 msgstr "С височина на терена"
 
 #: nodepkg/editor-widget/EditorWidget.js:35
-#, jsrealm
 msgid "Z offset"
 msgstr "Отклонение Z"
 
-#: view.py:23
-#, server
+#: view.py:24
 msgid "Export"
 msgstr "Експортиране"

@@ -1,157 +1,147 @@
-#: lockable_feature.py:60
-msgid "Additional basemaps"
-msgstr "附加底图"
-
-#: lockable_feature.py:93
+#: lockable_feature.py:94
 msgid "Field data collection"
 msgstr "现场数据收集"
 
-#: lockable_feature.py:101
+#: lockable_feature.py:102
 msgid "Use on other websites (CORS)"
 msgstr "在其他网站（CORS）上使用"
 
-#: lockable_feature.py:122
+#: lockable_feature.py:123
 msgid "Custom domain and branding"
 msgstr "自定义组织的域名和注册"
 
-#: lockable_feature.py:135
+#: lockable_feature.py:136
 msgid "Custom SRS"
 msgstr "自定义坐标系统"
 
-#: lockable_feature.py:147
+#: lockable_feature.py:148
 msgid "Improved performance"
 msgstr "改善性能"
 
-#: lockable_feature.py:154
+#: lockable_feature.py:155
 msgid "Access management"
 msgstr "访问管理权限设置"
 
-#: lockable_feature.py:229
+#: lockable_feature.py:228
 msgid "Technical support"
 msgstr "技术支持"
 
-#: lockable_feature.py:234
+#: lockable_feature.py:233
 msgid "On-demand backup restore"
 msgstr "按需备份还原"
 
-#: lockable_feature.py:255
+#: lockable_feature.py:254
 msgid "Tile caching"
 msgstr "瓦片缓存"
 
-#: lockable_feature.py:285
-msgid "Data editing on web maps"
-msgstr "Web地图上的数据编辑"
+#: nodepkg/hook.ts:54
+msgid "of"
+msgstr "......的"
 
-#: lockable_feature.py:311
-msgid "Annotations on web maps"
-msgstr "Web地图上的注释"
+#: nodepkg/hook.ts:55
+msgid "Available"
+msgstr "可用的"
 
-#: nodepkg/include.js:11 nodepkg/upgrade-button/index.js:28 view.py:15
+#: nodepkg/hook.ts:56
+msgid "Unavailable"
+msgstr "不可用"
+
+#: nodepkg/hook.ts:57
+msgid "Unlimited"
+msgstr "不限"
+
+#: nodepkg/include.ts:9 nodepkg/upgrade-button/UpgradeButton.tsx:49 view.py:17
 msgid "Plan and features"
 msgstr "计划和要素"
 
-#: nodepkg/plan-and-features/index.js:22 nodepkg/upgrade-button/index.js:58
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:27
+#: nodepkg/upgrade-button/UpgradeButton.tsx:61
 msgid "Your plan — "
 msgstr "您的计划—"
 
-#: nodepkg/plan-and-features/index.js:27 nodepkg/resource-widget/base.js:22
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:36
+#: nodepkg/resource-widget/base.tsx:26
 msgid "Change plan"
 msgstr "更换计划"
 
-#: nodepkg/plan-and-features/index.js:55
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:63
 msgid "More about plans"
 msgstr "更多关于计划"
 
-#: nodepkg/qgis-banner/QgisBanner.js:23
+#: nodepkg/qgis-banner/QgisBanner.tsx:27
 msgid "Easy start with QGIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:26
+#: nodepkg/qgis-banner/QgisBanner.tsx:30
 msgid ""
 "Use the NextGIS Connect plugin for QGIS to upload your data and create "
 "interactive maps."
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:33
+#: nodepkg/qgis-banner/QgisBanner.tsx:37
 msgid "Install the NextGIS Connect plugin for QGIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:37
+#: nodepkg/qgis-banner/QgisBanner.tsx:41
 msgid "Connect the plugin to your Web GIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:39
+#: nodepkg/qgis-banner/QgisBanner.tsx:43
 msgid "Upload your layers and projects to your Web GIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:56
+#: nodepkg/qgis-banner/QgisBanner.tsx:60
 msgid "Learn more"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:64
+#: nodepkg/qgis-banner/QgisBanner.tsx:68
 msgid "Hide"
 msgstr ""
 
-#: nodepkg/resource-widget/base.js:20 service_plan.py:303
+#: nodepkg/resource-widget/base.tsx:24 service_plan.py:311
 msgid "{} feature is not available on your plan."
 msgstr "{} 要素在您的计划中不可用。"
 
-#: nodepkg/resource-widget/base.js:21
+#: nodepkg/resource-widget/base.tsx:25
 msgid "These features are not available on your plan:"
 msgstr ""
 
-#: nodepkg/summary.js:17
-msgid "of"
-msgstr "......的"
-
-#: nodepkg/summary.js:18
-msgid "Available"
-msgstr "可用的"
-
-#: nodepkg/summary.js:19
-msgid "Unavailable"
-msgstr "不可用"
-
-#: nodepkg/summary.js:20
-msgid "Unlimited"
-msgstr "不限"
-
-#: nodepkg/upgrade-button/index.js:67
+#: nodepkg/upgrade-button/UpgradeButton.tsx:69
 msgid "Upgrade"
 msgstr "优化"
 
-#: service_plan.py:99
+#: service_plan.py:96
 msgid "Number of maps and layers"
 msgstr "地图和图层的数目"
 
-#: service_plan.py:100
+#: service_plan.py:97
 msgid "Storage limit"
 msgstr "存储限制"
 
-#: service_plan.py:101
+#: service_plan.py:98
 msgid "User limit"
 msgstr "用户限制"
 
-#: service_plan.py:106
+#: service_plan.py:105
 msgid "GPS trackers"
 msgstr "GPS追踪器"
 
-#: service_plan.py:117
+#: service_plan.py:118
 msgid "Maximum file upload"
 msgstr "上传文件的最大量"
 
-#: service_plan.py:118
+#: service_plan.py:119
 msgid "Maximum raster layer"
 msgstr "栅格图层的最大尺寸"
 
-#: service_plan.py:296
+#: service_plan.py:304
 msgid "Plan upgrade required"
 msgstr "需要升级计划"
 
-#: service_plan.py:300
+#: service_plan.py:308
 msgid "This is not available on your plan."
 msgstr "在您的计划中，这是不可用的"
 
-#: service_plan.py:311
+#: service_plan.py:319
 msgid "To use this feature, please upgrade."
 msgstr ""

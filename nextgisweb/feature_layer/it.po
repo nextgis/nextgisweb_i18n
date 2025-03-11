@@ -1,45 +1,28 @@
-#: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: nodepkg/attribute-editor/index.ts:7 view.py:222
-msgid "Attributes"
-msgstr "Attributi"
-
-#: amd/ngw-feature-layer/FieldsDisplayWidget.js:178
-msgid "N/A"
-msgstr "N/A"
-
-#: amd/ngw-feature-layer/GeometryInfoWidget.js:9
-msgid "Geometry"
-msgstr ""
-
-#: api.py:93
+#: api.py:99 api_identify.py:27
 msgid "Geometry is not valid."
 msgstr "Geometria invalida."
 
-#: api.py:335
+#: api.py:347
 msgid "Unknown spatial reference system"
 msgstr ""
 
-#: api.py:408 api_export.py:121
+#: api.py:422 api_export.py:205
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "Parametro 'intersezione' geometria non è valido."
 
-#: api_export.py:89
-msgid "Output format is not provided."
-msgstr "Il formato di output non è stato fornito."
+#: api_export.py:111
+msgid "Couldn't add FID field '{}'. Such field already exists."
+msgstr ""
 
-#: api_export.py:91
-msgid "Format '%s' is not supported."
-msgstr "Il formato '%s' non è supportato."
-
-#: api_export.py:146
+#: api_export.py:244
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
 
-#: api_export.py:159
+#: api_export.py:258
 msgid "Failed to reproject 'intersects' geometry."
 msgstr ""
 
-#: api_export.py:301
+#: api_export.py:426
 msgid "File name parameter '{}' is not valid."
 msgstr ""
 
@@ -65,105 +48,89 @@ msgstr ""
 msgid "Unable to restore the #{} feature as it is not deleted."
 msgstr ""
 
-#: favorite.py:5 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:56
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:39
 msgid "Feature table"
 msgstr "Tabella attributi"
 
-#: model.py:163
+#: model.py:174
 msgid "Field not found (ID=%d)."
 msgstr "Campo non trovato (ID=%d)."
 
-#: model.py:174
+#: model.py:185
 msgid "Field name is forbidden: '{}'. Please remove or rename it."
 msgstr ""
 
-#: model.py:236
+#: model.py:257
 msgid "Versioning not supported"
 msgstr ""
 
-#: nodepkg/attribute-editor/AttributeEditor.tsx:32
+#: nodepkg/attribute-editor/AttributeEditor.tsx:34
 msgid "Set field value to NULL (No data)"
 msgstr "Imposta il valore del campo come NULL (no data)"
 
-#: nodepkg/attribute-editor/AttributeEditor.tsx:33
+#: nodepkg/attribute-editor/AttributeEditor.tsx:35
 msgid "There are no attributes in the vector layer"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:177
+#: nodepkg/attribute-editor/plugin.ts:10 view.py:179
+msgid "Attributes"
+msgstr "Attributi"
+
+#: nodepkg/export-form/ExportForm.tsx:204
 msgid "Resources"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:199
+#: nodepkg/export-form/ExportForm.tsx:226
 msgid "Format"
 msgstr "Formato"
 
-#: nodepkg/export-form/ExportForm.tsx:212
+#: nodepkg/export-form/ExportForm.tsx:239
 msgid "SRS"
 msgstr "SR"
 
-#: nodepkg/export-form/ExportForm.tsx:217
+#: nodepkg/export-form/ExportForm.tsx:244
 msgid "Encoding"
 msgstr "Codifica"
 
-#: nodepkg/export-form/ExportForm.tsx:231
+#: nodepkg/export-form/ExportForm.tsx:258
 msgid "FID field"
 msgstr "Campo FID"
 
-#: nodepkg/export-form/ExportForm.tsx:235
+#: nodepkg/export-form/ExportForm.tsx:262
 msgid "Use field display names instead of keynames"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:241
-#: nodepkg/fields-widget/FieldsWidget.tsx:167
+#: nodepkg/export-form/ExportForm.tsx:268
+#: nodepkg/fields-widget/FieldsWidget.tsx:171
 msgid "Fields"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:247
+#: nodepkg/export-form/ExportForm.tsx:274
 msgid "Limit by extent"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:253
+#: nodepkg/export-form/ExportForm.tsx:280
 msgid "Filter text"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:257
+#: nodepkg/export-form/ExportForm.tsx:284
 msgid "Zip archive"
 msgstr "Archivio Zip"
 
-#: nodepkg/export-form/ExportForm.tsx:300
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:34
+#: nodepkg/export-form/ExportForm.tsx:327
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
 msgid "Save"
 msgstr "Salva"
-
-#: nodepkg/export-form/ExtentInput.tsx:6
-msgid "deg."
-msgstr ""
-
-#: nodepkg/export-form/ExtentInput.tsx:9
-msgid "Left"
-msgstr ""
-
-#: nodepkg/export-form/ExtentInput.tsx:10
-msgid "Bottom"
-msgstr ""
-
-#: nodepkg/export-form/ExtentInput.tsx:11
-msgid "Right"
-msgstr ""
-
-#: nodepkg/export-form/ExtentInput.tsx:12
-msgid "Top"
-msgstr ""
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:18
 msgid "Cancel"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
 msgid "Are you sure?"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
 msgid "Unsaved changes will be lost if you close the window."
 msgstr ""
 
@@ -175,49 +142,57 @@ msgstr ""
 msgid "No changes to save"
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:33
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:39
 msgid "Loading..."
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:35
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
+msgid "OK"
+msgstr ""
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:42
 msgid "Reset"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:24
+#: nodepkg/feature-grid/FeatureGrid.tsx:22
 msgid "Open table settings"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:25
+#: nodepkg/feature-grid/FeatureGrid.tsx:23
 msgid "Refresh table"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:24
+#: nodepkg/feature-grid/FeatureGridActions.tsx:26
 msgid "Open"
 msgstr "Apri"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:25
+#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+msgid "Open on a new page"
+msgstr ""
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:28
 msgid "Delete"
 msgstr "Eliminazione"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:26
+#: nodepkg/feature-grid/FeatureGridActions.tsx:29
 msgid "Edit"
 msgstr "Modifica"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+#: nodepkg/feature-grid/FeatureGridActions.tsx:30
 msgid "Edit on a new page"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:29
+#: nodepkg/feature-grid/FeatureGridActions.tsx:32
 msgid "Search..."
 msgstr "Cerca..."
 
-#: nodepkg/feature-grid/FeatureTable.tsx:95
+#: nodepkg/feature-grid/FeatureTable.tsx:94
 #: nodepkg/feature-grid/component/TableConfigModal.tsx:53
 msgid "Last changed"
 msgstr ""
 
-#: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:117 view.py:128
-#: view.py:217
+#: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:82 view.py:92
+#: view.py:174
 msgid "Save as"
 msgstr "Salva come"
 
@@ -269,47 +244,47 @@ msgstr ""
 msgid "Not used"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:115
+#: nodepkg/fields-widget/FieldsWidget.tsx:118
 msgid "Field"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:56
+#: nodepkg/geometry-info/GeometryInfo.tsx:46
 msgid "Load geometry info..."
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:65
+#: nodepkg/geometry-info/GeometryInfo.tsx:55
 msgid "Failed to get information about the geometry"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:75
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:34
 msgid "Perimeter"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:76
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:35
 msgid "Length"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:84
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:43
 msgid "Area"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:92
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:52
 msgid "Geometry type"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:100
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:60
 msgid "Extent (xMin)"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:104
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:64
 msgid "Extent (yMin)"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:108
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:68
 msgid "Extent (xMax)"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:112
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:72
 msgid "Extent (yMax)"
 msgstr ""
 
@@ -333,11 +308,11 @@ msgid ""
 "latest state."
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:64
+#: nodepkg/settings-widget/SettingsWidget.tsx:65
 msgid "Settings"
 msgstr ""
 
-#: template/resource_section_fields.mako:21 view.py:206
+#: template/resource_section_fields.mako:21 view.py:163
 msgid "Table"
 msgstr "Tabella"
 
@@ -402,15 +377,15 @@ msgstr ""
 msgid "Invalid range"
 msgstr ""
 
-#: view.py:78 view.py:95
+#: view.py:55 view.py:70
 msgid "Feature #%d"
 msgstr "Elemento #%d"
 
-#: view.py:136
+#: view.py:99
 msgid "MVT Vector Tiles"
 msgstr "Tiles vettoriali MVT"
 
-#: view.py:137
+#: view.py:100
 msgid ""
 "The Mapbox Vector Tile is an efficient encoding for map data into vector "
 "tiles that can be rendered dynamically."
@@ -418,6 +393,6 @@ msgstr ""
 "Le tiles vettoriali di Mapbox sono un metodo di codifica efficiente e possono"
 " essere visualizzate dinamicamente come vettori."
 
-#: view.py:200
+#: view.py:158
 msgid "Features"
 msgstr "Elementi"

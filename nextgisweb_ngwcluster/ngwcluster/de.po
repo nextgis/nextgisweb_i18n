@@ -1,157 +1,147 @@
-#: lockable_feature.py:60
-msgid "Additional basemaps"
-msgstr ""
-
-#: lockable_feature.py:93
+#: lockable_feature.py:94
 msgid "Field data collection"
 msgstr ""
 
-#: lockable_feature.py:101
+#: lockable_feature.py:102
 msgid "Use on other websites (CORS)"
 msgstr ""
 
-#: lockable_feature.py:122
+#: lockable_feature.py:123
 msgid "Custom domain and branding"
 msgstr ""
 
-#: lockable_feature.py:135
+#: lockable_feature.py:136
 msgid "Custom SRS"
 msgstr ""
 
-#: lockable_feature.py:147
+#: lockable_feature.py:148
 msgid "Improved performance"
 msgstr ""
 
-#: lockable_feature.py:154
+#: lockable_feature.py:155
 msgid "Access management"
 msgstr ""
 
-#: lockable_feature.py:229
+#: lockable_feature.py:228
 msgid "Technical support"
 msgstr ""
 
-#: lockable_feature.py:234
+#: lockable_feature.py:233
 msgid "On-demand backup restore"
 msgstr ""
 
-#: lockable_feature.py:255
+#: lockable_feature.py:254
 msgid "Tile caching"
 msgstr ""
 
-#: lockable_feature.py:285
-msgid "Data editing on web maps"
+#: nodepkg/hook.ts:54
+msgid "of"
+msgstr "von"
+
+#: nodepkg/hook.ts:55
+msgid "Available"
 msgstr ""
 
-#: lockable_feature.py:311
-msgid "Annotations on web maps"
-msgstr ""
+#: nodepkg/hook.ts:56
+msgid "Unavailable"
+msgstr "Nicht verfügbar"
 
-#: nodepkg/include.js:11 nodepkg/upgrade-button/index.js:28 view.py:15
+#: nodepkg/hook.ts:57
+msgid "Unlimited"
+msgstr "nicht eingeschränkt"
+
+#: nodepkg/include.ts:9 nodepkg/upgrade-button/UpgradeButton.tsx:49 view.py:17
 msgid "Plan and features"
 msgstr ""
 
-#: nodepkg/plan-and-features/index.js:22 nodepkg/upgrade-button/index.js:58
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:27
+#: nodepkg/upgrade-button/UpgradeButton.tsx:61
 msgid "Your plan — "
 msgstr "Ihr Plan: "
 
-#: nodepkg/plan-and-features/index.js:27 nodepkg/resource-widget/base.js:22
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:36
+#: nodepkg/resource-widget/base.tsx:26
 msgid "Change plan"
 msgstr "Plan ändern"
 
-#: nodepkg/plan-and-features/index.js:55
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:63
 msgid "More about plans"
 msgstr "Über Pläne weiterlesen"
 
-#: nodepkg/qgis-banner/QgisBanner.js:23
+#: nodepkg/qgis-banner/QgisBanner.tsx:27
 msgid "Easy start with QGIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:26
+#: nodepkg/qgis-banner/QgisBanner.tsx:30
 msgid ""
 "Use the NextGIS Connect plugin for QGIS to upload your data and create "
 "interactive maps."
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:33
+#: nodepkg/qgis-banner/QgisBanner.tsx:37
 msgid "Install the NextGIS Connect plugin for QGIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:37
+#: nodepkg/qgis-banner/QgisBanner.tsx:41
 msgid "Connect the plugin to your Web GIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:39
+#: nodepkg/qgis-banner/QgisBanner.tsx:43
 msgid "Upload your layers and projects to your Web GIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:56
+#: nodepkg/qgis-banner/QgisBanner.tsx:60
 msgid "Learn more"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.js:64
+#: nodepkg/qgis-banner/QgisBanner.tsx:68
 msgid "Hide"
 msgstr ""
 
-#: nodepkg/resource-widget/base.js:20 service_plan.py:303
+#: nodepkg/resource-widget/base.tsx:24 service_plan.py:311
 msgid "{} feature is not available on your plan."
 msgstr ""
 
-#: nodepkg/resource-widget/base.js:21
+#: nodepkg/resource-widget/base.tsx:25
 msgid "These features are not available on your plan:"
 msgstr ""
 
-#: nodepkg/summary.js:17
-msgid "of"
-msgstr "von"
-
-#: nodepkg/summary.js:18
-msgid "Available"
-msgstr ""
-
-#: nodepkg/summary.js:19
-msgid "Unavailable"
-msgstr "Nicht verfügbar"
-
-#: nodepkg/summary.js:20
-msgid "Unlimited"
-msgstr "nicht eingeschränkt"
-
-#: nodepkg/upgrade-button/index.js:67
+#: nodepkg/upgrade-button/UpgradeButton.tsx:69
 msgid "Upgrade"
 msgstr "Hochstufen"
 
-#: service_plan.py:99
+#: service_plan.py:96
 msgid "Number of maps and layers"
 msgstr ""
 
-#: service_plan.py:100
+#: service_plan.py:97
 msgid "Storage limit"
 msgstr ""
 
-#: service_plan.py:101
+#: service_plan.py:98
 msgid "User limit"
 msgstr ""
 
-#: service_plan.py:106
+#: service_plan.py:105
 msgid "GPS trackers"
 msgstr ""
 
-#: service_plan.py:117
+#: service_plan.py:118
 msgid "Maximum file upload"
 msgstr ""
 
-#: service_plan.py:118
+#: service_plan.py:119
 msgid "Maximum raster layer"
 msgstr ""
 
-#: service_plan.py:296
+#: service_plan.py:304
 msgid "Plan upgrade required"
 msgstr ""
 
-#: service_plan.py:300
+#: service_plan.py:308
 msgid "This is not available on your plan."
 msgstr ""
 
-#: service_plan.py:311
+#: service_plan.py:319
 msgid "To use this feature, please upgrade."
 msgstr ""

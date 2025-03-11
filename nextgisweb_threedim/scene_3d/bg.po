@@ -1,170 +1,128 @@
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
-#, amd
-msgid "Add item"
-msgstr "Добави елемент"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
-#, amd
-msgid "Add group"
-msgstr "Добави група"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
-#, amd
-msgid "Remove"
-msgstr "Премахни"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:63
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:97
-#: nodepkg/basemaps-widget/BasemapsWidget.tsx:54
-#: nodepkg/terrains-widget/TerrainsWidget.tsx:24
-#, amd, jsrealm
-msgid "Display name"
-msgstr "Показвано име"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:67
-#, amd
-msgid "Visible"
-msgstr "Видим"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
-#, amd
-msgid "Select classification layer"
-msgstr "Избери слой за класификация"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:74
-#, amd
-msgid "Classification layer"
-msgstr "Слой за класификация"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:78
-#, amd
-msgid "3D tileset color"
-msgstr "Цвят на 3D плочки"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
-#, amd
-msgid "Style resource"
-msgstr "Ресурс на стил"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:101
-#, amd
-msgid "Expanded"
-msgstr "Разширена"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:95
-#, amd
-msgid "Items"
-msgstr "Елементи"
-
-#: model/scene_3d.py:26 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:64
-#: view.py:70
-#, jsrealm, server
+#: model/scene_3d.py:30 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:65
+#: view.py:71
 msgid "3D scene"
 msgstr "3D сцена"
 
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:54
+#: nodepkg/items-widget/ItemsWidget.tsx:29
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:24
+msgid "Display name"
+msgstr "Показвано име"
+
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
-#, jsrealm
 msgid "Default basemap"
 msgstr ""
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:64
-#, jsrealm
 msgid "Opacity"
 msgstr "Непрозрачност"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:69
+#: nodepkg/items-widget/ItemsWidget.tsx:28
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:34
-#, jsrealm
 msgid "Resource"
 msgstr "Ресурс"
 
-#: nodepkg/basemaps-widget/BasemapsWidget.tsx:125
-#, jsrealm
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:135
 msgid "Basemaps"
 msgstr "Базови карти"
 
+#: nodepkg/items-widget/Item.ts:104
+msgid "Group members have errors"
+msgstr ""
+
+#: nodepkg/items-widget/ItemsWidget.tsx:26
+msgid "Visible"
+msgstr "Видим"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:27
+msgid "Expanded"
+msgstr "Разширена"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:30
+msgid "3D tileset color"
+msgstr "Цвят на 3D плочки"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:31
+msgid "Classification layer"
+msgstr "Слой за класификация"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:33
+msgid "Layer"
+msgstr ""
+
+#: nodepkg/items-widget/ItemsWidget.tsx:34
+msgid "Group"
+msgstr ""
+
+#: nodepkg/items-widget/ItemsWidget.tsx:185
+msgid "Items"
+msgstr "Елементи"
+
 #: nodepkg/settings-widget/SettingsWidget.tsx:16
-#, jsrealm
 msgid "Globe"
 msgstr "Кълбо"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:17
-#, jsrealm
 msgid "Plane"
 msgstr "Плоскост"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:21
-#, jsrealm
 msgid "Minimum"
 msgstr "Минимално"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:22
-#, jsrealm
 msgid "Low"
 msgstr "Низко"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:23
-#, jsrealm
 msgid "Medium"
 msgstr "Средно"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:24
-#, jsrealm
 msgid "High"
 msgstr "Високо"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:25
-#, jsrealm
 msgid "Maximum"
 msgstr "Максимално"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:34
-#, jsrealm
 msgid "View"
 msgstr "Преглед"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:44
-#, jsrealm
 msgid "Quality"
 msgstr "Качество"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:54
-#, jsrealm
 msgid "Enable Yandex Panoramas"
 msgstr "Включи Панорами на Яндекс"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:63
-#, jsrealm
 msgid "Yandex Panoramas API key"
 msgstr "API ключ на Яндекс Панорами"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:72
-#, jsrealm
 msgid "Enable Google Street View"
 msgstr "Включи Google Street View"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:81
-#, jsrealm
 msgid "Google Street View API key"
 msgstr "API ключ на Google Street View"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:90
-#, jsrealm
 msgid "Extent"
 msgstr "Обхват"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:31
-#, jsrealm
 msgid "Default terrain"
 msgstr ""
 
-#: nodepkg/terrains-widget/TerrainsWidget.tsx:89
-#, jsrealm
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:95
 msgid "Terrain"
 msgstr "Терен"
 
-#: view.py:76
-#, server
+#: view.py:77
 msgid "Display"
 msgstr "Показване"

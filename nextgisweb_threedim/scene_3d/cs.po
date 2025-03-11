@@ -1,170 +1,128 @@
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
-#, amd
-msgid "Add item"
-msgstr "Přidat položku"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
-#, amd
-msgid "Add group"
-msgstr "Přidat skupinu"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
-#, amd
-msgid "Remove"
-msgstr "Odstranit"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:63
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:97
-#: nodepkg/basemaps-widget/BasemapsWidget.tsx:54
-#: nodepkg/terrains-widget/TerrainsWidget.tsx:24
-#, amd, jsrealm
-msgid "Display name"
-msgstr "Zobrazovaný název"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:67
-#, amd
-msgid "Visible"
-msgstr "Viditelný"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
-#, amd
-msgid "Select classification layer"
-msgstr "Vyberte klasifikační vrstvu"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:74
-#, amd
-msgid "Classification layer"
-msgstr "Klasifikační vrstva"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:78
-#, amd
-msgid "3D tileset color"
-msgstr "3D tileset barva"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
-#, amd
-msgid "Style resource"
-msgstr "Styl zdroje"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:101
-#, amd
-msgid "Expanded"
-msgstr "Rozšířený"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:95
-#, amd
-msgid "Items"
-msgstr "Položka"
-
-#: model/scene_3d.py:26 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:64
-#: view.py:70
-#, jsrealm, server
+#: model/scene_3d.py:30 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:65
+#: view.py:71
 msgid "3D scene"
 msgstr "3D scéna"
 
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:54
+#: nodepkg/items-widget/ItemsWidget.tsx:29
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:24
+msgid "Display name"
+msgstr "Zobrazovaný název"
+
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
-#, jsrealm
 msgid "Default basemap"
 msgstr ""
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:64
-#, jsrealm
 msgid "Opacity"
 msgstr "Opacita"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:69
+#: nodepkg/items-widget/ItemsWidget.tsx:28
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:34
-#, jsrealm
 msgid "Resource"
 msgstr "Zdroj"
 
-#: nodepkg/basemaps-widget/BasemapsWidget.tsx:125
-#, jsrealm
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:135
 msgid "Basemaps"
 msgstr "Základní mapy"
 
+#: nodepkg/items-widget/Item.ts:104
+msgid "Group members have errors"
+msgstr ""
+
+#: nodepkg/items-widget/ItemsWidget.tsx:26
+msgid "Visible"
+msgstr "Viditelný"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:27
+msgid "Expanded"
+msgstr "Rozšířený"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:30
+msgid "3D tileset color"
+msgstr "3D tileset barva"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:31
+msgid "Classification layer"
+msgstr "Klasifikační vrstva"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:33
+msgid "Layer"
+msgstr ""
+
+#: nodepkg/items-widget/ItemsWidget.tsx:34
+msgid "Group"
+msgstr ""
+
+#: nodepkg/items-widget/ItemsWidget.tsx:185
+msgid "Items"
+msgstr "Položka"
+
 #: nodepkg/settings-widget/SettingsWidget.tsx:16
-#, jsrealm
 msgid "Globe"
 msgstr "Glóbus"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:17
-#, jsrealm
 msgid "Plane"
 msgstr "Letadlo"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:21
-#, jsrealm
 msgid "Minimum"
 msgstr "Minimum"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:22
-#, jsrealm
 msgid "Low"
 msgstr "Nízký"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:23
-#, jsrealm
 msgid "Medium"
 msgstr "Médium"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:24
-#, jsrealm
 msgid "High"
 msgstr "Vysoká"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:25
-#, jsrealm
 msgid "Maximum"
 msgstr "Maximální"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:34
-#, jsrealm
 msgid "View"
 msgstr "Zobrazit"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:44
-#, jsrealm
 msgid "Quality"
 msgstr "Kvalita"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:54
-#, jsrealm
 msgid "Enable Yandex Panoramas"
 msgstr "Povolit Yandex Panoramas"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:63
-#, jsrealm
 msgid "Yandex Panoramas API key"
 msgstr "Yandex Panoramas API key"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:72
-#, jsrealm
 msgid "Enable Google Street View"
 msgstr "Povolit Zobrazení Ulice Google"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:81
-#, jsrealm
 msgid "Google Street View API key"
 msgstr "Google Street View API klíč"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:90
-#, jsrealm
 msgid "Extent"
 msgstr "Míra"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:31
-#, jsrealm
 msgid "Default terrain"
 msgstr ""
 
-#: nodepkg/terrains-widget/TerrainsWidget.tsx:89
-#, jsrealm
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:95
 msgid "Terrain"
 msgstr "Terén"
 
-#: view.py:76
-#, server
+#: view.py:77
 msgid "Display"
 msgstr "Zobrazit"

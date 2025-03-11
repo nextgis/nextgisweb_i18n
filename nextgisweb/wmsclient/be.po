@@ -41,7 +41,7 @@ msgstr ""
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:34
 #, jsrealm
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:42
 #, jsrealm

@@ -1,11 +1,3 @@
-#: amd/ngw-feature-attachment/DisplayWidget.js:9
-#: nodepkg/attachment-bundle/ol-control/control.js:14
-#: nodepkg/attachment-bundle/ol-control/control.js:30
-#: nodepkg/attachment-bundle/plugin/plugin.ts:15
-#: nodepkg/attachment-editor/index.ts:8
-msgid "Attachments"
-msgstr "Přílohy"
-
 #: component.py:13
 msgid "Feature attachments"
 msgstr "Přílohy funkcí"
@@ -22,41 +14,49 @@ msgstr "Příloha s id = %d nebyla nalezena ve funkci s id = %d."
 msgid "The attachment may have been deleted or an error in the address."
 msgstr "Je možné, že byla odstraněna příloha nebo je chyba v adrese."
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:33
+#: nodepkg/attachment-bundle/ol-control/control.ts:22
+#: nodepkg/attachment-bundle/ol-control/control.ts:38
+#: nodepkg/attachment-bundle/plugin/plugin.ts:16
+#: nodepkg/attachment-editor/plugin.ts:8
+#: nodepkg/attachment-table-view/AttachmentTableView.tsx:23
+msgid "Attachments"
+msgstr "Přílohy"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:34
 msgid "Draw the geometry on the map to visualize the attachments to the objects"
 msgstr ""
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:132
 msgid "Object: "
 msgstr ""
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:139
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:141
 msgid "Identify object"
 msgstr ""
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:160
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:162
 msgid "Attachments: "
 msgstr ""
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:187
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:189
 msgid "No attachments"
 msgstr ""
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:253
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:255
 msgid "Download all attachments"
 msgstr ""
 
-#: nodepkg/attachment-editor/AttachmentEditor.tsx:166
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:160
 #: nodepkg/attachment-table/AttachmentTable.tsx:45
 msgid "File name"
 msgstr "Název souboru"
 
-#: nodepkg/attachment-editor/AttachmentEditor.tsx:172
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:166
 #: nodepkg/attachment-table/AttachmentTable.tsx:63
 msgid "Size"
 msgstr "Velikost"
 
-#: nodepkg/attachment-editor/AttachmentEditor.tsx:178
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:172
 #: nodepkg/attachment-table/AttachmentTable.tsx:78
 msgid "Description"
 msgstr "Popis"
@@ -89,35 +89,43 @@ msgstr ""
 msgid "Attachments imported - {i}, skipped - {s}."
 msgstr ""
 
-#: nodepkg/attachment-form/AttachmentForm.tsx:125
+#: nodepkg/attachment-form/AttachmentForm.tsx:126
 msgid ""
 "Upload a ZIP archive to batch append attachments to existing features. An "
 "archive must contain directories named after feature IDs. Each folder can "
 "contain one or many attachments. Duplicates will be ignored."
 msgstr ""
 
-#: nodepkg/attachment-form/AttachmentForm.tsx:134
+#: nodepkg/attachment-form/AttachmentForm.tsx:135
 msgid "Delete existing attachments"
 msgstr ""
 
-#: nodepkg/attachment-form/AttachmentForm.tsx:159
+#: nodepkg/attachment-form/AttachmentForm.tsx:160
 msgid "Import attachments from ZIP archive"
 msgstr ""
 
-#: nodepkg/attachment-form/AttachmentForm.tsx:171
+#: nodepkg/attachment-form/AttachmentForm.tsx:172
 msgid "Export"
 msgstr ""
 
-#: nodepkg/attachment-form/AttachmentForm.tsx:176
+#: nodepkg/attachment-form/AttachmentForm.tsx:177
 msgid "Import"
+msgstr ""
+
+#: nodepkg/attachment-table/AttachmentTable.tsx:55
+msgid "Unnamed"
 msgstr ""
 
 #: nodepkg/attachment-table/AttachmentTable.tsx:72
 msgid "MIME type"
 msgstr "Typ MIME"
 
-#: nodepkg/image-thumbnail/component/CarouselRender.tsx:23
+#: nodepkg/image-thumbnail/component/CarouselRender.tsx:32
 msgid "Toggle panorama viewer"
+msgstr ""
+
+#: nodepkg/image-thumbnail/component/CarouselSlide.tsx:70
+msgid "Failed to upload image"
 msgstr ""
 
 #: util.py:26
@@ -156,6 +164,6 @@ msgstr ""
 msgid "File '{}' isn't found in the archive."
 msgstr ""
 
-#: view.py:20 view.py:43
+#: view.py:21 view.py:45
 msgid "Manage attachments"
 msgstr ""

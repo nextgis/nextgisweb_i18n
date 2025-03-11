@@ -1,85 +1,87 @@
-#: amd/ngw-auth/template/UserWidget.hbs:23 template/login.mako:47
-msgid "Password"
-msgstr "Contraseña"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:37
-msgid "Point"
-msgstr "Punto"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:38
-msgid "Line"
-msgstr "Linea"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:39
-msgid "Polygon"
-msgstr "Polígono"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:40
-msgid "Multipoint"
-msgstr "Multipunto"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:41
-msgid "Multiline"
-msgstr "Multilinea"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:42
-msgid "Multipolygon"
-msgstr "Multipolígono"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:34
-msgid "Geometry type"
-msgstr "Tipo de geometría"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:10
-msgid "Connection"
-msgstr "Conexión"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:28
-msgid "Geometry column"
-msgstr "Columna de geometría"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:20
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:36
-msgid "Autodetect"
-msgstr "Detección automática"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:50
-msgid "Attribute definitions"
-msgstr "Definiciones de atributos"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:53
-msgid "Keep"
-msgstr "Mantenerse"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:54
-msgid "Reload"
-msgstr "Recargar"
-
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:27
-msgid "Version"
-msgstr "Versión"
-
-#: template/section_connection.mako:26
-msgid "Layer"
-msgstr "Capa"
-
-#: amd/ngw-wfsclient/WFSConnectionWidget.js:28 model.py:108
+#: model.py:138 nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:63
 msgid "WFS connection"
 msgstr "Conexión WFS"
 
-#: amd/ngw-wfsclient/WFSLayerWidget.js:40 model.py:344
+#: model.py:487 nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:242
 msgid "WFS layer"
 msgstr "Capa WFS"
 
-#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:10
-msgid "WFS path"
-msgstr "Ruta de WFS"
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:26
+msgid "URL"
+msgstr ""
 
-#: amd/ngw-wmsclient/template/ConnectionWidget.hbs:16
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:32
 msgid "Username"
 msgstr "Nombre de usuario"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:8
-msgid "Select WFS connection"
-msgstr "Seleccione la conexión WFS"
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:41
+msgid "Password"
+msgstr "Contraseña"
 
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:51
+msgid "Version"
+msgstr "Versión"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerStore.ts:23
+msgid "Fields need to be updated due to autodetection"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:20
+msgid "Autodetect"
+msgstr "Detección automática"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:71
+msgid "Point"
+msgstr "Punto"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:72
+msgid "Line"
+msgstr "Linea"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:73
+msgid "Polygon"
+msgstr "Polígono"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:74
+msgid "Multipoint"
+msgstr "Multipunto"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:75
+msgid "Multiline"
+msgstr "Multilinea"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:76
+msgid "Multipolygon"
+msgstr "Multipolígono"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:89
+msgid "Keep existing definitions untouched"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:90
+msgid "Update definitions from the server"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:168
+msgid "Connection"
+msgstr "Conexión"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:180
+msgid "Layer"
+msgstr "Capa"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:195
+msgid "SRID"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:203
+msgid "Geometry column"
+msgstr "Columna de geometría"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:217
+msgid "Geometry type"
+msgstr "Tipo de geometría"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:229
+msgid "Attribute definitions"
+msgstr "Definiciones de atributos"

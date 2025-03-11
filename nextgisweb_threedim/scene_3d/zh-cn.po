@@ -1,170 +1,128 @@
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
-#, amd
-msgid "Add item"
-msgstr "添加项"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
-#, amd
-msgid "Add group"
-msgstr "添加群组"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
-#, amd
-msgid "Remove"
-msgstr "删除"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:63
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:97
-#: nodepkg/basemaps-widget/BasemapsWidget.tsx:54
-#: nodepkg/terrains-widget/TerrainsWidget.tsx:24
-#, amd, jsrealm
-msgid "Display name"
-msgstr "显示名称"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:67
-#, amd
-msgid "Visible"
-msgstr "可见的"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
-#, amd
-msgid "Select classification layer"
-msgstr "选择分类图层"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:74
-#, amd
-msgid "Classification layer"
-msgstr "分类图层"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:78
-#, amd
-msgid "3D tileset color"
-msgstr "3D图砖集颜色"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
-#, amd
-msgid "Style resource"
-msgstr "资源样式"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:101
-#, amd
-msgid "Expanded"
-msgstr "已扩展"
-
-#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:95
-#, amd
-msgid "Items"
-msgstr "项"
-
-#: model/scene_3d.py:26 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:64
-#: view.py:70
-#, jsrealm, server
+#: model/scene_3d.py:30 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:65
+#: view.py:71
 msgid "3D scene"
 msgstr "3D场景"
 
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:54
+#: nodepkg/items-widget/ItemsWidget.tsx:29
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:24
+msgid "Display name"
+msgstr "显示名称"
+
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
-#, jsrealm
 msgid "Default basemap"
 msgstr ""
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:64
-#, jsrealm
 msgid "Opacity"
 msgstr "不透明度"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:69
+#: nodepkg/items-widget/ItemsWidget.tsx:28
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:34
-#, jsrealm
 msgid "Resource"
 msgstr "资源"
 
-#: nodepkg/basemaps-widget/BasemapsWidget.tsx:125
-#, jsrealm
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:135
 msgid "Basemaps"
 msgstr "底图"
 
+#: nodepkg/items-widget/Item.ts:104
+msgid "Group members have errors"
+msgstr ""
+
+#: nodepkg/items-widget/ItemsWidget.tsx:26
+msgid "Visible"
+msgstr "可见的"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:27
+msgid "Expanded"
+msgstr "已扩展"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:30
+msgid "3D tileset color"
+msgstr "3D图砖集颜色"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:31
+msgid "Classification layer"
+msgstr "分类图层"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:33
+msgid "Layer"
+msgstr ""
+
+#: nodepkg/items-widget/ItemsWidget.tsx:34
+msgid "Group"
+msgstr ""
+
+#: nodepkg/items-widget/ItemsWidget.tsx:185
+msgid "Items"
+msgstr "项"
+
 #: nodepkg/settings-widget/SettingsWidget.tsx:16
-#, jsrealm
 msgid "Globe"
 msgstr "地球仪"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:17
-#, jsrealm
 msgid "Plane"
 msgstr "平面"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:21
-#, jsrealm
 msgid "Minimum"
 msgstr "最小"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:22
-#, jsrealm
 msgid "Low"
 msgstr "低"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:23
-#, jsrealm
 msgid "Medium"
 msgstr "中等"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:24
-#, jsrealm
 msgid "High"
 msgstr "高度"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:25
-#, jsrealm
 msgid "Maximum"
 msgstr "最大程度"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:34
-#, jsrealm
 msgid "View"
 msgstr "视图"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:44
-#, jsrealm
 msgid "Quality"
 msgstr "质量"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:54
-#, jsrealm
 msgid "Enable Yandex Panoramas"
 msgstr "启用Yandex全景"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:63
-#, jsrealm
 msgid "Yandex Panoramas API key"
 msgstr "Yandex全景API密钥"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:72
-#, jsrealm
 msgid "Enable Google Street View"
 msgstr "启用Google街景"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:81
-#, jsrealm
 msgid "Google Street View API key"
 msgstr "Google街景API密钥"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:90
-#, jsrealm
 msgid "Extent"
 msgstr "范围"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:31
-#, jsrealm
 msgid "Default terrain"
 msgstr ""
 
-#: nodepkg/terrains-widget/TerrainsWidget.tsx:89
-#, jsrealm
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:95
 msgid "Terrain"
 msgstr "地形"
 
-#: view.py:76
-#, server
+#: view.py:77
 msgid "Display"
 msgstr "显示"

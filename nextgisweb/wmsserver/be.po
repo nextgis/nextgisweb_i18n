@@ -1,40 +1,28 @@
-#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:145 view.py:16
-#, jsrealm, server
+#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:130 view.py:17
 msgid "WMS service"
 msgstr ""
 
-#: nodepkg/service-widget/ServiceWidget.tsx:24
-#, jsrealm
-msgid "Not set"
-msgstr ""
-
-#: nodepkg/service-widget/ServiceWidget.tsx:56
-#, jsrealm
+#: nodepkg/service-widget/ServiceWidget.tsx:30
 msgid "Display name"
 msgstr "Адлюстроўваемае імя"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:61
-#, jsrealm
+#: nodepkg/service-widget/ServiceWidget.tsx:35
 msgid "Keyname"
 msgstr "Ключавое імя"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:66
-#, jsrealm
+#: nodepkg/service-widget/ServiceWidget.tsx:40
 msgid "Min scale"
 msgstr "Мінімальная маштаб"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:71
-#, jsrealm
+#: nodepkg/service-widget/ServiceWidget.tsx:45
 msgid "Max scale"
 msgstr "Максімальны маштаб"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:76
-#, jsrealm
+#: nodepkg/service-widget/ServiceWidget.tsx:50
 msgid "Resource"
 msgstr "Рэсурс"
 
-#: view.py:17
-#, server
+#: view.py:18
 msgid ""
 "Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
 " Consortium for serving georeferenced map images. These images are typically "

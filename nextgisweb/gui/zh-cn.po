@@ -40,28 +40,52 @@ msgstr ""
 msgid "Copy to clipboard"
 msgstr ""
 
+#: nodepkg/component/InputScaleDenom.tsx:6
+msgid "Not set"
+msgstr ""
+
 #: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:47
 msgid "Save"
 msgstr "保存"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:79
-msgid "From layer"
+#: nodepkg/component/extent-row/ExtentRow.tsx:55
+msgid "Left"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:87
+#: nodepkg/component/extent-row/ExtentRow.tsx:56
+msgid "Bottom"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:57
+msgid "Right"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:58
+msgid "Top"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:61
 msgid "West"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:98
+#: nodepkg/component/extent-row/ExtentRow.tsx:62
 msgid "South"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:107
+#: nodepkg/component/extent-row/ExtentRow.tsx:63
 msgid "East"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:116
+#: nodepkg/component/extent-row/ExtentRow.tsx:64
 msgid "North"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:121
+msgid "From layer"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:124
+msgid "Clean"
 msgstr ""
 
 #: nodepkg/component/language-select/LanguageSelect.tsx:15
@@ -80,7 +104,7 @@ msgstr ""
 msgid "Please confirm this action."
 msgstr ""
 
-#: nodepkg/confirm.ts:16 nodepkg/error/shared.js:69
+#: nodepkg/confirm.ts:16 nodepkg/error/shared.tsx:82
 msgid "OK"
 msgstr "OK"
 
@@ -88,9 +112,9 @@ msgstr "OK"
 msgid "Please confirm the deletion."
 msgstr ""
 
-#: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:78
-#: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:262
-#: nodepkg/model-browse/ModelBrowse.tsx:329 nodepkg/model-form/ModelForm.tsx:48
+#: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:80
+#: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:257
+#: nodepkg/model-browse/ModelBrowse.tsx:324 nodepkg/model-form/ModelForm.tsx:48
 msgid "Delete"
 msgstr "删除"
 
@@ -98,7 +122,7 @@ msgstr "删除"
 msgid "Failed to delete."
 msgstr ""
 
-#: nodepkg/edi-table/RowAction.tsx:73
+#: nodepkg/edi-table/RowAction.tsx:75
 msgid "Clone"
 msgstr ""
 
@@ -110,23 +134,35 @@ msgstr ""
 msgid "Key not unique"
 msgstr ""
 
-#: nodepkg/error/index.ts:44
+#: nodepkg/error/ErrorModal.tsx:46 nodepkg/error/extractError.ts:49
+msgid "Error"
+msgstr ""
+
+#: nodepkg/error/extractError.ts:40
 msgid "Unexpected error"
 msgstr "预想不到的错误"
 
-#: nodepkg/error/index.ts:48
+#: nodepkg/error/extractError.ts:44 nodepkg/error/extractError.ts:50
 msgid "Something went wrong."
 msgstr "出了点儿问题。"
 
-#: nodepkg/error/shared.js:54
+#: nodepkg/error/extractError.ts:54
+msgid "An unknown error occurred."
+msgstr ""
+
+#: nodepkg/error/shared.tsx:21
+msgid "Unknown Error"
+msgstr ""
+
+#: nodepkg/error/shared.tsx:67
 msgid "Technical information"
 msgstr "技术信息"
 
-#: nodepkg/error/shared.js:64
+#: nodepkg/error/shared.tsx:77
 msgid "Contact support"
 msgstr "联系支持"
 
-#: nodepkg/error/shared.js:73
+#: nodepkg/error/shared.tsx:86
 msgid "Back to home"
 msgstr "返回主页"
 
@@ -138,47 +174,51 @@ msgstr "需要的数值"
 msgid "The value entered is not valid"
 msgstr "输入的值无效"
 
+#: nodepkg/focus-table/FocusTable.tsx:23
+msgid "Hide details"
+msgstr ""
+
 #: nodepkg/focus-table/action.tsx:13
 msgid "Add"
 msgstr ""
 
-#: nodepkg/model-browse/ModelBrowse.tsx:109 nodepkg/model-form/ModelForm.tsx:68
+#: nodepkg/model-browse/ModelBrowse.tsx:115 nodepkg/model-form/ModelForm.tsx:68
 msgid "Confirmation"
 msgstr "确认"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:110
+#: nodepkg/model-browse/ModelBrowse.tsx:116
 msgid "Item deleted"
 msgstr "项已删除"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:112
+#: nodepkg/model-browse/ModelBrowse.tsx:118
 msgid "Items deleted"
 msgstr "项已删除"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:185
+#: nodepkg/model-browse/ModelBrowse.tsx:186
 msgid "The errors occurred during execution"
 msgstr "执行时发生的错误"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:189
+#: nodepkg/model-browse/ModelBrowse.tsx:190
 msgid "Failed to delete items:"
 msgstr "删除项失败"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:212
+#: nodepkg/model-browse/ModelBrowse.tsx:213
 msgid "Do you want to delete these items?"
 msgstr "您想要删除这些项？"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:252
+#: nodepkg/model-browse/ModelBrowse.tsx:247
 msgid "Edit"
 msgstr "更改"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:252
+#: nodepkg/model-browse/ModelBrowse.tsx:247
 msgid "View"
 msgstr ""
 
-#: nodepkg/model-browse/ModelBrowse.tsx:285
+#: nodepkg/model-browse/ModelBrowse.tsx:280
 msgid "Search"
 msgstr "搜索"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:307 nodepkg/model-form/ModelForm.tsx:46
+#: nodepkg/model-browse/ModelBrowse.tsx:302 nodepkg/model-form/ModelForm.tsx:46
 msgid "Create"
 msgstr "创建"
 

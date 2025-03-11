@@ -1,117 +1,110 @@
-#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
-#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
-msgid "Copy to clipboard"
-msgstr "复制到剪贴板"
-
-#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
-msgid "Copied"
-msgstr "已复制"
-
-#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
-msgid "Unable to copy"
-msgstr "无法复制"
-
-#: amd/ngw-pyramid/form/ScaleTextBox.js:13
-msgid "Enter the correct scale value, e.g. 1:"
-msgstr "请输入正确的比例值，比如 1："
-
-#: api.py:196
+#: api.py:264
 msgid "Storage management is not enabled on this server."
 msgstr ""
 
-#: api.py:406
+#: api.py:350
+msgid ""
+"Invalid font file name: '{}'. Only latin letters, digits, hyphens and "
+"underscores are allowed. The *.ttf or *.otf extension is required."
+msgstr ""
+
+#: api.py:358
+msgid "Font '{0}' is larger than {1} bytes."
+msgstr ""
+
+#: api.py:553
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
 
-#: api.py:534
+#: api.py:681
 msgid "Got an unsupported MIME type: '{}'."
 msgstr ""
 
-#: api.py:537
+#: api.py:684
 msgid "64K should be enough for a logo."
 msgstr ""
 
-#: api.py:669
+#: api.py:856
 msgid "Your Web GIS at nextgis.com"
 msgstr "您的GIS区域网在nextgis.com上"
 
-#: component.py:163
+#: component.py:167
 msgid "Request timeout"
 msgstr ""
 
-#: component.py:166
+#: component.py:170
 msgid "Enabled"
 msgstr "已启用"
 
-#: component.py:166
+#: component.py:170
 msgid "Disabled"
 msgstr "已关闭"
 
-#: exception.py:204
+#: exception.py:217
 msgid "Internal server error"
 msgstr "服务器内部错误"
 
-#: exception.py:205
+#: exception.py:218
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
 msgstr "服务器检测到内部错误或错误的配置，无法执行您的请求。"
 
-#: exception.py:238
+#: exception.py:251
 msgid "Bad request"
 msgstr "无效请求"
 
-#: exception.py:239
+#: exception.py:252
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
 msgstr "服务器无法执行请求，因为由于其他原因，它要么不正确，要么被曲解失真"
 
-#: exception.py:247
+#: exception.py:260
 msgid "Payment required"
 msgstr "必须支付"
 
-#: exception.py:248
+#: exception.py:261
 msgid "Access was denied for financial reasons."
 msgstr "由于财务原因，访问被关闭。"
 
-#: exception.py:253
+#: exception.py:266
 msgid "Forbidden"
 msgstr "禁止进入"
 
-#: exception.py:254
+#: exception.py:267
 msgid "Access was denied to this resource."
 msgstr "禁止访问该资源"
 
-#: exception.py:259
+#: exception.py:272
 msgid "Page not found"
 msgstr "页面未找到"
 
-#: exception.py:260
+#: exception.py:273
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
 msgstr "可能，页面被删除或地址中有错误。请更改地址或返回主页面，并尝试找到所需页面。"
 
-#: exception.py:268
+#: exception.py:281
 msgid "Unprocessable entity"
 msgstr "原始目标"
 
-#: exception.py:269
+#: exception.py:282
 msgid "Unable to process the contained instructions."
 msgstr "未能处理所包含的指令。"
 
-#: exception.py:274 exception.py:275
+#: exception.py:287 exception.py:288
 msgid "Not implemented"
 msgstr "尚未实现"
 
-#: exception.py:280
+#: exception.py:293
 msgid "Service unavailable"
 msgstr "服务不可用"
 
-#: exception.py:281
+#: exception.py:294
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "当前服务器不可用。请稍后再试。"
 
@@ -147,19 +140,31 @@ msgstr "请检查网络连接，并请稍后再试。"
 msgid "Unexpected server response"
 msgstr "意外的服务器响应"
 
-#: nodepkg/api/error.ts:59
+#: nodepkg/api/error.ts:60
 msgid "Unexpected error while processing long-running request."
 msgstr "处理长时间运行的请求时，出现意外错误。"
 
-#: nodepkg/api/error.ts:60
+#: nodepkg/api/error.ts:61
 msgid "Long-running request error"
 msgstr "长时间运行的请求错误"
 
-#: nodepkg/api/error.ts:67
+#: nodepkg/api/error.ts:68
 msgid "Long-running request was cancelled."
 msgstr "长时间运行的请求已取消。"
 
-#: nodepkg/company-logo.ts:32
+#: nodepkg/backup-browse/BackupBrowse.tsx:24
+msgid "Filename"
+msgstr "文件名"
+
+#: nodepkg/backup-browse/BackupBrowse.tsx:39
+msgid "Timestamp (UTC)"
+msgstr "时间（UTC）"
+
+#: nodepkg/backup-browse/BackupBrowse.tsx:45
+msgid "Size"
+msgstr "尺寸"
+
+#: nodepkg/company-logo.ts:31
 msgid "Get your own Web GIS at nextgis.com"
 msgstr "在nextgis.com网站上获取个人的GIS区域网"
 
@@ -202,11 +207,49 @@ msgstr ""
 "在此处可以自定义设置CSS样式风格。 \n"
 "它们将用于GIS区域网所有页面的重新设计和样式制定。"
 
+#: nodepkg/fonts/FontsPanel.tsx:29
+msgid ""
+"During operation, the Web GIS will restart. All existing requests will be "
+"aborted. Proceed?"
+msgstr ""
+
+#: nodepkg/fonts/FontsPanel.tsx:30
+msgid "Web GIS is restarting, please wait..."
+msgstr ""
+
+#: nodepkg/fonts/FontsPanel.tsx:31
+msgid "Custom"
+msgstr ""
+
+#: nodepkg/fonts/FontsPanel.tsx:31
+msgid "System"
+msgstr ""
+
+#: nodepkg/fonts/FontsPanel.tsx:105
+msgid "Font"
+msgstr ""
+
+#: nodepkg/fonts/FontsPanel.tsx:110
+msgid "Format"
+msgstr ""
+
+#: nodepkg/fonts/FontsPanel.tsx:115
+msgid "Type"
+msgstr ""
+
+#: nodepkg/fonts/FontsPanel.tsx:175
+msgid "Delete"
+msgstr ""
+
+#: nodepkg/fonts/FontsPanel.tsx:182
+msgid "Show system fonts"
+msgstr ""
+
 #: nodepkg/home-path/HomePath.tsx:4
 msgid "The home path setting is saved."
 msgstr "主页路径设置已保存。"
 
-#: nodepkg/i18n/testentry.ts:8 nodepkg/i18n/testentry.ts:12 test/test_i18n.py:15
+#: nodepkg/i18n/testentry.ts:9 nodepkg/i18n/testentry.ts:13 test/test_i18n.py:15
 msgctxt "test"
 msgid "unit"
 msgid_plural "units"
@@ -228,15 +271,15 @@ msgstr ""
 msgid "Sign out"
 msgstr "退出"
 
-#: nodepkg/layout/store.ts:48
+#: nodepkg/layout/store.ts:51
 msgid "Resources"
 msgstr "资源"
 
-#: nodepkg/layout/store.ts:54 view.py:169
+#: nodepkg/layout/store.ts:57 view.py:178
 msgid "Control panel"
 msgstr "控制面板"
 
-#: nodepkg/layout/store.ts:61
+#: nodepkg/layout/store.ts:64
 msgid "Help"
 msgstr "帮助"
 
@@ -248,41 +291,41 @@ msgstr "我们建议高45像素，宽低于200像素。"
 msgid "Only PNG and SVG images are supported."
 msgstr ""
 
-#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:28
 msgid "Measurement ID"
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:19
+#: nodepkg/metrics/MetricSettings.tsx:22
 msgid "Add"
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:20
+#: nodepkg/metrics/MetricSettings.tsx:23
 msgid "The setting is saved."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:21
+#: nodepkg/metrics/MetricSettings.tsx:24
 msgid "Reload the page to get them applied."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:25
+#: nodepkg/metrics/MetricSettings.tsx:28
 msgid "Add one or more counters to your Web GIS."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:26
+#: nodepkg/metrics/MetricSettings.tsx:29
 msgid ""
 "HTML code of these counters will be embeded into each page and will allow you"
 " to track user activity."
 msgstr ""
 
-#: nodepkg/metrics/YandexMetricaTab.tsx:31
+#: nodepkg/metrics/YandexMetricaTab.tsx:29
 msgid "Tag number"
 msgstr ""
 
-#: nodepkg/metrics/YandexMetricaTab.tsx:51
+#: nodepkg/metrics/YandexMetricaTab.tsx:48
 msgid "Webvisor"
 msgstr ""
 
-#: nodepkg/metrics/tab.ts:31
+#: nodepkg/metrics/tab.ts:32
 msgid "Google Analytics"
 msgstr ""
 
@@ -290,131 +333,119 @@ msgstr ""
 msgid "Yandex.Metrica"
 msgstr ""
 
-#: nodepkg/storage-summary/StorageSummary.js:96
-msgid "Kind of data"
-msgstr "数据种类"
-
-#: nodepkg/storage-summary/StorageSummary.js:102
-msgid "Volume"
-msgstr "数值"
-
-#: nodepkg/storage-summary/StorageSummary.js:118
-msgid "Total"
-msgstr "总计"
-
-#: nodepkg/storage-summary/StorageSummary.js:123
-msgid "of"
-msgstr "......的"
-
-#: nodepkg/storage-summary/StorageSummary.js:140
-msgid "Storage usage was fully estimated at %s and updated at %s."
-msgstr "存储使用情况以%s为单位进行了全面评估，并以%s为单位进行了更新。"
-
-#: nodepkg/storage-summary/StorageSummary.js:146
-msgid "Storage usage was fully estimated at %s."
-msgstr "存储使用情况以%s为单位进行了全面评估。"
-
-#: nodepkg/storage-summary/StorageSummary.js:151
-msgid "Storage usage hasn't been estimated yet but was updated at %s."
-msgstr "存储使用情况尚未评估，但已更新为%s"
-
-#: nodepkg/storage-summary/StorageSummary.js:155
-msgid "Storage usage hasn't been estimated yet."
-msgstr "存储使用情况尚未评估。"
-
-#: nodepkg/storage-summary/StorageSummary.js:160
+#: nodepkg/storage-summary/StorageSummary.tsx:23
 msgid "Some changes may be reflected only after full estimation."
 msgstr "一些变化，可能只在完全估计后，才会反映出来。"
 
-#: nodepkg/storage-summary/StorageSummary.js:184
+#: nodepkg/storage-summary/StorageSummary.tsx:24
+msgid "Storage usage was fully estimated at {f}."
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.tsx:25
+msgid "Storage usage was fully estimated at {f} and updated at {u}."
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.tsx:26
+msgid "Storage usage hasn't been estimated yet but was updated at {u}."
+msgstr ""
+
+#: nodepkg/storage-summary/StorageSummary.tsx:27
+msgid "Storage usage hasn't been estimated yet."
+msgstr "存储使用情况尚未评估。"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:115
+msgid "Kind of data"
+msgstr "数据种类"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:121
+msgid "Volume"
+msgstr "数值"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:141
+msgid "Total"
+msgstr "总计"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:146
+msgid "of"
+msgstr "......的"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:211
 msgid "Estimate storage"
 msgstr "评估存储"
 
-#: nodepkg/system-name-form/SystemNameForm.tsx:4
-msgid "The system name setting is saved."
-msgstr "系统名称设置已保存。"
+#: nodepkg/system-info/SystemInfo.tsx:58
+msgid "Package"
+msgstr "包（组）"
 
-#: nodepkg/update/index.js:56
-msgid "Critical updates are available"
-msgstr "重要更新可用"
+#: nodepkg/system-info/SystemInfo.tsx:59
+msgid "Version"
+msgstr "版本"
 
-#: nodepkg/update/index.js:57
-msgid "Updates are available"
-msgstr "更新可用"
+#: nodepkg/system-info/SystemInfo.tsx:76
+msgid "Platform"
+msgstr "平台"
 
-#: nodepkg/update/index.js:59
-msgid "Click to see what's new"
-msgstr "点击并查看新的内容是什么"
+#: nodepkg/system-info/SystemInfo.tsx:88
+msgid "Browser support"
+msgstr ""
 
-#: nodepkg/update/sysinfo.js:14
+#: nodepkg/system-info/SystemInfo.tsx:96
+msgid "or higher"
+msgstr ""
+
+#: nodepkg/system-info/SystemInfo.tsx:97
+msgid "Not supported"
+msgstr ""
+
+#: nodepkg/system-info/SystemInfo.tsx:103
+msgid "Your browser"
+msgstr ""
+
+#: nodepkg/system-info/SystemInfoUpdate.tsx:14
 msgid "Checking for updates..."
 msgstr "检查更新"
 
-#: nodepkg/update/sysinfo.js:15
+#: nodepkg/system-info/SystemInfoUpdate.tsx:15
 msgid "<a>Contact support</a> for update."
 msgstr "<a>联系支持</a> 用于安装更新"
 
-#: nodepkg/update/sysinfo.js:16
+#: nodepkg/system-info/SystemInfoUpdate.tsx:16
 msgid "Show details"
 msgstr "详情"
 
-#: nodepkg/update/sysinfo.js:20
+#: nodepkg/system-info/SystemInfoUpdate.tsx:20
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr "重要更新可用：{版本}. 建议请尽快更新。"
 
-#: nodepkg/update/sysinfo.js:21
+#: nodepkg/system-info/SystemInfoUpdate.tsx:21
 msgid "New version of {distribution} is available: {version}."
 msgstr "{distribution} 的新版本可用: {version}"
 
-#: nodepkg/update/sysinfo.js:22
+#: nodepkg/system-info/SystemInfoUpdate.tsx:22
 msgid "Your {distribution} is up-to-date."
 msgstr "您的 {distribution} 为最新版本。"
 
-#: permission.py:5 view.py:216 view.py:559
+#: nodepkg/system-name-form/SystemNameForm.tsx:4
+msgid "The system name setting is saved."
+msgstr "系统名称设置已保存。"
+
+#: nodepkg/update/index.tsx:24
+msgid "Critical updates are available"
+msgstr "重要更新可用"
+
+#: nodepkg/update/index.tsx:25
+msgid "Updates are available"
+msgstr "更新可用"
+
+#: nodepkg/update/index.tsx:32
+msgid "Click to see what's new"
+msgstr "点击并查看新的内容是什么"
+
+#: permission.py:5 view.py:283 view.py:634
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)（跨域资源共享）"
-
-#: template/backup.mako:5
-msgid "Filename"
-msgstr "文件名"
-
-#: template/backup.mako:6
-msgid "Timestamp (UTC)"
-msgstr "时间（UTC）"
-
-#: template/backup.mako:7
-msgid "Size"
-msgstr "尺寸"
-
-#: template/sysinfo.mako:34
-msgid "Package"
-msgstr "包（组）"
-
-#: template/sysinfo.mako:35
-msgid "Version"
-msgstr "版本"
-
-#: template/sysinfo.mako:65
-msgid "Platform"
-msgstr "平台"
-
-#: template/sysinfo.mako:80
-msgid "Browser support"
-msgstr ""
-
-#: template/sysinfo.mako:91
-msgid "or higher"
-msgstr ""
-
-#: template/sysinfo.mako:93
-msgid "Not supported"
-msgstr ""
-
-#: template/sysinfo.mako:105
-msgid "Your browser"
-msgstr ""
 
 #: template/uacompat.mako:3
 msgid "Browser compatibility test"
@@ -492,46 +523,50 @@ msgstr ""
 msgid "The '{}' query parameter has an invalid value."
 msgstr ""
 
-#: view.py:157
+#: view.py:167
 msgid "HTTP API documentation"
 msgstr ""
 
-#: view.py:182 view.py:568
+#: view.py:232 view.py:643
 msgid "System information"
 msgstr "系统信息"
 
-#: view.py:190 view.py:605
+#: view.py:242 view.py:649
+msgid "Font management"
+msgstr ""
+
+#: view.py:251 view.py:686
 msgid "Storage"
 msgstr "存储"
 
-#: view.py:201 view.py:612
+#: view.py:265 view.py:693
 msgid "Backups"
 msgstr "备份"
 
-#: view.py:228 view.py:580
+#: view.py:293 view.py:661
 msgid "Custom CSS"
 msgstr "自定义CSS"
 
-#: view.py:238 view.py:586
+#: view.py:302 view.py:667
 msgid "Custom logo"
 msgstr "徽标风格设置"
 
-#: view.py:248 view.py:574
+#: view.py:311 view.py:655
 msgid "Web GIS name"
 msgstr "GIS区域网名称"
 
-#: view.py:258 view.py:592
+#: view.py:320 view.py:673
 msgid "Home path"
 msgstr "主目录路径"
 
-#: view.py:268 view.py:598
+#: view.py:329 view.py:679
 msgid "Metrics and analytics"
 msgstr ""
 
-#: view.py:548
+#: view.py:623
 msgid "Info"
 msgstr "信息"
 
-#: view.py:549
+#: view.py:624
 msgid "Settings"
 msgstr "设置"

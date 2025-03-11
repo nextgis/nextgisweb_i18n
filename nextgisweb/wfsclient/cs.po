@@ -1,98 +1,87 @@
-msgid ""
-msgstr ""
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: NextGIS Web GUI\n"
-"Language: cs\n"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
-msgid "Password"
-msgstr "Heslo"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:28
-#: amd/ngw-vector-layer/template/Widget.hbs:79 model.py:77
-msgid "Point"
-msgstr "Bod"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:29
-#: amd/ngw-vector-layer/template/Widget.hbs:80 model.py:77
-msgid "Line"
-msgstr "Čára"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:30
-#: amd/ngw-vector-layer/template/Widget.hbs:81 model.py:77
-msgid "Polygon"
-msgstr "Polygon"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:31 model.py:78
-msgid "Multipoint"
-msgstr "Multibod"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:32 model.py:78
-msgid "Multiline"
-msgstr "Multičáry"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:33 model.py:78
-msgid "Multipolygon"
-msgstr "Multipolygony"
-
-#: amd/ngw-vector-layer/template/Widget.hbs:26
-#: amd/ngw-vector-layer/template/Widget.hbs:75 model.py:738
-msgid "Geometry type"
-msgstr "Typ geometrie"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:10
-msgid "Connection"
-msgstr "Spojení"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:28
-msgid "Geometry column"
-msgstr "Sloupec geometrie"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:20
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:36
-msgid "Autodetect"
-msgstr "Auto detekc"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:50
-msgid "Attribute definitions"
-msgstr "Definice atributů"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:53
-msgid "Keep"
-msgstr "Držet"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:54
-msgid "Reload"
-msgstr "Znovu načíst"
-
-#: template/sysinfo.mako:21
-msgid "Version"
-msgstr "Verze"
-
-#: amd/ngw-webmap/ui/LayersPanel/LayersPanel.hbs:8
-msgid "Layer"
-msgstr "Vrstva"
-
-#: amd/ngw-wfsclient/WFSConnectionWidget.js:28 model.py:108
+#: model.py:138 nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:63
 msgid "WFS connection"
 msgstr "Připojení WFS"
 
-#: amd/ngw-wfsclient/WFSLayerWidget.js:40 model.py:344
+#: model.py:487 nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:242
 msgid "WFS layer"
 msgstr "Vrstva WFS"
 
-#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:10
-msgid "WFS path"
-msgstr "Cesta WFS"
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:26
+msgid "URL"
+msgstr ""
 
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:38
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:32
 msgid "Username"
 msgstr "Uživatelské jméno"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:8
-msgid "Select WFS connection"
-msgstr "Vyberte připojení WFS"
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:41
+msgid "Password"
+msgstr "Heslo"
 
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:51
+msgid "Version"
+msgstr "Verze"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerStore.ts:23
+msgid "Fields need to be updated due to autodetection"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:20
+msgid "Autodetect"
+msgstr "Auto detekc"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:71
+msgid "Point"
+msgstr "Bod"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:72
+msgid "Line"
+msgstr "Čára"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:73
+msgid "Polygon"
+msgstr "Polygon"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:74
+msgid "Multipoint"
+msgstr "Multibod"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:75
+msgid "Multiline"
+msgstr "Multičáry"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:76
+msgid "Multipolygon"
+msgstr "Multipolygony"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:89
+msgid "Keep existing definitions untouched"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:90
+msgid "Update definitions from the server"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:168
+msgid "Connection"
+msgstr "Spojení"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:180
+msgid "Layer"
+msgstr "Vrstva"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:195
+msgid "SRID"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:203
+msgid "Geometry column"
+msgstr "Sloupec geometrie"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:217
+msgid "Geometry type"
+msgstr "Typ geometrie"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:229
+msgid "Attribute definitions"
+msgstr "Definice atributů"

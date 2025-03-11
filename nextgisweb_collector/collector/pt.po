@@ -1,228 +1,167 @@
-#: scope.py:8
-msgid "Collector"
-msgstr "Collector"
-
-#: scope.py:10
-msgid "Read"
-msgstr "Ler"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:10
-msgid "Starting screen"
-msgstr "Ecrã inicial"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:17
-msgid "NextGIS Collector user credentials"
-msgstr "Credenciais de utilizador do NextGIS Collector"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:28
-msgid "User name"
-msgstr "Nome do utilizador"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.hbs:34
-msgid "Password"
-msgstr "Senha"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:20
-msgid "Project"
-msgstr "Projeto"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:23
-msgid "List of forms"
-msgstr "Lista de formulários"
-
-#: amd/ngw-collector/resource/CollectorDetail/CollectorDetail.js:24
-msgid "Map"
-msgstr "Mapa"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
-msgid "Add item"
-msgstr "Adicionar Item"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
-msgid "Add group"
-msgstr "Adicionar grupo"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
-msgid "Remove"
-msgstr "Remover"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:63
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:120
-msgid "Display name"
-msgstr "Nome de exibição"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:67
-msgid "Visible"
-msgstr "Visível"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:72
-msgid "Editable"
-msgstr "Editável"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:77
-msgid "Syncable"
-msgstr "Sincronizável"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:84
-msgid "Lifetime for tiles (in min)"
-msgstr "Vida útil dos tiles (em min)"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:91
-msgid "Min zoom"
-msgstr "Zoom mínimo"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:98
-msgid "Max zoom"
-msgstr "Zoom máximo"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:104
-msgid "Resource"
-msgstr "Recurso"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:124
-msgid "Expanded"
-msgstr "Expandido"
-
-#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:57
-msgid "Items"
-msgstr "itens"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
-msgid "You have no permissions to manage this section."
-msgstr "Não tem permissão para gerir esta secção."
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
-msgid "Manage collectors"
-msgstr "Gerir collectors"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
-msgid "Give access to this project for the following collectors:"
-msgstr "Dar prmissão de acesso a este projeto aos seguintes collectors:"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
-msgid "Users"
-msgstr "Utilizadores"
-
-#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.js:32
-msgid "Collectors"
-msgstr "Collectors"
-
-#: api/collector_user.py:31
-msgid "Membership in group \"Administrators\" required!"
-msgstr ""
-
-#: api/collector_user.py:93 api/collector_user.py:120
+#: api.py:63 api.py:96
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
 msgstr ""
 
-#: models/model_db.py:39
+#: models/model_db.py:58
 msgid "Collector project"
 msgstr "Projeto de Collector"
 
-#: nodepkg/userMessages.js:5
-msgid "Delete collector?"
-msgstr ""
-
-#: nodepkg/userMessages.js:6
-msgid "Collector deleted"
-msgstr ""
-
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:16
-#: nodepkg/collector-user-editor/CollectorUserEditor.js:18
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:47
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:18
 msgid "NextGIS ID"
 msgstr "ID NextGIS"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:22
-#: nodepkg/collector-user-editor/CollectorUserEditor.js:25
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:53
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
 msgid "Description"
 msgstr "Descrição"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:28
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:59
 msgid "Added"
 msgstr "Adicionado"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.js:56
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:79
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr ""
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
-msgid "Collector users:"
-msgstr ""
-
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
-msgid "out of"
-msgstr ""
-
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:18
-msgid "Each collector must have "
-msgstr ""
-
-#: nodepkg/collector-users-message/CollectorUsersMessage.js:19
-msgid "NextGIS ID account"
-msgstr ""
-
-#: nodepkg/fields-form/NgIdTextBox.js:9
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:23
 msgid "The value entered is not valid"
 msgstr ""
 
-#: views/__init__.py:18
-msgid "Collector projects"
-msgstr "Projetos de Collector"
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+msgid "Collector users:"
+msgstr ""
 
-#: views/settings.py:11
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+msgid "out of"
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:26
+msgid "Each collector must have "
+msgstr ""
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:27
+msgid "NextGIS ID account"
+msgstr ""
+
+#: nodepkg/resource-items/Item.ts:103
+msgid "Group members have errors"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:25
+msgid "Display name"
+msgstr "Nome de exibição"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:26
+msgid "Expanded"
+msgstr "Expandido"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:27
+msgid "Editable"
+msgstr "Editável"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:28
+msgid "Visible"
+msgstr "Visível"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:29
+msgid "Syncable"
+msgstr "Sincronizável"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:30
+msgid "Lifetime for tiles (in min)"
+msgstr "Vida útil dos tiles (em min)"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:31
+msgid "Resource"
+msgstr "Recurso"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:32
+msgid "Zoom level visibility"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:33
+msgid "Min zoom"
+msgstr "Zoom mínimo"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:34
+msgid "Max zoom"
+msgstr "Zoom máximo"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:35
+msgid "Layer"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:36
+msgid "Group"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:188
+msgid "Items"
+msgstr "itens"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:23
+msgid "Starting screen"
+msgstr "Ecrã inicial"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:34
+msgid "NextGIS Collector user credentials"
+msgstr "Credenciais de utilizador do NextGIS Collector"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:39
+msgid "User name"
+msgstr "Nome do utilizador"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:45
+msgid "Password"
+msgstr "Senha"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:55
+msgid "Project"
+msgstr "Projeto"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:19
+msgid "List of forms"
+msgstr "Lista de formulários"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:23
+msgid "Map"
+msgstr "Mapa"
+
+#: nodepkg/resource-users/CollectorUsersWidget.tsx:33
+msgid "Collectors"
+msgstr "Collectors"
+
+#: nodepkg/userMessages.ts:5
+msgid "Delete collector?"
+msgstr ""
+
+#: nodepkg/userMessages.ts:6
+msgid "Collector deleted"
+msgstr ""
+
+#: scope.py:9
+msgid "Collector"
+msgstr "Collector"
+
+#: scope.py:11
+msgid "Read"
+msgstr "Ler"
+
+#: view.py:58
 msgid "List of collectors"
 msgstr "Lista de collectors"
 
-#: views/settings.py:24
+#: view.py:70
 msgid "Create new collector"
 msgstr ""
 
-#: views/settings.py:31
+#: view.py:77
 msgid "Edit collector"
 msgstr "Editar collector"
 
-#~ msgid "Your Collector users limit = 60"
-#~ msgstr "O limite de utilizadores do Collector = 60"
-
-#~ msgid "Each collector must be first registered at ${ngid}"
-#~ msgstr "Cada collector deve primeiro estar registrado em ${ngid}"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
-
-#~ msgid "The NextGIS ID is invalid!"
-#~ msgstr "O ID NextGIS não é válido!"
-
-#~ msgid "New collector"
-#~ msgstr "Novo collector"
-
-#~ msgid "Save"
-#~ msgstr "Guardar"
-
-#~ msgid "Create"
-#~ msgstr "Criar"
-
-#~ msgid "Edit"
-#~ msgstr "Editar"
-
-#~ msgid "Delete"
-#~ msgstr "Apagar"
-
-#~ msgid "Search Collector user..."
-#~ msgstr "Procurar utilizador collector..."
-
-#~ msgid "Email"
-#~ msgstr "E-mail"
-
-#~ msgid "Deleting сollector"
-#~ msgstr "A apagar сollector"
-
-#~ msgid "Delete сollector?"
-#~ msgstr "Apagar сollector?"
-
-#~ msgid "NextGIS Collector settings"
-#~ msgstr "Configurações do NextGIS Collector"
-
+#: view.py:101
+msgid "Collector projects"
+msgstr "Projetos de Collector"

@@ -1,85 +1,87 @@
-#: amd/ngw-wfsclient/WFSConnectionWidget.js:25 model.py:107
+#: model.py:138 nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:63
 msgid "WFS connection"
 msgstr "WFS връзка"
 
-#: amd/ngw-wfsclient/WFSLayerWidget.js:37 model.py:343
+#: model.py:487 nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:242
 msgid "WFS layer"
 msgstr "WFS слой"
 
-#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:10
-msgid "WFS path"
-msgstr "WFS адрес"
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:26
+msgid "URL"
+msgstr ""
 
-#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:16
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:32
 msgid "Username"
 msgstr "Потребителско име"
 
-#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:22
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:41
 msgid "Password"
 msgstr "Парола"
 
-#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:27
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:51
 msgid "Version"
 msgstr "Версия"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:8
-msgid "Select WFS connection"
-msgstr "Изберете WFS връзка"
+#: nodepkg/wfsclient-layer/WfsClientLayerStore.ts:23
+msgid "Fields need to be updated due to autodetection"
+msgstr ""
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:10
-msgid "Connection"
-msgstr "Връзка"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:16
-msgid "Layer"
-msgstr "Слой"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:20
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:36
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:20
 msgid "Autodetect"
 msgstr "Автоматично"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:28
-msgid "Geometry column"
-msgstr "Поле геометрия"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:34
-msgid "Geometry type"
-msgstr "Тип геометрия"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:37
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:71
 msgid "Point"
 msgstr "Точка"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:38
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:72
 msgid "Line"
 msgstr "Линия"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:39
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:73
 msgid "Polygon"
 msgstr "Полигон"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:40
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:74
 msgid "Multipoint"
 msgstr "Мултиточка"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:41
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:75
 msgid "Multiline"
 msgstr "Мултилиния"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:42
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:76
 msgid "Multipolygon"
 msgstr "Мултиполигон"
 
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:50
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:89
+msgid "Keep existing definitions untouched"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:90
+msgid "Update definitions from the server"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:168
+msgid "Connection"
+msgstr "Връзка"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:180
+msgid "Layer"
+msgstr "Слой"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:195
+msgid "SRID"
+msgstr ""
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:203
+msgid "Geometry column"
+msgstr "Поле геометрия"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:217
+msgid "Geometry type"
+msgstr "Тип геометрия"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:229
 msgid "Attribute definitions"
 msgstr "Описания на атрибутите"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:53
-msgid "Keep"
-msgstr "Съхрани"
-
-#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:54
-msgid "Reload"
-msgstr "Презареди"
-

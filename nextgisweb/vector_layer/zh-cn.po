@@ -1,4 +1,4 @@
-#: api.py:23 model.py:692
+#: api.py:23 model.py:709
 msgid "GDAL library failed to open file."
 msgstr "GDAL库打开文件失败."
 
@@ -6,316 +6,302 @@ msgstr "GDAL库打开文件失败."
 msgid "Vector layer features"
 msgstr "矢量图层要素"
 
-#: model.py:54 nodepkg/resource-widget/Widget.tsx:54
-#: nodepkg/resource-widget/Widget.tsx:177
+#: model.py:71 nodepkg/resource-widget/Widget.tsx:58
+#: nodepkg/resource-widget/Widget.tsx:195
 msgid "Point"
 msgstr "点"
 
-#: model.py:55 nodepkg/resource-widget/Widget.tsx:55
-#: nodepkg/resource-widget/Widget.tsx:178
+#: model.py:72 nodepkg/resource-widget/Widget.tsx:59
+#: nodepkg/resource-widget/Widget.tsx:196
 msgid "Line"
 msgstr "线"
 
-#: model.py:56 nodepkg/resource-widget/Widget.tsx:56
-#: nodepkg/resource-widget/Widget.tsx:179
+#: model.py:73 nodepkg/resource-widget/Widget.tsx:60
+#: nodepkg/resource-widget/Widget.tsx:197
 msgid "Polygon"
 msgstr "多边形"
 
-#: model.py:57 nodepkg/resource-widget/Widget.tsx:180
+#: model.py:74 nodepkg/resource-widget/Widget.tsx:198
 msgid "Multipoint"
 msgstr "多点式"
 
-#: model.py:58 nodepkg/resource-widget/Widget.tsx:181
+#: model.py:75 nodepkg/resource-widget/Widget.tsx:199
 msgid "Multiline"
 msgstr "多行的"
 
-#: model.py:59 nodepkg/resource-widget/Widget.tsx:182
+#: model.py:76 nodepkg/resource-widget/Widget.tsx:200
 msgid "Multipolygon"
 msgstr "多边形集"
 
-#: model.py:60 nodepkg/resource-widget/Widget.tsx:183
+#: model.py:77 nodepkg/resource-widget/Widget.tsx:201
 msgid "Point Z"
 msgstr "Z点"
 
-#: model.py:61 nodepkg/resource-widget/Widget.tsx:184
+#: model.py:78 nodepkg/resource-widget/Widget.tsx:202
 msgid "Line Z"
 msgstr "Z线"
 
-#: model.py:62 nodepkg/resource-widget/Widget.tsx:185
+#: model.py:79 nodepkg/resource-widget/Widget.tsx:203
 msgid "Polygon Z"
 msgstr "多边形Z"
 
-#: model.py:63 nodepkg/resource-widget/Widget.tsx:186
+#: model.py:80 nodepkg/resource-widget/Widget.tsx:204
 msgid "Multipoint Z"
 msgstr "Z点集"
 
-#: model.py:64 nodepkg/resource-widget/Widget.tsx:187
+#: model.py:81 nodepkg/resource-widget/Widget.tsx:205
 msgid "Multiline Z"
 msgstr "线集Z"
 
-#: model.py:65 nodepkg/resource-widget/Widget.tsx:188
+#: model.py:82 nodepkg/resource-widget/Widget.tsx:206
 msgid "Multipolygon Z"
 msgstr "多边形集Z"
 
-#: model.py:114 nodepkg/resource-widget/Widget.tsx:298
+#: model.py:131 nodepkg/resource-widget/Widget.tsx:343
 msgid "Vector layer"
 msgstr "矢量图层"
 
-#: model.py:134 nodepkg/resource-widget/Widget.tsx:106
-#: nodepkg/resource-widget/Widget.tsx:263
+#: model.py:153 nodepkg/resource-widget/Widget.tsx:112
+#: nodepkg/resource-widget/Widget.tsx:307
 msgid "Geometry type"
 msgstr "几何类型"
 
-#: model.py:135
+#: model.py:156
 msgid "Feature count"
 msgstr "要素数量"
 
-#: model.py:695
+#: model.py:712
 msgid "Unsupport OGR driver: %s."
 msgstr "不支持OGR的驱动程序：%s。"
 
-#: model.py:704
+#: model.py:721
 msgid "Dataset doesn't contain layers."
 msgstr "数据集不包含任何一图层"
 
-#: model.py:707
+#: model.py:724
 msgid "Dataset contains more than one layer."
 msgstr "数据集包含不少于一个图层。"
 
-#: model.py:712
+#: model.py:729
 msgid "Unable to open layer."
 msgstr "不可能打开图层"
 
-#: model.py:725
+#: model.py:742
 msgid "Layer doesn't contain coordinate system information."
 msgstr "图层不包含坐标系信息。"
 
-#: model.py:748
-msgid "Unknown 'fix_errors' value."
-msgstr "未知'fix_errors'值"
-
-#: model.py:756
-msgid "Unknown 'cast_geometry_type' value."
-msgstr "未知'cast_geometry_type' 值"
-
-#: model.py:761
-msgid "Unknown 'cast_is_multi' value."
-msgstr "未知'cast_is_multi'值"
-
-#: model.py:766
-msgid "Unknown 'cast_has_z' value."
-msgstr "未知参数值'cast_has_z'"
-
-#: model.py:771
-msgid "Unknown 'fid_source' value."
-msgstr ""
-
-#: model.py:794
-msgid "Unsupported geometry type."
-msgstr "不支持的几何类型"
-
-#: nodepkg/resource-widget/Store.tsx:168
+#: nodepkg/resource-widget/Store.tsx:176
 msgid "Confirm deletion of existing features"
 msgstr ""
 
-#: nodepkg/resource-widget/Store.tsx:175
+#: nodepkg/resource-widget/Store.tsx:183
 msgid "Confirm change of geometry type"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:33
+#: nodepkg/resource-widget/Widget.tsx:35
 msgid "Select a dataset"
 msgstr "请选择数据集"
 
-#: nodepkg/resource-widget/Widget.tsx:34
+#: nodepkg/resource-widget/Widget.tsx:36
 msgid ""
 "ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
 "supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:45
+#: nodepkg/resource-widget/Widget.tsx:39
+msgid "Files uploaded, post-processing on the server in progress..."
+msgstr ""
+
+#: nodepkg/resource-widget/Widget.tsx:49
 msgid "Whenever possible"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:46
+#: nodepkg/resource-widget/Widget.tsx:50
 msgid "Without losing data"
 msgstr "没有丢失数据"
 
-#: nodepkg/resource-widget/Widget.tsx:47
+#: nodepkg/resource-widget/Widget.tsx:51
 msgid "None"
 msgstr "无"
 
-#: nodepkg/resource-widget/Widget.tsx:53 nodepkg/resource-widget/Widget.tsx:62
-#: nodepkg/resource-widget/Widget.tsx:70
+#: nodepkg/resource-widget/Widget.tsx:57 nodepkg/resource-widget/Widget.tsx:66
+#: nodepkg/resource-widget/Widget.tsx:74
 msgid "Auto"
 msgstr "自动"
 
-#: nodepkg/resource-widget/Widget.tsx:63
+#: nodepkg/resource-widget/Widget.tsx:67
 msgid "Yes"
 msgstr "是"
 
-#: nodepkg/resource-widget/Widget.tsx:64
+#: nodepkg/resource-widget/Widget.tsx:68
 msgid "No"
 msgstr "否"
 
-#: nodepkg/resource-widget/Widget.tsx:71
+#: nodepkg/resource-widget/Widget.tsx:75
 msgid "Sequence"
 msgstr "序列"
 
-#: nodepkg/resource-widget/Widget.tsx:72
+#: nodepkg/resource-widget/Widget.tsx:76
 msgid "Field"
 msgstr "字段"
 
-#: nodepkg/resource-widget/Widget.tsx:98
+#: nodepkg/resource-widget/Widget.tsx:104
 msgid "Fix errors"
 msgstr "修复错误"
 
-#: nodepkg/resource-widget/Widget.tsx:102
+#: nodepkg/resource-widget/Widget.tsx:108
 msgid "Skip features with unfixable errors"
 msgstr "跳过具有不可修复错误的要素"
 
-#: nodepkg/resource-widget/Widget.tsx:114
-msgid "Only load features of the selected geometry type"
-msgstr "仅加载所选几何类型的要素"
+#: nodepkg/resource-widget/Widget.tsx:123
+msgid "Skip features with other geometry types"
+msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:118
+#: nodepkg/resource-widget/Widget.tsx:127
 msgid "Multi-geometry"
 msgstr "几何图形集"
 
-#: nodepkg/resource-widget/Widget.tsx:121
+#: nodepkg/resource-widget/Widget.tsx:130
 msgid "Z-coordinate"
 msgstr "Z-坐标"
 
-#: nodepkg/resource-widget/Widget.tsx:124
+#: nodepkg/resource-widget/Widget.tsx:133
 msgid "FID source"
 msgstr "FID资源"
 
-#: nodepkg/resource-widget/Widget.tsx:151
+#: nodepkg/resource-widget/Widget.tsx:169
 msgid "Load features from file"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:152
+#: nodepkg/resource-widget/Widget.tsx:170
 msgid "Create empty layer"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:154
+#: nodepkg/resource-widget/Widget.tsx:172
 msgid "Keep existing layer features"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:155
+#: nodepkg/resource-widget/Widget.tsx:173
 msgid "Change geometry type"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:156
+#: nodepkg/resource-widget/Widget.tsx:174
 msgid "Replace layer features from file"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:157
+#: nodepkg/resource-widget/Widget.tsx:175
 msgid "Delete all features from layer"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:173
+#: nodepkg/resource-widget/Widget.tsx:191
 msgid "current"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:251
+#: nodepkg/resource-widget/Widget.tsx:294
 msgid "Source layer"
 msgstr "源图层"
 
-#: nodepkg/resource-widget/Widget.tsx:287
+#: nodepkg/resource-widget/Widget.tsx:331
 msgid "Advanced options"
 msgstr "高级选项"
 
-#: ogrloader.py:311
+#: ogrloader.py:306
 msgid "Could not determine a geometry type."
 msgstr "无法确定几何类型。"
 
-#: ogrloader.py:313
+#: ogrloader.py:308
 msgid "Source layer contains no features satisfying the conditions."
 msgstr "源图层不包括符合条件的要素。"
 
-#: ogrloader.py:329
+#: ogrloader.py:326
 msgid "Field '%s' is out of int32 range."
 msgstr "字段'%s'超出int32范围。"
 
-#: ogrloader.py:337
+#: ogrloader.py:334
 msgid "Field '%s' contains non-unique or empty values."
 msgstr "字段'%s'包含非唯一值或空值。"
 
-#: ogrloader.py:354
+#: ogrloader.py:351
 msgid "Parameter 'fid_field' is missing."
 msgstr "无参数 'fid_field'"
 
-#: ogrloader.py:357
+#: ogrloader.py:354
 msgid "Fields %s not found."
 msgstr "字段%s未找到。"
 
-#: ogrloader.py:359
+#: ogrloader.py:356
 msgid "None of fields %s are integer."
 msgstr "图层%s中没有一个是整数。"
 
-#: ogrloader.py:374
+#: ogrloader.py:370
 msgid "Field '%s(?)' encoding is broken."
 msgstr "字段'%s(?)'编码被破坏。"
 
-#: ogrloader.py:379
+#: ogrloader.py:377
 msgid "Field name is forbidden: '%s'. Please remove or rename it."
 msgstr "字段名已被禁止：'%s'。 请将其删除或重命名。"
 
-#: ogrloader.py:412
+#: ogrloader.py:395
 msgid "Unsupported field type: %r."
 msgstr "不支持字段名：%r"
 
-#: ogrloader.py:509
+#: ogrloader.py:420
+msgid ""
+"The source layer has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr ""
+
+#: ogrloader.py:503
 msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
 msgstr "要素#%d有一个不能重新投影到目标坐标系的几何形状。"
 
-#: ogrloader.py:554
+#: ogrloader.py:549
 msgid "Vector layer cannot be written due to errors."
 msgstr "矢量图层由于错误，无法书写。"
 
-#: ogrloader.py:579
+#: ogrloader.py:575
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
 msgstr "要素 (seq. #%d)没有一个 FID字段 '%s'。"
 
-#: ogrloader.py:582
+#: ogrloader.py:579
 msgid "Feature (seq. #%d) FID field '%s' is null."
 msgstr "要素(seq. #%d) FID 字段 '%s' 为空。"
 
-#: ogrloader.py:603
-msgid "Feature #%d doesn't have geometry."
-msgstr "要素#%d不包括几何形状。"
-
-#: ogrloader.py:631 ogrloader.py:669
+#: ogrloader.py:626 ogrloader.py:665
 msgid "Feature #%d has multiple geometries satisfying the conditions."
 msgstr "要素#%d具有一些满足条件的几何形状"
 
-#: ogrloader.py:640
+#: ogrloader.py:636
 msgid "Feature #%d has unknown geometry type: %d (%s)."
 msgstr "要素#%d包括未知的几何形状类型：%d (%s)。"
 
-#: ogrloader.py:649
+#: ogrloader.py:645
 msgid "Feature #%d has unsuitable geometry type: %d (%s)."
 msgstr "要素#%d包括不适合的几何形状类型：%d (%s)。"
 
-#: ogrloader.py:684
-msgid "Feature #%d has unclosed rings."
-msgstr "要素#%d包括未闭合的环"
-
-#: ogrloader.py:701
+#: ogrloader.py:683
 msgid "Feature #%d has empty rings."
 msgstr ""
 
-#: ogrloader.py:715
+#: ogrloader.py:694
+msgid "Feature #%d has unclosed rings."
+msgstr "要素#%d包括未闭合的环"
+
+#: ogrloader.py:703
 msgid "Feature #%d has less than 3 points in a polygon ring."
 msgstr "要素#%d在多边形环中有少于3个点。"
 
-#: ogrloader.py:728
+#: ogrloader.py:716
+msgid "Feature #%d contains an empty linestring."
+msgstr ""
+
+#: ogrloader.py:722
 msgid "Feature #%d has less than 2 points in a linestring."
 msgstr "要素#%d在线中有少于2个点。"
 
-#: ogrloader.py:754
+#: ogrloader.py:739
 msgid "Feature #%d contains a broken encoding of field '%s'."
 msgstr "要素#%d包含字段'%s'的一个损坏的编码。"

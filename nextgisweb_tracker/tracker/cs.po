@@ -1,79 +1,17 @@
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:11
-msgid "Unique id (IMEI by default)"
-msgstr "Jedinečné ID (implicitně IMEI)"
-
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:17
-msgid "Description"
-msgstr "Popis"
-
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:24
-msgid "Device type"
-msgstr "Typ zařízení"
-
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:30
-msgid "Consumption, liters per 100 km (for reports)"
-msgstr "Spotřeba, litry na 100 km (pro zprávy)"
-
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:32
-msgid "Invalid consumption, should be from 0 to 100"
-msgstr "Neplatná spotřeba by měla být od 0 do 100"
-
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:43
-msgid "Tracker detail"
-msgstr "Detail trackeru"
-
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:47
-msgid "NextGIS software (Mobile, Collector)"
-msgstr "Software NextGIS (mobilní, sběratel)"
-
-#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:48
-msgid "ADM (ADM-50, ADM-100)"
-msgstr "ADM (ADM-50, ADM-100)"
-
-#: amd/ngw-tracker/webmap/map/utils.js:20 amd/ngw-tracker/webmap/map/utils.js:38
-msgid "Date"
-msgstr "Datum"
-
-#: amd/ngw-tracker/webmap/map/utils.js:29 amd/ngw-tracker/webmap/map/utils.js:40
-#: nodepkg/trackers-panel/TrackersPanel.js:188
-msgid "Time"
-msgstr "Čas"
-
-#: amd/ngw-tracker/webmap/map/utils.js:45
-msgid "Speed, km/h"
-msgstr "Rychlost, km/h"
-
-#: amd/ngw-tracker/webmap/map/utils.js:51
-msgid "Height, m"
-msgstr "Výška, m"
-
-#: amd/ngw-tracker/webmap/map/utils.js:57
-msgid "Course"
-msgstr "Kurs"
-
-#: amd/ngw-tracker/webmap/map/utils.js:63
-msgid "Satellites"
-msgstr ""
-
-#: amd/ngw-tracker/webmap/map/utils.js:69
-msgid "HDOP"
-msgstr ""
-
-#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:33 component.py:13
-#: nodepkg/reports/Reports.js:175 nodepkg/trackers-panel/TrackersPanel.js:272
-#: view/__init__.py:50
-msgid "Trackers"
-msgstr "Sledovače"
-
-#: api/device_types.py:15
+#: api/device_types.py:16
 msgid "NextGIS Tracker Hub is unavailable. Try later, please."
 msgstr "NextGIS Tracker Hub není k dispozici. Zkuste to prosím později."
 
-#: model.py:20
+#: component.py:15 nodepkg/reports/Reports.tsx:239
+#: nodepkg/trackers-panel/plugin.tsx:12 view/__init__.py:52
+msgid "Trackers"
+msgstr "Sledovače"
+
+#: model.py:21
 msgid "Trackers group"
 msgstr "Skupina sledovačů"
 
-#: model.py:31
+#: model.py:33
 msgid "Tracker"
 msgstr "Sledovač"
 
@@ -81,246 +19,319 @@ msgstr "Sledovač"
 msgid "Tracker UID is not unique"
 msgstr ""
 
-#: model.py:78
+#: model.py:76
 msgid ""
 "The '{}' attribute is immutable and cannot be changed once the tracker is "
 "created."
 msgstr ""
 
-#: nodepkg/reports/Reports.js:23 template/_consumption_fuel.mako:26
-#: template/_mileage.mako:20
+#: nodepkg/gpx-button/GpxButton.tsx:50
+msgid "Download GPX file"
+msgstr "Stáhnout soubor GPX"
+
+#: nodepkg/reports/Reports.tsx:53 template/_consumption_fuel.mako:24
+#: template/_mileage.mako:18
 msgid "Mileage"
 msgstr "Kilometry"
 
-#: nodepkg/reports/Reports.js:24
+#: nodepkg/reports/Reports.tsx:54
 msgid "Top speed"
 msgstr "Nejvyšší rychlost"
 
-#: nodepkg/reports/Reports.js:25
+#: nodepkg/reports/Reports.tsx:55
 msgid "Average speed"
 msgstr "Průměrná rychlost"
 
-#: nodepkg/reports/Reports.js:26
-msgid "Spent fuel"
-msgstr "Vyhořelé palivo"
+#: nodepkg/reports/Reports.tsx:56
+msgid "Fuel consumed"
+msgstr ""
 
-#: nodepkg/reports/Reports.js:27 nodepkg/trackers-panel/TrackersPanel.js:53
+#: nodepkg/reports/Reports.tsx:57 nodepkg/trackers-panel/TrackersPanel.tsx:60
 msgid "Stops"
 msgstr "Zastaví"
 
-#: nodepkg/reports/Reports.js:28 template/_gpx.mako:4
+#: nodepkg/reports/Reports.tsx:58
 msgid "GPX file"
 msgstr "Soubor GPX"
 
-#: nodepkg/reports/Reports.js:32 template/_avg_speed.mako:15
-#: template/_consumption_fuel.mako:21 template/_mileage.mako:15
-#: template/_top_speed.mako:15
+#: nodepkg/reports/Reports.tsx:62 template/_avg_speed.mako:13
+#: template/_consumption_fuel.mako:19 template/_mileage.mako:13
+#: template/_top_speed.mako:13
 msgid "Days"
 msgstr "Dny"
 
-#: nodepkg/reports/Reports.js:33 template/_avg_speed.mako:17
-#: template/_consumption_fuel.mako:23 template/_mileage.mako:17
-#: template/_top_speed.mako:17
+#: nodepkg/reports/Reports.tsx:63 template/_avg_speed.mako:15
+#: template/_consumption_fuel.mako:21 template/_mileage.mako:15
+#: template/_top_speed.mako:15
 msgid "Hours"
 msgstr "Hodiny"
 
-#: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
-#: nodepkg/trackers-panel/TrackersPanel.js:97
-#: nodepkg/trackers-panel/TrackersPanel.js:98
+#: nodepkg/reports/Reports.tsx:68 nodepkg/reports/Reports.tsx:69
+#: nodepkg/trackers-panel/TrackersPanel.tsx:128
+#: nodepkg/trackers-panel/TrackersPanel.tsx:129
 msgid "Unknown"
 msgstr ""
 
-#: nodepkg/reports/Reports.js:131
+#: nodepkg/reports/Reports.tsx:196
 msgid "Result"
 msgstr ""
 
-#: nodepkg/reports/Reports.js:142
+#: nodepkg/reports/Reports.tsx:204
 msgid "Settings"
 msgstr ""
 
-#: nodepkg/reports/Reports.js:146
+#: nodepkg/reports/Reports.tsx:208
 msgid "Report type"
 msgstr "Typ zprávy"
 
-#: nodepkg/reports/Reports.js:155 nodepkg/trackers-panel/TrackersPanel.js:262
+#: nodepkg/reports/Reports.tsx:218 nodepkg/trackers-panel/TrackersPanel.tsx:351
 msgid "Time range"
 msgstr "Časový rozsah"
 
-#: nodepkg/reports/Reports.js:166
+#: nodepkg/reports/Reports.tsx:230
 msgid "Group by"
 msgstr "Skupina vytvořená"
 
-#: nodepkg/reports/Reports.js:183
-msgid "Build report"
-msgstr "Sestava zprávy"
-
-#: nodepkg/tracker-activity/ChartHelper.js:44
-msgid "Count of packets per hour"
+#: nodepkg/reports/Reports.tsx:247
+msgid "Create report"
 msgstr ""
 
-#: nodepkg/tracker-activity/TrackerActivity.js:53
+#: nodepkg/tracker-activity/ChartHelper.ts:78
+msgid "No data available"
+msgstr ""
+
+#: nodepkg/tracker-activity/ChartHelper.ts:172
+msgid "Hourly intervals"
+msgstr ""
+
+#: nodepkg/tracker-activity/ChartHelper.ts:180
+msgid "Number of points"
+msgstr ""
+
+#: nodepkg/tracker-activity/ChartHelper.ts:211
+msgid "Points per hour"
+msgstr ""
+
+#: nodepkg/tracker-activity/TrackerActivity.tsx:73
 msgid "Cancel"
 msgstr ""
 
-#: nodepkg/tracker-activity/TrackerActivity.js:63
-msgid "Last activity by hours"
-msgstr "Poslední aktivita po hodinách"
+#: nodepkg/tracker-activity/TrackerActivity.tsx:83
+msgid "Device activity"
+msgstr ""
 
-#: nodepkg/tracker-settings/TrackerSettings.js:34
+#: nodepkg/tracker-settings/TrackerSettings.tsx:55
 msgid "Settings saved"
 msgstr "Nastavení uloženo"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:29
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:41
 msgid "Common settings"
 msgstr "Běžné nastavení"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:35
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:47
 msgid "Interval for splitting tracks, min"
 msgstr "Interval pro dělení kolejí, min"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:47
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:59
 msgid "Stops detecting"
 msgstr "Zastavuje detekci"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:53
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:65
 msgid "Minimal speed, km/h"
 msgstr "Minimální rychlost, km/h"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:66
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:78
 msgid "Minimal time stop, sec"
 msgstr "Minimální časová zastávka, s"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:78
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:90
 msgid "Timezone settings"
 msgstr "Nastavení časového pásma"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:82
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:94
 msgid "Time zone"
 msgstr "Časové pásmo"
 
-#: nodepkg/tracker-settings/TrackerSettingsForm.js:106
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:118
 msgid "Save"
 msgstr "Uložit"
 
-#: nodepkg/trackers-panel/TrackersPanel.js:40
+#: nodepkg/tracker-widget/TrackerWidget.tsx:15
+msgid "Values cannot be changed after the tracker is created."
+msgstr ""
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:31
+msgid "Unique id (IMEI by default)"
+msgstr "Jedinečné ID (implicitně IMEI)"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:38
+msgid "Description"
+msgstr "Popis"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:43
+msgid "Device type"
+msgstr "Typ zařízení"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:54
+msgid "Fuel consumption, L/100km (for reports)"
+msgstr ""
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:64
+msgid "Tracker detail"
+msgstr "Detail trackeru"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:47
 msgid "Last known point"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.js:45
+#: nodepkg/trackers-panel/TrackersPanel.tsx:52
 msgid "GPS tracks"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.js:50
+#: nodepkg/trackers-panel/TrackersPanel.tsx:57
 msgid "Track points"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.js:65
+#: nodepkg/trackers-panel/TrackersPanel.tsx:75
 msgid "Zoom to layer"
 msgstr "Přiblížit vrstvu"
 
-#: nodepkg/trackers-panel/TrackersPanel.js:72
+#: nodepkg/trackers-panel/TrackersPanel.tsx:82
 msgid "Zoom to last point"
 msgstr "Přiblížit na poslední bod"
 
-#: nodepkg/trackers-panel/TrackersPanel.js:79
+#: nodepkg/trackers-panel/TrackersPanel.tsx:89
 msgid "Set filter to last day with data"
 msgstr "Nastavit filtr na poslední den s daty"
 
-#: nodepkg/trackers-panel/TrackersPanel.js:85
+#: nodepkg/trackers-panel/TrackersPanel.tsx:95
 msgid "Show last activity"
 msgstr "Zobrazit poslední aktivitu"
 
-#: nodepkg/trackers-panel/TrackersPanel.js:187
+#: nodepkg/trackers-panel/TrackersPanel.tsx:239
 msgid "Sort by"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.js:189
+#: nodepkg/trackers-panel/TrackersPanel.tsx:240 nodepkg/webmap/utils.ts:61
+#: nodepkg/webmap/utils.ts:67
+msgid "Time"
+msgstr "Čas"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:241
 msgid "Name"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.js:284
+#: nodepkg/trackers-panel/TrackersPanel.tsx:374
 msgid "Reports"
 msgstr "Zprávy"
 
-#: pyramid_tracker/register.py:20 pyramid_tracker/register.py:40
+#: nodepkg/webmap/StopsLayer.ts:21
+msgid "Start"
+msgstr ""
+
+#: nodepkg/webmap/StopsLayer.ts:22
+msgid "End"
+msgstr ""
+
+#: nodepkg/webmap/StopsLayer.ts:23 template/_stops.mako:17
+msgid "Duration"
+msgstr "Doba trvání"
+
+#: nodepkg/webmap/utils.ts:55 nodepkg/webmap/utils.ts:66
+msgid "Date"
+msgstr "Datum"
+
+#: nodepkg/webmap/utils.ts:72
+msgid "Speed, km/h"
+msgstr "Rychlost, km/h"
+
+#: nodepkg/webmap/utils.ts:78
+msgid "Height, m"
+msgstr "Výška, m"
+
+#: nodepkg/webmap/utils.ts:84
+msgid "Course"
+msgstr "Kurs"
+
+#: nodepkg/webmap/utils.ts:90
+msgid "Satellites"
+msgstr ""
+
+#: nodepkg/webmap/utils.ts:96
+msgid "HDOP"
+msgstr ""
+
+#: pyramid_tracker/register.py:24 pyramid_tracker/register.py:49
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
 msgstr ""
 "Zařízení není zaregistrováno v systému NextGIS Tracker. Zkuste to prosím "
 "později."
 
-#: pyramid_tracker/register.py:24 pyramid_tracker/register.py:42
+#: pyramid_tracker/register.py:29 pyramid_tracker/register.py:52
 msgid "NextGIS Tracker System is unavailable. Try later, please."
 msgstr "Systém NextGIS Tracker není k dispozici. Zkuste to prosím později."
 
-#: template/_avg_speed.mako:4
+#: template/_avg_speed.mako:2
 msgid "Avg speed report"
 msgstr "Zpráva o průměrné rychlosti"
 
-#: template/_avg_speed.mako:8 template/_consumption_fuel.mako:14
-#: template/_mileage.mako:8 template/_stops.mako:9 template/_top_speed.mako:8
+#: template/_avg_speed.mako:6 template/_consumption_fuel.mako:12
+#: template/_mileage.mako:6 template/_stops.mako:8 template/_top_speed.mako:6
 msgid "No data for selected period"
 msgstr "Žádné údaje za vybrané období"
 
-#: template/_avg_speed.mako:20
+#: template/_avg_speed.mako:18
 msgid "Avg speed"
 msgstr "Prům. Rychlost"
 
-#: template/_consumption_fuel.mako:4 template/_consumption_fuel.mako:27
+#: template/_consumption_fuel.mako:2 template/_consumption_fuel.mako:25
 msgid "Fuel consumption"
 msgstr "Spotřeba paliva"
 
-#: template/_consumption_fuel.mako:8
+#: template/_consumption_fuel.mako:6
 msgid "Fuel consumption, liters per 100 km"
 msgstr "Spotřeba paliva, litry na 100 km"
 
-#: template/_consumption_fuel.mako:10
+#: template/_consumption_fuel.mako:8
 msgid "Fuel consumption is not defined"
 msgstr "Spotřeba paliva není definována"
 
-#: template/_gpx.mako:11
-msgid "Download GPX file"
-msgstr "Stáhnout soubor GPX"
-
-#: template/_mileage.mako:4
+#: template/_mileage.mako:2
 msgid "Mileage report"
 msgstr "Zpráva o ujetých kilometrech"
 
-#: template/_stops.mako:5
+#: template/_stops.mako:4
 msgid "Stops report"
 msgstr "Zastavuje hlášení"
 
-#: template/_stops.mako:16
+#: template/_stops.mako:15
 msgid "Start stop"
 msgstr "Začátek Konec"
 
-#: template/_stops.mako:17
+#: template/_stops.mako:16
 msgid "End stop"
 msgstr "Koncová zastávka"
 
-#: template/_stops.mako:18
-msgid "Duration"
-msgstr "Doba trvání"
-
-#: template/_stops.mako:32
+#: template/_stops.mako:31
 msgid "Count of stops"
 msgstr "Počet zastávek"
 
-#: template/_stops.mako:33
+#: template/_stops.mako:32
 msgid "Total duration"
 msgstr "Celková doba trvání"
 
-#: template/_top_speed.mako:4
+#: template/_top_speed.mako:2
 msgid "Top speed report"
 msgstr "Zpráva o nejvyšší rychlosti"
 
-#: template/_top_speed.mako:20
+#: template/_top_speed.mako:18
 msgid "Max speed"
 msgstr "Max rychlost"
 
-#: view/__init__.py:21
+#: view/__init__.py:22
 msgid "Trackers settings"
 msgstr "Nastavení trackerů"
 
-#: view/reports.py:18
+#: view/reports.py:20
 msgid "Trackers reports"
 msgstr ""

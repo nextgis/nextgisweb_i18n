@@ -1,32 +1,28 @@
-#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:145 view.py:16
+#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:130 view.py:17
 msgid "WMS service"
 msgstr "WMS-Dienst"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:24
-msgid "Not set"
-msgstr ""
-
-#: nodepkg/service-widget/ServiceWidget.tsx:56
+#: nodepkg/service-widget/ServiceWidget.tsx:30
 msgid "Display name"
 msgstr "Anzeigename"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:61
+#: nodepkg/service-widget/ServiceWidget.tsx:35
 msgid "Keyname"
 msgstr "Schlüsselname"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:66
+#: nodepkg/service-widget/ServiceWidget.tsx:40
 msgid "Min scale"
 msgstr "Von-Maßstab"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:71
+#: nodepkg/service-widget/ServiceWidget.tsx:45
 msgid "Max scale"
 msgstr "Bis-Maßstab"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:76
+#: nodepkg/service-widget/ServiceWidget.tsx:50
 msgid "Resource"
 msgstr "Ressource"
 
-#: view.py:17
+#: view.py:18
 msgid ""
 "Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
 " Consortium for serving georeferenced map images. These images are typically "

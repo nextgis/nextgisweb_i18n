@@ -1,28 +1,28 @@
-#: component.py:90
+#: component.py:95
 msgid "NextGIS geoinformation system"
 msgstr "Sistema de geoinformação NextGIS"
 
-#: component.py:269
+#: component.py:276
 msgid "Linux kernel"
 msgstr "Kernel Linux"
 
-#: component.py:272
+#: component.py:279
 msgid "OS distribution"
 msgstr "Distribuição do sistema operativo"
 
-#: component.py:284
+#: component.py:291
 msgid "CPU"
 msgstr "CPU"
 
-#: component.py:287
+#: component.py:294
 msgid "RAM"
 msgstr "RAM"
 
-#: component.py:316
+#: component.py:323
 msgid "Last backup"
 msgstr ""
 
-#: component.py:320
+#: component.py:327
 msgid "Last maintenance"
 msgstr ""
 
@@ -50,27 +50,31 @@ msgstr ""
 msgid "Not configured"
 msgstr ""
 
-#: storage.py:289
-msgid "Storage full"
+#: fontconfig.py:112
+msgid "Font not found: {}!"
 msgstr ""
 
 #: storage.py:290
+msgid "Storage full"
+msgstr ""
+
+#: storage.py:291
 msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr ""
 
-#: storage.py:300
+#: storage.py:301
 msgid "Not enough storage"
 msgstr ""
 
-#: storage.py:301
+#: storage.py:302
 msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
 msgstr ""
 
-#: storage.py:311
+#: storage.py:312
 msgid "Estimation is already running"
 msgstr ""
 

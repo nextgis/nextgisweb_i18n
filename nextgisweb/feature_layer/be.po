@@ -1,460 +1,346 @@
-#: amd/ngw-feature-layer/FieldsDisplayWidget.js:35
-#: nodepkg/attribute-editor/index.ts:7 view.py:222
-#, amd, jsrealm, server
-msgid "Attributes"
-msgstr "Атрыбуты"
-
-#: amd/ngw-feature-layer/FieldsDisplayWidget.js:178
-#, amd
-msgid "N/A"
-msgstr "N/A"
-
-#: amd/ngw-feature-layer/GeometryInfoWidget.js:9
-#, amd
-msgid "Geometry"
-msgstr ""
-
-#: api.py:93
-#, server
+#: api.py:99 api_identify.py:27
 msgid "Geometry is not valid."
 msgstr "Невалідная геаметрыя."
 
-#: api.py:335
-#, server
+#: api.py:347
 msgid "Unknown spatial reference system"
 msgstr ""
 
-#: api.py:408 api_export.py:121
-#, server
+#: api.py:422 api_export.py:205
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "Параметр геаметрыі 'intersects' невалідны."
 
-#: api_export.py:89
-#, server
-msgid "Output format is not provided."
-msgstr "Фармат вываду не прадугледжаны."
+#: api_export.py:111
+msgid "Couldn't add FID field '{}'. Such field already exists."
+msgstr ""
 
-#: api_export.py:91
-#, python-format, server
-msgid "Format '%s' is not supported."
-msgstr "Фармат '%s' не падтрымліваецца."
-
-#: api_export.py:146
-#, server
+#: api_export.py:244
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
 
-#: api_export.py:159
-#, server
+#: api_export.py:258
 msgid "Failed to reproject 'intersects' geometry."
 msgstr ""
 
-#: api_export.py:301
-#, server
+#: api_export.py:426
 msgid "File name parameter '{}' is not valid."
 msgstr ""
 
 #: exception.py:7
-#, server
 msgid "Feature not found"
 msgstr "Аб'ект не знойдзены"
 
 #: exception.py:8
-#, python-format, server
 msgid "Feature with id = %d was not found in resource with id = %d."
 msgstr "Аб'ект з id = %d не быў знойдзены ў рэсурсе з id = %d."
 
 #: exception.py:9
-#, server
 msgid "The feature may have been deleted or an error in the address."
 msgstr "Магчыма, аб'ект быў выдалены або ў адрасе памылка."
 
 #: exception.py:20
-#, server
 msgid "Feature not deleted"
 msgstr ""
 
 #: exception.py:21
-#, server
 msgid "Unable to restore the #{} feature as it is not deleted."
 msgstr ""
 
-#: favorite.py:5 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:56
-#, jsrealm, server
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:39
 msgid "Feature table"
 msgstr "Табліца аб'ектаў"
 
-#: model.py:163
-#, python-format, server
+#: model.py:174
 msgid "Field not found (ID=%d)."
 msgstr "Поле не знойдзена (ID=%d)."
 
-#: model.py:174
-#, server
+#: model.py:185
 msgid "Field name is forbidden: '{}'. Please remove or rename it."
 msgstr ""
 
-#: model.py:236
-#, server
+#: model.py:257
 msgid "Versioning not supported"
 msgstr ""
 
-#: nodepkg/attribute-editor/AttributeEditor.tsx:32
-#, jsrealm
+#: nodepkg/attribute-editor/AttributeEditor.tsx:34
 msgid "Set field value to NULL (No data)"
 msgstr "Задаць значэнне поля ў NULL (No data)"
 
-#: nodepkg/attribute-editor/AttributeEditor.tsx:33
-#, jsrealm
+#: nodepkg/attribute-editor/AttributeEditor.tsx:35
 msgid "There are no attributes in the vector layer"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:177
-#, jsrealm
+#: nodepkg/attribute-editor/plugin.ts:10 view.py:179
+msgid "Attributes"
+msgstr "Атрыбуты"
+
+#: nodepkg/export-form/ExportForm.tsx:204
 msgid "Resources"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:199
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:226
 msgid "Format"
 msgstr "Фармат"
 
-#: nodepkg/export-form/ExportForm.tsx:212
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:239
 msgid "SRS"
 msgstr "SRS"
 
-#: nodepkg/export-form/ExportForm.tsx:217
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:244
 msgid "Encoding"
 msgstr "Кадаванне"
 
-#: nodepkg/export-form/ExportForm.tsx:231
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:258
 msgid "FID field"
 msgstr "Поле FID"
 
-#: nodepkg/export-form/ExportForm.tsx:235
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:262
 msgid "Use field display names instead of keynames"
 msgstr "Выкарыстоўвайце імёны для адлюстравання палёў замест імёнаў ключоў"
 
-#: nodepkg/export-form/ExportForm.tsx:241
-#: nodepkg/fields-widget/FieldsWidget.tsx:167
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:268
+#: nodepkg/fields-widget/FieldsWidget.tsx:171
 msgid "Fields"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:247
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:274
 msgid "Limit by extent"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:253
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:280
 msgid "Filter text"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:257
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:284
 msgid "Zip archive"
 msgstr "Zip архіў"
 
-#: nodepkg/export-form/ExportForm.tsx:300
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:34
-#, jsrealm
+#: nodepkg/export-form/ExportForm.tsx:327
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
 msgid "Save"
 msgstr "Захаваць"
 
-#: nodepkg/export-form/ExtentInput.tsx:6
-#, jsrealm
-msgid "deg."
-msgstr ""
-
-#: nodepkg/export-form/ExtentInput.tsx:9
-#, jsrealm
-msgid "Left"
-msgstr ""
-
-#: nodepkg/export-form/ExtentInput.tsx:10
-#, jsrealm
-msgid "Bottom"
-msgstr ""
-
-#: nodepkg/export-form/ExtentInput.tsx:11
-#, jsrealm
-msgid "Right"
-msgstr ""
-
-#: nodepkg/export-form/ExtentInput.tsx:12
-#, jsrealm
-msgid "Top"
-msgstr ""
-
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:18
-#, jsrealm
 msgid "Cancel"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
-#, jsrealm
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
 msgid "Are you sure?"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
-#, jsrealm
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
 msgid "Unsaved changes will be lost if you close the window."
 msgstr ""
 
 #: nodepkg/feature-editor/FeatureEditorStore.ts:20
-#, jsrealm
 msgid "Feature saved"
 msgstr ""
 
 #: nodepkg/feature-editor/FeatureEditorStore.ts:21
-#, jsrealm
 msgid "No changes to save"
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:33
-#, jsrealm
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:39
 msgid "Loading..."
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:35
-#, jsrealm
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
+msgid "OK"
+msgstr ""
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:42
 msgid "Reset"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:24
-#, jsrealm
+#: nodepkg/feature-grid/FeatureGrid.tsx:22
 msgid "Open table settings"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:25
-#, jsrealm
+#: nodepkg/feature-grid/FeatureGrid.tsx:23
 msgid "Refresh table"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:24
-#, jsrealm
+#: nodepkg/feature-grid/FeatureGridActions.tsx:26
 msgid "Open"
 msgstr "Адкрыць"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:25
-#, jsrealm
+#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+msgid "Open on a new page"
+msgstr ""
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:28
 msgid "Delete"
 msgstr "Выдаліць"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:26
-#, jsrealm
+#: nodepkg/feature-grid/FeatureGridActions.tsx:29
 msgid "Edit"
 msgstr "Рэдагаваць"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:27
-#, jsrealm
+#: nodepkg/feature-grid/FeatureGridActions.tsx:30
 msgid "Edit on a new page"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:29
-#, jsrealm
+#: nodepkg/feature-grid/FeatureGridActions.tsx:32
 msgid "Search..."
 msgstr "Шукаць..."
 
-#: nodepkg/feature-grid/FeatureTable.tsx:95
+#: nodepkg/feature-grid/FeatureTable.tsx:94
 #: nodepkg/feature-grid/component/TableConfigModal.tsx:53
-#, jsrealm
 msgid "Last changed"
 msgstr ""
 
-#: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:117 view.py:128
-#: view.py:217
-#, jsrealm, server
+#: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:82 view.py:92
+#: view.py:174
 msgid "Save as"
 msgstr "Захаваць як"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:31
-#, jsrealm
 msgid "Advanced Export"
 msgstr ""
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:32
-#, jsrealm
 msgid "Quick Export"
 msgstr ""
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:33
-#, jsrealm
 msgid "Filters are applied"
 msgstr ""
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:23
 #: template/resource_section_fields.mako:17
-#, jsrealm, server
 msgid "Display name"
 msgstr "Адлюстроўваемае імя"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:24
 #: template/resource_section_fields.mako:15
-#, jsrealm, server
 msgid "Keyname"
 msgstr "Ключавое імя"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:25
 #: template/resource_section_fields.mako:16
-#, jsrealm, server
 msgid "Type"
 msgstr "Тып"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:26
 #: template/resource_section_fields.mako:19
-#, jsrealm, server
 msgid "Lookup table"
 msgstr "Табліца пошуку"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:28
-#, jsrealm
 msgid "Text search"
 msgstr ""
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:29
-#, jsrealm
 msgid "Label attribute"
 msgstr "Пазнака атрыбуту"
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:31
-#, jsrealm
 msgid "Please select"
 msgstr ""
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:32
-#, jsrealm
 msgid "Not used"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:115
-#, jsrealm
+#: nodepkg/fields-widget/FieldsWidget.tsx:118
 msgid "Field"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:56
-#, jsrealm
+#: nodepkg/geometry-info/GeometryInfo.tsx:46
 msgid "Load geometry info..."
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:65
-#, jsrealm
+#: nodepkg/geometry-info/GeometryInfo.tsx:55
 msgid "Failed to get information about the geometry"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:75
-#, jsrealm
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:34
 msgid "Perimeter"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:76
-#, jsrealm
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:35
 msgid "Length"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:84
-#, jsrealm
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:43
 msgid "Area"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:92
-#, jsrealm
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:52
 msgid "Geometry type"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:100
-#, jsrealm
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:60
 msgid "Extent (xMin)"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:104
-#, jsrealm
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:64
 msgid "Extent (yMin)"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:108
-#, jsrealm
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:68
 msgid "Extent (xMax)"
 msgstr ""
 
-#: nodepkg/geometry-info/GeometryInfo.tsx:112
-#, jsrealm
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:72
 msgid "Extent (yMax)"
 msgstr ""
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:18
-#, jsrealm
 msgid "Feature versioning"
 msgstr ""
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:19
-#, jsrealm
 msgid ""
 "Experimental feature. Some operations may not work if feature versioning is "
 "enabled."
 msgstr ""
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:40
-#, jsrealm
 msgid "Disable feature versioning?"
 msgstr ""
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:41
-#, jsrealm
 msgid ""
 "Turning off feature versioning will truncate the history and keep only the "
 "latest state."
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:64
-#, jsrealm
+#: nodepkg/settings-widget/SettingsWidget.tsx:65
 msgid "Settings"
 msgstr ""
 
-#: template/resource_section_fields.mako:21 view.py:206
-#, server
+#: template/resource_section_fields.mako:21 view.py:163
 msgid "Table"
 msgstr "Табліца"
 
 #: template/resource_section_fields.mako:32
 #: template/resource_section_fields.mako:38
-#, server
 msgid "Yes"
 msgstr "Так"
 
 #: template/resource_section_fields.mako:34
 #: template/resource_section_fields.mako:38
-#, server
 msgid "No"
 msgstr "Не"
 
 #: transaction/exception.py:7
-#, server
 msgid "Transaction not found"
 msgstr ""
 
 #: transaction/exception.py:12
-#, server
 msgid "Operation conflict in transaction"
 msgstr ""
 
 #: transaction/exception.py:20
-#, server
 msgid "Transaction not committed"
 msgstr ""
 
 #: versioning/exception.py:17
-#, server
 msgid "Not implemented for feature versioning"
 msgstr ""
 
 #: versioning/exception.py:18
-#, server
 msgid ""
 "This operation cannot be performed on a resource with feature versioning "
 "enabled. Disable feature versioning for the resource first, and then try "
@@ -462,52 +348,42 @@ msgid ""
 msgstr ""
 
 #: versioning/exception.py:27
-#, server
 msgid "Feature versioning required"
 msgstr ""
 
 #: versioning/exception.py:32
-#, server
 msgid "Feature versioning is not supported for this resource."
 msgstr ""
 
 #: versioning/exception.py:34
-#, server
 msgid "Feature versioning is not enabled for this resource."
 msgstr ""
 
 #: versioning/exception.py:41
-#, server
 msgid "Epoch required"
 msgstr ""
 
 #: versioning/exception.py:45
-#, server
 msgid "Epoch mismatch"
 msgstr ""
 
 #: versioning/exception.py:55
-#, server
 msgid "Version out of range"
 msgstr ""
 
 #: versioning/exception.py:65
-#, server
 msgid "Invalid range"
 msgstr ""
 
-#: view.py:78 view.py:95
-#, python-format, server
+#: view.py:55 view.py:70
 msgid "Feature #%d"
 msgstr "Аб'ект #%d"
 
-#: view.py:136
-#, server
+#: view.py:99
 msgid "MVT Vector Tiles"
 msgstr "Вектарныя тайлы MVT"
 
-#: view.py:137
-#, server
+#: view.py:100
 msgid ""
 "The Mapbox Vector Tile is an efficient encoding for map data into vector "
 "tiles that can be rendered dynamically."
@@ -515,7 +391,6 @@ msgstr ""
 "Вектарныя тайлы Mapbox - гэта эфектыўнае кадаванне даных карты ў вектарныя "
 "тайлы, якія могуць быць адлюстраваны дынамічна."
 
-#: view.py:200
-#, server
+#: view.py:158
 msgid "Features"
 msgstr "Аб'екты"

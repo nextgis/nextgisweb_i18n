@@ -1,116 +1,93 @@
-#: amd/ngw-tmsclient/ConnectionWidget.js:34
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:10 model.py:39
+#: model.py:47 nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:116
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:122
 msgid "TMS connection"
 msgstr "TMS-Verbindung"
 
-#: model.py:88
+#: model.py:108
 msgid "API key required."
 msgstr ""
 
-#: model.py:131
+#: model.py:149
 msgid "Zoom is out of range."
 msgstr "Zoom ist außerhalb des Bereichs"
 
-#: amd/ngw-tmsclient/LayerWidget.js:35 model.py:139
+#: model.py:157 nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:203
 msgid "TMS layer"
 msgstr "TMS-Layer"
 
-#: model.py:274
+#: model.py:302
 msgid "Layer name required."
 msgstr ""
 
-#: amd/ngw-tmsclient/LayersDialog.js:25
-msgid "Select layer"
-msgstr "Layer auswählen"
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:32
+msgid "Type"
+msgstr ""
 
-#: amd/ngw-tmsclient/LayersDialog.js:63
-msgid "OK"
-msgstr "OK"
-
-#: amd/ngw-tmsclient/LayersDialog.js:72
-msgid "Cancel"
-msgstr "Abbrechen"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
-msgid "Capmode"
-msgstr "Capmode"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:11
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:44
 msgid "Custom"
 msgstr "Benutzerdefiniert"
 
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
-msgid "NextGIS geoservices"
-msgstr "NextGIS Geodienste"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:20
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:55
 msgid "URL template"
 msgstr "URL-Vorlage"
 
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:26
-msgid "API key"
-msgstr "API-Schlüssel"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:32
-msgid "API key param"
-msgstr "API-Schlüsselparameter"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:38
-msgid "Username"
-msgstr "Benutzername"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:44
-msgid "Password"
-msgstr "Passwort"
-
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:49
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:61
 msgid "Scheme"
 msgstr "Schema"
 
-#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:55
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:72
+msgid "API key"
+msgstr "API-Schlüssel"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:78
+msgid "API key param"
+msgstr "API-Schlüsselparameter"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:85
+msgid "Username"
+msgstr "Benutzername"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:95
+msgid "Password"
+msgstr "Passwort"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:108
 msgid "Skip SSL/TLS certificate verification"
 msgstr "Verifizierung des SSL/TLS-Zertifikats überspringen"
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:15
-msgid "Choose a layer"
-msgstr "Layer auswählen"
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:36
+msgid "This connection based on NextGIS Geoservices"
+msgstr ""
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
-msgid "Coordinate system"
-msgstr "Koordinatensystem"
-
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:30
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:149
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:160
 msgid "Layer"
 msgstr "Layer"
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:39
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:168
 msgid "Min zoom level"
 msgstr "Minimaler Zoomfaktor"
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:45
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:176
 msgid "Max zoom level"
 msgstr "Maximaler Zoomfaktor"
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
-msgid "Left, deg."
-msgstr "Links, Grad"
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:184
+msgid "Tile size"
+msgstr ""
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
-msgid "Bottom, deg."
-msgstr "Unten, Grad"
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:194
+msgid "Extent"
+msgstr ""
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
-msgid "Right, deg."
-msgstr "Rechts, Grad"
+#: tile_fetcher.py:37
+msgid "The remote server did not respond in time."
+msgstr ""
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
-msgid "Top, deg."
-msgstr "Oben, Grad"
+#: tile_fetcher.py:84
+msgid "Unable to get a response from the remote server."
+msgstr ""
 
-#: amd/ngw-tmsclient/template/LayerWidget.hbs:75
-msgid "Tile size, px"
-msgstr "Kachelgröße, px"
-
-#~ msgid "TMS capabilities"
-#~ msgstr "TMS-Funktionen"
-
+#: tile_fetcher.py:94
+msgid "An unexpected HTTP status code was received from the remote server."
+msgstr ""

@@ -1,88 +1,28 @@
-#: amd/ngw-resource/CompositeWidget.js:52
-msgid "Please wait. Processing request..."
-msgstr "Espere por favor. Procesando solicitud ..."
-
-#: amd/ngw-resource/CompositeWidget.js:85
-msgid "Create"
-msgstr "Crear"
-
-#: amd/ngw-resource/CompositeWidget.js:94
-msgid "Create and edit"
-msgstr "Crear y editar"
-
-#: amd/ngw-resource/CompositeWidget.js:103
-#: nodepkg/export-settings/ExportSettings.tsx:80
-msgid "Save"
-msgstr "Guardar"
-
-#: amd/ngw-resource/CompositeWidget.js:110
-#: nodepkg/children-section/component/MenuDropdown.tsx:209
-#: nodepkg/children-section/util/createResourceTableItemOptions.ts:8
-#: nodepkg/delete-page/DeletePage.tsx:60 view.py:415
-msgid "Delete"
-msgstr "Eliminar"
-
-#: amd/ngw-resource/CompositeWidget.js:273 amd/ngw-resource/CompositeWidget.js:295
-msgid "Unexpected error"
-msgstr "Error inesperado"
-
-#: amd/ngw-resource/CompositeWidget.js:274
-msgid "Serialization failed"
-msgstr "Error de serialización"
-
-#: amd/ngw-resource/CompositeWidget.js:285
-msgid "Validation error"
-msgstr "Error de validación"
-
-#: amd/ngw-resource/CompositeWidget.js:286
-msgid "Errors found during data validation. Tabs with errors marked in red."
-msgstr ""
-"Errores encontrados durante la validación de datos. Pestañas con errores "
-"marcados en rojo."
-
-#: amd/ngw-resource/CompositeWidget.js:296
-msgid "Validation failed"
-msgstr "Error de validación"
-
-#: amd/ngw-resource/ResourcePicker.js:29
-msgid "Select resource"
-msgstr "Seleccionar recurso"
-
-#: amd/ngw-resource/ResourcePicker.js:70
-msgid "OK"
-msgstr "OK"
-
-#: amd/ngw-resource/ResourcePicker.js:79
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: amd/ngw-resource/form/ResourceLink.js:27 model.py:84
-#: nodepkg/editor-widget/EditorWidget.tsx:68 scope.py:12
-msgid "Resource"
-msgstr "Recurso"
-
-#: api.py:140
-msgid "Root resource could not be deleted."
-msgstr "No se pudo eliminar el recurso raíz."
-
-#: api.py:195
-msgid "Resource parent required."
-msgstr "Se requiere padre de recursos."
-
-#: api.py:200
-msgid "Resource class required."
-msgstr "Se requiere clase de recurso."
-
-#: api.py:202
-#, python-format
-msgid "Unknown resource class '%s'."
-msgstr "Clase de recurso desconocida '%s'."
-
-#: api.py:303
+#: api.py:417
 msgid "Permission not found"
 msgstr "Permiso no encontrado"
 
-#: component.py:94
+#: category.py:39
+msgid "Layers and styles"
+msgstr ""
+
+#: category.py:44
+msgid "Maps and services"
+msgstr ""
+
+#: category.py:49
+msgid "Field data collection"
+msgstr ""
+
+#: category.py:54 scope.py:39
+msgid "External connections"
+msgstr ""
+
+#: category.py:59
+msgid "Miscellaneous"
+msgstr ""
+
+#: component.py:130
 msgid "Main resource group"
 msgstr "Grupo de recursos principal"
 
@@ -106,8 +46,8 @@ msgstr ""
 
 #: exception.py:27
 msgid ""
-"Modification of the '{attribute}' attribute requires the '{scope}: "
-"{permission}' permission."
+"Modification of the '{attribute}' attribute requires the '{permission}' "
+"permission."
 msgstr ""
 
 #: exception.py:33
@@ -141,38 +81,42 @@ msgid "Hierarchy error"
 msgstr "Error de jerarquía"
 
 #: exception.py:63
+msgid "Root resource could not be deleted."
+msgstr "No se pudo eliminar el recurso raíz."
+
+#: exception.py:67
 #, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Clase de recurso '%s' deshabilitada."
 
-#: exception.py:72
+#: exception.py:76
 msgid "Quota exceeded"
 msgstr ""
 
-#: exception.py:78
+#: exception.py:82
 #, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Se superó el número máximo de recursos. El límite es %s."
 
-#: exception.py:80
+#: exception.py:84
 msgid "Not enough resource quota: {0} required, but only {1} available."
 msgstr ""
 "No hay suficiente cuota de recursos: se requiere {0}, pero solo {1} está "
 "disponible."
 
-#: exception.py:84
+#: exception.py:88
 msgid "Resource type - {}."
 msgstr "Tipo de recurso - {}."
 
-#: favorite/__init__.py:6
+#: favorite/__init__.py:8
 msgid "Go to"
 msgstr ""
 
-#: favorite/__init__.py:7 nodepkg/favorite/FavoritePage.tsx:379
+#: favorite/__init__.py:9 nodepkg/favorite/FavoritePage.tsx:380
 msgid "Edit"
 msgstr ""
 
-#: favorite/view.py:15 nodepkg/favorite/Avatar.tsx:54
+#: favorite/view.py:14 nodepkg/favorite/Avatar.tsx:54
 msgid "Favorites"
 msgstr ""
 
@@ -180,57 +124,64 @@ msgstr ""
 msgid "User resources"
 msgstr ""
 
-#: model.py:265
+#: model.py:99 nodepkg/editor-widget/EditorWidget.tsx:73 scope.py:12
+msgid "Resource"
+msgstr "Recurso"
+
+#: model.py:286
 msgid "Resource can not be a parent himself."
 msgstr "Resource no puede ser un padre él mismo."
 
-#: model.py:278
+#: model.py:299
 msgid "Resource keyname is not unique."
 msgstr "El nombre clave del recurso no es único."
 
-#: model.py:310
+#: model.py:331
 msgid "Default style"
 msgstr ""
 
-#: model.py:426
+#: model.py:464
 msgid "Resource can not be without a parent."
 msgstr "El recurso no puede estar sin un padre."
 
-#: model.py:433
+#: model.py:467
+msgid "You are not allowed to create or move a resource of type '{}' here."
+msgstr ""
+
+#: model.py:475
 #, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "No se le permite administrar los hijos del recurso con id = %d."
 
-#: model.py:439
+#: model.py:487
 #, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "El recurso no puede ser un hijo del recurso con id = %d."
 
-#: model.py:514
+#: model.py:562
 msgid ""
-"Unable to revoke '{s}: {p}' permission for '{u}' as the user belongs to the "
-"administrators group. Administrators must always have ability to configure "
-"permissions of resources."
+"Unable to revoke '{permission}' permission for '{user}' as the user belongs "
+"to the administrators group. Administrators must always have ability to "
+"configure permissions of resources."
 msgstr ""
 
-#: model.py:614
+#: model.py:661
 msgid "Resource group"
 msgstr "Grupo de recursos"
 
 #: nodepkg/children-section/ChildrenSection.tsx:76
-#: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:26
+#: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:25
 #: nodepkg/editor-widget/EditorWidget.tsx:20
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
 #: nodepkg/children-section/ChildrenSection.tsx:90
-#: template/resource_section_summary.mako:5
+#: template/resource_section_main.mako:14
 msgid "Type"
 msgstr "Tipo"
 
 #: nodepkg/children-section/ChildrenSection.tsx:97
-#: nodepkg/editor-widget/EditorWidget.tsx:43
-#: template/resource_section_summary.mako:20
+#: nodepkg/editor-widget/EditorWidget.tsx:47 template/resource_section_main.mako:22
 msgid "Owner"
 msgstr "Propietario"
 
@@ -242,49 +193,63 @@ msgstr "Creado"
 msgid "Volume"
 msgstr "Volumen"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:100
+#: nodepkg/children-section/component/MenuDropdown.tsx:102
 msgid "Moving resources"
 msgstr "Mover recursos"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:146
+#: nodepkg/children-section/component/MenuDropdown.tsx:148
 msgid "Deleting resources"
 msgstr "Eliminación de recursos"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:171
+#: nodepkg/children-section/component/MenuDropdown.tsx:173
 msgid "Turn off multiple selection"
 msgstr "Desactivar selección múltiple"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:172
+#: nodepkg/children-section/component/MenuDropdown.tsx:174
 msgid "Select multiple resources"
 msgstr "Seleccionar múltiples recursos"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:182
+#: nodepkg/children-section/component/MenuDropdown.tsx:184
 msgid "Hide resources volume"
 msgstr "Ocultar volumen de recursos"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:183
+#: nodepkg/children-section/component/MenuDropdown.tsx:185
 msgid "Show resources volume"
 msgstr "Mostrar volumen de recursos"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:194
+#: nodepkg/children-section/component/MenuDropdown.tsx:196
 msgid "Hide resource creation date"
 msgstr "Ocultar la fecha de creación del recurso"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:195
+#: nodepkg/children-section/component/MenuDropdown.tsx:197
 msgid "Show resource creation date"
 msgstr "Mostrar la fecha de creación del recurso"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:218
+#: nodepkg/children-section/component/MenuDropdown.tsx:211
+#: nodepkg/children-section/util/createResourceTableItemOptions.ts:8
+#: nodepkg/composite/CompositeWidget.tsx:50 view.py:379
+msgid "Delete"
+msgstr "Eliminar"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:220
 msgid "Not all of the selected can be deleted."
 msgstr "No todos los seleccionados se pueden eliminar."
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:234
+#: nodepkg/children-section/component/MenuDropdown.tsx:236
 msgid "Move"
 msgstr "Mover"
 
-#: nodepkg/children-section/component/MenuDropdown.tsx:253
+#: nodepkg/children-section/component/MenuDropdown.tsx:255
 msgid "Export vector layers"
 msgstr "Exportar capas vectoriales"
+
+#: nodepkg/children-section/component/PreviewModal.tsx:48
+msgid "Close"
+msgstr ""
+
+#: nodepkg/children-section/component/PreviewModal.tsx:56
+msgid "Open in a new tab"
+msgstr ""
 
 #: nodepkg/children-section/util/createResourceTableItemOptions.ts:7
 msgid "Change"
@@ -327,22 +292,113 @@ msgstr "Ir al grupo inicial"
 msgid "Refresh"
 msgstr "Actualizar"
 
-#: nodepkg/component/resource-picker/pickToFocusTable.tsx:47
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:25
+#: nodepkg/component/resource-picker/pickToFocusTable.tsx:49
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:26
 msgid "Add"
 msgstr "Agregar"
 
-#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:18
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:25
 msgid "Pick this group"
 msgstr "Elige este grupo"
 
-#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:19
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:26
 msgid "Pick selected"
 msgstr ""
 
-#: nodepkg/delete-page/DeletePage.tsx:47
-msgid "Confirm deletion of the resource"
-msgstr "Confirmar la eliminación del recurso"
+#: nodepkg/composite/CompositeStore.ts:258
+msgid "Validation error"
+msgstr "Error de validación"
+
+#: nodepkg/composite/CompositeStore.ts:260
+msgid "Errors found during data validation. Tabs with errors marked in red."
+msgstr ""
+"Errores encontrados durante la validación de datos. Pestañas con errores "
+"marcados en rojo."
+
+#: nodepkg/composite/CompositeStore.ts:276
+msgid "Unexpected error"
+msgstr "Error inesperado"
+
+#: nodepkg/composite/CompositeStore.ts:277
+msgid "Serialization failed"
+msgstr "Error de serialización"
+
+#: nodepkg/composite/CompositeWidget.tsx:48
+msgid "Create"
+msgstr "Crear"
+
+#: nodepkg/composite/CompositeWidget.tsx:49
+#: nodepkg/export-settings/ExportSettings.tsx:80
+msgid "Save"
+msgstr "Guardar"
+
+#: nodepkg/composite/CompositeWidget.tsx:51
+msgid "Read"
+msgstr "Leer"
+
+#: nodepkg/composite/CompositeWidget.tsx:55
+msgid "Please wait. Processing request..."
+msgstr "Espere por favor. Procesando solicitud ..."
+
+#: nodepkg/composite/CompositeWidget.tsx:180
+msgid "Create and edit"
+msgstr "Crear y editar"
+
+#: nodepkg/delete-page/DeletePage.tsx:125
+msgid "Cancel"
+msgstr ""
+
+#: nodepkg/delete-page/DeletePageModal.tsx:18
+msgid "Confirmation required"
+msgstr ""
+
+#: nodepkg/delete-page/util.ts:5
+msgid "Delete {} resource"
+msgid_plural "Delete {} resources"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nodepkg/delete-page/util.ts:13
+msgid "resource"
+msgid_plural "resources"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nodepkg/delete-page/util.ts:20
+msgid ""
+"The selected resource cannot be deleted. You may not have sufficient "
+"permissions, or this resource is being referenced by other resources."
+msgstr ""
+
+#: nodepkg/delete-page/util.ts:24
+msgid ""
+"Please confirm the deletion of the selected resource. This action is "
+"irreversible, and the resource will be permanently deleted."
+msgstr ""
+
+#: nodepkg/delete-page/util.ts:29
+msgid ""
+"Please confirm the deletion of the selected resource and all its child "
+"resources."
+msgstr ""
+
+#: nodepkg/delete-page/util.ts:33
+msgid "{} resource will be permanently deleted."
+msgid_plural "{} resources will be permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: nodepkg/delete-page/util.ts:41
+msgid "{} resource cannot be deleted."
+msgid_plural "{} resources cannot be deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: nodepkg/delete-page/util.ts:47
+msgid "Please confirm the permanent deletion of {} resource."
+msgid_plural "Please confirm the permanent deletion of {} resources."
+msgstr[0] ""
+msgstr[1] ""
 
 #: nodepkg/description-editor/DescriptionEditorWidget.tsx:31
 msgid "Description"
@@ -352,12 +408,11 @@ msgstr "Descripción"
 msgid "Identifier for API integration (optional)"
 msgstr ""
 
-#: nodepkg/editor-widget/EditorWidget.tsx:29
+#: nodepkg/editor-widget/EditorWidget.tsx:31
 msgid "Parent"
 msgstr "Padre"
 
-#: nodepkg/editor-widget/EditorWidget.tsx:55
-#: template/resource_section_summary.mako:9
+#: nodepkg/editor-widget/EditorWidget.tsx:59 template/resource_section_main.mako:16
 msgid "Keyname"
 msgstr "Nombre clave"
 
@@ -409,13 +464,13 @@ msgstr "Utilice estos enlaces para conectar datos a aplicaciones externas."
 msgid "Read more"
 msgstr ""
 
-#: nodepkg/favorite/FavoritePage.tsx:29
+#: nodepkg/favorite/FavoritePage.tsx:27
 msgid ""
 "No favorite resources have been added yet. Use the star icon ({}) in the "
 "user's context menu to add items here."
 msgstr ""
 
-#: nodepkg/favorite/FavoritePage.tsx:379
+#: nodepkg/favorite/FavoritePage.tsx:380
 msgid "Done"
 msgstr ""
 
@@ -427,6 +482,19 @@ msgstr ""
 msgid "Removed from favorites"
 msgstr ""
 
+#: nodepkg/main-section/CreateResourceButton.tsx:8
+#: nodepkg/main-section/CreateResourceModal.tsx:20 view.py:178 view.py:348
+msgid "Create resource"
+msgstr "Crear recurso"
+
+#: nodepkg/main-section/CreateResourceModal.tsx:21
+msgid "Search"
+msgstr ""
+
+#: nodepkg/main-section/CreateResourceModal.tsx:49
+msgid "Everything"
+msgstr ""
+
 #: nodepkg/permissions-widget/PermissionStoreItem.ts:13
 msgid "All fields are required"
 msgstr ""
@@ -435,55 +503,55 @@ msgstr ""
 msgid "Row conflicts with another"
 msgstr ""
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:20 view.py:360
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:21 view.py:349
 msgid "Action"
 msgstr "Acción"
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:21
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:22
 msgid "Principal"
 msgstr "Principal"
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:22
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:23
 msgid "Apply to"
 msgstr ""
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:23
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:24
 msgid "Permission"
 msgstr "Permiso"
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:26
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:27
 msgid "Allow"
 msgstr "Permitir"
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:27
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:28
 msgid "Deny"
 msgstr "Prohibir"
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:29
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:30
 msgid "This and subresources"
 msgstr ""
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:30
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:31
 msgid "This resource only"
 msgstr ""
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:32
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:33
 msgid "All permissions"
 msgstr "Todos permisos"
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:229
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:230
 msgid "Permissions"
 msgstr "Permisos"
 
-#: nodepkg/resources-filter/ResourcesFilter.tsx:127
+#: nodepkg/resources-filter/ResourcesFilter.tsx:128
 msgid "Resources not found"
 msgstr "Recursos no se han encontrados"
 
-#: nodepkg/resources-filter/ResourcesFilter.tsx:132
+#: nodepkg/resources-filter/ResourcesFilter.tsx:133
 msgid "Search resources"
 msgstr "Buscar recursos"
 
-#: scope.py:14 scope.py:30 scope.py:40 scope.py:53
+#: scope.py:14
 msgctxt "permission"
 msgid "Read"
 msgstr "Leer"
@@ -493,7 +561,7 @@ msgctxt "permission"
 msgid "Create"
 msgstr "Crear"
 
-#: scope.py:16 scope.py:31 scope.py:41
+#: scope.py:16
 msgctxt "permission"
 msgid "Modify"
 msgstr ""
@@ -513,78 +581,86 @@ msgctxt "permission"
 msgid "Configure permissions"
 msgstr ""
 
-#: scope.py:28
-msgid "Data structure"
-msgstr "Estructura de datos"
-
-#: scope.py:38
+#: scope.py:26
 msgid "Data"
 msgstr "Datos"
 
-#: scope.py:51
-msgid "Connection"
-msgstr "Conexión"
-
-#: scope.py:54 scope.py:68
+#: scope.py:28
 msgctxt "permission"
-msgid "Configure"
-msgstr "Configurar"
+msgid "Read data"
+msgstr ""
+
+#: scope.py:29
+msgctxt "permission"
+msgid "Modify data"
+msgstr ""
+
+#: scope.py:41
+msgctxt "permission"
+msgid "Read connection parameters"
+msgstr ""
+
+#: scope.py:42
+msgctxt "permission"
+msgid "Configure connection"
+msgstr ""
+
+#: scope.py:43
+msgctxt "permission"
+msgid "Use connection"
+msgstr ""
+
+#: scope.py:53
+msgid "Web GIS services"
+msgstr ""
 
 #: scope.py:55
 msgctxt "permission"
-msgid "Use"
+msgid "Access service"
 msgstr ""
 
-#: scope.py:65
-msgid "Service"
-msgstr "Servicio"
-
-#: scope.py:67
+#: scope.py:56
 msgctxt "permission"
-msgid "Access"
+msgid "Configure service"
 msgstr ""
 
 #: template/resource_section_description.mako:5
 msgid "Resource description is empty."
 msgstr "La descripción del recurso está vacía."
 
-#: template/resource_section_external_access.mako:3
+#: template/resource_section_external_access.mako:8
 msgid "External access"
 msgstr ""
 
-#: view.py:124 view.py:424
+#: view.py:122 view.py:388
 msgid "JSON view"
 msgstr "Vista JSON"
 
-#: view.py:136 view.py:431
+#: view.py:133 view.py:395
 msgid "User permissions"
 msgstr "Permisos de usuario"
 
-#: view.py:181 view.py:359
-msgid "Create resource"
-msgstr "Crear recurso"
-
-#: view.py:192
+#: view.py:189
 msgid "Update resource"
 msgstr "Actualizar recurso"
 
-#: view.py:204
+#: view.py:201
 msgid "Delete resource"
 msgstr "Eliminar recurso"
 
-#: view.py:261 view.py:444
+#: view.py:211 view.py:408
 msgid "Resource export"
 msgstr "Exportar recurso"
 
-#: view.py:285
+#: view.py:275
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Permiso '%s' insuficiente en el alcance '%s' del recurso con id = %d."
 
-#: view.py:361
+#: view.py:350
 msgid "Extra"
 msgstr "Extra"
 
-#: view.py:402
+#: view.py:365
 msgid "Update"
 msgstr "Actualizar"

@@ -1,20 +1,12 @@
-#: api.py:46
-msgid "Output format is not provided."
-msgstr "Il formato di output non è stato fornito."
-
-#: api.py:49
-msgid "Format '%s' is not supported."
-msgstr "Il formato '%s' non è supportato."
-
-#: api.py:94
+#: api.py:123 api.py:144
 msgid "Requested raster is not COG."
 msgstr ""
 
-#: api.py:106
+#: api.py:148
 msgid "Range header is missed or invalid."
 msgstr ""
 
-#: api.py:110
+#: api.py:152
 msgid "Range %s can not be read."
 msgstr ""
 
@@ -22,15 +14,15 @@ msgstr ""
 msgid "Rasters and pyramids"
 msgstr ""
 
-#: model.py:69 nodepkg/editor-widget/EditorWidget.tsx:47 view.py:58
+#: model.py:69 nodepkg/editor-widget/EditorWidget.tsx:47 view.py:61
 msgid "Raster layer"
 msgstr "Layer raster"
 
-#: model.py:101
+#: model.py:102
 msgid "GDAL library was unable to open the file."
 msgstr "La libreria GDAL non è riuscita ad aprire il file."
 
-#: model.py:109
+#: model.py:110
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
 " %(all_formats)s."
@@ -38,43 +30,43 @@ msgstr ""
 "Il raster ha formato '%(format)s', ma solamente i seguenti formati sono "
 "supportati: %(all_formats)s."
 
-#: model.py:116
+#: model.py:118
 msgid "Raster files without projection info are not supported."
 msgstr "I files raster senza informazioni sulla proiezione non sono supportati."
 
-#: model.py:135
+#: model.py:138
 msgid "Mixed band data types are not supported."
 msgstr ""
 
-#: model.py:163
+#: model.py:167
 msgid "GDAL was uanble to parse the raster coordinate system."
 msgstr ""
 
-#: model.py:167
+#: model.py:172
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
 
-#: model.py:184
+#: model.py:189
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr ""
 
-#: model.py:187
+#: model.py:194
 msgid "GDAL error message: %s"
 msgstr ""
 
-#: model.py:203
+#: model.py:210
 msgid ""
 "The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
 "%(delta)s. Reduce raster size to fit the limit."
 msgstr ""
 
-#: model.py:315
+#: model.py:322
 msgid "Data type"
 msgstr "Tipo di dato"
 
-#: model.py:316
+#: model.py:323
 msgid "COG"
 msgstr ""
 
@@ -90,27 +82,27 @@ msgstr "Il set di dati dovrebbe essere in formato GeoTIFF."
 msgid "Cloud Optimized GeoTIFF (COG)"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:55
+#: nodepkg/export-form/ExportForm.tsx:59
 msgid "Band"
 msgstr "Banda"
 
-#: nodepkg/export-form/ExportForm.tsx:79
+#: nodepkg/export-form/ExportForm.tsx:83
 msgid "Format"
 msgstr "Formato"
 
-#: nodepkg/export-form/ExportForm.tsx:91
+#: nodepkg/export-form/ExportForm.tsx:95
 msgid "SRS"
 msgstr "SR"
 
-#: nodepkg/export-form/ExportForm.tsx:96
+#: nodepkg/export-form/ExportForm.tsx:100
 msgid "Bands"
 msgstr "Bande"
 
-#: nodepkg/export-form/ExportForm.tsx:129
+#: nodepkg/export-form/ExportForm.tsx:133
 msgid "Save"
 msgstr "Salva"
 
-#: view.py:25 view.py:63
+#: view.py:26 view.py:66
 msgid "Save as"
 msgstr "Salva come"
 
@@ -127,6 +119,6 @@ msgid ""
 "they need."
 msgstr ""
 
-#: view.py:69
+#: view.py:72
 msgid "Download"
 msgstr ""
