@@ -1,0 +1,58 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:88
+msgid "Tilesets"
+msgstr "Jeux de tuiles"
+
+#: model.py:118 nodepkg/resource-widget/Widget.tsx:38
+msgid "Tileset"
+msgstr "Jeu de tuiles"
+
+#: model.py:203
+msgid "Number of tiles"
+msgstr "Nombre de tuiles"
+
+#: model.py:205
+msgid "Zoom levels"
+msgstr "Niveaux de zoom"
+
+#: model.py:206
+msgid "From {min} to {max}"
+msgstr "De {min} à {max}"
+
+#: model.py:238
+msgid "Tiles '{}' and '{}' are located in different subdirectories."
+msgstr ""
+"Les tuiles \"{}\" et \"{}\" sont situées dans des sous-répertoires "
+"différents."
+
+#: model.py:244
+msgid "Tiles '{}' and '{}' have different extensions."
+msgstr "Les tuiles \"{}\" et \"{}\" ont des extensions différentes."
+
+#: model.py:301 model.py:310
+msgid "Unsupported data format."
+msgstr "Format de données non pris en charge."
+
+#: model.py:343
+msgid "Only 256x256 px tiles are supported."
+msgstr "Seules les tuiles de 256x256 px sont prises en charge."
+
+#: model.py:363
+msgid "No tiles found in source."
+msgstr "Aucune tuile trouvée dans la source."
+
+#: nodepkg/resource-widget/Widget.tsx:15
+msgid "Select a tileset"
+msgstr "Sélectionnez un jeu de tuiles"
+
+#: nodepkg/resource-widget/Widget.tsx:16
+msgid ""
+"MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
+"JPEG format and have a size of 256x256 pixels."
+msgstr ""
+"Les fichiers MBTiles et les archives ZIP de tuiles sont pris en charge. Les "
+"tuiles doivent être au format PNG ou JPEG et avoir une taille de 256x256 "
+"pixels."

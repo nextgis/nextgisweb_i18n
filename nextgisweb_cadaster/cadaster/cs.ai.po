@@ -1,0 +1,220 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:77
+msgid "Monetary unit of value"
+msgstr "Měnová jednotka hodnoty"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:85
+msgid "Date of entering information about cadastral value"
+msgstr "Datum zadání informací o katastrální hodnotě"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:88
+msgid "Date of cadastral value approval"
+msgstr "Datum schválení katastrální hodnoty"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:89
+msgid "Refined area"
+msgstr "Upravená plocha"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:90
+msgid "Dimension of the area"
+msgstr "Rozměr plochy"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:91
+msgid "Permitted use according to the document"
+msgstr "Povolené použití podle dokumentu"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:92
+msgid "Permitted use"
+msgstr "Povolené použití"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:93
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:95
+msgid "Status"
+msgstr "Stav"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:94
+msgid "Type of area"
+msgstr "Typ plochy"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:96
+msgid "Customer phone"
+msgstr "Telefon zákazníka"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:97
+msgid "Contract number"
+msgstr "Číslo smlouvy"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:98
+msgid "Information"
+msgstr "Informace"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:99
+msgid "Type (as form)"
+msgstr "Typ (jako forma)"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:100
+msgid "Description"
+msgstr "Popis"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:101
+msgid "Registered number"
+msgstr "Registrační číslo"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:102
+msgid "Restriction"
+msgstr "Omezení"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:104
+msgid "Registry number"
+msgstr "Číslo registru"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:114
+msgid "Cadastral quarter"
+msgstr "Katastrální čtvrť"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:115
+msgid "Indentification of cadastral quarters"
+msgstr "Identifikace katastrálních území"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:120
+msgid "Land plot"
+msgstr "Pozemek"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:121
+msgid "Land plot identification"
+msgstr "Identifikace pozemku"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:126
+msgid "Capital construction object"
+msgstr "Objekt investiční výstavby"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:127
+msgid "Identification of capital construction objects"
+msgstr "Identifikace objektů investiční výstavby"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:134
+msgid "Zone with special usage conditions"
+msgstr "Zóna se zvláštními podmínkami použití"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:135
+msgid "Identification of zones with special usage conditions"
+msgstr "Identifikace zón se zvláštními podmínkami použití"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:142
+msgid "Cadastral district"
+msgstr "Katastrální území"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:143
+msgid "Identification of cadastral districts"
+msgstr "Identifikace katastrálních území"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:149
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:246
+msgid "Attributes"
+msgstr "Atributy"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolBase.js:166
+msgid "No data"
+msgstr "Žádné údaje"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:50
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:155
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:168
+msgid "Cadaster services error"
+msgstr "Chyba služeb katastru"
+
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:51
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:156
+#: amd/ngw-cadaster/webmap/tool/CadastralToolSearch.js:169
+msgid "Wrong cadaster number: ${cadno}"
+msgstr "Špatné katastrální číslo: ${cadno}"
+
+#: api/exceptions.py:11
+msgid "The Geoservices API unknown error"
+msgstr "Neznámá chyba Geoservices API"
+
+#: api/exceptions.py:12
+msgid "The Geoservices API: unknown error"
+msgstr "Geoservices API: neznámá chyba"
+
+#: api/exceptions.py:16
+msgid "The Geoservices API timeout error"
+msgstr "Chyba časového limitu Geoservices API"
+
+#: api/exceptions.py:17
+msgid "The Geoservices API is currently unavailable due to a timeout error"
+msgstr "Geoservices API je momentálně nedostupné kvůli chybě časového limitu"
+
+#: api/exceptions.py:21
+msgid "The Geoservices API parsing error"
+msgstr "Chyba parsování Geoservices API"
+
+#: api/exceptions.py:22
+msgid ""
+"The Geoservices API failed to parse the JSON data returned by the PKK "
+"service"
+msgstr "Geoservices API se nepodařilo zpracovat JSON data vrácená službou PKK"
+
+#: api/exceptions.py:26
+msgid "The Geoservices API error"
+msgstr "Chyba Geoservices API"
+
+#: api/exceptions.py:27
+msgid ""
+"NextGIS Geoservices encountered an internal error or the PKK service is "
+"currently unavailable"
+msgstr ""
+"NextGIS Geoservices narazilo na interní chybu nebo je služba PKK momentálně "
+"nedostupná"
+
+#: api/exceptions.py:33
+msgid "The NextGIS Geoservices is currently unavailable"
+msgstr "NextGIS Geoservices je momentálně nedostupné"
+
+#: api/exceptions.py:42
+msgid ""
+"The Geoservices API: The request for attribute retrieval ended in failure"
+msgstr "Geoservices API: Požadavek na načtení atributů skončil neúspěchem"
+
+#: api/exceptions.py:51
+msgid ""
+"The Geoservices API: The 'extent' field is not present in the received "
+"attributes"
+msgstr "Geoservices API: Pole 'extent' není obsaženo v přijatých atributech"
+
+#: api/exceptions.py:62
+msgid "The Geoservices API: The object geometry retrieval request failed"
+msgstr "Geoservices API: Požadavek na načtení geometrie objektu selhal"
+
+#: api/exceptions.py:71
+msgid ""
+"The Geoservices API: Unable to create the feature based on previous requests"
+msgstr ""
+"Geoservices API: Nelze vytvořit prvek na základě předchozích požadavků"
+
+#: api/exceptions.py:75
+msgid "The Geoservices API: Plot not found"
+msgstr "Geoservices API: Parcela nebyla nalezena"
+
+#: api/geoservices.py:50
+msgid "'Cadaster services' module is disabled!"
+msgstr "Modul \"Katastrální služby\" je zakázán!"
+
+#: api/geoservices.py:60
+msgid ""
+"Geoservices API key in cadaster services module not set. Set the Geoservices"
+" API key in the `Cadaster services` section on the Control panel."
+msgstr ""
+"API klíč Geoservices v modulu katastrálních služeb není nastaven. Nastavte "
+"API klíč Geoservices v sekci `Katastrální služby` na Ovládacím panelu."
+
+#: api/geoservices.py:96
+msgid "Required parameters: lon, lat, types!"
+msgstr "Požadované parametry: lon, lat, types!"
+
+#: api/geoservices.py:131
+msgid "Parameter 'types' is required"
+msgstr "Parametr \"types\" je povinný"

@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:137
+msgid "Uploaded file not found"
+msgstr "Запампаваны файл не знойдзены"
+
+#: nodepkg/file-uploader/FileUploader.tsx:22
+msgid "Stop"
+msgstr "Спыніць"
+
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
+msgid "Upload"
+msgstr "Запампаваць"
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:17
+msgid "{} uploaded..."
+msgstr "{} запампаваны..."

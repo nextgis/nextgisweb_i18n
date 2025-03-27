@@ -1,0 +1,32 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:18
+msgid "Pick from QMS"
+msgstr "Scegli da QMS"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:20
+msgid "Search for geoservices provided by "
+msgstr "Cerca geoservizi forniti da"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:21
+msgid "You can search by name or ID"
+msgstr "Puoi cercare per nome o ID"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:24
+msgid "If a service from QMS is selected, this field cannot be edited."
+msgstr ""
+"Se un servizio da QMS è selezionato, questo campo non può essere modificato."
+
+#: nodepkg/layer-widget/LayerWidget.tsx:88
+msgid "Copyright text"
+msgstr "Testo del copyright"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:97
+msgid "Copyright URL"
+msgstr "URL del copyright"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:61
+msgid "Default basemap"
+msgstr "Mappa di base predefinita"

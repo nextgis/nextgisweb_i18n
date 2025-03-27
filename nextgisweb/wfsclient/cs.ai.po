@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:53
+msgid "Keep"
+msgstr "Držet"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:54
+msgid "Reload"
+msgstr "Znovu načíst"
+
+#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:10
+msgid "WFS path"
+msgstr "Cesta WFS"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:8
+msgid "Select WFS connection"
+msgstr "Vyberte připojení WFS"

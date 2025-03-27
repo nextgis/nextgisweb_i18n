@@ -1,0 +1,88 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:748
+msgid "Unknown 'fix_errors' value."
+msgstr "未知'fix_errors'值"
+
+#: model.py:756
+msgid "Unknown 'cast_geometry_type' value."
+msgstr "未知'cast_geometry_type' 值"
+
+#: model.py:761
+msgid "Unknown 'cast_is_multi' value."
+msgstr "未知'cast_is_multi'值"
+
+#: model.py:766
+msgid "Unknown 'cast_has_z' value."
+msgstr "未知参数值'cast_has_z'"
+
+#: model.py:771
+msgid "Unknown 'fid_source' value."
+msgstr "未知的 'fid_source' 值。"
+
+#: model.py:794
+msgid "Unsupported geometry type."
+msgstr "不支持的几何类型"
+
+#: nodepkg/resource-widget/Store.tsx:168
+msgid "Confirm deletion of existing features"
+msgstr "确认删除现有要素"
+
+#: nodepkg/resource-widget/Store.tsx:175
+msgid "Confirm change of geometry type"
+msgstr "确认更改几何类型"
+
+#: nodepkg/resource-widget/Widget.tsx:34
+msgid ""
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
+"put in lat and lot columns."
+msgstr ""
+"支持ESRI "
+"Shapefile（zip）、GeoPackage、GeoJSON、GML、KML、CSV或XLSX格式。对于CSV和XLSX只支持点类型，坐标必须放在lat和long列中。"
+
+#: nodepkg/resource-widget/Widget.tsx:45
+msgid "Whenever possible"
+msgstr "尽可能"
+
+#: nodepkg/resource-widget/Widget.tsx:114
+msgid "Only load features of the selected geometry type"
+msgstr "仅加载所选几何类型的要素"
+
+#: nodepkg/resource-widget/Widget.tsx:151
+msgid "Load features from file"
+msgstr "从文件加载要素"
+
+#: nodepkg/resource-widget/Widget.tsx:152
+msgid "Create empty layer"
+msgstr "创建空图层"
+
+#: nodepkg/resource-widget/Widget.tsx:154
+msgid "Keep existing layer features"
+msgstr "保留现有图层要素"
+
+#: nodepkg/resource-widget/Widget.tsx:155
+msgid "Change geometry type"
+msgstr "更改几何类型"
+
+#: nodepkg/resource-widget/Widget.tsx:156
+msgid "Replace layer features from file"
+msgstr "从文件替换图层要素"
+
+#: nodepkg/resource-widget/Widget.tsx:157
+msgid "Delete all features from layer"
+msgstr "删除图层中的所有要素"
+
+#: nodepkg/resource-widget/Widget.tsx:173
+msgid "current"
+msgstr "当前"
+
+#: ogrloader.py:603
+msgid "Feature #%d doesn't have geometry."
+msgstr "要素#%d不包括几何形状。"
+
+#: ogrloader.py:701
+msgid "Feature #%d has empty rings."
+msgstr "要素 #%d 有空环。"

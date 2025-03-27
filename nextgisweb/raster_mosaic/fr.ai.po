@@ -1,0 +1,11 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/resource-widget/Store.ts:73
+msgid "File '{}' has an invalid extension."
+msgstr "Le fichier '{}' a une extension invalide."
+
+#: nodepkg/resource-widget/Widget.tsx:64
+msgid "Rasters"
+msgstr "Rasters"

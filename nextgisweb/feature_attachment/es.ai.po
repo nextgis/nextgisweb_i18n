@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:33
+msgid ""
+"Draw the geometry on the map to visualize the attachments to the objects"
+msgstr ""
+"Dibuje la geometría en el mapa para visualizar los adjuntos a los objetos"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
+msgid "Object: "
+msgstr "Objeto:"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:139
+msgid "Identify object"
+msgstr "Identificar objeto"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:160
+msgid "Attachments: "
+msgstr "Adjuntos:"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:187
+msgid "No attachments"
+msgstr "No hay adjuntos"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:253
+msgid "Download all attachments"
+msgstr "Descargar todos los adjuntos"
+
+#: nodepkg/image-thumbnail/component/CarouselRender.tsx:23
+msgid "Toggle panorama viewer"
+msgstr "Alternar visualizador de panorama"
+
+#: util.py:61
+msgid "Invalid feature ID for file '{}'."
+msgstr "ID de objeto geográfico no válido para el archivo '{}'."
+
+#: util.py:68
+msgid "Invalid keyname for file '{}'."
+msgstr "Nombre de clave no válido para el archivo '{}'."
+
+#: util.py:100
+msgid "Could not determine feature ID for file '{}'."
+msgstr ""
+"No se pudo determinar el ID del objeto geográfico para el archivo '{}'."

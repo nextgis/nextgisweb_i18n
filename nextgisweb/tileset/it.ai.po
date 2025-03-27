@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:88
+msgid "Tilesets"
+msgstr "Tileset"
+
+#: model.py:118 nodepkg/resource-widget/Widget.tsx:38
+msgid "Tileset"
+msgstr "Tileset"
+
+#: model.py:203
+msgid "Number of tiles"
+msgstr "Numero di tile"
+
+#: model.py:205
+msgid "Zoom levels"
+msgstr "Livelli di zoom"
+
+#: model.py:206
+msgid "From {min} to {max}"
+msgstr "Da {min} a {max}"
+
+#: model.py:238
+msgid "Tiles '{}' and '{}' are located in different subdirectories."
+msgstr "Le tile '{}' e '{}' si trovano in sottodirectory diverse."
+
+#: model.py:244
+msgid "Tiles '{}' and '{}' have different extensions."
+msgstr "Le tile '{}' e '{}' hanno estensioni diverse."
+
+#: model.py:301 model.py:310
+msgid "Unsupported data format."
+msgstr "Formato dati non supportato."
+
+#: model.py:343
+msgid "Only 256x256 px tiles are supported."
+msgstr "Supportate solo tile 256x256 px."
+
+#: model.py:363
+msgid "No tiles found in source."
+msgstr "Nessuna tile trovata nella fonte."
+
+#: nodepkg/resource-widget/Widget.tsx:15
+msgid "Select a tileset"
+msgstr "Seleziona un tileset"
+
+#: nodepkg/resource-widget/Widget.tsx:16
+msgid ""
+"MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
+"JPEG format and have a size of 256x256 pixels."
+msgstr ""
+"Supportati archivi MBTiles e ZIP di tile. Le tile devono essere in formato "
+"PNG o JPEG e avere una dimensione di 256x256 pixel."

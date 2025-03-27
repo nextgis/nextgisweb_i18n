@@ -1,0 +1,136 @@
+#
+msgid ""
+msgstr ""
+
+#: lockable_feature.py:60
+msgid "Additional basemaps"
+msgstr "Couches de fond supplémentaires"
+
+#: lockable_feature.py:93
+msgid "Field data collection"
+msgstr "Collecte de données sur le terrain"
+
+#: lockable_feature.py:101
+msgid "Use on other websites (CORS)"
+msgstr "Utilisation sur d'autres sites web (CORS)"
+
+#: lockable_feature.py:122
+msgid "Custom domain and branding"
+msgstr "Domaine personnalisé et image de marque"
+
+#: lockable_feature.py:135
+msgid "Custom SRS"
+msgstr "SRS personnalisé"
+
+#: lockable_feature.py:147
+msgid "Improved performance"
+msgstr "Performance améliorée"
+
+#: lockable_feature.py:154
+msgid "Access management"
+msgstr "Gestion des accès"
+
+#: lockable_feature.py:229
+msgid "Technical support"
+msgstr "Support technique"
+
+#: lockable_feature.py:234
+msgid "On-demand backup restore"
+msgstr "Restauration de sauvegarde à la demande"
+
+#: lockable_feature.py:255
+msgid "Tile caching"
+msgstr "Mise en cache des tuiles"
+
+#: lockable_feature.py:285
+msgid "Data editing on web maps"
+msgstr "Édition de données sur les cartes web"
+
+#: lockable_feature.py:311
+msgid "Annotations on web maps"
+msgstr "Annotations sur les cartes web"
+
+#: nodepkg/include.js:11 nodepkg/upgrade-button/index.js:28 view.py:15
+msgid "Plan and features"
+msgstr "Plan et fonctionnalités"
+
+#: nodepkg/qgis-banner/QgisBanner.js:23
+msgid "Easy start with QGIS"
+msgstr "Démarrage facile avec QGIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:26
+msgid ""
+"Use the NextGIS Connect plugin for QGIS to upload your data and create "
+"interactive maps."
+msgstr ""
+"Utilisez le plugin NextGIS Connect pour QGIS afin de télécharger vos données"
+" et créer des cartes interactives."
+
+#: nodepkg/qgis-banner/QgisBanner.js:33
+msgid "Install the NextGIS Connect plugin for QGIS"
+msgstr "Installez le plugin NextGIS Connect pour QGIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:37
+msgid "Connect the plugin to your Web GIS"
+msgstr "Connectez le plugin à votre Web GIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:39
+msgid "Upload your layers and projects to your Web GIS"
+msgstr "Téléchargez vos couches et projets sur votre Web GIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:56
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#: nodepkg/qgis-banner/QgisBanner.js:64
+msgid "Hide"
+msgstr "Cacher"
+
+#: nodepkg/resource-widget/base.js:20 service_plan.py:303
+msgid "{} feature is not available on your plan."
+msgstr "La fonctionnalité {} n’est pas disponible dans votre plan."
+
+#: nodepkg/resource-widget/base.js:21
+msgid "These features are not available on your plan:"
+msgstr "Ces fonctionnalités ne sont pas disponibles dans votre plan :"
+
+#: nodepkg/summary.js:18
+msgid "Available"
+msgstr "Disponible"
+
+#: service_plan.py:99
+msgid "Number of maps and layers"
+msgstr "Nombre de cartes et de couches"
+
+#: service_plan.py:100
+msgid "Storage limit"
+msgstr "Limite de stockage"
+
+#: service_plan.py:101
+msgid "User limit"
+msgstr "Limite d’utilisateurs"
+
+#: service_plan.py:106
+msgid "GPS trackers"
+msgstr "Traceurs GPS"
+
+#: service_plan.py:117
+msgid "Maximum file upload"
+msgstr "Taille maximale de fichier"
+
+#: service_plan.py:118
+msgid "Maximum raster layer"
+msgstr "Couche raster maximale"
+
+#: service_plan.py:296
+msgid "Plan upgrade required"
+msgstr "Mise à niveau du plan requise"
+
+#: service_plan.py:300
+msgid "This is not available on your plan."
+msgstr "Ceci n’est pas disponible dans votre plan."
+
+#: service_plan.py:311
+msgid "To use this feature, please upgrade."
+msgstr ""
+"Pour utiliser cette fonctionnalité, veuillez effectuer une mise à niveau."

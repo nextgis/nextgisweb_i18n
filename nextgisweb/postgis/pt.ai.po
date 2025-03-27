@@ -1,0 +1,251 @@
+#
+msgid ""
+msgstr ""
+
+#: api.py:148
+msgid "PostGIS layer {} not found!"
+msgstr "Camada PostGIS {} não encontrada!"
+
+#: api.py:172
+msgid "PostGIS connection {} not found!"
+msgstr "Ligação PostGIS {} não encontrada!"
+
+#: diagnostics.py:99
+msgid "Got an unexpected error."
+msgstr "Ocorreu um erro inesperado."
+
+#: diagnostics.py:156
+msgid "PostgreSQL connection"
+msgstr "Conexão PostgreSQL"
+
+#: diagnostics.py:162
+msgid "Host name resolution failed: {}."
+msgstr "Falha na resolução do nome do host: {}."
+
+#: diagnostics.py:180
+msgid "Failed to connect to the database."
+msgstr "Falha ao conectar à base de dados."
+
+#: diagnostics.py:184
+msgid "Connected to the database."
+msgstr "Conectado à base de dados."
+
+#: diagnostics.py:187
+msgid "Executed {} query."
+msgstr "Consulta {} executada."
+
+#: diagnostics.py:190
+msgid "PostgreSQL version {}."
+msgstr "Versão do PostgreSQL {}."
+
+#: diagnostics.py:199
+msgid "PostGIS extension"
+msgstr "Extensão PostGIS"
+
+#: diagnostics.py:209
+msgid "PostGIS extension not found."
+msgstr "Extensão PostGIS não encontrada."
+
+#: diagnostics.py:211
+msgid "PostGIS extension version {}."
+msgstr "Versão da extensão PostGIS {}."
+
+#: diagnostics.py:214
+msgid "Number of geometry columns: {}."
+msgstr "Número de colunas de geometria: {}."
+
+#: diagnostics.py:217
+msgid "Number of spatial reference systems: {}."
+msgstr "Número de sistemas de referência espacial: {}."
+
+#: diagnostics.py:257
+msgid "Layer table"
+msgstr "Tabela da camada"
+
+#: diagnostics.py:263
+msgid "Table not found."
+msgstr "Tabela não encontrada."
+
+#: diagnostics.py:265
+msgid "Table found, table type is {}."
+msgstr "Tabela encontrada, o tipo da tabela é {}."
+
+#: diagnostics.py:283
+msgid "{} privilege is present."
+msgstr "Privilégio {} presente."
+
+#: diagnostics.py:285 diagnostics.py:287
+msgid "{} privilege is absent."
+msgstr "Privilégio {} ausente."
+
+#: diagnostics.py:290
+msgid "Number of records: {}."
+msgstr "Número de registros: {}."
+
+#: diagnostics.py:293
+msgid "ID or geometry column isn't set."
+msgstr "A coluna de ID ou geometria não está definida."
+
+#: diagnostics.py:305 diagnostics.py:378
+msgid "Column not found."
+msgstr "Coluna não encontrada."
+
+#: diagnostics.py:310
+msgid "Column found, but has non-integer type - {}."
+msgstr "Coluna encontrada, mas tem tipo não-inteiro - {}."
+
+#: diagnostics.py:312 diagnostics.py:390
+msgid "Column found, type is {}."
+msgstr "Coluna encontrada, o tipo é {}."
+
+#: diagnostics.py:317
+msgid "Column is the primary key."
+msgstr "A coluna é a chave primária."
+
+#: diagnostics.py:320
+msgid "Column is not the primary key."
+msgstr "A coluna não é a chave primária."
+
+#: diagnostics.py:329
+msgid "Column can be NULL."
+msgstr "A coluna pode ser NULL."
+
+#: diagnostics.py:334
+msgid "NULL values in the column."
+msgstr "Valores NULL na coluna."
+
+#: diagnostics.py:336
+msgid "No NULL values in the column."
+msgstr "Não há valores NULL na coluna."
+
+#: diagnostics.py:338
+msgid "Column cannot be NULL."
+msgstr "A coluna não pode ser NULL."
+
+#: diagnostics.py:342
+msgid "Unique index not found."
+msgstr "Índice único não encontrado."
+
+#: diagnostics.py:344
+msgid "Unique index found."
+msgstr "Índice único encontrado."
+
+#: diagnostics.py:360
+msgid "Non-unique values in the column."
+msgstr "Valores não únicos na coluna."
+
+#: diagnostics.py:362
+msgid "All values are unique."
+msgstr "Todos os valores são únicos."
+
+#: diagnostics.py:367
+msgid "Column is auto-incrementable."
+msgstr "A coluna é auto-incrementável."
+
+#: diagnostics.py:369
+msgid "Column isn't auto-incrementable."
+msgstr "A coluna não é auto-incrementável."
+
+#: diagnostics.py:388
+msgid "Column found, but has an incompatible type - {}."
+msgstr "Coluna encontrada, mas tem um tipo incompatível - {}."
+
+#: diagnostics.py:393
+msgid "Geometry SRID mismatch."
+msgstr "Incompatibilidade de SRID da geometria."
+
+#: diagnostics.py:408
+msgid "Failed to reproject extent to SRID {}."
+msgstr "Falha ao reprojetar a extensão para SRID {}."
+
+#: diagnostics.py:412
+msgid "Extent (SRID {}): {}."
+msgstr "Extensão (SRID {}): {}."
+
+#: diagnostics.py:416
+msgid "Field columns"
+msgstr "Colunas de campos"
+
+#: diagnostics.py:422
+msgid "Column of field '{}' not found."
+msgstr "Coluna do campo '{}' não encontrada."
+
+#: diagnostics.py:431
+msgid "Column of field '{}' found, but has an incompatible type - {}."
+msgstr "Coluna do campo '{}' encontrada, mas tem um tipo incompatível - {}."
+
+#: diagnostics.py:437
+msgid "Column of field '{}' found, type is {}."
+msgstr "Coluna do campo '{}' encontrada, o tipo é {}."
+
+#: exception.py:9
+msgid "External database error"
+msgstr "Erro de base de dados externa"
+
+#: model.py:79 nodepkg/layer-widget/LayerWidget.tsx:98
+msgid "Point Z"
+msgstr "Ponto Z"
+
+#: model.py:80 nodepkg/layer-widget/LayerWidget.tsx:99
+msgid "Line Z"
+msgstr "Linha Z"
+
+#: model.py:81 nodepkg/layer-widget/LayerWidget.tsx:100
+msgid "Polygon Z"
+msgstr "Polígono Z"
+
+#: model.py:82 nodepkg/layer-widget/LayerWidget.tsx:101
+msgid "Multipoint Z"
+msgstr "Multiponto Z"
+
+#: model.py:83 nodepkg/layer-widget/LayerWidget.tsx:102
+msgid "Multiline Z"
+msgstr "Multilinha Z"
+
+#: model.py:84 nodepkg/layer-widget/LayerWidget.tsx:103
+msgid "Multipolygon Z"
+msgstr "Multipolígono Z"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.js:12
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.js:13
+msgid "Success"
+msgstr "Sucesso"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.js:14
+msgid "Warning"
+msgstr "Aviso"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.js:15
+msgid "Error"
+msgstr "Erro"
+
+#: nodepkg/layer-widget/LayerStore.ts:13
+msgid "Fields need to be updated due to autodetection"
+msgstr "Os campos precisam ser atualizados devido à autodetecção"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:35
+msgid "SRID"
+msgstr "SRID"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:36
+msgid "Fields"
+msgstr "Campos"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:107
+msgid "Keep existing definitions untouched"
+msgstr "Manter as definições existentes intocadas"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:108
+msgid "Update definitions from the database"
+msgstr "Atualizar definições da base de dados"
+
+#: view.py:39
+msgid "Diagnostics"
+msgstr "Diagnósticos"
+
+#: view.py:59
+msgid "PostGIS diagnostics"
+msgstr "Diagnósticos PostGIS"

@@ -1,0 +1,90 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
+msgid "Add item"
+msgstr "Agregar elemento"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
+msgid "Add group"
+msgstr "Agregar grupo"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
+msgid "Remove"
+msgstr "Eliminar"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
+msgid "You have no permissions to manage this section."
+msgstr "No tiene permisos para administrar esta sección."
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
+msgid "Manage collectors"
+msgstr "Gestión de participantes"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
+msgid "Give access to this project for the following collectors:"
+msgstr "Dar acceso a este proyecto para los siguientes participantes:"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
+msgid "Users"
+msgstr "Usuarios"
+
+#: api/collector_user.py:31
+msgid "Membership in group \"Administrators\" required!"
+msgstr "¡Se requiere membresía en el grupo \"Administradores\"!"
+
+msgid "Each collector must be first registered at "
+msgstr "Cada participante debe registrarse primero en "
+
+msgid "NextGIS ID Email"
+msgstr "Correo de ID de NextGIS"
+
+msgid "The email is invalid!"
+msgstr "¡El correo electrónico no es válido!"
+
+msgid "Your Collector users limit = 60"
+msgstr "El límite de usuarios de su Collector = 60"
+
+msgid "Each collector must be first registered at ${ngid}"
+msgstr "Cada participante debe registrarse primero en ${ngid}"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "The NextGIS ID is invalid!"
+msgstr "¡La ID de NextGIS no es válida!"
+
+msgid "The NextGIS ID is required!"
+msgstr "¡Se requiere el NextGIS ID!"
+
+msgid "New collector"
+msgstr "Nuevo participante"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Create"
+msgstr "Crear"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Search Collector user..."
+msgstr "Buscando usuario de participante..."
+
+msgid "Email"
+msgstr "Correo"
+
+msgid "Deleting сollector"
+msgstr "Eliminar el miembro"
+
+msgid "Delete сollector?"
+msgstr "Eliminar el miembro?"
+
+msgid "NextGIS Collector settings"
+msgstr "Configuración de NextGIS Collector"

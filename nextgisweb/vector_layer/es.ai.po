@@ -1,0 +1,79 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:748
+msgid "Unknown 'fix_errors' value."
+msgstr "'fix_errors' no es un valor conocido."
+
+#: model.py:756
+msgid "Unknown 'cast_geometry_type' value."
+msgstr "'cast_geometry_type' no es un valor conocido."
+
+#: model.py:761
+msgid "Unknown 'cast_is_multi' value."
+msgstr "'cast_is_multi' no es un valor conocido."
+
+#: model.py:766
+msgid "Unknown 'cast_has_z' value."
+msgstr "'cast_has_z' no es un valor conocido."
+
+#: model.py:771
+msgid "Unknown 'fid_source' value."
+msgstr "Valor desconocido de 'fid_source'."
+
+#: model.py:794
+msgid "Unsupported geometry type."
+msgstr "Tipo de geometría no admitida."
+
+#: nodepkg/resource-widget/Store.tsx:168
+msgid "Confirm deletion of existing features"
+msgstr "Confirmar eliminación de las características existentes"
+
+#: nodepkg/resource-widget/Store.tsx:175
+msgid "Confirm change of geometry type"
+msgstr "Confirmar cambio de tipo de geometría"
+
+#: nodepkg/resource-widget/Widget.tsx:45
+msgid "Whenever possible"
+msgstr "Siempre que sea posible"
+
+#: nodepkg/resource-widget/Widget.tsx:114
+msgid "Only load features of the selected geometry type"
+msgstr "Cargar solo objetos geográficos del tipo de geometría seleccionado"
+
+#: nodepkg/resource-widget/Widget.tsx:151
+msgid "Load features from file"
+msgstr "Cargar objetos geográficos desde archivo"
+
+#: nodepkg/resource-widget/Widget.tsx:152
+msgid "Create empty layer"
+msgstr "Crear capa vacía"
+
+#: nodepkg/resource-widget/Widget.tsx:154
+msgid "Keep existing layer features"
+msgstr "Mantener los objetos geográficos existentes en la capa"
+
+#: nodepkg/resource-widget/Widget.tsx:155
+msgid "Change geometry type"
+msgstr "Cambiar tipo de geometría"
+
+#: nodepkg/resource-widget/Widget.tsx:156
+msgid "Replace layer features from file"
+msgstr "Reemplazar los objetos geográficos de la capa desde el archivo"
+
+#: nodepkg/resource-widget/Widget.tsx:157
+msgid "Delete all features from layer"
+msgstr "Eliminar todos los objetos geográficos de la capa"
+
+#: nodepkg/resource-widget/Widget.tsx:173
+msgid "current"
+msgstr "actual"
+
+#: ogrloader.py:603
+msgid "Feature #%d doesn't have geometry."
+msgstr "El objeto geográfico #%d no tiene geometría."
+
+#: ogrloader.py:701
+msgid "Feature #%d has empty rings."
+msgstr "El objeto geográfico #%d tiene anillos vacíos."

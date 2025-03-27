@@ -1,0 +1,27 @@
+#
+msgid ""
+msgstr ""
+
+#: api.py:82
+msgid "Invalid origin"
+msgstr "Ungültiger Ursprung"
+
+#: api.py:83
+msgid ""
+"Origin validation is enabled for rendering requests, but the given origin "
+"doesn't match with the CORS origins list."
+msgstr ""
+"Ursprungsvalidierung ist für Rendering-Anfragen aktiviert, aber der "
+"angegebene Ursprung stimmt nicht mit der CORS-Ursprungsliste überein."
+
+#: api.py:158
+msgid "Invalid symbols sequence"
+msgstr "Ungültige Symbolsequenz"
+
+#: component.py:51
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: view.py:42
+msgid "Legend symbols"
+msgstr "Legenden-Symbole"

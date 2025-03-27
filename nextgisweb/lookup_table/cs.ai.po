@@ -1,0 +1,27 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:34
+msgid "Type here to add a new item..."
+msgstr "Zadejte zde pro přidání nové položky..."
+
+#: nodepkg/editor/EditorWidget.tsx:35
+msgid "Export"
+msgstr "Export"
+
+#: nodepkg/editor/EditorWidget.tsx:36
+msgid "Import"
+msgstr "Import"
+
+#: nodepkg/editor/EditorWidget.tsx:37
+msgid "Clear"
+msgstr "Vymazat"
+
+#: nodepkg/editor/EditorWidget.tsx:40
+msgid ""
+"All existing records will be deleted after import. Are you sure you want to "
+"proceed?"
+msgstr ""
+"Všechny existující záznamy budou po importu smazány. Jste si jisti, že "
+"chcete pokračovat?"

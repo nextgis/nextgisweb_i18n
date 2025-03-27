@@ -1,0 +1,15 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:137
+msgid "Uploaded file not found"
+msgstr "Nahraný soubor nebyl nalezen"
+
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
+msgid "Upload"
+msgstr "Nahrát"
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:17
+msgid "{} uploaded..."
+msgstr "{} nahráno..."

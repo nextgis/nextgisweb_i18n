@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:30
+msgid "Consumption, liters per 100 km (for reports)"
+msgstr "Consumo, litros cada 100 km (para informes)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:32
+msgid "Invalid consumption, should be from 0 to 100"
+msgstr "Consumo no válido, debe ser de 0 a 100"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:47
+msgid "NextGIS software (Mobile, Collector)"
+msgstr "Software NextGIS (Mobile, Collector)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:48
+msgid "ADM (ADM-50, ADM-100)"
+msgstr "ADM (ADM-50, ADM-100)"
+
+#: amd/ngw-tracker/webmap/map/utils.js:63
+msgid "Satellites"
+msgstr "Satélites"
+
+#: amd/ngw-tracker/webmap/map/utils.js:69
+msgid "HDOP"
+msgstr "HDOP"
+
+#: model.py:51
+msgid "Tracker UID is not unique"
+msgstr "El UID del localizador no es único"
+
+#: model.py:78
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr ""
+"El atributo '{}' es inmutable y no puede ser cambiado una vez que el "
+"localizador ha sido creado."
+
+#: nodepkg/reports/Reports.js:26
+msgid "Spent fuel"
+msgstr "Combustible consumido"
+
+#: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
+#: nodepkg/trackers-panel/TrackersPanel.js:97
+#: nodepkg/trackers-panel/TrackersPanel.js:98
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: nodepkg/reports/Reports.js:131
+msgid "Result"
+msgstr "Resultado"
+
+#: nodepkg/reports/Reports.js:142
+msgid "Settings"
+msgstr "Configuración"
+
+#: nodepkg/reports/Reports.js:183
+msgid "Build report"
+msgstr "Generar informe"
+
+#: nodepkg/tracker-activity/ChartHelper.js:44
+msgid "Count of packets per hour"
+msgstr "Conteo de paquetes por hora"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:53
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:63
+msgid "Last activity by hours"
+msgstr "Última actividad por horas"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:40
+msgid "Last known point"
+msgstr "Último punto conocido"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:45
+msgid "GPS tracks"
+msgstr "Rutas GPS"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:50
+msgid "Track points"
+msgstr "Puntos de la ruta"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:187
+msgid "Sort by"
+msgstr "Ordenar por"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:189
+msgid "Name"
+msgstr "Nombre"
+
+#: view/reports.py:18
+msgid "Trackers reports"
+msgstr "Informes de localizadores"

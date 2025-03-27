@@ -1,0 +1,7 @@
+#
+msgid ""
+msgstr ""
+
+#: util.py:19
+msgid "Invalid ZIP archive."
+msgstr "Невалиден ZIP архив."

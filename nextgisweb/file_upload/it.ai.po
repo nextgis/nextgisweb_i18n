@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:137
+msgid "Uploaded file not found"
+msgstr "File caricato non trovato"
+
+#: nodepkg/file-uploader/FileUploader.tsx:22
+msgid "Stop"
+msgstr "Ferma"
+
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
+msgid "Upload"
+msgstr "Carica"
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:17
+msgid "{} uploaded..."
+msgstr "{} caricato..."

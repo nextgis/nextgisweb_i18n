@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+
+#: api.py:46
+msgid "Output format is not provided."
+msgstr "Фармат вываду не прадугледжаны."
+
+#: api.py:49
+msgid "Format '%s' is not supported."
+msgstr "Фармат '%s' не падтрымліваецца."
+
+#: kind_of_data.py:8
+msgid "Rasters and pyramids"
+msgstr "Растры і піраміды"
+
+#: model.py:135
+msgid "Mixed band data types are not supported."
+msgstr "Змешаныя тыпы даных каналоў не падтрымліваюцца."
+
+#: model.py:163
+msgid "GDAL was uanble to parse the raster coordinate system."
+msgstr "Бібліятэкцы GDAL не ўдалося парсераваць каардынацый сэрвіс растра."
+
+#: model.py:167
+msgid ""
+"The source raster has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr ""
+"Крынічны растр мае лакальны каардынацый сэрвіс і не можна быць "
+"рэепраекцаваны у мэтавы каардынацый сэрвіс."
+
+#: model.py:184
+msgid "Failed to reproject the raster to the target coordinate system."
+msgstr "Не удалося рээпраекцаваць растр у мэтавы каардынацый сэрвіс."
+
+#: model.py:187
+msgid "GDAL error message: %s"
+msgstr "Памылка GDAL: %s"
+
+#: model.py:203
+msgid ""
+"The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
+"%(delta)s. Reduce raster size to fit the limit."
+msgstr ""
+"Нескампрэсаваны размер растра (%(size)s) перавышае ліміт (%(limit)s) на "
+"%(delta)s. Зменшыце размер растра, каб уклаєцца у ліміт."
+
+#: nodepkg/editor-widget/EditorWidget.tsx:39
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr "Аптымізаваны для воблака GeoTIFF (COG)"
+
+#: view.py:69
+msgid "Download"
+msgstr "Скачаць"

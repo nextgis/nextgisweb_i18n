@@ -1,0 +1,196 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-resource/CompositeWidget.js:296
+msgid "Validation failed"
+msgstr "Error de validación"
+
+#: amd/ngw-resource/ResourcePicker.js:29
+msgid "Select resource"
+msgstr "Seleccionar recurso"
+
+#: amd/ngw-resource/ResourcePicker.js:70
+msgid "OK"
+msgstr "OK"
+
+#: amd/ngw-resource/ResourcePicker.js:79
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: api.py:195
+msgid "Resource parent required."
+msgstr "Se requiere padre de recursos."
+
+#: api.py:200
+msgid "Resource class required."
+msgstr "Se requiere clase de recurso."
+
+#: api.py:202
+msgid "Unknown resource class '%s'."
+msgstr "Clase de recurso desconocida '%s'."
+
+#: exception.py:27
+msgid ""
+"Modification of the '{attribute}' attribute requires the '{scope}: "
+"{permission}' permission."
+msgstr ""
+"La modificación del atributo '{attribute}' requiere el permiso '{scope}: "
+"{permission}'."
+
+#: exception.py:33
+msgid "The '{attribute}' attribute is read-only and cannot be updated."
+msgstr ""
+"El atributo '{attribute}' es de solo lectura y no puede ser actualizado."
+
+#: exception.py:40
+msgid "Interface not supported"
+msgstr "Interfaz no soportada"
+
+#: exception.py:72
+msgid "Quota exceeded"
+msgstr "Cuota excedida"
+
+#: favorite/__init__.py:6
+msgid "Go to"
+msgstr "Ir a"
+
+#: favorite/__init__.py:7 nodepkg/favorite/FavoritePage.tsx:379
+msgid "Edit"
+msgstr "Editar"
+
+#: favorite/view.py:15 nodepkg/favorite/Avatar.tsx:54
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: home.py:23
+msgid "User resources"
+msgstr "Recursos del usuario"
+
+#: model.py:310
+msgid "Default style"
+msgstr "Estilo predeterminado"
+
+#: model.py:514
+msgid ""
+"Unable to revoke '{s}: {p}' permission for '{u}' as the user belongs to the "
+"administrators group. Administrators must always have ability to configure "
+"permissions of resources."
+msgstr ""
+"No se puede revocar el permiso '{s}: {p}' para '{u}' ya que el usuario "
+"pertenece al grupo de administradores. Los administradores siempre deben "
+"tener la capacidad de configurar permisos de recursos."
+
+#: nodepkg/children-section/util/createResourceTableItemOptions.ts:7
+msgid "Change"
+msgstr "Cambiar"
+
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:19
+msgid "Pick selected"
+msgstr "Seleccionar elegido"
+
+#: nodepkg/delete-page/DeletePage.tsx:47
+msgid "Confirm deletion of the resource"
+msgstr "Confirmar la eliminación del recurso"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:13
+msgid "Identifier for API integration (optional)"
+msgstr "Identificador para la integración de API (opcional)"
+
+#: nodepkg/export-settings/ExportSettings.tsx:36
+msgid "The setting is saved."
+msgstr "La configuración ha sido guardada."
+
+#: nodepkg/export-settings/ExportSettings.tsx:70
+msgid "Users with \"Data: Modify\" permission"
+msgstr "Usuarios con permiso de \"Datos: Modificar\""
+
+#: nodepkg/external-access/ExternalAccess.tsx:11
+msgid "Read more"
+msgstr "Leer más"
+
+#: nodepkg/favorite/FavoritePage.tsx:29
+msgid ""
+"No favorite resources have been added yet. Use the star icon ({}) in the "
+"user's context menu to add items here."
+msgstr ""
+"Todavía no se han añadido recursos favoritos. Utilice el icono de estrella "
+"({}) en el menú contextual del usuario para añadir elementos aquí."
+
+#: nodepkg/favorite/FavoritePage.tsx:379
+msgid "Done"
+msgstr "Hecho"
+
+#: nodepkg/favorite/useFavorites.tsx:33
+msgid "Added to favorites"
+msgstr "Añadido a favoritos"
+
+#: nodepkg/favorite/useFavorites.tsx:48
+msgid "Removed from favorites"
+msgstr "Eliminado de favoritos"
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:13
+msgid "All fields are required"
+msgstr "Todos los campos son obligatorios"
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:14
+msgid "Row conflicts with another"
+msgstr "La fila entra en conflicto con otra"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:22
+msgid "Apply to"
+msgstr "Aplicar a"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:29
+msgid "This and subresources"
+msgstr "Este y subrecursos"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:30
+msgid "This resource only"
+msgstr "Solo este recurso"
+
+#: scope.py:16 scope.py:31 scope.py:41
+msgctxt "permission"
+msgid "Modify"
+msgstr "Modificar"
+
+#: scope.py:18
+msgctxt "permission"
+msgid "Manage subresources"
+msgstr "Gestionar subrecursos"
+
+#: scope.py:19
+msgctxt "permission"
+msgid "Configure permissions"
+msgstr "Configurar permisos"
+
+#: scope.py:28
+msgid "Data structure"
+msgstr "Estructura de datos"
+
+#: scope.py:51
+msgid "Connection"
+msgstr "Conexión"
+
+#: scope.py:54 scope.py:68
+msgctxt "permission"
+msgid "Configure"
+msgstr "Configurar"
+
+#: scope.py:55
+msgctxt "permission"
+msgid "Use"
+msgstr "Usar"
+
+#: scope.py:65
+msgid "Service"
+msgstr "Servicio"
+
+#: scope.py:67
+msgctxt "permission"
+msgid "Access"
+msgstr "Acceso"
+
+#: template/resource_section_external_access.mako:3
+msgid "External access"
+msgstr "Acceso externo"

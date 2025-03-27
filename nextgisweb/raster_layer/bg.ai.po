@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr ""
+
+#: api.py:46
+msgid "Output format is not provided."
+msgstr "Не е посочен изходящ формат."
+
+#: api.py:49
+msgid "Format '%s' is not supported."
+msgstr "Форматът '%s' не се поддържа."
+
+#: nodepkg/editor-widget/EditorWidget.tsx:39
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr "Cloud Optimized GeoTIFF (COG)"
+
+#: view.py:69
+msgid "Download"
+msgstr "Изтегляне"

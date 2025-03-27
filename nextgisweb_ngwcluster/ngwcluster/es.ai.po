@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+
+#: lockable_feature.py:60
+msgid "Additional basemaps"
+msgstr "Mapas base adicionales"
+
+#: lockable_feature.py:285
+msgid "Data editing on web maps"
+msgstr "Edición de datos en mapas web"
+
+#: lockable_feature.py:311
+msgid "Annotations on web maps"
+msgstr "Anotaciones en mapas web"
+
+#: nodepkg/qgis-banner/QgisBanner.js:23
+msgid "Easy start with QGIS"
+msgstr "Inicio fácil con QGIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:26
+msgid ""
+"Use the NextGIS Connect plugin for QGIS to upload your data and create "
+"interactive maps."
+msgstr ""
+"Usa el plugin NextGIS Connect para QGIS para subir tus datos y crear mapas "
+"interactivos."
+
+#: nodepkg/qgis-banner/QgisBanner.js:33
+msgid "Install the NextGIS Connect plugin for QGIS"
+msgstr "Instala el plugin NextGIS Connect para QGIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:37
+msgid "Connect the plugin to your Web GIS"
+msgstr "Conecta el plugin a tu Web GIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:39
+msgid "Upload your layers and projects to your Web GIS"
+msgstr "Sube tus capas y proyectos a tu Web GIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:56
+msgid "Learn more"
+msgstr "Aprende más"
+
+#: nodepkg/qgis-banner/QgisBanner.js:64
+msgid "Hide"
+msgstr "Ocultar"
+
+#: nodepkg/resource-widget/base.js:21
+msgid "These features are not available on your plan:"
+msgstr "Estas funciones no están disponibles en tu plan:"
+
+#: service_plan.py:311
+msgid "To use this feature, please upgrade."
+msgstr "Para usar esta función, por favor actualiza tu plan."

@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:137
+msgid "Uploaded file not found"
+msgstr "Fichier téléchargé introuvable"
+
+#: nodepkg/file-uploader/FileUploader.tsx:22
+msgid "Stop"
+msgstr "Arrêter"
+
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
+msgid "Upload"
+msgstr "Télécharger"
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:17
+msgid "{} uploaded..."
+msgstr "{} téléchargé..."

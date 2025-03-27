@@ -1,0 +1,40 @@
+#
+msgid ""
+msgstr ""
+
+#: component.py:316
+msgid "Last backup"
+msgstr "Апошні рэзервовыя копіі"
+
+#: component.py:320
+msgid "Last maintenance"
+msgstr "Апошняе абслугоўванне"
+
+#: exception.py:145
+msgid "Not configured"
+msgstr "Не настроена"
+
+#: storage.py:289
+msgid "Storage full"
+msgstr "Сховішча запоўнена"
+
+#: storage.py:290
+msgid ""
+"This operation can't be performed because the storage limit (%s) has been "
+"already exceeded by %s."
+msgstr ""
+"Гэтая аперацыя не можа быць выканана, таму што ліміт сховішча (%s) ужо "
+"перавышаны на %s."
+
+#: storage.py:300
+msgid "Not enough storage"
+msgstr "Недастаткова сховішча"
+
+#: storage.py:301
+msgid ""
+"This operation requires %s of storage and can't be performed because only %s"
+" available."
+msgstr ""
+"Гэтая аперацыя патрабуе %s сховішча і не можа быць выканана, таму што "
+"даступна толькі %s."
+

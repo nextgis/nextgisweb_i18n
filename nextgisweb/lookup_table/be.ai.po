@@ -1,0 +1,27 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:34
+msgid "Type here to add a new item..."
+msgstr "Увядзіце тут, каб дадаць новы прадмет..."
+
+#: nodepkg/editor/EditorWidget.tsx:35
+msgid "Export"
+msgstr "Экспарт"
+
+#: nodepkg/editor/EditorWidget.tsx:36
+msgid "Import"
+msgstr "Імпарт"
+
+#: nodepkg/editor/EditorWidget.tsx:37
+msgid "Clear"
+msgstr "Ачысціць"
+
+#: nodepkg/editor/EditorWidget.tsx:40
+msgid ""
+"All existing records will be deleted after import. Are you sure you want to "
+"proceed?"
+msgstr ""
+"Усе існуючыя запісы будуць выдалены пасля імпарту. Вы ўпэўнены, што хочаце "
+"працягнуць?"

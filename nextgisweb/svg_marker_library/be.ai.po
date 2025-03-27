@@ -1,0 +1,31 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:87
+msgid "File '{}' has an insecure name."
+msgstr "Файл '{}' мае ненадзейнае імя."
+
+#: model.py:92 nodepkg/resource-widget/Store.ts:75
+msgid "File '{}' has an invalid extension."
+msgstr "Файл '{}' мае недапушчальнае пашырэнне."
+
+#: model.py:98
+msgid "File '{}' has a format different from SVG."
+msgstr "Файл '{}' мае фармат, які адрозніваецца ад SVG."
+
+#: nodepkg/resource-widget/Store.ts:92
+msgid "ZIP archive required"
+msgstr "Трэба ZIP архіў"
+
+#: nodepkg/resource-widget/Widget.tsx:45
+msgid "Add SVG files"
+msgstr "Дадаць файлы SVG"
+
+#: nodepkg/resource-widget/Widget.tsx:54
+msgid "Import from ZIP archive"
+msgstr "Імпарт з архіва ZIP"
+
+#: nodepkg/resource-widget/Widget.tsx:65
+msgid "SVG markers will be imported from:"
+msgstr "Маркеркі SVG будуць імпартаваныя з:"

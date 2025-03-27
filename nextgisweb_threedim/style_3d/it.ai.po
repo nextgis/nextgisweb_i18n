@@ -1,0 +1,102 @@
+#
+msgid ""
+msgstr ""
+
+#: interface.py:14
+msgid "POI"
+msgstr "POI"
+
+#: interface.py:15 model.py:13 nodepkg/style-3d-widget/Style3d.tsx:404
+msgid "3D style"
+msgstr "Stile 3D"
+
+#: interface.py:16
+msgid "3D model"
+msgstr "Modello 3D"
+
+#: interface.py:17
+msgid "Sphere"
+msgstr "Sfera"
+
+#: interface.py:18
+msgid "Ellipsoid"
+msgstr "Ellissoide"
+
+#: interface.py:29
+msgid "Value"
+msgstr "Valore"
+
+#: interface.py:30
+msgid "From attribute"
+msgstr "Da attributo"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:131
+msgid "Style type"
+msgstr "Tipo di stile"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:143
+msgid "POI icon"
+msgstr "Icona POI"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:154
+msgid "POI color"
+msgstr "Colore POI"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:165
+msgid "Priority"
+msgstr "Priorità"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:176
+msgid "Inverse"
+msgstr "Inverso"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:188
+#: nodepkg/style-3d-widget/Style3d.tsx:279
+#: nodepkg/style-3d-widget/Style3d.tsx:325
+msgid "Stroke color"
+msgstr "Colore del tratto"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:199
+#: nodepkg/style-3d-widget/Style3d.tsx:290
+#: nodepkg/style-3d-widget/Style3d.tsx:336
+msgid "Stroke width"
+msgstr "Larghezza del tratto"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:210
+#: nodepkg/style-3d-widget/Style3d.tsx:301
+#: nodepkg/style-3d-widget/Style3d.tsx:347
+msgid "Fill color"
+msgstr "Colore di riempimento"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:221
+#: nodepkg/style-3d-widget/Style3d.tsx:380
+msgid "Height"
+msgstr "Altezza"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:234
+msgid "3D model ID"
+msgstr "ID modello 3D"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:255
+msgid "Scale"
+msgstr "Scala"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:266
+msgid "Rotate, deg."
+msgstr "Rotazione, gradi"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:312
+msgid "Radius"
+msgstr "Raggio"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:358
+msgid "Length"
+msgstr "Lunghezza"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:369
+msgid "Width"
+msgstr "Larghezza"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:393
+msgid "Z offset"
+msgstr "Offset Z"

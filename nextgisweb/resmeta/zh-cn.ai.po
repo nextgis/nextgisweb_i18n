@@ -1,0 +1,31 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:60 nodepkg/editor/EditorWidget.tsx:98
+msgid "String"
+msgstr "字符串"
+
+#: model.py:61 nodepkg/editor/EditorWidget.tsx:99
+msgid "Number"
+msgstr "数字"
+
+#: model.py:62 nodepkg/editor/EditorWidget.tsx:100
+msgid "Boolean"
+msgstr "布尔值"
+
+#: model.py:63 nodepkg/editor/EditorWidget.tsx:101
+msgid "Empty"
+msgstr "空"
+
+#: nodepkg/editor/EditorWidget.tsx:22
+msgid "Type here to add a new key..."
+msgstr "在此输入以添加新索引..."
+
+#: nodepkg/editor/EditorWidget.tsx:79 template/resource_section.mako:21
+msgid "False"
+msgstr "假"
+
+#: nodepkg/editor/EditorWidget.tsx:80 template/resource_section.mako:21
+msgid "True"
+msgstr "真"

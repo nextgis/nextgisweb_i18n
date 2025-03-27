@@ -1,0 +1,134 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:33
+msgid ""
+"Draw the geometry on the map to visualize the attachments to the objects"
+msgstr ""
+"Нарисувайте геометрията на картата, за да визуализирате прикачените файлове "
+"към обектите"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
+msgid "Object: "
+msgstr "Обект:"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:139
+msgid "Identify object"
+msgstr "Идентифициране на обект"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:160
+msgid "Attachments: "
+msgstr "Прикачени файлове:"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:187
+msgid "No attachments"
+msgstr "Няма прикачени файлове"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:253
+msgid "Download all attachments"
+msgstr "Изтегляне на всички прикачени файлове"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:56
+msgid ""
+"Use export to copy feature attachments between different layers or to create"
+" a backup. The resulting ZIP archive will contain all of the attachments put"
+" in directories named after feature IDs. Attachment metadata are put into a "
+"separate JSON file."
+msgstr ""
+"Използвайте експортиране, за да копирате прикачените файлове към обекти "
+"между различни слоеве или за създаване на резервно копие. Полученият ZIP "
+"архив ще съдържа всички прикачени файлове, поставени в директории, именовани"
+" съгласно ID на обектите. Метаданните на прикачените файлове са поставени в "
+"отделен JSON файл."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:66
+msgid "Export attachments to ZIP archive"
+msgstr "Експортиране на прикачени файлове в ZIP архив"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:84
+msgid "Back to resource"
+msgstr "Назад към ресурса"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:86
+msgid "Close"
+msgstr "Затвори"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:89
+msgid "The archive has been successfully imported."
+msgstr "Архивът беше успешно импортиран."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:91
+msgid "Attachments imported - {i}, skipped - {s}."
+msgstr "Импортирани прикачени файлове - {i}, пропуснати - {s}."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:125
+msgid ""
+"Upload a ZIP archive to batch append attachments to existing features. An "
+"archive must contain directories named after feature IDs. Each folder can "
+"contain one or many attachments. Duplicates will be ignored."
+msgstr ""
+"Качете ZIP архив, за да добавите групово прикачени файлове към съществуващи "
+"обекти. Архивът трябва да съдържа директории, именовани съгласно ID на "
+"обектите. Всяка папка може да съдържа един или много прикачени файлове. "
+"Дубликатите ще бъдат игнорирани."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:134
+msgid "Delete existing attachments"
+msgstr "Изтриване на съществуващите прикачени файлове"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:159
+msgid "Import attachments from ZIP archive"
+msgstr "Импортиране на прикачени файлове от ZIP архив"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:171
+msgid "Export"
+msgstr "Експортиране"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:176
+msgid "Import"
+msgstr "Импортиране"
+
+#: nodepkg/image-thumbnail/component/CarouselRender.tsx:23
+msgid "Toggle panorama viewer"
+msgstr "Превключване на преглед на панорама"
+
+#: util.py:26
+msgid "Invalid ZIP archive."
+msgstr "Невалиден ZIP архив."
+
+#: util.py:55
+msgid "File '{}' isn't found in metadata."
+msgstr "Файл '{}' не е намерен в метаданните."
+
+#: util.py:61
+msgid "Invalid feature ID for file '{}'."
+msgstr "Невалидно ID на обект за файл '{}'."
+
+#: util.py:68
+msgid "Invalid keyname for file '{}'."
+msgstr "Невалидно име на ключ за файл '{}'."
+
+#: util.py:74
+msgid "Invalid name for file '{}'."
+msgstr "Невалидно име за файл '{}'."
+
+#: util.py:80
+msgid "Invalid MIME type for file '{}'."
+msgstr "Невалиден тип MIME за файл '{}'."
+
+#: util.py:87
+msgid "Invalid description for file '{}'."
+msgstr "Невалидно описание за файл '{}'."
+
+#: util.py:100
+msgid "Could not determine feature ID for file '{}'."
+msgstr "Не може да се определи ID на обект за файл '{}'."
+
+#: util.py:118
+msgid "File '{}' isn't found in the archive."
+msgstr "Файл '{}' не е намерен в архива."
+
+#: view.py:20 view.py:43
+msgid "Manage attachments"
+msgstr "Управление на прикачени файлове"

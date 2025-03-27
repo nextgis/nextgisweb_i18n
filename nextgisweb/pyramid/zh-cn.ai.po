@@ -1,0 +1,152 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "已复制"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "无法复制"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:13
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "请输入正确的比例值，比如 1："
+
+#: api.py:196
+msgid "Storage management is not enabled on this server."
+msgstr "该服务器未启用存储管理功能。"
+
+#: api.py:406
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr "如果指定了'all'，'{}'查询参数不应包含额外值。"
+
+#: api.py:534
+msgid "Got an unsupported MIME type: '{}'."
+msgstr "记得了一个不支持的MIME类型: ''{}''."
+
+#: api.py:537
+msgid "64K should be enough for a logo."
+msgstr "标志的64K应话够用了。"
+
+#: component.py:163
+msgid "Request timeout"
+msgstr "请求超时"
+
+#: lunkwill.py:25
+msgid "Lunkwill not enabled"
+msgstr "Lunkwill未启用"
+
+#: lunkwill.py:26
+msgid "The Lunkwill extension is not configured on this server."
+msgstr "该服务器没有配置Lunkwill扩展。"
+
+#: nodepkg/layout/Avatar.tsx:23
+msgid "User settings"
+msgstr "用户设置"
+
+#: nodepkg/logo-form/LogoForm.tsx:6
+msgid "Only PNG and SVG images are supported."
+msgstr "只支持PNG和SVG图像。"
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+msgid "Measurement ID"
+msgstr "测量ID"
+
+#: nodepkg/metrics/MetricSettings.tsx:19
+msgid "Add"
+msgstr "添加"
+
+#: nodepkg/metrics/MetricSettings.tsx:20
+msgid "The setting is saved."
+msgstr "设置已保存。"
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+msgid "Reload the page to get them applied."
+msgstr "重新加载页面以应用设置。"
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+msgid "Add one or more counters to your Web GIS."
+msgstr "添加一个或多个计数器到您的Web GIS。"
+
+#: nodepkg/metrics/MetricSettings.tsx:26
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
+msgstr "该计数器的HTML代码将嵌入到每个页面，并允许您调查用户活动。"
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+msgid "Tag number"
+msgstr "标签号"
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:51
+msgid "Webvisor"
+msgstr "Webvisor"
+
+#: nodepkg/metrics/tab.ts:31
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: nodepkg/metrics/tab.ts:38
+msgid "Yandex.Metrica"
+msgstr "Yandex.Metrica"
+
+#: nodepkg/storage-summary/StorageSummary.js:140
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr "存储使用情况以%s为单位进行了全面评估，并以%s为单位进行了更新。"
+
+#: nodepkg/storage-summary/StorageSummary.js:146
+msgid "Storage usage was fully estimated at %s."
+msgstr "存储使用情况以%s为单位进行了全面评估。"
+
+#: nodepkg/storage-summary/StorageSummary.js:151
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr "存储使用情况尚未评估，但已更新为%s"
+
+#: template/sysinfo.mako:80
+msgid "Browser support"
+msgstr "浏览器支持"
+
+#: template/sysinfo.mako:91
+msgid "or higher"
+msgstr "或更高版本"
+
+#: template/sysinfo.mako:93
+msgid "Not supported"
+msgstr "不支持"
+
+#: template/sysinfo.mako:105
+msgid "Your browser"
+msgstr "您的浏览器"
+
+#: tomb/config.py:95
+msgid "Parameter required"
+msgstr "需要参数"
+
+#: tomb/config.py:96
+msgid "The '{}' query parameter is required."
+msgstr "查询参数'{}'是必需的。"
+
+#: tomb/config.py:98
+msgid "Invalid parameter"
+msgstr "无效参数"
+
+#: tomb/config.py:99
+msgid "The '{}' query parameter has an invalid value."
+msgstr "查询参数'{}'的值无效。"
+
+#: view.py:157
+msgid "HTTP API documentation"
+msgstr "HTTP API文档"
+
+#: view.py:268 view.py:598
+msgid "Metrics and analytics"
+msgstr "指标和分析"

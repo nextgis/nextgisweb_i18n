@@ -1,0 +1,39 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:24
+msgid "Basemap"
+msgstr "Базавая карта"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:18
+msgid "Pick from QMS"
+msgstr "Выбраць з QMS"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:20
+msgid "Search for geoservices provided by "
+msgstr "Пошук геасэрвісаў, якія прадастаўляюцца"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:21
+msgid "You can search by name or ID"
+msgstr "Вы можаце шукаць па імі або ID"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:24
+msgid "If a service from QMS is selected, this field cannot be edited."
+msgstr "Калі выбраны сэрвіс з QMS, гэта поле нельга рэдагаваць."
+
+#: nodepkg/layer-widget/LayerWidget.tsx:88
+msgid "Copyright text"
+msgstr "Тэкст аўтарскага права"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:97
+msgid "Copyright URL"
+msgstr "URL аўтарскага права"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:61
+msgid "Default basemap"
+msgstr "Базавая карта па змаўчанні"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:64
+msgid "Opacity"
+msgstr "Празрыстасць"

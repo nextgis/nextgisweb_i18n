@@ -1,0 +1,15 @@
+#
+msgid ""
+msgstr ""
+
+#: component.py:316
+msgid "Last backup"
+msgstr "Последно архивиране"
+
+#: component.py:320
+msgid "Last maintenance"
+msgstr "Последна поддръжка"
+
+#: exception.py:145
+msgid "Not configured"
+msgstr "Не е конфигурирано"

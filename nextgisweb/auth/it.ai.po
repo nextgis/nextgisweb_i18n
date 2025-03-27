@@ -1,0 +1,271 @@
+#
+msgid ""
+msgstr ""
+
+#: api.py:81
+msgid "The '%s' attribute of the system principal can't be changed."
+msgstr "L'attributo '%s' del principio di sistema non può essere modificato."
+
+#: api.py:88
+msgid "Principal '%s' already exists."
+msgstr "Il principio '%s' esiste già."
+
+#: api.py:90
+msgid "Principal with full name '%s' already exists."
+msgstr "Il principio con nome completo '%s' esiste già."
+
+#: api.py:160
+msgid "Password is not set."
+msgstr "La password non è impostata."
+
+#: api.py:586
+msgid "User '%s' can't be a member of a group."
+msgstr "L'utente '%s' non può essere un membro di un gruppo."
+
+#: api.py:592
+msgid "System principals can't be deleted."
+msgstr "I principi di sistema non possono essere eliminati."
+
+#: api.py:607
+msgid "User is referenced with resources"
+msgstr "L'utente è referenziato con risorse."
+
+#: api.py:609
+msgid "Group is referenced with resources"
+msgstr "Il gruppo è referenziato con risorse."
+
+#: api.py:615
+msgid "Administrator required"
+msgstr "Amministratore richiesto."
+
+#: api.py:616
+msgid "The 'administrators' group must have at least one enabled member."
+msgstr "Il gruppo 'amministratori' deve avere almeno un membro abilitato."
+
+#: exception.py:7
+msgid "Invalid authorization header"
+msgstr "Intestazione di autorizzazione non valida."
+
+#: exception.py:22
+msgid "Invalid authorization link"
+msgstr "Link di autorizzazione non valido."
+
+#: nodepkg/group-browse/GroupBrowse.tsx:8
+#: nodepkg/group-widget/GroupWidget.tsx:19
+msgid "Delete group?"
+msgstr "Eliminare il gruppo?"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:9
+#: nodepkg/group-widget/GroupWidget.tsx:20
+msgid "Group deleted"
+msgstr "Gruppo eliminato."
+
+#: nodepkg/group-browse/GroupBrowse.tsx:31
+#: nodepkg/group-widget/GroupWidget.tsx:59
+msgid "New users"
+msgstr "Nuovi utenti."
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:27
+msgid "Yes"
+msgstr "Sì"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:28
+msgid "No"
+msgstr "No"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53
+#: nodepkg/user-widget/UserWidget.tsx:100
+msgid "Permissions"
+msgstr "Permessi."
+
+#: nodepkg/group-widget/GroupWidget.tsx:65
+msgid "{dn} mapping"
+msgstr "Mappatura {dn}"
+
+#: nodepkg/login/LoginForm.tsx:20
+msgid "Sign in with {}"
+msgstr "Accedi con {}"
+
+#: nodepkg/login/LoginForm.tsx:94
+msgid "or using login and password"
+msgstr "oppure usando nome utente e password"
+
+#: nodepkg/oauth.tsx:26
+msgid "Manage team"
+msgstr "Gestisci il team"
+
+#: nodepkg/settings-form/SettingsForm.tsx:27
+msgid "Account bound"
+msgstr "Account collegato"
+
+#: nodepkg/settings-form/SettingsForm.tsx:38
+msgid "Bind account"
+msgstr "Collega account"
+
+#: nodepkg/settings-form/SettingsForm.tsx:40
+msgid "Account not bound"
+msgstr "Account non collegato"
+
+#: nodepkg/settings-form/SettingsForm.tsx:55
+#: nodepkg/user-widget/UserWidget.tsx:106
+msgid "Language"
+msgstr "Lingua"
+
+#: nodepkg/settings-form/SettingsForm.tsx:71
+msgid "Saved"
+msgstr "Salvato"
+
+#: nodepkg/user-browse/UserBrowse.tsx:23
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: nodepkg/user-browse/UserBrowse.tsx:29
+msgid "Last activity"
+msgstr "Ultima attività"
+
+#: nodepkg/user-browse/UserBrowse.tsx:30
+msgid "Status"
+msgstr "Stato"
+
+#: nodepkg/user-browse/UserBrowse.tsx:34
+msgid "Users with a password can sign in with login and password."
+msgstr "Gli utenti con password possono accedere con nome utente e password."
+
+#: nodepkg/user-browse/UserBrowse.tsx:35
+msgid "Users bound to {dn} can sign in with {dn}."
+msgstr "Gli utenti collegati a {dn} possono accedere con {dn}."
+
+#: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:22
+msgid "Delete user?"
+msgstr "Eliminare l'utente?"
+
+#: nodepkg/user-browse/UserBrowse.tsx:40 nodepkg/user-widget/UserWidget.tsx:23
+msgid "User deleted"
+msgstr "Utente eliminato"
+
+#: nodepkg/user-browse/UserBrowse.tsx:122
+msgid ""
+"Your team members won't be shown here until their first logon. Set \"New "
+"users\" flag for a group to automatically assign new user to this group. You"
+" may also modify permission for authenticated users to manage access for "
+"your team members."
+msgstr ""
+"I membri del tuo team non verranno mostrati qui fino al loro primo accesso. "
+"Imposta il flag \"Nuovi utenti\" per un gruppo per assegnare automaticamente"
+" nuovi utenti a questo gruppo. Puoi anche modificare le autorizzazioni per "
+"gli utenti autenticati per gestire l'accesso ai membri del tuo team."
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+msgid "Disable"
+msgstr "Disabilitare"
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+msgid "Enable"
+msgstr "Abilitare"
+
+#: nodepkg/user-widget/UserWidget.tsx:77
+msgid "Authorization link"
+msgstr "Link di autorizzazione"
+
+#: nodepkg/user-widget/UserWidget.tsx:126
+msgid ""
+"Consider adding {name} user to your team instead of creating a new user with"
+" a password."
+msgstr ""
+"Prendi in considerazione di aggiungere l'utente {name} al tuo team invece di"
+" creare un nuovo utente con una password."
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:10
+msgid "Keep existing"
+msgstr "Mantieni esistente"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
+#: nodepkg/user-widget/UserWidgetPassword.tsx:14
+msgid "Assign new"
+msgstr "Assegna nuovo"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
+#: nodepkg/user-widget/UserWidgetPassword.tsx:20
+msgid "Turn off"
+msgstr "Spegni"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
+msgid "The generated link will be available after saving."
+msgstr "Il link generato sarà disponibile dopo il salvataggio."
+
+#: nodepkg/user-widget/UserWidgetPassword.tsx:19
+msgid "{name} only"
+msgstr "Solo {name}"
+
+#: oauth.py:323
+msgid "{} binding error"
+msgstr "Errore di binding {}"
+
+#: oauth.py:324
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log"
+" in using this account instead of binding it."
+msgstr ""
+"Questo account {dn} ({sub}) è già collegato a un altro utente ({id}). Accedi"
+" utilizzando questo account invece di collegarlo."
+
+#: oauth.py:648
+msgid "Invalid OAuth scope"
+msgstr "Ambito OAuth invalido"
+
+#: oauth.py:653
+msgid "OAuth password grant type failed"
+msgstr "Tipo di concessione di password OAuth fallito"
+
+#: permission.py:12
+msgid "View"
+msgstr "Visualizza"
+
+#: permission.py:13
+msgid "Manage"
+msgstr "Gestisci"
+
+#: permission.py:39 view.py:374
+msgid "Groups and users"
+msgstr "Gruppi e utenti"
+
+#: view.py:57
+msgid "Session not found."
+msgstr "Sessione non trovata."
+
+#: view.py:61
+msgid "Invalid 'expires' parameter."
+msgstr "Parametro 'expires' invalido."
+
+#: view.py:64
+msgid "Session expired."
+msgstr "Sessione scaduta."
+
+#: view.py:83
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr ""
+"Autenticazione fallita utilizzando il link di autorizzazione fornito. Si "
+"prega di controllare il link e contattare l'amministratore."
+
+#: view.py:94
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr "L'uso del link di autorizzazione è vietato per gli amministratori."
+
+#: view.py:133
+msgid "Team membership required"
+msgstr "Necessaria appartenenza al team"
+
+#: view.py:134
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and"
+" ask to be added to the team."
+msgstr ""
+"Non sei un membro di questo team Web GIS. Contatta l'amministratore del Web "
+"GIS e chiedi di essere aggiunto al team."

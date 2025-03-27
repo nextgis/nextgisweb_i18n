@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+
+#: api.py:141
+msgid "System SRS cannot be deleted."
+msgstr "Сістэмная SRS нельга выдаліць."
+
+#: api.py:367
+msgid ""
+"SRS authority attributes must be defined while importing from the catalog."
+msgstr ""
+"Атрыбуты аўтарытэту SRS павінны быць вызначаны пры імпарце з каталога."
+
+#: api.py:392
+msgid "SRS #{} already exists."
+msgstr "SRS #{} ужо існуе."
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:94
+msgid "Show in catalog"
+msgstr "Паказаць у каталогу"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:107
+#: nodepkg/srs-widget/SRSWidget.tsx:37
+msgid "Authority and code"
+msgstr "Аўтарытэт і код"
+
+#: nodepkg/srs-browse/SrsBrowse.tsx:26
+msgid "Import from catalog"
+msgstr "Імпартаваць з каталога"
+
+#: nodepkg/srsMessages.ts:5
+msgid "Delete SRS?"
+msgstr "Выдаліць SRS?"
+
+#: nodepkg/srsMessages.ts:6
+msgid "SRS deleted"
+msgstr "SRS выдалена"
+
+#: pyramid.py:9
+msgid "Catalog not cofigured"
+msgstr "Каталог не настроены"
+
+#: pyramid.py:10
+msgid "The spatial reference system catalog is not configured on this server."
+msgstr "Каталог каардынатных сістэм не настроены на гэтым серверы."

@@ -1,0 +1,11 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:145 view.py:16
+msgid "WMS service"
+msgstr "Сэрвіс WMS"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:24
+msgid "Not set"
+msgstr "Не ўстаноўлена"

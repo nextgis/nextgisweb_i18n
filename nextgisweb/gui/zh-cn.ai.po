@@ -1,0 +1,103 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/arm/validate.ts:5
+msgid "Value required"
+msgstr "需要值"
+
+#: nodepkg/arm/validate.ts:18
+msgid "Value should be at least {}"
+msgstr "值应至少为 {}"
+
+#: nodepkg/arm/validate.ts:19
+msgid "Value should be no more than {}"
+msgstr "值不应超过 {}"
+
+#: nodepkg/arm/validate.ts:21
+msgid "Invalid value"
+msgstr "无效值"
+
+#: nodepkg/arm/validate.ts:22
+msgid "Value not unique"
+msgstr "值不唯一"
+
+#: nodepkg/arm/validate.ts:23
+msgid "Invalid URL"
+msgstr "无效 URL"
+
+#: nodepkg/buttons/CopyToClipboardButton.tsx:23
+msgid "Copied to clipboard"
+msgstr "已复制到剪贴板"
+
+#: nodepkg/buttons/CopyToClipboardButton.tsx:28
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:79
+msgid "From layer"
+msgstr "来自图层"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:87
+msgid "West"
+msgstr "西"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:98
+msgid "South"
+msgstr "南"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:107
+msgid "East"
+msgstr "东"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:116
+msgid "North"
+msgstr "北"
+
+#: nodepkg/component/language-select/LanguageSelect.tsx:15
+msgid "Improve or add new translation"
+msgstr "改进或添加新翻译"
+
+#: nodepkg/confirm.ts:13
+msgid "Confirmation required"
+msgstr "需要确认"
+
+#: nodepkg/confirm.ts:14
+msgid "Please confirm this action."
+msgstr "请确认此操作。"
+
+#: nodepkg/confirm.ts:43
+msgid "Please confirm the deletion."
+msgstr "请确认删除。"
+
+#: nodepkg/confirm.ts:45
+msgid "Failed to delete."
+msgstr "删除失败。"
+
+#: nodepkg/edi-table/RowAction.tsx:73
+msgid "Clone"
+msgstr "克隆"
+
+#: nodepkg/edi-table/store/RecordItem.ts:35
+msgid "Key required"
+msgstr "需要键值"
+
+#: nodepkg/edi-table/store/RecordItem.ts:41
+msgid "Key not unique"
+msgstr "键值不唯一"
+
+#: nodepkg/focus-table/action.tsx:13
+msgid "Add"
+msgstr "添加"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:252
+msgid "View"
+msgstr "查看"
+
+#: nodepkg/progress-modal/ProgressModal.tsx:5
+msgid "Operation in progress"
+msgstr "操作中"
+
+#: nodepkg/progress-modal/ProgressModal.tsx:6
+msgid "Cancel"
+msgstr "取消"

@@ -1,0 +1,290 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:178
+msgid "N/A"
+msgstr "Н/Д"
+
+#: amd/ngw-feature-layer/GeometryInfoWidget.js:9
+msgid "Geometry"
+msgstr "Геаметрыя"
+
+#: api.py:335
+msgid "Unknown spatial reference system"
+msgstr "Невядомая сістэма прасторавых каардынат"
+
+#: api_export.py:89
+msgid "Output format is not provided."
+msgstr "Фармат вываду не прадугледжаны."
+
+#: api_export.py:91
+msgid "Format '%s' is not supported."
+msgstr "Фармат '%s' не падтрымліваецца."
+
+#: api_export.py:146
+msgid ""
+"The export limit is set to {limit} features, but the layer contains {count}."
+msgstr ""
+"Межа экспарту ўсталявана на {limit} аб'ектаў, але слой утрымлівае {count}."
+
+#: api_export.py:159
+msgid "Failed to reproject 'intersects' geometry."
+msgstr "Не ўдалося перапраецыраваць геаметрыю 'intersects'."
+
+#: api_export.py:301
+msgid "File name parameter '{}' is not valid."
+msgstr "Параметр імя файла '{}' не сапраўдны."
+
+#: exception.py:20
+msgid "Feature not deleted"
+msgstr "Аб'ект не выдалены"
+
+#: exception.py:21
+msgid "Unable to restore the #{} feature as it is not deleted."
+msgstr "Немагчыма аднавіць аб'ект з №#{}, паколькі ён не выдалены."
+
+#: model.py:174
+msgid "Field name is forbidden: '{}'. Please remove or rename it."
+msgstr ""
+"Назва поля забаронена: ''{}''. Калі ласка, выдаліце або пераназавіце яго."
+
+#: model.py:236
+msgid "Versioning not supported"
+msgstr "Версіяніўанне не падтрымліваецца"
+
+#: nodepkg/attribute-editor/AttributeEditor.tsx:33
+msgid "There are no attributes in the vector layer"
+msgstr "У вектарным слоі няма атрыбутаў"
+
+#: nodepkg/export-form/ExportForm.tsx:177
+msgid "Resources"
+msgstr "Рэсурсы"
+
+#: nodepkg/export-form/ExportForm.tsx:241
+#: nodepkg/fields-widget/FieldsWidget.tsx:167
+msgid "Fields"
+msgstr "Палі"
+
+#: nodepkg/export-form/ExportForm.tsx:247
+msgid "Limit by extent"
+msgstr "Межаваць па ахопу"
+
+#: nodepkg/export-form/ExportForm.tsx:253
+msgid "Filter text"
+msgstr "Тэкст фільтра"
+
+#: nodepkg/export-form/ExtentInput.tsx:6
+msgid "deg."
+msgstr "град."
+
+#: nodepkg/export-form/ExtentInput.tsx:9
+msgid "Left"
+msgstr "Злева"
+
+#: nodepkg/export-form/ExtentInput.tsx:10
+msgid "Bottom"
+msgstr "Знізу"
+
+#: nodepkg/export-form/ExtentInput.tsx:11
+msgid "Right"
+msgstr "Справа"
+
+#: nodepkg/export-form/ExtentInput.tsx:12
+msgid "Top"
+msgstr "Уверх"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:18
+msgid "Cancel"
+msgstr "Адмяніць"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
+msgid "Are you sure?"
+msgstr "Вы ўпэўнены?"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
+msgid "Unsaved changes will be lost if you close the window."
+msgstr "Несапраўданыя змены будуць страчаны, калі вы зачыніце акно."
+
+#: nodepkg/feature-editor/FeatureEditorStore.ts:20
+msgid "Feature saved"
+msgstr "Аб'ект захаваны"
+
+#: nodepkg/feature-editor/FeatureEditorStore.ts:21
+msgid "No changes to save"
+msgstr "Няма зменаў для захавання"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:33
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:35
+msgid "Reset"
+msgstr "Скід"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:24
+msgid "Open table settings"
+msgstr "Адкрыць налады табліцы"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:25
+msgid "Refresh table"
+msgstr "Абнавіць табліцу"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+msgid "Edit on a new page"
+msgstr "Рэдагаваць на новай старонцы"
+
+#: nodepkg/feature-grid/FeatureTable.tsx:95
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:53
+msgid "Last changed"
+msgstr "Апошнія змены"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:31
+msgid "Advanced Export"
+msgstr "Прасунуты экспарт"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:32
+msgid "Quick Export"
+msgstr "Хуткі экспарт"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:33
+msgid "Filters are applied"
+msgstr "Фільтры ўжыты"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
+msgid "Text search"
+msgstr "Тэкставы пошук"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:31
+msgid "Please select"
+msgstr "Калі ласка, выберыце"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:32
+msgid "Not used"
+msgstr "Не выкарыстоўваецца"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:115
+msgid "Field"
+msgstr "Поле"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:56
+msgid "Load geometry info..."
+msgstr "Загрузка інфармацыі пра геаметрыю..."
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:65
+msgid "Failed to get information about the geometry"
+msgstr "Не атрымалася атрымаць інфармацыю пра геаметрыю"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:75
+msgid "Perimeter"
+msgstr "Перыметр"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:76
+msgid "Length"
+msgstr "Даўжыня"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:84
+msgid "Area"
+msgstr "Плошча"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:92
+msgid "Geometry type"
+msgstr "Тып геаметрыі"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:100
+msgid "Extent (xMin)"
+msgstr "Мяжы (xMin)"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:104
+msgid "Extent (yMin)"
+msgstr "Мяжы (yMin)"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:108
+msgid "Extent (xMax)"
+msgstr "Мяжы (xMax)"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:112
+msgid "Extent (yMax)"
+msgstr "Мяжы (yMax)"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:18
+msgid "Feature versioning"
+msgstr "Версіяніраванне аб'ектаў"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:19
+msgid ""
+"Experimental feature. Some operations may not work if feature versioning is "
+"enabled."
+msgstr ""
+"Эксперыментальная функцыя. Некаторыя аперацыі могуць не працаваць, калі "
+"ўключана версіяніраванне аб'ектаў."
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
+msgid "Disable feature versioning?"
+msgstr "Адключыць версіяніраванне аб'ектаў?"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:41
+msgid ""
+"Turning off feature versioning will truncate the history and keep only the "
+"latest state."
+msgstr ""
+"Адключэнне версіяніравання аб'ектаў абріжае гісторыю і захоўвае толькі "
+"апошні стан."
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:64
+msgid "Settings"
+msgstr "Налады"
+
+#: transaction/exception.py:7
+msgid "Transaction not found"
+msgstr "Транзакцыя не знойдзена"
+
+#: transaction/exception.py:12
+msgid "Operation conflict in transaction"
+msgstr "Канфлікт аперацыі ў транзакцыі"
+
+#: transaction/exception.py:20
+msgid "Transaction not committed"
+msgstr "Транзакцыя не захавана"
+
+#: versioning/exception.py:17
+msgid "Not implemented for feature versioning"
+msgstr "Не рэалізавана для версіяніравання аб'ектаў"
+
+#: versioning/exception.py:18
+msgid ""
+"This operation cannot be performed on a resource with feature versioning "
+"enabled. Disable feature versioning for the resource first, and then try "
+"again."
+msgstr ""
+"Гэта аперацыя не можа быць выканана на рэсурсе з уключаным версіяніраваннем "
+"аб'ектаў. Спачатку адключыце версіяніраванне аб'ектаў для рэсурсу, а затым "
+"паспрабуйце зноў."
+
+#: versioning/exception.py:27
+msgid "Feature versioning required"
+msgstr "Патрабуецца версіяніраванне аб'ектаў"
+
+#: versioning/exception.py:32
+msgid "Feature versioning is not supported for this resource."
+msgstr "Версіянаванне аб'ектаў не падтрымліваецца для гэтага рэсурсу."
+
+#: versioning/exception.py:34
+msgid "Feature versioning is not enabled for this resource."
+msgstr "Версіянаванне аб'ектаў не ўключана для гэтага рэсурсу."
+
+#: versioning/exception.py:41
+msgid "Epoch required"
+msgstr "Патрабуецца эпоха"
+
+#: versioning/exception.py:45
+msgid "Epoch mismatch"
+msgstr "Няспадзяванне з эпохай"
+
+#: versioning/exception.py:55
+msgid "Version out of range"
+msgstr "Версія па-за межамі дапушчальнага диапазону"
+
+#: versioning/exception.py:65
+msgid "Invalid range"
+msgstr "Няправільны диапазон"

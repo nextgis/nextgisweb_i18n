@@ -1,0 +1,83 @@
+#
+msgid ""
+msgstr ""
+
+#: api.py:38
+msgid ""
+"The original QML was requested but the style has '{}' format. Use other "
+"values of the 'original' parameter."
+msgstr ""
+"L'original QML a été demandé mais le style a le format '{}'. Utilisez "
+"d'autres valeurs du paramètre 'original'."
+
+#: model.py:155
+msgid "QGIS raster style"
+msgstr "Style raster QGIS"
+
+#: model.py:206
+msgid "Band {}"
+msgstr "Bande {}"
+
+#: model.py:256
+msgid "QGIS vector style"
+msgstr "Style vecteur QGIS"
+
+#: model.py:462 model.py:476 model.py:508
+msgid "Style format mismatch."
+msgstr "Incompatibilité de format de style."
+
+#: model.py:506 model.py:660
+msgid "Style file is not valid."
+msgstr "Le fichier de style n'est pas valide."
+
+#: model.py:658
+msgid "Layer type mismatch."
+msgstr "Incompatibilité de type de couche."
+
+#: nodepkg/CopyFromComponent.tsx:7
+msgid "Source"
+msgstr "Source"
+
+#: nodepkg/default-style-widget/DefaultStyleWidget.tsx:12
+msgid "Create default QGIS style"
+msgstr "Créer un style QGIS par défaut"
+
+#: nodepkg/default-style-widget/DefaultStyleWidget.tsx:13
+msgid ""
+"Layer created. You need a style to add it to a web map. Use the button "
+"bellow to create a default QGIS style or create a style resource using "
+"sidebar."
+msgstr ""
+"Couche créée. Vous avez besoin d'un style pour l'ajouter à une carte web. "
+"Utilisez le bouton ci-dessous pour créer un style QGIS par défaut ou créez "
+"une ressource de style en utilisant la barre latérale."
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:30
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:31
+msgid "Style from file"
+msgstr "Style à partir du fichier"
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:31
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:32
+msgid "User-defined style"
+msgstr "Style défini par l'utilisateur"
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:32
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:33
+msgid "Default style"
+msgstr "Style par défaut"
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:33
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:34
+msgid "Copy from resource"
+msgstr "Copier depuis la ressource"
+
+#: nodepkg/raster-editor-widget/component/FileModeComponent.tsx:9
+#: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:10
+msgid "Select a style"
+msgstr "Sélectionnez un style"
+
+#: nodepkg/raster-editor-widget/component/FileModeComponent.tsx:10
+#: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:11
+msgid "QML or SLD formats are supported."
+msgstr "Les formats QML ou SLD sont supportés."

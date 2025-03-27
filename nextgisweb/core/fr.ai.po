@@ -1,0 +1,31 @@
+#
+msgid ""
+msgstr ""
+
+#: component.py:316
+msgid "Last backup"
+msgstr "Dernière sauvegarde"
+
+#: component.py:320
+msgid "Last maintenance"
+msgstr "Dernière maintenance"
+
+#: exception.py:145
+msgid "Not configured"
+msgstr "Non configuré"
+
+#: storage.py:290
+msgid ""
+"This operation can't be performed because the storage limit (%s) has been "
+"already exceeded by %s."
+msgstr ""
+"Cette opération ne peut pas être effectuée car la limite de stockage (%s) a "
+"déjà été dépassée de %s."
+
+#: storage.py:301
+msgid ""
+"This operation requires %s of storage and can't be performed because only %s"
+" available."
+msgstr ""
+"Cette opération nécessite %s de stockage et ne peut pas être effectuée car "
+"seulement %s sont disponibles."

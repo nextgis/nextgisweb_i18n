@@ -1,0 +1,274 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-resource/CompositeWidget.js:296
+msgid "Validation failed"
+msgstr "Валидацията е неуспешна"
+
+#: amd/ngw-resource/ResourcePicker.js:29
+msgid "Select resource"
+msgstr "Изберете ресурс"
+
+#: amd/ngw-resource/ResourcePicker.js:70
+msgid "OK"
+msgstr "ОК"
+
+#: amd/ngw-resource/ResourcePicker.js:79
+msgid "Cancel"
+msgstr "Откажи"
+
+#: api.py:195
+msgid "Resource parent required."
+msgstr "Трябва да се посочи родителски ресурс."
+
+#: api.py:200
+msgid "Resource class required."
+msgstr "Трябва да се посочи класа на ресурса."
+
+#: api.py:202
+msgid "Unknown resource class '%s'."
+msgstr "Неизвестна класа на ресурса '%s'."
+
+#: exception.py:27
+msgid ""
+"Modification of the '{attribute}' attribute requires the '{scope}: "
+"{permission}' permission."
+msgstr ""
+"Промяната на атрибута '{attribute}' изисква разрешение '{scope}: "
+"{permission}'."
+
+#: exception.py:33
+msgid "The '{attribute}' attribute is read-only and cannot be updated."
+msgstr "Атрибутът '{attribute}' е само за четене и не може да бъде обновен."
+
+#: exception.py:40
+msgid "Interface not supported"
+msgstr "Интерфейсът не се поддържа"
+
+#: exception.py:72
+msgid "Quota exceeded"
+msgstr "Квотата е превишена"
+
+#: exception.py:80
+msgid "Not enough resource quota: {0} required, but only {1} available."
+msgstr ""
+"Недостатъчна ресурсна квота: необходими са {0}, но са налични само {1}."
+
+#: exception.py:84
+msgid "Resource type - {}."
+msgstr "Тип ресурс - {}."
+
+#: favorite/__init__.py:6
+msgid "Go to"
+msgstr "Отиди на"
+
+#: favorite/__init__.py:7 nodepkg/favorite/FavoritePage.tsx:379
+msgid "Edit"
+msgstr "Редактирай"
+
+#: favorite/view.py:15 nodepkg/favorite/Avatar.tsx:54
+msgid "Favorites"
+msgstr "Любими"
+
+#: home.py:23
+msgid "User resources"
+msgstr "Ресурси на потребителя"
+
+#: model.py:310
+msgid "Default style"
+msgstr "По подразбиране стил"
+
+#: model.py:514
+msgid ""
+"Unable to revoke '{s}: {p}' permission for '{u}' as the user belongs to the "
+"administrators group. Administrators must always have ability to configure "
+"permissions of resources."
+msgstr ""
+"Невъзможно е отнемането на разрешението '{s}: {p}' за '{u}', тъй като "
+"потребителят принадлежи към групата на администраторите. Администраторите "
+"винаги трябва да имат възможност да конфигурират разрешенията на ресурсите."
+
+#: nodepkg/children-section/ChildrenSection.tsx:105
+msgid "Created"
+msgstr "Създаден"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:100
+msgid "Moving resources"
+msgstr "Преместване на ресурси"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:146
+msgid "Deleting resources"
+msgstr "Изтриване на ресурси"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:171
+msgid "Turn off multiple selection"
+msgstr "Изключи множествен избор"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:172
+msgid "Select multiple resources"
+msgstr "Избери множество ресурси"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:194
+msgid "Hide resource creation date"
+msgstr "Скрий датата на създаване на ресурса"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:195
+msgid "Show resource creation date"
+msgstr "Покажи датата на създаване на ресурса"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:218
+msgid "Not all of the selected can be deleted."
+msgstr "Не всички избрани могат да бъдат изтрити."
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:234
+msgid "Move"
+msgstr "Преместване"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:253
+msgid "Export vector layers"
+msgstr "Експорт на vector лейри"
+
+#: nodepkg/children-section/util/createResourceTableItemOptions.ts:7
+msgid "Change"
+msgstr "Промяна"
+
+#: nodepkg/children-section/util/forEachSelected.ts:8
+msgid "Operation in progress"
+msgstr "Операцията е в ход"
+
+#: nodepkg/children-section/util/notify.ts:8
+msgid "Please confirm resource deletion. This action cannot be undone."
+msgstr ""
+"Моля, потвърдете премахването на ресурса. Това действие не може да бъде "
+"отменено."
+
+#: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:31
+msgid "Create group"
+msgstr "Създай група"
+
+#: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:32
+msgid "Clear selection"
+msgstr "Изчисти избора"
+
+#: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:17
+msgid "Go to initial group"
+msgstr "Връщане към початната група"
+
+#: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:18
+msgid "Refresh"
+msgstr "Освежи"
+
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:18
+msgid "Pick this group"
+msgstr "Избери тази група"
+
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:19
+msgid "Pick selected"
+msgstr "Избери избраните"
+
+#: nodepkg/delete-page/DeletePage.tsx:47
+msgid "Confirm deletion of the resource"
+msgstr "Потвърди премахването на ресурса"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:13
+msgid "Identifier for API integration (optional)"
+msgstr "Идентификатор за API интеграция (по избор)"
+
+#: nodepkg/export-settings/ExportSettings.tsx:36
+msgid "The setting is saved."
+msgstr "Настройката беше запазена."
+
+#: nodepkg/export-settings/ExportSettings.tsx:70
+msgid "Users with \"Data: Modify\" permission"
+msgstr "Потребители с разрешение \"Data: Modify\""
+
+#: nodepkg/external-access/ExternalAccess.tsx:11
+msgid "Read more"
+msgstr "Прочети повече"
+
+#: nodepkg/favorite/FavoritePage.tsx:29
+msgid ""
+"No favorite resources have been added yet. Use the star icon ({}) in the "
+"user's context menu to add items here."
+msgstr ""
+"Няма добавени любими ресурси до момента. Използвайте иконата с звездата ({})"
+" в контексното меню на потребителя, за да добавите елементи тук."
+
+#: nodepkg/favorite/FavoritePage.tsx:379
+msgid "Done"
+msgstr "Готово"
+
+#: nodepkg/favorite/useFavorites.tsx:33
+msgid "Added to favorites"
+msgstr "Добавено към любимите"
+
+#: nodepkg/favorite/useFavorites.tsx:48
+msgid "Removed from favorites"
+msgstr "Премахнато от любими"
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:13
+msgid "All fields are required"
+msgstr "Всички полета са задължителни"
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:14
+msgid "Row conflicts with another"
+msgstr "Редът конфликтува с друг"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:22
+msgid "Apply to"
+msgstr "Приложи към"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:29
+msgid "This and subresources"
+msgstr "Този и подресурсите"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:30
+msgid "This resource only"
+msgstr "Само този ресурс"
+
+#: scope.py:16 scope.py:31 scope.py:41
+msgctxt "permission"
+msgid "Modify"
+msgstr "Модифицирай"
+
+#: scope.py:18
+msgctxt "permission"
+msgid "Manage subresources"
+msgstr "Управление на подресурсите"
+
+#: scope.py:19
+msgctxt "permission"
+msgid "Configure permissions"
+msgstr "Конфигурирай правата"
+
+#: scope.py:28
+msgid "Data structure"
+msgstr "Структура данни"
+
+#: scope.py:51
+msgid "Connection"
+msgstr "Връзка"
+
+#: scope.py:54 scope.py:68
+msgctxt "permission"
+msgid "Configure"
+msgstr "Конфигурация"
+
+#: scope.py:55
+msgctxt "permission"
+msgid "Use"
+msgstr "Използвай"
+
+#: scope.py:65
+msgid "Service"
+msgstr "Услуга"
+
+#: scope.py:67
+msgctxt "permission"
+msgid "Access"
+msgstr "Достъп"
+
+#: template/resource_section_external_access.mako:3
+msgid "External access"
+msgstr "Външен достъп"

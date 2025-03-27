@@ -1,0 +1,11 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.js:9
+msgid "Select a dataset"
+msgstr "Wählen Sie ein Dataset"
+
+#: nodepkg/editor-widget/EditorWidget.js:10
+msgid "Dataset should be in NGFP format."
+msgstr "Dataset sollte im NGFP-Format vorliegen."

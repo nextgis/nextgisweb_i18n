@@ -1,0 +1,15 @@
+#
+msgid ""
+msgstr ""
+
+#: model.py:137
+msgid "Uploaded file not found"
+msgstr "Archivo subido no encontrado"
+
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
+msgid "Upload"
+msgstr "Subir"
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:17
+msgid "{} uploaded..."
+msgstr "{} subido..."

@@ -1,0 +1,157 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:30
+msgid "Consumption, liters per 100 km (for reports)"
+msgstr "Расход, літры на 100 км (для справаздач)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:32
+msgid "Invalid consumption, should be from 0 to 100"
+msgstr "Няправільны расход, павінен быць ад 0 да 100"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:47
+msgid "NextGIS software (Mobile, Collector)"
+msgstr "Праграмнае забеспячэнне NextGIS (мабільнае, калектар)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:48
+msgid "ADM (ADM-50, ADM-100)"
+msgstr "ADM (ADM-50, ADM-100)"
+
+#: amd/ngw-tracker/webmap/map/utils.js:63
+msgid "Satellites"
+msgstr "Спадарожнікі"
+
+#: amd/ngw-tracker/webmap/map/utils.js:69
+msgid "HDOP"
+msgstr "HDOP"
+
+#: amd/ngw-tracker/webmap/plugin/TrackerWebMap.js:33 component.py:13
+#: nodepkg/reports/Reports.js:175 nodepkg/trackers-panel/TrackersPanel.js:272
+#: view/__init__.py:50
+msgid "Trackers"
+msgstr "Трэкеры"
+
+#: model.py:51
+msgid "Tracker UID is not unique"
+msgstr "UID трэкера не ўнікальны"
+
+#: model.py:78
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr "Атрыбут '{}' незменны і не можа быць зменены пасля стварэння трэкера."
+
+#: nodepkg/reports/Reports.js:26
+msgid "Spent fuel"
+msgstr "Адпрацаванае паліва"
+
+#: nodepkg/reports/Reports.js:32 template/_avg_speed.mako:15
+#: template/_consumption_fuel.mako:21 template/_mileage.mako:15
+#: template/_top_speed.mako:15
+msgid "Days"
+msgstr "Дні"
+
+#: nodepkg/reports/Reports.js:33 template/_avg_speed.mako:17
+#: template/_consumption_fuel.mako:23 template/_mileage.mako:17
+#: template/_top_speed.mako:17
+msgid "Hours"
+msgstr "Гадзіны"
+
+#: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
+#: nodepkg/trackers-panel/TrackersPanel.js:97
+#: nodepkg/trackers-panel/TrackersPanel.js:98
+msgid "Unknown"
+msgstr "Невядома"
+
+#: nodepkg/reports/Reports.js:131
+msgid "Result"
+msgstr "Вынік"
+
+#: nodepkg/reports/Reports.js:142
+msgid "Settings"
+msgstr "Налады"
+
+#: nodepkg/reports/Reports.js:166
+msgid "Group by"
+msgstr "Групаваць па"
+
+#: nodepkg/reports/Reports.js:183
+msgid "Build report"
+msgstr "Скласці справаздачу"
+
+#: nodepkg/tracker-activity/ChartHelper.js:44
+msgid "Count of packets per hour"
+msgstr "Колькасць пакетаў за гадзіну"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:53
+msgid "Cancel"
+msgstr "Адмяніць"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:63
+msgid "Last activity by hours"
+msgstr "Апошняя актыўнасць па гадзінах"
+
+#: nodepkg/tracker-settings/TrackerSettings.js:34
+msgid "Settings saved"
+msgstr "Налады захаваныя"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:29
+msgid "Common settings"
+msgstr "Агульныя налады"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:35
+msgid "Interval for splitting tracks, min"
+msgstr "Інтэрвал для падзелу трэкаў, мін"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:47
+msgid "Stops detecting"
+msgstr "Вызначэнне прыпынкаў"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:53
+msgid "Minimal speed, km/h"
+msgstr "Мінімальная хуткасць, км/г"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:66
+msgid "Minimal time stop, sec"
+msgstr "Мінімальны час прыпынку, сек"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:78
+msgid "Timezone settings"
+msgstr "Нанастроўкі часовой зоны"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.js:82
+msgid "Time zone"
+msgstr "Часовая зона"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:40
+msgid "Last known point"
+msgstr "Апошняя вядомая канкрэтная Купла"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:45
+msgid "GPS tracks"
+msgstr "ГСП трэке"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:50
+msgid "Track points"
+msgstr "Канкрэтная трэке"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:72
+msgid "Zoom to last point"
+msgstr "Вызначыць на апошнесь мовчанне канкрэтная Купла"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:187
+msgid "Sort by"
+msgstr "Унік па"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:189
+msgid "Name"
+msgstr "Ѓыскніць"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:284
+msgid "Reports"
+msgstr "Рапортаж"
+
+#: view/reports.py:18
+msgid "Trackers reports"
+msgstr "Тракерою перапартаж"

@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr ""
+
+#: lockable_feature.py:60
+msgid "Additional basemaps"
+msgstr "Допълнителни базови карти"
+
+#: lockable_feature.py:285
+msgid "Data editing on web maps"
+msgstr "Редактиране на данни на уеб карти"
+
+#: lockable_feature.py:311
+msgid "Annotations on web maps"
+msgstr "Анотации на уеб карти"
+
+#: nodepkg/qgis-banner/QgisBanner.js:23
+msgid "Easy start with QGIS"
+msgstr "Лесно начало с QGIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:26
+msgid ""
+"Use the NextGIS Connect plugin for QGIS to upload your data and create "
+"interactive maps."
+msgstr ""
+"Използвайте плъгина NextGIS Connect за QGIS за качване на вашите данни и "
+"създаване на интерактивни карти."
+
+#: nodepkg/qgis-banner/QgisBanner.js:33
+msgid "Install the NextGIS Connect plugin for QGIS"
+msgstr "Инсталирайте плъгина NextGIS Connect за QGIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:37
+msgid "Connect the plugin to your Web GIS"
+msgstr "Свържете плъгина с вашия Web GIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:39
+msgid "Upload your layers and projects to your Web GIS"
+msgstr "Качете вашите слоеве и проекти на вашия Web GIS"
+
+#: nodepkg/qgis-banner/QgisBanner.js:56
+msgid "Learn more"
+msgstr "Научете повече"
+
+#: nodepkg/qgis-banner/QgisBanner.js:64
+msgid "Hide"
+msgstr "Скрий"
+
+#: nodepkg/resource-widget/base.js:21
+msgid "These features are not available on your plan:"
+msgstr "Тези функции не са налични във вашия план:"
+
+#: service_plan.py:311
+msgid "To use this feature, please upgrade."
+msgstr "За да използвате тази функция, моля, направете надстройка."

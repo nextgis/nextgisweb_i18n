@@ -1,0 +1,11 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/resource-widget/Store.ts:73
+msgid "File '{}' has an invalid extension."
+msgstr "Soubor '{}' má neplatnou příponu."
+
+#: nodepkg/resource-widget/Widget.tsx:64
+msgid "Rasters"
+msgstr "Rastry"

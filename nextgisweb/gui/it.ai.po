@@ -1,0 +1,204 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/arm/validate.ts:5
+msgid "Value required"
+msgstr "Valore richiesto"
+
+#: nodepkg/arm/validate.ts:18
+msgid "Value should be at least {}"
+msgstr "Il valore deve essere almeno {}"
+
+#: nodepkg/arm/validate.ts:19
+msgid "Value should be no more than {}"
+msgstr "Il valore non deve essere superiore a {}"
+
+#: nodepkg/arm/validate.ts:21
+msgid "Invalid value"
+msgstr "Valore non valido"
+
+#: nodepkg/arm/validate.ts:22
+msgid "Value not unique"
+msgstr "Valore non univoco"
+
+#: nodepkg/arm/validate.ts:23
+msgid "Invalid URL"
+msgstr "URL non valido"
+
+#: nodepkg/buttons/CopyToClipboardButton.tsx:23
+msgid "Copied to clipboard"
+msgstr "Copiato negli appunti"
+
+#: nodepkg/buttons/CopyToClipboardButton.tsx:28
+msgid "Copy to clipboard"
+msgstr "Copia negli appunti"
+
+#: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:47
+msgid "Save"
+msgstr "Salva"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:79
+msgid "From layer"
+msgstr "Dal layer"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:87
+msgid "West"
+msgstr "Ovest"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:98
+msgid "South"
+msgstr "Sud"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:107
+msgid "East"
+msgstr "Est"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:116
+msgid "North"
+msgstr "Nord"
+
+#: nodepkg/component/language-select/LanguageSelect.tsx:15
+msgid "Improve or add new translation"
+msgstr "Migliora o aggiungi una nuova traduzione"
+
+#: nodepkg/component/language-select/LanguageSelect.tsx:31
+msgid "Browser default"
+msgstr "Predefinito del browser"
+
+#: nodepkg/confirm.ts:13
+msgid "Confirmation required"
+msgstr "Conferma richiesta"
+
+#: nodepkg/confirm.ts:14
+msgid "Please confirm this action."
+msgstr "Si prega di confermare questa azione."
+
+#: nodepkg/confirm.ts:16 nodepkg/error/shared.js:69
+msgid "OK"
+msgstr "OK"
+
+#: nodepkg/confirm.ts:43
+msgid "Please confirm the deletion."
+msgstr "Per favore conferma la cancellazione."
+
+#: nodepkg/confirm.ts:44 nodepkg/edi-table/RowAction.tsx:78
+#: nodepkg/focus-table/action.tsx:27 nodepkg/model-browse/ModelBrowse.tsx:262
+#: nodepkg/model-browse/ModelBrowse.tsx:329
+#: nodepkg/model-form/ModelForm.tsx:48
+msgid "Delete"
+msgstr "Elimina"
+
+#: nodepkg/confirm.ts:45
+msgid "Failed to delete."
+msgstr "Eliminazione fallita."
+
+#: nodepkg/edi-table/RowAction.tsx:73
+msgid "Clone"
+msgstr "Clona"
+
+#: nodepkg/edi-table/store/RecordItem.ts:35
+msgid "Key required"
+msgstr "Chiave richiesta"
+
+#: nodepkg/edi-table/store/RecordItem.ts:41
+msgid "Key not unique"
+msgstr "Chiave non unica"
+
+#: nodepkg/error/index.ts:44
+msgid "Unexpected error"
+msgstr "Errore inaspettato"
+
+#: nodepkg/error/index.ts:48
+msgid "Something went wrong."
+msgstr "Qualcosa è andato storto."
+
+#: nodepkg/error/shared.js:54
+msgid "Technical information"
+msgstr "Informazioni tecniche"
+
+#: nodepkg/error/shared.js:64
+msgid "Contact support"
+msgstr "Contatta il supporto"
+
+#: nodepkg/error/shared.js:73
+msgid "Back to home"
+msgstr "Torna alla homepage"
+
+#: nodepkg/fields-form/FormItem.tsx:11
+msgid "This value is required"
+msgstr "Questo valore è richiesto"
+
+#: nodepkg/fields-form/rules/KeynameRule.ts:5
+msgid "The value entered is not valid"
+msgstr "Il valore inserito non è valido"
+
+#: nodepkg/focus-table/action.tsx:13
+msgid "Add"
+msgstr "Aggiungi"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:109
+#: nodepkg/model-form/ModelForm.tsx:68
+msgid "Confirmation"
+msgstr "Conferma"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:110
+msgid "Item deleted"
+msgstr "Elemento eliminato"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:112
+msgid "Items deleted"
+msgstr "Elementi eliminati"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:185
+msgid "The errors occurred during execution"
+msgstr "Si sono verificati degli errori durante l'esecuzione"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:189
+msgid "Failed to delete items:"
+msgstr "Eliminazione degli elementi fallita:"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:212
+msgid "Do you want to delete these items?"
+msgstr "Vuoi eliminare questi elementi?"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:252
+msgid "Edit"
+msgstr "Modifica"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:252
+msgid "View"
+msgstr "Visualizza"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:285
+msgid "Search"
+msgstr "Cerca"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:307
+#: nodepkg/model-form/ModelForm.tsx:46
+msgid "Create"
+msgstr "Crea"
+
+#: nodepkg/model-form/ModelForm.tsx:105
+msgid "Fix the form errors first"
+msgstr "Correggi prima gli errori nel modulo"
+
+#: nodepkg/model-logo-form/ModelLogoForm.tsx:29
+msgid "Logo saved. Reload the page to get them applied."
+msgstr "Logo salvato. Ricarica la pagina per applicarlo."
+
+#: nodepkg/progress-modal/ProgressModal.tsx:5
+msgid "Operation in progress"
+msgstr "Operazione in corso"
+
+#: nodepkg/progress-modal/ProgressModal.tsx:6
+msgid "Cancel"
+msgstr "Annulla"
+
+#: nodepkg/single-setting-form/SingleSettingForm.tsx:25
+msgid "The setting is saved."
+msgstr "L'impostazione è stata salvata."
+
+#: nodepkg/single-setting-form/SingleSettingForm.tsx:26
+msgid "Reload the page to get them applied."
+msgstr "Ricarica la pagina per applicarle."

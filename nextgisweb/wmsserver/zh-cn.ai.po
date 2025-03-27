@@ -1,0 +1,7 @@
+#
+msgid ""
+msgstr ""
+
+#: nodepkg/service-widget/ServiceWidget.tsx:24
+msgid "Not set"
+msgstr "未设置"

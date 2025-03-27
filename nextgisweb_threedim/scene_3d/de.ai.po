@@ -1,0 +1,141 @@
+#
+msgid ""
+msgstr ""
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
+msgid "Add item"
+msgstr "Artikel hinzufügen"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
+msgid "Add group"
+msgstr "Gruppe hinzufügen"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
+msgid "Remove"
+msgstr "Entfernen"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:63
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:97
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:54
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:24
+msgid "Display name"
+msgstr "Anzeigename"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:67
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
+msgid "Select classification layer"
+msgstr "Klassifizierungsschicht auswählen"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:74
+msgid "Classification layer"
+msgstr "Klassifizierungsschicht"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:78
+msgid "3D tileset color"
+msgstr "3D-Kachelsetfarbe"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
+msgid "Style resource"
+msgstr "Stilressource"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:101
+msgid "Expanded"
+msgstr "Erweitert"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:95
+msgid "Items"
+msgstr "Artikel"
+
+#: model/scene_3d.py:26 nodepkg/settings-widget/SettingsWidget.tsx:98
+#: view.py:64 view.py:70
+msgid "3D scene"
+msgstr "3D-Szene"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
+msgid "Default basemap"
+msgstr "Standard-Grundkarte"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:64
+msgid "Opacity"
+msgstr "Deckkraft"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:69
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:34
+msgid "Resource"
+msgstr "Ressource"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:125
+msgid "Basemaps"
+msgstr "Grundkarten"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:16
+msgid "Globe"
+msgstr "Globus"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:17
+msgid "Plane"
+msgstr "Ebene"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:21
+msgid "Minimum"
+msgstr "Minimum"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:22
+msgid "Low"
+msgstr "Niedrig"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:23
+msgid "Medium"
+msgstr "Mittel"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
+msgid "High"
+msgstr "Hoch"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:25
+msgid "Maximum"
+msgstr "Maximum"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:34
+msgid "View"
+msgstr "Ansicht"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:44
+msgid "Quality"
+msgstr "Qualität"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:54
+msgid "Enable Yandex Panoramas"
+msgstr "Yandex Panoramas aktivieren"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:63
+msgid "Yandex Panoramas API key"
+msgstr "Yandex Panoramas API-Schlüssel"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:72
+msgid "Enable Google Street View"
+msgstr "Google Street View aktivieren"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:81
+msgid "Google Street View API key"
+msgstr "Google Street View API-Schlüssel"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:90
+msgid "Extent"
+msgstr "Ausdehnung"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:31
+msgid "Default terrain"
+msgstr "Standardterrain"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:89
+msgid "Terrain"
+msgstr "Gelände"
+
+#: view.py:76
+msgid "Display"
+msgstr "Anzeige"

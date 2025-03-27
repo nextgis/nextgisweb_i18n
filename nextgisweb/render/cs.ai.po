@@ -1,0 +1,15 @@
+#
+msgid ""
+msgstr ""
+
+#: api.py:158
+msgid "Invalid symbols sequence"
+msgstr "Neplatná sekvence symbolů"
+
+#: component.py:51
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#: view.py:42
+msgid "Legend symbols"
+msgstr "Symboly legendy"

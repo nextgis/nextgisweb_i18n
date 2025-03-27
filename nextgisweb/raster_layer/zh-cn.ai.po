@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr ""
+
+#: api.py:46
+msgid "Output format is not provided."
+msgstr "未提供输出格式"
+
+#: api.py:49
+msgid "Format '%s' is not supported."
+msgstr "不支持格式“%s”"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:39
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr "云优化GeoTIFF (COG)"
+
+#: view.py:69
+msgid "Download"
+msgstr "下载"
