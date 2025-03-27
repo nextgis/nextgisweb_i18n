@@ -1,0 +1,97 @@
+#: model.py:748
+msgid "Unknown 'fix_errors' value."
+msgstr "Valeur 'fix_errors' inconnue."
+
+#: model.py:756
+msgid "Unknown 'cast_geometry_type' value."
+msgstr "Valeur 'cast_geometry_type' inconnue."
+
+#: model.py:761
+msgid "Unknown 'cast_is_multi' value."
+msgstr "Valeur 'cast_is_multi' inconnue."
+
+#: model.py:766
+msgid "Unknown 'cast_has_z' value."
+msgstr "Valeur 'cast_has_z' inconnue."
+
+#: model.py:771
+msgid "Unknown 'fid_source' value."
+msgstr "Valeur 'fid_source' inconnue."
+
+#: model.py:794
+msgid "Unsupported geometry type."
+msgstr "Type de géométrie non pris en charge."
+
+#: nodepkg/resource-widget/Store.tsx:168
+msgid "Confirm deletion of existing features"
+msgstr "Confirmer la suppression des entités existantes"
+
+#: nodepkg/resource-widget/Store.tsx:175
+msgid "Confirm change of geometry type"
+msgstr "Confirmer le changement de type de géométrie"
+
+#: nodepkg/resource-widget/Widget.tsx:34
+msgid ""
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
+"put in lat and lot columns."
+msgstr ""
+"Les formats ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV ou XLSX"
+" sont supportés. Pour CSV et XLSX, seuls les points sont supportés, les "
+"coordonnées doivent être placées dans les colonnes lat et lon."
+
+#: nodepkg/resource-widget/Widget.tsx:45
+msgid "Whenever possible"
+msgstr "Chaque fois que possible"
+
+#: nodepkg/resource-widget/Widget.tsx:114
+msgid "Only load features of the selected geometry type"
+msgstr "Charger uniquement les entités du type de géométrie sélectionné"
+
+#: nodepkg/resource-widget/Widget.tsx:151
+msgid "Load features from file"
+msgstr "Charger les entités à partir du fichier"
+
+#: nodepkg/resource-widget/Widget.tsx:152
+msgid "Create empty layer"
+msgstr "Créer une couche vide"
+
+#: nodepkg/resource-widget/Widget.tsx:154
+msgid "Keep existing layer features"
+msgstr "Conserver les entités de la couche existante"
+
+#: nodepkg/resource-widget/Widget.tsx:155
+msgid "Change geometry type"
+msgstr "Changer le type de géométrie"
+
+#: nodepkg/resource-widget/Widget.tsx:156
+msgid "Replace layer features from file"
+msgstr "Remplacer les entités de la couche à partir du fichier"
+
+#: nodepkg/resource-widget/Widget.tsx:157
+msgid "Delete all features from layer"
+msgstr "Supprimer toutes les entités de la couche"
+
+#: nodepkg/resource-widget/Widget.tsx:173
+msgid "current"
+msgstr "actuel"
+
+#: ogrloader.py:329
+msgid "Field '%s' is out of int32 range."
+msgstr "Le champ '%s' est hors de la plage int32."
+
+#: ogrloader.py:509
+msgid ""
+"Feature #%d has a geometry that can't be reprojected to target coordinate "
+"system"
+msgstr ""
+"L'entité #%d a une géométrie qui ne peut pas être reprojetée dans le système"
+" de coordonnées cible"
+
+#: ogrloader.py:603
+msgid "Feature #%d doesn't have geometry."
+msgstr "L'entité #%d n'a pas de géométrie."
+
+#: ogrloader.py:701
+msgid "Feature #%d has empty rings."
+msgstr "L'entité #%d a des anneaux vides."

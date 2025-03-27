@@ -1,0 +1,86 @@
+#: api.py:46
+msgid "Output format is not provided."
+msgstr "Formato de saída não fornecido."
+
+#: api.py:49
+msgid "Format '%s' is not supported."
+msgstr "O formato '%s' não é suportado."
+
+#: api.py:94
+msgid "Requested raster is not COG."
+msgstr "O raster solicitado não é COG."
+
+#: api.py:106
+msgid "Range header is missed or invalid."
+msgstr "O cabeçalho de alcance está ausente ou é inválido."
+
+#: api.py:110
+msgid "Range %s can not be read."
+msgstr "O alcance %s não pode ser lido."
+
+#: kind_of_data.py:8
+msgid "Rasters and pyramids"
+msgstr "Rasters e pirâmides"
+
+#: model.py:135
+msgid "Mixed band data types are not supported."
+msgstr "Tipos de dados mistos de bandas não são suportados."
+
+#: model.py:163
+msgid "GDAL was uanble to parse the raster coordinate system."
+msgstr "A GDAL não conseguiu interpretar o sistema de coordenadas do raster."
+
+#: model.py:167
+msgid ""
+"The source raster has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr ""
+"O raster de origem possui um sistema de coordenadas local e não pode ser "
+"reprojetado para o sistema de coordenadas de destino."
+
+#: model.py:184
+msgid "Failed to reproject the raster to the target coordinate system."
+msgstr ""
+"Falha ao reprojetar o raster para o sistema de coordenadas de destino."
+
+#: model.py:187
+msgid "GDAL error message: %s"
+msgstr "Mensagem de erro da GDAL: %s"
+
+#: model.py:203
+msgid ""
+"The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
+"%(delta)s. Reduce raster size to fit the limit."
+msgstr ""
+"O tamanho do raster não comprimido (%(size)s) excede o limite (%(limit)s) em"
+" %(delta)s. Reduza o tamanho do raster para se adequar ao limite."
+
+#: model.py:316
+msgid "COG"
+msgstr "COG"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:39
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr "GeoTIFF Otimizado para Nuvem (COG)"
+
+#: view.py:33
+msgid "Cloud Optimized GeoTIFF"
+msgstr "GeoTIFF Otimizado para Nuvem"
+
+#: view.py:34
+msgid ""
+"A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
+"hosted on a HTTP file server, with an internal organization that enables "
+"more efficient workflows on the cloud. It does this by leveraging the "
+"ability of clients issuing ​HTTP GET range requests to ask for just the "
+"parts of a file they need."
+msgstr ""
+"Um Cloud Optimized GeoTIFF (COG) é um arquivo GeoTIFF regular, destinado a "
+"ser hospedado em um servidor de arquivos HTTP, com uma organização interna "
+"que permite fluxos de trabalho mais eficientes na nuvem. Ele faz isso "
+"aproveitando a capacidade dos clientes de emitir solicitações de alcance "
+"HTTP GET para pedir apenas as partes de um arquivo que precisam."
+
+#: view.py:69
+msgid "Download"
+msgstr "Download"

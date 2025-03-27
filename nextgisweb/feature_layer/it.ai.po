@@ -1,0 +1,292 @@
+#: amd/ngw-feature-layer/FieldsDisplayWidget.js:178
+msgid "N/A"
+msgstr "N/D"
+
+#: amd/ngw-feature-layer/GeometryInfoWidget.js:9
+msgid "Geometry"
+msgstr "Geometria"
+
+#: api.py:335
+msgid "Unknown spatial reference system"
+msgstr "Sistema di riferimento spaziale sconosciuto"
+
+#: api_export.py:89
+msgid "Output format is not provided."
+msgstr "Il formato di output non è stato fornito."
+
+#: api_export.py:91
+msgid "Format '%s' is not supported."
+msgstr "Il formato '%s' non è supportato."
+
+#: api_export.py:146
+msgid ""
+"The export limit is set to {limit} features, but the layer contains {count}."
+msgstr ""
+"Il limite di esportazione è impostato a {limit} elementi, ma il layer "
+"contiene {count}."
+
+#: api_export.py:159
+msgid "Failed to reproject 'intersects' geometry."
+msgstr "Impossibile riproiettare la geometria di 'intersezione'."
+
+#: api_export.py:301
+msgid "File name parameter '{}' is not valid."
+msgstr "Il parametro del nome del file '{}' non è valido."
+
+#: exception.py:20
+msgid "Feature not deleted"
+msgstr "Elemento non eliminato"
+
+#: exception.py:21
+msgid "Unable to restore the #{} feature as it is not deleted."
+msgstr ""
+"Impossibile ripristinare l'elemento #{} in quanto non è stato eliminato."
+
+#: model.py:174
+msgid "Field name is forbidden: '{}'. Please remove or rename it."
+msgstr ""
+"Il nome del campo è proibito: ''{}''. Si prega di rimuoverlo o rinominarlo."
+
+#: model.py:236
+msgid "Versioning not supported"
+msgstr "Versionamento non supportato"
+
+#: nodepkg/attribute-editor/AttributeEditor.tsx:33
+msgid "There are no attributes in the vector layer"
+msgstr "Non ci sono attributi nel layer vettoriale"
+
+#: nodepkg/export-form/ExportForm.tsx:177
+msgid "Resources"
+msgstr "Risorse"
+
+#: nodepkg/export-form/ExportForm.tsx:235
+msgid "Use field display names instead of keynames"
+msgstr "Utilizza i nomi visualizzati dei campi invece delle chiavi"
+
+#: nodepkg/export-form/ExportForm.tsx:241
+#: nodepkg/fields-widget/FieldsWidget.tsx:167
+msgid "Fields"
+msgstr "Campi"
+
+#: nodepkg/export-form/ExportForm.tsx:247
+msgid "Limit by extent"
+msgstr "Limita per estensione"
+
+#: nodepkg/export-form/ExportForm.tsx:253
+msgid "Filter text"
+msgstr "Filtra testo"
+
+#: nodepkg/export-form/ExtentInput.tsx:6
+msgid "deg."
+msgstr "gradi"
+
+#: nodepkg/export-form/ExtentInput.tsx:9
+msgid "Left"
+msgstr "Sinistra"
+
+#: nodepkg/export-form/ExtentInput.tsx:10
+msgid "Bottom"
+msgstr "Inferiore"
+
+#: nodepkg/export-form/ExtentInput.tsx:11
+msgid "Right"
+msgstr "Destra"
+
+#: nodepkg/export-form/ExtentInput.tsx:12
+msgid "Top"
+msgstr "In alto"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:18
+msgid "Cancel"
+msgstr "Annulla"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
+msgid "Unsaved changes will be lost if you close the window."
+msgstr "Le modifiche non salvate andranno perse se chiudi la finestra."
+
+#: nodepkg/feature-editor/FeatureEditorStore.ts:20
+msgid "Feature saved"
+msgstr "Elemento salvato"
+
+#: nodepkg/feature-editor/FeatureEditorStore.ts:21
+msgid "No changes to save"
+msgstr "Nessuna modifica da salvare"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:33
+msgid "Loading..."
+msgstr "Caricamento in corso..."
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:35
+msgid "Reset"
+msgstr "Reimposta"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:24
+msgid "Open table settings"
+msgstr "Apri impostazioni tabella"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:25
+msgid "Refresh table"
+msgstr "Aggiorna tabella"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+msgid "Edit on a new page"
+msgstr "Modifica su una nuova pagina"
+
+#: nodepkg/feature-grid/FeatureTable.tsx:95
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:53
+msgid "Last changed"
+msgstr "Ultima modifica"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:31
+msgid "Advanced Export"
+msgstr "Esportazione Avanzata"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:32
+msgid "Quick Export"
+msgstr "Esportazione Rapida"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:33
+msgid "Filters are applied"
+msgstr "Filtri applicati"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
+msgid "Text search"
+msgstr "Ricerca testuale"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:31
+msgid "Please select"
+msgstr "Si prega di selezionare"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:32
+msgid "Not used"
+msgstr "Non usato"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:115
+msgid "Field"
+msgstr "Campo"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:56
+msgid "Load geometry info..."
+msgstr "Caricamento informazioni geometria..."
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:65
+msgid "Failed to get information about the geometry"
+msgstr "Errore nel recuperare informazioni sulla geometria"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:75
+msgid "Perimeter"
+msgstr "Perimetro"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:76
+msgid "Length"
+msgstr "Lunghezza"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:84
+msgid "Area"
+msgstr "Area"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:92
+msgid "Geometry type"
+msgstr "Tipo di geometria"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:100
+msgid "Extent (xMin)"
+msgstr "Estensione (xMin)"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:104
+msgid "Extent (yMin)"
+msgstr "Estensione (yMin)"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:108
+msgid "Extent (xMax)"
+msgstr "Estensione (xMax)"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:112
+msgid "Extent (yMax)"
+msgstr "Estensione (yMax)"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:18
+msgid "Feature versioning"
+msgstr "Versionamento delle feature"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:19
+msgid ""
+"Experimental feature. Some operations may not work if feature versioning is "
+"enabled."
+msgstr ""
+"Caratteristica sperimentale. Alcune operazioni potrebbero non funzionare se "
+"il versionamento delle feature è abilitato."
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
+msgid "Disable feature versioning?"
+msgstr "Disabilitare il versionamento delle feature?"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:41
+msgid ""
+"Turning off feature versioning will truncate the history and keep only the "
+"latest state."
+msgstr ""
+"Disattivare il versionamento delle feature troncherà la cronologia "
+"mantenendo solo lo stato più recente."
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:64
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: transaction/exception.py:7
+msgid "Transaction not found"
+msgstr "Transazione non trovata"
+
+#: transaction/exception.py:12
+msgid "Operation conflict in transaction"
+msgstr "Conflitto operativo nella transazione"
+
+#: transaction/exception.py:20
+msgid "Transaction not committed"
+msgstr "Transazione non confermata"
+
+#: versioning/exception.py:17
+msgid "Not implemented for feature versioning"
+msgstr "Non implementato per il versionamento delle feature"
+
+#: versioning/exception.py:18
+msgid ""
+"This operation cannot be performed on a resource with feature versioning "
+"enabled. Disable feature versioning for the resource first, and then try "
+"again."
+msgstr ""
+"Questa operazione non può essere eseguita su una risorsa con il "
+"versionamento delle feature abilitato. Disabilita prima il versionamento "
+"delle feature per la risorsa e riprova."
+
+#: versioning/exception.py:27
+msgid "Feature versioning required"
+msgstr "Versioning degli elementi richiesto"
+
+#: versioning/exception.py:32
+msgid "Feature versioning is not supported for this resource."
+msgstr "Il versioning degli elementi non è supportato per questa risorsa."
+
+#: versioning/exception.py:34
+msgid "Feature versioning is not enabled for this resource."
+msgstr "Il versioning degli elementi non è abilitato per questa risorsa."
+
+#: versioning/exception.py:41
+msgid "Epoch required"
+msgstr "Epoch richiesto"
+
+#: versioning/exception.py:45
+msgid "Epoch mismatch"
+msgstr "Incongruenza di epoch"
+
+#: versioning/exception.py:55
+msgid "Version out of range"
+msgstr "Versione fuori dal range"
+
+#: versioning/exception.py:65
+msgid "Invalid range"
+msgstr "Range non valido"

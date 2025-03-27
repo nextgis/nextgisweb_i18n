@@ -1,0 +1,11 @@
+#: nodepkg/editor-widget/EditorWidget.js:9
+msgid "Select a dataset"
+msgstr "Абярыце набор дадзеных"
+
+#: nodepkg/editor-widget/EditorWidget.js:10
+msgid "Dataset should be in NGFP format."
+msgstr "Набор дадзеных павінен быць у фармаце NGFP."
+
+#: view.py:24
+msgid "Download as NGFP"
+msgstr "Загрузіць як NGFP"

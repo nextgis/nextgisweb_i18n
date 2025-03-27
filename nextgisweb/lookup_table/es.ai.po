@@ -1,0 +1,23 @@
+#: nodepkg/editor/EditorWidget.tsx:34
+msgid "Type here to add a new item..."
+msgstr "Escriba aquí para añadir un nuevo elemento..."
+
+#: nodepkg/editor/EditorWidget.tsx:35
+msgid "Export"
+msgstr "Exportar"
+
+#: nodepkg/editor/EditorWidget.tsx:36
+msgid "Import"
+msgstr "Importar"
+
+#: nodepkg/editor/EditorWidget.tsx:37
+msgid "Clear"
+msgstr "Borrar"
+
+#: nodepkg/editor/EditorWidget.tsx:40
+msgid ""
+"All existing records will be deleted after import. Are you sure you want to "
+"proceed?"
+msgstr ""
+"Todos los registros existentes se eliminarán después de la importación. "
+"¿Está seguro de que desea proceder?"

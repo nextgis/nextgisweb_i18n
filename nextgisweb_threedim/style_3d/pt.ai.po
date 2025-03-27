@@ -1,0 +1,98 @@
+#: interface.py:14
+msgid "POI"
+msgstr "POI"
+
+#: interface.py:15 model.py:13 nodepkg/style-3d-widget/Style3d.tsx:404
+msgid "3D style"
+msgstr "Estilo 3D"
+
+#: interface.py:16
+msgid "3D model"
+msgstr "Modelo 3D"
+
+#: interface.py:17
+msgid "Sphere"
+msgstr "Esfera"
+
+#: interface.py:18
+msgid "Ellipsoid"
+msgstr "Elipsoide"
+
+#: interface.py:29
+msgid "Value"
+msgstr "Valor"
+
+#: interface.py:30
+msgid "From attribute"
+msgstr "Do atributo"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:131
+msgid "Style type"
+msgstr "Tipo de estilo"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:143
+msgid "POI icon"
+msgstr "Ícone POI"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:154
+msgid "POI color"
+msgstr "Cor POI"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:165
+msgid "Priority"
+msgstr "Prioridade"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:176
+msgid "Inverse"
+msgstr "Inverso"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:188
+#: nodepkg/style-3d-widget/Style3d.tsx:279
+#: nodepkg/style-3d-widget/Style3d.tsx:325
+msgid "Stroke color"
+msgstr "Cor do traço"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:199
+#: nodepkg/style-3d-widget/Style3d.tsx:290
+#: nodepkg/style-3d-widget/Style3d.tsx:336
+msgid "Stroke width"
+msgstr "Largura do traço"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:210
+#: nodepkg/style-3d-widget/Style3d.tsx:301
+#: nodepkg/style-3d-widget/Style3d.tsx:347
+msgid "Fill color"
+msgstr "Cor de preenchimento"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:221
+#: nodepkg/style-3d-widget/Style3d.tsx:380
+msgid "Height"
+msgstr "Altura"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:234
+msgid "3D model ID"
+msgstr "ID do modelo 3D"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:255
+msgid "Scale"
+msgstr "Escala"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:266
+msgid "Rotate, deg."
+msgstr "Rotação, grau"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:312
+msgid "Radius"
+msgstr "Raio"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:358
+msgid "Length"
+msgstr "Comprimento"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:369
+msgid "Width"
+msgstr "Largura"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:393
+msgid "Z offset"
+msgstr "Deslocamento Z"

@@ -1,0 +1,50 @@
+#: amd/ngw-tmsclient/LayersDialog.js:25
+msgid "Select layer"
+msgstr "Изберете слой"
+
+#: amd/ngw-tmsclient/LayersDialog.js:63
+msgid "OK"
+msgstr "ОК"
+
+#: amd/ngw-tmsclient/LayersDialog.js:72
+msgid "Cancel"
+msgstr "Откажи"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
+msgid "Capmode"
+msgstr "Начин"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
+msgid "NextGIS geoservices"
+msgstr "NextGIS геоуслуги"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:15
+msgid "Choose a layer"
+msgstr "Избиране на слой"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+msgid "Coordinate system"
+msgstr "Координатна система"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
+msgid "Left, deg."
+msgstr "Лява граница, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
+msgid "Bottom, deg."
+msgstr "Долна граница, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
+msgid "Right, deg."
+msgstr "Дясна граница, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
+msgid "Top, deg."
+msgstr "Горна граница, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:75
+msgid "Tile size, px"
+msgstr "Размер на плочка, px"
+
+msgid "TMS capabilities"
+msgstr "Възможности на TMS"

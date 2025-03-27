@@ -1,0 +1,15 @@
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:53
+msgid "Keep"
+msgstr "Mantenerse"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:54
+msgid "Reload"
+msgstr "Recargar"
+
+#: amd/ngw-wfsclient/template/WFSConnectionWidget.hbs:10
+msgid "WFS path"
+msgstr "Ruta de WFS"
+
+#: amd/ngw-wfsclient/template/WFSLayerWidget.hbs:8
+msgid "Select WFS connection"
+msgstr "Seleccione la conexión WFS"

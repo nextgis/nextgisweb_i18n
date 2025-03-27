@@ -1,0 +1,50 @@
+#: amd/ngw-tmsclient/LayersDialog.js:25
+msgid "Select layer"
+msgstr "选择图层"
+
+#: amd/ngw-tmsclient/LayersDialog.js:63
+msgid "OK"
+msgstr "好"
+
+#: amd/ngw-tmsclient/LayersDialog.js:72
+msgid "Cancel"
+msgstr "取消"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
+msgid "Capmode"
+msgstr "方法"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
+msgid "NextGIS geoservices"
+msgstr "NextGIS地理服务"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:15
+msgid "Choose a layer"
+msgstr "选择一个图层"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+msgid "Coordinate system"
+msgstr "坐标系统"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
+msgid "Left, deg."
+msgstr "左，度"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
+msgid "Bottom, deg."
+msgstr "下，度"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
+msgid "Right, deg."
+msgstr "右，度"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
+msgid "Top, deg."
+msgstr "上，度"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:75
+msgid "Tile size, px"
+msgstr "瓦片尺寸，像素"
+
+msgid "TMS capabilities"
+msgstr "TMS功能"

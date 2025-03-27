@@ -1,0 +1,28 @@
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
+msgid "Add item"
+msgstr "Añadir elemento"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
+msgid "Add group"
+msgstr "Añadir grupo"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
+msgid "Remove"
+msgstr "Eliminar"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
+msgid "Select classification layer"
+msgstr "Seleccionar capa de clasificación"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
+msgid "Style resource"
+msgstr "Recurso de estilo"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
+msgid "Default basemap"
+msgstr "Mapa base predeterminado"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:31
+msgid "Default terrain"
+msgstr "Terreno predeterminado"

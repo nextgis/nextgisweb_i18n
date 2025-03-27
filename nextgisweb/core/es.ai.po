@@ -1,0 +1,11 @@
+#: component.py:316
+msgid "Last backup"
+msgstr "Última copia de seguridad"
+
+#: component.py:320
+msgid "Last maintenance"
+msgstr "Último mantenimiento"
+
+#: exception.py:145
+msgid "Not configured"
+msgstr "No configurado"

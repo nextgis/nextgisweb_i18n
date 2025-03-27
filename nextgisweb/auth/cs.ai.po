@@ -1,0 +1,164 @@
+#: api.py:160
+msgid "Password is not set."
+msgstr "Heslo není nastaveno."
+
+#: api.py:615
+msgid "Administrator required"
+msgstr "Vyžadován administrátor"
+
+#: exception.py:22
+msgid "Invalid authorization link"
+msgstr "Neplatný autorizační odkaz"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:31
+#: nodepkg/group-widget/GroupWidget.tsx:59
+msgid "New users"
+msgstr "Noví uživatelé"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:27
+msgid "Yes"
+msgstr "Ano"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:28
+msgid "No"
+msgstr "Ne"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53
+#: nodepkg/user-widget/UserWidget.tsx:100
+msgid "Permissions"
+msgstr "Oprávnění"
+
+#: nodepkg/group-widget/GroupWidget.tsx:65
+msgid "{dn} mapping"
+msgstr "{dn} mapování"
+
+#: nodepkg/login/LoginForm.tsx:20
+msgid "Sign in with {}"
+msgstr "Přihlásit se pomocí {}"
+
+#: nodepkg/login/LoginForm.tsx:94
+msgid "or using login and password"
+msgstr "nebo použitím přihlášení a hesla"
+
+#: nodepkg/oauth.tsx:26
+msgid "Manage team"
+msgstr "Spravovat tým"
+
+#: nodepkg/settings-form/SettingsForm.tsx:27
+msgid "Account bound"
+msgstr "Účet svázán"
+
+#: nodepkg/settings-form/SettingsForm.tsx:38
+msgid "Bind account"
+msgstr "Svázat účet"
+
+#: nodepkg/settings-form/SettingsForm.tsx:40
+msgid "Account not bound"
+msgstr "Účet není svázán"
+
+#: nodepkg/user-browse/UserBrowse.tsx:34
+msgid "Users with a password can sign in with login and password."
+msgstr "Uživatelé s heslem se mohou přihlásit pomocí přihlášení a hesla."
+
+#: nodepkg/user-browse/UserBrowse.tsx:35
+msgid "Users bound to {dn} can sign in with {dn}."
+msgstr "Uživatelé svázaní s {dn} se mohou přihlásit pomocí {dn}."
+
+#: nodepkg/user-browse/UserBrowse.tsx:122
+msgid ""
+"Your team members won't be shown here until their first logon. Set \"New "
+"users\" flag for a group to automatically assign new user to this group. You"
+" may also modify permission for authenticated users to manage access for "
+"your team members."
+msgstr ""
+"Členové vašeho týmu se zde nezobrazí, dokud se poprvé nepřihlásí. Nastavte "
+"příznak \"Noví uživatelé\" pro skupinu, aby se noví uživatelé automaticky "
+"přiřadili do této skupiny. Můžete také upravit oprávnění pro ověřené "
+"uživatele pro správu přístupu členů vašeho týmu."
+
+#: nodepkg/user-widget/UserWidget.tsx:77
+msgid "Authorization link"
+msgstr "Autorizační odkaz"
+
+#: nodepkg/user-widget/UserWidget.tsx:126
+msgid ""
+"Consider adding {name} user to your team instead of creating a new user with"
+" a password."
+msgstr ""
+"Zvažte přidání uživatele {name} do vašeho týmu místo vytváření nového "
+"uživatele s heslem."
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:10
+msgid "Keep existing"
+msgstr "Zachovat stávající"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
+#: nodepkg/user-widget/UserWidgetPassword.tsx:14
+msgid "Assign new"
+msgstr "Přidělit nové"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
+#: nodepkg/user-widget/UserWidgetPassword.tsx:20
+msgid "Turn off"
+msgstr "Vypnout"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
+msgid "The generated link will be available after saving."
+msgstr "Generovaný odkaz bude dostupný po uložení."
+
+#: nodepkg/user-widget/UserWidgetPassword.tsx:19
+msgid "{name} only"
+msgstr "Pouze {name}"
+
+#: oauth.py:323
+msgid "{} binding error"
+msgstr "Chyba přiřazení {}"
+
+#: oauth.py:324
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log"
+" in using this account instead of binding it."
+msgstr ""
+"Tento účet {dn} ({sub}) již je přiřazen jinému uživateli ({id}). Přihlaste "
+"se pomocí tohoto účtu místo jeho přiřazování."
+
+#: oauth.py:653
+msgid "OAuth password grant type failed"
+msgstr "OAuth typ oprávnění hesla selhal"
+
+#: permission.py:12
+msgid "View"
+msgstr "Zobrazit"
+
+#: permission.py:13
+msgid "Manage"
+msgstr "Spravovat"
+
+#: view.py:83
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr ""
+"Nepodařilo se ověřit pomocí uvedeného autorizačního odkazu. Zkontrolujte "
+"odkaz a kontaktujte administrátora."
+
+#: view.py:94
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr "Použití autorizačního odkazu je pro administrátory zakázáno."
+
+#: view.py:133
+msgid "Team membership required"
+msgstr "Požadováno členství v týmu"
+
+#: view.py:134
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and"
+" ask to be added to the team."
+msgstr ""
+"Nejste členem tohoto Web GIS týmu. Kontaktujte administrátora Web GIS a "
+"požádejte o přidání do týmu."

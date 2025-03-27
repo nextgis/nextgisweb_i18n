@@ -1,0 +1,11 @@
+#: model.py:137
+msgid "Uploaded file not found"
+msgstr "上传的文件未找到"
+
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
+msgid "Upload"
+msgstr "上传"
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:17
+msgid "{} uploaded..."
+msgstr "{} 上传完成..."

@@ -1,0 +1,99 @@
+#: nodepkg/arm/validate.ts:5
+msgid "Value required"
+msgstr "Задължително значение"
+
+#: nodepkg/arm/validate.ts:18
+msgid "Value should be at least {}"
+msgstr "Значението трябва да бъде поне {0}"
+
+#: nodepkg/arm/validate.ts:19
+msgid "Value should be no more than {}"
+msgstr "Значението не трябва да бъде повече от {0}"
+
+#: nodepkg/arm/validate.ts:21
+msgid "Invalid value"
+msgstr "Невалидно значение"
+
+#: nodepkg/arm/validate.ts:22
+msgid "Value not unique"
+msgstr "Неповтарящо се значение"
+
+#: nodepkg/arm/validate.ts:23
+msgid "Invalid URL"
+msgstr "Невалиден URL"
+
+#: nodepkg/buttons/CopyToClipboardButton.tsx:23
+msgid "Copied to clipboard"
+msgstr "Копирано в клипборда"
+
+#: nodepkg/buttons/CopyToClipboardButton.tsx:28
+msgid "Copy to clipboard"
+msgstr "Копирай в клипборда"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:79
+msgid "From layer"
+msgstr "От лейера"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:87
+msgid "West"
+msgstr "Запад"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:98
+msgid "South"
+msgstr "Юг"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:107
+msgid "East"
+msgstr "Изток"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:116
+msgid "North"
+msgstr "Север"
+
+#: nodepkg/component/language-select/LanguageSelect.tsx:15
+msgid "Improve or add new translation"
+msgstr "Подобрете или добавете нов превод"
+
+#: nodepkg/confirm.ts:13
+msgid "Confirmation required"
+msgstr "Нужно е потвърждение"
+
+#: nodepkg/confirm.ts:14
+msgid "Please confirm this action."
+msgstr "Моля, потвърдете това действие."
+
+#: nodepkg/confirm.ts:43
+msgid "Please confirm the deletion."
+msgstr "Моля, потвърдете изтриването."
+
+#: nodepkg/confirm.ts:45
+msgid "Failed to delete."
+msgstr "Грешка при изтриване"
+
+#: nodepkg/edi-table/RowAction.tsx:73
+msgid "Clone"
+msgstr "Клониране"
+
+#: nodepkg/edi-table/store/RecordItem.ts:35
+msgid "Key required"
+msgstr "Нужен ключ"
+
+#: nodepkg/edi-table/store/RecordItem.ts:41
+msgid "Key not unique"
+msgstr "Ключът не е уникален"
+
+#: nodepkg/focus-table/action.tsx:13
+msgid "Add"
+msgstr "Добавяне"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:252
+msgid "View"
+msgstr "Преглед"
+
+#: nodepkg/progress-modal/ProgressModal.tsx:5
+msgid "Operation in progress"
+msgstr "Операцията е в ход"
+
+#: nodepkg/progress-modal/ProgressModal.tsx:6
+msgid "Cancel"
+msgstr "Отменяне"

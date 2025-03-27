@@ -1,0 +1,27 @@
+#: interface.py:17
+msgid "Sphere"
+msgstr "Sféra"
+
+#: interface.py:18
+msgid "Ellipsoid"
+msgstr "Elipsoid"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:143
+msgid "POI icon"
+msgstr "Ikona POI"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:312
+msgid "Radius"
+msgstr "Poloměr"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:358
+msgid "Length"
+msgstr "Délka"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:369
+msgid "Width"
+msgstr "Šířka"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:393
+msgid "Z offset"
+msgstr "Z posun"

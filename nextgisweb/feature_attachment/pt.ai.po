@@ -1,0 +1,130 @@
+#: component.py:13
+msgid "Feature attachments"
+msgstr "Anexos de objetos"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:33
+msgid ""
+"Draw the geometry on the map to visualize the attachments to the objects"
+msgstr "Desenhe a geometria no mapa para visualizar os anexos nos objetos"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
+msgid "Object: "
+msgstr "Objeto:"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:139
+msgid "Identify object"
+msgstr "Identificar objeto"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:160
+msgid "Attachments: "
+msgstr "Anexos:"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:187
+msgid "No attachments"
+msgstr "Sem anexos"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:253
+msgid "Download all attachments"
+msgstr "Baixar todos os anexos"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:56
+msgid ""
+"Use export to copy feature attachments between different layers or to create"
+" a backup. The resulting ZIP archive will contain all of the attachments put"
+" in directories named after feature IDs. Attachment metadata are put into a "
+"separate JSON file."
+msgstr ""
+"Use a exportação para copiar anexos de recursos entre diferentes camadas ou "
+"para criar um backup. O arquivo ZIP resultante conterá todos os anexos "
+"colocados em diretórios nomeados com os IDs dos recursos. Os metadados dos "
+"anexos serão armazenados em um arquivo JSON separado."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:66
+msgid "Export attachments to ZIP archive"
+msgstr "Exportar anexos para arquivo ZIP"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:84
+msgid "Back to resource"
+msgstr "Voltar ao recurso"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:86
+msgid "Close"
+msgstr "Fechar"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:89
+msgid "The archive has been successfully imported."
+msgstr "O arquivo foi importado com sucesso."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:91
+msgid "Attachments imported - {i}, skipped - {s}."
+msgstr "Anexos importados - {i}, ignorados - {s}."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:125
+msgid ""
+"Upload a ZIP archive to batch append attachments to existing features. An "
+"archive must contain directories named after feature IDs. Each folder can "
+"contain one or many attachments. Duplicates will be ignored."
+msgstr ""
+"Carregue um arquivo ZIP para adicionar anexos em lote a recursos existentes."
+" Um arquivo deve conter diretórios nomeados com os IDs dos recursos. Cada "
+"pasta pode conter um ou vários anexos. Duplicatas serão ignoradas."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:134
+msgid "Delete existing attachments"
+msgstr "Excluir anexos existentes"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:159
+msgid "Import attachments from ZIP archive"
+msgstr "Importar anexos do arquivo ZIP"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:171
+msgid "Export"
+msgstr "Exportar"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:176
+msgid "Import"
+msgstr "Importar"
+
+#: nodepkg/image-thumbnail/component/CarouselRender.tsx:23
+msgid "Toggle panorama viewer"
+msgstr "Alternar visualizador de panorama"
+
+#: util.py:26
+msgid "Invalid ZIP archive."
+msgstr "Arquivo ZIP inválido."
+
+#: util.py:55
+msgid "File '{}' isn't found in metadata."
+msgstr "Ficheiro '{}' não encontrado nos metadados."
+
+#: util.py:61
+msgid "Invalid feature ID for file '{}'."
+msgstr "ID de recurso inválido para o ficheiro '{}'."
+
+#: util.py:68
+msgid "Invalid keyname for file '{}'."
+msgstr "Nome de chave inválido para o ficheiro '{}'."
+
+#: util.py:74
+msgid "Invalid name for file '{}'."
+msgstr "Nome inválido para o ficheiro '{}'."
+
+#: util.py:80
+msgid "Invalid MIME type for file '{}'."
+msgstr "Tipo MIME inválido para o ficheiro '{}'."
+
+#: util.py:87
+msgid "Invalid description for file '{}'."
+msgstr "Descrição inválida para o ficheiro '{}'."
+
+#: util.py:100
+msgid "Could not determine feature ID for file '{}'."
+msgstr "Não foi possível determinar o ID de recurso para o ficheiro '{}'."
+
+#: util.py:118
+msgid "File '{}' isn't found in the archive."
+msgstr "Ficheiro '{}' não encontrado no arquivo."
+
+#: view.py:20 view.py:43
+msgid "Manage attachments"
+msgstr "Gerir anexos"

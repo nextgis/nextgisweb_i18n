@@ -1,0 +1,7 @@
+#: nodepkg/service-widget/ServiceWidget.tsx:37
+msgid "Features per request"
+msgstr "Prvky na požadavek"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:42
+msgid "Not set"
+msgstr "Nestanoveno"

@@ -1,0 +1,50 @@
+#: amd/ngw-tmsclient/LayersDialog.js:25
+msgid "Select layer"
+msgstr "Vyberte vrstvu"
+
+#: amd/ngw-tmsclient/LayersDialog.js:63
+msgid "OK"
+msgstr "V pořádku"
+
+#: amd/ngw-tmsclient/LayersDialog.js:72
+msgid "Cancel"
+msgstr "Zrušení"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
+msgid "Capmode"
+msgstr "Režim Cap"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
+msgid "NextGIS geoservices"
+msgstr "Další geoslužby GIS"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:15
+msgid "Choose a layer"
+msgstr "Vyberte vrstvu"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+msgid "Coordinate system"
+msgstr "Souřadnicový systém"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
+msgid "Left, deg."
+msgstr "Doleva, deg."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
+msgid "Bottom, deg."
+msgstr "Dno, deg."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
+msgid "Right, deg."
+msgstr "Doprava, deg."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
+msgid "Top, deg."
+msgstr "Vrchol, deg."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:75
+msgid "Tile size, px"
+msgstr "Velikost dlaždice, px"
+
+msgid "TMS capabilities"
+msgstr "Funkce TMS"

@@ -1,0 +1,49 @@
+#: model.py:88
+msgid "Tilesets"
+msgstr "瓦片集"
+
+#: model.py:118 nodepkg/resource-widget/Widget.tsx:38
+msgid "Tileset"
+msgstr "瓦片集"
+
+#: model.py:203
+msgid "Number of tiles"
+msgstr "瓦片数"
+
+#: model.py:205
+msgid "Zoom levels"
+msgstr "缩放级别"
+
+#: model.py:206
+msgid "From {min} to {max}"
+msgstr "从 {min} 到 {max}"
+
+#: model.py:238
+msgid "Tiles '{}' and '{}' are located in different subdirectories."
+msgstr "瓦片 '{}' 和 '{}' 位于不同的子目录中。"
+
+#: model.py:244
+msgid "Tiles '{}' and '{}' have different extensions."
+msgstr "瓦片 '{}' 和 '{}' 具有不同的扩展名。"
+
+#: model.py:301 model.py:310
+msgid "Unsupported data format."
+msgstr "不支持的数据格式。"
+
+#: model.py:343
+msgid "Only 256x256 px tiles are supported."
+msgstr "仅支持 256x256 像素的瓦片。"
+
+#: model.py:363
+msgid "No tiles found in source."
+msgstr "源中未找到瓦片。"
+
+#: nodepkg/resource-widget/Widget.tsx:15
+msgid "Select a tileset"
+msgstr "选择一个瓦片集"
+
+#: nodepkg/resource-widget/Widget.tsx:16
+msgid ""
+"MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
+"JPEG format and have a size of 256x256 pixels."
+msgstr "支持 MBTiles 和包含瓦片的 ZIP 存档文件。瓦片应为 PNG 或 JPEG 格式且大小为 256x256 像素。"

@@ -1,0 +1,491 @@
+#: amd/ngw-webmap/Display.js:853
+msgid "Object not found"
+msgstr "Обектът не е намерен"
+
+#: amd/ngw-webmap/Display.js:854
+msgid "Object from URL parameters not found"
+msgstr "Обектът от URL параметрите не е намерен"
+
+#: amd/ngw-webmap/ItemWidget.js:97 amd/ngw-webmap/template/ItemWidget.hbs:40
+msgid "Layer order"
+msgstr "Редът на слоевете"
+
+#: amd/ngw-webmap/ItemWidget.js:174
+msgid "Use on the map"
+msgstr "Използвай в картата"
+
+#: amd/ngw-webmap/ItemWidget.js:395 amd/ngw-webmap/template/ItemWidget.hbs:25
+msgid "Add group"
+msgstr "Добави група"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:7
+#: nodepkg/panel/print/PrintPanel.tsx:481
+#: nodepkg/settings-widget/SettingsWidget.tsx:22
+#: nodepkg/settings/SettingsForm.js:277
+msgid "Legend"
+msgstr "Легенда"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:9
+#: nodepkg/settings-widget/SettingsWidget.tsx:30
+#: nodepkg/settings/select-options.js:92
+msgid "Default"
+msgstr "По подразбиране"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:10
+#: nodepkg/settings-widget/SettingsWidget.tsx:38
+#: nodepkg/settings/select-options.js:93
+msgid "Expand"
+msgstr "Разшири"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:11
+#: nodepkg/settings-widget/SettingsWidget.tsx:39
+#: nodepkg/settings/select-options.js:94
+msgid "Collapse"
+msgstr "Свий"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:12
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
+#: nodepkg/settings/select-options.js:95
+msgid "Disable"
+msgstr "Изключи"
+
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:132
+msgid "Private annotation"
+msgstr "Лични анотации"
+
+#: amd/ngw-webmap/plugin/LayerEditor.js:142
+msgid "Stop editing"
+msgstr "Спри редакцията"
+
+#: amd/ngw-webmap/plugin/LayerEditor.js:143
+#: nodepkg/panel/annotations/AnnotationsPanel.js:86
+msgid "Edit"
+msgstr "Редактирай"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:14
+msgid "Add layer"
+msgstr "Добави слой"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:18
+msgid "Select layer's style"
+msgstr "Избери стила на слоя"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:32
+msgid "Remove"
+msgstr "Премахни"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:114
+msgid "Style resource"
+msgstr "Ресурс на стилове"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:136
+msgid "Exclusive"
+msgstr "Ексклузивен"
+
+#: amd/ngw-webmap/tool/Identify.js:289
+msgid "Geometry"
+msgstr "Геометрия"
+
+#: amd/ngw-webmap/tool/Identify.js:548
+msgid "Features"
+msgstr "Обекти"
+
+#: amd/ngw-webmap/tool/Measure.js:235
+msgid "Double click to finish."
+msgstr "Щракнете два пъти да завършите."
+
+#: amd/ngw-webmap/tool/Rotate.js:9
+msgid "Rotate"
+msgstr "Въртене"
+
+#: amd/ngw-webmap/tool/ViewerInfo.js:16
+msgid "Show cursor coordinates / extent"
+msgstr "Покажи координатите на курсора / обхват"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:10
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:46
+msgid "Please enter a numeric value"
+msgstr "Въведете числова величина"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:11
+msgid "Invalid width: should be from 0 to 20 px"
+msgstr "Невалидна ширина: трябва да е между 0 и 20 px"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:13
+msgid "Stroke width, px"
+msgstr "Ширината на контура, px"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:18
+msgid "Stroke color"
+msgstr "Цвят на контура"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:47
+msgid "Invalid width: should be from 1 to 100 px"
+msgstr "Невалидна ширина: трябва да е между 1 и 100 px"
+
+#: favorite.py:10
+msgid "Fragment"
+msgstr "Фрагмент"
+
+#: model.py:42
+msgctxt "permission"
+msgid "Draw annotations"
+msgstr "Начертай анотации"
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:336
+msgid "Clone"
+msgstr "Клонирай"
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:77
+msgid "Resource group"
+msgstr "Група ресурси"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:61
+msgid "Radius:"
+msgstr "Радиус:"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:82
+msgid "Circle"
+msgstr "Кръг"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:89
+#: nodepkg/panel/annotations/AnnotationsPanel.js:109
+msgid "Line"
+msgstr "Линия"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:95
+msgid "Rectangle"
+msgstr "Правоъгълник"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:102
+#: nodepkg/panel/annotations/AnnotationsPanel.js:113
+#: nodepkg/utils/geometry-types.ts:15
+msgid "Polygon"
+msgstr "Полигон"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+msgid "Hide"
+msgstr "Скрий"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+msgid "Show"
+msgstr "Покажи"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:125
+msgid "Zoom to filtering geometry"
+msgstr "Увеличи до филтриращата геометрия"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:130
+msgid "Clear filtering geometry"
+msgstr "Изчисти филтриращата геометрия"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:136
+msgid "Draw filtering geometry"
+msgstr "Начертай филтрираща геометрия"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:137
+msgid "Change filtering geometry"
+msgstr "Промени филтриращата геометрия"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:138
+msgid "Stop drawing..."
+msgstr "Спри рисуването..."
+
+#: nodepkg/layer-opacity-slider/LayerOpacitySlider.tsx:8
+msgid "Opacity"
+msgstr "Непрозрачност"
+
+#: nodepkg/layers-tree/LegendAction.tsx:10
+msgid "Show legend"
+msgstr "Покажи легендата"
+
+#: nodepkg/layers-tree/LegendAction.tsx:11
+msgid "Hide legend"
+msgstr "Скрий легендата"
+
+#: nodepkg/map-controls/map-controls.ts:85
+msgid "Scale line"
+msgstr "Линия на скалата"
+
+#: nodepkg/map-controls/map-controls.ts:97
+msgid "Info scale"
+msgstr "Инфо скала"
+
+#: nodepkg/map-controls/map-controls.ts:128
+msgid "Identification"
+msgstr "Идентификация"
+
+#: nodepkg/map-controls/map-tools.ts:68
+msgid "Cursor coordinates / extent"
+msgstr "Координати на курсора / обхват"
+
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
+msgid "Show extent"
+msgstr "Покажи обхват"
+
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:88
+msgid "Show cursor coordinates"
+msgstr "Покажи координатите на курсора"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:99
+msgid "Geometry type"
+msgstr "Тип геометрия"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:106
+#: nodepkg/utils/geometry-types.ts:6
+msgid "Point"
+msgstr "Точка"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:135
+msgid "Annotations layer"
+msgstr "Слой на анотации"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:138
+msgid "Show annotations"
+msgstr "Покажи анотации"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:144
+msgid "No"
+msgstr "Не"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:145
+msgid "Yes"
+msgstr "Да"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:148
+msgid "With messages"
+msgstr "С съобщения"
+
+#: nodepkg/panel/layers/LayersDropdown.js:12
+msgid "Zoom to all layers"
+msgstr "Увеличение към всичките слоеве"
+
+#: nodepkg/panel/print/PrintPanel.tsx:231
+msgid "Custom scale"
+msgstr "Поръчкова шала"
+
+#: nodepkg/panel/print/PrintPanel.tsx:475
+msgid "Elements"
+msgstr "Елементи"
+
+#: nodepkg/panel/print/PrintPanel.tsx:494
+msgid "Number of legend columns"
+msgstr "Брой на колоните в легендата"
+
+#: nodepkg/panel/print/PrintPanel.tsx:503
+msgid "Title"
+msgstr "Заглавие"
+
+#: nodepkg/panel/print/PrintPanel.tsx:506
+msgid "Map title text"
+msgstr "Текст на заглавието на картата"
+
+#: nodepkg/panel/print/PrintPanel.tsx:524
+msgid "North Arrow"
+msgstr "Северна стрелка"
+
+#: nodepkg/panel/print/PrintPanel.tsx:572
+msgid "Copy link to the print map"
+msgstr "Копирай линк към принтираната карта"
+
+#: nodepkg/panel/print/options.tsx:11
+msgid "Portrait"
+msgstr "Портрет"
+
+#: nodepkg/panel/print/options.tsx:12
+msgid "Landscape"
+msgstr "Пейзаж"
+
+#: nodepkg/panel/print/options.tsx:73
+msgid "TIFF"
+msgstr "ТTIFF"
+
+#: nodepkg/panel/print/options.tsx:74
+msgid "PDF"
+msgstr "ПPDF"
+
+#: nodepkg/panel/search/SearchPanel.js:328
+msgid "Refine search criterion. Displayed first 100 search results."
+msgstr ""
+"Подобрете критерията на търсенето. Показани са първите 100 резултата от "
+"търсенето."
+
+#: nodepkg/panel/search/SearchPanel.js:361
+msgid "Enter at least 2 characters"
+msgstr "Въведете поне 2 знака"
+
+#: nodepkg/panel/share/SharePanel.js:35
+msgid "Add web map fragment to favorites"
+msgstr "Добави уеб картен фрагмент към любими"
+
+#: nodepkg/panel/share/SharePanel.js:88
+msgid "Select tools"
+msgstr "Изберете инструменти"
+
+#: nodepkg/panel/share/SharePanel.js:104
+msgid "Select panels"
+msgstr "Изберете панели"
+
+#: nodepkg/panel/share/SharePanel.js:112
+msgid "None"
+msgstr "Няма"
+
+#: nodepkg/panel/share/SharePanel.js:259
+msgid "Active panel"
+msgstr "Активен панел"
+
+#: nodepkg/panel/share/SharePanel.js:285
+msgid "Map link"
+msgstr "Линк към картата"
+
+#: nodepkg/panel/share/SharePanel.js:293
+msgid "The map link copied to clipboard."
+msgstr "Картата беше копирана в клипборда."
+
+#: nodepkg/panel/share/SharePanel.js:297
+msgid "Copy link"
+msgstr "Копирай връзката"
+
+#: nodepkg/panel/share/SharePanel.js:333
+msgid "Optional fragment label"
+msgstr "Незадължителен етикет за фрагмент"
+
+#: nodepkg/panel/share/SharePanel.js:359
+msgid "px"
+msgstr "px"
+
+#: nodepkg/panel/share/SharePanel.js:362
+msgid "Map tools"
+msgstr "Инструменти за карта"
+
+#: nodepkg/panel/share/SharePanel.js:366
+msgid "Panels"
+msgstr "Панели"
+
+#: nodepkg/panel/share/SharePanel.js:394
+msgid "Embed code"
+msgstr "Код за вграждане"
+
+#: nodepkg/panel/share/SharePanel.js:407
+msgid "The embed code copied to clipboard."
+msgstr "Кодът за вграждане беше копиран в клипборда."
+
+#: nodepkg/panel/share/SharePanel.js:411
+msgid "Copy code"
+msgstr "Копирай кода"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:21
+msgid "Constraining extent"
+msgstr "Ограничаване на обхвата"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
+msgid "Select mode"
+msgstr "Изберете режим"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:26
+msgid "Select resource"
+msgstr "Изберете ресурс"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:27
+#: nodepkg/settings/SettingsForm.js:189
+msgid "Measurement SRS"
+msgstr "Измервателна СКП (Система за координатни референции)"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:28
+msgid "Layers editing"
+msgstr "Редактиране на слоеве"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:33
+msgid "Web map will start at this extent"
+msgstr "Уеб картата ще започне от този обхват"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:34
+msgid "Web map will not allow to move outside of this extent"
+msgstr "Уеб картата няма да позволява движение извън този обхват"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:44
+msgid "Hide by default"
+msgstr "Скрий по подразбиране"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:45
+msgid "Show without messages"
+msgstr "Покажи без съобщения"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:46
+msgid "Show with messages"
+msgstr "Покажи със съобщения"
+
+#: nodepkg/settings/SettingsForm.js:54
+msgid "General"
+msgstr "Общи"
+
+#: nodepkg/settings/SettingsForm.js:67
+msgid "Hide navigation menu for guest"
+msgstr "Скрий менюто за навигация за гост"
+
+#: nodepkg/settings/SettingsForm.js:75
+msgid "Identify popup"
+msgstr "Прозорец за идентифициране"
+
+#: nodepkg/settings/SettingsForm.js:144
+msgid "Show geometry info"
+msgstr "Покажи информация за геометрията"
+
+#: nodepkg/settings/SettingsForm.js:288
+msgid "Visibility"
+msgstr "Видимост"
+
+#: nodepkg/utils/geometry-types.ts:9
+msgid "LineString"
+msgstr "ЛинейнаСтринг"
+
+#: nodepkg/utils/geometry-types.ts:12
+msgid "LinearRing"
+msgstr "ЛинеенПръстен"
+
+#: nodepkg/utils/geometry-types.ts:18
+msgid "MultiPoint"
+msgstr "МултиТочка"
+
+#: nodepkg/utils/geometry-types.ts:21
+msgid "MultiLineString"
+msgstr "МултиЛинейнаСтринг"
+
+#: nodepkg/utils/geometry-types.ts:24
+msgid "MultiPolygon"
+msgstr "МултиПолигон"
+
+#: nodepkg/utils/geometry-types.ts:27
+msgid "GeometryCollection"
+msgstr "СъбиранеГеометрия"
+
+#: nodepkg/webmap-tabs/WebMapTabs.tsx:16
+msgid "Loading"
+msgstr "Зареждане"
+
+#: nodepkg/zoom-to-filtered-btn/ZoomToFilteredBtn.tsx:20
+msgid "Zoom to filtered features"
+msgstr "Увеличи до филтрираните обекти"
+
+#: template/preview_embedded.mako:15
+msgid "This page is for a preview of the web map to be embedded on the site."
+msgstr ""
+"Тази страница е за преглед на уеб картата, която ще бъде вградена в сайта."
+
+#: template/preview_embedded.mako:16
+msgid ""
+"Most likely, you went from the \"Share\" section of the web map and "
+"refreshed the page."
+msgstr ""
+"Най-вероятно сте преминали от секцията \"Споделяне\" на уеб картата и сте "
+"обновили страницата."
+
+#: template/preview_embedded.mako:17
+msgid "To generate a preview, go back to the web map page and click \"Preview\"."
+msgstr ""
+"За да генерирате преглед, върнете се на страницата на уеб картата и кликнете"
+" \"Преглед\"."
+
+#: view.py:262
+msgid "Clone web map"
+msgstr "Клонирай уеб карта"

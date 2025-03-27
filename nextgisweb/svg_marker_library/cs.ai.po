@@ -1,0 +1,27 @@
+#: model.py:87
+msgid "File '{}' has an insecure name."
+msgstr "Soubor '{}' má nebezpečný název."
+
+#: model.py:92 nodepkg/resource-widget/Store.ts:75
+msgid "File '{}' has an invalid extension."
+msgstr "Soubor '{}' má neplatnou příponu."
+
+#: model.py:98
+msgid "File '{}' has a format different from SVG."
+msgstr "Soubor '{}' má jiný formát než SVG."
+
+#: nodepkg/resource-widget/Store.ts:92
+msgid "ZIP archive required"
+msgstr "Požadován ZIP archiv"
+
+#: nodepkg/resource-widget/Widget.tsx:45
+msgid "Add SVG files"
+msgstr "Přidat soubory SVG"
+
+#: nodepkg/resource-widget/Widget.tsx:54
+msgid "Import from ZIP archive"
+msgstr "Importovat ze ZIP archivu"
+
+#: nodepkg/resource-widget/Widget.tsx:65
+msgid "SVG markers will be imported from:"
+msgstr "Značky SVG budou importovány z:"

@@ -1,0 +1,91 @@
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:30
+msgid "Consumption, liters per 100 km (for reports)"
+msgstr "Spotřeba, litry na 100 km (pro zprávy)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:32
+msgid "Invalid consumption, should be from 0 to 100"
+msgstr "Neplatná spotřeba by měla být od 0 do 100"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:47
+msgid "NextGIS software (Mobile, Collector)"
+msgstr "Software NextGIS (mobilní, sběratel)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:48
+msgid "ADM (ADM-50, ADM-100)"
+msgstr "ADM (ADM-50, ADM-100)"
+
+#: amd/ngw-tracker/webmap/map/utils.js:63
+msgid "Satellites"
+msgstr "Satelity"
+
+#: amd/ngw-tracker/webmap/map/utils.js:69
+msgid "HDOP"
+msgstr "HDOP"
+
+#: model.py:51
+msgid "Tracker UID is not unique"
+msgstr "Tracker UID není jedinečný"
+
+#: model.py:78
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr "Atribut '{}' je neměnný a nelze jej změnit po vytvoření trackeru."
+
+#: nodepkg/reports/Reports.js:26
+msgid "Spent fuel"
+msgstr "Vyhořelé palivo"
+
+#: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
+#: nodepkg/trackers-panel/TrackersPanel.js:97
+#: nodepkg/trackers-panel/TrackersPanel.js:98
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: nodepkg/reports/Reports.js:131
+msgid "Result"
+msgstr "Výsledek"
+
+#: nodepkg/reports/Reports.js:142
+msgid "Settings"
+msgstr "Nastavení"
+
+#: nodepkg/reports/Reports.js:183
+msgid "Build report"
+msgstr "Sestava zprávy"
+
+#: nodepkg/tracker-activity/ChartHelper.js:44
+msgid "Count of packets per hour"
+msgstr "Počet paketů za hodinu"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:53
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:63
+msgid "Last activity by hours"
+msgstr "Poslední aktivita po hodinách"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:40
+msgid "Last known point"
+msgstr "Poslední známý bod"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:45
+msgid "GPS tracks"
+msgstr "GPS tratě"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:50
+msgid "Track points"
+msgstr "Body tratě"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:187
+msgid "Sort by"
+msgstr "Seřadit podle"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:189
+msgid "Name"
+msgstr "Jméno"
+
+#: view/reports.py:18
+msgid "Trackers reports"
+msgstr "Zprávy o sledovačích"

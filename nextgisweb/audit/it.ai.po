@@ -1,0 +1,23 @@
+#: backend/base.py:36
+msgid "Audit backend not enabled"
+msgstr "Backend di audit non abilitato"
+
+#: backend/base.py:37
+msgid "The '{}' audit backend is not configured on this server."
+msgstr "Il backend di audit '{}' non è configurato su questo server."
+
+#: nodepkg/journal/Journal.js:47
+msgid "Request"
+msgstr "Richiesta"
+
+#: nodepkg/journal/Journal.js:64
+msgid "IP address"
+msgstr "Indirizzo IP"
+
+#: nodepkg/journal/Journal.js:292
+msgid "Filter by user"
+msgstr "Filtra per utente"
+
+#: nodepkg/journal/Journal.js:301
+msgid "Export CSV"
+msgstr "Esporta CSV"

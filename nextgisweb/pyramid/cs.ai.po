@@ -1,0 +1,153 @@
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "Zkopírovat do schránky"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "Zkopírováno"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "Nelze kopírovat"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:13
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "Zadejte správnou hodnotu měřítka, např. 1:"
+
+#: api.py:196
+msgid "Storage management is not enabled on this server."
+msgstr "Správa úložiště není na tomto serveru povolena."
+
+#: api.py:406
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr ""
+"Parametr dotazu '{}' by neměl obsahovat další hodnoty, pokud je "
+"specifikováno 'all'."
+
+#: api.py:534
+msgid "Got an unsupported MIME type: '{}'."
+msgstr "Byl získán nepodporovaný MIME typ: ''{}''."
+
+#: api.py:537
+msgid "64K should be enough for a logo."
+msgstr "64 KB by mělo být dostatečné pro logo."
+
+#: component.py:163
+msgid "Request timeout"
+msgstr "Vypršel časový limit požadavku"
+
+#: lunkwill.py:25
+msgid "Lunkwill not enabled"
+msgstr "Lunkwill není povolen"
+
+#: lunkwill.py:26
+msgid "The Lunkwill extension is not configured on this server."
+msgstr "Rozšíření Lunkwill není na tomto serveru nakonfigurováno."
+
+#: nodepkg/layout/Avatar.tsx:23
+msgid "User settings"
+msgstr "Uživatelská nastavení"
+
+#: nodepkg/logo-form/LogoForm.tsx:6
+msgid "Only PNG and SVG images are supported."
+msgstr "Podporovány jsou pouze obrázky ve formátech PNG a SVG."
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+msgid "Measurement ID"
+msgstr "ID měření"
+
+#: nodepkg/metrics/MetricSettings.tsx:19
+msgid "Add"
+msgstr "Přidat"
+
+#: nodepkg/metrics/MetricSettings.tsx:20
+msgid "The setting is saved."
+msgstr "Nastavení bylo uloženo."
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+msgid "Reload the page to get them applied."
+msgstr "Pro aplikaci nastavení znovu načtěte stránku."
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+msgid "Add one or more counters to your Web GIS."
+msgstr "Přidejte jeden nebo více čítačů do svého webového GIS."
+
+#: nodepkg/metrics/MetricSettings.tsx:26
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
+msgstr ""
+"HTML kód těchto čítačů bude vložen do každé stránky a umožní vám sledovat "
+"aktivitu uživatelů."
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+msgid "Tag number"
+msgstr "Číslo štítku"
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:51
+msgid "Webvisor"
+msgstr "Webvisor"
+
+#: nodepkg/metrics/tab.ts:31
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: nodepkg/metrics/tab.ts:38
+msgid "Yandex.Metrica"
+msgstr "Yandex.Metrica"
+
+#: nodepkg/storage-summary/StorageSummary.js:140
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr "Využití úložiště bylo plně odhadnuto na %s a aktualizováno na %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:146
+msgid "Storage usage was fully estimated at %s."
+msgstr "Využití úložiště bylo plně odhadnuto na %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:151
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr ""
+"Využití úložiště zatím nebylo odhadnuto, ale bylo aktualizováno na %s."
+
+#: template/sysinfo.mako:80
+msgid "Browser support"
+msgstr "Podpora prohlížeče"
+
+#: template/sysinfo.mako:91
+msgid "or higher"
+msgstr "nebo vyšší"
+
+#: template/sysinfo.mako:93
+msgid "Not supported"
+msgstr "Neni podporováno"
+
+#: template/sysinfo.mako:105
+msgid "Your browser"
+msgstr "Váš prohlížeč"
+
+#: tomb/config.py:95
+msgid "Parameter required"
+msgstr "Požadováný parametr"
+
+#: tomb/config.py:96
+msgid "The '{}' query parameter is required."
+msgstr "Dotazovací parametr '{}' je požadován."
+
+#: tomb/config.py:98
+msgid "Invalid parameter"
+msgstr "Neplatný parametr"
+
+#: tomb/config.py:99
+msgid "The '{}' query parameter has an invalid value."
+msgstr "Dotazovací parametr '{}' má neplatnou hodnotu."
+
+#: view.py:157
+msgid "HTTP API documentation"
+msgstr "HTTP API dokumentace"
+
+#: view.py:268 view.py:598
+msgid "Metrics and analytics"
+msgstr "Metriky a analytika"

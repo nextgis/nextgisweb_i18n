@@ -1,0 +1,328 @@
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "In die Zwischenablage kopieren"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "Kopiert"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "Kopieren nicht möglich"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:13
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "Geben Sie den richtigen Skalenwert ein, z.B. 1:"
+
+#: api.py:196
+msgid "Storage management is not enabled on this server."
+msgstr "Speichermanagement ist auf diesem Server nicht aktiviert."
+
+#: api.py:406
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr ""
+"Der Abfrageparameter '{}' darf keine zusätzlichen Werte enthalten, wenn "
+"'all' angegeben ist."
+
+#: api.py:534
+msgid "Got an unsupported MIME type: '{}'."
+msgstr "Nicht unterstützter MIME-Typ erhalten: '{}'."
+
+#: api.py:537
+msgid "64K should be enough for a logo."
+msgstr "64K sollten für ein Logo ausreichend sein."
+
+#: component.py:163
+msgid "Request timeout"
+msgstr "Anforderungszeitüberschreitung"
+
+#: component.py:166
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: component.py:166
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: exception.py:247
+msgid "Payment required"
+msgstr "Zahlung erforderlich"
+
+#: exception.py:248
+msgid "Access was denied for financial reasons."
+msgstr "Der Zugriff wurde aus finanziellen Gründen verweigert."
+
+#: lunkwill.py:25
+msgid "Lunkwill not enabled"
+msgstr "Lunkwill ist nicht aktiviert"
+
+#: lunkwill.py:26
+msgid "The Lunkwill extension is not configured on this server."
+msgstr "Die Lunkwill-Erweiterung ist auf diesem Server nicht konfiguriert."
+
+#: nodepkg/api/error.ts:59
+msgid "Unexpected error while processing long-running request."
+msgstr ""
+"Unerwarteter Fehler bei der Verarbeitung einer langwierigen Anforderung."
+
+#: nodepkg/api/error.ts:60
+msgid "Long-running request error"
+msgstr "Fehler bei langwieriger Anforderung"
+
+#: nodepkg/api/error.ts:67
+msgid "Long-running request was cancelled."
+msgstr "Langwierige Anforderung wurde abgebrochen."
+
+#: nodepkg/cors-settings/CORSSettings.tsx:25
+msgid ""
+"Please note that different protocols (HTTP and HTTPS) and subdomains "
+"(example.com and www.example.com) are different origins. Wildcards are "
+"allowed for third-level domains and higher."
+msgstr ""
+"Bitte beachten Sie, dass unterschiedliche Protokolle (HTTP und HTTPS) und "
+"Subdomains (example.com und www.example.com) unterschiedliche Ursprünge "
+"sind. Wildcards sind für Dritt-Level-Domains und höher erlaubt."
+
+#: nodepkg/cors-settings/CORSSettings.tsx:58
+msgid "CORS settings updated"
+msgstr "CORS-Einstellungen aktualisiert"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:63
+msgid "Fix the form errors first"
+msgstr "Beheben Sie zuerst die Formularfehler"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:79
+msgid "The value entered is not valid"
+msgstr "Der eingegebene Wert ist nicht gültig"
+
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:41
+msgid "Custom styles saved. Reload the page to get them applied."
+msgstr ""
+"Benutzerdefinierte Stile gespeichert. Laden Sie die Seite neu, um sie "
+"anzuwenden."
+
+#: nodepkg/home-path/HomePath.tsx:4
+msgid "The home path setting is saved."
+msgstr "Die Einstellung des Startpfads ist gespeichert."
+
+#: nodepkg/layout/Avatar.tsx:20
+msgid "Invitation session"
+msgstr "Einladungssitzung"
+
+#: nodepkg/layout/Avatar.tsx:23
+msgid "User settings"
+msgstr "Benutzereinstellungen"
+
+#: nodepkg/logo-form/LogoForm.tsx:6
+msgid "Only PNG and SVG images are supported."
+msgstr "Nur PNG- und SVG-Bilder werden unterstützt."
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+msgid "Measurement ID"
+msgstr "Mess-ID"
+
+#: nodepkg/metrics/MetricSettings.tsx:19
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: nodepkg/metrics/MetricSettings.tsx:20
+msgid "The setting is saved."
+msgstr "Die Einstellung ist gespeichert."
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+msgid "Reload the page to get them applied."
+msgstr "Laden Sie die Seite neu, um sie anzuwenden."
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+msgid "Add one or more counters to your Web GIS."
+msgstr "Fügen Sie Ihrem Web GIS einen oder mehrere Zähler hinzu."
+
+#: nodepkg/metrics/MetricSettings.tsx:26
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
+msgstr ""
+"Der HTML-Code dieser Zähler wird in jede Seite eingebettet und ermöglicht es"
+" Ihnen, die Benutzeraktivität zu verfolgen."
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+msgid "Tag number"
+msgstr "Tag-Nummer"
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:51
+msgid "Webvisor"
+msgstr "Webvisor"
+
+#: nodepkg/metrics/tab.ts:31
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: nodepkg/metrics/tab.ts:38
+msgid "Yandex.Metrica"
+msgstr "Yandex.Metrica"
+
+#: nodepkg/storage-summary/StorageSummary.js:102
+msgid "Volume"
+msgstr "Volumen"
+
+#: nodepkg/storage-summary/StorageSummary.js:118
+msgid "Total"
+msgstr "Gesamt"
+
+#: nodepkg/storage-summary/StorageSummary.js:123
+msgid "of"
+msgstr "von"
+
+#: nodepkg/storage-summary/StorageSummary.js:140
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr "Speichernutzung wurde geschätzt um %s und aktualisiert um %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:146
+msgid "Storage usage was fully estimated at %s."
+msgstr "Die Speichernutzung wurde vollständig auf %s geschätzt."
+
+#: nodepkg/storage-summary/StorageSummary.js:151
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr "Speichernutzung noch nicht geschätzt, wurde aktualisiert um %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:184
+msgid "Estimate storage"
+msgstr "Speicher schätzen"
+
+#: nodepkg/system-name-form/SystemNameForm.tsx:4
+msgid "The system name setting is saved."
+msgstr "Die Systemeinstellung wurde gespeichert."
+
+#: nodepkg/update/index.js:57
+msgid "Updates are available"
+msgstr "Updates sind verfügbar"
+
+#: nodepkg/update/index.js:59
+msgid "Click to see what's new"
+msgstr "Klicken Sie, um die Neuigkeiten anzusehen"
+
+#: nodepkg/update/sysinfo.js:16
+msgid "Show details"
+msgstr "Details anzeigen"
+
+#: template/sysinfo.mako:80
+msgid "Browser support"
+msgstr "Browserunterstützung"
+
+#: template/sysinfo.mako:91
+msgid "or higher"
+msgstr "oder höher"
+
+#: template/sysinfo.mako:93
+msgid "Not supported"
+msgstr "Nicht unterstützt"
+
+#: template/sysinfo.mako:105
+msgid "Your browser"
+msgstr "Ihr Browser"
+
+#: template/uacompat.mako:3
+msgid "Browser compatibility test"
+msgstr "Browser-Kompatibilitätstest"
+
+#: template/uacompat.mako:22
+msgid "%(name)s %(current)s supported"
+msgstr "%(name)s %(current)s unterstützt"
+
+#: template/uacompat.mako:23
+msgid ""
+"Web GIS browser compatibility test has been passed! The Web GIS should work "
+"fine."
+msgstr ""
+"Der Web GIS-Browser-Kompatibilitätstest wurde bestanden! Der Web GIS sollte "
+"einwandfrei funktionieren."
+
+#: template/uacompat.mako:26
+msgid "%(name)s not supported"
+msgstr "%(name)s nicht unterstützt"
+
+#: template/uacompat.mako:27
+msgid ""
+"You're using %(name)s although it's not supported by the Web GIS. It's an "
+"outdated browser lacking required features. Try a different browser or "
+"contact your system administrator if another browser isn't available."
+msgstr ""
+"Sie verwenden %(name)s, der jedoch nicht vom Web GIS unterstützt wird. Es "
+"handelt sich um einen veralteten Browser, dem erforderliche Funktionen "
+"fehlen. Versuchen Sie es mit einem anderen Browser oder kontaktieren Sie "
+"Ihren Systemadministrator, wenn kein anderer Browser verfügbar ist."
+
+#: template/uacompat.mako:29
+msgid "%(name)s %(current)s not supported"
+msgstr "%(name)s %(current)s nicht unterstützt"
+
+#: template/uacompat.mako:30
+msgid ""
+"You're using %(name)s %(current)s although it's not supported by the Web "
+"GIS. It's an outdated version lacking required features. Contact your system"
+" administrator for upgrading to %(name)s %(required)s+ or try a different "
+"browser."
+msgstr ""
+"Sie verwenden %(name)s %(current)s, das jedoch nicht vom Web GIS unterstützt"
+" wird. Es handelt sich um eine veraltete Version, der erforderliche "
+"Funktionen fehlen. Wenden Sie sich an Ihren Systemadministrator, um ein "
+"Upgrade auf %(name)s %(required)s+ durchzuführen, oder versuchen Sie es mit "
+"einem anderen Browser."
+
+#: template/uacompat.mako:34
+msgid ""
+"If you still want to continue using the current browser, click the link "
+"below to bypass the compatibility test. The Web GIS or some features may "
+"degrade or fail  in this case."
+msgstr ""
+"Wenn Sie den aktuellen Browser weiterhin verwenden möchten, klicken Sie auf "
+"den untenstehenden Link, um den Kompatibilitätstest zu umgehen. Der Web GIS "
+"oder einige Funktionen könnten in diesem Fall beeinträchtigt oder nicht "
+"funktionieren."
+
+#: template/uacompat.mako:35
+msgid "I understood but want to proceed at my own risk. Skip the test!"
+msgstr ""
+"Ich habe verstanden, möchte aber auf eigenes Risiko fortfahren. Test "
+"überspringen!"
+
+#: template/uacompat.mako:37
+msgid "Unknown browser"
+msgstr "Unbekannter Browser"
+
+#: template/uacompat.mako:38
+msgid "If you are using an up-to-date browser the Web GIS should be fine."
+msgstr ""
+"Wenn Sie einen aktuellen Browser verwenden, sollte der Web GIS einwandfrei "
+"funktionieren."
+
+#: tomb/config.py:95
+msgid "Parameter required"
+msgstr "Parameter erforderlich"
+
+#: tomb/config.py:96
+msgid "The '{}' query parameter is required."
+msgstr "Der Abfrageparameter '{}' ist erforderlich."
+
+#: tomb/config.py:98
+msgid "Invalid parameter"
+msgstr "Ungültiger Parameter"
+
+#: tomb/config.py:99
+msgid "The '{}' query parameter has an invalid value."
+msgstr "Der Abfrageparameter '{}' hat einen ungültigen Wert."
+
+#: view.py:157
+msgid "HTTP API documentation"
+msgstr "HTTP API-Dokumentation"
+
+#: view.py:190 view.py:605
+msgid "Storage"
+msgstr "Speicher"
+
+#: view.py:268 view.py:598
+msgid "Metrics and analytics"
+msgstr "Metriken und Analysen"

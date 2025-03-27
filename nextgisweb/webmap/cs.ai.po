@@ -1,0 +1,489 @@
+#: amd/ngw-webmap/Display.js:853
+msgid "Object not found"
+msgstr "Objekt nenalezen"
+
+#: amd/ngw-webmap/Display.js:854
+msgid "Object from URL parameters not found"
+msgstr "Objekt z URL parametrů nenalezen"
+
+#: amd/ngw-webmap/ItemWidget.js:97 amd/ngw-webmap/template/ItemWidget.hbs:40
+msgid "Layer order"
+msgstr "Pořadí vrstev"
+
+#: amd/ngw-webmap/ItemWidget.js:174
+msgid "Use on the map"
+msgstr "Použít na mapě"
+
+#: amd/ngw-webmap/ItemWidget.js:395 amd/ngw-webmap/template/ItemWidget.hbs:25
+msgid "Add group"
+msgstr "Přidat skupinu"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:7
+#: nodepkg/panel/print/PrintPanel.tsx:481
+#: nodepkg/settings-widget/SettingsWidget.tsx:22
+#: nodepkg/settings/SettingsForm.js:277
+msgid "Legend"
+msgstr "Legenda"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:9
+#: nodepkg/settings-widget/SettingsWidget.tsx:30
+#: nodepkg/settings/select-options.js:92
+msgid "Default"
+msgstr "Výchozí"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:10
+#: nodepkg/settings-widget/SettingsWidget.tsx:38
+#: nodepkg/settings/select-options.js:93
+msgid "Expand"
+msgstr "Rozbalit"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:11
+#: nodepkg/settings-widget/SettingsWidget.tsx:39
+#: nodepkg/settings/select-options.js:94
+msgid "Collapse"
+msgstr "Sbalit"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:12
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
+#: nodepkg/settings/select-options.js:95
+msgid "Disable"
+msgstr "Deaktivovat"
+
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:132
+msgid "Private annotation"
+msgstr "Soukromá anotace"
+
+#: amd/ngw-webmap/plugin/LayerEditor.js:142
+msgid "Stop editing"
+msgstr "Přestat upravovat"
+
+#: amd/ngw-webmap/plugin/LayerEditor.js:143
+#: nodepkg/panel/annotations/AnnotationsPanel.js:86
+msgid "Edit"
+msgstr "Upravit"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:14
+msgid "Add layer"
+msgstr "Přidat vrstvu"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:18
+msgid "Select layer's style"
+msgstr "Vybrat styl vrstvy"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:32
+msgid "Remove"
+msgstr "Odstranit"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:114
+msgid "Style resource"
+msgstr "Zdroj stylu"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:136
+msgid "Exclusive"
+msgstr "Exkluzivní"
+
+#: amd/ngw-webmap/tool/Identify.js:289
+msgid "Geometry"
+msgstr "Geometrie"
+
+#: amd/ngw-webmap/tool/Identify.js:548
+msgid "Features"
+msgstr "Funkce"
+
+#: amd/ngw-webmap/tool/Measure.js:235
+msgid "Double click to finish."
+msgstr "Dokončete dvojitým kliknutím."
+
+#: amd/ngw-webmap/tool/Rotate.js:9
+msgid "Rotate"
+msgstr "Točit se"
+
+#: amd/ngw-webmap/tool/ViewerInfo.js:16
+msgid "Show cursor coordinates / extent"
+msgstr "Zobrazit souřadnice / rozsah kurzoru"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:10
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:46
+msgid "Please enter a numeric value"
+msgstr "Zadejte číselnou hodnotu"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:11
+msgid "Invalid width: should be from 0 to 20 px"
+msgstr "Neplatná šířka: měla by být od 0 do 20 px"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:13
+msgid "Stroke width, px"
+msgstr "Šířka tahu, px"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:18
+msgid "Stroke color"
+msgstr "Barva tahu"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:47
+msgid "Invalid width: should be from 1 to 100 px"
+msgstr "Neplatná šířka: měla by být od 1 do 100 px"
+
+#: favorite.py:10
+msgid "Fragment"
+msgstr "Fragment"
+
+#: model.py:42
+msgctxt "permission"
+msgid "Draw annotations"
+msgstr "Kreslit anotace"
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:336
+msgid "Clone"
+msgstr "Klonovat"
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:77
+msgid "Resource group"
+msgstr "Skupina zdrojů"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:61
+msgid "Radius:"
+msgstr "Poloměr:"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:82
+msgid "Circle"
+msgstr "Kruh"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:89
+#: nodepkg/panel/annotations/AnnotationsPanel.js:109
+msgid "Line"
+msgstr "Čára"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:95
+msgid "Rectangle"
+msgstr "Obdélník"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:102
+#: nodepkg/panel/annotations/AnnotationsPanel.js:113
+#: nodepkg/utils/geometry-types.ts:15
+msgid "Polygon"
+msgstr "Polygon"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+msgid "Hide"
+msgstr "Skrýt"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+msgid "Show"
+msgstr "Zobrazit"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:125
+msgid "Zoom to filtering geometry"
+msgstr "Přiblížit na filtrovanou geometrii"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:130
+msgid "Clear filtering geometry"
+msgstr "Vymazat filtrovanou geometrii"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:136
+msgid "Draw filtering geometry"
+msgstr "Nakreslit filtrovanou geometrii"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:137
+msgid "Change filtering geometry"
+msgstr "Změnit filtrovanou geometrii"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:138
+msgid "Stop drawing..."
+msgstr "Zastavte kreslení..."
+
+#: nodepkg/layer-opacity-slider/LayerOpacitySlider.tsx:8
+msgid "Opacity"
+msgstr "Průhlednost"
+
+#: nodepkg/layers-tree/LegendAction.tsx:10
+msgid "Show legend"
+msgstr "Zobrazit legendu"
+
+#: nodepkg/layers-tree/LegendAction.tsx:11
+msgid "Hide legend"
+msgstr "Skrýt legendu"
+
+#: nodepkg/map-controls/map-controls.ts:85
+msgid "Scale line"
+msgstr "Měřítko"
+
+#: nodepkg/map-controls/map-controls.ts:97
+msgid "Info scale"
+msgstr "Měřítko informací"
+
+#: nodepkg/map-controls/map-controls.ts:128
+msgid "Identification"
+msgstr "Identifikace"
+
+#: nodepkg/map-controls/map-tools.ts:68
+msgid "Cursor coordinates / extent"
+msgstr "Souřadnice kurzoru / rozsah"
+
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
+msgid "Show extent"
+msgstr "Zobrazit rozsah"
+
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:88
+msgid "Show cursor coordinates"
+msgstr "Zobrazit souřadnice kurzoru"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:99
+msgid "Geometry type"
+msgstr "Typ geometrie"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:106
+#: nodepkg/utils/geometry-types.ts:6
+msgid "Point"
+msgstr "Bod"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:135
+msgid "Annotations layer"
+msgstr "Vrstva anotací"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:138
+msgid "Show annotations"
+msgstr "Zobrazit anotace"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:144
+msgid "No"
+msgstr "Ne"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:145
+msgid "Yes"
+msgstr "Ano"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:148
+msgid "With messages"
+msgstr "S zprávami"
+
+#: nodepkg/panel/layers/LayersDropdown.js:12
+msgid "Zoom to all layers"
+msgstr "Přiblížit na všechny vrstvy"
+
+#: nodepkg/panel/print/PrintPanel.tsx:231
+msgid "Custom scale"
+msgstr "Vlastní měřítko"
+
+#: nodepkg/panel/print/PrintPanel.tsx:475
+msgid "Elements"
+msgstr "Prvky"
+
+#: nodepkg/panel/print/PrintPanel.tsx:494
+msgid "Number of legend columns"
+msgstr "Počet sloupců legendy"
+
+#: nodepkg/panel/print/PrintPanel.tsx:503
+msgid "Title"
+msgstr "Titul"
+
+#: nodepkg/panel/print/PrintPanel.tsx:506
+msgid "Map title text"
+msgstr "Text názvu mapy"
+
+#: nodepkg/panel/print/PrintPanel.tsx:524
+msgid "North Arrow"
+msgstr "Severní šipka"
+
+#: nodepkg/panel/print/PrintPanel.tsx:572
+msgid "Copy link to the print map"
+msgstr "Kopírovat odkaz na tištěnou mapu"
+
+#: nodepkg/panel/print/options.tsx:11
+msgid "Portrait"
+msgstr "Portrét"
+
+#: nodepkg/panel/print/options.tsx:12
+msgid "Landscape"
+msgstr "Krajina"
+
+#: nodepkg/panel/print/options.tsx:73
+msgid "TIFF"
+msgstr "TIFF"
+
+#: nodepkg/panel/print/options.tsx:74
+msgid "PDF"
+msgstr "PDF"
+
+#: nodepkg/panel/search/SearchPanel.js:328
+msgid "Refine search criterion. Displayed first 100 search results."
+msgstr ""
+"Upřesněte vyhledávací kritéria. Zobrazeno prvních 100 výsledků vyhledávání."
+
+#: nodepkg/panel/search/SearchPanel.js:361
+msgid "Enter at least 2 characters"
+msgstr "Zadejte alespoň 2 znaky"
+
+#: nodepkg/panel/share/SharePanel.js:35
+msgid "Add web map fragment to favorites"
+msgstr "Přidat fragment webové mapy do oblíbených"
+
+#: nodepkg/panel/share/SharePanel.js:88
+msgid "Select tools"
+msgstr "Vyberte nástroje"
+
+#: nodepkg/panel/share/SharePanel.js:104
+msgid "Select panels"
+msgstr "Vyberte panely"
+
+#: nodepkg/panel/share/SharePanel.js:112
+msgid "None"
+msgstr "Žádné"
+
+#: nodepkg/panel/share/SharePanel.js:259
+msgid "Active panel"
+msgstr "Aktivní panel"
+
+#: nodepkg/panel/share/SharePanel.js:285
+msgid "Map link"
+msgstr "Odkaz mapy"
+
+#: nodepkg/panel/share/SharePanel.js:293
+msgid "The map link copied to clipboard."
+msgstr "Odkaz na mapu zkopírován do schránky."
+
+#: nodepkg/panel/share/SharePanel.js:297
+msgid "Copy link"
+msgstr "Kopírovat odkaz"
+
+#: nodepkg/panel/share/SharePanel.js:333
+msgid "Optional fragment label"
+msgstr "Volitelný štítek fragmentu"
+
+#: nodepkg/panel/share/SharePanel.js:359
+msgid "px"
+msgstr "px"
+
+#: nodepkg/panel/share/SharePanel.js:362
+msgid "Map tools"
+msgstr "Nástroje mapy"
+
+#: nodepkg/panel/share/SharePanel.js:366
+msgid "Panels"
+msgstr "Panely"
+
+#: nodepkg/panel/share/SharePanel.js:394
+msgid "Embed code"
+msgstr "Vložit kód"
+
+#: nodepkg/panel/share/SharePanel.js:407
+msgid "The embed code copied to clipboard."
+msgstr "Vložený kód zkopírován do schránky."
+
+#: nodepkg/panel/share/SharePanel.js:411
+msgid "Copy code"
+msgstr "Kopírovat kód"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:21
+msgid "Constraining extent"
+msgstr "Omezení rozsahu"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
+msgid "Select mode"
+msgstr "Vyberte režim"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:26
+msgid "Select resource"
+msgstr "Vyberte zdroj"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:27
+#: nodepkg/settings/SettingsForm.js:189
+msgid "Measurement SRS"
+msgstr "Měření SRS"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:28
+msgid "Layers editing"
+msgstr "Úpravy vrstev"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:33
+msgid "Web map will start at this extent"
+msgstr "Webová mapa začne v tomto rozsahu"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:34
+msgid "Web map will not allow to move outside of this extent"
+msgstr "Webová mapa nedovolí pohyb mimo tento rozsah"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:44
+msgid "Hide by default"
+msgstr "Skrýt ve výchozím nastavení"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:45
+msgid "Show without messages"
+msgstr "Zobrazit bez zpráv"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:46
+msgid "Show with messages"
+msgstr "Zobrazit se zprávami"
+
+#: nodepkg/settings/SettingsForm.js:54
+msgid "General"
+msgstr "Obecné"
+
+#: nodepkg/settings/SettingsForm.js:67
+msgid "Hide navigation menu for guest"
+msgstr "Skrýt navigační menu pro hosta"
+
+#: nodepkg/settings/SettingsForm.js:75
+msgid "Identify popup"
+msgstr "Identifikovat vyskakovací okno"
+
+#: nodepkg/settings/SettingsForm.js:144
+msgid "Show geometry info"
+msgstr "Zobrazit informace o geometrie"
+
+#: nodepkg/settings/SettingsForm.js:288
+msgid "Visibility"
+msgstr "Viditelnost"
+
+#: nodepkg/utils/geometry-types.ts:9
+msgid "LineString"
+msgstr "LineString"
+
+#: nodepkg/utils/geometry-types.ts:12
+msgid "LinearRing"
+msgstr "LineárníKroužek"
+
+#: nodepkg/utils/geometry-types.ts:18
+msgid "MultiPoint"
+msgstr "MultiPoint"
+
+#: nodepkg/utils/geometry-types.ts:21
+msgid "MultiLineString"
+msgstr "MultiLineString"
+
+#: nodepkg/utils/geometry-types.ts:24
+msgid "MultiPolygon"
+msgstr "MultiPolygon"
+
+#: nodepkg/utils/geometry-types.ts:27
+msgid "GeometryCollection"
+msgstr "GeometrickáKolekce"
+
+#: nodepkg/webmap-tabs/WebMapTabs.tsx:16
+msgid "Loading"
+msgstr "Načítání"
+
+#: nodepkg/zoom-to-filtered-btn/ZoomToFilteredBtn.tsx:20
+msgid "Zoom to filtered features"
+msgstr "Přiblížit na filtrované prvky"
+
+#: template/preview_embedded.mako:15
+msgid "This page is for a preview of the web map to be embedded on the site."
+msgstr ""
+"Tato stránka slouží k náhledu webové mapy, která bude vložena na stránky."
+
+#: template/preview_embedded.mako:16
+msgid ""
+"Most likely, you went from the \"Share\" section of the web map and "
+"refreshed the page."
+msgstr ""
+"Pravděpodobně jste přešli z sekce \"Sdílet\" webové mapy a obnovili stránku."
+
+#: template/preview_embedded.mako:17
+msgid "To generate a preview, go back to the web map page and click \"Preview\"."
+msgstr ""
+"Chcete-li vygenerovat náhled, vraťte se na stránku webové mapy a klikněte na"
+" \"Náhled\"."
+
+#: view.py:262
+msgid "Clone web map"
+msgstr "Klonovat webovou mapu"

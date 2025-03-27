@@ -1,0 +1,133 @@
+#: kind_of_data.py:8
+msgid "Vector layer features"
+msgstr "Caratteristiche del layer vettoriale"
+
+#: model.py:748
+msgid "Unknown 'fix_errors' value."
+msgstr "Valore 'fix_errors' sconosciuto."
+
+#: model.py:756
+msgid "Unknown 'cast_geometry_type' value."
+msgstr "Valore 'cast_geometry_type' sconosciuto."
+
+#: model.py:761
+msgid "Unknown 'cast_is_multi' value."
+msgstr "Valore 'cast_is_multi' sconosciuto."
+
+#: model.py:766
+msgid "Unknown 'cast_has_z' value."
+msgstr "Valore 'cast_has_z' sconosciuto."
+
+#: model.py:771
+msgid "Unknown 'fid_source' value."
+msgstr "Valore 'fid_source' sconosciuto."
+
+#: model.py:794
+msgid "Unsupported geometry type."
+msgstr "Tipo geometria non supportato."
+
+#: nodepkg/resource-widget/Store.tsx:168
+msgid "Confirm deletion of existing features"
+msgstr "Conferma eliminazione degli elementi esistenti"
+
+#: nodepkg/resource-widget/Store.tsx:175
+msgid "Confirm change of geometry type"
+msgstr "Conferma cambio del tipo di geometria"
+
+#: nodepkg/resource-widget/Widget.tsx:34
+msgid ""
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
+"put in lat and lot columns."
+msgstr ""
+"Sono supportati i formati ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, "
+"KML, CSV o XLSX. Per CSV e XLSX sono supportati solo i punti, le coordinate "
+"devono essere inserite nelle colonne lat e lot."
+
+#: nodepkg/resource-widget/Widget.tsx:45
+msgid "Whenever possible"
+msgstr "Ogni volta che è possibile"
+
+#: nodepkg/resource-widget/Widget.tsx:114
+msgid "Only load features of the selected geometry type"
+msgstr "Carica solamente gli elementi del tipo geometria specificato"
+
+#: nodepkg/resource-widget/Widget.tsx:151
+msgid "Load features from file"
+msgstr "Carica elementi dal file"
+
+#: nodepkg/resource-widget/Widget.tsx:152
+msgid "Create empty layer"
+msgstr "Crea layer vuoto"
+
+#: nodepkg/resource-widget/Widget.tsx:154
+msgid "Keep existing layer features"
+msgstr "Mantieni gli elementi del layer esistente"
+
+#: nodepkg/resource-widget/Widget.tsx:155
+msgid "Change geometry type"
+msgstr "Cambia il tipo di geometria"
+
+#: nodepkg/resource-widget/Widget.tsx:156
+msgid "Replace layer features from file"
+msgstr "Sostituisci gli elementi del layer dal file"
+
+#: nodepkg/resource-widget/Widget.tsx:157
+msgid "Delete all features from layer"
+msgstr "Elimina tutti gli elementi dal layer"
+
+#: nodepkg/resource-widget/Widget.tsx:173
+msgid "current"
+msgstr "corrente"
+
+#: nodepkg/resource-widget/Widget.tsx:251
+msgid "Source layer"
+msgstr "Layer sorgente"
+
+#: ogrloader.py:329
+msgid "Field '%s' is out of int32 range."
+msgstr "Il campo '%s' è fuori dall'intervallo int32."
+
+#: ogrloader.py:337
+msgid "Field '%s' contains non-unique or empty values."
+msgstr "Il campo '%s' contiene valori non unici o vuoti."
+
+#: ogrloader.py:357
+msgid "Fields %s not found."
+msgstr "Campi %s non trovati."
+
+#: ogrloader.py:359
+msgid "None of fields %s are integer."
+msgstr "Nessuno dei campi %s è un intero."
+
+#: ogrloader.py:374
+msgid "Field '%s(?)' encoding is broken."
+msgstr "La codifica del campo '%s(?)' è danneggiata."
+
+#: ogrloader.py:509
+msgid ""
+"Feature #%d has a geometry that can't be reprojected to target coordinate "
+"system"
+msgstr ""
+"L'elemento #%d ha una geometria che non può essere riproiettata nel sistema "
+"di coordinate di destinazione."
+
+#: ogrloader.py:579
+msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
+msgstr "L'elemento (seq. #%d) non ha un campo FID ''%s''."
+
+#: ogrloader.py:582
+msgid "Feature (seq. #%d) FID field '%s' is null."
+msgstr "Il campo FID ''%s'' dell'elemento (seq. #%d) è nullo."
+
+#: ogrloader.py:603
+msgid "Feature #%d doesn't have geometry."
+msgstr "L'elemento #%d non contiene geometria."
+
+#: ogrloader.py:701
+msgid "Feature #%d has empty rings."
+msgstr "L'elemento #%d ha anelli vuoti."
+
+#: ogrloader.py:754
+msgid "Feature #%d contains a broken encoding of field '%s'."
+msgstr "L'elemento #%d contiene una codifica danneggiata del campo ''%s''."

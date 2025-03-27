@@ -1,0 +1,33 @@
+#: api.py:141
+msgid "System SRS cannot be deleted."
+msgstr "系统SRS不能被删除。"
+
+#: api.py:367
+msgid ""
+"SRS authority attributes must be defined while importing from the catalog."
+msgstr "从目录导入时，必须定义SRS权限属性。"
+
+#: api.py:392
+msgid "SRS #{} already exists."
+msgstr "SRS #{} 已经存在。"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:94
+msgid "Show in catalog"
+msgstr "在目录中显示"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:107
+#: nodepkg/srs-widget/SRSWidget.tsx:37
+msgid "Authority and code"
+msgstr "权限和代码"
+
+#: nodepkg/srs-browse/SrsBrowse.tsx:26
+msgid "Import from catalog"
+msgstr "从目录导入"
+
+#: pyramid.py:9
+msgid "Catalog not cofigured"
+msgstr "目录未配置"
+
+#: pyramid.py:10
+msgid "The spatial reference system catalog is not configured on this server."
+msgstr "该服务器上未配置空间参考系统目录。"

@@ -1,0 +1,47 @@
+#: component.py:316
+msgid "Last backup"
+msgstr "Último backup"
+
+#: component.py:320
+msgid "Last maintenance"
+msgstr "Última manutenção"
+
+#: exception.py:121
+msgid "Forbidden"
+msgstr "Proibido"
+
+#: exception.py:136
+msgid "External service error"
+msgstr "Erro de serviço externo"
+
+#: exception.py:145
+msgid "Not configured"
+msgstr "Não configurado"
+
+#: storage.py:289
+msgid "Storage full"
+msgstr "Armazenamento cheio"
+
+#: storage.py:290
+msgid ""
+"This operation can't be performed because the storage limit (%s) has been "
+"already exceeded by %s."
+msgstr ""
+"Esta operação não pode ser realizada porque o limite de armazenamento (%s) "
+"já foi excedido por %s."
+
+#: storage.py:300
+msgid "Not enough storage"
+msgstr "Armazenamento insuficiente"
+
+#: storage.py:301
+msgid ""
+"This operation requires %s of storage and can't be performed because only %s"
+" available."
+msgstr ""
+"Esta operação requer %s de armazenamento e não pode ser realizada porque "
+"apenas %s está disponível."
+
+#: storage.py:311
+msgid "Estimation is already running"
+msgstr "A estimativa já está em execução"

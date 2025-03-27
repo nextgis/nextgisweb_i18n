@@ -1,0 +1,3 @@
+#: model.py:10
+msgid "Spatial reference system"
+msgstr "空间参考系统"

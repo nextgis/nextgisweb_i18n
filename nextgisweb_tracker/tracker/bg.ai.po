@@ -1,0 +1,93 @@
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:30
+msgid "Consumption, liters per 100 km (for reports)"
+msgstr "Разход, литри на 100 км (за отчети)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:32
+msgid "Invalid consumption, should be from 0 to 100"
+msgstr "Невалиден разход, трябва да е между 0 и 100"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:47
+msgid "NextGIS software (Mobile, Collector)"
+msgstr "NextGIS софтуер (Mobile, Collector)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:48
+msgid "ADM (ADM-50, ADM-100)"
+msgstr "АДМ (АДМ-50, АДМ-100)"
+
+#: amd/ngw-tracker/webmap/map/utils.js:63
+msgid "Satellites"
+msgstr "Сателити"
+
+#: amd/ngw-tracker/webmap/map/utils.js:69
+msgid "HDOP"
+msgstr "HDOP"
+
+#: model.py:51
+msgid "Tracker UID is not unique"
+msgstr "UID на тракера не е уникален"
+
+#: model.py:78
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr ""
+"Атрибутът '{}' е непроменяем и не може да бъде изменен след като тракерът е "
+"създаден."
+
+#: nodepkg/reports/Reports.js:26
+msgid "Spent fuel"
+msgstr "Разход гориво"
+
+#: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
+#: nodepkg/trackers-panel/TrackersPanel.js:97
+#: nodepkg/trackers-panel/TrackersPanel.js:98
+msgid "Unknown"
+msgstr "Неизвестен"
+
+#: nodepkg/reports/Reports.js:131
+msgid "Result"
+msgstr "Резултат"
+
+#: nodepkg/reports/Reports.js:142
+msgid "Settings"
+msgstr "Настройки"
+
+#: nodepkg/reports/Reports.js:183
+msgid "Build report"
+msgstr "Създай отчет"
+
+#: nodepkg/tracker-activity/ChartHelper.js:44
+msgid "Count of packets per hour"
+msgstr "Брой пакети на час"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:53
+msgid "Cancel"
+msgstr "Отказ"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:63
+msgid "Last activity by hours"
+msgstr "Последна активност по часове"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:40
+msgid "Last known point"
+msgstr "Последна известна точка"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:45
+msgid "GPS tracks"
+msgstr "GPS тракове"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:50
+msgid "Track points"
+msgstr "Точки на трака"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:187
+msgid "Sort by"
+msgstr "Сортиране по"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:189
+msgid "Name"
+msgstr "Име"
+
+#: view/reports.py:18
+msgid "Trackers reports"
+msgstr "Доклади на тракерите"

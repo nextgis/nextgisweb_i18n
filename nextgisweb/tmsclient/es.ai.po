@@ -1,0 +1,50 @@
+#: amd/ngw-tmsclient/LayersDialog.js:25
+msgid "Select layer"
+msgstr "Seleccionar capa"
+
+#: amd/ngw-tmsclient/LayersDialog.js:63
+msgid "OK"
+msgstr "Aceptar"
+
+#: amd/ngw-tmsclient/LayersDialog.js:72
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
+msgid "Capmode"
+msgstr "Modo de capa"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
+msgid "NextGIS geoservices"
+msgstr "Geoservicios de NextGIS"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:15
+msgid "Choose a layer"
+msgstr "Elige una capa"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+msgid "Coordinate system"
+msgstr "Sistema de coordenadas"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
+msgid "Left, deg."
+msgstr "Izquierda, grados"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
+msgid "Bottom, deg."
+msgstr "Abajo, grados"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
+msgid "Right, deg."
+msgstr "Derecha, grados"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
+msgid "Top, deg."
+msgstr "Arriba, grados"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:75
+msgid "Tile size, px"
+msgstr "Tamaño de tesela, px"
+
+msgid "TMS capabilities"
+msgstr "Capacidades TMS"

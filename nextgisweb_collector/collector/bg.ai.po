@@ -1,0 +1,77 @@
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
+msgid "Add item"
+msgstr "Добави елемент"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
+msgid "Add group"
+msgstr "Добави група"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
+msgid "Remove"
+msgstr "Премахни"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
+msgid "You have no permissions to manage this section."
+msgstr "Нямате права да управлявате този раздел."
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
+msgid "Manage collectors"
+msgstr "Управляване на участници"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
+msgid "Give access to this project for the following collectors:"
+msgstr "Достъп до този проект да се даде на следните участници:"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
+msgid "Users"
+msgstr "Потребители"
+
+#: api/collector_user.py:31
+msgid "Membership in group \"Administrators\" required!"
+msgstr "Изисква се членуване в групата \"Администратори\"!"
+
+msgid "Each collector must be first registered at ${ngid}"
+msgstr "Всеки участник трябва да е регистриран в ${ngid}"
+
+msgid "Cancel"
+msgstr "Откажи"
+
+msgid "The NextGIS ID is invalid!"
+msgstr "NextGIS ID не е валиден!"
+
+msgid "The NextGIS ID is required!"
+msgstr "Необходим е NextGIS ID!"
+
+msgid "New collector"
+msgstr "Нов участник"
+
+msgid "Save"
+msgstr "Запази"
+
+msgid "Create"
+msgstr "Създай"
+
+msgid "Edit"
+msgstr "Редактирай"
+
+msgid "Delete"
+msgstr "Премахни"
+
+msgid "Search Collector user..."
+msgstr "Търсене на участник..."
+
+msgid "Email"
+msgstr "Имейл"
+
+msgid "Your Collector users limit = 60"
+msgstr "Вашият максимален брой участници е 60"
+
+msgid "Deleting сollector"
+msgstr "Премахване на участник"
+
+msgid "Delete сollector?"
+msgstr "Искате ли да премахнете участника?"
+
+msgid "NextGIS Collector settings"
+msgstr "Настройки на NextGIS Collector"

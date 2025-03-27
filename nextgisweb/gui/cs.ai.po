@@ -1,0 +1,99 @@
+#: nodepkg/arm/validate.ts:5
+msgid "Value required"
+msgstr "Hodnota je povinná"
+
+#: nodepkg/arm/validate.ts:18
+msgid "Value should be at least {}"
+msgstr "Hodnota by měla být alespoň {}"
+
+#: nodepkg/arm/validate.ts:19
+msgid "Value should be no more than {}"
+msgstr "Hodnota by neměla být vyšší než {}"
+
+#: nodepkg/arm/validate.ts:21
+msgid "Invalid value"
+msgstr "Neplatná hodnota"
+
+#: nodepkg/arm/validate.ts:22
+msgid "Value not unique"
+msgstr "Hodnota není jedinečná"
+
+#: nodepkg/arm/validate.ts:23
+msgid "Invalid URL"
+msgstr "Neplatná URL"
+
+#: nodepkg/buttons/CopyToClipboardButton.tsx:23
+msgid "Copied to clipboard"
+msgstr "Zkopírováno do schránky"
+
+#: nodepkg/buttons/CopyToClipboardButton.tsx:28
+msgid "Copy to clipboard"
+msgstr "Kopírovat do schránky"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:79
+msgid "From layer"
+msgstr "Z vrstvy"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:87
+msgid "West"
+msgstr "Západ"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:98
+msgid "South"
+msgstr "Jih"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:107
+msgid "East"
+msgstr "Východ"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:116
+msgid "North"
+msgstr "Sever"
+
+#: nodepkg/component/language-select/LanguageSelect.tsx:15
+msgid "Improve or add new translation"
+msgstr "Vylepšit nebo přidat nový překlad"
+
+#: nodepkg/confirm.ts:13
+msgid "Confirmation required"
+msgstr "Vyžaduje se potvrzení"
+
+#: nodepkg/confirm.ts:14
+msgid "Please confirm this action."
+msgstr "Prosím potvrďte tuto akci."
+
+#: nodepkg/confirm.ts:43
+msgid "Please confirm the deletion."
+msgstr "Prosím potvrďte odstranění."
+
+#: nodepkg/confirm.ts:45
+msgid "Failed to delete."
+msgstr "Nepodařilo se odstranit."
+
+#: nodepkg/edi-table/RowAction.tsx:73
+msgid "Clone"
+msgstr "Klonovat"
+
+#: nodepkg/edi-table/store/RecordItem.ts:35
+msgid "Key required"
+msgstr "Klíč je vyžadován"
+
+#: nodepkg/edi-table/store/RecordItem.ts:41
+msgid "Key not unique"
+msgstr "Klíč není jedinečný"
+
+#: nodepkg/focus-table/action.tsx:13
+msgid "Add"
+msgstr "Přidat"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:252
+msgid "View"
+msgstr "Zobrazit"
+
+#: nodepkg/progress-modal/ProgressModal.tsx:5
+msgid "Operation in progress"
+msgstr "Operace probíhá"
+
+#: nodepkg/progress-modal/ProgressModal.tsx:6
+msgid "Cancel"
+msgstr "Zrušit"

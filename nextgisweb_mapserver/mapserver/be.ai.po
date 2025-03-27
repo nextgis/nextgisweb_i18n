@@ -1,0 +1,7 @@
+#: model.py:330
+msgid "XML syntax error: %s"
+msgstr "Памылка сінтаксісу XML: %s"
+
+#: model.py:333
+msgid "XML schema error: %s"
+msgstr "Памылка схемы XML: %s"

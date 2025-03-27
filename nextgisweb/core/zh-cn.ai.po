@@ -1,0 +1,11 @@
+#: component.py:316
+msgid "Last backup"
+msgstr "上次备份"
+
+#: component.py:320
+msgid "Last maintenance"
+msgstr "上次维护"
+
+#: exception.py:145
+msgid "Not configured"
+msgstr "未配置"

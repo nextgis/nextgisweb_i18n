@@ -1,0 +1,74 @@
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
+msgid "Add item"
+msgstr "Přidat položku"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
+msgid "Add group"
+msgstr "Přidat skupinu"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
+msgid "Remove"
+msgstr "Odstranit"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
+msgid "You have no permissions to manage this section."
+msgstr "Ke správě této sekce nemáte žádná oprávnění."
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
+msgid "Manage collectors"
+msgstr "Spravujte sběratele"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
+msgid "Give access to this project for the following collectors:"
+msgstr "Poskytněte přístup k tomuto projektu následujícím kolektorům:"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
+msgid "Users"
+msgstr "Uživatelé"
+
+#: api/collector_user.py:31
+msgid "Membership in group \"Administrators\" required!"
+msgstr "Je vyžadováno členství ve skupině \"Administrátoři\"!"
+
+msgid "Your Collector users limit = 60"
+msgstr "Váš počet uživatelů kolektorů = 60"
+
+msgid "Each collector must be first registered at ${ngid}"
+msgstr "Každý sběratel musí být nejprve zaregistrován na ${ngid}"
+
+msgid "Cancel"
+msgstr "Zrušení"
+
+msgid "The NextGIS ID is invalid!"
+msgstr "ID NextGIS je neplatné!"
+
+msgid "New collector"
+msgstr "Nový sběratel"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Create"
+msgstr "Vytvořit"
+
+msgid "Edit"
+msgstr "Upravit"
+
+msgid "Delete"
+msgstr "Vymazat"
+
+msgid "Search Collector user..."
+msgstr "Hledat uživatele kolektoru..."
+
+msgid "Email"
+msgstr "E-mailem"
+
+msgid "Deleting сollector"
+msgstr "Mazání kolektoru"
+
+msgid "Delete сollector?"
+msgstr "Smazat kolektor?"
+
+msgid "NextGIS Collector settings"
+msgstr "Nastavení NextGIS Collector"

@@ -1,0 +1,3 @@
+#: nodepkg/style-3d-widget/Style3d.tsx:143
+msgid "POI icon"
+msgstr "Icono de POI"

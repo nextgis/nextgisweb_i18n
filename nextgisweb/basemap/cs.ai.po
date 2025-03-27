@@ -1,0 +1,19 @@
+#: nodepkg/layer-widget/LayerWidget.tsx:18
+msgid "Pick from QMS"
+msgstr "Vybrat z QMS"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:20
+msgid "Search for geoservices provided by "
+msgstr "Hledejte geoslužby poskytované"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:21
+msgid "You can search by name or ID"
+msgstr "Můžete hledat podle jména nebo ID"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:24
+msgid "If a service from QMS is selected, this field cannot be edited."
+msgstr "Pokud je vybrána služba z QMS, toto pole nelze upravit."
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:61
+msgid "Default basemap"
+msgstr "Výchozí základní mapa"

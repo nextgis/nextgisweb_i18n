@@ -1,0 +1,132 @@
+#: component.py:13
+msgid "Feature attachments"
+msgstr "Allegati delle feature"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:33
+msgid ""
+"Draw the geometry on the map to visualize the attachments to the objects"
+msgstr ""
+"Disegna la geometria sulla mappa per visualizzare gli allegati agli oggetti"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
+msgid "Object: "
+msgstr "Oggetto:"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:139
+msgid "Identify object"
+msgstr "Identifica oggetto"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:160
+msgid "Attachments: "
+msgstr "Allegati:"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:187
+msgid "No attachments"
+msgstr "Nessun allegato"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:253
+msgid "Download all attachments"
+msgstr "Scarica tutti gli allegati"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:56
+msgid ""
+"Use export to copy feature attachments between different layers or to create"
+" a backup. The resulting ZIP archive will contain all of the attachments put"
+" in directories named after feature IDs. Attachment metadata are put into a "
+"separate JSON file."
+msgstr ""
+"Usa l'export per copiare gli allegati delle feature tra diversi layer o per "
+"creare un backup. L'archivio ZIP risultante conterrà tutti gli allegati "
+"suddivisi in directory denominate con gli ID delle feature. I metadata degli"
+" allegati vengono inseriti in un file JSON separato."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:66
+msgid "Export attachments to ZIP archive"
+msgstr "Esporta allegati in archivio ZIP"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:84
+msgid "Back to resource"
+msgstr "Torna alla risorsa"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:86
+msgid "Close"
+msgstr "Chiudi"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:89
+msgid "The archive has been successfully imported."
+msgstr "L'archivio è stato importato con successo."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:91
+msgid "Attachments imported - {i}, skipped - {s}."
+msgstr "Allegati importati - {i}, saltati - {s}."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:125
+msgid ""
+"Upload a ZIP archive to batch append attachments to existing features. An "
+"archive must contain directories named after feature IDs. Each folder can "
+"contain one or many attachments. Duplicates will be ignored."
+msgstr ""
+"Carica un archivio ZIP per aggiungere in batch allegati alle feature "
+"esistenti. Un archivio deve contenere directory denominate con gli ID delle "
+"feature. Ogni cartella può contenere uno o più allegati. I duplicati saranno"
+" ignorati."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:134
+msgid "Delete existing attachments"
+msgstr "Elimina allegati esistenti"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:159
+msgid "Import attachments from ZIP archive"
+msgstr "Importa allegati da archivio ZIP"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:171
+msgid "Export"
+msgstr "Esporta"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:176
+msgid "Import"
+msgstr "Importa"
+
+#: nodepkg/image-thumbnail/component/CarouselRender.tsx:23
+msgid "Toggle panorama viewer"
+msgstr "Attiva/disattiva visualizzatore panoramico"
+
+#: util.py:26
+msgid "Invalid ZIP archive."
+msgstr "Archivio ZIP non valido."
+
+#: util.py:55
+msgid "File '{}' isn't found in metadata."
+msgstr "Il file '{}' non è stato trovato nei metadata."
+
+#: util.py:61
+msgid "Invalid feature ID for file '{}'."
+msgstr "ID della feature non valido per il file '{}'."
+
+#: util.py:68
+msgid "Invalid keyname for file '{}'."
+msgstr "Nome della chiave non valido per il file '{}'."
+
+#: util.py:74
+msgid "Invalid name for file '{}'."
+msgstr "Nome non valido per il file '{}'."
+
+#: util.py:80
+msgid "Invalid MIME type for file '{}'."
+msgstr "Tipo MIME non valido per il file '{}'."
+
+#: util.py:87
+msgid "Invalid description for file '{}'."
+msgstr "Descrizione non valida per il file '{}'."
+
+#: util.py:100
+msgid "Could not determine feature ID for file '{}'."
+msgstr "Impossibile determinare l'ID della feature per il file '{}'."
+
+#: util.py:118
+msgid "File '{}' isn't found in the archive."
+msgstr "Il file '{}' non è stato trovato nell'archivio."
+
+#: view.py:20 view.py:43
+msgid "Manage attachments"
+msgstr "Gestisci allegati"

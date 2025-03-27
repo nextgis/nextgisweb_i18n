@@ -1,0 +1,91 @@
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:30
+msgid "Consumption, liters per 100 km (for reports)"
+msgstr "燃料消耗，升/每100公里（用于报告）"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.hbs:32
+msgid "Invalid consumption, should be from 0 to 100"
+msgstr "无效消耗，应该为0-100"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:47
+msgid "NextGIS software (Mobile, Collector)"
+msgstr "NextGIS 软件(Mobile, Collector)"
+
+#: amd/ngw-tracker/ResourceTrackerDetail/TrackerDetail.js:48
+msgid "ADM (ADM-50, ADM-100)"
+msgstr "ADM（ADM-50，ADM-100）"
+
+#: amd/ngw-tracker/webmap/map/utils.js:63
+msgid "Satellites"
+msgstr "卫星"
+
+#: amd/ngw-tracker/webmap/map/utils.js:69
+msgid "HDOP"
+msgstr "HDOP"
+
+#: model.py:51
+msgid "Tracker UID is not unique"
+msgstr "追踪器UID并不唯一"
+
+#: model.py:78
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr "{}'属性是不可变的，一旦创建追踪器就不能更改。"
+
+#: nodepkg/reports/Reports.js:26
+msgid "Spent fuel"
+msgstr "燃料消耗量"
+
+#: nodepkg/reports/Reports.js:38 nodepkg/reports/Reports.js:39
+#: nodepkg/trackers-panel/TrackersPanel.js:97
+#: nodepkg/trackers-panel/TrackersPanel.js:98
+msgid "Unknown"
+msgstr "未知"
+
+#: nodepkg/reports/Reports.js:131
+msgid "Result"
+msgstr "结果"
+
+#: nodepkg/reports/Reports.js:142
+msgid "Settings"
+msgstr "设置"
+
+#: nodepkg/reports/Reports.js:183
+msgid "Build report"
+msgstr "生成报告"
+
+#: nodepkg/tracker-activity/ChartHelper.js:44
+msgid "Count of packets per hour"
+msgstr "每小时的数据包数量"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:53
+msgid "Cancel"
+msgstr "取消"
+
+#: nodepkg/tracker-activity/TrackerActivity.js:63
+msgid "Last activity by hours"
+msgstr "上一次活动（按小时）"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:40
+msgid "Last known point"
+msgstr "最后已知点"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:45
+msgid "GPS tracks"
+msgstr "GPS 轨迹"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:50
+msgid "Track points"
+msgstr "轨迹点"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:187
+msgid "Sort by"
+msgstr "排序依据"
+
+#: nodepkg/trackers-panel/TrackersPanel.js:189
+msgid "Name"
+msgstr "名称"
+
+#: view/reports.py:18
+msgid "Trackers reports"
+msgstr "追踪器报表"

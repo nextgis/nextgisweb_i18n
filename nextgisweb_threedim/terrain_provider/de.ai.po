@@ -1,0 +1,7 @@
+#: model.py:24 nodepkg/resource-widget/ResourceWidget.tsx:44
+msgid "Terrain provider"
+msgstr "Terrain-Anbieter"
+
+#: nodepkg/resource-widget/ResourceWidget.tsx:31
+msgid "Encoding"
+msgstr "Kodierung"

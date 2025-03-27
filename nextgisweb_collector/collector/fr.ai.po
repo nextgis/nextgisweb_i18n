@@ -1,0 +1,123 @@
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:14
+msgid "Add item"
+msgstr "Ajouter un élément"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:25
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.js:106
+msgid "Add group"
+msgstr "Ajouter un groupe"
+
+#: amd/ngw-collector/resource/CollectorItemsEditor/CollectorItemsEditor.hbs:32
+msgid "Remove"
+msgstr "Supprimer"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:10
+msgid "You have no permissions to manage this section."
+msgstr "Vous n'avez aucun droit pour gérer cette section"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:15
+msgid "Manage collectors"
+msgstr "Gérer les collectionneurs"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:19
+msgid "Give access to this project for the following collectors:"
+msgstr "Donner accès à ce projet pour les collectionneurs suivants:"
+
+#: amd/ngw-collector/resource/CollectorUsers/CollectorUsers.hbs:23
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: api/collector_user.py:31
+msgid "Membership in group \"Administrators\" required!"
+msgstr "L'adhésion au groupe \"Administrateurs\" est requise !"
+
+#: api/collector_user.py:93 api/collector_user.py:120
+msgid ""
+"Unfortunately, you cannot add a new collector. Your collector users limit in"
+" the Web GIS is"
+msgstr ""
+"Malheureusement, vous ne pouvez pas ajouter un nouveau collecteur. Votre "
+"limite d'utilisateurs de collecteurs dans le Web GIS est atteinte"
+
+#: nodepkg/userMessages.js:5
+msgid "Delete collector?"
+msgstr "Supprimer le collecteur ?"
+
+#: nodepkg/userMessages.js:6
+msgid "Collector deleted"
+msgstr "Collecteur supprimé"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.js:56
+msgid "You cannot add a new collector. Your collector users limit"
+msgstr ""
+"Vous ne pouvez pas ajouter un nouveau collecteur. Votre limite "
+"d'utilisateurs de collecteurs"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
+msgid "Collector users:"
+msgstr "Utilisateurs de collecteurs :"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:14
+msgid "out of"
+msgstr "sur"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:18
+msgid "Each collector must have "
+msgstr "Chaque collecteur doit avoir"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.js:19
+msgid "NextGIS ID account"
+msgstr "compte NextGIS ID"
+
+#: nodepkg/fields-form/NgIdTextBox.js:9
+msgid "The value entered is not valid"
+msgstr "La valeur entrée n'est pas valide"
+
+#: views/settings.py:24
+msgid "Create new collector"
+msgstr "Créer un nouveau collecteur"
+
+msgid "Your Collector users limit = 60"
+msgstr "Votre limite d'utilisateurs Collector = 60"
+
+msgid "Each collector must be first registered at ${ngid}"
+msgstr "Chaque collecteur doit être d'abord enregistré à ${ngid}"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "The NextGIS ID is invalid!"
+msgstr "NextGIS ID n'est pas valide!"
+
+msgid "The NextGIS ID is required!"
+msgstr "L'identifiant NextGIS est requis !"
+
+msgid "New collector"
+msgstr "Nouveau collectionneur"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Create"
+msgstr "Créer"
+
+msgid "Edit"
+msgstr "Éditer"
+
+msgid "Delete"
+msgstr "Effacer"
+
+msgid "Search Collector user..."
+msgstr "Rechercher un utilisateur de Collector "
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Deleting сollector"
+msgstr "Suppression d'un collectionneur"
+
+msgid "Delete сollector?"
+msgstr "Supprimer le collectionneur?"
+
+msgid "NextGIS Collector settings"
+msgstr "Paramètres de NextGIS Collector"

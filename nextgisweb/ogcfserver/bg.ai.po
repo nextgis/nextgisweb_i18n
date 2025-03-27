@@ -1,0 +1,35 @@
+#: model.py:16 nodepkg/service-widget/ServiceWidget.tsx:103
+msgid "OGC API Features service"
+msgstr "OGC API Features услуга"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:27
+msgid "Display name"
+msgstr "Показвано име"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:32
+msgid "Keyname"
+msgstr "Ключово име"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:37
+msgid "Features per request"
+msgstr "Обекти на заявка"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:42
+msgid "Not set"
+msgstr "Не е зададено"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:47
+msgid "Resource"
+msgstr "Ресурс"
+
+#: view.py:16
+msgid "OGC API Features"
+msgstr "OGC API Features услуга"
+
+#: view.py:17
+msgid ""
+"OGC API Features provides API building blocks to create, modify and query "
+"features on the Web."
+msgstr ""
+"OGC API Features предоставя API компоненти за създаване, модифициране и "
+"извличане на обекти в уеб."

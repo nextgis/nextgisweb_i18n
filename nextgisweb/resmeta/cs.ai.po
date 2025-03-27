@@ -1,0 +1,27 @@
+#: model.py:60 nodepkg/editor/EditorWidget.tsx:98
+msgid "String"
+msgstr "Řetězec"
+
+#: model.py:61 nodepkg/editor/EditorWidget.tsx:99
+msgid "Number"
+msgstr "Číslo"
+
+#: model.py:62 nodepkg/editor/EditorWidget.tsx:100
+msgid "Boolean"
+msgstr "Boolovský"
+
+#: model.py:63 nodepkg/editor/EditorWidget.tsx:101
+msgid "Empty"
+msgstr "Prázdný"
+
+#: nodepkg/editor/EditorWidget.tsx:22
+msgid "Type here to add a new key..."
+msgstr "Zde napište, abyste přidali nový klíč..."
+
+#: nodepkg/editor/EditorWidget.tsx:79 template/resource_section.mako:21
+msgid "False"
+msgstr "Nepravda"
+
+#: nodepkg/editor/EditorWidget.tsx:80 template/resource_section.mako:21
+msgid "True"
+msgstr "Pravda"

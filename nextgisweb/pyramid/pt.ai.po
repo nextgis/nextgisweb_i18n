@@ -1,0 +1,365 @@
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "Copiar para a área de transferência"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "Copiado"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "Não é possível copiar"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:13
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "Insira o valor de escala correto, e.g., 1:"
+
+#: api.py:196
+msgid "Storage management is not enabled on this server."
+msgstr "A gestão de armazenamento não está habilitada neste servidor."
+
+#: api.py:406
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr ""
+"O parâmetro de consulta '{}' não deve conter valores adicionais se 'all' for"
+" especificado."
+
+#: api.py:534
+msgid "Got an unsupported MIME type: '{}'."
+msgstr "Obteve um tipo MIME não suportado: ''{}''."
+
+#: api.py:537
+msgid "64K should be enough for a logo."
+msgstr "64K devem ser suficientes para um logotipo."
+
+#: component.py:163
+msgid "Request timeout"
+msgstr "Tempo de solicitação esgotado"
+
+#: component.py:166
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: component.py:166
+msgid "Disabled"
+msgstr "Desabilitado"
+
+#: exception.py:247
+msgid "Payment required"
+msgstr "Pagamento necessário"
+
+#: exception.py:248
+msgid "Access was denied for financial reasons."
+msgstr "O acesso foi negado por razões financeiras."
+
+#: lunkwill.py:25
+msgid "Lunkwill not enabled"
+msgstr "Lunkwill não habilitado"
+
+#: lunkwill.py:26
+msgid "The Lunkwill extension is not configured on this server."
+msgstr "A extensão Lunkwill não está configurada neste servidor."
+
+#: nodepkg/api/error.ts:59
+msgid "Unexpected error while processing long-running request."
+msgstr "Erro inesperado ao processar pedido de longa duração."
+
+#: nodepkg/api/error.ts:60
+msgid "Long-running request error"
+msgstr "Erro em pedido de longa duração"
+
+#: nodepkg/api/error.ts:67
+msgid "Long-running request was cancelled."
+msgstr "Pedido de longa duração foi cancelado."
+
+#: nodepkg/cors-settings/CORSSettings.tsx:25
+msgid ""
+"Please note that different protocols (HTTP and HTTPS) and subdomains "
+"(example.com and www.example.com) are different origins. Wildcards are "
+"allowed for third-level domains and higher."
+msgstr ""
+"Por favor, observe que diferentes protocolos (HTTP e HTTPS) e subdomínios "
+"(example.com e www.example.com) são origens diferentes. Curingas são "
+"permitidos para domínios de terceiro nível e superiores."
+
+#: nodepkg/cors-settings/CORSSettings.tsx:58
+msgid "CORS settings updated"
+msgstr "Configurações de CORS atualizadas"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:63
+msgid "Fix the form errors first"
+msgstr "Corrija os erros do formulário primeiro"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:79
+msgid "The value entered is not valid"
+msgstr "O valor inserido não é válido"
+
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:41
+msgid "Custom styles saved. Reload the page to get them applied."
+msgstr "Estilos personalizados salvos. Recarregue a página para aplicá-los."
+
+#: nodepkg/home-path/HomePath.tsx:4
+msgid "The home path setting is saved."
+msgstr "A configuração do caminho inicial foi salva."
+
+#: nodepkg/layout/Avatar.tsx:20
+msgid "Invitation session"
+msgstr "Sessão de convite"
+
+#: nodepkg/layout/Avatar.tsx:23
+msgid "User settings"
+msgstr "Configurações do usuário"
+
+#: nodepkg/logo-form/LogoForm.tsx:6
+msgid "Only PNG and SVG images are supported."
+msgstr "Apenas imagens PNG e SVG são suportadas."
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+msgid "Measurement ID"
+msgstr "ID de medição"
+
+#: nodepkg/metrics/MetricSettings.tsx:19
+msgid "Add"
+msgstr "Adicionar"
+
+#: nodepkg/metrics/MetricSettings.tsx:20
+msgid "The setting is saved."
+msgstr "A configuração foi salva."
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+msgid "Reload the page to get them applied."
+msgstr "Recarregue a página para aplicar as alterações."
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+msgid "Add one or more counters to your Web GIS."
+msgstr "Adicione um ou mais contadores ao seu Web GIS."
+
+#: nodepkg/metrics/MetricSettings.tsx:26
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
+msgstr ""
+"O código HTML desses contadores será embutido em cada página e permitirá "
+"rastrear a atividade dos usuários."
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+msgid "Tag number"
+msgstr "Número da etiqueta"
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:51
+msgid "Webvisor"
+msgstr "Webvisor"
+
+#: nodepkg/metrics/tab.ts:31
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: nodepkg/metrics/tab.ts:38
+msgid "Yandex.Metrica"
+msgstr "Yandex.Metrica"
+
+#: nodepkg/storage-summary/StorageSummary.js:96
+msgid "Kind of data"
+msgstr "Tipo de dado"
+
+#: nodepkg/storage-summary/StorageSummary.js:102
+msgid "Volume"
+msgstr "Volume"
+
+#: nodepkg/storage-summary/StorageSummary.js:118
+msgid "Total"
+msgstr "Total"
+
+#: nodepkg/storage-summary/StorageSummary.js:123
+msgid "of"
+msgstr "de"
+
+#: nodepkg/storage-summary/StorageSummary.js:140
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr ""
+"O uso de armazenamento foi totalmente estimado em %s e atualizado em %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:146
+msgid "Storage usage was fully estimated at %s."
+msgstr "O uso de armazenamento foi totalmente estimado em %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:151
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr ""
+"O uso de armazenamento ainda não foi estimado, mas foi atualizado em %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:155
+msgid "Storage usage hasn't been estimated yet."
+msgstr "O uso de armazenamento ainda não foi estimado."
+
+#: nodepkg/storage-summary/StorageSummary.js:160
+msgid "Some changes may be reflected only after full estimation."
+msgstr ""
+"Algumas mudanças podem ser refletidas apenas após uma estimação completa."
+
+#: nodepkg/storage-summary/StorageSummary.js:184
+msgid "Estimate storage"
+msgstr "Estimar armazenamento"
+
+#: nodepkg/system-name-form/SystemNameForm.tsx:4
+msgid "The system name setting is saved."
+msgstr "A configuração do nome do sistema foi salva."
+
+#: nodepkg/update/index.js:56
+msgid "Critical updates are available"
+msgstr "Atualizações críticas disponíveis"
+
+#: nodepkg/update/index.js:57
+msgid "Updates are available"
+msgstr "Atualizações disponíveis"
+
+#: nodepkg/update/index.js:59
+msgid "Click to see what's new"
+msgstr "Clique para ver as novidades"
+
+#: nodepkg/update/sysinfo.js:14
+msgid "Checking for updates..."
+msgstr "Verificando atualizações..."
+
+#: nodepkg/update/sysinfo.js:15
+msgid "<a>Contact support</a> for update."
+msgstr "<a>Entre em contato com o suporte</a> para atualização."
+
+#: nodepkg/update/sysinfo.js:16
+msgid "Show details"
+msgstr "Mostrar detalhes"
+
+#: nodepkg/update/sysinfo.js:20
+msgid ""
+"Critical updates are available: {version}. Please consider updating an soon "
+"as possible."
+msgstr ""
+"Atualizações críticas disponíveis: {version}. Por favor, considere atualizar"
+" o mais rápido possível."
+
+#: nodepkg/update/sysinfo.js:21
+msgid "New version of {distribution} is available: {version}."
+msgstr "Nova versão de {distribution} disponível: {version}."
+
+#: nodepkg/update/sysinfo.js:22
+msgid "Your {distribution} is up-to-date."
+msgstr "Seu {distribution} está atualizado."
+
+#: template/sysinfo.mako:80
+msgid "Browser support"
+msgstr "Suporte de navegador"
+
+#: template/sysinfo.mako:91
+msgid "or higher"
+msgstr "ou superior"
+
+#: template/sysinfo.mako:93
+msgid "Not supported"
+msgstr "Não suportado"
+
+#: template/sysinfo.mako:105
+msgid "Your browser"
+msgstr "Seu navegador"
+
+#: template/uacompat.mako:3
+msgid "Browser compatibility test"
+msgstr "Teste de compatibilidade do navegador"
+
+#: template/uacompat.mako:22
+msgid "%(name)s %(current)s supported"
+msgstr "%(name)s %(current)s suportado"
+
+#: template/uacompat.mako:23
+msgid ""
+"Web GIS browser compatibility test has been passed! The Web GIS should work "
+"fine."
+msgstr ""
+"O teste de compatibilidade do navegador Web GIS foi aprovado! O Web GIS deve"
+" funcionar corretamente."
+
+#: template/uacompat.mako:26
+msgid "%(name)s not supported"
+msgstr "%(name)s não suportado"
+
+#: template/uacompat.mako:27
+msgid ""
+"You're using %(name)s although it's not supported by the Web GIS. It's an "
+"outdated browser lacking required features. Try a different browser or "
+"contact your system administrator if another browser isn't available."
+msgstr ""
+"Você está usando %(name)s, embora não seja suportado pelo Web GIS. É um "
+"navegador desatualizado que carece de recursos necessários. Tente um "
+"navegador diferente ou contate seu administrador de sistema se outro "
+"navegador não estiver disponível."
+
+#: template/uacompat.mako:29
+msgid "%(name)s %(current)s not supported"
+msgstr "%(name)s %(current)s não suportado"
+
+#: template/uacompat.mako:30
+msgid ""
+"You're using %(name)s %(current)s although it's not supported by the Web "
+"GIS. It's an outdated version lacking required features. Contact your system"
+" administrator for upgrading to %(name)s %(required)s+ or try a different "
+"browser."
+msgstr ""
+"Você está usando %(name)s %(current)s, embora não seja suportado pelo Web "
+"GIS. É uma versão desatualizada que carece de recursos necessários. Contate "
+"seu administrador de sistema para atualizar para %(name)s %(required)s+ ou "
+"tente um navegador diferente."
+
+#: template/uacompat.mako:34
+msgid ""
+"If you still want to continue using the current browser, click the link "
+"below to bypass the compatibility test. The Web GIS or some features may "
+"degrade or fail  in this case."
+msgstr ""
+"Se você ainda quiser continuar usando o navegador atual, clique no link "
+"abaixo para ignorar o teste de compatibilidade. O Web GIS ou alguns recursos"
+" podem degradar ou falhar nesse caso."
+
+#: template/uacompat.mako:35
+msgid "I understood but want to proceed at my own risk. Skip the test!"
+msgstr ""
+"Eu entendi, mas quero prosseguir por minha conta e risco. Ignorar o teste!"
+
+#: template/uacompat.mako:37
+msgid "Unknown browser"
+msgstr "Navegador desconhecido"
+
+#: template/uacompat.mako:38
+msgid "If you are using an up-to-date browser the Web GIS should be fine."
+msgstr ""
+"Se você estiver usando um navegador atualizado, o Web GIS deve funcionar "
+"corretamente."
+
+#: tomb/config.py:95
+msgid "Parameter required"
+msgstr "Parâmetro obrigatório"
+
+#: tomb/config.py:96
+msgid "The '{}' query parameter is required."
+msgstr "O parâmetro de consulta '{}' é obrigatório."
+
+#: tomb/config.py:98
+msgid "Invalid parameter"
+msgstr "Parâmetro inválido"
+
+#: tomb/config.py:99
+msgid "The '{}' query parameter has an invalid value."
+msgstr "O parâmetro de consulta '{}' tem um valor inválido."
+
+#: view.py:157
+msgid "HTTP API documentation"
+msgstr "Documentação da API HTTP"
+
+#: view.py:190 view.py:605
+msgid "Storage"
+msgstr "Armazenamento"
+
+#: view.py:268 view.py:598
+msgid "Metrics and analytics"
+msgstr "Métricas e análises"

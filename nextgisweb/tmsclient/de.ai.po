@@ -1,0 +1,58 @@
+#: model.py:88
+msgid "API key required."
+msgstr "API-Schlüssel erforderlich."
+
+#: model.py:274
+msgid "Layer name required."
+msgstr "Layername erforderlich."
+
+#: amd/ngw-tmsclient/LayersDialog.js:25
+msgid "Select layer"
+msgstr "Layer auswählen"
+
+#: amd/ngw-tmsclient/LayersDialog.js:63
+msgid "OK"
+msgstr "OK"
+
+#: amd/ngw-tmsclient/LayersDialog.js:72
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
+msgid "Capmode"
+msgstr "Capmode"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
+msgid "NextGIS geoservices"
+msgstr "NextGIS Geodienste"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:15
+msgid "Choose a layer"
+msgstr "Layer auswählen"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+msgid "Coordinate system"
+msgstr "Koordinatensystem"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
+msgid "Left, deg."
+msgstr "Links, Grad"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
+msgid "Bottom, deg."
+msgstr "Unten, Grad"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
+msgid "Right, deg."
+msgstr "Rechts, Grad"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
+msgid "Top, deg."
+msgstr "Oben, Grad"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:75
+msgid "Tile size, px"
+msgstr "Kachelgröße, px"
+
+msgid "TMS capabilities"
+msgstr "TMS-Funktionen"

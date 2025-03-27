@@ -1,0 +1,67 @@
+#: nodepkg/arm/validate.ts:5
+msgid "Value required"
+msgstr "Valor requerido"
+
+#: nodepkg/arm/validate.ts:18
+msgid "Value should be at least {}"
+msgstr "El valor debe ser al menos {}"
+
+#: nodepkg/arm/validate.ts:19
+msgid "Value should be no more than {}"
+msgstr "El valor no debe ser más de {}"
+
+#: nodepkg/arm/validate.ts:21
+msgid "Invalid value"
+msgstr "Valor inválido"
+
+#: nodepkg/arm/validate.ts:22
+msgid "Value not unique"
+msgstr "Valor no único"
+
+#: nodepkg/arm/validate.ts:23
+msgid "Invalid URL"
+msgstr "URL inválida"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:79
+msgid "From layer"
+msgstr "De la capa"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:87
+msgid "West"
+msgstr "Oeste"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:98
+msgid "South"
+msgstr "Sur"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:107
+msgid "East"
+msgstr "Este"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:116
+msgid "North"
+msgstr "Norte"
+
+#: nodepkg/confirm.ts:45
+msgid "Failed to delete."
+msgstr "No se pudo eliminar."
+
+#: nodepkg/edi-table/RowAction.tsx:73
+msgid "Clone"
+msgstr "Clonar"
+
+#: nodepkg/edi-table/store/RecordItem.ts:35
+msgid "Key required"
+msgstr "Clave requerida"
+
+#: nodepkg/edi-table/store/RecordItem.ts:41
+msgid "Key not unique"
+msgstr "Clave no única"
+
+#: nodepkg/focus-table/action.tsx:13
+msgid "Add"
+msgstr "Agregar"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:252
+msgid "View"
+msgstr "Ver"

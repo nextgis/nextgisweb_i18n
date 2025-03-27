@@ -1,0 +1,51 @@
+#: model.py:88
+msgid "Tilesets"
+msgstr "Tilesety"
+
+#: model.py:118 nodepkg/resource-widget/Widget.tsx:38
+msgid "Tileset"
+msgstr "Tileset"
+
+#: model.py:203
+msgid "Number of tiles"
+msgstr "Počet dlaždic"
+
+#: model.py:205
+msgid "Zoom levels"
+msgstr "Úrovně přiblížení"
+
+#: model.py:206
+msgid "From {min} to {max}"
+msgstr "Od {min} do {max}"
+
+#: model.py:238
+msgid "Tiles '{}' and '{}' are located in different subdirectories."
+msgstr "Dlaždice '{}' a '{}' se nachází v různých podadresářích."
+
+#: model.py:244
+msgid "Tiles '{}' and '{}' have different extensions."
+msgstr "Dlaždice '{}' a '{}' mají různé přípony."
+
+#: model.py:301 model.py:310
+msgid "Unsupported data format."
+msgstr "Nepodporovaný formát dat."
+
+#: model.py:343
+msgid "Only 256x256 px tiles are supported."
+msgstr "Podporovány jsou pouze dlaždice 256x256 px."
+
+#: model.py:363
+msgid "No tiles found in source."
+msgstr "Ve zdroji nebyly nalezeny žádné dlaždice."
+
+#: nodepkg/resource-widget/Widget.tsx:15
+msgid "Select a tileset"
+msgstr "Vyberte tileset"
+
+#: nodepkg/resource-widget/Widget.tsx:16
+msgid ""
+"MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
+"JPEG format and have a size of 256x256 pixels."
+msgstr ""
+"Podporovány jsou MBTiles a ZIP archivy dlaždic. Dlaždice by měly být ve "
+"formátu PNG nebo JPEG a mít velikost 256x256 pixelů."

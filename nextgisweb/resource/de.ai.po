@@ -1,0 +1,320 @@
+#: amd/ngw-resource/CompositeWidget.js:296
+msgid "Validation failed"
+msgstr "Validierung ist fehlgeschlagen"
+
+#: amd/ngw-resource/ResourcePicker.js:29
+msgid "Select resource"
+msgstr "Ressource auswählen"
+
+#: amd/ngw-resource/ResourcePicker.js:70
+msgid "OK"
+msgstr "OK"
+
+#: amd/ngw-resource/ResourcePicker.js:79
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: api.py:195
+msgid "Resource parent required."
+msgstr "Eltern-Ressource erforderlich."
+
+#: api.py:200
+msgid "Resource class required."
+msgstr "Ressourcenklasse erforderlich."
+
+#: api.py:202
+msgid "Unknown resource class '%s'."
+msgstr "Unbekannte Ressourcenklasse '%s'."
+
+#: exception.py:27
+msgid ""
+"Modification of the '{attribute}' attribute requires the '{scope}: "
+"{permission}' permission."
+msgstr ""
+"Änderung des '{attribute}' Attributs erfordert die Genehmigung '{scope}: "
+"{permission}'."
+
+#: exception.py:33
+msgid "The '{attribute}' attribute is read-only and cannot be updated."
+msgstr ""
+"Das '{attribute}' Attribut ist schreibgeschützt und kann nicht aktualisiert "
+"werden."
+
+#: exception.py:40
+msgid "Interface not supported"
+msgstr "Schnittstelle nicht unterstützt"
+
+#: exception.py:72
+msgid "Quota exceeded"
+msgstr "Quota überschritten"
+
+#: exception.py:80
+msgid "Not enough resource quota: {0} required, but only {1} available."
+msgstr "Nicht genug Ressourcen-Quota: {0} benötigt, aber nur {1} verfügbar."
+
+#: exception.py:84
+msgid "Resource type - {}."
+msgstr "Ressourcentyp - {}."
+
+#: favorite/__init__.py:6
+msgid "Go to"
+msgstr "Gehe zu"
+
+#: favorite/__init__.py:7 nodepkg/favorite/FavoritePage.tsx:379
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: favorite/view.py:15 nodepkg/favorite/Avatar.tsx:54
+msgid "Favorites"
+msgstr "Favoriten"
+
+#: home.py:23
+msgid "User resources"
+msgstr "Benutzerressourcen"
+
+#: model.py:310
+msgid "Default style"
+msgstr "Standardstil"
+
+#: model.py:514
+msgid ""
+"Unable to revoke '{s}: {p}' permission for '{u}' as the user belongs to the "
+"administrators group. Administrators must always have ability to configure "
+"permissions of resources."
+msgstr ""
+"Es kann keine Genehmigung '{s}: {p}' für '{u}' entzogen werden, da der "
+"Benutzer zur Administratorengruppe gehört. Administratoren müssen immer die "
+"Möglichkeit haben, Berechtigungen für Ressourcen zu konfigurieren."
+
+#: nodepkg/children-section/ChildrenSection.tsx:105
+msgid "Created"
+msgstr "Erstellt"
+
+#: nodepkg/children-section/ChildrenSection.tsx:124
+msgid "Volume"
+msgstr "Volumen"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:100
+msgid "Moving resources"
+msgstr "Ressourcen verschieben"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:146
+msgid "Deleting resources"
+msgstr "Ressourcen löschen"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:171
+msgid "Turn off multiple selection"
+msgstr "Mehrfachauswahl ausschalten"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:172
+msgid "Select multiple resources"
+msgstr "Mehrere Ressourcen auswählen"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:182
+msgid "Hide resources volume"
+msgstr "Ressourcenmenge verbergen"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:183
+msgid "Show resources volume"
+msgstr "Ressourcenmenge anzeigen"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:194
+msgid "Hide resource creation date"
+msgstr "Erstellungsdatum der Ressource verbergen"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:195
+msgid "Show resource creation date"
+msgstr "Erstellungsdatum der Ressource anzeigen"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:218
+msgid "Not all of the selected can be deleted."
+msgstr "Nicht alle ausgewählten können gelöscht werden."
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:234
+msgid "Move"
+msgstr "Verschieben"
+
+#: nodepkg/children-section/component/MenuDropdown.tsx:253
+msgid "Export vector layers"
+msgstr "Vektorebenen exportieren"
+
+#: nodepkg/children-section/util/createResourceTableItemOptions.ts:7
+msgid "Change"
+msgstr "Ändern"
+
+#: nodepkg/children-section/util/forEachSelected.ts:8
+msgid "Operation in progress"
+msgstr "Vorgang in Bearbeitung"
+
+#: nodepkg/children-section/util/notify.ts:8
+msgid "Please confirm resource deletion. This action cannot be undone."
+msgstr ""
+"Bitte bestätigen Sie das Löschen der Ressource. Diese Aktion kann nicht "
+"rückgängig gemacht werden."
+
+#: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:31
+msgid "Create group"
+msgstr "Gruppe erstellen"
+
+#: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:32
+msgid "Clear selection"
+msgstr "Auswahl aufheben"
+
+#: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:17
+msgid "Go to initial group"
+msgstr "Zur ursprünglichen Gruppe gehen"
+
+#: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:18
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:18
+msgid "Pick this group"
+msgstr "Diese Gruppe auswählen"
+
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:19
+msgid "Pick selected"
+msgstr "Ausgewählte auswählen"
+
+#: nodepkg/delete-page/DeletePage.tsx:47
+msgid "Confirm deletion of the resource"
+msgstr "Löschen der Ressource bestätigen"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:13
+msgid "Identifier for API integration (optional)"
+msgstr "Kennung für API-Integration (optional)"
+
+#: nodepkg/export-settings/ExportSettings.tsx:36
+msgid "The setting is saved."
+msgstr "Die Einstellung wurde gespeichert."
+
+#: nodepkg/export-settings/ExportSettings.tsx:57
+msgid ""
+"Select the category of users who can use the \"Save as\" link to download "
+"resource data."
+msgstr ""
+"Wählen Sie die Kategorie der Benutzer aus, die den \"Speichern unter\"-Link "
+"zum Herunterladen von Ressourcendaten verwenden dürfen."
+
+#: nodepkg/export-settings/ExportSettings.tsx:67
+msgid "Users with \"Data: Read\" permission"
+msgstr "Benutzer mit der Berechtigung \"Daten: Lesen\""
+
+#: nodepkg/export-settings/ExportSettings.tsx:70
+msgid "Users with \"Data: Modify\" permission"
+msgstr "Benutzer mit der Berechtigung \"Daten: Bearbeiten\""
+
+#: nodepkg/export-settings/ExportSettings.tsx:73
+msgid "Administrators"
+msgstr "Administratoren"
+
+#: nodepkg/export-settings/ExportSettings.tsx:88
+msgid ""
+"* This will not affect REST API use which will continue to be governed by "
+"permissions."
+msgstr ""
+"* Dies wird die Nutzung der REST API nicht beeinträchtigen, die weiterhin "
+"durch Berechtigungen geregelt wird."
+
+#: nodepkg/external-access/ExternalAccess.tsx:11
+msgid "Read more"
+msgstr "Mehr lesen"
+
+#: nodepkg/favorite/FavoritePage.tsx:29
+msgid ""
+"No favorite resources have been added yet. Use the star icon ({}) in the "
+"user's context menu to add items here."
+msgstr ""
+"Es wurden noch keine Favoritenressourcen hinzugefügt. Verwenden Sie das "
+"Sternsymbol ({}) im Kontextmenü des Benutzers, um Elemente hier "
+"hinzuzufügen."
+
+#: nodepkg/favorite/FavoritePage.tsx:379
+msgid "Done"
+msgstr "Fertig"
+
+#: nodepkg/favorite/useFavorites.tsx:33
+msgid "Added to favorites"
+msgstr "Zu den Favoriten hinzugefügt"
+
+#: nodepkg/favorite/useFavorites.tsx:48
+msgid "Removed from favorites"
+msgstr "Aus den Favoriten entfernt"
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:13
+msgid "All fields are required"
+msgstr "Alle Felder sind erforderlich"
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:14
+msgid "Row conflicts with another"
+msgstr "Zeile steht im Konflikt mit einer anderen"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:22
+msgid "Apply to"
+msgstr "Anwenden auf"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:29
+msgid "This and subresources"
+msgstr "Diese und Unterressourcen"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:30
+msgid "This resource only"
+msgstr "Nur diese Ressource"
+
+#: nodepkg/resources-filter/ResourcesFilter.tsx:127
+msgid "Resources not found"
+msgstr "Ressourcen nicht gefunden"
+
+#: nodepkg/resources-filter/ResourcesFilter.tsx:132
+msgid "Search resources"
+msgstr "Ressourcen suchen"
+
+#: scope.py:16 scope.py:31 scope.py:41
+msgctxt "permission"
+msgid "Modify"
+msgstr "Ändern"
+
+#: scope.py:18
+msgctxt "permission"
+msgid "Manage subresources"
+msgstr "Unterressourcen verwalten"
+
+#: scope.py:19
+msgctxt "permission"
+msgid "Configure permissions"
+msgstr "Berechtigungen konfigurieren"
+
+#: scope.py:28
+msgid "Data structure"
+msgstr "Datenstruktur"
+
+#: scope.py:51
+msgid "Connection"
+msgstr "Verbindung"
+
+#: scope.py:54 scope.py:68
+msgctxt "permission"
+msgid "Configure"
+msgstr "Konfigurieren"
+
+#: scope.py:55
+msgctxt "permission"
+msgid "Use"
+msgstr "Verwenden"
+
+#: scope.py:65
+msgid "Service"
+msgstr "Dienst"
+
+#: scope.py:67
+msgctxt "permission"
+msgid "Access"
+msgstr "Zugriff"
+
+#: template/resource_section_external_access.mako:3
+msgid "External access"
+msgstr "Externer Zugriff"
+
+#: view.py:261 view.py:444
+msgid "Resource export"
+msgstr "Ressourcenexport"

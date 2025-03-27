@@ -1,0 +1,25 @@
+#: api.py:615
+msgid "Administrator required"
+msgstr "Se requiere administrador"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53
+#: nodepkg/user-widget/UserWidget.tsx:100
+msgid "Permissions"
+msgstr "Permisos"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:10
+msgid "Keep existing"
+msgstr "Mantener existente"
+
+#: permission.py:12
+msgid "View"
+msgstr "Ver"
+
+#: permission.py:13
+msgid "Manage"
+msgstr "Gestionar"
+
+#: view.py:133
+msgid "Team membership required"
+msgstr "Se requiere membresía de equipo"

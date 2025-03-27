@@ -1,0 +1,35 @@
+#: api.py:141
+msgid "System SRS cannot be deleted."
+msgstr "Systémové SRS nelze smazat."
+
+#: api.py:367
+msgid ""
+"SRS authority attributes must be defined while importing from the catalog."
+msgstr "Při importu z katalogu musí být definovány atributy autority SRS."
+
+#: api.py:392
+msgid "SRS #{} already exists."
+msgstr "SRS #{} již existuje."
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:94
+msgid "Show in catalog"
+msgstr "Zobrazit v katalogu"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:107
+#: nodepkg/srs-widget/SRSWidget.tsx:37
+msgid "Authority and code"
+msgstr "Autorita a kód"
+
+#: nodepkg/srs-browse/SrsBrowse.tsx:26
+msgid "Import from catalog"
+msgstr "Import z katalogu"
+
+#: pyramid.py:9
+msgid "Catalog not cofigured"
+msgstr "Katalog není nakonfigurován"
+
+#: pyramid.py:10
+msgid "The spatial reference system catalog is not configured on this server."
+msgstr ""
+"Katalog prostorových referenčních systémů není na tomto serveru "
+"nakonfigurován."

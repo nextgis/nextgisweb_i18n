@@ -1,0 +1,153 @@
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "Копирай в буфер"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "Копирано"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "Копирането е неуспешно"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:13
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "Въведете валидно значение на мащаба, пр. 1:"
+
+#: api.py:196
+msgid "Storage management is not enabled on this server."
+msgstr "Управлението на съхранението не е активирано на този сървър."
+
+#: api.py:406
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr ""
+"Параметърът на заявката '{}' не трябва да съдържа допълнителни стойности, "
+"ако е посочено 'all'."
+
+#: api.py:534
+msgid "Got an unsupported MIME type: '{}'."
+msgstr "Получен е неподдържан MIME тип: ''{}''."
+
+#: api.py:537
+msgid "64K should be enough for a logo."
+msgstr "64K трябва да бъдат достатъчни за лого."
+
+#: component.py:163
+msgid "Request timeout"
+msgstr "Изтичане на времето за заявката"
+
+#: lunkwill.py:25
+msgid "Lunkwill not enabled"
+msgstr "Lunkwill не е активиран"
+
+#: lunkwill.py:26
+msgid "The Lunkwill extension is not configured on this server."
+msgstr "Разширението Lunkwill не е конфигурирано на този сървър."
+
+#: nodepkg/layout/Avatar.tsx:23
+msgid "User settings"
+msgstr "Потребителски настройки"
+
+#: nodepkg/logo-form/LogoForm.tsx:6
+msgid "Only PNG and SVG images are supported."
+msgstr "Поддържат се само изображения в PNG и SVG формат."
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+msgid "Measurement ID"
+msgstr "Идентификатор за измерване"
+
+#: nodepkg/metrics/MetricSettings.tsx:19
+msgid "Add"
+msgstr "Добави"
+
+#: nodepkg/metrics/MetricSettings.tsx:20
+msgid "The setting is saved."
+msgstr "Настройката е запазена."
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+msgid "Reload the page to get them applied."
+msgstr "Презаредете страницата, за да приложите настройките."
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+msgid "Add one or more counters to your Web GIS."
+msgstr "Добавете един или повече броячи към вашия Web GIS."
+
+#: nodepkg/metrics/MetricSettings.tsx:26
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
+msgstr ""
+"HTML кодът на тези броячи ще бъде вграден на всяка страница и ще позволи "
+"проследяване на потребителската активност."
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+msgid "Tag number"
+msgstr "Номер на етикет"
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:51
+msgid "Webvisor"
+msgstr "Webvisor"
+
+#: nodepkg/metrics/tab.ts:31
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: nodepkg/metrics/tab.ts:38
+msgid "Yandex.Metrica"
+msgstr "Yandex.Metrica"
+
+#: nodepkg/storage-summary/StorageSummary.js:140
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr ""
+"Оценяването на използването на памет е приключено в %s и актуализирано в %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:146
+msgid "Storage usage was fully estimated at %s."
+msgstr "Оценяването на използването на памет е приключено в %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:151
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr "Използването на памет още не е оценено, но е актуализирано в %s."
+
+#: template/sysinfo.mako:80
+msgid "Browser support"
+msgstr "Поддръжка на браузър"
+
+#: template/sysinfo.mako:91
+msgid "or higher"
+msgstr "или по-нов"
+
+#: template/sysinfo.mako:93
+msgid "Not supported"
+msgstr "Не се поддържа"
+
+#: template/sysinfo.mako:105
+msgid "Your browser"
+msgstr "Вашият браузър"
+
+#: tomb/config.py:95
+msgid "Parameter required"
+msgstr "Изисква се параметър"
+
+#: tomb/config.py:96
+msgid "The '{}' query parameter is required."
+msgstr "Изисква се параметърът от заявката '{}'."
+
+#: tomb/config.py:98
+msgid "Invalid parameter"
+msgstr "Невалиден параметър"
+
+#: tomb/config.py:99
+msgid "The '{}' query parameter has an invalid value."
+msgstr "Параметърът от заявката '{}' има невалидна стойност."
+
+#: view.py:157
+msgid "HTTP API documentation"
+msgstr "HTTP API документация"
+
+#: view.py:268 view.py:598
+msgid "Metrics and analytics"
+msgstr "Метрики и анализи"

@@ -1,0 +1,45 @@
+#: exception.py:7
+msgid "Conversion from {} format not configured"
+msgstr "Conversão do formato {} não configurada"
+
+#: exception.py:15
+msgid "Conversion failed"
+msgstr "Falha na conversão"
+
+#: exception.py:16
+msgid ""
+"Unable to convert the file into 3D Tiles. There is some problem with the "
+"file or it may be corrupted during upload."
+msgstr ""
+"Não é possível converter o arquivo em 3D Tiles. Há algum problema com o "
+"arquivo ou ele pode ter sido corrompido durante o upload."
+
+#: model.py:37 nodepkg/editor-widget/EditorWidget.js:47 view.py:17
+msgid "3D tileset"
+msgstr "Conjunto de tiles 3D"
+
+#: model.py:56
+msgid "Filename '%s' is not valid."
+msgstr "O nome do arquivo '%s' não é válido."
+
+#: nodepkg/editor-widget/EditorWidget.js:11
+msgid ""
+"3D Tiles in ZIP archives and LAS/LAZ files are supported. File names in a "
+"ZIP archive must contain only ASCII characters. LAS/LAZ files will be "
+"converted into 3D Tiles."
+msgstr ""
+"3D Tiles em arquivos ZIP e arquivos LAS/LAZ são suportados. Os nomes de "
+"arquivos em um arquivo ZIP devem conter apenas caracteres ASCII. Arquivos "
+"LAS/LAZ serão convertidos em 3D Tiles."
+
+#: nodepkg/editor-widget/EditorWidget.js:33
+msgid "With terrain height"
+msgstr "Com altura do terreno"
+
+#: nodepkg/editor-widget/EditorWidget.js:35
+msgid "Z offset"
+msgstr "Deslocamento Z"
+
+#: view.py:23
+msgid "Export"
+msgstr "Exportar"

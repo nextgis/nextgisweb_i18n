@@ -1,0 +1,55 @@
+#: amd/ngw-tmsclient/LayersDialog.js:25
+msgid "Select layer"
+msgstr "Выбярыце слой"
+
+#: amd/ngw-tmsclient/LayersDialog.js:75
+msgid "OK"
+msgstr "Добра"
+
+#: amd/ngw-tmsclient/LayersDialog.js:84
+msgid "Cancel"
+msgstr "Адмяніць"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:9
+msgid "Capmode"
+msgstr "Рэжым Cap"
+
+#: amd/ngw-tmsclient/template/ConnectionWidget.hbs:12
+msgid "NextGIS geoservices"
+msgstr "Геасэрвісы NextGIS"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:15
+msgid "Choose a layer"
+msgstr "Выберыце слой"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:25
+msgid "Coordinate system"
+msgstr "Сістэма каардынат"
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:51
+msgid "Left, deg."
+msgstr "Лева, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:57
+msgid "Bottom, deg."
+msgstr "Унізе, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:63
+msgid "Right, deg."
+msgstr "Справа, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:69
+msgid "Top, deg."
+msgstr "Зверху, град."
+
+#: amd/ngw-tmsclient/template/LayerWidget.hbs:75
+msgid "Tile size, px"
+msgstr "Памер тайла, пікс"
+
+#: model.py:106
+msgid "API key required."
+msgstr "Патрабуецца ключ API."
+
+#: model.py:303
+msgid "Layer name required."
+msgstr "Патрабуецца назва слою."

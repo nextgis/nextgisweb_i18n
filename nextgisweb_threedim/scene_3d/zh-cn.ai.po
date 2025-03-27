@@ -1,0 +1,28 @@
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
+msgid "Add item"
+msgstr "添加项"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
+msgid "Add group"
+msgstr "添加群组"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
+msgid "Remove"
+msgstr "删除"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
+msgid "Select classification layer"
+msgstr "选择分类图层"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
+msgid "Style resource"
+msgstr "资源样式"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
+msgid "Default basemap"
+msgstr "默认底图"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:31
+msgid "Default terrain"
+msgstr "默认地形"

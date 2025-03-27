@@ -1,0 +1,344 @@
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "Скапіраваць у буфер абмену"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "Скапіравана"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "Немагчыма скапіраваць"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:13
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "Увядзіце правільнае значэнне шкалы, напр. 1:"
+
+#: api.py:196
+msgid "Storage management is not enabled on this server."
+msgstr "Кіраванне захоўваннем не ўключана на гэтым серверы."
+
+#: api.py:406
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr ""
+"Параметр запыту '{}' не павінен уключаць дадатковыя значэнні, калі ўказана "
+"'all'."
+
+#: api.py:534
+msgid "Got an unsupported MIME type: '{}'."
+msgstr "Атрыманы непадтрымліваючы тып MIME: ''{}''."
+
+#: api.py:537
+msgid "64K should be enough for a logo."
+msgstr "64K павінна быць дастаткова для лагатыпа."
+
+#: component.py:163
+msgid "Request timeout"
+msgstr "Перавышаны час запыту"
+
+#: component.py:166
+msgid "Enabled"
+msgstr "Уключана"
+
+#: component.py:166
+msgid "Disabled"
+msgstr "Адключана"
+
+#: exception.py:247
+msgid "Payment required"
+msgstr "Патрабуецца аплата"
+
+#: exception.py:248
+msgid "Access was denied for financial reasons."
+msgstr "Доступ адмоўлены па фінансавых прычынах."
+
+#: lunkwill.py:25
+msgid "Lunkwill not enabled"
+msgstr "Lunkwill не ўключаны"
+
+#: lunkwill.py:26
+msgid "The Lunkwill extension is not configured on this server."
+msgstr "Пашырэнне Lunkwill не канфігуравана на гэтым серверы."
+
+#: nodepkg/api/error.ts:59
+msgid "Unexpected error while processing long-running request."
+msgstr "Нечаканая памылка пры апрацоўцы доўгачасовага запыту."
+
+#: nodepkg/api/error.ts:60
+msgid "Long-running request error"
+msgstr "Памылка доўгачасовага запыту"
+
+#: nodepkg/api/error.ts:67
+msgid "Long-running request was cancelled."
+msgstr "Доўгачасовы запыт быў адменены."
+
+#: nodepkg/cors-settings/CORSSettings.tsx:58
+msgid "CORS settings updated"
+msgstr "Налады CORS абноўлены"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:63
+msgid "Fix the form errors first"
+msgstr "Спачатку выправіце памылкі ў форме"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:79
+msgid "The value entered is not valid"
+msgstr "Уведзенае значэнне не з'яўляецца сапраўдным"
+
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:41
+msgid "Custom styles saved. Reload the page to get them applied."
+msgstr "Карыстацкія стылі захаваны. Перазагрузіце старонку, каб прымяніць іх."
+
+#: nodepkg/home-path/HomePath.tsx:4
+msgid "The home path setting is saved."
+msgstr "Налада хатняга шляху захавана."
+
+#: nodepkg/layout/Avatar.tsx:20
+msgid "Invitation session"
+msgstr "Сесія запрашэння"
+
+#: nodepkg/layout/Avatar.tsx:23
+msgid "User settings"
+msgstr "Налады карыстальніка"
+
+#: nodepkg/logo-form/LogoForm.tsx:6
+msgid "Only PNG and SVG images are supported."
+msgstr "Падтрымліваюцца толькі выявы PNG і SVG."
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+msgid "Measurement ID"
+msgstr "Ідэнтыфікатар вымярэння"
+
+#: nodepkg/metrics/MetricSettings.tsx:19
+msgid "Add"
+msgstr "Дадаць"
+
+#: nodepkg/metrics/MetricSettings.tsx:20
+msgid "The setting is saved."
+msgstr "Налада захавана."
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+msgid "Reload the page to get them applied."
+msgstr "Перазагрузіце старонку, каб прымяніць іх."
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+msgid "Add one or more counters to your Web GIS."
+msgstr "Дадайце адзін або некалькі лічыльнікаў у вашу Вэб ГІС."
+
+#: nodepkg/metrics/MetricSettings.tsx:26
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
+msgstr ""
+"HTML-код гэтых лічыльнікаў будзе ўбудаваны на кожную старонку і дазволіць "
+"адсочваць актыўнасць карыстальнікаў."
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+msgid "Tag number"
+msgstr "Нумар тэга"
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:51
+msgid "Webvisor"
+msgstr "Webvisor"
+
+#: nodepkg/metrics/tab.ts:31
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: nodepkg/metrics/tab.ts:38
+msgid "Yandex.Metrica"
+msgstr "Yandex.Metrica"
+
+#: nodepkg/storage-summary/StorageSummary.js:96
+msgid "Kind of data"
+msgstr "Тып дадзеных"
+
+#: nodepkg/storage-summary/StorageSummary.js:102
+msgid "Volume"
+msgstr "Аб'ём"
+
+#: nodepkg/storage-summary/StorageSummary.js:118
+msgid "Total"
+msgstr "Агульная колькасць"
+
+#: nodepkg/storage-summary/StorageSummary.js:123
+msgid "of"
+msgstr "з"
+
+#: nodepkg/storage-summary/StorageSummary.js:140
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr "Выкарыстанне сховішча было поўнасцю ацэнена ў %s і абноўлена ў %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:146
+msgid "Storage usage was fully estimated at %s."
+msgstr "Выкарыстанне сховішча было поўнасцю ацэнена ў %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:151
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr "Выкарыстанне сховішча яшчэ не было ацэнена, але было абноўлена ў %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:155
+msgid "Storage usage hasn't been estimated yet."
+msgstr "Выкарыстанне сховішча яшчэ не ацэнена."
+
+#: nodepkg/storage-summary/StorageSummary.js:160
+msgid "Some changes may be reflected only after full estimation."
+msgstr "Некаторыя змены могуць адлюстроўвацца толькі пасля поўнай ацэнкі."
+
+#: nodepkg/storage-summary/StorageSummary.js:184
+msgid "Estimate storage"
+msgstr "Ацаніць сховішча"
+
+#: nodepkg/system-name-form/SystemNameForm.tsx:4
+msgid "The system name setting is saved."
+msgstr "Налада назвы сістэмы захавана."
+
+#: nodepkg/update/index.js:56
+msgid "Critical updates are available"
+msgstr "Даступныя крытычныя абнаўленні"
+
+#: nodepkg/update/index.js:57
+msgid "Updates are available"
+msgstr "Даступныя абнаўленні"
+
+#: nodepkg/update/index.js:59
+msgid "Click to see what's new"
+msgstr "Націсніце, каб паглядзець, што новага"
+
+#: nodepkg/update/sysinfo.js:14
+msgid "Checking for updates..."
+msgstr "Праверка на абнаўленні..."
+
+#: nodepkg/update/sysinfo.js:16
+msgid "Show details"
+msgstr "Паказаць падрабязнасці"
+
+#: nodepkg/update/sysinfo.js:20
+msgid ""
+"Critical updates are available: {version}. Please consider updating an soon "
+"as possible."
+msgstr ""
+"Даступныя крытычныя абнаўленні: {version}. Калі ласка, абнавіце як мага "
+"хутчэй."
+
+#: nodepkg/update/sysinfo.js:21
+msgid "New version of {distribution} is available: {version}."
+msgstr "Даступная новая версія {distribution}: {version}."
+
+#: template/sysinfo.mako:80
+msgid "Browser support"
+msgstr "Падтрымка браўзера"
+
+#: template/sysinfo.mako:91
+msgid "or higher"
+msgstr "або вышэй"
+
+#: template/sysinfo.mako:93
+msgid "Not supported"
+msgstr "Не падтрымліваецца"
+
+#: template/sysinfo.mako:105
+msgid "Your browser"
+msgstr "Ваш браўзер"
+
+#: template/uacompat.mako:3
+msgid "Browser compatibility test"
+msgstr "Тэст на сумяшчальнасць браўзера"
+
+#: template/uacompat.mako:22
+msgid "%(name)s %(current)s supported"
+msgstr "%(name)s %(current)s падтрымліваецца"
+
+#: template/uacompat.mako:23
+msgid ""
+"Web GIS browser compatibility test has been passed! The Web GIS should work "
+"fine."
+msgstr ""
+"Тэст на сумяшчальнасць браўзера Web GIS пройдзены! Web GIS павінна працаваць"
+" добра."
+
+#: template/uacompat.mako:26
+msgid "%(name)s not supported"
+msgstr "%(name)s не падтрымліваецца"
+
+#: template/uacompat.mako:27
+msgid ""
+"You're using %(name)s although it's not supported by the Web GIS. It's an "
+"outdated browser lacking required features. Try a different browser or "
+"contact your system administrator if another browser isn't available."
+msgstr ""
+"Вы выкарыстоўваеце %(name)s, хаця ён не падтрымліваецца Web GIS. Гэта "
+"састарэлы браузэр, у якім адсутнічаюць неабходныя функцыі. Паспрабуйце іншы "
+"браузэр або звярніцеся да свайго сістэмнага адміністратара, калі іншы "
+"браузэр недаступны."
+
+#: template/uacompat.mako:29
+msgid "%(name)s %(current)s not supported"
+msgstr "%(name)s %(current)s не падтрымліваецца"
+
+#: template/uacompat.mako:30
+msgid ""
+"You're using %(name)s %(current)s although it's not supported by the Web "
+"GIS. It's an outdated version lacking required features. Contact your system"
+" administrator for upgrading to %(name)s %(required)s+ or try a different "
+"browser."
+msgstr ""
+"Вы выкарыстоўваеце %(name)s %(current)s, хаця ён не падтрымліваецца Web GIS."
+" Гэта састарэлая версія, у якой адсутнічаюць неабходныя функцыі. Звярніцеся "
+"да свайго сістэмнага адміністратара, каб абнавіцца да %(name)s %(required)s+"
+" або паспрабуйце іншы браузэр."
+
+#: template/uacompat.mako:34
+msgid ""
+"If you still want to continue using the current browser, click the link "
+"below to bypass the compatibility test. The Web GIS or some features may "
+"degrade or fail  in this case."
+msgstr ""
+"Калі вы ўсё яшчэ жадаеце працягваць выкарыстоўваць бягучы браузэр, націсніце"
+" на спасылку ніжэй, каб абыйсці тэст сумяшчальнасці. У гэтым выпадку Web GIS"
+" або некаторыя функцыі могуць працуець не належным чынам або наогул не "
+"працаваць."
+
+#: template/uacompat.mako:35
+msgid "I understood but want to proceed at my own risk. Skip the test!"
+msgstr "Я зразумеў, але хачу працягнуць на ўласны рызыку. Прапусціць тэст!"
+
+#: template/uacompat.mako:37
+msgid "Unknown browser"
+msgstr "Невядомы браузэр"
+
+#: template/uacompat.mako:38
+msgid "If you are using an up-to-date browser the Web GIS should be fine."
+msgstr ""
+"Калі вы выкарыстоўваеце сучасны браузэр, Web GIS павінен працаваць належным "
+"чынам."
+
+#: tomb/config.py:95
+msgid "Parameter required"
+msgstr "Неабходны параметр"
+
+#: tomb/config.py:96
+msgid "The '{}' query parameter is required."
+msgstr "Неабходны параметр запыту '{}'."
+
+#: tomb/config.py:98
+msgid "Invalid parameter"
+msgstr "Няправільны параметр"
+
+#: tomb/config.py:99
+msgid "The '{}' query parameter has an invalid value."
+msgstr "Параметр запыту '{}' мае няправільнае значэнне."
+
+#: view.py:157
+msgid "HTTP API documentation"
+msgstr "Дакументацыя HTTP API"
+
+#: view.py:190 view.py:605
+msgid "Storage"
+msgstr "Сховішча"
+
+#: view.py:268 view.py:598
+msgid "Metrics and analytics"
+msgstr "Метрыка і аналітыка"

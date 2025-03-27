@@ -1,0 +1,35 @@
+#: model.py:16 nodepkg/service-widget/ServiceWidget.tsx:103
+msgid "OGC API Features service"
+msgstr "service OGC API Features"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:27
+msgid "Display name"
+msgstr "Nom d'affichage"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:32
+msgid "Keyname"
+msgstr "Nom de la clé"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:37
+msgid "Features per request"
+msgstr "Éléments par demande"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:42
+msgid "Not set"
+msgstr "Non défini"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:47
+msgid "Resource"
+msgstr "Ressource"
+
+#: view.py:16
+msgid "OGC API Features"
+msgstr "Service OGC API Features"
+
+#: view.py:17
+msgid ""
+"OGC API Features provides API building blocks to create, modify and query "
+"features on the Web."
+msgstr ""
+"OGC API Features fournit des blocs de construction API pour créer, modifier "
+"et interroger des éléments sur le Web."

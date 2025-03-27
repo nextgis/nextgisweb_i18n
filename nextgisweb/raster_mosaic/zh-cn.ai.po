@@ -1,0 +1,7 @@
+#: nodepkg/resource-widget/Store.ts:73
+msgid "File '{}' has an invalid extension."
+msgstr "文件'{}'的扩展名无效。"
+
+#: nodepkg/resource-widget/Widget.tsx:64
+msgid "Rasters"
+msgstr "栅格"

@@ -1,0 +1,28 @@
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
+msgid "Add item"
+msgstr "Добави елемент"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
+msgid "Add group"
+msgstr "Добави група"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
+msgid "Remove"
+msgstr "Премахни"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
+msgid "Select classification layer"
+msgstr "Избери слой за класификация"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
+msgid "Style resource"
+msgstr "Ресурс на стил"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
+msgid "Default basemap"
+msgstr "Базова карта по подразбиране"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:31
+msgid "Default terrain"
+msgstr "Терен по подразбиране"

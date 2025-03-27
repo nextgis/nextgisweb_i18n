@@ -1,0 +1,484 @@
+#: amd/ngw-webmap/Display.js:853
+msgid "Object not found"
+msgstr "对象未找到"
+
+#: amd/ngw-webmap/Display.js:854
+msgid "Object from URL parameters not found"
+msgstr "未找到来自 URL 参数的对象"
+
+#: amd/ngw-webmap/ItemWidget.js:97 amd/ngw-webmap/template/ItemWidget.hbs:40
+msgid "Layer order"
+msgstr "图层顺序"
+
+#: amd/ngw-webmap/ItemWidget.js:174
+msgid "Use on the map"
+msgstr "在地图上使用"
+
+#: amd/ngw-webmap/ItemWidget.js:395 amd/ngw-webmap/template/ItemWidget.hbs:25
+msgid "Add group"
+msgstr "添加群组"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:7
+#: nodepkg/panel/print/PrintPanel.tsx:481
+#: nodepkg/settings-widget/SettingsWidget.tsx:22
+#: nodepkg/settings/SettingsForm.js:277
+msgid "Legend"
+msgstr "图例"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:9
+#: nodepkg/settings-widget/SettingsWidget.tsx:30
+#: nodepkg/settings/select-options.js:92
+msgid "Default"
+msgstr "默认"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:10
+#: nodepkg/settings-widget/SettingsWidget.tsx:38
+#: nodepkg/settings/select-options.js:93
+msgid "Expand"
+msgstr "展开"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:11
+#: nodepkg/settings-widget/SettingsWidget.tsx:39
+#: nodepkg/settings/select-options.js:94
+msgid "Collapse"
+msgstr "收缩"
+
+#: amd/ngw-webmap/form/LegendSymbolsSelect.js:12
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
+#: nodepkg/settings/select-options.js:95
+msgid "Disable"
+msgstr "禁用"
+
+#: amd/ngw-webmap/layers/annotations/AnnotationFeature.js:132
+msgid "Private annotation"
+msgstr "私人注释"
+
+#: amd/ngw-webmap/plugin/LayerEditor.js:142
+msgid "Stop editing"
+msgstr "停止编辑"
+
+#: amd/ngw-webmap/plugin/LayerEditor.js:143
+#: nodepkg/panel/annotations/AnnotationsPanel.js:86
+msgid "Edit"
+msgstr "编辑"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:14
+msgid "Add layer"
+msgstr "添加图层"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:18
+msgid "Select layer's style"
+msgstr "选择图层样式"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:32
+msgid "Remove"
+msgstr "删除"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:114
+msgid "Style resource"
+msgstr "样式资源"
+
+#: amd/ngw-webmap/template/ItemWidget.hbs:136
+msgid "Exclusive"
+msgstr "唯一的"
+
+#: amd/ngw-webmap/tool/Identify.js:289
+msgid "Geometry"
+msgstr "几何图形"
+
+#: amd/ngw-webmap/tool/Identify.js:548
+msgid "Features"
+msgstr "要素"
+
+#: amd/ngw-webmap/tool/Measure.js:235
+msgid "Double click to finish."
+msgstr "双击完成"
+
+#: amd/ngw-webmap/tool/Rotate.js:9
+msgid "Rotate"
+msgstr "转弯"
+
+#: amd/ngw-webmap/tool/ViewerInfo.js:16
+msgid "Show cursor coordinates / extent"
+msgstr "显示滚鼠坐标 / 范围"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:10
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:46
+msgid "Please enter a numeric value"
+msgstr "请输入数值"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:11
+msgid "Invalid width: should be from 0 to 20 px"
+msgstr "无效宽度:应该是0-20像素"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:13
+msgid "Stroke width, px"
+msgstr "描边宽度，像素"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:18
+msgid "Stroke color"
+msgstr "描边颜色"
+
+#: amd/ngw-webmap/ui/AnnotationsDialog/AnnotationsSettings.hbs:47
+msgid "Invalid width: should be from 1 to 100 px"
+msgstr "无效宽度：应该为1-100像素"
+
+#: favorite.py:10
+msgid "Fragment"
+msgstr "片段"
+
+#: model.py:42
+msgctxt "permission"
+msgid "Draw annotations"
+msgstr "绘制注释"
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:336
+msgid "Clone"
+msgstr "克隆"
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:77
+msgid "Resource group"
+msgstr "资源群组"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:61
+msgid "Radius:"
+msgstr "半径："
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:82
+msgid "Circle"
+msgstr "圆形"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:89
+#: nodepkg/panel/annotations/AnnotationsPanel.js:109
+msgid "Line"
+msgstr "线条"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:95
+msgid "Rectangle"
+msgstr "矩形"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:102
+#: nodepkg/panel/annotations/AnnotationsPanel.js:113
+#: nodepkg/utils/geometry-types.ts:15
+msgid "Polygon"
+msgstr "多边形"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+msgid "Hide"
+msgstr "隐藏"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+msgid "Show"
+msgstr "显示"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:125
+msgid "Zoom to filtering geometry"
+msgstr "缩放到过滤几何"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:130
+msgid "Clear filtering geometry"
+msgstr "清除过滤几何"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:136
+msgid "Draw filtering geometry"
+msgstr "绘制过滤几何"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:137
+msgid "Change filtering geometry"
+msgstr "更改过滤几何"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:138
+msgid "Stop drawing..."
+msgstr "停止绘制..."
+
+#: nodepkg/layer-opacity-slider/LayerOpacitySlider.tsx:8
+msgid "Opacity"
+msgstr "不透明度"
+
+#: nodepkg/layers-tree/LegendAction.tsx:10
+msgid "Show legend"
+msgstr "显示图例"
+
+#: nodepkg/layers-tree/LegendAction.tsx:11
+msgid "Hide legend"
+msgstr "隐藏图例"
+
+#: nodepkg/map-controls/map-controls.ts:85
+msgid "Scale line"
+msgstr "比例尺线"
+
+#: nodepkg/map-controls/map-controls.ts:97
+msgid "Info scale"
+msgstr "信息比例"
+
+#: nodepkg/map-controls/map-controls.ts:128
+msgid "Identification"
+msgstr "标识"
+
+#: nodepkg/map-controls/map-tools.ts:68
+msgid "Cursor coordinates / extent"
+msgstr "光标坐标 / 范围"
+
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
+msgid "Show extent"
+msgstr "显示范围"
+
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:88
+msgid "Show cursor coordinates"
+msgstr "显示光标坐标"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:99
+msgid "Geometry type"
+msgstr "几何类型"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:106
+#: nodepkg/utils/geometry-types.ts:6
+msgid "Point"
+msgstr "点"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:135
+msgid "Annotations layer"
+msgstr "注释图层"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:138
+msgid "Show annotations"
+msgstr "显示注释"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:144
+msgid "No"
+msgstr "否"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:145
+msgid "Yes"
+msgstr "是"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.js:148
+msgid "With messages"
+msgstr "包含消息"
+
+#: nodepkg/panel/layers/LayersDropdown.js:12
+msgid "Zoom to all layers"
+msgstr "缩放至所有图层"
+
+#: nodepkg/panel/print/PrintPanel.tsx:231
+msgid "Custom scale"
+msgstr "自定义比例"
+
+#: nodepkg/panel/print/PrintPanel.tsx:475
+msgid "Elements"
+msgstr "元素"
+
+#: nodepkg/panel/print/PrintPanel.tsx:494
+msgid "Number of legend columns"
+msgstr "图例列数"
+
+#: nodepkg/panel/print/PrintPanel.tsx:503
+msgid "Title"
+msgstr "标题"
+
+#: nodepkg/panel/print/PrintPanel.tsx:506
+msgid "Map title text"
+msgstr "地图标题文本"
+
+#: nodepkg/panel/print/PrintPanel.tsx:524
+msgid "North Arrow"
+msgstr "北箭"
+
+#: nodepkg/panel/print/PrintPanel.tsx:572
+msgid "Copy link to the print map"
+msgstr "复制打印地图的链接"
+
+#: nodepkg/panel/print/options.tsx:11
+msgid "Portrait"
+msgstr "纵向"
+
+#: nodepkg/panel/print/options.tsx:12
+msgid "Landscape"
+msgstr "横向"
+
+#: nodepkg/panel/print/options.tsx:73
+msgid "TIFF"
+msgstr "TIFF"
+
+#: nodepkg/panel/print/options.tsx:74
+msgid "PDF"
+msgstr "PDF"
+
+#: nodepkg/panel/search/SearchPanel.js:328
+msgid "Refine search criterion. Displayed first 100 search results."
+msgstr "优化搜索条件。显示前100个搜索结果。"
+
+#: nodepkg/panel/search/SearchPanel.js:361
+msgid "Enter at least 2 characters"
+msgstr "输入至少2个字符"
+
+#: nodepkg/panel/share/SharePanel.js:35
+msgid "Add web map fragment to favorites"
+msgstr "将网络地图片段添加到收藏夹"
+
+#: nodepkg/panel/share/SharePanel.js:88
+msgid "Select tools"
+msgstr "选择工具"
+
+#: nodepkg/panel/share/SharePanel.js:104
+msgid "Select panels"
+msgstr "选择面板"
+
+#: nodepkg/panel/share/SharePanel.js:112
+msgid "None"
+msgstr "无"
+
+#: nodepkg/panel/share/SharePanel.js:259
+msgid "Active panel"
+msgstr "活动面板"
+
+#: nodepkg/panel/share/SharePanel.js:285
+msgid "Map link"
+msgstr "地图链接"
+
+#: nodepkg/panel/share/SharePanel.js:293
+msgid "The map link copied to clipboard."
+msgstr "地图链接已复制到剪贴板"
+
+#: nodepkg/panel/share/SharePanel.js:297
+msgid "Copy link"
+msgstr "复制链接"
+
+#: nodepkg/panel/share/SharePanel.js:333
+msgid "Optional fragment label"
+msgstr "可选片段标签"
+
+#: nodepkg/panel/share/SharePanel.js:359
+msgid "px"
+msgstr "像素"
+
+#: nodepkg/panel/share/SharePanel.js:362
+msgid "Map tools"
+msgstr "地图工具"
+
+#: nodepkg/panel/share/SharePanel.js:366
+msgid "Panels"
+msgstr "面板"
+
+#: nodepkg/panel/share/SharePanel.js:394
+msgid "Embed code"
+msgstr "嵌入代码"
+
+#: nodepkg/panel/share/SharePanel.js:407
+msgid "The embed code copied to clipboard."
+msgstr "嵌入代码已复制到剪贴板"
+
+#: nodepkg/panel/share/SharePanel.js:411
+msgid "Copy code"
+msgstr "复制代码"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:21
+msgid "Constraining extent"
+msgstr "约束范围"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
+msgid "Select mode"
+msgstr "选择模式"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:26
+msgid "Select resource"
+msgstr "选择资源"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:27
+#: nodepkg/settings/SettingsForm.js:189
+msgid "Measurement SRS"
+msgstr "测量空间参考系统"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:28
+msgid "Layers editing"
+msgstr "图层编辑"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:33
+msgid "Web map will start at this extent"
+msgstr "网络地图将从此范围开始"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:34
+msgid "Web map will not allow to move outside of this extent"
+msgstr "Web map 将不允许移动到此范围之外"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:44
+msgid "Hide by default"
+msgstr "默认隐藏"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:45
+msgid "Show without messages"
+msgstr "显示但不提示消息"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:46
+msgid "Show with messages"
+msgstr "显示并提示消息"
+
+#: nodepkg/settings/SettingsForm.js:54
+msgid "General"
+msgstr "常规"
+
+#: nodepkg/settings/SettingsForm.js:67
+msgid "Hide navigation menu for guest"
+msgstr "为访客隐藏导航菜单"
+
+#: nodepkg/settings/SettingsForm.js:75
+msgid "Identify popup"
+msgstr "识别窗口"
+
+#: nodepkg/settings/SettingsForm.js:144
+msgid "Show geometry info"
+msgstr "显示几何信息"
+
+#: nodepkg/settings/SettingsForm.js:288
+msgid "Visibility"
+msgstr "可见度"
+
+#: nodepkg/utils/geometry-types.ts:9
+msgid "LineString"
+msgstr "线串"
+
+#: nodepkg/utils/geometry-types.ts:12
+msgid "LinearRing"
+msgstr "线环"
+
+#: nodepkg/utils/geometry-types.ts:18
+msgid "MultiPoint"
+msgstr "多点"
+
+#: nodepkg/utils/geometry-types.ts:21
+msgid "MultiLineString"
+msgstr "多线串"
+
+#: nodepkg/utils/geometry-types.ts:24
+msgid "MultiPolygon"
+msgstr "多多边形"
+
+#: nodepkg/utils/geometry-types.ts:27
+msgid "GeometryCollection"
+msgstr "几何集合"
+
+#: nodepkg/webmap-tabs/WebMapTabs.tsx:16
+msgid "Loading"
+msgstr "加载中"
+
+#: nodepkg/zoom-to-filtered-btn/ZoomToFilteredBtn.tsx:20
+msgid "Zoom to filtered features"
+msgstr "缩放到筛选后的要素"
+
+#: template/preview_embedded.mako:15
+msgid "This page is for a preview of the web map to be embedded on the site."
+msgstr "此页面用于预览将嵌入站点的 web map。"
+
+#: template/preview_embedded.mako:16
+msgid ""
+"Most likely, you went from the \"Share\" section of the web map and "
+"refreshed the page."
+msgstr "很可能，您从 web map 的“分享”部分刷新了页面。"
+
+#: template/preview_embedded.mako:17
+msgid "To generate a preview, go back to the web map page and click \"Preview\"."
+msgstr "要生成预览，请返回 web map 页面并点击“预览”。"
+
+#: view.py:262
+msgid "Clone web map"
+msgstr "克隆网络地图"

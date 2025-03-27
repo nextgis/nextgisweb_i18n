@@ -1,0 +1,28 @@
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:14
+msgid "Add item"
+msgstr "Přidat položku"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:25
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.js:154
+msgid "Add group"
+msgstr "Přidat skupinu"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:32
+msgid "Remove"
+msgstr "Odstranit"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:72
+msgid "Select classification layer"
+msgstr "Vyberte klasifikační vrstvu"
+
+#: amd/ngw-scene-3d/resource/Scene3dItemsEditor/Scene3dItemsEditor.hbs:82
+msgid "Style resource"
+msgstr "Styl zdroje"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
+msgid "Default basemap"
+msgstr "Výchozí základní mapa"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:31
+msgid "Default terrain"
+msgstr "Výchozí terén"

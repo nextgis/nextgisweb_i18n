@@ -1,0 +1,27 @@
+#: interface.py:17
+msgid "Sphere"
+msgstr "球"
+
+#: interface.py:18
+msgid "Ellipsoid"
+msgstr "椭球"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:143
+msgid "POI icon"
+msgstr "POI 图标"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:312
+msgid "Radius"
+msgstr "半径"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:358
+msgid "Length"
+msgstr "长度"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:369
+msgid "Width"
+msgstr "宽度"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:393
+msgid "Z offset"
+msgstr "Z 偏移"

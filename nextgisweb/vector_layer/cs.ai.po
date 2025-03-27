@@ -1,0 +1,85 @@
+#: model.py:748
+msgid "Unknown 'fix_errors' value."
+msgstr "Neznámá hodnota „fix_errors“."
+
+#: model.py:756
+msgid "Unknown 'cast_geometry_type' value."
+msgstr "Neznámá hodnota „cast_geometry_type“."
+
+#: model.py:761
+msgid "Unknown 'cast_is_multi' value."
+msgstr "Neznámá hodnota „cast_is_multi“."
+
+#: model.py:766
+msgid "Unknown 'cast_has_z' value."
+msgstr "Neznámá hodnota „cast_has_z“."
+
+#: model.py:771
+msgid "Unknown 'fid_source' value."
+msgstr "Neznámá hodnota 'fid_source'."
+
+#: model.py:794
+msgid "Unsupported geometry type."
+msgstr "Nepodporovaný typ geometrie."
+
+#: nodepkg/resource-widget/Store.tsx:168
+msgid "Confirm deletion of existing features"
+msgstr "Potvrďte smazání stávajících funkcí"
+
+#: nodepkg/resource-widget/Store.tsx:175
+msgid "Confirm change of geometry type"
+msgstr "Potvrďte změnu typu geometrie"
+
+#: nodepkg/resource-widget/Widget.tsx:34
+msgid ""
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are"
+" supported. For CSV and XLSX only points are supported, coordinates must be "
+"put in lat and lot columns."
+msgstr ""
+"Podporované formáty jsou ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, "
+"KML, CSV nebo XLSX. Pro CSV a XLSX jsou podporovány pouze body, souřadnice "
+"musí být uvedeny ve sloupcích lat a lon."
+
+#: nodepkg/resource-widget/Widget.tsx:45
+msgid "Whenever possible"
+msgstr "Kdykoliv je to možné"
+
+#: nodepkg/resource-widget/Widget.tsx:114
+msgid "Only load features of the selected geometry type"
+msgstr "Načíst pouze prvky vybraného typu geometrie"
+
+#: nodepkg/resource-widget/Widget.tsx:151
+msgid "Load features from file"
+msgstr "Načíst funkce ze souboru"
+
+#: nodepkg/resource-widget/Widget.tsx:152
+msgid "Create empty layer"
+msgstr "Vytvořit prázdnou vrstvu"
+
+#: nodepkg/resource-widget/Widget.tsx:154
+msgid "Keep existing layer features"
+msgstr "Zachovat stávající funkce vrstvy"
+
+#: nodepkg/resource-widget/Widget.tsx:155
+msgid "Change geometry type"
+msgstr "Změnit typ geometrie"
+
+#: nodepkg/resource-widget/Widget.tsx:156
+msgid "Replace layer features from file"
+msgstr "Nahradit funkce vrstvy ze souboru"
+
+#: nodepkg/resource-widget/Widget.tsx:157
+msgid "Delete all features from layer"
+msgstr "Smazat všechny funkce z vrstvy"
+
+#: nodepkg/resource-widget/Widget.tsx:173
+msgid "current"
+msgstr "aktuální"
+
+#: ogrloader.py:603
+msgid "Feature #%d doesn't have geometry."
+msgstr "Objekt #%d nemá geometrii."
+
+#: ogrloader.py:701
+msgid "Feature #%d has empty rings."
+msgstr "Funkce #%d má prázdné kružnice."

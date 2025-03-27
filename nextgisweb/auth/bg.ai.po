@@ -1,0 +1,164 @@
+#: api.py:160
+msgid "Password is not set."
+msgstr "Паролата не е зададена."
+
+#: api.py:615
+msgid "Administrator required"
+msgstr "Изисква се администратор"
+
+#: exception.py:22
+msgid "Invalid authorization link"
+msgstr "Невалиден линк за оторизация"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:31
+#: nodepkg/group-widget/GroupWidget.tsx:59
+msgid "New users"
+msgstr "Нови потребители"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:27
+msgid "Yes"
+msgstr "Да"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:28
+msgid "No"
+msgstr "Не"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53
+#: nodepkg/user-widget/UserWidget.tsx:100
+msgid "Permissions"
+msgstr "Разрешения"
+
+#: nodepkg/group-widget/GroupWidget.tsx:65
+msgid "{dn} mapping"
+msgstr "Мапинг на {dn}"
+
+#: nodepkg/login/LoginForm.tsx:20
+msgid "Sign in with {}"
+msgstr "Влезте с {}"
+
+#: nodepkg/login/LoginForm.tsx:94
+msgid "or using login and password"
+msgstr "или използвайки логин и парола"
+
+#: nodepkg/oauth.tsx:26
+msgid "Manage team"
+msgstr "Управление на екип"
+
+#: nodepkg/settings-form/SettingsForm.tsx:27
+msgid "Account bound"
+msgstr "Акаунтът е свързан"
+
+#: nodepkg/settings-form/SettingsForm.tsx:38
+msgid "Bind account"
+msgstr "Свържете акаунт"
+
+#: nodepkg/settings-form/SettingsForm.tsx:40
+msgid "Account not bound"
+msgstr "Акаунтът не е свързан"
+
+#: nodepkg/user-browse/UserBrowse.tsx:34
+msgid "Users with a password can sign in with login and password."
+msgstr "Потребители с парола могат да влязат с логин и парола."
+
+#: nodepkg/user-browse/UserBrowse.tsx:35
+msgid "Users bound to {dn} can sign in with {dn}."
+msgstr "Потребители свързани с {dn} могат да влязат с {dn}."
+
+#: nodepkg/user-browse/UserBrowse.tsx:122
+msgid ""
+"Your team members won't be shown here until their first logon. Set \"New "
+"users\" flag for a group to automatically assign new user to this group. You"
+" may also modify permission for authenticated users to manage access for "
+"your team members."
+msgstr ""
+"Членовете на вашия екип няма да се покажат тук до първото им влизане. "
+"Задайте флага „Нови потребители“ за група, за да назначите автоматично нов "
+"потребител в тази група. Можете също да промените разрешението за "
+"проверените потребители, за да управлявате достъпа до вашите екипни членове."
+
+#: nodepkg/user-widget/UserWidget.tsx:77
+msgid "Authorization link"
+msgstr "Линк за оторизация"
+
+#: nodepkg/user-widget/UserWidget.tsx:126
+msgid ""
+"Consider adding {name} user to your team instead of creating a new user with"
+" a password."
+msgstr ""
+"Разгледайте възможността да добавите потребител {name} към вашия екип, "
+"вместо да създавате нов потребител с парола."
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:10
+msgid "Keep existing"
+msgstr "Запазете съществуващите"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
+#: nodepkg/user-widget/UserWidgetPassword.tsx:14
+msgid "Assign new"
+msgstr "Задайте ново"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
+#: nodepkg/user-widget/UserWidgetPassword.tsx:20
+msgid "Turn off"
+msgstr "Изключване"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
+msgid "The generated link will be available after saving."
+msgstr "Генерираният линк ще бъде достъпен след запазване."
+
+#: nodepkg/user-widget/UserWidgetPassword.tsx:19
+msgid "{name} only"
+msgstr "само {name}"
+
+#: oauth.py:323
+msgid "{} binding error"
+msgstr "грешка при свързване на {}"
+
+#: oauth.py:324
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log"
+" in using this account instead of binding it."
+msgstr ""
+"Този {dn} акаунт ({sub}) вече е свързан с друг потребител ({id}). Влезте "
+"като използвате този акаунт вместо да го свързвате."
+
+#: oauth.py:653
+msgid "OAuth password grant type failed"
+msgstr "Грешка при тип на OAuth предоставяне на парола"
+
+#: permission.py:12
+msgid "View"
+msgstr "Преглед"
+
+#: permission.py:13
+msgid "Manage"
+msgstr "Управление"
+
+#: view.py:83
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr ""
+"Неуспешна автентификация с предоставената връзка за авторизация. Моля, "
+"проверете връзката и се свържете с администратора."
+
+#: view.py:94
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr "Използването на връзка за авторизация е забранено за администратори."
+
+#: view.py:133
+msgid "Team membership required"
+msgstr "Изисква се членство в екип"
+
+#: view.py:134
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and"
+" ask to be added to the team."
+msgstr ""
+"Вие не сте член на този Web GIS екип. Свържете се с администратора на Web "
+"GIS и поискайте да бъдете добавени към екипа."

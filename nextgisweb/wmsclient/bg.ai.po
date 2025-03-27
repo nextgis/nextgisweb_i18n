@@ -1,0 +1,20 @@
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:25
+msgid "WMS Connection URL"
+msgstr "URL за WMS връзка"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:76
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:87
+msgid "WMS Connection"
+msgstr "WMS връзка"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:130
+msgid "Edit vendor parameters"
+msgstr "Редакция на параметрите на доставчика"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
+msgid "WMS Layer"
+msgstr "WMS слой"
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:20
+msgid "Type to add a new vendor parameter"
+msgstr "Въведете за да добавите нов параметър на доставчика"

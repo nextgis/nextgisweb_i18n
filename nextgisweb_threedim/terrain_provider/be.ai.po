@@ -1,0 +1,3 @@
+#: model.py:24 nodepkg/resource-widget/ResourceWidget.tsx:44
+msgid "Terrain provider"
+msgstr "Пастаўшчык рэльефу"

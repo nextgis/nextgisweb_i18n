@@ -1,0 +1,3 @@
+#: nodepkg/service-widget/ServiceWidget.tsx:24
+msgid "Not set"
+msgstr "Nenastaveno"

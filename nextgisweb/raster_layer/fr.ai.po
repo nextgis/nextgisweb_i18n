@@ -1,0 +1,36 @@
+#: api.py:46
+msgid "Output format is not provided."
+msgstr "Le format de sortie n'est pas fourni."
+
+#: api.py:49
+msgid "Format '%s' is not supported."
+msgstr "Le format '% s' est pas pris en charge."
+
+#: model.py:163
+msgid "GDAL was uanble to parse the raster coordinate system."
+msgstr "GDAL n'a pas pu analyser le système de coordonnées du raster."
+
+#: model.py:167
+msgid ""
+"The source raster has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr ""
+"Le raster source a un système de coordonnées local et ne peut pas être "
+"reprojeté dans le système de coordonnées cible."
+
+#: model.py:184
+msgid "Failed to reproject the raster to the target coordinate system."
+msgstr ""
+"Échec de la reprojection du raster dans le système de coordonnées cible."
+
+#: model.py:187
+msgid "GDAL error message: %s"
+msgstr "Message d'erreur GDAL : %s"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:39
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr "GeoTIFF Optimisé pour le Cloud (COG)"
+
+#: view.py:69
+msgid "Download"
+msgstr "Télécharger"

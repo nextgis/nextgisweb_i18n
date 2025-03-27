@@ -1,0 +1,7 @@
+#: nodepkg/editor-widget/EditorWidget.tsx:21
+msgid ""
+"The image will be converted to PNG format and downscaled to 1600x630 pixels "
+"if it's bigger."
+msgstr ""
+"L'immagine verrà convertita in formato PNG e ridimensionata a 1600x630 pixel"
+" se è più grande."

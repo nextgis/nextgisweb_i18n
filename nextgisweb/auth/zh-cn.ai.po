@@ -1,0 +1,152 @@
+#: api.py:160
+msgid "Password is not set."
+msgstr "密码未设置。"
+
+#: api.py:615
+msgid "Administrator required"
+msgstr "需要管理员"
+
+#: exception.py:22
+msgid "Invalid authorization link"
+msgstr "无效的授权链接"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:31
+#: nodepkg/group-widget/GroupWidget.tsx:59
+msgid "New users"
+msgstr "新用户"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:27
+msgid "Yes"
+msgstr "是"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34
+#: nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:28
+msgid "No"
+msgstr "否"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53
+#: nodepkg/user-widget/UserWidget.tsx:100
+msgid "Permissions"
+msgstr "权限"
+
+#: nodepkg/group-widget/GroupWidget.tsx:65
+msgid "{dn} mapping"
+msgstr "{dn} 映射"
+
+#: nodepkg/login/LoginForm.tsx:20
+msgid "Sign in with {}"
+msgstr "使用{}登录"
+
+#: nodepkg/login/LoginForm.tsx:94
+msgid "or using login and password"
+msgstr "或使用登录名和密码"
+
+#: nodepkg/oauth.tsx:26
+msgid "Manage team"
+msgstr "管理团队"
+
+#: nodepkg/settings-form/SettingsForm.tsx:27
+msgid "Account bound"
+msgstr "账户已绑定"
+
+#: nodepkg/settings-form/SettingsForm.tsx:38
+msgid "Bind account"
+msgstr "绑定账户"
+
+#: nodepkg/settings-form/SettingsForm.tsx:40
+msgid "Account not bound"
+msgstr "账户未绑定"
+
+#: nodepkg/user-browse/UserBrowse.tsx:34
+msgid "Users with a password can sign in with login and password."
+msgstr "有密码的用户可使用登录名和密码登录。"
+
+#: nodepkg/user-browse/UserBrowse.tsx:35
+msgid "Users bound to {dn} can sign in with {dn}."
+msgstr "绑定到{dn}的用户可使用{dn}登录。"
+
+#: nodepkg/user-browse/UserBrowse.tsx:122
+msgid ""
+"Your team members won't be shown here until their first logon. Set \"New "
+"users\" flag for a group to automatically assign new user to this group. You"
+" may also modify permission for authenticated users to manage access for "
+"your team members."
+msgstr "您的团队成员在首次登录前不会显示在这里。为组设置“新用户”标志以自动将新用户分配到此组。您还可以修改已认证用户的权限来管理团队成员的访问。"
+
+#: nodepkg/user-widget/UserWidget.tsx:77
+msgid "Authorization link"
+msgstr "授权链接"
+
+#: nodepkg/user-widget/UserWidget.tsx:126
+msgid ""
+"Consider adding {name} user to your team instead of creating a new user with"
+" a password."
+msgstr "考虑将{name}用户添加到您的团队，而不是创建一个具有密码的新用户。"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:10
+msgid "Keep existing"
+msgstr "保留现有"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
+#: nodepkg/user-widget/UserWidgetPassword.tsx:14
+msgid "Assign new"
+msgstr "分配新"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
+#: nodepkg/user-widget/UserWidgetPassword.tsx:20
+msgid "Turn off"
+msgstr "关闭"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
+msgid "The generated link will be available after saving."
+msgstr "生成的链接将在保存后可用。"
+
+#: nodepkg/user-widget/UserWidgetPassword.tsx:19
+msgid "{name} only"
+msgstr "仅{name}"
+
+#: oauth.py:323
+msgid "{} binding error"
+msgstr "{} 绑定错误"
+
+#: oauth.py:324
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log"
+" in using this account instead of binding it."
+msgstr "此 {dn} 账户 ({sub}) 已绑定到不同的用户 ({id})。请使用此账户登录，而不是进行绑定。"
+
+#: oauth.py:653
+msgid "OAuth password grant type failed"
+msgstr "OAuth 密码授权类型失败"
+
+#: permission.py:12
+msgid "View"
+msgstr "查看"
+
+#: permission.py:13
+msgid "Manage"
+msgstr "管理"
+
+#: view.py:83
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr "使用给定的授权链接认证失败。请检查链接并联系管理员。"
+
+#: view.py:94
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr "管理员禁止使用授权链接。"
+
+#: view.py:133
+msgid "Team membership required"
+msgstr "需要团队成员资格"
+
+#: view.py:134
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and"
+" ask to be added to the team."
+msgstr "您不是此 Web GIS 团队的成员。请联系 Web GIS 管理员并请求加入团队。"

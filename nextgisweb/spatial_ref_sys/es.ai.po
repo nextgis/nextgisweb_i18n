@@ -1,0 +1,9 @@
+#: pyramid.py:9
+msgid "Catalog not cofigured"
+msgstr "Catálogo no configurado"
+
+#: pyramid.py:10
+msgid "The spatial reference system catalog is not configured on this server."
+msgstr ""
+"El catálogo de sistemas de referencia espacial no está configurado en este "
+"servidor."

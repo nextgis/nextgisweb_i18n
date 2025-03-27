@@ -1,0 +1,103 @@
+#: nodepkg/style-editor/RasterStyleEditor.tsx:70
+msgid "Band {}"
+msgstr "Pásmo {}"
+
+#: nodepkg/style-editor/RasterStyleEditor.tsx:148
+msgid "Red channel"
+msgstr "Červený kanál"
+
+#: nodepkg/style-editor/RasterStyleEditor.tsx:152
+#: nodepkg/style-editor/RasterStyleEditor.tsx:165
+#: nodepkg/style-editor/RasterStyleEditor.tsx:178
+msgid "Min"
+msgstr "Minimální"
+
+#: nodepkg/style-editor/RasterStyleEditor.tsx:156
+#: nodepkg/style-editor/RasterStyleEditor.tsx:169
+#: nodepkg/style-editor/RasterStyleEditor.tsx:182
+msgid "Max"
+msgstr "Maximální"
+
+#: nodepkg/style-editor/RasterStyleEditor.tsx:161
+msgid "Green channel"
+msgstr "Zelený kanál"
+
+#: nodepkg/style-editor/RasterStyleEditor.tsx:174
+msgid "Blue channel"
+msgstr "Modrý kanál"
+
+#: nodepkg/style-editor/component/KindEditor.tsx:28
+msgid "Symbolizer unknown!"
+msgstr "Symbolizátor neznámý!"
+
+#: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:15
+msgid "Mark"
+msgstr "Značka"
+
+#: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:16
+msgid "Fill"
+msgstr "Výplň"
+
+#: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:17
+msgid "Line"
+msgstr "Linie"
+
+#: nodepkg/style-editor/component/TypeSelect/TypeSelect.tsx:18
+msgid "Type"
+msgstr "Typ"
+
+#: nodepkg/style-editor/component/editor/FillEditor.tsx:15
+#: nodepkg/style-editor/component/editor/LineEditor.tsx:15
+#: nodepkg/style-editor/component/editor/MarkEditor.tsx:20
+msgid "Fill color"
+msgstr "Barva výplně"
+
+#: nodepkg/style-editor/component/editor/FillEditor.tsx:16
+#: nodepkg/style-editor/component/editor/MarkEditor.tsx:21
+msgid "Stroke color"
+msgstr "Barva čáry"
+
+#: nodepkg/style-editor/component/editor/FillEditor.tsx:17
+#: nodepkg/style-editor/component/editor/MarkEditor.tsx:22
+msgid "Stroke width"
+msgstr "Šířka čáry"
+
+#: nodepkg/style-editor/component/editor/LineEditor.tsx:16
+msgid "Width"
+msgstr "Šířka"
+
+#: nodepkg/style-editor/component/editor/MarkEditor.tsx:18
+msgid "Shape"
+msgstr "Tvar"
+
+#: nodepkg/style-editor/component/editor/MarkEditor.tsx:19
+msgid "Size"
+msgstr "Velikost"
+
+#: nodepkg/style-editor/field/ColorInput.tsx:18
+msgid "None"
+msgstr "Žádné"
+
+#: nodepkg/style-editor/field/ColorInput.tsx:19
+msgid "Transparent"
+msgstr "Průhledný"
+
+#: nodepkg/style-editor/util/constant.ts:6
+msgid "Square"
+msgstr "Čtverec"
+
+#: nodepkg/style-editor/util/constant.ts:7
+msgid "Circle"
+msgstr "Kruh"
+
+#: nodepkg/style-editor/util/constant.ts:8
+msgid "Triangle"
+msgstr "Trojúhelník"
+
+#: nodepkg/style-editor/util/constant.ts:9
+msgid "Star"
+msgstr "Hvězda"
+
+#: nodepkg/style-editor/util/constant.ts:10
+msgid "Cross"
+msgstr "Kříž"

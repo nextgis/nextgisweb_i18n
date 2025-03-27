@@ -1,0 +1,7 @@
+#: api.py:46
+msgid "Output format is not provided."
+msgstr "No se proporciona formato de salida."
+
+#: api.py:49
+msgid "Format '%s' is not supported."
+msgstr "El formato '%s' no es compatible."

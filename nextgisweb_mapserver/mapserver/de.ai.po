@@ -1,0 +1,7 @@
+#: model.py:407 view.py:52
+msgid "XML syntax error: %s"
+msgstr "XML-Syntaxfehler: %s"
+
+#: model.py:410 view.py:55
+msgid "XML schema error: %s"
+msgstr "Fehler des XML-Schemas: %s"

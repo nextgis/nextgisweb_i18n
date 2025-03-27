@@ -1,0 +1,208 @@
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:28
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:30
+msgid "Copy to clipboard"
+msgstr "Copier dans le presse-papier"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:31
+msgid "Copied"
+msgstr "Copié"
+
+#: amd/ngw-pyramid/CopyButton/CopyButton.js:32
+msgid "Unable to copy"
+msgstr "Impossible de copier"
+
+#: amd/ngw-pyramid/form/ScaleTextBox.js:13
+msgid "Enter the correct scale value, e.g. 1:"
+msgstr "Entrez la valeur d'échelle correcte, par exemple 1:"
+
+#: api.py:196
+msgid "Storage management is not enabled on this server."
+msgstr "La gestion du stockage n'est pas activée sur ce serveur."
+
+#: api.py:406
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr ""
+"Le paramètre de requête '{}' ne doit pas contenir de valeurs supplémentaires"
+" si 'all' est spécifié."
+
+#: api.py:534
+msgid "Got an unsupported MIME type: '{}'."
+msgstr "Type MIME non supporté: ''{}''."
+
+#: api.py:537
+msgid "64K should be enough for a logo."
+msgstr "64K devraient suffire pour un logo."
+
+#: component.py:163
+msgid "Request timeout"
+msgstr "Temps de la requête dépassé"
+
+#: lunkwill.py:25
+msgid "Lunkwill not enabled"
+msgstr "Lunkwill non activé"
+
+#: lunkwill.py:26
+msgid "The Lunkwill extension is not configured on this server."
+msgstr "L'extension Lunkwill n'est pas configurée sur ce serveur."
+
+#: nodepkg/cors-settings/CORSSettings.tsx:58
+msgid "CORS settings updated"
+msgstr "Paramètres CORS mis à jour"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:63
+msgid "Fix the form errors first"
+msgstr "Corrigez d'abord les erreurs du formulaire"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:79
+msgid "The value entered is not valid"
+msgstr "La valeur saisie n'est pas valide"
+
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:41
+msgid "Custom styles saved. Reload the page to get them applied."
+msgstr ""
+"Styles personnalisés enregistrés. Rechargez la page pour les appliquer."
+
+#: nodepkg/home-path/HomePath.tsx:4
+msgid "The home path setting is saved."
+msgstr "Le chemin d'accueil est enregistré."
+
+#: nodepkg/layout/Avatar.tsx:23
+msgid "User settings"
+msgstr "Paramètres utilisateur"
+
+#: nodepkg/logo-form/LogoForm.tsx:6
+msgid "Only PNG and SVG images are supported."
+msgstr "Seules les images PNG et SVG sont supportées."
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+msgid "Measurement ID"
+msgstr "ID de mesure"
+
+#: nodepkg/metrics/MetricSettings.tsx:19
+msgid "Add"
+msgstr "Ajouter"
+
+#: nodepkg/metrics/MetricSettings.tsx:20
+msgid "The setting is saved."
+msgstr "Le paramètre est enregistré."
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+msgid "Reload the page to get them applied."
+msgstr "Rechargez la page pour les appliquer."
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+msgid "Add one or more counters to your Web GIS."
+msgstr "Ajoutez un ou plusieurs compteurs à votre Web GIS."
+
+#: nodepkg/metrics/MetricSettings.tsx:26
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow "
+"you to track user activity."
+msgstr ""
+"Le code HTML de ces compteurs sera intégré dans chaque page et vous "
+"permettra de suivre l'activité des utilisateurs."
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+msgid "Tag number"
+msgstr "Numéro de balise"
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:51
+msgid "Webvisor"
+msgstr "Webvisor"
+
+#: nodepkg/metrics/tab.ts:31
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: nodepkg/metrics/tab.ts:38
+msgid "Yandex.Metrica"
+msgstr "Yandex.Metrica"
+
+#: nodepkg/storage-summary/StorageSummary.js:140
+msgid "Storage usage was fully estimated at %s and updated at %s."
+msgstr ""
+"L'utilisation du stockage a été entièrement estimée à %s et mise à jour à "
+"%s."
+
+#: nodepkg/storage-summary/StorageSummary.js:146
+msgid "Storage usage was fully estimated at %s."
+msgstr "L'utilisation du stockage a été entièrement estimée à %s."
+
+#: nodepkg/storage-summary/StorageSummary.js:151
+msgid "Storage usage hasn't been estimated yet but was updated at %s."
+msgstr ""
+"L'utilisation du stockage n'a pas encore été estimée mais a été mise à jour "
+"à %s."
+
+#: nodepkg/system-name-form/SystemNameForm.tsx:4
+msgid "The system name setting is saved."
+msgstr "La configuration du nom du système est sauvegardée."
+
+#: template/sysinfo.mako:80
+msgid "Browser support"
+msgstr "Support du navigateur"
+
+#: template/sysinfo.mako:91
+msgid "or higher"
+msgstr "ou supérieur"
+
+#: template/sysinfo.mako:93
+msgid "Not supported"
+msgstr "Non supporté"
+
+#: template/sysinfo.mako:105
+msgid "Your browser"
+msgstr "Votre navigateur"
+
+#: template/uacompat.mako:29
+msgid "%(name)s %(current)s not supported"
+msgstr "%(name)s %(current)s non supporté"
+
+#: template/uacompat.mako:30
+msgid ""
+"You're using %(name)s %(current)s although it's not supported by the Web "
+"GIS. It's an outdated version lacking required features. Contact your system"
+" administrator for upgrading to %(name)s %(required)s+ or try a different "
+"browser."
+msgstr ""
+"Vous utilisez %(name)s %(current)s bien qu'il ne soit pas supporté par le "
+"Web GIS. C'est une version obsolète manquant de fonctionnalités requises. "
+"Contactez votre administrateur système pour passer à %(name)s %(required)s+ "
+"ou essayez un autre navigateur."
+
+#: template/uacompat.mako:34
+msgid ""
+"If you still want to continue using the current browser, click the link "
+"below to bypass the compatibility test. The Web GIS or some features may "
+"degrade or fail  in this case."
+msgstr ""
+"Si vous souhaitez toujours continuer à utiliser le navigateur actuel, "
+"cliquez sur le lien ci-dessous pour contourner le test de compatibilité. Le "
+"Web GIS ou certaines fonctionnalités peuvent se dégrader ou planter dans ce "
+"cas."
+
+#: tomb/config.py:95
+msgid "Parameter required"
+msgstr "Paramètre requis"
+
+#: tomb/config.py:96
+msgid "The '{}' query parameter is required."
+msgstr "Le paramètre de requête '{}' est requis."
+
+#: tomb/config.py:98
+msgid "Invalid parameter"
+msgstr "Paramètre invalide"
+
+#: tomb/config.py:99
+msgid "The '{}' query parameter has an invalid value."
+msgstr "Le paramètre de requête '{}' a une valeur invalide."
+
+#: view.py:157
+msgid "HTTP API documentation"
+msgstr "Documentation de l'API HTTP"
+
+#: view.py:268 view.py:598
+msgid "Metrics and analytics"
+msgstr "Métriques et analytiques"
