@@ -1,0 +1,395 @@
+#: model.py:10
+#, server
+msgid "Demo project"
+msgstr ""
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:16
+#, jsrealm
+msgid "This is your demo project."
+msgstr ""
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:17
+#, jsrealm
+msgid ""
+"Here you can add data, change resources, and see inside the maps and data "
+"layers."
+msgstr ""
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:18
+#, jsrealm
+msgid ""
+"You can even reset the whole project and revert to the original you got from "
+"us."
+msgstr ""
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:24
+#, jsrealm
+msgid "Confirmation required"
+msgstr ""
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:26
+#, jsrealm
+msgid ""
+"Resetting the project will revert to the original version and delete any "
+"changes you may have made."
+msgstr ""
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:28
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:54
+#, jsrealm
+msgid "Reset"
+msgstr ""
+
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:8
+#, jsrealm
+msgid "Don't know where to start?"
+msgstr ""
+
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:9
+#: nodepkg/selector/Selector.tsx:25
+#, jsrealm
+msgid "Test drive one of our demo projects with ready-made layers, styles, and maps."
+msgstr ""
+
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:10
+#: nodepkg/selector/Selector.tsx:26
+#, jsrealm
+msgid "When you clone a demo project, it is yours to edit, reset or delete."
+msgstr ""
+
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:11
+#: nodepkg/selector/Selector.tsx:27
+#, jsrealm
+msgid "You can also explore a read-only copy without cloning."
+msgstr ""
+
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:17
+#: project/base.py:57 view.py:25 view.py:72
+#, jsrealm, server
+msgid "Demo projects"
+msgstr ""
+
+#: nodepkg/selector/Selector.tsx:72
+#, jsrealm
+msgid "Go to"
+msgstr ""
+
+#: nodepkg/selector/Selector.tsx:77
+#, jsrealm
+msgid "Explore read-only copy"
+msgstr ""
+
+#: nodepkg/selector/Selector.tsx:90
+#, jsrealm
+msgid "Clone for me"
+msgstr ""
+
+#: project/__init__.py:7
+#, server
+msgid "Switzerland"
+msgstr ""
+
+#: project/__init__.py:19
+#, server
+msgid "Las Vegas"
+msgstr ""
+
+#: project/__init__.py:29
+#, server
+msgid "OpenStreetMap cartography for Boston"
+msgstr ""
+
+#: project/__init__.py:41
+#, server
+msgid "Flooding in Alicante province (2019)"
+msgstr ""
+
+#: project/__init__.py:54
+#, server
+msgid "Ambulance availablity in Graz"
+msgstr ""
+
+#: project/__init__.py:63
+#, server
+msgid "Monitoring of wild animals in Altai mountains"
+msgstr ""
+
+#: project/__init__.py:73
+#, server
+msgid "Diagrams"
+msgstr ""
+
+#: project/__init__.py:83
+#, server
+msgid "Distribution heatmap"
+msgstr ""
+
+#: project/__init__.py:94
+#, server
+msgid "Tracking"
+msgstr ""
+
+#: project/ambulance/__init__.py:11
+#, server
+msgid "Name"
+msgstr ""
+
+#: project/ambulance/__init__.py:12
+#, server
+msgid "Minutes, from"
+msgstr ""
+
+#: project/ambulance/__init__.py:13
+#, server
+msgid "Minutes, to"
+msgstr ""
+
+#: project/ambulance/__init__.py:22
+#, server
+msgid "Ambulance stations"
+msgstr ""
+
+#: project/ambulance/__init__.py:29
+#, server
+msgid "Residential areas outside 15-minutes ambulance availability"
+msgstr ""
+
+#: project/ambulance/__init__.py:36
+#, server
+msgid "Graz administrative border"
+msgstr ""
+
+#: project/ambulance/__init__.py:43
+#, server
+msgid "Ambulance availability, minutes"
+msgstr ""
+
+#: project/country/__init__.py:22
+#, server
+msgid "Major cities"
+msgstr ""
+
+#: project/country/__init__.py:28
+#, server
+msgid "Largest lakes"
+msgstr ""
+
+#: project/country/__init__.py:34
+#, server
+msgid "Highest peaks"
+msgstr ""
+
+#: project/country/__init__.py:42
+#, server
+msgid "SVG markers"
+msgstr ""
+
+#: project/diagrams/__init__.py:16
+#, server
+msgid "Bars, restaurants, fast food"
+msgstr ""
+
+#: project/diagrams/__init__.py:22
+#, server
+msgid "St. Petersburg districts"
+msgstr ""
+
+#: project/district/__init__.py:17
+#, server
+msgid "Places"
+msgstr ""
+
+#: project/district/__init__.py:23
+#, server
+msgid "My country house"
+msgstr ""
+
+#: project/district/__init__.py:29
+#, server
+msgid "Routes"
+msgstr ""
+
+#: project/district/__init__.py:35 project/osmdata/__init__.py:21
+#, server
+msgid "Buildings"
+msgstr ""
+
+#: project/flooding/__init__.py:18
+#, server
+msgid "Monitoring area"
+msgstr ""
+
+#: project/flooding/__init__.py:24
+#, server
+msgid "Buildings in affected areas"
+msgstr ""
+
+#: project/flooding/__init__.py:30
+#, server
+msgid "Most affected areas"
+msgstr ""
+
+#: project/flooding/__init__.py:38
+#, server
+msgid "Sentinel-2 image, 19 Aug 2019"
+msgstr ""
+
+#: project/flooding/__init__.py:45
+#, server
+msgid "Sentinel-2 image, 18 Sep 2019"
+msgstr ""
+
+#: project/heatmap/__init__.py:16
+#, server
+msgid "Coffeehouses"
+msgstr ""
+
+#: project/heatmap/__init__.py:31
+#, server
+msgid "Density of coffeehouses"
+msgstr ""
+
+#: project/osmdata/__init__.py:27 project/osmdata/__init__.py:190
+#, server
+msgid "Points of interest"
+msgstr ""
+
+#: project/osmdata/__init__.py:30 project/osmdata/__init__.py:200
+#, server
+msgid "Transport"
+msgstr ""
+
+#: project/osmdata/__init__.py:35
+#, server
+msgid "Highways"
+msgstr ""
+
+#: project/osmdata/__init__.py:42
+#, server
+msgid "Railways"
+msgstr ""
+
+#: project/osmdata/__init__.py:49
+#, server
+msgid "Airports"
+msgstr ""
+
+#: project/osmdata/__init__.py:56
+#, server
+msgid "Hydrography"
+msgstr ""
+
+#: project/osmdata/__init__.py:62
+#, server
+msgid "Lakes, large rivers, wetlands"
+msgstr ""
+
+#: project/osmdata/__init__.py:68
+#, server
+msgid "Surfaces"
+msgstr ""
+
+#: project/osmdata/__init__.py:74
+#, server
+msgid "Islands"
+msgstr ""
+
+#: project/osmdata/__init__.py:80
+#, server
+msgid "Vegetation"
+msgstr ""
+
+#: project/osmdata/__init__.py:86
+#, server
+msgid "Land area"
+msgstr ""
+
+#: project/osmdata/__init__.py:92
+#, server
+msgid "Water surface"
+msgstr ""
+
+#: project/osmdata/__init__.py:109
+#, server
+msgid "Tourism"
+msgstr ""
+
+#: project/osmdata/__init__.py:115
+#, server
+msgid "Leisure"
+msgstr ""
+
+#: project/osmdata/__init__.py:121
+#, server
+msgid "Sport"
+msgstr ""
+
+#: project/snowleo/__init__.py:12
+#, server
+msgid "What was the animal doing"
+msgstr ""
+
+#: project/snowleo/__init__.py:13
+#, server
+msgid "Author"
+msgstr ""
+
+#: project/snowleo/__init__.py:14
+#, server
+msgid "Species of animal"
+msgstr ""
+
+#: project/snowleo/__init__.py:15
+#, server
+msgid "Type of trace"
+msgstr ""
+
+#: project/snowleo/__init__.py:16
+#, server
+msgid "Encounters"
+msgstr ""
+
+#: project/snowleo/__init__.py:17
+#, server
+msgid "Traces"
+msgstr ""
+
+#: project/snowleo/__init__.py:18
+#, server
+msgid "GPS tracks distance, m."
+msgstr ""
+
+#: project/snowleo/__init__.py:19
+#, server
+msgid "Events per km."
+msgstr ""
+
+#: project/snowleo/__init__.py:28
+#, server
+msgid "Inspector GPS tracks"
+msgstr ""
+
+#: project/snowleo/__init__.py:35
+#, server
+msgid "Visual encounters"
+msgstr ""
+
+#: project/snowleo/__init__.py:42
+#, server
+msgid "Traces of vital activity"
+msgstr ""
+
+#: project/snowleo/__init__.py:49
+#, server
+msgid "Grid analysis of encounters and traces"
+msgstr ""
+
+#: project/snowleo/__init__.py:69
+#, server
+msgid "Per kilometer of GPS tracks"
+msgstr ""
+
+#: project/snowleo/__init__.py:73
+#, server
+msgid "Per grid cell"
+msgstr ""
