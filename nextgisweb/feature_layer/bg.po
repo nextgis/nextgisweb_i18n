@@ -22,7 +22,7 @@ msgstr ""
 msgid "Failed to reproject 'intersects' geometry."
 msgstr ""
 
-#: api_export.py:426
+#: api_export.py:427
 msgid "File name parameter '{}' is not valid."
 msgstr ""
 
@@ -46,7 +46,7 @@ msgstr ""
 msgid "Unable to restore the #{} feature as it is not deleted."
 msgstr ""
 
-#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:39
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:24 view.py:39
 msgid "Feature table"
 msgstr "Таблица на обекти"
 
@@ -70,86 +70,87 @@ msgstr "Установи NULL като значението на полето (�
 msgid "There are no attributes in the vector layer"
 msgstr ""
 
-#: nodepkg/attribute-editor/plugin.ts:10 view.py:179
+#: nodepkg/attribute-editor/plugin.ts:10
 msgid "Attributes"
 msgstr "Атрибути"
 
-#: nodepkg/export-form/ExportForm.tsx:204
+#: nodepkg/export-form/ExportForm.tsx:203
 msgid "Resources"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:226
+#: nodepkg/export-form/ExportForm.tsx:225
 msgid "Format"
 msgstr "Формат"
 
-#: nodepkg/export-form/ExportForm.tsx:239
+#: nodepkg/export-form/ExportForm.tsx:238
 msgid "SRS"
 msgstr "Координатна система"
 
-#: nodepkg/export-form/ExportForm.tsx:244
+#: nodepkg/export-form/ExportForm.tsx:243
 msgid "Encoding"
 msgstr "Кодировка"
 
-#: nodepkg/export-form/ExportForm.tsx:258
+#: nodepkg/export-form/ExportForm.tsx:257
 msgid "FID field"
 msgstr "FID поле"
 
-#: nodepkg/export-form/ExportForm.tsx:262
+#: nodepkg/export-form/ExportForm.tsx:261
 msgid "Use field display names instead of keynames"
 msgstr "Използвай показваните имена на полета вместо ключови"
 
-#: nodepkg/export-form/ExportForm.tsx:268
-#: nodepkg/fields-widget/FieldsWidget.tsx:171
+#: nodepkg/export-form/ExportForm.tsx:267
+#: nodepkg/fields-widget/FieldsWidget.tsx:166
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:51
 msgid "Fields"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:274
+#: nodepkg/export-form/ExportForm.tsx:273
 msgid "Limit by extent"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:280
+#: nodepkg/export-form/ExportForm.tsx:279
 msgid "Filter text"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:284
+#: nodepkg/export-form/ExportForm.tsx:283
 msgid "Zip archive"
 msgstr "Zip архив"
 
-#: nodepkg/export-form/ExportForm.tsx:327
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
+#: nodepkg/export-form/ExportForm.tsx:326
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:39
 msgid "Save"
 msgstr "Запази"
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:18
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
 msgid "Cancel"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
 msgid "Are you sure?"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:22
 msgid "Unsaved changes will be lost if you close the window."
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorStore.ts:20
-msgid "Feature saved"
-msgstr ""
-
-#: nodepkg/feature-editor/FeatureEditorStore.ts:21
-msgid "No changes to save"
-msgstr ""
-
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:39
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:38
 msgid "Loading..."
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
 msgid "OK"
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:42
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
 msgid "Reset"
+msgstr ""
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
+msgid "Feature saved"
+msgstr ""
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:44
+msgid "No changes to save"
 msgstr ""
 
 #: nodepkg/feature-grid/FeatureGrid.tsx:22
@@ -184,13 +185,13 @@ msgstr ""
 msgid "Search..."
 msgstr "Търсене..."
 
-#: nodepkg/feature-grid/FeatureTable.tsx:94
+#: nodepkg/feature-grid/FeatureTable.tsx:95
 #: nodepkg/feature-grid/component/TableConfigModal.tsx:53
 msgid "Last changed"
 msgstr ""
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:82 view.py:92
-#: view.py:174
+#: view.py:179
 msgid "Save as"
 msgstr "Запази като"
 
@@ -206,43 +207,42 @@ msgstr ""
 msgid "Filters are applied"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:23
-#: template/resource_section_fields.mako:17
+#: nodepkg/fields-widget/FieldsWidget.tsx:20
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:31
 msgid "Display name"
 msgstr "Показвано име"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:24
-#: template/resource_section_fields.mako:15
+#: nodepkg/fields-widget/FieldsWidget.tsx:21
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:19
 msgid "Keyname"
 msgstr "Ключ"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:25
-#: template/resource_section_fields.mako:16
+#: nodepkg/fields-widget/FieldsWidget.tsx:22
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:25
 msgid "Type"
 msgstr "Тип"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:26
-#: template/resource_section_fields.mako:19
+#: nodepkg/fields-widget/FieldsWidget.tsx:23
 msgid "Lookup table"
 msgstr "Справочник"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:28
+#: nodepkg/fields-widget/FieldsWidget.tsx:25
 msgid "Text search"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:29
+#: nodepkg/fields-widget/FieldsWidget.tsx:26
 msgid "Label attribute"
 msgstr "Атрибут на името"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:31
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
 msgid "Please select"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:32
+#: nodepkg/fields-widget/FieldsWidget.tsx:29
 msgid "Not used"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:118
+#: nodepkg/fields-widget/FieldsWidget.tsx:113
 msgid "Field"
 msgstr ""
 
@@ -286,43 +286,29 @@ msgstr ""
 msgid "Extent (yMax)"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:18
+#: nodepkg/settings-widget/SettingsWidget.tsx:15
 msgid "Feature versioning"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:19
+#: nodepkg/settings-widget/SettingsWidget.tsx:16
 msgid ""
 "Experimental feature. Some operations may not work if feature versioning is "
 "enabled."
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:40
+#: nodepkg/settings-widget/SettingsWidget.tsx:36
 msgid "Disable feature versioning?"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:41
+#: nodepkg/settings-widget/SettingsWidget.tsx:37
 msgid ""
 "Turning off feature versioning will truncate the history and keep only the "
 "latest state."
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:65
+#: nodepkg/settings-widget/SettingsWidget.tsx:62
 msgid "Settings"
 msgstr ""
-
-#: template/resource_section_fields.mako:21 view.py:163
-msgid "Table"
-msgstr "Таблица"
-
-#: template/resource_section_fields.mako:32
-#: template/resource_section_fields.mako:38
-msgid "Yes"
-msgstr "Да"
-
-#: template/resource_section_fields.mako:34
-#: template/resource_section_fields.mako:38
-msgid "No"
-msgstr "Не"
 
 #: transaction/exception.py:7
 msgid "Transaction not found"
@@ -391,6 +377,10 @@ msgstr ""
 "Векторни плочки MVT е ефикасен механизъм за кодиране на информацията от карти"
 " във векторен формат, който може да се визуализира динамично."
 
-#: view.py:158
+#: view.py:163
 msgid "Features"
 msgstr "Обекти"
+
+#: view.py:168
+msgid "Table"
+msgstr "Таблица"

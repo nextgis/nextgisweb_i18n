@@ -18,21 +18,21 @@ msgstr "打开"
 msgid "Fragment"
 msgstr ""
 
-#: model.py:46 model.py:64 view.py:189 view.py:216
+#: model.py:48 model.py:66 view.py:189 view.py:216
 msgid "Web map"
 msgstr "区域网地图"
 
-#: model.py:48
+#: model.py:50
 msgctxt "permission"
 msgid "View annotations"
 msgstr "浏览注释"
 
-#: model.py:49
+#: model.py:51
 msgctxt "permission"
 msgid "Draw annotations"
 msgstr ""
 
-#: model.py:50
+#: model.py:52
 msgctxt "permission"
 msgid "Manage annotations"
 msgstr "管理注释"
@@ -45,12 +45,12 @@ msgstr ""
 msgid "Resource group"
 msgstr ""
 
-#: nodepkg/clone-webmap/CloneWebmap.tsx:82 nodepkg/items-widget/ItemsWidget.tsx:33
+#: nodepkg/clone-webmap/CloneWebmap.tsx:82 nodepkg/items-widget/ItemsWidget.tsx:30
 msgid "Display name"
 msgstr "显示名字"
 
 #: nodepkg/component/SelectLegendSymbols.tsx:5
-#: nodepkg/settings-widget/SettingsWidget.tsx:35
+#: nodepkg/settings-widget/SettingsWidget.tsx:36
 #: nodepkg/settings/select-options.ts:94
 msgid "Default"
 msgstr ""
@@ -66,6 +66,7 @@ msgid "Collapse"
 msgstr ""
 
 #: nodepkg/component/SelectLegendSymbols.tsx:10
+#: nodepkg/settings-widget/SettingsWidget.tsx:50
 #: nodepkg/settings/select-options.ts:97
 msgid "Disable"
 msgstr ""
@@ -74,11 +75,11 @@ msgstr ""
 msgid "Open full map"
 msgstr "打开完整地图"
 
-#: nodepkg/display/Display.ts:704
+#: nodepkg/display/Display.ts:699
 msgid "Object not found"
 msgstr ""
 
-#: nodepkg/display/Display.ts:705
+#: nodepkg/display/Display.ts:700
 msgid "Object from URL parameters not found"
 msgstr ""
 
@@ -146,70 +147,70 @@ msgstr ""
 msgid "Use default draw order"
 msgstr ""
 
-#: nodepkg/items-widget/Item.ts:106
+#: nodepkg/items-widget/Item.ts:107
 msgid "Group members have errors"
 msgstr ""
 
-#: nodepkg/items-widget/ItemsWidget.tsx:34
+#: nodepkg/items-widget/ItemsWidget.tsx:31
 msgid "Expanded"
 msgstr "已展开"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:35
+#: nodepkg/items-widget/ItemsWidget.tsx:32
 msgid "Exclusive"
 msgstr ""
 
-#: nodepkg/items-widget/ItemsWidget.tsx:36
+#: nodepkg/items-widget/ItemsWidget.tsx:33
 msgid "Enabled"
 msgstr "已启用"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:37
+#: nodepkg/items-widget/ItemsWidget.tsx:34
 msgid "Identifiable"
 msgstr "可识别"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:38
+#: nodepkg/items-widget/ItemsWidget.tsx:35
 msgid "Resource"
 msgstr ""
 
-#: nodepkg/items-widget/ItemsWidget.tsx:39
+#: nodepkg/items-widget/ItemsWidget.tsx:36
 msgid "Transparency"
 msgstr "透明度"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:40
+#: nodepkg/items-widget/ItemsWidget.tsx:37
 msgid "Min scale"
 msgstr "最小比例"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:41
+#: nodepkg/items-widget/ItemsWidget.tsx:38
 msgid "Max scale"
 msgstr "最大比例"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:42
+#: nodepkg/items-widget/ItemsWidget.tsx:39
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:28
-#: nodepkg/settings-widget/SettingsWidget.tsx:27
+#: nodepkg/settings-widget/SettingsWidget.tsx:26
 #: nodepkg/settings/SettingsForm.tsx:261
 msgid "Legend"
 msgstr ""
 
-#: nodepkg/items-widget/ItemsWidget.tsx:43
+#: nodepkg/items-widget/ItemsWidget.tsx:40
 msgid "Adapter"
 msgstr "适配器"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:44
+#: nodepkg/items-widget/ItemsWidget.tsx:41
 msgid "Layer"
 msgstr ""
 
-#: nodepkg/items-widget/ItemsWidget.tsx:45
+#: nodepkg/items-widget/ItemsWidget.tsx:42
 msgid "Group"
 msgstr ""
 
-#: nodepkg/items-widget/ItemsWidget.tsx:46
+#: nodepkg/items-widget/ItemsWidget.tsx:43
 msgid "Edit draw order"
 msgstr ""
 
-#: nodepkg/items-widget/ItemsWidget.tsx:47
+#: nodepkg/items-widget/ItemsWidget.tsx:44
 msgid "Customize draw order"
 msgstr ""
 
-#: nodepkg/items-widget/ItemsWidget.tsx:247 nodepkg/panel/layers/plugin.tsx:10
+#: nodepkg/items-widget/ItemsWidget.tsx:240 nodepkg/panel/layers/plugin.tsx:10
 msgid "Layers"
 msgstr "图层"
 
@@ -237,6 +238,10 @@ msgstr ""
 msgid "Hide legend"
 msgstr ""
 
+#: nodepkg/map-component/UrlLayer.tsx:11
+msgid "Unable to load tile"
+msgstr ""
+
 #: nodepkg/map-controls/control/MyLocation.ts:169
 msgid "Your location could not be determined"
 msgstr "你的位置无法确定"
@@ -259,7 +264,7 @@ msgstr "缩小"
 msgid "Attributions"
 msgstr "属性，有关版权持有人的资料"
 
-#: nodepkg/map-controls/map-controls.ts:64 nodepkg/print-map/utils.ts:36
+#: nodepkg/map-controls/map-controls.ts:64 nodepkg/print-map/utils.ts:54
 msgid "Reset rotation"
 msgstr "取消旋转"
 
@@ -273,7 +278,7 @@ msgstr ""
 
 #: nodepkg/map-controls/map-controls.ts:101
 #: nodepkg/map-controls/map-controls.ts:104
-#: nodepkg/settings-widget/SettingsWidget.tsx:24
+#: nodepkg/settings-widget/SettingsWidget.tsx:23
 msgid "Initial extent"
 msgstr "初始范围"
 
@@ -283,6 +288,7 @@ msgid "Locate me"
 msgstr "定位我"
 
 #: nodepkg/map-controls/map-controls.ts:122 nodepkg/settings/SettingsForm.tsx:84
+#: option/base.py:41
 msgid "Identification"
 msgstr ""
 
@@ -343,10 +349,12 @@ msgid "Show annotations"
 msgstr ""
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:127
+#: nodepkg/settings-widget/OptionsWidget.tsx:37
 msgid "No"
 msgstr ""
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:128
+#: nodepkg/settings-widget/OptionsWidget.tsx:36
 msgid "Yes"
 msgstr ""
 
@@ -355,7 +363,7 @@ msgid "With messages"
 msgstr ""
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:139
-#: nodepkg/plugin/layer-editor/LayerEditor.tsx:132
+#: nodepkg/plugin/layer-editor/LayerEditor.tsx:133
 msgid "Edit"
 msgstr ""
 
@@ -389,12 +397,12 @@ msgid "Other private annotations"
 msgstr "其他私人注释"
 
 #: nodepkg/panel/annotations/plugin.tsx:13
-#: nodepkg/settings-widget/SettingsWidget.tsx:28
+#: nodepkg/settings-widget/SettingsWidget.tsx:27
 msgid "Annotations"
 msgstr "注释"
 
 #: nodepkg/panel/bookmarks/plugin.tsx:11
-#: nodepkg/settings-widget/SettingsWidget.tsx:30
+#: nodepkg/settings-widget/SettingsWidget.tsx:29
 msgid "Bookmarks"
 msgstr "书签"
 
@@ -415,25 +423,25 @@ msgstr ""
 msgid "Edit feature"
 msgstr ""
 
-#: nodepkg/panel/identify/IdentifyPanel.tsx:30
+#: nodepkg/panel/identify/IdentifyPanel.tsx:29
 msgid ""
 "To get feature information, click on the map with the left mouse button. Make"
 " sure that other tools are turned off."
 msgstr ""
 
-#: nodepkg/panel/identify/IdentifyPanel.tsx:31
+#: nodepkg/panel/identify/IdentifyPanel.tsx:30
 msgid "Retrieving object information..."
 msgstr ""
 
-#: nodepkg/panel/identify/IdentifyPanel.tsx:32
+#: nodepkg/panel/identify/IdentifyPanel.tsx:31
 msgid "No objects were found at the click location."
 msgstr ""
 
-#: nodepkg/panel/identify/KeyValueTable.tsx:14
+#: nodepkg/panel/identify/KeyValueTable.tsx:13
 msgid "Attribute"
 msgstr ""
 
-#: nodepkg/panel/identify/KeyValueTable.tsx:19
+#: nodepkg/panel/identify/KeyValueTable.tsx:18
 msgid "Value"
 msgstr ""
 
@@ -453,7 +461,7 @@ msgstr ""
 msgid "Zoom to feature"
 msgstr ""
 
-#: nodepkg/panel/identify/fields.tsx:117
+#: nodepkg/panel/identify/fields.tsx:115
 msgid "N/A"
 msgstr ""
 
@@ -469,16 +477,16 @@ msgstr "打印"
 msgid "Save as"
 msgstr "保存为"
 
-#: nodepkg/panel/print/PrintPanel.tsx:104
+#: nodepkg/panel/print/PrintPanel.tsx:129
 msgid "Elements"
 msgstr ""
 
-#: nodepkg/panel/print/PrintPanel.tsx:111
+#: nodepkg/panel/print/PrintPanel.tsx:136
 #: nodepkg/panel/print/component/PrintScaleSettings.tsx:75
 msgid "Scale"
 msgstr "比例"
 
-#: nodepkg/panel/print/PrintPanel.tsx:127
+#: nodepkg/panel/print/PrintPanel.tsx:152
 msgid "Copy link to the print map"
 msgstr ""
 
@@ -487,7 +495,7 @@ msgid "Number of legend columns"
 msgstr ""
 
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:49
-#: nodepkg/settings-widget/SettingsWidget.tsx:26
+#: nodepkg/settings-widget/SettingsWidget.tsx:25
 msgid "Title"
 msgstr ""
 
@@ -499,19 +507,19 @@ msgstr ""
 msgid "North Arrow"
 msgstr ""
 
-#: nodepkg/panel/print/component/PrintPaperSettings.tsx:77
+#: nodepkg/panel/print/component/PrintPaperSettings.tsx:83
 msgid "Paper format"
 msgstr "纸张格式"
 
-#: nodepkg/panel/print/component/PrintPaperSettings.tsx:87
+#: nodepkg/panel/print/component/PrintPaperSettings.tsx:93
 msgid "Height, mm"
 msgstr "高度。毫米"
 
-#: nodepkg/panel/print/component/PrintPaperSettings.tsx:103
+#: nodepkg/panel/print/component/PrintPaperSettings.tsx:109
 msgid "Width, mm"
 msgstr "宽度，毫米"
 
-#: nodepkg/panel/print/component/PrintPaperSettings.tsx:119
+#: nodepkg/panel/print/component/PrintPaperSettings.tsx:125
 msgid "Margin, mm"
 msgstr "间距，毫米"
 
@@ -575,93 +583,93 @@ msgstr ""
 msgid "Search"
 msgstr "搜索"
 
-#: nodepkg/panel/share/SharePanel.tsx:40
+#: nodepkg/panel/share/SharePanel.tsx:44
 msgid ""
 "<a>CORS</a> must be enabled for the target origin when embedding a web map on"
 " a different domain."
 msgstr "在不同域上嵌入web地图时，<<a>CORS</a>必须为目标源启用，"
 
-#: nodepkg/panel/share/SharePanel.tsx:41
+#: nodepkg/panel/share/SharePanel.tsx:45
 msgid "Add web map fragment to favorites"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:94
+#: nodepkg/panel/share/SharePanel.tsx:98
 msgid "Select tools"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:110
+#: nodepkg/panel/share/SharePanel.tsx:114
 msgid "Select panels"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:126
+#: nodepkg/panel/share/SharePanel.tsx:130
 msgid "None"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:299
+#: nodepkg/panel/share/SharePanel.tsx:303
 msgid "Active panel"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:329
+#: nodepkg/panel/share/SharePanel.tsx:333
 msgid "The map link copied to clipboard."
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:333
+#: nodepkg/panel/share/SharePanel.tsx:337
 msgid "Copy link"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:367
+#: nodepkg/panel/share/SharePanel.tsx:371
 msgid "Optional fragment label"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:375
+#: nodepkg/panel/share/SharePanel.tsx:379
 msgid "Embed code for your site"
 msgstr "为您的网站嵌入代码"
 
-#: nodepkg/panel/share/SharePanel.tsx:377
+#: nodepkg/panel/share/SharePanel.tsx:381
 msgid "Map size:"
 msgstr "地图尺寸"
 
-#: nodepkg/panel/share/SharePanel.tsx:379
+#: nodepkg/panel/share/SharePanel.tsx:383
 msgid "Width, px"
 msgstr "宽度，像素"
 
-#: nodepkg/panel/share/SharePanel.tsx:387
+#: nodepkg/panel/share/SharePanel.tsx:391
 msgid "Height, px"
 msgstr "高度，像素"
 
-#: nodepkg/panel/share/SharePanel.tsx:393
+#: nodepkg/panel/share/SharePanel.tsx:397
 msgid "px"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:396
+#: nodepkg/panel/share/SharePanel.tsx:400
 msgid "Map tools"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:400
+#: nodepkg/panel/share/SharePanel.tsx:404 option/base.py:31
 msgid "Panels"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:416
+#: nodepkg/panel/share/SharePanel.tsx:420
 msgid "Link to main map"
 msgstr "链接到主地图"
 
-#: nodepkg/panel/share/SharePanel.tsx:426
+#: nodepkg/panel/share/SharePanel.tsx:430
 msgid "Generate events"
 msgstr "生成事件"
 
-#: nodepkg/panel/share/SharePanel.tsx:430
+#: nodepkg/panel/share/SharePanel.tsx:434
 msgid "Embed code"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:442
+#: nodepkg/panel/share/SharePanel.tsx:446
 msgid "The embed code copied to clipboard."
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:446
+#: nodepkg/panel/share/SharePanel.tsx:450
 msgid "Copy code"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:449
+#: nodepkg/panel/share/SharePanel.tsx:453
 msgid "Preview"
 msgstr "预览"
 
@@ -673,7 +681,7 @@ msgstr "分享"
 msgid "Feature table"
 msgstr "要素列表"
 
-#: nodepkg/plugin/layer-editor/LayerEditor.tsx:132
+#: nodepkg/plugin/layer-editor/LayerEditor.tsx:133
 msgid "Stop editing"
 msgstr ""
 
@@ -681,52 +689,69 @@ msgstr ""
 msgid "Zoom to layer"
 msgstr "缩放到图层"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:25
+#: nodepkg/settings-widget/OptionsWidget.tsx:13
+msgid "Auto"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
 msgid "Constraining extent"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:29
+#: nodepkg/settings-widget/SettingsWidget.tsx:28
 msgid "Select mode"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:31
+#: nodepkg/settings-widget/SettingsWidget.tsx:30
 msgid "Select resource"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:32
+#: nodepkg/settings-widget/SettingsWidget.tsx:31
 #: nodepkg/settings/SettingsForm.tsx:172
 msgid "Measurement SRS"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:33
+#: nodepkg/settings-widget/SettingsWidget.tsx:32
 msgid "Layers editing"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:38
-msgid "Web map will start at this extent"
+#: nodepkg/settings-widget/SettingsWidget.tsx:33
+msgid "Additional options"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:34
+msgid "Configure"
 msgstr ""
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:39
+msgid "Web map will start at this extent"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
 msgid "Web map will not allow to move outside of this extent"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:43
+#: nodepkg/settings-widget/SettingsWidget.tsx:44
 msgid "Hide by default"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:44
+#: nodepkg/settings-widget/SettingsWidget.tsx:45
 msgid "Show without messages"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:45
+#: nodepkg/settings-widget/SettingsWidget.tsx:46
 msgid "Show with messages"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:149
+#: nodepkg/settings-widget/SettingsWidget.tsx:51
+#: nodepkg/settings/SettingsForm.tsx:195
+msgid "Enable"
+msgstr "启用"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:185
 msgid "Settings"
 msgstr "设置"
 
-#: nodepkg/settings/Settings.tsx:63
+#: nodepkg/settings/Settings.tsx:62
 msgid "Settings saved"
 msgstr "设置已保存"
 
@@ -769,10 +794,6 @@ msgstr "度格式"
 #: nodepkg/settings/SettingsForm.tsx:182
 msgid "Address search"
 msgstr "地址搜索"
-
-#: nodepkg/settings/SettingsForm.tsx:195
-msgid "Enable"
-msgstr "启用"
 
 #: nodepkg/settings/SettingsForm.tsx:209
 msgid "Limit by web map initial extent"
@@ -997,6 +1018,22 @@ msgstr ""
 
 #: nodepkg/zoom-to-filtered-btn/ZoomToFilteredBtn.tsx:17
 msgid "Zoom to filtered features"
+msgstr ""
+
+#: option/__init__.py:14
+msgid "Feature attributes"
+msgstr ""
+
+#: option/__init__.py:24
+msgid "Geometry info"
+msgstr ""
+
+#: option/base.py:36
+msgid "Tools"
+msgstr ""
+
+#: option/base.py:46
+msgid "Miscellaneous"
 msgstr ""
 
 #: template/invalid_origin.mako:3

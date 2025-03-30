@@ -1,127 +1,135 @@
-#: nodepkg/style-editor/RasterStyleEditor.tsx:70
-#, jsrealm
+#: nodepkg/style-editor/RasterStyleEditor.tsx:14
 msgid "Band {}"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:148
-#, jsrealm
+#: nodepkg/style-editor/RasterStyleEditor.tsx:147
 msgid "Red channel"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:152
-#: nodepkg/style-editor/RasterStyleEditor.tsx:165
-#: nodepkg/style-editor/RasterStyleEditor.tsx:178
-#, jsrealm
+#: nodepkg/style-editor/RasterStyleEditor.tsx:151
+#: nodepkg/style-editor/RasterStyleEditor.tsx:164
+#: nodepkg/style-editor/RasterStyleEditor.tsx:177
 msgid "Min"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:156
-#: nodepkg/style-editor/RasterStyleEditor.tsx:169
-#: nodepkg/style-editor/RasterStyleEditor.tsx:182
-#, jsrealm
+#: nodepkg/style-editor/RasterStyleEditor.tsx:155
+#: nodepkg/style-editor/RasterStyleEditor.tsx:168
+#: nodepkg/style-editor/RasterStyleEditor.tsx:181
 msgid "Max"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:161
-#, jsrealm
+#: nodepkg/style-editor/RasterStyleEditor.tsx:160
 msgid "Green channel"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:174
-#, jsrealm
+#: nodepkg/style-editor/RasterStyleEditor.tsx:173
 msgid "Blue channel"
 msgstr ""
 
-#: nodepkg/style-editor/component/KindEditor.tsx:28
-#, jsrealm
+#: nodepkg/style-editor/component/KindEditor.tsx:24
 msgid "Symbolizer unknown!"
 msgstr ""
 
 #: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:15
-#, jsrealm
 msgid "Mark"
 msgstr ""
 
 #: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:16
-#, jsrealm
 msgid "Fill"
 msgstr ""
 
 #: nodepkg/style-editor/component/TypeSelect/TypeField.tsx:17
-#, jsrealm
 msgid "Line"
 msgstr ""
 
 #: nodepkg/style-editor/component/TypeSelect/TypeSelect.tsx:18
-#, jsrealm
 msgid "Type"
 msgstr ""
 
-#: nodepkg/style-editor/component/editor/FillEditor.tsx:15
-#: nodepkg/style-editor/component/editor/LineEditor.tsx:15
+#: nodepkg/style-editor/component/editor/FillEditor.tsx:16
+#: nodepkg/style-editor/component/editor/LineEditor.tsx:16
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:20
-#, jsrealm
 msgid "Fill color"
 msgstr ""
 
-#: nodepkg/style-editor/component/editor/FillEditor.tsx:16
+#: nodepkg/style-editor/component/editor/FillEditor.tsx:17
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:21
-#, jsrealm
 msgid "Stroke color"
 msgstr ""
 
-#: nodepkg/style-editor/component/editor/FillEditor.tsx:17
+#: nodepkg/style-editor/component/editor/FillEditor.tsx:18
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:22
-#, jsrealm
 msgid "Stroke width"
 msgstr ""
 
-#: nodepkg/style-editor/component/editor/LineEditor.tsx:16
-#, jsrealm
+#: nodepkg/style-editor/component/editor/FillEditor.tsx:19
+msgid "Stroke style"
+msgstr ""
+
+#: nodepkg/style-editor/component/editor/LineEditor.tsx:17
 msgid "Width"
 msgstr ""
 
+#: nodepkg/style-editor/component/editor/LineEditor.tsx:18
+msgid "Style"
+msgstr ""
+
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:18
-#, jsrealm
 msgid "Shape"
 msgstr ""
 
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:19
-#, jsrealm
 msgid "Size"
 msgstr ""
 
 #: nodepkg/style-editor/field/ColorInput.tsx:18
-#, jsrealm
 msgid "None"
 msgstr ""
 
 #: nodepkg/style-editor/field/ColorInput.tsx:19
-#, jsrealm
 msgid "Transparent"
 msgstr ""
 
-#: nodepkg/style-editor/util/constant.ts:6
-#, jsrealm
+#: nodepkg/style-editor/field/DashInput.tsx:10
+msgid "Dash"
+msgstr ""
+
+#: nodepkg/style-editor/field/DashInput.tsx:11
+msgid "Gap"
+msgstr ""
+
+#: nodepkg/style-editor/util/constant.ts:5
 msgid "Square"
 msgstr ""
 
-#: nodepkg/style-editor/util/constant.ts:7
-#, jsrealm
+#: nodepkg/style-editor/util/constant.ts:6
 msgid "Circle"
 msgstr ""
 
-#: nodepkg/style-editor/util/constant.ts:8
-#, jsrealm
+#: nodepkg/style-editor/util/constant.ts:7
 msgid "Triangle"
 msgstr ""
 
-#: nodepkg/style-editor/util/constant.ts:9
-#, jsrealm
+#: nodepkg/style-editor/util/constant.ts:8
 msgid "Star"
 msgstr ""
 
-#: nodepkg/style-editor/util/constant.ts:10
-#, jsrealm
+#: nodepkg/style-editor/util/constant.ts:9
 msgid "Cross"
+msgstr ""
+
+#: nodepkg/style-editor/util/linePatternPresets.ts:3
+msgid "Solid"
+msgstr ""
+
+#: nodepkg/style-editor/util/linePatternPresets.ts:4
+msgid "Dotted"
+msgstr ""
+
+#: nodepkg/style-editor/util/linePatternPresets.ts:5
+msgid "Dashed"
+msgstr ""
+
+#: nodepkg/style-editor/util/linePatternPresets.ts:6
+msgid "Dash - dotted"
 msgstr ""

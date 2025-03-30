@@ -1,116 +1,85 @@
-#: model.py:49
-#, server
+#: model.py:51
 msgid "WMS connection"
 msgstr ""
 
-#: model.py:143 view.py:24
-#, server
+#: model.py:145
 msgid "WMS capabilities"
 msgstr ""
 
-#: model.py:144 nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:97
-#, jsrealm, server
+#: model.py:146 nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:96
 msgid "Image format"
 msgstr ""
 
-#: model.py:226
-#, server
+#: model.py:225
 msgid "WMS layer"
 msgstr ""
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:15
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:12
 msgid "Query"
 msgstr ""
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:16
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:13
 msgid "Clear"
 msgstr ""
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:17
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:14
 msgid "Do not query"
 msgstr ""
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:25
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:22
 msgid "WMS Connection URL"
 msgstr ""
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:34
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:30
 msgid "URL"
 msgstr "URL"
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:42
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:38
 msgid "Username"
 msgstr "Імя карыстальніка"
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:49
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:45
 msgid "Password"
 msgstr "Пароль"
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:56
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:52
 msgid "Version"
 msgstr "Версія"
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:67
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:63
 msgid "Capabilities"
 msgstr ""
 
-#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:76
-#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:87
-#, jsrealm
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:75
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:83
 msgid "WMS Connection"
 msgstr ""
 
-#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:108
-#, jsrealm
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:107
 msgid "WMS layers"
 msgstr ""
 
-#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:117
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:116
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:110
-#, jsrealm
 msgid "Vendor parameters"
 msgstr ""
 
-#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:130
-#, jsrealm
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:129
 msgid "Edit vendor parameters"
 msgstr ""
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
-#, jsrealm
 msgid "WMS Layer"
 msgstr ""
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:20
-#, jsrealm
 msgid "Type to add a new vendor parameter"
 msgstr ""
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:66
-#, jsrealm
 msgid "Key"
 msgstr "Ключ"
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:72
-#, jsrealm
 msgid "Value"
 msgstr "Значэнне"
-
-#: template/section_connection.mako:10
-#, server
-msgid "Layer"
-msgstr "Слой"
-
-#: template/section_connection.mako:11
-#, server
-msgid "Title"
-msgstr ""
