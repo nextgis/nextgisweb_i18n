@@ -1,0 +1,116 @@
+#: model.py:47 nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:116
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:120
+#, jsrealm, server
+msgid "TMS connection"
+msgstr "Połączenia TMS"
+
+#: model.py:108
+#, server
+msgid "API key required."
+msgstr "Wymagany klucz API."
+
+#: model.py:149
+#, server
+msgid "Zoom is out of range."
+msgstr "Poziom powiększenia jest poza zakresem."
+
+#: model.py:157 nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:202
+#, jsrealm, server
+msgid "TMS layer"
+msgstr "Warstwa TMS"
+
+#: model.py:302
+#, server
+msgid "Layer name required."
+msgstr "Wymagana nazwa warstwy."
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:28
+#, jsrealm
+msgid "Type"
+msgstr "Typ"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:42
+#, jsrealm
+msgid "Custom"
+msgstr "Niestandardowe"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:53
+#, jsrealm
+msgid "URL template"
+msgstr "Szablon URL"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:59
+#, jsrealm
+msgid "Scheme"
+msgstr "Schemat"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:70
+#, jsrealm
+msgid "API key"
+msgstr "Klucz API"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:76
+#, jsrealm
+msgid "API key param"
+msgstr "Parametry klucza API"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:83
+#, jsrealm
+msgid "Username"
+msgstr "Nazwa użytkownika TMS"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:93
+#, jsrealm
+msgid "Password"
+msgstr "Hasło klienta TMS"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:106
+#, jsrealm
+msgid "Skip SSL/TLS certificate verification"
+msgstr "Pomiń weryfikację certyfikatu SSL/TLS"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:32
+#, jsrealm
+msgid "This connection based on NextGIS Geoservices"
+msgstr "To połączenie oparte jest na usługach NextGIS"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:147
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:158
+#, jsrealm
+msgid "Layer"
+msgstr "Warstwa"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:166
+#, jsrealm
+msgid "Min zoom level"
+msgstr "Minimalny poziom powiększenia"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:174
+#, jsrealm
+msgid "Max zoom level"
+msgstr "Maksymalne przybliżenie"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:182
+#, jsrealm
+msgid "Tile size"
+msgstr "Rozmiar kafelka"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:192
+#, jsrealm
+msgid "Extent"
+msgstr "Zasięg"
+
+#: tile_fetcher.py:37
+#, server
+msgid "The remote server did not respond in time."
+msgstr "Zdalny serwer nie odpowiedział na czas."
+
+#: tile_fetcher.py:84
+#, server
+msgid "Unable to get a response from the remote server."
+msgstr "Nie można uzyskać odpowiedzi od zdalnego serwera."
+
+#: tile_fetcher.py:94
+#, server
+msgid "An unexpected HTTP status code was received from the remote server."
+msgstr "Otrzymano nieoczekiwany kod statusu HTTP od zdalnego serwera."

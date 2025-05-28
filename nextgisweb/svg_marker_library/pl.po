@@ -1,0 +1,50 @@
+#: model.py:25 nodepkg/resource-section/SvgMarkerLibraryResourceSection.tsx:58
+#: nodepkg/resource-widget/Widget.tsx:89 view.py:28
+#, jsrealm, server
+msgid "SVG marker library"
+msgstr "Biblioteka znaczników SVG"
+
+#: model.py:86
+#, server
+msgid "File '{}' has an insecure name."
+msgstr "Plik '{}' ma niebezpieczną nazwę."
+
+#: model.py:91 nodepkg/resource-widget/Store.ts:72
+#, jsrealm, server
+msgid "File '{}' has an invalid extension."
+msgstr "Plik '{}' ma nieprawidłowe rozszerzenie."
+
+#: model.py:97
+#, server
+msgid "File '{}' has a format different from SVG."
+msgstr "Plik '{}' ma format inny niż SVG."
+
+#: nodepkg/resource-section/SvgMarkerLibraryResourceSection.tsx:28
+#, jsrealm
+msgid "Name"
+msgstr "Nazwa"
+
+#: nodepkg/resource-widget/Store.ts:90
+#, jsrealm
+msgid "ZIP archive required"
+msgstr "Wymagane archiwum ZIP"
+
+#: nodepkg/resource-widget/Widget.tsx:41
+#, jsrealm
+msgid "Add SVG files"
+msgstr "Dodaj pliki SVG"
+
+#: nodepkg/resource-widget/Widget.tsx:50
+#, jsrealm
+msgid "Import from ZIP archive"
+msgstr "Importuj z archiwum ZIP"
+
+#: nodepkg/resource-widget/Widget.tsx:61
+#, jsrealm
+msgid "SVG markers will be imported from:"
+msgstr "Markery SVG zostaną zaimportowane z:"
+
+#: view.py:32
+#, server
+msgid "Export"
+msgstr "Eksportowanie"

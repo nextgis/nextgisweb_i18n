@@ -1,0 +1,476 @@
+#: api.py:83
+#, python-format, server
+msgid "Table (%s) not found in schema (%s)."
+msgstr "Tabela (%s) nie została znaleziona w schemacie (%s)."
+
+#: api.py:149
+#, server
+msgid "PostGIS layer {} not found!"
+msgstr "Warstwa PostGIS {} nie znaleziona!"
+
+#: api.py:173
+#, server
+msgid "PostGIS connection {} not found!"
+msgstr "Połączenie PostGIS {} nie znalezione!"
+
+#: diagnostics.py:99
+#, server
+msgid "Got an unexpected error."
+msgstr "Wystąpił nieoczekiwany błąd."
+
+#: diagnostics.py:157
+#, server
+msgid "PostgreSQL connection"
+msgstr "Połączenie PostgreSQL"
+
+#: diagnostics.py:163
+#, server
+msgid "Host name resolution failed: {}."
+msgstr "Nie udało się rozwiązać nazwy hosta: {}."
+
+#: diagnostics.py:184
+#, server
+msgid "Failed to connect to the database."
+msgstr "Nie udało się połączyć z bazą danych."
+
+#: diagnostics.py:188
+#, server
+msgid "Connected to the database."
+msgstr "Połączono z bazą danych."
+
+#: diagnostics.py:191
+#, server
+msgid "Executed {} query."
+msgstr "Wykonano zapytanie {}."
+
+#: diagnostics.py:194
+#, server
+msgid "PostgreSQL version {}."
+msgstr "Wersja PostgreSQL {}."
+
+#: diagnostics.py:199
+#, server
+msgid "SSL is used."
+msgstr "SSL jest używane."
+
+#: diagnostics.py:199
+#, server
+msgid "SSL is not used."
+msgstr "SSL nie jest używane."
+
+#: diagnostics.py:208
+#, server
+msgid "PostGIS extension"
+msgstr "Rozszerzenie PostGIS"
+
+#: diagnostics.py:218
+#, server
+msgid "PostGIS extension not found."
+msgstr "Nie znaleziono rozszerzenia PostGIS."
+
+#: diagnostics.py:220
+#, server
+msgid "PostGIS extension version {}."
+msgstr "Wersja rozszerzona PostGIS {}."
+
+#: diagnostics.py:223
+#, server
+msgid "Number of geometry columns: {}."
+msgstr "Liczba kolumn geometrii: {}."
+
+#: diagnostics.py:226
+#, server
+msgid "Number of spatial reference systems: {}."
+msgstr "Liczba układów odniesienia przestrzennego: {}."
+
+#: diagnostics.py:266
+#, server
+msgid "Layer table"
+msgstr "Tabela warstwy"
+
+#: diagnostics.py:272
+#, server
+msgid "Table not found."
+msgstr "Tabela nieznaleziona."
+
+#: diagnostics.py:274
+#, server
+msgid "Table found, table type is {}."
+msgstr "Tabela znaleziona, typ tabeli to {}."
+
+#: diagnostics.py:292
+#, server
+msgid "{} privilege is present."
+msgstr "Uprawnienie {} jest nieobecne."
+
+#: diagnostics.py:294 diagnostics.py:296
+#, server
+msgid "{} privilege is absent."
+msgstr "Uprawnienie {} jest nieobecne."
+
+#: diagnostics.py:299
+#, server
+msgid "Number of records: {}."
+msgstr "Liczba rekordów: {}."
+
+#: diagnostics.py:302
+#, server
+msgid "ID or geometry column isn't set."
+msgstr "Kolumna ID lub geometrii nie jest ustawiona."
+
+#: diagnostics.py:309 nodepkg/layer-widget/LayerWidget.tsx:20
+#, jsrealm, server
+msgid "ID column"
+msgstr "Kolumna ID"
+
+#: diagnostics.py:314 diagnostics.py:387
+#, server
+msgid "Column not found."
+msgstr "Kolumna nieznaleziona."
+
+#: diagnostics.py:319
+#, server
+msgid "Column found, but has non-integer type - {}."
+msgstr "Kolumna znaleziona, ale ma tym niecałkowity - {}."
+
+#: diagnostics.py:321 diagnostics.py:400
+#, server
+msgid "Column found, type is {}."
+msgstr "Kolumna znaleziona, typ to {}."
+
+#: diagnostics.py:326
+#, server
+msgid "Column is the primary key."
+msgstr "Kolumna jest kluczem głównym."
+
+#: diagnostics.py:329
+#, server
+msgid "Column is not the primary key."
+msgstr "Kolumna nie jest kluczem głównym."
+
+#: diagnostics.py:338
+#, server
+msgid "Column can be NULL."
+msgstr "Kolumna może mieć wartość NULL."
+
+#: diagnostics.py:343
+#, server
+msgid "NULL values in the column."
+msgstr "Wartość NULL w kolumnie."
+
+#: diagnostics.py:345
+#, server
+msgid "No NULL values in the column."
+msgstr "Brak wartości NULL w kolumnie."
+
+#: diagnostics.py:347
+#, server
+msgid "Column cannot be NULL."
+msgstr "Kolumna nie może mieć wartości NULL."
+
+#: diagnostics.py:351
+#, server
+msgid "Unique index not found."
+msgstr "Nie znaleziono unikalnego indeksu."
+
+#: diagnostics.py:353
+#, server
+msgid "Unique index found."
+msgstr "Znaleziono unikalny indeks."
+
+#: diagnostics.py:369
+#, server
+msgid "Non-unique values in the column."
+msgstr "W kolumnie są wartości nieunikalne."
+
+#: diagnostics.py:371
+#, server
+msgid "All values are unique."
+msgstr "Wszystkie wartości są unikalne."
+
+#: diagnostics.py:376
+#, server
+msgid "Column is auto-incrementable."
+msgstr "Kolumna jest auto-inkrementowalna."
+
+#: diagnostics.py:378
+#, server
+msgid "Column isn't auto-incrementable."
+msgstr "Kolumna nie jest auto-inkrementowalna."
+
+#: diagnostics.py:382 nodepkg/layer-widget/LayerWidget.tsx:21
+#, jsrealm, server
+msgid "Geometry column"
+msgstr "Kolumna geometrii"
+
+#: diagnostics.py:397
+#, server
+msgid "Column found, but has an incompatible type - {}."
+msgstr "Kolumna znaleziona, ale ma niezgodny typ - {}."
+
+#: diagnostics.py:403
+#, server
+msgid "Geometry SRID mismatch."
+msgstr "Niezgodność SRID geometrii."
+
+#: diagnostics.py:418
+#, server
+msgid "Failed to reproject extent to SRID {}."
+msgstr "Nie udało się przekształcić zasięgu do SRID {}."
+
+#: diagnostics.py:425
+#, server
+msgid "Extent (SRID {}): {}."
+msgstr "Zasięg (SRID {}): {}."
+
+#: diagnostics.py:429
+#, server
+msgid "Field columns"
+msgstr "Kolumny pól"
+
+#: diagnostics.py:435
+#, server
+msgid "Column of field '{}' not found."
+msgstr "Kolumna pola '{}' nie znaleziona."
+
+#: diagnostics.py:444
+#, server
+msgid "Column of field '{}' found, but has an incompatible type - {}."
+msgstr "Kolumna pola '{}' znaleziona, ale ma niezgodny typ - {}."
+
+#: diagnostics.py:450
+#, server
+msgid "Column of field '{}' found, type is {}."
+msgstr "Kolumna pola '{}' znaleziona, typ to -{}."
+
+#: exception.py:9
+#, server
+msgid "External database error"
+msgstr "Błąd usługi zewnętrznej"
+
+#: model.py:78 nodepkg/layer-widget/LayerWidget.tsx:67
+#, jsrealm, server
+msgid "Point"
+msgstr "Punkt"
+
+#: model.py:79 nodepkg/layer-widget/LayerWidget.tsx:68
+#, jsrealm, server
+msgid "Line"
+msgstr "Linia"
+
+#: model.py:80 nodepkg/layer-widget/LayerWidget.tsx:69
+#, jsrealm, server
+msgid "Polygon"
+msgstr "Poligon"
+
+#: model.py:81 nodepkg/layer-widget/LayerWidget.tsx:70
+#, jsrealm, server
+msgid "Multipoint"
+msgstr "Multipunkt"
+
+#: model.py:82 nodepkg/layer-widget/LayerWidget.tsx:71
+#, jsrealm, server
+msgid "Multiline"
+msgstr "Multilinia"
+
+#: model.py:83 nodepkg/layer-widget/LayerWidget.tsx:72
+#, jsrealm, server
+msgid "Multipolygon"
+msgstr "Multipoligon"
+
+#: model.py:84 nodepkg/layer-widget/LayerWidget.tsx:73
+#, jsrealm, server
+msgid "Point Z"
+msgstr "Punkt Z"
+
+#: model.py:85 nodepkg/layer-widget/LayerWidget.tsx:74
+#, jsrealm, server
+msgid "Line Z"
+msgstr "Linia Z"
+
+#: model.py:86 nodepkg/layer-widget/LayerWidget.tsx:75
+#, jsrealm, server
+msgid "Polygon Z"
+msgstr "Poligon Z"
+
+#: model.py:87 nodepkg/layer-widget/LayerWidget.tsx:76
+#, jsrealm, server
+msgid "Multipoint Z"
+msgstr "Multipunkt Z"
+
+#: model.py:88 nodepkg/layer-widget/LayerWidget.tsx:77
+#, jsrealm, server
+msgid "Multiline Z"
+msgstr "Multilinia Z"
+
+#: model.py:89 nodepkg/layer-widget/LayerWidget.tsx:78
+#, jsrealm, server
+msgid "Multipolygon Z"
+msgstr "Mulipoligon Z"
+
+#: model.py:135 nodepkg/connection-widget/ConnectionWidget.tsx:96
+#, jsrealm, server
+msgid "PostGIS connection"
+msgstr "Połączenie z PostGIS"
+
+#: model.py:227
+#, server
+msgid "Cannot connect to the database!"
+msgstr "Nie można połączyć się z bazą danych!"
+
+#: model.py:263 nodepkg/layer-widget/LayerWidget.tsx:224
+#, jsrealm, server
+msgid "PostGIS layer"
+msgstr "Warstwa PostGIS"
+
+#: model.py:317
+#, python-format, server
+msgid "Table '%(table)s' not found!"
+msgstr "Nie znaleziono tabeli '%(table)s'!"
+
+#: model.py:335
+#, server
+msgid "SRID missing in geometry_columns table! You should specify it manually."
+msgstr "Brak SRID w tabeli geometry_columns! Należy go określić ręcznie."
+
+#: model.py:341
+#, server
+msgid "0 is an invalid SRID."
+msgstr "0 jest nieprawidłowym SRID."
+
+#: model.py:349
+#, server
+msgid "SRID in geometry_columns table does not match specified!"
+msgstr "SRID w tabeli geometry_columns nie pasuje do określonego!"
+
+#: model.py:360
+#, server
+msgid ""
+"Geometry type missing in geometry_columns table! You should specify it "
+"manually."
+msgstr "Brak typu geometrii w tabeli geometry_columns! Należy go określić ręcznie."
+
+#: model.py:372
+#, server
+msgid "Geometry type in geometry_columns table does not match specified!"
+msgstr "Typ geometrii w tabeli geometry_columns nie pasuje do określonego!"
+
+#: model.py:384
+#, server
+msgid "To use column as ID it should have integer type!"
+msgstr "Aby użyć kolumny jako ID, powinna mieć typ całkowity!"
+
+#: model.py:423 model.py:428
+#, python-format, server
+msgid "Column '%(column)s' not found!"
+msgstr "Nie znaleziono kolumny '%(column)s'!"
+
+#: model.py:434 nodepkg/layer-widget/LayerWidget.tsx:23
+#, jsrealm, server
+msgid "Geometry type"
+msgstr "Rodzaj geometrii"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:42
+#, jsrealm
+msgid "Host"
+msgstr "Adres serwera"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:47
+#, jsrealm
+msgid "Port"
+msgstr "Numer portu"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:58
+#, jsrealm
+msgid "SSL mode"
+msgstr "Tryb SSL"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:70
+#, jsrealm
+msgid "User"
+msgstr "Użytkownik"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:76
+#, jsrealm
+msgid "Password"
+msgstr "Hasło postGIS"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:86
+#, jsrealm
+msgid "Database"
+msgstr "Źródło danych"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.tsx:22
+#, jsrealm
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.tsx:23
+#, jsrealm
+msgid "Success"
+msgstr "Sukces"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.tsx:24
+#, jsrealm
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.tsx:25
+#, jsrealm
+msgid "Error"
+msgstr "Błąd"
+
+#: nodepkg/layer-widget/LayerStore.ts:13
+#, jsrealm
+msgid "Fields need to be updated due to autodetection"
+msgstr "Pola wymagają aktualizacji z powodu autowykrywania"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:17
+#, jsrealm
+msgid "Connection"
+msgstr "Połączenie"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:18
+#, jsrealm
+msgid "Schema"
+msgstr "Schemat"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:19
+#, jsrealm
+msgid "Table"
+msgstr "Tabela"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:22
+#, jsrealm
+msgid "Autodetect"
+msgstr "Automatyczne wykrywanie"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:24
+#, jsrealm
+msgid "SRID"
+msgstr "SRID"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:25
+#, jsrealm
+msgid "Fields"
+msgstr "Pola"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:82
+#, jsrealm
+msgid "Keep existing definitions untouched"
+msgstr "Pozostaw istniejące definicje bez zmian"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:83
+#, jsrealm
+msgid "Update definitions from the database"
+msgstr "Zaktualizuj definicje z bazy danych"
+
+#: view.py:42
+#, server
+msgid "Diagnostics"
+msgstr "Diagnostyka"
+
+#: view.py:63
+#, server
+msgid "PostGIS diagnostics"
+msgstr "Diagnostyka PostGIS"

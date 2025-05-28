@@ -1,0 +1,59 @@
+#: nodepkg/editor/EditorWidget.tsx:45
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:29
+#, jsrealm
+msgid "False"
+msgstr "Fałsz"
+
+#: nodepkg/editor/EditorWidget.tsx:46
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:29
+#, jsrealm
+msgid "True"
+msgstr "Prawda"
+
+#: nodepkg/editor/EditorWidget.tsx:68
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:13
+#, jsrealm
+msgid "String"
+msgstr "Ciąg znaków"
+
+#: nodepkg/editor/EditorWidget.tsx:69
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:15
+#, jsrealm
+msgid "Number"
+msgstr "Liczba"
+
+#: nodepkg/editor/EditorWidget.tsx:70
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:17
+#, jsrealm
+msgid "Boolean"
+msgstr "Wartość logiczna"
+
+#: nodepkg/editor/EditorWidget.tsx:71
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:11
+#, jsrealm
+msgid "Empty"
+msgstr "Puste"
+
+#: nodepkg/editor/EditorWidget.tsx:82
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:43
+#, jsrealm
+msgid "Key"
+msgstr "Klucz"
+
+#: nodepkg/editor/EditorWidget.tsx:88
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:49
+#, jsrealm
+msgid "Type"
+msgstr "Rodzaj"
+
+#: nodepkg/editor/EditorWidget.tsx:94
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:56
+#, jsrealm
+msgid "Value"
+msgstr "Wartość"
+
+#: nodepkg/editor/EditorWidget.tsx:114
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:85
+#, jsrealm
+msgid "Metadata"
+msgstr "Metadane"

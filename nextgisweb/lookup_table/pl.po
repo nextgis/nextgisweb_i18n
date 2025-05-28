@@ -1,0 +1,85 @@
+#: model.py:34 nodepkg/editor/EditorWidget.tsx:171
+#, jsrealm, server
+msgid "Lookup table"
+msgstr "Tabela wyszukiwania"
+
+#: nodepkg/component/lookup-select/LookupSelect.tsx:48
+#, jsrealm
+msgid "Loading..."
+msgstr "Ładowanie..."
+
+#: nodepkg/editor/EditorWidget.tsx:31
+#, jsrealm
+msgid "Export"
+msgstr "Eksportuj"
+
+#: nodepkg/editor/EditorWidget.tsx:32
+#, jsrealm
+msgid "Import"
+msgstr "Importuj"
+
+#: nodepkg/editor/EditorWidget.tsx:33
+#, jsrealm
+msgid "Sort order"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:34
+#, jsrealm
+msgid "Resort rows"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:35
+#, jsrealm
+msgid "Clear"
+msgstr "Wyczyść"
+
+#: nodepkg/editor/EditorWidget.tsx:38
+#, jsrealm
+msgid ""
+"All existing records will be deleted after import. Are you sure you want to "
+"proceed?"
+msgstr ""
+"Wszystkie istniejące rekordy zostaną usunięte po imporcie. Czy na pewno "
+"chcesz kontynuować?"
+
+#: nodepkg/editor/EditorWidget.tsx:45
+#: nodepkg/resource-section/LookupTableResourceSection.tsx:23
+#, jsrealm
+msgid "Key"
+msgstr "Klucz"
+
+#: nodepkg/editor/EditorWidget.tsx:51
+#: nodepkg/resource-section/LookupTableResourceSection.tsx:30
+#, jsrealm
+msgid "Value"
+msgstr "Wartość"
+
+#: nodepkg/editor/EditorWidget.tsx:61
+#, jsrealm
+msgid "Key, ascending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:62
+#, jsrealm
+msgid "Key, descending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:63
+#, jsrealm
+msgid "Value, ascending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:64
+#, jsrealm
+msgid "Value, descending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:65
+#, jsrealm
+msgid "Custom"
+msgstr ""
+
+#: nodepkg/resource-section/LookupTableResourceSection.tsx:55
+#, jsrealm
+msgid "Items"
+msgstr "Elementy"

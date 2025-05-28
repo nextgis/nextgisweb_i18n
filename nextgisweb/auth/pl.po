@@ -1,0 +1,475 @@
+#: api.py:80
+#, python-format, server
+msgid "The '%s' attribute of the system principal can't be changed."
+msgstr "Atrybut '%s' głównego konta systemowego nie może być zmieniony."
+
+#: api.py:87
+#, python-format, server
+msgid "Principal '%s' already exists."
+msgstr "Konto '%s' już istnieje."
+
+#: api.py:89
+#, python-format, server
+msgid "Principal with full name '%s' already exists."
+msgstr "Konto o nazwie '%s' już istnieje."
+
+#: api.py:159
+#, server
+msgid "Password is not set."
+msgstr "Hasło nie zostało ustawione."
+
+#: api.py:602
+#, python-format, server
+msgid "User '%s' can't be a member of a group."
+msgstr "Użytkownik '%s' nie może należeć do grupy."
+
+#: api.py:608
+#, server
+msgid "System principals can't be deleted."
+msgstr "Kont systemowych nie można usuwać."
+
+#: api.py:623
+#, server
+msgid "User is referenced with resources"
+msgstr "Użytkownik jest powiązany z zasobami"
+
+#: api.py:625
+#, server
+msgid "Group is referenced with resources"
+msgstr "Grupa jest powiązana z zasobami"
+
+#: api.py:631
+#, server
+msgid "Administrator required"
+msgstr "Administrator wymagany"
+
+#: api.py:632
+#, server
+msgid "The 'administrators' group must have at least one enabled member."
+msgstr "Grupa 'administratorów' musi mieć co najmniej jednego aktywnego członka."
+
+#: component.py:50
+#, server
+msgid "Administrator"
+msgstr "Administrator"
+
+#: component.py:259
+#, python-format, server
+msgid "Maximum number of users is reached. Your current plan user number limit is %d."
+msgstr ""
+"Osiągnięto maksymalną ilość użytkowników. Obecne ograniczenie liczby "
+"użytkowników to %d."
+
+#: component.py:274
+#, server
+msgid ""
+"Maximum number of local users is reached. Your current plan local user number"
+" limit is {}."
+msgstr ""
+
+#: exception.py:7
+#, server
+msgid "Invalid authorization header"
+msgstr "Nieprawidłowy nagłówek autoryzacji"
+
+#: exception.py:12
+#, server
+msgid "Invalid credentials"
+msgstr "Nieprawidłowe dane logowania"
+
+#: exception.py:17
+#, server
+msgid "User is disabled"
+msgstr "Użytkownik wyłączony"
+
+#: exception.py:22
+#, server
+msgid "Session authentication required"
+msgstr "Wymagana autoryzacja sesji"
+
+#: exception.py:27
+#, server
+msgid "Invalid authorization link"
+msgstr "Nieprawidłowy link autoryzacyjny"
+
+#: model.py:96
+#, server
+msgid "Guest"
+msgstr "Gość"
+
+#: model.py:97
+#, server
+msgid "Everyone"
+msgstr "Wszyscy"
+
+#: model.py:98
+#, server
+msgid "Authenticated"
+msgstr "Uwierzytelnianie"
+
+#: model.py:99
+#, server
+msgid "Owner"
+msgstr "Właściciel dostępu"
+
+#: model.py:206
+#, server
+msgid "Administrators"
+msgstr "Administratorzy"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:8 nodepkg/group-widget/GroupWidget.tsx:19
+#, jsrealm
+msgid "Delete group?"
+msgstr "Usunąć grupę?"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:9 nodepkg/group-widget/GroupWidget.tsx:20
+#, jsrealm
+msgid "Group deleted"
+msgstr "Usunięte grupy"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
+#: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:42
+#, jsrealm
+msgid "Full name"
+msgstr "Pełna nazwa"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:25 nodepkg/group-widget/GroupWidget.tsx:34
+#, jsrealm
+msgid "Group name"
+msgstr "Nazwa grupy"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:31 nodepkg/group-widget/GroupWidget.tsx:59
+#, jsrealm
+msgid "New users"
+msgstr "Nowi użytkownicy"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:27
+#, jsrealm
+msgid "Yes"
+msgstr "Tak"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:28
+#, jsrealm
+msgid "No"
+msgstr "Nie"
+
+#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:328 view.py:417
+#, jsrealm, server
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:100
+#, jsrealm
+msgid "Permissions"
+msgstr "Uprawnienia"
+
+#: nodepkg/group-widget/GroupWidget.tsx:65
+#, jsrealm
+msgid "{dn} mapping"
+msgstr "Mapowanie {dn}"
+
+#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:112
+#, jsrealm
+msgid "Description"
+msgstr "Uprawnienia"
+
+#: nodepkg/login/LoginForm.tsx:21
+#, jsrealm
+msgid "Sign in with {}"
+msgstr "Zaloguj się przez {}"
+
+#: nodepkg/login/LoginForm.tsx:22 view.py:60
+#, jsrealm, server
+msgid "Sign in to Web GIS"
+msgstr "Zaloguj się do Web GIS"
+
+#: nodepkg/login/LoginForm.tsx:23 nodepkg/session-invite/SessionInvite.tsx:18
+#, jsrealm
+msgid "Sign in"
+msgstr "Zaloguj się"
+
+#: nodepkg/login/LoginForm.tsx:38 nodepkg/settings-form/SettingsForm.tsx:52
+#: nodepkg/user-browse/UserBrowse.tsx:25 nodepkg/user-widget/UserWidget.tsx:48
+#, jsrealm
+msgid "Login"
+msgstr "Login"
+
+#: nodepkg/login/LoginForm.tsx:43 nodepkg/user-browse/UserBrowse.tsx:26
+#: nodepkg/user-widget/UserWidget.tsx:55
+#, jsrealm
+msgid "Password"
+msgstr "Hasło"
+
+#: nodepkg/login/LoginForm.tsx:109
+#, jsrealm
+msgid "or using login and password"
+msgstr "lub za pomocą loginu i hasła"
+
+#: nodepkg/oauth.tsx:26
+#, jsrealm
+msgid "Manage team"
+msgstr "Zarządzaj zespołem"
+
+#: nodepkg/settings-form/SettingsForm.tsx:26
+#, jsrealm
+msgid "Account bound"
+msgstr "Konto powiązane"
+
+#: nodepkg/settings-form/SettingsForm.tsx:37
+#, jsrealm
+msgid "Bind account"
+msgstr "Powiąż konto"
+
+#: nodepkg/settings-form/SettingsForm.tsx:39
+#, jsrealm
+msgid "Account not bound"
+msgstr "Konto niepowiązane"
+
+#: nodepkg/settings-form/SettingsForm.tsx:60 nodepkg/user-widget/UserWidget.tsx:106
+#, jsrealm
+msgid "Language"
+msgstr "Język"
+
+#: nodepkg/settings-form/SettingsForm.tsx:76
+#, jsrealm
+msgid "Saved"
+msgstr "Zapisano"
+
+#: nodepkg/user-browse/UserBrowse.tsx:22 nodepkg/user-widget/UserWidget.tsx:83
+#, jsrealm
+msgid "Disabled"
+msgstr "Wyłączone"
+
+#: nodepkg/user-browse/UserBrowse.tsx:23
+#, jsrealm
+msgid "Enabled"
+msgstr "Włączone"
+
+#: nodepkg/user-browse/UserBrowse.tsx:29
+#, jsrealm
+msgid "Last activity"
+msgstr "Ostatnia aktywność"
+
+#: nodepkg/user-browse/UserBrowse.tsx:30
+#, jsrealm
+msgid "Status"
+msgstr "Status"
+
+#: nodepkg/user-browse/UserBrowse.tsx:34
+#, jsrealm
+msgid "Users with a password can sign in with login and password."
+msgstr "Użytkownicy z hasłem mogą się logować za pomocą loginu i hasła."
+
+#: nodepkg/user-browse/UserBrowse.tsx:35
+#, jsrealm
+msgid "Users bound to {dn} can sign in with {dn}."
+msgstr "Użytkownicy powiązani z {dn} mogą się logować przez {dn}."
+
+#: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:22
+#, jsrealm
+msgid "Delete user?"
+msgstr "Usunąć użytkownika?"
+
+#: nodepkg/user-browse/UserBrowse.tsx:40 nodepkg/user-widget/UserWidget.tsx:23
+#, jsrealm
+msgid "User deleted"
+msgstr "Usunięci użytkownicy"
+
+#: nodepkg/user-browse/UserBrowse.tsx:122
+#, jsrealm
+msgid ""
+"Your team members won't be shown here until their first logon. Set \"New "
+"users\" flag for a group to automatically assign new user to this group. You "
+"may also modify permission for authenticated users to manage access for your "
+"team members."
+msgstr ""
+"Członkowie zespołu nie będą tu widoczni, dopóki nie zalogują się po raz "
+"pierwszy. Ustaw znacznik \"Nowi użytkownicy\" dla grupy, aby przypisać nowych"
+" użytkowników automatycznie. Możesz też zmienić uprawnienia dla "
+"uwierzytelnionych użytkowników w celu zarządzania dostępem do zespołu."
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+#, jsrealm
+msgid "Disable"
+msgstr "Wyłączone"
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+#, jsrealm
+msgid "Enable"
+msgstr "Włączone"
+
+#: nodepkg/user-widget/UserWidget.tsx:59 nodepkg/user-widget/UserWidget.tsx:64
+#, jsrealm
+msgid "Enter new password here"
+msgstr "Wpisz nowe hasło"
+
+#: nodepkg/user-widget/UserWidget.tsx:77
+#, jsrealm
+msgid "Authorization link"
+msgstr "Link autoryzacyjny"
+
+#: nodepkg/user-widget/UserWidget.tsx:89 view.py:359 view.py:423
+#, jsrealm, server
+msgid "Groups"
+msgstr "Grupy"
+
+#: nodepkg/user-widget/UserWidget.tsx:126
+#, jsrealm
+msgid ""
+"Consider adding {name} user to your team instead of creating a new user with "
+"a password."
+msgstr ""
+"Rozważ dodanie użytkownika {name} do swojego zespołu tworzenia nowego "
+"użytkownika z hasłem."
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:10
+#, jsrealm
+msgid "Keep existing"
+msgstr "Zachowaj istniejącycy"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
+#: nodepkg/user-widget/UserWidgetPassword.tsx:14
+#, jsrealm
+msgid "Assign new"
+msgstr "Przypisz nowy"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
+#: nodepkg/user-widget/UserWidgetPassword.tsx:20
+#, jsrealm
+msgid "Turn off"
+msgstr "Wyłącz"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
+#, jsrealm
+msgid "The generated link will be available after saving."
+msgstr "Wygenerowany link będzie dostępny po zapisaniu."
+
+#: nodepkg/user-widget/UserWidgetPassword.tsx:19
+#, jsrealm
+msgid "{name} only"
+msgstr "Tylko {name}"
+
+#: oauth.py:323
+#, server
+msgid "{} binding error"
+msgstr "Błąd powiązania {}"
+
+#: oauth.py:324
+#, server
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
+"in using this account instead of binding it."
+msgstr ""
+"To konto {dn} ({sub}) jest już powiązane z innym użytkownikiem ({id}). "
+"Zaloguj się przy jego użyciu zamiast ponownie je wiązać."
+
+#: oauth.py:639
+#, server
+msgid "OAuth authorization error"
+msgstr "Błąd autoryzacji OAuth"
+
+#: oauth.py:644
+#, server
+msgid "Invalid OAuth token"
+msgstr "Nieprawidłowy token OAuth"
+
+#: oauth.py:649
+#, server
+msgid "Invalid OAuth scope"
+msgstr "Nieprawidłowy zakres OAuth"
+
+#: oauth.py:654
+#, server
+msgid "OAuth password grant type failed"
+msgstr "Nie powiodło się uwierzytelnianie OAuth"
+
+#: oauth.py:659
+#, server
+msgid "OAuth token refresh failed"
+msgstr "Nie udało się odświeżyć tokenu OAuth"
+
+#: oauth.py:664
+#, server
+msgid "OAuth access token is expired"
+msgstr "Token dostępu OAuth wygasł"
+
+#: permission.py:12
+#, server
+msgid "View"
+msgstr "Podgląd"
+
+#: permission.py:13
+#, server
+msgid "Manage"
+msgstr "Zarządzaj"
+
+#: permission.py:39 view.py:413
+#, server
+msgid "Groups and users"
+msgstr "Grupy i użytkownicy"
+
+#: view.py:75
+#, server
+msgid "Invitation session"
+msgstr "Sesja zaproszenia"
+
+#: view.py:92
+#, server
+msgid "Session not found."
+msgstr "Sesja nie została znaleziona."
+
+#: view.py:96
+#, server
+msgid "Invalid 'expires' parameter."
+msgstr "Nieprawidłowy parametr 'expires'."
+
+#: view.py:98
+#, server
+msgid "Session expired."
+msgstr "Sesja wygasła."
+
+#: view.py:117
+#, server
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr ""
+"Nie udało się uwierzytelnić za pomocą podanego linku autoryzacyjnego. Sprawdź"
+" link i skontaktuj się z administratorem."
+
+#: view.py:128
+#, server
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr "Użycie linku autoryzacyjnego jest zabronione dla administratorów."
+
+#: view.py:167
+#, server
+msgid "Team membership required"
+msgstr "Wymagane członkostwo w zespole"
+
+#: view.py:168
+#, server
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and "
+"ask to be added to the team."
+msgstr ""
+"Nie jesteś członkiem tego zespołu Web GIS. Skontaktuj się z administratorem "
+"Web GIS i poproś o dodanie do zespołu."
+
+#: view.py:320
+#, server
+msgid "User settings"
+msgstr "Ustawienia użytkownika"
+
+#: view.py:338
+#, server
+msgid "Create new user"
+msgstr "Dodaj nowego użytkownika"
+
+#: view.py:370
+#, server
+msgid "Create new group"
+msgstr "Stwórz nową grupę"

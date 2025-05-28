@@ -1,0 +1,50 @@
+#: api.py:24
+#, server
+msgid "Uploaded file too large"
+msgstr "Przesłany plik jest za duży"
+
+#: model.py:136
+#, server
+msgid "Uploaded file not found"
+msgstr "Przesłany plik nie został znaleziony"
+
+#: model.py:140
+#, server
+msgid "Upload is not completed"
+msgstr "Przesyłanie nie zostało zakończone"
+
+#: nodepkg/file-uploader/FileUploader.tsx:19
+#: nodepkg/image-uploader/ImageUploader.tsx:17
+#, jsrealm
+msgid "Select a file"
+msgstr "Wybierz plik"
+
+#: nodepkg/file-uploader/FileUploader.tsx:20
+#, jsrealm
+msgid "or drag and drop here"
+msgstr "lub przeciągnij i upuść tutaj"
+
+#: nodepkg/file-uploader/FileUploader.tsx:21
+#, jsrealm
+msgid "max"
+msgstr "maksimum"
+
+#: nodepkg/file-uploader/FileUploader.tsx:22
+#, jsrealm
+msgid "Stop"
+msgstr "Stop"
+
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
+#, jsrealm
+msgid "Upload"
+msgstr "Prześlij"
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:18
+#, jsrealm
+msgid "{} uploaded..."
+msgstr "{} przesłano..."
+
+#: nodepkg/image-uploader/ImageUploader.tsx:18
+#, jsrealm
+msgid "Delete"
+msgstr "Usuń"

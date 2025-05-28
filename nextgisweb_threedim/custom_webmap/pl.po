@@ -1,0 +1,64 @@
+#: nodepkg/message/index.ts:5
+#, jsrealm
+msgid "Attributes"
+msgstr "Atrybuty"
+
+#: nodepkg/message/index.ts:6
+#, jsrealm
+msgid "Layers"
+msgstr "Warstwy"
+
+#: nodepkg/message/index.ts:7
+#, jsrealm
+msgid "Search"
+msgstr "Szukaj"
+
+#: nodepkg/message/index.ts:8
+#, jsrealm
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: nodepkg/message/index.ts:9
+#, jsrealm
+msgid "Rendering quality"
+msgstr "Jakość renderowania"
+
+#: nodepkg/message/index.ts:10
+#, jsrealm
+msgid "Zoom to"
+msgstr "Powiększ do"
+
+#: nodepkg/message/index.ts:11
+#, jsrealm
+msgid "Share"
+msgstr "Udostępnij"
+
+#: nodepkg/message/index.ts:12
+#, jsrealm
+msgid "Map link"
+msgstr "Link do mapy"
+
+#: nodepkg/message/index.ts:13
+#, jsrealm
+msgid "Focus camera on object"
+msgstr "Skieruj kamerę na obiekt"
+
+#: nodepkg/message/index.ts:14
+#, jsrealm
+msgid "Measure distance"
+msgstr "Zmierz odległość"
+
+#: nodepkg/message/index.ts:15
+#, jsrealm
+msgid "Measure distance with terrain"
+msgstr "Zmierz odległość z uwzględnieniem terenu"
+
+#: nodepkg/message/index.ts:16
+#, jsrealm
+msgid "Measure area"
+msgstr "Zmierz powierzchnię"
+
+#: nodepkg/message/index.ts:17
+#, jsrealm
+msgid "Measure area with terrain"
+msgstr "Zmierz powierzchnię z uwzględnieniem terenu"

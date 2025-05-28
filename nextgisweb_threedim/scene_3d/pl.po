@@ -1,0 +1,159 @@
+#: model/scene_3d.py:30 nodepkg/settings-widget/SettingsWidget.tsx:95 view.py:65
+#: view.py:71
+#, jsrealm, server
+msgid "3D scene"
+msgstr "Scena 3D"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:51
+#: nodepkg/items-widget/ItemsWidget.tsx:26
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:21
+#, jsrealm
+msgid "Display name"
+msgstr "Wyświetlana nazwa"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:58
+#, jsrealm
+msgid "Default basemap"
+msgstr "Domyślna mapa bazowa"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
+#, jsrealm
+msgid "Opacity"
+msgstr "Nieprzezroczystość"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:66
+#: nodepkg/items-widget/ItemsWidget.tsx:25
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:31
+#, jsrealm
+msgid "Resource"
+msgstr "Zasób"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:132
+#, jsrealm
+msgid "Basemaps"
+msgstr "Mapy podkładowe"
+
+#: nodepkg/items-widget/Item.ts:106
+#, jsrealm
+msgid "Group members have errors"
+msgstr "Członkowie grupy mają błędy"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:23
+#, jsrealm
+msgid "Visible"
+msgstr "Widoczność"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:24
+#, jsrealm
+msgid "Expanded"
+msgstr "Rozszerzenie"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:27
+#, jsrealm
+msgid "3D tileset color"
+msgstr "Kolor zestawu kafli 3D"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:28
+#, jsrealm
+msgid "Classification layer"
+msgstr "Warstwa klasyfikacji"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:30
+#, jsrealm
+msgid "Layer"
+msgstr "Warstwa"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:31
+#, jsrealm
+msgid "Group"
+msgstr "Grupa"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:181
+#, jsrealm
+msgid "Items"
+msgstr "Elementy"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:13
+#, jsrealm
+msgid "Globe"
+msgstr "Kula"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:14
+#, jsrealm
+msgid "Plane"
+msgstr "Płaszczyzna"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:18
+#, jsrealm
+msgid "Minimum"
+msgstr "Minimalna"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:19
+#, jsrealm
+msgid "Low"
+msgstr "Niska"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:20
+#, jsrealm
+msgid "Medium"
+msgstr "Średnia"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:21
+#, jsrealm
+msgid "High"
+msgstr "Wysoka"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:22
+#, jsrealm
+msgid "Maximum"
+msgstr "Maksymalna"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:30
+#, jsrealm
+msgid "View"
+msgstr "Widok"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
+#, jsrealm
+msgid "Quality"
+msgstr "Jakość"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:50
+#, jsrealm
+msgid "Enable Yandex Panoramas"
+msgstr "Włącz panoramy Yandex"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:59
+#, jsrealm
+msgid "Yandex Panoramas API key"
+msgstr "Klucz API panoram Yandex"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:68
+#, jsrealm
+msgid "Enable Google Street View"
+msgstr "Włącz Google Street View"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:77
+#, jsrealm
+msgid "Google Street View API key"
+msgstr "Klucz API Google Street View"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:86
+#, jsrealm
+msgid "Extent"
+msgstr "Zasięg"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:28
+#, jsrealm
+msgid "Default terrain"
+msgstr "Domyślny teren"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:92
+#, jsrealm
+msgid "Terrain"
+msgstr "Teren"
+
+#: view.py:77
+#, server
+msgid "Display"
+msgstr "Wyświetlanie"

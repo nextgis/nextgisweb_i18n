@@ -1,0 +1,470 @@
+#: api.py:98 api_identify.py:27
+#, server
+msgid "Geometry is not valid."
+msgstr "Geometria jest nieprawidłowa."
+
+#: api.py:353
+#, server
+msgid "Unknown spatial reference system"
+msgstr "Nieznany układ odniesienia przestrzennego"
+
+#: api.py:428 api_export.py:206
+#, server
+msgid "Parameter 'intersects' geometry is not valid."
+msgstr "Geometria parametru 'intersects' jest nieprawidłowa."
+
+#: api_export.py:110
+#, server
+msgid "Couldn't add FID field '{}'. Such field already exists."
+msgstr "Nie można dodać pola FID '{}. Takie pole już istnieje."
+
+#: api_export.py:245
+#, server
+msgid "The export limit is set to {limit} features, but the layer contains {count}."
+msgstr "Limit eksportu to {limit} obiektów, ale warstwa zawiera {count}."
+
+#: api_export.py:259
+#, server
+msgid "Failed to reproject 'intersects' geometry."
+msgstr "Nie udało się przekształcić geometrii 'intersects'."
+
+#: api_export.py:428
+#, server
+msgid "File name parameter '{}' is not valid."
+msgstr "Parametr nazwy pliku '{}' jest nieprawidłowy."
+
+#: exception.py:7
+#, server
+msgid "Feature not found"
+msgstr "Nie znaleziono funckji"
+
+#: exception.py:8
+#, python-format, server
+msgid "Feature with id = %d was not found in resource with id = %d."
+msgstr ""
+"Funkcja o identyfikatorze = %d nie została znaleziona w zasobie o "
+"identyfikatorze = %d."
+
+#: exception.py:9
+#, server
+msgid "The feature may have been deleted or an error in the address."
+msgstr "Funkcja mogła zostać usunięta lub wystąpił błąd w adresie."
+
+#: exception.py:20
+#, server
+msgid "Feature not deleted"
+msgstr "Obiekt nie został usunięty"
+
+#: exception.py:21
+#, server
+msgid "Unable to restore the #{} feature as it is not deleted."
+msgstr "Nie można przywrócić obiektu #{} ponieważ nie został usunięty."
+
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:24 view.py:39
+#, jsrealm, server
+msgid "Feature table"
+msgstr "Tabela atrybutów"
+
+#: model.py:172
+#, python-format, server
+msgid "Field not found (ID=%d)."
+msgstr "Nie znaleziono pola (ID=%d)."
+
+#: model.py:249
+#, server
+msgid "Versioning not supported"
+msgstr "Wersjonowanie obiektów"
+
+#: nodepkg/attribute-editor/AttributeEditor.tsx:34
+#, jsrealm
+msgid "Set field value to NULL (No data)"
+msgstr "Ustaw wartość pola jako NULL (brak danych)"
+
+#: nodepkg/attribute-editor/AttributeEditor.tsx:35
+#, jsrealm
+msgid "There are no attributes in the vector layer"
+msgstr "Brak atrybutów warstwie wektorowej"
+
+#: nodepkg/attribute-editor/plugin.ts:10
+#, jsrealm
+msgid "Attributes"
+msgstr "Atrybuty"
+
+#: nodepkg/export-form/ExportForm.tsx:203
+#, jsrealm
+msgid "Resources"
+msgstr "Zasoby"
+
+#: nodepkg/export-form/ExportForm.tsx:225
+#, jsrealm
+msgid "Format"
+msgstr "Format"
+
+#: nodepkg/export-form/ExportForm.tsx:238
+#, jsrealm
+msgid "SRS"
+msgstr "SRS"
+
+#: nodepkg/export-form/ExportForm.tsx:243
+#, jsrealm
+msgid "Encoding"
+msgstr "Kodowanie"
+
+#: nodepkg/export-form/ExportForm.tsx:257
+#, jsrealm
+msgid "FID field"
+msgstr "pole FID"
+
+#: nodepkg/export-form/ExportForm.tsx:261
+#, jsrealm
+msgid "Use field display names instead of keynames"
+msgstr "Używaj nazw pól zamiast nazw kluczy"
+
+#: nodepkg/export-form/ExportForm.tsx:267
+#: nodepkg/fields-widget/FieldsWidget.tsx:166
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:51
+#, jsrealm
+msgid "Fields"
+msgstr "Pola"
+
+#: nodepkg/export-form/ExportForm.tsx:273
+#, jsrealm
+msgid "Limit by extent"
+msgstr "Ogranicz według zasięgu"
+
+#: nodepkg/export-form/ExportForm.tsx:279
+#, jsrealm
+msgid "Filter text"
+msgstr "Tekst filtra"
+
+#: nodepkg/export-form/ExportForm.tsx:283
+#, jsrealm
+msgid "Zip archive"
+msgstr "Archiwum plików ZIP"
+
+#: nodepkg/export-form/ExportForm.tsx:326
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:39
+#, jsrealm
+msgid "Save"
+msgstr "Zapisz"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
+#, jsrealm
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
+#, jsrealm
+msgid "Are you sure?"
+msgstr "Czy na pewno?"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:22
+#, jsrealm
+msgid "Unsaved changes will be lost if you close the window."
+msgstr "Niezapisane zmiany zostaną utracone po zamknięciu okna."
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:38
+#, jsrealm
+msgid "Loading..."
+msgstr "Ładowanie..."
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
+#, jsrealm
+msgid "OK"
+msgstr "OK"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
+#, jsrealm
+msgid "Reset"
+msgstr "Resetuj"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
+#, jsrealm
+msgid "Feature saved"
+msgstr "Obiekt zapisany"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:44
+#, jsrealm
+msgid "No changes to save"
+msgstr "Brak zmian do zapisania"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:22
+#, jsrealm
+msgid "Open table settings"
+msgstr "Otwórz ustawienia tabeli"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:23
+#, jsrealm
+msgid "Refresh table"
+msgstr "Odśwież tabelę"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:26
+#, jsrealm
+msgid "Open"
+msgstr "Otwórz"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+#, jsrealm
+msgid "Open on a new page"
+msgstr "Otwórz na nowej stronie"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:28
+#, jsrealm
+msgid "Delete"
+msgstr "Usuń"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:29
+#, jsrealm
+msgid "Edit"
+msgstr "Edytuj warstwę"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:30
+#, jsrealm
+msgid "Edit on a new page"
+msgstr "Edytuj na nowej stronie"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:32
+#, jsrealm
+msgid "Search..."
+msgstr "Szukaj..."
+
+#: nodepkg/feature-grid/FeatureTable.tsx:95
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:53
+#, jsrealm
+msgid "Last changed"
+msgstr "Ostatnio zmienione"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:30 view.py:82 view.py:92
+#: view.py:179
+#, jsrealm, server
+msgid "Save as"
+msgstr "Zapisz jako"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:31
+#, jsrealm
+msgid "Advanced Export"
+msgstr "Eksport zaawansowany"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:32
+#, jsrealm
+msgid "Quick Export"
+msgstr "Szybki eksport"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:33
+#, jsrealm
+msgid "Filters are applied"
+msgstr "Zastosowano filtry"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:20
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:31
+#, jsrealm
+msgid "Display name"
+msgstr "Nazwa wyświetlana"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:21
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:19
+#, jsrealm
+msgid "Keyname"
+msgstr "Klucz właściwości warstwy"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:22
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:25
+#, jsrealm
+msgid "Type"
+msgstr "Rodzaj"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:23
+#, jsrealm
+msgid "Lookup table"
+msgstr "Tabela wyszukiwania"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:25
+#, jsrealm
+msgid "Text search"
+msgstr "Wyszukiwanie tekstowe"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:26
+#, jsrealm
+msgid "Label attribute"
+msgstr "Właściwości etykiety"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
+#, jsrealm
+msgid "Please select"
+msgstr "Proszę wybrać"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:29
+#, jsrealm
+msgid "Not used"
+msgstr "Nieużywane"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:113
+#, jsrealm
+msgid "Field"
+msgstr "Pole"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:46
+#, jsrealm
+msgid "Load geometry info..."
+msgstr "Ładowanie informacji o geometrii..."
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:55
+#, jsrealm
+msgid "Failed to get information about the geometry"
+msgstr "Nie udało się pobrać informacji o geometrii"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:34
+#, jsrealm
+msgid "Perimeter"
+msgstr "Obwód"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:35
+#, jsrealm
+msgid "Length"
+msgstr "Długość"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:43
+#, jsrealm
+msgid "Area"
+msgstr "Powierzchnia"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:52
+#, jsrealm
+msgid "Geometry type"
+msgstr "Typ geometrii"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:60
+#, jsrealm
+msgid "Extent (xMin)"
+msgstr "Zakres (xMin)"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:64
+#, jsrealm
+msgid "Extent (yMin)"
+msgstr "Zakres (yMin)"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:68
+#, jsrealm
+msgid "Extent (xMax)"
+msgstr "Zakres (xMax)"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:72
+#, jsrealm
+msgid "Extent (yMax)"
+msgstr "Zakres (yMax)"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:11
+#, jsrealm
+msgid "Feature versioning"
+msgstr "Wersjonowanie obiektów"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
+#, jsrealm
+msgid "Disable feature versioning?"
+msgstr "Wyłączyć wersjonowanie obiektów?"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:25
+#, jsrealm
+msgid ""
+"Turning off feature versioning will truncate the history and keep only the "
+"latest state."
+msgstr "Wyłączenie wersjonowania usunie historię i zachowa tylko najnowszy stan."
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:50
+#, jsrealm
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: transaction/exception.py:7
+#, server
+msgid "Transaction not found"
+msgstr "Transakcja nie znaleziona"
+
+#: transaction/exception.py:12
+#, server
+msgid "Operation conflict in transaction"
+msgstr "Konflikt operacji w transakcji"
+
+#: transaction/exception.py:20
+#, server
+msgid "Transaction not committed"
+msgstr "Transakcja nie została znaleziona"
+
+#: versioning/exception.py:17
+#, server
+msgid "Not implemented for feature versioning"
+msgstr "Niezaimplementowane dla wersjonowania obiektów"
+
+#: versioning/exception.py:18
+#, server
+msgid ""
+"This operation cannot be performed on a resource with feature versioning "
+"enabled. Disable feature versioning for the resource first, and then try "
+"again."
+msgstr ""
+"Nie można wykonać tej operacji na zasobie z włączonym wersjonowaniem. "
+"Najpierw wyłącz wersjonowanie, a następnie spróbuj ponownie."
+
+#: versioning/exception.py:27
+#, server
+msgid "Feature versioning required"
+msgstr "Wymagane wersjonowanie obiektów"
+
+#: versioning/exception.py:32
+#, server
+msgid "Feature versioning is not supported for this resource."
+msgstr "Wersjonowanie obiektów nie jest obsługiwane dla tego zasobu."
+
+#: versioning/exception.py:34
+#, server
+msgid "Feature versioning is not enabled for this resource."
+msgstr "Wersjonowanie obiektów nie jest włączone dla tego zasobu."
+
+#: versioning/exception.py:41
+#, server
+msgid "Epoch required"
+msgstr "Wymagana epoka"
+
+#: versioning/exception.py:45
+#, server
+msgid "Epoch mismatch"
+msgstr "Nieprawidłowa epoka"
+
+#: versioning/exception.py:55
+#, server
+msgid "Version out of range"
+msgstr "Wersja poza zakresem"
+
+#: versioning/exception.py:65
+#, server
+msgid "Invalid range"
+msgstr "Nieprawidłowy zakres"
+
+#: view.py:55 view.py:70
+#, python-format, server
+msgid "Feature #%d"
+msgstr "Funkcja #%d"
+
+#: view.py:99
+#, server
+msgid "MVT Vector Tiles"
+msgstr "Mapbox Vector Tiles"
+
+#: view.py:100
+#, server
+msgid ""
+"The Mapbox Vector Tile is an efficient encoding for map data into vector "
+"tiles that can be rendered dynamically."
+msgstr ""
+"Mapbox Vector Tile to wydajny sposób kodowania danych mapowych do kafelków "
+"wektorowych, które mogą być renderowane dynamicznie."
+
+#: view.py:163
+#, server
+msgid "Features"
+msgstr "Właściwości"
+
+#: view.py:168
+#, server
+msgid "Table"
+msgstr "Tabela"

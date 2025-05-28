@@ -1,0 +1,78 @@
+#: backend/base.py:36
+#, server
+msgid "Audit backend not enabled"
+msgstr "System audytu nie został włączony"
+
+#: backend/base.py:37
+#, server
+msgid "The '{}' audit backend is not configured on this server."
+msgstr "System audytu '{}' nie został skonfigurowany na tym serwerze."
+
+#: nodepkg/journal/Journal.tsx:73
+#, jsrealm
+msgid "Request"
+msgstr "Żądanie"
+
+#: nodepkg/journal/Journal.tsx:90
+#, jsrealm
+msgid "IP address"
+msgstr "Adres IP"
+
+#: nodepkg/journal/Journal.tsx:94
+#, jsrealm
+msgid "User"
+msgstr "Użytkownik"
+
+#: nodepkg/journal/Journal.tsx:98
+#, jsrealm
+msgid "Route name"
+msgstr "Nazwa trasy"
+
+#: nodepkg/journal/Journal.tsx:102
+#, jsrealm
+msgid "Context"
+msgstr "Kontekst"
+
+#: nodepkg/journal/Journal.tsx:187
+#, jsrealm
+msgid "Last {} minute"
+msgid_plural "Last {} minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: nodepkg/journal/Journal.tsx:189
+#, jsrealm
+msgid "Last {} hour"
+msgid_plural "Last {} hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: nodepkg/journal/Journal.tsx:191
+#, jsrealm
+msgid "Last {} day"
+msgid_plural "Last {} days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: nodepkg/journal/Journal.tsx:338
+#, jsrealm
+msgid "Filter by user"
+msgstr "Filtruj według użytkownika"
+
+#: nodepkg/journal/Journal.tsx:347
+#, jsrealm
+msgid "Export CSV"
+msgstr "Eksportuj do CSV"
+
+#: nodepkg/journal/Journal.tsx:358
+#, jsrealm
+msgid "Timestamp"
+msgstr "Datowanie"
+
+#: view.py:15 view.py:40
+#, server
+msgid "Journal"
+msgstr "Rejestr"

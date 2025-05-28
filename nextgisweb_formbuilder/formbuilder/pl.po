@@ -1,0 +1,278 @@
+#: element.py:206
+#, server
+msgid "Invalid initial value: '{i}'. Expected a value matching the pattern for '{t}'."
+msgstr ""
+
+#: model.py:48
+#, server
+msgid "Duplicate keyname '{}' found in fields."
+msgstr ""
+
+#: model.py:53
+#, server
+msgid "Duplicate display name '{}' found in fields."
+msgstr ""
+
+#: model.py:64
+#, server
+msgid "Unknown field '{}'."
+msgstr ""
+
+#: model.py:68
+#, server
+msgid ""
+"The '{dn}' field (keyname '{kn}') is bound to two or more form elements. Each"
+" field can only be bound to a single element."
+msgstr ""
+
+#: model.py:87
+#, server
+msgid ""
+"The '{dn}' field (keyname '{kn}') is not bound to any element and must be "
+"removed from the form."
+msgstr ""
+
+#: model.py:106 nodepkg/editor-widget/FormbuilderEditorWidget.tsx:289
+#: nodepkg/form-widget/FormWidget.tsx:110 view.py:20
+#, jsrealm, server
+msgid "Form"
+msgstr "Formularz"
+
+#: model.py:132
+#, server
+msgid "Invalid NGFP file."
+msgstr "Nieprawidłowy plik NGFP."
+
+#: model.py:133
+#, server
+msgid "NGFP file size exceeds {} bytes."
+msgstr "Rozmiar liku NGFP przekracza {} bajtów."
+
+#: nodepkg/editor-widget/component/ElementsPanel.tsx:10
+#, jsrealm
+msgid "Elements"
+msgstr ""
+
+#: nodepkg/editor-widget/component/FieldsPanel.tsx:41
+#, jsrealm
+msgid "Add"
+msgstr ""
+
+#: nodepkg/editor-widget/component/FieldsPanel.tsx:42
+#, jsrealm
+msgid "Fields"
+msgstr ""
+
+#: nodepkg/editor-widget/component/FieldsPanel.tsx:43
+#, jsrealm
+msgid "Add absent fields to layer"
+msgstr ""
+
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:23
+#, jsrealm
+msgid "Properties"
+msgstr ""
+
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:119
+#: nodepkg/editor-widget/element.tsx:33
+#, jsrealm
+msgid "Current date"
+msgstr ""
+
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:125
+#: nodepkg/editor-widget/element.tsx:34
+#, jsrealm
+msgid "Current time"
+msgstr ""
+
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:131
+#: nodepkg/editor-widget/element.tsx:35
+#, jsrealm
+msgid "Current date & time"
+msgstr ""
+
+#: nodepkg/editor-widget/component/TabsCustomModifier.tsx:74
+#: nodepkg/editor-widget/component/TabsFormComponent.tsx:93
+#: nodepkg/editor-widget/element.tsx:559 nodepkg/editor-widget/element.tsx:567
+#, jsrealm
+msgid "Tab {}"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:39
+#, jsrealm
+msgid "NextGIS ID username"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:40
+#, jsrealm
+msgid "NextGIS Web username"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:76 nodepkg/editor-widget/element.tsx:81
+#: nodepkg/editor-widget/element.tsx:207
+#, jsrealm
+msgid "Label"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:85 nodepkg/editor-widget/element.tsx:228
+#, jsrealm
+msgid "Text"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:108
+#, jsrealm
+msgid "Spacer"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:131 nodepkg/editor-widget/element.tsx:555
+#, jsrealm
+msgid "Tabs"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:159 nodepkg/editor-widget/element.tsx:211
+#: nodepkg/editor-widget/element.tsx:259 nodepkg/editor-widget/element.tsx:362
+#: nodepkg/editor-widget/element.tsx:394 nodepkg/editor-widget/element.tsx:483
+#, jsrealm
+msgid "Field"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:163
+#, jsrealm
+msgid "Max. lines"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:168
+#, jsrealm
+msgid "Numbers only"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:172 nodepkg/editor-widget/element.tsx:219
+#: nodepkg/editor-widget/element.tsx:277
+#, jsrealm
+msgid "Remember last value"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:178
+#, jsrealm
+msgid "Text box"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:215 nodepkg/editor-widget/element.tsx:273
+#, jsrealm
+msgid "Initial value"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:224
+#, jsrealm
+msgid "Check box"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:264 nodepkg/editor-widget/element.tsx:487
+#, jsrealm
+msgid "Type"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:266
+#, jsrealm
+msgid "Date"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:267
+#, jsrealm
+msgid "Time"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:268 nodepkg/editor-widget/element.tsx:282
+#, jsrealm
+msgid "Date & time"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:314
+#, jsrealm
+msgid "Longitude field"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:318
+#, jsrealm
+msgid "Lattitude field"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:322
+#, jsrealm
+msgid "Hide"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:327
+#, jsrealm
+msgid "Coordinates"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:367
+#, jsrealm
+msgid "Distance meter"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:383
+#, jsrealm
+msgid "m"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:398
+#, jsrealm
+msgid "Number of samples"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:404
+#, jsrealm
+msgid "Average calculator"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:427
+#, jsrealm
+msgid "Count"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:440
+#, jsrealm
+msgid "Max number"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:445
+#, jsrealm
+msgid "Comment"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:450
+#, jsrealm
+msgid "Photo"
+msgstr ""
+
+#: nodepkg/editor-widget/element.tsx:496
+#, jsrealm
+msgid "System field"
+msgstr ""
+
+#: nodepkg/form-widget/FormWidget.tsx:24
+#, jsrealm
+msgid "Select a form file"
+msgstr ""
+
+#: nodepkg/form-widget/FormWidget.tsx:25
+#, jsrealm
+msgid "It should be in NGFP format."
+msgstr ""
+
+#: nodepkg/form-widget/FormWidget.tsx:35
+#, jsrealm
+msgid "Upload form"
+msgstr ""
+
+#: nodepkg/form-widget/FormWidget.tsx:41
+#, jsrealm
+msgid "Design form"
+msgstr ""
+
+#: view.py:24
+#, server
+msgid "Download as NGFP"
+msgstr "Pobierz jako NGFP"

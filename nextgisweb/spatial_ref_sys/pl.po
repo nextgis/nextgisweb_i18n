@@ -1,0 +1,167 @@
+#: api.py:131
+#, server
+msgid "System SRS cannot be deleted."
+msgstr "Systemowego układu odniesienia SRS nie można usunąć."
+
+#: api.py:150
+#, server
+msgid "Invalid SRS definition!"
+msgstr "Nieprawidłowa definicja SRS!"
+
+#: api.py:358
+#, server
+msgid "SRS authority attributes must be defined while importing from the catalog."
+msgstr "Atrybuty autorytetu SRS muszą być zdefiniowane podczas importu z katalogu."
+
+#: api.py:383
+#, server
+msgid "SRS #{} already exists."
+msgstr "Układ odniesienia SRS #{} już istnieje."
+
+#: model.py:54 model.py:55 view.py:15 view.py:85
+#, server
+msgid "Spatial reference systems"
+msgstr "System odniesienia przestrzennego"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:87
+#: nodepkg/catalog-import/CatalogImport.tsx:30 nodepkg/srs-browse/SrsBrowse.tsx:38
+#: nodepkg/srs-widget/SRSWidget.tsx:30
+#, jsrealm
+msgid "Display name"
+msgstr "Nazwa wyświetlana"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:94
+#, jsrealm
+msgid "Show in catalog"
+msgstr "Pokaż w katalogu"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:107 nodepkg/srs-widget/SRSWidget.tsx:36
+#, jsrealm
+msgid "Authority and code"
+msgstr "Autorytet i kod"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:119
+#: nodepkg/catalog-import/CatalogImport.tsx:87
+#, jsrealm
+msgid "Import"
+msgstr "Pobierz"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:136
+#, jsrealm
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:153
+#, jsrealm
+msgid "Latitude"
+msgstr "Szerokość geograficzna"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:165
+#, jsrealm
+msgid "Longitude"
+msgstr "Długość geograficzna"
+
+#: nodepkg/catalog-import/CatalogImport.tsx:35 nodepkg/srs-widget/SRSWidget.tsx:45
+#, jsrealm
+msgid "OGC WKT definition"
+msgstr "Definicja OGC WKT"
+
+#: nodepkg/catalog-import/CatalogImport.tsx:78
+#, jsrealm
+msgid "View details"
+msgstr "Zobacz szczegóły"
+
+#: nodepkg/srs-browse/SrsBrowse.tsx:26
+#, jsrealm
+msgid "Import from catalog"
+msgstr "Pobierz z katalogu"
+
+#: nodepkg/srs-widget/SRSImportForm.tsx:60
+#, jsrealm
+msgid "Format"
+msgstr "Format"
+
+#: nodepkg/srs-widget/SRSImportForm.tsx:65
+#, jsrealm
+msgid "Definition"
+msgstr "Definicja"
+
+#: nodepkg/srs-widget/SRSWidget.tsx:86 nodepkg/srs-widget/SRSWidget.tsx:114
+#, jsrealm
+msgid "Import definition"
+msgstr "Definicja importu"
+
+#: nodepkg/srsMessages.ts:5
+#, jsrealm
+msgid "Delete SRS?"
+msgstr "Usunąć układ współrzędnych?"
+
+#: nodepkg/srsMessages.ts:6
+#, jsrealm
+msgid "SRS deleted"
+msgstr "Układ współrzędnych usunięty"
+
+#: pyramid.py:23
+#, server
+msgid "Catalog not cofigured"
+msgstr "Katalog nie został skonfigurowany"
+
+#: pyramid.py:24
+#, server
+msgid "The spatial reference system catalog is not configured on this server."
+msgstr "Katalog układów odniesienia nie został skonfigurowany na tym serwerze."
+
+#: util.py:38
+#, python-format, server
+msgid "Invalid MapInfo spatial reference system: %s"
+msgstr "Nieprawidłowy system odniesienia przestrzennego MapInfo: %s"
+
+#: util.py:61
+#, python-format, server
+msgid "Unknown spatial reference system format: %s!"
+msgstr "Nieznany format odniesienia przestrzennego: %s!"
+
+#: util.py:71
+#, server
+msgid "Invalid OGC WKT definition!"
+msgstr "Nieprawidłowa definicja OGC WKT!"
+
+#: view.py:26
+#, server
+msgid "Create new Spatial reference system"
+msgstr "Stwórz nowy system odniesienia przestrzennego"
+
+#: view.py:50
+#, server
+msgid "Spatial reference system catalog"
+msgstr "Katalog systemów odniesienia przestrzennego"
+
+#: view.py:64
+#, server
+msgid "Spatial reference system"
+msgstr "System odniesienia przestrzennego"
+
+#: view.py:89
+#, server
+msgid "List"
+msgstr "Lista"
+
+#: view.py:96
+#, server
+msgid "Create"
+msgstr "Stwórz"
+
+#: view.py:103
+#, server
+msgid "Catalog"
+msgstr "Katalog"
+
+#: view.py:110
+#, server
+msgid "Edit"
+msgstr "Edytuj"
+
+#: view.py:117
+#, server
+msgid "Delete"
+msgstr "Usuń"

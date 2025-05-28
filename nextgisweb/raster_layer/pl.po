@@ -1,0 +1,156 @@
+#: api.py:122 api.py:143
+#, server
+msgid "Requested raster is not COG."
+msgstr "Żądany raster nie jest w formacie COG."
+
+#: api.py:147
+#, server
+msgid "Range header is missed or invalid."
+msgstr "Nagłówek zakresu jest nieobecny lub nieprawidłowy."
+
+#: api.py:151
+#, python-format, server
+msgid "Range %s can not be read."
+msgstr "Zakres %s nie może być odczytany."
+
+#: kind_of_data.py:8
+#, server
+msgid "Rasters and pyramids"
+msgstr "Rastry i piramidy"
+
+#: model.py:71 nodepkg/editor-widget/EditorWidget.tsx:46 view.py:61
+#, jsrealm, server
+msgid "Raster layer"
+msgstr "Warstwa rastra"
+
+#: model.py:111
+#, server
+msgid "No supported files found in the archive."
+msgstr ""
+
+#: model.py:114
+#, server
+msgid "The archive contains multiple supported files: {supported_zip_items}."
+msgstr ""
+
+#: model.py:130
+#, server
+msgid "GDAL library was unable to open the file."
+msgstr "Biblioteka GDAL nie mogła otworzyć pliku."
+
+#: model.py:137
+#, server
+msgid "Raster files without projection info are not supported."
+msgstr "Pliki rastrowe bez informacji o projekcji nie są obsługiwane."
+
+#: model.py:157
+#, server
+msgid "Mixed band data types are not supported."
+msgstr "Mieszane typy danych pasm nie są obsługiwane."
+
+#: model.py:186
+#, server
+msgid "GDAL was uanble to parse the raster coordinate system."
+msgstr "GDAL nie mógł odczytać układu współrzędnych rastra."
+
+#: model.py:191
+#, server
+msgid ""
+"The source raster has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr "Raster źródłowy ma lokalny układ współrzędnych i nie można go przekształcić."
+
+#: model.py:209
+#, server
+msgid "Failed to reproject the raster to the target coordinate system."
+msgstr "Nie udało się przekształcić rastra do docelowego układu współrzędnych."
+
+#: model.py:214
+#, python-format, server
+msgid "GDAL error message: %s"
+msgstr "Komunikat błędu GDAL: %s"
+
+#: model.py:230
+#, server
+msgid ""
+"The uncompressed raster size ({size}) exceeds the limit ({limit}) by {delta}."
+" Reduce raster size to fit the limit."
+msgstr ""
+
+#: model.py:342
+#, server
+msgid "Data type"
+msgstr "Typ danych"
+
+#: model.py:343
+#, server
+msgid "COG"
+msgstr "COG"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:13
+#, jsrealm
+msgid "Select a dataset"
+msgstr "Wybierz zestaw danych"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:14
+#, jsrealm
+msgid "Dataset should be in GeoTIFF or ZIP format."
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.tsx:37
+#, jsrealm
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr "Cloud Optimized GeoTIFF (COG)"
+
+#: nodepkg/export-form/ExportForm.tsx:58
+#, jsrealm
+msgid "Band"
+msgstr "Pasmo"
+
+#: nodepkg/export-form/ExportForm.tsx:82
+#, jsrealm
+msgid "Format"
+msgstr "Format"
+
+#: nodepkg/export-form/ExportForm.tsx:94
+#, jsrealm
+msgid "SRS"
+msgstr "SRS"
+
+#: nodepkg/export-form/ExportForm.tsx:99
+#, jsrealm
+msgid "Bands"
+msgstr "Pasma"
+
+#: nodepkg/export-form/ExportForm.tsx:132
+#, jsrealm
+msgid "Save"
+msgstr "Zapisz"
+
+#: view.py:26 view.py:66
+#, server
+msgid "Save as"
+msgstr "Zapisz jako"
+
+#: view.py:33
+#, server
+msgid "Cloud Optimized GeoTIFF"
+msgstr "Cloud Optimized GeoTIFF"
+
+#: view.py:34
+#, server
+msgid ""
+"A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
+"hosted on a HTTP file server, with an internal organization that enables more"
+" efficient workflows on the cloud. It does this by leveraging the ability of "
+"clients issuing ​HTTP GET range requests to ask for just the parts of a file "
+"they need."
+msgstr ""
+"Cloud Optimized GeoTIFF (COG) to zwykły plik GeoTIFF, zoptymalizowany do "
+"działania w chmurze. Ma możliwość żądania tylko potrzebnych fragmentów "
+"danych, za pomocą zapytań HTTP GET."
+
+#: view.py:72
+#, server
+msgid "Download"
+msgstr "Pobierz"

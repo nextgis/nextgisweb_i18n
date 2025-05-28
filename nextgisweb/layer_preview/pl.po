@@ -1,0 +1,9 @@
+#: favorite.py:6 view.py:21 view.py:56
+#, server
+msgid "Preview"
+msgstr "Projekt"
+
+#: nodepkg/preview-layer/PreviewLayer.tsx:133
+#, jsrealm
+msgid "Toggle basemap"
+msgstr "Przełącz mapę bazową"

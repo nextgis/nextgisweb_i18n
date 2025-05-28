@@ -1,0 +1,1342 @@
+#: adapter.py:26
+#, server
+msgid "Tiles"
+msgstr "Kafelki"
+
+#: adapter.py:35
+#, server
+msgid "Image"
+msgstr "Obraz"
+
+#: component.py:26
+#, server
+msgid "Main web map"
+msgstr "Główna mapa internetowa"
+
+#: favorite.py:6 view.py:194
+#, server
+msgid "Display"
+msgstr "Wyświetlanie"
+
+#: favorite.py:11
+#, server
+msgid "Fragment"
+msgstr "Fragment"
+
+#: model.py:47 model.py:65 view.py:189 view.py:216
+#, server
+msgid "Web map"
+msgstr "Mapa internetowa"
+
+#: model.py:49
+#, server
+msgctxt "permission"
+msgid "View annotations"
+msgstr "Wyświetl adnotacje"
+
+#: model.py:50
+#, server
+msgctxt "permission"
+msgid "Draw annotations"
+msgstr "Rysuj adnotacje"
+
+#: model.py:51
+#, server
+msgctxt "permission"
+msgid "Manage annotations"
+msgstr "Zarządzaj adnotacjami"
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:204
+#, jsrealm, server
+msgid "Clone"
+msgstr "Klonuj"
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:67
+#, jsrealm
+msgid "Resource group"
+msgstr "Grupa zasobów"
+
+#: nodepkg/clone-webmap/CloneWebmap.tsx:82 nodepkg/items-widget/ItemsWidget.tsx:30
+#, jsrealm
+msgid "Display name"
+msgstr "Nazwa wyświetlana"
+
+#: nodepkg/component/SelectLegendSymbols.tsx:5
+#: nodepkg/settings-widget/SettingsWidget.tsx:36
+#: nodepkg/settings/select-options.ts:94
+#, jsrealm
+msgid "Default"
+msgstr "Domyślne"
+
+#: nodepkg/component/SelectLegendSymbols.tsx:8
+#: nodepkg/settings/select-options.ts:95
+#, jsrealm
+msgid "Expand"
+msgstr "Rozwiń"
+
+#: nodepkg/component/SelectLegendSymbols.tsx:9
+#: nodepkg/settings/select-options.ts:96
+#, jsrealm
+msgid "Collapse"
+msgstr "Zwiń"
+
+#: nodepkg/component/SelectLegendSymbols.tsx:10
+#: nodepkg/settings-widget/SettingsWidget.tsx:50
+#: nodepkg/settings/select-options.ts:97
+#, jsrealm
+msgid "Disable"
+msgstr "Wyłącz"
+
+#: nodepkg/display-tiny/DisplayTinyComponent.tsx:45
+#, jsrealm
+msgid "Open full map"
+msgstr "Otwórz pełną mapę"
+
+#: nodepkg/display/Display.ts:694
+#, jsrealm
+msgid "Object not found"
+msgstr "Nie znaleziono obiektu"
+
+#: nodepkg/display/Display.ts:695
+#, jsrealm
+msgid "Object from URL parameters not found"
+msgstr "Nie znaleziono obiektu z parametrów URL"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:61
+#, jsrealm
+msgid "Radius:"
+msgstr "Promień:"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:62
+#: nodepkg/utils/format-units.tsx:13
+#, jsrealm
+msgid "m"
+msgstr "m"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:82
+#, jsrealm
+msgid "Circle"
+msgstr "Okrąg"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:89
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:162
+#, jsrealm
+msgid "Line"
+msgstr "Linia"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:95
+#, jsrealm
+msgid "Rectangle"
+msgstr "Prostokąt"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:102
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:166
+#: nodepkg/utils/geometry-types.ts:15
+#, jsrealm
+msgid "Polygon"
+msgstr "Poligon"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+#, jsrealm
+msgid "Hide"
+msgstr "Ukryj"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:120
+#, jsrealm
+msgid "Show"
+msgstr "Pokaż"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:125
+#, jsrealm
+msgid "Zoom to filtering geometry"
+msgstr "Powiększ do geometrii filtra"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:130
+#, jsrealm
+msgid "Clear filtering geometry"
+msgstr "Wyczyść geometrię filtra"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:136
+#, jsrealm
+msgid "Draw filtering geometry"
+msgstr "Rysuj geometrię filtra"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:137
+#, jsrealm
+msgid "Change filtering geometry"
+msgstr "Zmień geometrię filtra"
+
+#: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:138
+#, jsrealm
+msgid "Stop drawing..."
+msgstr "Zatrzymaj rysowanie..."
+
+#: nodepkg/items-widget/DrawOrder.tsx:25
+#, jsrealm
+msgid "Back to layers and groups"
+msgstr "Powrót do warstw i grup"
+
+#: nodepkg/items-widget/DrawOrder.tsx:26
+#, jsrealm
+msgid "Use default draw order"
+msgstr "Użyj domyślnej kolejności rysowania"
+
+#: nodepkg/items-widget/Item.ts:107
+#, jsrealm
+msgid "Group members have errors"
+msgstr "Członkowie grupy mają błędy"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:31
+#, jsrealm
+msgid "Expanded"
+msgstr "Rozszerzony"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:32
+#, jsrealm
+msgid "Exclusive"
+msgstr "Ekskluzywny"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:33
+#, jsrealm
+msgid "Enabled"
+msgstr "Włączone"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:34
+#, jsrealm
+msgid "Identifiable"
+msgstr "Identyfikowalny"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:35
+#, jsrealm
+msgid "Resource"
+msgstr "Zasób"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:36
+#, jsrealm
+msgid "Transparency"
+msgstr "Przeźroczystość"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:37
+#, jsrealm
+msgid "Min scale"
+msgstr "Skala minimalna"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:38
+#, jsrealm
+msgid "Max scale"
+msgstr "Skala maksymalna"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:39
+#: nodepkg/panel/print/component/PrintElementsSettings.tsx:28
+#: nodepkg/settings-widget/SettingsWidget.tsx:26
+#: nodepkg/settings/SettingsForm.tsx:261
+#, jsrealm
+msgid "Legend"
+msgstr "Legenda"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:40
+#, jsrealm
+msgid "Adapter"
+msgstr "Adapter"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:41
+#, jsrealm
+msgid "Layer"
+msgstr "Warstwa"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:42
+#, jsrealm
+msgid "Group"
+msgstr "Grupa"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:43
+#, jsrealm
+msgid "Edit draw order"
+msgstr "Edytuj kolejność rysowania"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:44
+#, jsrealm
+msgid "Customize draw order"
+msgstr "Dostosuj kolejność rysowania"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:240 nodepkg/panel/layers/plugin.tsx:10
+#, jsrealm
+msgid "Layers"
+msgstr "Warstwy"
+
+#: nodepkg/layer-opacity-slider/LayerOpacitySlider.tsx:8
+#, jsrealm
+msgid "Opacity"
+msgstr "Nieprzezroczystość"
+
+#: nodepkg/layer/annotations/AnnotationFeature.ts:54
+#, jsrealm
+msgid "Your annotation text"
+msgstr "Twój tekst adnotacji"
+
+#: nodepkg/layer/annotations/AnnotationFeature.ts:192
+#, jsrealm
+msgid "Public annotation"
+msgstr "Adnotacja publiczna"
+
+#: nodepkg/layer/annotations/AnnotationFeature.ts:194
+#, jsrealm
+msgid "My private annotation"
+msgstr "Moja prywatna adnotacja"
+
+#: nodepkg/layers-tree/LegendAction.tsx:10
+#, jsrealm
+msgid "Show legend"
+msgstr "Pokaż legendę"
+
+#: nodepkg/layers-tree/LegendAction.tsx:11
+#, jsrealm
+msgid "Hide legend"
+msgstr "Ukryj legendę"
+
+#: nodepkg/map-component/UrlLayer.tsx:11
+#, jsrealm
+msgid "Unable to load tile"
+msgstr "Nie można załadować kafelka"
+
+#: nodepkg/map-controls/control/MyLocation.ts:169
+#, jsrealm
+msgid "Your location could not be determined"
+msgstr "Nie udało się określić Twojej lokalizacji"
+
+#: nodepkg/map-controls/control/SwipeControl.ts:40
+#, jsrealm
+msgid "Rotate swipe"
+msgstr "Obróć przesuwanie"
+
+#: nodepkg/map-controls/map-controls.ts:40 nodepkg/map-controls/map-tools.ts:15
+#: nodepkg/map-controls/tool/Zoom.ts:29
+#, jsrealm
+msgid "Zoom in"
+msgstr "Przybliż"
+
+#: nodepkg/map-controls/map-controls.ts:41 nodepkg/map-controls/map-tools.ts:24
+#: nodepkg/map-controls/tool/Zoom.ts:29
+#, jsrealm
+msgid "Zoom out"
+msgstr "Oddal"
+
+#: nodepkg/map-controls/map-controls.ts:52
+#, jsrealm
+msgid "Attributions"
+msgstr "Atrybuty"
+
+#: nodepkg/map-controls/map-controls.ts:64 nodepkg/print-map/utils.ts:54
+#, jsrealm
+msgid "Reset rotation"
+msgstr "Zresetuj obrót"
+
+#: nodepkg/map-controls/map-controls.ts:79
+#, jsrealm
+msgid "Scale line"
+msgstr "Linia skali"
+
+#: nodepkg/map-controls/map-controls.ts:91
+#, jsrealm
+msgid "Info scale"
+msgstr "Skala informacyjna"
+
+#: nodepkg/map-controls/map-controls.ts:101
+#: nodepkg/map-controls/map-controls.ts:104
+#: nodepkg/settings-widget/SettingsWidget.tsx:23
+#, jsrealm
+msgid "Initial extent"
+msgstr "Zasięg początkowy"
+
+#: nodepkg/map-controls/map-controls.ts:114
+#: nodepkg/map-controls/map-controls.ts:117
+#, jsrealm
+msgid "Locate me"
+msgstr "Zlokalizuj mnie"
+
+#: nodepkg/map-controls/map-controls.ts:122 nodepkg/settings/SettingsForm.tsx:84
+#: option/base.py:41
+#, jsrealm, server
+msgid "Identification"
+msgstr "Identyfikacja"
+
+#: nodepkg/map-controls/map-tools.ts:33 nodepkg/map-controls/tool/Measure.ts:52
+#, jsrealm
+msgid "Measure distance"
+msgstr "Zmierz odległość"
+
+#: nodepkg/map-controls/map-tools.ts:42 nodepkg/map-controls/tool/Measure.ts:53
+#, jsrealm
+msgid "Measure area"
+msgstr "Zmierz pole"
+
+#: nodepkg/map-controls/map-tools.ts:51 nodepkg/map-controls/tool/Swipe.ts:30
+#, jsrealm
+msgid "Vertical swipe"
+msgstr "Przesuwanie pionowe"
+
+#: nodepkg/map-controls/map-tools.ts:59
+#, jsrealm
+msgid "Cursor coordinates / extent"
+msgstr "Współrzędne kursora/zasięg"
+
+#: nodepkg/map-controls/tool/Identify.ts:65 nodepkg/panel/identify/plugin.tsx:12
+#, jsrealm
+msgid "Identify"
+msgstr "Identyfikuj"
+
+#: nodepkg/map-controls/tool/Swipe.ts:34
+#, jsrealm
+msgid "Horizontal swipe"
+msgstr "Przesuwanie poziome"
+
+#: nodepkg/map-controls/tool/ViewerInfo.ts:28
+#, jsrealm
+msgid "Show cursor coordinates / extent"
+msgstr "Pokaż współrzędne kursora/zasięg"
+
+#: nodepkg/map-controls/tool/editing/CreateFeature.ts:15
+#, jsrealm
+msgid "Create features"
+msgstr "Twórz obiekty"
+
+#: nodepkg/map-controls/tool/editing/DeleteFeature.ts:14
+#, jsrealm
+msgid "Delete features"
+msgstr "Usuń obiekty"
+
+#: nodepkg/map-controls/tool/editing/ModifyFeature.ts:14
+#, jsrealm
+msgid "Modify features"
+msgstr "Modyfikuj obiekty"
+
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:86
+#, jsrealm
+msgid "Show extent"
+msgstr "Pokaż zasięg"
+
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
+#, jsrealm
+msgid "Show cursor coordinates"
+msgstr "Pokaż współrzędne kursora"
+
+#: nodepkg/ol/control/ZoomControl.ts:40
+#, jsrealm
+msgid "Back to the initial extent"
+msgstr "Powrót do początkowego zasięgu"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:121
+#, jsrealm
+msgid "Show annotations"
+msgstr "Pokaż adnotacje"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:127
+#: nodepkg/settings-widget/OptionsWidget.tsx:37
+#, jsrealm
+msgid "No"
+msgstr "Nie"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:128
+#: nodepkg/settings-widget/OptionsWidget.tsx:36
+#, jsrealm
+msgid "Yes"
+msgstr "Tak"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:131
+#, jsrealm
+msgid "With messages"
+msgstr "Z wiadomościami"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:139
+#: nodepkg/plugin/layer-editor/LayerEditor.tsx:133
+#, jsrealm
+msgid "Edit"
+msgstr "Edytuj"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:147
+#, jsrealm
+msgid "Edit annotations"
+msgstr "Edytuj adnotacje"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:152
+#, jsrealm
+msgid "Geometry type"
+msgstr "Typ geometrii"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:159
+#: nodepkg/utils/geometry-types.ts:6
+#, jsrealm
+msgid "Point"
+msgstr "Punkt"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:174
+#, jsrealm
+msgid "Private annotations"
+msgstr "Prywatne adnotacje"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:184
+#, jsrealm
+msgid "Public annotations"
+msgstr "Publiczne adnotacje"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:197
+#, jsrealm
+msgid "My private annotations"
+msgstr "Moje prywatne adnotacje"
+
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:211
+#, jsrealm
+msgid "Other private annotations"
+msgstr "Inne prywatne adnotacje"
+
+#: nodepkg/panel/annotations/plugin.tsx:13
+#: nodepkg/settings-widget/SettingsWidget.tsx:27
+#, jsrealm
+msgid "Annotations"
+msgstr "Adnotacje"
+
+#: nodepkg/panel/bookmarks/plugin.tsx:11
+#: nodepkg/settings-widget/SettingsWidget.tsx:29
+#, jsrealm
+msgid "Bookmarks"
+msgstr "Zakładki"
+
+#: nodepkg/panel/description/plugin.tsx:10
+#: nodepkg/plugin/layer-info/LayerInfoPlugin.tsx:32
+#, jsrealm
+msgid "Description"
+msgstr "Opis mapy"
+
+#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:179
+#, jsrealm
+msgid "Zoom to identification point"
+msgstr "Powiększ do punktu identyfikacji"
+
+#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:195
+#, jsrealm
+msgid "Copy identification point coordinates"
+msgstr "Skopiuj współrzędne punktu identyfikacji"
+
+#: nodepkg/panel/identify/FeatureEditButton.tsx:76
+#, jsrealm
+msgid "Edit feature"
+msgstr "Edytuj obiekt"
+
+#: nodepkg/panel/identify/IdentifyPanel.tsx:35
+#, jsrealm
+msgid ""
+"To get feature information, click on the map with the left mouse button. Make"
+" sure that other tools are turned off."
+msgstr ""
+"Aby uzyskać informacje o obiekcie, kliknij na mapie lewym przyciskiem myszy. "
+"Upewnij się, że inne narzędzia są wyłączone."
+
+#: nodepkg/panel/identify/IdentifyPanel.tsx:36
+#, jsrealm
+msgid "Retrieving object information..."
+msgstr "Pobieranie informacji o obiekcie..."
+
+#: nodepkg/panel/identify/IdentifyPanel.tsx:37
+#, jsrealm
+msgid "No objects were found at the click location."
+msgstr "Nie znaleziono obiektów w miejscu kliknięcia."
+
+#: nodepkg/panel/identify/KeyValueTable.tsx:13
+#, jsrealm
+msgid "Attribute"
+msgstr "Atrybut"
+
+#: nodepkg/panel/identify/KeyValueTable.tsx:18
+#, jsrealm
+msgid "Value"
+msgstr "Wartość"
+
+#: nodepkg/panel/identify/component/FeatureInfoSection.tsx:16
+#, jsrealm
+msgid "Loading..."
+msgstr "Ładowanie..."
+
+#: nodepkg/panel/identify/component/FeatureInfoSection.tsx:75
+#, jsrealm
+msgid "Attributes"
+msgstr "Atrybuty"
+
+#: nodepkg/panel/identify/component/FeatureInfoSection.tsx:92
+#, jsrealm
+msgid "Geometry"
+msgstr "Geometria"
+
+#: nodepkg/panel/identify/component/FeatureSelector.tsx:54
+#, jsrealm
+msgid "Zoom to feature"
+msgstr "Powiększ do obiektu"
+
+#: nodepkg/panel/identify/component/RasterInfoSection.tsx:14
+#, jsrealm
+msgid "Band {}"
+msgstr ""
+
+#: nodepkg/panel/identify/component/RasterInfoSection.tsx:27
+#, jsrealm
+msgid "Raster"
+msgstr ""
+
+#: nodepkg/panel/identify/fields.tsx:115
+#, jsrealm
+msgid "N/A"
+msgstr "Nie dotyczy"
+
+#: nodepkg/panel/layers/LayersDropdown.tsx:19
+#, jsrealm
+msgid "Zoom to all layers"
+msgstr "Powiększ do wszystkich warstw"
+
+#: nodepkg/panel/print/PrintMapExport/PrintMapExport.tsx:147
+#, jsrealm
+msgid "Print"
+msgstr "Drukuj"
+
+#: nodepkg/panel/print/PrintMapExport/PrintMapExport.tsx:152
+#, jsrealm
+msgid "Save as"
+msgstr "Zapisz jako"
+
+#: nodepkg/panel/print/PrintPanel.tsx:129
+#, jsrealm
+msgid "Elements"
+msgstr "Elementy"
+
+#: nodepkg/panel/print/PrintPanel.tsx:136
+#: nodepkg/panel/print/component/PrintScaleSettings.tsx:75
+#, jsrealm
+msgid "Scale"
+msgstr "Skala"
+
+#: nodepkg/panel/print/PrintPanel.tsx:152
+#, jsrealm
+msgid "Copy link to the print map"
+msgstr "Skopiuj link do mapy do druku"
+
+#: nodepkg/panel/print/component/PrintElementsSettings.tsx:39
+#, jsrealm
+msgid "Number of legend columns"
+msgstr "Liczba kolumn legendy"
+
+#: nodepkg/panel/print/component/PrintElementsSettings.tsx:49
+#: nodepkg/settings-widget/SettingsWidget.tsx:25
+#, jsrealm
+msgid "Title"
+msgstr "Tytuł"
+
+#: nodepkg/panel/print/component/PrintElementsSettings.tsx:52
+#, jsrealm
+msgid "Map title text"
+msgstr "Tekst tytułu mapy"
+
+#: nodepkg/panel/print/component/PrintElementsSettings.tsx:71
+#, jsrealm
+msgid "North Arrow"
+msgstr "Strzałka północy"
+
+#: nodepkg/panel/print/component/PrintPaperSettings.tsx:83
+#, jsrealm
+msgid "Paper format"
+msgstr "Format papieru"
+
+#: nodepkg/panel/print/component/PrintPaperSettings.tsx:93
+#, jsrealm
+msgid "Height, mm"
+msgstr "Wysokość, mm"
+
+#: nodepkg/panel/print/component/PrintPaperSettings.tsx:109
+#, jsrealm
+msgid "Width, mm"
+msgstr "Szerokość, mm"
+
+#: nodepkg/panel/print/component/PrintPaperSettings.tsx:125
+#, jsrealm
+msgid "Margin, mm"
+msgstr "Margines, mm"
+
+#: nodepkg/panel/print/component/PrintScaleSettings.tsx:62
+#, jsrealm
+msgid "Scale value"
+msgstr "Wartość skali"
+
+#: nodepkg/panel/print/component/PrintScaleSettings.tsx:71
+#, jsrealm
+msgid "Scale bar"
+msgstr "Podziałka liniowa"
+
+#: nodepkg/panel/print/component/ScalesSelect.tsx:73
+#, jsrealm
+msgid "Custom scale"
+msgstr "Skala niestandardowa"
+
+#: nodepkg/panel/print/options.tsx:11
+#, jsrealm
+msgid "Portrait"
+msgstr "Portret"
+
+#: nodepkg/panel/print/options.tsx:12
+#, jsrealm
+msgid "Landscape"
+msgstr "Pejzaż"
+
+#: nodepkg/panel/print/options.tsx:48
+#, jsrealm
+msgid "Custom size"
+msgstr "Własny rozmiar"
+
+#: nodepkg/panel/print/options.tsx:71
+#, jsrealm
+msgid "JPEG"
+msgstr "JPEG"
+
+#: nodepkg/panel/print/options.tsx:72
+#, jsrealm
+msgid "PNG"
+msgstr "PNG"
+
+#: nodepkg/panel/print/options.tsx:73
+#, jsrealm
+msgid "TIFF"
+msgstr "TIFF"
+
+#: nodepkg/panel/print/options.tsx:74
+#, jsrealm
+msgid "PDF"
+msgstr "PDF"
+
+#: nodepkg/panel/print/plugin.tsx:10
+#, jsrealm
+msgid "Print map"
+msgstr "Wydrukuj mapę"
+
+#: nodepkg/panel/search/SearchPanel.tsx:361
+#, jsrealm
+msgid "Enter at least 2 characters"
+msgstr "Wprowadź co najmniej 2 znaki"
+
+#: nodepkg/panel/search/SearchPanel.tsx:450
+#, jsrealm
+msgid "Not found"
+msgstr "Nie znaleziono"
+
+#: nodepkg/panel/search/SearchPanel.tsx:455
+#, jsrealm
+msgid "Refine search criterion. Displayed first 100 search results."
+msgstr "Doprecyzuj kryteria wyszukiwania. Wyświetlono pierwsze 100 wyników."
+
+#: nodepkg/panel/search/plugin.tsx:11
+#, jsrealm
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+#: nodepkg/panel/share/SharePanel.tsx:44
+#, jsrealm
+msgid ""
+"<a>CORS</a> must be enabled for the target origin when embedding a web map on"
+" a different domain."
+msgstr "<a>CORS</a> musi być wyłączony dla docelowej domeny przy osadzaniu mapy."
+
+#: nodepkg/panel/share/SharePanel.tsx:45
+#, jsrealm
+msgid "Add web map fragment to favorites"
+msgstr "Dodaj fragment mapy internetowej do ulubionych"
+
+#: nodepkg/panel/share/SharePanel.tsx:98
+#, jsrealm
+msgid "Select tools"
+msgstr "Wybierz narzędzia"
+
+#: nodepkg/panel/share/SharePanel.tsx:114
+#, jsrealm
+msgid "Select panels"
+msgstr "Wybierz panele"
+
+#: nodepkg/panel/share/SharePanel.tsx:130
+#, jsrealm
+msgid "None"
+msgstr "Brak"
+
+#: nodepkg/panel/share/SharePanel.tsx:305
+#, jsrealm
+msgid "Active panel"
+msgstr "Aktywny panel"
+
+#: nodepkg/panel/share/SharePanel.tsx:337
+#, jsrealm
+msgid "The map link copied to clipboard."
+msgstr "Link do mapy skopiowany do schowka."
+
+#: nodepkg/panel/share/SharePanel.tsx:340
+#, jsrealm
+msgid "Copy link"
+msgstr "Kopiuj link"
+
+#: nodepkg/panel/share/SharePanel.tsx:374
+#, jsrealm
+msgid "Optional fragment label"
+msgstr "Opcjonalna etykieta fragmentu"
+
+#: nodepkg/panel/share/SharePanel.tsx:382
+#, jsrealm
+msgid "Embed code for your site"
+msgstr "Kod do osadzenia na Twojej stronie"
+
+#: nodepkg/panel/share/SharePanel.tsx:384
+#, jsrealm
+msgid "Map size:"
+msgstr "Rozmiar mapy:"
+
+#: nodepkg/panel/share/SharePanel.tsx:386
+#, jsrealm
+msgid "Width, px"
+msgstr "Szerokość, px"
+
+#: nodepkg/panel/share/SharePanel.tsx:394
+#, jsrealm
+msgid "Height, px"
+msgstr "Wysokość, px"
+
+#: nodepkg/panel/share/SharePanel.tsx:400
+#, jsrealm
+msgid "px"
+msgstr "piksele"
+
+#: nodepkg/panel/share/SharePanel.tsx:403
+#, jsrealm
+msgid "Map tools"
+msgstr "Narzędzia mapy"
+
+#: nodepkg/panel/share/SharePanel.tsx:407 option/base.py:31
+#, jsrealm, server
+msgid "Panels"
+msgstr "Panele"
+
+#: nodepkg/panel/share/SharePanel.tsx:423
+#, jsrealm
+msgid "Link to main map"
+msgstr "Link do głównej mapy"
+
+#: nodepkg/panel/share/SharePanel.tsx:433
+#, jsrealm
+msgid "Generate events"
+msgstr "Generuj zdarzenia"
+
+#: nodepkg/panel/share/SharePanel.tsx:437
+#, jsrealm
+msgid "Embed code"
+msgstr "Kod do osadzenia"
+
+#: nodepkg/panel/share/SharePanel.tsx:449
+#, jsrealm
+msgid "The embed code copied to clipboard."
+msgstr "Kod do osadzenia został skopiowany do schowka."
+
+#: nodepkg/panel/share/SharePanel.tsx:453
+#, jsrealm
+msgid "Copy code"
+msgstr "Kopiuj kod"
+
+#: nodepkg/panel/share/SharePanel.tsx:456
+#, jsrealm
+msgid "Preview"
+msgstr "Podgląd"
+
+#: nodepkg/panel/share/plugin.tsx:11
+#, jsrealm
+msgid "Share"
+msgstr "Udostępnij"
+
+#: nodepkg/plugin/feature-layer/FeatureLayerPlugin.tsx:12
+#, jsrealm
+msgid "Feature table"
+msgstr "Tabela atrybutów"
+
+#: nodepkg/plugin/layer-editor/LayerEditor.tsx:133
+#, jsrealm
+msgid "Stop editing"
+msgstr "Zakończ edycję"
+
+#: nodepkg/plugin/zoom-to-layer/ZoomToLayerPlugin.tsx:18
+#, jsrealm
+msgid "Zoom to layer"
+msgstr "Przybliż do warstwy"
+
+#: nodepkg/settings-widget/OptionsWidget.tsx:13
+#, jsrealm
+msgid "Auto"
+msgstr "Auto"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
+#, jsrealm
+msgid "Constraining extent"
+msgstr "Ograniczający zasięg"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:28
+#, jsrealm
+msgid "Select mode"
+msgstr "Wybierz tryb"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:30
+#, jsrealm
+msgid "Select resource"
+msgstr "Wybierz zasób"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:31
+#: nodepkg/settings/SettingsForm.tsx:172
+#, jsrealm
+msgid "Measurement SRS"
+msgstr "Układ odniesienia pomiarów"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:32
+#, jsrealm
+msgid "Layers editing"
+msgstr "Edycja warstw"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:33
+#, jsrealm
+msgid "Additional options"
+msgstr "Dodatkowe opcje"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:34
+#, jsrealm
+msgid "Configure"
+msgstr "Konfiguruj"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:39
+#, jsrealm
+msgid "Web map will start at this extent"
+msgstr "Mapa internetowa rozpocznie się od tego zasięgu"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
+#, jsrealm
+msgid "Web map will not allow to move outside of this extent"
+msgstr "Mapa internetowa nie pozwoli na przesuwanie poza ten zasięg"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:44
+#, jsrealm
+msgid "Hide by default"
+msgstr "Ukryj domyślne"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:45
+#, jsrealm
+msgid "Show without messages"
+msgstr "Pokaż bez komunikatów"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:46
+#, jsrealm
+msgid "Show with messages"
+msgstr "Pokaż z komunikatami"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:51
+#: nodepkg/settings/SettingsForm.tsx:195
+#, jsrealm
+msgid "Enable"
+msgstr "Włącz"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:185
+#, jsrealm
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: nodepkg/settings/Settings.tsx:62
+#, jsrealm
+msgid "Settings saved"
+msgstr "Ustawienia zapisane"
+
+#: nodepkg/settings/SettingsForm.tsx:65
+#, jsrealm
+msgid "General"
+msgstr "Ogólne"
+
+#: nodepkg/settings/SettingsForm.tsx:78
+#, jsrealm
+msgid "Hide navigation menu for guest"
+msgstr "Ukryj menu nawigacyjne dla gościa"
+
+#: nodepkg/settings/SettingsForm.tsx:97
+#, jsrealm
+msgid "Show feature attributes"
+msgstr "Pokaż atrybuty obiektów"
+
+#: nodepkg/settings/SettingsForm.tsx:111
+#, jsrealm
+msgid "Show geometry info"
+msgstr "Pokaż informacje o geometrii"
+
+#: nodepkg/settings/SettingsForm.tsx:121
+#, jsrealm
+msgid "Radius, px"
+msgstr "Promień, px"
+
+#: nodepkg/settings/SettingsForm.tsx:133
+#, jsrealm
+msgid "Measurement"
+msgstr "Pomiar"
+
+#: nodepkg/settings/SettingsForm.tsx:139
+#, jsrealm
+msgid "Length units"
+msgstr "Jednostki długości"
+
+#: nodepkg/settings/SettingsForm.tsx:148
+#, jsrealm
+msgid "Area units"
+msgstr "Jednostki powierzchni"
+
+#: nodepkg/settings/SettingsForm.tsx:158
+#, jsrealm
+msgid "Degree format"
+msgstr "Format stopni"
+
+#: nodepkg/settings/SettingsForm.tsx:182
+#, jsrealm
+msgid "Address search"
+msgstr "Wyszukiwanie adresów"
+
+#: nodepkg/settings/SettingsForm.tsx:209
+#, jsrealm
+msgid "Limit by web map initial extent"
+msgstr "Ogranicz do początkowego zasięgu mapy"
+
+#: nodepkg/settings/SettingsForm.tsx:219
+#, jsrealm
+msgid "Provider"
+msgstr "Dostawca"
+
+#: nodepkg/settings/SettingsForm.tsx:231
+#, jsrealm
+msgid "Limit search results to countries"
+msgstr "Ogranicz wyniki wyszukiwania do krajów"
+
+#: nodepkg/settings/SettingsForm.tsx:241
+#, jsrealm
+msgid "Invalid countries. For example ru or gb,de"
+msgstr "Nieprawidłowe kraje. Na przykład ru lub gb, de"
+
+#: nodepkg/settings/SettingsForm.tsx:253
+#, jsrealm
+msgid "Yandex.Maps API Geocoder Key"
+msgstr "Klucz do Geokodera Yandex.Maps API"
+
+#: nodepkg/settings/SettingsForm.tsx:274
+#, jsrealm
+msgid "Visibility"
+msgstr "Widoczność"
+
+#: nodepkg/settings/SettingsForm.tsx:299
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:165
+#: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:57
+#, jsrealm
+msgid "Save"
+msgstr "Zapisz"
+
+#: nodepkg/settings/select-options.ts:7
+#, jsrealm
+msgid "Meters"
+msgstr "Metry"
+
+#: nodepkg/settings/select-options.ts:11
+#, jsrealm
+msgid "Kilometers"
+msgstr "Kilometry"
+
+#: nodepkg/settings/select-options.ts:15
+#, jsrealm
+msgid "Meters/kilometers (auto)"
+msgstr "Metry/kilometry (auto)"
+
+#: nodepkg/settings/select-options.ts:19
+#, jsrealm
+msgid "Feet"
+msgstr "Stopy"
+
+#: nodepkg/settings/select-options.ts:23
+#, jsrealm
+msgid "Miles"
+msgstr "Mile"
+
+#: nodepkg/settings/select-options.ts:27
+#, jsrealm
+msgid "Feet/miles (auto)"
+msgstr "Stopy/mile (auto)"
+
+#: nodepkg/settings/select-options.ts:34
+#, jsrealm
+msgid "Sq. meters"
+msgstr "Metry kwadratowe."
+
+#: nodepkg/settings/select-options.ts:38
+#, jsrealm
+msgid "Sq. kilometers"
+msgstr "Kilometry kwadratowe."
+
+#: nodepkg/settings/select-options.ts:42
+#, jsrealm
+msgid "Sq. meters/kilometers (auto)"
+msgstr "Metry kwadratowe/kilometry kwadratowe (auto)."
+
+#: nodepkg/settings/select-options.ts:46
+#, jsrealm
+msgid "Hectares"
+msgstr "Hektary"
+
+#: nodepkg/settings/select-options.ts:50
+#, jsrealm
+msgid "Acres"
+msgstr "Akry"
+
+#: nodepkg/settings/select-options.ts:54
+#, jsrealm
+msgid "Sq. miles"
+msgstr "Mile kwadratowe."
+
+#: nodepkg/settings/select-options.ts:58
+#, jsrealm
+msgid "Acres/sq. miles (auto)"
+msgstr "Akry/mile kwadratowe (auto)."
+
+#: nodepkg/settings/select-options.ts:62
+#, jsrealm
+msgid "Sq. feet"
+msgstr "Stopy kwadratowe."
+
+#: nodepkg/settings/select-options.ts:69
+#, jsrealm
+msgid "Decimal degrees"
+msgstr "Stopnie dziesiętne"
+
+#: nodepkg/settings/select-options.ts:73
+#, jsrealm
+msgid "Degrees, decimal minutes"
+msgstr "Stopnie i minuty dziesiętne"
+
+#: nodepkg/settings/select-options.ts:77
+#, jsrealm
+msgid "Degrees, minutes, seconds"
+msgstr "Stopnie, minuty, sekundy"
+
+#: nodepkg/settings/select-options.ts:84
+#, jsrealm
+msgid "Nominatim (OSM)"
+msgstr "Nominatim (OSM)"
+
+#: nodepkg/settings/select-options.ts:88
+#, jsrealm
+msgid "Yandex.Maps API Geocoder"
+msgstr "Geokoder Yandex.Maps API"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:121
+#, jsrealm
+msgid "Create as public"
+msgstr "Utwórz jako publiczną"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:128
+#, jsrealm
+msgid "Create as private"
+msgstr "Utwórz jako prywatną"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:136
+#, jsrealm
+msgid "Edit annotation"
+msgstr "Edytuj adnotację"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:137
+#, jsrealm
+msgid "Create annotation"
+msgstr "Utwórz adnotację"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:159
+#, jsrealm
+msgid "Delete"
+msgstr "Usuń"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:162
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:171
+#: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:48
+#, jsrealm
+msgid "Cancel"
+msgstr "Usuń"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:175
+#, jsrealm
+msgid "Create"
+msgstr "Stwórz"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:59
+#, jsrealm
+msgid "Stroke: width / color"
+msgstr "Obrys: grubość/kolor"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:77
+#: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:102
+#, jsrealm
+msgid "Colors"
+msgstr "Kolory"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:97
+#, jsrealm
+msgid "Fill color"
+msgstr "Wypełnij kolorem"
+
+#: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:117
+#, jsrealm
+msgid "Circle size, px"
+msgstr "Rozmiar koła, px"
+
+#: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:21
+#, jsrealm
+msgid "Stopping editing"
+msgstr "Zakończenie edycji"
+
+#: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:30
+#, jsrealm
+msgid "Do you want to save changes?"
+msgstr "Czy chcesz zapisać zmiany?"
+
+#: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:40
+#, jsrealm
+msgid "Don't save"
+msgstr "Nie zapisuj"
+
+#: nodepkg/utils/format-units.tsx:14
+#, jsrealm
+msgid "km"
+msgstr "km"
+
+#: nodepkg/utils/format-units.tsx:15
+#, jsrealm
+msgid "ft"
+msgstr "ft"
+
+#: nodepkg/utils/format-units.tsx:16
+#, jsrealm
+msgid "mi"
+msgstr "mi"
+
+#: nodepkg/utils/format-units.tsx:17
+#, jsrealm
+msgid "ha"
+msgstr "ha"
+
+#: nodepkg/utils/format-units.tsx:18
+#, jsrealm
+msgid "ac"
+msgstr "ac"
+
+#: nodepkg/utils/geometry-types.ts:9
+#, jsrealm
+msgid "LineString"
+msgstr "Łamana"
+
+#: nodepkg/utils/geometry-types.ts:12
+#, jsrealm
+msgid "LinearRing"
+msgstr "Pierścień liniowy"
+
+#: nodepkg/utils/geometry-types.ts:18
+#, jsrealm
+msgid "MultiPoint"
+msgstr "MultiPunkt"
+
+#: nodepkg/utils/geometry-types.ts:21
+#, jsrealm
+msgid "MultiLineString"
+msgstr "MultiLinia"
+
+#: nodepkg/utils/geometry-types.ts:24
+#, jsrealm
+msgid "MultiPolygon"
+msgstr "MultiPoligon"
+
+#: nodepkg/utils/geometry-types.ts:27
+#, jsrealm
+msgid "GeometryCollection"
+msgstr "Kolekcja geometrii"
+
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:25
+#, jsrealm
+msgid "Go to"
+msgstr "Przejdź do"
+
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:149
+#, jsrealm
+msgid "Selected feature has no geometry"
+msgstr "Wybrany obiekt nie ma geometrii"
+
+#: nodepkg/webmap-tabs/WebMapTabs.tsx:16
+#, jsrealm
+msgid "Loading"
+msgstr "Ładowanie"
+
+#: nodepkg/zoom-to-filtered-btn/ZoomToFilteredBtn.tsx:17
+#, jsrealm
+msgid "Zoom to filtered features"
+msgstr "Powiększ do przefiltrowanych obiektów"
+
+#: option/__init__.py:14
+#, server
+msgid "Feature attributes"
+msgstr "Atrybuty obiektu"
+
+#: option/__init__.py:24
+#, server
+msgid "Geometry info"
+msgstr "Informacje o geometrii"
+
+#: option/base.py:36
+#, server
+msgid "Tools"
+msgstr "Narzędzia"
+
+#: option/base.py:46
+#, server
+msgid "Miscellaneous"
+msgstr "Różne"
+
+#: template/invalid_origin.mako:3
+#, python-format, server
+msgid "Web map embedding is not allowed for %s in the Web GIS settings."
+msgstr "Osadzenie mapy nie jest dozwolone dla %s w ustawieniach Web GIS."
+
+#: template/invalid_origin.mako:5
+#, python-format, server
+msgid "View the map on %s"
+msgstr "Zobacz mapę na %s"
+
+#: template/preview_embedded.mako:15
+#, server
+msgid "This page is for a preview of the web map to be embedded on the site."
+msgstr "Ta strona służy do podglądu mapy internetowej osadzanej na stronie."
+
+#: template/preview_embedded.mako:16
+#, server
+msgid ""
+"Most likely, you went from the \"Share\" section of the web map and refreshed"
+" the page."
+msgstr "Prawdopodobnie przeszedłeś z sekcji \"Udostępnij\" mapy i odświeżyłeś stronę."
+
+#: template/preview_embedded.mako:17
+#, server
+msgid "To generate a preview, go back to the web map page and click \"Preview\"."
+msgstr ""
+"Aby wygenerować podgląd, wróć do strony mapy internetowej i kliknij "
+"\"Podgląd\"."
+
+#: view.py:107
+#, server
+msgid "Clone web map"
+msgstr "Sklonuj mapę internetową"
+
+#: view.py:120
+#, server
+msgid "Embedded webmap preview"
+msgstr "Podgląd osadzonej warstwy"
+
+#: view.py:129
+#, server
+msgid "Web map settings"
+msgstr "Ustawienia mapy internetowej"

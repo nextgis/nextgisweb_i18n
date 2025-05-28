@@ -1,0 +1,383 @@
+#: api.py:23 model.py:710
+#, server
+msgid "GDAL library failed to open file."
+msgstr "Biblioteka GDAL nie udało się otworzyć pliku."
+
+#: kind_of_data.py:8
+#, server
+msgid "Vector layer features"
+msgstr "Obiekty warstwy wektorowej"
+
+#: model.py:71 nodepkg/resource-widget/Widget.tsx:54
+#: nodepkg/resource-widget/Widget.tsx:184
+#, jsrealm, server
+msgid "Point"
+msgstr "Punkt"
+
+#: model.py:72 nodepkg/resource-widget/Widget.tsx:55
+#: nodepkg/resource-widget/Widget.tsx:185
+#, jsrealm, server
+msgid "Line"
+msgstr "Linia"
+
+#: model.py:73 nodepkg/resource-widget/Widget.tsx:56
+#: nodepkg/resource-widget/Widget.tsx:186
+#, jsrealm, server
+msgid "Polygon"
+msgstr "Poligon"
+
+#: model.py:74 nodepkg/resource-widget/Widget.tsx:187
+#, jsrealm, server
+msgid "Multipoint"
+msgstr "Multipunkt"
+
+#: model.py:75 nodepkg/resource-widget/Widget.tsx:188
+#, jsrealm, server
+msgid "Multiline"
+msgstr "Multilinia"
+
+#: model.py:76 nodepkg/resource-widget/Widget.tsx:189
+#, jsrealm, server
+msgid "Multipolygon"
+msgstr "Multipoligon"
+
+#: model.py:77 nodepkg/resource-widget/Widget.tsx:190
+#, jsrealm, server
+msgid "Point Z"
+msgstr "Punkt Z"
+
+#: model.py:78 nodepkg/resource-widget/Widget.tsx:191
+#, jsrealm, server
+msgid "Line Z"
+msgstr "Linia Z"
+
+#: model.py:79 nodepkg/resource-widget/Widget.tsx:192
+#, jsrealm, server
+msgid "Polygon Z"
+msgstr "Poligon Z"
+
+#: model.py:80 nodepkg/resource-widget/Widget.tsx:193
+#, jsrealm, server
+msgid "Multipoint Z"
+msgstr "Multipunkt Z"
+
+#: model.py:81 nodepkg/resource-widget/Widget.tsx:194
+#, jsrealm, server
+msgid "Multiline Z"
+msgstr "Multilinia Z"
+
+#: model.py:82 nodepkg/resource-widget/Widget.tsx:195
+#, jsrealm, server
+msgid "Multipolygon Z"
+msgstr "Multipoligon Z"
+
+#: model.py:131 nodepkg/resource-widget/Widget.tsx:320
+#, jsrealm, server
+msgid "Vector layer"
+msgstr "Warstwa wektorowa"
+
+#: model.py:153 nodepkg/resource-widget/Widget.tsx:108
+#: nodepkg/resource-widget/Widget.tsx:285
+#, jsrealm, server
+msgid "Geometry type"
+msgstr "Rodzaj geometrii"
+
+#: model.py:156
+#, server
+msgid "Feature count"
+msgstr "Liczba obiektów"
+
+#: model.py:713
+#, python-format, server
+msgid "Unsupport OGR driver: %s."
+msgstr "Nieobsługiwany sterownik OGR: %s."
+
+#: model.py:722
+#, server
+msgid "Dataset doesn't contain layers."
+msgstr "Zbiór danych nie zawiera warstw."
+
+#: model.py:725
+#, server
+msgid "Dataset contains more than one layer."
+msgstr "Zbiór danych zawiera więcej niż jedną warstwę."
+
+#: model.py:730
+#, server
+msgid "Unable to open layer."
+msgstr "Nie można otworzyć warstwy."
+
+#: model.py:743
+#, server
+msgid "Layer doesn't contain coordinate system information."
+msgstr "Warstwa nie zawiera informacji o układzie współrzędnych."
+
+#: nodepkg/resource-widget/Store.tsx:199
+#, jsrealm
+msgid "Confirm deletion of existing features"
+msgstr "Potwierdź usunięcie istniejących obiektów"
+
+#: nodepkg/resource-widget/Store.tsx:206
+#, jsrealm
+msgid "Confirm change of geometry type"
+msgstr "Potwierdź zmianę typu geometrii"
+
+#: nodepkg/resource-widget/Widget.tsx:31
+#, jsrealm
+msgid "Select a dataset"
+msgstr "Wybierz zestaw danych"
+
+#: nodepkg/resource-widget/Widget.tsx:32
+#, jsrealm
+msgid ""
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
+"supported. For CSV and XLSX only points are supported, coordinates must be "
+"put in lat and lot columns."
+msgstr ""
+"Obsługiwane formaty ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV "
+"lub XLSX obsługiwane są tylko punkty. Współrzędne muszą znajdować się w "
+"kolumnach lat i lon."
+
+#: nodepkg/resource-widget/Widget.tsx:35
+#, jsrealm
+msgid "Files uploaded, post-processing on the server in progress..."
+msgstr "Pliki przesłane, trwa przetwarzanie na serwerze..."
+
+#: nodepkg/resource-widget/Widget.tsx:45
+#, jsrealm
+msgid "Whenever possible"
+msgstr "Gdy to możliwe"
+
+#: nodepkg/resource-widget/Widget.tsx:46
+#, jsrealm
+msgid "Without losing data"
+msgstr "Bez utraty danych"
+
+#: nodepkg/resource-widget/Widget.tsx:47
+#, jsrealm
+msgid "None"
+msgstr "Brak"
+
+#: nodepkg/resource-widget/Widget.tsx:53 nodepkg/resource-widget/Widget.tsx:62
+#: nodepkg/resource-widget/Widget.tsx:70
+#, jsrealm
+msgid "Auto"
+msgstr "Auto"
+
+#: nodepkg/resource-widget/Widget.tsx:63
+#, jsrealm
+msgid "Yes"
+msgstr "Tak"
+
+#: nodepkg/resource-widget/Widget.tsx:64
+#, jsrealm
+msgid "No"
+msgstr "Nie"
+
+#: nodepkg/resource-widget/Widget.tsx:71
+#, jsrealm
+msgid "Sequence"
+msgstr "Sekwencja"
+
+#: nodepkg/resource-widget/Widget.tsx:72
+#, jsrealm
+msgid "Field"
+msgstr "Pole"
+
+#: nodepkg/resource-widget/Widget.tsx:100
+#, jsrealm
+msgid "Fix errors"
+msgstr "Napraw błędy"
+
+#: nodepkg/resource-widget/Widget.tsx:104
+#, jsrealm
+msgid "Skip features with unfixable errors"
+msgstr "Pomiń obiekty z nienaprawialnymi błedami"
+
+#: nodepkg/resource-widget/Widget.tsx:119
+#, jsrealm
+msgid "Skip features with other geometry types"
+msgstr "Pomiń obiekty z innym typem geometrii"
+
+#: nodepkg/resource-widget/Widget.tsx:123
+#, jsrealm
+msgid "Multi-geometry"
+msgstr "Multi-geometria"
+
+#: nodepkg/resource-widget/Widget.tsx:126
+#, jsrealm
+msgid "Z-coordinate"
+msgstr "Koordynat Z"
+
+#: nodepkg/resource-widget/Widget.tsx:129
+#, jsrealm
+msgid "FID source"
+msgstr "Źródło FID"
+
+#: nodepkg/resource-widget/Widget.tsx:158
+#, jsrealm
+msgid "Load features from file"
+msgstr "Wczytaj obiekty z pliku"
+
+#: nodepkg/resource-widget/Widget.tsx:159
+#, jsrealm
+msgid "Create empty layer"
+msgstr "Utwórz pustą warstwę"
+
+#: nodepkg/resource-widget/Widget.tsx:161
+#, jsrealm
+msgid "Keep existing layer features"
+msgstr "Zachowaj istniejące obiekty warstwy"
+
+#: nodepkg/resource-widget/Widget.tsx:162
+#, jsrealm
+msgid "Change geometry type"
+msgstr "Zmień typ geometrii"
+
+#: nodepkg/resource-widget/Widget.tsx:163
+#, jsrealm
+msgid "Replace layer features from file"
+msgstr "Zastąp obiekty warstwy z pliku"
+
+#: nodepkg/resource-widget/Widget.tsx:164
+#, jsrealm
+msgid "Delete all features from layer"
+msgstr "Usuń wszystkie obiekty z warstwy"
+
+#: nodepkg/resource-widget/Widget.tsx:180
+#, jsrealm
+msgid "current"
+msgstr "bieżący"
+
+#: nodepkg/resource-widget/Widget.tsx:272
+#, jsrealm
+msgid "Source layer"
+msgstr "Warstwa źródłowa"
+
+#: nodepkg/resource-widget/Widget.tsx:309
+#, jsrealm
+msgid "Advanced options"
+msgstr "Opcje zaawansowane"
+
+#: ogrloader.py:311
+#, server
+msgid "Could not determine a geometry type."
+msgstr "Nie można określić typu geometrii."
+
+#: ogrloader.py:313
+#, server
+msgid "Source layer contains no features satisfying the conditions."
+msgstr "Warstwa źródłowa nie zawiera obiektów spełniających warunki."
+
+#: ogrloader.py:331
+#, python-format, server
+msgid "Field '%s' is out of int32 range."
+msgstr "Pole '%s' wykracza poza zakres int32."
+
+#: ogrloader.py:339
+#, python-format, server
+msgid "Field '%s' contains non-unique or empty values."
+msgstr "Pole '%s' zawiera nieaktualne lub puste wartości."
+
+#: ogrloader.py:356
+#, server
+msgid "Parameter 'fid_field' is missing."
+msgstr "Brak parametry 'fid_field'."
+
+#: ogrloader.py:359
+#, python-format, server
+msgid "Fields %s not found."
+msgstr "Nie znaleziono pól %s."
+
+#: ogrloader.py:361
+#, python-format, server
+msgid "None of fields %s are integer."
+msgstr "Żadne z pól %s nie jest typu całkowitego."
+
+#: ogrloader.py:375
+#, python-format, server
+msgid "Field '%s(?)' encoding is broken."
+msgstr "Kodowanie pola '%s(?)' jest uszkodzone."
+
+#: ogrloader.py:390
+#, python-format, server
+msgid "Unsupported field type: %r."
+msgstr "Nieobsługiwany typ pola: %r."
+
+#: ogrloader.py:415
+#, server
+msgid ""
+"The source layer has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr ""
+"Warstwa źródłowa ma lokalny układ współrzędnych i nie może być przekształcona"
+" do docelowego układu współrzędnych."
+
+#: ogrloader.py:498
+#, python-format, server
+msgid ""
+"Feature #%d has a geometry that can't be reprojected to target coordinate "
+"system"
+msgstr ""
+"Obiekt #%d ma geometrię, której nie można przekształcić do docelowego układu "
+"współrzędnych"
+
+#: ogrloader.py:544
+#, server
+msgid "Vector layer cannot be written due to errors."
+msgstr "Warstwa wektorowa nie może zostać zapisana z powodu błędów."
+
+#: ogrloader.py:570
+#, python-format, server
+msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
+msgstr "Obiekt (seq. #%d) nie ma pola FID '%s'."
+
+#: ogrloader.py:574
+#, python-format, server
+msgid "Feature (seq. #%d) FID field '%s' is null."
+msgstr "Obiekt (seq. #%d) ma puste pole FID '%s'."
+
+#: ogrloader.py:621 ogrloader.py:660
+#, python-format, server
+msgid "Feature #%d has multiple geometries satisfying the conditions."
+msgstr "Obiekt #%d ma wiele geometrii spełniających warunki."
+
+#: ogrloader.py:631
+#, python-format, server
+msgid "Feature #%d has unknown geometry type: %d (%s)."
+msgstr "Obiekt #%d ma nieznany typ geometrii: %d (%s)."
+
+#: ogrloader.py:640
+#, python-format, server
+msgid "Feature #%d has unsuitable geometry type: %d (%s)."
+msgstr "Obiekt #%d ma nieodpowiedni typ geometrii: %d (%s)."
+
+#: ogrloader.py:678
+#, python-format, server
+msgid "Feature #%d has empty rings."
+msgstr "Obiekt #%d zawiera puste pierścienie."
+
+#: ogrloader.py:689
+#, python-format, server
+msgid "Feature #%d has unclosed rings."
+msgstr "Obiekt #%d ma niezamknięte pierścienie."
+
+#: ogrloader.py:698
+#, python-format, server
+msgid "Feature #%d has less than 3 points in a polygon ring."
+msgstr "Obiekt #%d ma mniej niż 3 punkty w pierścieniu poligonu."
+
+#: ogrloader.py:711
+#, python-format, server
+msgid "Feature #%d contains an empty linestring."
+msgstr "Obiekt #%d zawiera pustą linię."
+
+#: ogrloader.py:717
+#, python-format, server
+msgid "Feature #%d has less than 2 points in a linestring."
+msgstr "Obiekt #%d ma mniej niż 2 punkty w linii."
+
+#: ogrloader.py:734
+#, python-format, server
+msgid "Feature #%d contains a broken encoding of field '%s'."
+msgstr "Obiekt #%d zawiera uszkodzone kodowanie pola '%s'."

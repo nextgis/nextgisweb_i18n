@@ -1,0 +1,101 @@
+#: model.py:50
+#, server
+msgid "WMS connection"
+msgstr "Połączenie z serwisem WMS"
+
+#: model.py:144
+#, server
+msgid "WMS capabilities"
+msgstr "Możliwości WMS"
+
+#: model.py:145 nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:96
+#, jsrealm, server
+msgid "Image format"
+msgstr "Format obrazu"
+
+#: model.py:224
+#, server
+msgid "WMS layer"
+msgstr "Warstawa WMS"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:12
+#, jsrealm
+msgid "Query"
+msgstr "Zapytanie"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:13
+#, jsrealm
+msgid "Clear"
+msgstr "Wyczyść"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:14
+#, jsrealm
+msgid "Do not query"
+msgstr "Nie wykonuj zapytań"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:22
+#, jsrealm
+msgid "WMS Connection URL"
+msgstr "URL połączenia z WMS"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:30
+#, jsrealm
+msgid "URL"
+msgstr "URL"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:38
+#, jsrealm
+msgid "Username"
+msgstr "Nazwa użytkownika WMS"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:45
+#, jsrealm
+msgid "Password"
+msgstr "Hasło klienta WMS"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:52
+#, jsrealm
+msgid "Version"
+msgstr "Wersja"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:63
+#, jsrealm
+msgid "Capabilities"
+msgstr "Możliwości"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:75
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:83
+#, jsrealm
+msgid "WMS Connection"
+msgstr "Połączenie WMS"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:107
+#, jsrealm
+msgid "WMS layers"
+msgstr "Warstwy WMS"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:116
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:65
+#, jsrealm
+msgid "Vendor parameters"
+msgstr "Parametry dostawcy"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:129
+#, jsrealm
+msgid "Edit vendor parameters"
+msgstr "Edytuj parametry dostawcy"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
+#, jsrealm
+msgid "WMS Layer"
+msgstr "Warstwa WMS"
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:21
+#, jsrealm
+msgid "Key"
+msgstr "Klucz"
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:27
+#, jsrealm
+msgid "Value"
+msgstr "Wartość"

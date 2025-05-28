@@ -1,0 +1,467 @@
+#: api/device_types.py:16
+#, server
+msgid "NextGIS Tracker Hub is unavailable. Try later, please."
+msgstr "Centrum NextGIS nie jest dostępne. Spróbuj ponownie później."
+
+#: component.py:15 nodepkg/reports/Reports.tsx:312
+#: nodepkg/trackers-panel/plugin.tsx:10 plugin.py:29 view/__init__.py:52
+#, jsrealm, server
+msgid "Trackers"
+msgstr "Trackery"
+
+#: model.py:21
+#, server
+msgid "Trackers group"
+msgstr "Grupa trackerów"
+
+#: model.py:33
+#, server
+msgid "Tracker"
+msgstr "Urządzenie śledzące"
+
+#: model.py:51
+#, server
+msgid "Tracker UID is not unique"
+msgstr "Identyfikator śledzenia nie jest unikalny"
+
+#: model.py:76
+#, server
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr "Atrybut '{}' jest niezmienny i nie może być zmieniony po utworzeniu trackera."
+
+#: nodepkg/gpx-button/GpxButton.tsx:50
+#, jsrealm
+msgid "Download GPX file"
+msgstr "Pobierz plik GPX"
+
+#: nodepkg/reports/Reports.tsx:98
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:57
+#: nodepkg/reports/report-type/MileageReport.tsx:44
+#, jsrealm
+msgid "Mileage"
+msgstr "Przebieg"
+
+#: nodepkg/reports/Reports.tsx:99
+#, jsrealm
+msgid "Top speed"
+msgstr "Prędkość maksymalna"
+
+#: nodepkg/reports/Reports.tsx:100
+#, jsrealm
+msgid "Average speed"
+msgstr "Średnia prędkość"
+
+#: nodepkg/reports/Reports.tsx:101
+#, jsrealm
+msgid "Fuel consumed"
+msgstr "Zużyte paliwo"
+
+#: nodepkg/reports/Reports.tsx:102 nodepkg/trackers-panel/TrackersPanel.tsx:61
+#, jsrealm
+msgid "Stops"
+msgstr "Postoje"
+
+#: nodepkg/reports/Reports.tsx:103
+#, jsrealm
+msgid "GPX file"
+msgstr "Plik GPX"
+
+#: nodepkg/reports/Reports.tsx:107
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:38
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:51
+#: nodepkg/reports/report-type/MileageReport.tsx:38
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:38
+#, jsrealm
+msgid "Days"
+msgstr "Dni"
+
+#: nodepkg/reports/Reports.tsx:108
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:39
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:52
+#: nodepkg/reports/report-type/MileageReport.tsx:39
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:39
+#, jsrealm
+msgid "Hours"
+msgstr "Godziny"
+
+#: nodepkg/reports/Reports.tsx:113 nodepkg/reports/Reports.tsx:114
+#: nodepkg/trackers-panel/TrackersPanel.tsx:138
+#: nodepkg/trackers-panel/TrackersPanel.tsx:139
+#, jsrealm
+msgid "Unknown"
+msgstr "Nieznane"
+
+#: nodepkg/reports/Reports.tsx:266
+#, jsrealm
+msgid "Result"
+msgstr "Wynik"
+
+#: nodepkg/reports/Reports.tsx:274
+#, jsrealm
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: nodepkg/reports/Reports.tsx:278
+#, jsrealm
+msgid "Report type"
+msgstr "Typ raportu"
+
+#: nodepkg/reports/Reports.tsx:288 nodepkg/trackers-panel/TrackersPanel.tsx:402
+#, jsrealm
+msgid "Time range"
+msgstr "Zakres czasu"
+
+#: nodepkg/reports/Reports.tsx:303
+#, jsrealm
+msgid "Group by"
+msgstr "Grupuj według"
+
+#: nodepkg/reports/Reports.tsx:320
+#, jsrealm
+msgid "Create report"
+msgstr "Utwórz raport"
+
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:22
+#, jsrealm
+msgid "Avg speed report"
+msgstr "Raport średniej prędkości"
+
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:27
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:40
+#: nodepkg/reports/report-type/MileageReport.tsx:27
+#: nodepkg/reports/report-type/StopsReport.tsx:46
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:27
+#, jsrealm
+msgid "No data for selected period"
+msgstr "Brak danych dla wyznaczonego okresu"
+
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:44
+#, jsrealm
+msgid "Avg speed"
+msgstr "Średnia prędkość"
+
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:27
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:62
+#, jsrealm
+msgid "Fuel consumption"
+msgstr "Zużycie paliwa"
+
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:33
+#, jsrealm
+msgid "Fuel consumption, liters per 100 km"
+msgstr "Zużycie paliwa, litry na 100km"
+
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:37
+#, jsrealm
+msgid "Fuel consumption is not defined"
+msgstr "Zużycie paliwa nie jest określone"
+
+#: nodepkg/reports/report-type/MileageReport.tsx:22
+#, jsrealm
+msgid "Mileage report"
+msgstr "Raport przebiegu"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:41
+#, jsrealm
+msgid "Stops report"
+msgstr "Raport postojów"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:60
+#, jsrealm
+msgid "Start stop"
+msgstr "Początek postoju"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:65
+#, jsrealm
+msgid "End stop"
+msgstr "Koniec postoju"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:70 nodepkg/webmap/StopsLayer.ts:23
+#, jsrealm
+msgid "Duration"
+msgstr "Czas trwania"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:81
+#, jsrealm
+msgid "Count of stops"
+msgstr "Liczba postojów"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:85
+#, jsrealm
+msgid "Total duration"
+msgstr "Całkowity czas trwania"
+
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:22
+#, jsrealm
+msgid "Top speed report"
+msgstr "Raport prędkości maksymalnej"
+
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:44
+#, jsrealm
+msgid "Max speed"
+msgstr "Prędkość maksymalna"
+
+#: nodepkg/tracker-activity/ChartHelper.ts:78
+#, jsrealm
+msgid "No data available"
+msgstr "Brak dostępnych danych"
+
+#: nodepkg/tracker-activity/ChartHelper.ts:172
+#, jsrealm
+msgid "Hourly intervals"
+msgstr "Przedziały godzinowe"
+
+#: nodepkg/tracker-activity/ChartHelper.ts:180
+#, jsrealm
+msgid "Number of points"
+msgstr "Liczba punktów"
+
+#: nodepkg/tracker-activity/ChartHelper.ts:211
+#, jsrealm
+msgid "Points per hour"
+msgstr "Punkty na godzine"
+
+#: nodepkg/tracker-activity/TrackerActivity.tsx:73
+#, jsrealm
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: nodepkg/tracker-activity/TrackerActivity.tsx:83
+#, jsrealm
+msgid "Device activity"
+msgstr "Aktywność urządzenia"
+
+#: nodepkg/tracker-settings/TrackerSettings.tsx:55
+#, jsrealm
+msgid "Settings saved"
+msgstr "Ustawienia zapisane"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:41
+#, jsrealm
+msgid "Common settings"
+msgstr "Ustawienia ogólne"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:47
+#, jsrealm
+msgid "Interval for splitting tracks, min"
+msgstr "Interwał dzielenia śladów, min"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:59
+#, jsrealm
+msgid "Stops detecting"
+msgstr "Wykrywanie postojów"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:65
+#, jsrealm
+msgid "Minimal speed, km/h"
+msgstr "Minimalna prędkość, km/h"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:78
+#, jsrealm
+msgid "Minimal time stop, sec"
+msgstr "Minimalny czas postoju, sek"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:90
+#, jsrealm
+msgid "Timezone settings"
+msgstr "Ustawienia strefy czasowej"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:94
+#, jsrealm
+msgid "Time zone"
+msgstr "Strefa czasowa"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:118
+#, jsrealm
+msgid "Save"
+msgstr "Zapisz"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:12
+#, jsrealm
+msgid "Values cannot be changed after the tracker is created."
+msgstr "Wartości nie mogą być zmienione po utworzeniu trackera."
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:29
+#, jsrealm
+msgid "Unique id (IMEI by default)"
+msgstr "Unikalny identyfikator (domyślnie IMEI)"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:36
+#, jsrealm
+msgid "Description"
+msgstr "Opis trackera"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:41
+#, jsrealm
+msgid "Device type"
+msgstr "Typ urządzenia"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:52
+#, jsrealm
+msgid "Fuel consumption, L/100km (for reports)"
+msgstr "Zużycie paliwa, L/100km (do raportów)"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:63
+#, jsrealm
+msgid "Tracker detail"
+msgstr "Szczegóły trackera"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:48
+#, jsrealm
+msgid "Last known point"
+msgstr "Ostatni znany punkt"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:53
+#, jsrealm
+msgid "GPS tracks"
+msgstr "Trasy GPS"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:58
+#, jsrealm
+msgid "Track points"
+msgstr "Punkty trasy"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:76
+#, jsrealm
+msgid "Zoom to layer"
+msgstr "Przybliż do warstwy"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:83
+#, jsrealm
+msgid "Zoom to last point"
+msgstr "Przybliż do ostatniego punktu"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:90
+#, jsrealm
+msgid "Set filter to last day with data"
+msgstr "Ustaw filtr na ostatni dzień z danymi"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:96
+#, jsrealm
+msgid "Show last activity"
+msgstr "Pokaż ostatnią aktywność"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:250
+#, jsrealm
+msgid "Sort by"
+msgstr "Sortuj według"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:251 nodepkg/webmap/utils.ts:61
+#: nodepkg/webmap/utils.ts:67
+#, jsrealm
+msgid "Time"
+msgstr "Czas"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:252
+#, jsrealm
+msgid "Name"
+msgstr "Nazwa"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:428
+#, jsrealm
+msgid "Reports"
+msgstr "Raporty"
+
+#: nodepkg/utils/getRangePresets.ts:19
+#, jsrealm
+msgid "Today"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:23
+#, jsrealm
+msgid "Yesterday"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:31
+#, jsrealm
+msgid "Last 24 hours"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:35
+#, jsrealm
+msgid "Last 3 days"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:39
+#, jsrealm
+msgid "Last week"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:43
+#, jsrealm
+msgid "Last month"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:47
+#, jsrealm
+msgid "This month"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:51
+#, jsrealm
+msgid "Previous month"
+msgstr ""
+
+#: nodepkg/webmap/StopsLayer.ts:21
+#, jsrealm
+msgid "Start"
+msgstr "Poczatek"
+
+#: nodepkg/webmap/StopsLayer.ts:22
+#, jsrealm
+msgid "End"
+msgstr "Koniec"
+
+#: nodepkg/webmap/utils.ts:55 nodepkg/webmap/utils.ts:66
+#, jsrealm
+msgid "Date"
+msgstr "Data"
+
+#: nodepkg/webmap/utils.ts:72
+#, jsrealm
+msgid "Speed, km/h"
+msgstr "Prędkość, km/h"
+
+#: nodepkg/webmap/utils.ts:78
+#, jsrealm
+msgid "Height, m"
+msgstr "Wysokość, m"
+
+#: nodepkg/webmap/utils.ts:84
+#, jsrealm
+msgid "Course"
+msgstr "Kierunek"
+
+#: nodepkg/webmap/utils.ts:90
+#, jsrealm
+msgid "Satellites"
+msgstr "Satelity"
+
+#: nodepkg/webmap/utils.ts:96
+#, jsrealm
+msgid "HDOP"
+msgstr "HDOP"
+
+#: pyramid_tracker/register.py:24 pyramid_tracker/register.py:49
+#, server
+msgid "Device is not registered on NextGIS Tracker System. Try later, please."
+msgstr ""
+"Urządzenie nie jest zarejestrowane w systemie NextGIS Tracker. Spróbuj "
+"ponownie później."
+
+#: pyramid_tracker/register.py:29 pyramid_tracker/register.py:52
+#, server
+msgid "NextGIS Tracker System is unavailable. Try later, please."
+msgstr "System NextGIS jest niedostępny. Spróbuj ponownie później."
+
+#: view/__init__.py:22
+#, server
+msgid "Trackers settings"
+msgstr "Ustawienia trackerów"
+
+#: view/reports.py:19
+#, server
+msgid "Trackers reports"
+msgstr "Raporty trackerów"

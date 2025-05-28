@@ -1,0 +1,43 @@
+#: model.py:16 nodepkg/service-widget/ServiceWidget.tsx:110
+#, jsrealm, server
+msgid "OGC API Features service"
+msgstr "Usługa OGC API Features"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:24
+#, jsrealm
+msgid "Display name"
+msgstr "Wyświetlana nazwa"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:29
+#, jsrealm
+msgid "Keyname"
+msgstr "Nazwa klucza"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:34
+#, jsrealm
+msgid "Features per request"
+msgstr "Obiekty na żądanie"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:39
+#, jsrealm
+msgid "Not set"
+msgstr "Nie ustawiono"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:44
+#, jsrealm
+msgid "Resource"
+msgstr "Zasób"
+
+#: view.py:17
+#, server
+msgid "OGC API Features"
+msgstr "AGC API Features"
+
+#: view.py:18
+#, server
+msgid ""
+"OGC API Features provides API building blocks to create, modify and query "
+"features on the Web."
+msgstr ""
+"OGC API Features udostępnia elementy API do tworzenia, modyfikowania i "
+"zapytań o obiekty w sieci."

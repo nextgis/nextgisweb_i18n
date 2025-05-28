@@ -1,0 +1,44 @@
+#: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:110
+#, jsrealm, server
+msgid "WFS service"
+msgstr "Serwis WFS"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:24
+#, jsrealm
+msgid "Display name"
+msgstr "Nazwa wyświetlana"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:29
+#, jsrealm
+msgid "Keyname"
+msgstr "Klucz WFS"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:34
+#, jsrealm
+msgid "Features per request"
+msgstr "Obiekty na żądanie"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:39
+#, jsrealm
+msgid "Not set"
+msgstr "Nie ustawiono"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:44
+#, jsrealm
+msgid "Resource"
+msgstr "Źródło WFS"
+
+#: view.py:17
+#, server
+msgid "Web Feature Service (WFS)"
+msgstr "Web Feature Service (WFS)"
+
+#: view.py:18
+#, server
+msgid ""
+"Web Feature Service (WFS) provides an interface allowing requests for "
+"geographical features across the web using platform-independent calls."
+msgstr ""
+"Web Feature Service (WFS) udostępnia interfejs umożliwiający wysyłanie "
+"zapytań o obiekty geograficzne przez internet, z użyciem niezależnych od "
+"platformy wywołań."

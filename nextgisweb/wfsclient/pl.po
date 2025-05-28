@@ -1,0 +1,109 @@
+#: model.py:138 nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:59
+#, jsrealm, server
+msgid "WFS connection"
+msgstr "Połączenie z serwisem WFS"
+
+#: model.py:494 nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:239
+#, jsrealm, server
+msgid "WFS layer"
+msgstr "Warstwa WFS"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:22
+#, jsrealm
+msgid "URL"
+msgstr "URL"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:28
+#, jsrealm
+msgid "Username"
+msgstr "Nazwa użytkownika WFS"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:37
+#, jsrealm
+msgid "Password"
+msgstr "Hasło klienta WFS"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:47
+#, jsrealm
+msgid "Version"
+msgstr "Wersja"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerStore.ts:24
+#, jsrealm
+msgid "Fields need to be updated due to autodetection"
+msgstr "Pola wymagają aktualizacji z powodu autowykrywania"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:17
+#, jsrealm
+msgid "Autodetect"
+msgstr "Automatyczne wykrywanie"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:68
+#, jsrealm
+msgid "Point"
+msgstr "Punkt"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:69
+#, jsrealm
+msgid "Line"
+msgstr "Linia"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:70
+#, jsrealm
+msgid "Polygon"
+msgstr "Poligon"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:71
+#, jsrealm
+msgid "Multipoint"
+msgstr "Multipunkt"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:72
+#, jsrealm
+msgid "Multiline"
+msgstr "Multilinia"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:73
+#, jsrealm
+msgid "Multipolygon"
+msgstr "Multipoligon"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:86
+#, jsrealm
+msgid "Keep existing definitions untouched"
+msgstr "Pozostaw istniejące definicje bez zmian"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:87
+#, jsrealm
+msgid "Update definitions from the server"
+msgstr "Zaktualizuj definicje z serwera"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:164
+#, jsrealm
+msgid "Connection"
+msgstr "Połączenie"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:176
+#, jsrealm
+msgid "Layer"
+msgstr "Warstwa"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:191
+#, jsrealm
+msgid "SRID"
+msgstr "SRID"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:199
+#, jsrealm
+msgid "Geometry column"
+msgstr "Kolumna geometrii"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:213
+#, jsrealm
+msgid "Geometry type"
+msgstr "Rodzaj geometrii"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:225
+#, jsrealm
+msgid "Attribute definitions"
+msgstr "Definicje atrybutów"

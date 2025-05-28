@@ -1,0 +1,4 @@
+#: model.py:40
+#, server
+msgid "Raster style"
+msgstr "Styl rastra"

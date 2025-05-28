@@ -1,0 +1,69 @@
+#: model.py:24 nodepkg/layer-widget/LayerWidget.tsx:158
+#, jsrealm, server
+msgid "Basemap"
+msgstr "Mapa podkładowa"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:17
+#, jsrealm
+msgid "Pick from QMS"
+msgstr "Wybierz z QMS"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:19
+#, jsrealm
+msgid "Search for geoservices provided by "
+msgstr "Wyszukaj usługi geoprzestrzenne dostarczane przez "
+
+#: nodepkg/layer-widget/LayerWidget.tsx:20
+#, jsrealm
+msgid "You can search by name or ID"
+msgstr "Możesz wyszukiwać po nazwie lub ID"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:23
+#, jsrealm
+msgid "If a service from QMS is selected, this field cannot be edited."
+msgstr "Jeśli wybrano usługę z QMS, to pole nie może być edytowane."
+
+#: nodepkg/layer-widget/LayerWidget.tsx:91
+#, jsrealm
+msgid "URL"
+msgstr "URL"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:97
+#, jsrealm
+msgid "Copyright text"
+msgstr "Tekst praw autorskich"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:104
+#, jsrealm
+msgid "Copyright URL"
+msgstr "Adres URL praw autorskich"
+
+#: nodepkg/plugin/base-map/BaseMap.ts:59
+#, jsrealm
+msgid "No basemap"
+msgstr "Brak mapy bazowej"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:24
+#, jsrealm
+msgid "Display name"
+msgstr "Nazwa wyświetlana"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:31
+#, jsrealm
+msgid "Default basemap"
+msgstr "Domyślna mapa bazowa"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:34
+#, jsrealm
+msgid "Opacity"
+msgstr "Nieprzezroczystość"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:39
+#, jsrealm
+msgid "Resource"
+msgstr "Źródło"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:103
+#, jsrealm
+msgid "Basemaps"
+msgstr "Mapy podkładowe"

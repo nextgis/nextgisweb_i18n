@@ -1,0 +1,255 @@
+#: api/exceptions.py:11
+#, server
+msgid "The Geoservices API unknown error"
+msgstr "Nieznany błąd Geoservices API"
+
+#: api/exceptions.py:12
+#, server
+msgid "The Geoservices API: unknown error"
+msgstr "Geoservices API: nieznany błąd"
+
+#: api/exceptions.py:16
+#, server
+msgid "The Geoservices API timeout error"
+msgstr "Błąd limitu czasu Geoservices API"
+
+#: api/exceptions.py:17
+#, server
+msgid "The Geoservices API is currently unavailable due to a timeout error"
+msgstr "Geoservices API jest obecnie niedostępne z powodu błędu limitu czasu"
+
+#: api/exceptions.py:21
+#, server
+msgid "The Geoservices API parsing error"
+msgstr "Błąd przetwarzania danych Geoservices API"
+
+#: api/exceptions.py:22
+#, server
+msgid "The Geoservices API failed to parse the JSON data returned by the PKK service"
+msgstr ""
+"Geoservices API nie zdołało przetworzyć danych JSON zwróconych przez usługę "
+"PKK"
+
+#: api/exceptions.py:28
+#, server
+msgid "The Geoservices API error"
+msgstr "Błąd Geoservices API"
+
+#: api/exceptions.py:29
+#, server
+msgid ""
+"NextGIS Geoservices encountered an internal error or the PKK service is "
+"currently unavailable"
+msgstr ""
+"NextGIS Geoservices napotkało błąd wewnętrzny lub usługa PKK jest obecnie "
+"niedostępna"
+
+#: api/exceptions.py:35
+#, server
+msgid "The NextGIS Geoservices is currently unavailable"
+msgstr "NextGIS Geoservices jest obecnie niedostępne"
+
+#: api/exceptions.py:44
+#, server
+msgid "The Geoservices API: The request for attribute retrieval ended in failure"
+msgstr "Geoservices API: żądanie pobrania atrybutów zakończyło się niepowodzeniem"
+
+#: api/exceptions.py:53
+#, server
+msgid ""
+"The Geoservices API: The 'extent' field is not present in the received "
+"attributes"
+msgstr "Geoservices API: pole 'extent' nie występuje w otrzymanych atrybutach"
+
+#: api/exceptions.py:64
+#, server
+msgid "The Geoservices API: The object geometry retrieval request failed"
+msgstr "Geoservices API: żądanie pobrania geometrii obiektu nie powiodło się"
+
+#: api/exceptions.py:73
+#, server
+msgid "The Geoservices API: Unable to create the feature based on previous requests"
+msgstr "Geoservices API: nie można utworzyć obiektu na podstawie wcześniejszych żądań"
+
+#: api/exceptions.py:79
+#, server
+msgid "The Geoservices API: Plot not found"
+msgstr "Geoservices API: działka nieznaleziona"
+
+#: api/geoservices.py:50
+#, server
+msgid "'Cadaster services' module is disabled!"
+msgstr "Moduł 'Usługi katastralne' jest wyłączony!"
+
+#: api/geoservices.py:60
+#, server
+msgid ""
+"Geoservices API key in cadaster services module not set. Set the Geoservices "
+"API key in the `Cadaster services` section on the Control panel."
+msgstr ""
+"Klucz Geoservices API w module usług katastralnych nie został ustawiony. "
+"Ustaw klucz w sekcji 'usługi katastralne' w Panelu sterowania."
+
+#: api/geoservices.py:202
+#, python-format, server
+msgid "Cadaster plot with ID '%(id)s' not found!"
+msgstr "Działka katastralna o ID '%(id)s' nie została znaleziona!"
+
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:43
+#, jsrealm
+msgid "Settings saved"
+msgstr "Ustawienia zapisane"
+
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:66
+#, jsrealm
+msgid "API key"
+msgstr "Klucz API"
+
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:83
+#, jsrealm
+msgid "Enable"
+msgstr "Włącz"
+
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:100
+#, jsrealm
+msgid "Save"
+msgstr "Zapisz"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:40
+#, jsrealm
+msgid "Search cadastral plots by cadastral number"
+msgstr "Wyszukaj działki ewidencyjne według numeru ewidencyjnego"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:41
+#, jsrealm
+msgid "Search cadastral plots"
+msgstr "Wyszukaj działki ewidencyjne"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:51
+#, jsrealm
+msgid "Identify quarters"
+msgstr "Zidentyfikuj obręby"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:58
+#, jsrealm
+msgid "Identify plots"
+msgstr "Zidentyfikuj działki"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:65
+#, jsrealm
+msgid "Identify construction objects"
+msgstr "Zidentyfikuj obiekty budowlane"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:72
+#, jsrealm
+msgid "Identify special zones"
+msgstr "Zidentyfikuj strefy specjalne"
+
+#: nodepkg/webmap/controls/CadasterPlots/CadasterPlotDetail.tsx:81
+#, jsrealm
+msgid "Back to list"
+msgstr "Powrót do listy"
+
+#: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:22
+#, jsrealm
+msgid "Attribute"
+msgstr "Atrybut"
+
+#: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:27
+#, jsrealm
+msgid "Value"
+msgstr "Wartość"
+
+#: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:37
+#, jsrealm
+msgid "More"
+msgstr ""
+
+#: nodepkg/webmap/panel/CadasterPanel.tsx:32
+#, jsrealm
+msgid "To get cadastral information, click on the map with the left mouse button"
+msgstr "Aby uzyskać informacje katastralne, kliknij na mapie lewym przyciskiem myszy"
+
+#: nodepkg/webmap/panel/CadasterPanel.tsx:33
+#, jsrealm
+msgid ""
+"To search for cadastral plots, enter the cadastral number or select the "
+"identify tool to search on the map"
+msgstr ""
+"Aby wyszukać działki, wpisz  numer ewidencyjny lub wybierz narzędzie "
+"identyfikacji i kliknij na mapie"
+
+#: nodepkg/webmap/panel/CadasterPanel.tsx:36
+#, jsrealm
+msgid "Error getting cadastral information"
+msgstr "Błąd podczas pobierania informacji katastralnych"
+
+#: nodepkg/webmap/panel/CadasterPanel.tsx:37
+#, jsrealm
+msgid "No valid cadastral number"
+msgstr "Brak prawidłowego numeru ewidencyjnego"
+
+#: nodepkg/webmap/panel/plugin.tsx:12 plugin.py:20 view/settings.py:24
+#, jsrealm, server
+msgid "Cadaster services"
+msgstr "Usługi katastralne"
+
+#: nodepkg/webmap/util.ts:53
+#, jsrealm
+msgid "Unknown name"
+msgstr ""
+
+#: nodepkg/webmap/util.ts:65
+#, jsrealm
+msgid "No quarters found"
+msgstr "Nie znaleziono obrębów"
+
+#: nodepkg/webmap/util.ts:67
+#, jsrealm
+msgid "No cadastral plots found"
+msgstr "Nie znaleziono działek ewidencyjnych"
+
+#: nodepkg/webmap/util.ts:69
+#, jsrealm
+msgid "No construction objects found"
+msgstr "Nie znaleziono obiektów budowlanych"
+
+#: nodepkg/webmap/util.ts:71
+#, jsrealm
+msgid "No special zones found"
+msgstr "Nie znaleziono stref specjalnych"
+
+#: nodepkg/webmap/util.ts:73
+#, jsrealm
+msgid "Cadastral information not found"
+msgstr "Nie znaleziono informacji katastralnych"
+
+#: nodepkg/webmap/util.ts:80
+#, jsrealm
+msgid "Searching for quarters..."
+msgstr "Wyszukiwanie obrębów..."
+
+#: nodepkg/webmap/util.ts:82
+#, jsrealm
+msgid "Searching for cadastral plots..."
+msgstr "Wyszukiwanie działek ewidencyjnych..."
+
+#: nodepkg/webmap/util.ts:84
+#, jsrealm
+msgid "Searching for construction objects..."
+msgstr "Wyszukiwanie obiektów budowlanych..."
+
+#: nodepkg/webmap/util.ts:86
+#, jsrealm
+msgid "Searching for special zones..."
+msgstr "Wyszukiwanie stref specjalnych..."
+
+#: nodepkg/webmap/util.ts:88
+#, jsrealm
+msgid "Getting cadastral information..."
+msgstr "Pobieranie informacji katastralnych..."
+
+#: view/settings.py:11
+#, server
+msgid "Cadaster services settings"
+msgstr "Ustawienia usług katastralnych"

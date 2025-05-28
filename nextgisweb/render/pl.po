@@ -1,0 +1,72 @@
+#: api.py:72
+#, server
+msgid "Invalid origin"
+msgstr "Nieprawidłowe źródło"
+
+#: api.py:73
+#, server
+msgid ""
+"Origin validation is enabled for rendering requests, but the given origin "
+"doesn't match with the CORS origins list."
+msgstr "Weryfikacja źródła jest włączona, ale adres nie znajduje się na liście CORS."
+
+#: api.py:146
+#, server
+msgid "Invalid symbols sequence"
+msgstr "Nieprawidłowa sekwencja symboli"
+
+#: component.py:24 nodepkg/tile-cache-widget/TileCacheWidget.tsx:92
+#, jsrealm, server
+msgid "Tile cache"
+msgstr "Pamięć podręczna kafelków renderowania"
+
+#: component.py:51 nodepkg/tile-cache-widget/TileCacheWidget.tsx:46
+#, jsrealm, server
+msgid "Enabled"
+msgstr "Włączone"
+
+#: component.py:51
+#, server
+msgid "Disabled"
+msgstr "Wyłączone"
+
+#: nodepkg/resource-section/legend-symbols/ResourceSectionLegendSymbols.tsx:30
+#, jsrealm
+msgid "Legend symbols"
+msgstr "Symbole legendy"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:54
+#, jsrealm
+msgid "Allow using tiles in non-tile requests"
+msgstr "Zezwalaj na używanie kafelków w zadaniach niedotyczących kafelków"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:60
+#, jsrealm
+msgid "Max zoom level"
+msgstr "Maksymalne przybliżenie"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:69
+#, jsrealm
+msgid "TTL, sec."
+msgstr "TL, sec."
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:83
+#, jsrealm
+msgid "Flush"
+msgstr "Wyczyść"
+
+#: view.py:26
+#, server
+msgid "TMS (Tile Map Service)"
+msgstr "TMS (Tile Map Service)"
+
+#: view.py:27
+#, server
+msgid ""
+"TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
+"is a map displayed in a browser by seamlessly joining dozens of individually "
+"requested image."
+msgstr ""
+"TMS (Tile Map Service) to specyfikacja dla map webowych w postaci kafelków. "
+"Kafelkowa mapa to mapa wyświetlana w przeglądarce przez płynne łączenie "
+"dziesiątek osobno zażądanych obrazów."

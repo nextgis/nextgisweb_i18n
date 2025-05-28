@@ -1,0 +1,10 @@
+#: nodepkg/description-editor/plugin.ts:8
+#: nodepkg/description-view/DescriptionView.tsx:15
+#, jsrealm
+msgid "Description"
+msgstr "Opis funkcji"
+
+#: util.py:19
+#, server
+msgid "Invalid ZIP archive."
+msgstr "Nieprawidłowe archiwum ZIP."

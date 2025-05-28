@@ -1,5 +1,5 @@
 {
-  "locales": ["be", "bg", "cs", "de", "es", "fr", "it", "pt", "zh-cn"],
+  "locales": ["be", "bg", "cs", "de", "es", "fr", "it", "pt", "pl", "zh-cn"],
   "packages": [
     "nextgisweb",
     "nextgisweb_cadaster",

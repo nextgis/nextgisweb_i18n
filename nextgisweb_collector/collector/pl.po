@@ -1,0 +1,284 @@
+#: api.py:62 api.py:96
+#, server
+msgid ""
+"Unfortunately, you cannot add a new collector. Your collector users limit in "
+"the Web GIS is"
+msgstr ""
+"Niestety, nie możesz dodać nowego kolektora. Twój limit użytkowników "
+"kolektorów w Web GIS to"
+
+#: models/model_db.py:103
+#, server
+msgid "Collector project"
+msgstr "Projekt collectora"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:46
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:17
+#, jsrealm
+msgid "NextGIS ID"
+msgstr "NextGIS ID"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:52
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:29
+#, jsrealm
+msgid "Description"
+msgstr "Opis kolektora"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:58
+#, jsrealm
+msgid "Added"
+msgstr "Dodane"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:78
+#, jsrealm
+msgid "You cannot add a new collector. Your collector users limit"
+msgstr "Nie możesz dodać nowego kolektora. Twój limit użytkowników kolektorów"
+
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:22
+#, jsrealm
+msgid "The value entered is not valid"
+msgstr "Wprowadzona wartość jest nieprawidłowa"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#, jsrealm
+msgid "Collector users:"
+msgstr "Użytkownicy kolektora:"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#, jsrealm
+msgid "out of"
+msgstr "z"
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:26
+#, jsrealm
+msgid "Each collector must have "
+msgstr "Każdy kolektor musi mieć "
+
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:27
+#, jsrealm
+msgid "NextGIS ID account"
+msgstr "Konto NextGIS ID"
+
+#: nodepkg/resource-items/Item.ts:104
+#, jsrealm
+msgid "Group members have errors"
+msgstr "Członkowie grupy mają błędy"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:26
+#, jsrealm
+msgid "Display name"
+msgstr "Nazwa wyświetlana"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:27
+#, jsrealm
+msgid "Expanded"
+msgstr "Rozwinięta"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:28
+#, jsrealm
+msgid "Editable"
+msgstr "Edytowalny"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:29
+#, jsrealm
+msgid "Visible"
+msgstr "Widoczność"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:30
+#, jsrealm
+msgid "Syncable"
+msgstr "Możliwy do synchronizacji"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:31
+#, jsrealm
+msgid "Lifetime for tiles (in min)"
+msgstr "Czas życia kafelków (w minutach)"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:32
+#, jsrealm
+msgid "Resource"
+msgstr "Źródło"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:33
+#, jsrealm
+msgid "Zoom level visibility"
+msgstr "Widoczność poziomu powiększenia"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:34
+#, jsrealm
+msgid "Min zoom"
+msgstr "Minimalne powiększenie"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:35
+#, jsrealm
+msgid "Max zoom"
+msgstr "Maksymalne powiększenie"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:36
+#, jsrealm
+msgid "Layer"
+msgstr "Warstwa"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:37
+#, jsrealm
+msgid "Group"
+msgstr "Grupa"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:265
+#, jsrealm
+msgid "Items"
+msgstr "Elementy"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:14
+#, jsrealm
+msgid "Initial extent"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
+#, jsrealm
+msgid "Project will start at this extent"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:17
+#, jsrealm
+msgid "Starting screen"
+msgstr "Ekran początkowy"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:19
+#, jsrealm
+msgid "The starting screen in the NextGIS Collector mobile app"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:22
+#, jsrealm
+msgid "Username"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:24
+#, jsrealm
+msgid ""
+"Web GIS user name with necessary permissions to access data used in the "
+"project. This user is not related to accounts of actual data collectors."
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:29
+#, jsrealm
+msgid "Password"
+msgstr "Hasło kolektora"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
+#, jsrealm
+msgid "Password for the Web GIS user"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:32
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:209
+#, jsrealm
+msgid "Mobile project setup configuration"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:34
+#, jsrealm
+msgid ""
+"Automate project delivery to multiple mobile GIS with this setup. Recommended"
+" for advanced users only."
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:39
+#, jsrealm
+msgid "Edit config"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:100
+#, jsrealm
+msgid "Project"
+msgstr "Projekt"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:20
+#, jsrealm
+msgid "List of forms"
+msgstr "Lista formularzy"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:24
+#, jsrealm
+msgid "Map"
+msgstr "Mapa"
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:21
+#, jsrealm
+msgid ""
+"Provide the mobile project configuration by typing it in or importing it from"
+" a JSON file"
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:25
+#, jsrealm
+msgid ""
+"Please enter data in the NextGIS Mobile configuration format (using a valid "
+"JSON dictionary)"
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:34
+#, jsrealm
+msgid "Loading editor..."
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:232
+#, jsrealm
+msgid "Load"
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:237
+#, jsrealm
+msgid "Close"
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:244
+#, jsrealm
+msgid "OK"
+msgstr ""
+
+#: nodepkg/resource-users/CollectorUsersWidget.tsx:30
+#, jsrealm
+msgid "Collectors"
+msgstr "Collectory"
+
+#: nodepkg/userMessages.ts:5
+#, jsrealm
+msgid "Delete collector?"
+msgstr "Usunąć kolektor?"
+
+#: nodepkg/userMessages.ts:6
+#, jsrealm
+msgid "Collector deleted"
+msgstr "Kolektor usunięty"
+
+#: scope.py:9
+#, server
+msgid "Collector"
+msgstr "Collector"
+
+#: scope.py:11
+#, server
+msgid "Read"
+msgstr "Czytaj"
+
+#: view.py:58
+#, server
+msgid "List of collectors"
+msgstr "Lista collectorów"
+
+#: view.py:70
+#, server
+msgid "Create new collector"
+msgstr "Stwórz nowy kolektor"
+
+#: view.py:77
+#, server
+msgid "Edit collector"
+msgstr "Edytuj collector"
+
+#: view.py:101
+#, server
+msgid "Collector projects"
+msgstr "Projekty collectora"

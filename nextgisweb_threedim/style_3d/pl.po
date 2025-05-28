@@ -1,0 +1,117 @@
+#: interface.py:14
+#, server
+msgid "POI"
+msgstr "Punkt zainteresowania POI"
+
+#: interface.py:15 model.py:15 nodepkg/style-3d-widget/Style3d.tsx:403
+#, jsrealm, server
+msgid "3D style"
+msgstr "Style 3D"
+
+#: interface.py:16
+#, server
+msgid "3D model"
+msgstr "Model 3d"
+
+#: interface.py:17
+#, server
+msgid "Sphere"
+msgstr "Kula"
+
+#: interface.py:18
+#, server
+msgid "Ellipsoid"
+msgstr "Elipsoida"
+
+#: interface.py:29
+#, server
+msgid "Value"
+msgstr "Wartość"
+
+#: interface.py:30
+#, server
+msgid "From attribute"
+msgstr "Z atrybutu"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:127
+#, jsrealm
+msgid "Style type"
+msgstr "Typ stylu"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:139
+#, jsrealm
+msgid "POI icon"
+msgstr "Ikona punktu POI"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:150
+#, jsrealm
+msgid "POI color"
+msgstr "Kolor punktu POI"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:161
+#, jsrealm
+msgid "Priority"
+msgstr "Priorytet"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:172
+#, jsrealm
+msgid "Inverse"
+msgstr "Odwróć"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:184 nodepkg/style-3d-widget/Style3d.tsx:278
+#: nodepkg/style-3d-widget/Style3d.tsx:324
+#, jsrealm
+msgid "Stroke color"
+msgstr "Kolor obramowania"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:195 nodepkg/style-3d-widget/Style3d.tsx:289
+#: nodepkg/style-3d-widget/Style3d.tsx:335
+#, jsrealm
+msgid "Stroke width"
+msgstr "Szerokość obramowania"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:206 nodepkg/style-3d-widget/Style3d.tsx:300
+#: nodepkg/style-3d-widget/Style3d.tsx:346
+#, jsrealm
+msgid "Fill color"
+msgstr "Wypełnij kolorem"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:217 nodepkg/style-3d-widget/Style3d.tsx:379
+#, jsrealm
+msgid "Height"
+msgstr "Wysokość"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:230
+#, jsrealm
+msgid "3D model ID"
+msgstr "ID modelu 3D"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:254
+#, jsrealm
+msgid "Scale"
+msgstr "Skala"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:265
+#, jsrealm
+msgid "Rotate, deg."
+msgstr "Obrót, stopnie."
+
+#: nodepkg/style-3d-widget/Style3d.tsx:311
+#, jsrealm
+msgid "Radius"
+msgstr "Promień"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:357
+#, jsrealm
+msgid "Length"
+msgstr "Długość"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:368
+#, jsrealm
+msgid "Width"
+msgstr "Szerokość"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:392
+#, jsrealm
+msgid "Z offset"
+msgstr "Przesunięcie Z"

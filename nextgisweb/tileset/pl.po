@@ -1,0 +1,68 @@
+#: model.py:87
+#, server
+msgid "Tilesets"
+msgstr "Zbiór kafli"
+
+#: model.py:91
+#, server
+msgid "Tile {} unsupported."
+msgstr ""
+
+#: model.py:126 nodepkg/resource-widget/Widget.tsx:34
+#, jsrealm, server
+msgid "Tileset"
+msgstr "Zbiór kafli"
+
+#: model.py:211
+#, server
+msgid "Number of tiles"
+msgstr "Liczba kafli"
+
+#: model.py:213
+#, server
+msgid "Zoom levels"
+msgstr "Poziom powiększenia"
+
+#: model.py:214
+#, server
+msgid "From {min} to {max}"
+msgstr "Od {min} do {max}"
+
+#: model.py:249
+#, server
+msgid "Tiles '{}' and '{}' are located in different subdirectories."
+msgstr "Kafle '{}' i '{}' znajdują się w różnych podkategoriach."
+
+#: model.py:255
+#, server
+msgid "Tiles '{}' and '{}' have different extensions."
+msgstr "Kafle '{}' i '{}' mają różne rozszerzenia."
+
+#: model.py:316 model.py:352
+#, server
+msgid "Unsupported data format."
+msgstr "Nieobsługiwany format danych."
+
+#: model.py:357
+#, server
+msgid "Only 256x256 px tiles are supported."
+msgstr "Obsługiwane są tylko kafle 256x256 px."
+
+#: model.py:378
+#, server
+msgid "No tiles found in source."
+msgstr "Nie znaleziono kafli w źródle."
+
+#: nodepkg/resource-widget/Widget.tsx:12
+#, jsrealm
+msgid "Select a tileset"
+msgstr "Wybierz zbiór kafli"
+
+#: nodepkg/resource-widget/Widget.tsx:13
+#, jsrealm
+msgid ""
+"MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
+"JPEG format and have a size of 256x256 pixels."
+msgstr ""
+"Obsługiwane są pliki MBTiles i archiwa ZIP z kaflami. Kafle powinny mieć "
+"format PNG lub JPEG i rozmiar 256x256 pikseli."
