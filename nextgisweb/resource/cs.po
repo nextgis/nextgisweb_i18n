@@ -31,6 +31,7 @@ msgid "Resource not found"
 msgstr "Zdroj nebyl nalezen"
 
 #: exception.py:8
+#, python-format
 msgid "Resource with id = %d was not found."
 msgstr "Zdroj s id = %d nebyl nalezen."
 
@@ -61,6 +62,7 @@ msgid "Resource display name is not unique"
 msgstr "Zobrazovaný název zdroje není jedinečný"
 
 #: exception.py:46
+#, python-format
 msgid "Resource with same display name already exists (id = %d)."
 msgstr "Prostředek se stejným zobrazovaným názvem již existuje (id = %d)."
 
@@ -82,6 +84,7 @@ msgid "Root resource could not be deleted."
 msgstr "Kořenový prostředek nelze smazat."
 
 #: exception.py:67
+#, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Třída prostředků '%s' deaktivována."
 
@@ -90,6 +93,7 @@ msgid "Quota exceeded"
 msgstr ""
 
 #: exception.py:82
+#, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Byl překročen maximální počet zdrojů. Limit je %s."
 
@@ -142,10 +146,12 @@ msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
 #: model.py:475
+#, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Není dovoleno spravovat podřízené položky prostředku s id = %d."
 
 #: model.py:487
+#, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "Zdroj nemůže být podřízeným prvkem id zdroje = %d."
 
@@ -545,12 +551,12 @@ msgstr "Hledat zdroje"
 #: scope.py:14
 msgctxt "permission"
 msgid "Read"
-msgstr "Číst"
+msgstr ""
 
 #: scope.py:15
 msgctxt "permission"
 msgid "Create"
-msgstr "Vytvořit"
+msgstr ""
 
 #: scope.py:16
 msgctxt "permission"
@@ -560,7 +566,7 @@ msgstr ""
 #: scope.py:17
 msgctxt "permission"
 msgid "Delete"
-msgstr "Vymazat"
+msgstr ""
 
 #: scope.py:18
 msgctxt "permission"
@@ -636,6 +642,7 @@ msgid "Resource export"
 msgstr "Export zdrojů"
 
 #: view.py:386
+#, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Nedostatečné oprávnění '%s' v oboru '%s' na ID zdroje = %d."
 

@@ -10,7 +10,7 @@ msgstr "Image"
 msgid "Main web map"
 msgstr "Carte Web principale"
 
-#: favorite.py:6 view.py:194
+#: favorite.py:6 view.py:183
 msgid "Display"
 msgstr "Affichage"
 
@@ -18,26 +18,26 @@ msgstr "Affichage"
 msgid "Fragment"
 msgstr ""
 
-#: model.py:48 model.py:66 view.py:189 view.py:216
+#: model.py:47 model.py:65 view.py:178 view.py:205
 msgid "Web map"
 msgstr "Carte Web"
 
-#: model.py:50
+#: model.py:49
 msgctxt "permission"
 msgid "View annotations"
-msgstr "Afficher les annotations"
+msgstr ""
 
-#: model.py:51
+#: model.py:50
 msgctxt "permission"
 msgid "Draw annotations"
 msgstr ""
 
-#: model.py:52
+#: model.py:51
 msgctxt "permission"
 msgid "Manage annotations"
 msgstr ""
 
-#: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:204
+#: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:193
 msgid "Clone"
 msgstr ""
 
@@ -71,15 +71,15 @@ msgstr ""
 msgid "Disable"
 msgstr ""
 
-#: nodepkg/display-tiny/DisplayTinyComponent.tsx:45
+#: nodepkg/display-tiny/DisplayTinyPage.tsx:44
 msgid "Open full map"
 msgstr "Ouvrir la carte complète"
 
-#: nodepkg/display/Display.ts:699
+#: nodepkg/display/Display.ts:693
 msgid "Object not found"
 msgstr ""
 
-#: nodepkg/display/Display.ts:700
+#: nodepkg/display/Display.ts:694
 msgid "Object from URL parameters not found"
 msgstr ""
 
@@ -238,7 +238,7 @@ msgstr ""
 msgid "Hide legend"
 msgstr ""
 
-#: nodepkg/map-component/UrlLayer.tsx:11
+#: nodepkg/map-component/UrlLayer.tsx:12
 msgid "Unable to load tile"
 msgstr ""
 
@@ -308,7 +308,7 @@ msgstr "Swipe verticale"
 msgid "Cursor coordinates / extent"
 msgstr ""
 
-#: nodepkg/map-controls/tool/Identify.ts:66 nodepkg/panel/identify/plugin.tsx:12
+#: nodepkg/map-controls/tool/Identify.ts:65 nodepkg/panel/identify/plugin.tsx:12
 msgid "Identify"
 msgstr "Identifier"
 
@@ -332,11 +332,11 @@ msgstr "Supprimer les entités"
 msgid "Modify features"
 msgstr "Modifier les entités"
 
-#: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:86
 msgid "Show extent"
 msgstr ""
 
-#: nodepkg/map-viewer-info/MapViewerInfo.tsx:88
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
 msgid "Show cursor coordinates"
 msgstr ""
 
@@ -411,11 +411,11 @@ msgstr "Signets"
 msgid "Description"
 msgstr "Description"
 
-#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:178
+#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:179
 msgid "Zoom to identification point"
 msgstr ""
 
-#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:194
+#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:195
 msgid "Copy identification point coordinates"
 msgstr ""
 
@@ -423,17 +423,17 @@ msgstr ""
 msgid "Edit feature"
 msgstr ""
 
-#: nodepkg/panel/identify/IdentifyPanel.tsx:29
+#: nodepkg/panel/identify/IdentifyPanel.tsx:35
 msgid ""
 "To get feature information, click on the map with the left mouse button. Make"
 " sure that other tools are turned off."
 msgstr ""
 
-#: nodepkg/panel/identify/IdentifyPanel.tsx:30
+#: nodepkg/panel/identify/IdentifyPanel.tsx:36
 msgid "Retrieving object information..."
 msgstr ""
 
-#: nodepkg/panel/identify/IdentifyPanel.tsx:31
+#: nodepkg/panel/identify/IdentifyPanel.tsx:37
 msgid "No objects were found at the click location."
 msgstr ""
 
@@ -457,8 +457,16 @@ msgstr "Attributs"
 msgid "Geometry"
 msgstr ""
 
-#: nodepkg/panel/identify/component/FeatureSelector.tsx:53
+#: nodepkg/panel/identify/component/FeatureSelector.tsx:54
 msgid "Zoom to feature"
+msgstr ""
+
+#: nodepkg/panel/identify/component/RasterInfoSection.tsx:14
+msgid "Band {}"
+msgstr ""
+
+#: nodepkg/panel/identify/component/RasterInfoSection.tsx:27
+msgid "Raster"
 msgstr ""
 
 #: nodepkg/panel/identify/fields.tsx:115
@@ -567,15 +575,15 @@ msgstr ""
 msgid "Print map"
 msgstr "Imprimer la carte"
 
-#: nodepkg/panel/search/SearchPanel.tsx:359
+#: nodepkg/panel/search/SearchPanel.tsx:361
 msgid "Enter at least 2 characters"
 msgstr ""
 
-#: nodepkg/panel/search/SearchPanel.tsx:448
+#: nodepkg/panel/search/SearchPanel.tsx:450
 msgid "Not found"
 msgstr "Pas trouvé"
 
-#: nodepkg/panel/search/SearchPanel.tsx:453
+#: nodepkg/panel/search/SearchPanel.tsx:455
 msgid "Refine search criterion. Displayed first 100 search results."
 msgstr ""
 
@@ -605,71 +613,71 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:303
+#: nodepkg/panel/share/SharePanel.tsx:305
 msgid "Active panel"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:333
+#: nodepkg/panel/share/SharePanel.tsx:337
 msgid "The map link copied to clipboard."
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:337
+#: nodepkg/panel/share/SharePanel.tsx:340
 msgid "Copy link"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:371
+#: nodepkg/panel/share/SharePanel.tsx:374
 msgid "Optional fragment label"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:379
+#: nodepkg/panel/share/SharePanel.tsx:382
 msgid "Embed code for your site"
 msgstr "Code d'intégration pour votre site"
 
-#: nodepkg/panel/share/SharePanel.tsx:381
+#: nodepkg/panel/share/SharePanel.tsx:384
 msgid "Map size:"
 msgstr "Taille de la carte:"
 
-#: nodepkg/panel/share/SharePanel.tsx:383
+#: nodepkg/panel/share/SharePanel.tsx:386
 msgid "Width, px"
 msgstr "Largeur, px"
 
-#: nodepkg/panel/share/SharePanel.tsx:391
+#: nodepkg/panel/share/SharePanel.tsx:394
 msgid "Height, px"
 msgstr "Hauteur, px"
 
-#: nodepkg/panel/share/SharePanel.tsx:397
+#: nodepkg/panel/share/SharePanel.tsx:400
 msgid "px"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:400
+#: nodepkg/panel/share/SharePanel.tsx:403
 msgid "Map tools"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:404 option/base.py:31
+#: nodepkg/panel/share/SharePanel.tsx:407 option/base.py:31
 msgid "Panels"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:420
+#: nodepkg/panel/share/SharePanel.tsx:423
 msgid "Link to main map"
 msgstr "Lien vers la carte principale"
 
-#: nodepkg/panel/share/SharePanel.tsx:430
+#: nodepkg/panel/share/SharePanel.tsx:433
 msgid "Generate events"
 msgstr "Générer des événements"
 
-#: nodepkg/panel/share/SharePanel.tsx:434
+#: nodepkg/panel/share/SharePanel.tsx:437
 msgid "Embed code"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:446
+#: nodepkg/panel/share/SharePanel.tsx:449
 msgid "The embed code copied to clipboard."
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:450
+#: nodepkg/panel/share/SharePanel.tsx:453
 msgid "Copy code"
 msgstr ""
 
-#: nodepkg/panel/share/SharePanel.tsx:453
+#: nodepkg/panel/share/SharePanel.tsx:456
 msgid "Preview"
 msgstr "Aperçu"
 
@@ -688,6 +696,20 @@ msgstr ""
 #: nodepkg/plugin/zoom-to-layer/ZoomToLayerPlugin.tsx:18
 msgid "Zoom to layer"
 msgstr "Zoom sur la couche"
+
+#: nodepkg/preview-embedded/PreviewEmbedded.tsx:9
+msgid "This page is for a preview of the web map to be embedded on the site."
+msgstr ""
+
+#: nodepkg/preview-embedded/PreviewEmbedded.tsx:10
+msgid ""
+"Most likely, you went from the \"Share\" section of the web map and refreshed"
+" the page."
+msgstr ""
+
+#: nodepkg/preview-embedded/PreviewEmbedded.tsx:11
+msgid "To generate a preview, go back to the web map page and click \"Preview\"."
+msgstr ""
 
 #: nodepkg/settings-widget/OptionsWidget.tsx:13
 msgid "Auto"
@@ -1008,7 +1030,7 @@ msgstr ""
 msgid "Go to"
 msgstr "Aller à"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:137
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:149
 msgid "Selected feature has no geometry"
 msgstr ""
 
@@ -1037,35 +1059,23 @@ msgid "Miscellaneous"
 msgstr ""
 
 #: template/invalid_origin.mako:3
+#, python-format
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
 msgstr ""
 
 #: template/invalid_origin.mako:5
+#, python-format
 msgid "View the map on %s"
 msgstr ""
 
-#: template/preview_embedded.mako:15
-msgid "This page is for a preview of the web map to be embedded on the site."
-msgstr ""
-
-#: template/preview_embedded.mako:16
-msgid ""
-"Most likely, you went from the \"Share\" section of the web map and refreshed"
-" the page."
-msgstr ""
-
-#: template/preview_embedded.mako:17
-msgid "To generate a preview, go back to the web map page and click \"Preview\"."
-msgstr ""
-
-#: view.py:107
+#: view.py:96
 msgid "Clone web map"
 msgstr ""
 
-#: view.py:120
+#: view.py:108
 msgid "Embedded webmap preview"
 msgstr ""
 
-#: view.py:129
+#: view.py:118
 msgid "Web map settings"
 msgstr "Paramètres de carte Web"

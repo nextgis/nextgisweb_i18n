@@ -163,7 +163,7 @@ msgstr "Wartość"
 #: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:37
 #, jsrealm
 msgid "More"
-msgstr ""
+msgstr "Więcej"
 
 #: nodepkg/webmap/panel/CadasterPanel.tsx:32
 #, jsrealm
@@ -197,7 +197,7 @@ msgstr "Usługi katastralne"
 #: nodepkg/webmap/util.ts:53
 #, jsrealm
 msgid "Unknown name"
-msgstr ""
+msgstr "Nieznana nazwa"
 
 #: nodepkg/webmap/util.ts:65
 #, jsrealm

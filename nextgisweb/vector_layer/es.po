@@ -1,4 +1,4 @@
-#: api.py:23 model.py:709
+#: api.py:23 model.py:711
 msgid "GDAL library failed to open file."
 msgstr "La librería GDAL no pudo abrir el archivo."
 
@@ -6,63 +6,63 @@ msgstr "La librería GDAL no pudo abrir el archivo."
 msgid "Vector layer features"
 msgstr "Objetos geográficos de la capa vectorial"
 
-#: model.py:71 nodepkg/resource-widget/Widget.tsx:58
-#: nodepkg/resource-widget/Widget.tsx:195
+#: model.py:71 nodepkg/resource-widget/Widget.tsx:54
+#: nodepkg/resource-widget/Widget.tsx:184
 msgid "Point"
 msgstr "Punto"
 
-#: model.py:72 nodepkg/resource-widget/Widget.tsx:59
-#: nodepkg/resource-widget/Widget.tsx:196
+#: model.py:72 nodepkg/resource-widget/Widget.tsx:55
+#: nodepkg/resource-widget/Widget.tsx:185
 msgid "Line"
 msgstr "Linea"
 
-#: model.py:73 nodepkg/resource-widget/Widget.tsx:60
-#: nodepkg/resource-widget/Widget.tsx:197
+#: model.py:73 nodepkg/resource-widget/Widget.tsx:56
+#: nodepkg/resource-widget/Widget.tsx:186
 msgid "Polygon"
 msgstr "Polígono"
 
-#: model.py:74 nodepkg/resource-widget/Widget.tsx:198
+#: model.py:74 nodepkg/resource-widget/Widget.tsx:187
 msgid "Multipoint"
 msgstr "Multipunto"
 
-#: model.py:75 nodepkg/resource-widget/Widget.tsx:199
+#: model.py:75 nodepkg/resource-widget/Widget.tsx:188
 msgid "Multiline"
 msgstr "Multilinea"
 
-#: model.py:76 nodepkg/resource-widget/Widget.tsx:200
+#: model.py:76 nodepkg/resource-widget/Widget.tsx:189
 msgid "Multipolygon"
 msgstr "Multipolígono"
 
-#: model.py:77 nodepkg/resource-widget/Widget.tsx:201
+#: model.py:77 nodepkg/resource-widget/Widget.tsx:190
 msgid "Point Z"
 msgstr "Punto Z"
 
-#: model.py:78 nodepkg/resource-widget/Widget.tsx:202
+#: model.py:78 nodepkg/resource-widget/Widget.tsx:191
 msgid "Line Z"
 msgstr "Linea Z"
 
-#: model.py:79 nodepkg/resource-widget/Widget.tsx:203
+#: model.py:79 nodepkg/resource-widget/Widget.tsx:192
 msgid "Polygon Z"
 msgstr "Polígono Z"
 
-#: model.py:80 nodepkg/resource-widget/Widget.tsx:204
+#: model.py:80 nodepkg/resource-widget/Widget.tsx:193
 msgid "Multipoint Z"
 msgstr "Multipunto Z"
 
-#: model.py:81 nodepkg/resource-widget/Widget.tsx:205
+#: model.py:81 nodepkg/resource-widget/Widget.tsx:194
 msgid "Multiline Z"
 msgstr "Multilinea Z"
 
-#: model.py:82 nodepkg/resource-widget/Widget.tsx:206
+#: model.py:82 nodepkg/resource-widget/Widget.tsx:195
 msgid "Multipolygon Z"
 msgstr "Multipolígono Z"
 
-#: model.py:131 nodepkg/resource-widget/Widget.tsx:343
+#: model.py:131 nodepkg/resource-widget/Widget.tsx:320
 msgid "Vector layer"
 msgstr "Capa vectorial"
 
-#: model.py:153 nodepkg/resource-widget/Widget.tsx:112
-#: nodepkg/resource-widget/Widget.tsx:307
+#: model.py:153 nodepkg/resource-widget/Widget.tsx:108
+#: nodepkg/resource-widget/Widget.tsx:285
 msgid "Geometry type"
 msgstr "Tipo de geometría"
 
@@ -70,39 +70,39 @@ msgstr "Tipo de geometría"
 msgid "Feature count"
 msgstr "Recuento de los objetos geográficos"
 
-#: model.py:712
+#: model.py:714
 msgid "Unsupport OGR driver: %s."
 msgstr "Controlador de OGR no compatible: %s."
 
-#: model.py:721
+#: model.py:723
 msgid "Dataset doesn't contain layers."
 msgstr "El dataset no contiene capas."
 
-#: model.py:724
+#: model.py:726
 msgid "Dataset contains more than one layer."
 msgstr "El dataset contiene más de una capa."
 
-#: model.py:729
+#: model.py:731
 msgid "Unable to open layer."
 msgstr "No se puede abrir la capa."
 
-#: model.py:742
+#: model.py:744
 msgid "Layer doesn't contain coordinate system information."
 msgstr "La capa no contiene información del sistema de coordenadas."
 
-#: nodepkg/resource-widget/Store.tsx:176
+#: nodepkg/resource-widget/Store.tsx:199
 msgid "Confirm deletion of existing features"
 msgstr ""
 
-#: nodepkg/resource-widget/Store.tsx:183
+#: nodepkg/resource-widget/Store.tsx:206
 msgid "Confirm change of geometry type"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:35
+#: nodepkg/resource-widget/Widget.tsx:31
 msgid "Select a dataset"
 msgstr "Seleccione un set de datos"
 
-#: nodepkg/resource-widget/Widget.tsx:36
+#: nodepkg/resource-widget/Widget.tsx:32
 msgid ""
 "ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
 "supported. For CSV and XLSX only points are supported, coordinates must be "
@@ -112,150 +112,146 @@ msgstr ""
 "CSV o XLSX. Para CSV y XLSX solo se admiten puntos, las coordenadas deben "
 "colocarse en columnas lat y lot."
 
-#: nodepkg/resource-widget/Widget.tsx:39
+#: nodepkg/resource-widget/Widget.tsx:35
 msgid "Files uploaded, post-processing on the server in progress..."
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:49
+#: nodepkg/resource-widget/Widget.tsx:45
 msgid "Whenever possible"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:50
+#: nodepkg/resource-widget/Widget.tsx:46
 msgid "Without losing data"
 msgstr "Sin perder datos"
 
-#: nodepkg/resource-widget/Widget.tsx:51
+#: nodepkg/resource-widget/Widget.tsx:47
 msgid "None"
 msgstr "Ninguno"
 
-#: nodepkg/resource-widget/Widget.tsx:57 nodepkg/resource-widget/Widget.tsx:66
-#: nodepkg/resource-widget/Widget.tsx:74
+#: nodepkg/resource-widget/Widget.tsx:53 nodepkg/resource-widget/Widget.tsx:62
+#: nodepkg/resource-widget/Widget.tsx:70
 msgid "Auto"
 msgstr "Auto"
 
-#: nodepkg/resource-widget/Widget.tsx:67
+#: nodepkg/resource-widget/Widget.tsx:63
 msgid "Yes"
 msgstr "Sí"
 
-#: nodepkg/resource-widget/Widget.tsx:68
+#: nodepkg/resource-widget/Widget.tsx:64
 msgid "No"
 msgstr "No"
 
-#: nodepkg/resource-widget/Widget.tsx:75
+#: nodepkg/resource-widget/Widget.tsx:71
 msgid "Sequence"
 msgstr "Secuencia"
 
-#: nodepkg/resource-widget/Widget.tsx:76
+#: nodepkg/resource-widget/Widget.tsx:72
 msgid "Field"
 msgstr "Campo"
 
-#: nodepkg/resource-widget/Widget.tsx:104
+#: nodepkg/resource-widget/Widget.tsx:100
 msgid "Fix errors"
 msgstr "Corregir errores"
 
-#: nodepkg/resource-widget/Widget.tsx:108
+#: nodepkg/resource-widget/Widget.tsx:104
 msgid "Skip features with unfixable errors"
 msgstr "Omitir objetos geográficos con errores que no se pueden corregir"
 
-#: nodepkg/resource-widget/Widget.tsx:123
+#: nodepkg/resource-widget/Widget.tsx:119
 msgid "Skip features with other geometry types"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:127
+#: nodepkg/resource-widget/Widget.tsx:123
 msgid "Multi-geometry"
 msgstr "Multi-geometría"
 
-#: nodepkg/resource-widget/Widget.tsx:130
+#: nodepkg/resource-widget/Widget.tsx:126
 msgid "Z-coordinate"
 msgstr "Coordenada Z"
 
-#: nodepkg/resource-widget/Widget.tsx:133
+#: nodepkg/resource-widget/Widget.tsx:129
 msgid "FID source"
 msgstr "Origen de FID"
 
-#: nodepkg/resource-widget/Widget.tsx:169
+#: nodepkg/resource-widget/Widget.tsx:158
 msgid "Load features from file"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:170
+#: nodepkg/resource-widget/Widget.tsx:159
 msgid "Create empty layer"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:172
+#: nodepkg/resource-widget/Widget.tsx:161
 msgid "Keep existing layer features"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:173
+#: nodepkg/resource-widget/Widget.tsx:162
 msgid "Change geometry type"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:174
+#: nodepkg/resource-widget/Widget.tsx:163
 msgid "Replace layer features from file"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:175
+#: nodepkg/resource-widget/Widget.tsx:164
 msgid "Delete all features from layer"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:191
+#: nodepkg/resource-widget/Widget.tsx:180
 msgid "current"
 msgstr ""
 
-#: nodepkg/resource-widget/Widget.tsx:294
+#: nodepkg/resource-widget/Widget.tsx:272
 msgid "Source layer"
 msgstr "Capa de origen"
 
-#: nodepkg/resource-widget/Widget.tsx:331
+#: nodepkg/resource-widget/Widget.tsx:309
 msgid "Advanced options"
 msgstr "Opciones avanzadas"
 
-#: ogrloader.py:306
+#: ogrloader.py:311
 msgid "Could not determine a geometry type."
 msgstr "No se pudo determinar un tipo de geometría."
 
-#: ogrloader.py:308
+#: ogrloader.py:313
 msgid "Source layer contains no features satisfying the conditions."
 msgstr "La capa de origen no contiene entidades que cumplan las condiciones."
 
-#: ogrloader.py:326
+#: ogrloader.py:331
 msgid "Field '%s' is out of int32 range."
 msgstr "El campo '%s' está fuera del rango int32."
 
-#: ogrloader.py:334
+#: ogrloader.py:339
 msgid "Field '%s' contains non-unique or empty values."
 msgstr "El campo '%s' contiene valores no únicos o vacíos."
 
-#: ogrloader.py:351
+#: ogrloader.py:356
 msgid "Parameter 'fid_field' is missing."
 msgstr "Falta el parámetro 'fid_field'."
 
-#: ogrloader.py:354
+#: ogrloader.py:359
 msgid "Fields %s not found."
 msgstr "No se encontraron los campos %s."
 
-#: ogrloader.py:356
+#: ogrloader.py:361
 msgid "None of fields %s are integer."
 msgstr "Ninguno de los campos %s es entero."
 
-#: ogrloader.py:370
+#: ogrloader.py:375
 msgid "Field '%s(?)' encoding is broken."
 msgstr "La codificación de caracteres del campo '%s(?)' está mal."
 
-#: ogrloader.py:377
-msgid "Field name is forbidden: '%s'. Please remove or rename it."
-msgstr "El nombre del campo está prohibido: '%s'. Elimínelo o cámbiele el nombre."
-
-#: ogrloader.py:395
+#: ogrloader.py:390
 msgid "Unsupported field type: %r."
 msgstr "Tipo de campo no admitido: %r."
 
-#: ogrloader.py:420
+#: ogrloader.py:415
 msgid ""
 "The source layer has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
 
-#: ogrloader.py:503
+#: ogrloader.py:498
 msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
@@ -263,52 +259,52 @@ msgstr ""
 "Objeto geográfico #%d tiene una geometría que no se puede reproyectar al "
 "sistema de coordenadas de destino"
 
-#: ogrloader.py:549
+#: ogrloader.py:544
 msgid "Vector layer cannot be written due to errors."
 msgstr "La capa vectorial no se puede guardar debido a errores."
 
-#: ogrloader.py:575
+#: ogrloader.py:570
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
 msgstr "El objeto geográfico (sec. #%d) no tiene el campo FID '%s'."
 
-#: ogrloader.py:579
+#: ogrloader.py:574
 msgid "Feature (seq. #%d) FID field '%s' is null."
 msgstr "El campo FID '%s' del objeto geográfico (sec. #%d) es nulo."
 
-#: ogrloader.py:626 ogrloader.py:665
+#: ogrloader.py:621 ogrloader.py:660
 msgid "Feature #%d has multiple geometries satisfying the conditions."
 msgstr ""
 "El objeto geográfico #%d tiene varias geometrías que satisfacen las "
 "condiciones."
 
-#: ogrloader.py:636
+#: ogrloader.py:631
 msgid "Feature #%d has unknown geometry type: %d (%s)."
 msgstr "El objeto geográfico #%d tiene un tipo de geometría desconocido: %d (%s)."
 
-#: ogrloader.py:645
+#: ogrloader.py:640
 msgid "Feature #%d has unsuitable geometry type: %d (%s)."
 msgstr "El objeto geográfico #%d tiene un tipo de geometría inadecuado: %d (%s)."
 
-#: ogrloader.py:683
+#: ogrloader.py:678
 msgid "Feature #%d has empty rings."
 msgstr ""
 
-#: ogrloader.py:694
+#: ogrloader.py:689
 msgid "Feature #%d has unclosed rings."
 msgstr "El objeto geográfico #%d tiene anillos sin cerrar."
 
-#: ogrloader.py:703
+#: ogrloader.py:698
 msgid "Feature #%d has less than 3 points in a polygon ring."
 msgstr "El objeto geográfico #%d tiene menos de 3 puntos en un anillo poligonal."
 
-#: ogrloader.py:716
+#: ogrloader.py:711
 msgid "Feature #%d contains an empty linestring."
 msgstr ""
 
-#: ogrloader.py:722
+#: ogrloader.py:717
 msgid "Feature #%d has less than 2 points in a linestring."
 msgstr "El objeto geográfico #%d tiene menos de 2 puntos en una cadena lineal."
 
-#: ogrloader.py:739
+#: ogrloader.py:734
 msgid "Feature #%d contains a broken encoding of field '%s'."
 msgstr "El objeto geográfico #%d contiene una mal codificación del campo '%s'."

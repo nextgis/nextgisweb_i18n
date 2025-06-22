@@ -1,29 +1,53 @@
-#: api.py:99 api_identify.py:27
+#: api.py:107 api_identify.py:27
 msgid "Geometry is not valid."
 msgstr "La géométrie n'est pas valide."
 
-#: api.py:347
+#: api.py:365
 msgid "Unknown spatial reference system"
 msgstr ""
 
-#: api.py:422 api_export.py:205
+#: api.py:440 api_export.py:206
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "Le paramètre 'intersects' la géométrie n'est pas valide."
 
-#: api_export.py:111
+#: api_export.py:110
 msgid "Couldn't add FID field '{}'. Such field already exists."
 msgstr ""
 
-#: api_export.py:244
+#: api_export.py:245
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
 
-#: api_export.py:258
+#: api_export.py:259
 msgid "Failed to reproject 'intersects' geometry."
 msgstr ""
 
-#: api_export.py:427
+#: api_export.py:428
 msgid "File name parameter '{}' is not valid."
+msgstr ""
+
+#: biutil.py:25
+msgid "Got an invalid BIGINT value: {}."
+msgstr ""
+
+#: biutil.py:26
+msgid "The value must be within the inclusive range of {min} to {max}."
+msgstr ""
+
+#: dtutil.py:28
+msgid "Got an invalid date-time value in the legacy format: {}."
+msgstr ""
+
+#: dtutil.py:29
+msgid "Please use dt_format=iso and ISO-8601 based format."
+msgstr ""
+
+#: dtutil.py:37
+msgid "Got an invalid date-time value in ISO-8601 format: {}."
+msgstr ""
+
+#: dtutil.py:38
+msgid "Value should be in RFC 3339 {} format without timezone and leap seconds."
 msgstr ""
 
 #: exception.py:7
@@ -50,15 +74,11 @@ msgstr ""
 msgid "Feature table"
 msgstr "Table des entités"
 
-#: model.py:174
+#: model.py:172
 msgid "Field not found (ID=%d)."
 msgstr "Champ non trouvé (ID =% d)."
 
-#: model.py:185
-msgid "Field name is forbidden: '{}'. Please remove or rename it."
-msgstr ""
-
-#: model.py:257
+#: model.py:249
 msgid "Versioning not supported"
 msgstr ""
 
@@ -286,27 +306,21 @@ msgstr ""
 msgid "Extent (yMax)"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:15
+#: nodepkg/settings-widget/SettingsWidget.tsx:11 versioning/model.py:94
 msgid "Feature versioning"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:16
-msgid ""
-"Experimental feature. Some operations may not work if feature versioning is "
-"enabled."
-msgstr ""
-
-#: nodepkg/settings-widget/SettingsWidget.tsx:36
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
 msgid "Disable feature versioning?"
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:37
+#: nodepkg/settings-widget/SettingsWidget.tsx:25
 msgid ""
 "Turning off feature versioning will truncate the history and keep only the "
 "latest state."
 msgstr ""
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:62
+#: nodepkg/settings-widget/SettingsWidget.tsx:50
 msgid "Settings"
 msgstr ""
 

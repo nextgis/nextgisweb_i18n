@@ -31,6 +31,7 @@ msgid "Resource not found"
 msgstr "Ресурсът не е открит"
 
 #: exception.py:8
+#, python-format
 msgid "Resource with id = %d was not found."
 msgstr "Ресурсът с id = %d не е открит."
 
@@ -62,6 +63,7 @@ msgid "Resource display name is not unique"
 msgstr "Името на ресурса не е уникално"
 
 #: exception.py:46
+#, python-format
 msgid "Resource with same display name already exists (id = %d)."
 msgstr "Вече съществува ресурс със същото име (id = %d)."
 
@@ -82,6 +84,7 @@ msgid "Root resource could not be deleted."
 msgstr "Коренен ресурс не може да е изтрит."
 
 #: exception.py:67
+#, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Класата на ресурса '%s' е изключена."
 
@@ -90,6 +93,7 @@ msgid "Quota exceeded"
 msgstr ""
 
 #: exception.py:82
+#, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Надвишен е максимален брой ресурси. Пределът е %s."
 
@@ -142,10 +146,12 @@ msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
 #: model.py:475
+#, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Не можете да управлявате дъщерните ресурси с id = %d."
 
 #: model.py:487
+#, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "Ресурсът не може да е дъщерен на този с id = %d."
 
@@ -538,12 +544,12 @@ msgstr "Търсене на ресурси"
 #: scope.py:14
 msgctxt "permission"
 msgid "Read"
-msgstr "Четене"
+msgstr ""
 
 #: scope.py:15
 msgctxt "permission"
 msgid "Create"
-msgstr "Създаване"
+msgstr ""
 
 #: scope.py:16
 msgctxt "permission"
@@ -553,7 +559,7 @@ msgstr ""
 #: scope.py:17
 msgctxt "permission"
 msgid "Delete"
-msgstr "Премахване"
+msgstr ""
 
 #: scope.py:18
 msgctxt "permission"
@@ -629,6 +635,7 @@ msgid "Resource export"
 msgstr "Експорт на ресурса"
 
 #: view.py:386
+#, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Недостатъчни права '%s' в мащаба '%s' за ресурса id = %d."
 

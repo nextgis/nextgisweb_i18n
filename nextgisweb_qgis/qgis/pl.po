@@ -95,6 +95,8 @@ msgid ""
 "Layer created. A style is required to add the layer to a web map. You can "
 "generate a default QGIS style resource using the button."
 msgstr ""
+"Warstwa utworzona. Aby dodać warstwę do mapy internetowej, wymagany jest "
+"styl. Możesz wygenerować domyślny styl QGIS za pomocą przycisku."
 
 #: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:13
 #, jsrealm

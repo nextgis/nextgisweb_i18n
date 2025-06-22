@@ -16,7 +16,7 @@ msgstr "Główna mapa internetowa"
 #: favorite.py:6 view.py:194
 #, server
 msgid "Display"
-msgstr "Wyświetlanie"
+msgstr "Wyświetl mapę internetową"
 
 #: favorite.py:11
 #, server
@@ -32,24 +32,24 @@ msgstr "Mapa internetowa"
 #, server
 msgctxt "permission"
 msgid "View annotations"
-msgstr "Wyświetl adnotacje"
+msgstr ""
 
 #: model.py:50
 #, server
 msgctxt "permission"
 msgid "Draw annotations"
-msgstr "Rysuj adnotacje"
+msgstr ""
 
 #: model.py:51
 #, server
 msgctxt "permission"
 msgid "Manage annotations"
-msgstr "Zarządzaj adnotacjami"
+msgstr ""
 
 #: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:204
 #, jsrealm, server
 msgid "Clone"
-msgstr "Klonuj"
+msgstr "Kopiuj mapę internetową"
 
 #: nodepkg/clone-webmap/CloneWebmap.tsx:67
 #, jsrealm
@@ -574,12 +574,12 @@ msgstr "Powiększ do obiektu"
 #: nodepkg/panel/identify/component/RasterInfoSection.tsx:14
 #, jsrealm
 msgid "Band {}"
-msgstr ""
+msgstr "Pasmo {}"
 
 #: nodepkg/panel/identify/component/RasterInfoSection.tsx:27
 #, jsrealm
 msgid "Raster"
-msgstr ""
+msgstr "Raster"
 
 #: nodepkg/panel/identify/fields.tsx:115
 #, jsrealm
@@ -731,7 +731,7 @@ msgstr "Doprecyzuj kryteria wyszukiwania. Wyświetlono pierwsze 100 wyników."
 #: nodepkg/panel/search/plugin.tsx:11
 #, jsrealm
 msgid "Search"
-msgstr "Wyszukiwanie"
+msgstr "Wyszukaj mapę internetową"
 
 #: nodepkg/panel/share/SharePanel.tsx:44
 #, jsrealm
@@ -873,7 +873,7 @@ msgstr "Auto"
 #: nodepkg/settings-widget/SettingsWidget.tsx:24
 #, jsrealm
 msgid "Constraining extent"
-msgstr "Ograniczający zasięg"
+msgstr "Zasięg końcowy"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:28
 #, jsrealm
@@ -1329,7 +1329,7 @@ msgstr ""
 #: view.py:107
 #, server
 msgid "Clone web map"
-msgstr "Sklonuj mapę internetową"
+msgstr "Kopiuj mapę internetową"
 
 #: view.py:120
 #, server

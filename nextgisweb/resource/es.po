@@ -31,6 +31,7 @@ msgid "Resource not found"
 msgstr "Recurso no encontrado"
 
 #: exception.py:8
+#, python-format
 msgid "Resource with id = %d was not found."
 msgstr "No se encontró el recurso con id = %d."
 
@@ -62,6 +63,7 @@ msgid "Resource display name is not unique"
 msgstr "El nombre para mostrar del recurso no es único"
 
 #: exception.py:46
+#, python-format
 msgid "Resource with same display name already exists (id = %d)."
 msgstr "El recurso con el mismo nombre para mostrar ya existe (id = %d)."
 
@@ -83,6 +85,7 @@ msgid "Root resource could not be deleted."
 msgstr "No se pudo eliminar el recurso raíz."
 
 #: exception.py:67
+#, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Clase de recurso '%s' deshabilitada."
 
@@ -91,6 +94,7 @@ msgid "Quota exceeded"
 msgstr ""
 
 #: exception.py:82
+#, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Se superó el número máximo de recursos. El límite es %s."
 
@@ -145,10 +149,12 @@ msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
 #: model.py:475
+#, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "No se le permite administrar los hijos del recurso con id = %d."
 
 #: model.py:487
+#, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "El recurso no puede ser un hijo del recurso con id = %d."
 
@@ -543,12 +549,12 @@ msgstr "Buscar recursos"
 #: scope.py:14
 msgctxt "permission"
 msgid "Read"
-msgstr "Leer"
+msgstr ""
 
 #: scope.py:15
 msgctxt "permission"
 msgid "Create"
-msgstr "Crear"
+msgstr ""
 
 #: scope.py:16
 msgctxt "permission"
@@ -558,7 +564,7 @@ msgstr ""
 #: scope.py:17
 msgctxt "permission"
 msgid "Delete"
-msgstr "Eliminar"
+msgstr ""
 
 #: scope.py:18
 msgctxt "permission"
@@ -634,6 +640,7 @@ msgid "Resource export"
 msgstr "Exportar recurso"
 
 #: view.py:386
+#, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Permiso '%s' insuficiente en el alcance '%s' del recurso con id = %d."
 

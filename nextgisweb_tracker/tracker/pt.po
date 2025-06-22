@@ -1,9 +1,9 @@
-#: api/device_types.py:16
+#: api/device_types.py:26
 msgid "NextGIS Tracker Hub is unavailable. Try later, please."
 msgstr "O NextGIS Tracker Hub não está disponível. Tente mais tarde, por favor."
 
-#: component.py:15 nodepkg/reports/Reports.tsx:239
-#: nodepkg/trackers-panel/plugin.tsx:12 view/__init__.py:52
+#: component.py:15 nodepkg/reports/Reports.tsx:312
+#: nodepkg/trackers-panel/plugin.tsx:10 plugin.py:29 view/__init__.py:52
 msgid "Trackers"
 msgstr "Trackers"
 
@@ -25,76 +25,146 @@ msgid ""
 "created."
 msgstr ""
 
-#: nodepkg/gpx-button/GpxButton.tsx:50
+#: nodepkg/gpx-button/GpxButton.tsx:63
 msgid "Download GPX file"
 msgstr "Descarregar arquivo GPX"
 
-#: nodepkg/reports/Reports.tsx:53 template/_consumption_fuel.mako:24
-#: template/_mileage.mako:18
+#: nodepkg/reports/Reports.tsx:98
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:57
+#: nodepkg/reports/report-type/MileageReport.tsx:44
 msgid "Mileage"
 msgstr "Quilometragem"
 
-#: nodepkg/reports/Reports.tsx:54
+#: nodepkg/reports/Reports.tsx:99
 msgid "Top speed"
 msgstr "Velocidade máxima"
 
-#: nodepkg/reports/Reports.tsx:55
+#: nodepkg/reports/Reports.tsx:100
 msgid "Average speed"
 msgstr "Velocidade média"
 
-#: nodepkg/reports/Reports.tsx:56
+#: nodepkg/reports/Reports.tsx:101
 msgid "Fuel consumed"
 msgstr ""
 
-#: nodepkg/reports/Reports.tsx:57 nodepkg/trackers-panel/TrackersPanel.tsx:60
+#: nodepkg/reports/Reports.tsx:102 nodepkg/trackers-panel/TrackersPanel.tsx:61
 msgid "Stops"
 msgstr "Paragens"
 
-#: nodepkg/reports/Reports.tsx:58
+#: nodepkg/reports/Reports.tsx:103
 msgid "GPX file"
 msgstr "Arquivo GPX"
 
-#: nodepkg/reports/Reports.tsx:62 template/_avg_speed.mako:13
-#: template/_consumption_fuel.mako:19 template/_mileage.mako:13
-#: template/_top_speed.mako:13
+#: nodepkg/reports/Reports.tsx:107
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:38
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:51
+#: nodepkg/reports/report-type/MileageReport.tsx:38
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:38
 msgid "Days"
 msgstr "Dias"
 
-#: nodepkg/reports/Reports.tsx:63 template/_avg_speed.mako:15
-#: template/_consumption_fuel.mako:21 template/_mileage.mako:15
-#: template/_top_speed.mako:15
+#: nodepkg/reports/Reports.tsx:108
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:39
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:52
+#: nodepkg/reports/report-type/MileageReport.tsx:39
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:39
 msgid "Hours"
 msgstr "Horas"
 
-#: nodepkg/reports/Reports.tsx:68 nodepkg/reports/Reports.tsx:69
-#: nodepkg/trackers-panel/TrackersPanel.tsx:128
-#: nodepkg/trackers-panel/TrackersPanel.tsx:129
+#: nodepkg/reports/Reports.tsx:113 nodepkg/reports/Reports.tsx:114
+#: nodepkg/trackers-panel/TrackersPanel.tsx:138
+#: nodepkg/trackers-panel/TrackersPanel.tsx:139
 msgid "Unknown"
 msgstr ""
 
-#: nodepkg/reports/Reports.tsx:196
+#: nodepkg/reports/Reports.tsx:266
 msgid "Result"
 msgstr ""
 
-#: nodepkg/reports/Reports.tsx:204
+#: nodepkg/reports/Reports.tsx:274
 msgid "Settings"
 msgstr ""
 
-#: nodepkg/reports/Reports.tsx:208
+#: nodepkg/reports/Reports.tsx:278
 msgid "Report type"
 msgstr "Tipo de relatório"
 
-#: nodepkg/reports/Reports.tsx:218 nodepkg/trackers-panel/TrackersPanel.tsx:351
+#: nodepkg/reports/Reports.tsx:288 nodepkg/trackers-panel/TrackersPanel.tsx:402
 msgid "Time range"
 msgstr "Intervalo de tempo"
 
-#: nodepkg/reports/Reports.tsx:230
+#: nodepkg/reports/Reports.tsx:303
 msgid "Group by"
 msgstr "Agrupar por"
 
-#: nodepkg/reports/Reports.tsx:247
+#: nodepkg/reports/Reports.tsx:320
 msgid "Create report"
 msgstr ""
+
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:22
+msgid "Avg speed report"
+msgstr "Relatório de velocidade média"
+
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:27
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:40
+#: nodepkg/reports/report-type/MileageReport.tsx:27
+#: nodepkg/reports/report-type/StopsReport.tsx:46
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:27
+msgid "No data for selected period"
+msgstr "Sem dados para o período selecionado"
+
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:44
+msgid "Avg speed"
+msgstr "Velocidade média"
+
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:27
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:62
+msgid "Fuel consumption"
+msgstr "Consumo de combustível"
+
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:33
+msgid "Fuel consumption, liters per 100 km"
+msgstr "Consumo de combustível, litros por 100 km"
+
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:37
+msgid "Fuel consumption is not defined"
+msgstr "O consumo de combustível não está definido"
+
+#: nodepkg/reports/report-type/MileageReport.tsx:22
+msgid "Mileage report"
+msgstr "Relatório de quilometragem"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:41
+msgid "Stops report"
+msgstr "Relatório de paragens"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:60
+msgid "Start stop"
+msgstr "Paragem inicial"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:65
+msgid "End stop"
+msgstr "Paragem final"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:70 nodepkg/webmap/StopsLayer.ts:23
+msgid "Duration"
+msgstr "Duração"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:81
+msgid "Count of stops"
+msgstr "Contagem de paragens"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:85
+msgid "Total duration"
+msgstr "Duração total"
+
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:22
+msgid "Top speed report"
+msgstr "Relatório de velocidade máxima"
+
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:44
+msgid "Max speed"
+msgstr "velocidade máxima"
 
 #: nodepkg/tracker-activity/ChartHelper.ts:78
 msgid "No data available"
@@ -156,74 +226,106 @@ msgstr "Fuso horário"
 msgid "Save"
 msgstr "Guardar"
 
-#: nodepkg/tracker-widget/TrackerWidget.tsx:15
+#: nodepkg/tracker-widget/TrackerWidget.tsx:12
 msgid "Values cannot be changed after the tracker is created."
 msgstr ""
 
-#: nodepkg/tracker-widget/TrackerWidget.tsx:31
+#: nodepkg/tracker-widget/TrackerWidget.tsx:29
 msgid "Unique id (IMEI by default)"
 msgstr "ID único (IMEI por omissão)"
 
-#: nodepkg/tracker-widget/TrackerWidget.tsx:38
+#: nodepkg/tracker-widget/TrackerWidget.tsx:36
 msgid "Description"
 msgstr "Descrição"
 
-#: nodepkg/tracker-widget/TrackerWidget.tsx:43
+#: nodepkg/tracker-widget/TrackerWidget.tsx:41
 msgid "Device type"
 msgstr "Tipo de dispositivo"
 
-#: nodepkg/tracker-widget/TrackerWidget.tsx:54
+#: nodepkg/tracker-widget/TrackerWidget.tsx:52
 msgid "Fuel consumption, L/100km (for reports)"
 msgstr ""
 
-#: nodepkg/tracker-widget/TrackerWidget.tsx:64
+#: nodepkg/tracker-widget/TrackerWidget.tsx:63
 msgid "Tracker detail"
 msgstr "Detalhes do Tracker"
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:47
+#: nodepkg/trackers-panel/TrackersPanel.tsx:48
 msgid "Last known point"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:52
+#: nodepkg/trackers-panel/TrackersPanel.tsx:53
 msgid "GPS tracks"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:57
+#: nodepkg/trackers-panel/TrackersPanel.tsx:58
 msgid "Track points"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:75
+#: nodepkg/trackers-panel/TrackersPanel.tsx:76
 msgid "Zoom to layer"
 msgstr "Zoom à camada"
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:82
+#: nodepkg/trackers-panel/TrackersPanel.tsx:83
 msgid "Zoom to last point"
 msgstr "Zoom ao o último ponto"
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:89
+#: nodepkg/trackers-panel/TrackersPanel.tsx:90
 msgid "Set filter to last day with data"
 msgstr "Definir filtro para o último dia com dados"
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:95
+#: nodepkg/trackers-panel/TrackersPanel.tsx:96
 msgid "Show last activity"
 msgstr "Mostrar última atividade"
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:239
+#: nodepkg/trackers-panel/TrackersPanel.tsx:250
 msgid "Sort by"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:240 nodepkg/webmap/utils.ts:61
+#: nodepkg/trackers-panel/TrackersPanel.tsx:251 nodepkg/webmap/utils.ts:61
 #: nodepkg/webmap/utils.ts:67
 msgid "Time"
 msgstr "Hora"
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:241
+#: nodepkg/trackers-panel/TrackersPanel.tsx:252
 msgid "Name"
 msgstr ""
 
-#: nodepkg/trackers-panel/TrackersPanel.tsx:374
+#: nodepkg/trackers-panel/TrackersPanel.tsx:428
 msgid "Reports"
 msgstr "Relatórios"
+
+#: nodepkg/utils/getRangePresets.ts:19
+msgid "Today"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:23
+msgid "Yesterday"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:31
+msgid "Last 24 hours"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:35
+msgid "Last 3 days"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:39
+msgid "Last week"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:43
+msgid "Last month"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:47
+msgid "This month"
+msgstr ""
+
+#: nodepkg/utils/getRangePresets.ts:51
+msgid "Previous month"
+msgstr ""
 
 #: nodepkg/webmap/StopsLayer.ts:21
 msgid "Start"
@@ -232,10 +334,6 @@ msgstr ""
 #: nodepkg/webmap/StopsLayer.ts:22
 msgid "End"
 msgstr ""
-
-#: nodepkg/webmap/StopsLayer.ts:23 template/_stops.mako:17
-msgid "Duration"
-msgstr "Duração"
 
 #: nodepkg/webmap/utils.ts:55 nodepkg/webmap/utils.ts:66
 msgid "Date"
@@ -261,77 +359,26 @@ msgstr ""
 msgid "HDOP"
 msgstr ""
 
-#: pyramid_tracker/register.py:24 pyramid_tracker/register.py:49
+#: pyramid_tracker/register.py:24 pyramid_tracker/register.py:51
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
 msgstr ""
 "O dispositivo não está registrado no NextGIS Tracker System. Tente mais "
 "tarde, por favor."
 
-#: pyramid_tracker/register.py:29 pyramid_tracker/register.py:52
+#: pyramid_tracker/register.py:29
+msgid ""
+"A tracker with this unique identifier is already registered in the Tracking "
+"system."
+msgstr ""
+
+#: pyramid_tracker/register.py:31 pyramid_tracker/register.py:54
 msgid "NextGIS Tracker System is unavailable. Try later, please."
 msgstr "O NextGIS Tracker System não está disponível. Tente mais tarde, por favor."
-
-#: template/_avg_speed.mako:2
-msgid "Avg speed report"
-msgstr "Relatório de velocidade média"
-
-#: template/_avg_speed.mako:6 template/_consumption_fuel.mako:12
-#: template/_mileage.mako:6 template/_stops.mako:8 template/_top_speed.mako:6
-msgid "No data for selected period"
-msgstr "Sem dados para o período selecionado"
-
-#: template/_avg_speed.mako:18
-msgid "Avg speed"
-msgstr "Velocidade média"
-
-#: template/_consumption_fuel.mako:2 template/_consumption_fuel.mako:25
-msgid "Fuel consumption"
-msgstr "Consumo de combustível"
-
-#: template/_consumption_fuel.mako:6
-msgid "Fuel consumption, liters per 100 km"
-msgstr "Consumo de combustível, litros por 100 km"
-
-#: template/_consumption_fuel.mako:8
-msgid "Fuel consumption is not defined"
-msgstr "O consumo de combustível não está definido"
-
-#: template/_mileage.mako:2
-msgid "Mileage report"
-msgstr "Relatório de quilometragem"
-
-#: template/_stops.mako:4
-msgid "Stops report"
-msgstr "Relatório de paragens"
-
-#: template/_stops.mako:15
-msgid "Start stop"
-msgstr "Paragem inicial"
-
-#: template/_stops.mako:16
-msgid "End stop"
-msgstr "Paragem final"
-
-#: template/_stops.mako:31
-msgid "Count of stops"
-msgstr "Contagem de paragens"
-
-#: template/_stops.mako:32
-msgid "Total duration"
-msgstr "Duração total"
-
-#: template/_top_speed.mako:2
-msgid "Top speed report"
-msgstr "Relatório de velocidade máxima"
-
-#: template/_top_speed.mako:18
-msgid "Max speed"
-msgstr "velocidade máxima"
 
 #: view/__init__.py:22
 msgid "Trackers settings"
 msgstr "Configurações dos trackers"
 
-#: view/reports.py:20
+#: view/reports.py:19
 msgid "Trackers reports"
 msgstr ""

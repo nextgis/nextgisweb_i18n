@@ -1,144 +1,133 @@
-#: api.py:122 api.py:143
-#, server
+#: api.py:124 api.py:145
 msgid "Requested raster is not COG."
 msgstr "Żądany raster nie jest w formacie COG."
 
-#: api.py:147
-#, server
+#: api.py:149
 msgid "Range header is missed or invalid."
 msgstr "Nagłówek zakresu jest nieobecny lub nieprawidłowy."
 
-#: api.py:151
-#, python-format, server
+#: api.py:153
+#, python-format
 msgid "Range %s can not be read."
 msgstr "Zakres %s nie może być odczytany."
 
 #: kind_of_data.py:8
-#, server
 msgid "Rasters and pyramids"
 msgstr "Rastry i piramidy"
 
 #: model.py:71 nodepkg/editor-widget/EditorWidget.tsx:46 view.py:61
-#, jsrealm, server
 msgid "Raster layer"
 msgstr "Warstwa rastra"
 
-#: model.py:111
-#, server
+#: model.py:113
 msgid "No supported files found in the archive."
-msgstr ""
+msgstr "Nie znaleziono obsługiwanych plików w archiwum."
 
-#: model.py:114
-#, server
+#: model.py:116
 msgid "The archive contains multiple supported files: {supported_zip_items}."
-msgstr ""
+msgstr "Archiwum zawiera wiele obsługiwanych plików: {supported_zip_items}."
 
-#: model.py:130
-#, server
+#: model.py:132
 msgid "GDAL library was unable to open the file."
 msgstr "Biblioteka GDAL nie mogła otworzyć pliku."
 
-#: model.py:137
-#, server
+#: model.py:139
 msgid "Raster files without projection info are not supported."
 msgstr "Pliki rastrowe bez informacji o projekcji nie są obsługiwane."
 
-#: model.py:157
-#, server
+#: model.py:159
 msgid "Mixed band data types are not supported."
 msgstr "Mieszane typy danych pasm nie są obsługiwane."
 
-#: model.py:186
-#, server
+#: model.py:202
 msgid "GDAL was uanble to parse the raster coordinate system."
 msgstr "GDAL nie mógł odczytać układu współrzędnych rastra."
 
-#: model.py:191
-#, server
+#: model.py:207
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr "Raster źródłowy ma lokalny układ współrzędnych i nie można go przekształcić."
 
-#: model.py:209
-#, server
+#: model.py:225
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr "Nie udało się przekształcić rastra do docelowego układu współrzędnych."
 
-#: model.py:214
-#, python-format, server
+#: model.py:230
+#, python-format
 msgid "GDAL error message: %s"
 msgstr "Komunikat błędu GDAL: %s"
 
-#: model.py:230
-#, server
+#: model.py:245
 msgid ""
 "The uncompressed raster size ({size}) exceeds the limit ({limit}) by {delta}."
 " Reduce raster size to fit the limit."
 msgstr ""
+"Nieskompresowany rozmiar rastra ({size}) przekracza limit ({limit}) o "
+"{delta}. Zmniejsz rozmiar rastra, aby zmieścić się w limicie."
 
-#: model.py:342
-#, server
-msgid "Data type"
-msgstr "Typ danych"
+#: model.py:380
+msgid "{n} band with {t} data type"
+msgid_plural "{n} bands with {t} data type"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
-#: model.py:343
-#, server
-msgid "COG"
-msgstr "COG"
+#: model.py:387
+msgid "Band summary"
+msgstr ""
+
+#: model.py:388
+msgid "Pixel dimensions"
+msgstr ""
+
+#: model.py:389 nodepkg/editor-widget/EditorWidget.tsx:37
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr "Cloud Optimized GeoTIFF (COG)"
+
+#: model.py:390
+msgid "Persistent auxiliary metadata (PAM)"
+msgstr ""
 
 #: nodepkg/editor-widget/EditorWidget.tsx:13
-#, jsrealm
 msgid "Select a dataset"
 msgstr "Wybierz zestaw danych"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:14
-#, jsrealm
-msgid "Dataset should be in GeoTIFF or ZIP format."
+msgid ""
+"Supported formats: GeoTIFF, JPEG, and PNG with GDAL PAM metadata (.aux.xml "
+"files). Multi-file datasets should be uploaded as ZIP archives."
 msgstr ""
 
-#: nodepkg/editor-widget/EditorWidget.tsx:37
-#, jsrealm
-msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr "Cloud Optimized GeoTIFF (COG)"
-
 #: nodepkg/export-form/ExportForm.tsx:58
-#, jsrealm
 msgid "Band"
 msgstr "Pasmo"
 
 #: nodepkg/export-form/ExportForm.tsx:82
-#, jsrealm
 msgid "Format"
 msgstr "Format"
 
 #: nodepkg/export-form/ExportForm.tsx:94
-#, jsrealm
 msgid "SRS"
 msgstr "SRS"
 
 #: nodepkg/export-form/ExportForm.tsx:99
-#, jsrealm
 msgid "Bands"
 msgstr "Pasma"
 
 #: nodepkg/export-form/ExportForm.tsx:132
-#, jsrealm
 msgid "Save"
 msgstr "Zapisz"
 
 #: view.py:26 view.py:66
-#, server
 msgid "Save as"
 msgstr "Zapisz jako"
 
 #: view.py:33
-#, server
 msgid "Cloud Optimized GeoTIFF"
 msgstr "Cloud Optimized GeoTIFF"
 
 #: view.py:34
-#, server
 msgid ""
 "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
 "hosted on a HTTP file server, with an internal organization that enables more"
@@ -151,6 +140,5 @@ msgstr ""
 "danych, za pomocą zapytań HTTP GET."
 
 #: view.py:72
-#, server
 msgid "Download"
 msgstr "Pobierz"

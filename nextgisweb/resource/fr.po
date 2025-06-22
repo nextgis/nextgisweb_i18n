@@ -31,6 +31,7 @@ msgid "Resource not found"
 msgstr "Ressource introuvable"
 
 #: exception.py:8
+#, python-format
 msgid "Resource with id = %d was not found."
 msgstr "La ressource avec id = %d n'a pas été trouvée."
 
@@ -62,6 +63,7 @@ msgid "Resource display name is not unique"
 msgstr "Le nom d'affichage de la ressource n'est pas unique"
 
 #: exception.py:46
+#, python-format
 msgid "Resource with same display name already exists (id = %d)."
 msgstr "La ressource avec le même nom d'affichage existe déjà (id = %d)."
 
@@ -83,6 +85,7 @@ msgid "Root resource could not be deleted."
 msgstr "La ressource racine n'a pas pu être supprimée."
 
 #: exception.py:67
+#, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Classe de ressources '%s' désactivée."
 
@@ -91,6 +94,7 @@ msgid "Quota exceeded"
 msgstr ""
 
 #: exception.py:82
+#, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Nombre maximal de ressources dépassé. La limite est de %s."
 
@@ -143,10 +147,12 @@ msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
 #: model.py:475
+#, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Vous n'êtes pas autorisé à gérer les enfants d'une ressource avec id =% d."
 
 #: model.py:487
+#, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "Ressource ne peut pas être un enfant de ressource id =%d."
 
@@ -541,12 +547,12 @@ msgstr "Rechercher des ressources"
 #: scope.py:14
 msgctxt "permission"
 msgid "Read"
-msgstr "Lire"
+msgstr ""
 
 #: scope.py:15
 msgctxt "permission"
 msgid "Create"
-msgstr "Créer"
+msgstr ""
 
 #: scope.py:16
 msgctxt "permission"
@@ -556,7 +562,7 @@ msgstr ""
 #: scope.py:17
 msgctxt "permission"
 msgid "Delete"
-msgstr "Effacer"
+msgstr ""
 
 #: scope.py:18
 msgctxt "permission"
@@ -632,6 +638,7 @@ msgid "Resource export"
 msgstr "Exportation de ressources"
 
 #: view.py:386
+#, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr ""
 "La permission '%s' insuffisante dans la portée '%s' sur la ressource avec id "

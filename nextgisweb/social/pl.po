@@ -20,4 +20,4 @@ msgstr "Opis podglądu"
 #: nodepkg/editor-widget/EditorWidget.tsx:62
 #, jsrealm
 msgid "Social"
-msgstr "Społeczny"
+msgstr "Media społecznościowe"

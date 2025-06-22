@@ -58,33 +58,33 @@ msgstr ""
 msgid "The Geoservices API: Plot not found"
 msgstr ""
 
-#: api/geoservices.py:52
+#: api/geoservices.py:50
 msgid "'Cadaster services' module is disabled!"
 msgstr ""
 
-#: api/geoservices.py:62
+#: api/geoservices.py:60
 msgid ""
 "Geoservices API key in cadaster services module not set. Set the Geoservices "
 "API key in the `Cadaster services` section on the Control panel."
 msgstr ""
 
-#: api/geoservices.py:173
+#: api/geoservices.py:202
 msgid "Cadaster plot with ID '%(id)s' not found!"
 msgstr "Кадастрален парцел с ID '%(id)s' не е открит!"
 
-#: nodepkg/cadaster-settings/CadasterSettings.js:45
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:43
 msgid "Settings saved"
 msgstr "Настройките са запазени"
 
-#: nodepkg/cadaster-settings/CadasterSettings.js:65
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:66
 msgid "API key"
 msgstr "API ключ"
 
-#: nodepkg/cadaster-settings/CadasterSettings.js:82
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:83
 msgid "Enable"
 msgstr "Включи"
 
-#: nodepkg/cadaster-settings/CadasterSettings.js:103
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:100
 msgid "Save"
 msgstr "Запази"
 
@@ -112,250 +112,85 @@ msgstr ""
 msgid "Identify special zones"
 msgstr ""
 
-#: nodepkg/webmap/controls/CadasterPlots/CadasterPlotDetail.tsx:75
+#: nodepkg/webmap/controls/CadasterPlots/CadasterPlotDetail.tsx:81
 msgid "Back to list"
 msgstr ""
 
-#: nodepkg/webmap/controls/PlotTable.tsx:25
+#: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:22
 msgid "Attribute"
 msgstr ""
 
-#: nodepkg/webmap/controls/PlotTable.tsx:30
+#: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:27
 msgid "Value"
 msgstr ""
 
-#: nodepkg/webmap/panel/CadasterPanel.tsx:37
+#: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:37
+msgid "More"
+msgstr ""
+
+#: nodepkg/webmap/panel/CadasterPanel.tsx:32
 msgid "To get cadastral information, click on the map with the left mouse button"
 msgstr ""
 
-#: nodepkg/webmap/panel/CadasterPanel.tsx:38
+#: nodepkg/webmap/panel/CadasterPanel.tsx:33
 msgid ""
 "To search for cadastral plots, enter the cadastral number or select the "
 "identify tool to search on the map"
 msgstr ""
 
-#: nodepkg/webmap/panel/CadasterPanel.tsx:41
+#: nodepkg/webmap/panel/CadasterPanel.tsx:36
 msgid "Error getting cadastral information"
 msgstr ""
 
-#: nodepkg/webmap/panel/CadasterPanel.tsx:42
+#: nodepkg/webmap/panel/CadasterPanel.tsx:37
 msgid "No valid cadastral number"
 msgstr ""
 
-#: nodepkg/webmap/panel/plugin.tsx:12 view/settings.py:24
+#: nodepkg/webmap/panel/plugin.tsx:12 plugin.py:20 view/settings.py:24
 msgid "Cadaster services"
 msgstr "Кадастър"
 
-#: nodepkg/webmap/plot-attributes.ts:4
-msgid "Cadastral number"
-msgstr "Номер в кадастъра"
-
-#: nodepkg/webmap/plot-attributes.ts:5 nodepkg/webmap/plot-attributes.ts:55
-msgid "Name"
-msgstr "Име"
-
-#: nodepkg/webmap/plot-attributes.ts:6
-msgid "Type"
-msgstr "Тип"
-
-#: nodepkg/webmap/plot-attributes.ts:7
-msgid "Identifier"
-msgstr "Идентификатор"
-
-#: nodepkg/webmap/plot-attributes.ts:8
-msgid "Address"
-msgstr "Адрес"
-
-#: nodepkg/webmap/plot-attributes.ts:9 nodepkg/webmap/plot-attributes.ts:30
-msgid "Publication date"
-msgstr "Дата на публикуване"
-
-#: nodepkg/webmap/plot-attributes.ts:10
-msgid "Updated"
-msgstr "Актуализиран"
-
-#: nodepkg/webmap/plot-attributes.ts:11 nodepkg/webmap/plot-attributes.ts:16
-#: nodepkg/webmap/plot-attributes.ts:32
-msgid "District"
-msgstr "Квартал"
-
-#: nodepkg/webmap/plot-attributes.ts:12
-msgid "Change date"
-msgstr "Промени дата"
-
-#: nodepkg/webmap/plot-attributes.ts:13
-msgid "Local identifier"
-msgstr "Местен идентификатор"
-
-#: nodepkg/webmap/plot-attributes.ts:14
-msgid "County cadastral number"
-msgstr "Кадастрален код на населено място"
-
-#: nodepkg/webmap/plot-attributes.ts:15
-msgid "Annotation text"
-msgstr "Текст на анотацията"
-
-#: nodepkg/webmap/plot-attributes.ts:17
-msgid "District cadastral number"
-msgstr "Номер на кадастрален район"
-
-#: nodepkg/webmap/plot-attributes.ts:18
-msgid "Date of creation"
-msgstr "Дата на създаване"
-
-#: nodepkg/webmap/plot-attributes.ts:19
-msgid "Floors"
-msgstr "Етажи"
-
-#: nodepkg/webmap/plot-attributes.ts:20
-msgid "OX type"
-msgstr "Тип обект на капитално строителство"
-
-#: nodepkg/webmap/plot-attributes.ts:21
-msgid "Quarterly cadastral number"
-msgstr "Кадастрален код на квартала"
-
-#: nodepkg/webmap/plot-attributes.ts:22
-msgid "Date of value setting"
-msgstr "Стойността определена на"
-
-#: nodepkg/webmap/plot-attributes.ts:23 nodepkg/webmap/plot-attributes.ts:34
-msgid "Year of Construction"
-msgstr "Изграден"
-
-#: nodepkg/webmap/plot-attributes.ts:24
-msgid "Year of Commissioning"
-msgstr "Въведен в експлоатация"
-
-#: nodepkg/webmap/plot-attributes.ts:25 nodepkg/webmap/plot-attributes.ts:35
-msgid "Underground floors"
-msgstr "Подземни етажи"
-
-#: nodepkg/webmap/plot-attributes.ts:26 nodepkg/webmap/plot-attributes.ts:36
-msgid "Destination"
-msgstr "Предназначение"
-
-#: nodepkg/webmap/plot-attributes.ts:27
-msgid "Quarterly"
-msgstr "Квартал"
-
-#: nodepkg/webmap/plot-attributes.ts:28
-msgid "Cadastral value"
-msgstr "Кадастрална стойност"
-
-#: nodepkg/webmap/plot-attributes.ts:29
-msgid "Monetary unit of value"
+#: nodepkg/webmap/util.ts:53
+msgid "Unknown name"
 msgstr ""
 
-#: nodepkg/webmap/plot-attributes.ts:31
-msgid "Category type"
-msgstr "Тип на категория"
-
-#: nodepkg/webmap/plot-attributes.ts:33
-msgid "Cadastral number of the county"
-msgstr "Кадастрален код на населено място"
-
-#: nodepkg/webmap/plot-attributes.ts:37
-msgid "Date of entering information about cadastral value"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:40
-msgid "Date of cadastral value approval"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:41
-msgid "Refined area"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:42
-msgid "Dimension of the area"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:43
-msgid "Permitted use according to the document"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:44
-msgid "Permitted use"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:45 nodepkg/webmap/plot-attributes.ts:47
-msgid "Status"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:46
-msgid "Type of area"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:48
-msgid "Customer phone"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:49
-msgid "Contract number"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:50
-msgid "Information"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:51
-msgid "Type (as form)"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:52
-msgid "Description"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:53
-msgid "Registered number"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:54
-msgid "Restriction"
-msgstr ""
-
-#: nodepkg/webmap/plot-attributes.ts:56
-msgid "Registry number"
-msgstr ""
-
-#: nodepkg/webmap/utils.ts:50
+#: nodepkg/webmap/util.ts:65
 msgid "No quarters found"
 msgstr ""
 
-#: nodepkg/webmap/utils.ts:52
+#: nodepkg/webmap/util.ts:67
 msgid "No cadastral plots found"
 msgstr ""
 
-#: nodepkg/webmap/utils.ts:54
+#: nodepkg/webmap/util.ts:69
 msgid "No construction objects found"
 msgstr ""
 
-#: nodepkg/webmap/utils.ts:56
+#: nodepkg/webmap/util.ts:71
 msgid "No special zones found"
 msgstr ""
 
-#: nodepkg/webmap/utils.ts:58
+#: nodepkg/webmap/util.ts:73
 msgid "Cadastral information not found"
 msgstr ""
 
-#: nodepkg/webmap/utils.ts:65
+#: nodepkg/webmap/util.ts:80
 msgid "Searching for quarters..."
 msgstr ""
 
-#: nodepkg/webmap/utils.ts:67
+#: nodepkg/webmap/util.ts:82
 msgid "Searching for cadastral plots..."
 msgstr ""
 
-#: nodepkg/webmap/utils.ts:69
+#: nodepkg/webmap/util.ts:84
 msgid "Searching for construction objects..."
 msgstr ""
 
-#: nodepkg/webmap/utils.ts:71
+#: nodepkg/webmap/util.ts:86
 msgid "Searching for special zones..."
 msgstr ""
 
-#: nodepkg/webmap/utils.ts:73
+#: nodepkg/webmap/util.ts:88
 msgid "Getting cadastral information..."
 msgstr ""
 

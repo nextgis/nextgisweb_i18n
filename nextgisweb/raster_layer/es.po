@@ -1,12 +1,13 @@
-#: api.py:123 api.py:144
+#: api.py:124 api.py:145
 msgid "Requested raster is not COG."
 msgstr "El ráster solicitado no es COG."
 
-#: api.py:148
+#: api.py:149
 msgid "Range header is missed or invalid."
 msgstr "El encabezado 'Range' se omite o no es válido."
 
-#: api.py:152
+#: api.py:153
+#, python-format
 msgid "Range %s can not be read."
 msgstr "El rango %s no se puede leer."
 
@@ -14,35 +15,35 @@ msgstr "El rango %s no se puede leer."
 msgid "Rasters and pyramids"
 msgstr "Rásteres y pirámides"
 
-#: model.py:69 nodepkg/editor-widget/EditorWidget.tsx:47 view.py:61
+#: model.py:71 nodepkg/editor-widget/EditorWidget.tsx:46 view.py:61
 msgid "Raster layer"
 msgstr "Capa raster"
 
-#: model.py:102
+#: model.py:113
+msgid "No supported files found in the archive."
+msgstr ""
+
+#: model.py:116
+msgid "The archive contains multiple supported files: {supported_zip_items}."
+msgstr ""
+
+#: model.py:132
 msgid "GDAL library was unable to open the file."
 msgstr "La libreria GDAL no pudo abrir el archivo."
 
-#: model.py:110
-msgid ""
-"Raster has format '%(format)s', however only following formats are supported:"
-" %(all_formats)s."
-msgstr ""
-"El ráster tiene el formato '%(format)s', sin embargo, solo se admiten los "
-"siguientes formatos: %(all_formats)s."
-
-#: model.py:118
+#: model.py:139
 msgid "Raster files without projection info are not supported."
 msgstr "No se admiten archivos ráster sin información de proyección."
 
-#: model.py:138
+#: model.py:159
 msgid "Mixed band data types are not supported."
 msgstr "Los tipos de datos de canales mixtos no son compatibles."
 
-#: model.py:167
+#: model.py:202
 msgid "GDAL was uanble to parse the raster coordinate system."
 msgstr "GDAL no pudo analizar el sistema de coordenadas del ráster."
 
-#: model.py:172
+#: model.py:207
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
@@ -50,59 +51,70 @@ msgstr ""
 "El ráster de origen tiene un sistema de coordenadas local y no se puede "
 "reproyectar al sistema de coordenadas de destino."
 
-#: model.py:189
+#: model.py:225
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr "No se pudo reproyectar el ráster en el sistema de coordenadas de destino."
 
-#: model.py:194
+#: model.py:230
+#, python-format
 msgid "GDAL error message: %s"
 msgstr "Mensaje de error GDAL: %s"
 
-#: model.py:210
+#: model.py:245
 msgid ""
-"The uncompressed raster size (%(size)s) exceeds the limit (%(limit)s) by "
-"%(delta)s. Reduce raster size to fit the limit."
+"The uncompressed raster size ({size}) exceeds the limit ({limit}) by {delta}."
+" Reduce raster size to fit the limit."
 msgstr ""
-"El tamaño de ráster sin comprimir (%(size)s) supera el límite (%(limit)s) en "
-"%(delta)s. Reduzca el tamaño del ráster para ajustarse al límite."
 
-#: model.py:322
-msgid "Data type"
-msgstr "Tipo de datos"
+#: model.py:380
+msgid "{n} band with {t} data type"
+msgid_plural "{n} bands with {t} data type"
+msgstr[0] ""
+msgstr[1] ""
 
-#: model.py:323
-msgid "COG"
-msgstr "COG"
+#: model.py:387
+msgid "Band summary"
+msgstr ""
 
-#: nodepkg/editor-widget/EditorWidget.tsx:16
-msgid "Select a dataset"
-msgstr "Seleccione un set de datos"
+#: model.py:388
+msgid "Pixel dimensions"
+msgstr ""
 
-#: nodepkg/editor-widget/EditorWidget.tsx:17
-msgid "Dataset should be in GeoTIFF format."
-msgstr "El dataset debe estar en formato GeoTIFF."
-
-#: nodepkg/editor-widget/EditorWidget.tsx:39
+#: model.py:389 nodepkg/editor-widget/EditorWidget.tsx:37
 msgid "Cloud Optimized GeoTIFF (COG)"
 msgstr "Cloud Optimized GeoTIFF (COG)"
 
-#: nodepkg/export-form/ExportForm.tsx:59
+#: model.py:390
+msgid "Persistent auxiliary metadata (PAM)"
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.tsx:13
+msgid "Select a dataset"
+msgstr "Seleccione un set de datos"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:14
+msgid ""
+"Supported formats: GeoTIFF, JPEG, and PNG with GDAL PAM metadata (.aux.xml "
+"files). Multi-file datasets should be uploaded as ZIP archives."
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.tsx:58
 msgid "Band"
 msgstr "Canal"
 
-#: nodepkg/export-form/ExportForm.tsx:83
+#: nodepkg/export-form/ExportForm.tsx:82
 msgid "Format"
 msgstr "Formato"
 
-#: nodepkg/export-form/ExportForm.tsx:95
+#: nodepkg/export-form/ExportForm.tsx:94
 msgid "SRS"
 msgstr "SRS"
 
-#: nodepkg/export-form/ExportForm.tsx:100
+#: nodepkg/export-form/ExportForm.tsx:99
 msgid "Bands"
 msgstr "Canales"
 
-#: nodepkg/export-form/ExportForm.tsx:133
+#: nodepkg/export-form/ExportForm.tsx:132
 msgid "Save"
 msgstr "Guardar"
 

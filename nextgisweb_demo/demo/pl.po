@@ -1,12 +1,12 @@
 #: model.py:10
 #, server
 msgid "Demo project"
-msgstr ""
+msgstr "Projekt demo"
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:16
 #, jsrealm
 msgid "This is your demo project."
-msgstr ""
+msgstr "To twój projekt demo."
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:17
 #, jsrealm
@@ -14,18 +14,20 @@ msgid ""
 "Here you can add data, change resources, and see inside the maps and data "
 "layers."
 msgstr ""
+"Tutaj możesz dodawać dane, zmieniać zasoby oraz przeglądać mapy i warstwy "
+"danych."
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:18
 #, jsrealm
 msgid ""
 "You can even reset the whole project and revert to the original you got from "
 "us."
-msgstr ""
+msgstr "Możesz także zresetować cały projekt i przywrócić jego pierwotną wersję."
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:24
 #, jsrealm
 msgid "Confirmation required"
-msgstr ""
+msgstr "Wymagane potwierdzenie"
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:26
 #, jsrealm
@@ -33,363 +35,367 @@ msgid ""
 "Resetting the project will revert to the original version and delete any "
 "changes you may have made."
 msgstr ""
+"Resetowanie projektu przywróci jego pierwotną wersję i usunie wszystkie "
+"wprowadzone zmiany."
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:28
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:54
 #, jsrealm
 msgid "Reset"
-msgstr ""
+msgstr "Resetuj"
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:8
 #, jsrealm
 msgid "Don't know where to start?"
-msgstr ""
+msgstr "Nie wiesz, od czego zacząć?"
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:9
 #: nodepkg/selector/Selector.tsx:25
 #, jsrealm
 msgid "Test drive one of our demo projects with ready-made layers, styles, and maps."
 msgstr ""
+"Przetestuj jeden z naszych projektów demo z gotowymi warstwami, stylami i "
+"mapami."
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:10
 #: nodepkg/selector/Selector.tsx:26
 #, jsrealm
 msgid "When you clone a demo project, it is yours to edit, reset or delete."
-msgstr ""
+msgstr "Po skopiowaniu projektu demo możesz go edytować, resetować i usuwać."
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:11
 #: nodepkg/selector/Selector.tsx:27
 #, jsrealm
 msgid "You can also explore a read-only copy without cloning."
-msgstr ""
+msgstr "Możesz też przeglądać kopię podglądową bez konieczności kopiowania."
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:17
 #: project/base.py:57 view.py:25 view.py:72
 #, jsrealm, server
 msgid "Demo projects"
-msgstr ""
+msgstr "Projekty demo"
 
 #: nodepkg/selector/Selector.tsx:72
 #, jsrealm
 msgid "Go to"
-msgstr ""
+msgstr "Przejdź do"
 
 #: nodepkg/selector/Selector.tsx:77
 #, jsrealm
 msgid "Explore read-only copy"
-msgstr ""
+msgstr "Przeglądaj kopię podglądową"
 
 #: nodepkg/selector/Selector.tsx:90
 #, jsrealm
 msgid "Clone for me"
-msgstr ""
+msgstr "Skopiuj dla mnie"
 
 #: project/__init__.py:7
 #, server
 msgid "Switzerland"
-msgstr ""
+msgstr "Szwajcaria"
 
 #: project/__init__.py:19
 #, server
 msgid "Las Vegas"
-msgstr ""
+msgstr "Las Vegas"
 
 #: project/__init__.py:29
 #, server
 msgid "OpenStreetMap cartography for Boston"
-msgstr ""
+msgstr "Kartografia OpenStreetMap dla Bostonu"
 
 #: project/__init__.py:41
 #, server
 msgid "Flooding in Alicante province (2019)"
-msgstr ""
+msgstr "Powódź w prowincji Alicante (2019)"
 
 #: project/__init__.py:54
 #, server
 msgid "Ambulance availablity in Graz"
-msgstr ""
+msgstr "Dostępność karetek w Grazu"
 
 #: project/__init__.py:63
 #, server
 msgid "Monitoring of wild animals in Altai mountains"
-msgstr ""
+msgstr "Monitorowanie dzikich zwierząt w górach Ałtaj"
 
 #: project/__init__.py:73
 #, server
 msgid "Diagrams"
-msgstr ""
+msgstr "Diagramy"
 
 #: project/__init__.py:83
 #, server
 msgid "Distribution heatmap"
-msgstr ""
+msgstr "Dystrybucja map cieplnych"
 
 #: project/__init__.py:94
 #, server
 msgid "Tracking"
-msgstr ""
+msgstr "Śledzenie"
 
 #: project/ambulance/__init__.py:11
 #, server
 msgid "Name"
-msgstr ""
+msgstr "Nazwa"
 
 #: project/ambulance/__init__.py:12
 #, server
 msgid "Minutes, from"
-msgstr ""
+msgstr "Minuty, od"
 
 #: project/ambulance/__init__.py:13
 #, server
 msgid "Minutes, to"
-msgstr ""
+msgstr "Minuty, do"
 
 #: project/ambulance/__init__.py:22
 #, server
 msgid "Ambulance stations"
-msgstr ""
+msgstr "Stacje pogotowia ratunkowego"
 
 #: project/ambulance/__init__.py:29
 #, server
 msgid "Residential areas outside 15-minutes ambulance availability"
-msgstr ""
+msgstr "Obszary mieszkalne poza 15-minutowym zasięgiem karetek"
 
 #: project/ambulance/__init__.py:36
 #, server
 msgid "Graz administrative border"
-msgstr ""
+msgstr "Granica administracyjna Grazu"
 
 #: project/ambulance/__init__.py:43
 #, server
 msgid "Ambulance availability, minutes"
-msgstr ""
+msgstr "Dostępność karetek, w minutach"
 
 #: project/country/__init__.py:22
 #, server
 msgid "Major cities"
-msgstr ""
+msgstr "Główne miasta"
 
 #: project/country/__init__.py:28
 #, server
 msgid "Largest lakes"
-msgstr ""
+msgstr "Największe jeziora"
 
 #: project/country/__init__.py:34
 #, server
 msgid "Highest peaks"
-msgstr ""
+msgstr "Najwyższe szczyty"
 
 #: project/country/__init__.py:42
 #, server
 msgid "SVG markers"
-msgstr ""
+msgstr "Znaczniki SVG"
 
 #: project/diagrams/__init__.py:16
 #, server
 msgid "Bars, restaurants, fast food"
-msgstr ""
+msgstr "Bary, restauracje, fast foody"
 
 #: project/diagrams/__init__.py:22
 #, server
 msgid "St. Petersburg districts"
-msgstr ""
+msgstr "Dzielnice St. Petersburga"
 
 #: project/district/__init__.py:17
 #, server
 msgid "Places"
-msgstr ""
+msgstr "Miejsca"
 
 #: project/district/__init__.py:23
 #, server
 msgid "My country house"
-msgstr ""
+msgstr "Mój dom na wsi"
 
 #: project/district/__init__.py:29
 #, server
 msgid "Routes"
-msgstr ""
+msgstr "Trasy"
 
 #: project/district/__init__.py:35 project/osmdata/__init__.py:21
 #, server
 msgid "Buildings"
-msgstr ""
+msgstr "Budynki"
 
 #: project/flooding/__init__.py:18
 #, server
 msgid "Monitoring area"
-msgstr ""
+msgstr "Obszar monitoringu"
 
 #: project/flooding/__init__.py:24
 #, server
 msgid "Buildings in affected areas"
-msgstr ""
+msgstr "Budynki na obszarach dotkniętych"
 
 #: project/flooding/__init__.py:30
 #, server
 msgid "Most affected areas"
-msgstr ""
+msgstr "Najbardziej dotknięte obszary"
 
 #: project/flooding/__init__.py:38
 #, server
 msgid "Sentinel-2 image, 19 Aug 2019"
-msgstr ""
+msgstr "Obraz Sentinel-2, 19 sierpień 2019"
 
 #: project/flooding/__init__.py:45
 #, server
 msgid "Sentinel-2 image, 18 Sep 2019"
-msgstr ""
+msgstr "Obraz Sentinel-2, 18 wrzesień 2019"
 
 #: project/heatmap/__init__.py:16
 #, server
 msgid "Coffeehouses"
-msgstr ""
+msgstr "Kawiarnie"
 
 #: project/heatmap/__init__.py:31
 #, server
 msgid "Density of coffeehouses"
-msgstr ""
+msgstr "Gęstość kawiarni"
 
 #: project/osmdata/__init__.py:27 project/osmdata/__init__.py:190
 #, server
 msgid "Points of interest"
-msgstr ""
+msgstr "Miejsca godne uwagi"
 
 #: project/osmdata/__init__.py:30 project/osmdata/__init__.py:200
 #, server
 msgid "Transport"
-msgstr ""
+msgstr "Transport"
 
 #: project/osmdata/__init__.py:35
 #, server
 msgid "Highways"
-msgstr ""
+msgstr "Autostrady"
 
 #: project/osmdata/__init__.py:42
 #, server
 msgid "Railways"
-msgstr ""
+msgstr "Koleje"
 
 #: project/osmdata/__init__.py:49
 #, server
 msgid "Airports"
-msgstr ""
+msgstr "Lotniska"
 
 #: project/osmdata/__init__.py:56
 #, server
 msgid "Hydrography"
-msgstr ""
+msgstr "Hydrografia"
 
 #: project/osmdata/__init__.py:62
 #, server
 msgid "Lakes, large rivers, wetlands"
-msgstr ""
+msgstr "Jeziora, duże rzeki, tereny podmokłe"
 
 #: project/osmdata/__init__.py:68
 #, server
 msgid "Surfaces"
-msgstr ""
+msgstr "Powierzchnie"
 
 #: project/osmdata/__init__.py:74
 #, server
 msgid "Islands"
-msgstr ""
+msgstr "Wyspy"
 
 #: project/osmdata/__init__.py:80
 #, server
 msgid "Vegetation"
-msgstr ""
+msgstr "Roślinność"
 
 #: project/osmdata/__init__.py:86
 #, server
 msgid "Land area"
-msgstr ""
+msgstr "Obszar lądowy"
 
 #: project/osmdata/__init__.py:92
 #, server
 msgid "Water surface"
-msgstr ""
+msgstr "Powierzchnia wody"
 
 #: project/osmdata/__init__.py:109
 #, server
 msgid "Tourism"
-msgstr ""
+msgstr "Turystyka"
 
 #: project/osmdata/__init__.py:115
 #, server
 msgid "Leisure"
-msgstr ""
+msgstr "Wypoczynek"
 
 #: project/osmdata/__init__.py:121
 #, server
 msgid "Sport"
-msgstr ""
+msgstr "Sport"
 
 #: project/snowleo/__init__.py:12
 #, server
 msgid "What was the animal doing"
-msgstr ""
+msgstr "Co robiło zwierzę"
 
 #: project/snowleo/__init__.py:13
 #, server
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: project/snowleo/__init__.py:14
 #, server
 msgid "Species of animal"
-msgstr ""
+msgstr "Gatunek zwierzęcia"
 
 #: project/snowleo/__init__.py:15
 #, server
 msgid "Type of trace"
-msgstr ""
+msgstr "Typ śladu"
 
 #: project/snowleo/__init__.py:16
 #, server
 msgid "Encounters"
-msgstr ""
+msgstr "Spotkania"
 
 #: project/snowleo/__init__.py:17
 #, server
 msgid "Traces"
-msgstr ""
+msgstr "Ślady"
 
 #: project/snowleo/__init__.py:18
 #, server
 msgid "GPS tracks distance, m."
-msgstr ""
+msgstr "Długość śladów GPS, m."
 
 #: project/snowleo/__init__.py:19
 #, server
 msgid "Events per km."
-msgstr ""
+msgstr "Zdarzenia na km."
 
 #: project/snowleo/__init__.py:28
 #, server
 msgid "Inspector GPS tracks"
-msgstr ""
+msgstr "Ślady kontrolera GPS"
 
 #: project/snowleo/__init__.py:35
 #, server
 msgid "Visual encounters"
-msgstr ""
+msgstr "Wizualne zetknięcie"
 
 #: project/snowleo/__init__.py:42
 #, server
 msgid "Traces of vital activity"
-msgstr ""
+msgstr "Ślady aktywności życiowej"
 
 #: project/snowleo/__init__.py:49
 #, server
 msgid "Grid analysis of encounters and traces"
-msgstr ""
+msgstr "Analiza siatkowa spotkań i śladów"
 
 #: project/snowleo/__init__.py:69
 #, server
 msgid "Per kilometer of GPS tracks"
-msgstr ""
+msgstr "Na kilometr śladów GPS"
 
 #: project/snowleo/__init__.py:73
 #, server
 msgid "Per grid cell"
-msgstr ""
+msgstr "Na komórkę siatki"

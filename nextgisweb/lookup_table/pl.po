@@ -21,12 +21,12 @@ msgstr "Importuj"
 #: nodepkg/editor/EditorWidget.tsx:33
 #, jsrealm
 msgid "Sort order"
-msgstr ""
+msgstr "Kolejność sortowania"
 
 #: nodepkg/editor/EditorWidget.tsx:34
 #, jsrealm
 msgid "Resort rows"
-msgstr ""
+msgstr "Przefiltruj wiersze"
 
 #: nodepkg/editor/EditorWidget.tsx:35
 #, jsrealm
@@ -57,27 +57,27 @@ msgstr "Wartość"
 #: nodepkg/editor/EditorWidget.tsx:61
 #, jsrealm
 msgid "Key, ascending"
-msgstr ""
+msgstr "Klucz, rosnąco"
 
 #: nodepkg/editor/EditorWidget.tsx:62
 #, jsrealm
 msgid "Key, descending"
-msgstr ""
+msgstr "Klucz, malejąco"
 
 #: nodepkg/editor/EditorWidget.tsx:63
 #, jsrealm
 msgid "Value, ascending"
-msgstr ""
+msgstr "Wartość, rosnąco"
 
 #: nodepkg/editor/EditorWidget.tsx:64
 #, jsrealm
 msgid "Value, descending"
-msgstr ""
+msgstr "Wartość, malejąco"
 
 #: nodepkg/editor/EditorWidget.tsx:65
 #, jsrealm
 msgid "Custom"
-msgstr ""
+msgstr "Niestandardowe"
 
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:55
 #, jsrealm

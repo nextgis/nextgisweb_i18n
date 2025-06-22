@@ -264,7 +264,7 @@ msgstr "Błąd walidacji"
 #: nodepkg/composite/CompositeWidget.tsx:27
 #, jsrealm
 msgid "Create"
-msgstr "Stwórz"
+msgstr "Tworzenie"
 
 #: nodepkg/composite/CompositeWidget.tsx:28
 #, jsrealm
@@ -360,7 +360,7 @@ msgstr[2] ""
 #: nodepkg/description-editor/DescriptionEditorWidget.tsx:30
 #, jsrealm
 msgid "Description"
-msgstr "Baza danych"
+msgstr "Opis"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:13
 #, jsrealm
@@ -508,12 +508,12 @@ msgstr "Tylko ten zasób"
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:33
 #, jsrealm
 msgid "All permissions"
-msgstr "Wszystkie pozwolenia"
+msgstr "Wszystkie uprawnienia"
 
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:230
 #, jsrealm
 msgid "Permissions"
-msgstr "Pozwolenia"
+msgstr "Uprawnienia"
 
 #: nodepkg/resource-section/children/ResourceSectionChildren.tsx:94 view.py:282
 #, jsrealm, server
@@ -575,7 +575,7 @@ msgstr "Pokaż datę utworzenia zasobu"
 #: view.py:466
 #, jsrealm, server
 msgid "Delete"
-msgstr "Usuń"
+msgstr "Usuwanie"
 
 #: nodepkg/resource-section/children/component/MenuDropdown.tsx:220
 #, jsrealm
@@ -679,37 +679,37 @@ msgstr "Wyszukaj zasoby"
 #, server
 msgctxt "permission"
 msgid "Read"
-msgstr "Czytaj"
+msgstr ""
 
 #: scope.py:15
 #, server
 msgctxt "permission"
 msgid "Create"
-msgstr "Stwórz"
+msgstr ""
 
 #: scope.py:16
 #, server
 msgctxt "permission"
 msgid "Modify"
-msgstr "Modyfikuj"
+msgstr ""
 
 #: scope.py:17
 #, server
 msgctxt "permission"
 msgid "Delete"
-msgstr "Usuń"
+msgstr ""
 
 #: scope.py:18
 #, server
 msgctxt "permission"
 msgid "Manage subresources"
-msgstr "Zarządzaj podzasobami"
+msgstr ""
 
 #: scope.py:19
 #, server
 msgctxt "permission"
 msgid "Configure permissions"
-msgstr "Konfiguruj uprawnienia"
+msgstr ""
 
 #: scope.py:26
 #, server
@@ -720,31 +720,31 @@ msgstr "Data"
 #, server
 msgctxt "permission"
 msgid "Read data"
-msgstr "Odczyt danych"
+msgstr ""
 
 #: scope.py:29
 #, server
 msgctxt "permission"
 msgid "Modify data"
-msgstr "Modyfikacja danych"
+msgstr ""
 
 #: scope.py:41
 #, server
 msgctxt "permission"
 msgid "Read connection parameters"
-msgstr "Odczyt parametrów połączenia"
+msgstr ""
 
 #: scope.py:42
 #, server
 msgctxt "permission"
 msgid "Configure connection"
-msgstr "Konfiguruj połączenie"
+msgstr ""
 
 #: scope.py:43
 #, server
 msgctxt "permission"
 msgid "Use connection"
-msgstr "Użyj połączenia"
+msgstr ""
 
 #: scope.py:53
 #, server
@@ -755,13 +755,13 @@ msgstr "Usługi Web GIS"
 #, server
 msgctxt "permission"
 msgid "Access service"
-msgstr "Uzyskaj dostęp do usługi"
+msgstr ""
 
 #: scope.py:56
 #, server
 msgctxt "permission"
 msgid "Configure service"
-msgstr "Skonfiguruj usługę"
+msgstr ""
 
 #: view.py:134 view.py:475
 #, server
@@ -771,12 +771,12 @@ msgstr "Widok JSON"
 #: view.py:145 view.py:482
 #, server
 msgid "User permissions"
-msgstr "Uprawnienia użytkownika"
+msgstr "Uprawnienia użytkowników"
 
 #: view.py:204
 #, server
 msgid "Update resource"
-msgstr "Aktualizuj zasoby"
+msgstr "Edytuj zasoby"
 
 #: view.py:215
 #, server
@@ -803,4 +803,4 @@ msgstr "Dodatkowe"
 #: view.py:452
 #, server
 msgid "Update"
-msgstr "Aktualizuj"
+msgstr "Edytuj"

@@ -6,7 +6,7 @@ msgstr "Zbiór kafli"
 #: model.py:91
 #, server
 msgid "Tile {} unsupported."
-msgstr ""
+msgstr "Kafelek {} nieobsługiwany."
 
 #: model.py:126 nodepkg/resource-widget/Widget.tsx:34
 #, jsrealm, server

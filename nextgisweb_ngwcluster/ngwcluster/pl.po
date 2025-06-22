@@ -1,0 +1,185 @@
+#: lockable_feature.py:94
+#, server
+msgid "Field data collection"
+msgstr "Zbieranie danych terenowych"
+
+#: lockable_feature.py:102
+#, server
+msgid "Use on other websites (CORS)"
+msgstr "Użycie na innych stronach (CORS)"
+
+#: lockable_feature.py:123
+#, server
+msgid "Custom domain and branding"
+msgstr "Niestandardowa domena i branding"
+
+#: lockable_feature.py:136
+#, server
+msgid "Custom SRS"
+msgstr "Własny SRS"
+
+#: lockable_feature.py:149
+#, server
+msgid "Improved performance"
+msgstr "Zwiększona wydajność"
+
+#: lockable_feature.py:156
+#, server
+msgid "Access management"
+msgstr "Zarządzanie dostępem"
+
+#: lockable_feature.py:229
+#, server
+msgid "Technical support"
+msgstr "Wsparcie techniczne"
+
+#: lockable_feature.py:234
+#, server
+msgid "On-demand backup restore"
+msgstr "Przywracanie kopii zapasowej na żądanie"
+
+#: lockable_feature.py:255
+#, server
+msgid "Tile caching"
+msgstr "Buforowanie kafli"
+
+#: nodepkg/hook.ts:54
+#, jsrealm
+msgid "of"
+msgstr "z"
+
+#: nodepkg/hook.ts:55
+#, jsrealm
+msgid "Available"
+msgstr "Dostępne"
+
+#: nodepkg/hook.ts:56
+#, jsrealm
+msgid "Unavailable"
+msgstr "Niedostępne"
+
+#: nodepkg/hook.ts:57
+#, jsrealm
+msgid "Unlimited"
+msgstr "Nielimitowane"
+
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:27
+#: nodepkg/upgrade-button/UpgradeButton.tsx:63
+#, jsrealm
+msgid "Your plan — "
+msgstr "Twój plan - "
+
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:36
+#: nodepkg/resource-widget/base.tsx:26
+#, jsrealm
+msgid "Change plan"
+msgstr "Zmień plan"
+
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:63
+#, jsrealm
+msgid "More about plans"
+msgstr "Więcej o planach"
+
+#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:51 view.py:15
+#, jsrealm, server
+msgid "Plan and features"
+msgstr "Plan i funkcje"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:30
+#, jsrealm
+msgid "Easy start with QGIS"
+msgstr "Łatwy start z QGIS"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:33
+#, jsrealm
+msgid ""
+"Use the NextGIS Connect plugin for QGIS to upload your data and create "
+"interactive maps."
+msgstr ""
+"Użyj wtyczki NextGIS Connect do QGIS, aby przesłać dane i tworzyć "
+"interaktywne mapy."
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:40
+#, jsrealm
+msgid "Install the NextGIS Connect plugin for QGIS"
+msgstr "Zainstaluj wtyczkę NextGIS Connect dla QGIS"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:45
+#, jsrealm
+msgid "Connect the plugin to your Web GIS"
+msgstr "Połącz wtyczkę z Web GIS"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:48
+#, jsrealm
+msgid "Upload your layers and projects to your Web GIS"
+msgstr "Prześlij swoje warstwy i projekty dla QGIS"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:65
+#, jsrealm
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:73
+#, jsrealm
+msgid "Hide"
+msgstr "Ukryj"
+
+#: nodepkg/resource-widget/base.tsx:24 service_plan.py:309
+#, jsrealm, server
+msgid "{} feature is not available on your plan."
+msgstr "Funkcja {} nie jest dostępna w Twoim planie."
+
+#: nodepkg/resource-widget/base.tsx:25
+#, jsrealm
+msgid "These features are not available on your plan:"
+msgstr "Te funkcje nie są dostępne w Twoim planie:"
+
+#: nodepkg/upgrade-button/UpgradeButton.tsx:71
+#, jsrealm
+msgid "Upgrade"
+msgstr "Aktualizacja"
+
+#: service_plan.py:97
+#, server
+msgid "Number of maps and layers"
+msgstr "Liczba map i warstw"
+
+#: service_plan.py:98
+#, server
+msgid "Storage limit"
+msgstr "Limit pamięci"
+
+#: service_plan.py:99
+#, server
+msgid "User limit"
+msgstr "Limit użytkowników"
+
+#: service_plan.py:107
+#, server
+msgid "GPS trackers"
+msgstr "Rejestratory GPS"
+
+#: service_plan.py:120
+#, server
+msgid "Maximum file upload"
+msgstr "Maksymalny rozmiar przesłanego pliku"
+
+#: service_plan.py:121
+#, server
+msgid "Maximum raster layer"
+msgstr "Maksymalna warstwa rastrowa"
+
+#: service_plan.py:302
+#, server
+msgid "Plan upgrade required"
+msgstr "Wymagana aktualizacja planu"
+
+#: service_plan.py:306
+#, server
+msgid "This is not available on your plan."
+msgstr "To nie jest dostępne w Twoim planie."
+
+#: service_plan.py:317
+#, server
+msgid "To use this feature, please upgrade."
+msgstr "Aby skorzystać z tej funkcji, proszę zaktualizować plan."

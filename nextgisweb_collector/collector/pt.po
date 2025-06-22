@@ -1,32 +1,32 @@
-#: api.py:63 api.py:96
+#: api.py:62 api.py:96
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
 msgstr ""
 
-#: models/model_db.py:58
+#: models/model_db.py:103
 msgid "Collector project"
 msgstr "Projeto de Collector"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:47
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:18
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:46
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:17
 msgid "NextGIS ID"
 msgstr "ID NextGIS"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:53
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:52
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:29
 msgid "Description"
 msgstr "Descrição"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:59
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:58
 msgid "Added"
 msgstr "Adicionado"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:79
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:78
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr ""
 
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:23
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:22
 msgid "The value entered is not valid"
 msgstr ""
 
@@ -46,91 +46,152 @@ msgstr ""
 msgid "NextGIS ID account"
 msgstr ""
 
-#: nodepkg/resource-items/Item.ts:103
+#: nodepkg/resource-items/Item.ts:104
 msgid "Group members have errors"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:25
+#: nodepkg/resource-items/ItemsWidget.tsx:26
 msgid "Display name"
 msgstr "Nome de exibição"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:26
+#: nodepkg/resource-items/ItemsWidget.tsx:27
 msgid "Expanded"
 msgstr "Expandido"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:27
+#: nodepkg/resource-items/ItemsWidget.tsx:28
 msgid "Editable"
 msgstr "Editável"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:28
+#: nodepkg/resource-items/ItemsWidget.tsx:29
 msgid "Visible"
 msgstr "Visível"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:29
+#: nodepkg/resource-items/ItemsWidget.tsx:30
 msgid "Syncable"
 msgstr "Sincronizável"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:30
+#: nodepkg/resource-items/ItemsWidget.tsx:31
 msgid "Lifetime for tiles (in min)"
 msgstr "Vida útil dos tiles (em min)"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:31
+#: nodepkg/resource-items/ItemsWidget.tsx:32
 msgid "Resource"
 msgstr "Recurso"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:32
+#: nodepkg/resource-items/ItemsWidget.tsx:33
 msgid "Zoom level visibility"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:33
+#: nodepkg/resource-items/ItemsWidget.tsx:34
 msgid "Min zoom"
 msgstr "Zoom mínimo"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:34
+#: nodepkg/resource-items/ItemsWidget.tsx:35
 msgid "Max zoom"
 msgstr "Zoom máximo"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:35
+#: nodepkg/resource-items/ItemsWidget.tsx:36
 msgid "Layer"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:36
+#: nodepkg/resource-items/ItemsWidget.tsx:37
 msgid "Group"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:188
+#: nodepkg/resource-items/ItemsWidget.tsx:265
 msgid "Items"
 msgstr "itens"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:23
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:14
+msgid "Initial extent"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
+msgid "Project will start at this extent"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:17
 msgid "Starting screen"
 msgstr "Ecrã inicial"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:34
-msgid "NextGIS Collector user credentials"
-msgstr "Credenciais de utilizador do NextGIS Collector"
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:19
+msgid "The starting screen in the NextGIS Collector mobile app"
+msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:39
-msgid "User name"
-msgstr "Nome do utilizador"
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:22
+msgid "Username"
+msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:45
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:24
+msgid ""
+"Web GIS user name with necessary permissions to access data used in the "
+"project. This user is not related to accounts of actual data collectors."
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:29
 msgid "Password"
 msgstr "Senha"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:55
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
+msgid "Password for the Web GIS user"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:32
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:209
+msgid "Mobile project setup configuration"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:34
+msgid ""
+"Automate project delivery to multiple mobile GIS with this setup. Recommended"
+" for advanced users only."
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:39
+msgid "Edit config"
+msgstr ""
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:100
 msgid "Project"
 msgstr "Projeto"
 
-#: nodepkg/resource-project/CollectorTypeSelect.tsx:19
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:20
 msgid "List of forms"
 msgstr "Lista de formulários"
 
-#: nodepkg/resource-project/CollectorTypeSelect.tsx:23
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:24
 msgid "Map"
 msgstr "Mapa"
 
-#: nodepkg/resource-users/CollectorUsersWidget.tsx:33
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:21
+msgid ""
+"Provide the mobile project configuration by typing it in or importing it from"
+" a JSON file"
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:25
+msgid ""
+"Please enter data in the NextGIS Mobile configuration format (using a valid "
+"JSON dictionary)"
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:34
+msgid "Loading editor..."
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:232
+msgid "Load"
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:237
+msgid "Close"
+msgstr ""
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:244
+msgid "OK"
+msgstr ""
+
+#: nodepkg/resource-users/CollectorUsersWidget.tsx:30
 msgid "Collectors"
 msgstr "Collectors"
 

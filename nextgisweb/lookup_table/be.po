@@ -1,41 +1,67 @@
-#: model.py:16 nodepkg/editor/EditorWidget.tsx:170 view.py:17
+#: model.py:34 nodepkg/editor/EditorWidget.tsx:171
 msgid "Lookup table"
 msgstr "Табліца пошуку"
 
-#: nodepkg/component/lookup-select/LookupSelect.tsx:52
+#: nodepkg/component/lookup-select/LookupSelect.tsx:48
 msgid "Loading..."
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:34
-msgid "Type here to add a new item..."
-msgstr ""
-
-#: nodepkg/editor/EditorWidget.tsx:35
+#: nodepkg/editor/EditorWidget.tsx:31
 msgid "Export"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:36
+#: nodepkg/editor/EditorWidget.tsx:32
 msgid "Import"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:37
+#: nodepkg/editor/EditorWidget.tsx:33
+msgid "Sort order"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:34
+msgid "Resort rows"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:35
 msgid "Clear"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:40
+#: nodepkg/editor/EditorWidget.tsx:38
 msgid ""
 "All existing records will be deleted after import. Are you sure you want to "
 "proceed?"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:86 template/resource_section.mako:8
+#: nodepkg/editor/EditorWidget.tsx:45
+#: nodepkg/resource-section/LookupTableResourceSection.tsx:23
 msgid "Key"
 msgstr "Ключ"
 
-#: nodepkg/editor/EditorWidget.tsx:92 template/resource_section.mako:9
+#: nodepkg/editor/EditorWidget.tsx:51
+#: nodepkg/resource-section/LookupTableResourceSection.tsx:30
 msgid "Value"
 msgstr "Значэнне"
 
-#: template/resource_section.mako:3
+#: nodepkg/editor/EditorWidget.tsx:61
+msgid "Key, ascending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:62
+msgid "Key, descending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:63
+msgid "Value, ascending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:64
+msgid "Value, descending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:65
+msgid "Custom"
+msgstr ""
+
+#: nodepkg/resource-section/LookupTableResourceSection.tsx:55
 msgid "Items"
 msgstr "Прадметы"

@@ -31,6 +31,7 @@ msgid "Resource not found"
 msgstr "Ressource fehlt"
 
 #: exception.py:8
+#, python-format
 msgid "Resource with id = %d was not found."
 msgstr "Ressource mit id = %d fehlt."
 
@@ -62,6 +63,7 @@ msgid "Resource display name is not unique"
 msgstr "Name der Ressource ist nicht einzigartig"
 
 #: exception.py:46
+#, python-format
 msgid "Resource with same display name already exists (id = %d)."
 msgstr "Ressource mit dem Namen ist bereits vorhanden (id = %d)."
 
@@ -83,6 +85,7 @@ msgid "Root resource could not be deleted."
 msgstr "Stammressource konnte nicht gelöscht werden."
 
 #: exception.py:67
+#, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Ressourcenklasse '%s' deaktiviert."
 
@@ -91,6 +94,7 @@ msgid "Quota exceeded"
 msgstr ""
 
 #: exception.py:82
+#, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Die maximale Anzahl von Ressourcen wurde überschritten. Der Grenzwert ist %s."
 
@@ -143,12 +147,14 @@ msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
 #: model.py:475
+#, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr ""
 "Ihnen fehlt eine Genehmigung um Kind-Ressourcen der Ressource id = %d zu "
 "verwalten."
 
 #: model.py:487
+#, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "Diese Ressource kann nicht eine Kind-Ressource der Ressource id = %d sein."
 
@@ -539,12 +545,12 @@ msgstr ""
 #: scope.py:14
 msgctxt "permission"
 msgid "Read"
-msgstr "Read"
+msgstr ""
 
 #: scope.py:15
 msgctxt "permission"
 msgid "Create"
-msgstr "Erstellen"
+msgstr ""
 
 #: scope.py:16
 msgctxt "permission"
@@ -554,7 +560,7 @@ msgstr ""
 #: scope.py:17
 msgctxt "permission"
 msgid "Delete"
-msgstr "Löschen"
+msgstr ""
 
 #: scope.py:18
 msgctxt "permission"
@@ -630,6 +636,7 @@ msgid "Resource export"
 msgstr ""
 
 #: view.py:386
+#, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Berechtigungen '%s' für den Umfang '%s' in der Ressource id = %d fehlen."
 

@@ -10,7 +10,7 @@ msgstr ""
 #: models/model_db.py:103
 #, server
 msgid "Collector project"
-msgstr "Projekt collectora"
+msgstr "Projekt zbierania danych Collector"
 
 #: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:46
 #: nodepkg/collector-user-editor/CollectorUserEditor.tsx:17
@@ -132,12 +132,12 @@ msgstr "Elementy"
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:14
 #, jsrealm
 msgid "Initial extent"
-msgstr ""
+msgstr "Widok początkowy"
 
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:15
 #, jsrealm
 msgid "Project will start at this extent"
-msgstr ""
+msgstr "Projekt rozpocznie się z tego widoku"
 
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:17
 #, jsrealm
@@ -147,12 +147,12 @@ msgstr "Ekran początkowy"
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:19
 #, jsrealm
 msgid "The starting screen in the NextGIS Collector mobile app"
-msgstr ""
+msgstr "Ekran startowy w aplikacji mobilnej do zbierania danych Collector"
 
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:22
 #, jsrealm
 msgid "Username"
-msgstr ""
+msgstr "Nazwa użytkownika"
 
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:24
 #, jsrealm
@@ -160,6 +160,9 @@ msgid ""
 "Web GIS user name with necessary permissions to access data used in the "
 "project. This user is not related to accounts of actual data collectors."
 msgstr ""
+"Nazwa użytkownika WebGIS z odpowiednimi uprawnieniami do danych używanych w "
+"projekcie. Ten użytkownik nie jest powiązany z kontami rzeczywistych "
+"kolektorów."
 
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:29
 #, jsrealm
@@ -169,13 +172,13 @@ msgstr "Hasło kolektora"
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:30
 #, jsrealm
 msgid "Password for the Web GIS user"
-msgstr ""
+msgstr "Hasło do konta WebGIS"
 
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:32
 #: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:209
 #, jsrealm
 msgid "Mobile project setup configuration"
-msgstr ""
+msgstr "Konfiguracja projektu mobilnego aplikacji Collector"
 
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:34
 #, jsrealm
@@ -183,11 +186,13 @@ msgid ""
 "Automate project delivery to multiple mobile GIS with this setup. Recommended"
 " for advanced users only."
 msgstr ""
+"Automatyczne wdrażanie projektu na wiele urządzeń mobilnych GIS przy użyciu "
+"tej konfiguracji. Zalecane tylko dla zaawansowanych użytkowników."
 
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:39
 #, jsrealm
 msgid "Edit config"
-msgstr ""
+msgstr "Edytuj konfigurację"
 
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:100
 #, jsrealm
@@ -209,7 +214,7 @@ msgstr "Mapa"
 msgid ""
 "Provide the mobile project configuration by typing it in or importing it from"
 " a JSON file"
-msgstr ""
+msgstr "Wprowadź konfigurację projektu mobilnego ręcznie lub zaimportuj z pliku JSON"
 
 #: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:25
 #, jsrealm
@@ -217,31 +222,33 @@ msgid ""
 "Please enter data in the NextGIS Mobile configuration format (using a valid "
 "JSON dictionary)"
 msgstr ""
+"Wprowadź dane w formacie konfiguracji NextGIS Mobile (używając poprawnego "
+"słownika JSON)"
 
 #: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:34
 #, jsrealm
 msgid "Loading editor..."
-msgstr ""
+msgstr "Ładowanie edytora..."
 
 #: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:232
 #, jsrealm
 msgid "Load"
-msgstr ""
+msgstr "Załaduj"
 
 #: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:237
 #, jsrealm
 msgid "Close"
-msgstr ""
+msgstr "Zamknij"
 
 #: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:244
 #, jsrealm
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: nodepkg/resource-users/CollectorUsersWidget.tsx:30
 #, jsrealm
 msgid "Collectors"
-msgstr "Collectory"
+msgstr "Lista kolektorów"
 
 #: nodepkg/userMessages.ts:5
 #, jsrealm
@@ -266,7 +273,7 @@ msgstr "Czytaj"
 #: view.py:58
 #, server
 msgid "List of collectors"
-msgstr "Lista collectorów"
+msgstr "Lista kolektorów"
 
 #: view.py:70
 #, server
@@ -276,9 +283,9 @@ msgstr "Stwórz nowy kolektor"
 #: view.py:77
 #, server
 msgid "Edit collector"
-msgstr "Edytuj collector"
+msgstr "Edytuj kolektor"
 
 #: view.py:101
 #, server
 msgid "Collector projects"
-msgstr "Projekty collectora"
+msgstr "Projekty kolektora"

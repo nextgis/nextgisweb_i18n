@@ -156,4 +156,4 @@ msgstr "Teren"
 #: view.py:77
 #, server
 msgid "Display"
-msgstr "Wyświetlanie"
+msgstr "Wyświetl 3D"

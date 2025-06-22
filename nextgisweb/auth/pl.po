@@ -66,6 +66,8 @@ msgid ""
 "Maximum number of local users is reached. Your current plan local user number"
 " limit is {}."
 msgstr ""
+"Osiągnięto maksymalną liczbę lokalnych użytkowników. Limit lokalnych "
+"użytkowników w Twoim planie to {}."
 
 #: exception.py:7
 #, server

@@ -126,16 +126,20 @@ msgstr ""
 msgid "Failed to delete."
 msgstr ""
 
-#: nodepkg/edi-table/RowAction.tsx:74
-msgid "Clone"
+#: nodepkg/edi-table/EdiTableKeyValue.tsx:11
+msgid "Type here to add a new item..."
 msgstr ""
 
-#: nodepkg/edi-table/store/RecordItem.ts:36
+#: nodepkg/edi-table/EdiTableKeyValue.tsx:42
 msgid "Key required"
 msgstr ""
 
-#: nodepkg/edi-table/store/RecordItem.ts:42
+#: nodepkg/edi-table/EdiTableKeyValue.tsx:48
 msgid "Key not unique"
+msgstr ""
+
+#: nodepkg/edi-table/RowAction.tsx:74
+msgid "Clone"
 msgstr ""
 
 #: nodepkg/error/ErrorModal.tsx:48 nodepkg/error/extractError.ts:5

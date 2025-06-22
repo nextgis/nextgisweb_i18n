@@ -673,12 +673,12 @@ msgstr "Parametr zapytania '{}' ma nieprawidłową wartość."
 #: tomb/exception.py:7
 #, server
 msgid "Malformed JSON body"
-msgstr ""
+msgstr "Nieprawidłowy format treści JSON"
 
 #: tomb/exception.py:8
 #, server
 msgid "The JSON body of the request is malformed or invalid."
-msgstr ""
+msgstr "Treść żądania w formacie JSON jest nieprawidłowa lub uszkodzona."
 
 #: view.py:187
 #, server

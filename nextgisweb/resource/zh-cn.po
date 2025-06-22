@@ -31,6 +31,7 @@ msgid "Resource not found"
 msgstr "未找到资源"
 
 #: exception.py:8
+#, python-format
 msgid "Resource with id = %d was not found."
 msgstr "未找到带ID=%d的资源"
 
@@ -59,6 +60,7 @@ msgid "Resource display name is not unique"
 msgstr "资源显示的名称不是唯一的。"
 
 #: exception.py:46
+#, python-format
 msgid "Resource with same display name already exists (id = %d)."
 msgstr "该资源的名称已存在（id = %d）"
 
@@ -77,6 +79,7 @@ msgid "Root resource could not be deleted."
 msgstr "根资源不能被删除。"
 
 #: exception.py:67
+#, python-format
 msgid "Resource class '%s' disabled."
 msgstr "资源级 '%s'被禁止"
 
@@ -85,6 +88,7 @@ msgid "Quota exceeded"
 msgstr ""
 
 #: exception.py:82
+#, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "已超过最大资源数量。 限制为%s。"
 
@@ -137,10 +141,12 @@ msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
 #: model.py:475
+#, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "您不被允许使用id=%d管理资源的子项"
 
 #: model.py:487
+#, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "资源不能为id=%d管理资源的子项。"
 
@@ -522,12 +528,12 @@ msgstr "搜索资源"
 #: scope.py:14
 msgctxt "permission"
 msgid "Read"
-msgstr "读取"
+msgstr ""
 
 #: scope.py:15
 msgctxt "permission"
 msgid "Create"
-msgstr "创建"
+msgstr ""
 
 #: scope.py:16
 msgctxt "permission"
@@ -537,7 +543,7 @@ msgstr ""
 #: scope.py:17
 msgctxt "permission"
 msgid "Delete"
-msgstr "删除"
+msgstr ""
 
 #: scope.py:18
 msgctxt "permission"
@@ -613,6 +619,7 @@ msgid "Resource export"
 msgstr "资源报告"
 
 #: view.py:386
+#, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "资源id=%d上的作用域\"%s\"中的\"%s\"权限不足。"
 

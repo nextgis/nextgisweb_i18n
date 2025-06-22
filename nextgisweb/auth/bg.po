@@ -1,50 +1,56 @@
-#: api.py:82
+#: api.py:80
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr "Атрибутът '%s' на системния субект не може да бъде променен."
 
-#: api.py:89
+#: api.py:87
 msgid "Principal '%s' already exists."
 msgstr "Субектът '%s' вече съществува."
 
-#: api.py:91
+#: api.py:89
 msgid "Principal with full name '%s' already exists."
 msgstr "Субектът с име '%s' вече съществува."
 
-#: api.py:161
+#: api.py:159
 msgid "Password is not set."
 msgstr ""
 
-#: api.py:605
+#: api.py:602
 msgid "User '%s' can't be a member of a group."
 msgstr "Потребителят '%s' не може да е включен в група."
 
-#: api.py:611
+#: api.py:608
 msgid "System principals can't be deleted."
 msgstr "Системните субекти не може да бъдат премахнати."
 
-#: api.py:626
+#: api.py:623
 msgid "User is referenced with resources"
 msgstr "Потребителят е свързан с ресурси"
 
-#: api.py:628
+#: api.py:625
 msgid "Group is referenced with resources"
 msgstr "Групата е свързана с ресурси"
 
-#: api.py:634
+#: api.py:631
 msgid "Administrator required"
 msgstr ""
 
-#: api.py:635
+#: api.py:632
 msgid "The 'administrators' group must have at least one enabled member."
 msgstr "Група 'администратори' трябва да има поне един включен участник."
 
-#: component.py:48
+#: component.py:50
 msgid "Administrator"
 msgstr "Администратор"
 
-#: component.py:261
+#: component.py:259
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr "Достигнат е максимален брой потребители. По текущия план пределът е %d."
+
+#: component.py:274
+msgid ""
+"Maximum number of local users is reached. Your current plan local user number"
+" limit is {}."
+msgstr ""
 
 #: exception.py:7
 msgid "Invalid authorization header"
@@ -117,7 +123,7 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:303 view.py:388
+#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:327 view.py:416
 msgid "Users"
 msgstr "Потребители"
 
@@ -133,29 +139,29 @@ msgstr ""
 msgid "Description"
 msgstr "Описание"
 
-#: nodepkg/login/LoginForm.tsx:20
+#: nodepkg/login/LoginForm.tsx:21
 msgid "Sign in with {}"
 msgstr ""
 
-#: nodepkg/login/LoginForm.tsx:21 view.py:36
+#: nodepkg/login/LoginForm.tsx:22 view.py:59
 msgid "Sign in to Web GIS"
 msgstr "Влез в Уеб GIS"
 
-#: nodepkg/login/LoginForm.tsx:22 nodepkg/session-invite/SessionInvite.tsx:18
+#: nodepkg/login/LoginForm.tsx:23 nodepkg/session-invite/SessionInvite.tsx:18
 msgid "Sign in"
 msgstr "Влез"
 
-#: nodepkg/login/LoginForm.tsx:37 nodepkg/settings-form/SettingsForm.tsx:53
+#: nodepkg/login/LoginForm.tsx:38 nodepkg/settings-form/SettingsForm.tsx:52
 #: nodepkg/user-browse/UserBrowse.tsx:25 nodepkg/user-widget/UserWidget.tsx:48
 msgid "Login"
 msgstr "Потребителско име"
 
-#: nodepkg/login/LoginForm.tsx:42 nodepkg/user-browse/UserBrowse.tsx:26
+#: nodepkg/login/LoginForm.tsx:43 nodepkg/user-browse/UserBrowse.tsx:26
 #: nodepkg/user-widget/UserWidget.tsx:55
 msgid "Password"
 msgstr "Парола"
 
-#: nodepkg/login/LoginForm.tsx:100
+#: nodepkg/login/LoginForm.tsx:109
 msgid "or using login and password"
 msgstr ""
 
@@ -163,23 +169,23 @@ msgstr ""
 msgid "Manage team"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.tsx:27
+#: nodepkg/settings-form/SettingsForm.tsx:26
 msgid "Account bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.tsx:38
+#: nodepkg/settings-form/SettingsForm.tsx:37
 msgid "Bind account"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.tsx:40
+#: nodepkg/settings-form/SettingsForm.tsx:39
 msgid "Account not bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.tsx:61 nodepkg/user-widget/UserWidget.tsx:106
+#: nodepkg/settings-form/SettingsForm.tsx:60 nodepkg/user-widget/UserWidget.tsx:106
 msgid "Language"
 msgstr "Език"
 
-#: nodepkg/settings-form/SettingsForm.tsx:77
+#: nodepkg/settings-form/SettingsForm.tsx:76
 msgid "Saved"
 msgstr "Запазено"
 
@@ -239,7 +245,7 @@ msgstr "Въведете нова парола тук"
 msgid "Authorization link"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidget.tsx:89 view.py:333 view.py:394
+#: nodepkg/user-widget/UserWidget.tsx:89 view.py:358 view.py:422
 msgid "Groups"
 msgstr "Групи"
 
@@ -314,54 +320,54 @@ msgstr ""
 msgid "Manage"
 msgstr ""
 
-#: permission.py:39 view.py:384
+#: permission.py:39 view.py:412
 msgid "Groups and users"
 msgstr "Групи и потребители"
 
-#: view.py:51
+#: view.py:72
 msgid "Invitation session"
 msgstr ""
 
-#: view.py:68
+#: view.py:89
 msgid "Session not found."
 msgstr "Сесии не са открити."
 
-#: view.py:72
+#: view.py:93
 msgid "Invalid 'expires' parameter."
 msgstr "Параметърът 'expires' е невалиден."
 
-#: view.py:74
+#: view.py:95
 msgid "Session expired."
 msgstr "Сесията е изтекла."
 
-#: view.py:93
+#: view.py:114
 msgid ""
 "Failed to authenticate using the given authorization link. Please check the "
 "link and contact the administrator."
 msgstr ""
 
-#: view.py:104
+#: view.py:125
 msgid "Usage of authorization link is forbidden for administrators."
 msgstr ""
 
-#: view.py:143
+#: view.py:164
 msgid "Team membership required"
 msgstr ""
 
-#: view.py:144
+#: view.py:165
 msgid ""
 "You are not a member of this Web GIS team. Contact Web GIS administrator and "
 "ask to be added to the team."
 msgstr ""
 
-#: view.py:296
+#: view.py:319
 msgid "User settings"
 msgstr "Потребителски настройки"
 
-#: view.py:315
+#: view.py:337
 msgid "Create new user"
 msgstr "Нов потребител"
 
-#: view.py:345
+#: view.py:369
 msgid "Create new group"
 msgstr "Нова група"

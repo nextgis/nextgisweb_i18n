@@ -30,23 +30,23 @@ msgstr ""
 msgid "Your Web GIS at nextgis.com"
 msgstr "Вашите онлайн карти на nextgis.com"
 
-#: component.py:167
+#: component.py:168
 msgid "Request timeout"
 msgstr ""
 
-#: component.py:170
+#: component.py:171
 msgid "Enabled"
 msgstr "Включено"
 
-#: component.py:170
+#: component.py:171
 msgid "Disabled"
 msgstr "Изключен"
 
-#: exception.py:217
+#: exception.py:219
 msgid "Internal server error"
 msgstr "Вътрешна грешка на сървъра"
 
-#: exception.py:218
+#: exception.py:220
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -54,37 +54,37 @@ msgstr ""
 "Сървърът има вътрешна грешка, некоректни настройки или не успя да изпълни "
 "заявката."
 
-#: exception.py:251
+#: exception.py:253
 msgid "Bad request"
 msgstr "Грешна заявка"
 
-#: exception.py:252
+#: exception.py:254
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
 msgstr "Сървърът не може да изпълни заявката, защото в нея има грешка."
 
-#: exception.py:260
+#: exception.py:262
 msgid "Payment required"
 msgstr "Изисква се заплащане"
 
-#: exception.py:261
+#: exception.py:263
 msgid "Access was denied for financial reasons."
 msgstr "Достъп е забранен по финансови причини."
 
-#: exception.py:266
+#: exception.py:268
 msgid "Forbidden"
 msgstr "Забранено"
 
-#: exception.py:267
+#: exception.py:269
 msgid "Access was denied to this resource."
 msgstr "Достъпът до ресурса е забранен."
 
-#: exception.py:272
+#: exception.py:274
 msgid "Page not found"
 msgstr "Страницата не е открита"
 
-#: exception.py:273
+#: exception.py:275
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -93,23 +93,23 @@ msgstr ""
 "адреса или се върнете на началната страница и се опитайте да намерите "
 "исканата страница."
 
-#: exception.py:281
+#: exception.py:283
 msgid "Unprocessable entity"
 msgstr "Обектът не може да е обработен"
 
-#: exception.py:282
+#: exception.py:284
 msgid "Unable to process the contained instructions."
 msgstr "Исканата операция не може да е извършена."
 
-#: exception.py:287 exception.py:288
+#: exception.py:289 exception.py:290
 msgid "Not implemented"
 msgstr "Не е реализирано"
 
-#: exception.py:293
+#: exception.py:295
 msgid "Service unavailable"
 msgstr "Услугата е недостъпна"
 
-#: exception.py:294
+#: exception.py:296
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "Сървърът не е наличен в момента. Опитайте се отново по-късно."
 
@@ -121,51 +121,51 @@ msgstr ""
 msgid "The Lunkwill extension is not configured on this server."
 msgstr ""
 
-#: nodepkg/api/error.ts:11 nodepkg/api/error.ts:29
+#: nodepkg/api/error.ts:18 nodepkg/api/error.ts:39
 msgid "Something went wrong."
 msgstr "Нещо не е наред."
 
-#: nodepkg/api/error.ts:12
+#: nodepkg/api/error.ts:19
 msgid "Unknown API error"
 msgstr "Неизвестна API грешка"
 
-#: nodepkg/api/error.ts:21
+#: nodepkg/api/error.ts:33
 msgid "There is no response from the server or problem connecting to server."
 msgstr "Няма отговор от сървъра или има проблем да се установи връзка с него."
 
-#: nodepkg/api/error.ts:22
+#: nodepkg/api/error.ts:34
 msgid "Network error"
 msgstr "Мрежова грешка"
 
-#: nodepkg/api/error.ts:23
+#: nodepkg/api/error.ts:35
 msgid "Check network connectivity and try again later."
 msgstr "Проверете съединението и се опитайте отново."
 
-#: nodepkg/api/error.ts:30
+#: nodepkg/api/error.ts:40
 msgid "Unexpected server response"
 msgstr "Неочакван отговор на сървъра"
 
-#: nodepkg/api/error.ts:60
+#: nodepkg/api/error.ts:68
 msgid "Unexpected error while processing long-running request."
 msgstr "Непредвидена грешка при извършване на продължително искане."
 
-#: nodepkg/api/error.ts:61
+#: nodepkg/api/error.ts:69
 msgid "Long-running request error"
 msgstr "Грешка на продължително искане"
 
-#: nodepkg/api/error.ts:68
+#: nodepkg/api/error.ts:77
 msgid "Long-running request was cancelled."
 msgstr "Продължително искане е отменено."
 
-#: nodepkg/backup-browse/BackupBrowse.tsx:24
+#: nodepkg/backup-browse/BackupBrowse.tsx:23
 msgid "Filename"
 msgstr "Файлово име"
 
-#: nodepkg/backup-browse/BackupBrowse.tsx:39
+#: nodepkg/backup-browse/BackupBrowse.tsx:38
 msgid "Timestamp (UTC)"
 msgstr "Времево клеймо (UTC)"
 
-#: nodepkg/backup-browse/BackupBrowse.tsx:45
+#: nodepkg/backup-browse/BackupBrowse.tsx:44
 msgid "Size"
 msgstr "Размер"
 
@@ -173,7 +173,7 @@ msgstr "Размер"
 msgid "Get your own Web GIS at nextgis.com"
 msgstr "Създайте собствен Уеб GIS чрез nextgis.com"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:24
+#: nodepkg/cors-settings/CORSSettings.tsx:23
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
@@ -182,7 +182,7 @@ msgstr ""
 "използвани от HTTP API на този Уеб GIS в други уебсайтове. Всеки ред да има "
 "само един източник."
 
-#: nodepkg/cors-settings/CORSSettings.tsx:25
+#: nodepkg/cors-settings/CORSSettings.tsx:24
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
@@ -192,23 +192,23 @@ msgstr ""
 "(example.com и www.example.com) са различни произходи. Заместващи символи са "
 "допустими за домейни от трето ниво насам."
 
-#: nodepkg/cors-settings/CORSSettings.tsx:58
+#: nodepkg/cors-settings/CORSSettings.tsx:57
 msgid "CORS settings updated"
 msgstr "Настройките на CORS са актуализирани"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:63
+#: nodepkg/cors-settings/CORSSettings.tsx:62
 msgid "Fix the form errors first"
 msgstr "Трябва да поправите грешките във формата"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:79
+#: nodepkg/cors-settings/CORSSettings.tsx:78
 msgid "The value entered is not valid"
 msgstr "Въведеното значение не е валидно"
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:41
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:40
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr "Потребителските стилове са запазени. Презаредете страницата да ги използвате."
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:63
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:62
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -216,41 +216,41 @@ msgstr ""
 "Въведе персонализирани CSS правила тук. Те ще се използват за предефинирането"
 " на стиловете и изгледа на страниците на Вашия Уеб GIS."
 
-#: nodepkg/fonts/FontsPanel.tsx:29
+#: nodepkg/fonts/FontsPanel.tsx:28
 msgid ""
 "During operation, the Web GIS will restart. All existing requests will be "
 "aborted. Proceed?"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:30
+#: nodepkg/fonts/FontsPanel.tsx:29
 msgid "Web GIS is restarting, please wait..."
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:31
+#: nodepkg/fonts/FontsPanel.tsx:30
 msgid "Custom"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:31
+#: nodepkg/fonts/FontsPanel.tsx:30
 msgid "System"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:105
+#: nodepkg/fonts/FontsPanel.tsx:104
 msgid "Font"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:110
+#: nodepkg/fonts/FontsPanel.tsx:109
 msgid "Format"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:115
+#: nodepkg/fonts/FontsPanel.tsx:114
 msgid "Type"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:175
+#: nodepkg/fonts/FontsPanel.tsx:174
 msgid "Delete"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:182
+#: nodepkg/fonts/FontsPanel.tsx:181
 msgid "Show system fonts"
 msgstr ""
 
@@ -281,15 +281,15 @@ msgstr ""
 msgid "Sign out"
 msgstr "Излез"
 
-#: nodepkg/layout/store.ts:51
+#: nodepkg/layout/store.ts:54
 msgid "Resources"
 msgstr "Ресурси"
 
-#: nodepkg/layout/store.ts:57 view.py:178
+#: nodepkg/layout/store.ts:60 view.py:200
 msgid "Control panel"
 msgstr "Контролен панел"
 
-#: nodepkg/layout/store.ts:64
+#: nodepkg/layout/store.ts:67
 msgid "Help"
 msgstr "Помощ"
 
@@ -305,23 +305,23 @@ msgstr ""
 msgid "Measurement ID"
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:22
+#: nodepkg/metrics/MetricSettings.tsx:21
 msgid "Add"
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:23
+#: nodepkg/metrics/MetricSettings.tsx:22
 msgid "The setting is saved."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:24
+#: nodepkg/metrics/MetricSettings.tsx:23
 msgid "Reload the page to get them applied."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:28
+#: nodepkg/metrics/MetricSettings.tsx:27
 msgid "Add one or more counters to your Web GIS."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:29
+#: nodepkg/metrics/MetricSettings.tsx:28
 msgid ""
 "HTML code of these counters will be embeded into each page and will allow you"
 " to track user activity."
@@ -383,47 +383,47 @@ msgstr "от"
 msgid "Estimate storage"
 msgstr "Оцени използването на памет"
 
-#: nodepkg/system-info/SystemInfo.tsx:58
+#: nodepkg/system-info/SystemInfo.tsx:59
 msgid "Package"
 msgstr "Комплект"
 
-#: nodepkg/system-info/SystemInfo.tsx:59
+#: nodepkg/system-info/SystemInfo.tsx:60
 msgid "Version"
 msgstr "Версия"
 
-#: nodepkg/system-info/SystemInfo.tsx:76
+#: nodepkg/system-info/SystemInfo.tsx:77
 msgid "Platform"
 msgstr "Платформа"
 
-#: nodepkg/system-info/SystemInfo.tsx:88
+#: nodepkg/system-info/SystemInfo.tsx:89
 msgid "Browser support"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfo.tsx:96
+#: nodepkg/system-info/SystemInfo.tsx:97
 msgid "or higher"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfo.tsx:97
+#: nodepkg/system-info/SystemInfo.tsx:98
 msgid "Not supported"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfo.tsx:103
+#: nodepkg/system-info/SystemInfo.tsx:104
 msgid "Your browser"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:14
+#: nodepkg/system-info/SystemInfoUpdate.tsx:15
 msgid "Checking for updates..."
 msgstr "Проверявам актуализации..."
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:15
+#: nodepkg/system-info/SystemInfoUpdate.tsx:16
 msgid "<a>Contact support</a> for update."
 msgstr "<a>Свържи се с поддръжката</a> за актуализация."
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:16
+#: nodepkg/system-info/SystemInfoUpdate.tsx:17
 msgid "Show details"
 msgstr "Покажи детайли"
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:20
+#: nodepkg/system-info/SystemInfoUpdate.tsx:21
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
@@ -431,11 +431,11 @@ msgstr ""
 "Има достъпни критични актуализации: {version}. Препоръчваме да ги установите "
 "колкото се може по-бързо."
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:21
+#: nodepkg/system-info/SystemInfoUpdate.tsx:22
 msgid "New version of {distribution} is available: {version}."
 msgstr "Нова версия на {distribution} е достъпна: {version}."
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:22
+#: nodepkg/system-info/SystemInfoUpdate.tsx:23
 msgid "Your {distribution} is up-to-date."
 msgstr "Имате най-актуална версия на {distribution}."
 
@@ -455,7 +455,7 @@ msgstr "Има достъпни актуализации"
 msgid "Click to see what's new"
 msgstr "Натисни да видиш какво ново има"
 
-#: permission.py:5 view.py:283 view.py:634
+#: permission.py:5 view.py:305 view.py:656
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
@@ -464,6 +464,7 @@ msgid "Browser compatibility test"
 msgstr "Проверка на съместимост на браузъра"
 
 #: template/uacompat.mako:22
+#, python-format
 msgid "%(name)s %(current)s supported"
 msgstr "%(name)s %(current)s се поддържа"
 
@@ -476,10 +477,12 @@ msgstr ""
 " нормално."
 
 #: template/uacompat.mako:26
+#, python-format
 msgid "%(name)s not supported"
 msgstr "%(name)s не се поддържа"
 
 #: template/uacompat.mako:27
+#, python-format
 msgid ""
 "You're using %(name)s although it's not supported by the Web GIS. It's an "
 "outdated browser lacking required features. Try a different browser or "
@@ -491,10 +494,12 @@ msgstr ""
 "достъпен."
 
 #: template/uacompat.mako:29
+#, python-format
 msgid "%(name)s %(current)s not supported"
 msgstr "%(name)s %(current)s не се поддържа"
 
 #: template/uacompat.mako:30
+#, python-format
 msgid ""
 "You're using %(name)s %(current)s although it's not supported by the Web GIS."
 " It's an outdated version lacking required features. Contact your system "
@@ -528,66 +533,74 @@ msgstr "Неизвестен браузър"
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
 msgstr "Ако използвате актуализиран браузър, Уеб GIS трябва да работи нормално."
 
-#: tomb/config.py:95
+#: tomb/config.py:98
 msgid "Parameter required"
 msgstr ""
 
-#: tomb/config.py:96
+#: tomb/config.py:99
 msgid "The '{}' query parameter is required."
 msgstr ""
 
-#: tomb/config.py:98
+#: tomb/config.py:101
 msgid "Invalid parameter"
 msgstr ""
 
-#: tomb/config.py:99
+#: tomb/config.py:102
 msgid "The '{}' query parameter has an invalid value."
 msgstr ""
 
-#: view.py:167
+#: tomb/exception.py:7
+msgid "Malformed JSON body"
+msgstr ""
+
+#: tomb/exception.py:8
+msgid "The JSON body of the request is malformed or invalid."
+msgstr ""
+
+#: view.py:188
 msgid "HTTP API documentation"
 msgstr ""
 
-#: view.py:232 view.py:643
+#: view.py:254 view.py:665
 msgid "System information"
 msgstr "Системна информация"
 
-#: view.py:242 view.py:649
+#: view.py:264 view.py:671
 msgid "Font management"
 msgstr ""
 
-#: view.py:251 view.py:686
+#: view.py:273 view.py:708
 msgid "Storage"
 msgstr "Памет"
 
-#: view.py:265 view.py:693
+#: view.py:287 view.py:715
 msgid "Backups"
 msgstr "Резервни копия"
 
-#: view.py:293 view.py:661
+#: view.py:315 view.py:683
 msgid "Custom CSS"
 msgstr "Персонализиран CSS"
 
-#: view.py:302 view.py:667
+#: view.py:324 view.py:689
 msgid "Custom logo"
 msgstr "Персонализирано лого"
 
-#: view.py:311 view.py:655
+#: view.py:333 view.py:677
 msgid "Web GIS name"
 msgstr "Име на Уеб GIS"
 
-#: view.py:320 view.py:673
+#: view.py:342 view.py:695
 msgid "Home path"
 msgstr "Начална страница"
 
-#: view.py:329 view.py:679
+#: view.py:351 view.py:701
 msgid "Metrics and analytics"
 msgstr ""
 
-#: view.py:623
+#: view.py:645
 msgid "Info"
 msgstr "Информация"
 
-#: view.py:624
+#: view.py:646
 msgid "Settings"
 msgstr "Настройки"

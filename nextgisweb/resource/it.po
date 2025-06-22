@@ -31,6 +31,7 @@ msgid "Resource not found"
 msgstr "Risorsa non trovata"
 
 #: exception.py:8
+#, python-format
 msgid "Resource with id = %d was not found."
 msgstr "La risorsa con id = %d non è stata trovata."
 
@@ -62,6 +63,7 @@ msgid "Resource display name is not unique"
 msgstr "Il nome visualizzato della risorsa non è univoco"
 
 #: exception.py:46
+#, python-format
 msgid "Resource with same display name already exists (id = %d)."
 msgstr "È già presente una risorsa con lo stesso nome visualizzato (id = %d)."
 
@@ -83,6 +85,7 @@ msgid "Root resource could not be deleted."
 msgstr "Impossibile eliminare le risorse di base."
 
 #: exception.py:67
+#, python-format
 msgid "Resource class '%s' disabled."
 msgstr "Classe della risorsa '%s' disabilitata."
 
@@ -91,6 +94,7 @@ msgid "Quota exceeded"
 msgstr ""
 
 #: exception.py:82
+#, python-format
 msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Numero massimo di risorse superato. Il limite è %s."
 
@@ -143,10 +147,12 @@ msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
 #: model.py:475
+#, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Non sei abilitato alla gestione dei figli della risorsa con id = %d."
 
 #: model.py:487
+#, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "La risorsa non può essere figlia della risorsa con id = %d."
 
@@ -537,12 +543,12 @@ msgstr ""
 #: scope.py:14
 msgctxt "permission"
 msgid "Read"
-msgstr "Lettura"
+msgstr ""
 
 #: scope.py:15
 msgctxt "permission"
 msgid "Create"
-msgstr "Creazione"
+msgstr ""
 
 #: scope.py:16
 msgctxt "permission"
@@ -552,7 +558,7 @@ msgstr ""
 #: scope.py:17
 msgctxt "permission"
 msgid "Delete"
-msgstr "Eliminazione"
+msgstr ""
 
 #: scope.py:18
 msgctxt "permission"
@@ -628,6 +634,7 @@ msgid "Resource export"
 msgstr ""
 
 #: view.py:386
+#, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Permessi '%s' insufficienti nell'ambito '%s' per la risorsa con id = %d."
 

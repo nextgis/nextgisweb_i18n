@@ -159,7 +159,7 @@ msgstr "Nie udało się usunąć."
 #: nodepkg/edi-table/EdiTableKeyValue.tsx:11
 #, jsrealm
 msgid "Type here to add a new item..."
-msgstr ""
+msgstr "Wpisz tutaj, aby dodać nowy element..."
 
 #: nodepkg/edi-table/EdiTableKeyValue.tsx:42
 #, jsrealm
