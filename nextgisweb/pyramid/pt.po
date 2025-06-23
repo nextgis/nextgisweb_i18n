@@ -461,6 +461,7 @@ msgid "Browser compatibility test"
 msgstr ""
 
 #: template/uacompat.mako:22
+#, python-format
 msgid "%(name)s %(current)s supported"
 msgstr ""
 
@@ -471,10 +472,12 @@ msgid ""
 msgstr ""
 
 #: template/uacompat.mako:26
+#, python-format
 msgid "%(name)s not supported"
 msgstr ""
 
 #: template/uacompat.mako:27
+#, python-format
 msgid ""
 "You're using %(name)s although it's not supported by the Web GIS. It's an "
 "outdated browser lacking required features. Try a different browser or "
@@ -482,10 +485,12 @@ msgid ""
 msgstr ""
 
 #: template/uacompat.mako:29
+#, python-format
 msgid "%(name)s %(current)s not supported"
 msgstr ""
 
 #: template/uacompat.mako:30
+#, python-format
 msgid ""
 "You're using %(name)s %(current)s although it's not supported by the Web GIS."
 " It's an outdated version lacking required features. Contact your system "

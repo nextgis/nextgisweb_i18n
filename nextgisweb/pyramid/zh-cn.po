@@ -452,6 +452,7 @@ msgid "Browser compatibility test"
 msgstr "浏览器的兼容性测试"
 
 #: template/uacompat.mako:22
+#, python-format
 msgid "%(name)s %(current)s supported"
 msgstr "支持%(name)s %(current)s "
 
@@ -462,10 +463,12 @@ msgid ""
 msgstr "Web GIS浏览器的兼容性测试已通过！Web GIS应该会正常工作。"
 
 #: template/uacompat.mako:26
+#, python-format
 msgid "%(name)s not supported"
 msgstr "不支持%(name)s"
 
 #: template/uacompat.mako:27
+#, python-format
 msgid ""
 "You're using %(name)s although it's not supported by the Web GIS. It's an "
 "outdated browser lacking required features. Try a different browser or "
@@ -475,10 +478,12 @@ msgstr ""
 "如果其他浏览器不可用，请尝试使用其他浏览器或与系统管理员联系。"
 
 #: template/uacompat.mako:29
+#, python-format
 msgid "%(name)s %(current)s not supported"
 msgstr "不支持%(name)s %(current)s"
 
 #: template/uacompat.mako:30
+#, python-format
 msgid ""
 "You're using %(name)s %(current)s although it's not supported by the Web GIS."
 " It's an outdated version lacking required features. Contact your system "
