@@ -1,82 +1,102 @@
-#: component.py:13
-#, server
+#: api_import.py:26
+msgid "Invalid ZIP archive."
+msgstr "Nieprawidłowe archiwum zip."
+
+#: api_import.py:55
+msgid "File '{}' isn't found in metadata."
+msgstr "Plik '{}' nie został znaleziony w metadanych."
+
+#: api_import.py:61
+msgid "Invalid feature ID for file '{}'."
+msgstr "Nieprawidłowy identyfikator obiektu dla pliku '{}'."
+
+#: api_import.py:68
+msgid "Invalid keyname for file '{}'."
+msgstr "Nieprawidłowa nazwa klucza dla pliku '{}'."
+
+#: api_import.py:74
+msgid "Invalid name for file '{}'."
+msgstr "Nieprawidłowa nazwa pliku '{}'."
+
+#: api_import.py:80
+msgid "Invalid MIME type for file '{}'."
+msgstr "Nieprawidłowy typ MIME pliku '{}'."
+
+#: api_import.py:87
+msgid "Invalid description for file '{}'."
+msgstr "Nieprawidłowy opis dla pliku '{}'."
+
+#: api_import.py:100
+msgid "Could not determine feature ID for file '{}'."
+msgstr "Nie można określić ID obiektu dla pliku '{}'."
+
+#: api_import.py:118
+msgid "File '{}' isn't found in the archive."
+msgstr "Plik '{}' nie został znaleziony w archiwum."
+
+#: component.py:14
 msgid "Feature attachments"
 msgstr "Załączniki obiektów"
 
 #: exception.py:7
-#, server
 msgid "Attachment not found"
 msgstr "Załącznik nieznaleziony"
 
 #: exception.py:8
-#, python-format, server
 msgid "Attachment with id = %d was not found in feature with id = %d."
 msgstr "Załącznik z id = %d nie został znaleziony w funkcji o id = %d."
 
 #: exception.py:9
-#, server
 msgid "The attachment may have been deleted or an error in the address."
 msgstr "Załącznik mógł zostać usunięty lub wystąpił błąd w adresie."
 
-#: nodepkg/attachment-bundle/ol-control/control.ts:22
-#: nodepkg/attachment-bundle/ol-control/control.ts:38
-#: nodepkg/attachment-bundle/plugin/plugin.ts:16
+#: nodepkg/attachment-bundle/ol-control/plugin.ts:10
+#: nodepkg/attachment-bundle/ol-control/plugin.ts:12
 #: nodepkg/attachment-editor/plugin.ts:8
 #: nodepkg/attachment-table-view/AttachmentTableView.tsx:23
-#, jsrealm
 msgid "Attachments"
 msgstr "Załącznik"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:34
-#, jsrealm
 msgid "Draw the geometry on the map to visualize the attachments to the objects"
 msgstr "Narysuj geometrię na mapie, aby zobaczyć załączniki do obiektów"
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:132
-#, jsrealm
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:131
 msgid "Object: "
 msgstr "Obiekt: "
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:141
-#, jsrealm
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:140
 msgid "Identify object"
 msgstr "Identyfikuj obiekt"
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:162
-#, jsrealm
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:161
 msgid "Attachments: "
 msgstr "Załączniki: "
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:189
-#, jsrealm
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:188
 msgid "No attachments"
 msgstr "Brak załączników"
 
-#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:255
-#, jsrealm
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:254
 msgid "Download all attachments"
 msgstr "Pobierz wszystkie załączniki"
 
-#: nodepkg/attachment-editor/AttachmentEditor.tsx:160
-#: nodepkg/attachment-table/AttachmentTable.tsx:45
-#, jsrealm
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:141
+#: nodepkg/attachment-table/AttachmentTable.tsx:41
 msgid "File name"
 msgstr "Nazwa pliku"
 
-#: nodepkg/attachment-editor/AttachmentEditor.tsx:166
-#: nodepkg/attachment-table/AttachmentTable.tsx:63
-#, jsrealm
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:147
+#: nodepkg/attachment-table/AttachmentTable.tsx:59
 msgid "Size"
 msgstr "Rozmiar"
 
-#: nodepkg/attachment-editor/AttachmentEditor.tsx:172
-#: nodepkg/attachment-table/AttachmentTable.tsx:78
-#, jsrealm
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:153
+#: nodepkg/attachment-table/AttachmentTable.tsx:74
 msgid "Description"
 msgstr "Opis przypisania funkcji"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:54
-#, jsrealm
 msgid ""
 "Use export to copy feature attachments between different layers or to create "
 "a backup. The resulting ZIP archive will contain all of the attachments put "
@@ -89,32 +109,26 @@ msgstr ""
 "zapisane w osobnym pliku JSON."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:64
-#, jsrealm
 msgid "Export attachments to ZIP archive"
 msgstr "Eksportuj załączniki do archiwum ZIP"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:82
-#, jsrealm
 msgid "Back to resource"
 msgstr "Powrót do zasobu"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:84
-#, jsrealm
 msgid "Close"
 msgstr "Zamknij"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:87
-#, jsrealm
 msgid "The archive has been successfully imported."
 msgstr "Archiwum zostało pomyślnie zaimportowane."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:89
-#, jsrealm
 msgid "Attachments imported - {i}, skipped - {s}."
 msgstr "Zaimportowanie załączników - {i}, pominięto - {s}."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:124
-#, jsrealm
 msgid ""
 "Upload a ZIP archive to batch append attachments to existing features. An "
 "archive must contain directories named after feature IDs. Each folder can "
@@ -125,91 +139,33 @@ msgstr ""
 "może zawierać jeden lub wiele załączników. Duplikaty zostaną pominięte."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:133
-#, jsrealm
 msgid "Delete existing attachments"
 msgstr "Usuń istniejące załączniki"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:158
-#, jsrealm
 msgid "Import attachments from ZIP archive"
 msgstr "Importuj załączniki z archiwum ZIP"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:170
-#, jsrealm
 msgid "Export"
 msgstr "Eksportuj"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:175
-#, jsrealm
 msgid "Import"
 msgstr "Importuj"
 
-#: nodepkg/attachment-table/AttachmentTable.tsx:55
-#, jsrealm
+#: nodepkg/attachment-table/AttachmentTable.tsx:51
 msgid "Unnamed"
 msgstr "Bez nazwy"
 
-#: nodepkg/attachment-table/AttachmentTable.tsx:72
-#, jsrealm
+#: nodepkg/attachment-table/AttachmentTable.tsx:68
 msgid "MIME type"
 msgstr "Typ MIME"
 
-#: nodepkg/image-thumbnail/component/CarouselRender.tsx:32
-#, jsrealm
+#: nodepkg/image-thumbnail/component/AttachmentPreviewToolbar.tsx:34
 msgid "Toggle panorama viewer"
 msgstr "Przełącz podgląd panoramy"
 
-#: nodepkg/image-thumbnail/component/CarouselSlide.tsx:70
-#, jsrealm
-msgid "Failed to upload image"
-msgstr "Nie udało się przesłać obrazu"
-
-#: util.py:26
-#, server
-msgid "Invalid ZIP archive."
-msgstr "Nieprawidłowe archiwum zip."
-
-#: util.py:55
-#, server
-msgid "File '{}' isn't found in metadata."
-msgstr "Plik '{}' nie został znaleziony w metadanych."
-
-#: util.py:61
-#, server
-msgid "Invalid feature ID for file '{}'."
-msgstr "Nieprawidłowy identyfikator obiektu dla pliku '{}'."
-
-#: util.py:68
-#, server
-msgid "Invalid keyname for file '{}'."
-msgstr "Nieprawidłowa nazwa klucza dla pliku '{}'."
-
-#: util.py:74
-#, server
-msgid "Invalid name for file '{}'."
-msgstr "Nieprawidłowa nazwa pliku '{}'."
-
-#: util.py:80
-#, server
-msgid "Invalid MIME type for file '{}'."
-msgstr "Nieprawidłowy typ MIME pliku '{}'."
-
-#: util.py:87
-#, server
-msgid "Invalid description for file '{}'."
-msgstr "Nieprawidłowy opis dla pliku '{}'."
-
-#: util.py:100
-#, server
-msgid "Could not determine feature ID for file '{}'."
-msgstr "Nie można określić ID obiektu dla pliku '{}'."
-
-#: util.py:118
-#, server
-msgid "File '{}' isn't found in the archive."
-msgstr "Plik '{}' nie został znaleziony w archiwum."
-
 #: view.py:21 view.py:45
-#, server
 msgid "Manage attachments"
 msgstr "Zarządzaj załącznikami"

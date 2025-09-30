@@ -1,36 +1,32 @@
-#: lockable_feature.py:94
-msgid "Field data collection"
-msgstr "现场数据收集"
-
-#: lockable_feature.py:102
+#: lockable_feature.py:103
 msgid "Use on other websites (CORS)"
 msgstr "在其他网站（CORS）上使用"
 
-#: lockable_feature.py:123
+#: lockable_feature.py:124
 msgid "Custom domain and branding"
 msgstr "自定义组织的域名和注册"
 
-#: lockable_feature.py:136
+#: lockable_feature.py:137
 msgid "Custom SRS"
 msgstr "自定义坐标系统"
 
-#: lockable_feature.py:148
+#: lockable_feature.py:150
 msgid "Improved performance"
 msgstr "改善性能"
 
-#: lockable_feature.py:155
+#: lockable_feature.py:157
 msgid "Access management"
 msgstr "访问管理权限设置"
 
-#: lockable_feature.py:228
+#: lockable_feature.py:229
 msgid "Technical support"
 msgstr "技术支持"
 
-#: lockable_feature.py:233
+#: lockable_feature.py:234
 msgid "On-demand backup restore"
 msgstr "按需备份还原"
 
-#: lockable_feature.py:254
+#: lockable_feature.py:255
 msgid "Tile caching"
 msgstr "瓦片缓存"
 
@@ -50,12 +46,8 @@ msgstr "不可用"
 msgid "Unlimited"
 msgstr "不限"
 
-#: nodepkg/include.ts:9 nodepkg/upgrade-button/UpgradeButton.tsx:49 view.py:17
-msgid "Plan and features"
-msgstr "计划和要素"
-
 #: nodepkg/plan-and-features/PlanAndFeatures.tsx:27
-#: nodepkg/upgrade-button/UpgradeButton.tsx:61
+#: nodepkg/upgrade-button/UpgradeButton.tsx:63
 msgid "Your plan — "
 msgstr "您的计划—"
 
@@ -68,33 +60,37 @@ msgstr "更换计划"
 msgid "More about plans"
 msgstr "更多关于计划"
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:27
+#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:51 view.py:15
+msgid "Plan and features"
+msgstr "计划和要素"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:30
 msgid "Easy start with QGIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:30
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:33
 msgid ""
 "Use the NextGIS Connect plugin for QGIS to upload your data and create "
 "interactive maps."
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:37
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:40
 msgid "Install the NextGIS Connect plugin for QGIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:41
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:45
 msgid "Connect the plugin to your Web GIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:43
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:48
 msgid "Upload your layers and projects to your Web GIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:60
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:65
 msgid "Learn more"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:68
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:73
 msgid "Hide"
 msgstr ""
 
@@ -106,31 +102,31 @@ msgstr "{} 要素在您的计划中不可用。"
 msgid "These features are not available on your plan:"
 msgstr ""
 
-#: nodepkg/upgrade-button/UpgradeButton.tsx:69
+#: nodepkg/upgrade-button/UpgradeButton.tsx:71
 msgid "Upgrade"
 msgstr "优化"
 
-#: service_plan.py:96
+#: service_plan.py:98
 msgid "Number of maps and layers"
 msgstr "地图和图层的数目"
 
-#: service_plan.py:97
+#: service_plan.py:99
 msgid "Storage limit"
 msgstr "存储限制"
 
-#: service_plan.py:98
+#: service_plan.py:100
 msgid "User limit"
 msgstr "用户限制"
 
-#: service_plan.py:105
+#: service_plan.py:108
 msgid "GPS trackers"
 msgstr "GPS追踪器"
 
-#: service_plan.py:118
+#: service_plan.py:122
 msgid "Maximum file upload"
 msgstr "上传文件的最大量"
 
-#: service_plan.py:119
+#: service_plan.py:123
 msgid "Maximum raster layer"
 msgstr "栅格图层的最大尺寸"
 

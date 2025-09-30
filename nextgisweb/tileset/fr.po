@@ -1,32 +1,36 @@
 #: model.py:87
 msgid "Tilesets"
-msgstr ""
+msgstr "Ensembles de tuiles"
 
 #: model.py:91
+#, python-brace-format
 msgid "Tile {} unsupported."
-msgstr ""
+msgstr "Tuile {} non prise en charge."
 
 #: model.py:126 nodepkg/resource-widget/Widget.tsx:34
 msgid "Tileset"
-msgstr ""
+msgstr "Jeu de tuiles"
 
 #: model.py:211
 msgid "Number of tiles"
-msgstr ""
+msgstr "Nombre de tuiles"
 
 #: model.py:213
 msgid "Zoom levels"
-msgstr ""
+msgstr "Niveaux de zoom"
 
 #: model.py:214
+#, python-brace-format
 msgid "From {min} to {max}"
 msgstr ""
 
 #: model.py:249
+#, python-brace-format
 msgid "Tiles '{}' and '{}' are located in different subdirectories."
 msgstr ""
 
 #: model.py:255
+#, python-brace-format
 msgid "Tiles '{}' and '{}' have different extensions."
 msgstr ""
 
@@ -40,7 +44,7 @@ msgstr ""
 
 #: model.py:378
 msgid "No tiles found in source."
-msgstr ""
+msgstr "Aucune tuile trouvée dans la source."
 
 #: nodepkg/resource-widget/Widget.tsx:12
 msgid "Select a tileset"

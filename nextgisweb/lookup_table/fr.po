@@ -4,33 +4,35 @@ msgstr "Tableau de référence"
 
 #: nodepkg/component/lookup-select/LookupSelect.tsx:48
 msgid "Loading..."
-msgstr ""
+msgstr "Chargement..."
 
 #: nodepkg/editor/EditorWidget.tsx:31
 msgid "Export"
-msgstr ""
+msgstr "Exporter"
 
 #: nodepkg/editor/EditorWidget.tsx:32
 msgid "Import"
-msgstr ""
+msgstr "Importer"
 
 #: nodepkg/editor/EditorWidget.tsx:33
 msgid "Sort order"
-msgstr ""
+msgstr "Ordre de tri"
 
 #: nodepkg/editor/EditorWidget.tsx:34
 msgid "Resort rows"
-msgstr ""
+msgstr "Rangées de stations balnéaires"
 
 #: nodepkg/editor/EditorWidget.tsx:35
 msgid "Clear"
-msgstr ""
+msgstr "Clair"
 
 #: nodepkg/editor/EditorWidget.tsx:38
 msgid ""
 "All existing records will be deleted after import. Are you sure you want to "
 "proceed?"
 msgstr ""
+"Tous les enregistrements existants seront supprimés après l'importation. "
+"Voulez-vous vraiment continuer ?"
 
 #: nodepkg/editor/EditorWidget.tsx:45
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:23
@@ -44,19 +46,19 @@ msgstr "Valeur"
 
 #: nodepkg/editor/EditorWidget.tsx:61
 msgid "Key, ascending"
-msgstr ""
+msgstr "Clé, ascendante"
 
 #: nodepkg/editor/EditorWidget.tsx:62
 msgid "Key, descending"
-msgstr ""
+msgstr "Clé, décroissante"
 
 #: nodepkg/editor/EditorWidget.tsx:63
 msgid "Value, ascending"
-msgstr ""
+msgstr "Valeur, croissante"
 
 #: nodepkg/editor/EditorWidget.tsx:64
 msgid "Value, descending"
-msgstr ""
+msgstr "Valeur, décroissante"
 
 #: nodepkg/editor/EditorWidget.tsx:65
 msgid "Custom"

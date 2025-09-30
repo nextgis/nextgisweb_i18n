@@ -8,7 +8,7 @@ msgstr "Couche WFS"
 
 #: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:26
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:32
 msgid "Username"
@@ -24,7 +24,7 @@ msgstr "Version"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerStore.ts:23
 msgid "Fields need to be updated due to autodetection"
-msgstr ""
+msgstr "Les champs doivent être mis à jour en raison de la détection automatique"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:20
 msgid "Autodetect"
@@ -56,11 +56,11 @@ msgstr "Multipolygone"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:89
 msgid "Keep existing definitions untouched"
-msgstr ""
+msgstr "Conserver les définitions existantes intactes"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:90
 msgid "Update definitions from the server"
-msgstr ""
+msgstr "Mettre à jour les définitions depuis le serveur"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:168
 msgid "Connection"
@@ -72,7 +72,7 @@ msgstr "Couche"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:195
 msgid "SRID"
-msgstr ""
+msgstr "SRID"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:203
 msgid "Geometry column"

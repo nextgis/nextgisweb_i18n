@@ -179,7 +179,7 @@ msgid "Create empty layer"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:161
-msgid "Keep existing layer features"
+msgid "Keep existing features"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:162
@@ -187,11 +187,11 @@ msgid "Change geometry type"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:163
-msgid "Replace layer features from file"
+msgid "Replace features from file"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:164
-msgid "Delete all features from layer"
+msgid "Delete all features"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:180
@@ -210,7 +210,7 @@ msgstr "Erweiterte Optionen"
 msgid "Could not determine a geometry type."
 msgstr "Geometrietyp wurde nicht ermittelt."
 
-#: ogrloader.py:313
+#: ogrloader.py:314
 msgid "Source layer contains no features satisfying the conditions."
 msgstr "Der Layer enthält keine Objekte, die die Bedingungen erfüllen."
 
@@ -242,13 +242,13 @@ msgstr ""
 msgid "Unsupported field type: %r."
 msgstr "Nicht unterstützter Feldtyp: %r."
 
-#: ogrloader.py:415
+#: ogrloader.py:416
 msgid ""
 "The source layer has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
 
-#: ogrloader.py:498
+#: ogrloader.py:499
 msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
@@ -286,7 +286,7 @@ msgstr ""
 msgid "Feature #%d has unclosed rings."
 msgstr "Das Objekt #%d enthält nicht geschlossene Ringe."
 
-#: ogrloader.py:698
+#: ogrloader.py:699
 msgid "Feature #%d has less than 3 points in a polygon ring."
 msgstr "Das Objekt #%d enthält weniger als 3 Punkte in dem Polygonring."
 

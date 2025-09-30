@@ -12,11 +12,11 @@ msgstr "Nom de clé"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Features per request"
-msgstr ""
+msgstr "Fonctionnalités sur demande"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Not set"
-msgstr ""
+msgstr "Non défini"
 
 #: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"

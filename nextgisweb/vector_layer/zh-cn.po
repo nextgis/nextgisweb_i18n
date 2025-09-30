@@ -179,7 +179,7 @@ msgid "Create empty layer"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:161
-msgid "Keep existing layer features"
+msgid "Keep existing features"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:162
@@ -187,11 +187,11 @@ msgid "Change geometry type"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:163
-msgid "Replace layer features from file"
+msgid "Replace features from file"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:164
-msgid "Delete all features from layer"
+msgid "Delete all features"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:180
@@ -210,7 +210,7 @@ msgstr "高级选项"
 msgid "Could not determine a geometry type."
 msgstr "无法确定几何类型。"
 
-#: ogrloader.py:313
+#: ogrloader.py:314
 msgid "Source layer contains no features satisfying the conditions."
 msgstr "源图层不包括符合条件的要素。"
 
@@ -242,13 +242,13 @@ msgstr "字段'%s(?)'编码被破坏。"
 msgid "Unsupported field type: %r."
 msgstr "不支持字段名：%r"
 
-#: ogrloader.py:415
+#: ogrloader.py:416
 msgid ""
 "The source layer has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
 
-#: ogrloader.py:498
+#: ogrloader.py:499
 msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
@@ -286,7 +286,7 @@ msgstr ""
 msgid "Feature #%d has unclosed rings."
 msgstr "要素#%d包括未闭合的环"
 
-#: ogrloader.py:698
+#: ogrloader.py:699
 msgid "Feature #%d has less than 3 points in a polygon ring."
 msgstr "要素#%d在多边形环中有少于3个点。"
 

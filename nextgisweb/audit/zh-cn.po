@@ -3,6 +3,7 @@ msgid "Audit backend not enabled"
 msgstr ""
 
 #: backend/base.py:37
+#, python-brace-format
 msgid "The '{}' audit backend is not configured on this server."
 msgstr ""
 
@@ -27,16 +28,19 @@ msgid "Context"
 msgstr "语境"
 
 #: nodepkg/journal/Journal.js:158
+#, python-brace-format
 msgid "Last {} minute"
 msgid_plural "Last {} minutes"
 msgstr[0] ""
 
 #: nodepkg/journal/Journal.js:160
+#, python-brace-format
 msgid "Last {} hour"
 msgid_plural "Last {} hours"
 msgstr[0] ""
 
 #: nodepkg/journal/Journal.js:162
+#, python-brace-format
 msgid "Last {} day"
 msgid_plural "Last {} days"
 msgstr[0] ""

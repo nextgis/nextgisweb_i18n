@@ -1,20 +1,22 @@
-#: api.py:107 api_identify.py:27
+#: api.py:109 api_identify.py:27
 msgid "Geometry is not valid."
 msgstr "Geometria jest nieprawidłowa."
 
-#: api.py:365
+#: api.py:367
 msgid "Unknown spatial reference system"
 msgstr "Nieznany układ odniesienia przestrzennego"
 
-#: api.py:440 api_export.py:206
+#: api.py:442 api_export.py:206
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "Geometria parametru 'intersects' jest nieprawidłowa."
 
 #: api_export.py:110
+#, python-brace-format
 msgid "Couldn't add FID field '{}'. Such field already exists."
 msgstr "Nie można dodać pola FID '{}. Takie pole już istnieje."
 
-#: api_export.py:245
+#: api_export.py:246
+#, python-brace-format
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr "Limit eksportu to {limit} obiektów, ale warstwa zawiera {count}."
 
@@ -22,39 +24,38 @@ msgstr "Limit eksportu to {limit} obiektów, ale warstwa zawiera {count}."
 msgid "Failed to reproject 'intersects' geometry."
 msgstr "Nie udało się przekształcić geometrii 'intersects'."
 
-#: api_export.py:428
+#: api_export.py:424
+#, python-brace-format
 msgid "File name parameter '{}' is not valid."
 msgstr "Parametr nazwy pliku '{}' jest nieprawidłowy."
 
-#: biutil.py:25
-msgid "Got an invalid BIGINT value: {}."
-msgstr ""
-
-#: biutil.py:26
-msgid "The value must be within the inclusive range of {min} to {max}."
-msgstr ""
-
 #: dtutil.py:28
+#, python-brace-format
 msgid "Got an invalid date-time value in the legacy format: {}."
-msgstr ""
+msgstr "Nieprawidłowa wartość daty i czasu w przestarzałym formacie: {}."
 
 #: dtutil.py:29
 msgid "Please use dt_format=iso and ISO-8601 based format."
-msgstr ""
+msgstr "Użyj dt_format=iso do formatu zgodnego z ISO-8601."
 
 #: dtutil.py:37
+#, python-brace-format
 msgid "Got an invalid date-time value in ISO-8601 format: {}."
-msgstr ""
+msgstr "Nieprawidłowa wartość daty i czasu w formacie ISO-8601: {}."
 
 #: dtutil.py:38
+#, python-brace-format
 msgid "Value should be in RFC 3339 {} format without timezone and leap seconds."
 msgstr ""
+"Wartość powinna być w formacie RFC 3339 {} bez strefy czasowej i sekund "
+"przestępnych."
 
 #: exception.py:7
 msgid "Feature not found"
 msgstr "Nie znaleziono funckji"
 
 #: exception.py:8
+#, python-format
 msgid "Feature with id = %d was not found in resource with id = %d."
 msgstr ""
 "Funkcja o identyfikatorze = %d nie została znaleziona w zasobie o "
@@ -69,14 +70,16 @@ msgid "Feature not deleted"
 msgstr "Obiekt nie został usunięty"
 
 #: exception.py:21
+#, python-brace-format
 msgid "Unable to restore the #{} feature as it is not deleted."
 msgstr "Nie można przywrócić obiektu #{} ponieważ nie został usunięty."
 
-#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:24 view.py:39
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:26 view.py:39
 msgid "Feature table"
 msgstr "Tabela atrybutów"
 
 #: model.py:172
+#, python-format
 msgid "Field not found (ID=%d)."
 msgstr "Nie znaleziono pola (ID=%d)."
 
@@ -121,7 +124,7 @@ msgid "Use field display names instead of keynames"
 msgstr "Używaj nazw pól zamiast nazw kluczy"
 
 #: nodepkg/export-form/ExportForm.tsx:267
-#: nodepkg/fields-widget/FieldsWidget.tsx:166
+#: nodepkg/fields-widget/FieldsWidget.tsx:213
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:51
 msgid "Fields"
 msgstr "Pola"
@@ -139,7 +142,7 @@ msgid "Zip archive"
 msgstr "Archiwum plików ZIP"
 
 #: nodepkg/export-form/ExportForm.tsx:326
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:39
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
 msgid "Save"
 msgstr "Zapisz"
 
@@ -155,55 +158,59 @@ msgstr "Czy na pewno?"
 msgid "Unsaved changes will be lost if you close the window."
 msgstr "Niezapisane zmiany zostaną utracone po zamknięciu okna."
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:38
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
 msgid "Loading..."
 msgstr "Ładowanie..."
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:42
 msgid "OK"
 msgstr "OK"
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
 msgid "Reset"
 msgstr "Resetuj"
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:45
 msgid "Feature saved"
 msgstr "Obiekt zapisany"
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:44
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:46
 msgid "No changes to save"
 msgstr "Brak zmian do zapisania"
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:22
+#: nodepkg/feature-grid/FeatureGrid.tsx:24
 msgid "Open table settings"
 msgstr "Otwórz ustawienia tabeli"
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:23
+#: nodepkg/feature-grid/FeatureGrid.tsx:25
 msgid "Refresh table"
 msgstr "Odśwież tabelę"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:26
+#: nodepkg/feature-grid/FeatureGridActions.tsx:31
 msgid "Open"
 msgstr "Otwórz"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+#: nodepkg/feature-grid/FeatureGridActions.tsx:32
 msgid "Open on a new page"
 msgstr "Otwórz na nowej stronie"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:28
+#: nodepkg/feature-grid/FeatureGridActions.tsx:33
 msgid "Delete"
 msgstr "Usuń"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:29
+#: nodepkg/feature-grid/FeatureGridActions.tsx:34
 msgid "Edit"
 msgstr "Edytuj warstwę"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:30
+#: nodepkg/feature-grid/FeatureGridActions.tsx:35
 msgid "Edit on a new page"
 msgstr "Edytuj na nowej stronie"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:32
+#: nodepkg/feature-grid/FeatureGridActions.tsx:36
+msgid "Create"
+msgstr ""
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:38
 msgid "Search..."
 msgstr "Szukaj..."
 
@@ -229,44 +236,66 @@ msgstr "Szybki eksport"
 msgid "Filters are applied"
 msgstr "Zastosowano filtry"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:20
+#: nodepkg/fields-widget/FieldsWidget.tsx:22
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:31
 msgid "Display name"
 msgstr "Nazwa wyświetlana"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:21
+#: nodepkg/fields-widget/FieldsWidget.tsx:23
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:19
 msgid "Keyname"
 msgstr "Klucz właściwości warstwy"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:22
+#: nodepkg/fields-widget/FieldsWidget.tsx:24
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:25
 msgid "Type"
 msgstr "Rodzaj"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:23
+#: nodepkg/fields-widget/FieldsWidget.tsx:25
 msgid "Lookup table"
 msgstr "Tabela wyszukiwania"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:25
+#: nodepkg/fields-widget/FieldsWidget.tsx:27
 msgid "Text search"
 msgstr "Wyszukiwanie tekstowe"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:26
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
 msgid "Label attribute"
 msgstr "Właściwości etykiety"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:28
+#: nodepkg/fields-widget/FieldsWidget.tsx:30
 msgid "Please select"
 msgstr "Proszę wybrać"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:29
+#: nodepkg/fields-widget/FieldsWidget.tsx:31
 msgid "Not used"
 msgstr "Nieużywane"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:113
+#: nodepkg/fields-widget/FieldsWidget.tsx:97
+msgid "Delete field?"
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:98
+msgid ""
+"Deleting this field will permanently erase all its version history from this "
+"layer."
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:123
 msgid "Field"
 msgstr "Pole"
+
+#: nodepkg/geometry-editor/GeometryEditor.tsx:145
+msgid "Clear"
+msgstr ""
+
+#: nodepkg/geometry-editor/plugin.ts:10
+msgid "Geometry"
+msgstr ""
+
+#: nodepkg/geometry-editor/util/component/ZoomToResourceBtn.tsx:36
+msgid "Zoom to layer extent"
+msgstr ""
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:46
 msgid "Load geometry info..."
@@ -326,6 +355,21 @@ msgstr "Wyłączenie wersjonowania usunie historię i zachowa tylko najnowszy st
 msgid "Settings"
 msgstr "Ustawienia"
 
+#: numutil.py:28
+#, python-brace-format
+msgid "The value must be within the inclusive range of {min} to {max}."
+msgstr "Wartość musi zawierać się w przedziale od {min} do {max}."
+
+#: numutil.py:43
+#, python-brace-format
+msgid "Got an invalid INTEGER value: {}."
+msgstr ""
+
+#: numutil.py:49
+#, python-brace-format
+msgid "Got an invalid BIGINT value: {}."
+msgstr "Nieprawidłowa wartość BIGINT: {}."
+
 #: transaction/exception.py:7
 msgid "Transaction not found"
 msgstr "Transakcja nie znaleziona"
@@ -342,7 +386,7 @@ msgstr "Transakcja nie została znaleziona"
 msgid "Not implemented for feature versioning"
 msgstr "Niezaimplementowane dla wersjonowania obiektów"
 
-#: versioning/exception.py:18
+#: versioning/exception.py:19
 msgid ""
 "This operation cannot be performed on a resource with feature versioning "
 "enabled. Disable feature versioning for the resource first, and then try "
@@ -380,6 +424,7 @@ msgid "Invalid range"
 msgstr "Nieprawidłowy zakres"
 
 #: view.py:55 view.py:70
+#, python-format
 msgid "Feature #%d"
 msgstr "Funkcja #%d"
 
@@ -387,7 +432,7 @@ msgstr "Funkcja #%d"
 msgid "MVT Vector Tiles"
 msgstr "Mapbox Vector Tiles"
 
-#: view.py:100
+#: view.py:101
 msgid ""
 "The Mapbox Vector Tile is an efficient encoding for map data into vector "
 "tiles that can be rendered dynamically."

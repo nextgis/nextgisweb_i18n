@@ -1,30 +1,43 @@
-#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:130 view.py:17
+#: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:127 view.py:17
 msgid "WMS service"
 msgstr "WMS服务"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:30
+#: nodepkg/service-widget/ServiceWidget.tsx:27
 msgid "Display name"
 msgstr "显示名称"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:35
+#: nodepkg/service-widget/ServiceWidget.tsx:32
 msgid "Keyname"
 msgstr "键名"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:40
+#: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Min scale"
 msgstr "最小比例"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:45
+#: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Max scale"
 msgstr "最大比例"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:50
+#: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"
 msgstr "资源"
 
-#: view.py:18
+#: view.py:19
 msgid ""
 "Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
-" Consortium for serving georeferenced map images. These images are typically "
-"produced by a map server from data provided by a GIS database."
-msgstr "Web地图服务（WMS）是开放地理空间联盟开发的,用于提供地理参考地图图像的标准协议。 这些图像通常由地图映射服务器，根据GIS数据库提供的数据生成。"
+" Consortium for serving dynamically rendered, georeferenced map images. These"
+" images are generated on demand, allowing flexible styling and query "
+"capabilities."
+msgstr ""
+
+#: view.py:38
+msgid ""
+"Web Map Tile Service (WMTS) is a standard protocol developed by the Open "
+"Geospatial Consortium for serving georeferenced map tiles. These tiles are "
+"retrieved from a server in fixed sizes and zoom levels, enabling fast and "
+"efficient display of maps."
+msgstr ""
+
+#: view.py:46 view.py:62
+msgid "WMTS service"
+msgstr ""

@@ -1,12 +1,12 @@
-#: api.py:107 api_identify.py:27
+#: api.py:109 api_identify.py:27
 msgid "Geometry is not valid."
 msgstr "La geometría no es válida."
 
-#: api.py:365
+#: api.py:367
 msgid "Unknown spatial reference system"
 msgstr ""
 
-#: api.py:440 api_export.py:206
+#: api.py:442 api_export.py:206
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "El parámetro 'intersects' de la geometría no es válido."
 
@@ -14,7 +14,7 @@ msgstr "El parámetro 'intersects' de la geometría no es válido."
 msgid "Couldn't add FID field '{}'. Such field already exists."
 msgstr ""
 
-#: api_export.py:245
+#: api_export.py:246
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
 "El límite de exportación está establecido en {limit} entidades, pero la capa "
@@ -24,17 +24,9 @@ msgstr ""
 msgid "Failed to reproject 'intersects' geometry."
 msgstr "No se pudo reproyectar la geometría de 'intersección'."
 
-#: api_export.py:428
+#: api_export.py:424
 msgid "File name parameter '{}' is not valid."
 msgstr "El parámetro de nombre de archivo '{}' no es válido."
-
-#: biutil.py:25
-msgid "Got an invalid BIGINT value: {}."
-msgstr ""
-
-#: biutil.py:26
-msgid "The value must be within the inclusive range of {min} to {max}."
-msgstr ""
 
 #: dtutil.py:28
 msgid "Got an invalid date-time value in the legacy format: {}."
@@ -74,7 +66,7 @@ msgstr ""
 msgid "Unable to restore the #{} feature as it is not deleted."
 msgstr ""
 
-#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:24 view.py:39
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:26 view.py:39
 msgid "Feature table"
 msgstr "Tabla de objetos geográficos"
 
@@ -123,7 +115,7 @@ msgid "Use field display names instead of keynames"
 msgstr "Utilice nombres para mostrar en lugar de nombres clave"
 
 #: nodepkg/export-form/ExportForm.tsx:267
-#: nodepkg/fields-widget/FieldsWidget.tsx:166
+#: nodepkg/fields-widget/FieldsWidget.tsx:213
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:51
 msgid "Fields"
 msgstr "Campos"
@@ -141,7 +133,7 @@ msgid "Zip archive"
 msgstr "Archivo zip"
 
 #: nodepkg/export-form/ExportForm.tsx:326
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:39
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
 msgid "Save"
 msgstr "Guardar"
 
@@ -157,55 +149,59 @@ msgstr ""
 msgid "Unsaved changes will be lost if you close the window."
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:38
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
 msgid "Loading..."
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:42
 msgid "OK"
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
 msgid "Reset"
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:45
 msgid "Feature saved"
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:44
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:46
 msgid "No changes to save"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:22
+#: nodepkg/feature-grid/FeatureGrid.tsx:24
 msgid "Open table settings"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:23
+#: nodepkg/feature-grid/FeatureGrid.tsx:25
 msgid "Refresh table"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:26
+#: nodepkg/feature-grid/FeatureGridActions.tsx:31
 msgid "Open"
 msgstr "Abrir"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+#: nodepkg/feature-grid/FeatureGridActions.tsx:32
 msgid "Open on a new page"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:28
+#: nodepkg/feature-grid/FeatureGridActions.tsx:33
 msgid "Delete"
 msgstr "Eliminar"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:29
+#: nodepkg/feature-grid/FeatureGridActions.tsx:34
 msgid "Edit"
 msgstr "Editar"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:30
+#: nodepkg/feature-grid/FeatureGridActions.tsx:35
 msgid "Edit on a new page"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:32
+#: nodepkg/feature-grid/FeatureGridActions.tsx:36
+msgid "Create"
+msgstr ""
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:38
 msgid "Search..."
 msgstr "Buscando..."
 
@@ -231,43 +227,65 @@ msgstr ""
 msgid "Filters are applied"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:20
+#: nodepkg/fields-widget/FieldsWidget.tsx:22
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:31
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:21
+#: nodepkg/fields-widget/FieldsWidget.tsx:23
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:19
 msgid "Keyname"
 msgstr "Nombre clave"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:22
+#: nodepkg/fields-widget/FieldsWidget.tsx:24
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:25
 msgid "Type"
 msgstr "Tipo"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:23
+#: nodepkg/fields-widget/FieldsWidget.tsx:25
 msgid "Lookup table"
 msgstr "Tabla de búsqueda"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:25
+#: nodepkg/fields-widget/FieldsWidget.tsx:27
 msgid "Text search"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:26
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
 msgid "Label attribute"
 msgstr "Atributo de etiqueta"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:28
+#: nodepkg/fields-widget/FieldsWidget.tsx:30
 msgid "Please select"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:29
+#: nodepkg/fields-widget/FieldsWidget.tsx:31
 msgid "Not used"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:113
+#: nodepkg/fields-widget/FieldsWidget.tsx:97
+msgid "Delete field?"
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:98
+msgid ""
+"Deleting this field will permanently erase all its version history from this "
+"layer."
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:123
 msgid "Field"
+msgstr ""
+
+#: nodepkg/geometry-editor/GeometryEditor.tsx:145
+msgid "Clear"
+msgstr ""
+
+#: nodepkg/geometry-editor/plugin.ts:10
+msgid "Geometry"
+msgstr ""
+
+#: nodepkg/geometry-editor/util/component/ZoomToResourceBtn.tsx:36
+msgid "Zoom to layer extent"
 msgstr ""
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:46
@@ -328,6 +346,18 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+#: numutil.py:28
+msgid "The value must be within the inclusive range of {min} to {max}."
+msgstr ""
+
+#: numutil.py:43
+msgid "Got an invalid INTEGER value: {}."
+msgstr ""
+
+#: numutil.py:49
+msgid "Got an invalid BIGINT value: {}."
+msgstr ""
+
 #: transaction/exception.py:7
 msgid "Transaction not found"
 msgstr ""
@@ -344,7 +374,7 @@ msgstr ""
 msgid "Not implemented for feature versioning"
 msgstr ""
 
-#: versioning/exception.py:18
+#: versioning/exception.py:19
 msgid ""
 "This operation cannot be performed on a resource with feature versioning "
 "enabled. Disable feature versioning for the resource first, and then try "
@@ -387,7 +417,7 @@ msgstr "Objeto geográfico #%d"
 msgid "MVT Vector Tiles"
 msgstr "MVT Teselas Vectoriales"
 
-#: view.py:100
+#: view.py:101
 msgid ""
 "The Mapbox Vector Tile is an efficient encoding for map data into vector "
 "tiles that can be rendered dynamically."

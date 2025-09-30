@@ -4,7 +4,7 @@ msgid "Audit backend not enabled"
 msgstr "System audytu nie został włączony"
 
 #: backend/base.py:37
-#, server
+#, python-brace-format, server
 msgid "The '{}' audit backend is not configured on this server."
 msgstr "System audytu '{}' nie został skonfigurowany na tym serwerze."
 
@@ -34,28 +34,28 @@ msgid "Context"
 msgstr "Kontekst"
 
 #: nodepkg/journal/Journal.tsx:187
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "Last {} minute"
 msgid_plural "Last {} minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ostatnia {} minuta"
+msgstr[1] "Ostatnie {} minuty"
+msgstr[2] "Ostatnich {} minut"
 
 #: nodepkg/journal/Journal.tsx:189
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "Last {} hour"
 msgid_plural "Last {} hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ostatnia {} godzina"
+msgstr[1] "Ostatnie {} godziny"
+msgstr[2] "Ostatnich {} godzin"
 
 #: nodepkg/journal/Journal.tsx:191
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "Last {} day"
 msgid_plural "Last {} days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ostatni {} dzień"
+msgstr[1] "Ostatnie {} dni"
+msgstr[2] "Ostatnich {} dni"
 
 #: nodepkg/journal/Journal.tsx:338
 #, jsrealm

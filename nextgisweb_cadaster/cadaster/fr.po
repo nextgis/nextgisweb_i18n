@@ -1,66 +1,80 @@
 #: api/exceptions.py:11
 msgid "The Geoservices API unknown error"
-msgstr ""
+msgstr "Erreur inconnue de l'API Geoservices"
 
 #: api/exceptions.py:12
 msgid "The Geoservices API: unknown error"
-msgstr ""
+msgstr "L'API Geoservices : erreur inconnue"
 
 #: api/exceptions.py:16
 msgid "The Geoservices API timeout error"
-msgstr ""
+msgstr "L'erreur de délai d'expiration de l'API Geoservices"
 
 #: api/exceptions.py:17
 msgid "The Geoservices API is currently unavailable due to a timeout error"
 msgstr ""
+"L'API Geoservices est actuellement indisponible en raison d'une erreur de "
+"délai d'attente"
 
 #: api/exceptions.py:21
 msgid "The Geoservices API parsing error"
-msgstr ""
+msgstr "L'erreur d'analyse de l'API Geoservices"
 
 #: api/exceptions.py:22
 msgid "The Geoservices API failed to parse the JSON data returned by the PKK service"
 msgstr ""
+"L'API Geoservices n'a pas réussi à analyser les données JSON renvoyées par le"
+" service PKK"
 
 #: api/exceptions.py:28
 msgid "The Geoservices API error"
-msgstr ""
+msgstr "L'erreur de l'API Geoservices"
 
 #: api/exceptions.py:29
 msgid ""
 "NextGIS Geoservices encountered an internal error or the PKK service is "
 "currently unavailable"
 msgstr ""
+"NextGIS Geoservices a rencontré une erreur interne ou le service PKK est "
+"actuellement indisponible"
 
 #: api/exceptions.py:35
 msgid "The NextGIS Geoservices is currently unavailable"
-msgstr ""
+msgstr "Les géoservices NextGIS ne sont actuellement pas disponibles"
 
 #: api/exceptions.py:44
 msgid "The Geoservices API: The request for attribute retrieval ended in failure"
 msgstr ""
+"API Geoservices : la demande de récupération d'attributs s'est soldée par un "
+"échec"
 
 #: api/exceptions.py:53
 msgid ""
 "The Geoservices API: The 'extent' field is not present in the received "
 "attributes"
 msgstr ""
+"API Geoservices : le champ « extent » n'est pas présent dans les attributs "
+"reçus"
 
 #: api/exceptions.py:64
 msgid "The Geoservices API: The object geometry retrieval request failed"
 msgstr ""
+"API Geoservices : la demande de récupération de la géométrie de l'objet a "
+"échoué"
 
 #: api/exceptions.py:73
 msgid "The Geoservices API: Unable to create the feature based on previous requests"
 msgstr ""
+"L'API Geoservices : impossible de créer la fonctionnalité basée sur les "
+"requêtes précédentes"
 
 #: api/exceptions.py:79
 msgid "The Geoservices API: Plot not found"
-msgstr ""
+msgstr "API Geoservices : parcelle non trouvée"
 
 #: api/geoservices.py:50
 msgid "'Cadaster services' module is disabled!"
-msgstr ""
+msgstr "Le module « Services du cadastre » est désactivé !"
 
 #: api/geoservices.py:60
 msgid ""
@@ -69,12 +83,13 @@ msgid ""
 msgstr ""
 
 #: api/geoservices.py:202
+#, python-format
 msgid "Cadaster plot with ID '%(id)s' not found!"
 msgstr "Le tracé de cadastre avec l'ID '%(id)s' est introuvable !"
 
 #: nodepkg/cadaster-settings/CadasterSettings.tsx:43
 msgid "Settings saved"
-msgstr ""
+msgstr "Paramètres enregistrés"
 
 #: nodepkg/cadaster-settings/CadasterSettings.tsx:66
 msgid "API key"
@@ -82,7 +97,7 @@ msgstr "Clé API"
 
 #: nodepkg/cadaster-settings/CadasterSettings.tsx:83
 msgid "Enable"
-msgstr ""
+msgstr "Activer"
 
 #: nodepkg/cadaster-settings/CadasterSettings.tsx:100
 msgid "Save"
@@ -90,31 +105,31 @@ msgstr "Sauvegarder"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:40
 msgid "Search cadastral plots by cadastral number"
-msgstr ""
+msgstr "Rechercher des parcelles cadastrales par numéro cadastral"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:41
 msgid "Search cadastral plots"
-msgstr ""
+msgstr "Rechercher des parcelles cadastrales"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:51
 msgid "Identify quarters"
-msgstr ""
+msgstr "Identifier les quartiers"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:58
 msgid "Identify plots"
-msgstr ""
+msgstr "Identifier les parcelles"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:65
 msgid "Identify construction objects"
-msgstr ""
+msgstr "Identifier les objets de construction"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:72
 msgid "Identify special zones"
-msgstr ""
+msgstr "Identifier les zones spéciales"
 
 #: nodepkg/webmap/controls/CadasterPlots/CadasterPlotDetail.tsx:81
 msgid "Back to list"
-msgstr ""
+msgstr "Retour à la liste"
 
 #: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:22
 msgid "Attribute"
@@ -126,25 +141,29 @@ msgstr ""
 
 #: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:37
 msgid "More"
-msgstr ""
+msgstr "Plus"
 
 #: nodepkg/webmap/panel/CadasterPanel.tsx:32
 msgid "To get cadastral information, click on the map with the left mouse button"
 msgstr ""
+"Pour obtenir des informations cadastrales, cliquez sur la carte avec le "
+"bouton gauche de la souris"
 
 #: nodepkg/webmap/panel/CadasterPanel.tsx:33
 msgid ""
 "To search for cadastral plots, enter the cadastral number or select the "
 "identify tool to search on the map"
 msgstr ""
+"Pour rechercher des parcelles cadastrales, saisissez le numéro cadastral ou "
+"sélectionnez l'outil d'identification pour rechercher sur la carte"
 
 #: nodepkg/webmap/panel/CadasterPanel.tsx:36
 msgid "Error getting cadastral information"
-msgstr ""
+msgstr "Erreur lors de l'obtention des informations cadastrales"
 
 #: nodepkg/webmap/panel/CadasterPanel.tsx:37
 msgid "No valid cadastral number"
-msgstr ""
+msgstr "Aucun numéro cadastral valide"
 
 #: nodepkg/webmap/panel/plugin.tsx:12 plugin.py:20 view/settings.py:24
 msgid "Cadaster services"
@@ -152,47 +171,47 @@ msgstr "Services de cadastre"
 
 #: nodepkg/webmap/util.ts:53
 msgid "Unknown name"
-msgstr ""
+msgstr "Nom inconnu"
 
 #: nodepkg/webmap/util.ts:65
 msgid "No quarters found"
-msgstr ""
+msgstr "Aucun quartier trouvé"
 
 #: nodepkg/webmap/util.ts:67
 msgid "No cadastral plots found"
-msgstr ""
+msgstr "Aucune parcelle cadastrale trouvée"
 
 #: nodepkg/webmap/util.ts:69
 msgid "No construction objects found"
-msgstr ""
+msgstr "Aucun objet de construction trouvé"
 
 #: nodepkg/webmap/util.ts:71
 msgid "No special zones found"
-msgstr ""
+msgstr "Aucune zone spéciale trouvée"
 
 #: nodepkg/webmap/util.ts:73
 msgid "Cadastral information not found"
-msgstr ""
+msgstr "Informations cadastrales non trouvées"
 
 #: nodepkg/webmap/util.ts:80
 msgid "Searching for quarters..."
-msgstr ""
+msgstr "À la recherche d'un logement..."
 
 #: nodepkg/webmap/util.ts:82
 msgid "Searching for cadastral plots..."
-msgstr ""
+msgstr "Recherche de parcelles cadastrales..."
 
 #: nodepkg/webmap/util.ts:84
 msgid "Searching for construction objects..."
-msgstr ""
+msgstr "À la recherche d'objets de construction..."
 
 #: nodepkg/webmap/util.ts:86
 msgid "Searching for special zones..."
-msgstr ""
+msgstr "À la recherche de zones spéciales..."
 
 #: nodepkg/webmap/util.ts:88
 msgid "Getting cadastral information..."
-msgstr ""
+msgstr "Obtenir des informations cadastrales..."
 
 #: view/settings.py:11
 msgid "Cadaster services settings"

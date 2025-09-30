@@ -28,7 +28,7 @@ msgstr "Ne demandez pas"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:22
 msgid "WMS Connection URL"
-msgstr ""
+msgstr "URL de connexion WMS"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:30
 msgid "URL"
@@ -53,7 +53,7 @@ msgstr "Capacités"
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:75
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:83
 msgid "WMS Connection"
-msgstr ""
+msgstr "Connexion WMS"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:107
 msgid "WMS layers"
@@ -66,11 +66,11 @@ msgstr "Paramètres du fournisseur"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:129
 msgid "Edit vendor parameters"
-msgstr ""
+msgstr "Modifier les paramètres du fournisseur"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
 msgid "WMS Layer"
-msgstr ""
+msgstr "Couche WMS"
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:21
 msgid "Key"

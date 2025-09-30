@@ -14,41 +14,53 @@ msgstr "El principal con el nombre completo '%s' ya existe."
 msgid "Password is not set."
 msgstr "La contraseña no está configurada."
 
-#: api.py:602
+#: api.py:210
+msgid "To disable the user '{dn}', remove them from the team."
+msgstr ""
+
+#: api.py:212
+msgid "To enable the user '{dn}', add them to the team."
+msgstr ""
+
+#: api.py:615
 msgid "User '%s' can't be a member of a group."
 msgstr "El usuario '%s' no puede ser miembro de un grupo."
 
-#: api.py:608
+#: api.py:622
 msgid "System principals can't be deleted."
 msgstr "Los principales del sistema no se pueden eliminar."
 
-#: api.py:623
+#: api.py:630
+msgid "To delete the user '{dn}', remove them from the team first."
+msgstr ""
+
+#: api.py:648
 msgid "User is referenced with resources"
 msgstr "Se hace referencia al usuario con recursos"
 
-#: api.py:625
+#: api.py:650
 msgid "Group is referenced with resources"
 msgstr "Se hace referencia al grupo con recursos"
 
-#: api.py:631
+#: api.py:656
 msgid "Administrator required"
 msgstr ""
 
-#: api.py:632
+#: api.py:657
 msgid "The 'administrators' group must have at least one enabled member."
 msgstr "El grupo 'administrators' debe tener al menos un miembro habilitado."
 
-#: component.py:50
+#: component.py:51
 msgid "Administrator"
 msgstr "Administrador"
 
-#: component.py:259
+#: component.py:261
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Se alcanza el número máximo de usuarios. El límite de número de usuarios de "
 "su plan actual es %d."
 
-#: component.py:274
+#: component.py:276
 msgid ""
 "Maximum number of local users is reached. Your current plan local user number"
 " limit is {}."
@@ -74,23 +86,23 @@ msgstr ""
 msgid "Invalid authorization link"
 msgstr "Enlace de autorización no válido"
 
-#: model.py:96
+#: model.py:97
 msgid "Guest"
 msgstr "Invitado"
 
-#: model.py:97
+#: model.py:98
 msgid "Everyone"
 msgstr "Todos"
 
-#: model.py:98
+#: model.py:99
 msgid "Authenticated"
 msgstr "Autentificado"
 
-#: model.py:99
+#: model.py:100
 msgid "Owner"
 msgstr "Propietario"
 
-#: model.py:206
+#: model.py:212
 msgid "Administrators"
 msgstr "Administradores"
 
@@ -103,7 +115,7 @@ msgid "Group deleted"
 msgstr "Grupo eliminado"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
-#: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:42
+#: nodepkg/user-browse/UserBrowse.tsx:25 nodepkg/user-widget/UserWidget.tsx:44
 msgid "Full name"
 msgstr "Nombre completo"
 
@@ -116,20 +128,20 @@ msgid "New users"
 msgstr "Usuarios nuevos"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
-#: nodepkg/user-browse/UserBrowse.tsx:27
+#: nodepkg/user-browse/UserBrowse.tsx:28
 msgid "Yes"
 msgstr "Sí"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
-#: nodepkg/user-browse/UserBrowse.tsx:28
+#: nodepkg/user-browse/UserBrowse.tsx:29
 msgid "No"
 msgstr "No"
 
-#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:327 view.py:416
+#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:342 view.py:431
 msgid "Users"
 msgstr "Usuarios"
 
-#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:100
+#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:108
 msgid "Permissions"
 msgstr ""
 
@@ -137,7 +149,7 @@ msgstr ""
 msgid "{dn} mapping"
 msgstr "{dn} mapping"
 
-#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:112
+#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:120
 msgid "Description"
 msgstr "Descripción"
 
@@ -145,7 +157,7 @@ msgstr "Descripción"
 msgid "Sign in with {}"
 msgstr "Inicia sesión con {}"
 
-#: nodepkg/login/LoginForm.tsx:22 view.py:59
+#: nodepkg/login/LoginForm.tsx:22 view.py:60
 msgid "Sign in to Web GIS"
 msgstr "Conectarse a Web GIS"
 
@@ -153,17 +165,17 @@ msgstr "Conectarse a Web GIS"
 msgid "Sign in"
 msgstr "Conectarse"
 
-#: nodepkg/login/LoginForm.tsx:38 nodepkg/settings-form/SettingsForm.tsx:52
-#: nodepkg/user-browse/UserBrowse.tsx:25 nodepkg/user-widget/UserWidget.tsx:48
+#: nodepkg/login/LoginForm.tsx:41 nodepkg/settings-form/SettingsForm.tsx:54
+#: nodepkg/user-browse/UserBrowse.tsx:26 nodepkg/user-widget/UserWidget.tsx:50
 msgid "Login"
 msgstr "Usuario"
 
-#: nodepkg/login/LoginForm.tsx:43 nodepkg/user-browse/UserBrowse.tsx:26
-#: nodepkg/user-widget/UserWidget.tsx:55
+#: nodepkg/login/LoginForm.tsx:46 nodepkg/user-browse/UserBrowse.tsx:27
+#: nodepkg/user-widget/UserWidget.tsx:59
 msgid "Password"
 msgstr "Contraseña"
 
-#: nodepkg/login/LoginForm.tsx:109
+#: nodepkg/login/LoginForm.tsx:112
 msgid "or using login and password"
 msgstr "o usando el nombre de usuario y la contraseña"
 
@@ -183,49 +195,49 @@ msgstr "Ligar cuenta"
 msgid "Account not bound"
 msgstr "Cuenta no ligada"
 
-#: nodepkg/settings-form/SettingsForm.tsx:60 nodepkg/user-widget/UserWidget.tsx:106
+#: nodepkg/settings-form/SettingsForm.tsx:62 nodepkg/user-widget/UserWidget.tsx:114
 msgid "Language"
 msgstr "Idioma"
 
-#: nodepkg/settings-form/SettingsForm.tsx:76
+#: nodepkg/settings-form/SettingsForm.tsx:78
 msgid "Saved"
 msgstr "Guardado"
 
-#: nodepkg/user-browse/UserBrowse.tsx:22 nodepkg/user-widget/UserWidget.tsx:83
+#: nodepkg/user-browse/UserBrowse.tsx:23 nodepkg/user-widget/UserWidget.tsx:91
 msgid "Disabled"
 msgstr "Deshabilitado"
 
-#: nodepkg/user-browse/UserBrowse.tsx:23
+#: nodepkg/user-browse/UserBrowse.tsx:24
 msgid "Enabled"
 msgstr "Habilitado"
 
-#: nodepkg/user-browse/UserBrowse.tsx:29
+#: nodepkg/user-browse/UserBrowse.tsx:30
 msgid "Last activity"
 msgstr "Última actividad"
 
-#: nodepkg/user-browse/UserBrowse.tsx:30
+#: nodepkg/user-browse/UserBrowse.tsx:31
 msgid "Status"
 msgstr "Estado"
 
-#: nodepkg/user-browse/UserBrowse.tsx:34
+#: nodepkg/user-browse/UserBrowse.tsx:35
 msgid "Users with a password can sign in with login and password."
 msgstr ""
 "Los usuarios con contraseña pueden iniciar sesión con nombre de usuario y "
 "contraseña."
 
-#: nodepkg/user-browse/UserBrowse.tsx:35
+#: nodepkg/user-browse/UserBrowse.tsx:36
 msgid "Users bound to {dn} can sign in with {dn}."
 msgstr "Los usuarios vinculados a {dn} pueden iniciar sesión con {dn}."
 
-#: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:22
+#: nodepkg/user-browse/UserBrowse.tsx:40 nodepkg/user-widget/UserWidget.tsx:22
 msgid "Delete user?"
 msgstr "¿Eliminar usuario?"
 
-#: nodepkg/user-browse/UserBrowse.tsx:40 nodepkg/user-widget/UserWidget.tsx:23
+#: nodepkg/user-browse/UserBrowse.tsx:41 nodepkg/user-widget/UserWidget.tsx:23
 msgid "User deleted"
 msgstr "Usuario eliminado"
 
-#: nodepkg/user-browse/UserBrowse.tsx:122
+#: nodepkg/user-browse/UserBrowse.tsx:126
 msgid ""
 "Your team members won't be shown here until their first logon. Set \"New "
 "users\" flag for a group to automatically assign new user to this group. You "
@@ -238,27 +250,27 @@ msgstr ""
 "permiso de los usuarios autenticados para administrar el acceso de los "
 "miembros de su equipo."
 
-#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:65
 msgid "Disable"
 msgstr "Deshabilitar"
 
-#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:64
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:65
 msgid "Enable"
 msgstr "Habilitar"
 
-#: nodepkg/user-widget/UserWidget.tsx:59 nodepkg/user-widget/UserWidget.tsx:64
+#: nodepkg/user-widget/UserWidget.tsx:64 nodepkg/user-widget/UserWidget.tsx:70
 msgid "Enter new password here"
 msgstr "Ingrese la nueva contraseña"
 
-#: nodepkg/user-widget/UserWidget.tsx:77
+#: nodepkg/user-widget/UserWidget.tsx:85
 msgid "Authorization link"
 msgstr "Enlace de autorización"
 
-#: nodepkg/user-widget/UserWidget.tsx:89 view.py:358 view.py:422
+#: nodepkg/user-widget/UserWidget.tsx:97 view.py:373 view.py:437
 msgid "Groups"
 msgstr "Grupos"
 
-#: nodepkg/user-widget/UserWidget.tsx:126
+#: nodepkg/user-widget/UserWidget.tsx:134
 msgid ""
 "Consider adding {name} user to your team instead of creating a new user with "
 "a password."
@@ -289,11 +301,11 @@ msgstr "El enlace generado estará disponible después de guardar."
 msgid "{name} only"
 msgstr "solo {name}"
 
-#: oauth.py:323
+#: oauth.py:327
 msgid "{} binding error"
 msgstr "{} error de ligada"
 
-#: oauth.py:324
+#: oauth.py:329
 msgid ""
 "This {dn} account ({sub}) is already bound to the different user ({id}). Log "
 "in using this account instead of binding it."
@@ -301,27 +313,27 @@ msgstr ""
 "Esta cuenta {dn} ({sub}) ya está ligada al usuario diferente ({id}). Inicie "
 "sesión con esta cuenta en lugar de ligarla."
 
-#: oauth.py:639
+#: oauth.py:712
 msgid "OAuth authorization error"
 msgstr "Error de autorización de OAuth"
 
-#: oauth.py:644
+#: oauth.py:717
 msgid "Invalid OAuth token"
 msgstr "Token de OAuth no válido"
 
-#: oauth.py:649
+#: oauth.py:722
 msgid "Invalid OAuth scope"
 msgstr "Ámbito de OAuth no válido"
 
-#: oauth.py:654
+#: oauth.py:727
 msgid "OAuth password grant type failed"
 msgstr "El tipo de concesión de contraseña de OAuth falló"
 
-#: oauth.py:659
+#: oauth.py:732
 msgid "OAuth token refresh failed"
 msgstr "Error al actualizar el token de OAuth"
 
-#: oauth.py:664
+#: oauth.py:737
 msgid "OAuth access token is expired"
 msgstr "El token de acceso de OAuth está caducado"
 
@@ -333,27 +345,27 @@ msgstr ""
 msgid "Manage"
 msgstr ""
 
-#: permission.py:39 view.py:412
+#: permission.py:39 view.py:427
 msgid "Groups and users"
 msgstr "Grupos y usuarios"
 
-#: view.py:72
+#: view.py:73
 msgid "Invitation session"
 msgstr ""
 
-#: view.py:89
+#: view.py:90
 msgid "Session not found."
 msgstr "No se ha encontrado la sesión."
 
-#: view.py:93
+#: view.py:94
 msgid "Invalid 'expires' parameter."
 msgstr "Parámetro 'expires' no es válido."
 
-#: view.py:95
+#: view.py:96
 msgid "Session expired."
 msgstr "La sesión ha expirado."
 
-#: view.py:114
+#: view.py:116
 msgid ""
 "Failed to authenticate using the given authorization link. Please check the "
 "link and contact the administrator."
@@ -361,15 +373,15 @@ msgstr ""
 "No se pudo autenticar usando el enlace de autorización proporcionado. Por "
 "favor, consulte el enlace y póngase en contacto con el administrador."
 
-#: view.py:125
+#: view.py:126
 msgid "Usage of authorization link is forbidden for administrators."
 msgstr "El uso del enlace de autorización está prohibido para los administradores."
 
-#: view.py:164
+#: view.py:165
 msgid "Team membership required"
 msgstr ""
 
-#: view.py:165
+#: view.py:167
 msgid ""
 "You are not a member of this Web GIS team. Contact Web GIS administrator and "
 "ask to be added to the team."
@@ -377,14 +389,24 @@ msgstr ""
 "No es miembro de este equipo Web GIS. Comuníquese con el administrador de Web"
 " GIS y solicite que lo agreguen al equipo."
 
-#: view.py:319
+#: view.py:187
+msgid ""
+"The authorization state cookie is either missing or invalid. Ensure that "
+"cookies are not blocked in your browser and try to log in again."
+msgstr ""
+
+#: view.py:198
+msgid "Unable to bind unauthenticated user. Ensure you are logged in and try again."
+msgstr ""
+
+#: view.py:334
 msgid "User settings"
 msgstr "Ajustes del usuario"
 
-#: view.py:337
+#: view.py:352
 msgid "Create new user"
 msgstr "Crear un usuario nuevo"
 
-#: view.py:369
+#: view.py:384
 msgid "Create new group"
 msgstr "Crear un grupo nuevo"

@@ -15,75 +15,78 @@ msgstr "Немагчыма прачытаць дыяпазон %s."
 msgid "Rasters and pyramids"
 msgstr ""
 
-#: model.py:71 nodepkg/editor-widget/EditorWidget.tsx:46 view.py:61
+#: model.py:66 nodepkg/editor-widget/EditorWidget.tsx:46 view.py:61
 msgid "Raster layer"
 msgstr "Растравы слой"
 
-#: model.py:113
+#: model.py:114
 msgid "No supported files found in the archive."
 msgstr ""
 
-#: model.py:116
+#: model.py:118
+#, python-brace-format
 msgid "The archive contains multiple supported files: {supported_zip_items}."
 msgstr ""
 
-#: model.py:132
+#: model.py:133
 msgid "GDAL library was unable to open the file."
 msgstr "Бібліятэцы GDAL не ўдалося адкрыць файл."
 
-#: model.py:139
+#: model.py:140
 msgid "Raster files without projection info are not supported."
 msgstr "Растравыя файлы без інфармацыі аб праекцыі не падтрымліваюцца."
 
-#: model.py:159
+#: model.py:160
 msgid "Mixed band data types are not supported."
 msgstr ""
 
-#: model.py:202
-msgid "GDAL was uanble to parse the raster coordinate system."
+#: model.py:209
+msgid "GDAL was unable to parse the raster coordinate system."
 msgstr ""
 
-#: model.py:207
+#: model.py:215
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
 
-#: model.py:225
+#: model.py:233
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr ""
 
-#: model.py:230
+#: model.py:237
 #, python-format
 msgid "GDAL error message: %s"
 msgstr ""
 
-#: model.py:245
+#: model.py:253
+#, python-brace-format
 msgid ""
 "The uncompressed raster size ({size}) exceeds the limit ({limit}) by {delta}."
 " Reduce raster size to fit the limit."
 msgstr ""
 
-#: model.py:380
+#: model.py:404
+#, python-brace-format
 msgid "{n} band with {t} data type"
 msgid_plural "{n} bands with {t} data type"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: model.py:387
+#: model.py:410
 msgid "Band summary"
 msgstr ""
 
-#: model.py:388
+#: model.py:411
 msgid "Pixel dimensions"
 msgstr ""
 
-#: model.py:389 nodepkg/editor-widget/EditorWidget.tsx:37
+#: model.py:412 nodepkg/editor-widget/EditorWidget.tsx:37
 msgid "Cloud Optimized GeoTIFF (COG)"
 msgstr ""
 
-#: model.py:390
+#: model.py:413
 msgid "Persistent auxiliary metadata (PAM)"
 msgstr ""
 
@@ -125,7 +128,7 @@ msgstr "Захаваць як"
 msgid "Cloud Optimized GeoTIFF"
 msgstr "Cloud Optimized GeoTIFF"
 
-#: view.py:34
+#: view.py:35
 msgid ""
 "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
 "hosted on a HTTP file server, with an internal organization that enables more"

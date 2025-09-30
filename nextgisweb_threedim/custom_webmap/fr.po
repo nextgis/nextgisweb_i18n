@@ -11,37 +11,37 @@ msgstr ""
 #: nodepkg/message/index.ts:7
 #, jsrealm
 msgid "Search"
-msgstr ""
+msgstr "Recherche"
 
 #: nodepkg/message/index.ts:8
 #, jsrealm
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #: nodepkg/message/index.ts:9
 #, jsrealm
 msgid "Rendering quality"
-msgstr ""
+msgstr "Qualité de rendu"
 
 #: nodepkg/message/index.ts:10
 #, jsrealm
 msgid "Zoom to"
-msgstr ""
+msgstr "Zoom sur"
 
 #: nodepkg/message/index.ts:11
 #, jsrealm
 msgid "Share"
-msgstr ""
+msgstr "Partager"
 
 #: nodepkg/message/index.ts:12
 #, jsrealm
 msgid "Map link"
-msgstr ""
+msgstr "Lien vers la carte"
 
 #: nodepkg/message/index.ts:13
 #, jsrealm
 msgid "Focus camera on object"
-msgstr ""
+msgstr "Focaliser la caméra sur l'objet"
 
 #: nodepkg/message/index.ts:14
 #, jsrealm
@@ -51,7 +51,7 @@ msgstr ""
 #: nodepkg/message/index.ts:15
 #, jsrealm
 msgid "Measure distance with terrain"
-msgstr ""
+msgstr "Mesurer la distance avec le terrain"
 
 #: nodepkg/message/index.ts:16
 #, jsrealm
@@ -61,4 +61,4 @@ msgstr ""
 #: nodepkg/message/index.ts:17
 #, jsrealm
 msgid "Measure area with terrain"
-msgstr ""
+msgstr "Mesurer la superficie avec le terrain"

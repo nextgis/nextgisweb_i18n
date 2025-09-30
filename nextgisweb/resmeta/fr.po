@@ -1,27 +1,27 @@
 #: nodepkg/editor/EditorWidget.tsx:45
 #: nodepkg/resource-section/ResmetaResourceSection.tsx:29
 msgid "False"
-msgstr ""
+msgstr "FAUX"
 
 #: nodepkg/editor/EditorWidget.tsx:46
 #: nodepkg/resource-section/ResmetaResourceSection.tsx:29
 msgid "True"
-msgstr ""
+msgstr "Vrai"
 
 #: nodepkg/editor/EditorWidget.tsx:68
 #: nodepkg/resource-section/ResmetaResourceSection.tsx:13
 msgid "String"
-msgstr ""
+msgstr "Chaîne"
 
 #: nodepkg/editor/EditorWidget.tsx:69
 #: nodepkg/resource-section/ResmetaResourceSection.tsx:15
 msgid "Number"
-msgstr ""
+msgstr "Nombre"
 
 #: nodepkg/editor/EditorWidget.tsx:70
 #: nodepkg/resource-section/ResmetaResourceSection.tsx:17
 msgid "Boolean"
-msgstr ""
+msgstr "Booléen"
 
 #: nodepkg/editor/EditorWidget.tsx:71
 #: nodepkg/resource-section/ResmetaResourceSection.tsx:11

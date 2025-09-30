@@ -1,38 +1,34 @@
-#: lockable_feature.py:94
-msgid "Field data collection"
-msgstr ""
-
-#: lockable_feature.py:102
+#: lockable_feature.py:103
 msgid "Use on other websites (CORS)"
-msgstr ""
+msgstr "Utiliser sur d'autres sites Web (CORS)"
 
-#: lockable_feature.py:123
+#: lockable_feature.py:124
 msgid "Custom domain and branding"
-msgstr ""
+msgstr "Domaine et image de marque personnalisés"
 
-#: lockable_feature.py:136
+#: lockable_feature.py:137
 msgid "Custom SRS"
-msgstr ""
+msgstr "SRS personnalisé"
 
-#: lockable_feature.py:148
+#: lockable_feature.py:150
 msgid "Improved performance"
-msgstr ""
+msgstr "Performances améliorées"
 
-#: lockable_feature.py:155
+#: lockable_feature.py:157
 msgid "Access management"
-msgstr ""
+msgstr "Gestion des accès"
 
-#: lockable_feature.py:228
+#: lockable_feature.py:229
 msgid "Technical support"
-msgstr ""
+msgstr "Support technique"
 
-#: lockable_feature.py:233
+#: lockable_feature.py:234
 msgid "On-demand backup restore"
-msgstr ""
+msgstr "Restauration de sauvegarde à la demande"
 
-#: lockable_feature.py:254
+#: lockable_feature.py:255
 msgid "Tile caching"
-msgstr ""
+msgstr "Mise en cache des tuiles"
 
 #: nodepkg/hook.ts:54
 msgid "of"
@@ -40,7 +36,7 @@ msgstr "de"
 
 #: nodepkg/hook.ts:55
 msgid "Available"
-msgstr ""
+msgstr "Disponible"
 
 #: nodepkg/hook.ts:56
 msgid "Unavailable"
@@ -50,12 +46,8 @@ msgstr "Indisponible"
 msgid "Unlimited"
 msgstr "Illimité"
 
-#: nodepkg/include.ts:9 nodepkg/upgrade-button/UpgradeButton.tsx:49 view.py:17
-msgid "Plan and features"
-msgstr ""
-
 #: nodepkg/plan-and-features/PlanAndFeatures.tsx:27
-#: nodepkg/upgrade-button/UpgradeButton.tsx:61
+#: nodepkg/upgrade-button/UpgradeButton.tsx:63
 msgid "Your plan — "
 msgstr "Votre plan — "
 
@@ -68,80 +60,87 @@ msgstr "Modifier le plan"
 msgid "More about plans"
 msgstr "En savoir plus sur les plans"
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:27
-msgid "Easy start with QGIS"
-msgstr ""
+#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:51 view.py:15
+msgid "Plan and features"
+msgstr "Plan et caractéristiques"
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:30
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:30
+msgid "Easy start with QGIS"
+msgstr "Démarrage facile avec QGIS"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:33
 msgid ""
 "Use the NextGIS Connect plugin for QGIS to upload your data and create "
 "interactive maps."
 msgstr ""
+"Utilisez le plugin NextGIS Connect pour QGIS pour télécharger vos données et "
+"créer des cartes interactives."
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:37
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:40
 msgid "Install the NextGIS Connect plugin for QGIS"
-msgstr ""
+msgstr "Installer le plugin NextGIS Connect pour QGIS"
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:41
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:45
 msgid "Connect the plugin to your Web GIS"
-msgstr ""
+msgstr "Connectez le plugin à votre SIG Web"
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:43
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:48
 msgid "Upload your layers and projects to your Web GIS"
-msgstr ""
+msgstr "Téléchargez vos couches et projets sur votre SIG Web"
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:60
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:65
 msgid "Learn more"
-msgstr ""
+msgstr "Apprendre encore plus"
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:68
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:73
 msgid "Hide"
-msgstr ""
+msgstr "Cacher"
 
 #: nodepkg/resource-widget/base.tsx:24 service_plan.py:311
+#, python-brace-format
 msgid "{} feature is not available on your plan."
-msgstr ""
+msgstr "La fonctionnalité {} n'est pas disponible sur votre forfait."
 
 #: nodepkg/resource-widget/base.tsx:25
 msgid "These features are not available on your plan:"
-msgstr ""
+msgstr "Ces fonctionnalités ne sont pas disponibles avec votre forfait :"
 
-#: nodepkg/upgrade-button/UpgradeButton.tsx:69
+#: nodepkg/upgrade-button/UpgradeButton.tsx:71
 msgid "Upgrade"
 msgstr "mise à niveau"
 
-#: service_plan.py:96
-msgid "Number of maps and layers"
-msgstr ""
-
-#: service_plan.py:97
-msgid "Storage limit"
-msgstr ""
-
 #: service_plan.py:98
+msgid "Number of maps and layers"
+msgstr "Nombre de cartes et de couches"
+
+#: service_plan.py:99
+msgid "Storage limit"
+msgstr "Limite de stockage"
+
+#: service_plan.py:100
 msgid "User limit"
-msgstr ""
+msgstr "Limite d'utilisateurs"
 
-#: service_plan.py:105
+#: service_plan.py:108
 msgid "GPS trackers"
-msgstr ""
+msgstr "Traceurs GPS"
 
-#: service_plan.py:118
+#: service_plan.py:122
 msgid "Maximum file upload"
-msgstr ""
+msgstr "Téléchargement maximal de fichiers"
 
-#: service_plan.py:119
+#: service_plan.py:123
 msgid "Maximum raster layer"
-msgstr ""
+msgstr "Couche raster maximale"
 
 #: service_plan.py:304
 msgid "Plan upgrade required"
-msgstr ""
+msgstr "Mise à niveau du plan requise"
 
 #: service_plan.py:308
 msgid "This is not available on your plan."
-msgstr ""
+msgstr "Ceci n'est pas disponible avec votre forfait."
 
 #: service_plan.py:319
 msgid "To use this feature, please upgrade."
-msgstr ""
+msgstr "Pour utiliser cette fonctionnalité, veuillez effectuer une mise à niveau."

@@ -1,56 +1,73 @@
-#: model.py:25
+#: model.py:24 nodepkg/layer-widget/LayerWidget.tsx:206
 msgid "Basemap"
 msgstr "Základní mapa"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:20
+#: nodepkg/layer-widget/LayerWidget.tsx:17
 msgid "Pick from QMS"
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:22
+#: nodepkg/layer-widget/LayerWidget.tsx:19
 msgid "Search for geoservices provided by "
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:23
+#: nodepkg/layer-widget/LayerWidget.tsx:20
 msgid "You can search by name or ID"
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:26
+#: nodepkg/layer-widget/LayerWidget.tsx:24
 msgid "If a service from QMS is selected, this field cannot be edited."
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:95
+#: nodepkg/layer-widget/LayerWidget.tsx:25
+msgid ""
+"Above this zoom level, no new tiles are fetched but tiles from the nearest "
+"allowed zoom are displayed and upscaled."
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:26
+msgid "Below this zoom level, the layer is hidden and no new tiles are fetched."
+msgstr ""
+
+#: nodepkg/layer-widget/LayerWidget.tsx:101
 msgid "URL"
 msgstr "URL"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:103
+#: nodepkg/layer-widget/LayerWidget.tsx:108
 msgid "Copyright text"
 msgstr "Text autorských práv"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:112
+#: nodepkg/layer-widget/LayerWidget.tsx:116
 msgid "Copyright URL"
 msgstr "Copyright URL"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:168
-#: nodepkg/webmap-widget/WebMapWidget.tsx:108
-msgid "Basemaps"
-msgstr "Základní mapy"
+#: nodepkg/layer-widget/LayerWidget.tsx:123
+msgid "Min zoom level"
+msgstr ""
 
-#: nodepkg/plugin/base-map/BaseMap.ts:56
+#: nodepkg/layer-widget/LayerWidget.tsx:135
+msgid "Max zoom level"
+msgstr ""
+
+#: nodepkg/plugin/base-map/BaseMap.ts:59
 msgid "No basemap"
 msgstr ""
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:27
+#: nodepkg/webmap-widget/WebMapWidget.tsx:24
 msgid "Display name"
 msgstr "Zobrazované jméno"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:34
+#: nodepkg/webmap-widget/WebMapWidget.tsx:31
 msgid "Default basemap"
 msgstr ""
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:37
+#: nodepkg/webmap-widget/WebMapWidget.tsx:34
 msgid "Opacity"
 msgstr "Neprůhlednost"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:42
+#: nodepkg/webmap-widget/WebMapWidget.tsx:39
 msgid "Resource"
 msgstr "Zdroj"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:103
+msgid "Basemaps"
+msgstr "Základní mapy"

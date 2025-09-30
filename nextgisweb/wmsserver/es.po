@@ -1,34 +1,43 @@
-#: model.py:21 nodepkg/service-widget/ServiceWidget.tsx:130 view.py:17
+#: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:127 view.py:17
 msgid "WMS service"
 msgstr "Servicio WMS"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:30
+#: nodepkg/service-widget/ServiceWidget.tsx:27
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:35
+#: nodepkg/service-widget/ServiceWidget.tsx:32
 msgid "Keyname"
 msgstr "Nombre clave"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:40
+#: nodepkg/service-widget/ServiceWidget.tsx:37
 msgid "Min scale"
 msgstr "Escala mínima"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:45
+#: nodepkg/service-widget/ServiceWidget.tsx:42
 msgid "Max scale"
 msgstr "Escala máxima"
 
-#: nodepkg/service-widget/ServiceWidget.tsx:50
+#: nodepkg/service-widget/ServiceWidget.tsx:47
 msgid "Resource"
 msgstr "Recurso"
 
-#: view.py:18
+#: view.py:19
 msgid ""
 "Web Map Service (WMS) is a standard protocol developed by the Open Geospatial"
-" Consortium for serving georeferenced map images. These images are typically "
-"produced by a map server from data provided by a GIS database."
+" Consortium for serving dynamically rendered, georeferenced map images. These"
+" images are generated on demand, allowing flexible styling and query "
+"capabilities."
 msgstr ""
-"Web Map Service (WMS) es un protocolo estándar desarrollado por Open "
-"Geospatial Consortium para servir imágenes de mapas georreferenciados. Estas "
-"imágenes suelen ser producidas por un servidor de mapas a partir de datos "
-"proporcionados por una base de datos GIS."
+
+#: view.py:38
+msgid ""
+"Web Map Tile Service (WMTS) is a standard protocol developed by the Open "
+"Geospatial Consortium for serving georeferenced map tiles. These tiles are "
+"retrieved from a server in fixed sizes and zoom levels, enabling fast and "
+"efficient display of maps."
+msgstr ""
+
+#: view.py:46 view.py:62
+msgid "WMTS service"
+msgstr ""

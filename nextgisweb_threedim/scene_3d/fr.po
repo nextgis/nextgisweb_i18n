@@ -1,128 +1,128 @@
 #: model/scene_3d.py:30 nodepkg/settings-widget/SettingsWidget.tsx:98 view.py:65
 #: view.py:71
 msgid "3D scene"
-msgstr ""
+msgstr "Scène 3D"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:54
 #: nodepkg/items-widget/ItemsWidget.tsx:29
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:24
 msgid "Display name"
-msgstr ""
+msgstr "Nom d'affichage"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
 msgid "Default basemap"
-msgstr ""
+msgstr "Carte de base par défaut"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:64
 msgid "Opacity"
-msgstr ""
+msgstr "Opacité"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:69
 #: nodepkg/items-widget/ItemsWidget.tsx:28
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:34
 msgid "Resource"
-msgstr ""
+msgstr "Ressource"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:135
 msgid "Basemaps"
-msgstr ""
+msgstr "Cartes de base"
 
 #: nodepkg/items-widget/Item.ts:104
 msgid "Group members have errors"
-msgstr ""
+msgstr "Les membres du groupe ont des erreurs"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:26
 msgid "Visible"
-msgstr ""
+msgstr "Visible"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:27
 msgid "Expanded"
-msgstr ""
+msgstr "Élargi"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:30
 msgid "3D tileset color"
-msgstr ""
+msgstr "Couleur du jeu de tuiles 3D"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:31
 msgid "Classification layer"
-msgstr ""
+msgstr "Visible"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:33
 msgid "Layer"
-msgstr ""
+msgstr "Couche"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:34
 msgid "Group"
-msgstr ""
+msgstr "Groupe"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:185
 msgid "Items"
-msgstr ""
+msgstr "systèmes"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:16
 msgid "Globe"
-msgstr ""
+msgstr "Globe"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:17
 msgid "Plane"
-msgstr ""
+msgstr "Avion"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:21
 msgid "Minimum"
-msgstr ""
+msgstr "Minimum"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:22
 msgid "Low"
-msgstr ""
+msgstr "Faible"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:23
 msgid "Medium"
-msgstr ""
+msgstr "Moyen"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:24
 msgid "High"
-msgstr ""
+msgstr "Élevé"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:25
 msgid "Maximum"
-msgstr ""
+msgstr "Maximum"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:34
 msgid "View"
-msgstr ""
+msgstr "Afficher"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:44
 msgid "Quality"
-msgstr ""
+msgstr "Qualité"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:54
 msgid "Enable Yandex Panoramas"
-msgstr ""
+msgstr "Activer les panoramas Yandex"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:63
 msgid "Yandex Panoramas API key"
-msgstr ""
+msgstr "Clé API Yandex Panoramas"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:72
 msgid "Enable Google Street View"
-msgstr ""
+msgstr "Activer Google Street View"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:81
 msgid "Google Street View API key"
-msgstr ""
+msgstr "Clé API Google Street View"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:90
 msgid "Extent"
-msgstr ""
+msgstr "Étendue"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:31
 msgid "Default terrain"
-msgstr ""
+msgstr "Terrain par défaut"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:95
 msgid "Terrain"
-msgstr ""
+msgstr "Terrain"
 
 #: view.py:77
 msgid "Display"
-msgstr ""
+msgstr "Affichage"

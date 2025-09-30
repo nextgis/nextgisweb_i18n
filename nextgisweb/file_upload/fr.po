@@ -4,7 +4,7 @@ msgstr "Fichier téléchargé trop volumineux"
 
 #: model.py:137
 msgid "Uploaded file not found"
-msgstr ""
+msgstr "Fichier téléchargé non trouvé"
 
 #: model.py:141
 msgid "Upload is not completed"
@@ -25,13 +25,14 @@ msgstr "max"
 
 #: nodepkg/file-uploader/FileUploader.tsx:22
 msgid "Stop"
-msgstr ""
+msgstr "Arrêt"
 
 #: nodepkg/file-uploader/FileUploaderButton.tsx:9
 msgid "Upload"
 msgstr ""
 
 #: nodepkg/file-uploader/hook/useFileUploader.ts:17
+#, python-brace-format
 msgid "{} uploaded..."
 msgstr ""
 

@@ -3,22 +3,26 @@ msgid "Storage management is not enabled on this server."
 msgstr ""
 
 #: api.py:350
+#, python-brace-format
 msgid ""
 "Invalid font file name: '{}'. Only latin letters, digits, hyphens and "
 "underscores are allowed. The *.ttf or *.otf extension is required."
 msgstr ""
 
 #: api.py:358
+#, python-brace-format
 msgid "Font '{0}' is larger than {1} bytes."
 msgstr ""
 
 #: api.py:553
+#, python-brace-format
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
 
 #: api.py:681
+#, python-brace-format
 msgid "Got an unsupported MIME type: '{}'."
 msgstr ""
 
@@ -347,14 +351,17 @@ msgid "Some changes may be reflected only after full estimation."
 msgstr ""
 
 #: nodepkg/storage-summary/StorageSummary.tsx:24
+#, python-brace-format
 msgid "Storage usage was fully estimated at {f}."
 msgstr ""
 
 #: nodepkg/storage-summary/StorageSummary.tsx:25
+#, python-brace-format
 msgid "Storage usage was fully estimated at {f} and updated at {u}."
 msgstr ""
 
 #: nodepkg/storage-summary/StorageSummary.tsx:26
+#, python-brace-format
 msgid "Storage usage hasn't been estimated yet but was updated at {u}."
 msgstr ""
 
@@ -423,16 +430,19 @@ msgid "Show details"
 msgstr ""
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:21
+#, python-brace-format
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr ""
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:22
+#, python-brace-format
 msgid "New version of {distribution} is available: {version}."
 msgstr ""
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:23
+#, python-brace-format
 msgid "Your {distribution} is up-to-date."
 msgstr "Ваш {distribution} абноўлены."
 
@@ -522,6 +532,7 @@ msgid "Parameter required"
 msgstr ""
 
 #: tomb/config.py:99
+#, python-brace-format
 msgid "The '{}' query parameter is required."
 msgstr ""
 
@@ -530,6 +541,7 @@ msgid "Invalid parameter"
 msgstr ""
 
 #: tomb/config.py:102
+#, python-brace-format
 msgid "The '{}' query parameter has an invalid value."
 msgstr ""
 

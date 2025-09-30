@@ -53,14 +53,14 @@ msgstr ""
 "przejdź na stronę główną i spróbuj znaleźć zasób."
 
 #: exception.py:27
-#, server
+#, python-brace-format, server
 msgid ""
 "Modification of the '{attribute}' attribute requires the '{permission}' "
 "permission."
 msgstr "Modyfikacja atrybutu '{attribute}' wymaga uprawnienia '{permission}'."
 
 #: exception.py:33
-#, server
+#, python-brace-format, server
 msgid "The '{attribute}' attribute is read-only and cannot be updated."
 msgstr "Atrybut '{attribute}' jest tylko do odczytu i nie może być zmieniony."
 
@@ -114,12 +114,12 @@ msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Przekroczono maksymalną liczbę zasobów. Limit wynosi %s."
 
 #: exception.py:84
-#, server
+#, python-brace-format, server
 msgid "Not enough resource quota: {0} required, but only {1} available."
 msgstr "Brak wystarczającego limitu zasobów: wymagane {0}, dostępne tylko {1}."
 
 #: exception.py:88
-#, server
+#, python-brace-format, server
 msgid "Resource type - {}."
 msgstr "Typ zasobu - {}."
 
@@ -169,7 +169,7 @@ msgid "Resource can not be without a parent."
 msgstr "Źródło musi mieć zasób nadrzędny."
 
 #: model.py:466
-#, server
+#, python-brace-format, server
 msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 "Nie masz uprawnień do tworzenia ani przenoszenia zasobu typu '{}' w tym "
@@ -186,7 +186,7 @@ msgid "Resource can not be a child of resource id = %d."
 msgstr "Źródło nie może być podrzędne zasobom id = %d."
 
 #: model.py:561
-#, server
+#, python-brace-format, server
 msgid ""
 "Unable to revoke '{permission}' permission for '{user}' as the user belongs "
 "to the administrators group. Administrators must always have ability to "
@@ -293,20 +293,20 @@ msgid "Confirmation required"
 msgstr "Wymagane potwierdzenie"
 
 #: nodepkg/delete-page/util.ts:5
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "Delete {} resource"
 msgid_plural "Delete {} resources"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Usuń {} zasób"
+msgstr[1] "Usuń {} zasoby"
+msgstr[2] "Usuń {} zasobów"
 
 #: nodepkg/delete-page/util.ts:13
 #, jsrealm
 msgid "resource"
 msgid_plural "resources"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "zasób"
+msgstr[1] "zasoby"
+msgstr[2] "zasobów"
 
 #: nodepkg/delete-page/util.ts:20
 #, jsrealm
@@ -334,28 +334,28 @@ msgid ""
 msgstr "Potwierdź usunięcie wybranego zasobu oraz wszystkich jego zasobów podrzędnych."
 
 #: nodepkg/delete-page/util.ts:33
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "{} resource will be permanently deleted."
 msgid_plural "{} resources will be permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{} zasób zostanie trwale usunięty."
+msgstr[1] "{} zasoby zostaną trwale usunięte."
+msgstr[2] "{} zasobów zostanie trwale usuniętych."
 
 #: nodepkg/delete-page/util.ts:41
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "{} resource cannot be deleted."
 msgid_plural "{} resources cannot be deleted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Nie można usunąć zasobu {}."
+msgstr[1] "Nie można usunąć zasobów {}."
+msgstr[2] "Nie można usunąć zasobów {}."
 
 #: nodepkg/delete-page/util.ts:47
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "Please confirm the permanent deletion of {} resource."
 msgid_plural "Please confirm the permanent deletion of {} resources."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Potwierdź trwałe usunięcie zasobu {}."
+msgstr[1] "Potwierdź trwałe usunięcie zasobów {}."
+msgstr[2] "Potwierdź trwałe usunięcie zasobów {}."
 
 #: nodepkg/description-editor/DescriptionEditorWidget.tsx:30
 #, jsrealm
@@ -432,7 +432,7 @@ msgstr ""
 "przez uprawnienia."
 
 #: nodepkg/favorite/FavoritePage.tsx:27
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid ""
 "No favorite resources have been added yet. Use the star icon ({}) in the "
 "user's context menu to add items here."
@@ -618,21 +618,21 @@ msgid "Please confirm resource deletion. This action cannot be undone."
 msgstr "Potwierdź usunięcie zasobu. Tej akcji nie można cofnąć."
 
 #: nodepkg/resource-section/children/util/notify.ts:16
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "The resource has been deleted"
 msgid_plural "{} resources have been deleted"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Zasób został usunięty"
+msgstr[1] "{} zasoby zostały usunięte"
+msgstr[2] "{} zasobów zostało usuniętych"
 
 #: nodepkg/resource-section/children/util/notify.ts:25
 #: nodepkg/resource-section/children/util/notify.ts:42
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "The resource has been moved"
 msgid_plural "{} resources have been moved"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Zasób został przeniesiony"
+msgstr[1] "{} zasoby zostały przeniesione"
+msgstr[2] "{} zasobów zostało przeniesionych"
 
 #: nodepkg/resource-section/external-access/ResourceSectionExternalAccess.tsx:12
 #, jsrealm
@@ -679,37 +679,37 @@ msgstr "Wyszukaj zasoby"
 #, server
 msgctxt "permission"
 msgid "Read"
-msgstr ""
+msgstr "Odczytaj"
 
 #: scope.py:15
 #, server
 msgctxt "permission"
 msgid "Create"
-msgstr ""
+msgstr "Utwórz"
 
 #: scope.py:16
 #, server
 msgctxt "permission"
 msgid "Modify"
-msgstr ""
+msgstr "Zmodyfikuj"
 
 #: scope.py:17
 #, server
 msgctxt "permission"
 msgid "Delete"
-msgstr ""
+msgstr "Usuń"
 
 #: scope.py:18
 #, server
 msgctxt "permission"
 msgid "Manage subresources"
-msgstr ""
+msgstr "Zarządzaj zasobami podrzędnymi"
 
 #: scope.py:19
 #, server
 msgctxt "permission"
 msgid "Configure permissions"
-msgstr ""
+msgstr "Skonfiguruj uprawnienia"
 
 #: scope.py:26
 #, server
@@ -720,31 +720,31 @@ msgstr "Data"
 #, server
 msgctxt "permission"
 msgid "Read data"
-msgstr ""
+msgstr "Odczytaj dane"
 
 #: scope.py:29
 #, server
 msgctxt "permission"
 msgid "Modify data"
-msgstr ""
+msgstr "Zmodyfikuj dane"
 
 #: scope.py:41
 #, server
 msgctxt "permission"
 msgid "Read connection parameters"
-msgstr ""
+msgstr "Odczytaj parametry połączenia"
 
 #: scope.py:42
 #, server
 msgctxt "permission"
 msgid "Configure connection"
-msgstr ""
+msgstr "Skonfiguruj połączenie"
 
 #: scope.py:43
 #, server
 msgctxt "permission"
 msgid "Use connection"
-msgstr ""
+msgstr "Użyj połączenia"
 
 #: scope.py:53
 #, server
@@ -755,13 +755,13 @@ msgstr "Usługi Web GIS"
 #, server
 msgctxt "permission"
 msgid "Access service"
-msgstr ""
+msgstr "Uzyskaj dostęp do usługi"
 
 #: scope.py:56
 #, server
 msgctxt "permission"
 msgid "Configure service"
-msgstr ""
+msgstr "Skonfiguruj usługę"
 
 #: view.py:134 view.py:475
 #, server

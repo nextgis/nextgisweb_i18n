@@ -1,60 +1,61 @@
-#: api.py:107 api_identify.py:27
+#: api.py:109 api_identify.py:27
 msgid "Geometry is not valid."
 msgstr "La géométrie n'est pas valide."
 
-#: api.py:365
+#: api.py:367
 msgid "Unknown spatial reference system"
-msgstr ""
+msgstr "Système de référence spatiale inconnu"
 
-#: api.py:440 api_export.py:206
+#: api.py:442 api_export.py:206
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "Le paramètre 'intersects' la géométrie n'est pas valide."
 
 #: api_export.py:110
+#, python-brace-format
 msgid "Couldn't add FID field '{}'. Such field already exists."
 msgstr ""
 
-#: api_export.py:245
+#: api_export.py:246
+#, python-brace-format
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
 
 #: api_export.py:259
 msgid "Failed to reproject 'intersects' geometry."
-msgstr ""
+msgstr "Échec de la reprojection de la géométrie « intersecte »."
 
-#: api_export.py:428
+#: api_export.py:424
+#, python-brace-format
 msgid "File name parameter '{}' is not valid."
-msgstr ""
-
-#: biutil.py:25
-msgid "Got an invalid BIGINT value: {}."
-msgstr ""
-
-#: biutil.py:26
-msgid "The value must be within the inclusive range of {min} to {max}."
-msgstr ""
+msgstr "Le paramètre de nom de fichier '{}' n'est pas valide."
 
 #: dtutil.py:28
+#, python-brace-format
 msgid "Got an invalid date-time value in the legacy format: {}."
-msgstr ""
+msgstr "J'ai obtenu une valeur de date-heure non valide dans le format hérité : {}."
 
 #: dtutil.py:29
 msgid "Please use dt_format=iso and ISO-8601 based format."
-msgstr ""
+msgstr "Veuillez utiliser dt_format=iso et le format basé sur ISO-8601."
 
 #: dtutil.py:37
+#, python-brace-format
 msgid "Got an invalid date-time value in ISO-8601 format: {}."
 msgstr ""
 
 #: dtutil.py:38
+#, python-brace-format
 msgid "Value should be in RFC 3339 {} format without timezone and leap seconds."
 msgstr ""
+"La valeur doit être au format RFC 3339 {} sans fuseau horaire ni secondes "
+"intercalaires."
 
 #: exception.py:7
 msgid "Feature not found"
 msgstr "L'entité introuvable"
 
 #: exception.py:8
+#, python-format
 msgid "Feature with id = %d was not found in resource with id = %d."
 msgstr "L'entité avec id = %d n'a pas été trouvée dans la ressource avec id = %d."
 
@@ -64,23 +65,25 @@ msgstr "L'entité peut avoir été supprimée ou une erreur dans l'adresse."
 
 #: exception.py:20
 msgid "Feature not deleted"
-msgstr ""
+msgstr "Fonctionnalité non supprimée"
 
 #: exception.py:21
+#, python-brace-format
 msgid "Unable to restore the #{} feature as it is not deleted."
 msgstr ""
 
-#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:24 view.py:39
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:26 view.py:39
 msgid "Feature table"
 msgstr "Table des entités"
 
 #: model.py:172
+#, python-format
 msgid "Field not found (ID=%d)."
 msgstr "Champ non trouvé (ID =% d)."
 
 #: model.py:249
 msgid "Versioning not supported"
-msgstr ""
+msgstr "Le contrôle de version n'est pas pris en charge"
 
 #: nodepkg/attribute-editor/AttributeEditor.tsx:34
 msgid "Set field value to NULL (No data)"
@@ -88,7 +91,7 @@ msgstr "Définir la valeur du champ à NULL (données non)"
 
 #: nodepkg/attribute-editor/AttributeEditor.tsx:35
 msgid "There are no attributes in the vector layer"
-msgstr ""
+msgstr "Il n'y a aucun attribut dans la couche vectorielle"
 
 #: nodepkg/attribute-editor/plugin.ts:10
 msgid "Attributes"
@@ -96,7 +99,7 @@ msgstr "Attributs"
 
 #: nodepkg/export-form/ExportForm.tsx:203
 msgid "Resources"
-msgstr ""
+msgstr "Ressources"
 
 #: nodepkg/export-form/ExportForm.tsx:225
 msgid "Format"
@@ -119,89 +122,93 @@ msgid "Use field display names instead of keynames"
 msgstr "Utiliser les noms d'affichage des champs au lieu des noms de clé"
 
 #: nodepkg/export-form/ExportForm.tsx:267
-#: nodepkg/fields-widget/FieldsWidget.tsx:166
+#: nodepkg/fields-widget/FieldsWidget.tsx:213
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:51
 msgid "Fields"
-msgstr ""
+msgstr "Champs"
 
 #: nodepkg/export-form/ExportForm.tsx:273
 msgid "Limit by extent"
-msgstr ""
+msgstr "Limiter par étendue"
 
 #: nodepkg/export-form/ExportForm.tsx:279
 msgid "Filter text"
-msgstr ""
+msgstr "Filtrer le texte"
 
 #: nodepkg/export-form/ExportForm.tsx:283
 msgid "Zip archive"
 msgstr "archive Zip"
 
 #: nodepkg/export-form/ExportForm.tsx:326
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:39
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
 msgid "Save"
 msgstr "Enregistrer"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
 msgid "Are you sure?"
-msgstr ""
+msgstr "Es-tu sûr?"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:22
 msgid "Unsaved changes will be lost if you close the window."
-msgstr ""
-
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:38
-msgid "Loading..."
-msgstr ""
+msgstr "Les modifications non enregistrées seront perdues si vous fermez la fenêtre."
 
 #: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
-msgid "OK"
-msgstr ""
+msgid "Loading..."
+msgstr "Chargement..."
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
-msgid "Reset"
-msgstr ""
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:42
+msgid "OK"
+msgstr "D'ACCORD"
 
 #: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:45
 msgid "Feature saved"
-msgstr ""
+msgstr "Fonctionnalité enregistrée"
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:44
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:46
 msgid "No changes to save"
-msgstr ""
+msgstr "Aucune modification à enregistrer"
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:22
+#: nodepkg/feature-grid/FeatureGrid.tsx:24
 msgid "Open table settings"
-msgstr ""
+msgstr "Ouvrir les paramètres de la table"
 
-#: nodepkg/feature-grid/FeatureGrid.tsx:23
+#: nodepkg/feature-grid/FeatureGrid.tsx:25
 msgid "Refresh table"
-msgstr ""
+msgstr "Rafraîchir le tableau"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:26
+#: nodepkg/feature-grid/FeatureGridActions.tsx:31
 msgid "Open"
 msgstr "Ouvrir"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:27
+#: nodepkg/feature-grid/FeatureGridActions.tsx:32
 msgid "Open on a new page"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:28
+#: nodepkg/feature-grid/FeatureGridActions.tsx:33
 msgid "Delete"
 msgstr "Effacer"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:29
+#: nodepkg/feature-grid/FeatureGridActions.tsx:34
 msgid "Edit"
 msgstr "Éditer"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:30
+#: nodepkg/feature-grid/FeatureGridActions.tsx:35
 msgid "Edit on a new page"
+msgstr "Modifier sur une nouvelle page"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:36
+msgid "Create"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:32
+#: nodepkg/feature-grid/FeatureGridActions.tsx:38
 msgid "Search..."
 msgstr "Rechercher..."
 
@@ -217,94 +224,116 @@ msgstr "Enregistrer sous"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:31
 msgid "Advanced Export"
-msgstr ""
+msgstr "Exportation avancée"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:32
 msgid "Quick Export"
-msgstr ""
+msgstr "Exportation rapide"
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:33
 msgid "Filters are applied"
-msgstr ""
+msgstr "Les filtres sont appliqués"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:20
+#: nodepkg/fields-widget/FieldsWidget.tsx:22
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:31
 msgid "Display name"
 msgstr "Afficher un nom"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:21
+#: nodepkg/fields-widget/FieldsWidget.tsx:23
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:19
 msgid "Keyname"
 msgstr "Nom de clé"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:22
+#: nodepkg/fields-widget/FieldsWidget.tsx:24
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:25
 msgid "Type"
 msgstr "Type"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:23
+#: nodepkg/fields-widget/FieldsWidget.tsx:25
 msgid "Lookup table"
 msgstr "Tableau de référence"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:25
+#: nodepkg/fields-widget/FieldsWidget.tsx:27
 msgid "Text search"
-msgstr ""
+msgstr "Recherche de texte"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:26
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
 msgid "Label attribute"
 msgstr "Attribut d'étiquette"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:28
+#: nodepkg/fields-widget/FieldsWidget.tsx:30
 msgid "Please select"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:29
+#: nodepkg/fields-widget/FieldsWidget.tsx:31
 msgid "Not used"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:113
+#: nodepkg/fields-widget/FieldsWidget.tsx:97
+msgid "Delete field?"
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:98
+msgid ""
+"Deleting this field will permanently erase all its version history from this "
+"layer."
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:123
 msgid "Field"
+msgstr ""
+
+#: nodepkg/geometry-editor/GeometryEditor.tsx:145
+msgid "Clear"
+msgstr ""
+
+#: nodepkg/geometry-editor/plugin.ts:10
+msgid "Geometry"
+msgstr ""
+
+#: nodepkg/geometry-editor/util/component/ZoomToResourceBtn.tsx:36
+msgid "Zoom to layer extent"
 msgstr ""
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:46
 msgid "Load geometry info..."
-msgstr ""
+msgstr "Charger les informations de géométrie..."
 
 #: nodepkg/geometry-info/GeometryInfo.tsx:55
 msgid "Failed to get information about the geometry"
-msgstr ""
+msgstr "Impossible d'obtenir des informations sur la géométrie"
 
 #: nodepkg/geometry-info/component/GeometryInfoTable.tsx:34
 msgid "Perimeter"
-msgstr ""
+msgstr "Périmètre"
 
 #: nodepkg/geometry-info/component/GeometryInfoTable.tsx:35
 msgid "Length"
-msgstr ""
+msgstr "Longueur"
 
 #: nodepkg/geometry-info/component/GeometryInfoTable.tsx:43
 msgid "Area"
-msgstr ""
+msgstr "Zone"
 
 #: nodepkg/geometry-info/component/GeometryInfoTable.tsx:52
 msgid "Geometry type"
-msgstr ""
+msgstr "Type de géométrie"
 
 #: nodepkg/geometry-info/component/GeometryInfoTable.tsx:60
 msgid "Extent (xMin)"
-msgstr ""
+msgstr "Étendue (xMin)"
 
 #: nodepkg/geometry-info/component/GeometryInfoTable.tsx:64
 msgid "Extent (yMin)"
-msgstr ""
+msgstr "Étendue (yMin)"
 
 #: nodepkg/geometry-info/component/GeometryInfoTable.tsx:68
 msgid "Extent (xMax)"
-msgstr ""
+msgstr "Étendue (xMax)"
 
 #: nodepkg/geometry-info/component/GeometryInfoTable.tsx:72
 msgid "Extent (yMax)"
-msgstr ""
+msgstr "Étendue (yMax)"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:11 versioning/model.py:94
 msgid "Feature versioning"
@@ -322,7 +351,22 @@ msgstr ""
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:50
 msgid "Settings"
+msgstr "Paramètres"
+
+#: numutil.py:28
+#, python-brace-format
+msgid "The value must be within the inclusive range of {min} to {max}."
+msgstr "La valeur doit être comprise entre {min} et {max}."
+
+#: numutil.py:43
+#, python-brace-format
+msgid "Got an invalid INTEGER value: {}."
 msgstr ""
+
+#: numutil.py:49
+#, python-brace-format
+msgid "Got an invalid BIGINT value: {}."
+msgstr "Vous avez une valeur BIGINT non valide : {}."
 
 #: transaction/exception.py:7
 msgid "Transaction not found"
@@ -330,52 +374,61 @@ msgstr ""
 
 #: transaction/exception.py:12
 msgid "Operation conflict in transaction"
-msgstr ""
+msgstr "Conflit d'opération dans la transaction"
 
 #: transaction/exception.py:20
 msgid "Transaction not committed"
-msgstr ""
+msgstr "Transaction non validée"
 
 #: versioning/exception.py:17
 msgid "Not implemented for feature versioning"
-msgstr ""
+msgstr "Non implémenté pour le contrôle de version des fonctionnalités"
 
-#: versioning/exception.py:18
+#: versioning/exception.py:19
 msgid ""
 "This operation cannot be performed on a resource with feature versioning "
 "enabled. Disable feature versioning for the resource first, and then try "
 "again."
 msgstr ""
+"Cette opération ne peut pas être effectuée sur une ressource dont le contrôle"
+" de version des fonctionnalités est activé. Désactivez d'abord le contrôle de"
+" version des fonctionnalités pour la ressource, puis réessayez."
 
 #: versioning/exception.py:27
 msgid "Feature versioning required"
-msgstr ""
+msgstr "Versionnage des fonctionnalités requis"
 
 #: versioning/exception.py:32
 msgid "Feature versioning is not supported for this resource."
 msgstr ""
+"\n"
+"Le contrôle de version des fonctionnalités n'est pas pris en charge pour "
+"cette ressource."
 
 #: versioning/exception.py:34
 msgid "Feature versioning is not enabled for this resource."
 msgstr ""
+"Le contrôle de version des fonctionnalités n'est pas activé pour cette "
+"ressource."
 
 #: versioning/exception.py:41
 msgid "Epoch required"
-msgstr ""
+msgstr "Époque requise"
 
 #: versioning/exception.py:45
 msgid "Epoch mismatch"
-msgstr ""
+msgstr "Inadéquation d'époque"
 
 #: versioning/exception.py:55
 msgid "Version out of range"
-msgstr ""
+msgstr "Version hors de portée"
 
 #: versioning/exception.py:65
 msgid "Invalid range"
-msgstr ""
+msgstr "Plage invalide"
 
 #: view.py:55 view.py:70
+#, python-format
 msgid "Feature #%d"
 msgstr "Entité #%d"
 
@@ -383,7 +436,7 @@ msgstr "Entité #%d"
 msgid "MVT Vector Tiles"
 msgstr "MVT Tuiles Vectorielles"
 
-#: view.py:100
+#: view.py:101
 msgid ""
 "The Mapbox Vector Tile is an efficient encoding for map data into vector "
 "tiles that can be rendered dynamically."

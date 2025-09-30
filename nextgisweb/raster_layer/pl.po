@@ -15,50 +15,52 @@ msgstr "Zakres %s nie może być odczytany."
 msgid "Rasters and pyramids"
 msgstr "Rastry i piramidy"
 
-#: model.py:71 nodepkg/editor-widget/EditorWidget.tsx:46 view.py:61
+#: model.py:66 nodepkg/editor-widget/EditorWidget.tsx:46 view.py:61
 msgid "Raster layer"
 msgstr "Warstwa rastra"
 
-#: model.py:113
+#: model.py:114
 msgid "No supported files found in the archive."
 msgstr "Nie znaleziono obsługiwanych plików w archiwum."
 
-#: model.py:116
+#: model.py:118
+#, python-brace-format
 msgid "The archive contains multiple supported files: {supported_zip_items}."
 msgstr "Archiwum zawiera wiele obsługiwanych plików: {supported_zip_items}."
 
-#: model.py:132
+#: model.py:133
 msgid "GDAL library was unable to open the file."
 msgstr "Biblioteka GDAL nie mogła otworzyć pliku."
 
-#: model.py:139
+#: model.py:140
 msgid "Raster files without projection info are not supported."
 msgstr "Pliki rastrowe bez informacji o projekcji nie są obsługiwane."
 
-#: model.py:159
+#: model.py:160
 msgid "Mixed band data types are not supported."
 msgstr "Mieszane typy danych pasm nie są obsługiwane."
 
-#: model.py:202
-msgid "GDAL was uanble to parse the raster coordinate system."
-msgstr "GDAL nie mógł odczytać układu współrzędnych rastra."
+#: model.py:209
+msgid "GDAL was unable to parse the raster coordinate system."
+msgstr ""
 
-#: model.py:207
+#: model.py:215
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr "Raster źródłowy ma lokalny układ współrzędnych i nie można go przekształcić."
 
-#: model.py:225
+#: model.py:233
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr "Nie udało się przekształcić rastra do docelowego układu współrzędnych."
 
-#: model.py:230
+#: model.py:237
 #, python-format
 msgid "GDAL error message: %s"
 msgstr "Komunikat błędu GDAL: %s"
 
-#: model.py:245
+#: model.py:253
+#, python-brace-format
 msgid ""
 "The uncompressed raster size ({size}) exceeds the limit ({limit}) by {delta}."
 " Reduce raster size to fit the limit."
@@ -66,28 +68,29 @@ msgstr ""
 "Nieskompresowany rozmiar rastra ({size}) przekracza limit ({limit}) o "
 "{delta}. Zmniejsz rozmiar rastra, aby zmieścić się w limicie."
 
-#: model.py:380
+#: model.py:404
+#, python-brace-format
 msgid "{n} band with {t} data type"
 msgid_plural "{n} bands with {t} data type"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{n} pasmo z typem danych {t}"
+msgstr[1] "{n} pasma z typem danych {t}"
+msgstr[2] "{n} pasm z typem danych {t}"
 
-#: model.py:387
+#: model.py:410
 msgid "Band summary"
-msgstr ""
+msgstr "Podsumowanie pasma"
 
-#: model.py:388
+#: model.py:411
 msgid "Pixel dimensions"
-msgstr ""
+msgstr "Wymiary piksela"
 
-#: model.py:389 nodepkg/editor-widget/EditorWidget.tsx:37
+#: model.py:412 nodepkg/editor-widget/EditorWidget.tsx:37
 msgid "Cloud Optimized GeoTIFF (COG)"
 msgstr "Cloud Optimized GeoTIFF (COG)"
 
-#: model.py:390
+#: model.py:413
 msgid "Persistent auxiliary metadata (PAM)"
-msgstr ""
+msgstr "Trwałe metadane pomocnicze (PAM)"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:13
 msgid "Select a dataset"
@@ -98,6 +101,8 @@ msgid ""
 "Supported formats: GeoTIFF, JPEG, and PNG with GDAL PAM metadata (.aux.xml "
 "files). Multi-file datasets should be uploaded as ZIP archives."
 msgstr ""
+"Obsługiwane formaty: GeoTIFF, JPEG, i PNG z metadanymi GDAL PAM (.aux.xml "
+"files). Wieloplikowe zestawy należy przesłać jako archiwa ZIP."
 
 #: nodepkg/export-form/ExportForm.tsx:58
 msgid "Band"
@@ -127,7 +132,7 @@ msgstr "Zapisz jako"
 msgid "Cloud Optimized GeoTIFF"
 msgstr "Cloud Optimized GeoTIFF"
 
-#: view.py:34
+#: view.py:35
 msgid ""
 "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
 "hosted on a HTTP file server, with an internal organization that enables more"

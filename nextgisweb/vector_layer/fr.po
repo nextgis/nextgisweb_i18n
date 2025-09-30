@@ -73,6 +73,7 @@ msgid "Feature count"
 msgstr "Décompte d'entités géographiques"
 
 #: model.py:714
+#, python-format
 msgid "Unsupport OGR driver: %s."
 msgstr "Le driver OGR non pris en charge : %s."
 
@@ -94,11 +95,11 @@ msgstr "La couche ne contient pas d'informations sur le système de coordonnées
 
 #: nodepkg/resource-widget/Store.tsx:199
 msgid "Confirm deletion of existing features"
-msgstr ""
+msgstr "Confirmer la suppression des fonctionnalités existantes"
 
 #: nodepkg/resource-widget/Store.tsx:206
 msgid "Confirm change of geometry type"
-msgstr ""
+msgstr "Confirmer le changement de type de géométrie"
 
 #: nodepkg/resource-widget/Widget.tsx:31
 msgid "Select a dataset"
@@ -110,14 +111,18 @@ msgid ""
 "supported. For CSV and XLSX only points are supported, coordinates must be "
 "put in lat and lot columns."
 msgstr ""
+"Les formats ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV ou XLSX "
+"sont pris en charge. Pour les formats CSV et XLSX, seuls les points sont pris"
+" en charge ; les coordonnées doivent être indiquées dans les colonnes "
+"Latitude et Longitude."
 
 #: nodepkg/resource-widget/Widget.tsx:35
 msgid "Files uploaded, post-processing on the server in progress..."
-msgstr ""
+msgstr "Fichiers téléchargés, post-traitement sur le serveur en cours..."
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Whenever possible"
-msgstr ""
+msgstr "Dans la mesure du possible"
 
 #: nodepkg/resource-widget/Widget.tsx:46
 msgid "Without losing data"
@@ -158,7 +163,7 @@ msgstr "Ignorer les entités avec des erreurs non réparables"
 
 #: nodepkg/resource-widget/Widget.tsx:119
 msgid "Skip features with other geometry types"
-msgstr ""
+msgstr "Ignorer les fonctions avec d'autres types de géométrie"
 
 #: nodepkg/resource-widget/Widget.tsx:123
 msgid "Multi-geometry"
@@ -174,14 +179,14 @@ msgstr "Source FID"
 
 #: nodepkg/resource-widget/Widget.tsx:158
 msgid "Load features from file"
-msgstr ""
+msgstr "Charger des fonctionnalités à partir d'un fichier"
 
 #: nodepkg/resource-widget/Widget.tsx:159
 msgid "Create empty layer"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:161
-msgid "Keep existing layer features"
+msgid "Keep existing features"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:162
@@ -189,11 +194,11 @@ msgid "Change geometry type"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:163
-msgid "Replace layer features from file"
+msgid "Replace features from file"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:164
-msgid "Delete all features from layer"
+msgid "Delete all features"
 msgstr ""
 
 #: nodepkg/resource-widget/Widget.tsx:180
@@ -212,15 +217,17 @@ msgstr "Options avancées"
 msgid "Could not determine a geometry type."
 msgstr "Impossible de déterminer un type de géométrie."
 
-#: ogrloader.py:313
+#: ogrloader.py:314
 msgid "Source layer contains no features satisfying the conditions."
 msgstr "La couche source ne contient aucune entité satisfaisant les conditions."
 
 #: ogrloader.py:331
+#, python-format
 msgid "Field '%s' is out of int32 range."
 msgstr ""
 
 #: ogrloader.py:339
+#, python-format
 msgid "Field '%s' contains non-unique or empty values."
 msgstr "Le champ '%s' contient des valeurs non uniques ou vides."
 
@@ -229,28 +236,35 @@ msgid "Parameter 'fid_field' is missing."
 msgstr "Le paramètre 'fid_field' est manquant."
 
 #: ogrloader.py:359
+#, python-format
 msgid "Fields %s not found."
 msgstr "Champs %s introuvables."
 
 #: ogrloader.py:361
+#, python-format
 msgid "None of fields %s are integer."
 msgstr "Aucun des champs %s n'est un nombre entier."
 
 #: ogrloader.py:375
+#, python-format
 msgid "Field '%s(?)' encoding is broken."
 msgstr "L'encodage du champ '%s(?)' est cassé."
 
 #: ogrloader.py:390
+#, python-format
 msgid "Unsupported field type: %r."
 msgstr "Type de champ non pris en charge : %r."
 
-#: ogrloader.py:415
+#: ogrloader.py:416
 msgid ""
 "The source layer has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
 msgstr ""
+"La couche source possède un système de coordonnées local et ne peut pas être "
+"reprojetée vers le système de coordonnées cible."
 
-#: ogrloader.py:498
+#: ogrloader.py:499
+#, python-format
 msgid ""
 "Feature #%d has a geometry that can't be reprojected to target coordinate "
 "system"
@@ -261,45 +275,56 @@ msgid "Vector layer cannot be written due to errors."
 msgstr "La couche vectorielle ne peut pas être enregistrée en raison d'erreurs."
 
 #: ogrloader.py:570
+#, python-format
 msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
 msgstr "La caractéristique (séquence #%d) n'a pas de champ FID '%s'."
 
 #: ogrloader.py:574
+#, python-format
 msgid "Feature (seq. #%d) FID field '%s' is null."
 msgstr "Le champ FID (séq. #%d) de la caractéristique '%s' est nul."
 
 #: ogrloader.py:621 ogrloader.py:660
+#, python-format
 msgid "Feature #%d has multiple geometries satisfying the conditions."
 msgstr "L'entité #%d a plusieurs géométries satisfaisant les conditions."
 
 #: ogrloader.py:631
+#, python-format
 msgid "Feature #%d has unknown geometry type: %d (%s)."
 msgstr "L'entité #%d a un type de géométrie inconnu : %d (%s)."
 
 #: ogrloader.py:640
+#, python-format
 msgid "Feature #%d has unsuitable geometry type: %d (%s)."
 msgstr "L'entité #%d a un type de géométrie inapproprié: %d (%s)."
 
 #: ogrloader.py:678
+#, python-format
 msgid "Feature #%d has empty rings."
-msgstr ""
+msgstr "La fonctionnalité #%d a des anneaux vides."
 
 #: ogrloader.py:689
+#, python-format
 msgid "Feature #%d has unclosed rings."
 msgstr "L'entité #%d a des anneaux non fermés."
 
-#: ogrloader.py:698
+#: ogrloader.py:699
+#, python-format
 msgid "Feature #%d has less than 3 points in a polygon ring."
 msgstr "L'entité #%d a moins de 3 points dans un anneau polygonal."
 
 #: ogrloader.py:711
+#, python-format
 msgid "Feature #%d contains an empty linestring."
-msgstr ""
+msgstr "La fonctionnalité n°%d contient une chaîne de ligne vide."
 
 #: ogrloader.py:717
+#, python-format
 msgid "Feature #%d has less than 2 points in a linestring."
 msgstr "L'entité #%d a moins de 2 points dans une chaîne de lignes."
 
 #: ogrloader.py:734
+#, python-format
 msgid "Feature #%d contains a broken encoding of field '%s'."
 msgstr "La fonctionnalité #%d contient un encodage cassé du champ '%s'."

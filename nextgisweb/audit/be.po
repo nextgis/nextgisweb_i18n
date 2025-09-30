@@ -4,7 +4,7 @@ msgid "Audit backend not enabled"
 msgstr ""
 
 #: backend/base.py:37
-#, server
+#, python-brace-format, server
 msgid "The '{}' audit backend is not configured on this server."
 msgstr ""
 
@@ -34,7 +34,7 @@ msgid "Context"
 msgstr "Кантэкст"
 
 #: nodepkg/journal/Journal.js:158
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "Last {} minute"
 msgid_plural "Last {} minutes"
 msgstr[0] ""
@@ -42,7 +42,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: nodepkg/journal/Journal.js:160
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "Last {} hour"
 msgid_plural "Last {} hours"
 msgstr[0] ""
@@ -50,7 +50,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: nodepkg/journal/Journal.js:162
-#, jsrealm
+#, jsrealm, python-brace-format
 msgid "Last {} day"
 msgid_plural "Last {} days"
 msgstr[0] ""

@@ -20,11 +20,11 @@ msgstr "RAM"
 
 #: component.py:323
 msgid "Last backup"
-msgstr ""
+msgstr "Dernière sauvegarde"
 
 #: component.py:327
 msgid "Last maintenance"
-msgstr ""
+msgstr "Dernier entretien"
 
 #: exception.py:116
 msgid "Validation error"
@@ -51,14 +51,16 @@ msgid "Not configured"
 msgstr ""
 
 #: fontconfig.py:112
+#, python-brace-format
 msgid "Font not found: {}!"
-msgstr ""
+msgstr "Police non trouvée : {}!"
 
 #: storage.py:290
 msgid "Storage full"
 msgstr "Stockage plein"
 
 #: storage.py:291
+#, python-format
 msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
@@ -69,6 +71,7 @@ msgid "Not enough storage"
 msgstr "Pas assez de stockage"
 
 #: storage.py:302
+#, python-format
 msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
@@ -79,5 +82,6 @@ msgid "Estimation is already running"
 msgstr "L'estimation est déjà en cours"
 
 #: test/test_exception.py:76
+#, python-format
 msgid "The answer is %d"
 msgstr "La réponse est %d"

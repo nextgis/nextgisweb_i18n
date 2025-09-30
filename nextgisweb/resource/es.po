@@ -45,12 +45,14 @@ msgstr ""
 "encontrar el recurso deseado."
 
 #: exception.py:27
+#, python-brace-format
 msgid ""
 "Modification of the '{attribute}' attribute requires the '{permission}' "
 "permission."
 msgstr ""
 
 #: exception.py:33
+#, python-brace-format
 msgid "The '{attribute}' attribute is read-only and cannot be updated."
 msgstr ""
 
@@ -99,12 +101,14 @@ msgid "Maximum number of resources exceeded. The limit is %s."
 msgstr "Se superó el número máximo de recursos. El límite es %s."
 
 #: exception.py:84
+#, python-brace-format
 msgid "Not enough resource quota: {0} required, but only {1} available."
 msgstr ""
 "No hay suficiente cuota de recursos: se requiere {0}, pero solo {1} está "
 "disponible."
 
 #: exception.py:88
+#, python-brace-format
 msgid "Resource type - {}."
 msgstr "Tipo de recurso - {}."
 
@@ -145,6 +149,7 @@ msgid "Resource can not be without a parent."
 msgstr "El recurso no puede estar sin un padre."
 
 #: model.py:467
+#, python-brace-format
 msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
@@ -159,6 +164,7 @@ msgid "Resource can not be a child of resource id = %d."
 msgstr "El recurso no puede ser un hijo del recurso con id = %d."
 
 #: model.py:562
+#, python-brace-format
 msgid ""
 "Unable to revoke '{permission}' permission for '{user}' as the user belongs "
 "to the administrators group. Administrators must always have ability to "
@@ -244,6 +250,7 @@ msgid "Confirmation required"
 msgstr ""
 
 #: nodepkg/delete-page/util.ts:5
+#, python-brace-format
 msgid "Delete {} resource"
 msgid_plural "Delete {} resources"
 msgstr[0] ""
@@ -274,18 +281,21 @@ msgid ""
 msgstr ""
 
 #: nodepkg/delete-page/util.ts:33
+#, python-brace-format
 msgid "{} resource will be permanently deleted."
 msgid_plural "{} resources will be permanently deleted."
 msgstr[0] ""
 msgstr[1] ""
 
 #: nodepkg/delete-page/util.ts:41
+#, python-brace-format
 msgid "{} resource cannot be deleted."
 msgid_plural "{} resources cannot be deleted."
 msgstr[0] ""
 msgstr[1] ""
 
 #: nodepkg/delete-page/util.ts:47
+#, python-brace-format
 msgid "Please confirm the permanent deletion of {} resource."
 msgid_plural "Please confirm the permanent deletion of {} resources."
 msgstr[0] ""
@@ -353,6 +363,7 @@ msgstr ""
 "permisos."
 
 #: nodepkg/favorite/FavoritePage.tsx:27
+#, python-brace-format
 msgid ""
 "No favorite resources have been added yet. Use the star icon ({}) in the "
 "user's context menu to add items here."
@@ -501,6 +512,7 @@ msgid "Please confirm resource deletion. This action cannot be undone."
 msgstr "Confirme la eliminación del recurso. Esta acción no se puede deshacer."
 
 #: nodepkg/resource-section/children/util/notify.ts:16
+#, python-brace-format
 msgid "The resource has been deleted"
 msgid_plural "{} resources have been deleted"
 msgstr[0] ""
@@ -508,6 +520,7 @@ msgstr[1] ""
 
 #: nodepkg/resource-section/children/util/notify.ts:25
 #: nodepkg/resource-section/children/util/notify.ts:42
+#, python-brace-format
 msgid "The resource has been moved"
 msgid_plural "{} resources have been moved"
 msgstr[0] ""

@@ -5,4 +5,4 @@ msgstr "Description"
 
 #: util.py:19
 msgid "Invalid ZIP archive."
-msgstr ""
+msgstr "Archive ZIP non valide."

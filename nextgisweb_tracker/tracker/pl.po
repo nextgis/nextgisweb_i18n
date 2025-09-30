@@ -20,6 +20,7 @@ msgid "Tracker UID is not unique"
 msgstr "Identyfikator śledzenia nie jest unikalny"
 
 #: model.py:76
+#, python-brace-format
 msgid ""
 "The '{}' attribute is immutable and cannot be changed once the tracker is "
 "created."
@@ -370,6 +371,8 @@ msgid ""
 "A tracker with this unique identifier is already registered in the Tracking "
 "system."
 msgstr ""
+"Tracker o tym unikalnym identyfikatorze jest już zarejestrowany w systemie "
+"śledzenia."
 
 #: pyramid_tracker/register.py:31 pyramid_tracker/register.py:54
 msgid "NextGIS Tracker System is unavailable. Try later, please."

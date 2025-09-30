@@ -1,36 +1,32 @@
-#: lockable_feature.py:94
-msgid "Field data collection"
-msgstr "Събиране на полеви данни"
-
-#: lockable_feature.py:102
+#: lockable_feature.py:103
 msgid "Use on other websites (CORS)"
 msgstr "Използване на други сайтове (CORS)"
 
-#: lockable_feature.py:123
+#: lockable_feature.py:124
 msgid "Custom domain and branding"
 msgstr "Персонализиране на домейн и външен вид"
 
-#: lockable_feature.py:136
+#: lockable_feature.py:137
 msgid "Custom SRS"
 msgstr "Потребителска КС"
 
-#: lockable_feature.py:148
+#: lockable_feature.py:150
 msgid "Improved performance"
 msgstr "Подобрена производителност"
 
-#: lockable_feature.py:155
+#: lockable_feature.py:157
 msgid "Access management"
 msgstr "Управляване на достъп"
 
-#: lockable_feature.py:228
+#: lockable_feature.py:229
 msgid "Technical support"
 msgstr "Техническа поддръжка"
 
-#: lockable_feature.py:233
+#: lockable_feature.py:234
 msgid "On-demand backup restore"
 msgstr "Възстановяване от резервно копие по поискване"
 
-#: lockable_feature.py:254
+#: lockable_feature.py:255
 msgid "Tile caching"
 msgstr "Кеширане на плочките"
 
@@ -50,12 +46,8 @@ msgstr "Недостъпно"
 msgid "Unlimited"
 msgstr "Неограничен"
 
-#: nodepkg/include.ts:9 nodepkg/upgrade-button/UpgradeButton.tsx:49 view.py:17
-msgid "Plan and features"
-msgstr "План и функции"
-
 #: nodepkg/plan-and-features/PlanAndFeatures.tsx:27
-#: nodepkg/upgrade-button/UpgradeButton.tsx:61
+#: nodepkg/upgrade-button/UpgradeButton.tsx:63
 msgid "Your plan — "
 msgstr "Вашият план е "
 
@@ -68,33 +60,37 @@ msgstr "Промени плана"
 msgid "More about plans"
 msgstr "Повече за плановете"
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:27
+#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:51 view.py:15
+msgid "Plan and features"
+msgstr "План и функции"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:30
 msgid "Easy start with QGIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:30
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:33
 msgid ""
 "Use the NextGIS Connect plugin for QGIS to upload your data and create "
 "interactive maps."
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:37
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:40
 msgid "Install the NextGIS Connect plugin for QGIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:41
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:45
 msgid "Connect the plugin to your Web GIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:43
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:48
 msgid "Upload your layers and projects to your Web GIS"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:60
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:65
 msgid "Learn more"
 msgstr ""
 
-#: nodepkg/qgis-banner/QgisBanner.tsx:68
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:73
 msgid "Hide"
 msgstr ""
 
@@ -106,31 +102,31 @@ msgstr "Функцията {} не е достъпна в текущия пла�
 msgid "These features are not available on your plan:"
 msgstr ""
 
-#: nodepkg/upgrade-button/UpgradeButton.tsx:69
+#: nodepkg/upgrade-button/UpgradeButton.tsx:71
 msgid "Upgrade"
 msgstr "Разшири"
 
-#: service_plan.py:96
+#: service_plan.py:98
 msgid "Number of maps and layers"
 msgstr "Брой карти и слоеве"
 
-#: service_plan.py:97
+#: service_plan.py:99
 msgid "Storage limit"
 msgstr "Пределът на паметта"
 
-#: service_plan.py:98
+#: service_plan.py:100
 msgid "User limit"
 msgstr "Потребители"
 
-#: service_plan.py:105
+#: service_plan.py:108
 msgid "GPS trackers"
 msgstr "GPS тракери"
 
-#: service_plan.py:118
+#: service_plan.py:122
 msgid "Maximum file upload"
 msgstr "Максимален размер прикачван файл"
 
-#: service_plan.py:119
+#: service_plan.py:123
 msgid "Maximum raster layer"
 msgstr "Максимален размер на растров слой"
 

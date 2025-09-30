@@ -3,22 +3,29 @@ msgid "Storage management is not enabled on this server."
 msgstr ""
 
 #: api.py:350
+#, python-brace-format
 msgid ""
 "Invalid font file name: '{}'. Only latin letters, digits, hyphens and "
 "underscores are allowed. The *.ttf or *.otf extension is required."
 msgstr ""
+"Nom de fichier de police non valide : « {} ». Seuls les lettres latines, les "
+"chiffres, les traits d'union et les traits de soulignement sont autorisés. "
+"L'extension *.ttf ou *.otf est requise."
 
 #: api.py:358
+#, python-brace-format
 msgid "Font '{0}' is larger than {1} bytes."
-msgstr ""
+msgstr "La police « {0} » est plus grande que {1} octets."
 
 #: api.py:553
+#, python-brace-format
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
 
 #: api.py:681
+#, python-brace-format
 msgid "Got an unsupported MIME type: '{}'."
 msgstr ""
 
@@ -198,19 +205,19 @@ msgstr ""
 
 #: nodepkg/cors-settings/CORSSettings.tsx:57
 msgid "CORS settings updated"
-msgstr ""
+msgstr "Paramètres CORS mis à jour"
 
 #: nodepkg/cors-settings/CORSSettings.tsx:62
 msgid "Fix the form errors first"
-msgstr ""
+msgstr "Corrigez d'abord les erreurs du formulaire"
 
 #: nodepkg/cors-settings/CORSSettings.tsx:78
 msgid "The value entered is not valid"
-msgstr ""
+msgstr "La valeur saisie n'est pas valide"
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:40
 msgid "Custom styles saved. Reload the page to get them applied."
-msgstr ""
+msgstr "Styles personnalisés enregistrés. Actualisez la page pour les appliquer."
 
 #: nodepkg/custom-css-form/CustomCSSForm.tsx:62
 msgid ""
@@ -225,14 +232,16 @@ msgid ""
 "During operation, the Web GIS will restart. All existing requests will be "
 "aborted. Proceed?"
 msgstr ""
+"Pendant l'opération, le SIG Web redémarrera. Toutes les requêtes en cours "
+"seront abandonnées. Continuer ?"
 
 #: nodepkg/fonts/FontsPanel.tsx:29
 msgid "Web GIS is restarting, please wait..."
-msgstr ""
+msgstr "Web GIS redémarre, veuillez patienter..."
 
 #: nodepkg/fonts/FontsPanel.tsx:30
 msgid "Custom"
-msgstr ""
+msgstr "Coutume"
 
 #: nodepkg/fonts/FontsPanel.tsx:30
 msgid "System"
@@ -256,17 +265,17 @@ msgstr ""
 
 #: nodepkg/fonts/FontsPanel.tsx:181
 msgid "Show system fonts"
-msgstr ""
+msgstr "Afficher les polices système"
 
 #: nodepkg/home-path/HomePath.tsx:4
 msgid "The home path setting is saved."
-msgstr ""
+msgstr "Le paramètre du chemin d'accès d'origine est enregistré."
 
 #: nodepkg/i18n/testentry.ts:9 nodepkg/i18n/testentry.ts:13 test/test_i18n.py:15
 msgctxt "test"
 msgid "unit"
 msgid_plural "units"
-msgstr[0] ""
+msgstr[0] "unité"
 msgstr[1] ""
 
 #: nodepkg/layout/Avatar.tsx:12
@@ -279,7 +288,7 @@ msgstr "Séance d'invitation"
 
 #: nodepkg/layout/Avatar.tsx:23
 msgid "User settings"
-msgstr ""
+msgstr "Paramètres utilisateur"
 
 #: nodepkg/layout/Avatar.tsx:25
 msgid "Sign out"
@@ -307,45 +316,47 @@ msgstr ""
 
 #: nodepkg/metrics/GoogleAnalyticsTab.tsx:28
 msgid "Measurement ID"
-msgstr ""
+msgstr "ID de mesure"
 
 #: nodepkg/metrics/MetricSettings.tsx:21
 msgid "Add"
-msgstr ""
+msgstr "Ajouter"
 
 #: nodepkg/metrics/MetricSettings.tsx:22
 msgid "The setting is saved."
-msgstr ""
+msgstr "Le paramètre est enregistré."
 
 #: nodepkg/metrics/MetricSettings.tsx:23
 msgid "Reload the page to get them applied."
-msgstr ""
+msgstr "Rechargez la page pour les appliquer."
 
 #: nodepkg/metrics/MetricSettings.tsx:27
 msgid "Add one or more counters to your Web GIS."
-msgstr ""
+msgstr "Ajoutez un ou plusieurs compteurs à votre SIG Web."
 
 #: nodepkg/metrics/MetricSettings.tsx:28
 msgid ""
 "HTML code of these counters will be embeded into each page and will allow you"
 " to track user activity."
 msgstr ""
+"Le code HTML de ces compteurs sera intégré dans chaque page et vous permettra"
+" de suivre l'activité des utilisateurs."
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:29
 msgid "Tag number"
-msgstr ""
+msgstr "Numéro d'étiquette"
 
 #: nodepkg/metrics/YandexMetricaTab.tsx:48
 msgid "Webvisor"
-msgstr ""
+msgstr "Webvisor"
 
 #: nodepkg/metrics/tab.ts:32
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: nodepkg/metrics/tab.ts:38
 msgid "Yandex.Metrica"
-msgstr ""
+msgstr "Yandex.Metrica"
 
 #: nodepkg/storage-summary/StorageSummary.tsx:23
 msgid "Some changes may be reflected only after full estimation."
@@ -354,14 +365,19 @@ msgstr ""
 "complète."
 
 #: nodepkg/storage-summary/StorageSummary.tsx:24
+#, python-brace-format
 msgid "Storage usage was fully estimated at {f}."
-msgstr ""
+msgstr "L'utilisation du stockage a été entièrement estimée à {f}."
 
 #: nodepkg/storage-summary/StorageSummary.tsx:25
+#, python-brace-format
 msgid "Storage usage was fully estimated at {f} and updated at {u}."
 msgstr ""
+"L'utilisation du stockage a été entièrement estimée à {f} et mise à jour à "
+"{u}."
 
 #: nodepkg/storage-summary/StorageSummary.tsx:26
+#, python-brace-format
 msgid "Storage usage hasn't been estimated yet but was updated at {u}."
 msgstr ""
 
@@ -403,19 +419,19 @@ msgstr "Plate-forme"
 
 #: nodepkg/system-info/SystemInfo.tsx:89
 msgid "Browser support"
-msgstr ""
+msgstr "Prise en charge du navigateur"
 
 #: nodepkg/system-info/SystemInfo.tsx:97
 msgid "or higher"
-msgstr ""
+msgstr "ou supérieur"
 
 #: nodepkg/system-info/SystemInfo.tsx:98
 msgid "Not supported"
-msgstr ""
+msgstr "Non pris en charge"
 
 #: nodepkg/system-info/SystemInfo.tsx:104
 msgid "Your browser"
-msgstr ""
+msgstr "Votre navigateur"
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:15
 msgid "Checking for updates..."
@@ -430,6 +446,7 @@ msgid "Show details"
 msgstr "Afficher les détails"
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:21
+#, python-brace-format
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
@@ -438,16 +455,18 @@ msgstr ""
 "de mettre à jour dès que possible."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:22
+#, python-brace-format
 msgid "New version of {distribution} is available: {version}."
 msgstr "Une nouvelle version de {distribution} est disponible: {version}."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:23
+#, python-brace-format
 msgid "Your {distribution} is up-to-date."
 msgstr "Votre {distribution} est à jour."
 
 #: nodepkg/system-name-form/SystemNameForm.tsx:4
 msgid "The system name setting is saved."
-msgstr ""
+msgstr "Le paramètre du nom du système est enregistré."
 
 #: nodepkg/update/index.tsx:24
 msgid "Critical updates are available"
@@ -519,6 +538,9 @@ msgid ""
 " to bypass the compatibility test. The Web GIS or some features may degrade "
 "or fail  in this case."
 msgstr ""
+"Si vous souhaitez continuer à utiliser votre navigateur actuel, cliquez sur "
+"le lien ci-dessous pour ignorer le test de compatibilité. Dans ce cas, le SIG"
+" Web ou certaines fonctionnalités pourraient se dégrader ou tomber en panne."
 
 #: template/uacompat.mako:35
 msgid "I understood but want to proceed at my own risk. Skip the test!"
@@ -539,28 +561,30 @@ msgid "Parameter required"
 msgstr ""
 
 #: tomb/config.py:99
+#, python-brace-format
 msgid "The '{}' query parameter is required."
 msgstr ""
 
 #: tomb/config.py:101
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Paramètre invalide"
 
 #: tomb/config.py:102
+#, python-brace-format
 msgid "The '{}' query parameter has an invalid value."
 msgstr ""
 
 #: tomb/exception.py:7
 msgid "Malformed JSON body"
-msgstr ""
+msgstr "Corps JSON mal formé"
 
 #: tomb/exception.py:8
 msgid "The JSON body of the request is malformed or invalid."
-msgstr ""
+msgstr "Le corps JSON de la requête est mal formé ou non valide."
 
 #: view.py:188
 msgid "HTTP API documentation"
-msgstr ""
+msgstr "Documentation de l'API HTTP"
 
 #: view.py:254 view.py:665
 msgid "System information"
@@ -568,7 +592,7 @@ msgstr "Informations système"
 
 #: view.py:264 view.py:671
 msgid "Font management"
-msgstr ""
+msgstr "Gestion des polices"
 
 #: view.py:273 view.py:708
 msgid "Storage"
@@ -596,7 +620,7 @@ msgstr "Chemin d'accueil"
 
 #: view.py:351 view.py:701
 msgid "Metrics and analytics"
-msgstr ""
+msgstr "Mesures et analyses"
 
 #: view.py:645
 msgid "Info"
