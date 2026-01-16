@@ -1,38 +1,46 @@
 #: api_import.py:26
 msgid "Invalid ZIP archive."
-msgstr ""
+msgstr "Невалиден ZIP-архив."
 
 #: api_import.py:55
+#, python-brace-format
 msgid "File '{}' isn't found in metadata."
-msgstr ""
+msgstr "Файлът '{}' не е открит в метаданните."
 
 #: api_import.py:61
+#, python-brace-format
 msgid "Invalid feature ID for file '{}'."
-msgstr ""
+msgstr "Невалиден ID на обекта за файла '{}'."
 
 #: api_import.py:68
+#, python-brace-format
 msgid "Invalid keyname for file '{}'."
-msgstr ""
+msgstr "Некоректен ключ за файл '{}'."
 
 #: api_import.py:74
+#, python-brace-format
 msgid "Invalid name for file '{}'."
-msgstr ""
+msgstr "Невалидно име на файла '{}'."
 
 #: api_import.py:80
+#, python-brace-format
 msgid "Invalid MIME type for file '{}'."
-msgstr ""
+msgstr "Невалиден тип MIME за файла '{}'."
 
 #: api_import.py:87
+#, python-brace-format
 msgid "Invalid description for file '{}'."
-msgstr ""
+msgstr "Невалидно описание за файла '{}'."
 
 #: api_import.py:100
+#, python-brace-format
 msgid "Could not determine feature ID for file '{}'."
-msgstr ""
+msgstr "Неуспешно определяне на ID на обекта за файла '{}'."
 
 #: api_import.py:118
+#, python-brace-format
 msgid "File '{}' isn't found in the archive."
-msgstr ""
+msgstr "Файлът '{}' не е открит в архива."
 
 #: component.py:14
 msgid "Feature attachments"
@@ -43,6 +51,7 @@ msgid "Attachment not found"
 msgstr "Прикачен файл не е открит"
 
 #: exception.py:8
+#, python-format
 msgid "Attachment with id = %d was not found in feature with id = %d."
 msgstr "Прикаченият файл с id = %d не е открит в обекта с id = %d."
 
@@ -59,27 +68,27 @@ msgstr "Прикачени файлове"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:34
 msgid "Draw the geometry on the map to visualize the attachments to the objects"
-msgstr ""
+msgstr "Нарисувайте геометрия на картата за да прегледате прикачените файлове"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:131
 msgid "Object: "
-msgstr ""
+msgstr "Обект: "
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:140
 msgid "Identify object"
-msgstr ""
+msgstr "Идентифициране на обект"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:161
 msgid "Attachments: "
-msgstr ""
+msgstr "Прикачени: "
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:188
 msgid "No attachments"
-msgstr ""
+msgstr "Няма прикачени"
 
 #: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:254
 msgid "Download all attachments"
-msgstr ""
+msgstr "Свали всички прикачени файлове"
 
 #: nodepkg/attachment-editor/AttachmentEditor.tsx:141
 #: nodepkg/attachment-table/AttachmentTable.tsx:41
@@ -103,26 +112,31 @@ msgid ""
 "in directories named after feature IDs. Attachment metadata are put into a "
 "separate JSON file."
 msgstr ""
+"За да копирате прикачените файлове между слоеве или да направите резервно "
+"копие, възползвайте се от експорт. Ще получите ZIP архив с всички прикачени "
+"файлове в папки с ID-та на обектите. Метаданните на прикачените файлове се "
+"записват в отделен JSON файл."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:64
 msgid "Export attachments to ZIP archive"
-msgstr ""
+msgstr "Скачи прикачените файлове като ZIP-архив"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:82
 msgid "Back to resource"
-msgstr ""
+msgstr "Обратно към ресурса"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:84
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:87
 msgid "The archive has been successfully imported."
-msgstr ""
+msgstr "Архивът е импортиран успешно."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:89
+#, python-brace-format
 msgid "Attachments imported - {i}, skipped - {s}."
-msgstr ""
+msgstr "Импортирани прикачени файлове: {i}, пропуснати: {s}."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:124
 msgid ""
@@ -130,26 +144,29 @@ msgid ""
 "archive must contain directories named after feature IDs. Each folder can "
 "contain one or many attachments. Duplicates will be ignored."
 msgstr ""
+"Може да прикачите файлове масово към съществуващите обекти като използвате "
+"ZIP архив. Имената на папките в архива трябва да са ID-та на обектите. В една"
+" папка може да има един или повече файлове. Дубликатите ще бъдат игнорирани."
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:133
 msgid "Delete existing attachments"
-msgstr ""
+msgstr "Изтрий съществуващи прикачени файлове"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:158
 msgid "Import attachments from ZIP archive"
-msgstr ""
+msgstr "Импорт на прикачени файлове чрез ZIP архив"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:170
 msgid "Export"
-msgstr ""
+msgstr "Експорт"
 
 #: nodepkg/attachment-form/AttachmentForm.tsx:175
 msgid "Import"
-msgstr ""
+msgstr "Импорт"
 
 #: nodepkg/attachment-table/AttachmentTable.tsx:51
 msgid "Unnamed"
-msgstr ""
+msgstr "Безименен"
 
 #: nodepkg/attachment-table/AttachmentTable.tsx:68
 msgid "MIME type"
@@ -157,8 +174,8 @@ msgstr "Тип MIME"
 
 #: nodepkg/image-thumbnail/component/AttachmentPreviewToolbar.tsx:34
 msgid "Toggle panorama viewer"
-msgstr ""
+msgstr "Преглед на панорама"
 
 #: view.py:21 view.py:45
 msgid "Manage attachments"
-msgstr ""
+msgstr "Управлявай прикачени файлове"

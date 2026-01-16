@@ -30,6 +30,30 @@ msgstr ""
 msgid "Tile caching"
 msgstr ""
 
+#: nodepkg/bf2025/BF2025Banner.tsx:7
+msgid "CYBER FRIDAY"
+msgstr ""
+
+#: nodepkg/bf2025/BF2025Banner.tsx:8
+msgid "50% off"
+msgstr ""
+
+#: nodepkg/bf2025/BF2025Banner.tsx:9
+msgid "geodata and subscriptions"
+msgstr ""
+
+#: nodepkg/bf2025/BF2025Banner.tsx:10
+msgid "December 1 – 5, 2025"
+msgstr ""
+
+#: nodepkg/bf2025/BF2025Banner.tsx:12
+msgid "Get it now!"
+msgstr ""
+
+#: nodepkg/bf2025/BF2025Banner.tsx:12
+msgid "Plan it now!"
+msgstr ""
+
 #: nodepkg/hook.ts:54
 msgid "of"
 msgstr "do"

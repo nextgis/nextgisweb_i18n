@@ -60,51 +60,71 @@ msgstr ""
 msgid "Save"
 msgstr "Uložit"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:55
-msgid "Left"
+#: nodepkg/component/expandable-text/ExpandableText.tsx:22
+msgid "Less"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:56
-msgid "Bottom"
+#: nodepkg/component/expandable-text/ExpandableText.tsx:22
+msgid "More"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:57
-msgid "Right"
+#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:154
+msgid "Close"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:58
-msgid "Top"
-msgstr ""
-
-#: nodepkg/component/extent-row/ExtentRow.tsx:61
-msgid "West"
+#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:163
+msgid "Apply"
 msgstr ""
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:62
-msgid "South"
+msgid "Left"
 msgstr ""
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:63
-msgid "East"
+msgid "Bottom"
 msgstr ""
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:64
+msgid "Right"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:65
+msgid "Top"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:68
+msgid "West"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:69
+msgid "South"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:70
+msgid "East"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:71
 msgid "North"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:121
-msgid "From layer"
+#: nodepkg/component/extent-row/ExtentRow.tsx:137
+msgid "From layers"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:124
+#: nodepkg/component/extent-row/ExtentRow.tsx:162
+msgid "Edit on map"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:167
 msgid "Clean"
 msgstr ""
 
-#: nodepkg/component/language-select/LanguageSelect.tsx:15
+#: nodepkg/component/language-select/LanguageSelect.tsx:14
 msgid "Improve or add new translation"
 msgstr ""
 
-#: nodepkg/component/language-select/LanguageSelect.tsx:31
+#: nodepkg/component/language-select/LanguageSelect.tsx:17
 msgid "Browser default"
 msgstr "Výchozí nastavení prohlížeče"
 
@@ -125,8 +145,8 @@ msgid "Clone"
 msgstr ""
 
 #: nodepkg/edi-table/RowAction.tsx:79 nodepkg/focus-table/action.tsx:27
-#: nodepkg/hook/useConfirm.tsx:52 nodepkg/model-browse/ModelBrowse.tsx:264
-#: nodepkg/model-browse/ModelBrowse.tsx:334 nodepkg/model-form/ModelForm.tsx:47
+#: nodepkg/hook/useConfirm.tsx:54 nodepkg/model-browse/ModelBrowse.tsx:265
+#: nodepkg/model-browse/ModelBrowse.tsx:335 nodepkg/model-form/ModelForm.tsx:47
 msgid "Delete"
 msgstr "Odstranit"
 
@@ -178,51 +198,51 @@ msgstr ""
 msgid "Please confirm this action."
 msgstr ""
 
-#: nodepkg/hook/useConfirm.tsx:51
+#: nodepkg/hook/useConfirm.tsx:53
 msgid "Please confirm the deletion."
 msgstr ""
 
-#: nodepkg/hook/useConfirm.tsx:53
+#: nodepkg/hook/useConfirm.tsx:55
 msgid "Failed to delete."
 msgstr ""
 
-#: nodepkg/model-browse/ModelBrowse.tsx:122 nodepkg/model-form/ModelForm.tsx:69
+#: nodepkg/model-browse/ModelBrowse.tsx:123 nodepkg/model-form/ModelForm.tsx:69
 msgid "Confirmation"
 msgstr "Potvrzení"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:123
+#: nodepkg/model-browse/ModelBrowse.tsx:124
 msgid "Item deleted"
 msgstr "Položka zrušena"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:125
+#: nodepkg/model-browse/ModelBrowse.tsx:126
 msgid "Items deleted"
 msgstr "Smazané položky"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:193
+#: nodepkg/model-browse/ModelBrowse.tsx:194
 msgid "The errors occurred during execution"
 msgstr "K chybám došlo během provádění"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:197
+#: nodepkg/model-browse/ModelBrowse.tsx:198
 msgid "Failed to delete items:"
 msgstr "Nepodařilo se odstranit položky:"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:220
+#: nodepkg/model-browse/ModelBrowse.tsx:221
 msgid "Do you want to delete these items?"
 msgstr "Chcete tyto položky smazat?"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:254
+#: nodepkg/model-browse/ModelBrowse.tsx:255
 msgid "Edit"
 msgstr "Upravit"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:254
+#: nodepkg/model-browse/ModelBrowse.tsx:255
 msgid "View"
 msgstr ""
 
-#: nodepkg/model-browse/ModelBrowse.tsx:287
+#: nodepkg/model-browse/ModelBrowse.tsx:288
 msgid "Search"
 msgstr "Vyhledávání"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:311 nodepkg/model-form/ModelForm.tsx:45
+#: nodepkg/model-browse/ModelBrowse.tsx:312 nodepkg/model-form/ModelForm.tsx:45
 msgid "Create"
 msgstr "Vytvořit"
 
@@ -230,7 +250,7 @@ msgstr "Vytvořit"
 msgid "Fix the form errors first"
 msgstr "Nejprve opravte chyby formuláře"
 
-#: nodepkg/model-logo-form/ModelLogoForm.tsx:27
+#: nodepkg/model-logo-form/ModelLogoForm.tsx:28
 msgid "Logo saved. Reload the page to get them applied."
 msgstr "Logo uloženo. Znovu načtěte stránku, abyste je mohli použít."
 

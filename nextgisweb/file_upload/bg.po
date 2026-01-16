@@ -1,17 +1,17 @@
-#: api.py:25
+#: api.py:24
 msgid "Uploaded file too large"
 msgstr "Прикачваният файл е прекалено голям"
 
-#: model.py:137
+#: model.py:136
 msgid "Uploaded file not found"
-msgstr ""
+msgstr "Прикачваният файл не е открит"
 
-#: model.py:141
+#: model.py:140
 msgid "Upload is not completed"
 msgstr "Прикачването не е завършено"
 
 #: nodepkg/file-uploader/FileUploader.tsx:19
-#: nodepkg/image-uploader/ImageUploader.tsx:17
+#: nodepkg/image-uploader/ImageUploader.tsx:19
 msgid "Select a file"
 msgstr "Изберете файл"
 
@@ -20,21 +20,27 @@ msgid "or drag and drop here"
 msgstr "или преместете и оставете тук"
 
 #: nodepkg/file-uploader/FileUploader.tsx:21
-msgid "max"
-msgstr "максимум"
-
-#: nodepkg/file-uploader/FileUploader.tsx:22
 msgid "Stop"
 msgstr "Спри"
 
+#: nodepkg/file-uploader/FileUploader.tsx:85
+msgid "max"
+msgstr "максимум"
+
 #: nodepkg/file-uploader/FileUploaderButton.tsx:9
 msgid "Upload"
-msgstr ""
+msgstr "Прикачване"
 
-#: nodepkg/file-uploader/hook/useFileUploader.ts:17
+#: nodepkg/file-uploader/hook/useFileUploader.ts:20
+#, python-brace-format
 msgid "{} uploaded..."
+msgstr "Обработено: {} ..."
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:21
+#, python-brace-format
+msgid "File is too large, the limit size is {}."
 msgstr ""
 
-#: nodepkg/image-uploader/ImageUploader.tsx:18
-msgid "Delete"
-msgstr "Изтрий"
+#: nodepkg/image-uploader/ImageUploader.tsx:20
+msgid "Clear"
+msgstr ""

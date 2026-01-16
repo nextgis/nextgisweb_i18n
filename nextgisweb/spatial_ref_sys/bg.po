@@ -1,18 +1,21 @@
 #: api.py:141
 msgid "System SRS cannot be deleted."
-msgstr ""
+msgstr "Системна КС не може да бъде изтрита."
 
 #: api.py:160
 msgid "Invalid SRS definition!"
-msgstr "SRS определение е невалидно!"
+msgstr "Определението на КС е невалидно!"
 
 #: api.py:367
 msgid "SRS authority attributes must be defined while importing from the catalog."
 msgstr ""
+"Параметри на организацията трябва да бъдат дефинирани при импортиране на КС "
+"от каталога."
 
 #: api.py:392
+#, python-brace-format
 msgid "SRS #{} already exists."
-msgstr ""
+msgstr "КС #{} вече съществува."
 
 #: model.py:53 model.py:54 view.py:18 view.py:91
 msgid "Spatial reference systems"
@@ -26,11 +29,11 @@ msgstr "Показвано име"
 
 #: nodepkg/catalog-browse/CatalogBrowse.tsx:94
 msgid "Show in catalog"
-msgstr ""
+msgstr "Отвори в каталога"
 
 #: nodepkg/catalog-browse/CatalogBrowse.tsx:107 nodepkg/srs-widget/SRSWidget.tsx:37
 msgid "Authority and code"
-msgstr ""
+msgstr "Източник и код"
 
 #: nodepkg/catalog-browse/CatalogBrowse.tsx:119
 #: nodepkg/catalog-import/CatalogImport.tsx:88
@@ -59,7 +62,7 @@ msgstr "Покажи детайлите"
 
 #: nodepkg/srs-browse/SrsBrowse.tsx:26
 msgid "Import from catalog"
-msgstr ""
+msgstr "Добави от каталога"
 
 #: nodepkg/srs-widget/SRSImportForm.tsx:59
 msgid "Format"
@@ -83,17 +86,19 @@ msgstr "Координатната система е премахната"
 
 #: pyramid.py:9
 msgid "Catalog not cofigured"
-msgstr ""
+msgstr "Каталогът не е конфигуриран"
 
 #: pyramid.py:10
 msgid "The spatial reference system catalog is not configured on this server."
-msgstr ""
+msgstr "Каталогът на координатните системи не е конфигуриран на този сървър."
 
 #: util.py:38
+#, python-format
 msgid "Invalid MapInfo spatial reference system: %s"
 msgstr "Невалидна координатна система MapInfo: %s"
 
 #: util.py:61
+#, python-format
 msgid "Unknown spatial reference system format: %s!"
 msgstr "Грешен формат на координатна система: %s!"
 

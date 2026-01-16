@@ -1,136 +1,156 @@
 #: nodepkg/arm/validate.ts:5
 msgid "Value required"
-msgstr ""
+msgstr "Значението се изисква"
 
 #: nodepkg/arm/validate.ts:7
 #, python-brace-format
 msgid "At least {} character required"
 msgid_plural "At least {} characters required"
-msgstr[0] ""
+msgstr[0] "Трябва да има най-малко {} символ"
 msgstr[1] ""
 
 #: nodepkg/arm/validate.ts:13
 #, python-brace-format
 msgid "No more than {} character required"
 msgid_plural "No more than {} characters required"
-msgstr[0] ""
+msgstr[0] "Трябва да е не повече от {} знак"
 msgstr[1] ""
 
 #: nodepkg/arm/validate.ts:18
 #, python-brace-format
 msgid "Value should be at least {}"
-msgstr ""
+msgstr "Значението трябва да е най-малко {}"
 
 #: nodepkg/arm/validate.ts:19
 #, python-brace-format
 msgid "Value should be no more than {}"
-msgstr ""
+msgstr "Значението трябва да е под {}"
 
 #: nodepkg/arm/validate.ts:21
 msgid "Invalid value"
-msgstr ""
+msgstr "Некоректно значение"
 
 #: nodepkg/arm/validate.ts:22
 msgid "Value not unique"
-msgstr ""
+msgstr "Значението не е уникално"
 
 #: nodepkg/arm/validate.ts:23
 msgid "Invalid URL"
-msgstr ""
+msgstr "Линкът не е валиден"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:63
 msgid "Copied to clipboard"
-msgstr ""
+msgstr "Копирано в клипборд"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:67
 msgid "Failed to copy to clipboard"
-msgstr ""
+msgstr "Неуспешно копиране в клипборда"
 
 #: nodepkg/buttons/CopyToClipboardButton.tsx:74
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Копирай в клипборд"
 
 #: nodepkg/component/InputScaleDenom.tsx:6
 msgid "Not set"
-msgstr ""
+msgstr "Не е зададен"
 
 #: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:46
 msgid "Save"
 msgstr "Запазване"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:55
-msgid "Left"
+#: nodepkg/component/expandable-text/ExpandableText.tsx:22
+msgid "Less"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:56
-msgid "Bottom"
+#: nodepkg/component/expandable-text/ExpandableText.tsx:22
+msgid "More"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:57
-msgid "Right"
+#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:154
+msgid "Close"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:58
-msgid "Top"
-msgstr ""
-
-#: nodepkg/component/extent-row/ExtentRow.tsx:61
-msgid "West"
+#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:163
+msgid "Apply"
 msgstr ""
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:62
-msgid "South"
-msgstr ""
+msgid "Left"
+msgstr "Вляво"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:63
-msgid "East"
-msgstr ""
+msgid "Bottom"
+msgstr "Долу"
 
 #: nodepkg/component/extent-row/ExtentRow.tsx:64
+msgid "Right"
+msgstr "Вдясно"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:65
+msgid "Top"
+msgstr "Горе"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:68
+msgid "West"
+msgstr "Запад"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:69
+msgid "South"
+msgstr "Юг"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:70
+msgid "East"
+msgstr "Изток"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:71
 msgid "North"
+msgstr "Север"
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:137
+msgid "From layers"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:121
-msgid "From layer"
+#: nodepkg/component/extent-row/ExtentRow.tsx:162
+msgid "Edit on map"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:124
+#: nodepkg/component/extent-row/ExtentRow.tsx:167
 msgid "Clean"
-msgstr ""
+msgstr "Очисти"
 
-#: nodepkg/component/language-select/LanguageSelect.tsx:15
+#: nodepkg/component/language-select/LanguageSelect.tsx:14
 msgid "Improve or add new translation"
-msgstr ""
+msgstr "Поправяне или предлагане на превод"
 
-#: nodepkg/component/language-select/LanguageSelect.tsx:31
+#: nodepkg/component/language-select/LanguageSelect.tsx:17
 msgid "Browser default"
 msgstr "По подразбиране в браузъра"
 
 #: nodepkg/edi-table/EdiTableKeyValue.tsx:11
 msgid "Type here to add a new item..."
-msgstr ""
+msgstr "Пишете тук за да добавите нов елемент..."
 
 #: nodepkg/edi-table/EdiTableKeyValue.tsx:42
 msgid "Key required"
-msgstr ""
+msgstr "Изисква се ключ"
 
 #: nodepkg/edi-table/EdiTableKeyValue.tsx:48
 msgid "Key not unique"
-msgstr ""
+msgstr "Ключът не е уникален"
 
 #: nodepkg/edi-table/RowAction.tsx:74
 msgid "Clone"
-msgstr ""
+msgstr "Клонирай"
 
 #: nodepkg/edi-table/RowAction.tsx:79 nodepkg/focus-table/action.tsx:27
-#: nodepkg/hook/useConfirm.tsx:52 nodepkg/model-browse/ModelBrowse.tsx:264
-#: nodepkg/model-browse/ModelBrowse.tsx:334 nodepkg/model-form/ModelForm.tsx:47
+#: nodepkg/hook/useConfirm.tsx:54 nodepkg/model-browse/ModelBrowse.tsx:265
+#: nodepkg/model-browse/ModelBrowse.tsx:335 nodepkg/model-form/ModelForm.tsx:47
 msgid "Delete"
 msgstr "Изтриване"
 
 #: nodepkg/error/ErrorModal.tsx:49 nodepkg/error/extractError.ts:5
 msgid "Error"
-msgstr ""
+msgstr "Грешка"
 
 #: nodepkg/error/extractError.ts:4
 msgid "Something went wrong."
@@ -162,65 +182,65 @@ msgstr "Въведеното значение не е валидно"
 
 #: nodepkg/focus-table/FocusTable.tsx:23
 msgid "Hide details"
-msgstr ""
+msgstr "Скрий"
 
 #: nodepkg/focus-table/action.tsx:13
 msgid "Add"
-msgstr ""
+msgstr "Добавяне"
 
 #: nodepkg/hook/useConfirm.tsx:20
 msgid "Confirmation required"
-msgstr ""
+msgstr "Изисква се потвърждение"
 
 #: nodepkg/hook/useConfirm.tsx:21
 msgid "Please confirm this action."
-msgstr ""
-
-#: nodepkg/hook/useConfirm.tsx:51
-msgid "Please confirm the deletion."
-msgstr ""
+msgstr "Потвърдете действието."
 
 #: nodepkg/hook/useConfirm.tsx:53
-msgid "Failed to delete."
-msgstr ""
+msgid "Please confirm the deletion."
+msgstr "Потвърдете изтриването."
 
-#: nodepkg/model-browse/ModelBrowse.tsx:122 nodepkg/model-form/ModelForm.tsx:69
+#: nodepkg/hook/useConfirm.tsx:55
+msgid "Failed to delete."
+msgstr "Неуспешно изтриване."
+
+#: nodepkg/model-browse/ModelBrowse.tsx:123 nodepkg/model-form/ModelForm.tsx:69
 msgid "Confirmation"
 msgstr "Confirmation"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:123
+#: nodepkg/model-browse/ModelBrowse.tsx:124
 msgid "Item deleted"
 msgstr "Елементът е изтрит"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:125
+#: nodepkg/model-browse/ModelBrowse.tsx:126
 msgid "Items deleted"
 msgstr "Елементите са изтрити"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:193
+#: nodepkg/model-browse/ModelBrowse.tsx:194
 msgid "The errors occurred during execution"
 msgstr "При изпълнение е станала грешка"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:197
+#: nodepkg/model-browse/ModelBrowse.tsx:198
 msgid "Failed to delete items:"
 msgstr "Следните елементи не могат да бъдат изтрити:"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:220
+#: nodepkg/model-browse/ModelBrowse.tsx:221
 msgid "Do you want to delete these items?"
 msgstr "Искате ли да изтриете тези елементи?"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:254
+#: nodepkg/model-browse/ModelBrowse.tsx:255
 msgid "Edit"
 msgstr "Редактиране"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:254
+#: nodepkg/model-browse/ModelBrowse.tsx:255
 msgid "View"
-msgstr ""
+msgstr "Преглед"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:287
+#: nodepkg/model-browse/ModelBrowse.tsx:288
 msgid "Search"
 msgstr "Търсене"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:311 nodepkg/model-form/ModelForm.tsx:45
+#: nodepkg/model-browse/ModelBrowse.tsx:312 nodepkg/model-form/ModelForm.tsx:45
 msgid "Create"
 msgstr "Създаване"
 
@@ -228,17 +248,17 @@ msgstr "Създаване"
 msgid "Fix the form errors first"
 msgstr "Трябва да поправите грешките във формата"
 
-#: nodepkg/model-logo-form/ModelLogoForm.tsx:27
+#: nodepkg/model-logo-form/ModelLogoForm.tsx:28
 msgid "Logo saved. Reload the page to get them applied."
 msgstr "Логото е запазено. За да използвате презаредете страницата."
 
 #: nodepkg/progress-modal/ProgressModal.tsx:7
 msgid "Operation in progress"
-msgstr ""
+msgstr "В процес на изпълнение"
 
 #: nodepkg/progress-modal/ProgressModal.tsx:8
 msgid "Cancel"
-msgstr ""
+msgstr "Откажи"
 
 #: nodepkg/single-setting-form/SingleSettingForm.tsx:24
 msgid "The setting is saved."

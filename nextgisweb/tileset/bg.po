@@ -1,53 +1,59 @@
 #: model.py:87
 msgid "Tilesets"
-msgstr ""
+msgstr "Мозайки"
 
 #: model.py:91
+#, python-brace-format
 msgid "Tile {} unsupported."
-msgstr ""
+msgstr "Неподдържана плочка {}."
 
 #: model.py:126 nodepkg/resource-widget/Widget.tsx:34
 msgid "Tileset"
-msgstr ""
+msgstr "Мозайка"
 
 #: model.py:211
 msgid "Number of tiles"
-msgstr ""
+msgstr "Брой плочки"
 
 #: model.py:213
 msgid "Zoom levels"
-msgstr ""
+msgstr "Нива на приближаване"
 
 #: model.py:214
+#, python-brace-format
 msgid "From {min} to {max}"
-msgstr ""
+msgstr "От  {min} до {max}"
 
 #: model.py:249
+#, python-brace-format
 msgid "Tiles '{}' and '{}' are located in different subdirectories."
-msgstr ""
+msgstr "Плочките  '{}' и '{}' се намират в различни папки."
 
 #: model.py:255
+#, python-brace-format
 msgid "Tiles '{}' and '{}' have different extensions."
-msgstr ""
+msgstr "Плочките  '{}' и '{}' имат различни разширения."
 
 #: model.py:316 model.py:352
 msgid "Unsupported data format."
-msgstr ""
+msgstr "Неподдържан формат данни."
 
 #: model.py:357
 msgid "Only 256x256 px tiles are supported."
-msgstr ""
+msgstr "Поддържат се само плочки от 256x256 пиксела."
 
 #: model.py:378
 msgid "No tiles found in source."
-msgstr ""
+msgstr "В ресурса не са намерени плочки."
 
 #: nodepkg/resource-widget/Widget.tsx:12
 msgid "Select a tileset"
-msgstr ""
+msgstr "Изберете мозайка"
 
 #: nodepkg/resource-widget/Widget.tsx:13
 msgid ""
 "MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
 "JPEG format and have a size of 256x256 pixels."
 msgstr ""
+"Поддържат се MBTiles и ZIP архиви от плочки. Плочките трябва да се във формат"
+" PNG или JPEG и да са от 256x256 пиксела."

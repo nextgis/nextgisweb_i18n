@@ -1,8 +1,16 @@
-#: api.py:62 api.py:96
+#: api.py:82 api.py:156
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
 msgstr "很遗憾，您不能添加新的参与者。在Web GIS 中，您的参与者用户上限是"
+
+#: api.py:114
+msgid "User with email '{}' already exists. Email addresses are case-insensitive."
+msgstr ""
+
+#: api.py:164
+msgid "User with email '{}' already exists."
+msgstr ""
 
 #: models/model_db.py:103
 msgid "Collector project"
@@ -30,19 +38,19 @@ msgstr "您不能添加新的参与者。您的参与者用户上限"
 msgid "The value entered is not valid"
 msgstr "输入的值无效"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
 msgid "Collector users:"
 msgstr "参与者用户数量"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
 msgid "out of"
 msgstr "超出...."
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:26
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
 msgid "Each collector must have "
 msgstr "每一个参与者应该有......"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:27
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
 msgid "NextGIS ID account"
 msgstr "NextGIS ID 账户"
 
@@ -91,75 +99,79 @@ msgid "Max zoom"
 msgstr "最大缩放"
 
 #: nodepkg/resource-items/ItemsWidget.tsx:36
-msgid "Layer"
+msgid "Item"
 msgstr ""
 
 #: nodepkg/resource-items/ItemsWidget.tsx:37
+msgid "Form, layer or style"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:38
 msgid "Group"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:265
+#: nodepkg/resource-items/ItemsWidget.tsx:266
 msgid "Items"
 msgstr "（选）项"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:14
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
 msgid "Initial extent"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:16
 msgid "Project will start at this extent"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:17
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:18
 msgid "Starting screen"
 msgstr "启动屏幕"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:19
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:20
 msgid "The starting screen in the NextGIS Collector mobile app"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:22
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:23
 msgid "Username"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:24
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:25
 msgid ""
 "Web GIS user name with necessary permissions to access data used in the "
 "project. This user is not related to accounts of actual data collectors."
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:29
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
 msgid "Password"
 msgstr "密码"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:31
 msgid "Password for the Web GIS user"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:32
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:33
 #: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:209
 msgid "Mobile project setup configuration"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:34
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:35
 msgid ""
 "Automate project delivery to multiple mobile GIS with this setup. Recommended"
 " for advanced users only."
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:39
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:40
 msgid "Edit config"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:100
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:105
 msgid "Project"
 msgstr "项目"
 
-#: nodepkg/resource-project/CollectorTypeSelect.tsx:20
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:17
 msgid "List of forms"
 msgstr "表格目录"
 
-#: nodepkg/resource-project/CollectorTypeSelect.tsx:24
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:21
 msgid "Map"
 msgstr "地图"
 
@@ -211,18 +223,18 @@ msgstr "收集器"
 msgid "Read"
 msgstr "读取"
 
-#: view.py:58
+#: view.py:62
 msgid "List of collectors"
 msgstr "参与者目录"
 
-#: view.py:70
+#: view.py:74
 msgid "Create new collector"
 msgstr "创建一个新的参与者"
 
-#: view.py:77
+#: view.py:81
 msgid "Edit collector"
 msgstr "更换参与者"
 
-#: view.py:101
+#: view.py:128
 msgid "Collector projects"
 msgstr "收集器方案"

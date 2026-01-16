@@ -1,64 +1,64 @@
 #: nodepkg/message/index.ts:5
 #, jsrealm
 msgid "Attributes"
-msgstr ""
+msgstr "Атрибути"
 
 #: nodepkg/message/index.ts:6
 #, jsrealm
 msgid "Layers"
-msgstr ""
+msgstr "Слоеве"
 
 #: nodepkg/message/index.ts:7
 #, jsrealm
 msgid "Search"
-msgstr ""
+msgstr "Търсене"
 
 #: nodepkg/message/index.ts:8
 #, jsrealm
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: nodepkg/message/index.ts:9
 #, jsrealm
 msgid "Rendering quality"
-msgstr ""
+msgstr "Качество на рендъринг"
 
 #: nodepkg/message/index.ts:10
 #, jsrealm
 msgid "Zoom to"
-msgstr ""
+msgstr "Приближаване до"
 
 #: nodepkg/message/index.ts:11
 #, jsrealm
 msgid "Share"
-msgstr ""
+msgstr "Сподели"
 
 #: nodepkg/message/index.ts:12
 #, jsrealm
 msgid "Map link"
-msgstr ""
+msgstr "Линк към картата"
 
 #: nodepkg/message/index.ts:13
 #, jsrealm
 msgid "Focus camera on object"
-msgstr ""
+msgstr "Фокусирай камерата върху обекта"
 
 #: nodepkg/message/index.ts:14
 #, jsrealm
 msgid "Measure distance"
-msgstr ""
+msgstr "Измерване на разстояние"
 
 #: nodepkg/message/index.ts:15
 #, jsrealm
 msgid "Measure distance with terrain"
-msgstr ""
+msgstr "Измерване на разстояние по релеф"
 
 #: nodepkg/message/index.ts:16
 #, jsrealm
 msgid "Measure area"
-msgstr ""
+msgstr "Измерване на площ"
 
 #: nodepkg/message/index.ts:17
 #, jsrealm
 msgid "Measure area with terrain"
-msgstr ""
+msgstr "Измерване на площ по релеф"

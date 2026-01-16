@@ -17,13 +17,14 @@ msgstr "Тракер"
 
 #: model.py:51
 msgid "Tracker UID is not unique"
-msgstr ""
+msgstr "UID на тракера не е уникален"
 
 #: model.py:76
+#, python-brace-format
 msgid ""
 "The '{}' attribute is immutable and cannot be changed once the tracker is "
 "created."
-msgstr ""
+msgstr "Свойството '{}' не може да бъде променено, щом тракерът е създаден."
 
 #: nodepkg/gpx-button/GpxButton.tsx:63
 msgid "Download GPX file"
@@ -45,7 +46,7 @@ msgstr "Средна скорост"
 
 #: nodepkg/reports/Reports.tsx:101
 msgid "Fuel consumed"
-msgstr ""
+msgstr "Израсходвано гориво"
 
 #: nodepkg/reports/Reports.tsx:102 nodepkg/trackers-panel/TrackersPanel.tsx:61
 msgid "Stops"
@@ -75,15 +76,15 @@ msgstr "Часове"
 #: nodepkg/trackers-panel/TrackersPanel.tsx:138
 #: nodepkg/trackers-panel/TrackersPanel.tsx:139
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестен"
 
 #: nodepkg/reports/Reports.tsx:266
 msgid "Result"
-msgstr ""
+msgstr "Резултат"
 
 #: nodepkg/reports/Reports.tsx:274
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: nodepkg/reports/Reports.tsx:278
 msgid "Report type"
@@ -99,7 +100,7 @@ msgstr "Групирай по"
 
 #: nodepkg/reports/Reports.tsx:320
 msgid "Create report"
-msgstr ""
+msgstr "Създаване на отчет"
 
 #: nodepkg/reports/report-type/AvgSpeedReport.tsx:22
 msgid "Avg speed report"
@@ -168,27 +169,27 @@ msgstr "Максимална скорост"
 
 #: nodepkg/tracker-activity/ChartHelper.ts:78
 msgid "No data available"
-msgstr ""
+msgstr "Няма достъпна информация"
 
 #: nodepkg/tracker-activity/ChartHelper.ts:172
 msgid "Hourly intervals"
-msgstr ""
+msgstr "Часове"
 
 #: nodepkg/tracker-activity/ChartHelper.ts:180
 msgid "Number of points"
-msgstr ""
+msgstr "Брой точки"
 
 #: nodepkg/tracker-activity/ChartHelper.ts:211
 msgid "Points per hour"
-msgstr ""
+msgstr "Точки в час"
 
 #: nodepkg/tracker-activity/TrackerActivity.tsx:73
 msgid "Cancel"
-msgstr ""
+msgstr "Откажи"
 
 #: nodepkg/tracker-activity/TrackerActivity.tsx:83
 msgid "Device activity"
-msgstr ""
+msgstr "Активността на устройството"
 
 #: nodepkg/tracker-settings/TrackerSettings.tsx:55
 msgid "Settings saved"
@@ -228,7 +229,7 @@ msgstr "Запази"
 
 #: nodepkg/tracker-widget/TrackerWidget.tsx:12
 msgid "Values cannot be changed after the tracker is created."
-msgstr ""
+msgstr "Значенията не може да бъдат променени, щом тракерът е създаден."
 
 #: nodepkg/tracker-widget/TrackerWidget.tsx:29
 msgid "Unique id (IMEI by default)"
@@ -244,7 +245,7 @@ msgstr "Тип устройство"
 
 #: nodepkg/tracker-widget/TrackerWidget.tsx:52
 msgid "Fuel consumption, L/100km (for reports)"
-msgstr ""
+msgstr "Използване на гориво, л/100км (за отчети)"
 
 #: nodepkg/tracker-widget/TrackerWidget.tsx:63
 msgid "Tracker detail"
@@ -252,15 +253,15 @@ msgstr "Детайли на тракера"
 
 #: nodepkg/trackers-panel/TrackersPanel.tsx:48
 msgid "Last known point"
-msgstr ""
+msgstr "Последно известно място"
 
 #: nodepkg/trackers-panel/TrackersPanel.tsx:53
 msgid "GPS tracks"
-msgstr ""
+msgstr "GPS тракове"
 
 #: nodepkg/trackers-panel/TrackersPanel.tsx:58
 msgid "Track points"
-msgstr ""
+msgstr "Точки на тракове"
 
 #: nodepkg/trackers-panel/TrackersPanel.tsx:76
 msgid "Zoom to layer"
@@ -280,7 +281,7 @@ msgstr "Покажи последни действия"
 
 #: nodepkg/trackers-panel/TrackersPanel.tsx:250
 msgid "Sort by"
-msgstr ""
+msgstr "Подреждане"
 
 #: nodepkg/trackers-panel/TrackersPanel.tsx:251 nodepkg/webmap/utils.ts:61
 #: nodepkg/webmap/utils.ts:67
@@ -289,7 +290,7 @@ msgstr "Време"
 
 #: nodepkg/trackers-panel/TrackersPanel.tsx:252
 msgid "Name"
-msgstr ""
+msgstr "Име"
 
 #: nodepkg/trackers-panel/TrackersPanel.tsx:428
 msgid "Reports"
@@ -297,43 +298,43 @@ msgstr "Отчети"
 
 #: nodepkg/utils/getRangePresets.ts:19
 msgid "Today"
-msgstr ""
+msgstr "Днес"
 
 #: nodepkg/utils/getRangePresets.ts:23
 msgid "Yesterday"
-msgstr ""
+msgstr "Вчера"
 
 #: nodepkg/utils/getRangePresets.ts:31
 msgid "Last 24 hours"
-msgstr ""
+msgstr "Последни 24 часа"
 
 #: nodepkg/utils/getRangePresets.ts:35
 msgid "Last 3 days"
-msgstr ""
+msgstr "Последни 3 дена"
 
 #: nodepkg/utils/getRangePresets.ts:39
 msgid "Last week"
-msgstr ""
+msgstr "Последна седмица"
 
 #: nodepkg/utils/getRangePresets.ts:43
 msgid "Last month"
-msgstr ""
+msgstr "Последен месец"
 
 #: nodepkg/utils/getRangePresets.ts:47
 msgid "This month"
-msgstr ""
+msgstr "Този месец"
 
 #: nodepkg/utils/getRangePresets.ts:51
 msgid "Previous month"
-msgstr ""
+msgstr "Предишен месец"
 
 #: nodepkg/webmap/StopsLayer.ts:21
 msgid "Start"
-msgstr ""
+msgstr "Начало"
 
 #: nodepkg/webmap/StopsLayer.ts:22
 msgid "End"
-msgstr ""
+msgstr "Край"
 
 #: nodepkg/webmap/utils.ts:55 nodepkg/webmap/utils.ts:66
 msgid "Date"
@@ -353,11 +354,11 @@ msgstr "Посока"
 
 #: nodepkg/webmap/utils.ts:90
 msgid "Satellites"
-msgstr ""
+msgstr "Спътници"
 
 #: nodepkg/webmap/utils.ts:96
 msgid "HDOP"
-msgstr ""
+msgstr "HDOP"
 
 #: pyramid_tracker/register.py:24 pyramid_tracker/register.py:51
 msgid "Device is not registered on NextGIS Tracker System. Try later, please."
@@ -369,7 +370,7 @@ msgstr ""
 msgid ""
 "A tracker with this unique identifier is already registered in the Tracking "
 "system."
-msgstr ""
+msgstr "Тракер с този уникален идентификатор е вече регистриран в системата."
 
 #: pyramid_tracker/register.py:31 pyramid_tracker/register.py:54
 msgid "NextGIS Tracker System is unavailable. Try later, please."
@@ -383,4 +384,4 @@ msgstr "Настройки на тракерите"
 
 #: view/reports.py:19
 msgid "Trackers reports"
-msgstr ""
+msgstr "Отчети на тракери"

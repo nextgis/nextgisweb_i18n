@@ -21,12 +21,12 @@ msgstr "Растерен слой"
 
 #: model.py:114
 msgid "No supported files found in the archive."
-msgstr ""
+msgstr "В архива не са открити поддържани файлове."
 
 #: model.py:118
 #, python-brace-format
 msgid "The archive contains multiple supported files: {supported_zip_items}."
-msgstr ""
+msgstr "Архивът съдържа няколко поддържани файла: {supported_zip_items}."
 
 #: model.py:133
 msgid "GDAL library was unable to open the file."
@@ -42,7 +42,7 @@ msgstr "Типовете данни със смесени канали не се
 
 #: model.py:209
 msgid "GDAL was unable to parse the raster coordinate system."
-msgstr ""
+msgstr "GDAL не можа да разчете координатна система на растера."
 
 #: model.py:215
 msgid ""
@@ -50,7 +50,7 @@ msgid ""
 "the target coordinate system."
 msgstr ""
 "Изходен растер има локална координатна система и не може бъде модифициран в "
-"избраната координатна система."
+"целевата координатна система."
 
 #: model.py:233
 msgid "Failed to reproject the raster to the target coordinate system."
@@ -67,29 +67,31 @@ msgid ""
 "The uncompressed raster size ({size}) exceeds the limit ({limit}) by {delta}."
 " Reduce raster size to fit the limit."
 msgstr ""
+"Размерът на некомпресирания растер ({size}) надвишава ограничението ({limit})"
+" с {delta}. Намалете размера на растера, за да се побере в ограничението."
 
 #: model.py:404
 #, python-brace-format
 msgid "{n} band with {t} data type"
 msgid_plural "{n} bands with {t} data type"
-msgstr[0] ""
+msgstr[0] "{n} канал с тип данни {t}"
 msgstr[1] ""
 
 #: model.py:410
 msgid "Band summary"
-msgstr ""
+msgstr "Извлечение по канали"
 
 #: model.py:411
 msgid "Pixel dimensions"
-msgstr ""
+msgstr "Размери на пиксела"
 
 #: model.py:412 nodepkg/editor-widget/EditorWidget.tsx:37
 msgid "Cloud Optimized GeoTIFF (COG)"
-msgstr ""
+msgstr "Cloud Optimized GeoTIFF (COG)"
 
 #: model.py:413
 msgid "Persistent auxiliary metadata (PAM)"
-msgstr ""
+msgstr "Допълнителни метаданни (PAM)"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:13
 msgid "Select a dataset"
@@ -100,6 +102,8 @@ msgid ""
 "Supported formats: GeoTIFF, JPEG, and PNG with GDAL PAM metadata (.aux.xml "
 "files). Multi-file datasets should be uploaded as ZIP archives."
 msgstr ""
+"Поддържани формати: GeoTIFF, JPEG, и PNG с метаданни GDAL PAM (файлове "
+".aux.xml). "
 
 #: nodepkg/export-form/ExportForm.tsx:58
 msgid "Band"
@@ -145,4 +149,4 @@ msgstr ""
 
 #: view.py:72
 msgid "Download"
-msgstr ""
+msgstr "Скачи"

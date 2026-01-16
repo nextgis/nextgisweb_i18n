@@ -1,74 +1,79 @@
 #: api/exceptions.py:11
 msgid "The Geoservices API unknown error"
-msgstr ""
+msgstr "Непозната грешка от Geoservices API"
 
 #: api/exceptions.py:12
 msgid "The Geoservices API: unknown error"
-msgstr ""
+msgstr "Непозната грешка от Geoservices API"
 
 #: api/exceptions.py:16
 msgid "The Geoservices API timeout error"
-msgstr ""
+msgstr "Geoservices API: грешка за изтичане на времето"
 
 #: api/exceptions.py:17
 msgid "The Geoservices API is currently unavailable due to a timeout error"
-msgstr ""
+msgstr "Geoservices API не е достъпен поради грешка за изтичане на времето"
 
 #: api/exceptions.py:21
 msgid "The Geoservices API parsing error"
-msgstr ""
+msgstr "Geoservices API: грешка на парсър"
 
 #: api/exceptions.py:22
 msgid "The Geoservices API failed to parse the JSON data returned by the PKK service"
-msgstr ""
+msgstr "GeoServices API не можа да анализира JSON данните, върнати от услугата PKK"
 
 #: api/exceptions.py:28
 msgid "The Geoservices API error"
-msgstr ""
+msgstr "Грешка от Geoservices API"
 
 #: api/exceptions.py:29
 msgid ""
 "NextGIS Geoservices encountered an internal error or the PKK service is "
 "currently unavailable"
 msgstr ""
+"NextGIS Geoservices се сблъсна с вътрешна грешка на сървъра или услугата PKK "
+"не е достъпна в момента"
 
 #: api/exceptions.py:35
 msgid "The NextGIS Geoservices is currently unavailable"
-msgstr ""
+msgstr "NextGIS Geoservices не е достъпен в момента"
 
 #: api/exceptions.py:44
 msgid "The Geoservices API: The request for attribute retrieval ended in failure"
-msgstr ""
+msgstr "Geoservices API: Заявката за получаване на атрибут завърши неуспешно"
 
 #: api/exceptions.py:53
 msgid ""
 "The Geoservices API: The 'extent' field is not present in the received "
 "attributes"
-msgstr ""
+msgstr "Geoservices API: поле \"обхват\" осъства в получените атрибути"
 
 #: api/exceptions.py:64
 msgid "The Geoservices API: The object geometry retrieval request failed"
-msgstr ""
+msgstr "GeoServices API: Заявката за извличане на геометрията е неуспешна"
 
 #: api/exceptions.py:73
 msgid "The Geoservices API: Unable to create the feature based on previous requests"
-msgstr ""
+msgstr "Geoservices API не можа да създаде обект на база на предишната заявка"
 
 #: api/exceptions.py:79
 msgid "The Geoservices API: Plot not found"
-msgstr ""
+msgstr "Geoservices API: парцелът не е намерен"
 
 #: api/geoservices.py:50
 msgid "'Cadaster services' module is disabled!"
-msgstr ""
+msgstr "Модулът \"Кадастър\" е изключен!"
 
 #: api/geoservices.py:60
 msgid ""
 "Geoservices API key in cadaster services module not set. Set the Geoservices "
 "API key in the `Cadaster services` section on the Control panel."
 msgstr ""
+"Ключът на Geoservices API не е посочен в кадастралния модул. Впишете ключа на"
+" Geoservices API в раздела `Кадастър` на Контролния панел."
 
 #: api/geoservices.py:202
+#, python-format
 msgid "Cadaster plot with ID '%(id)s' not found!"
 msgstr "Кадастрален парцел с ID '%(id)s' не е открит!"
 
@@ -90,61 +95,65 @@ msgstr "Запази"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:40
 msgid "Search cadastral plots by cadastral number"
-msgstr ""
+msgstr "Търсене на парцели по кадастрален номер"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:41
 msgid "Search cadastral plots"
-msgstr ""
+msgstr "Търсене на парцели в кадастъра"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:51
 msgid "Identify quarters"
-msgstr ""
+msgstr "Идентификация на квартали"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:58
 msgid "Identify plots"
-msgstr ""
+msgstr "Идентифициране на парцели"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:65
 msgid "Identify construction objects"
-msgstr ""
+msgstr "Идентификация на строежи"
 
 #: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:72
 msgid "Identify special zones"
-msgstr ""
+msgstr "Идентификация на особени зони"
 
 #: nodepkg/webmap/controls/CadasterPlots/CadasterPlotDetail.tsx:81
 msgid "Back to list"
-msgstr ""
+msgstr "Към списъка"
 
 #: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:22
 msgid "Attribute"
-msgstr ""
+msgstr "Атрибут"
 
 #: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:27
 msgid "Value"
-msgstr ""
+msgstr "Значение"
 
 #: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:37
 msgid "More"
-msgstr ""
+msgstr "Повече"
 
 #: nodepkg/webmap/panel/CadasterPanel.tsx:32
 msgid "To get cadastral information, click on the map with the left mouse button"
 msgstr ""
+"За да получите кадастрална информация, щракнете върху картата с левия бутон "
+"на мишката"
 
 #: nodepkg/webmap/panel/CadasterPanel.tsx:33
 msgid ""
 "To search for cadastral plots, enter the cadastral number or select the "
 "identify tool to search on the map"
 msgstr ""
+"За търсене на парцел въведете кадастралния му номер или изберете инструмент "
+"на идентификация и щракнете върху картата"
 
 #: nodepkg/webmap/panel/CadasterPanel.tsx:36
 msgid "Error getting cadastral information"
-msgstr ""
+msgstr "Грешка при получаване на кадастрална информация"
 
 #: nodepkg/webmap/panel/CadasterPanel.tsx:37
 msgid "No valid cadastral number"
-msgstr ""
+msgstr "Няма валиден кадастрален номер"
 
 #: nodepkg/webmap/panel/plugin.tsx:12 plugin.py:20 view/settings.py:24
 msgid "Cadaster services"
@@ -152,47 +161,47 @@ msgstr "Кадастър"
 
 #: nodepkg/webmap/util.ts:53
 msgid "Unknown name"
-msgstr ""
+msgstr "Непознато име"
 
 #: nodepkg/webmap/util.ts:65
 msgid "No quarters found"
-msgstr ""
+msgstr "Няма открити квартали"
 
 #: nodepkg/webmap/util.ts:67
 msgid "No cadastral plots found"
-msgstr ""
+msgstr "Няма открити парцели"
 
 #: nodepkg/webmap/util.ts:69
 msgid "No construction objects found"
-msgstr ""
+msgstr "Няма открити строежи"
 
 #: nodepkg/webmap/util.ts:71
 msgid "No special zones found"
-msgstr ""
+msgstr "Няма открити особени зони"
 
 #: nodepkg/webmap/util.ts:73
 msgid "Cadastral information not found"
-msgstr ""
+msgstr "Кадастрална информация не е открита"
 
 #: nodepkg/webmap/util.ts:80
 msgid "Searching for quarters..."
-msgstr ""
+msgstr "Търсене на квартали..."
 
 #: nodepkg/webmap/util.ts:82
 msgid "Searching for cadastral plots..."
-msgstr ""
+msgstr "Търсене на парцели..."
 
 #: nodepkg/webmap/util.ts:84
 msgid "Searching for construction objects..."
-msgstr ""
+msgstr "Търсене на строежи..."
 
 #: nodepkg/webmap/util.ts:86
 msgid "Searching for special zones..."
-msgstr ""
+msgstr "Търсене на особени зони..."
 
 #: nodepkg/webmap/util.ts:88
 msgid "Getting cadastral information..."
-msgstr ""
+msgstr "Получаване на кадастрална информация..."
 
 #: view/settings.py:11
 msgid "Cadaster services settings"

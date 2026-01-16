@@ -3,32 +3,35 @@ msgid "SVG marker library"
 msgstr "Библиотека на SVG-маркери"
 
 #: model.py:87
+#, python-brace-format
 msgid "File '{}' has an insecure name."
-msgstr ""
+msgstr "Името на файла  '{}' е несигурно."
 
 #: model.py:92 nodepkg/resource-widget/Store.ts:75
+#, python-brace-format
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "Файлът '{}' има невалидно разширение."
 
 #: model.py:98
+#, python-brace-format
 msgid "File '{}' has a format different from SVG."
-msgstr ""
+msgstr "Файлът '{}' не е в SVG формат."
 
 #: nodepkg/resource-widget/Store.ts:92
 msgid "ZIP archive required"
-msgstr ""
+msgstr "Изисква се ZIP архив"
 
 #: nodepkg/resource-widget/Widget.tsx:45
 msgid "Add SVG files"
-msgstr ""
+msgstr "Добавете SVG файлове"
 
 #: nodepkg/resource-widget/Widget.tsx:54
 msgid "Import from ZIP archive"
-msgstr ""
+msgstr "Импорт от ZIP архив"
 
 #: nodepkg/resource-widget/Widget.tsx:65
 msgid "SVG markers will be imported from:"
-msgstr ""
+msgstr "SVG маркери ще бъдат импортирани от:"
 
 #: template/resource_section.mako:8
 msgid "Name"

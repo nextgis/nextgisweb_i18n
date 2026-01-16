@@ -20,11 +20,11 @@ msgstr "RAM"
 
 #: component.py:323
 msgid "Last backup"
-msgstr ""
+msgstr "Последно резервно копие"
 
 #: component.py:327
 msgid "Last maintenance"
-msgstr ""
+msgstr "Последно поддържане"
 
 #: exception.py:116
 msgid "Validation error"
@@ -48,17 +48,19 @@ msgstr "Грешка на външен сървиз"
 
 #: exception.py:145
 msgid "Not configured"
-msgstr ""
+msgstr "Не е конфигурирано"
 
 #: fontconfig.py:112
+#, python-brace-format
 msgid "Font not found: {}!"
-msgstr ""
+msgstr "Шрифтът не е открит: {}!"
 
 #: storage.py:290
 msgid "Storage full"
 msgstr "Няма свободна памет"
 
 #: storage.py:291
+#, python-format
 msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
@@ -71,6 +73,7 @@ msgid "Not enough storage"
 msgstr "Няма достатъчно свободна памет"
 
 #: storage.py:302
+#, python-format
 msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
@@ -83,5 +86,6 @@ msgid "Estimation is already running"
 msgstr "Оценяването е в процес"
 
 #: test/test_exception.py:76
+#, python-format
 msgid "The answer is %d"
 msgstr "Отговорът е %d"

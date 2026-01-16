@@ -8,7 +8,7 @@ msgstr "WFS слой"
 
 #: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:26
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:32
 msgid "Username"
@@ -24,7 +24,7 @@ msgstr "Версия"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerStore.ts:23
 msgid "Fields need to be updated due to autodetection"
-msgstr ""
+msgstr "Файловете трябва да се опреснят поради автоопределение"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:20
 msgid "Autodetect"
@@ -56,11 +56,11 @@ msgstr "Мултиполигон"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:89
 msgid "Keep existing definitions untouched"
-msgstr ""
+msgstr "Запазване на съществуващи определения"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:90
 msgid "Update definitions from the server"
-msgstr ""
+msgstr "Актуализиране на определенията от базата данни"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:168
 msgid "Connection"
@@ -72,7 +72,7 @@ msgstr "Слой"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:195
 msgid "SRID"
-msgstr ""
+msgstr "SRID"
 
 #: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:203
 msgid "Geometry column"

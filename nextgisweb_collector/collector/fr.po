@@ -1,10 +1,18 @@
-#: api.py:62 api.py:96
+#: api.py:82 api.py:156
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
 msgstr ""
 "Malheureusement, vous ne pouvez pas ajouter de nouveau collecteur. Votre "
 "limite d'utilisateurs de collecteurs dans le SIG Web est de"
+
+#: api.py:114
+msgid "User with email '{}' already exists. Email addresses are case-insensitive."
+msgstr ""
+
+#: api.py:164
+msgid "User with email '{}' already exists."
+msgstr ""
 
 #: models/model_db.py:103
 msgid "Collector project"
@@ -34,19 +42,19 @@ msgstr ""
 msgid "The value entered is not valid"
 msgstr "La valeur saisie n'est pas valide"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
 msgid "Collector users:"
 msgstr "Utilisateurs de collecteurs :"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
 msgid "out of"
 msgstr "de"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:26
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
 msgid "Each collector must have "
 msgstr "Chaque collectionneur doit avoir "
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:27
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
 msgid "NextGIS ID account"
 msgstr "Compte d'identification NextGIS"
 
@@ -95,38 +103,42 @@ msgid "Max zoom"
 msgstr "Zoom max"
 
 #: nodepkg/resource-items/ItemsWidget.tsx:36
-msgid "Layer"
-msgstr "Couche"
+msgid "Item"
+msgstr ""
 
 #: nodepkg/resource-items/ItemsWidget.tsx:37
+msgid "Form, layer or style"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:38
 msgid "Group"
 msgstr "Groupe"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:265
+#: nodepkg/resource-items/ItemsWidget.tsx:266
 msgid "Items"
 msgstr "éléments"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:14
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
 msgid "Initial extent"
 msgstr "Étendue initiale"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:16
 msgid "Project will start at this extent"
 msgstr "Le projet débutera à ce stade"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:17
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:18
 msgid "Starting screen"
 msgstr "Écran de démarrage"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:19
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:20
 msgid "The starting screen in the NextGIS Collector mobile app"
 msgstr "L'écran de démarrage de l'application mobile NextGIS Collector"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:22
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:23
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:24
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:25
 msgid ""
 "Web GIS user name with necessary permissions to access data used in the "
 "project. This user is not related to accounts of actual data collectors."
@@ -135,20 +147,20 @@ msgstr ""
 "accéder aux données utilisées dans le projet. Cet utilisateur n'est pas lié "
 "aux comptes des collecteurs de données."
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:29
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
 msgid "Password"
 msgstr "Mot de passe"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:31
 msgid "Password for the Web GIS user"
 msgstr "Mot de passe pour l'utilisateur Web GIS"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:32
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:33
 #: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:209
 msgid "Mobile project setup configuration"
 msgstr "Configuration de l'installation du projet mobile"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:34
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:35
 msgid ""
 "Automate project delivery to multiple mobile GIS with this setup. Recommended"
 " for advanced users only."
@@ -156,19 +168,19 @@ msgstr ""
 "Automatisez la livraison de vos projets sur plusieurs SIG mobiles grâce à "
 "cette configuration. Recommandée aux utilisateurs avancés uniquement."
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:39
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:40
 msgid "Edit config"
 msgstr "Modifier la configuration"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:100
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:105
 msgid "Project"
 msgstr "Projet"
 
-#: nodepkg/resource-project/CollectorTypeSelect.tsx:20
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:17
 msgid "List of forms"
 msgstr "Liste des formes"
 
-#: nodepkg/resource-project/CollectorTypeSelect.tsx:24
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:21
 msgid "Map"
 msgstr "Carte"
 
@@ -224,18 +236,18 @@ msgstr "Collector"
 msgid "Read"
 msgstr "Lire"
 
-#: view.py:58
+#: view.py:62
 msgid "List of collectors"
 msgstr "Liste des collectionneurs"
 
-#: view.py:70
+#: view.py:74
 msgid "Create new collector"
 msgstr "Créer un nouveau collecteur"
 
-#: view.py:77
+#: view.py:81
 msgid "Edit collector"
 msgstr "Modifier le collectionneur"
 
-#: view.py:101
+#: view.py:128
 msgid "Collector projects"
 msgstr "Projets de Collector"

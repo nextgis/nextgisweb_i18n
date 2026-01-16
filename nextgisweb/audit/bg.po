@@ -1,19 +1,19 @@
 #: backend/base.py:36
 msgid "Audit backend not enabled"
-msgstr ""
+msgstr "Журнал не е включен"
 
 #: backend/base.py:37
 #, python-brace-format
 msgid "The '{}' audit backend is not configured on this server."
-msgstr ""
+msgstr "Журнал '{}' не е конфигуриран на този сървър."
 
 #: nodepkg/journal/Journal.js:47
 msgid "Request"
-msgstr ""
+msgstr "Заявка"
 
 #: nodepkg/journal/Journal.js:64
 msgid "IP address"
-msgstr ""
+msgstr "IP адрес"
 
 #: nodepkg/journal/Journal.js:68
 msgid "User"
@@ -31,30 +31,30 @@ msgstr "Контекст"
 #, python-brace-format
 msgid "Last {} minute"
 msgid_plural "Last {} minutes"
-msgstr[0] ""
+msgstr[0] "Последна {} минута"
 msgstr[1] ""
 
 #: nodepkg/journal/Journal.js:160
 #, python-brace-format
 msgid "Last {} hour"
 msgid_plural "Last {} hours"
-msgstr[0] ""
+msgstr[0] "Последен {} час"
 msgstr[1] ""
 
 #: nodepkg/journal/Journal.js:162
 #, python-brace-format
 msgid "Last {} day"
 msgid_plural "Last {} days"
-msgstr[0] ""
+msgstr[0] "Последен {} ден"
 msgstr[1] ""
 
 #: nodepkg/journal/Journal.js:292
 msgid "Filter by user"
-msgstr ""
+msgstr "Филтриране по потребител"
 
 #: nodepkg/journal/Journal.js:301
 msgid "Export CSV"
-msgstr ""
+msgstr "Експорт в CSV"
 
 #: nodepkg/journal/Journal.js:312
 msgid "Timestamp"

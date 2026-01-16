@@ -1,8 +1,8 @@
-#: api.py:264
+#: api.py:167
 msgid "Storage management is not enabled on this server."
 msgstr ""
 
-#: api.py:350
+#: api.py:254
 #, python-brace-format
 msgid ""
 "Invalid font file name: '{}'. Only latin letters, digits, hyphens and "
@@ -12,40 +12,41 @@ msgstr ""
 "chiffres, les traits d'union et les traits de soulignement sont autorisés. "
 "L'extension *.ttf ou *.otf est requise."
 
-#: api.py:358
+#: api.py:261
 #, python-brace-format
 msgid "Font '{0}' is larger than {1} bytes."
 msgstr "La police « {0} » est plus grande que {1} octets."
 
-#: api.py:553
+#: api.py:457
 #, python-brace-format
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
 
-#: api.py:681
+#: api.py:584
 #, python-brace-format
 msgid "Got an unsupported MIME type: '{}'."
 msgstr ""
 
-#: api.py:684
-msgid "64K should be enough for a logo."
+#: api.py:587
+#, python-brace-format
+msgid "{}KiB should be enough for a logo."
 msgstr ""
 
-#: api.py:856
+#: api.py:750
 msgid "Your Web GIS at nextgis.com"
 msgstr "Votre Web GIS sur nextgis.com"
 
-#: component.py:168
+#: component.py:165
 msgid "Request timeout"
 msgstr ""
 
-#: component.py:171
+#: component.py:168
 msgid "Enabled"
 msgstr "Activé"
 
-#: component.py:171
+#: component.py:168
 msgid "Disabled"
 msgstr "Désactivé"
 
@@ -53,7 +54,7 @@ msgstr "Désactivé"
 msgid "Internal server error"
 msgstr "Erreur Interne du Serveur"
 
-#: exception.py:220
+#: exception.py:221
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -65,7 +66,7 @@ msgstr ""
 msgid "Bad request"
 msgstr "Mauvaise demande"
 
-#: exception.py:254
+#: exception.py:255
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
@@ -93,7 +94,7 @@ msgstr "L'accès a été refusé à cette ressource."
 msgid "Page not found"
 msgstr "Page non trouvée"
 
-#: exception.py:275
+#: exception.py:276
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -128,6 +129,14 @@ msgstr ""
 
 #: lunkwill.py:26
 msgid "The Lunkwill extension is not configured on this server."
+msgstr ""
+
+#: lunkwill.py:30
+msgid "Interception expected"
+msgstr ""
+
+#: lunkwill.py:31
+msgid "The Lunkwill extension expects external request interception."
 msgstr ""
 
 #: nodepkg/api/error.ts:18 nodepkg/api/error.ts:39
@@ -180,10 +189,6 @@ msgstr ""
 msgid "Size"
 msgstr "Taille"
 
-#: nodepkg/company-logo.ts:31
-msgid "Get your own Web GIS at nextgis.com"
-msgstr "Obtenez votre propre Web GIS sur nextgis.com"
-
 #: nodepkg/cors-settings/CORSSettings.tsx:23
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
@@ -203,23 +208,23 @@ msgstr ""
 "caractères génériques sont autorisés pour les domaines de troisième niveau et"
 " supérieur."
 
-#: nodepkg/cors-settings/CORSSettings.tsx:57
+#: nodepkg/cors-settings/CORSSettings.tsx:59
 msgid "CORS settings updated"
 msgstr "Paramètres CORS mis à jour"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:62
+#: nodepkg/cors-settings/CORSSettings.tsx:64
 msgid "Fix the form errors first"
 msgstr "Corrigez d'abord les erreurs du formulaire"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:78
+#: nodepkg/cors-settings/CORSSettings.tsx:80
 msgid "The value entered is not valid"
 msgstr "La valeur saisie n'est pas valide"
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:40
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:42
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr "Styles personnalisés enregistrés. Actualisez la page pour les appliquer."
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:62
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:65
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -247,23 +252,23 @@ msgstr "Coutume"
 msgid "System"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:104
+#: nodepkg/fonts/FontsPanel.tsx:105
 msgid "Font"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:109
+#: nodepkg/fonts/FontsPanel.tsx:110
 msgid "Format"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:114
+#: nodepkg/fonts/FontsPanel.tsx:115
 msgid "Type"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:174
+#: nodepkg/fonts/FontsPanel.tsx:176
 msgid "Delete"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:181
+#: nodepkg/fonts/FontsPanel.tsx:183
 msgid "Show system fonts"
 msgstr "Afficher les polices système"
 
@@ -294,15 +299,15 @@ msgstr "Paramètres utilisateur"
 msgid "Sign out"
 msgstr "Se déconnecter"
 
-#: nodepkg/layout/store.ts:54
+#: nodepkg/layout/store.ts:71
 msgid "Resources"
 msgstr "Ressources"
 
-#: nodepkg/layout/store.ts:60 view.py:200
+#: nodepkg/layout/store.ts:77 view.py:204
 msgid "Control panel"
 msgstr "Panneau de configuration"
 
-#: nodepkg/layout/store.ts:67
+#: nodepkg/layout/store.ts:84
 msgid "Help"
 msgstr "Aide"
 
@@ -314,7 +319,7 @@ msgstr "Nous recommandons une hauteur de 45 px et une largeur jusqu'à 200 px."
 msgid "Only PNG and SVG images are supported."
 msgstr ""
 
-#: nodepkg/metrics/GoogleAnalyticsTab.tsx:28
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
 msgid "Measurement ID"
 msgstr "ID de mesure"
 
@@ -342,11 +347,11 @@ msgstr ""
 "Le code HTML de ces compteurs sera intégré dans chaque page et vous permettra"
 " de suivre l'activité des utilisateurs."
 
-#: nodepkg/metrics/YandexMetricaTab.tsx:29
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
 msgid "Tag number"
 msgstr "Numéro d'étiquette"
 
-#: nodepkg/metrics/YandexMetricaTab.tsx:48
+#: nodepkg/metrics/YandexMetricaTab.tsx:50
 msgid "Webvisor"
 msgstr "Webvisor"
 
@@ -358,50 +363,50 @@ msgstr "Google Analytics"
 msgid "Yandex.Metrica"
 msgstr "Yandex.Metrica"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:23
+#: nodepkg/storage-summary/StorageSummary.tsx:24
 msgid "Some changes may be reflected only after full estimation."
 msgstr ""
 "Certains changements peuvent être reflétés uniquement après une estimation "
 "complète."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:24
+#: nodepkg/storage-summary/StorageSummary.tsx:25
 #, python-brace-format
 msgid "Storage usage was fully estimated at {f}."
 msgstr "L'utilisation du stockage a été entièrement estimée à {f}."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:25
+#: nodepkg/storage-summary/StorageSummary.tsx:26
 #, python-brace-format
 msgid "Storage usage was fully estimated at {f} and updated at {u}."
 msgstr ""
 "L'utilisation du stockage a été entièrement estimée à {f} et mise à jour à "
 "{u}."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:26
+#: nodepkg/storage-summary/StorageSummary.tsx:27
 #, python-brace-format
 msgid "Storage usage hasn't been estimated yet but was updated at {u}."
 msgstr ""
 
-#: nodepkg/storage-summary/StorageSummary.tsx:27
+#: nodepkg/storage-summary/StorageSummary.tsx:28
 msgid "Storage usage hasn't been estimated yet."
 msgstr "L'utilisation du stockage n'a pas encore été estimée."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:115
+#: nodepkg/storage-summary/StorageSummary.tsx:117
 msgid "Kind of data"
 msgstr "Type de données"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:121
+#: nodepkg/storage-summary/StorageSummary.tsx:123
 msgid "Volume"
 msgstr "Le volume"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:141
+#: nodepkg/storage-summary/StorageSummary.tsx:142
 msgid "Total"
 msgstr "Le total"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:146
+#: nodepkg/storage-summary/StorageSummary.tsx:147
 msgid "of"
 msgstr "de"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:211
+#: nodepkg/storage-summary/StorageSummary.tsx:212
 msgid "Estimate storage"
 msgstr "Estimer le stockage"
 
@@ -480,7 +485,7 @@ msgstr "Des mises à jour sont disponibles"
 msgid "Click to see what's new"
 msgstr "Cliquez pour voir les nouveautés"
 
-#: permission.py:5 view.py:305 view.py:656
+#: permission.py:5 view.py:309 view.py:748
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
@@ -556,20 +561,20 @@ msgstr ""
 "Si vous utilisez un navigateur à jour, le SIG Web devrait fonctionner "
 "correctement."
 
-#: tomb/config.py:98
+#: tomb/config.py:99
 msgid "Parameter required"
 msgstr ""
 
-#: tomb/config.py:99
+#: tomb/config.py:100
 #, python-brace-format
 msgid "The '{}' query parameter is required."
 msgstr ""
 
-#: tomb/config.py:101
+#: tomb/config.py:102
 msgid "Invalid parameter"
 msgstr "Paramètre invalide"
 
-#: tomb/config.py:102
+#: tomb/config.py:103
 #, python-brace-format
 msgid "The '{}' query parameter has an invalid value."
 msgstr ""
@@ -582,50 +587,50 @@ msgstr "Corps JSON mal formé"
 msgid "The JSON body of the request is malformed or invalid."
 msgstr "Le corps JSON de la requête est mal formé ou non valide."
 
-#: view.py:188
+#: view.py:192
 msgid "HTTP API documentation"
 msgstr "Documentation de l'API HTTP"
 
-#: view.py:254 view.py:665
+#: view.py:258 view.py:757
 msgid "System information"
 msgstr "Informations système"
 
-#: view.py:264 view.py:671
+#: view.py:268 view.py:763
 msgid "Font management"
 msgstr "Gestion des polices"
 
-#: view.py:273 view.py:708
+#: view.py:277 view.py:800
 msgid "Storage"
 msgstr "Espace de rangement"
 
-#: view.py:287 view.py:715
+#: view.py:291 view.py:807
 msgid "Backups"
 msgstr "Sauvegardes"
 
-#: view.py:315 view.py:683
+#: view.py:319 view.py:775
 msgid "Custom CSS"
 msgstr "CSS personnalisé"
 
-#: view.py:324 view.py:689
+#: view.py:328 view.py:781
 msgid "Custom logo"
 msgstr "Logo personnalisé"
 
-#: view.py:333 view.py:677
+#: view.py:337 view.py:769
 msgid "Web GIS name"
 msgstr "Nom de Web GIS"
 
-#: view.py:342 view.py:695
+#: view.py:346 view.py:787
 msgid "Home path"
 msgstr "Chemin d'accueil"
 
-#: view.py:351 view.py:701
+#: view.py:355 view.py:793
 msgid "Metrics and analytics"
 msgstr "Mesures et analyses"
 
-#: view.py:645
+#: view.py:737
 msgid "Info"
 msgstr "Info"
 
-#: view.py:646
+#: view.py:738
 msgid "Settings"
 msgstr "Paramètres"

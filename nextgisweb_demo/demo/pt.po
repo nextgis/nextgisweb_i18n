@@ -49,8 +49,8 @@ msgid "You can also explore a read-only copy without cloning."
 msgstr ""
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:17
-#: project/base.py:57 view.py:25 view.py:72
-msgid "Demo projects"
+#: project/base.py:58 view.py:27 view.py:79
+msgid "Demo data and projects"
 msgstr ""
 
 #: nodepkg/selector/Selector.tsx:72
@@ -90,14 +90,18 @@ msgid "Monitoring of wild animals in Altai mountains"
 msgstr ""
 
 #: project/__init__.py:73
+msgid "Hydrology"
+msgstr ""
+
+#: project/__init__.py:85
 msgid "Diagrams"
 msgstr ""
 
-#: project/__init__.py:83
+#: project/__init__.py:95
 msgid "Distribution heatmap"
 msgstr ""
 
-#: project/__init__.py:94
+#: project/__init__.py:106
 msgid "Tracking"
 msgstr ""
 
@@ -195,6 +199,46 @@ msgstr ""
 
 #: project/heatmap/__init__.py:31
 msgid "Density of coffeehouses"
+msgstr ""
+
+#: project/hydrology/__init__.py:14 project/hydrology/__init__.py:129
+msgid "Calculations"
+msgstr ""
+
+#: project/hydrology/__init__.py:15 project/hydrology/__init__.py:140
+msgid "Elevation"
+msgstr ""
+
+#: project/hydrology/__init__.py:20
+msgid "Stream gaging stations"
+msgstr ""
+
+#: project/hydrology/__init__.py:26
+msgid "Watershed basins"
+msgstr ""
+
+#: project/hydrology/__init__.py:32
+msgid "Calculated channel network"
+msgstr ""
+
+#: project/hydrology/__init__.py:39
+msgid "Horizontal dissection"
+msgstr ""
+
+#: project/hydrology/__init__.py:50
+msgid "Elevation slope"
+msgstr ""
+
+#: project/hydrology/__init__.py:58
+msgid "Flow accumulation raster"
+msgstr ""
+
+#: project/hydrology/__init__.py:66
+msgid "Digital elevation model"
+msgstr ""
+
+#: project/hydrology/__init__.py:74
+msgid "Hillshade"
 msgstr ""
 
 #: project/osmdata/__init__.py:27 project/osmdata/__init__.py:190

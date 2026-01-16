@@ -28,7 +28,7 @@ msgstr "Не запитвай"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:22
 msgid "WMS Connection URL"
-msgstr ""
+msgstr "URL на WMS връзка"
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:30
 msgid "URL"
@@ -53,7 +53,7 @@ msgstr "Възможности"
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:75
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:83
 msgid "WMS Connection"
-msgstr ""
+msgstr "WMS връзка"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:107
 msgid "WMS layers"
@@ -66,11 +66,11 @@ msgstr "Параметрите на доставчика"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:129
 msgid "Edit vendor parameters"
-msgstr ""
+msgstr "Редактиране на параметрите на доставчик"
 
 #: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:137
 msgid "WMS Layer"
-msgstr ""
+msgstr "WMS слой"
 
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:21
 msgid "Key"

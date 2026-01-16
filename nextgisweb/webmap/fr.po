@@ -6,11 +6,11 @@ msgstr "Tuiles"
 msgid "Image"
 msgstr "Image"
 
-#: component.py:26
+#: component.py:25
 msgid "Main web map"
 msgstr "Carte Web principale"
 
-#: favorite.py:6 view.py:184
+#: favorite.py:6 view.py:230
 msgid "Display"
 msgstr "Affichage"
 
@@ -18,7 +18,7 @@ msgstr "Affichage"
 msgid "Fragment"
 msgstr "Fragment"
 
-#: model.py:47 model.py:65 view.py:179 view.py:206
+#: model.py:47 model.py:65 view.py:225 view.py:252
 msgid "Web map"
 msgstr "Carte Web"
 
@@ -37,20 +37,20 @@ msgctxt "permission"
 msgid "Manage annotations"
 msgstr "Gérer les annotations"
 
-#: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:194
+#: nodepkg/clone-webmap/CloneWebmap.tsx:21 view.py:240
 msgid "Clone"
 msgstr "Cloner"
 
-#: nodepkg/clone-webmap/CloneWebmap.tsx:67
+#: nodepkg/clone-webmap/CloneWebmap.tsx:63
 msgid "Resource group"
 msgstr "Groupe de ressources"
 
-#: nodepkg/clone-webmap/CloneWebmap.tsx:82 nodepkg/items-widget/ItemsWidget.tsx:30
+#: nodepkg/clone-webmap/CloneWebmap.tsx:78 nodepkg/items-widget/ItemsWidget.tsx:30
 msgid "Display name"
 msgstr "Afficher un nom"
 
 #: nodepkg/component/SelectLegendSymbols.tsx:5
-#: nodepkg/settings-widget/SettingsWidget.tsx:36
+#: nodepkg/settings-widget/SettingsWidget.tsx:37
 #: nodepkg/settings/select-options.ts:94
 msgid "Default"
 msgstr "Défaut"
@@ -66,20 +66,20 @@ msgid "Collapse"
 msgstr "Effondrement"
 
 #: nodepkg/component/SelectLegendSymbols.tsx:10
-#: nodepkg/settings-widget/SettingsWidget.tsx:50
+#: nodepkg/settings-widget/SettingsWidget.tsx:51
 #: nodepkg/settings/select-options.ts:97
 msgid "Disable"
 msgstr "Désactiver"
 
-#: nodepkg/display-tiny/DisplayTinyPage.tsx:60
+#: nodepkg/display-tiny/DisplayTinyPage.tsx:61
 msgid "Open full map"
 msgstr "Ouvrir la carte complète"
 
-#: nodepkg/display/Display.ts:644
+#: nodepkg/display/Display.ts:254
 msgid "Object not found"
 msgstr "Objet non trouvé"
 
-#: nodepkg/display/Display.ts:645
+#: nodepkg/display/Display.ts:255
 msgid "Object from URL parameters not found"
 msgstr "Objet des paramètres d'URL non trouvé"
 
@@ -102,6 +102,7 @@ msgid "Line"
 msgstr "Doubler"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:94
+#: nodepkg/plugin/layer-editor/modes/RectEditMode.tsx:316
 msgid "Rectangle"
 msgstr "Rectangle"
 
@@ -185,7 +186,7 @@ msgstr "Échelle max"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:39
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:25
-#: nodepkg/settings-widget/SettingsWidget.tsx:26
+#: nodepkg/settings-widget/SettingsWidget.tsx:27
 #: nodepkg/settings/SettingsForm.tsx:261
 msgid "Legend"
 msgstr "Légende"
@@ -230,6 +231,12 @@ msgstr "Annotation publique"
 msgid "My private annotation"
 msgstr "Mes annotations personnelles"
 
+#: nodepkg/layers-tree/LayerTreeItemTitle.tsx:16
+msgid ""
+"This layer is not visible at the current map scale. Zoom to make the layer "
+"visible."
+msgstr ""
+
 #: nodepkg/layers-tree/LegendAction.tsx:10
 msgid "Show legend"
 msgstr "Afficher la légende"
@@ -242,7 +249,7 @@ msgstr "Masquer la légende"
 msgid "Unable to load tile"
 msgstr "Impossible de charger la tuile"
 
-#: nodepkg/map-component/control/IdentifyControl.tsx:86
+#: nodepkg/map-component/control/IdentifyControl.tsx:91
 msgid "Clear selection"
 msgstr ""
 
@@ -254,35 +261,35 @@ msgstr ""
 msgid "Your location could not be determined"
 msgstr "Votre emplacement n'a pas pu être déterminé"
 
-#: nodepkg/map-component/control/RotateControl.tsx:31
+#: nodepkg/map-component/control/RotateControl.tsx:33
 msgid "Reset rotation"
 msgstr "Réinitialiser la rotation"
 
-#: nodepkg/map-component/control/ZoomControl.tsx:67
+#: nodepkg/map-component/control/ZoomControl.tsx:61
 msgid "Current zoom level"
 msgstr ""
 
-#: nodepkg/map-component/control/ZoomControl.tsx:87
+#: nodepkg/map-component/control/ZoomControl.tsx:81
 #: nodepkg/map-component/tool/ToolZoom.tsx:22 nodepkg/map-controls/map-tools.ts:12
 msgid "Zoom in"
 msgstr "Zoomer en avant"
 
-#: nodepkg/map-component/control/ZoomControl.tsx:88
+#: nodepkg/map-component/control/ZoomControl.tsx:82
 #: nodepkg/map-component/tool/ToolZoom.tsx:22 nodepkg/map-controls/map-tools.ts:22
 msgid "Zoom out"
 msgstr "Zoomer en arrière"
 
-#: nodepkg/map-component/control/ZoomControl.tsx:190
+#: nodepkg/map-component/control/ZoomControl.tsx:181
 msgid "Back to the initial extent"
 msgstr "Retour à l'étendue initiale"
 
-#: nodepkg/map-component/tool/ToolMeasure/ToolMeasure.tsx:73
-#: nodepkg/map-controls/map-tools.ts:32
+#: nodepkg/map-component/tool/ToolMeasure/ToolMeasure.tsx:71
+#: nodepkg/map-controls/map-tools.ts:42
 msgid "Measure distance"
 msgstr "Mesurer la distance"
 
-#: nodepkg/map-component/tool/ToolMeasure/ToolMeasure.tsx:74
-#: nodepkg/map-controls/map-tools.ts:41
+#: nodepkg/map-component/tool/ToolMeasure/ToolMeasure.tsx:72
+#: nodepkg/map-controls/map-tools.ts:52
 msgid "Measure area"
 msgstr "Zone de mesure"
 
@@ -315,7 +322,7 @@ msgid "Layer is not visible"
 msgstr ""
 
 #: nodepkg/map-component/tool/ToolSwipe/ToolSwipe.tsx:48
-#: nodepkg/map-controls/map-tools.ts:50
+#: nodepkg/map-controls/map-tools.ts:32
 msgid "Vertical swipe"
 msgstr "Swipe verticale"
 
@@ -327,45 +334,50 @@ msgstr "Swipe horizontale"
 msgid "Attibution Toolbar"
 msgstr ""
 
-#: nodepkg/map-controls/map-controls.ts:23
+#: nodepkg/map-controls/map-controls.ts:24
 msgid "Map Toolbar"
 msgstr ""
 
-#: nodepkg/map-controls/map-controls.ts:56
+#: nodepkg/map-controls/map-controls.ts:60
 msgid "Info scale"
 msgstr "Échelle d'information"
 
-#: nodepkg/map-controls/map-controls.ts:66
+#: nodepkg/map-controls/map-controls.ts:70
 msgid "Scale line"
 msgstr "Ligne d'échelle"
 
-#: nodepkg/map-controls/map-controls.ts:76
-#: nodepkg/settings-widget/SettingsWidget.tsx:23
+#: nodepkg/map-controls/map-controls.ts:81
+msgid "Loading indicator"
+msgstr ""
+
+#: nodepkg/map-controls/map-controls.ts:93
+#: nodepkg/settings-widget/SettingsWidget.tsx:24
 msgid "Initial extent"
 msgstr "Étendue initiale"
 
-#: nodepkg/map-controls/map-controls.ts:85
+#: nodepkg/map-controls/map-controls.ts:102
 msgid "Locate me"
 msgstr "Localisez-moi"
 
-#: nodepkg/map-controls/map-controls.ts:93 nodepkg/map-controls/map-controls.ts:98
-#: nodepkg/settings/SettingsForm.tsx:84 option/base.py:41
+#: nodepkg/map-controls/map-controls.ts:111
+#: nodepkg/map-controls/map-controls.ts:116 nodepkg/settings/SettingsForm.tsx:84
+#: option/base.py:42
 msgid "Identification"
 msgstr "Identification"
 
-#: nodepkg/map-controls/map-tools.ts:61
+#: nodepkg/map-controls/map-tools.ts:62
 msgid "Cursor coordinates / extent"
 msgstr "Coordonnées / étendue du curseur"
 
-#: nodepkg/map-controls/map-tools.ts:71
+#: nodepkg/map-controls/map-tools.ts:72
 msgid "Editor"
 msgstr ""
 
-#: nodepkg/map-viewer-info/MapViewerInfo.tsx:86
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:88
 msgid "Show extent"
 msgstr "Afficher l'étendue"
 
-#: nodepkg/map-viewer-info/MapViewerInfo.tsx:87
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:89
 msgid "Show cursor coordinates"
 msgstr "Afficher les coordonnées du curseur"
 
@@ -388,7 +400,7 @@ msgid "With messages"
 msgstr "Avec des messages"
 
 #: nodepkg/panel/annotations/AnnotationsPanel.tsx:133
-#: nodepkg/plugin/layer-editor/LayerEditor.tsx:66
+#: nodepkg/plugin/layer-editor/LayerEditor.tsx:68
 msgid "Edit"
 msgstr "Modifier"
 
@@ -422,12 +434,12 @@ msgid "Other private annotations"
 msgstr "Autres annotations privées"
 
 #: nodepkg/panel/annotations/plugin.tsx:13
-#: nodepkg/settings-widget/SettingsWidget.tsx:27
+#: nodepkg/settings-widget/SettingsWidget.tsx:28
 msgid "Annotations"
 msgstr "Annotations"
 
 #: nodepkg/panel/bookmarks/plugin.tsx:11
-#: nodepkg/settings-widget/SettingsWidget.tsx:29
+#: nodepkg/settings-widget/SettingsWidget.tsx:30
 msgid "Bookmarks"
 msgstr "Signets"
 
@@ -444,11 +456,11 @@ msgstr "Zoom sur le point d'identification"
 msgid "Copy identification point coordinates"
 msgstr "Copier les coordonnées du point d'identification"
 
-#: nodepkg/panel/identify/FeatureEditButton.tsx:83
+#: nodepkg/panel/identify/FeatureEditButton.tsx:81
 msgid "Edit feature"
 msgstr "Modifier la fonctionnalité"
 
-#: nodepkg/panel/identify/IdentifyPanel.tsx:35
+#: nodepkg/panel/identify/IdentifyPanel.tsx:33
 msgid ""
 "To get feature information, click on the map with the left mouse button. Make"
 " sure that other tools are turned off."
@@ -457,19 +469,19 @@ msgstr ""
 "avec le bouton gauche de la souris. Assurez-vous que les autres outils sont "
 "désactivés."
 
-#: nodepkg/panel/identify/IdentifyPanel.tsx:36
+#: nodepkg/panel/identify/IdentifyPanel.tsx:34
 msgid "Retrieving object information..."
 msgstr "Récupération des informations sur l'objet..."
 
-#: nodepkg/panel/identify/IdentifyPanel.tsx:37
+#: nodepkg/panel/identify/IdentifyPanel.tsx:35
 msgid "No objects were found at the click location."
 msgstr "Aucun objet n'a été trouvé à l'endroit du clic."
 
-#: nodepkg/panel/identify/KeyValueTable.tsx:13
+#: nodepkg/panel/identify/KeyValueTable.tsx:14
 msgid "Attribute"
 msgstr "Attribut"
 
-#: nodepkg/panel/identify/KeyValueTable.tsx:18
+#: nodepkg/panel/identify/KeyValueTable.tsx:19
 msgid "Value"
 msgstr "Valeur"
 
@@ -486,7 +498,6 @@ msgid "Zoom to feature"
 msgstr "Zoom sur la fonctionnalité"
 
 #: nodepkg/panel/identify/component/RasterInfoSection.tsx:14
-#, python-brace-format
 msgid "Band {}"
 msgstr "Groupe {}"
 
@@ -498,13 +509,21 @@ msgstr "Trame"
 msgid "N/A"
 msgstr "N / A"
 
-#: nodepkg/panel/identify/plugin.tsx:12 nodepkg/store/Identify.ts:41
+#: nodepkg/panel/identify/plugin.tsx:12 nodepkg/store/Identify.ts:42
 msgid "Identify"
 msgstr "Identifier"
 
-#: nodepkg/panel/layers/LayersDropdown.tsx:19
+#: nodepkg/panel/layers/LayersDropdown.tsx:49
 msgid "Zoom to all layers"
 msgstr "Zoom sur tous les calques"
+
+#: nodepkg/panel/layers/LayersDropdown.tsx:55
+msgid "Hide all layers"
+msgstr ""
+
+#: nodepkg/panel/layers/LayersDropdown.tsx:62
+msgid "Reset layers"
+msgstr ""
 
 #: nodepkg/panel/print/PrintMapExport/PrintMapExport.tsx:152
 msgid "Print"
@@ -532,7 +551,7 @@ msgid "Number of legend columns"
 msgstr "Nombre de colonnes de légende"
 
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:48
-#: nodepkg/settings-widget/SettingsWidget.tsx:25
+#: nodepkg/settings-widget/SettingsWidget.tsx:26
 msgid "Title"
 msgstr "Titre"
 
@@ -604,15 +623,15 @@ msgstr "PDF"
 msgid "Print map"
 msgstr "Imprimer la carte"
 
-#: nodepkg/panel/search/SearchPanel.tsx:363
+#: nodepkg/panel/search/SearchPanel.tsx:362
 msgid "Enter at least 2 characters"
 msgstr "Entrez au moins 2 caractères"
 
-#: nodepkg/panel/search/SearchPanel.tsx:461
+#: nodepkg/panel/search/SearchPanel.tsx:463
 msgid "Not found"
 msgstr "Pas trouvé"
 
-#: nodepkg/panel/search/SearchPanel.tsx:466
+#: nodepkg/panel/search/SearchPanel.tsx:468
 msgid "Refine search criterion. Displayed first 100 search results."
 msgstr "Affiner les critères de recherche. Les 100 premiers résultats sont affichés."
 
@@ -642,71 +661,71 @@ msgstr "Sélectionner les panneaux"
 msgid "None"
 msgstr "Aucun"
 
-#: nodepkg/panel/share/SharePanel.tsx:306
+#: nodepkg/panel/share/SharePanel.tsx:299
 msgid "Active panel"
 msgstr "Panneau actif"
 
-#: nodepkg/panel/share/SharePanel.tsx:338
+#: nodepkg/panel/share/SharePanel.tsx:331
 msgid "The map link copied to clipboard."
 msgstr "Le lien de la carte a été copié dans le presse-papiers."
 
-#: nodepkg/panel/share/SharePanel.tsx:341
+#: nodepkg/panel/share/SharePanel.tsx:334
 msgid "Copy link"
 msgstr "Copier le lien"
 
-#: nodepkg/panel/share/SharePanel.tsx:375
+#: nodepkg/panel/share/SharePanel.tsx:368
 msgid "Optional fragment label"
 msgstr "Étiquette de fragment facultative"
 
-#: nodepkg/panel/share/SharePanel.tsx:383
+#: nodepkg/panel/share/SharePanel.tsx:376
 msgid "Embed code for your site"
 msgstr "Code d'intégration pour votre site"
 
-#: nodepkg/panel/share/SharePanel.tsx:385
+#: nodepkg/panel/share/SharePanel.tsx:378
 msgid "Map size:"
 msgstr "Taille de la carte:"
 
-#: nodepkg/panel/share/SharePanel.tsx:387
+#: nodepkg/panel/share/SharePanel.tsx:380
 msgid "Width, px"
 msgstr "Largeur, px"
 
-#: nodepkg/panel/share/SharePanel.tsx:395
+#: nodepkg/panel/share/SharePanel.tsx:388
 msgid "Height, px"
 msgstr "Hauteur, px"
 
-#: nodepkg/panel/share/SharePanel.tsx:401
+#: nodepkg/panel/share/SharePanel.tsx:394
 msgid "px"
 msgstr "px"
 
-#: nodepkg/panel/share/SharePanel.tsx:404
+#: nodepkg/panel/share/SharePanel.tsx:397
 msgid "Map tools"
 msgstr "Outils cartographiques"
 
-#: nodepkg/panel/share/SharePanel.tsx:408 option/base.py:31
+#: nodepkg/panel/share/SharePanel.tsx:401 option/base.py:32
 msgid "Panels"
 msgstr "Panneaux"
 
-#: nodepkg/panel/share/SharePanel.tsx:424
+#: nodepkg/panel/share/SharePanel.tsx:417
 msgid "Link to main map"
 msgstr "Lien vers la carte principale"
 
-#: nodepkg/panel/share/SharePanel.tsx:434
+#: nodepkg/panel/share/SharePanel.tsx:427
 msgid "Generate events"
 msgstr "Générer des événements"
 
-#: nodepkg/panel/share/SharePanel.tsx:438
+#: nodepkg/panel/share/SharePanel.tsx:431
 msgid "Embed code"
 msgstr "Code d'intégration"
 
-#: nodepkg/panel/share/SharePanel.tsx:450
+#: nodepkg/panel/share/SharePanel.tsx:443
 msgid "The embed code copied to clipboard."
 msgstr "Le code d'intégration a été copié dans le presse-papiers."
 
-#: nodepkg/panel/share/SharePanel.tsx:454
+#: nodepkg/panel/share/SharePanel.tsx:447
 msgid "Copy code"
 msgstr "Copier le code"
 
-#: nodepkg/panel/share/SharePanel.tsx:457
+#: nodepkg/panel/share/SharePanel.tsx:450
 msgid "Preview"
 msgstr "Aperçu"
 
@@ -714,15 +733,15 @@ msgstr "Aperçu"
 msgid "Share"
 msgstr "Partager"
 
-#: nodepkg/plugin/feature-layer/FeatureLayerPlugin.tsx:12
+#: nodepkg/plugin/feature-layer/FeatureLayerPlugin.tsx:13
 msgid "Feature table"
 msgstr "Table des entités"
 
-#: nodepkg/plugin/layer-editor/EditableItem.tsx:148
+#: nodepkg/plugin/layer-editor/EditableItem.tsx:174
 msgid "Undo the last change"
 msgstr ""
 
-#: nodepkg/plugin/layer-editor/LayerEditor.tsx:66
+#: nodepkg/plugin/layer-editor/LayerEditor.tsx:68
 #: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:32
 msgid "Stop editing"
 msgstr "Arrêter l'édition"
@@ -735,13 +754,16 @@ msgstr ""
 msgid "Enable snapping"
 msgstr ""
 
-#: nodepkg/plugin/layer-editor/ToolEditor.tsx:166
-#, python-brace-format
+#: nodepkg/plugin/layer-editor/ToolEditor.tsx:180
 msgid "Stop editing layer: {layer}"
 msgstr ""
 
-#: nodepkg/plugin/layer-editor/modes/AttributeMode.tsx:130
+#: nodepkg/plugin/layer-editor/modes/AttributeMode.tsx:121
 msgid "Edit attributes"
+msgstr ""
+
+#: nodepkg/plugin/layer-editor/modes/ClearAllBtn.tsx:56
+msgid "Delete all"
 msgstr ""
 
 #: nodepkg/plugin/layer-editor/modes/DeleteMode.tsx:70
@@ -749,7 +771,7 @@ msgstr ""
 msgid "Delete"
 msgstr "Effacer"
 
-#: nodepkg/plugin/layer-editor/modes/DrawMode.tsx:76
+#: nodepkg/plugin/layer-editor/modes/DrawMode.tsx:117
 #: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:175
 msgid "Create"
 msgstr "Créer"
@@ -770,7 +792,7 @@ msgstr ""
 msgid "Move"
 msgstr ""
 
-#: nodepkg/plugin/zoom-to-layer/ZoomToLayerPlugin.tsx:18
+#: nodepkg/plugin/zoom-to-layer/ZoomToLayerPlugin.tsx:19
 msgid "Zoom to layer"
 msgstr "Zoom sur la couche"
 
@@ -796,63 +818,67 @@ msgstr ""
 msgid "Auto"
 msgstr "Auto"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:24
+#: nodepkg/settings-widget/SettingsWidget.tsx:25
 msgid "Constraining extent"
 msgstr "Étendue contraignante"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:28
+#: nodepkg/settings-widget/SettingsWidget.tsx:29
 msgid "Select mode"
 msgstr "Sélectionner le mode"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:30
+#: nodepkg/settings-widget/SettingsWidget.tsx:31
 msgid "Select resource"
 msgstr "Sélectionner une ressource"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:31
+#: nodepkg/settings-widget/SettingsWidget.tsx:32
 #: nodepkg/settings/SettingsForm.tsx:172
 msgid "Measurement SRS"
 msgstr "Mesure SRS"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:32
+#: nodepkg/settings-widget/SettingsWidget.tsx:33
 msgid "Layers editing"
 msgstr "Édition des calques"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:33
+#: nodepkg/settings-widget/SettingsWidget.tsx:34
 msgid "Additional options"
 msgstr "Options supplémentaires"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:34
+#: nodepkg/settings-widget/SettingsWidget.tsx:35
 msgid "Configure"
 msgstr "Configure"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:39
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
 msgid "Web map will start at this extent"
 msgstr "La carte Web commencera à cette distance"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:40
+#: nodepkg/settings-widget/SettingsWidget.tsx:41
 msgid "Web map will not allow to move outside of this extent"
 msgstr "La carte Web ne permettra pas de se déplacer en dehors de cette étendue"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:44
+#: nodepkg/settings-widget/SettingsWidget.tsx:45
 msgid "Hide by default"
 msgstr "Masquer par défaut"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:45
+#: nodepkg/settings-widget/SettingsWidget.tsx:46
 msgid "Show without messages"
 msgstr "Afficher sans messages"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:46
+#: nodepkg/settings-widget/SettingsWidget.tsx:47
 msgid "Show with messages"
 msgstr "Afficher avec des messages"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:51
+#: nodepkg/settings-widget/SettingsWidget.tsx:52
 #: nodepkg/settings/SettingsForm.tsx:195
 msgid "Enable"
 msgstr "Permettre"
 
-#: nodepkg/settings-widget/SettingsWidget.tsx:185
+#: nodepkg/settings-widget/SettingsWidget.tsx:204
 msgid "Settings"
 msgstr "Paramètres"
+
+#: nodepkg/settings-widget/component/ComputeWebmapExtent.tsx:20
+msgid "Compute extent from all added layers"
+msgstr ""
 
 #: nodepkg/settings/Settings.tsx:62
 msgid "Settings saved"
@@ -1095,11 +1121,11 @@ msgstr "MultiPolygon"
 msgid "GeometryCollection"
 msgstr "Collection Géométrie"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:24
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:25
 msgid "Go to"
 msgstr "Aller à"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:155
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:152
 msgid "Selected feature has no geometry"
 msgstr "L'entité sélectionnée n'a pas de géométrie"
 
@@ -1119,34 +1145,36 @@ msgstr "Attributs de fonctionnalité"
 msgid "Geometry info"
 msgstr "Informations sur la géométrie"
 
-#: option/base.py:36
+#: option/__init__.py:34
+msgid "Request multiplexing"
+msgstr ""
+
+#: option/base.py:37
 msgid "Tools"
 msgstr "Outils"
 
-#: option/base.py:46
+#: option/base.py:47
 msgid "Miscellaneous"
 msgstr "Divers"
 
 #: template/invalid_origin.mako:3
-#, python-format
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
 msgstr ""
 "L'intégration de cartes Web n'est pas autorisée pour %s dans les paramètres "
 "SIG Web."
 
 #: template/invalid_origin.mako:5
-#, python-format
 msgid "View the map on %s"
 msgstr ""
 
-#: view.py:96
+#: view.py:102
 msgid "Clone web map"
 msgstr "Cloner une carte Web"
 
-#: view.py:108
+#: view.py:114
 msgid "Embedded webmap preview"
 msgstr "Aperçu de la carte web intégrée"
 
-#: view.py:119
+#: view.py:125
 msgid "Web map settings"
 msgstr "Paramètres de carte Web"

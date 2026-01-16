@@ -1,10 +1,9 @@
-#: api.py:264
-#, server
+#: api.py:167
 msgid "Storage management is not enabled on this server."
 msgstr "Zarządzanie magazynem nie jest włączone na tym serwerze."
 
-#: api.py:350
-#, server
+#: api.py:254
+#, python-brace-format
 msgid ""
 "Invalid font file name: '{}'. Only latin letters, digits, hyphens and "
 "underscores are allowed. The *.ttf or *.otf extension is required."
@@ -13,13 +12,13 @@ msgstr ""
 "łacińskie, cyfry, myślniki i podkreślenia. Wymagane rozszerzenie *.tff lub "
 "*.otf."
 
-#: api.py:358
-#, server
+#: api.py:261
+#, python-brace-format
 msgid "Font '{0}' is larger than {1} bytes."
 msgstr "Czcionka '{0}' jest większa niż {1} bajtów."
 
-#: api.py:553
-#, server
+#: api.py:457
+#, python-brace-format
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
@@ -27,43 +26,37 @@ msgstr ""
 "Parametr zapytania '{}' nie powinien zawierać dodatkowych wartości, jeśli "
 "określono 'all'."
 
-#: api.py:681
-#, server
+#: api.py:584
+#, python-brace-format
 msgid "Got an unsupported MIME type: '{}'."
 msgstr "Otrzymano nieobsługiwany typ MIME: '{}'."
 
-#: api.py:684
-#, server
-msgid "64K should be enough for a logo."
-msgstr "64K powinno wystarczyć na logo."
+#: api.py:587
+#, python-brace-format
+msgid "{}KiB should be enough for a logo."
+msgstr ""
 
-#: api.py:856
-#, server
+#: api.py:750
 msgid "Your Web GIS at nextgis.com"
 msgstr "Twoja strona GIS w nextgis.com"
 
-#: component.py:167
-#, server
+#: component.py:165
 msgid "Request timeout"
 msgstr "Limit czasu żądania"
 
-#: component.py:170
-#, server
+#: component.py:168
 msgid "Enabled"
 msgstr "Włączone"
 
-#: component.py:170
-#, server
+#: component.py:168
 msgid "Disabled"
 msgstr "Wyłączone"
 
-#: exception.py:218
-#, server
+#: exception.py:219
 msgid "Internal server error"
 msgstr "Błąd wewnętrzny serwera"
 
-#: exception.py:219
-#, server
+#: exception.py:221
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -71,13 +64,11 @@ msgstr ""
 "Serwer napotkał błąd wewnętrzny lub niewłaściwą konfigurację i nie był "
 "wstanie zrealizować polecenia."
 
-#: exception.py:252
-#, server
+#: exception.py:253
 msgid "Bad request"
 msgstr "Złe polecenie"
 
-#: exception.py:253
-#, server
+#: exception.py:255
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
@@ -85,33 +76,27 @@ msgstr ""
 "Serwer nie mógł zrealizować polecenia, ponieważ jest ono źle sformułowane lub"
 " nieprawidłowe."
 
-#: exception.py:261
-#, server
+#: exception.py:262
 msgid "Payment required"
 msgstr "Wymagana opłata"
 
-#: exception.py:262
-#, server
+#: exception.py:263
 msgid "Access was denied for financial reasons."
 msgstr "Odmówiono dostępu z powodów finansowych."
 
-#: exception.py:267
-#, server
+#: exception.py:268
 msgid "Forbidden"
 msgstr "Zabronione"
 
-#: exception.py:268
-#, server
+#: exception.py:269
 msgid "Access was denied to this resource."
 msgstr "Dostęp do tego zasobu został zabroniony."
 
-#: exception.py:273
-#, server
+#: exception.py:274
 msgid "Page not found"
 msgstr "Nie znaleziono strony"
 
-#: exception.py:274
-#, server
+#: exception.py:276
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -119,108 +104,91 @@ msgstr ""
 "Strona mogła zostać usunięta lub wystąpił błąd w adresie. Popraw adres lub "
 "przejdź na stronę główną i spróbuj znaleźć żądaną stronę."
 
-#: exception.py:282
-#, server
+#: exception.py:283
 msgid "Unprocessable entity"
 msgstr "Obiekt nieprzetwarzalny"
 
-#: exception.py:283
-#, server
+#: exception.py:284
 msgid "Unable to process the contained instructions."
 msgstr "Nie można przetworzyć zawartych instrukcji."
 
-#: exception.py:288 exception.py:289
-#, server
+#: exception.py:289 exception.py:290
 msgid "Not implemented"
 msgstr "Nie wykonane"
 
-#: exception.py:294
-#, server
+#: exception.py:295
 msgid "Service unavailable"
 msgstr "Serwis niedostępny"
 
-#: exception.py:295
-#, server
+#: exception.py:296
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "Serwis obecnie niedostępny. Proszę spróbować ponownie później."
 
 #: lunkwill.py:25
-#, server
 msgid "Lunkwill not enabled"
 msgstr "Rozszerzenie Lunkwill nie jest włączone"
 
 #: lunkwill.py:26
-#, server
 msgid "The Lunkwill extension is not configured on this server."
 msgstr "Rozszerzenie Lunkwill nie zostało skonfigurowane na tym serwerze."
 
+#: lunkwill.py:30
+msgid "Interception expected"
+msgstr ""
+
+#: lunkwill.py:31
+msgid "The Lunkwill extension expects external request interception."
+msgstr ""
+
 #: nodepkg/api/error.ts:18 nodepkg/api/error.ts:39
-#, jsrealm
 msgid "Something went wrong."
 msgstr "Coś poszło nie tak."
 
 #: nodepkg/api/error.ts:19
-#, jsrealm
 msgid "Unknown API error"
 msgstr "Nieznany błąd API"
 
 #: nodepkg/api/error.ts:33
-#, jsrealm
 msgid "There is no response from the server or problem connecting to server."
 msgstr "Brak odpowiedzi lub problemy z połączeniem z serwerem."
 
 #: nodepkg/api/error.ts:34
-#, jsrealm
 msgid "Network error"
 msgstr "Błąd sieci"
 
 #: nodepkg/api/error.ts:35
-#, jsrealm
 msgid "Check network connectivity and try again later."
 msgstr "Sprawdź połączenie z siecią i spróbuj ponownie później."
 
 #: nodepkg/api/error.ts:40
-#, jsrealm
 msgid "Unexpected server response"
 msgstr "Niespodziewana odpowiedź serwera"
 
 #: nodepkg/api/error.ts:68
-#, jsrealm
 msgid "Unexpected error while processing long-running request."
 msgstr "Nieoczekiwany błąd podczas przetwarzania długotrwałego żądania."
 
 #: nodepkg/api/error.ts:69
-#, jsrealm
 msgid "Long-running request error"
 msgstr "Błąd długotrwałego żądania"
 
 #: nodepkg/api/error.ts:77
-#, jsrealm
 msgid "Long-running request was cancelled."
 msgstr "Długotrwałe żądanie zostało anulowane."
 
 #: nodepkg/backup-browse/BackupBrowse.tsx:23
-#, jsrealm
 msgid "Filename"
 msgstr "Nazwa pliku"
 
 #: nodepkg/backup-browse/BackupBrowse.tsx:38
-#, jsrealm
 msgid "Timestamp (UTC)"
 msgstr "Znacznik czasu (UTC)"
 
 #: nodepkg/backup-browse/BackupBrowse.tsx:44
-#, jsrealm
 msgid "Size"
 msgstr "Rozmiar"
 
-#: nodepkg/company-logo.ts:31
-#, jsrealm
-msgid "Get your own Web GIS at nextgis.com"
-msgstr "Załóż swoją własną stronę GIS na nextgis.com"
-
 #: nodepkg/cors-settings/CORSSettings.tsx:23
-#, jsrealm
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
@@ -230,7 +198,6 @@ msgstr ""
 "linii."
 
 #: nodepkg/cors-settings/CORSSettings.tsx:24
-#, jsrealm
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
@@ -240,28 +207,23 @@ msgstr ""
 "www.example.com) są traktowane jako różne źródła. Dozwolone są wildcardy dla "
 "domen trzeciego poziomu i wyższych."
 
-#: nodepkg/cors-settings/CORSSettings.tsx:57
-#, jsrealm
+#: nodepkg/cors-settings/CORSSettings.tsx:59
 msgid "CORS settings updated"
 msgstr "Ustawienia CORS zaktualizowane"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:62
-#, jsrealm
+#: nodepkg/cors-settings/CORSSettings.tsx:64
 msgid "Fix the form errors first"
 msgstr "Najpierw popraw błędy w formularzu"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:78
-#, jsrealm
+#: nodepkg/cors-settings/CORSSettings.tsx:80
 msgid "The value entered is not valid"
 msgstr "Wprowadzona wartość jest nieprawidłowa"
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:40
-#, jsrealm
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:42
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr "Styl niestandardowy zapisany. Odśwież stronę, aby go zastosować."
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:62
-#, jsrealm
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:65
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -270,7 +232,6 @@ msgstr ""
 "projektu dla wszystkich stron Web GIS."
 
 #: nodepkg/fonts/FontsPanel.tsx:28
-#, jsrealm
 msgid ""
 "During operation, the Web GIS will restart. All existing requests will be "
 "aborted. Proceed?"
@@ -279,128 +240,106 @@ msgstr ""
 "żądania zostaną przerwane. Kontynuować?"
 
 #: nodepkg/fonts/FontsPanel.tsx:29
-#, jsrealm
 msgid "Web GIS is restarting, please wait..."
 msgstr "Web GIS jest ponownie uruchamiany, proszę czekać..."
 
 #: nodepkg/fonts/FontsPanel.tsx:30
-#, jsrealm
 msgid "Custom"
 msgstr "Własny"
 
 #: nodepkg/fonts/FontsPanel.tsx:30
-#, jsrealm
 msgid "System"
 msgstr "Systemowy"
 
-#: nodepkg/fonts/FontsPanel.tsx:104
-#, jsrealm
+#: nodepkg/fonts/FontsPanel.tsx:105
 msgid "Font"
 msgstr "Czcionka"
 
-#: nodepkg/fonts/FontsPanel.tsx:109
-#, jsrealm
+#: nodepkg/fonts/FontsPanel.tsx:110
 msgid "Format"
 msgstr "Format"
 
-#: nodepkg/fonts/FontsPanel.tsx:114
-#, jsrealm
+#: nodepkg/fonts/FontsPanel.tsx:115
 msgid "Type"
 msgstr "Typ"
 
-#: nodepkg/fonts/FontsPanel.tsx:174
-#, jsrealm
+#: nodepkg/fonts/FontsPanel.tsx:176
 msgid "Delete"
 msgstr "Usuń"
 
-#: nodepkg/fonts/FontsPanel.tsx:181
-#, jsrealm
+#: nodepkg/fonts/FontsPanel.tsx:183
 msgid "Show system fonts"
 msgstr "Pokaż czcionki systemowe"
 
 #: nodepkg/home-path/HomePath.tsx:4
-#, jsrealm
 msgid "The home path setting is saved."
 msgstr "Ustawienie ścieżki domowej zostało zapisane."
 
 #: nodepkg/i18n/testentry.ts:9 nodepkg/i18n/testentry.ts:13 test/test_i18n.py:15
-#, jsrealm, server
 msgctxt "test"
 msgid "unit"
-msgstr ""
+msgid_plural "units"
+msgstr[0] "jednostka"
+msgstr[1] "jednostki"
+msgstr[2] "jednostek"
 
 #: nodepkg/layout/Avatar.tsx:12
-#, jsrealm
 msgid "Sign in"
 msgstr "Zaloguj się"
 
 #: nodepkg/layout/Avatar.tsx:20
-#, jsrealm
 msgid "Invitation session"
 msgstr "Sesja zaproszenia"
 
 #: nodepkg/layout/Avatar.tsx:23
-#, jsrealm
 msgid "User settings"
 msgstr "Ustawienia użytkownika"
 
 #: nodepkg/layout/Avatar.tsx:25
-#, jsrealm
 msgid "Sign out"
 msgstr "Wyloguj"
 
-#: nodepkg/layout/store.ts:54
-#, jsrealm
+#: nodepkg/layout/store.ts:71
 msgid "Resources"
 msgstr "Źródła"
 
-#: nodepkg/layout/store.ts:60 view.py:198
-#, jsrealm, server
+#: nodepkg/layout/store.ts:77 view.py:204
 msgid "Control panel"
 msgstr "Panel kontroli"
 
-#: nodepkg/layout/store.ts:67
-#, jsrealm
+#: nodepkg/layout/store.ts:84
 msgid "Help"
 msgstr "Pomoc"
 
 #: nodepkg/logo-form/LogoForm.tsx:5
-#, jsrealm
 msgid "We recommend height of 45 px and width of up to 200 px."
 msgstr "Rekomendowana wysokość to 45px i szerokość do 200px."
 
 #: nodepkg/logo-form/LogoForm.tsx:6
-#, jsrealm
 msgid "Only PNG and SVG images are supported."
 msgstr "Obsługiwane są tylko obrazy PNG i SVG."
 
-#: nodepkg/metrics/GoogleAnalyticsTab.tsx:28
-#, jsrealm
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
 msgid "Measurement ID"
 msgstr "ID pomiaru"
 
 #: nodepkg/metrics/MetricSettings.tsx:21
-#, jsrealm
 msgid "Add"
 msgstr "Dodaj"
 
 #: nodepkg/metrics/MetricSettings.tsx:22
-#, jsrealm
 msgid "The setting is saved."
 msgstr "Ustawienie zostało zapisane."
 
 #: nodepkg/metrics/MetricSettings.tsx:23
-#, jsrealm
 msgid "Reload the page to get them applied."
 msgstr "Przeładuj stronę, aby zastosować ustawienia."
 
 #: nodepkg/metrics/MetricSettings.tsx:27
-#, jsrealm
 msgid "Add one or more counters to your Web GIS."
 msgstr "Dodaj jeden lub więcej liczników do swojej sieci GIS."
 
 #: nodepkg/metrics/MetricSettings.tsx:28
-#, jsrealm
 msgid ""
 "HTML code of these counters will be embeded into each page and will allow you"
 " to track user activity."
@@ -408,130 +347,109 @@ msgstr ""
 "Kod HTML tych liczników zostanie osadzony na każdej stronie i pozwoli śledzić"
 " aktywność użytkowników."
 
-#: nodepkg/metrics/YandexMetricaTab.tsx:29
-#, jsrealm
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
 msgid "Tag number"
 msgstr "Numer tagu"
 
-#: nodepkg/metrics/YandexMetricaTab.tsx:48
-#, jsrealm
+#: nodepkg/metrics/YandexMetricaTab.tsx:50
 msgid "Webvisor"
 msgstr "Webvisior"
 
 #: nodepkg/metrics/tab.ts:32
-#, jsrealm
 msgid "Google Analytics"
 msgstr "Google Analytics"
 
 #: nodepkg/metrics/tab.ts:38
-#, jsrealm
 msgid "Yandex.Metrica"
 msgstr "Yandex.Metrica"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:23
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:24
 msgid "Some changes may be reflected only after full estimation."
 msgstr "Niektóre zmiany mogą być widoczne dopiero po pełnym oszacowaniu."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:24
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:25
+#, python-brace-format
 msgid "Storage usage was fully estimated at {f}."
 msgstr "Zużycie pamięci oszacowano w pełni na {f}."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:25
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:26
+#, python-brace-format
 msgid "Storage usage was fully estimated at {f} and updated at {u}."
 msgstr "Zużycie pamięci oszacowano na {f} i zaktualizowano na {u}."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:26
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:27
+#, python-brace-format
 msgid "Storage usage hasn't been estimated yet but was updated at {u}."
 msgstr ""
 "Zużycie pamięci nie zostało jeszcze oszacowane, ale zostało zaktualizowane na"
 " {u}."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:27
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:28
 msgid "Storage usage hasn't been estimated yet."
 msgstr "Zużycie przestrzeni nie zostało jeszcze oszacowane."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:115
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:117
 msgid "Kind of data"
 msgstr "Rodzaj danych"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:121
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:123
 msgid "Volume"
 msgstr "Wolumen"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:141
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:142
 msgid "Total"
 msgstr "Łącznie"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:146
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:147
 msgid "of"
 msgstr "z"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:211
-#, jsrealm
+#: nodepkg/storage-summary/StorageSummary.tsx:212
 msgid "Estimate storage"
 msgstr "Szacuj przestrzeń dyskową"
 
 #: nodepkg/system-info/SystemInfo.tsx:59
-#, jsrealm
 msgid "Package"
 msgstr "Pakiet"
 
 #: nodepkg/system-info/SystemInfo.tsx:60
-#, jsrealm
 msgid "Version"
 msgstr "Wersja"
 
 #: nodepkg/system-info/SystemInfo.tsx:77
-#, jsrealm
 msgid "Platform"
 msgstr "Platforma"
 
 #: nodepkg/system-info/SystemInfo.tsx:89
-#, jsrealm
 msgid "Browser support"
 msgstr "Obsługa przeglądarki"
 
 #: nodepkg/system-info/SystemInfo.tsx:97
-#, jsrealm
 msgid "or higher"
 msgstr "albo wyższa"
 
 #: nodepkg/system-info/SystemInfo.tsx:98
-#, jsrealm
 msgid "Not supported"
 msgstr "Nieobsługiwane"
 
 #: nodepkg/system-info/SystemInfo.tsx:104
-#, jsrealm
 msgid "Your browser"
 msgstr "Twoja przeglądarka"
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:15
-#, jsrealm
 msgid "Checking for updates..."
 msgstr "Sprawdzanie dostępności aktualizacji..."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:16
-#, jsrealm
 msgid "<a>Contact support</a> for update."
 msgstr "<a> Skontaktuj się z pomocą techniczną </a>, aby zaktualizować."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:17
-#, jsrealm
 msgid "Show details"
 msgstr "Pokaż szczegóły"
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:21
-#, jsrealm
+#, python-brace-format
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
@@ -540,52 +458,45 @@ msgstr ""
 "aktualizacja."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:22
-#, jsrealm
+#, python-brace-format
 msgid "New version of {distribution} is available: {version}."
 msgstr "Dostępna jest nowa wersja {distribution}: {version}."
 
 #: nodepkg/system-info/SystemInfoUpdate.tsx:23
-#, jsrealm
+#, python-brace-format
 msgid "Your {distribution} is up-to-date."
 msgstr "Twoja wersja {distribution} jest aktualna."
 
 #: nodepkg/system-name-form/SystemNameForm.tsx:4
-#, jsrealm
 msgid "The system name setting is saved."
 msgstr "Ustawienie nazwy systemu zostało zapisane."
 
 #: nodepkg/update/index.tsx:24
-#, jsrealm
 msgid "Critical updates are available"
 msgstr "Dostępne są krytyczne aktualizacje"
 
 #: nodepkg/update/index.tsx:25
-#, jsrealm
 msgid "Updates are available"
 msgstr "Dostępne aktualizacje"
 
 #: nodepkg/update/index.tsx:32
-#, jsrealm
 msgid "Click to see what's new"
 msgstr "Kliknij, aby zobaczyć, co nowego"
 
-#: permission.py:5 view.py:303 view.py:654
-#, server
+#: permission.py:5 view.py:309 view.py:748
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Udostępnianie zasobów między różnymi źródłami (CORS)"
 
 #: template/uacompat.mako:3
-#, server
 msgid "Browser compatibility test"
 msgstr "Test kompatybilności przeglądarki"
 
 #: template/uacompat.mako:22
-#, python-format, server
+#, python-format
 msgid "%(name)s %(current)s supported"
 msgstr "Obsługiwana wersja %(name)s %(current)s"
 
 #: template/uacompat.mako:23
-#, server
 msgid ""
 "Web GIS browser compatibility test has been passed! The Web GIS should work "
 "fine."
@@ -594,12 +505,12 @@ msgstr ""
 "Web GIS powinna pracować dobrze."
 
 #: template/uacompat.mako:26
-#, python-format, server
+#, python-format
 msgid "%(name)s not supported"
 msgstr "%(name)s nie jest obsługiwana"
 
 #: template/uacompat.mako:27
-#, python-format, server
+#, python-format
 msgid ""
 "You're using %(name)s although it's not supported by the Web GIS. It's an "
 "outdated browser lacking required features. Try a different browser or "
@@ -609,12 +520,12 @@ msgstr ""
 " przestarzała. Spróbuj innej lub skontaktuj się z administratorem."
 
 #: template/uacompat.mako:29
-#, python-format, server
+#, python-format
 msgid "%(name)s %(current)s not supported"
 msgstr "Wersja %(name)s %(current)s nie jest obsługiwana"
 
 #: template/uacompat.mako:30
-#, python-format, server
+#, python-format
 msgid ""
 "You're using %(name)s %(current)s although it's not supported by the Web GIS."
 " It's an outdated version lacking required features. Contact your system "
@@ -626,7 +537,6 @@ msgstr ""
 "aktualizacji do %(name)s %(required)s+ lub użyj innej przeglądarki."
 
 #: template/uacompat.mako:34
-#, server
 msgid ""
 "If you still want to continue using the current browser, click the link below"
 " to bypass the compatibility test. The Web GIS or some features may degrade "
@@ -636,106 +546,87 @@ msgstr ""
 "Niektóre funkcje Web GIS mogą nie działać."
 
 #: template/uacompat.mako:35
-#, server
 msgid "I understood but want to proceed at my own risk. Skip the test!"
 msgstr "Rozumiem ryzyko i chcę kontynuować. Pomiń test!"
 
 #: template/uacompat.mako:37
-#, server
 msgid "Unknown browser"
 msgstr "Nieznana przeglądarka"
 
 #: template/uacompat.mako:38
-#, server
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
 msgstr "Jeśli korzystasz z aktualnej przeglądarki, Web GIS powinien działać poprawnie."
 
-#: tomb/config.py:98
-#, server
+#: tomb/config.py:99
 msgid "Parameter required"
 msgstr "Wymagany parametr"
 
-#: tomb/config.py:99
-#, server
+#: tomb/config.py:100
+#, python-brace-format
 msgid "The '{}' query parameter is required."
 msgstr "Parametr zapytania '{}' jest wymagany."
 
-#: tomb/config.py:101
-#, server
+#: tomb/config.py:102
 msgid "Invalid parameter"
 msgstr "Nieprawidłowy parametr"
 
-#: tomb/config.py:102
-#, server
+#: tomb/config.py:103
+#, python-brace-format
 msgid "The '{}' query parameter has an invalid value."
 msgstr "Parametr zapytania '{}' ma nieprawidłową wartość."
 
 #: tomb/exception.py:7
-#, server
 msgid "Malformed JSON body"
 msgstr "Nieprawidłowy format treści JSON"
 
 #: tomb/exception.py:8
-#, server
 msgid "The JSON body of the request is malformed or invalid."
 msgstr "Treść żądania w formacie JSON jest nieprawidłowa lub uszkodzona."
 
-#: view.py:187
-#, server
+#: view.py:192
 msgid "HTTP API documentation"
 msgstr "Dokumentacja HTTP API"
 
-#: view.py:252 view.py:663
-#, server
+#: view.py:258 view.py:757
 msgid "System information"
 msgstr "Informacje o systemie"
 
-#: view.py:262 view.py:669
-#, server
+#: view.py:268 view.py:763
 msgid "Font management"
 msgstr "Zarządzanie czcionkami"
 
-#: view.py:271 view.py:706
-#, server
+#: view.py:277 view.py:800
 msgid "Storage"
 msgstr "Pamięć masowa"
 
-#: view.py:285 view.py:713
-#, server
+#: view.py:291 view.py:807
 msgid "Backups"
 msgstr "Kopie zapasowe"
 
-#: view.py:313 view.py:681
-#, server
+#: view.py:319 view.py:775
 msgid "Custom CSS"
 msgstr "Własny CSS"
 
-#: view.py:322 view.py:687
-#, server
+#: view.py:328 view.py:781
 msgid "Custom logo"
 msgstr "Własne logo"
 
-#: view.py:331 view.py:675
-#, server
+#: view.py:337 view.py:769
 msgid "Web GIS name"
 msgstr "Nazwa strony internetowej GIS"
 
-#: view.py:340 view.py:693
-#, server
+#: view.py:346 view.py:787
 msgid "Home path"
 msgstr "Ścieżka dostępu"
 
-#: view.py:349 view.py:699
-#, server
+#: view.py:355 view.py:793
 msgid "Metrics and analytics"
 msgstr "Metryki i analityka"
 
-#: view.py:643
-#, server
+#: view.py:737
 msgid "Info"
 msgstr "Informacja"
 
-#: view.py:644
-#, server
+#: view.py:738
 msgid "Settings"
 msgstr "Ustawienia"

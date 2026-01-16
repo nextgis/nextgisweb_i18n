@@ -1,314 +1,370 @@
 #: model.py:10
 msgid "Demo project"
-msgstr ""
+msgstr "Демо проект"
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:14
 msgid "This is your demo project."
-msgstr ""
+msgstr "Това е ваш демо проект."
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:15
 msgid ""
 "Here you can add data, change resources, and see inside the maps and data "
 "layers."
 msgstr ""
+"Тук можете да добавяти данни, да редактирате ресурси и да видите какво има в "
+"карти и слоеве."
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:16
 msgid ""
 "You can even reset the whole project and revert to the original you got from "
 "us."
 msgstr ""
+"Може дори да възстановите целия проект, което го връща към състоянието, в "
+"което сте го получили от нас."
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:43
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:49
 msgid "Reset"
-msgstr ""
+msgstr "Възстанови"
 
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:48
 msgid ""
 "Resetting the project will revert to the original version and delete any "
 "changes you may have made."
 msgstr ""
+"Възстановяване на проекта ще го върне към изходното състояние като унищожи "
+"всички промени, които сте направили."
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:8
 msgid "Don't know where to start?"
-msgstr ""
+msgstr "Не знаете откъде да започнете?"
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:9
 #: nodepkg/selector/Selector.tsx:25
 msgid "Test drive one of our demo projects with ready-made layers, styles, and maps."
 msgstr ""
+"Пробвайте с един от нашите демо-проекти с готови за използване слоеве, "
+"стилове и карти."
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:10
 #: nodepkg/selector/Selector.tsx:26
 msgid "When you clone a demo project, it is yours to edit, reset or delete."
 msgstr ""
+"След като клонирате демо проект, можете да го редактирате, върнете в изходно "
+"състояние или да го изтриете."
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:11
 #: nodepkg/selector/Selector.tsx:27
 msgid "You can also explore a read-only copy without cloning."
 msgstr ""
+"Също така може да изследвате копията, която е само за четене, без да си го "
+"клонирате."
 
 #: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:17
-#: project/base.py:57 view.py:25 view.py:72
-msgid "Demo projects"
+#: project/base.py:58 view.py:27 view.py:79
+msgid "Demo data and projects"
 msgstr ""
 
 #: nodepkg/selector/Selector.tsx:72
 msgid "Go to"
-msgstr ""
+msgstr "Премини към"
 
 #: nodepkg/selector/Selector.tsx:77
 msgid "Explore read-only copy"
-msgstr ""
+msgstr "Копия в режим само за четене"
 
 #: nodepkg/selector/Selector.tsx:90
 msgid "Clone for me"
-msgstr ""
+msgstr "Клонирай в моя Уеб ГИС"
 
 #: project/__init__.py:7
 msgid "Switzerland"
-msgstr ""
+msgstr "Швейцария"
 
 #: project/__init__.py:19
 msgid "Las Vegas"
-msgstr ""
+msgstr "Лас Вегас"
 
 #: project/__init__.py:29
 msgid "OpenStreetMap cartography for Boston"
-msgstr ""
+msgstr "Данни от OpenStreetMap за Бостон"
 
 #: project/__init__.py:41
 msgid "Flooding in Alicante province (2019)"
-msgstr ""
+msgstr "Порой в провинция Аликанте (2019)"
 
 #: project/__init__.py:54
 msgid "Ambulance availablity in Graz"
-msgstr ""
+msgstr "Достъпност на спешна помощ в Грац"
 
 #: project/__init__.py:63
 msgid "Monitoring of wild animals in Altai mountains"
-msgstr ""
+msgstr "Мониторинг на диви животни в планина Алтай"
 
 #: project/__init__.py:73
+msgid "Hydrology"
+msgstr ""
+
+#: project/__init__.py:85
 msgid "Diagrams"
-msgstr ""
+msgstr "Диаграми"
 
-#: project/__init__.py:83
+#: project/__init__.py:95
 msgid "Distribution heatmap"
-msgstr ""
+msgstr "Топлинна карта на разпределението"
 
-#: project/__init__.py:94
+#: project/__init__.py:106
 msgid "Tracking"
-msgstr ""
+msgstr "Мониторинг на движение"
 
 #: project/ambulance/__init__.py:11
 msgid "Name"
-msgstr ""
+msgstr "Име"
 
 #: project/ambulance/__init__.py:12
 msgid "Minutes, from"
-msgstr ""
+msgstr "Минути, от"
 
 #: project/ambulance/__init__.py:13
 msgid "Minutes, to"
-msgstr ""
+msgstr "Минути, до"
 
 #: project/ambulance/__init__.py:22
 msgid "Ambulance stations"
-msgstr ""
+msgstr "Станция на спешна помощ"
 
 #: project/ambulance/__init__.py:29
 msgid "Residential areas outside 15-minutes ambulance availability"
-msgstr ""
+msgstr "Жилищни райони извън 15-минутен достъп на линейки"
 
 #: project/ambulance/__init__.py:36
 msgid "Graz administrative border"
-msgstr ""
+msgstr "Администранивна граница на Грац"
 
 #: project/ambulance/__init__.py:43
 msgid "Ambulance availability, minutes"
-msgstr ""
+msgstr "Достъпност на спешна помощ, минути"
 
 #: project/country/__init__.py:22
 msgid "Major cities"
-msgstr ""
+msgstr "Големи градове"
 
 #: project/country/__init__.py:28
 msgid "Largest lakes"
-msgstr ""
+msgstr "Най-големи езера"
 
 #: project/country/__init__.py:34
 msgid "Highest peaks"
-msgstr ""
+msgstr "Най-високи върхове"
 
 #: project/country/__init__.py:42
 msgid "SVG markers"
-msgstr ""
+msgstr "SVG маркери"
 
 #: project/diagrams/__init__.py:16
 msgid "Bars, restaurants, fast food"
-msgstr ""
+msgstr "Бари, ресторанти, бързо хранене"
 
 #: project/diagrams/__init__.py:22
 msgid "St. Petersburg districts"
-msgstr ""
+msgstr "Районите на Санкт Петербург"
 
 #: project/district/__init__.py:17
 msgid "Places"
-msgstr ""
+msgstr "Места"
 
 #: project/district/__init__.py:23
 msgid "My country house"
-msgstr ""
+msgstr "Моя къща"
 
 #: project/district/__init__.py:29
 msgid "Routes"
-msgstr ""
+msgstr "Маршрути"
 
 #: project/district/__init__.py:35 project/osmdata/__init__.py:21
 msgid "Buildings"
-msgstr ""
+msgstr "Сгради"
 
 #: project/flooding/__init__.py:18
 msgid "Monitoring area"
-msgstr ""
+msgstr "Зона на мониторинга"
 
 #: project/flooding/__init__.py:24
 msgid "Buildings in affected areas"
-msgstr ""
+msgstr "Сгради в засегнати райони"
 
 #: project/flooding/__init__.py:30
 msgid "Most affected areas"
-msgstr ""
+msgstr "Най-засегнати райони"
 
 #: project/flooding/__init__.py:38
 msgid "Sentinel-2 image, 19 Aug 2019"
-msgstr ""
+msgstr "Снимки от Sentinel-2, 19 авг. 2019"
 
 #: project/flooding/__init__.py:45
 msgid "Sentinel-2 image, 18 Sep 2019"
-msgstr ""
+msgstr "Снимки от Sentinel-2, 18 септ. 2019"
 
 #: project/heatmap/__init__.py:16
 msgid "Coffeehouses"
-msgstr ""
+msgstr "Сладкарници"
 
 #: project/heatmap/__init__.py:31
 msgid "Density of coffeehouses"
+msgstr "Концентрация на сладкарници"
+
+#: project/hydrology/__init__.py:14 project/hydrology/__init__.py:129
+msgid "Calculations"
+msgstr ""
+
+#: project/hydrology/__init__.py:15 project/hydrology/__init__.py:140
+msgid "Elevation"
+msgstr ""
+
+#: project/hydrology/__init__.py:20
+msgid "Stream gaging stations"
+msgstr ""
+
+#: project/hydrology/__init__.py:26
+msgid "Watershed basins"
+msgstr ""
+
+#: project/hydrology/__init__.py:32
+msgid "Calculated channel network"
+msgstr ""
+
+#: project/hydrology/__init__.py:39
+msgid "Horizontal dissection"
+msgstr ""
+
+#: project/hydrology/__init__.py:50
+msgid "Elevation slope"
+msgstr ""
+
+#: project/hydrology/__init__.py:58
+msgid "Flow accumulation raster"
+msgstr ""
+
+#: project/hydrology/__init__.py:66
+msgid "Digital elevation model"
+msgstr ""
+
+#: project/hydrology/__init__.py:74
+msgid "Hillshade"
 msgstr ""
 
 #: project/osmdata/__init__.py:27 project/osmdata/__init__.py:190
 msgid "Points of interest"
-msgstr ""
+msgstr "Точки на интерес"
 
 #: project/osmdata/__init__.py:30 project/osmdata/__init__.py:200
 msgid "Transport"
-msgstr ""
+msgstr "Транспорт"
 
 #: project/osmdata/__init__.py:35
 msgid "Highways"
-msgstr ""
+msgstr "Пътища"
 
 #: project/osmdata/__init__.py:42
 msgid "Railways"
-msgstr ""
+msgstr "Железници"
 
 #: project/osmdata/__init__.py:49
 msgid "Airports"
-msgstr ""
+msgstr "Летища"
 
 #: project/osmdata/__init__.py:56
 msgid "Hydrography"
-msgstr ""
+msgstr "Водни обекти"
 
 #: project/osmdata/__init__.py:62
 msgid "Lakes, large rivers, wetlands"
-msgstr ""
+msgstr "Езера, големи реки, блата"
 
 #: project/osmdata/__init__.py:68
 msgid "Surfaces"
-msgstr ""
+msgstr "Повърхности"
 
 #: project/osmdata/__init__.py:74
 msgid "Islands"
-msgstr ""
+msgstr "Острови"
 
 #: project/osmdata/__init__.py:80
 msgid "Vegetation"
-msgstr ""
+msgstr "Растения"
 
 #: project/osmdata/__init__.py:86
 msgid "Land area"
-msgstr ""
+msgstr "Земя"
 
 #: project/osmdata/__init__.py:92
 msgid "Water surface"
-msgstr ""
+msgstr "Водна повърхност"
 
 #: project/osmdata/__init__.py:109
 msgid "Tourism"
-msgstr ""
+msgstr "Туризъм"
 
 #: project/osmdata/__init__.py:115
 msgid "Leisure"
-msgstr ""
+msgstr "Leisure"
 
 #: project/osmdata/__init__.py:121
 msgid "Sport"
-msgstr ""
+msgstr "Спорт"
 
 #: project/snowleo/__init__.py:12
 msgid "What was the animal doing"
-msgstr ""
+msgstr "Какво правеше животното"
 
 #: project/snowleo/__init__.py:13
 msgid "Author"
-msgstr ""
+msgstr "Автор"
 
 #: project/snowleo/__init__.py:14
 msgid "Species of animal"
-msgstr ""
+msgstr "Вид животно"
 
 #: project/snowleo/__init__.py:15
 msgid "Type of trace"
-msgstr ""
+msgstr "Тип следа"
 
 #: project/snowleo/__init__.py:16
 msgid "Encounters"
-msgstr ""
+msgstr "Срещи"
 
 #: project/snowleo/__init__.py:17
 msgid "Traces"
-msgstr ""
+msgstr "Следи"
 
 #: project/snowleo/__init__.py:18
 msgid "GPS tracks distance, m."
-msgstr ""
+msgstr "Дължина на GPS траковете, м."
 
 #: project/snowleo/__init__.py:19
 msgid "Events per km."
-msgstr ""
+msgstr "Събития на км."
 
 #: project/snowleo/__init__.py:28
 msgid "Inspector GPS tracks"
-msgstr ""
+msgstr "GPS такове на обиколките"
 
 #: project/snowleo/__init__.py:35
 msgid "Visual encounters"
-msgstr ""
+msgstr "Визуални срещи"
 
 #: project/snowleo/__init__.py:42
 msgid "Traces of vital activity"
-msgstr ""
+msgstr "Следи от активност"
 
 #: project/snowleo/__init__.py:49
 msgid "Grid analysis of encounters and traces"
-msgstr ""
+msgstr "Аналитична решетка на срещи и следи"
 
 #: project/snowleo/__init__.py:69
 msgid "Per kilometer of GPS tracks"
-msgstr ""
+msgstr "На 1 километър GPS тракове"
 
 #: project/snowleo/__init__.py:73
 msgid "Per grid cell"
-msgstr ""
+msgstr "На 1 клетка от решетката"

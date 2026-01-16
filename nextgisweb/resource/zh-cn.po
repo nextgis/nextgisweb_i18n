@@ -1,24 +1,24 @@
-#: api.py:417
+#: api.py:427
 msgid "Permission not found"
 msgstr "未找到权限"
 
-#: category.py:39
+#: category.py:38
 msgid "Layers and styles"
 msgstr ""
 
-#: category.py:44
+#: category.py:43
 msgid "Maps and services"
 msgstr ""
 
-#: category.py:49
+#: category.py:48
 msgid "Field data collection"
 msgstr ""
 
-#: category.py:54 scope.py:39
+#: category.py:53 scope.py:39
 msgid "External connections"
 msgstr ""
 
-#: category.py:59
+#: category.py:58
 msgid "Miscellaneous"
 msgstr ""
 
@@ -35,20 +35,20 @@ msgstr "未找到资源"
 msgid "Resource with id = %d was not found."
 msgstr "未找到带ID=%d的资源"
 
-#: exception.py:9
+#: exception.py:10
 msgid ""
 "The resource may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired resource."
 msgstr "该资源可能已被删除或地址上有一个错误。修改地址或回到主页，并试着借助导航找到所需的资源"
 
-#: exception.py:27
+#: exception.py:28
 #, python-brace-format
 msgid ""
 "Modification of the '{attribute}' attribute requires the '{permission}' "
 "permission."
 msgstr ""
 
-#: exception.py:33
+#: exception.py:34
 #, python-brace-format
 msgid "The '{attribute}' attribute is read-only and cannot be updated."
 msgstr ""
@@ -66,7 +66,7 @@ msgstr "资源显示的名称不是唯一的。"
 msgid "Resource with same display name already exists (id = %d)."
 msgstr "该资源的名称已存在（id = %d）"
 
-#: exception.py:47
+#: exception.py:48
 msgid ""
 "Within a single parent resource, each resource must have unique display name."
 " Give the resource a different display name or rename existing."
@@ -116,46 +116,46 @@ msgstr ""
 msgid "Favorites"
 msgstr ""
 
-#: home.py:23
+#: home.py:22
 msgid "User resources"
 msgstr ""
 
-#: model.py:99 nodepkg/editor-widget/EditorWidget.tsx:79 scope.py:12
+#: model.py:116 nodepkg/editor-widget/EditorWidget.tsx:79 scope.py:12
 msgid "Resource"
 msgstr "资源"
 
-#: model.py:286
+#: model.py:303
 msgid "Resource can not be a parent himself."
 msgstr "资源不能是父系资源本身。"
 
-#: model.py:299
+#: model.py:316
 msgid "Resource keyname is not unique."
 msgstr "资源密钥不是唯一的。"
 
-#: model.py:331
+#: model.py:348
 msgid "Default style"
 msgstr ""
 
-#: model.py:464
+#: model.py:466
 msgid "Resource can not be without a parent."
 msgstr "资源不能没有父系资源。"
 
-#: model.py:467
+#: model.py:469
 #, python-brace-format
 msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
-#: model.py:475
+#: model.py:477
 #, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "您不被允许使用id=%d管理资源的子项"
 
-#: model.py:487
+#: model.py:489
 #, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "资源不能为id=%d管理资源的子项。"
 
-#: model.py:562
+#: model.py:565
 #, python-brace-format
 msgid ""
 "Unable to revoke '{permission}' permission for '{user}' as the user belongs "
@@ -163,17 +163,17 @@ msgid ""
 "configure permissions of resources."
 msgstr ""
 
-#: model.py:661
+#: model.py:663
 msgid "Resource group"
 msgstr "资源组"
 
-#: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:30
+#: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:31
 #: nodepkg/editor-widget/EditorWidget.tsx:19
 #: nodepkg/resource-section/children/ResourceSectionChildren.tsx:80
 msgid "Display name"
 msgstr "显示名字"
 
-#: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:31
+#: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:32
 msgid "Select first eligible child resource"
 msgstr ""
 
@@ -193,24 +193,24 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#: nodepkg/component/resource-picker/pickToFocusTable.tsx:49
+#: nodepkg/component/resource-picker/pickToFocusTable.tsx:52
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:26
 msgid "Add"
 msgstr "添加"
 
-#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:29
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:30
 msgid "Pick this group"
 msgstr ""
 
-#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:30
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:31
 msgid "Pick selected"
 msgstr ""
 
-#: nodepkg/composite/CompositeStore.ts:211
+#: nodepkg/composite/CompositeStore.ts:249
 msgid "Errors found during data validation. Tabs with errors marked in red."
 msgstr "在验证数据时检测到错误。 有错误的选项卡标记为红色。"
 
-#: nodepkg/composite/CompositeStore.ts:212
+#: nodepkg/composite/CompositeStore.ts:250
 msgid "Validation error"
 msgstr "检测错误"
 
@@ -223,7 +223,7 @@ msgid "Create and edit"
 msgstr "创建和编辑"
 
 #: nodepkg/composite/CompositeWidget.tsx:29
-#: nodepkg/export-settings/ExportSettings.tsx:79
+#: nodepkg/export-settings/ExportSettings.tsx:85
 msgid "Save"
 msgstr "保存"
 
@@ -299,49 +299,49 @@ msgid "Parent"
 msgstr "父系"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:50
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:101 view.py:290
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:101 view.py:297
 msgid "Owner"
 msgstr "持有者"
 
-#: nodepkg/editor-widget/EditorWidget.tsx:64 view.py:284
+#: nodepkg/editor-widget/EditorWidget.tsx:64 view.py:289
 msgid "Keyname"
 msgstr "键名"
 
-#: nodepkg/effective-permissions/EffectivePermissions.tsx:15
+#: nodepkg/effective-permissions/EffectivePermissions.tsx:15 view.py:294
 msgid "No"
 msgstr "否"
 
-#: nodepkg/effective-permissions/EffectivePermissions.tsx:15
+#: nodepkg/effective-permissions/EffectivePermissions.tsx:15 view.py:294
 msgid "Yes"
 msgstr "是"
 
-#: nodepkg/export-settings/ExportSettings.tsx:35
+#: nodepkg/export-settings/ExportSettings.tsx:19
+msgid ""
+"* This will not affect REST API use which will continue to be governed by "
+"permissions."
+msgstr "*这不影响REST API的使用，REST API将继续受访问权限的监管。"
+
+#: nodepkg/export-settings/ExportSettings.tsx:40
 msgid "The setting is saved."
 msgstr ""
 
-#: nodepkg/export-settings/ExportSettings.tsx:56
+#: nodepkg/export-settings/ExportSettings.tsx:62
 msgid ""
 "Select the category of users who can use the \"Save as\" link to download "
 "resource data."
 msgstr "选择可使用\"另存为\"链接下载资源数据的用户类别。"
 
-#: nodepkg/export-settings/ExportSettings.tsx:66
+#: nodepkg/export-settings/ExportSettings.tsx:72
 msgid "Users with \"Data: Read\" permission"
 msgstr "具有\"数据：读取\"权限的用户"
 
-#: nodepkg/export-settings/ExportSettings.tsx:69
+#: nodepkg/export-settings/ExportSettings.tsx:75
 msgid "Users with \"Data: Modify\" permission"
 msgstr ""
 
-#: nodepkg/export-settings/ExportSettings.tsx:72
+#: nodepkg/export-settings/ExportSettings.tsx:78
 msgid "Administrators"
 msgstr "管理员"
-
-#: nodepkg/export-settings/ExportSettings.tsx:87
-msgid ""
-"* This will not affect REST API use which will continue to be governed by "
-"permissions."
-msgstr "*这不影响REST API的使用，REST API将继续受访问权限的监管。"
 
 #: nodepkg/favorite/FavoritePage.tsx:27
 #, python-brace-format
@@ -362,6 +362,22 @@ msgstr ""
 msgid "Removed from favorites"
 msgstr ""
 
+#: nodepkg/hook/useResourceNotify.ts:10
+msgid "Please confirm resource deletion. This action cannot be undone."
+msgstr ""
+
+#: nodepkg/hook/useResourceNotify.ts:18
+#, python-brace-format
+msgid "The resource has been deleted"
+msgid_plural "{} resources have been deleted"
+msgstr[0] ""
+
+#: nodepkg/hook/useResourceNotify.ts:27 nodepkg/hook/useResourceNotify.ts:44
+#, python-brace-format
+msgid "The resource has been moved"
+msgid_plural "{} resources have been moved"
+msgstr[0] ""
+
 #: nodepkg/permissions-widget/PermissionStoreItem.ts:14
 msgid "All fields are required"
 msgstr ""
@@ -370,7 +386,7 @@ msgstr ""
 msgid "Row conflicts with another"
 msgstr ""
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:21 view.py:436
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:21 view.py:443
 msgid "Action"
 msgstr "动作"
 
@@ -410,7 +426,7 @@ msgstr "全部权限"
 msgid "Permissions"
 msgstr "权限"
 
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:94 view.py:282
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:94 view.py:286
 msgid "Type"
 msgstr "类型"
 
@@ -418,65 +434,65 @@ msgstr "类型"
 msgid "Created"
 msgstr ""
 
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:128
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:127
 msgid "Volume"
 msgstr "数值"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:102
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:104
 msgid "Moving resources"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:148
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:157
 msgid "Deleting resources"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:173
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:183
 msgid "Turn off multiple selection"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:174
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:184
 msgid "Select multiple resources"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:184
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:194
 msgid "Hide resources volume"
 msgstr "隐藏资源量"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:185
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:195
 msgid "Show resources volume"
 msgstr "显示资源量"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:196
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:207
 msgid "Hide resource creation date"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:197
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:208
 msgid "Show resource creation date"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:211
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:222
 #: nodepkg/resource-section/children/util/createResourceTableItemOptions.ts:8
-#: view.py:466
+#: view.py:473
 msgid "Delete"
 msgstr "删除"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:220
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:231
 msgid "Not all of the selected can be deleted."
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:236
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:247
 msgid "Move"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:255
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:266
 msgid "Export vector layers"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/PreviewModal.tsx:48
+#: nodepkg/resource-section/children/component/PreviewLayerModal.tsx:37
 msgid "Close"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/PreviewModal.tsx:56
+#: nodepkg/resource-section/children/component/PreviewLayerModal.tsx:45
 msgid "Open in a new tab"
 msgstr ""
 
@@ -487,23 +503,6 @@ msgstr ""
 #: nodepkg/resource-section/children/util/forEachSelected.ts:7
 msgid "Operation in progress"
 msgstr ""
-
-#: nodepkg/resource-section/children/util/notify.ts:8
-msgid "Please confirm resource deletion. This action cannot be undone."
-msgstr ""
-
-#: nodepkg/resource-section/children/util/notify.ts:16
-#, python-brace-format
-msgid "The resource has been deleted"
-msgid_plural "{} resources have been deleted"
-msgstr[0] ""
-
-#: nodepkg/resource-section/children/util/notify.ts:25
-#: nodepkg/resource-section/children/util/notify.ts:42
-#, python-brace-format
-msgid "The resource has been moved"
-msgid_plural "{} resources have been moved"
-msgstr[0] ""
 
 #: nodepkg/resource-section/external-access/ResourceSectionExternalAccess.tsx:12
 msgid "Use these links to plug data into external applications."
@@ -517,8 +516,8 @@ msgstr ""
 msgid "External access"
 msgstr ""
 
-#: nodepkg/resource-section/main/CreateResourceButton.tsx:8
-#: nodepkg/resource-section/main/CreateResourceModal.tsx:20 view.py:192 view.py:435
+#: nodepkg/resource-section/main/CreateResourceButton.tsx:7
+#: nodepkg/resource-section/main/CreateResourceModal.tsx:20 view.py:192 view.py:442
 msgid "Create resource"
 msgstr "创建资源"
 
@@ -526,15 +525,15 @@ msgstr "创建资源"
 msgid "Search"
 msgstr ""
 
-#: nodepkg/resource-section/main/CreateResourceModal.tsx:49
+#: nodepkg/resource-section/main/CreateResourceModal.tsx:51
 msgid "Everything"
 msgstr ""
 
-#: nodepkg/resources-filter/ResourcesFilter.tsx:125
+#: nodepkg/resources-filter/ResourcesFilter.tsx:129
 msgid "Resources not found"
 msgstr "资源未找到"
 
-#: nodepkg/resources-filter/ResourcesFilter.tsx:130
+#: nodepkg/resources-filter/ResourcesFilter.tsx:134
 msgid "Search resources"
 msgstr "搜索资源"
 
@@ -611,11 +610,11 @@ msgctxt "permission"
 msgid "Configure service"
 msgstr ""
 
-#: view.py:134 view.py:475
+#: view.py:134 view.py:482
 msgid "JSON view"
 msgstr "JSON视图"
 
-#: view.py:145 view.py:482
+#: view.py:145 view.py:489
 msgid "User permissions"
 msgstr "用户权限"
 
@@ -627,19 +626,23 @@ msgstr "更新资源"
 msgid "Delete resource"
 msgstr "删除资源"
 
-#: view.py:225 view.py:495
+#: view.py:225 view.py:502
 msgid "Resource export"
 msgstr "资源报告"
 
-#: view.py:386
+#: view.py:284
+msgid "Resource ID"
+msgstr ""
+
+#: view.py:393
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "资源id=%d上的作用域\"%s\"中的\"%s\"权限不足。"
 
-#: view.py:437
+#: view.py:444
 msgid "Extra"
 msgstr "额外"
 
-#: view.py:452
+#: view.py:459
 msgid "Update"
 msgstr "更新"

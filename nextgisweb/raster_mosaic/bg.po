@@ -19,6 +19,7 @@ msgid "Only RGB and RGBA rasters are supported."
 msgstr "Само RGB и RGBA растери са поддържани."
 
 #: model.py:132
+#, python-format
 msgid ""
 "Raster has format '%(format)s', however only following formats are supported:"
 " %(all_formats)s."
@@ -35,8 +36,9 @@ msgid "Complex data types are not supported."
 msgstr "Комплексните типове данни не се поддържат."
 
 #: nodepkg/resource-widget/Store.ts:73
+#, python-brace-format
 msgid "File '{}' has an invalid extension."
-msgstr ""
+msgstr "Файлът '{}' има невалидно разширение."
 
 #: nodepkg/resource-widget/Widget.tsx:43
 msgid "Upload"
@@ -44,4 +46,4 @@ msgstr "Прикачи"
 
 #: nodepkg/resource-widget/Widget.tsx:64
 msgid "Rasters"
-msgstr ""
+msgstr "Растри"

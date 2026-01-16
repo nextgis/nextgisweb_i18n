@@ -4,29 +4,31 @@ msgstr "Базова карта"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:17
 msgid "Pick from QMS"
-msgstr ""
+msgstr "Избери от QMS"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:19
 msgid "Search for geoservices provided by "
-msgstr ""
+msgstr "Търсене на услуги от "
 
 #: nodepkg/layer-widget/LayerWidget.tsx:20
 msgid "You can search by name or ID"
-msgstr ""
+msgstr "Търсене по име или ID"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:24
 msgid "If a service from QMS is selected, this field cannot be edited."
-msgstr ""
+msgstr "Ако е избрана услуга от QMS, полето не може да се редактира."
 
 #: nodepkg/layer-widget/LayerWidget.tsx:25
 msgid ""
 "Above this zoom level, no new tiles are fetched but tiles from the nearest "
 "allowed zoom are displayed and upscaled."
 msgstr ""
+"Над това ниво на приближаване плочките не се запитват, но се отобразяват "
+"увеличените плочки от най-близкото разрешено ниво."
 
 #: nodepkg/layer-widget/LayerWidget.tsx:26
 msgid "Below this zoom level, the layer is hidden and no new tiles are fetched."
-msgstr ""
+msgstr "Под това ниво на приближаване слоят е скрит и плочките не се запитват."
 
 #: nodepkg/layer-widget/LayerWidget.tsx:101
 msgid "URL"
@@ -42,15 +44,15 @@ msgstr "Линк към копирайта"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:123
 msgid "Min zoom level"
-msgstr ""
+msgstr "Минимално приближаване"
 
 #: nodepkg/layer-widget/LayerWidget.tsx:135
 msgid "Max zoom level"
-msgstr ""
+msgstr "Максимално приближаване"
 
 #: nodepkg/plugin/base-map/BaseMap.ts:59
 msgid "No basemap"
-msgstr ""
+msgstr "Без базова карта"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:24
 msgid "Display name"
@@ -58,7 +60,7 @@ msgstr "Показвано име"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:31
 msgid "Default basemap"
-msgstr ""
+msgstr "Базова карта по подразбиране"
 
 #: nodepkg/webmap-widget/WebMapWidget.tsx:34
 msgid "Opacity"

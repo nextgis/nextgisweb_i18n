@@ -16,12 +16,12 @@ msgstr "3D модел"
 #: interface.py:17
 #, server
 msgid "Sphere"
-msgstr ""
+msgstr "Сфера"
 
 #: interface.py:18
 #, server
 msgid "Ellipsoid"
-msgstr ""
+msgstr "Елипсоид"
 
 #: interface.py:29
 #, server
@@ -41,7 +41,7 @@ msgstr "Тип стил"
 #: nodepkg/style-3d-widget/Style3d.tsx:143
 #, jsrealm
 msgid "POI icon"
-msgstr ""
+msgstr "Знак на POI"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:154
 #, jsrealm
@@ -99,19 +99,19 @@ msgstr "Въртене, град."
 #: nodepkg/style-3d-widget/Style3d.tsx:312
 #, jsrealm
 msgid "Radius"
-msgstr ""
+msgstr "Радиус"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:358
 #, jsrealm
 msgid "Length"
-msgstr ""
+msgstr "Дължина"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:369
 #, jsrealm
 msgid "Width"
-msgstr ""
+msgstr "Ширина"
 
 #: nodepkg/style-3d-widget/Style3d.tsx:393
 #, jsrealm
 msgid "Z offset"
-msgstr ""
+msgstr "Отклонение Z"

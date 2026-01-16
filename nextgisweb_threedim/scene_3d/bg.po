@@ -11,7 +11,7 @@ msgstr "Показвано име"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
 msgid "Default basemap"
-msgstr ""
+msgstr "Базова карта по подразбиране"
 
 #: nodepkg/basemaps-widget/BasemapsWidget.tsx:64
 msgid "Opacity"
@@ -29,7 +29,7 @@ msgstr "Базови карти"
 
 #: nodepkg/items-widget/Item.ts:104
 msgid "Group members have errors"
-msgstr ""
+msgstr "Грешка на членуване в групата"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:26
 msgid "Visible"
@@ -49,11 +49,11 @@ msgstr "Слой за класификация"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:33
 msgid "Layer"
-msgstr ""
+msgstr "Слой"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:34
 msgid "Group"
-msgstr ""
+msgstr "Група"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:185
 msgid "Items"
@@ -117,7 +117,7 @@ msgstr "Обхват"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:31
 msgid "Default terrain"
-msgstr ""
+msgstr "Релеф по подразбиране"
 
 #: nodepkg/terrains-widget/TerrainsWidget.tsx:95
 msgid "Terrain"

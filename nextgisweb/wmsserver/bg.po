@@ -29,6 +29,9 @@ msgid ""
 " images are generated on demand, allowing flexible styling and query "
 "capabilities."
 msgstr ""
+"Web Map Service (WMS)  е стандартен протокол от OGC (Open Geospatial "
+"Consortium), който позволява на потребителите да заявят и получат "
+"гео-привързани изображения (карти) от сървъри по интернет."
 
 #: view.py:38
 msgid ""
@@ -37,7 +40,11 @@ msgid ""
 "retrieved from a server in fixed sizes and zoom levels, enabling fast and "
 "efficient display of maps."
 msgstr ""
+"Web Map Tile Service (WMTS) е стандарт на  OGC (Open Geospatial Consortium) "
+"за разпространение на дигитални карти онлайн, който работи с предварително "
+"заредени, кеширани малки плочки (tiles) с фиксирани размери и нива на "
+"приближаване, което го прави много бърз и ефективен."
 
 #: view.py:46 view.py:62
 msgid "WMTS service"
-msgstr ""
+msgstr "WMTS услуга"

@@ -60,51 +60,71 @@ msgstr "Nie ustawiono"
 msgid "Save"
 msgstr "Zapisz"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:55
+#: nodepkg/component/expandable-text/ExpandableText.tsx:22
+msgid "Less"
+msgstr ""
+
+#: nodepkg/component/expandable-text/ExpandableText.tsx:22
+msgid "More"
+msgstr ""
+
+#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:154
+msgid "Close"
+msgstr ""
+
+#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:163
+msgid "Apply"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:62
 msgid "Left"
 msgstr "Lewa"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:56
+#: nodepkg/component/extent-row/ExtentRow.tsx:63
 msgid "Bottom"
 msgstr "Dół"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:57
+#: nodepkg/component/extent-row/ExtentRow.tsx:64
 msgid "Right"
 msgstr "Prawa"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:58
+#: nodepkg/component/extent-row/ExtentRow.tsx:65
 msgid "Top"
 msgstr "Góra"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:61
+#: nodepkg/component/extent-row/ExtentRow.tsx:68
 msgid "West"
 msgstr "Zachód"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:62
+#: nodepkg/component/extent-row/ExtentRow.tsx:69
 msgid "South"
 msgstr "Południe"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:63
+#: nodepkg/component/extent-row/ExtentRow.tsx:70
 msgid "East"
 msgstr "Wschód"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:64
+#: nodepkg/component/extent-row/ExtentRow.tsx:71
 msgid "North"
 msgstr "Północ"
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:121
-msgid "From layer"
-msgstr "Z warstwy"
+#: nodepkg/component/extent-row/ExtentRow.tsx:137
+msgid "From layers"
+msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:124
+#: nodepkg/component/extent-row/ExtentRow.tsx:162
+msgid "Edit on map"
+msgstr ""
+
+#: nodepkg/component/extent-row/ExtentRow.tsx:167
 msgid "Clean"
 msgstr "Wyczyść"
 
-#: nodepkg/component/language-select/LanguageSelect.tsx:15
+#: nodepkg/component/language-select/LanguageSelect.tsx:14
 msgid "Improve or add new translation"
 msgstr "Popraw lub dodaj nowe tłumaczenie"
 
-#: nodepkg/component/language-select/LanguageSelect.tsx:31
+#: nodepkg/component/language-select/LanguageSelect.tsx:17
 msgid "Browser default"
 msgstr "Przeglądarka domyślna"
 
@@ -125,8 +145,8 @@ msgid "Clone"
 msgstr "Klonuj"
 
 #: nodepkg/edi-table/RowAction.tsx:79 nodepkg/focus-table/action.tsx:27
-#: nodepkg/hook/useConfirm.tsx:52 nodepkg/model-browse/ModelBrowse.tsx:264
-#: nodepkg/model-browse/ModelBrowse.tsx:334 nodepkg/model-form/ModelForm.tsx:47
+#: nodepkg/hook/useConfirm.tsx:54 nodepkg/model-browse/ModelBrowse.tsx:265
+#: nodepkg/model-browse/ModelBrowse.tsx:335 nodepkg/model-form/ModelForm.tsx:47
 msgid "Delete"
 msgstr "Usuń"
 
@@ -178,51 +198,51 @@ msgstr "Wymagane potwierdzenie"
 msgid "Please confirm this action."
 msgstr "Proszę potwierdzić tę operację."
 
-#: nodepkg/hook/useConfirm.tsx:51
+#: nodepkg/hook/useConfirm.tsx:53
 msgid "Please confirm the deletion."
 msgstr "Proszę potwierdzić usunięcie."
 
-#: nodepkg/hook/useConfirm.tsx:53
+#: nodepkg/hook/useConfirm.tsx:55
 msgid "Failed to delete."
 msgstr "Nie udało się usunąć."
 
-#: nodepkg/model-browse/ModelBrowse.tsx:122 nodepkg/model-form/ModelForm.tsx:69
+#: nodepkg/model-browse/ModelBrowse.tsx:123 nodepkg/model-form/ModelForm.tsx:69
 msgid "Confirmation"
 msgstr "Potwierdzenie"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:123
+#: nodepkg/model-browse/ModelBrowse.tsx:124
 msgid "Item deleted"
 msgstr "Element usunięty"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:125
+#: nodepkg/model-browse/ModelBrowse.tsx:126
 msgid "Items deleted"
 msgstr "Elementy usunięte"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:193
+#: nodepkg/model-browse/ModelBrowse.tsx:194
 msgid "The errors occurred during execution"
 msgstr "Wystąpiły błędy podczas wykonywania"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:197
+#: nodepkg/model-browse/ModelBrowse.tsx:198
 msgid "Failed to delete items:"
 msgstr "Nie udało się usunąć elementów:"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:220
+#: nodepkg/model-browse/ModelBrowse.tsx:221
 msgid "Do you want to delete these items?"
 msgstr "Czy chcesz usunąć te elementy?"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:254
+#: nodepkg/model-browse/ModelBrowse.tsx:255
 msgid "Edit"
 msgstr "Edycja"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:254
+#: nodepkg/model-browse/ModelBrowse.tsx:255
 msgid "View"
 msgstr "Widok"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:287
+#: nodepkg/model-browse/ModelBrowse.tsx:288
 msgid "Search"
 msgstr "Szukaj"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:311 nodepkg/model-form/ModelForm.tsx:45
+#: nodepkg/model-browse/ModelBrowse.tsx:312 nodepkg/model-form/ModelForm.tsx:45
 msgid "Create"
 msgstr "Stwórz"
 
@@ -230,7 +250,7 @@ msgstr "Stwórz"
 msgid "Fix the form errors first"
 msgstr "Najpierw popraw błędy w formularzu"
 
-#: nodepkg/model-logo-form/ModelLogoForm.tsx:27
+#: nodepkg/model-logo-form/ModelLogoForm.tsx:28
 msgid "Logo saved. Reload the page to get them applied."
 msgstr "Logo zapisane. Odśwież stronę, aby je zastosować."
 

@@ -1,10 +1,18 @@
-#: api.py:62 api.py:96
+#: api.py:82 api.py:156
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
 msgstr ""
 "Desafortunadamente, no puede agregar un nuevo participante. Su límite de "
 "participantes en Web GIS es"
+
+#: api.py:114
+msgid "User with email '{}' already exists. Email addresses are case-insensitive."
+msgstr ""
+
+#: api.py:164
+msgid "User with email '{}' already exists."
+msgstr ""
 
 #: models/model_db.py:103
 msgid "Collector project"
@@ -32,19 +40,19 @@ msgstr "No puede agregar un nuevo participante. Tu límite de participantes"
 msgid "The value entered is not valid"
 msgstr "El valor introducido no es válido"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
 msgid "Collector users:"
 msgstr "Los participantes:"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
 msgid "out of"
 msgstr "fuera de"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:26
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
 msgid "Each collector must have "
 msgstr "Cada participante debe tener "
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:27
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
 msgid "NextGIS ID account"
 msgstr "Cuenta de NextGIS ID"
 
@@ -93,75 +101,79 @@ msgid "Max zoom"
 msgstr "Zoom máximo"
 
 #: nodepkg/resource-items/ItemsWidget.tsx:36
-msgid "Layer"
+msgid "Item"
 msgstr ""
 
 #: nodepkg/resource-items/ItemsWidget.tsx:37
+msgid "Form, layer or style"
+msgstr ""
+
+#: nodepkg/resource-items/ItemsWidget.tsx:38
 msgid "Group"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:265
+#: nodepkg/resource-items/ItemsWidget.tsx:266
 msgid "Items"
 msgstr "Elementos"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:14
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
 msgid "Initial extent"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:16
 msgid "Project will start at this extent"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:17
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:18
 msgid "Starting screen"
 msgstr "Pantalla de inicio"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:19
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:20
 msgid "The starting screen in the NextGIS Collector mobile app"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:22
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:23
 msgid "Username"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:24
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:25
 msgid ""
 "Web GIS user name with necessary permissions to access data used in the "
 "project. This user is not related to accounts of actual data collectors."
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:29
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
 msgid "Password"
 msgstr "Contraseña"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:31
 msgid "Password for the Web GIS user"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:32
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:33
 #: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:209
 msgid "Mobile project setup configuration"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:34
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:35
 msgid ""
 "Automate project delivery to multiple mobile GIS with this setup. Recommended"
 " for advanced users only."
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:39
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:40
 msgid "Edit config"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:100
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:105
 msgid "Project"
 msgstr "Proyecto"
 
-#: nodepkg/resource-project/CollectorTypeSelect.tsx:20
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:17
 msgid "List of forms"
 msgstr "Lista de formularios"
 
-#: nodepkg/resource-project/CollectorTypeSelect.tsx:24
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:21
 msgid "Map"
 msgstr "Mapa"
 
@@ -213,18 +225,18 @@ msgstr "Collector"
 msgid "Read"
 msgstr "Leer"
 
-#: view.py:58
+#: view.py:62
 msgid "List of collectors"
 msgstr "Lista de participantes"
 
-#: view.py:70
+#: view.py:74
 msgid "Create new collector"
 msgstr "Crear nuevo participante"
 
-#: view.py:77
+#: view.py:81
 msgid "Edit collector"
 msgstr "Editar participante"
 
-#: view.py:101
+#: view.py:128
 msgid "Collector projects"
 msgstr "Proyectos de Collector"

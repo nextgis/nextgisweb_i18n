@@ -21,7 +21,7 @@ msgstr "Необходимо е име на слоя."
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:32
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:44
 msgid "Custom"
@@ -57,7 +57,7 @@ msgstr "Пропусни проверката на SSL/TLS сертификат"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:36
 msgid "This connection based on NextGIS Geoservices"
-msgstr ""
+msgstr "Връзката е базирана върху NextGIS GeoServices"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:149
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:160
@@ -70,24 +70,24 @@ msgstr "Минимално приближаване"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:176
 msgid "Max zoom level"
-msgstr "Максимално увеличаване"
+msgstr "Максимално приближаване"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:184
 msgid "Tile size"
-msgstr ""
+msgstr "Размер на плочките"
 
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:194
 msgid "Extent"
-msgstr ""
+msgstr "Обхват"
 
 #: tile_fetcher.py:37
 msgid "The remote server did not respond in time."
-msgstr ""
+msgstr "Отдалеченият сървър не отговори навреме."
 
 #: tile_fetcher.py:84
 msgid "Unable to get a response from the remote server."
-msgstr ""
+msgstr "Не е получен отговор от отдалечения сървър."
 
 #: tile_fetcher.py:94
 msgid "An unexpected HTTP status code was received from the remote server."
-msgstr ""
+msgstr "Неочакван код на HTTP статус е получен от отдалечения сървър."
