@@ -7,16 +7,14 @@ msgstr ""
 "брой участници в Уеб GIS е"
 
 #: api.py:114
-#, python-brace-format
 msgid "User with email '{}' already exists. Email addresses are case-insensitive."
 msgstr ""
 
 #: api.py:164
-#, python-brace-format
 msgid "User with email '{}' already exists."
 msgstr ""
 
-#: models/model_db.py:103
+#: models/model_db.py:100
 msgid "Collector project"
 msgstr "Проект Collector"
 
@@ -227,14 +225,6 @@ msgstr "Премахване на участника?"
 #: nodepkg/userMessages.ts:6
 msgid "Collector deleted"
 msgstr "Участникът е премахнат"
-
-#: scope.py:9
-msgid "Collector"
-msgstr "Collector"
-
-#: scope.py:11
-msgid "Read"
-msgstr "Прочети"
 
 #: view.py:62
 msgid "List of collectors"

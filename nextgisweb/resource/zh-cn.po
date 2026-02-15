@@ -2,6 +2,32 @@
 msgid "Permission not found"
 msgstr "未找到权限"
 
+#: attr/resource.py:105
+msgid "Resource ID"
+msgstr ""
+
+#: attr/resource.py:107
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:141
+msgid "Type"
+msgstr "类型"
+
+#: attr/resource.py:110 nodepkg/editor-widget/EditorWidget.tsx:64
+msgid "Keyname"
+msgstr "键名"
+
+#: attr/resource.py:115 nodepkg/effective-permissions/EffectivePermissions.tsx:15
+msgid "Yes"
+msgstr "是"
+
+#: attr/resource.py:115 nodepkg/effective-permissions/EffectivePermissions.tsx:15
+msgid "No"
+msgstr "否"
+
+#: attr/resource.py:118 nodepkg/editor-widget/EditorWidget.tsx:50
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:148
+msgid "Owner"
+msgstr "持有者"
+
 #: category.py:38
 msgid "Layers and styles"
 msgstr ""
@@ -169,7 +195,7 @@ msgstr "资源组"
 
 #: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:31
 #: nodepkg/editor-widget/EditorWidget.tsx:19
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:80
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:127
 msgid "Display name"
 msgstr "显示名字"
 
@@ -298,23 +324,6 @@ msgstr ""
 msgid "Parent"
 msgstr "父系"
 
-#: nodepkg/editor-widget/EditorWidget.tsx:50
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:101 view.py:297
-msgid "Owner"
-msgstr "持有者"
-
-#: nodepkg/editor-widget/EditorWidget.tsx:64 view.py:289
-msgid "Keyname"
-msgstr "键名"
-
-#: nodepkg/effective-permissions/EffectivePermissions.tsx:15 view.py:294
-msgid "No"
-msgstr "否"
-
-#: nodepkg/effective-permissions/EffectivePermissions.tsx:15 view.py:294
-msgid "Yes"
-msgstr "是"
-
 #: nodepkg/export-settings/ExportSettings.tsx:19
 msgid ""
 "* This will not affect REST API use which will continue to be governed by "
@@ -386,7 +395,7 @@ msgstr ""
 msgid "Row conflicts with another"
 msgstr ""
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:21 view.py:443
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:21 view.py:333
 msgid "Action"
 msgstr "动作"
 
@@ -426,79 +435,66 @@ msgstr "全部权限"
 msgid "Permissions"
 msgstr "权限"
 
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:94 view.py:286
-msgid "Type"
-msgstr "类型"
-
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:109
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:156
 msgid "Created"
 msgstr ""
 
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:127
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:174
 msgid "Volume"
 msgstr "数值"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:104
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:103
 msgid "Moving resources"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:157
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:164
 msgid "Deleting resources"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:183
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:190
 msgid "Turn off multiple selection"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:184
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:191
 msgid "Select multiple resources"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:194
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:201
 msgid "Hide resources volume"
 msgstr "隐藏资源量"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:195
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:202
 msgid "Show resources volume"
 msgstr "显示资源量"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:207
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:214
 msgid "Hide resource creation date"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:208
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:215
 msgid "Show resource creation date"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:222
-#: nodepkg/resource-section/children/util/createResourceTableItemOptions.ts:8
-#: view.py:473
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:229
+#: nodepkg/resource-section/children/resource-action-plugin.tsx:15 view.py:363
 msgid "Delete"
 msgstr "删除"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:231
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:238
 msgid "Not all of the selected can be deleted."
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:247
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:254
 msgid "Move"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:266
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:273
 msgid "Export vector layers"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/PreviewLayerModal.tsx:37
-msgid "Close"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/PreviewLayerModal.tsx:45
-msgid "Open in a new tab"
-msgstr ""
-
-#: nodepkg/resource-section/children/util/createResourceTableItemOptions.ts:7
-msgid "Change"
-msgstr ""
+#: nodepkg/resource-section/children/resource-action-plugin.tsx:25 view.py:349
+msgid "Update"
+msgstr "更新"
 
 #: nodepkg/resource-section/children/util/forEachSelected.ts:7
 msgid "Operation in progress"
@@ -517,7 +513,7 @@ msgid "External access"
 msgstr ""
 
 #: nodepkg/resource-section/main/CreateResourceButton.tsx:7
-#: nodepkg/resource-section/main/CreateResourceModal.tsx:20 view.py:192 view.py:442
+#: nodepkg/resource-section/main/CreateResourceModal.tsx:20 view.py:190 view.py:332
 msgid "Create resource"
 msgstr "创建资源"
 
@@ -610,39 +606,31 @@ msgctxt "permission"
 msgid "Configure service"
 msgstr ""
 
-#: view.py:134 view.py:482
+#: view.py:132 view.py:372
 msgid "JSON view"
 msgstr "JSON视图"
 
-#: view.py:145 view.py:489
+#: view.py:143 view.py:379
 msgid "User permissions"
 msgstr "用户权限"
 
-#: view.py:204
+#: view.py:202
 msgid "Update resource"
 msgstr "更新资源"
 
-#: view.py:215
+#: view.py:213
 msgid "Delete resource"
 msgstr "删除资源"
 
-#: view.py:225 view.py:502
+#: view.py:223 view.py:392
 msgid "Resource export"
 msgstr "资源报告"
 
-#: view.py:284
-msgid "Resource ID"
-msgstr ""
-
-#: view.py:393
+#: view.py:283
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "资源id=%d上的作用域\"%s\"中的\"%s\"权限不足。"
 
-#: view.py:444
+#: view.py:334
 msgid "Extra"
 msgstr "额外"
-
-#: view.py:459
-msgid "Update"
-msgstr "更新"

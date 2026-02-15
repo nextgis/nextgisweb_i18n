@@ -10,7 +10,7 @@ msgstr "Изображение"
 msgid "Main web map"
 msgstr "Основна уеб карта"
 
-#: favorite.py:6 view.py:230
+#: favorite.py:6 nodepkg/display/resource-action-plugin.tsx:10 view.py:230
 msgid "Display"
 msgstr "Показване"
 
@@ -165,6 +165,7 @@ msgid "Enabled"
 msgstr "Включен"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:34
+#: nodepkg/plugin/layer-identifiable/LayerIdentifiablePlugin.tsx:19
 msgid "Identifiable"
 msgstr "Определим"
 
@@ -231,7 +232,12 @@ msgstr "Публични анотации"
 msgid "My private annotation"
 msgstr "Мои лични скрити анотации"
 
-#: nodepkg/layers-tree/LayerTreeItemTitle.tsx:16
+#: nodepkg/layers-tree/FilterAction.tsx:12
+#: nodepkg/plugin/layer-filter/LayerFilterPlugin.tsx:28
+msgid "Filter"
+msgstr ""
+
+#: nodepkg/layers-tree/LayerTreeItemTitle.tsx:17
 msgid ""
 "This layer is not visible at the current map scale. Zoom to make the layer "
 "visible."
@@ -497,11 +503,10 @@ msgid "Zoom to feature"
 msgstr "Приближи се до обекта"
 
 #: nodepkg/panel/identify/component/RasterInfoSection.tsx:14
-#, python-brace-format
 msgid "Band {}"
 msgstr "Канал {}"
 
-#: nodepkg/panel/identify/component/RasterInfoSection.tsx:27
+#: nodepkg/panel/identify/component/RasterInfoSection.tsx:29
 msgid "Raster"
 msgstr "Растер"
 
@@ -587,7 +592,7 @@ msgstr "Мащабно значение"
 msgid "Scale bar"
 msgstr "Мащабна скала"
 
-#: nodepkg/panel/print/component/ScalesSelect.tsx:67
+#: nodepkg/panel/print/component/ScalesSelect.tsx:68
 msgid "Custom scale"
 msgstr "Потребитески мащаб"
 
@@ -627,11 +632,11 @@ msgstr "Принтирай картата"
 msgid "Enter at least 2 characters"
 msgstr "Въведете най-малко 2 символа"
 
-#: nodepkg/panel/search/SearchPanel.tsx:463
+#: nodepkg/panel/search/SearchPanel.tsx:462
 msgid "Not found"
 msgstr "Не е открито"
 
-#: nodepkg/panel/search/SearchPanel.tsx:468
+#: nodepkg/panel/search/SearchPanel.tsx:466
 msgid "Refine search criterion. Displayed first 100 search results."
 msgstr "Уточнете условията на търсене. Показани са първите 100 резултата."
 
@@ -757,7 +762,6 @@ msgid "Enable snapping"
 msgstr "Включи прилепване"
 
 #: nodepkg/plugin/layer-editor/ToolEditor.tsx:180
-#, python-brace-format
 msgid "Stop editing layer: {layer}"
 msgstr "Завърши редактиране на слоя: {layer}"
 
@@ -1126,11 +1130,11 @@ msgstr "Мултиполигон"
 msgid "GeometryCollection"
 msgstr "GeometryCollection"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:25
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:26
 msgid "Go to"
 msgstr "Премини към"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:152
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:156
 msgid "Selected feature has no geometry"
 msgstr "Избраният обект няма геометрия"
 
@@ -1163,12 +1167,10 @@ msgid "Miscellaneous"
 msgstr "Друго"
 
 #: template/invalid_origin.mako:3
-#, python-format
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
 msgstr "Вграждане на уеб карта не е разрешено за %s в настройките на Уеб GIS."
 
 #: template/invalid_origin.mako:5
-#, python-format
 msgid "View the map on %s"
 msgstr "Преглед на картата в %s"
 

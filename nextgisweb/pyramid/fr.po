@@ -496,7 +496,7 @@ msgstr "Test de compatibilité du navigateur"
 #: template/uacompat.mako:22
 #, python-format
 msgid "%(name)s %(current)s supported"
-msgstr "%(name)s %(currentl)s pris en charge"
+msgstr "%(name)s %(current)s pris en charge"
 
 #: template/uacompat.mako:23
 msgid ""

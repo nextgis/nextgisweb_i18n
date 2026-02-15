@@ -82,7 +82,7 @@ msgstr "Не е възможно да се възстнови обектът #{}
 msgid "Feature table"
 msgstr "Таблица на обекти"
 
-#: filter.py:33
+#: filter.py:32
 msgid "Invalid filter expression"
 msgstr ""
 
@@ -107,68 +107,68 @@ msgstr "Векторният слой няма атрибути"
 msgid "Attributes"
 msgstr "Атрибути"
 
-#: nodepkg/export-form/ExportForm.tsx:251
+#: nodepkg/export-form/ExportForm.tsx:253
 msgid "Resources"
 msgstr "Ресурси"
 
-#: nodepkg/export-form/ExportForm.tsx:273
+#: nodepkg/export-form/ExportForm.tsx:275
 msgid "Format"
 msgstr "Формат"
 
-#: nodepkg/export-form/ExportForm.tsx:286
+#: nodepkg/export-form/ExportForm.tsx:288
 msgid "SRS"
 msgstr "Координатна система"
 
-#: nodepkg/export-form/ExportForm.tsx:291
+#: nodepkg/export-form/ExportForm.tsx:293
 msgid "Encoding"
 msgstr "Кодировка"
 
-#: nodepkg/export-form/ExportForm.tsx:305
+#: nodepkg/export-form/ExportForm.tsx:307
 msgid "FID field"
 msgstr "FID поле"
 
-#: nodepkg/export-form/ExportForm.tsx:309
+#: nodepkg/export-form/ExportForm.tsx:311
 msgid "Use field display names instead of keynames"
 msgstr "Използвай показваните имена на полета вместо ключови"
 
-#: nodepkg/export-form/ExportForm.tsx:315
+#: nodepkg/export-form/ExportForm.tsx:317
 #: nodepkg/fields-widget/FieldsWidget.tsx:213
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:51
 msgid "Fields"
 msgstr "Полета"
 
-#: nodepkg/export-form/ExportForm.tsx:321
+#: nodepkg/export-form/ExportForm.tsx:323
 msgid "Limit by extent"
 msgstr "Ограничителен обхват"
 
-#: nodepkg/export-form/ExportForm.tsx:327
+#: nodepkg/export-form/ExportForm.tsx:329
 msgid "Filter text"
 msgstr "Текстов филтър"
 
-#: nodepkg/export-form/ExportForm.tsx:337
+#: nodepkg/export-form/ExportForm.tsx:339
 msgid "Filter Applied"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:338
+#: nodepkg/export-form/ExportForm.tsx:340
 msgid "Set Filter"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:341
+#: nodepkg/export-form/ExportForm.tsx:343
 msgid "Filter"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:346
+#: nodepkg/export-form/ExportForm.tsx:348
 msgid "Zip archive"
 msgstr "Zip архив"
 
-#: nodepkg/export-form/ExportForm.tsx:402
+#: nodepkg/export-form/ExportForm.tsx:404
 #: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
-#: nodepkg/versioning-settings/VersioningForm.tsx:45
+#: nodepkg/versioning-settings/VersioningSettings.tsx:73
 msgid "Save"
 msgstr "Запази"
 
 #: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:24
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:28
 msgid "Cancel"
 msgstr "Откажи"
 
@@ -200,193 +200,120 @@ msgstr "Обектът е запазен"
 msgid "No changes to save"
 msgstr "Няма промени за запазване"
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:21
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:25
 msgid "Constructor"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:22
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:26
 msgid "JSON"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:23
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:27
 msgid "Apply"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:25
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:29
 msgid "Clear"
 msgstr "Очисти"
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:57
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:63
 msgid "Filter is invalid. Please fix errors before applying."
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:68
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:75
 msgid "Filter applied successfully"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:70
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:77
 msgid "Failed to apply filter"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:104
+#: nodepkg/feature-filter/FilterEditorStore.ts:97
 msgid "Failed to generate JSON from filter state:"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:122
+#: nodepkg/feature-filter/FilterEditorStore.ts:118
 msgid "Failed to parse JSON, falling back to JSON tab."
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:233
+#: nodepkg/feature-filter/FilterEditorStore.ts:234
 msgid "Cannot delete the root group."
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:333
+#: nodepkg/feature-filter/FilterEditorStore.ts:338
 msgid "Failed to parse filter expression:"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:339
+#: nodepkg/feature-filter/FilterEditorStore.ts:344
 msgid "Invalid filter value"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:353
-#: nodepkg/feature-filter/FilterEditorStore.ts:377
+#: nodepkg/feature-filter/FilterEditorStore.ts:358
+#: nodepkg/feature-filter/FilterEditorStore.ts:382
 msgid "Invalid JSON or filter structure"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:760
+#: nodepkg/feature-filter/FilterEditorStore.ts:640
 msgid "Validation failed"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:767
-msgid "Expression must be an array"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:779
-msgid "Group operator must have at least one argument"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:785
-msgid "All arguments to group operator must be arrays"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:801
-#, python-brace-format
-msgid "Unknown or invalid root operator: '{operator}'"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:818
-#, python-brace-format
-msgid "Field '{fieldName}' expects a string for {fieldType}, but got '{valueType}'"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:836
-#, python-brace-format
-msgid ""
-"Field '{fieldName}' expects {fieldType} format '{expectedFormat}', but got "
-"'{value}'"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:853
-#, python-brace-format
-msgid "Invalid operator: '{operator}'"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:860
-#: nodepkg/feature-filter/FilterEditorStore.ts:868
-#, python-brace-format
-msgid "Operator '{operator}' expects 1 argument, but got '{length}'"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:877
-msgid "Field expression must be ['get', fieldName]"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:882
-msgid "Field name must be a string"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:889
-#, python-brace-format
-msgid "Unknown field: '{fieldName}'"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:900
-#, python-brace-format
-msgid "Operator '{operator}' is not supported for field type '{fieldType}'"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:909
-#, python-brace-format
-msgid "Value for operator '{operator}' must be an array."
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:933
-#, python-brace-format
-msgid "Field '{fieldName}' expects a number, but got '{valueType}'"
-msgstr ""
-
-#: nodepkg/feature-filter/FilterEditorStore.ts:940
-#, python-brace-format
-msgid "Field '{fieldName}' expects a string, but got '{valueType}'"
-msgstr ""
-
-#: nodepkg/feature-filter/component/FilterCondition.tsx:39
+#: nodepkg/feature-filter/component/FilterCondition.tsx:42
 msgid "Delete Condition"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:57
+#: nodepkg/feature-filter/component/FilterCondition.tsx:60
 msgid "Any value"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:58
+#: nodepkg/feature-filter/component/FilterCondition.tsx:61
 msgid "No value"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:186
+#: nodepkg/feature-filter/component/FilterCondition.tsx:189
 msgid "Invalid field"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:187
+#: nodepkg/feature-filter/component/FilterCondition.tsx:190
 msgid "Field not found"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:226
+#: nodepkg/feature-filter/component/FilterCondition.tsx:229
 msgid "Enter values and press Enter"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:240
+#: nodepkg/feature-filter/component/FilterCondition.tsx:243
 msgid "Enter integer"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:253
+#: nodepkg/feature-filter/component/FilterCondition.tsx:256
 msgid "Enter big integer"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:267
+#: nodepkg/feature-filter/component/FilterCondition.tsx:270
 msgid "Enter number"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:280
+#: nodepkg/feature-filter/component/FilterCondition.tsx:283
 msgid "Select date"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:293
+#: nodepkg/feature-filter/component/FilterCondition.tsx:296
 msgid "Select time"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:306
+#: nodepkg/feature-filter/component/FilterCondition.tsx:309
 msgid "Select date and time"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:319
+#: nodepkg/feature-filter/component/FilterCondition.tsx:322
 msgid "Enter value"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:344
+#: nodepkg/feature-filter/component/FilterCondition.tsx:347
 msgid "Select field"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:360
+#: nodepkg/feature-filter/component/FilterCondition.tsx:363
 msgid "Operator"
 msgstr ""
 
@@ -406,52 +333,135 @@ msgstr ""
 msgid "Group"
 msgstr ""
 
-#: nodepkg/feature-filter/testentry.tsx:111
+#: nodepkg/feature-filter/testentry.tsx:124
 msgid "Output JSON"
 msgstr ""
 
-#: nodepkg/feature-filter/testentry.tsx:112
+#: nodepkg/feature-filter/testentry.tsx:125
 msgid "Current Filter State"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:89
+#: nodepkg/feature-filter/type.ts:102
 msgid "Equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:102
+#: nodepkg/feature-filter/type.ts:115
 msgid "Not equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:115
+#: nodepkg/feature-filter/type.ts:128
 msgid "Greater"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:127
+#: nodepkg/feature-filter/type.ts:140
 msgid "Less"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:139
+#: nodepkg/feature-filter/type.ts:152
 msgid "Greater or equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:151
+#: nodepkg/feature-filter/type.ts:164
 msgid "Less or equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:163
+#: nodepkg/feature-filter/type.ts:176
 msgid "In"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:168
+#: nodepkg/feature-filter/type.ts:181
 msgid "Not in"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:173
+#: nodepkg/feature-filter/type.ts:186
 msgid "Has value"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:186
+#: nodepkg/feature-filter/type.ts:199
 msgid "Not has value"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:52
+#, python-brace-format
+msgid "Field '{fieldName}' expects a string for {fieldType}, but got '{valueType}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:70
+#, python-brace-format
+msgid ""
+"Field '{fieldName}' expects {fieldType} format '{expectedFormat}', but got "
+"'{value}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:87
+msgid "Condition Expression must be an array"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:94
+#, python-brace-format
+msgid "Invalid operator: '{operator}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:101
+#: nodepkg/feature-filter/util/validator.ts:118
+#, python-brace-format
+msgid "Operator '{operator}' expects 1 argument, but got '{length}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:110
+#, python-brace-format
+msgid "Operator '{operator}' expects at least {min} value argument"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:126
+msgid "Field expression must be ['get', fieldName]"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:130
+msgid "Field name must be a string"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:137
+#, python-brace-format
+msgid "Unknown field: '{fieldName}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:148
+#, python-brace-format
+msgid "Operator '{operator}' is not supported for field type '{fieldType}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:159
+msgid ""
+"Values for 'in' operator cannot be arrays (must be flattened) or property "
+"references."
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:184
+#, python-brace-format
+msgid "Field '{fieldName}' expects a number, but got '{valueType}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:191
+#, python-brace-format
+msgid "Field '{fieldName}' expects a string, but got '{valueType}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:208
+msgid "Expression must be an array"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:220
+msgid "Group operator must have at least one argument"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:226
+msgid "All arguments to group operator must be arrays"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:240
+#, python-brace-format
+msgid "Unknown or invalid root operator: '{operator}'"
 msgstr ""
 
 #: nodepkg/feature-grid/FeatureGrid.tsx:24
@@ -463,35 +473,35 @@ msgstr "Настройки на таблицата"
 msgid "Refresh table"
 msgstr "Презареди таблицата"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:35
+#: nodepkg/feature-grid/FeatureGridActions.tsx:36
 msgid "Open"
 msgstr "Отвори"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:36
+#: nodepkg/feature-grid/FeatureGridActions.tsx:37
 msgid "Open on a new page"
 msgstr "Отвори на нова страница"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:37
+#: nodepkg/feature-grid/FeatureGridActions.tsx:38
 msgid "Delete"
 msgstr "Изтрий"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:38
+#: nodepkg/feature-grid/FeatureGridActions.tsx:39
 msgid "Edit"
 msgstr "Редактирай"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:39
+#: nodepkg/feature-grid/FeatureGridActions.tsx:40
 msgid "Edit on a new page"
 msgstr "Редактирай на нова страница"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:40
+#: nodepkg/feature-grid/FeatureGridActions.tsx:41
 msgid "Create"
 msgstr "Създай"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:42
+#: nodepkg/feature-grid/FeatureGridActions.tsx:43
 msgid "Search..."
 msgstr "Търсене..."
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:43
+#: nodepkg/feature-grid/FeatureGridActions.tsx:44
 msgid "Advanced filter"
 msgstr ""
 
@@ -626,6 +636,10 @@ msgstr "Обхват (xMax)"
 #: nodepkg/geometry-info/component/GeometryInfoTable.tsx:72
 msgid "Extent (yMax)"
 msgstr "Обхват (yMax)"
+
+#: nodepkg/resource-action-plugin.tsx:10 view.py:229
+msgid "Table"
+msgstr "Таблица"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:11 versioning/model.py:106
 #: view.py:146 view.py:263
@@ -801,12 +815,27 @@ msgctxt "column"
 msgid "Restored"
 msgstr ""
 
-#: nodepkg/versioning-settings/VersioningForm.tsx:29
-msgid "Enable by default"
+#: nodepkg/versioning-settings/VersioningSettings.tsx:14
+msgid ""
+"Select the default feature versioning setting for new layers. This affects "
+"layers created via UI and HTTP API. You can always change the versioning "
+"setting for individual layers later."
 msgstr ""
 
-#: nodepkg/versioning-settings/VersioningSettings.tsx:49
-msgid "Settings saved"
+#: nodepkg/versioning-settings/VersioningSettings.tsx:15
+msgid "Auto: follow system-wide settings"
+msgstr ""
+
+#: nodepkg/versioning-settings/VersioningSettings.tsx:16
+msgid "Enable feature versioning by default"
+msgstr ""
+
+#: nodepkg/versioning-settings/VersioningSettings.tsx:17
+msgid "Disable feature versioning by default"
+msgstr ""
+
+#: nodepkg/versioning-settings/VersioningSettings.tsx:46
+msgid "The setting is saved."
 msgstr ""
 
 #: numutil.py:28
@@ -897,7 +926,3 @@ msgid ""
 msgstr ""
 "Векторни плочки MVT е ефикасен механизъм за кодиране на информацията от карти"
 " във векторен формат, който може да се визуализира динамично."
-
-#: view.py:229
-msgid "Table"
-msgstr "Таблица"

@@ -2,6 +2,32 @@
 msgid "Permission not found"
 msgstr "Permiso no encontrado"
 
+#: attr/resource.py:105
+msgid "Resource ID"
+msgstr ""
+
+#: attr/resource.py:107
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:141
+msgid "Type"
+msgstr "Tipo"
+
+#: attr/resource.py:110 nodepkg/editor-widget/EditorWidget.tsx:64
+msgid "Keyname"
+msgstr "Nombre clave"
+
+#: attr/resource.py:115 nodepkg/effective-permissions/EffectivePermissions.tsx:15
+msgid "Yes"
+msgstr "Sí"
+
+#: attr/resource.py:115 nodepkg/effective-permissions/EffectivePermissions.tsx:15
+msgid "No"
+msgstr "No"
+
+#: attr/resource.py:118 nodepkg/editor-widget/EditorWidget.tsx:50
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:148
+msgid "Owner"
+msgstr "Propietario"
+
 #: category.py:38
 msgid "Layers and styles"
 msgstr ""
@@ -177,7 +203,7 @@ msgstr "Grupo de recursos"
 
 #: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:31
 #: nodepkg/editor-widget/EditorWidget.tsx:19
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:80
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:127
 msgid "Display name"
 msgstr "Nombre para mostrar"
 
@@ -313,23 +339,6 @@ msgstr ""
 msgid "Parent"
 msgstr "Padre"
 
-#: nodepkg/editor-widget/EditorWidget.tsx:50
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:101 view.py:297
-msgid "Owner"
-msgstr "Propietario"
-
-#: nodepkg/editor-widget/EditorWidget.tsx:64 view.py:289
-msgid "Keyname"
-msgstr "Nombre clave"
-
-#: nodepkg/effective-permissions/EffectivePermissions.tsx:15 view.py:294
-msgid "No"
-msgstr "No"
-
-#: nodepkg/effective-permissions/EffectivePermissions.tsx:15 view.py:294
-msgid "Yes"
-msgstr "Sí"
-
 #: nodepkg/export-settings/ExportSettings.tsx:19
 msgid ""
 "* This will not affect REST API use which will continue to be governed by "
@@ -407,7 +416,7 @@ msgstr ""
 msgid "Row conflicts with another"
 msgstr ""
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:21 view.py:443
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:21 view.py:333
 msgid "Action"
 msgstr "Acción"
 
@@ -447,79 +456,66 @@ msgstr "Todos permisos"
 msgid "Permissions"
 msgstr "Permisos"
 
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:94 view.py:286
-msgid "Type"
-msgstr "Tipo"
-
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:109
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:156
 msgid "Created"
 msgstr "Creado"
 
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:127
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:174
 msgid "Volume"
 msgstr "Volumen"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:104
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:103
 msgid "Moving resources"
 msgstr "Mover recursos"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:157
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:164
 msgid "Deleting resources"
 msgstr "Eliminación de recursos"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:183
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:190
 msgid "Turn off multiple selection"
 msgstr "Desactivar selección múltiple"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:184
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:191
 msgid "Select multiple resources"
 msgstr "Seleccionar múltiples recursos"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:194
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:201
 msgid "Hide resources volume"
 msgstr "Ocultar volumen de recursos"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:195
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:202
 msgid "Show resources volume"
 msgstr "Mostrar volumen de recursos"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:207
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:214
 msgid "Hide resource creation date"
 msgstr "Ocultar la fecha de creación del recurso"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:208
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:215
 msgid "Show resource creation date"
 msgstr "Mostrar la fecha de creación del recurso"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:222
-#: nodepkg/resource-section/children/util/createResourceTableItemOptions.ts:8
-#: view.py:473
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:229
+#: nodepkg/resource-section/children/resource-action-plugin.tsx:15 view.py:363
 msgid "Delete"
 msgstr "Eliminar"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:231
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:238
 msgid "Not all of the selected can be deleted."
 msgstr "No todos los seleccionados se pueden eliminar."
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:247
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:254
 msgid "Move"
 msgstr "Mover"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:266
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:273
 msgid "Export vector layers"
 msgstr "Exportar capas vectoriales"
 
-#: nodepkg/resource-section/children/component/PreviewLayerModal.tsx:37
-msgid "Close"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/PreviewLayerModal.tsx:45
-msgid "Open in a new tab"
-msgstr ""
-
-#: nodepkg/resource-section/children/util/createResourceTableItemOptions.ts:7
-msgid "Change"
-msgstr ""
+#: nodepkg/resource-section/children/resource-action-plugin.tsx:25 view.py:349
+msgid "Update"
+msgstr "Actualizar"
 
 #: nodepkg/resource-section/children/util/forEachSelected.ts:7
 msgid "Operation in progress"
@@ -538,7 +534,7 @@ msgid "External access"
 msgstr ""
 
 #: nodepkg/resource-section/main/CreateResourceButton.tsx:7
-#: nodepkg/resource-section/main/CreateResourceModal.tsx:20 view.py:192 view.py:442
+#: nodepkg/resource-section/main/CreateResourceModal.tsx:20 view.py:190 view.py:332
 msgid "Create resource"
 msgstr "Crear recurso"
 
@@ -631,39 +627,31 @@ msgctxt "permission"
 msgid "Configure service"
 msgstr ""
 
-#: view.py:134 view.py:482
+#: view.py:132 view.py:372
 msgid "JSON view"
 msgstr "Vista JSON"
 
-#: view.py:145 view.py:489
+#: view.py:143 view.py:379
 msgid "User permissions"
 msgstr "Permisos de usuario"
 
-#: view.py:204
+#: view.py:202
 msgid "Update resource"
 msgstr "Actualizar recurso"
 
-#: view.py:215
+#: view.py:213
 msgid "Delete resource"
 msgstr "Eliminar recurso"
 
-#: view.py:225 view.py:502
+#: view.py:223 view.py:392
 msgid "Resource export"
 msgstr "Exportar recurso"
 
-#: view.py:284
-msgid "Resource ID"
-msgstr ""
-
-#: view.py:393
+#: view.py:283
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Permiso '%s' insuficiente en el alcance '%s' del recurso con id = %d."
 
-#: view.py:444
+#: view.py:334
 msgid "Extra"
 msgstr "Extra"
-
-#: view.py:459
-msgid "Update"
-msgstr "Actualizar"

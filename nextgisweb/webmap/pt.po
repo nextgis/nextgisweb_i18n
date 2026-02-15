@@ -10,7 +10,7 @@ msgstr "imagens"
 msgid "Main web map"
 msgstr "Mapa web principal"
 
-#: favorite.py:6 view.py:230
+#: favorite.py:6 nodepkg/display/resource-action-plugin.tsx:10 view.py:230
 msgid "Display"
 msgstr "Visualizador"
 
@@ -165,6 +165,7 @@ msgid "Enabled"
 msgstr "Activado"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:34
+#: nodepkg/plugin/layer-identifiable/LayerIdentifiablePlugin.tsx:19
 msgid "Identifiable"
 msgstr ""
 
@@ -231,7 +232,12 @@ msgstr ""
 msgid "My private annotation"
 msgstr ""
 
-#: nodepkg/layers-tree/LayerTreeItemTitle.tsx:16
+#: nodepkg/layers-tree/FilterAction.tsx:12
+#: nodepkg/plugin/layer-filter/LayerFilterPlugin.tsx:28
+msgid "Filter"
+msgstr ""
+
+#: nodepkg/layers-tree/LayerTreeItemTitle.tsx:17
 msgid ""
 "This layer is not visible at the current map scale. Zoom to make the layer "
 "visible."
@@ -498,7 +504,7 @@ msgstr ""
 msgid "Band {}"
 msgstr ""
 
-#: nodepkg/panel/identify/component/RasterInfoSection.tsx:27
+#: nodepkg/panel/identify/component/RasterInfoSection.tsx:29
 msgid "Raster"
 msgstr ""
 
@@ -584,7 +590,7 @@ msgstr "Valor de escala"
 msgid "Scale bar"
 msgstr "Escala gráfica"
 
-#: nodepkg/panel/print/component/ScalesSelect.tsx:67
+#: nodepkg/panel/print/component/ScalesSelect.tsx:68
 msgid "Custom scale"
 msgstr ""
 
@@ -624,11 +630,11 @@ msgstr "Imprimir mapa"
 msgid "Enter at least 2 characters"
 msgstr ""
 
-#: nodepkg/panel/search/SearchPanel.tsx:463
+#: nodepkg/panel/search/SearchPanel.tsx:462
 msgid "Not found"
 msgstr "Não encontrado"
 
-#: nodepkg/panel/search/SearchPanel.tsx:468
+#: nodepkg/panel/search/SearchPanel.tsx:466
 msgid "Refine search criterion. Displayed first 100 search results."
 msgstr ""
 
@@ -1114,11 +1120,11 @@ msgstr ""
 msgid "GeometryCollection"
 msgstr ""
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:25
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:26
 msgid "Go to"
 msgstr "Ir para"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:152
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:156
 msgid "Selected feature has no geometry"
 msgstr ""
 

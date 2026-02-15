@@ -14,7 +14,7 @@ msgstr ""
 msgid "User with email '{}' already exists."
 msgstr ""
 
-#: models/model_db.py:103
+#: models/model_db.py:100
 msgid "Collector project"
 msgstr "Kolektorský projekt"
 
@@ -216,14 +216,6 @@ msgstr "Smazat collector?"
 #: nodepkg/userMessages.ts:6
 msgid "Collector deleted"
 msgstr "Collector smazán"
-
-#: scope.py:9
-msgid "Collector"
-msgstr "Kolektor"
-
-#: scope.py:11
-msgid "Read"
-msgstr "Číst"
 
 #: view.py:62
 msgid "List of collectors"

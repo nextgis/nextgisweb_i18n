@@ -10,7 +10,7 @@ msgstr "Obraz"
 msgid "Main web map"
 msgstr "Główna mapa internetowa"
 
-#: favorite.py:6 view.py:230
+#: favorite.py:6 nodepkg/display/resource-action-plugin.tsx:10 view.py:230
 msgid "Display"
 msgstr "Wyświetl mapę internetową"
 
@@ -165,6 +165,7 @@ msgid "Enabled"
 msgstr "Włączone"
 
 #: nodepkg/items-widget/ItemsWidget.tsx:34
+#: nodepkg/plugin/layer-identifiable/LayerIdentifiablePlugin.tsx:19
 msgid "Identifiable"
 msgstr "Identyfikowalny"
 
@@ -231,7 +232,12 @@ msgstr "Adnotacja publiczna"
 msgid "My private annotation"
 msgstr "Moja prywatna adnotacja"
 
-#: nodepkg/layers-tree/LayerTreeItemTitle.tsx:16
+#: nodepkg/layers-tree/FilterAction.tsx:12
+#: nodepkg/plugin/layer-filter/LayerFilterPlugin.tsx:28
+msgid "Filter"
+msgstr ""
+
+#: nodepkg/layers-tree/LayerTreeItemTitle.tsx:17
 msgid ""
 "This layer is not visible at the current map scale. Zoom to make the layer "
 "visible."
@@ -500,7 +506,7 @@ msgstr "Powiększ do obiektu"
 msgid "Band {}"
 msgstr "Pasmo {}"
 
-#: nodepkg/panel/identify/component/RasterInfoSection.tsx:27
+#: nodepkg/panel/identify/component/RasterInfoSection.tsx:29
 msgid "Raster"
 msgstr "Raster"
 
@@ -586,7 +592,7 @@ msgstr "Wartość skali"
 msgid "Scale bar"
 msgstr "Podziałka liniowa"
 
-#: nodepkg/panel/print/component/ScalesSelect.tsx:67
+#: nodepkg/panel/print/component/ScalesSelect.tsx:68
 msgid "Custom scale"
 msgstr "Skala niestandardowa"
 
@@ -626,11 +632,11 @@ msgstr "Wydrukuj mapę"
 msgid "Enter at least 2 characters"
 msgstr "Wprowadź co najmniej 2 znaki"
 
-#: nodepkg/panel/search/SearchPanel.tsx:463
+#: nodepkg/panel/search/SearchPanel.tsx:462
 msgid "Not found"
 msgstr "Nie znaleziono"
 
-#: nodepkg/panel/search/SearchPanel.tsx:468
+#: nodepkg/panel/search/SearchPanel.tsx:466
 msgid "Refine search criterion. Displayed first 100 search results."
 msgstr "Doprecyzuj kryteria wyszukiwania. Wyświetlono pierwsze 100 wyników."
 
@@ -1118,11 +1124,11 @@ msgstr "MultiPoligon"
 msgid "GeometryCollection"
 msgstr "Kolekcja geometrii"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:25
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:26
 msgid "Go to"
 msgstr "Przejdź do"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:152
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:156
 msgid "Selected feature has no geometry"
 msgstr "Wybrany obiekt nie ma geometrii"
 
