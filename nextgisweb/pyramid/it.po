@@ -1,57 +1,57 @@
-#: api.py:167
+#: api.py:181
 msgid "Storage management is not enabled on this server."
 msgstr ""
 
-#: api.py:254
+#: api.py:278
 #, python-brace-format
 msgid ""
 "Invalid font file name: '{}'. Only latin letters, digits, hyphens and "
 "underscores are allowed. The *.ttf or *.otf extension is required."
 msgstr ""
 
-#: api.py:261
+#: api.py:285
 #, python-brace-format
 msgid "Font '{0}' is larger than {1} bytes."
 msgstr ""
 
-#: api.py:457
+#: api.py:485
 #, python-brace-format
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
 
-#: api.py:584
+#: api.py:614
 #, python-brace-format
 msgid "Got an unsupported MIME type: '{}'."
 msgstr ""
 
-#: api.py:587
+#: api.py:617
 #, python-brace-format
 msgid "{}KiB should be enough for a logo."
 msgstr ""
 
-#: api.py:750
+#: api.py:780
 msgid "Your Web GIS at nextgis.com"
 msgstr "Il tuo Web GIS su nextgis.com"
 
-#: component.py:165
+#: component.py:160
 msgid "Request timeout"
 msgstr ""
 
-#: component.py:168
+#: component.py:163
 msgid "Enabled"
 msgstr ""
 
-#: component.py:168
+#: component.py:163
 msgid "Disabled"
 msgstr ""
 
-#: exception.py:219
+#: exception.py:218
 msgid "Internal server error"
 msgstr "Errore interno server"
 
-#: exception.py:221
+#: exception.py:220
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -59,11 +59,11 @@ msgstr ""
 "Si è verificato un errore sul server oppure una configurazione errata e non è"
 " stato possibile completare la richiesta."
 
-#: exception.py:253
+#: exception.py:252
 msgid "Bad request"
 msgstr "Richiesta sbagliata"
 
-#: exception.py:255
+#: exception.py:254
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
@@ -71,27 +71,27 @@ msgstr ""
 "La richiesta non è stata creata correttamente e non il server non ha potuto "
 "elaborarla."
 
-#: exception.py:262
+#: exception.py:261
 msgid "Payment required"
 msgstr ""
 
-#: exception.py:263
+#: exception.py:262
 msgid "Access was denied for financial reasons."
 msgstr ""
 
-#: exception.py:268
+#: exception.py:267
 msgid "Forbidden"
 msgstr "Vietato"
 
-#: exception.py:269
+#: exception.py:268
 msgid "Access was denied to this resource."
 msgstr "Accesso vietato a questa risorsa."
 
-#: exception.py:274
+#: exception.py:273
 msgid "Page not found"
 msgstr "Pagina non trovata"
 
-#: exception.py:276
+#: exception.py:275
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -100,43 +100,43 @@ msgstr ""
 "l'indirizzo oppure va alla home page e riprova a cercare la pagina "
 "desiderata."
 
-#: exception.py:283
+#: exception.py:282
 msgid "Unprocessable entity"
 msgstr "Entità non processabile"
 
-#: exception.py:284
+#: exception.py:283
 msgid "Unable to process the contained instructions."
 msgstr "Impossibile processare le istruzioni contenute."
 
-#: exception.py:289 exception.py:290
+#: exception.py:288 exception.py:289
 msgid "Not implemented"
 msgstr "Non implementato"
 
-#: exception.py:295
+#: exception.py:294
 msgid "Service unavailable"
 msgstr "Servizio non disponibile"
 
-#: exception.py:296
+#: exception.py:295
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "Il server non è temporaneamente disponibile. Si prega di riprovare più tardi."
 
-#: lunkwill.py:25
+#: lunkwill.py:15
 msgid "Lunkwill not enabled"
 msgstr ""
 
-#: lunkwill.py:26
+#: lunkwill.py:16
 msgid "The Lunkwill extension is not configured on this server."
 msgstr ""
 
-#: lunkwill.py:30
+#: lunkwill.py:20
 msgid "Interception expected"
 msgstr ""
 
-#: lunkwill.py:31
+#: lunkwill.py:21
 msgid "The Lunkwill extension expects external request interception."
 msgstr ""
 
-#: nodepkg/api/error.ts:18 nodepkg/api/error.ts:39
+#: nodepkg/api/error.ts:18 nodepkg/api/error.ts:42
 msgid "Something went wrong."
 msgstr "Qualcosa è andato storto."
 
@@ -144,49 +144,53 @@ msgstr "Qualcosa è andato storto."
 msgid "Unknown API error"
 msgstr "Errore sconosciuto delle API"
 
-#: nodepkg/api/error.ts:33
+#: nodepkg/api/error.ts:32
 msgid "There is no response from the server or problem connecting to server."
 msgstr ""
 "Il server non ha fornito nessuno risposta oppure ci sono dei problemi di "
 "connessione al server."
 
-#: nodepkg/api/error.ts:34
+#: nodepkg/api/error.ts:35
 msgid "Network error"
 msgstr "Errore di connessione"
 
-#: nodepkg/api/error.ts:35
+#: nodepkg/api/error.ts:36
 msgid "Check network connectivity and try again later."
 msgstr "Controlla la connessione internet e riprova più tardi."
 
-#: nodepkg/api/error.ts:40
+#: nodepkg/api/error.ts:43
 msgid "Unexpected server response"
 msgstr "Risposta server inattesa"
 
-#: nodepkg/api/error.ts:68
+#: nodepkg/api/error.ts:70
 msgid "Unexpected error while processing long-running request."
 msgstr ""
 
-#: nodepkg/api/error.ts:69
+#: nodepkg/api/error.ts:73
 msgid "Long-running request error"
 msgstr ""
 
-#: nodepkg/api/error.ts:77
+#: nodepkg/api/error.ts:81
 msgid "Long-running request was cancelled."
+msgstr ""
+
+#: nodepkg/api/error.ts:85
+msgid "Long-running request timeout."
 msgstr ""
 
 #: nodepkg/backup-browse/BackupBrowse.tsx:23
 msgid "Filename"
 msgstr "Nome del file"
 
-#: nodepkg/backup-browse/BackupBrowse.tsx:38
+#: nodepkg/backup-browse/BackupBrowse.tsx:37
 msgid "Timestamp (UTC)"
 msgstr "Timestamp (UTC)"
 
-#: nodepkg/backup-browse/BackupBrowse.tsx:44
+#: nodepkg/backup-browse/BackupBrowse.tsx:43
 msgid "Size"
 msgstr "Dimensione"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:23
+#: nodepkg/cors-settings/CORSSettings.tsx:18
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
@@ -194,30 +198,30 @@ msgstr ""
 "Inserisci gli indirizzi abilitati all'utilizzo delle API HTTP di questo Web "
 "GIS su altri siti. Un indirizzo per riga."
 
-#: nodepkg/cors-settings/CORSSettings.tsx:24
+#: nodepkg/cors-settings/CORSSettings.tsx:19
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
 "allowed for third-level domains and higher."
 msgstr ""
 
-#: nodepkg/cors-settings/CORSSettings.tsx:59
+#: nodepkg/cors-settings/CORSSettings.tsx:57
 msgid "CORS settings updated"
 msgstr ""
 
-#: nodepkg/cors-settings/CORSSettings.tsx:64
+#: nodepkg/cors-settings/CORSSettings.tsx:62
 msgid "Fix the form errors first"
 msgstr ""
 
-#: nodepkg/cors-settings/CORSSettings.tsx:80
+#: nodepkg/cors-settings/CORSSettings.tsx:78
 msgid "The value entered is not valid"
 msgstr ""
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:42
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:12
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr ""
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:65
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:13
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -235,31 +239,31 @@ msgstr ""
 msgid "Web GIS is restarting, please wait..."
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:30
+#: nodepkg/fonts/FontsPanel.tsx:31
 msgid "Custom"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:30
+#: nodepkg/fonts/FontsPanel.tsx:31
 msgid "System"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:105
+#: nodepkg/fonts/FontsPanel.tsx:106
 msgid "Font"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:110
+#: nodepkg/fonts/FontsPanel.tsx:111
 msgid "Format"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:115
+#: nodepkg/fonts/FontsPanel.tsx:116
 msgid "Type"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:176
+#: nodepkg/fonts/FontsPanel.tsx:173
 msgid "Delete"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:183
+#: nodepkg/fonts/FontsPanel.tsx:180
 msgid "Show system fonts"
 msgstr ""
 
@@ -274,19 +278,19 @@ msgid_plural "units"
 msgstr[0] ""
 msgstr[1] ""
 
-#: nodepkg/layout/Avatar.tsx:12
+#: nodepkg/layout/Avatar.tsx:13
 msgid "Sign in"
 msgstr "Accedi"
 
-#: nodepkg/layout/Avatar.tsx:20
+#: nodepkg/layout/Avatar.tsx:21
 msgid "Invitation session"
 msgstr ""
 
-#: nodepkg/layout/Avatar.tsx:23
+#: nodepkg/layout/Avatar.tsx:24
 msgid "User settings"
 msgstr ""
 
-#: nodepkg/layout/Avatar.tsx:25
+#: nodepkg/layout/Avatar.tsx:26
 msgid "Sign out"
 msgstr "Disconnetti"
 
@@ -294,7 +298,7 @@ msgstr "Disconnetti"
 msgid "Resources"
 msgstr "Risorse"
 
-#: nodepkg/layout/store.ts:77 view.py:204
+#: nodepkg/layout/store.ts:77 view.py:203
 msgid "Control panel"
 msgstr "Pannello di controllo"
 
@@ -326,11 +330,11 @@ msgstr ""
 msgid "Reload the page to get them applied."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:27
+#: nodepkg/metrics/MetricSettings.tsx:24
 msgid "Add one or more counters to your Web GIS."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:28
+#: nodepkg/metrics/MetricSettings.tsx:25
 msgid ""
 "HTML code of these counters will be embeded into each page and will allow you"
 " to track user activity."
@@ -375,23 +379,23 @@ msgstr ""
 msgid "Storage usage hasn't been estimated yet."
 msgstr ""
 
-#: nodepkg/storage-summary/StorageSummary.tsx:117
+#: nodepkg/storage-summary/StorageSummary.tsx:114
 msgid "Kind of data"
 msgstr ""
 
-#: nodepkg/storage-summary/StorageSummary.tsx:123
+#: nodepkg/storage-summary/StorageSummary.tsx:120
 msgid "Volume"
 msgstr ""
 
-#: nodepkg/storage-summary/StorageSummary.tsx:142
+#: nodepkg/storage-summary/StorageSummary.tsx:139
 msgid "Total"
 msgstr ""
 
-#: nodepkg/storage-summary/StorageSummary.tsx:147
+#: nodepkg/storage-summary/StorageSummary.tsx:144
 msgid "of"
 msgstr ""
 
-#: nodepkg/storage-summary/StorageSummary.tsx:212
+#: nodepkg/storage-summary/StorageSummary.tsx:209
 msgid "Estimate storage"
 msgstr ""
 
@@ -403,51 +407,51 @@ msgstr "Pacchetto"
 msgid "Version"
 msgstr "Versione"
 
-#: nodepkg/system-info/SystemInfo.tsx:77
+#: nodepkg/system-info/SystemInfo.tsx:75
 msgid "Platform"
 msgstr "Piattaforma"
 
-#: nodepkg/system-info/SystemInfo.tsx:89
+#: nodepkg/system-info/SystemInfo.tsx:87
 msgid "Browser support"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfo.tsx:97
+#: nodepkg/system-info/SystemInfo.tsx:95
 msgid "or higher"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfo.tsx:98
+#: nodepkg/system-info/SystemInfo.tsx:96
 msgid "Not supported"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfo.tsx:104
+#: nodepkg/system-info/SystemInfo.tsx:102
 msgid "Your browser"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:15
+#: nodepkg/system-info/SystemInfoUpdate.tsx:16
 msgid "Checking for updates..."
 msgstr ""
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:16
+#: nodepkg/system-info/SystemInfoUpdate.tsx:17
 msgid "<a>Contact support</a> for update."
 msgstr ""
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:17
+#: nodepkg/system-info/SystemInfoUpdate.tsx:18
 msgid "Show details"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:21
+#: nodepkg/system-info/SystemInfoUpdate.tsx:19
 #, python-brace-format
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
 "as possible."
 msgstr ""
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:22
+#: nodepkg/system-info/SystemInfoUpdate.tsx:20
 #, python-brace-format
 msgid "New version of {distribution} is available: {version}."
 msgstr ""
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:23
+#: nodepkg/system-info/SystemInfoUpdate.tsx:21
 #, python-brace-format
 msgid "Your {distribution} is up-to-date."
 msgstr ""
@@ -468,7 +472,7 @@ msgstr ""
 msgid "Click to see what's new"
 msgstr ""
 
-#: permission.py:5 view.py:309 view.py:748
+#: permission.py:5 view.py:308 view.py:746
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
@@ -559,50 +563,50 @@ msgstr ""
 msgid "The JSON body of the request is malformed or invalid."
 msgstr ""
 
-#: view.py:192
+#: view.py:191
 msgid "HTTP API documentation"
 msgstr ""
 
-#: view.py:258 view.py:757
+#: view.py:257 view.py:755
 msgid "System information"
 msgstr "Informazioni di sistema"
 
-#: view.py:268 view.py:763
+#: view.py:267 view.py:761
 msgid "Font management"
 msgstr ""
 
-#: view.py:277 view.py:800
+#: view.py:276 view.py:798
 msgid "Storage"
 msgstr ""
 
-#: view.py:291 view.py:807
+#: view.py:290 view.py:805
 msgid "Backups"
 msgstr "Backups"
 
-#: view.py:319 view.py:775
+#: view.py:318 view.py:773
 msgid "Custom CSS"
 msgstr "CSS personalizzato"
 
-#: view.py:328 view.py:781
+#: view.py:327 view.py:779
 msgid "Custom logo"
 msgstr "Logo personalizzato"
 
-#: view.py:337 view.py:769
+#: view.py:336 view.py:767
 msgid "Web GIS name"
 msgstr "Nome del Web GIS"
 
-#: view.py:346 view.py:787
+#: view.py:345 view.py:785
 msgid "Home path"
 msgstr "Percorso Home"
 
-#: view.py:355 view.py:793
+#: view.py:354 view.py:791
 msgid "Metrics and analytics"
 msgstr ""
 
-#: view.py:737
+#: view.py:735
 msgid "Info"
 msgstr "Informazioni"
 
-#: view.py:738
+#: view.py:736
 msgid "Settings"
 msgstr "Impostazioni"

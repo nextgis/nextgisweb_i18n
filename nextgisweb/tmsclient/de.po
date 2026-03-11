@@ -1,93 +1,97 @@
-#: model.py:47 nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:116
-#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:122
+#: model.py:47 nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:115
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:113
 msgid "TMS connection"
 msgstr "TMS-Verbindung"
 
-#: model.py:108
+#: model.py:109
 msgid "API key required."
 msgstr ""
 
-#: model.py:149
+#: model.py:151
 msgid "Zoom is out of range."
 msgstr "Zoom ist außerhalb des Bereichs"
 
-#: model.py:157 nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:203
+#: model.py:159 nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:195
 msgid "TMS layer"
 msgstr "TMS-Layer"
 
-#: model.py:302
+#: model.py:304
 msgid "Layer name required."
 msgstr ""
 
-#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:32
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:28
 msgid "Type"
 msgstr ""
 
-#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:44
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:36
 msgid "Custom"
 msgstr "Benutzerdefiniert"
 
-#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:55
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:47
 msgid "URL template"
 msgstr "URL-Vorlage"
 
-#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:61
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:53
 msgid "Scheme"
 msgstr "Schema"
 
-#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:72
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:64
 msgid "API key"
 msgstr "API-Schlüssel"
 
-#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:78
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:70
 msgid "API key param"
 msgstr "API-Schlüsselparameter"
 
-#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:85
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:77
 msgid "Username"
 msgstr "Benutzername"
 
-#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:95
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:87
 msgid "Password"
 msgstr "Passwort"
 
-#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:108
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:97
+msgid "Referer header"
+msgstr ""
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:106
 msgid "Skip SSL/TLS certificate verification"
 msgstr "Verifizierung des SSL/TLS-Zertifikats überspringen"
 
-#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:36
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:32
 msgid "This connection based on NextGIS Geoservices"
 msgstr ""
 
-#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:149
-#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:160
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:140
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:151
 msgid "Layer"
 msgstr "Layer"
 
-#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:168
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:159
 msgid "Min zoom level"
 msgstr "Minimaler Zoomfaktor"
 
-#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:176
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:167
 msgid "Max zoom level"
 msgstr "Maximaler Zoomfaktor"
 
-#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:184
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:175
 msgid "Tile size"
 msgstr ""
 
-#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:194
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:185
 msgid "Extent"
 msgstr ""
 
-#: tile_fetcher.py:37
+#: tile_fetcher.py:36
 msgid "The remote server did not respond in time."
 msgstr ""
 
-#: tile_fetcher.py:84
+#: tile_fetcher.py:86
 msgid "Unable to get a response from the remote server."
 msgstr ""
 
-#: tile_fetcher.py:94
+#: tile_fetcher.py:96
 msgid "An unexpected HTTP status code was received from the remote server."
 msgstr ""

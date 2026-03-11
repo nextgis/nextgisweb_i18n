@@ -1,80 +1,84 @@
-#: component.py:95
+#: component.py:94
 msgid "NextGIS geoinformation system"
 msgstr "Геаінфармацыйная сістэма NextGIS"
 
-#: component.py:276
-msgid "Linux kernel"
-msgstr "Ядро Linux"
-
-#: component.py:279
-msgid "OS distribution"
-msgstr "Дыстрыбутыў АС"
-
-#: component.py:291
+#: component.py:289
 msgid "CPU"
 msgstr "CPU"
 
-#: component.py:294
+#: component.py:291
 msgid "RAM"
 msgstr "RAM"
 
+#: component.py:293
+msgid "Linux kernel"
+msgstr "Ядро Linux"
+
+#: component.py:295
+msgid "OS distribution"
+msgstr "Дыстрыбутыў АС"
+
 #: component.py:323
-msgid "Last backup"
+msgid "Instance ID"
 msgstr ""
 
 #: component.py:327
+msgid "Last backup"
+msgstr ""
+
+#: component.py:331
 msgid "Last maintenance"
 msgstr ""
 
-#: exception.py:116
+#: exception.py:113
 msgid "Validation error"
 msgstr "Памылка валідацыі"
 
-#: exception.py:121
+#: exception.py:118
 msgid "Forbidden"
 msgstr "Забаронена"
 
-#: exception.py:126
+#: exception.py:123
 msgid "Insufficient permissions"
 msgstr "Недастаткова дазволаў"
 
-#: exception.py:131
+#: exception.py:128
 msgid "Operational error"
 msgstr "Аперацыйная памылка"
 
-#: exception.py:136
+#: exception.py:133
 msgid "External service error"
 msgstr "Памылка знешняй службы"
 
-#: exception.py:145
+#: exception.py:142
 msgid "Not configured"
 msgstr ""
 
-#: fontconfig.py:112
+#: fontconfig.py:111
 msgid "Font not found: {}!"
 msgstr ""
 
-#: storage.py:290
+#: storage.py:291
 msgid "Storage full"
 msgstr ""
 
-#: storage.py:291
+#: storage.py:293
 msgid ""
 "This operation can't be performed because the storage limit (%s) has been "
 "already exceeded by %s."
 msgstr ""
 
-#: storage.py:301
+#: storage.py:302
 msgid "Not enough storage"
 msgstr ""
 
-#: storage.py:302
+#: storage.py:304
 msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
 msgstr ""
 
-#: storage.py:312
+#: storage.py:313
 msgid "Estimation is already running"
 msgstr "Эстымацыя ўжо запушчана"
 

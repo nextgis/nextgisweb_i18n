@@ -71,20 +71,20 @@ msgid "Unlimited"
 msgstr "Ilimitado"
 
 #: nodepkg/plan-and-features/PlanAndFeatures.tsx:27
-#: nodepkg/upgrade-button/UpgradeButton.tsx:63
+#: nodepkg/upgrade-button/UpgradeButton.tsx:60
 msgid "Your plan — "
 msgstr "O seu plano — "
 
-#: nodepkg/plan-and-features/PlanAndFeatures.tsx:36
-#: nodepkg/resource-widget/base.tsx:26
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:31
+#: nodepkg/resource-widget/base.tsx:26 nodepkg/sailor-banner/SailorBanner.tsx:16
 msgid "Change plan"
 msgstr "Alterar o plano"
 
-#: nodepkg/plan-and-features/PlanAndFeatures.tsx:63
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:58
 msgid "More about plans"
 msgstr "Mais sobre planos"
 
-#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:51 view.py:15
+#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:48 view.py:15
 msgid "Plan and features"
 msgstr ""
 
@@ -98,27 +98,27 @@ msgid ""
 "interactive maps."
 msgstr ""
 
-#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:40
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:39
 msgid "Install the NextGIS Connect plugin for QGIS"
 msgstr ""
 
-#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:45
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:40
 msgid "Connect the plugin to your Web GIS"
 msgstr ""
 
-#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:48
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:42
 msgid "Upload your layers and projects to your Web GIS"
 msgstr ""
 
-#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:65
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:57
 msgid "Learn more"
 msgstr ""
 
-#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:73
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:61
 msgid "Hide"
 msgstr ""
 
-#: nodepkg/resource-widget/base.tsx:24 service_plan.py:311
+#: nodepkg/resource-widget/base.tsx:24 service_plan.py:315
 msgid "{} feature is not available on your plan."
 msgstr ""
 
@@ -126,42 +126,60 @@ msgstr ""
 msgid "These features are not available on your plan:"
 msgstr ""
 
-#: nodepkg/upgrade-button/UpgradeButton.tsx:71
+#: nodepkg/sailor-banner/SailorBanner.tsx:13
+msgid ""
+"<strong>Unlimited</strong> maps and layers, plus all <strong>NextGIS</strong>"
+" features with <strong>Premium</strong>!"
+msgstr ""
+
+#: nodepkg/sailor-banner/SailorBanner.tsx:14
+msgid ""
+"Create your own Web GIS with <strong>NextGIS</strong> in minutes — it’s "
+"<strong>FREE</strong>!"
+msgstr ""
+
+#: nodepkg/sailor-banner/SailorBanner.tsx:15
+msgid ""
+"Upgrade to <strong>Premium</strong> or <strong>Mini</strong> to hide this "
+"banner permanently for guests and administrators."
+msgstr ""
+
+#: nodepkg/upgrade-button/UpgradeButton.tsx:68
 msgid "Upgrade"
 msgstr "Upgrade"
 
-#: service_plan.py:98
+#: service_plan.py:101
 msgid "Number of maps and layers"
 msgstr ""
 
-#: service_plan.py:99
+#: service_plan.py:102
 msgid "Storage limit"
 msgstr ""
 
-#: service_plan.py:100
+#: service_plan.py:103
 msgid "User limit"
 msgstr ""
 
-#: service_plan.py:108
+#: service_plan.py:111
 msgid "GPS trackers"
 msgstr ""
 
-#: service_plan.py:122
+#: service_plan.py:125
 msgid "Maximum file upload"
 msgstr ""
 
-#: service_plan.py:123
+#: service_plan.py:126
 msgid "Maximum raster layer"
 msgstr ""
 
-#: service_plan.py:304
+#: service_plan.py:308
 msgid "Plan upgrade required"
 msgstr ""
 
-#: service_plan.py:308
+#: service_plan.py:312
 msgid "This is not available on your plan."
 msgstr ""
 
-#: service_plan.py:319
+#: service_plan.py:323
 msgid "To use this feature, please upgrade."
 msgstr ""

@@ -1,137 +1,118 @@
-#: model.py:43 nodepkg/items-widget/ItemsWidget.tsx:93 view.py:60
-#, jsrealm, server
+#: model.py:43 nodepkg/items-widget/ItemsWidget.tsx:94
 msgid "Gallery"
 msgstr ""
 
-#: model.py:370
-#, python-brace-format, server
+#: model.py:371
 msgid ""
 "An existing gallery item with ID {} was not found or was referenced more than"
 " once!"
 msgstr ""
 
 #: nodepkg/component/GalleryLayoutSelect.tsx:9
-#, jsrealm
 msgid "Grid"
 msgstr ""
 
 #: nodepkg/component/GalleryLayoutSelect.tsx:10
-#, jsrealm
 msgid "List"
 msgstr ""
 
 #: nodepkg/component/GalleryLayoutSelect.tsx:11
-#, jsrealm
 msgid "Rows"
 msgstr ""
 
 #: nodepkg/component/GalleryLayoutSelect.tsx:12
-#, jsrealm
 msgid "Columns"
 msgstr ""
 
 #: nodepkg/component/GalleryLayoutSelect.tsx:13
-#, jsrealm
 msgid "Masonry"
 msgstr ""
 
-#: nodepkg/gallery-display/GalleryDisplay.tsx:82
-#, jsrealm
+#: nodepkg/gallery-display/GalleryDisplay.tsx:83
 msgid "No gallery items to display"
 msgstr ""
 
 #: nodepkg/items-widget/CoverImage.tsx:17
-#, jsrealm
 msgid "Select a cover image"
 msgstr ""
 
 #: nodepkg/items-widget/CoverImage.tsx:18
-#, jsrealm
 msgid "3:2 for Grid, 5:4 for List."
 msgstr ""
 
 #: nodepkg/items-widget/ItemsWidget.tsx:20 nodepkg/items-widget/item-widget.tsx:21
-#, jsrealm
 msgid "Resource"
 msgstr ""
 
 #: nodepkg/items-widget/ItemsWidget.tsx:21
-#, jsrealm
 msgid "Group"
 msgstr ""
 
 #: nodepkg/items-widget/ItemsWidget.tsx:22 nodepkg/items-widget/item-widget.tsx:22
-#, jsrealm
 msgid "Link"
 msgstr ""
 
 #: nodepkg/items-widget/ResourceAction.tsx:37
-#, jsrealm
 msgid "Display resource"
 msgstr ""
 
 #: nodepkg/items-widget/ResourceAction.tsx:43
-#, jsrealm
 msgid "Go to resource"
 msgstr ""
 
 #: nodepkg/items-widget/ResourceAction.tsx:48
-#, jsrealm
 msgid "Update resource"
 msgstr ""
 
-#: nodepkg/items-widget/item-store.ts:193
-#, jsrealm
+#: nodepkg/items-widget/item-store.ts:192
 msgid "Invalid URL"
 msgstr ""
 
-#: nodepkg/items-widget/item-store.ts:238
-#, jsrealm
+#: nodepkg/items-widget/item-store.ts:236
 msgid "Group members have errors"
 msgstr ""
 
 #: nodepkg/items-widget/item-widget.tsx:16
-#, jsrealm
 msgid "Title"
 msgstr ""
 
 #: nodepkg/items-widget/item-widget.tsx:17
-#, jsrealm
 msgid "Description"
 msgstr ""
 
 #: nodepkg/items-widget/item-widget.tsx:18
 #: nodepkg/settings-widget/SettingsWidget.tsx:17
-#, jsrealm
 msgid "Layout"
 msgstr ""
 
 #: nodepkg/items-widget/item-widget.tsx:19
-#, jsrealm
 msgid "Action"
 msgstr ""
 
 #: nodepkg/items-widget/item-widget.tsx:20
-#, jsrealm
 msgid "Cover"
 msgstr ""
 
-#: nodepkg/items-widget/item-widget.tsx:38
-#, jsrealm
+#: nodepkg/items-widget/item-widget.tsx:34
 msgid "Default"
 msgstr ""
 
-#: nodepkg/resource-action-plugin.tsx:10 view.py:65
-#, jsrealm, server
+#: nodepkg/resource-action-plugin.tsx:10
 msgid "Display"
 msgstr ""
 
+#: nodepkg/settings-widget/SettingsWidget.tsx:13
+msgid "Show"
+msgstr ""
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:14
+msgid "Hide"
+msgstr ""
+
 #: nodepkg/settings-widget/SettingsWidget.tsx:18
-#, jsrealm
-msgid "Header"
+msgid "Web GIS header"
 msgstr ""
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:45
-#, jsrealm
 msgid "Settings"
 msgstr ""

@@ -1,57 +1,57 @@
-#: api.py:167
+#: api.py:181
 msgid "Storage management is not enabled on this server."
 msgstr ""
 
-#: api.py:254
+#: api.py:278
 #, python-brace-format
 msgid ""
 "Invalid font file name: '{}'. Only latin letters, digits, hyphens and "
 "underscores are allowed. The *.ttf or *.otf extension is required."
 msgstr ""
 
-#: api.py:261
+#: api.py:285
 #, python-brace-format
 msgid "Font '{0}' is larger than {1} bytes."
 msgstr ""
 
-#: api.py:457
+#: api.py:485
 #, python-brace-format
 msgid ""
 "The '{}' query parameter should not contain additional values if 'all' is "
 "specified."
 msgstr ""
 
-#: api.py:584
+#: api.py:614
 #, python-brace-format
 msgid "Got an unsupported MIME type: '{}'."
 msgstr ""
 
-#: api.py:587
+#: api.py:617
 #, python-brace-format
 msgid "{}KiB should be enough for a logo."
 msgstr ""
 
-#: api.py:750
+#: api.py:780
 msgid "Your Web GIS at nextgis.com"
 msgstr "Váš webový GIS na nextgis.com"
 
-#: component.py:165
+#: component.py:160
 msgid "Request timeout"
 msgstr ""
 
-#: component.py:168
+#: component.py:163
 msgid "Enabled"
 msgstr "Povolit"
 
-#: component.py:168
+#: component.py:163
 msgid "Disabled"
 msgstr "Zakázán"
 
-#: exception.py:219
+#: exception.py:218
 msgid "Internal server error"
 msgstr "Interní chyba serveru"
 
-#: exception.py:221
+#: exception.py:220
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -59,37 +59,37 @@ msgstr ""
 "Na serveru došlo k interní chybě nebo nesprávné konfiguraci a nemohl dokončit"
 " váš požadavek."
 
-#: exception.py:253
+#: exception.py:252
 msgid "Bad request"
 msgstr "Špatný požadavek"
 
-#: exception.py:255
+#: exception.py:254
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
 msgstr "Server nemohl vyhovět požadavku, protože je znetvořený nebo jinak nesprávný."
 
-#: exception.py:262
+#: exception.py:261
 msgid "Payment required"
 msgstr "Požadovaná platba"
 
-#: exception.py:263
+#: exception.py:262
 msgid "Access was denied for financial reasons."
 msgstr "Přístup byl z finančních důvodů odepřen."
 
-#: exception.py:268
+#: exception.py:267
 msgid "Forbidden"
 msgstr "Zakázáno"
 
-#: exception.py:269
+#: exception.py:268
 msgid "Access was denied to this resource."
 msgstr "Přístup k tomuto prostředku byl odepřen."
 
-#: exception.py:274
+#: exception.py:273
 msgid "Page not found"
 msgstr "Stránka nenalezena"
 
-#: exception.py:276
+#: exception.py:275
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -97,43 +97,43 @@ msgstr ""
 "Možná stránka byla odstraněna nebo je chyba v adrese. Opravte adresu nebo "
 "přejděte na domovskou stránku a zkuste najít požadovanou stránku."
 
-#: exception.py:283
+#: exception.py:282
 msgid "Unprocessable entity"
 msgstr "Nezpracovatelná entita"
 
-#: exception.py:284
+#: exception.py:283
 msgid "Unable to process the contained instructions."
 msgstr "Obsažené instrukce nelze zpracovat."
 
-#: exception.py:289 exception.py:290
+#: exception.py:288 exception.py:289
 msgid "Not implemented"
 msgstr "Není implementováno"
 
-#: exception.py:295
+#: exception.py:294
 msgid "Service unavailable"
 msgstr "Služba je nedostupná"
 
-#: exception.py:296
+#: exception.py:295
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "Server je momentálně nedostupný. Zkuste to znovu později."
 
-#: lunkwill.py:25
+#: lunkwill.py:15
 msgid "Lunkwill not enabled"
 msgstr ""
 
-#: lunkwill.py:26
+#: lunkwill.py:16
 msgid "The Lunkwill extension is not configured on this server."
 msgstr ""
 
-#: lunkwill.py:30
+#: lunkwill.py:20
 msgid "Interception expected"
 msgstr ""
 
-#: lunkwill.py:31
+#: lunkwill.py:21
 msgid "The Lunkwill extension expects external request interception."
 msgstr ""
 
-#: nodepkg/api/error.ts:18 nodepkg/api/error.ts:39
+#: nodepkg/api/error.ts:18 nodepkg/api/error.ts:42
 msgid "Something went wrong."
 msgstr "Něco se pokazilo."
 
@@ -141,47 +141,51 @@ msgstr "Něco se pokazilo."
 msgid "Unknown API error"
 msgstr "Neznámá chyba API"
 
-#: nodepkg/api/error.ts:33
+#: nodepkg/api/error.ts:32
 msgid "There is no response from the server or problem connecting to server."
 msgstr "Server neodpovídá nebo se nepodařilo připojit k serveru."
 
-#: nodepkg/api/error.ts:34
+#: nodepkg/api/error.ts:35
 msgid "Network error"
 msgstr "Chyba sítě"
 
-#: nodepkg/api/error.ts:35
+#: nodepkg/api/error.ts:36
 msgid "Check network connectivity and try again later."
 msgstr "Zkontrolujte síťové připojení a zkuste to znovu později."
 
-#: nodepkg/api/error.ts:40
+#: nodepkg/api/error.ts:43
 msgid "Unexpected server response"
 msgstr "Neočekávaná odpověď serveru"
 
-#: nodepkg/api/error.ts:68
+#: nodepkg/api/error.ts:70
 msgid "Unexpected error while processing long-running request."
 msgstr "Neočekávaná chyba při zpracování dlouhodobého požadavku."
 
-#: nodepkg/api/error.ts:69
+#: nodepkg/api/error.ts:73
 msgid "Long-running request error"
 msgstr "Chyba dlouhodobého požadavku"
 
-#: nodepkg/api/error.ts:77
+#: nodepkg/api/error.ts:81
 msgid "Long-running request was cancelled."
 msgstr "Dlouhodobý požadavek byl zrušen."
+
+#: nodepkg/api/error.ts:85
+msgid "Long-running request timeout."
+msgstr ""
 
 #: nodepkg/backup-browse/BackupBrowse.tsx:23
 msgid "Filename"
 msgstr "Název souboru"
 
-#: nodepkg/backup-browse/BackupBrowse.tsx:38
+#: nodepkg/backup-browse/BackupBrowse.tsx:37
 msgid "Timestamp (UTC)"
 msgstr "Časové razítko (UTC)"
 
-#: nodepkg/backup-browse/BackupBrowse.tsx:44
+#: nodepkg/backup-browse/BackupBrowse.tsx:43
 msgid "Size"
 msgstr "Velikost"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:23
+#: nodepkg/cors-settings/CORSSettings.tsx:18
 msgid ""
 "Enter allowed origins for cross domain requests to use HTTP API of this Web "
 "GIS on other websites. One origin per line."
@@ -189,7 +193,7 @@ msgstr ""
 "Zadejte povolený původ pro požadavky mezi doménami, aby bylo možné použít "
 "HTTP API tohoto Web GIS na jiných webech. Jeden počátek na řádek."
 
-#: nodepkg/cors-settings/CORSSettings.tsx:24
+#: nodepkg/cors-settings/CORSSettings.tsx:19
 msgid ""
 "Please note that different protocols (HTTP and HTTPS) and subdomains "
 "(example.com and www.example.com) are different origins. Wildcards are "
@@ -199,23 +203,23 @@ msgstr ""
 "www.example.com) jsou různého původu. Zástupné znaky jsou povoleny pro domény"
 " třetí úrovně a vyšší."
 
-#: nodepkg/cors-settings/CORSSettings.tsx:59
+#: nodepkg/cors-settings/CORSSettings.tsx:57
 msgid "CORS settings updated"
 msgstr "Nastavení CORS aktualizováno"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:64
+#: nodepkg/cors-settings/CORSSettings.tsx:62
 msgid "Fix the form errors first"
 msgstr "Nejprve opravte chyby formuláře"
 
-#: nodepkg/cors-settings/CORSSettings.tsx:80
+#: nodepkg/cors-settings/CORSSettings.tsx:78
 msgid "The value entered is not valid"
 msgstr "Zadaná hodnota není platná"
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:42
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:12
 msgid "Custom styles saved. Reload the page to get them applied."
 msgstr "Vlastní styly uloženy. Znovu načtěte stránku, abyste je mohli použít."
 
-#: nodepkg/custom-css-form/CustomCSSForm.tsx:65
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:13
 msgid ""
 "Enter custom CSS rules here. They will be used to redefine styles, design for"
 " all pages of your Web GIS."
@@ -233,31 +237,31 @@ msgstr ""
 msgid "Web GIS is restarting, please wait..."
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:30
+#: nodepkg/fonts/FontsPanel.tsx:31
 msgid "Custom"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:30
+#: nodepkg/fonts/FontsPanel.tsx:31
 msgid "System"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:105
+#: nodepkg/fonts/FontsPanel.tsx:106
 msgid "Font"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:110
+#: nodepkg/fonts/FontsPanel.tsx:111
 msgid "Format"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:115
+#: nodepkg/fonts/FontsPanel.tsx:116
 msgid "Type"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:176
+#: nodepkg/fonts/FontsPanel.tsx:173
 msgid "Delete"
 msgstr ""
 
-#: nodepkg/fonts/FontsPanel.tsx:183
+#: nodepkg/fonts/FontsPanel.tsx:180
 msgid "Show system fonts"
 msgstr ""
 
@@ -273,19 +277,19 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: nodepkg/layout/Avatar.tsx:12
+#: nodepkg/layout/Avatar.tsx:13
 msgid "Sign in"
 msgstr "Přihlaste"
 
-#: nodepkg/layout/Avatar.tsx:20
+#: nodepkg/layout/Avatar.tsx:21
 msgid "Invitation session"
 msgstr "Pozvánka"
 
-#: nodepkg/layout/Avatar.tsx:23
+#: nodepkg/layout/Avatar.tsx:24
 msgid "User settings"
 msgstr ""
 
-#: nodepkg/layout/Avatar.tsx:25
+#: nodepkg/layout/Avatar.tsx:26
 msgid "Sign out"
 msgstr "Odhlásit se"
 
@@ -293,7 +297,7 @@ msgstr "Odhlásit se"
 msgid "Resources"
 msgstr "Zdroje"
 
-#: nodepkg/layout/store.ts:77 view.py:204
+#: nodepkg/layout/store.ts:77 view.py:203
 msgid "Control panel"
 msgstr "Kontrolní panel"
 
@@ -325,11 +329,11 @@ msgstr ""
 msgid "Reload the page to get them applied."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:27
+#: nodepkg/metrics/MetricSettings.tsx:24
 msgid "Add one or more counters to your Web GIS."
 msgstr ""
 
-#: nodepkg/metrics/MetricSettings.tsx:28
+#: nodepkg/metrics/MetricSettings.tsx:25
 msgid ""
 "HTML code of these counters will be embeded into each page and will allow you"
 " to track user activity."
@@ -374,23 +378,23 @@ msgstr ""
 msgid "Storage usage hasn't been estimated yet."
 msgstr "Využití úložiště zatím nebylo odhadnuto."
 
-#: nodepkg/storage-summary/StorageSummary.tsx:117
+#: nodepkg/storage-summary/StorageSummary.tsx:114
 msgid "Kind of data"
 msgstr "Druh dat"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:123
+#: nodepkg/storage-summary/StorageSummary.tsx:120
 msgid "Volume"
 msgstr "Objem"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:142
+#: nodepkg/storage-summary/StorageSummary.tsx:139
 msgid "Total"
 msgstr "Celek"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:147
+#: nodepkg/storage-summary/StorageSummary.tsx:144
 msgid "of"
 msgstr "z"
 
-#: nodepkg/storage-summary/StorageSummary.tsx:212
+#: nodepkg/storage-summary/StorageSummary.tsx:209
 msgid "Estimate storage"
 msgstr "Odhad skladování"
 
@@ -402,39 +406,39 @@ msgstr "Balík"
 msgid "Version"
 msgstr "Verze"
 
-#: nodepkg/system-info/SystemInfo.tsx:77
+#: nodepkg/system-info/SystemInfo.tsx:75
 msgid "Platform"
 msgstr "Platforma"
 
-#: nodepkg/system-info/SystemInfo.tsx:89
+#: nodepkg/system-info/SystemInfo.tsx:87
 msgid "Browser support"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfo.tsx:97
+#: nodepkg/system-info/SystemInfo.tsx:95
 msgid "or higher"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfo.tsx:98
+#: nodepkg/system-info/SystemInfo.tsx:96
 msgid "Not supported"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfo.tsx:104
+#: nodepkg/system-info/SystemInfo.tsx:102
 msgid "Your browser"
 msgstr ""
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:15
+#: nodepkg/system-info/SystemInfoUpdate.tsx:16
 msgid "Checking for updates..."
 msgstr "Kontrola aktualizací..."
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:16
+#: nodepkg/system-info/SystemInfoUpdate.tsx:17
 msgid "<a>Contact support</a> for update."
 msgstr "<a> Kontaktujte podporu </a> pro aktualizaci."
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:17
+#: nodepkg/system-info/SystemInfoUpdate.tsx:18
 msgid "Show details"
 msgstr "Ukázat detaily"
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:21
+#: nodepkg/system-info/SystemInfoUpdate.tsx:19
 #, python-brace-format
 msgid ""
 "Critical updates are available: {version}. Please consider updating an soon "
@@ -443,12 +447,12 @@ msgstr ""
 "K dispozici jsou kritické aktualizace: {verze}. Zvažte prosím aktualizaci co "
 "nejdříve."
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:22
+#: nodepkg/system-info/SystemInfoUpdate.tsx:20
 #, python-brace-format
 msgid "New version of {distribution} is available: {version}."
 msgstr "K dispozici je nová verze {distribution}: {version}."
 
-#: nodepkg/system-info/SystemInfoUpdate.tsx:23
+#: nodepkg/system-info/SystemInfoUpdate.tsx:21
 #, python-brace-format
 msgid "Your {distribution} is up-to-date."
 msgstr "Vaše {distribuce} je aktuální."
@@ -469,7 +473,7 @@ msgstr "Aktualizace jsou k dispozici"
 msgid "Click to see what's new"
 msgstr "Kliknutím zobrazíte, co je nového"
 
-#: permission.py:5 view.py:309 view.py:748
+#: permission.py:5 view.py:308 view.py:746
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Sdílení zdrojů mezi zdroji (CORS)"
 
@@ -571,50 +575,50 @@ msgstr ""
 msgid "The JSON body of the request is malformed or invalid."
 msgstr ""
 
-#: view.py:192
+#: view.py:191
 msgid "HTTP API documentation"
 msgstr ""
 
-#: view.py:258 view.py:757
+#: view.py:257 view.py:755
 msgid "System information"
 msgstr "Systémové informace"
 
-#: view.py:268 view.py:763
+#: view.py:267 view.py:761
 msgid "Font management"
 msgstr ""
 
-#: view.py:277 view.py:800
+#: view.py:276 view.py:798
 msgid "Storage"
 msgstr "Úložiště"
 
-#: view.py:291 view.py:807
+#: view.py:290 view.py:805
 msgid "Backups"
 msgstr "Zálohy"
 
-#: view.py:319 view.py:775
+#: view.py:318 view.py:773
 msgid "Custom CSS"
 msgstr "Vlastní CSS"
 
-#: view.py:328 view.py:781
+#: view.py:327 view.py:779
 msgid "Custom logo"
 msgstr "Vlastní logo"
 
-#: view.py:337 view.py:769
+#: view.py:336 view.py:767
 msgid "Web GIS name"
 msgstr "Web GIS jméno"
 
-#: view.py:346 view.py:787
+#: view.py:345 view.py:785
 msgid "Home path"
 msgstr "Domácí cesta"
 
-#: view.py:355 view.py:793
+#: view.py:354 view.py:791
 msgid "Metrics and analytics"
 msgstr ""
 
-#: view.py:737
+#: view.py:735
 msgid "Info"
 msgstr "Info"
 
-#: view.py:738
+#: view.py:736
 msgid "Settings"
 msgstr "Nastavení"
