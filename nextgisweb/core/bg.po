@@ -30,27 +30,27 @@ msgstr "Последно резервно копие"
 msgid "Last maintenance"
 msgstr "Последно поддържане"
 
-#: exception.py:113
+#: exception.py:67
 msgid "Validation error"
 msgstr "Грешка при валидация"
 
-#: exception.py:118
+#: exception.py:72
 msgid "Forbidden"
 msgstr "Забранено"
 
-#: exception.py:123
+#: exception.py:78
 msgid "Insufficient permissions"
 msgstr "Недостатъчни права"
 
-#: exception.py:128
+#: exception.py:84
 msgid "Operational error"
 msgstr "Операционна грешка"
 
-#: exception.py:133
+#: exception.py:89
 msgid "External service error"
 msgstr "Грешка на външен сървиз"
 
-#: exception.py:142
+#: exception.py:98
 msgid "Not configured"
 msgstr "Не е конфигурирано"
 
@@ -58,23 +58,22 @@ msgstr "Не е конфигурирано"
 msgid "Font not found: {}!"
 msgstr "Шрифтът не е открит: {}!"
 
-#: storage.py:291
+#: storage.py:310
 msgid "Storage full"
 msgstr "Няма свободна памет"
 
-#: storage.py:293
+#: storage.py:312
 msgid ""
-"This operation can't be performed because the storage limit (%s) has been "
-"already exceeded by %s."
+"The operation cannot be completed because the storage is over limit by "
+"{excess_size}. You currently have {storage_used} of {storage_limit} used. "
+"Free up some storage space before proceeding."
 msgstr ""
-"Операцията не може да бъде извършена тъй като максимален обем памет (%s) е "
-"вече надвишен с %s."
 
-#: storage.py:302
+#: storage.py:332
 msgid "Not enough storage"
 msgstr "Няма достатъчно свободна памет"
 
-#: storage.py:304
+#: storage.py:334
 msgid ""
 "This operation requires %s of storage and can't be performed because only %s "
 "available."
@@ -82,10 +81,10 @@ msgstr ""
 "Операцията изисква %s памет и не може да бъде извършена, тъй като достъпна "
 "памет е само %s."
 
-#: storage.py:313
+#: storage.py:355
 msgid "Estimation is already running"
 msgstr "Оценяването е в процес"
 
-#: test/test_exception.py:76
+#: test/test_exception.py:28
 msgid "The answer is %d"
 msgstr "Отговорът е %d"

@@ -1,4 +1,4 @@
-#: api.py:82 api.py:156
+#: api.py:84 api.py:158
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
@@ -6,168 +6,207 @@ msgstr ""
 "Bohužel nemůžete přidat nového sběratele. Váš limit sběratelů ve webovém GIS "
 "je"
 
-#: api.py:114
+#: api.py:116
 msgid "User with email '{}' already exists. Email addresses are case-insensitive."
 msgstr ""
 
-#: api.py:164
+#: api.py:166
 msgid "User with email '{}' already exists."
 msgstr ""
 
-#: models/model_db.py:100
+#: models/model_db.py:101
 msgid "Collector project"
 msgstr "Kolektorský projekt"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:46
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:17
+#: nodepkg/collector-setup/CollectorFieldsWidget.tsx:10
+msgid "Project name"
+msgstr ""
+
+#: nodepkg/collector-setup/CollectorFieldsWidget.tsx:11
+msgid "The name of the collector project"
+msgstr ""
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:44
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:74
+msgid "Project"
+msgstr "Projekt"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:53
+#: nodepkg/resource-items/ItemsWidget.tsx:252
+msgid "Items"
+msgstr "Položky"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:62
+#: nodepkg/resource-users/CollectorUsersWidget.tsx:37
+msgid "Collectors"
+msgstr "Sběratelé"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:76
+msgid "Create project"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:73
+msgid "Contact Web GIS administrator to change the list of collectors"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:145
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:164
+#: nodepkg/userMessages.ts:12
+msgid "Collector deleted"
+msgstr "Collector smazán"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:201
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:25
 msgid "NextGIS ID"
 msgstr "NextGIS ID"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:52
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:29
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:207
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:37
 msgid "Description"
 msgstr "Popis"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:58
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:213
 msgid "Added"
 msgstr "Přidán"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:78
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:235
+msgid "Edit"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:243
+msgid "Delete"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:278
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr "Nemůžete přidat nového sběratele. Váš limit sběratelů"
 
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:22
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:328
+msgid "Create"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:350 view.py:74
+msgid "Create new collector"
+msgstr "Vytvořit nového collector"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351 view.py:81
+msgid "Edit collector"
+msgstr "Upravit sběratel"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:366
+msgid "Delete selected collectors?"
+msgstr ""
+
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
 msgid "The value entered is not valid"
 msgstr "Zadaná hodnota není platná"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
 msgid "Collector users:"
 msgstr "Uživatelé Collector:"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
 msgid "out of"
 msgstr "mimo"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
 msgid "Each collector must have "
 msgstr "Každý collector musí mít "
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:21
 msgid "NextGIS ID account"
 msgstr "Účet NextGIS ID"
+
+#: nodepkg/resource-action-plugin.tsx:11 view.py:90
+msgid "Set up Collector project"
+msgstr ""
 
 #: nodepkg/resource-items/Item.ts:104
 msgid "Group members have errors"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:26
+#: nodepkg/resource-items/ItemsWidget.tsx:27
 msgid "Display name"
 msgstr "Zobrazované jméno"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:27
+#: nodepkg/resource-items/ItemsWidget.tsx:28
 msgid "Expanded"
 msgstr "Rozšířený"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:28
+#: nodepkg/resource-items/ItemsWidget.tsx:29
 msgid "Editable"
 msgstr "Upravitelné"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:29
+#: nodepkg/resource-items/ItemsWidget.tsx:30
 msgid "Visible"
 msgstr "Viditelné"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:30
+#: nodepkg/resource-items/ItemsWidget.tsx:31
 msgid "Syncable"
 msgstr "Synchronizovatelné"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:31
+#: nodepkg/resource-items/ItemsWidget.tsx:32
 msgid "Lifetime for tiles (in min)"
 msgstr "Životnost dlaždic (v min)"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:32
+#: nodepkg/resource-items/ItemsWidget.tsx:33
 msgid "Resource"
 msgstr "Zdroj"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:33
+#: nodepkg/resource-items/ItemsWidget.tsx:34
 msgid "Zoom level visibility"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:34
+#: nodepkg/resource-items/ItemsWidget.tsx:35
 msgid "Min zoom"
 msgstr "Min zoom"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:35
+#: nodepkg/resource-items/ItemsWidget.tsx:36
 msgid "Max zoom"
 msgstr "Max zoom "
 
-#: nodepkg/resource-items/ItemsWidget.tsx:36
+#: nodepkg/resource-items/ItemsWidget.tsx:37
 msgid "Item"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:37
+#: nodepkg/resource-items/ItemsWidget.tsx:38
 msgid "Form, layer or style"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:38
+#: nodepkg/resource-items/ItemsWidget.tsx:39
 msgid "Group"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:266
-msgid "Items"
-msgstr "Položky"
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:14
 msgid "Initial extent"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:16
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
 msgid "Project will start at this extent"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:18
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:17
 msgid "Starting screen"
 msgstr "Úvodní obrazovka"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:20
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:19
 msgid "The starting screen in the NextGIS Collector mobile app"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:23
-msgid "Username"
-msgstr ""
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:25
-msgid ""
-"Web GIS user name with necessary permissions to access data used in the "
-"project. This user is not related to accounts of actual data collectors."
-msgstr ""
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
-msgid "Password"
-msgstr "Heslo"
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:31
-msgid "Password for the Web GIS user"
-msgstr ""
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:33
-#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:209
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:22
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:207
 msgid "Mobile project setup configuration"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:35
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:24
 msgid ""
 "Automate project delivery to multiple mobile GIS with this setup. Recommended"
 " for advanced users only."
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:40
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:29
 msgid "Edit config"
 msgstr ""
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:105
-msgid "Project"
-msgstr "Projekt"
 
 #: nodepkg/resource-project/CollectorTypeSelect.tsx:17
 msgid "List of forms"
@@ -193,42 +232,36 @@ msgstr ""
 msgid "Loading editor..."
 msgstr ""
 
-#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:232
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:229
 msgid "Load"
 msgstr ""
 
-#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:237
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:233
 msgid "Close"
 msgstr ""
 
-#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:244
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:236
 msgid "OK"
 msgstr ""
-
-#: nodepkg/resource-users/CollectorUsersWidget.tsx:30
-msgid "Collectors"
-msgstr "Sběratelé"
 
 #: nodepkg/userMessages.ts:5
 msgid "Delete collector?"
 msgstr "Smazat collector?"
 
 #: nodepkg/userMessages.ts:6
-msgid "Collector deleted"
-msgstr "Collector smazán"
+msgid ""
+"Deleting this collector will remove it from all projects where it is "
+"currently assigned."
+msgstr ""
+
+#: nodepkg/userMessages.ts:9
+msgid "Uncheck the box to remove the collector from the current project only."
+msgstr ""
 
 #: view.py:62
 msgid "List of collectors"
 msgstr "Seznam sběratelů"
 
-#: view.py:74
-msgid "Create new collector"
-msgstr "Vytvořit nového collector"
-
-#: view.py:81
-msgid "Edit collector"
-msgstr "Upravit sběratel"
-
-#: view.py:128
+#: view.py:146
 msgid "Collector projects"
 msgstr "Kolektorský projekty"

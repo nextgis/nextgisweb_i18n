@@ -54,7 +54,7 @@ msgstr "Копирай в клипборд"
 msgid "Not set"
 msgstr "Не е зададен"
 
-#: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:46
+#: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:52
 msgid "Save"
 msgstr "Запазване"
 
@@ -66,11 +66,11 @@ msgstr ""
 msgid "More"
 msgstr ""
 
-#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:154
+#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:150
 msgid "Close"
 msgstr ""
 
-#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:163
+#: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:159
 msgid "Apply"
 msgstr ""
 
@@ -110,11 +110,11 @@ msgstr "Север"
 msgid "From layers"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:162
+#: nodepkg/component/extent-row/ExtentRow.tsx:163
 msgid "Edit on map"
 msgstr ""
 
-#: nodepkg/component/extent-row/ExtentRow.tsx:167
+#: nodepkg/component/extent-row/ExtentRow.tsx:168
 msgid "Clean"
 msgstr "Очисти"
 
@@ -138,39 +138,43 @@ msgstr "Изисква се ключ"
 msgid "Key not unique"
 msgstr "Ключът не е уникален"
 
-#: nodepkg/edi-table/RowAction.tsx:74
+#: nodepkg/edi-table/RowAction.tsx:70
 msgid "Clone"
 msgstr "Клонирай"
 
-#: nodepkg/edi-table/RowAction.tsx:79 nodepkg/focus-table/action.tsx:27
-#: nodepkg/hook/useConfirm.tsx:54 nodepkg/model-browse/ModelBrowse.tsx:265
-#: nodepkg/model-browse/ModelBrowse.tsx:335 nodepkg/model-form/ModelForm.tsx:47
+#: nodepkg/edi-table/RowAction.tsx:75 nodepkg/focus-table/action.tsx:27
+#: nodepkg/hook/useConfirm.tsx:54 nodepkg/model-browse/ModelBrowse.tsx:276
+#: nodepkg/model-browse/ModelBrowse.tsx:343 nodepkg/model-form/ModelForm.tsx:53
 msgid "Delete"
 msgstr "Изтриване"
 
-#: nodepkg/error/ErrorModal.tsx:49 nodepkg/error/extractError.ts:5
-msgid "Error"
-msgstr "Грешка"
+#: nodepkg/error/ErrorWidget.tsx:38
+msgid "Contact Web GIS administrator"
+msgstr ""
 
-#: nodepkg/error/extractError.ts:4
-msgid "Something went wrong."
-msgstr "Нещо не е на ред."
-
-#: nodepkg/error/shared.tsx:66
-msgid "Technical information"
-msgstr "Техническа информация"
-
-#: nodepkg/error/shared.tsx:76
+#: nodepkg/error/ErrorWidget.tsx:44
 msgid "Contact support"
 msgstr "Свържи се с поддръжката"
 
-#: nodepkg/error/shared.tsx:81 nodepkg/hook/useConfirm.tsx:23
+#: nodepkg/error/ErrorWidget.tsx:72
+msgid "Technical information"
+msgstr "Техническа информация"
+
+#: nodepkg/error/ErrorWidget.tsx:99 nodepkg/hook/useConfirm.tsx:23
 msgid "OK"
 msgstr "Да"
 
-#: nodepkg/error/shared.tsx:85
+#: nodepkg/error/ErrorWidget.tsx:103
 msgid "Back to home"
 msgstr "Към началната страница"
+
+#: nodepkg/error/extractError.ts:5
+msgid "Something went wrong."
+msgstr "Нещо не е на ред."
+
+#: nodepkg/error/extractError.ts:6
+msgid "Error"
+msgstr "Грешка"
 
 #: nodepkg/fields-form/FormItem.tsx:11
 msgid "This value is required"
@@ -204,47 +208,47 @@ msgstr "Потвърдете изтриването."
 msgid "Failed to delete."
 msgstr "Неуспешно изтриване."
 
-#: nodepkg/model-browse/ModelBrowse.tsx:123 nodepkg/model-form/ModelForm.tsx:69
+#: nodepkg/model-browse/ModelBrowse.tsx:130 nodepkg/model-form/ModelForm.tsx:76
 msgid "Confirmation"
 msgstr "Confirmation"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:124
-msgid "Item deleted"
-msgstr "Елементът е изтрит"
-
-#: nodepkg/model-browse/ModelBrowse.tsx:126
-msgid "Items deleted"
-msgstr "Елементите са изтрити"
-
-#: nodepkg/model-browse/ModelBrowse.tsx:194
-msgid "The errors occurred during execution"
-msgstr "При изпълнение е станала грешка"
-
-#: nodepkg/model-browse/ModelBrowse.tsx:198
-msgid "Failed to delete items:"
-msgstr "Следните елементи не могат да бъдат изтрити:"
-
-#: nodepkg/model-browse/ModelBrowse.tsx:221
+#: nodepkg/model-browse/ModelBrowse.tsx:132
 msgid "Do you want to delete these items?"
 msgstr "Искате ли да изтриете тези елементи?"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:255
+#: nodepkg/model-browse/ModelBrowse.tsx:133
+msgid "Item deleted"
+msgstr "Елементът е изтрит"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:134
+msgid "Items deleted"
+msgstr "Елементите са изтрити"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:208
+msgid "The errors occurred during execution"
+msgstr "При изпълнение е станала грешка"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:212
+msgid "Failed to delete items:"
+msgstr "Следните елементи не могат да бъдат изтрити:"
+
+#: nodepkg/model-browse/ModelBrowse.tsx:267
 msgid "Edit"
 msgstr "Редактиране"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:255
+#: nodepkg/model-browse/ModelBrowse.tsx:267
 msgid "View"
 msgstr "Преглед"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:288
+#: nodepkg/model-browse/ModelBrowse.tsx:295
 msgid "Search"
 msgstr "Търсене"
 
-#: nodepkg/model-browse/ModelBrowse.tsx:312 nodepkg/model-form/ModelForm.tsx:45
+#: nodepkg/model-browse/ModelBrowse.tsx:319 nodepkg/model-form/ModelForm.tsx:51
 msgid "Create"
 msgstr "Създаване"
 
-#: nodepkg/model-form/ModelForm.tsx:106
+#: nodepkg/model-form/ModelForm.tsx:121
 msgid "Fix the form errors first"
 msgstr "Трябва да поправите грешките във формата"
 

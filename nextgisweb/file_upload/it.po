@@ -1,6 +1,28 @@
-#: api.py:24
+#: api.py:34
 msgid "Uploaded file too large"
 msgstr "File caricato troppo grande"
+
+#: component.py:84
+msgid "Uploaded file size limit"
+msgstr ""
+
+#: exception.py:11
+msgid "Unsupported file"
+msgstr ""
+
+#: exception.py:13
+msgid ""
+"The file '{fn}' could not be processed. Please verify that it is provided in "
+"a supported format and try again. If the problem persists, contact support."
+msgstr ""
+
+#: exception.py:29
+msgid ""
+"The file you are trying to upload is {file_size} and cannot be uploaded as it"
+" would exceed the total storage limit by {excess_size}. You currently have "
+"only {storage_free} of {storage_limit} available. Free up some storage space "
+"before uploading."
+msgstr ""
 
 #: model.py:136
 msgid "Uploaded file not found"
@@ -10,20 +32,20 @@ msgstr ""
 msgid "Upload is not completed"
 msgstr "Il caricamento non è stato completato"
 
-#: nodepkg/file-uploader/FileUploader.tsx:19
+#: nodepkg/file-uploader/FileUploader.tsx:18
 #: nodepkg/image-uploader/ImageUploader.tsx:19
 msgid "Select a file"
 msgstr "Seleziona un file"
 
-#: nodepkg/file-uploader/FileUploader.tsx:20
+#: nodepkg/file-uploader/FileUploader.tsx:19
 msgid "or drag and drop here"
 msgstr "oppure trascina e rilascia qui"
 
-#: nodepkg/file-uploader/FileUploader.tsx:21
+#: nodepkg/file-uploader/FileUploader.tsx:20
 msgid "Stop"
 msgstr ""
 
-#: nodepkg/file-uploader/FileUploader.tsx:85
+#: nodepkg/file-uploader/FileUploader.tsx:80
 msgid "max"
 msgstr "max"
 
@@ -35,8 +57,10 @@ msgstr ""
 msgid "{} uploaded..."
 msgstr ""
 
-#: nodepkg/file-uploader/hook/useFileUploader.ts:21
-msgid "File is too large, the limit size is {}."
+#: nodepkg/file-uploader/hook/useFileUploader.ts:22
+msgid ""
+"The file you are trying to upload is {file_size}. The maximum allowed size is"
+" {max_size}, which means it exceeds the limit by {excess_size}."
 msgstr ""
 
 #: nodepkg/image-uploader/ImageUploader.tsx:20

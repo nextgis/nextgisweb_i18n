@@ -1,64 +1,64 @@
-#: api.py:80
+#: api.py:119
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr "系统主体的'%s'属性不能更改。"
 
-#: api.py:87
+#: api.py:126
 msgid "Principal '%s' already exists."
 msgstr "主体'%s'已经存在。"
 
-#: api.py:89
+#: api.py:128
 msgid "Principal with full name '%s' already exists."
 msgstr "全称为 '%s'的主体已存在。"
 
-#: api.py:159
+#: api.py:198
 msgid "Password is not set."
 msgstr ""
 
-#: api.py:210
+#: api.py:249
 msgid "To disable the user '{dn}', remove them from the team."
 msgstr ""
 
-#: api.py:212
+#: api.py:251
 msgid "To enable the user '{dn}', add them to the team."
 msgstr ""
 
-#: api.py:615
+#: api.py:718
 msgid "User '%s' can't be a member of a group."
 msgstr " '%s'用户不能是小组成员。"
 
-#: api.py:622
+#: api.py:725
 msgid "System principals can't be deleted."
 msgstr "系统主体不能删除。"
 
-#: api.py:630
+#: api.py:733
 msgid "To delete the user '{dn}', remove them from the team first."
 msgstr ""
 
-#: api.py:648
+#: api.py:751
 msgid "User is referenced with resources"
 msgstr "用户与资源相连接"
 
-#: api.py:650
+#: api.py:753
 msgid "Group is referenced with resources"
 msgstr "群组与资源相连接"
 
-#: api.py:656
+#: api.py:759
 msgid "Administrator required"
 msgstr ""
 
-#: api.py:657
+#: api.py:760
 msgid "The 'administrators' group must have at least one enabled member."
 msgstr "  'administrators'组必须至少有一个已启用的成员。"
 
-#: component.py:51
+#: component.py:53
 msgid "Administrator"
 msgstr "管理员"
 
-#: component.py:261
+#: component.py:246
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr "已达到最大用户数。您目前计划用户量的限制是%d"
 
-#: component.py:276
+#: component.py:259
 msgid ""
 "Maximum number of local users is reached. Your current plan local user number"
 " limit is {}."
@@ -84,23 +84,23 @@ msgstr ""
 msgid "Invalid authorization link"
 msgstr ""
 
-#: model.py:97
+#: model.py:98
 msgid "Guest"
 msgstr "访客"
 
-#: model.py:98
+#: model.py:99
 msgid "Everyone"
 msgstr "每人"
 
-#: model.py:99
+#: model.py:100
 msgid "Authenticated"
 msgstr "已认证"
 
-#: model.py:100
+#: model.py:101
 msgid "Owner"
 msgstr "持有者"
 
-#: model.py:212
+#: model.py:221
 msgid "Administrators"
 msgstr "管理员"
 
@@ -113,7 +113,7 @@ msgid "Group deleted"
 msgstr "群组已删除"
 
 #: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
-#: nodepkg/user-browse/UserBrowse.tsx:25 nodepkg/user-widget/UserWidget.tsx:44
+#: nodepkg/user-browse/UserBrowse.tsx:26 nodepkg/user-widget/UserWidget.tsx:47
 msgid "Full name"
 msgstr "全称"
 
@@ -126,20 +126,20 @@ msgid "New users"
 msgstr ""
 
 #: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
-#: nodepkg/user-browse/UserBrowse.tsx:28
+#: nodepkg/user-browse/UserBrowse.tsx:29
 msgid "Yes"
 msgstr ""
 
 #: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
-#: nodepkg/user-browse/UserBrowse.tsx:29
+#: nodepkg/user-browse/UserBrowse.tsx:30
 msgid "No"
 msgstr ""
 
-#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:342 view.py:431
+#: nodepkg/group-widget/GroupWidget.tsx:41 view.py:339 view.py:481
 msgid "Users"
 msgstr "用户"
 
-#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:108
+#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:107
 msgid "Permissions"
 msgstr ""
 
@@ -147,29 +147,29 @@ msgstr ""
 msgid "{dn} mapping"
 msgstr ""
 
-#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:120
+#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:119
 msgid "Description"
 msgstr "说明"
 
-#: nodepkg/login/LoginForm.tsx:21
+#: nodepkg/login/LoginForm.tsx:22
 msgid "Sign in with {}"
 msgstr ""
 
-#: nodepkg/login/LoginForm.tsx:22 view.py:60
+#: nodepkg/login/LoginForm.tsx:23 view.py:61
 msgid "Sign in to Web GIS"
 msgstr "登录GIS区域网"
 
-#: nodepkg/login/LoginForm.tsx:23 nodepkg/session-invite/SessionInvite.tsx:18
+#: nodepkg/login/LoginForm.tsx:24 nodepkg/session-invite/SessionInvite.tsx:18
 msgid "Sign in"
 msgstr "登录"
 
-#: nodepkg/login/LoginForm.tsx:41 nodepkg/settings-form/SettingsForm.tsx:54
-#: nodepkg/user-browse/UserBrowse.tsx:26 nodepkg/user-widget/UserWidget.tsx:50
+#: nodepkg/login/LoginForm.tsx:43 nodepkg/settings-form/SettingsForm.tsx:54
+#: nodepkg/user-browse/UserBrowse.tsx:27 nodepkg/user-widget/UserWidget.tsx:53
 msgid "Login"
 msgstr "登录名称"
 
-#: nodepkg/login/LoginForm.tsx:46 nodepkg/user-browse/UserBrowse.tsx:27
-#: nodepkg/user-widget/UserWidget.tsx:59
+#: nodepkg/login/LoginForm.tsx:48 nodepkg/user-browse/UserBrowse.tsx:28
+#: nodepkg/user-widget/UserWidget.tsx:62
 msgid "Password"
 msgstr "密码"
 
@@ -177,7 +177,11 @@ msgstr "密码"
 msgid "or using login and password"
 msgstr ""
 
-#: nodepkg/oauth.tsx:26
+#: nodepkg/login/LoginForm.tsx:143
+msgid "Contact administrator"
+msgstr ""
+
+#: nodepkg/oauth.tsx:31
 msgid "Manage team"
 msgstr ""
 
@@ -193,7 +197,7 @@ msgstr ""
 msgid "Account not bound"
 msgstr ""
 
-#: nodepkg/settings-form/SettingsForm.tsx:62 nodepkg/user-widget/UserWidget.tsx:114
+#: nodepkg/settings-form/SettingsForm.tsx:62 nodepkg/user-widget/UserWidget.tsx:113
 msgid "Language"
 msgstr "语言"
 
@@ -201,45 +205,45 @@ msgstr "语言"
 msgid "Saved"
 msgstr "已保存"
 
-#: nodepkg/user-browse/UserBrowse.tsx:23 nodepkg/user-widget/UserWidget.tsx:91
+#: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:92
 msgid "Disabled"
 msgstr "已禁用"
 
-#: nodepkg/user-browse/UserBrowse.tsx:24
+#: nodepkg/user-browse/UserBrowse.tsx:25
 msgid "Enabled"
 msgstr "已启用"
 
-#: nodepkg/user-browse/UserBrowse.tsx:30
+#: nodepkg/user-browse/UserBrowse.tsx:31
 msgid "Last activity"
 msgstr "最后活动"
 
-#: nodepkg/user-browse/UserBrowse.tsx:31
+#: nodepkg/user-browse/UserBrowse.tsx:32
 msgid "Status"
 msgstr "状态"
 
-#: nodepkg/user-browse/UserBrowse.tsx:35
+#: nodepkg/user-browse/UserBrowse.tsx:33
 msgid "Users with a password can sign in with login and password."
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.tsx:36
+#: nodepkg/user-browse/UserBrowse.tsx:34
 msgid "Users bound to {dn} can sign in with {dn}."
 msgstr ""
 
-#: nodepkg/user-browse/UserBrowse.tsx:40 nodepkg/user-widget/UserWidget.tsx:22
-msgid "Delete user?"
-msgstr "删除用户"
-
-#: nodepkg/user-browse/UserBrowse.tsx:41 nodepkg/user-widget/UserWidget.tsx:23
-msgid "User deleted"
-msgstr "用户已删除"
-
-#: nodepkg/user-browse/UserBrowse.tsx:126
+#: nodepkg/user-browse/UserBrowse.tsx:35
 msgid ""
 "Your team members won't be shown here until their first logon. Set \"New "
 "users\" flag for a group to automatically assign new user to this group. You "
 "may also modify permission for authenticated users to manage access for your "
 "team members."
 msgstr ""
+
+#: nodepkg/user-browse/UserBrowse.tsx:38 nodepkg/user-widget/UserWidget.tsx:25
+msgid "Delete user?"
+msgstr "删除用户"
+
+#: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:26
+msgid "User deleted"
+msgstr "用户已删除"
 
 #: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:65
 msgid "Disable"
@@ -249,23 +253,23 @@ msgstr "关闭"
 msgid "Enable"
 msgstr "启用"
 
-#: nodepkg/user-widget/UserWidget.tsx:64 nodepkg/user-widget/UserWidget.tsx:70
-msgid "Enter new password here"
-msgstr "在此输入新的密码"
-
-#: nodepkg/user-widget/UserWidget.tsx:85
-msgid "Authorization link"
-msgstr ""
-
-#: nodepkg/user-widget/UserWidget.tsx:97 view.py:373 view.py:437
-msgid "Groups"
-msgstr "群组"
-
-#: nodepkg/user-widget/UserWidget.tsx:134
+#: nodepkg/user-widget/UserWidget.tsx:22
 msgid ""
 "Consider adding {name} user to your team instead of creating a new user with "
 "a password."
 msgstr ""
+
+#: nodepkg/user-widget/UserWidget.tsx:66 nodepkg/user-widget/UserWidget.tsx:71
+msgid "Enter new password here"
+msgstr "在此输入新的密码"
+
+#: nodepkg/user-widget/UserWidget.tsx:86
+msgid "Authorization link"
+msgstr ""
+
+#: nodepkg/user-widget/UserWidget.tsx:98 view.py:370 view.py:487
+msgid "Groups"
+msgstr "群组"
 
 #: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
 #: nodepkg/user-widget/UserWidgetPassword.tsx:10
@@ -282,7 +286,7 @@ msgstr ""
 msgid "Turn off"
 msgstr ""
 
-#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:74
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:70
 msgid "The generated link will be available after saving."
 msgstr ""
 
@@ -300,27 +304,37 @@ msgid ""
 "in using this account instead of binding it."
 msgstr ""
 
-#: oauth.py:712
+#: oauth.py:718
 msgid "OAuth authorization error"
 msgstr "授权错误OAuth"
 
-#: oauth.py:717
-msgid "Invalid OAuth token"
-msgstr "无效令牌OAuth"
+#: oauth.py:723
+msgid "Team membership required"
+msgstr ""
 
-#: oauth.py:722
-msgid "Invalid OAuth scope"
-msgstr "无效的OAuth 范围"
-
-#: oauth.py:727
-msgid "OAuth password grant type failed"
+#: oauth.py:725
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and "
+"ask to be added to the team."
 msgstr ""
 
 #: oauth.py:732
+msgid "Invalid OAuth token"
+msgstr "无效令牌OAuth"
+
+#: oauth.py:737
+msgid "Invalid OAuth scope"
+msgstr "无效的OAuth 范围"
+
+#: oauth.py:742
+msgid "OAuth password grant type failed"
+msgstr ""
+
+#: oauth.py:747
 msgid "OAuth token refresh failed"
 msgstr "无法更新令牌OAuth"
 
-#: oauth.py:737
+#: oauth.py:752
 msgid "OAuth access token is expired"
 msgstr "访问令牌已过期OAuth"
 
@@ -332,64 +346,54 @@ msgstr ""
 msgid "Manage"
 msgstr ""
 
-#: permission.py:39 view.py:427
+#: permission.py:39 view.py:477
 msgid "Groups and users"
 msgstr "群组和用户"
 
-#: view.py:73
+#: view.py:76
 msgid "Invitation session"
 msgstr ""
 
-#: view.py:90
+#: view.py:93
 msgid "Session not found."
 msgstr "会话未找到"
 
-#: view.py:94
+#: view.py:97
 msgid "Invalid 'expires' parameter."
 msgstr "无效的‘过期’参数"
 
-#: view.py:96
+#: view.py:99
 msgid "Session expired."
 msgstr "会话已过期。"
 
-#: view.py:116
+#: view.py:119
 msgid ""
 "Failed to authenticate using the given authorization link. Please check the "
 "link and contact the administrator."
 msgstr ""
 
-#: view.py:126
+#: view.py:129
 msgid "Usage of authorization link is forbidden for administrators."
 msgstr ""
 
-#: view.py:165
-msgid "Team membership required"
-msgstr ""
-
-#: view.py:167
-msgid ""
-"You are not a member of this Web GIS team. Contact Web GIS administrator and "
-"ask to be added to the team."
-msgstr ""
-
-#: view.py:187
+#: view.py:182
 msgid ""
 "The authorization state cookie is either missing or invalid. Ensure that "
 "cookies are not blocked in your browser and try to log in again."
 msgstr ""
 
-#: view.py:198
+#: view.py:193
 msgid "Unable to bind unauthenticated user. Ensure you are logged in and try again."
 msgstr ""
 
-#: view.py:334
+#: view.py:331
 msgid "User settings"
 msgstr "用户设置"
 
-#: view.py:352
+#: view.py:349
 msgid "Create new user"
 msgstr "创建新用户"
 
-#: view.py:384
+#: view.py:381
 msgid "Create new group"
 msgstr "创建新群组"

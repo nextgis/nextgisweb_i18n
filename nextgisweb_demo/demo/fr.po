@@ -2,6 +2,12 @@
 msgid "Demo project"
 msgstr "Projet de démonstration"
 
+#: nodepkg/resource-action-plugin.tsx:12
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:17
+#: project/base.py:58 view.py:25
+msgid "Demo data and projects"
+msgstr "Données de démonstration et projets"
+
 #: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:14
 msgid "This is your demo project."
 msgstr "Ceci est votre projet de démonstration."
@@ -58,11 +64,6 @@ msgstr ""
 msgid "You can also explore a read-only copy without cloning."
 msgstr "Vous pouvez également explorer une copie en lecture seule sans clonage."
 
-#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:17
-#: project/base.py:58 view.py:27 view.py:79
-msgid "Demo data and projects"
-msgstr ""
-
 #: nodepkg/selector/Selector.tsx:72
 msgid "Go to"
 msgstr "Aller à"
@@ -104,14 +105,22 @@ msgid "Hydrology"
 msgstr ""
 
 #: project/__init__.py:85
+msgid "Buffer states on the eastern borders of Byzantium"
+msgstr ""
+
+#: project/__init__.py:96
+msgid "Cadastral map"
+msgstr ""
+
+#: project/__init__.py:106
 msgid "Diagrams"
 msgstr "Diagrammes"
 
-#: project/__init__.py:95
+#: project/__init__.py:116
 msgid "Distribution heatmap"
 msgstr "Carte thermique de distribution"
 
-#: project/__init__.py:106
+#: project/__init__.py:127
 msgid "Tracking"
 msgstr "Suivi"
 
@@ -142,6 +151,116 @@ msgstr "frontière administrative de Graz"
 #: project/ambulance/__init__.py:43
 msgid "Ambulance availability, minutes"
 msgstr "Disponibilité des ambulances, minutes"
+
+#: project/byzantium/__init__.py:24
+msgid "Settlements"
+msgstr ""
+
+#: project/byzantium/__init__.py:46 project/byzantium/__init__.py:50
+msgid "Natural features"
+msgstr ""
+
+#: project/byzantium/__init__.py:58
+msgid "Rivers"
+msgstr ""
+
+#: project/byzantium/__init__.py:59
+msgid "Lakes"
+msgstr ""
+
+#: project/byzantium/__init__.py:60
+msgid "Seas"
+msgstr ""
+
+#: project/byzantium/__init__.py:87 project/byzantium/__init__.py:91
+msgid "Bounds"
+msgstr ""
+
+#: project/byzantium/__init__.py:108
+#, python-brace-format
+msgid "Labels {}"
+msgstr ""
+
+#: project/byzantium/__init__.py:121 project/byzantium/__init__.py:128
+#: project/byzantium/__init__.py:141 project/byzantium/__init__.py:148
+#, python-brace-format
+msgid "Territories {}"
+msgstr ""
+
+#: project/byzantium/__init__.py:134 project/byzantium/__init__.py:154
+#: project/byzantium/__init__.py:161
+#, python-brace-format
+msgid "Bounds {}"
+msgstr ""
+
+#: project/cadastral/__init__.py:17
+msgid "Cadastral data"
+msgstr ""
+
+#: project/cadastral/__init__.py:18
+msgid "Infrastructure"
+msgstr ""
+
+#: project/cadastral/__init__.py:19
+msgid "Planning and zoning"
+msgstr ""
+
+#: project/cadastral/__init__.py:21
+msgid "Zones with special conditions of use"
+msgstr ""
+
+#: project/cadastral/__init__.py:23
+msgid "Vegetation and terrain"
+msgstr ""
+
+#: project/cadastral/__init__.py:29
+msgid "Redevelopment area"
+msgstr ""
+
+#: project/cadastral/__init__.py:36
+msgid "Cadastral districts"
+msgstr ""
+
+#: project/cadastral/__init__.py:42 project/district/__init__.py:35
+#: project/osmdata/__init__.py:21
+msgid "Buildings"
+msgstr ""
+
+#: project/cadastral/__init__.py:48
+msgid "Cadastral parcels"
+msgstr ""
+
+#: project/cadastral/__init__.py:54
+msgid "Cadastral parcels cost"
+msgstr ""
+
+#: project/cadastral/__init__.py:61
+msgid "Bus stations"
+msgstr ""
+
+#: project/cadastral/__init__.py:67
+msgid "Roads"
+msgstr ""
+
+#: project/cadastral/__init__.py:74
+msgid "Land use zoning"
+msgstr ""
+
+#: project/cadastral/__init__.py:81
+msgid "Water protection zone"
+msgstr ""
+
+#: project/cadastral/__init__.py:88
+msgid "Parks and woods"
+msgstr ""
+
+#: project/cadastral/__init__.py:94
+msgid "Major water bodies"
+msgstr ""
+
+#: project/cadastral/__init__.py:124
+msgid "Bus station area"
+msgstr ""
 
 #: project/country/__init__.py:22
 msgid "Major cities"
@@ -177,10 +296,6 @@ msgstr ""
 
 #: project/district/__init__.py:29
 msgid "Routes"
-msgstr ""
-
-#: project/district/__init__.py:35 project/osmdata/__init__.py:21
-msgid "Buildings"
 msgstr ""
 
 #: project/flooding/__init__.py:18

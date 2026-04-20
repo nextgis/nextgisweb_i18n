@@ -18,21 +18,21 @@ msgstr "Visualizador"
 msgid "Fragment"
 msgstr ""
 
-#: model.py:47 model.py:65 view.py:222
+#: model.py:46 model.py:64 view.py:222
 msgid "Web map"
 msgstr "Mapa Web"
 
-#: model.py:49
+#: model.py:48
 msgctxt "permission"
 msgid "View annotations"
 msgstr ""
 
-#: model.py:50
+#: model.py:49
 msgctxt "permission"
 msgid "Draw annotations"
 msgstr ""
 
-#: model.py:51
+#: model.py:50
 msgctxt "permission"
 msgid "Manage annotations"
 msgstr ""
@@ -212,7 +212,7 @@ msgstr ""
 msgid "Customize draw order"
 msgstr ""
 
-#: nodepkg/items-widget/ItemsWidget.tsx:231 nodepkg/panel/layers/plugin.tsx:10
+#: nodepkg/items-widget/ItemsWidget.tsx:231 nodepkg/panel/layers/plugin.tsx:11
 msgid "Layers"
 msgstr "Camadas"
 
@@ -255,7 +255,7 @@ msgstr ""
 msgid "Unable to load tile"
 msgstr ""
 
-#: nodepkg/map-component/control/IdentifyControl.tsx:89
+#: nodepkg/map-component/control/IdentifyControl.tsx:92
 msgid "Clear selection"
 msgstr ""
 
@@ -439,20 +439,28 @@ msgstr ""
 msgid "Other private annotations"
 msgstr ""
 
-#: nodepkg/panel/annotations/plugin.tsx:13
+#: nodepkg/panel/annotations/plugin.tsx:14
 #: nodepkg/settings-widget/SettingsWidget.tsx:28
 msgid "Annotations"
 msgstr "Anotações"
 
-#: nodepkg/panel/bookmarks/plugin.tsx:11
+#: nodepkg/panel/bookmarks/plugin.tsx:12
 #: nodepkg/settings-widget/SettingsWidget.tsx:30
 msgid "Bookmarks"
 msgstr "Marcadores"
 
-#: nodepkg/panel/description/plugin.tsx:10
-#: nodepkg/plugin/layer-info/LayerInfoPlugin.tsx:33
+#: nodepkg/panel/contactAdmin/plugin.tsx:20
+msgid "Contact Web GIS administrator"
+msgstr ""
+
+#: nodepkg/panel/description/plugin.tsx:11
+#: nodepkg/plugin/layer-info/LayerInfoPlugin.tsx:42
 msgid "Description"
 msgstr "Descrição"
+
+#: nodepkg/panel/editWebmap/plugin.tsx:24
+msgid "Edit web map"
+msgstr ""
 
 #: nodepkg/panel/identify/CoordinatesSwitcher.tsx:177
 msgid "Zoom to identification point"
@@ -512,19 +520,19 @@ msgstr ""
 msgid "N/A"
 msgstr ""
 
-#: nodepkg/panel/identify/plugin.tsx:12 nodepkg/store/Identify.ts:42
+#: nodepkg/panel/identify/plugin.tsx:13 nodepkg/store/Identify.ts:42
 msgid "Identify"
 msgstr "Identificar"
 
-#: nodepkg/panel/layers/LayersDropdown.tsx:44
+#: nodepkg/panel/layers/LayersDropdown.tsx:59
 msgid "Zoom to all layers"
 msgstr ""
 
-#: nodepkg/panel/layers/LayersDropdown.tsx:50
+#: nodepkg/panel/layers/LayersDropdown.tsx:65
 msgid "Hide all layers"
 msgstr ""
 
-#: nodepkg/panel/layers/LayersDropdown.tsx:57
+#: nodepkg/panel/layers/LayersDropdown.tsx:72
 msgid "Reset layers"
 msgstr ""
 
@@ -622,7 +630,7 @@ msgstr ""
 msgid "PDF"
 msgstr ""
 
-#: nodepkg/panel/print/plugin.tsx:10
+#: nodepkg/panel/print/plugin.tsx:11
 msgid "Print map"
 msgstr "Imprimir mapa"
 
@@ -638,7 +646,7 @@ msgstr "Não encontrado"
 msgid "Refine search criterion. Displayed first 100 search results."
 msgstr ""
 
-#: nodepkg/panel/search/plugin.tsx:11
+#: nodepkg/panel/search/plugin.tsx:12
 msgid "Search"
 msgstr "Pesquisa"
 
@@ -732,7 +740,7 @@ msgstr ""
 msgid "Preview"
 msgstr "Visualizar"
 
-#: nodepkg/panel/share/plugin.tsx:11
+#: nodepkg/panel/share/plugin.tsx:12
 msgid "Share"
 msgstr "Partilhar"
 
@@ -757,7 +765,7 @@ msgstr ""
 msgid "Enable snapping"
 msgstr ""
 
-#: nodepkg/plugin/layer-editor/ToolEditor.tsx:183
+#: nodepkg/plugin/layer-editor/ToolEditor.tsx:189
 msgid "Stop editing layer: {layer}"
 msgstr ""
 

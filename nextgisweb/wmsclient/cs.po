@@ -1,16 +1,16 @@
-#: model.py:52
+#: model.py:63
 msgid "WMS connection"
 msgstr "WMS připojení"
 
-#: model.py:138
+#: model.py:153
 msgid "WMS capabilities"
 msgstr "Funkce WMS"
 
-#: model.py:139 nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:98
+#: model.py:154 nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:166
 msgid "Image format"
 msgstr "Formát obrázku"
 
-#: model.py:231
+#: model.py:251
 msgid "WMS layer"
 msgstr "WMS vrstva"
 
@@ -59,24 +59,32 @@ msgid "Skip SSL/TLS certificate verification"
 msgstr ""
 
 #: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:112
-#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:85
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:153
 msgid "WMS Connection"
 msgstr ""
 
-#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:109
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:85
+msgid "Add to Web GIS"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:177
 msgid "WMS layers"
 msgstr "Vrstvy WMS"
 
-#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:118
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:186
+msgid "Remote SRS"
+msgstr ""
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:197
 #: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:65
 msgid "Vendor parameters"
 msgstr "Parametry dodavatele"
 
-#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:131
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:210
 msgid "Edit vendor parameters"
 msgstr ""
 
-#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:140
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:219
 msgid "WMS Layer"
 msgstr ""
 

@@ -1,30 +1,30 @@
-#: api.py:427
+#: api.py:447
 msgid "Permission not found"
 msgstr "Permesso non trovato"
 
-#: attr/resource.py:105
+#: attr/resource.py:108
 msgid "Resource ID"
 msgstr ""
 
-#: attr/resource.py:107
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:141
+#: attr/resource.py:110
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:145
 msgid "Type"
 msgstr "Tipo"
 
-#: attr/resource.py:110 nodepkg/editor-widget/EditorWidget.tsx:64
+#: attr/resource.py:113 nodepkg/editor-widget/EditorWidget.tsx:58
 msgid "Keyname"
 msgstr "Nome della chiave"
 
-#: attr/resource.py:115 nodepkg/effective-permissions/EffectivePermissions.tsx:15
+#: attr/resource.py:118 nodepkg/effective-permissions/EffectivePermissions.tsx:15
 msgid "Yes"
 msgstr "Si"
 
-#: attr/resource.py:115 nodepkg/effective-permissions/EffectivePermissions.tsx:15
+#: attr/resource.py:118 nodepkg/effective-permissions/EffectivePermissions.tsx:15
 msgid "No"
 msgstr "No"
 
-#: attr/resource.py:118 nodepkg/editor-widget/EditorWidget.tsx:50
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:148
+#: attr/resource.py:121 nodepkg/editor-widget/EditorWidget.tsx:46
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:152
 msgid "Owner"
 msgstr "Proprietario"
 
@@ -140,7 +140,7 @@ msgstr ""
 msgid "Go to"
 msgstr ""
 
-#: favorite/__init__.py:9 nodepkg/favorite/FavoritePage.tsx:380
+#: favorite/__init__.py:9 nodepkg/favorite/FavoritePage.tsx:366
 msgid "Edit"
 msgstr ""
 
@@ -152,42 +152,43 @@ msgstr ""
 msgid "User resources"
 msgstr ""
 
-#: model.py:116 nodepkg/editor-widget/EditorWidget.tsx:79 scope.py:12
+#: model.py:116 nodepkg/editor-widget/EditorWidget.tsx:73
+#: nodepkg/resource-section/registry.ts:124 scope.py:12
 msgid "Resource"
 msgstr "Risorsa"
 
-#: model.py:303
+#: model.py:309
 msgid "Resource can not be a parent himself."
 msgstr "La risorsa non può essere padre di sé stessa."
 
-#: model.py:316
+#: model.py:322
 msgid "Resource keyname is not unique."
 msgstr "Il nome chiave della risorsa non è univoco."
 
-#: model.py:348
+#: model.py:354
 msgid "Default style"
 msgstr ""
 
-#: model.py:466
+#: model.py:472
 msgid "Resource can not be without a parent."
 msgstr "La risorsa deve avere un padre (origine)."
 
-#: model.py:469
+#: model.py:475
 #, python-brace-format
 msgid "You are not allowed to create or move a resource of type '{}' here."
 msgstr ""
 
-#: model.py:477
+#: model.py:483
 #, python-format
 msgid "You are not allowed to manage children of resource with id = %d."
 msgstr "Non sei abilitato alla gestione dei figli della risorsa con id = %d."
 
-#: model.py:489
+#: model.py:495
 #, python-format
 msgid "Resource can not be a child of resource id = %d."
 msgstr "La risorsa non può essere figlia della risorsa con id = %d."
 
-#: model.py:565
+#: model.py:571
 #, python-brace-format
 msgid ""
 "Unable to revoke '{permission}' permission for '{user}' as the user belongs "
@@ -195,13 +196,13 @@ msgid ""
 "configure permissions of resources."
 msgstr ""
 
-#: model.py:663
+#: model.py:669
 msgid "Resource group"
 msgstr "Gruppo di risorse"
 
 #: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:31
 #: nodepkg/editor-widget/EditorWidget.tsx:19
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:127
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:131
 msgid "Display name"
 msgstr "Nome visualizzato"
 
@@ -225,47 +226,47 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#: nodepkg/component/resource-picker/pickToFocusTable.tsx:52
+#: nodepkg/component/resource-picker/pickToFocusTable.tsx:51
 #: nodepkg/permissions-widget/PermissionsWidget.tsx:26
 msgid "Add"
 msgstr "Aggiungi"
 
-#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:30
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:34
 msgid "Pick this group"
 msgstr ""
 
-#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:31
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:35
 msgid "Pick selected"
 msgstr ""
 
-#: nodepkg/composite/CompositeStore.ts:249
+#: nodepkg/composite/CompositeStore.ts:244
 msgid "Errors found during data validation. Tabs with errors marked in red."
 msgstr ""
 "Errori trovati durante la validazione dati. Le schede con errori sono segnate"
 " in rosso."
 
-#: nodepkg/composite/CompositeStore.ts:250
+#: nodepkg/composite/CompositeStore.ts:247
 msgid "Validation error"
 msgstr "Errore di validazione"
 
-#: nodepkg/composite/CompositeWidget.tsx:27
+#: nodepkg/composite/CompositeWidget.tsx:34
 msgid "Create"
 msgstr "Creazione"
 
-#: nodepkg/composite/CompositeWidget.tsx:28
+#: nodepkg/composite/CompositeWidget.tsx:35
 msgid "Create and edit"
 msgstr "Crea e modifica"
 
-#: nodepkg/composite/CompositeWidget.tsx:29
-#: nodepkg/export-settings/ExportSettings.tsx:85
+#: nodepkg/composite/CompositeWidget.tsx:36
+#: nodepkg/export-settings/ExportSettings.tsx:80
 msgid "Save"
 msgstr "Salva"
 
-#: nodepkg/composite/CompositeWidget.tsx:30
+#: nodepkg/composite/CompositeWidget.tsx:37
 msgid "Please wait. Processing request..."
 msgstr "Attendere prego. Richiesta in elaborazione..."
 
-#: nodepkg/delete-page/DeletePage.tsx:124
+#: nodepkg/delete-page/DeletePage.tsx:120
 msgid "Cancel"
 msgstr ""
 
@@ -333,7 +334,7 @@ msgstr "Descrizione"
 msgid "Identifier for API integration (optional)"
 msgstr ""
 
-#: nodepkg/editor-widget/EditorWidget.tsx:32
+#: nodepkg/editor-widget/EditorWidget.tsx:30
 msgid "Parent"
 msgstr "Padre (origine)"
 
@@ -353,26 +354,26 @@ msgid ""
 "resource data."
 msgstr ""
 
-#: nodepkg/export-settings/ExportSettings.tsx:72
+#: nodepkg/export-settings/ExportSettings.tsx:69
 msgid "Users with \"Data: Read\" permission"
 msgstr ""
 
-#: nodepkg/export-settings/ExportSettings.tsx:75
+#: nodepkg/export-settings/ExportSettings.tsx:72
 msgid "Users with \"Data: Modify\" permission"
 msgstr ""
 
-#: nodepkg/export-settings/ExportSettings.tsx:78
+#: nodepkg/export-settings/ExportSettings.tsx:74
 msgid "Administrators"
 msgstr ""
 
-#: nodepkg/favorite/FavoritePage.tsx:27
+#: nodepkg/favorite/FavoritePage.tsx:26
 #, python-brace-format
 msgid ""
 "No favorite resources have been added yet. Use the star icon ({}) in the "
 "user's context menu to add items here."
 msgstr ""
 
-#: nodepkg/favorite/FavoritePage.tsx:380
+#: nodepkg/favorite/FavoritePage.tsx:366
 msgid "Done"
 msgstr ""
 
@@ -384,23 +385,23 @@ msgstr ""
 msgid "Removed from favorites"
 msgstr ""
 
-#: nodepkg/hook/useResourceNotify.ts:10
-msgid "Please confirm resource deletion. This action cannot be undone."
-msgstr ""
-
-#: nodepkg/hook/useResourceNotify.ts:18
+#: nodepkg/hook/useResourceNotify.ts:14
 #, python-brace-format
 msgid "The resource has been deleted"
 msgid_plural "{} resources have been deleted"
 msgstr[0] ""
 msgstr[1] ""
 
-#: nodepkg/hook/useResourceNotify.ts:27 nodepkg/hook/useResourceNotify.ts:44
+#: nodepkg/hook/useResourceNotify.ts:23 nodepkg/hook/useResourceNotify.ts:47
 #, python-brace-format
 msgid "The resource has been moved"
 msgid_plural "{} resources have been moved"
 msgstr[0] ""
 msgstr[1] ""
+
+#: nodepkg/hook/useResourceNotify.ts:61
+msgid "Please confirm resource deletion. This action cannot be undone."
+msgstr ""
 
 #: nodepkg/permissions-widget/PermissionStoreItem.ts:14
 msgid "All fields are required"
@@ -410,7 +411,7 @@ msgstr ""
 msgid "Row conflicts with another"
 msgstr ""
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:21 view.py:333
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:21
 msgid "Action"
 msgstr "Azione"
 
@@ -446,70 +447,80 @@ msgstr ""
 msgid "All permissions"
 msgstr "Tutti i permessi"
 
-#: nodepkg/permissions-widget/PermissionsWidget.tsx:230
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:246
 msgid "Permissions"
 msgstr "Permessi"
 
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:156
-msgid "Created"
-msgstr ""
+#: nodepkg/resource-action-plugin.tsx:28
+msgid "Update"
+msgstr "Aggiornamento"
 
-#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:174
-msgid "Volume"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:103
-msgid "Moving resources"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:164
-msgid "Deleting resources"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:190
-msgid "Turn off multiple selection"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:191
-msgid "Select multiple resources"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:201
-msgid "Hide resources volume"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:202
-msgid "Show resources volume"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:214
-msgid "Hide resource creation date"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:215
-msgid "Show resource creation date"
-msgstr ""
-
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:229
-#: nodepkg/resource-section/children/resource-action-plugin.tsx:15 view.py:363
+#: nodepkg/resource-action-plugin.tsx:39
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:224
 msgid "Delete"
 msgstr "Eliminazione"
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:238
+#: nodepkg/resource-action-plugin.tsx:70 nodepkg/resource-action-plugin.tsx:80
+#: view.py:142
+msgid "User permissions"
+msgstr "Permessi utente"
+
+#: nodepkg/resource-action-plugin.tsx:93 nodepkg/resource-action-plugin.tsx:103
+#: view.py:131
+msgid "JSON view"
+msgstr "Vista JSON"
+
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:160
+msgid "Created"
+msgstr ""
+
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:178
+msgid "Volume"
+msgstr ""
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:98
+msgid "Moving resources"
+msgstr ""
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:159
+msgid "Deleting resources"
+msgstr ""
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:185
+msgid "Turn off multiple selection"
+msgstr ""
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:186
+msgid "Select multiple resources"
+msgstr ""
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:196
+msgid "Hide resource volume"
+msgstr ""
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:197
+msgid "Show resource volume"
+msgstr ""
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:209
+msgid "Hide resource creation date"
+msgstr ""
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:210
+msgid "Show resource creation date"
+msgstr ""
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:230
 msgid "Not all of the selected can be deleted."
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:254
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:244
 msgid "Move"
 msgstr ""
 
-#: nodepkg/resource-section/children/component/MenuDropdown.tsx:273
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:263
 msgid "Export vector layers"
 msgstr ""
-
-#: nodepkg/resource-section/children/resource-action-plugin.tsx:25 view.py:349
-msgid "Update"
-msgstr "Aggiornamento"
 
 #: nodepkg/resource-section/children/util/forEachSelected.ts:7
 msgid "Operation in progress"
@@ -523,12 +534,12 @@ msgstr "Utilizza questi link per utilizzare i dati in applicazioni esterne."
 msgid "Read more"
 msgstr ""
 
-#: nodepkg/resource-section/external-access/ResourceSectionExternalAccess.tsx:86
+#: nodepkg/resource-section/external-access/ResourceSectionExternalAccess.tsx:82
 msgid "External access"
 msgstr ""
 
 #: nodepkg/resource-section/main/CreateResourceButton.tsx:7
-#: nodepkg/resource-section/main/CreateResourceModal.tsx:20 view.py:190 view.py:332
+#: nodepkg/resource-section/main/CreateResourceModal.tsx:20 view.py:189
 msgid "Create resource"
 msgstr "Crea risorsa"
 
@@ -540,11 +551,15 @@ msgstr ""
 msgid "Everything"
 msgstr ""
 
+#: nodepkg/resource-section/registry.ts:129
+msgid "Extra"
+msgstr "Extra"
+
 #: nodepkg/resources-filter/ResourcesFilter.tsx:129
 msgid "Resources not found"
 msgstr ""
 
-#: nodepkg/resources-filter/ResourcesFilter.tsx:134
+#: nodepkg/resources-filter/ResourcesFilter.tsx:136
 msgid "Search resources"
 msgstr ""
 
@@ -621,31 +636,19 @@ msgctxt "permission"
 msgid "Configure service"
 msgstr ""
 
-#: view.py:132 view.py:372
-msgid "JSON view"
-msgstr "Vista JSON"
-
-#: view.py:143 view.py:379
-msgid "User permissions"
-msgstr "Permessi utente"
-
-#: view.py:202
+#: view.py:201
 msgid "Update resource"
 msgstr "Aggiorna risorsa"
 
-#: view.py:213
+#: view.py:212
 msgid "Delete resource"
 msgstr "Elimina risorsa"
 
-#: view.py:223 view.py:392
+#: view.py:222 view.py:335
 msgid "Resource export"
 msgstr ""
 
-#: view.py:283
+#: view.py:282
 #, python-format
 msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
 msgstr "Permessi '%s' insufficienti nell'ambito '%s' per la risorsa con id = %d."
-
-#: view.py:334
-msgid "Extra"
-msgstr "Extra"

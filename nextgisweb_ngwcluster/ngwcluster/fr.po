@@ -1,32 +1,28 @@
-#: lockable_feature.py:103
+#: lockable_feature.py:74
 msgid "Use on other websites (CORS)"
 msgstr "Utiliser sur d'autres sites Web (CORS)"
 
-#: lockable_feature.py:124
+#: lockable_feature.py:92
 msgid "Custom domain and branding"
 msgstr "Domaine et image de marque personnalisés"
 
-#: lockable_feature.py:137
-msgid "Custom SRS"
-msgstr "SRS personnalisé"
-
-#: lockable_feature.py:150
+#: lockable_feature.py:98
 msgid "Improved performance"
 msgstr "Performances améliorées"
 
-#: lockable_feature.py:157
+#: lockable_feature.py:105
 msgid "Access management"
 msgstr "Gestion des accès"
 
-#: lockable_feature.py:229
+#: lockable_feature.py:177
 msgid "Technical support"
 msgstr "Support technique"
 
-#: lockable_feature.py:234
+#: lockable_feature.py:182
 msgid "On-demand backup restore"
 msgstr "Restauration de sauvegarde à la demande"
 
-#: lockable_feature.py:255
+#: lockable_feature.py:203
 msgid "Tile caching"
 msgstr "Mise en cache des tuiles"
 
@@ -76,7 +72,7 @@ msgid "Your plan — "
 msgstr "Votre plan — "
 
 #: nodepkg/plan-and-features/PlanAndFeatures.tsx:31
-#: nodepkg/resource-widget/base.tsx:26 nodepkg/sailor-banner/SailorBanner.tsx:16
+#: nodepkg/resource-widget/base.tsx:26 nodepkg/sailor-banner/SailorBanner.tsx:17
 msgid "Change plan"
 msgstr "Modifier le plan"
 
@@ -120,7 +116,7 @@ msgstr "Apprendre encore plus"
 msgid "Hide"
 msgstr "Cacher"
 
-#: nodepkg/resource-widget/base.tsx:24 service_plan.py:315
+#: nodepkg/resource-widget/base.tsx:24 service_plan.py:256
 msgid "{} feature is not available on your plan."
 msgstr "La fonctionnalité {} n'est pas disponible sur votre forfait."
 
@@ -128,19 +124,19 @@ msgstr "La fonctionnalité {} n'est pas disponible sur votre forfait."
 msgid "These features are not available on your plan:"
 msgstr "Ces fonctionnalités ne sont pas disponibles avec votre forfait :"
 
-#: nodepkg/sailor-banner/SailorBanner.tsx:13
+#: nodepkg/sailor-banner/SailorBanner.tsx:14
 msgid ""
 "<strong>Unlimited</strong> maps and layers, plus all <strong>NextGIS</strong>"
 " features with <strong>Premium</strong>!"
 msgstr ""
 
-#: nodepkg/sailor-banner/SailorBanner.tsx:14
+#: nodepkg/sailor-banner/SailorBanner.tsx:15
 msgid ""
 "Create your own Web GIS with <strong>NextGIS</strong> in minutes — it’s "
 "<strong>FREE</strong>!"
 msgstr ""
 
-#: nodepkg/sailor-banner/SailorBanner.tsx:15
+#: nodepkg/sailor-banner/SailorBanner.tsx:16
 msgid ""
 "Upgrade to <strong>Premium</strong> or <strong>Mini</strong> to hide this "
 "banner permanently for guests and administrators."
@@ -150,38 +146,30 @@ msgstr ""
 msgid "Upgrade"
 msgstr "mise à niveau"
 
-#: service_plan.py:101
-msgid "Number of maps and layers"
-msgstr "Nombre de cartes et de couches"
+#: service_plan.py:89
+msgid "Number of layers"
+msgstr ""
 
-#: service_plan.py:102
+#: service_plan.py:90
 msgid "Storage limit"
 msgstr "Limite de stockage"
 
-#: service_plan.py:103
+#: service_plan.py:91
 msgid "User limit"
 msgstr "Limite d'utilisateurs"
 
-#: service_plan.py:111
+#: service_plan.py:93
 msgid "GPS trackers"
 msgstr "Traceurs GPS"
 
-#: service_plan.py:125
-msgid "Maximum file upload"
-msgstr "Téléchargement maximal de fichiers"
-
-#: service_plan.py:126
-msgid "Maximum raster layer"
-msgstr "Couche raster maximale"
-
-#: service_plan.py:308
+#: service_plan.py:249
 msgid "Plan upgrade required"
 msgstr "Mise à niveau du plan requise"
 
-#: service_plan.py:312
+#: service_plan.py:253
 msgid "This is not available on your plan."
 msgstr "Ceci n'est pas disponible avec votre forfait."
 
-#: service_plan.py:323
+#: service_plan.py:264
 msgid "To use this feature, please upgrade."
 msgstr "Pour utiliser cette fonctionnalité, veuillez effectuer une mise à niveau."

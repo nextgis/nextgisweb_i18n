@@ -35,33 +35,33 @@ msgstr ""
 msgid "Your Web GIS at nextgis.com"
 msgstr "Tu Web GIS en nextgis.com"
 
-#: component.py:160
+#: component.py:161
 msgid "Request timeout"
 msgstr ""
 
-#: component.py:163
+#: component.py:164
 msgid "Enabled"
 msgstr "Habilitado"
 
-#: component.py:163
+#: component.py:164
 msgid "Disabled"
 msgstr "Deshabilitado"
 
-#: exception.py:218
+#: exception.py:172
 msgid "Internal server error"
 msgstr "Error interno en el servidor"
 
-#: exception.py:220
+#: exception.py:174
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
 msgstr "El servidor no pudo completar su solicitud por una falla interna."
 
-#: exception.py:252
+#: exception.py:193
 msgid "Bad request"
 msgstr "Solicitud incorrecta"
 
-#: exception.py:254
+#: exception.py:195
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
@@ -69,27 +69,27 @@ msgstr ""
 "El servidor no pudo completar su solicitud porque es incorrecta o posee "
 "errores."
 
-#: exception.py:261
+#: exception.py:201
 msgid "Payment required"
 msgstr "Pago requerido"
 
-#: exception.py:262
+#: exception.py:202
 msgid "Access was denied for financial reasons."
 msgstr "Se denegó el acceso por motivos económicos."
 
-#: exception.py:267
+#: exception.py:206
 msgid "Forbidden"
 msgstr "Prohibido"
 
-#: exception.py:268
+#: exception.py:207
 msgid "Access was denied to this resource."
 msgstr "Acceso denegado al recurso."
 
-#: exception.py:273
+#: exception.py:211
 msgid "Page not found"
 msgstr "Página no encontrada"
 
-#: exception.py:275
+#: exception.py:213
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -97,23 +97,23 @@ msgstr ""
 "La página pudo haber sido borrada o hay un error en el enlace. Corríjalo o "
 "diríjase a la página principal e intente encontrar la dirección deseada."
 
-#: exception.py:282
+#: exception.py:220
 msgid "Unprocessable entity"
 msgstr "Entidad no procesable"
 
-#: exception.py:283
+#: exception.py:221
 msgid "Unable to process the contained instructions."
 msgstr "No se pueden procesar las instrucciones."
 
-#: exception.py:288 exception.py:289
+#: exception.py:225 exception.py:226
 msgid "Not implemented"
 msgstr "No implementado"
 
-#: exception.py:294
+#: exception.py:230
 msgid "Service unavailable"
 msgstr "Servicio no disponible"
 
-#: exception.py:295
+#: exception.py:231
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "El servidor no esta disponible. Por favor, intente más tarde."
 
@@ -133,43 +133,43 @@ msgstr ""
 msgid "The Lunkwill extension expects external request interception."
 msgstr ""
 
-#: nodepkg/api/error.ts:18 nodepkg/api/error.ts:42
-msgid "Something went wrong."
-msgstr "Algo ocurrió."
-
-#: nodepkg/api/error.ts:19
+#: nodepkg/api/error.ts:23
 msgid "Unknown API error"
 msgstr "Error de API desconocido"
 
-#: nodepkg/api/error.ts:32
-msgid "There is no response from the server or problem connecting to server."
-msgstr "No hay respuesta o hay un problema con el servidor."
+#: nodepkg/api/error.ts:24 nodepkg/api/error.ts:50
+msgid "Something went wrong."
+msgstr "Algo ocurrió."
 
-#: nodepkg/api/error.ts:35
+#: nodepkg/api/error.ts:39
 msgid "Network error"
 msgstr "Error de conexión"
 
-#: nodepkg/api/error.ts:36
+#: nodepkg/api/error.ts:40
+msgid "There is no response from the server or problem connecting to server."
+msgstr "No hay respuesta o hay un problema con el servidor."
+
+#: nodepkg/api/error.ts:43
 msgid "Check network connectivity and try again later."
 msgstr "Compruebe la conexión e intente de nuevo más tarde."
 
-#: nodepkg/api/error.ts:43
+#: nodepkg/api/error.ts:49
 msgid "Unexpected server response"
 msgstr "Respuesta del servidor inesperada"
 
-#: nodepkg/api/error.ts:70
-msgid "Unexpected error while processing long-running request."
-msgstr "Error inesperado al procesar una solicitud de larga duración."
-
-#: nodepkg/api/error.ts:73
+#: nodepkg/api/error.ts:72
 msgid "Long-running request error"
 msgstr "Error de la solicitud de larga duración"
 
-#: nodepkg/api/error.ts:81
+#: nodepkg/api/error.ts:73
+msgid "Unexpected error while processing long-running request."
+msgstr "Error inesperado al procesar una solicitud de larga duración."
+
+#: nodepkg/api/error.ts:83
 msgid "Long-running request was cancelled."
 msgstr "Se canceló la solicitud de larga duración."
 
-#: nodepkg/api/error.ts:85
+#: nodepkg/api/error.ts:87
 msgid "Long-running request timeout."
 msgstr ""
 
@@ -305,6 +305,14 @@ msgstr "Panel de control"
 #: nodepkg/layout/store.ts:84
 msgid "Help"
 msgstr "Ayuda"
+
+#: nodepkg/layout/store.ts:94
+msgid "Contact Web GIS administrator"
+msgstr ""
+
+#: nodepkg/layout/store.ts:101 view.py:191
+msgid "OpenAPI documentation"
+msgstr ""
 
 #: nodepkg/logo-form/LogoForm.tsx:5
 msgid "We recommend height of 45 px and width of up to 200 px."
@@ -474,7 +482,7 @@ msgstr "Hay actualizaciones disponibles"
 msgid "Click to see what's new"
 msgstr "Haga clic para ver las novedades"
 
-#: permission.py:5 view.py:308 view.py:746
+#: permission.py:5 view.py:308 view.py:754
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
@@ -552,20 +560,20 @@ msgstr "Navegador desconocido"
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
 msgstr "Si está utilizando un navegador actualizado, Web GIS debería estar bien."
 
-#: tomb/config.py:99
+#: tomb/config.py:98
 msgid "Parameter required"
 msgstr ""
 
-#: tomb/config.py:100
+#: tomb/config.py:99
 #, python-brace-format
 msgid "The '{}' query parameter is required."
 msgstr ""
 
-#: tomb/config.py:102
+#: tomb/config.py:101
 msgid "Invalid parameter"
 msgstr ""
 
-#: tomb/config.py:103
+#: tomb/config.py:102
 #, python-brace-format
 msgid "The '{}' query parameter has an invalid value."
 msgstr ""
@@ -578,50 +586,46 @@ msgstr ""
 msgid "The JSON body of the request is malformed or invalid."
 msgstr ""
 
-#: view.py:191
-msgid "HTTP API documentation"
-msgstr ""
-
-#: view.py:257 view.py:755
+#: view.py:257 view.py:763
 msgid "System information"
 msgstr "Información del sistema"
 
-#: view.py:267 view.py:761
+#: view.py:267 view.py:769
 msgid "Font management"
 msgstr ""
 
-#: view.py:276 view.py:798
+#: view.py:276 view.py:806
 msgid "Storage"
 msgstr "Almacenamiento"
 
-#: view.py:290 view.py:805
+#: view.py:290 view.py:813
 msgid "Backups"
 msgstr "Copias de seguridad"
 
-#: view.py:318 view.py:773
+#: view.py:318 view.py:781
 msgid "Custom CSS"
 msgstr "CSS personalizado"
 
-#: view.py:327 view.py:779
+#: view.py:327 view.py:787
 msgid "Custom logo"
 msgstr "Logo personalizado"
 
-#: view.py:336 view.py:767
+#: view.py:336 view.py:775
 msgid "Web GIS name"
 msgstr "Nombre del Web GIS"
 
-#: view.py:345 view.py:785
+#: view.py:345 view.py:793
 msgid "Home path"
 msgstr "Ruta a la página principal"
 
-#: view.py:354 view.py:791
+#: view.py:354 view.py:799
 msgid "Metrics and analytics"
 msgstr ""
 
-#: view.py:735
+#: view.py:743
 msgid "Info"
 msgstr "Información"
 
-#: view.py:736
+#: view.py:744
 msgid "Settings"
 msgstr "Configuración"

@@ -1,52 +1,57 @@
-#: api.py:124 api.py:145
+#: api.py:166 api.py:189
 msgid "Requested raster is not COG."
 msgstr "Le raster demandé n'est pas COG."
 
-#: api.py:149
+#: api.py:193
 msgid "Range header is missed or invalid."
 msgstr "L'en-tête de plage est manquant ou invalide."
 
-#: api.py:153
+#: api.py:198
 #, python-format
 msgid "Range %s can not be read."
 msgstr "Impossible de lire la plage %s"
+
+#: component.py:47
+msgid "Uncompressed raster size limit"
+msgstr ""
 
 #: kind_of_data.py:8
 msgid "Rasters and pyramids"
 msgstr "Rasters et pyramides"
 
-#: model.py:66 nodepkg/editor-widget/EditorWidget.tsx:46 view.py:61
-msgid "Raster layer"
-msgstr "Couche raster"
-
-#: model.py:114
-msgid "No supported files found in the archive."
-msgstr "Aucun fichier pris en charge n'a été trouvé dans l'archive."
-
-#: model.py:118
-#, python-brace-format
-msgid "The archive contains multiple supported files: {supported_zip_items}."
-msgstr ""
-
-#: model.py:133
-msgid "GDAL library was unable to open the file."
-msgstr "La bibliothèque GDAL n'a pas pu ouvrir le fichier."
-
-#: model.py:140
+#: model.py:73
 msgid "Raster files without projection info are not supported."
 msgstr ""
 "Les fichiers raster sans informations de projection ne sont pas pris en "
 "charge."
 
-#: model.py:160
-msgid "Mixed band data types are not supported."
-msgstr "Les types de données à bandes mixtes ne sont pas pris en charge."
-
-#: model.py:209
+#: model.py:91
 msgid "GDAL was unable to parse the raster coordinate system."
 msgstr ""
 
-#: model.py:215
+#: model.py:103
+msgid "Mixed band data types are not supported."
+msgstr "Les types de données à bandes mixtes ne sont pas pris en charge."
+
+#: model.py:121 nodepkg/editor-widget/EditorWidget.tsx:19
+#: nodepkg/storage-widget/StorageWidget.tsx:68
+msgid "Raster layer storage"
+msgstr ""
+
+#: model.py:194 nodepkg/editor-widget/EditorWidget.tsx:141
+msgid "Raster layer"
+msgstr "Couche raster"
+
+#: model.py:250
+msgid "No supported files found in the archive."
+msgstr "Aucun fichier pris en charge n'a été trouvé dans l'archive."
+
+#: model.py:254
+#, python-brace-format
+msgid "The archive contains multiple supported files: {supported_zip_items}."
+msgstr ""
+
+#: model.py:315
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
@@ -54,50 +59,164 @@ msgstr ""
 "Le raster source possède un système de coordonnées local et ne peut pas être "
 "reprojeté vers le système de coordonnées cible."
 
-#: model.py:233
+#: model.py:333
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr "Échec de la reprojection du raster vers le système de coordonnées cible"
 
-#: model.py:237
+#: model.py:337
 #, python-format
 msgid "GDAL error message: %s"
 msgstr "Message d'erreur GDAL : %s"
 
-#: model.py:253
-#, python-brace-format
-msgid ""
-"The uncompressed raster size ({size}) exceeds the limit ({limit}) by {delta}."
-" Reduce raster size to fit the limit."
+#: model.py:352
+msgid "Raster too large"
 msgstr ""
 
-#: model.py:404
+#: model.py:354
+#, python-brace-format
+msgid ""
+"The uncompressed raster size ({uncompressed_size}) exceeds the limit "
+"({max_size}) by {excess_size}. Reduce the raster size to fit the limit."
+msgstr ""
+
+#: model.py:508
+msgid "Failed to open raster file at the specified storage path."
+msgstr ""
+
+#: model.py:514
+msgid "The raster file must be a Cloud Optimized GeoTIFF (COG)."
+msgstr ""
+
+#: model.py:522
+msgid "The raster has a local coordinate system and is not supported."
+msgstr ""
+
+#: model.py:538
+msgid ""
+"The raster coordinate system could not be identified. Make sure the file has "
+"a recognized EPSG coordinate system."
+msgstr ""
+
+#: model.py:544
+#, python-brace-format
+msgid ""
+"The raster coordinate system ({auth}:{code}) is not registered in NextGIS "
+"Web. Add it to the list of supported coordinate systems first."
+msgstr ""
+
+#: model.py:631
 #, python-brace-format
 msgid "{n} band with {t} data type"
 msgid_plural "{n} bands with {t} data type"
 msgstr[0] "bande {n} avec type de données {t}"
 msgstr[1] ""
 
-#: model.py:410
+#: model.py:637
 msgid "Band summary"
 msgstr "Résumé du groupe"
 
-#: model.py:411
+#: model.py:638
 msgid "Pixel dimensions"
 msgstr "Dimensions des pixels"
 
-#: model.py:412 nodepkg/editor-widget/EditorWidget.tsx:37
+#: model.py:639 nodepkg/editor-widget/EditorWidget.tsx:22
 msgid "Cloud Optimized GeoTIFF (COG)"
 msgstr "GeoTIFF optimisé pour le cloud (COG)"
 
-#: model.py:413
+#: model.py:640
 msgid "Persistent auxiliary metadata (PAM)"
 msgstr "Métadonnées auxiliaires persistantes (PAM)"
 
-#: nodepkg/editor-widget/EditorWidget.tsx:13
+#: model.py:696
+#, python-brace-format
+msgid ""
+"The uncompressed raster you are trying to upload is {uncompressed_size}. At "
+"least {required_space} of storage space is required, but only {storage_free} "
+"of {storage_limit} is available. Reduce the size of the raster or free up "
+"some storage space."
+msgstr ""
+
+#: model.py:828
+msgid "Storage must be selected before specifying a storage filename."
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.tsx:18
 msgid "Select a dataset"
 msgstr "Sélectionnez un jeu de données"
 
-#: nodepkg/editor-widget/EditorWidget.tsx:14
+#: nodepkg/editor-widget/EditorWidget.tsx:20
+msgid "External storage support is an experimental feature. Use it with caution!"
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.tsx:21
+msgid "Storage filename"
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.tsx:23
+msgid "Upload raster"
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.tsx:24
+msgid "Attach raster from storage"
+msgstr ""
+
+#: nodepkg/editor-widget/EditorWidget.tsx:25
+msgid "Keep existing raster"
+msgstr ""
+
+#: nodepkg/export-form/ExportForm.tsx:57
+msgid "Band"
+msgstr "Bande"
+
+#: nodepkg/export-form/ExportForm.tsx:80
+msgid "Format"
+msgstr "Format"
+
+#: nodepkg/export-form/ExportForm.tsx:92
+msgid "SRS"
+msgstr "SCR"
+
+#: nodepkg/export-form/ExportForm.tsx:97
+msgid "Bands"
+msgstr "Bandes"
+
+#: nodepkg/export-form/ExportForm.tsx:130
+msgid "Save"
+msgstr "Enregistrer"
+
+#: nodepkg/resource-action-plugin.tsx:13
+msgid "Download"
+msgstr "Télécharger"
+
+#: nodepkg/resource-action-plugin.tsx:35 view.py:35
+msgid "Save as"
+msgstr "Enregistrer sous"
+
+#: nodepkg/storage-widget/StorageWidget.tsx:30
+msgid "Type"
+msgstr ""
+
+#: nodepkg/storage-widget/StorageWidget.tsx:34
+msgid "Endpoint"
+msgstr ""
+
+#: nodepkg/storage-widget/StorageWidget.tsx:39
+msgid "Bucket"
+msgstr ""
+
+#: nodepkg/storage-widget/StorageWidget.tsx:44
+msgid "Access key"
+msgstr ""
+
+#: nodepkg/storage-widget/StorageWidget.tsx:49
+msgid "Secret key"
+msgstr ""
+
+#: nodepkg/storage-widget/StorageWidget.tsx:58
+msgid "Prefix"
+msgstr ""
+
+#: util.py:8
 msgid ""
 "Supported formats: GeoTIFF, JPEG, and PNG with GDAL PAM metadata (.aux.xml "
 "files). Multi-file datasets should be uploaded as ZIP archives."
@@ -106,35 +225,11 @@ msgstr ""
 "(fichiers .aux.xml). Les jeux de données multifichiers doivent être "
 "téléchargés sous forme d'archives ZIP."
 
-#: nodepkg/export-form/ExportForm.tsx:58
-msgid "Band"
-msgstr "Bande"
-
-#: nodepkg/export-form/ExportForm.tsx:82
-msgid "Format"
-msgstr "Format"
-
-#: nodepkg/export-form/ExportForm.tsx:94
-msgid "SRS"
-msgstr "SCR"
-
-#: nodepkg/export-form/ExportForm.tsx:99
-msgid "Bands"
-msgstr "Bandes"
-
-#: nodepkg/export-form/ExportForm.tsx:132
-msgid "Save"
-msgstr "Enregistrer"
-
-#: view.py:26 view.py:66
-msgid "Save as"
-msgstr "Enregistrer sous"
-
-#: view.py:33
+#: view.py:42
 msgid "Cloud Optimized GeoTIFF"
 msgstr "GéoTIFF optimisé pour le cloud"
 
-#: view.py:35
+#: view.py:44
 msgid ""
 "A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
 "hosted on a HTTP file server, with an internal organization that enables more"
@@ -147,7 +242,3 @@ msgstr ""
 " interne qui permet des flux de travail plus efficaces sur le cloud. Pour ce "
 "faire, il exploite la capacité des clients émettant des requêtes de plage "
 "HTTP GET à ne demander que les parties d'un fichier dont ils ont besoin."
-
-#: view.py:72
-msgid "Download"
-msgstr "Télécharger"

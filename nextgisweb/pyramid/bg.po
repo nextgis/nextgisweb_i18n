@@ -39,23 +39,23 @@ msgstr ""
 msgid "Your Web GIS at nextgis.com"
 msgstr "Вашите онлайн карти на nextgis.com"
 
-#: component.py:160
+#: component.py:161
 msgid "Request timeout"
 msgstr "Времето за заявката е изтекло"
 
-#: component.py:163
+#: component.py:164
 msgid "Enabled"
 msgstr "Включено"
 
-#: component.py:163
+#: component.py:164
 msgid "Disabled"
 msgstr "Изключен"
 
-#: exception.py:218
+#: exception.py:172
 msgid "Internal server error"
 msgstr "Вътрешна грешка на сървъра"
 
-#: exception.py:220
+#: exception.py:174
 msgid ""
 "The server encountered an internal error or misconfiguration and was unable "
 "to complete your request."
@@ -63,37 +63,37 @@ msgstr ""
 "Сървърът има вътрешна грешка, некоректни настройки или не успя да изпълни "
 "заявката."
 
-#: exception.py:252
+#: exception.py:193
 msgid "Bad request"
 msgstr "Грешна заявка"
 
-#: exception.py:254
+#: exception.py:195
 msgid ""
 "The server could not comply with the request since it is either malformed or "
 "otherwise incorrect."
 msgstr "Сървърът не може да изпълни заявката, защото в нея има грешка."
 
-#: exception.py:261
+#: exception.py:201
 msgid "Payment required"
 msgstr "Изисква се заплащане"
 
-#: exception.py:262
+#: exception.py:202
 msgid "Access was denied for financial reasons."
 msgstr "Достъп е забранен по финансови причини."
 
-#: exception.py:267
+#: exception.py:206
 msgid "Forbidden"
 msgstr "Забранено"
 
-#: exception.py:268
+#: exception.py:207
 msgid "Access was denied to this resource."
 msgstr "Достъпът до ресурса е забранен."
 
-#: exception.py:273
+#: exception.py:211
 msgid "Page not found"
 msgstr "Страницата не е открита"
 
-#: exception.py:275
+#: exception.py:213
 msgid ""
 "The page may have been deleted or an error in the address. Correct the "
 "address or go to the home page and try to find the desired page."
@@ -102,23 +102,23 @@ msgstr ""
 "адреса или се върнете на началната страница и се опитайте да намерите "
 "исканата страница."
 
-#: exception.py:282
+#: exception.py:220
 msgid "Unprocessable entity"
 msgstr "Обектът не може да е обработен"
 
-#: exception.py:283
+#: exception.py:221
 msgid "Unable to process the contained instructions."
 msgstr "Исканата операция не може да е извършена."
 
-#: exception.py:288 exception.py:289
+#: exception.py:225 exception.py:226
 msgid "Not implemented"
 msgstr "Не е реализирано"
 
-#: exception.py:294
+#: exception.py:230
 msgid "Service unavailable"
 msgstr "Услугата е недостъпна"
 
-#: exception.py:295
+#: exception.py:231
 msgid "The server is currently unavailable. Please try again at a later time."
 msgstr "Сървърът не е наличен в момента. Опитайте се отново по-късно."
 
@@ -138,43 +138,43 @@ msgstr ""
 msgid "The Lunkwill extension expects external request interception."
 msgstr ""
 
-#: nodepkg/api/error.ts:18 nodepkg/api/error.ts:42
-msgid "Something went wrong."
-msgstr "Нещо не е наред."
-
-#: nodepkg/api/error.ts:19
+#: nodepkg/api/error.ts:23
 msgid "Unknown API error"
 msgstr "Неизвестна API грешка"
 
-#: nodepkg/api/error.ts:32
-msgid "There is no response from the server or problem connecting to server."
-msgstr "Няма отговор от сървъра или има проблем да се установи връзка с него."
+#: nodepkg/api/error.ts:24 nodepkg/api/error.ts:50
+msgid "Something went wrong."
+msgstr "Нещо не е наред."
 
-#: nodepkg/api/error.ts:35
+#: nodepkg/api/error.ts:39
 msgid "Network error"
 msgstr "Мрежова грешка"
 
-#: nodepkg/api/error.ts:36
+#: nodepkg/api/error.ts:40
+msgid "There is no response from the server or problem connecting to server."
+msgstr "Няма отговор от сървъра или има проблем да се установи връзка с него."
+
+#: nodepkg/api/error.ts:43
 msgid "Check network connectivity and try again later."
 msgstr "Проверете съединението и се опитайте отново."
 
-#: nodepkg/api/error.ts:43
+#: nodepkg/api/error.ts:49
 msgid "Unexpected server response"
 msgstr "Неочакван отговор на сървъра"
 
-#: nodepkg/api/error.ts:70
-msgid "Unexpected error while processing long-running request."
-msgstr "Непредвидена грешка при извършване на продължително искане."
-
-#: nodepkg/api/error.ts:73
+#: nodepkg/api/error.ts:72
 msgid "Long-running request error"
 msgstr "Грешка на продължително искане"
 
-#: nodepkg/api/error.ts:81
+#: nodepkg/api/error.ts:73
+msgid "Unexpected error while processing long-running request."
+msgstr "Непредвидена грешка при извършване на продължително искане."
+
+#: nodepkg/api/error.ts:83
 msgid "Long-running request was cancelled."
 msgstr "Продължително искане е отменено."
 
-#: nodepkg/api/error.ts:85
+#: nodepkg/api/error.ts:87
 msgid "Long-running request timeout."
 msgstr ""
 
@@ -311,6 +311,14 @@ msgstr "Контролен панел"
 #: nodepkg/layout/store.ts:84
 msgid "Help"
 msgstr "Помощ"
+
+#: nodepkg/layout/store.ts:94
+msgid "Contact Web GIS administrator"
+msgstr ""
+
+#: nodepkg/layout/store.ts:101 view.py:191
+msgid "OpenAPI documentation"
+msgstr ""
 
 #: nodepkg/logo-form/LogoForm.tsx:5
 msgid "We recommend height of 45 px and width of up to 200 px."
@@ -482,7 +490,7 @@ msgstr "Има достъпни актуализации"
 msgid "Click to see what's new"
 msgstr "Натисни да видиш какво ново има"
 
-#: permission.py:5 view.py:308 view.py:746
+#: permission.py:5 view.py:308 view.py:754
 msgid "Cross-origin resource sharing (CORS)"
 msgstr "Cross-origin resource sharing (CORS)"
 
@@ -560,20 +568,20 @@ msgstr "Неизвестен браузър"
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
 msgstr "Ако използвате актуализиран браузър, Уеб GIS трябва да работи нормално."
 
-#: tomb/config.py:99
+#: tomb/config.py:98
 msgid "Parameter required"
 msgstr "Изисква се"
 
-#: tomb/config.py:100
+#: tomb/config.py:99
 #, python-brace-format
 msgid "The '{}' query parameter is required."
 msgstr "Параметър на заявка '{}' е задължителен."
 
-#: tomb/config.py:102
+#: tomb/config.py:101
 msgid "Invalid parameter"
 msgstr "Некоректен параметър"
 
-#: tomb/config.py:103
+#: tomb/config.py:102
 #, python-brace-format
 msgid "The '{}' query parameter has an invalid value."
 msgstr "Параметърът на заявка '{}' има некоректно значение."
@@ -586,52 +594,46 @@ msgstr "Повредено JSON тяло"
 msgid "The JSON body of the request is malformed or invalid."
 msgstr "JSON тялото на заявката е повредено или некоректно."
 
-#: view.py:191
-msgid "HTTP API documentation"
-msgstr ""
-"Документация за \n"
-"HTTP API"
-
-#: view.py:257 view.py:755
+#: view.py:257 view.py:763
 msgid "System information"
 msgstr "Системна информация"
 
-#: view.py:267 view.py:761
+#: view.py:267 view.py:769
 msgid "Font management"
 msgstr "Управляване на шрифтовете"
 
-#: view.py:276 view.py:798
+#: view.py:276 view.py:806
 msgid "Storage"
 msgstr "Памет"
 
-#: view.py:290 view.py:805
+#: view.py:290 view.py:813
 msgid "Backups"
 msgstr "Резервни копия"
 
-#: view.py:318 view.py:773
+#: view.py:318 view.py:781
 msgid "Custom CSS"
 msgstr "Персонализиран CSS"
 
-#: view.py:327 view.py:779
+#: view.py:327 view.py:787
 msgid "Custom logo"
 msgstr "Персонализирано лого"
 
-#: view.py:336 view.py:767
+#: view.py:336 view.py:775
 msgid "Web GIS name"
 msgstr "Име на Уеб GIS"
 
-#: view.py:345 view.py:785
+#: view.py:345 view.py:793
 msgid "Home path"
 msgstr "Начална страница"
 
-#: view.py:354 view.py:791
+#: view.py:354 view.py:799
 msgid "Metrics and analytics"
 msgstr "Анализи"
 
-#: view.py:735
+#: view.py:743
 msgid "Info"
 msgstr "Информация"
 
-#: view.py:736
+#: view.py:744
 msgid "Settings"
 msgstr "Настройки"

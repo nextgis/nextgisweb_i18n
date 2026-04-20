@@ -2,28 +2,32 @@
 msgid "Band {}"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:147
+#: nodepkg/style-editor/RasterStyleEditor.tsx:141
 msgid "Red channel"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:151
-#: nodepkg/style-editor/RasterStyleEditor.tsx:164
-#: nodepkg/style-editor/RasterStyleEditor.tsx:177
+#: nodepkg/style-editor/RasterStyleEditor.tsx:145
+#: nodepkg/style-editor/RasterStyleEditor.tsx:158
+#: nodepkg/style-editor/RasterStyleEditor.tsx:171
 msgid "Min"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:155
-#: nodepkg/style-editor/RasterStyleEditor.tsx:168
-#: nodepkg/style-editor/RasterStyleEditor.tsx:181
+#: nodepkg/style-editor/RasterStyleEditor.tsx:149
+#: nodepkg/style-editor/RasterStyleEditor.tsx:162
+#: nodepkg/style-editor/RasterStyleEditor.tsx:175
 msgid "Max"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:160
+#: nodepkg/style-editor/RasterStyleEditor.tsx:154
 msgid "Green channel"
 msgstr ""
 
-#: nodepkg/style-editor/RasterStyleEditor.tsx:173
+#: nodepkg/style-editor/RasterStyleEditor.tsx:167
 msgid "Blue channel"
+msgstr ""
+
+#: nodepkg/style-editor/StyleEditor.tsx:22
+msgid "Label"
 msgstr ""
 
 #: nodepkg/style-editor/component/KindEditor.tsx:24
@@ -80,6 +84,18 @@ msgstr ""
 
 #: nodepkg/style-editor/component/editor/MarkEditor.tsx:19
 msgid "Size"
+msgstr ""
+
+#: nodepkg/style-editor/component/editor/TextEditor.tsx:15
+msgid "Label size"
+msgstr ""
+
+#: nodepkg/style-editor/component/editor/TextEditor.tsx:16
+msgid "Label color"
+msgstr ""
+
+#: nodepkg/style-editor/component/editor/TextEditor.tsx:17
+msgid "Label field"
 msgstr ""
 
 #: nodepkg/style-editor/field/ColorInput.tsx:18

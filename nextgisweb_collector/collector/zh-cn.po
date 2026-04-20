@@ -1,171 +1,210 @@
-#: api.py:82 api.py:156
+#: api.py:84 api.py:158
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
 msgstr "很遗憾，您不能添加新的参与者。在Web GIS 中，您的参与者用户上限是"
 
-#: api.py:114
+#: api.py:116
 msgid "User with email '{}' already exists. Email addresses are case-insensitive."
 msgstr ""
 
-#: api.py:164
+#: api.py:166
 msgid "User with email '{}' already exists."
 msgstr ""
 
-#: models/model_db.py:100
+#: models/model_db.py:101
 msgid "Collector project"
 msgstr "收集器方案"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:46
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:17
+#: nodepkg/collector-setup/CollectorFieldsWidget.tsx:10
+msgid "Project name"
+msgstr ""
+
+#: nodepkg/collector-setup/CollectorFieldsWidget.tsx:11
+msgid "The name of the collector project"
+msgstr ""
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:44
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:74
+msgid "Project"
+msgstr "项目"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:53
+#: nodepkg/resource-items/ItemsWidget.tsx:252
+msgid "Items"
+msgstr "（选）项"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:62
+#: nodepkg/resource-users/CollectorUsersWidget.tsx:37
+msgid "Collectors"
+msgstr "参与者"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:76
+msgid "Create project"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:73
+msgid "Contact Web GIS administrator to change the list of collectors"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:145
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:164
+#: nodepkg/userMessages.ts:12
+msgid "Collector deleted"
+msgstr "参与者已删除"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:201
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:25
 msgid "NextGIS ID"
 msgstr "NextGIS ID"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:52
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:29
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:207
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:37
 msgid "Description"
 msgstr "说明"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:58
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:213
 msgid "Added"
 msgstr "已添加"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:78
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:235
+msgid "Edit"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:243
+msgid "Delete"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:278
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr "您不能添加新的参与者。您的参与者用户上限"
 
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:22
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:328
+msgid "Create"
+msgstr ""
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:350 view.py:74
+msgid "Create new collector"
+msgstr "创建一个新的参与者"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351 view.py:81
+msgid "Edit collector"
+msgstr "更换参与者"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:366
+msgid "Delete selected collectors?"
+msgstr ""
+
+#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
 msgid "The value entered is not valid"
 msgstr "输入的值无效"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
 msgid "Collector users:"
 msgstr "参与者用户数量"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:12
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
 msgid "out of"
 msgstr "超出...."
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:19
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
 msgid "Each collector must have "
 msgstr "每一个参与者应该有......"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
+#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:21
 msgid "NextGIS ID account"
 msgstr "NextGIS ID 账户"
+
+#: nodepkg/resource-action-plugin.tsx:11 view.py:90
+msgid "Set up Collector project"
+msgstr ""
 
 #: nodepkg/resource-items/Item.ts:104
 msgid "Group members have errors"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:26
+#: nodepkg/resource-items/ItemsWidget.tsx:27
 msgid "Display name"
 msgstr "显示名称"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:27
+#: nodepkg/resource-items/ItemsWidget.tsx:28
 msgid "Expanded"
 msgstr "已扩展"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:28
+#: nodepkg/resource-items/ItemsWidget.tsx:29
 msgid "Editable"
 msgstr "可编辑的"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:29
+#: nodepkg/resource-items/ItemsWidget.tsx:30
 msgid "Visible"
 msgstr "可视的"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:30
+#: nodepkg/resource-items/ItemsWidget.tsx:31
 msgid "Syncable"
 msgstr "可同步的"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:31
+#: nodepkg/resource-items/ItemsWidget.tsx:32
 msgid "Lifetime for tiles (in min)"
 msgstr "瓦片寿命（按分钟计算）"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:32
+#: nodepkg/resource-items/ItemsWidget.tsx:33
 msgid "Resource"
 msgstr "资源"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:33
+#: nodepkg/resource-items/ItemsWidget.tsx:34
 msgid "Zoom level visibility"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:34
+#: nodepkg/resource-items/ItemsWidget.tsx:35
 msgid "Min zoom"
 msgstr "最小缩放"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:35
+#: nodepkg/resource-items/ItemsWidget.tsx:36
 msgid "Max zoom"
 msgstr "最大缩放"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:36
+#: nodepkg/resource-items/ItemsWidget.tsx:37
 msgid "Item"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:37
+#: nodepkg/resource-items/ItemsWidget.tsx:38
 msgid "Form, layer or style"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:38
+#: nodepkg/resource-items/ItemsWidget.tsx:39
 msgid "Group"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:266
-msgid "Items"
-msgstr "（选）项"
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:14
 msgid "Initial extent"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:16
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
 msgid "Project will start at this extent"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:18
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:17
 msgid "Starting screen"
 msgstr "启动屏幕"
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:20
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:19
 msgid "The starting screen in the NextGIS Collector mobile app"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:23
-msgid "Username"
-msgstr ""
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:25
-msgid ""
-"Web GIS user name with necessary permissions to access data used in the "
-"project. This user is not related to accounts of actual data collectors."
-msgstr ""
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:30
-msgid "Password"
-msgstr "密码"
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:31
-msgid "Password for the Web GIS user"
-msgstr ""
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:33
-#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:209
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:22
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:207
 msgid "Mobile project setup configuration"
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:35
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:24
 msgid ""
 "Automate project delivery to multiple mobile GIS with this setup. Recommended"
 " for advanced users only."
 msgstr ""
 
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:40
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:29
 msgid "Edit config"
 msgstr ""
-
-#: nodepkg/resource-project/CollectorProjectWidget.tsx:105
-msgid "Project"
-msgstr "项目"
 
 #: nodepkg/resource-project/CollectorTypeSelect.tsx:17
 msgid "List of forms"
@@ -191,42 +230,36 @@ msgstr ""
 msgid "Loading editor..."
 msgstr ""
 
-#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:232
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:229
 msgid "Load"
 msgstr ""
 
-#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:237
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:233
 msgid "Close"
 msgstr ""
 
-#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:244
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:236
 msgid "OK"
 msgstr ""
-
-#: nodepkg/resource-users/CollectorUsersWidget.tsx:30
-msgid "Collectors"
-msgstr "参与者"
 
 #: nodepkg/userMessages.ts:5
 msgid "Delete collector?"
 msgstr "删除参与者？"
 
 #: nodepkg/userMessages.ts:6
-msgid "Collector deleted"
-msgstr "参与者已删除"
+msgid ""
+"Deleting this collector will remove it from all projects where it is "
+"currently assigned."
+msgstr ""
+
+#: nodepkg/userMessages.ts:9
+msgid "Uncheck the box to remove the collector from the current project only."
+msgstr ""
 
 #: view.py:62
 msgid "List of collectors"
 msgstr "参与者目录"
 
-#: view.py:74
-msgid "Create new collector"
-msgstr "创建一个新的参与者"
-
-#: view.py:81
-msgid "Edit collector"
-msgstr "更换参与者"
-
-#: view.py:128
+#: view.py:146
 msgid "Collector projects"
 msgstr "收集器方案"
