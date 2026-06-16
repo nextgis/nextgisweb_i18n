@@ -1,0 +1,222 @@
+#: lockable_feature.py:71
+#, server
+msgid "Use on other websites (CORS)"
+msgstr "שימוש באתרים אחרים (CORS)"
+
+#: lockable_feature.py:84
+#, server
+msgid "Custom domain and branding"
+msgstr "דומיין ומיתוג מותאמים אישית"
+
+#: lockable_feature.py:90
+#, server
+msgid "Improved performance"
+msgstr "ביצועים משופרים"
+
+#: lockable_feature.py:96
+#, server
+msgid "Access management"
+msgstr "ניהול גישה"
+
+#: lockable_feature.py:168
+#, server
+msgid "Technical support"
+msgstr "תמיכה טכנית"
+
+#: lockable_feature.py:173
+#, server
+msgid "On-demand backup restore"
+msgstr "שחזור גיבוי לפי דרישה"
+
+#: lockable_feature.py:194
+#, server
+msgid "Tile caching"
+msgstr "אחסון במטמון של אריחים"
+
+#: nodepkg/bf2025/BF2025Banner.tsx:7
+#, jsrealm
+msgid "CYBER FRIDAY"
+msgstr "סייבר פריידי"
+
+#: nodepkg/bf2025/BF2025Banner.tsx:8
+#, jsrealm, python-format
+msgid "50% off"
+msgstr "50% הנחה"
+
+#: nodepkg/bf2025/BF2025Banner.tsx:9
+#, jsrealm
+msgid "geodata and subscriptions"
+msgstr "גיאוגרפיה ומנויים"
+
+#: nodepkg/bf2025/BF2025Banner.tsx:10
+#, jsrealm
+msgid "December 1 – 5, 2025"
+msgstr "1 – 5 בדצמבר, 2025"
+
+#: nodepkg/bf2025/BF2025Banner.tsx:12
+#, jsrealm
+msgid "Get it now!"
+msgstr "קבל את זה עכשיו!"
+
+#: nodepkg/bf2025/BF2025Banner.tsx:12
+#, jsrealm
+msgid "Plan it now!"
+msgstr "תכננו את זה עכשיו!"
+
+#: nodepkg/hook.ts:54
+#, jsrealm
+msgid "of"
+msgstr "שֶׁל"
+
+#: nodepkg/hook.ts:55
+#, jsrealm
+msgid "Available"
+msgstr "זָמִין"
+
+#: nodepkg/hook.ts:56
+#, jsrealm
+msgid "Unavailable"
+msgstr "לא זמין"
+
+#: nodepkg/hook.ts:57
+#, jsrealm
+msgid "Unlimited"
+msgstr "בִּלתִי מוּגבָּל"
+
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:27
+#: nodepkg/upgrade-button/UpgradeButton.tsx:60
+#, jsrealm
+msgid "Your plan — "
+msgstr "התוכנית שלך - "
+
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:31
+#: nodepkg/resource-widget/base.tsx:26 nodepkg/sailor-banner/SailorBanner.tsx:17
+#, jsrealm
+msgid "Change plan"
+msgstr "שינוי תוכנית"
+
+#: nodepkg/plan-and-features/PlanAndFeatures.tsx:58
+#, jsrealm
+msgid "More about plans"
+msgstr "עוד על תוכניות"
+
+#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:48 view.py:15
+#, jsrealm, server
+msgid "Plan and features"
+msgstr "תוכנית ותכונות"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:30
+#, jsrealm
+msgid "Easy start with QGIS"
+msgstr "התחלה קלה עם QGIS"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:33
+#, jsrealm
+msgid ""
+"Use the NextGIS Connect plugin for QGIS to upload your data and create "
+"interactive maps."
+msgstr ""
+"השתמשו בתוסף NextGIS Connect עבור QGIS כדי להעלות את הנתונים שלכם וליצור מפות"
+" אינטראקטיביות."
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:39
+#, jsrealm
+msgid "Install the NextGIS Connect plugin for QGIS"
+msgstr "התקן את התוסף NextGIS Connect עבור QGIS"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:40
+#, jsrealm
+msgid "Connect the plugin to your Web GIS"
+msgstr "חבר את התוסף למערכת ה-GIS האינטרנטית שלך"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:42
+#, jsrealm
+msgid "Upload your layers and projects to your Web GIS"
+msgstr "העלה את השכבות והפרויקטים שלך למערכת ה-GIS שלך באינטרנט"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:57
+#, jsrealm
+msgid "Learn more"
+msgstr "למידע נוסף"
+
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:61
+#, jsrealm
+msgid "Hide"
+msgstr "לְהַסתִיר"
+
+#: nodepkg/resource-widget/base.tsx:24 service_plan.py:252
+#, jsrealm, python-brace-format, server
+msgid "{} feature is not available on your plan."
+msgstr "התכונה {} אינה זמינה בתוכנית שלך."
+
+#: nodepkg/resource-widget/base.tsx:25
+#, jsrealm
+msgid "These features are not available on your plan:"
+msgstr "תכונות אלה אינן זמינות בתוכנית שלך:"
+
+#: nodepkg/sailor-banner/SailorBanner.tsx:14
+#, jsrealm
+msgid ""
+"<strong>Unlimited</strong> maps and layers, plus all <strong>NextGIS</strong>"
+" features with <strong>Premium</strong>!"
+msgstr ""
+"מפות ושכבות ללא הגבלה, בנוסף לכל תכונות <strong>NextGIS</strong> עם "
+"<strong>Premium</strong>!"
+
+#: nodepkg/sailor-banner/SailorBanner.tsx:15
+#, jsrealm
+msgid ""
+"Create your own Web GIS with <strong>NextGIS</strong> in minutes — it’s "
+"<strong>FREE</strong>!"
+msgstr ""
+"צור GIS אינטרנטי משלך עם <strong>NextGIS</strong> תוך דקות - זה "
+"<strong>בחינם</strong>!"
+
+#: nodepkg/sailor-banner/SailorBanner.tsx:16
+#, jsrealm
+msgid ""
+"Upgrade to <strong>Premium</strong> or <strong>Mini</strong> to hide this "
+"banner permanently for guests and administrators."
+msgstr ""
+"שדרגו ל-<strong>פרימיום</strong> או ל-<strong>מיני</strong> כדי להסתיר באנר "
+"זה לצמיתות עבור אורחים ומנהלים."
+
+#: nodepkg/upgrade-button/UpgradeButton.tsx:68
+#, jsrealm
+msgid "Upgrade"
+msgstr "שדרוג"
+
+#: service_plan.py:89
+#, server
+msgid "Number of layers"
+msgstr "מספר שכבות"
+
+#: service_plan.py:90
+#, server
+msgid "Storage limit"
+msgstr "מגבלת אחסון"
+
+#: service_plan.py:91
+#, server
+msgid "User limit"
+msgstr "מגבלת משתמשים"
+
+#: service_plan.py:93
+#, server
+msgid "GPS trackers"
+msgstr "מכשירי GPS"
+
+#: service_plan.py:245
+#, server
+msgid "Plan upgrade required"
+msgstr "נדרש שדרוג תוכנית"
+
+#: service_plan.py:249
+#, server
+msgid "This is not available on your plan."
+msgstr "זה לא זמין בתוכנית שלך."
+
+#: service_plan.py:260
+#, server
+msgid "To use this feature, please upgrade."
+msgstr "כדי להשתמש בתכונה זו, אנא שדרג."

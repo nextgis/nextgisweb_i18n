@@ -1,0 +1,109 @@
+#: model.py:139 nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:61
+#, jsrealm, server
+msgid "WFS connection"
+msgstr "חיבור WFS"
+
+#: model.py:497 nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:230
+#, jsrealm, server
+msgid "WFS layer"
+msgstr "שכבת WFS"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:22
+#, jsrealm
+msgid "URL"
+msgstr "כתובת אתר"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:28
+#, jsrealm
+msgid "Username"
+msgstr "שם משתמש"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:37
+#, jsrealm
+msgid "Password"
+msgstr "סִיסמָה"
+
+#: nodepkg/wfsclient-connection/WfsClientConnectionWidget.tsx:47
+#, jsrealm
+msgid "Version"
+msgstr "גִרְסָה"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerStore.ts:24
+#, jsrealm
+msgid "Fields need to be updated due to autodetection"
+msgstr "יש לעדכן את השדות עקב זיהוי אוטומטי"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:18
+#, jsrealm
+msgid "Autodetect"
+msgstr "זיהוי אוטומטי"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:69
+#, jsrealm
+msgid "Point"
+msgstr "נְקוּדָה"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:70
+#, jsrealm
+msgid "Line"
+msgstr "קַו"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:71
+#, jsrealm
+msgid "Polygon"
+msgstr "מְצוּלָע"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:72
+#, jsrealm
+msgid "Multipoint"
+msgstr "רב-נקודתי"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:73
+#, jsrealm
+msgid "Multiline"
+msgstr "רב-קו"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:74
+#, jsrealm
+msgid "Multipolygon"
+msgstr "רב-מצולע"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:87
+#, jsrealm
+msgid "Keep existing definitions untouched"
+msgstr "השאירו את ההגדרות הקיימות ללא שינוי"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:88
+#, jsrealm
+msgid "Update definitions from the server"
+msgstr "עדכון הגדרות מהשרת"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:165
+#, jsrealm
+msgid "Connection"
+msgstr "קֶשֶׁר"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:177
+#, jsrealm
+msgid "Layer"
+msgstr "שִׁכבָה"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:187
+#, jsrealm
+msgid "SRID"
+msgstr "SRID"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:195
+#, jsrealm
+msgid "Geometry column"
+msgstr "עמודת גיאומטריה"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:204
+#, jsrealm
+msgid "Geometry type"
+msgstr "סוג גיאומטריה"
+
+#: nodepkg/wfsclient-layer/WfsClientLayerWidget.tsx:216
+#, jsrealm
+msgid "Attribute definitions"
+msgstr "הגדרות מאפיינים"

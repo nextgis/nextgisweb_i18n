@@ -1,0 +1,506 @@
+#: api.py:119
+#, python-format, server
+msgid "The '%s' attribute of the system principal can't be changed."
+msgstr "לא ניתן לשנות את התכונה '%s' של פקודה ראשית המערכת."
+
+#: api.py:126
+#, python-format, server
+msgid "Principal '%s' already exists."
+msgstr "הפונקציה העיקרית '%s' כבר קיימת."
+
+#: api.py:128
+#, python-format, server
+msgid "Principal with full name '%s' already exists."
+msgstr "כבר קיים מנהל בשם המלא '%s'."
+
+#: api.py:198
+#, server
+msgid "Password is not set."
+msgstr "הסיסמה לא הוגדרה."
+
+#: api.py:249
+#, python-brace-format, server
+msgid "To disable the user '{dn}', remove them from the team."
+msgstr "כדי להשבית את המשתמש '{dn}', הסר אותו מהצוות."
+
+#: api.py:251
+#, python-brace-format, server
+msgid "To enable the user '{dn}', add them to the team."
+msgstr "כדי להפעיל את המשתמש '{dn}', הוסף אותו לצוות."
+
+#: api.py:718
+#, python-format, server
+msgid "User '%s' can't be a member of a group."
+msgstr "המשתמש '%s' אינו יכול להיות חבר בקבוצה."
+
+#: api.py:725
+#, server
+msgid "System principals can't be deleted."
+msgstr "לא ניתן למחוק מנהלי מערכת."
+
+#: api.py:733
+#, python-brace-format, server
+msgid "To delete the user '{dn}', remove them from the team first."
+msgstr "כדי למחוק את המשתמש '{dn}', יש להסיר אותו תחילה מהצוות."
+
+#: api.py:751
+#, server
+msgid "User is referenced with resources"
+msgstr "המשתמש ממוזכר באמצעות משאבים"
+
+#: api.py:753
+#, server
+msgid "Group is referenced with resources"
+msgstr "הקבוצה מופנית באמצעות משאבים"
+
+#: api.py:759
+#, server
+msgid "Administrator required"
+msgstr "נדרש מנהל"
+
+#: api.py:760
+#, server
+msgid "The 'administrators' group must have at least one enabled member."
+msgstr "בקבוצת 'מנהלים' חייב להיות לפחות חבר מופעל אחד."
+
+#: component.py:53
+#, server
+msgid "Administrator"
+msgstr "מְנַהֵל"
+
+#: component.py:246
+#, python-format, server
+msgid "Maximum number of users is reached. Your current plan user number limit is %d."
+msgstr "הגעת למספר המרבי של משתמשים. מגבלת מספר המשתמשים הנוכחית בתוכנית שלך היא %d."
+
+#: component.py:259
+#, python-brace-format, server
+msgid ""
+"Maximum number of local users is reached. Your current plan local user number"
+" limit is {}."
+msgstr ""
+"הגעת למספר המרבי של משתמשים מקומיים. מגבלת מספר המשתמשים המקומיים הנוכחית שלך"
+" בתוכנית היא {}."
+
+#: exception.py:7
+#, server
+msgid "Invalid authorization header"
+msgstr "כותרת הרשאה לא חוקית"
+
+#: exception.py:12
+#, server
+msgid "Invalid credentials"
+msgstr "אישורים לא חוקיים"
+
+#: exception.py:17
+#, server
+msgid "User is disabled"
+msgstr "המשתמש מושבת"
+
+#: exception.py:22
+#, server
+msgid "Session authentication required"
+msgstr "נדרש אימות סשן"
+
+#: exception.py:27
+#, server
+msgid "Invalid authorization link"
+msgstr "קישור הרשאה לא תקין"
+
+#: model.py:98
+#, server
+msgid "Guest"
+msgstr "אוֹרֵחַ"
+
+#: model.py:99
+#, server
+msgid "Everyone"
+msgstr "כֹּל אֶחָד"
+
+#: model.py:100
+#, server
+msgid "Authenticated"
+msgstr "מְאוּמָת"
+
+#: model.py:101
+#, server
+msgid "Owner"
+msgstr "בַּעַל"
+
+#: model.py:221
+#, server
+msgid "Administrators"
+msgstr "מנהלים"
+
+#: nodepkg/control-panel-plugin.tsx:22 permission.py:39
+#, jsrealm, server
+msgid "Groups and users"
+msgstr "קבוצות ומשתמשים"
+
+#: nodepkg/control-panel-plugin.tsx:28 nodepkg/user-widget/UserWidget.tsx:98
+#: view.py:367
+#, jsrealm, server
+msgid "Groups"
+msgstr "קבוצות"
+
+#: nodepkg/control-panel-plugin.tsx:37 nodepkg/group-widget/GroupWidget.tsx:41
+#: view.py:338
+#, jsrealm, server
+msgid "Users"
+msgstr "משתמשים"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:8 nodepkg/group-widget/GroupWidget.tsx:19
+#, jsrealm
+msgid "Delete group?"
+msgstr "למחוק קבוצה?"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:9 nodepkg/group-widget/GroupWidget.tsx:20
+#, jsrealm
+msgid "Group deleted"
+msgstr "הקבוצה נמחקה"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:19 nodepkg/group-widget/GroupWidget.tsx:28
+#: nodepkg/user-browse/UserBrowse.tsx:26 nodepkg/user-widget/UserWidget.tsx:47
+#, jsrealm
+msgid "Full name"
+msgstr "שם מלא"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:25 nodepkg/group-widget/GroupWidget.tsx:34
+#, jsrealm
+msgid "Group name"
+msgstr "שם הקבוצה"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:31 nodepkg/group-widget/GroupWidget.tsx:59
+#, jsrealm
+msgid "New users"
+msgstr "משתמשים חדשים"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:29
+#, jsrealm
+msgid "Yes"
+msgstr "כֵּן"
+
+#: nodepkg/group-browse/GroupBrowse.tsx:34 nodepkg/group-browse/GroupBrowse.tsx:43
+#: nodepkg/user-browse/UserBrowse.tsx:30
+#, jsrealm
+msgid "No"
+msgstr "לֹא"
+
+#: nodepkg/group-widget/GroupWidget.tsx:53 nodepkg/user-widget/UserWidget.tsx:107
+#, jsrealm
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: nodepkg/group-widget/GroupWidget.tsx:65
+#, jsrealm, python-brace-format
+msgid "{dn} mapping"
+msgstr "מיפוי {dn}"
+
+#: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:119
+#, jsrealm
+msgid "Description"
+msgstr "תֵאוּר"
+
+#: nodepkg/login/LoginForm.tsx:22
+#, jsrealm, python-brace-format
+msgid "Sign in with {}"
+msgstr "התחבר באמצעות {}"
+
+#: nodepkg/login/LoginForm.tsx:23 view.py:60
+#, jsrealm, server
+msgid "Sign in to Web GIS"
+msgstr "כניסה ל-Web GIS"
+
+#: nodepkg/login/LoginForm.tsx:24 nodepkg/session-invite/SessionInvite.tsx:18
+#, jsrealm
+msgid "Sign in"
+msgstr "כניסה"
+
+#: nodepkg/login/LoginForm.tsx:43 nodepkg/settings-form/SettingsForm.tsx:54
+#: nodepkg/user-browse/UserBrowse.tsx:27 nodepkg/user-widget/UserWidget.tsx:53
+#, jsrealm
+msgid "Login"
+msgstr "כְּנִיסָה לַמַעֲרֶכֶת"
+
+#: nodepkg/login/LoginForm.tsx:48 nodepkg/user-browse/UserBrowse.tsx:28
+#: nodepkg/user-widget/UserWidget.tsx:62
+#, jsrealm
+msgid "Password"
+msgstr "סִיסמָה"
+
+#: nodepkg/login/LoginForm.tsx:112
+#, jsrealm
+msgid "or using login and password"
+msgstr "או באמצעות שם משתמש וסיסמה"
+
+#: nodepkg/login/LoginForm.tsx:143
+#, jsrealm
+msgid "Contact administrator"
+msgstr "צור קשר עם מנהל המערכת"
+
+#: nodepkg/oauth.tsx:33
+#, jsrealm
+msgid "Manage team"
+msgstr "ניהול צוות"
+
+#: nodepkg/settings-form/SettingsForm.tsx:26
+#, jsrealm
+msgid "Account bound"
+msgstr "חשבון כבול"
+
+#: nodepkg/settings-form/SettingsForm.tsx:37
+#, jsrealm
+msgid "Bind account"
+msgstr "קשר חשבון"
+
+#: nodepkg/settings-form/SettingsForm.tsx:39
+#, jsrealm
+msgid "Account not bound"
+msgstr "החשבון לא מחויב"
+
+#: nodepkg/settings-form/SettingsForm.tsx:62 nodepkg/user-widget/UserWidget.tsx:113
+#, jsrealm
+msgid "Language"
+msgstr "שָׂפָה"
+
+#: nodepkg/settings-form/SettingsForm.tsx:78
+#, jsrealm
+msgid "Saved"
+msgstr "נשמר"
+
+#: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:92
+#, jsrealm
+msgid "Disabled"
+msgstr "נָכֶה"
+
+#: nodepkg/user-browse/UserBrowse.tsx:25
+#, jsrealm
+msgid "Enabled"
+msgstr "מופעל"
+
+#: nodepkg/user-browse/UserBrowse.tsx:31
+#, jsrealm
+msgid "Last activity"
+msgstr "פעילות אחרונה"
+
+#: nodepkg/user-browse/UserBrowse.tsx:32
+#, jsrealm
+msgid "Status"
+msgstr "סטָטוּס"
+
+#: nodepkg/user-browse/UserBrowse.tsx:33
+#, jsrealm
+msgid "Users with a password can sign in with login and password."
+msgstr "משתמשים עם סיסמה יכולים להתחבר באמצעות שם משתמש וסיסמה."
+
+#: nodepkg/user-browse/UserBrowse.tsx:34
+#, jsrealm, python-brace-format
+msgid "Users bound to {dn} can sign in with {dn}."
+msgstr "משתמשים המחוברים ל-{dn} יכולים להתחבר באמצעות {dn}."
+
+#: nodepkg/user-browse/UserBrowse.tsx:35
+#, jsrealm
+msgid ""
+"Your team members won't be shown here until their first logon. Set \"New "
+"users\" flag for a group to automatically assign new user to this group. You "
+"may also modify permission for authenticated users to manage access for your "
+"team members."
+msgstr ""
+"חברי הצוות שלך לא יוצגו כאן עד לכניסה הראשונה שלהם. הגדר את הדגל \"משתמשים "
+"חדשים\" עבור קבוצה כדי להקצות אוטומטית משתמש חדש לקבוצה זו. תוכל גם לשנות את "
+"ההרשאה למשתמשים מאומתים כדי לנהל את הגישה עבור חברי הצוות שלך."
+
+#: nodepkg/user-browse/UserBrowse.tsx:38 nodepkg/user-widget/UserWidget.tsx:25
+#, jsrealm
+msgid "Delete user?"
+msgstr "למחוק משתמש?"
+
+#: nodepkg/user-browse/UserBrowse.tsx:39 nodepkg/user-widget/UserWidget.tsx:26
+#, jsrealm
+msgid "User deleted"
+msgstr "המשתמש נמחק"
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:65
+#, jsrealm
+msgid "Disable"
+msgstr "השבת"
+
+#: nodepkg/user-browse/component/ToggleSelectedUsers.tsx:65
+#, jsrealm
+msgid "Enable"
+msgstr "לְאַפשֵׁר"
+
+#: nodepkg/user-widget/UserWidget.tsx:22
+#, jsrealm, python-brace-format
+msgid ""
+"Consider adding {name} user to your team instead of creating a new user with "
+"a password."
+msgstr "שקול להוסיף את המשתמש {name} לצוות שלך במקום ליצור משתמש חדש עם סיסמה."
+
+#: nodepkg/user-widget/UserWidget.tsx:66 nodepkg/user-widget/UserWidget.tsx:71
+#, jsrealm
+msgid "Enter new password here"
+msgstr "הזן כאן סיסמה חדשה"
+
+#: nodepkg/user-widget/UserWidget.tsx:86
+#, jsrealm
+msgid "Authorization link"
+msgstr "קישור הרשאה"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:9
+#: nodepkg/user-widget/UserWidgetPassword.tsx:11
+#, jsrealm
+msgid "Keep existing"
+msgstr "לשמור על קיים"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:13
+#: nodepkg/user-widget/UserWidgetPassword.tsx:15
+#, jsrealm
+msgid "Assign new"
+msgstr "הקצאה חדשה"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:17
+#: nodepkg/user-widget/UserWidgetPassword.tsx:21
+#, jsrealm
+msgid "Turn off"
+msgstr "לְכַבּוֹת"
+
+#: nodepkg/user-widget/UserWidgetAlinkToken.tsx:70
+#, jsrealm
+msgid "The generated link will be available after saving."
+msgstr "הקישור שנוצר יהיה זמין לאחר השמירה."
+
+#: nodepkg/user-widget/UserWidgetPassword.tsx:20
+#, jsrealm, python-brace-format
+msgid "{name} only"
+msgstr "רק {שם}"
+
+#: oauth.py:327
+#, python-brace-format, server
+msgid "{} binding error"
+msgstr "שגיאת קשירה {}"
+
+#: oauth.py:329
+#, python-brace-format, server
+msgid ""
+"This {dn} account ({sub}) is already bound to the different user ({id}). Log "
+"in using this account instead of binding it."
+msgstr ""
+"חשבון {dn} זה ({sub}) כבר קשור למשתמש אחר ({id}). התחבר באמצעות חשבון זה "
+"במקום לקשר אותו."
+
+#: oauth.py:718
+#, server
+msgid "OAuth authorization error"
+msgstr "שגיאת הרשאה של OAuth"
+
+#: oauth.py:723
+#, server
+msgid "Team membership required"
+msgstr "נדרשת חברות בצוות"
+
+#: oauth.py:725
+#, server
+msgid ""
+"You are not a member of this Web GIS team. Contact Web GIS administrator and "
+"ask to be added to the team."
+msgstr "אינך חבר בצוות Web GIS זה. צור קשר עם מנהל Web GIS ובקש להתווסף לצוות."
+
+#: oauth.py:732
+#, server
+msgid "Invalid OAuth token"
+msgstr "אסימון OAuth לא חוקי"
+
+#: oauth.py:737
+#, server
+msgid "Invalid OAuth scope"
+msgstr "היקף OAuth לא חוקי"
+
+#: oauth.py:742
+#, server
+msgid "OAuth password grant type failed"
+msgstr "סוג הענקת סיסמת OAuth נכשל"
+
+#: oauth.py:747
+#, server
+msgid "OAuth token refresh failed"
+msgstr "רענון אסימון OAuth נכשל"
+
+#: oauth.py:752
+#, server
+msgid "OAuth access token is expired"
+msgstr "פג תוקף אסימון הגישה של OAuth"
+
+#: permission.py:12
+#, server
+msgid "View"
+msgstr "נוֹף"
+
+#: permission.py:13
+#, server
+msgid "Manage"
+msgstr "לְנַהֵל"
+
+#: view.py:75
+#, server
+msgid "Invitation session"
+msgstr "מפגש הזמנה"
+
+#: view.py:92
+#, server
+msgid "Session not found."
+msgstr "הסשן לא נמצא."
+
+#: view.py:96
+#, server
+msgid "Invalid 'expires' parameter."
+msgstr "פרמטר 'expires' לא חוקי."
+
+#: view.py:98
+#, server
+msgid "Session expired."
+msgstr "פג תוקף הסשן."
+
+#: view.py:118
+#, server
+msgid ""
+"Failed to authenticate using the given authorization link. Please check the "
+"link and contact the administrator."
+msgstr ""
+"נכשלה האימות באמצעות קישור ההרשאה שניתן. אנא בדוק את הקישור וצור קשר עם מנהל "
+"המערכת."
+
+#: view.py:128
+#, server
+msgid "Usage of authorization link is forbidden for administrators."
+msgstr "השימוש בקישור הרשאה אסור למנהלים."
+
+#: view.py:181
+#, server
+msgid ""
+"The authorization state cookie is either missing or invalid. Ensure that "
+"cookies are not blocked in your browser and try to log in again."
+msgstr ""
+"קובץ ה-cookie של מצב ההרשאה חסר או לא חוקי. ודא שעוגיות אינן חסומות בדפדפן "
+"שלך ונסה להתחבר שוב."
+
+#: view.py:192
+#, server
+msgid "Unable to bind unauthenticated user. Ensure you are logged in and try again."
+msgstr "לא ניתן לאגד משתמש לא מאומת. ודא שאתה מחובר ונסה שוב."
+
+#: view.py:330
+#, server
+msgid "User settings"
+msgstr "הגדרות משתמש"
+
+#: view.py:347
+#, server
+msgid "Create new user"
+msgstr "צור משתמש חדש"
+
+#: view.py:377
+#, server
+msgid "Create new group"
+msgstr "צור קבוצה חדשה"

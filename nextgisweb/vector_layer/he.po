@@ -1,0 +1,380 @@
+#: kind_of_data.py:8
+#, server
+msgid "Vector layer features"
+msgstr "תכונות שכבת הווקטור"
+
+#: model.py:89 nodepkg/resource-widget/Widget.tsx:62
+#: nodepkg/resource-widget/Widget.tsx:193
+#, jsrealm, server
+msgid "Point"
+msgstr "נְקוּדָה"
+
+#: model.py:90 nodepkg/resource-widget/Widget.tsx:63
+#: nodepkg/resource-widget/Widget.tsx:194
+#, jsrealm, server
+msgid "Line"
+msgstr "קַו"
+
+#: model.py:91 nodepkg/resource-widget/Widget.tsx:64
+#: nodepkg/resource-widget/Widget.tsx:195
+#, jsrealm, server
+msgid "Polygon"
+msgstr "מְצוּלָע"
+
+#: model.py:92 nodepkg/resource-widget/Widget.tsx:196
+#, jsrealm, server
+msgid "Multipoint"
+msgstr "רב-נקודתי"
+
+#: model.py:93 nodepkg/resource-widget/Widget.tsx:197
+#, jsrealm, server
+msgid "Multiline"
+msgstr "רב-קו"
+
+#: model.py:94 nodepkg/resource-widget/Widget.tsx:198
+#, jsrealm, server
+msgid "Multipolygon"
+msgstr "רב-מצולע"
+
+#: model.py:95 nodepkg/resource-widget/Widget.tsx:199
+#, jsrealm, server
+msgid "Point Z"
+msgstr "נקודה Z"
+
+#: model.py:96 nodepkg/resource-widget/Widget.tsx:200
+#, jsrealm, server
+msgid "Line Z"
+msgstr "קו Z"
+
+#: model.py:97 nodepkg/resource-widget/Widget.tsx:201
+#, jsrealm, server
+msgid "Polygon Z"
+msgstr "מצולע Z"
+
+#: model.py:98 nodepkg/resource-widget/Widget.tsx:202
+#, jsrealm, server
+msgid "Multipoint Z"
+msgstr "רב-נקודתי Z"
+
+#: model.py:99 nodepkg/resource-widget/Widget.tsx:203
+#, jsrealm, server
+msgid "Multiline Z"
+msgstr "רב-קו Z"
+
+#: model.py:100 nodepkg/resource-widget/Widget.tsx:204
+#, jsrealm, server
+msgid "Multipolygon Z"
+msgstr "רב-מצולע Z"
+
+#: model.py:150 nodepkg/resource-widget/Widget.tsx:347
+#, jsrealm, server
+msgid "Vector layer"
+msgstr "שכבת וקטור"
+
+#: model.py:172 nodepkg/resource-widget/Widget.tsx:39
+#: nodepkg/resource-widget/Widget.tsx:307
+#, jsrealm, server
+msgid "Geometry type"
+msgstr "סוג גיאומטריה"
+
+#: model.py:175
+#, server
+msgid "Feature count"
+msgstr "ספירת תכונות"
+
+#: model.py:840
+#, server
+msgid "Dataset doesn't contain layers."
+msgstr "מערך הנתונים אינו מכיל שכבות."
+
+#: model.py:843
+#, server
+msgid "Dataset contains more than one layer."
+msgstr "מערך הנתונים מכיל יותר משכבה אחת."
+
+#: model.py:848
+#, server
+msgid "Unable to open layer."
+msgstr "לא ניתן לפתוח שכבה."
+
+#: model.py:861
+#, server
+msgid "Layer doesn't contain coordinate system information."
+msgstr "השכבה אינה מכילה מידע על מערכת הקואורדינטות."
+
+#: nodepkg/resource-widget/Store.tsx:204
+#, jsrealm
+msgid "Confirm deletion of existing features"
+msgstr "אישור מחיקת תכונות קיימות"
+
+#: nodepkg/resource-widget/Store.tsx:208
+#, jsrealm
+msgid "Confirm change of geometry type"
+msgstr "אישור שינוי סוג הגיאומטריה"
+
+#: nodepkg/resource-widget/Widget.tsx:35
+#, jsrealm
+msgid "Select a dataset"
+msgstr "בחר מערך נתונים"
+
+#: nodepkg/resource-widget/Widget.tsx:36
+#, jsrealm
+msgid "Files uploaded, post-processing on the server in progress..."
+msgstr "קבצים הועלו, עיבוד לאחר מכן בשרת מתבצע..."
+
+#: nodepkg/resource-widget/Widget.tsx:37
+#, jsrealm
+msgid "Fix errors"
+msgstr "תקן שגיאות"
+
+#: nodepkg/resource-widget/Widget.tsx:38
+#, jsrealm
+msgid "Skip features with unfixable errors"
+msgstr "דלג על תכונות עם שגיאות שלא ניתן לתקן"
+
+#: nodepkg/resource-widget/Widget.tsx:40
+#, jsrealm
+msgid "Skip features with other geometry types"
+msgstr "דילוג על תכונות עם סוגי גיאומטריה אחרים"
+
+#: nodepkg/resource-widget/Widget.tsx:41
+#, jsrealm
+msgid "Multi-geometry"
+msgstr "רב-גיאומטריה"
+
+#: nodepkg/resource-widget/Widget.tsx:42
+#, jsrealm
+msgid "Z-coordinate"
+msgstr "קואורדינטת Z"
+
+#: nodepkg/resource-widget/Widget.tsx:43
+#, jsrealm
+msgid "FID source"
+msgstr "מקור FID"
+
+#: nodepkg/resource-widget/Widget.tsx:53
+#, jsrealm
+msgid "Whenever possible"
+msgstr "בכל הזדמנות אפשרית"
+
+#: nodepkg/resource-widget/Widget.tsx:54
+#, jsrealm
+msgid "Without losing data"
+msgstr "בלי לאבד נתונים"
+
+#: nodepkg/resource-widget/Widget.tsx:55
+#, jsrealm
+msgid "None"
+msgstr "אַף לֹא אֶחָד"
+
+#: nodepkg/resource-widget/Widget.tsx:61 nodepkg/resource-widget/Widget.tsx:70
+#: nodepkg/resource-widget/Widget.tsx:78
+#, jsrealm
+msgid "Auto"
+msgstr "אוטומטי"
+
+#: nodepkg/resource-widget/Widget.tsx:71
+#, jsrealm
+msgid "Yes"
+msgstr "כֵּן"
+
+#: nodepkg/resource-widget/Widget.tsx:72
+#, jsrealm
+msgid "No"
+msgstr "לֹא"
+
+#: nodepkg/resource-widget/Widget.tsx:79
+#, jsrealm
+msgid "Sequence"
+msgstr "רֶצֶף"
+
+#: nodepkg/resource-widget/Widget.tsx:80
+#, jsrealm
+msgid "Field"
+msgstr "שָׂדֶה"
+
+#: nodepkg/resource-widget/Widget.tsx:166
+#, jsrealm
+msgid "Load features from file"
+msgstr "טעינת תכונות מהקובץ"
+
+#: nodepkg/resource-widget/Widget.tsx:167
+#, jsrealm
+msgid "Copy features from layer"
+msgstr "העתקת מאפיינים משכבה"
+
+#: nodepkg/resource-widget/Widget.tsx:168
+#, jsrealm
+msgid "Create empty layer"
+msgstr "צור שכבה ריקה"
+
+#: nodepkg/resource-widget/Widget.tsx:170
+#, jsrealm
+msgid "Keep existing features"
+msgstr "שמור על תכונות קיימות"
+
+#: nodepkg/resource-widget/Widget.tsx:171
+#, jsrealm
+msgid "Change geometry type"
+msgstr "שינוי סוג גיאומטריה"
+
+#: nodepkg/resource-widget/Widget.tsx:172
+#, jsrealm
+msgid "Replace features from file"
+msgstr "החלפת מאפיינים מהקובץ"
+
+#: nodepkg/resource-widget/Widget.tsx:173
+#, jsrealm
+msgid "Delete all features"
+msgstr "מחק את כל התכונות"
+
+#: nodepkg/resource-widget/Widget.tsx:189
+#, jsrealm
+msgid "current"
+msgstr "נוֹכְחִי"
+
+#: nodepkg/resource-widget/Widget.tsx:281 nodepkg/resource-widget/Widget.tsx:294
+#, jsrealm
+msgid "Source layer"
+msgstr "שכבת המקור"
+
+#: nodepkg/resource-widget/Widget.tsx:336
+#, jsrealm
+msgid "Advanced options"
+msgstr "אפשרויות מתקדמות"
+
+#: ogrloader.py:311
+#, server
+msgid "Could not determine a geometry type."
+msgstr "לא ניתן היה לקבוע את סוג הגיאומטריה."
+
+#: ogrloader.py:314
+#, server
+msgid ""
+"The source layer contains no suitable features, or contains features of "
+"different geometry types."
+msgstr ""
+"שכבת המקור אינה מכילה מאפיינים מתאימים, או מכילה מאפיינים מסוגי גיאומטריה "
+"שונים."
+
+#: ogrloader.py:332
+#, python-format, server
+msgid "Field '%s' is out of int32 range."
+msgstr "השדה '%s' מחוץ לטווח int32."
+
+#: ogrloader.py:340
+#, python-format, server
+msgid "Field '%s' contains non-unique or empty values."
+msgstr "השדה '%s' מכיל ערכים לא ייחודיים או ערכים ריקים."
+
+#: ogrloader.py:357
+#, server
+msgid "Parameter 'fid_field' is missing."
+msgstr "הפרמטר 'fid_field' חסר."
+
+#: ogrloader.py:360
+#, python-format, server
+msgid "Fields %s not found."
+msgstr "שדות %s לא נמצאו."
+
+#: ogrloader.py:362
+#, python-format, server
+msgid "None of fields %s are integer."
+msgstr "אף אחד מהשדות %s אינו מספר שלם."
+
+#: ogrloader.py:376
+#, python-format, server
+msgid "Field '%s(?)' encoding is broken."
+msgstr "קידוד השדה '%s(?)' פגום."
+
+#: ogrloader.py:393
+#, python-format, server
+msgid "Unsupported field type: %r."
+msgstr "סוג שדה לא נתמך: %r."
+
+#: ogrloader.py:419
+#, server
+msgid ""
+"The source layer has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr ""
+"לשכבת המקור יש מערכת קואורדינטות מקומית ולא ניתן להקרין אותה מחדש למערכת "
+"הקואורדינטות של היעד."
+
+#: ogrloader.py:504
+#, python-format, server
+msgid ""
+"Feature #%d has a geometry that can't be reprojected to target coordinate "
+"system"
+msgstr "לתכונה #%d יש גיאומטריה שלא ניתן להטיל אותה מחדש למערכת הקואורדינטות היעד."
+
+#: ogrloader.py:549
+#, server
+msgid "Vector layer cannot be written due to errors."
+msgstr "לא ניתן לכתוב את שכבת הווקטור עקב שגיאות."
+
+#: ogrloader.py:575
+#, python-format, server
+msgid "Feature (seq. #%d) doesn't have a FID field '%s'."
+msgstr "לתכונה (seq. #%d) אין שדה FID '%s'."
+
+#: ogrloader.py:579
+#, python-format, server
+msgid "Feature (seq. #%d) FID field '%s' is null."
+msgstr "שדה ה-FID '%s' של המאפיין (seq. #%d) הוא ריק."
+
+#: ogrloader.py:626 ogrloader.py:665
+#, python-format, server
+msgid "Feature #%d has multiple geometries satisfying the conditions."
+msgstr "לתכונה #%d יש מספר גיאומטריות העונות על התנאים."
+
+#: ogrloader.py:636
+#, python-format, server
+msgid "Feature #%d has unknown geometry type: %d (%s)."
+msgstr "לתכונה #%d יש סוג גיאומטרי לא ידוע: %d (%s)."
+
+#: ogrloader.py:645
+#, python-format, server
+msgid "Feature #%d has unsuitable geometry type: %d (%s)."
+msgstr "לתכונה #%d יש סוג גיאומטרי לא מתאים: %d (%s)."
+
+#: ogrloader.py:683
+#, python-format, server
+msgid "Feature #%d has empty rings."
+msgstr "לתכונה #%d יש טבעות ריקות."
+
+#: ogrloader.py:694
+#, python-format, server
+msgid "Feature #%d has unclosed rings."
+msgstr "לתכונה #%d יש טבעות לא סגורות."
+
+#: ogrloader.py:704
+#, python-format, server
+msgid "Feature #%d has less than 3 points in a polygon ring."
+msgstr "לתכונה #%d יש פחות מ-3 נקודות בטבעת פוליגון."
+
+#: ogrloader.py:716
+#, python-format, server
+msgid "Feature #%d contains an empty linestring."
+msgstr "תכונה #%d מכילה מחרוזת שורה ריקה."
+
+#: ogrloader.py:722
+#, python-format, server
+msgid "Feature #%d has less than 2 points in a linestring."
+msgstr "לתכונה #%d יש פחות מ-2 נקודות במחרוזת שורה."
+
+#: ogrloader.py:739
+#, python-format, server
+msgid "Feature #%d contains a broken encoding of field '%s'."
+msgstr "תכונה #%d מכילה קידוד פגום של השדה '%s'."
+
+#: util.py:64
+#, server
+msgid ""
+"ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV or XLSX formats are "
+"supported. For CSV and XLSX only points are supported, coordinates must be "
+"put in lat and lot columns."
+msgstr ""
+"תמיכה בפורמטים של ESRI Shapefile (zip), GeoPackage, GeoJSON, GML, KML, CSV או"
+" XLSX. עבור CSV ו-XLSX נתמכות רק נקודות, יש להזין קואורדינטות בעמודות lat "
+"ו-lot."

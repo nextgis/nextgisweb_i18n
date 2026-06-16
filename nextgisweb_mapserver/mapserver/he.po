@@ -1,0 +1,14 @@
+#: model.py:67 nodepkg/editor-widget/EditorWidget.tsx:23
+#, jsrealm, server
+msgid "MapServer style"
+msgstr "סגנון MapServer"
+
+#: model.py:339
+#, python-format, server
+msgid "XML syntax error: %s"
+msgstr "שגיאת תחביר XML: %s"
+
+#: model.py:342
+#, python-format, server
+msgid "XML schema error: %s"
+msgstr "שגיאת סכימת XML: %s"

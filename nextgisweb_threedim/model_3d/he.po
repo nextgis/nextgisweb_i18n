@@ -1,0 +1,14 @@
+#: model.py:16 nodepkg/editor-widget/EditorWidget.tsx:37
+#, jsrealm, server
+msgid "3D model"
+msgstr "מודל תלת-ממדי"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:14
+#, jsrealm
+msgid "Select a 3D model"
+msgstr "בחר מודל תלת-ממדי"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:15
+#, jsrealm
+msgid "3D model should be in FBX or GLB format."
+msgstr "מודל תלת-ממדי צריך להיות בפורמט FBX או GLB."

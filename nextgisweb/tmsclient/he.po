@@ -1,0 +1,121 @@
+#: model.py:47 nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:115
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:113
+#, jsrealm, server
+msgid "TMS connection"
+msgstr "חיבור TMS"
+
+#: model.py:109
+#, server
+msgid "API key required."
+msgstr "נדרש מפתח API."
+
+#: model.py:151
+#, server
+msgid "Zoom is out of range."
+msgstr "הזום מחוץ לטווח."
+
+#: model.py:159 nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:195
+#, jsrealm, server
+msgid "TMS layer"
+msgstr "שכבת TMS"
+
+#: model.py:304
+#, server
+msgid "Layer name required."
+msgstr "נדרש שם שכבה."
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:28
+#, jsrealm
+msgid "Type"
+msgstr "סוּג"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:36
+#, jsrealm
+msgid "Custom"
+msgstr "מִנְהָג"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:47
+#, jsrealm
+msgid "URL template"
+msgstr "תבנית כתובת URL"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:53
+#, jsrealm
+msgid "Scheme"
+msgstr "תָכְנִית"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:64
+#, jsrealm
+msgid "API key"
+msgstr "מפתח API"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:70
+#, jsrealm
+msgid "API key param"
+msgstr "פרמטר מפתח API"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:77
+#, jsrealm
+msgid "Username"
+msgstr "שם משתמש"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:87
+#, jsrealm
+msgid "Password"
+msgstr "סִיסמָה"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:97
+#, jsrealm
+msgid "Referer header"
+msgstr "כותרת המפנה"
+
+#: nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:106
+#, jsrealm
+msgid "Skip SSL/TLS certificate verification"
+msgstr "דלג על אימות תעודת SSL/TLS"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:32
+#, jsrealm
+msgid "This connection based on NextGIS Geoservices"
+msgstr "חיבור זה מבוסס על NextGIS Geoservices"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:140
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:151
+#, jsrealm
+msgid "Layer"
+msgstr "שִׁכבָה"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:159
+#, jsrealm
+msgid "Min zoom level"
+msgstr "רמת זום מינימלית"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:167
+#, jsrealm
+msgid "Max zoom level"
+msgstr "רמת זום מקסימלית"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:175
+#, jsrealm
+msgid "Tile size"
+msgstr "גודל אריח"
+
+#: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:185
+#, jsrealm
+msgid "Extent"
+msgstr "היקף"
+
+#: tile_fetcher.py:37
+#, server
+msgid "The remote server did not respond in time."
+msgstr "השרת המרוחק לא הגיב בזמן."
+
+#: tile_fetcher.py:90
+#, server
+msgid "Unable to get a response from the remote server."
+msgstr "לא ניתן לקבל תגובה מהשרת המרוחק."
+
+#: tile_fetcher.py:98
+#, server
+msgid "An unexpected HTTP status code was received from the remote server."
+msgstr "קוד סטטוס HTTP בלתי צפוי התקבל מהשרת המרוחק."

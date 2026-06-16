@@ -1,0 +1,50 @@
+#: model.py:25 nodepkg/resource-section/SvgMarkerLibraryResourceSection.tsx:58
+#: nodepkg/resource-widget/Widget.tsx:95
+#, jsrealm, server
+msgid "SVG marker library"
+msgstr "ספריית סמני SVG"
+
+#: model.py:86
+#, python-brace-format, server
+msgid "File '{}' has an insecure name."
+msgstr "לקובץ '{}' יש שם לא מאובטח."
+
+#: model.py:91 nodepkg/resource-widget/Store.ts:72
+#, jsrealm, python-brace-format, server
+msgid "File '{}' has an invalid extension."
+msgstr "לקובץ '{}' יש סיומת לא חוקית."
+
+#: model.py:105
+#, python-brace-format, server
+msgid "File '{}' has a format different from SVG."
+msgstr "לקובץ '{}' יש פורמט שונה מ-SVG."
+
+#: nodepkg/resource-action-plugin.tsx:11
+#, jsrealm
+msgid "Export"
+msgstr "יְצוּא"
+
+#: nodepkg/resource-section/SvgMarkerLibraryResourceSection.tsx:28
+#, jsrealm
+msgid "Name"
+msgstr "שֵׁם"
+
+#: nodepkg/resource-widget/Store.ts:90
+#, jsrealm
+msgid "ZIP archive required"
+msgstr "נדרש ארכיון ZIP"
+
+#: nodepkg/resource-widget/Widget.tsx:46
+#, jsrealm
+msgid "Add SVG files"
+msgstr "הוסף קבצי SVG"
+
+#: nodepkg/resource-widget/Widget.tsx:55
+#, jsrealm
+msgid "Import from ZIP archive"
+msgstr "ייבוא ​​מארכיון ZIP"
+
+#: nodepkg/resource-widget/Widget.tsx:67
+#, jsrealm
+msgid "SVG markers will be imported from:"
+msgstr "סמני SVG ייובאו מ:"

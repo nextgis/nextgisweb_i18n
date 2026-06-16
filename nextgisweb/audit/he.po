@@ -1,0 +1,75 @@
+#: backend/base.py:36
+#, server
+msgid "Audit backend not enabled"
+msgstr "ביקורת אחורית לא מופעלת"
+
+#: backend/base.py:37
+#, python-brace-format, server
+msgid "The '{}' audit backend is not configured on this server."
+msgstr "קצה הביקורת '{}' אינו מוגדר בשרת זה."
+
+#: nodepkg/control-panel-plugin.tsx:13 view.py:18
+#, jsrealm, server
+msgid "Journal"
+msgstr "כְּתַב הָעֵת"
+
+#: nodepkg/journal/Journal.tsx:73
+#, jsrealm
+msgid "Request"
+msgstr "בַּקָשָׁה"
+
+#: nodepkg/journal/Journal.tsx:90
+#, jsrealm
+msgid "IP address"
+msgstr "כתובת IP"
+
+#: nodepkg/journal/Journal.tsx:94
+#, jsrealm
+msgid "User"
+msgstr "מִשׁתַמֵשׁ"
+
+#: nodepkg/journal/Journal.tsx:98
+#, jsrealm
+msgid "Route name"
+msgstr "שם המסלול"
+
+#: nodepkg/journal/Journal.tsx:102
+#, jsrealm
+msgid "Context"
+msgstr "הֶקשֵׁר"
+
+#: nodepkg/journal/Journal.tsx:187
+#, jsrealm, python-brace-format
+msgid "Last {} minute"
+msgid_plural "Last {} minutes"
+msgstr[0] "דקה {} אחרונה"
+msgstr[1] ""
+
+#: nodepkg/journal/Journal.tsx:189
+#, jsrealm, python-brace-format
+msgid "Last {} hour"
+msgid_plural "Last {} hours"
+msgstr[0] "שעה אחרונה ({})"
+msgstr[1] ""
+
+#: nodepkg/journal/Journal.tsx:191
+#, jsrealm, python-brace-format
+msgid "Last {} day"
+msgid_plural "Last {} days"
+msgstr[0] "יום אחרון ({})"
+msgstr[1] ""
+
+#: nodepkg/journal/Journal.tsx:333
+#, jsrealm
+msgid "Filter by user"
+msgstr "סנן לפי משתמש"
+
+#: nodepkg/journal/Journal.tsx:342
+#, jsrealm
+msgid "Export CSV"
+msgstr "ייצוא קובץ CSV"
+
+#: nodepkg/journal/Journal.tsx:351
+#, jsrealm
+msgid "Timestamp"
+msgstr "חותמת זמן"

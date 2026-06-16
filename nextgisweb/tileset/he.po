@@ -1,0 +1,68 @@
+#: model.py:88
+#, server
+msgid "Tilesets"
+msgstr "ערכות אריחים"
+
+#: model.py:92
+#, python-brace-format, server
+msgid "Tile {} unsupported."
+msgstr "אריח {} אינו נתמך."
+
+#: model.py:124 nodepkg/resource-widget/Widget.tsx:32
+#, jsrealm, server
+msgid "Tileset"
+msgstr "אריחים"
+
+#: model.py:219
+#, server
+msgid "Number of tiles"
+msgstr "מספר אריחים"
+
+#: model.py:221
+#, server
+msgid "Zoom levels"
+msgstr "רמות זום"
+
+#: model.py:222
+#, python-brace-format, server
+msgid "From {min} to {max}"
+msgstr "מ-{min} עד {max}"
+
+#: model.py:258
+#, python-brace-format, server
+msgid "Tiles '{}' and '{}' are located in different subdirectories."
+msgstr "האריחים '{}' ו-'{}' ממוקמים בתת-ספריות שונות."
+
+#: model.py:263
+#, python-brace-format, server
+msgid "Tiles '{}' and '{}' have different extensions."
+msgstr "לאריחים '{}' ו-'{}' יש סיומות שונות."
+
+#: model.py:324 model.py:360
+#, server
+msgid "Unsupported data format."
+msgstr "פורמט נתונים לא נתמך."
+
+#: model.py:365
+#, server
+msgid "Only 256x256 px tiles are supported."
+msgstr "רק אריחים בגודל 256x256 פיקסלים נתמכים."
+
+#: model.py:386
+#, server
+msgid "No tiles found in source."
+msgstr "לא נמצאו אריחים במקור."
+
+#: nodepkg/resource-widget/Widget.tsx:11
+#, jsrealm
+msgid "Select a tileset"
+msgstr "בחר קבוצת אריחים"
+
+#: nodepkg/resource-widget/Widget.tsx:12
+#, jsrealm
+msgid ""
+"MBTiles and ZIP archives of tiles are supported. Tiles should be in PNG or "
+"JPEG format and have a size of 256x256 pixels."
+msgstr ""
+"ארכיוני אריחים מסוג MBTiles ו-ZIP נתמכים. האריחים צריכים להיות בפורמט PNG או "
+"JPEG ובגודל של 256x256 פיקסלים."

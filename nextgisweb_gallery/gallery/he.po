@@ -1,0 +1,147 @@
+#: model.py:53 nodepkg/items-widget/ItemsWidget.tsx:94
+#, jsrealm, server
+msgid "Gallery"
+msgstr "גָלֶרֵיָה"
+
+#: model.py:381
+#, python-brace-format, server
+msgid ""
+"An existing gallery item with ID {} was not found or was referenced more than"
+" once!"
+msgstr "פריט גלריה קיים עם מזהה {} לא נמצא או שהופנה אליו יותר מפעם אחת!"
+
+#: nodepkg/component/GalleryLayoutSelect.tsx:9
+#, jsrealm
+msgid "Grid"
+msgstr "רֶשֶׁת"
+
+#: nodepkg/component/GalleryLayoutSelect.tsx:10
+#, jsrealm
+msgid "List"
+msgstr "רְשִׁימָה"
+
+#: nodepkg/component/GalleryLayoutSelect.tsx:11
+#, jsrealm
+msgid "Rows"
+msgstr "שורות"
+
+#: nodepkg/component/GalleryLayoutSelect.tsx:12
+#, jsrealm
+msgid "Columns"
+msgstr "עמודות"
+
+#: nodepkg/component/GalleryLayoutSelect.tsx:13
+#, jsrealm
+msgid "Masonry"
+msgstr "בַּנָאוּת"
+
+#: nodepkg/gallery-display/GalleryDisplay.tsx:83
+#, jsrealm
+msgid "No gallery items to display"
+msgstr "אין פריטי גלריה להצגה"
+
+#: nodepkg/items-widget/CoverImage.tsx:17
+#, jsrealm
+msgid "Select a cover image"
+msgstr "בחירת תמונת כריכה"
+
+#: nodepkg/items-widget/CoverImage.tsx:18
+#, jsrealm
+msgid "3:2 for Grid, 5:4 for List."
+msgstr "3:2 עבור רשת, 5:4 עבור רשימה."
+
+#: nodepkg/items-widget/ItemsWidget.tsx:20 nodepkg/items-widget/item-widget.tsx:21
+#, jsrealm
+msgid "Resource"
+msgstr "מַשׁאָב"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:21
+#, jsrealm
+msgid "Group"
+msgstr "קְבוּצָה"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:22 nodepkg/items-widget/item-widget.tsx:22
+#, jsrealm
+msgid "Link"
+msgstr "לְקַשֵׁר"
+
+#: nodepkg/items-widget/ResourceAction.tsx:37
+#, jsrealm
+msgid "Display resource"
+msgstr "משאב תצוגה"
+
+#: nodepkg/items-widget/ResourceAction.tsx:43
+#, jsrealm
+msgid "Go to resource"
+msgstr "עבור אל המשאב"
+
+#: nodepkg/items-widget/ResourceAction.tsx:48
+#, jsrealm
+msgid "Update resource"
+msgstr "עדכון משאב"
+
+#: nodepkg/items-widget/item-store.ts:192
+#, jsrealm
+msgid "Invalid URL"
+msgstr "כתובת URL לא חוקית"
+
+#: nodepkg/items-widget/item-store.ts:236
+#, jsrealm
+msgid "Group members have errors"
+msgstr "יש שגיאות לחברי הקבוצה"
+
+#: nodepkg/items-widget/item-widget.tsx:16
+#, jsrealm
+msgid "Title"
+msgstr "כּוֹתֶרֶת"
+
+#: nodepkg/items-widget/item-widget.tsx:17
+#, jsrealm
+msgid "Description"
+msgstr "תֵאוּר"
+
+#: nodepkg/items-widget/item-widget.tsx:18
+#: nodepkg/settings-widget/SettingsWidget.tsx:17
+#, jsrealm
+msgid "Layout"
+msgstr "מַעֲרָך"
+
+#: nodepkg/items-widget/item-widget.tsx:19
+#, jsrealm
+msgid "Action"
+msgstr "פְּעוּלָה"
+
+#: nodepkg/items-widget/item-widget.tsx:20
+#, jsrealm
+msgid "Cover"
+msgstr "לְכַסוֹת"
+
+#: nodepkg/items-widget/item-widget.tsx:34
+#, jsrealm
+msgid "Default"
+msgstr "בְּרִירַת מֶחדָל"
+
+#: nodepkg/resource-action-plugin.tsx:10
+#, jsrealm
+msgid "Display"
+msgstr "לְהַצִיג"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:13
+#, jsrealm
+msgid "Show"
+msgstr "לְהַצִיג"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:14
+#, jsrealm
+msgid "Hide"
+msgstr "לְהַסתִיר"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:18
+#, jsrealm
+msgid "Web GIS header"
+msgstr "כותרת GIS אינטרנטית"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:45
+#, jsrealm
+msgid "Settings"
+msgstr "הגדרות"

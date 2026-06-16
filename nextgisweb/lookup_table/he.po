@@ -1,0 +1,90 @@
+#: model.py:34 nodepkg/editor/EditorWidget.tsx:201
+#, jsrealm, server
+msgid "Lookup table"
+msgstr "טבלת חיפוש"
+
+#: nodepkg/component/lookup-select/LookupSelect.tsx:78
+#, jsrealm
+msgid "Loading..."
+msgstr "טְעִינָה..."
+
+#: nodepkg/editor/EditorWidget.tsx:28
+#, jsrealm
+msgid "Export"
+msgstr "יְצוּא"
+
+#: nodepkg/editor/EditorWidget.tsx:29
+#, jsrealm
+msgid "Import"
+msgstr "יְבוּא"
+
+#: nodepkg/editor/EditorWidget.tsx:30
+#, jsrealm
+msgid "Sort order"
+msgstr "סדר מיון"
+
+#: nodepkg/editor/EditorWidget.tsx:31
+#, jsrealm
+msgid "Resort rows"
+msgstr "שורות נופש"
+
+#: nodepkg/editor/EditorWidget.tsx:32
+#, jsrealm
+msgid "Clear"
+msgstr "בָּרוּר"
+
+#: nodepkg/editor/EditorWidget.tsx:33
+#, jsrealm
+msgid ""
+"All existing records will be deleted after import. Are you sure you want to "
+"proceed?"
+msgstr "כל הרשומות הקיימות יימחקו לאחר הייבוא. האם אתה בטוח שברצונך להמשיך?"
+
+#: nodepkg/editor/EditorWidget.tsx:34
+#, jsrealm
+msgid "All progress will be lost. Are you sure you want to cancel import?"
+msgstr "כל ההתקדמות תאבד. האם אתה בטוח שברצונך לבטל את הייבוא?"
+
+#: nodepkg/editor/EditorWidget.tsx:41 nodepkg/editor/EditorWidget.tsx:67
+#: nodepkg/editor/EditorWidget.tsx:68 nodepkg/editor/EditorWidget.tsx:88
+#: nodepkg/resource-section/LookupTableResourceSection.tsx:23
+#, jsrealm
+msgid "Key"
+msgstr "מַפְתֵחַ"
+
+#: nodepkg/editor/EditorWidget.tsx:47 nodepkg/editor/EditorWidget.tsx:72
+#: nodepkg/editor/EditorWidget.tsx:73 nodepkg/editor/EditorWidget.tsx:88
+#: nodepkg/resource-section/LookupTableResourceSection.tsx:30
+#, jsrealm
+msgid "Value"
+msgstr "עֵרֶך"
+
+#: nodepkg/editor/EditorWidget.tsx:57
+#, jsrealm
+msgid "Key, ascending"
+msgstr "מפתח, עולה"
+
+#: nodepkg/editor/EditorWidget.tsx:58
+#, jsrealm
+msgid "Key, descending"
+msgstr "מפתח, יורד"
+
+#: nodepkg/editor/EditorWidget.tsx:59
+#, jsrealm
+msgid "Value, ascending"
+msgstr "ערך, עולה"
+
+#: nodepkg/editor/EditorWidget.tsx:60
+#, jsrealm
+msgid "Value, descending"
+msgstr "ערך, יורד"
+
+#: nodepkg/editor/EditorWidget.tsx:61
+#, jsrealm
+msgid "Custom"
+msgstr "מִנְהָג"
+
+#: nodepkg/resource-section/LookupTableResourceSection.tsx:55
+#, jsrealm
+msgid "Items"
+msgstr "פריטים"

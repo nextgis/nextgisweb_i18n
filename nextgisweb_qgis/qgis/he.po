@@ -1,0 +1,109 @@
+#: api.py:39
+#, python-brace-format, server
+msgid ""
+"The original QML was requested but the style has '{}' format. Use other "
+"values of the 'original' parameter."
+msgstr ""
+"התבקשה קובץ ה-QML המקורי, אך הסגנון הוא בפורמט '{}'. יש להשתמש בערכים אחרים "
+"של הפרמטר 'original'."
+
+#: model.py:250
+#, server
+msgid "QGIS raster style"
+msgstr "סגנון רסטר של QGIS"
+
+#: model.py:312
+#, python-brace-format, server
+msgid "Band {}"
+msgstr "להקה {}"
+
+#: model.py:358
+#, server
+msgid "QGIS vector style"
+msgstr "סגנון וקטור של QGIS"
+
+#: model.py:576 model.py:593 model.py:628
+#, server
+msgid "Style format mismatch."
+msgstr "אי התאמה בפורמט הסגנון."
+
+#: model.py:626 model.py:795
+#, server
+msgid "Style file is not valid."
+msgstr "קובץ הסגנון אינו חוקי."
+
+#: model.py:793
+#, server
+msgid "Layer type mismatch."
+msgstr "אי התאמה בסוג השכבה."
+
+#: nodepkg/CopyFromComponent.tsx:8
+#, jsrealm
+msgid "Source"
+msgstr "מָקוֹר"
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:26
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:26
+#, jsrealm
+msgid "Style from file"
+msgstr "סגנון מקובץ"
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:27
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:27
+#, jsrealm
+msgid "User-defined style"
+msgstr "סגנון מוגדר על ידי המשתמש"
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:28
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:28
+#, jsrealm
+msgid "Default style"
+msgstr "סגנון ברירת מחדל"
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:29
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:29
+#, jsrealm
+msgid "Copy from resource"
+msgstr "העתק ממשאב"
+
+#: nodepkg/raster-editor-widget/EditorWidget.tsx:68
+#: nodepkg/vector-editor-widget/EditorWidget.tsx:63
+#, jsrealm
+msgid "QGIS style"
+msgstr "סגנון QGIS"
+
+#: nodepkg/raster-editor-widget/component/FileModeComponent.tsx:10
+#: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:14
+#, jsrealm
+msgid "Select a style"
+msgstr "בחר סגנון"
+
+#: nodepkg/raster-editor-widget/component/FileModeComponent.tsx:11
+#: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:15
+#, jsrealm
+msgid "QML or SLD formats are supported."
+msgstr "נתמכים פורמטים של QML או SLD."
+
+#: nodepkg/resource-action-plugin.tsx:11
+#, jsrealm
+msgid "QML file"
+msgstr "קובץ QML"
+
+#: nodepkg/resource-section/default-style/QgisResourceSectionDefaultStyle.tsx:15
+#, jsrealm
+msgid "Create default QGIS style"
+msgstr "צור סגנון ברירת מחדל של QGIS"
+
+#: nodepkg/resource-section/default-style/QgisResourceSectionDefaultStyle.tsx:16
+#, jsrealm
+msgid ""
+"Layer created. A style is required to add the layer to a web map. You can "
+"generate a default QGIS style resource using the button."
+msgstr ""
+"שכבה נוצרה. נדרש סגנון כדי להוסיף את השכבה למפת אינטרנט. ניתן ליצור משאב "
+"סגנון ברירת מחדל של QGIS באמצעות הכפתור."
+
+#: nodepkg/vector-editor-widget/component/FileModeComponent.tsx:16
+#, jsrealm
+msgid "SVG marker library"
+msgstr "ספריית סמני SVG"

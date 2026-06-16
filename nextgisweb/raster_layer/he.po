@@ -1,0 +1,310 @@
+#: api.py:166 api.py:189
+#, server
+msgid "Requested raster is not COG."
+msgstr "הרסטר המבוקש אינו COG."
+
+#: api.py:193
+#, server
+msgid "Range header is missed or invalid."
+msgstr "כותרת הטווח חסרה או אינה חוקית."
+
+#: api.py:198
+#, python-format, server
+msgid "Range %s can not be read."
+msgstr "לא ניתן לקרוא את הטווח %s."
+
+#: component.py:47
+#, server
+msgid "Uncompressed raster size limit"
+msgstr "מגבלת גודל רסטר לא דחוס"
+
+#: kind_of_data.py:8
+#, server
+msgid "Rasters and pyramids"
+msgstr "רסטרים ופירמידות"
+
+#: model.py:73
+#, server
+msgid "Raster files without projection info are not supported."
+msgstr "קבצי רסטר ללא מידע על הקרנה אינם נתמכים."
+
+#: model.py:91
+#, server
+msgid "GDAL was unable to parse the raster coordinate system."
+msgstr "GDAL לא הצליח לנתח את מערכת הקואורדינטות של הרסטר."
+
+#: model.py:103
+#, server
+msgid "Mixed band data types are not supported."
+msgstr "סוגי נתונים של פס מעורב אינם נתמכים."
+
+#: model.py:121 nodepkg/editor-widget/EditorWidget.tsx:19
+#: nodepkg/storage-widget/StorageWidget.tsx:80
+#, jsrealm, server
+msgid "Raster layer storage"
+msgstr "אחסון שכבת רסטר"
+
+#: model.py:205
+#, server
+msgid ""
+"Access key and secret key must both be set (private bucket) or both be empty "
+"(public bucket)."
+msgstr "יש להגדיר שניהם מפתח גישה ומפתח סודי (דלי פרטי) או שניהם ריקים (דלי ציבורי)."
+
+#: model.py:214 nodepkg/editor-widget/EditorWidget.tsx:141
+#, jsrealm, server
+msgid "Raster layer"
+msgstr "שכבת רסטר"
+
+#: model.py:270
+#, server
+msgid "No supported files found in the archive."
+msgstr "לא נמצאו קבצים נתמכים בארכיון."
+
+#: model.py:274
+#, python-brace-format, server
+msgid "The archive contains multiple supported files: {supported_zip_items}."
+msgstr "הארכיון מכיל מספר קבצים נתמכים: {supported_zip_items}."
+
+#: model.py:335
+#, server
+msgid ""
+"The source raster has a local coordinate system and can't be reprojected to "
+"the target coordinate system."
+msgstr ""
+"לרסטר המקור יש מערכת קואורדינטות מקומית ולא ניתן להקרין אותה מחדש למערכת "
+"הקואורדינטות של היעד."
+
+#: model.py:355
+#, server
+msgid "Failed to reproject the raster to the target coordinate system."
+msgstr "נכשל בהקרנה מחדש של הרסטר למערכת הקואורדינטות של היעד."
+
+#: model.py:359
+#, python-format, server
+msgid "GDAL error message: %s"
+msgstr "הודעת שגיאה של GDAL: %s"
+
+#: model.py:374
+#, server
+msgid "Raster too large"
+msgstr "רסטר גדול מדי"
+
+#: model.py:376
+#, python-brace-format, server
+msgid ""
+"The uncompressed raster size ({uncompressed_size}) exceeds the limit "
+"({max_size}) by {excess_size}. Reduce the raster size to fit the limit."
+msgstr ""
+"גודל הרסטר הלא דחוס ({uncompressed_size}) חורג מהמגבלה ({max_size}) "
+"ב-{excess_size}. יש להקטין את גודל הרסטר כך שיתאים למגבלה."
+
+#: model.py:501
+#, server
+msgid "Uploading files to a public (read-only) bucket is not allowed."
+msgstr "העלאת קבצים לדלי ציבורי (לקריאה בלבד) אסורה."
+
+#: model.py:534
+#, server
+msgid "Failed to open raster file at the specified storage path."
+msgstr "נכשלה פתיחת קובץ הרסטר בנתיב האחסון שצוין."
+
+#: model.py:540
+#, server
+msgid "The raster file must be a Cloud Optimized GeoTIFF (COG)."
+msgstr "קובץ הרסטר חייב להיות GeoTIFF (COG) המותאם לענן."
+
+#: model.py:548
+#, server
+msgid "The raster has a local coordinate system and is not supported."
+msgstr "לרסטר יש מערכת קואורדינטות מקומית והיא אינה נתמכת."
+
+#: model.py:564
+#, server
+msgid ""
+"The raster coordinate system could not be identified. Make sure the file has "
+"a recognized EPSG coordinate system."
+msgstr ""
+"לא ניתן היה לזהות את מערכת הקואורדינטות של הרסטר. ודא שלקובץ יש מערכת "
+"קואורדינטות EPSG מזוהה."
+
+#: model.py:570
+#, python-brace-format, server
+msgid ""
+"The raster coordinate system ({auth}:{code}) is not registered in NextGIS "
+"Web. Add it to the list of supported coordinate systems first."
+msgstr ""
+"מערכת הקואורדינטות של הרסטר ({auth}:{code}) אינה רשומה ב-NextGIS Web. הוסף "
+"אותה תחילה לרשימת מערכות הקואורדינטות הנתמכות."
+
+#: model.py:657
+#, python-brace-format, server
+msgid "{n} band with {t} data type"
+msgid_plural "{n} bands with {t} data type"
+msgstr[0] "פס {n} עם סוג נתונים {t}"
+msgstr[1] ""
+
+#: model.py:663
+#, server
+msgid "Band summary"
+msgstr "סיכום הלהקה"
+
+#: model.py:664
+#, server
+msgid "Pixel dimensions"
+msgstr "מידות פיקסל"
+
+#: model.py:665 nodepkg/editor-widget/EditorWidget.tsx:22
+#, jsrealm, server
+msgid "Cloud Optimized GeoTIFF (COG)"
+msgstr "GeoTIFF מותאם לענן (COG)"
+
+#: model.py:666
+#, server
+msgid "Persistent auxiliary metadata (PAM)"
+msgstr "מטא-נתונים עזר מתמשכים (PAM)"
+
+#: model.py:722
+#, python-brace-format, server
+msgid ""
+"The uncompressed raster you are trying to upload is {uncompressed_size}. At "
+"least {required_space} of storage space is required, but only {storage_free} "
+"of {storage_limit} is available. Reduce the size of the raster or free up "
+"some storage space."
+msgstr ""
+"הרסטר הלא דחוס שאתה מנסה להעלות הוא {uncompressed_size}. נדרש לפחות "
+"{required_space} של שטח אחסון, אך רק {storage_free} מתוך {storage_limit} "
+"זמין. הקטן את גודל הרסטר או פנה שטח אחסון."
+
+#: model.py:854
+#, server
+msgid "Storage must be selected before specifying a storage filename."
+msgstr "יש לבחור אחסון לפני ציון שם קובץ אחסון."
+
+#: nodepkg/editor-widget/EditorWidget.tsx:18
+#, jsrealm
+msgid "Select a dataset"
+msgstr "בחר מערך נתונים"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:20
+#, jsrealm
+msgid "External storage support is an experimental feature. Use it with caution!"
+msgstr "תמיכה באחסון חיצוני היא תכונה ניסיונית. יש להשתמש בה בזהירות!"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:21
+#, jsrealm
+msgid "Storage filename"
+msgstr "שם קובץ האחסון"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:23
+#, jsrealm
+msgid "Upload raster"
+msgstr "העלאת רסטר"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:24
+#, jsrealm
+msgid "Attach raster from storage"
+msgstr "צרף רסטר מהאחסון"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:25
+#, jsrealm
+msgid "Keep existing raster"
+msgstr "שמור את הרסטר הקיים"
+
+#: nodepkg/export-form/ExportForm.tsx:58
+#, jsrealm
+msgid "Band"
+msgstr "לְהִתְאַגֵד"
+
+#: nodepkg/export-form/ExportForm.tsx:81
+#, jsrealm
+msgid "Format"
+msgstr "פוּרמָט"
+
+#: nodepkg/export-form/ExportForm.tsx:93
+#, jsrealm
+msgid "SRS"
+msgstr "SRS"
+
+#: nodepkg/export-form/ExportForm.tsx:98
+#, jsrealm
+msgid "Bands"
+msgstr "להקות"
+
+#: nodepkg/export-form/ExportForm.tsx:131
+#, jsrealm
+msgid "Save"
+msgstr "לְהַצִיל"
+
+#: nodepkg/resource-action-plugin.tsx:13
+#, jsrealm
+msgid "Download"
+msgstr "הורדה"
+
+#: nodepkg/resource-action-plugin.tsx:35 view.py:35
+#, jsrealm, server
+msgid "Save as"
+msgstr "שמור בשם"
+
+#: nodepkg/storage-widget/StorageWidget.tsx:35
+#, jsrealm
+msgid "Type"
+msgstr "סוּג"
+
+#: nodepkg/storage-widget/StorageWidget.tsx:39
+#, jsrealm
+msgid "Endpoint"
+msgstr "נקודת קצה"
+
+#: nodepkg/storage-widget/StorageWidget.tsx:44
+#, jsrealm
+msgid "Bucket"
+msgstr "דְלִי"
+
+#: nodepkg/storage-widget/StorageWidget.tsx:49
+#, jsrealm
+msgid "Public access"
+msgstr "גישה ציבורית"
+
+#: nodepkg/storage-widget/StorageWidget.tsx:54
+#, jsrealm
+msgid "Access key"
+msgstr "מפתח גישה"
+
+#: nodepkg/storage-widget/StorageWidget.tsx:60
+#, jsrealm
+msgid "Secret key"
+msgstr "מפתח סודי"
+
+#: nodepkg/storage-widget/StorageWidget.tsx:70
+#, jsrealm
+msgid "Prefix"
+msgstr "קידומת"
+
+#: util.py:8
+#, server
+msgid ""
+"Supported formats: GeoTIFF, JPEG, and PNG with GDAL PAM metadata (.aux.xml "
+"files). Multi-file datasets should be uploaded as ZIP archives."
+msgstr ""
+"פורמטים נתמכים: GeoTIFF, JPEG ו-PNG עם מטא-נתונים של GDAL PAM (קבצי "
+".aux.xml). יש להעלות מערכי נתונים מרובי קבצים כארכיוני ZIP."
+
+#: view.py:42
+#, server
+msgid "Cloud Optimized GeoTIFF"
+msgstr "GeoTIFF מותאם לענן"
+
+#: view.py:44
+#, server
+msgid ""
+"A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being "
+"hosted on a HTTP file server, with an internal organization that enables more"
+" efficient workflows on the cloud. It does this by leveraging the ability of "
+"clients issuing ​HTTP GET range requests to ask for just the parts of a file "
+"they need."
+msgstr ""
+"קובץ GeoTIFF ממוטב לענן (COG) הוא קובץ GeoTIFF רגיל, שמטרתו להתארח בשרת קבצים"
+" HTTP, עם ארגון פנימי המאפשר זרימות עבודה יעילות יותר בענן. הוא עושה זאת על "
+"ידי מינוף היכולת של לקוחות המוציאים בקשות טווח GET של HTTP לבקש רק את החלקים "
+"הדרושים בקובץ."

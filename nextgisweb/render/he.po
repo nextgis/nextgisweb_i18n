@@ -1,0 +1,73 @@
+#: api.py:80
+#, server
+msgid "Invalid origin"
+msgstr "מקור לא תקין"
+
+#: api.py:82
+#, server
+msgid ""
+"Origin validation is enabled for rendering requests, but the given origin "
+"doesn't match with the CORS origins list."
+msgstr ""
+"אימות מקור מופעל עבור בקשות רינדור, אך המקור הנתון אינו תואם לרשימת המקורות "
+"של CORS."
+
+#: api.py:154
+#, server
+msgid "Invalid symbols sequence"
+msgstr "רצף סמלים לא חוקי"
+
+#: component.py:24 nodepkg/tile-cache-widget/TileCacheWidget.tsx:90
+#, jsrealm, server
+msgid "Tile cache"
+msgstr "מטמון אריחים"
+
+#: component.py:44 nodepkg/tile-cache-widget/TileCacheWidget.tsx:46
+#, jsrealm, server
+msgid "Enabled"
+msgstr "מופעל"
+
+#: component.py:44
+#, server
+msgid "Disabled"
+msgstr "נָכֶה"
+
+#: nodepkg/resource-section/legend-symbols/ResourceSectionLegendSymbols.tsx:30
+#, jsrealm
+msgid "Legend symbols"
+msgstr "סמלי מקרא"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:54
+#, jsrealm
+msgid "Allow using tiles in non-tile requests"
+msgstr "אפשר שימוש באריחים בבקשות שאינן באריחים"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:58
+#, jsrealm
+msgid "Max zoom level"
+msgstr "רמת זום מקסימלית"
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:67
+#, jsrealm
+msgid "TTL, sec."
+msgstr "TTL, שניות."
+
+#: nodepkg/tile-cache-widget/TileCacheWidget.tsx:81
+#, jsrealm
+msgid "Flush"
+msgstr "רֶצֶף"
+
+#: view.py:26
+#, server
+msgid "TMS (Tile Map Service)"
+msgstr "TMS (שירות מפת אריחים)"
+
+#: view.py:28
+#, server
+msgid ""
+"TMS (Tile Map Service) is a specification for tiled web maps. Tiled web map "
+"is a map displayed in a browser by seamlessly joining dozens of individually "
+"requested image."
+msgstr ""
+"TMS (שירות מפות אריחים) הוא מפרט עבור מפות אינטרנט מרוצפות. מפת אינטרנט "
+"מרוצפות היא מפה המוצגת בדפדפן על ידי חיבור חלק של עשרות תמונות מבוקשות בנפרד."

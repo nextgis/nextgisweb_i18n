@@ -1,0 +1,10 @@
+#: api_import.py:19
+#, server
+msgid "Invalid ZIP archive."
+msgstr "ארכיון ZIP לא חוקי."
+
+#: nodepkg/description-editor/plugin.ts:8
+#: nodepkg/description-view/DescriptionView.tsx:16
+#, jsrealm
+msgid "Description"
+msgstr "תֵאוּר"

@@ -1,0 +1,147 @@
+#: api.py:170
+#, server
+msgid "System SRS cannot be deleted."
+msgstr "לא ניתן למחוק את SRS המערכת."
+
+#: api.py:191
+#, server
+msgid "Invalid SRS definition!"
+msgstr "הגדרת SRS לא חוקית!"
+
+#: api.py:426
+#, server
+msgid "SRS authority attributes must be defined while importing from the catalog."
+msgstr "יש להגדיר מאפייני רשות SRS בעת ייבוא ​​מהקטלוג."
+
+#: api.py:448
+#, python-brace-format, server
+msgid "SRS #{} already exists."
+msgstr "SRS #{} כבר קיים."
+
+#: model.py:69 model.py:70 nodepkg/control-panel-plugin.tsx:33 view.py:18
+#, jsrealm, server
+msgid "Spatial reference systems"
+msgstr "מערכות ייחוס מרחביות"
+
+#: model.py:88
+#, server
+msgid "Invalid OGC WKT definition!"
+msgstr "הגדרת OGC WKT לא חוקית!"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:91
+#: nodepkg/catalog-import/CatalogImport.tsx:30 nodepkg/srs-browse/SrsBrowse.tsx:37
+#: nodepkg/srs-widget/SRSWidget.tsx:30
+#, jsrealm
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:99
+#, jsrealm
+msgid "Show in catalog"
+msgstr "הצג בקטלוג"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:113 nodepkg/srs-widget/SRSWidget.tsx:36
+#, jsrealm
+msgid "Authority and code"
+msgstr "סמכות וקוד"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:125
+#: nodepkg/catalog-import/CatalogImport.tsx:89
+#, jsrealm
+msgid "Import"
+msgstr "יְבוּא"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:142
+#, jsrealm
+msgid "Search"
+msgstr "לְחַפֵּשׂ"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:160
+#, jsrealm
+msgid "Latitude"
+msgstr "רוֹחַב"
+
+#: nodepkg/catalog-browse/CatalogBrowse.tsx:174
+#, jsrealm
+msgid "Longitude"
+msgstr "קו אורך"
+
+#: nodepkg/catalog-import/CatalogImport.tsx:35 nodepkg/srs-widget/SRSWidget.tsx:44
+#, jsrealm
+msgid "OGC WKT definition"
+msgstr "הגדרת OGC WKT"
+
+#: nodepkg/catalog-import/CatalogImport.tsx:79
+#, jsrealm
+msgid "View details"
+msgstr "הצג פרטים"
+
+#: nodepkg/control-panel-plugin.tsx:39
+#, jsrealm
+msgid "List"
+msgstr "רְשִׁימָה"
+
+#: nodepkg/control-panel-plugin.tsx:48
+#, jsrealm
+msgid "Catalog"
+msgstr "קָטָלוֹג"
+
+#: nodepkg/control-panel-plugin.tsx:57
+#, jsrealm
+msgid "Create"
+msgstr "לִיצוֹר"
+
+#: nodepkg/srs-browse/SrsBrowse.tsx:25
+#, jsrealm
+msgid "Import from catalog"
+msgstr "ייבוא ​​מקטלוג"
+
+#: nodepkg/srs-widget/SRSImportForm.tsx:63
+#, jsrealm
+msgid "Format"
+msgstr "פוּרמָט"
+
+#: nodepkg/srs-widget/SRSImportForm.tsx:68
+#, jsrealm
+msgid "Definition"
+msgstr "הַגדָרָה"
+
+#: nodepkg/srs-widget/SRSWidget.tsx:85 nodepkg/srs-widget/SRSWidget.tsx:113
+#, jsrealm
+msgid "Import definition"
+msgstr "הגדרת ייבוא"
+
+#: nodepkg/srsMessages.ts:5
+#, jsrealm
+msgid "Delete SRS?"
+msgstr "למחוק את SRS?"
+
+#: nodepkg/srsMessages.ts:6
+#, jsrealm
+msgid "SRS deleted"
+msgstr "SRS נמחק"
+
+#: util.py:37
+#, python-format, server
+msgid "Invalid MapInfo spatial reference system: %s"
+msgstr "מערכת ייחוס מרחבית לא חוקית של MapInfo: %s"
+
+#: util.py:60
+#, python-format, server
+msgid "Unknown spatial reference system format: %s!"
+msgstr "פורמט לא ידוע של מערכת ייחוס מרחבית: %s!"
+
+#: view.py:28
+#, server
+msgid "Create new Spatial reference system"
+msgstr "צור מערכת ייחוס מרחבית חדשה"
+
+#: view.py:49
+#, server
+msgid "Spatial reference system catalog"
+msgstr "קטלוג מערכת ייחוס מרחבית"
+
+#: view.py:61
+#, server
+msgid "Spatial reference system"
+msgstr "מערכת ייחוס מרחבית"

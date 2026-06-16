@@ -1,0 +1,53 @@
+#: exception.py:7
+#, server
+msgid "Conversion failed"
+msgstr "ההמרה נכשלה"
+
+#: exception.py:9
+#, server
+msgid ""
+"Unable to convert the file into 3D Tiles. There is some problem with the file"
+" or it may be corrupted during upload."
+msgstr ""
+"לא ניתן להמיר את הקובץ לאריחים תלת-ממדיים. ישנה בעיה כלשהי בקובץ או שהוא עלול"
+" להיפגם במהלך ההעלאה."
+
+#: model.py:42 nodepkg/editor-widget/EditorWidget.tsx:50
+#, jsrealm, server
+msgid "3D tileset"
+msgstr "סט אריחים תלת-ממדי"
+
+#: model.py:61 model.py:87
+#, python-format, server
+msgid "Filename '%s' is not valid."
+msgstr "שם הקובץ '%s' אינו חוקי."
+
+#: model.py:168
+#, server
+msgid "No SRS in .las file"
+msgstr "אין SRS בקובץ .las"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:15
+#, jsrealm
+msgid ""
+"3D Tiles in ZIP archives and LAS/LAZ files are supported. File names in a ZIP"
+" archive must contain only ASCII characters. LAS/LAZ files will be converted "
+"into 3D Tiles."
+msgstr ""
+"אריחים תלת-ממדיים בארכיוני ZIP ובקבצי LAS/LAZ נתמכים. שמות קבצים בארכיון ZIP "
+"חייבים להכיל תווי ASCII בלבד. קבצי LAS/LAZ יומרו לאריחים תלת-ממדיים."
+
+#: nodepkg/editor-widget/EditorWidget.tsx:35
+#, jsrealm
+msgid "With terrain height"
+msgstr "עם גובה השטח"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:37
+#, jsrealm
+msgid "Z offset"
+msgstr "היסט Z"
+
+#: nodepkg/resource-action-plugin.tsx:12
+#, jsrealm
+msgid "Export"
+msgstr "יְצוּא"

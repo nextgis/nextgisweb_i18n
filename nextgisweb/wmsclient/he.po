@@ -1,0 +1,121 @@
+#: model.py:82
+#, server
+msgid "WMS connection"
+msgstr "חיבור WMS"
+
+#: model.py:172
+#, server
+msgid "WMS capabilities"
+msgstr "יכולות WMS"
+
+#: model.py:173 nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:164
+#, jsrealm, server
+msgid "Image format"
+msgstr "פורמט תמונה"
+
+#: model.py:270
+#, server
+msgid "WMS layer"
+msgstr "שכבת WMS"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:25
+#, jsrealm
+msgid "Query"
+msgstr "שְׁאֵלָה"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:26
+#, jsrealm
+msgid "Clear"
+msgstr "בָּרוּר"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:27
+#, jsrealm
+msgid "Do not query"
+msgstr "אל תעשה שאילתה"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:35
+#, jsrealm
+msgid "WMS Connection URL"
+msgstr "כתובת URL של חיבור WMS"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:43
+#, jsrealm
+msgid "URL"
+msgstr "כתובת אתר"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:51
+#, jsrealm
+msgid "Username"
+msgstr "שם משתמש"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:61
+#, jsrealm
+msgid "Password"
+msgstr "סִיסמָה"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:71
+#, jsrealm
+msgid "Version"
+msgstr "גִרְסָה"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:82
+#, jsrealm
+msgid "Capabilities"
+msgstr "יכולות"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:93
+#, jsrealm
+msgid "Referer header"
+msgstr "כותרת המפנה"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:103
+#, jsrealm
+msgid "Skip SSL/TLS certificate verification"
+msgstr "דלג על אימות תעודת SSL/TLS"
+
+#: nodepkg/wmsclient-connection/WmsClientConnectionWidget.tsx:112
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:151
+#, jsrealm
+msgid "WMS Connection"
+msgstr "חיבור WMS"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:83
+#, jsrealm
+msgid "Add to Web GIS"
+msgstr "הוסף ל-GIS באינטרנט"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:175
+#, jsrealm
+msgid "WMS layers"
+msgstr "שכבות WMS"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:184
+#, jsrealm
+msgid "Remote SRS"
+msgstr "SRS מרחוק"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:195
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:65
+#, jsrealm
+msgid "Vendor parameters"
+msgstr "פרמטרים של ספק"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:208
+#, jsrealm
+msgid "Edit vendor parameters"
+msgstr "עריכת פרמטרים של ספק"
+
+#: nodepkg/wmsclient-layer/WmsClientLayerWidget.tsx:217
+#, jsrealm
+msgid "WMS Layer"
+msgstr "שכבת WMS"
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:21
+#, jsrealm
+msgid "Key"
+msgstr "מַפְתֵחַ"
+
+#: nodepkg/wmsclient-layer/component/VendorParamsModal.tsx:27
+#, jsrealm
+msgid "Value"
+msgstr "עֵרֶך"

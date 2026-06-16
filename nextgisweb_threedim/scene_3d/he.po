@@ -1,0 +1,158 @@
+#: model/scene_3d.py:30 nodepkg/settings-widget/SettingsWidget.tsx:95 view.py:64
+#, jsrealm, server
+msgid "3D scene"
+msgstr "סצנה תלת-ממדית"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:51
+#: nodepkg/items-widget/ItemsWidget.tsx:26
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:21
+#, jsrealm
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:58
+#, jsrealm
+msgid "Default basemap"
+msgstr "מפת בסיס ברירת מחדל"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:61
+#, jsrealm
+msgid "Opacity"
+msgstr "אֲטִימוּת"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:66
+#: nodepkg/items-widget/ItemsWidget.tsx:25
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:31
+#, jsrealm
+msgid "Resource"
+msgstr "מַשׁאָב"
+
+#: nodepkg/basemaps-widget/BasemapsWidget.tsx:132
+#, jsrealm
+msgid "Basemaps"
+msgstr "מפות בסיס"
+
+#: nodepkg/items-widget/Item.ts:106
+#, jsrealm
+msgid "Group members have errors"
+msgstr "יש שגיאות לחברי הקבוצה"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:23
+#, jsrealm
+msgid "Visible"
+msgstr "נִרְאֶה"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:24
+#, jsrealm
+msgid "Expanded"
+msgstr "מוּרחָב"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:27
+#, jsrealm
+msgid "3D tileset color"
+msgstr "צבע אריחי תלת-ממד"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:28
+#, jsrealm
+msgid "Classification layer"
+msgstr "שכבת סיווג"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:30
+#, jsrealm
+msgid "Layer"
+msgstr "שִׁכבָה"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:31
+#, jsrealm
+msgid "Group"
+msgstr "קְבוּצָה"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:173
+#, jsrealm
+msgid "Items"
+msgstr "פריטים"
+
+#: nodepkg/resource-action-plugin.tsx:10
+#, jsrealm
+msgid "Display"
+msgstr "לְהַצִיג"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:13
+#, jsrealm
+msgid "Globe"
+msgstr "גלוֹבּוּס"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:14
+#, jsrealm
+msgid "Plane"
+msgstr "מָטוֹס"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:18
+#, jsrealm
+msgid "Minimum"
+msgstr "מִינִימוּם"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:19
+#, jsrealm
+msgid "Low"
+msgstr "נָמוּך"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:20
+#, jsrealm
+msgid "Medium"
+msgstr "בֵּינוֹנִי"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:21
+#, jsrealm
+msgid "High"
+msgstr "גָבוֹהַ"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:22
+#, jsrealm
+msgid "Maximum"
+msgstr "מַקסִימוּם"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:30
+#, jsrealm
+msgid "View"
+msgstr "נוֹף"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:40
+#, jsrealm
+msgid "Quality"
+msgstr "אֵיכוּת"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:50
+#, jsrealm
+msgid "Enable Yandex Panoramas"
+msgstr "הפעלת פנורמות של Yandex"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:59
+#, jsrealm
+msgid "Yandex Panoramas API key"
+msgstr "מפתח API של פנורמות של Yandex"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:68
+#, jsrealm
+msgid "Enable Google Street View"
+msgstr "הפעל את גוגל סטריט וויו"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:77
+#, jsrealm
+msgid "Google Street View API key"
+msgstr "מפתח ה-API של גוגל סטריט וויו"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:86
+#, jsrealm
+msgid "Extent"
+msgstr "היקף"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:28
+#, jsrealm
+msgid "Default terrain"
+msgstr "פני שטח ברירת מחדל"
+
+#: nodepkg/terrains-widget/TerrainsWidget.tsx:90
+#, jsrealm
+msgid "Terrain"
+msgstr "פְּנֵי הַשֵׁטַח"

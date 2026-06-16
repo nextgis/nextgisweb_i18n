@@ -1,0 +1,252 @@
+#: api/exceptions.py:11
+#, server
+msgid "The Geoservices API unknown error"
+msgstr "שגיאה לא ידועה בממשק ה-API של Geoservices"
+
+#: api/exceptions.py:12
+#, server
+msgid "The Geoservices API: unknown error"
+msgstr "ממשק ה-API של Geoservices: שגיאה לא ידועה"
+
+#: api/exceptions.py:16
+#, server
+msgid "The Geoservices API timeout error"
+msgstr "שגיאת פסק הזמן של ה-API של Geoservices"
+
+#: api/exceptions.py:17
+#, server
+msgid "The Geoservices API is currently unavailable due to a timeout error"
+msgstr "ממשק ה-API של Geoservices אינו זמין כעת עקב שגיאת פסק זמן."
+
+#: api/exceptions.py:21
+#, server
+msgid "The Geoservices API parsing error"
+msgstr "שגיאת ניתוח ה-API של Geoservices"
+
+#: api/exceptions.py:23
+#, server
+msgid "The Geoservices API failed to parse the JSON data returned by the PKK service"
+msgstr "ממשק ה-API של Geoservices נכשל בניתוח נתוני ה-JSON שהוחזרו על ידי שירות PKK."
+
+#: api/exceptions.py:28
+#, server
+msgid "The Geoservices API error"
+msgstr "שגיאת ה-API של Geoservices"
+
+#: api/exceptions.py:30
+#, server
+msgid ""
+"NextGIS Geoservices encountered an internal error or the PKK service is "
+"currently unavailable"
+msgstr "נתקלה בשגיאה פנימית ב-NextGIS Geoservices או ששירות PKK אינו זמין כעת"
+
+#: api/exceptions.py:35
+#, server
+msgid "The NextGIS Geoservices is currently unavailable"
+msgstr "שירותי הגיאוגרפיה של NextGIS אינם זמינים כעת"
+
+#: api/exceptions.py:44
+#, server
+msgid "The Geoservices API: The request for attribute retrieval ended in failure"
+msgstr "ממשק ה-API של Geoservices: הבקשה לאחזור מאפיינים הסתיימה בכישלון"
+
+#: api/exceptions.py:54
+#, server
+msgid ""
+"The Geoservices API: The 'extent' field is not present in the received "
+"attributes"
+msgstr "ממשק ה-API של Geoservices: השדה 'extent' אינו קיים במאפיינים שהתקבלו"
+
+#: api/exceptions.py:64
+#, server
+msgid "The Geoservices API: The object geometry retrieval request failed"
+msgstr "ממשק ה-API של Geoservices: בקשת אחזור הגיאומטריה של האובייקט נכשלה"
+
+#: api/exceptions.py:74
+#, server
+msgid "The Geoservices API: Unable to create the feature based on previous requests"
+msgstr "ממשק ה-API של Geoservices: לא ניתן ליצור את התכונה על סמך בקשות קודמות"
+
+#: api/exceptions.py:79
+#, server
+msgid "The Geoservices API: Plot not found"
+msgstr "ממשק ה-API של Geoservices: לא נמצאה תבנית"
+
+#: api/geoservices.py:50
+#, server
+msgid "'Cadaster services' module is disabled!"
+msgstr "מודול 'שירותי קדסטר' מושבת!"
+
+#: api/geoservices.py:61
+#, server
+msgid ""
+"Geoservices API key in cadaster services module not set. Set the Geoservices "
+"API key in the `Cadaster services` section on the Control panel."
+msgstr ""
+"מפתח ה-API של Geoservices במודול שירותי קדאסטר לא הוגדר. הגדר את מפתח ה-API "
+"של Geoservices במקטע 'שירותי קדאסטר' בלוח הבקרה."
+
+#: api/geoservices.py:202
+#, python-format, server
+msgid "Cadaster plot with ID '%(id)s' not found!"
+msgstr "לא נמצאה חתימה על קדסטר עם המזהה '%(id)s'!"
+
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:44
+#, jsrealm
+msgid "Settings saved"
+msgstr "ההגדרות נשמרו"
+
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:68
+#, jsrealm
+msgid "API key"
+msgstr "מפתח API"
+
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:81
+#, jsrealm
+msgid "Enable"
+msgstr "לְאַפשֵׁר"
+
+#: nodepkg/cadaster-settings/CadasterSettings.tsx:96
+#, jsrealm
+msgid "Save"
+msgstr "לְהַצִיל"
+
+#: nodepkg/control-panel-plugin.tsx:9 nodepkg/webmap/panel/plugin.tsx:13
+#: plugin.py:20
+#, jsrealm, server
+msgid "Cadaster services"
+msgstr "שירותי קדסטר"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:36
+#, jsrealm
+msgid "Search cadastral plots by cadastral number"
+msgstr "חיפוש מגרשים קדסטרליים לפי מספר קדסטרלי"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:37
+#, jsrealm
+msgid "Search cadastral plots"
+msgstr "חיפוש מגרשים קדסטרליים"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:47
+#, jsrealm
+msgid "Identify quarters"
+msgstr "זהה רבעים"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:54
+#, jsrealm
+msgid "Identify plots"
+msgstr "זיהוי עלילות"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:61
+#, jsrealm
+msgid "Identify construction objects"
+msgstr "זיהוי חפצי בנייה"
+
+#: nodepkg/webmap/controls/CadasterButtons/CadasterButtons.tsx:68
+#, jsrealm
+msgid "Identify special zones"
+msgstr "זיהוי אזורים מיוחדים"
+
+#: nodepkg/webmap/controls/CadasterPlots/CadasterPlotDetail.tsx:74
+#, jsrealm
+msgid "Back to list"
+msgstr "חזרה לרשימה"
+
+#: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:22
+#, jsrealm
+msgid "Attribute"
+msgstr "תְכוּנָה"
+
+#: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:27
+#, jsrealm
+msgid "Value"
+msgstr "עֵרֶך"
+
+#: nodepkg/webmap/controls/CadasterPlots/PlotTable.tsx:37
+#, jsrealm
+msgid "More"
+msgstr "יוֹתֵר"
+
+#: nodepkg/webmap/panel/CadasterPanel.tsx:32
+#, jsrealm
+msgid "To get cadastral information, click on the map with the left mouse button"
+msgstr "כדי לקבל מידע קדסטרלי, לחצו על המפה עם לחצן העכבר השמאלי"
+
+#: nodepkg/webmap/panel/CadasterPanel.tsx:33
+#, jsrealm
+msgid ""
+"To search for cadastral plots, enter the cadastral number or select the "
+"identify tool to search on the map"
+msgstr ""
+"כדי לחפש חלקות קדסטרליות, הזינו את מספר הקדסטרלי או בחרו בכלי הזיהוי כדי לחפש"
+" במפה."
+
+#: nodepkg/webmap/panel/CadasterPanel.tsx:36
+#, jsrealm
+msgid "Error getting cadastral information"
+msgstr "שגיאה בקבלת מידע קדסטרלי"
+
+#: nodepkg/webmap/panel/CadasterPanel.tsx:37
+#, jsrealm
+msgid "No valid cadastral number"
+msgstr "אין מספר קדסטרלי תקף"
+
+#: nodepkg/webmap/util.ts:53
+#, jsrealm
+msgid "Unknown name"
+msgstr "שם לא ידוע"
+
+#: nodepkg/webmap/util.ts:76
+#, jsrealm
+msgid "No quarters found"
+msgstr "לא נמצאו מגורים"
+
+#: nodepkg/webmap/util.ts:78
+#, jsrealm
+msgid "No cadastral plots found"
+msgstr "לא נמצאו חלקות קדסטרליות"
+
+#: nodepkg/webmap/util.ts:80
+#, jsrealm
+msgid "No construction objects found"
+msgstr "לא נמצאו חפצי בנייה"
+
+#: nodepkg/webmap/util.ts:82
+#, jsrealm
+msgid "No special zones found"
+msgstr "לא נמצאו אזורים מיוחדים"
+
+#: nodepkg/webmap/util.ts:84
+#, jsrealm
+msgid "Cadastral information not found"
+msgstr "מידע קדסטרלי לא נמצא"
+
+#: nodepkg/webmap/util.ts:93
+#, jsrealm
+msgid "Searching for quarters..."
+msgstr "מחפשים מגורים..."
+
+#: nodepkg/webmap/util.ts:95
+#, jsrealm
+msgid "Searching for cadastral plots..."
+msgstr "מחפש מגרשים קדסטרליים..."
+
+#: nodepkg/webmap/util.ts:97
+#, jsrealm
+msgid "Searching for construction objects..."
+msgstr "מחפש חפצי בנייה..."
+
+#: nodepkg/webmap/util.ts:99
+#, jsrealm
+msgid "Searching for special zones..."
+msgstr "מחפש אזורים מיוחדים..."
+
+#: nodepkg/webmap/util.ts:101
+#, jsrealm
+msgid "Getting cadastral information..."
+msgstr "קבלת מידע קדסטרלי..."
+
+#: view/settings.py:10
+#, server
+msgid "Cadaster services settings"
+msgstr "הגדרות שירותי קדסטר"

@@ -1,0 +1,493 @@
+#: element.py:338
+#, python-brace-format, server
+msgid "Invalid initial value: '{i}'. Expected a value matching the pattern for '{t}'."
+msgstr "ערך התחלתי לא חוקי: '{i}'. ציפה לערך התואם את התבנית עבור '{t}'."
+
+#: model.py:56
+#, python-brace-format, server
+msgid "Duplicate keyname '{}' found in fields."
+msgstr "נמצא שם מפתח כפול '{}' בשדות."
+
+#: model.py:61
+#, python-brace-format, server
+msgid "Duplicate display name '{}' found in fields."
+msgstr "נמצא שם תצוגה כפול '{}' בשדות."
+
+#: model.py:76
+#, python-brace-format, server
+msgid "Unknown field '{}'."
+msgstr "שדה לא ידוע '{}'."
+
+#: model.py:81
+#, python-brace-format, server
+msgid ""
+"The '{dn}' field (keyname '{kn}') is bound to two or more form elements. Each"
+" field can only be bound to a single element."
+msgstr ""
+"השדה '{dn}' (שם המפתח '{kn}') קשור לשני אלמנטים או יותר של טופס. כל שדה יכול "
+"להיות קשור לאלמנט אחד בלבד."
+
+#: model.py:92
+#, python-brace-format, server
+msgid ""
+"The {dt} data type of the '{dn}' field (keyname '{kn}') is not compatible "
+"with the element."
+msgstr "סוג הנתונים {dt} של השדה '{dn}' (שם המפתח '{kn}') אינו תואם לאלמנט."
+
+#: model.py:96
+#, python-brace-format, server
+msgid "The element requires a field of type {}."
+msgid_plural "The element requires a field of one of these types: {}."
+msgstr[0] "האלמנט דורש שדה מסוג {}."
+msgstr[1] ""
+
+#: model.py:113
+#, python-brace-format, server
+msgid ""
+"The '{dn}' field (keyname '{kn}') is not bound to any element and must be "
+"removed from the form."
+msgstr "השדה '{dn}' (שם המפתח '{kn}') אינו קשור לאף אלמנט ויש להסירו מהטופס."
+
+#: model.py:194 nodepkg/editor-widget/FormbuilderEditorWidget.tsx:257
+#: nodepkg/form-widget/FormWidget.tsx:132
+#, jsrealm, server
+msgid "Form"
+msgstr "טוֹפֶס"
+
+#: model.py:220
+#, server
+msgid "Invalid NGFP file."
+msgstr "קובץ NGFP לא חוקי."
+
+#: model.py:221
+#, python-brace-format, server
+msgid "NGFP file size exceeds {} bytes."
+msgstr "גודל קובץ ה-NGFP חורג מ-{} בייט."
+
+#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:17
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:31
+#, jsrealm
+msgid "Add"
+msgstr "לְהוֹסִיף"
+
+#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:18
+#, jsrealm
+msgid "New field"
+msgstr "שדה חדש"
+
+#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:19
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:33
+#, jsrealm
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:20
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:32
+#, jsrealm
+msgid "Keyname"
+msgstr "שם מפתח"
+
+#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:21
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:34
+#, jsrealm
+msgid "Data type"
+msgstr "סוג נתונים"
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:29
+#: nodepkg/editor-widget/component/OptionsInput.tsx:24
+#, jsrealm
+msgid "Edit"
+msgstr "לַעֲרוֹך"
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:30
+#: nodepkg/editor-widget/component/OptionsInput.tsx:25
+#, jsrealm
+msgid "View"
+msgstr "נוֹף"
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:31
+#: nodepkg/editor-widget/component/OptionsInput.tsx:26
+#: nodepkg/editor-widget/element.tsx:627 nodepkg/editor-widget/element.tsx:696
+#: nodepkg/editor-widget/element.tsx:766 nodepkg/editor-widget/element.tsx:840
+#, jsrealm
+msgid "Options"
+msgstr "אפשרויות"
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:32
+#: nodepkg/editor-widget/component/OptionsInput.tsx:27
+#, jsrealm
+msgid "Export"
+msgstr "יְצוּא"
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:33
+#: nodepkg/editor-widget/component/OptionsInput.tsx:28
+#, jsrealm
+msgid "Import"
+msgstr "יְבוּא"
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:34
+#: nodepkg/editor-widget/component/OptionsInput.tsx:29
+#, jsrealm
+msgid "Done"
+msgstr "נַעֲשָׂה"
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:35
+#, jsrealm
+msgid "Select or add an option in the table above to see dependent options"
+msgstr "בחר או הוסף אפשרות בטבלה למעלה כדי לראות אפשרויות תלויות"
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:425
+#, jsrealm
+msgid "Dependent options"
+msgstr "אפשרויות תלויות"
+
+#: nodepkg/editor-widget/component/ElementsPanel.tsx:10
+#, jsrealm
+msgid "Elements"
+msgstr "אלמנטים"
+
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:336
+#, jsrealm
+msgid "Element type"
+msgstr "סוג אלמנט"
+
+#: nodepkg/editor-widget/component/FieldsPanel.tsx:34
+#, jsrealm
+msgid "Fields"
+msgstr "שדות"
+
+#: nodepkg/editor-widget/component/FieldsPanel.tsx:35
+#, jsrealm
+msgid "Add absent fields to layer"
+msgstr "הוסף שדות חסרים לשכבה"
+
+#: nodepkg/editor-widget/component/Mockup.tsx:25
+#, jsrealm
+msgid "Data binding"
+msgstr "קשירת נתונים"
+
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:29
+#, jsrealm
+msgid "Properties"
+msgstr "נכסים"
+
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:128
+#: nodepkg/editor-widget/element.tsx:59
+#, jsrealm
+msgid "Current date"
+msgstr "תאריך נוכחי"
+
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:135
+#: nodepkg/editor-widget/element.tsx:60
+#, jsrealm
+msgid "Current time"
+msgstr "זמן נוכחי"
+
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:142
+#: nodepkg/editor-widget/element.tsx:61
+#, jsrealm
+msgid "Current date & time"
+msgstr "תאריך ושעה נוכחיים"
+
+#: nodepkg/editor-widget/component/TabsCustomModifier.tsx:73
+#: nodepkg/editor-widget/component/TabsFormComponent.tsx:93
+#: nodepkg/editor-widget/element.tsx:950 nodepkg/editor-widget/element.tsx:958
+#, jsrealm, python-brace-format
+msgid "Tab {}"
+msgstr "טאב {}"
+
+#: nodepkg/editor-widget/component/valueInputs.tsx:10
+#, jsrealm
+msgid "Type here to add an option..."
+msgstr "הקלד כאן כדי להוסיף אפשרות..."
+
+#: nodepkg/editor-widget/component/valueInputs.tsx:11
+#: nodepkg/editor-widget/element.tsx:276 nodepkg/editor-widget/element.tsx:318
+#: nodepkg/editor-widget/element.tsx:370
+#, jsrealm
+msgid "Initial value"
+msgstr "ערך התחלתי"
+
+#: nodepkg/editor-widget/element.tsx:65
+#, jsrealm
+msgid "NextGIS ID username"
+msgstr "שם משתמש של NextGIS ID"
+
+#: nodepkg/editor-widget/element.tsx:66
+#, jsrealm
+msgid "NextGIS Web username"
+msgstr "שם משתמש באתר NextGIS"
+
+#: nodepkg/editor-widget/element.tsx:202 nodepkg/editor-widget/element.tsx:207
+#: nodepkg/editor-widget/element.tsx:309 nodepkg/editor-widget/element.tsx:637
+#: nodepkg/editor-widget/element.tsx:776 nodepkg/editor-widget/element.tsx:850
+#: nodepkg/editor-widget/element.tsx:872
+#: nodepkg/editor-widget/util/csvOptions.ts:14
+#, jsrealm
+msgid "Label"
+msgstr "מַדבֵּקָה"
+
+#: nodepkg/editor-widget/element.tsx:211 nodepkg/editor-widget/element.tsx:331
+#, jsrealm
+msgid "Text"
+msgstr "טֶקסט"
+
+#: nodepkg/editor-widget/element.tsx:228
+#, jsrealm
+msgid "Spacer"
+msgstr "מרווח"
+
+#: nodepkg/editor-widget/element.tsx:243 nodepkg/editor-widget/element.tsx:946
+#, jsrealm
+msgid "Tabs"
+msgstr "טאבים"
+
+#: nodepkg/editor-widget/element.tsx:266 nodepkg/editor-widget/element.tsx:313
+#: nodepkg/editor-widget/element.tsx:356 nodepkg/editor-widget/element.tsx:466
+#: nodepkg/editor-widget/element.tsx:493 nodepkg/editor-widget/element.tsx:571
+#: nodepkg/editor-widget/element.tsx:610 nodepkg/editor-widget/element.tsx:679
+#: nodepkg/editor-widget/element.tsx:756
+#, jsrealm
+msgid "Field"
+msgstr "שָׂדֶה"
+
+#: nodepkg/editor-widget/element.tsx:271
+#, jsrealm
+msgid "Max. lines"
+msgstr "מקסימום קווים"
+
+#: nodepkg/editor-widget/element.tsx:280 nodepkg/editor-widget/element.tsx:322
+#: nodepkg/editor-widget/element.tsx:374 nodepkg/editor-widget/element.tsx:615
+#: nodepkg/editor-widget/element.tsx:684 nodepkg/editor-widget/element.tsx:761
+#: nodepkg/editor-widget/element.tsx:835
+#, jsrealm
+msgid "Remember last value"
+msgstr "זכור את הערך האחרון"
+
+#: nodepkg/editor-widget/element.tsx:286
+#, jsrealm
+msgid "Text box"
+msgstr "תיבת טקסט"
+
+#: nodepkg/editor-widget/element.tsx:327
+#, jsrealm
+msgid "Check box"
+msgstr "תיבת סימון"
+
+#: nodepkg/editor-widget/element.tsx:361 nodepkg/editor-widget/element.tsx:576
+#, jsrealm
+msgid "Type"
+msgstr "סוּג"
+
+#: nodepkg/editor-widget/element.tsx:363
+#, jsrealm
+msgid "Date"
+msgstr "תַאֲרִיך"
+
+#: nodepkg/editor-widget/element.tsx:364
+#, jsrealm
+msgid "Time"
+msgstr "זְמַן"
+
+#: nodepkg/editor-widget/element.tsx:365 nodepkg/editor-widget/element.tsx:379
+#, jsrealm
+msgid "Date & time"
+msgstr "תאריך ושעה"
+
+#: nodepkg/editor-widget/element.tsx:419
+#, jsrealm
+msgid "Longitude field"
+msgstr "שדה קו אורך"
+
+#: nodepkg/editor-widget/element.tsx:424
+#, jsrealm
+msgid "Lattitude field"
+msgstr "שדה קו רוחב"
+
+#: nodepkg/editor-widget/element.tsx:429
+#, jsrealm
+msgid "Hide"
+msgstr "לְהַסתִיר"
+
+#: nodepkg/editor-widget/element.tsx:434
+#, jsrealm
+msgid "Coordinates"
+msgstr "קואורדינטות"
+
+#: nodepkg/editor-widget/element.tsx:472
+#, jsrealm
+msgid "Distance meter"
+msgstr "מד מרחק"
+
+#: nodepkg/editor-widget/element.tsx:482
+#, jsrealm
+msgid "m"
+msgstr "מ'"
+
+#: nodepkg/editor-widget/element.tsx:498
+#, jsrealm
+msgid "Number of samples"
+msgstr "מספר דגימות"
+
+#: nodepkg/editor-widget/element.tsx:504
+#, jsrealm
+msgid "Average calculator"
+msgstr "מחשבון ממוצע"
+
+#: nodepkg/editor-widget/element.tsx:520
+#, jsrealm
+msgid "Count"
+msgstr "לִסְפּוֹר"
+
+#: nodepkg/editor-widget/element.tsx:533
+#, jsrealm
+msgid "Max number"
+msgstr "מספר מקסימלי"
+
+#: nodepkg/editor-widget/element.tsx:539
+#, jsrealm
+msgid "Comment"
+msgstr "הֶעָרָה"
+
+#: nodepkg/editor-widget/element.tsx:544
+#, jsrealm
+msgid "Photo"
+msgstr "תַצלוּם"
+
+#: nodepkg/editor-widget/element.tsx:585
+#, jsrealm
+msgid "System field"
+msgstr "שדה מערכת"
+
+#: nodepkg/editor-widget/element.tsx:619
+#, jsrealm
+msgid "Enable search"
+msgstr "הפעל חיפוש"
+
+#: nodepkg/editor-widget/element.tsx:623
+#, jsrealm
+msgid "Allow free input"
+msgstr "אפשר קלט חופשי"
+
+#: nodepkg/editor-widget/element.tsx:631 nodepkg/editor-widget/element.tsx:700
+#: nodepkg/editor-widget/element.tsx:770 nodepkg/editor-widget/element.tsx:844
+#: nodepkg/editor-widget/element.tsx:866
+#: nodepkg/editor-widget/util/csvOptions.ts:13
+#, jsrealm
+msgid "Value"
+msgstr "עֵרֶך"
+
+#: nodepkg/editor-widget/element.tsx:645 nodepkg/editor-widget/element.tsx:722
+#: nodepkg/editor-widget/element.tsx:784 nodepkg/editor-widget/element.tsx:858
+#: nodepkg/editor-widget/element.tsx:880
+#: nodepkg/editor-widget/util/csvOptions.ts:15
+#, jsrealm
+msgid "Initial"
+msgstr "הַתחָלַתִי"
+
+#: nodepkg/editor-widget/element.tsx:654 nodepkg/editor-widget/element.tsx:668
+#, jsrealm
+msgid "Dropdown"
+msgstr "תפריט נפתח"
+
+#: nodepkg/editor-widget/element.tsx:688 nodepkg/editor-widget/element.tsx:706
+#, jsrealm
+msgid "First label"
+msgstr "תווית ראשונה"
+
+#: nodepkg/editor-widget/element.tsx:692 nodepkg/editor-widget/element.tsx:714
+#, jsrealm
+msgid "Second label"
+msgstr "תווית שנייה"
+
+#: nodepkg/editor-widget/element.tsx:731 nodepkg/editor-widget/element.tsx:745
+#, jsrealm
+msgid "Dual dropdown"
+msgstr "רשימה נפתחת כפולה"
+
+#: nodepkg/editor-widget/element.tsx:793 nodepkg/editor-widget/element.tsx:813
+#, jsrealm
+msgid "Radio group"
+msgstr "קבוצת רדיו"
+
+#: nodepkg/editor-widget/element.tsx:825
+#, jsrealm
+msgid "Primary field"
+msgstr "שדה ראשי"
+
+#: nodepkg/editor-widget/element.tsx:830
+#, jsrealm
+msgid "Secondary field"
+msgstr "שדה משני"
+
+#: nodepkg/editor-widget/element.tsx:889 nodepkg/editor-widget/element.tsx:902
+#, jsrealm
+msgid "Dependent dropdowns"
+msgstr "תפריטים נפתחים תלויים"
+
+#: nodepkg/editor-widget/util/csvOptions.ts:11
+#, jsrealm
+msgid "Yes"
+msgstr "כֵּן"
+
+#: nodepkg/editor-widget/util/csvOptions.ts:12
+#, jsrealm
+msgid "Group"
+msgstr "קְבוּצָה"
+
+#: nodepkg/editor-widget/util/useFieldValidationRules.ts:6
+#, jsrealm
+msgid "Mandatory field"
+msgstr "שדה חובה"
+
+#: nodepkg/editor-widget/util/useFieldValidationRules.ts:7
+#, jsrealm
+msgid "Key must be unique"
+msgstr "המפתח חייב להיות ייחודי"
+
+#: nodepkg/editor-widget/util/useFieldValidationRules.ts:8
+#, jsrealm
+msgid "Display name must be unique"
+msgstr "שם התצוגה חייב להיות ייחודי"
+
+#: nodepkg/editor-widget/util/useImportFlow.ts:7
+#, jsrealm
+msgid ""
+"All existing options will be deleted after import. Are you sure you want to "
+"proceed?"
+msgstr "כל האפשרויות הקיימות יימחקו לאחר הייבוא. האם אתה בטוח שברצונך להמשיך?"
+
+#: nodepkg/editor-widget/util/useImportFlow.ts:8
+#, jsrealm
+msgid "All progress will be lost. Are you sure you want to cancel import?"
+msgstr "כל ההתקדמות תאבד. האם אתה בטוח שברצונך לבטל את הייבוא?"
+
+#: nodepkg/form-widget/FormWidget.tsx:20
+#, jsrealm
+msgid "Upload form"
+msgstr "טופס העלאה"
+
+#: nodepkg/form-widget/FormWidget.tsx:21
+#, jsrealm
+msgid "Design form"
+msgstr "טופס עיצוב"
+
+#: nodepkg/form-widget/FormWidget.tsx:24
+#, jsrealm
+msgid "Select a form file"
+msgstr "בחירת קובץ טופס"
+
+#: nodepkg/form-widget/FormWidget.tsx:25
+#, jsrealm
+msgid "It should be in NGFP format."
+msgstr "זה אמור להיות בפורמט NGFP."
+
+#: nodepkg/resource-action-plugin.tsx:11
+#, jsrealm
+msgid "Download as NGFP"
+msgstr "הורד כ-NGFP"
+
+#: nodepkg/resource-section/FormbuilderResourceSection.tsx:7
+#, jsrealm
+msgid "Form preview"
+msgstr "תצוגה מקדימה של הטופס"

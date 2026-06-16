@@ -1,0 +1,486 @@
+#: api.py:89
+#, python-format, server
+msgid "Table (%s) not found in schema (%s)."
+msgstr "טבלה (%s) לא נמצאה בסכימה (%s)."
+
+#: api.py:158
+#, python-brace-format, server
+msgid "PostGIS layer {} not found!"
+msgstr "שכבת PostGIS {} לא נמצאה!"
+
+#: api.py:182
+#, python-brace-format, server
+msgid "PostGIS connection {} not found!"
+msgstr "חיבור PostGIS {} לא נמצא!"
+
+#: diagnostics.py:102
+#, server
+msgid "Got an unexpected error."
+msgstr "קיבלתי שגיאה בלתי צפויה."
+
+#: diagnostics.py:160
+#, server
+msgid "PostgreSQL connection"
+msgstr "חיבור PostgreSQL"
+
+#: diagnostics.py:166
+#, python-brace-format, server
+msgid "Host name resolution failed: {}."
+msgstr "פתרון שם המארח נכשל: {}."
+
+#: diagnostics.py:188
+#, server
+msgid "Failed to connect to the database."
+msgstr "נכשלה ההתחברות למסד הנתונים."
+
+#: diagnostics.py:192
+#, server
+msgid "Connected to the database."
+msgstr "מחובר למסד הנתונים."
+
+#: diagnostics.py:195
+#, python-brace-format, server
+msgid "Executed {} query."
+msgstr "שאילתה {} בוצעה."
+
+#: diagnostics.py:198
+#, python-brace-format, server
+msgid "PostgreSQL version {}."
+msgstr "גרסת PostgreSQL {}."
+
+#: diagnostics.py:203
+#, server
+msgid "SSL is used."
+msgstr "נעשה שימוש ב-SSL."
+
+#: diagnostics.py:203
+#, server
+msgid "SSL is not used."
+msgstr "SSL אינו בשימוש."
+
+#: diagnostics.py:219
+#, server
+msgid "The statement_timeout startup parameter is supported."
+msgstr "פרמטר ההפעלה statement_timeout נתמך."
+
+#: diagnostics.py:223
+#, server
+msgid "The statement_timeout startup parameter is not supported."
+msgstr "פרמטר האתחול statement_timeout אינו נתמך."
+
+#: diagnostics.py:232
+#, server
+msgid "PostGIS extension"
+msgstr "הרחבת PostGIS"
+
+#: diagnostics.py:242
+#, server
+msgid "PostGIS extension not found."
+msgstr "סיומת PostGIS לא נמצאה."
+
+#: diagnostics.py:244
+#, python-brace-format, server
+msgid "PostGIS extension version {}."
+msgstr "גרסת הרחבת PostGIS {}."
+
+#: diagnostics.py:247
+#, python-brace-format, server
+msgid "Number of geometry columns: {}."
+msgstr "מספר עמודות גיאומטריה: {}."
+
+#: diagnostics.py:250
+#, python-brace-format, server
+msgid "Number of spatial reference systems: {}."
+msgstr "מספר מערכות ייחוס מרחביות: {}."
+
+#: diagnostics.py:294
+#, server
+msgid "Layer table"
+msgstr "טבלת שכבות"
+
+#: diagnostics.py:300
+#, server
+msgid "Table not found."
+msgstr "הטבלה לא נמצאה."
+
+#: diagnostics.py:302
+#, python-brace-format, server
+msgid "Table found, table type is {}."
+msgstr "נמצאה טבלה, סוג הטבלה הוא {}."
+
+#: diagnostics.py:320
+#, python-brace-format, server
+msgid "{} privilege is present."
+msgstr "הרשאת {} קיימת."
+
+#: diagnostics.py:322 diagnostics.py:324
+#, python-brace-format, server
+msgid "{} privilege is absent."
+msgstr "הרשאת {} נעדרת."
+
+#: diagnostics.py:327
+#, python-brace-format, server
+msgid "Number of records: {}."
+msgstr "מספר רשומות: {}."
+
+#: diagnostics.py:330
+#, server
+msgid "ID or geometry column isn't set."
+msgstr "עמודת המזהה או הגיאומטריה לא הוגדרה."
+
+#: diagnostics.py:337 nodepkg/layer-widget/LayerWidget.tsx:20
+#, jsrealm, server
+msgid "ID column"
+msgstr "עמודת מזהה"
+
+#: diagnostics.py:342 diagnostics.py:415
+#, server
+msgid "Column not found."
+msgstr "העמודה לא נמצאה."
+
+#: diagnostics.py:347
+#, python-brace-format, server
+msgid "Column found, but has non-integer type - {}."
+msgstr "נמצאה עמודה, אך היא מסוג שאינו מספר שלם - {}."
+
+#: diagnostics.py:349 diagnostics.py:428
+#, python-brace-format, server
+msgid "Column found, type is {}."
+msgstr "נמצאה עמודה, הסוג הוא {}."
+
+#: diagnostics.py:354
+#, server
+msgid "Column is the primary key."
+msgstr "עמודה היא המפתח הראשי."
+
+#: diagnostics.py:357
+#, server
+msgid "Column is not the primary key."
+msgstr "העמודה אינה המפתח הראשי."
+
+#: diagnostics.py:366
+#, server
+msgid "Column can be NULL."
+msgstr "העמודה יכולה להיות NULL."
+
+#: diagnostics.py:371
+#, server
+msgid "NULL values in the column."
+msgstr "ערכי NULL בעמודה."
+
+#: diagnostics.py:373
+#, server
+msgid "No NULL values in the column."
+msgstr "אין ערכי NULL בעמודה."
+
+#: diagnostics.py:375
+#, server
+msgid "Column cannot be NULL."
+msgstr "העמודה לא יכולה להיות NULL."
+
+#: diagnostics.py:379
+#, server
+msgid "Unique index not found."
+msgstr "אינדקס ייחודי לא נמצא."
+
+#: diagnostics.py:381
+#, server
+msgid "Unique index found."
+msgstr "נמצא אינדקס ייחודי."
+
+#: diagnostics.py:397
+#, server
+msgid "Non-unique values in the column."
+msgstr "ערכים לא ייחודיים בעמודה."
+
+#: diagnostics.py:399
+#, server
+msgid "All values are unique."
+msgstr "כל הערכים הם ייחודיים."
+
+#: diagnostics.py:404
+#, server
+msgid "Column is auto-incrementable."
+msgstr "העמודה ניתנת להגדלה אוטומטית."
+
+#: diagnostics.py:406
+#, server
+msgid "Column isn't auto-incrementable."
+msgstr "לא ניתן להגדיל את העמודה באופן אוטומטי."
+
+#: diagnostics.py:410 nodepkg/layer-widget/LayerWidget.tsx:21
+#, jsrealm, server
+msgid "Geometry column"
+msgstr "עמודת גיאומטריה"
+
+#: diagnostics.py:425
+#, python-brace-format, server
+msgid "Column found, but has an incompatible type - {}."
+msgstr "נמצאה עמודה, אך היא מכילה סוג לא תואם - {}."
+
+#: diagnostics.py:431
+#, server
+msgid "Geometry SRID mismatch."
+msgstr "אי התאמה ב-SRID בגיאומטריה."
+
+#: diagnostics.py:446
+#, python-brace-format, server
+msgid "Failed to reproject extent to SRID {}."
+msgstr "נכשל בהקרנת היקף מחדש ל-SRID {}."
+
+#: diagnostics.py:453
+#, python-brace-format, server
+msgid "Extent (SRID {}): {}."
+msgstr "היקף (SRID {}): {}."
+
+#: diagnostics.py:457
+#, server
+msgid "Field columns"
+msgstr "עמודות שדה"
+
+#: diagnostics.py:463
+#, python-brace-format, server
+msgid "Column of field '{}' not found."
+msgstr "עמודה של השדה '{}' לא נמצאה."
+
+#: diagnostics.py:472
+#, python-brace-format, server
+msgid "Column of field '{}' found, but has an incompatible type - {}."
+msgstr "נמצאה עמודה של השדה '{}', אך היא מכילה סוג לא תואם - {}."
+
+#: diagnostics.py:478
+#, python-brace-format, server
+msgid "Column of field '{}' found, type is {}."
+msgstr "נמצאה עמודה של השדה '{}', הסוג הוא {}."
+
+#: exception.py:9
+#, server
+msgid "External database error"
+msgstr "שגיאת מסד נתונים חיצוני"
+
+#: model.py:81 nodepkg/layer-widget/LayerWidget.tsx:67
+#, jsrealm, server
+msgid "Point"
+msgstr "נְקוּדָה"
+
+#: model.py:82 nodepkg/layer-widget/LayerWidget.tsx:68
+#, jsrealm, server
+msgid "Line"
+msgstr "קַו"
+
+#: model.py:83 nodepkg/layer-widget/LayerWidget.tsx:69
+#, jsrealm, server
+msgid "Polygon"
+msgstr "מְצוּלָע"
+
+#: model.py:84 nodepkg/layer-widget/LayerWidget.tsx:70
+#, jsrealm, server
+msgid "Multipoint"
+msgstr "רב-נקודתי"
+
+#: model.py:85 nodepkg/layer-widget/LayerWidget.tsx:71
+#, jsrealm, server
+msgid "Multiline"
+msgstr "רב-קו"
+
+#: model.py:86 nodepkg/layer-widget/LayerWidget.tsx:72
+#, jsrealm, server
+msgid "Multipolygon"
+msgstr "רב-מצולע"
+
+#: model.py:87 nodepkg/layer-widget/LayerWidget.tsx:73
+#, jsrealm, server
+msgid "Point Z"
+msgstr "נקודה Z"
+
+#: model.py:88 nodepkg/layer-widget/LayerWidget.tsx:74
+#, jsrealm, server
+msgid "Line Z"
+msgstr "קו Z"
+
+#: model.py:89 nodepkg/layer-widget/LayerWidget.tsx:75
+#, jsrealm, server
+msgid "Polygon Z"
+msgstr "מצולע Z"
+
+#: model.py:90 nodepkg/layer-widget/LayerWidget.tsx:76
+#, jsrealm, server
+msgid "Multipoint Z"
+msgstr "רב-נקודתי Z"
+
+#: model.py:91 nodepkg/layer-widget/LayerWidget.tsx:77
+#, jsrealm, server
+msgid "Multiline Z"
+msgstr "רב-קו Z"
+
+#: model.py:92 nodepkg/layer-widget/LayerWidget.tsx:78
+#, jsrealm, server
+msgid "Multipolygon Z"
+msgstr "רב-מצולע Z"
+
+#: model.py:138 nodepkg/connection-widget/ConnectionWidget.tsx:89
+#, jsrealm, server
+msgid "PostGIS connection"
+msgstr "חיבור PostGIS"
+
+#: model.py:227
+#, server
+msgid "Cannot connect to the database!"
+msgstr "לא ניתן להתחבר למסד הנתונים!"
+
+#: model.py:264 nodepkg/layer-widget/LayerWidget.tsx:224
+#, jsrealm, server
+msgid "PostGIS layer"
+msgstr "שכבת PostGIS"
+
+#: model.py:325
+#, python-format, server
+msgid "Table '%(table)s' not found!"
+msgstr "טבלה '%(table)s' לא נמצאה!"
+
+#: model.py:344
+#, server
+msgid "SRID missing in geometry_columns table! You should specify it manually."
+msgstr "חסר SRID בטבלת geometry_columns! עליך לציין אותו ידנית."
+
+#: model.py:349
+#, server
+msgid "0 is an invalid SRID."
+msgstr "0 הוא SRID לא חוקי."
+
+#: model.py:357
+#, server
+msgid "SRID in geometry_columns table does not match specified!"
+msgstr "SRID בטבלת geometry_columns אינו תואם את מה שצוין!"
+
+#: model.py:369
+#, server
+msgid ""
+"Geometry type missing in geometry_columns table! You should specify it "
+"manually."
+msgstr "חסר סוג גיאומטריה בטבלת geometry_columns! עליך לציין אותו ידנית."
+
+#: model.py:381
+#, server
+msgid "Geometry type in geometry_columns table does not match specified!"
+msgstr "סוג הגיאומטריה בטבלת geometry_columns אינו תואם לערך שצוין!"
+
+#: model.py:392
+#, server
+msgid "To use column as ID it should have integer type!"
+msgstr "כדי להשתמש בעמודה כמזהה, היא צריכה להיות מסוג שלם!"
+
+#: model.py:434 model.py:439
+#, python-format, server
+msgid "Column '%(column)s' not found!"
+msgstr "העמודה '%(column)s' לא נמצאה!"
+
+#: model.py:445 nodepkg/layer-widget/LayerWidget.tsx:23
+#, jsrealm, server
+msgid "Geometry type"
+msgstr "סוג גיאומטריה"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:35
+#, jsrealm
+msgid "Host"
+msgstr "מְאָרֵחַ"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:40
+#, jsrealm
+msgid "Port"
+msgstr "נָמָל"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:51
+#, jsrealm
+msgid "SSL mode"
+msgstr "מצב SSL"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:63
+#, jsrealm
+msgid "User"
+msgstr "מִשׁתַמֵשׁ"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:69
+#, jsrealm
+msgid "Password"
+msgstr "סִיסמָה"
+
+#: nodepkg/connection-widget/ConnectionWidget.tsx:79
+#, jsrealm
+msgid "Database"
+msgstr "מסד נתונים"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.tsx:22
+#, jsrealm
+msgid "Unknown"
+msgstr "לֹא יְדוּעַ"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.tsx:23
+#, jsrealm
+msgid "Success"
+msgstr "הַצלָחָה"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.tsx:24
+#, jsrealm
+msgid "Warning"
+msgstr "אַזהָרָה"
+
+#: nodepkg/diagnostics-widget/DiagnosticsWidget.tsx:25
+#, jsrealm
+msgid "Error"
+msgstr "שְׁגִיאָה"
+
+#: nodepkg/layer-widget/LayerStore.ts:13
+#, jsrealm
+msgid "Fields need to be updated due to autodetection"
+msgstr "יש לעדכן את השדות עקב זיהוי אוטומטי"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:17
+#, jsrealm
+msgid "Connection"
+msgstr "קֶשֶׁר"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:18
+#, jsrealm
+msgid "Schema"
+msgstr "סכֵימָה"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:19
+#, jsrealm
+msgid "Table"
+msgstr "לוּחַ"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:22
+#, jsrealm
+msgid "Autodetect"
+msgstr "זיהוי אוטומטי"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:24
+#, jsrealm
+msgid "SRID"
+msgstr "SRID"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:25
+#, jsrealm
+msgid "Fields"
+msgstr "שדות"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:82
+#, jsrealm
+msgid "Keep existing definitions untouched"
+msgstr "השאירו את ההגדרות הקיימות ללא שינוי"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:83
+#, jsrealm
+msgid "Update definitions from the database"
+msgstr "עדכון הגדרות ממסד הנתונים"
+
+#: nodepkg/resource-action-plugin.tsx:11
+#, jsrealm
+msgid "Diagnostics"
+msgstr "אבחון"
+
+#: view.py:47
+#, server
+msgid "PostGIS diagnostics"
+msgstr "אבחון PostGIS"

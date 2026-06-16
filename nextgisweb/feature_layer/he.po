@@ -1,0 +1,1166 @@
+#: api.py:119 api_identify.py:27
+#, server
+msgid "Geometry is not valid."
+msgstr "גיאומטריה אינה תקפה."
+
+#: api.py:385
+#, server
+msgid "Unknown spatial reference system"
+msgstr "מערכת ייחוס מרחבית לא ידועה"
+
+#: api.py:472 api_export.py:213
+#, server
+msgid "Parameter 'intersects' geometry is not valid."
+msgstr "הגיאומטריה של הפרמטר 'חוצה' אינה חוקית."
+
+#: api.py:715
+#, server
+msgid "Aggregation is not supported for this layer."
+msgstr "צבירה אינה נתמכת עבור שכבה זו."
+
+#: api.py:724
+#, python-brace-format, server
+msgid "Aggregation '{}' is not supported for this layer."
+msgstr "הצבירה '{}' אינה נתמכת עבור שכבה זו."
+
+#: api.py:730 api.py:737
+#, python-brace-format, server
+msgid "Field '{}' not found."
+msgstr "השדה '{}' לא נמצא."
+
+#: api_export.py:108
+#, python-brace-format, server
+msgid "Couldn't add FID field '{}'. Such field already exists."
+msgstr "לא ניתן היה להוסיף את שדה FID '{}'. שדה כזה כבר קיים."
+
+#: api_export.py:252
+#, python-brace-format, server
+msgid "The selected format does not support {} geometry type."
+msgstr "הפורמט שנבחר אינו תומך בסוג הגיאומטריה {}."
+
+#: api_export.py:265
+#, python-brace-format, server
+msgid "The export limit is set to {limit} features, but the layer contains {count}."
+msgstr "מגבלת הייצוא מוגדרת ל-{limit} מאפיינים, אך השכבה מכילה {count}."
+
+#: api_export.py:278
+#, server
+msgid "Failed to reproject 'intersects' geometry."
+msgstr "נכשל בהטלת גיאומטריה של 'חיתוך' מחדש."
+
+#: api_export.py:289
+#, server
+msgid "Filter expressions are not supported."
+msgstr "ביטויי סינון אינם נתמכים."
+
+#: api_export.py:459
+#, python-brace-format, server
+msgid "File name parameter '{}' is not valid."
+msgstr "פרמטר שם הקובץ '{}' אינו חוקי."
+
+#: dtutil.py:28
+#, python-brace-format, server
+msgid "Got an invalid date-time value in the legacy format: {}."
+msgstr "קיבלתי ערך תאריך-שעה לא חוקי בפורמט הישן: {}."
+
+#: dtutil.py:29
+#, server
+msgid "Please use dt_format=iso and ISO-8601 based format."
+msgstr "אנא השתמש בפורמט dt_format=iso ובפורמט מבוסס ISO-8601."
+
+#: dtutil.py:37
+#, python-brace-format, server
+msgid "Got an invalid date-time value in ISO-8601 format: {}."
+msgstr "קיבלתי ערך תאריך-שעה לא חוקי בפורמט ISO-8601: {}."
+
+#: dtutil.py:38
+#, python-brace-format, server
+msgid "Value should be in RFC 3339 {} format without timezone and leap seconds."
+msgstr "הערך צריך להיות בפורמט RFC 3339 {} ללא אזור זמן ושניות מעוברות."
+
+#: exception.py:7
+#, server
+msgid "Feature not found"
+msgstr "תכונה לא נמצאה"
+
+#: exception.py:8
+#, python-format, server
+msgid "Feature with id = %d was not found in resource with id = %d."
+msgstr "תכונה עם מזהה = %d לא נמצאה במשאב עם מזהה = %d."
+
+#: exception.py:9
+#, server
+msgid "The feature may have been deleted or an error in the address."
+msgstr "ייתכן שהתכונה נמחקה או שיש שגיאה בכתובת."
+
+#: exception.py:20
+#, server
+msgid "Feature not deleted"
+msgstr "התכונה לא נמחקה"
+
+#: exception.py:21
+#, python-brace-format, server
+msgid "Unable to restore the #{} feature as it is not deleted."
+msgstr "לא ניתן לשחזר את התכונה #{} מכיוון שהיא לא נמחקה."
+
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:43
+#, jsrealm, server
+msgid "Feature table"
+msgstr "טבלת תכונות"
+
+#: filter.py:32
+#, server
+msgid "Invalid filter expression"
+msgstr "ביטוי מסנן לא חוקי"
+
+#: model.py:197
+#, python-format, server
+msgid "Field not found (ID=%d)."
+msgstr "השדה לא נמצא (מזהה=%d)."
+
+#: model.py:274
+#, server
+msgid "Versioning not supported"
+msgstr "ניהול גרסאות אינו נתמך"
+
+#: nodepkg/attribute-editor/AttributeEditor.tsx:38
+#, jsrealm
+msgid "Set field value to NULL (No data)"
+msgstr "הגדר את ערך השדה ל-NULL (ללא נתונים)"
+
+#: nodepkg/attribute-editor/AttributeEditor.tsx:39
+#, jsrealm
+msgid "There are no attributes in the vector layer"
+msgstr "אין מאפיינים בשכבת הווקטור"
+
+#: nodepkg/attribute-editor/plugin.ts:10
+#, jsrealm
+msgid "Attributes"
+msgstr "תכונות"
+
+#: nodepkg/control-panel-plugin.tsx:11
+#: nodepkg/settings-widget/SettingsWidget.tsx:12 versioning/model.py:106
+#: view.py:148
+#, jsrealm, server
+msgid "Feature versioning"
+msgstr "ניהול גרסאות של תכונות"
+
+#: nodepkg/export-form/ExportForm.tsx:242
+#, jsrealm
+msgid "Resources"
+msgstr "אֶמְצָעִי"
+
+#: nodepkg/export-form/ExportForm.tsx:264
+#, jsrealm
+msgid "Format"
+msgstr "פוּרמָט"
+
+#: nodepkg/export-form/ExportForm.tsx:277
+#, jsrealm
+msgid "SRS"
+msgstr "SRS"
+
+#: nodepkg/export-form/ExportForm.tsx:282
+#, jsrealm
+msgid "Encoding"
+msgstr "הַצפָּנָה"
+
+#: nodepkg/export-form/ExportForm.tsx:296
+#, jsrealm
+msgid "FID field"
+msgstr "שדה FID"
+
+#: nodepkg/export-form/ExportForm.tsx:300
+#, jsrealm
+msgid "Use field display names instead of keynames"
+msgstr "השתמש בשמות תצוגה של שדות במקום בשמות מפתח"
+
+#: nodepkg/export-form/ExportForm.tsx:306
+#: nodepkg/fields-widget/FieldsWidget.tsx:201
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:51
+#, jsrealm
+msgid "Fields"
+msgstr "שדות"
+
+#: nodepkg/export-form/ExportForm.tsx:312
+#, jsrealm
+msgid "Limit by extent"
+msgstr "הגבלה לפי היקף"
+
+#: nodepkg/export-form/ExportForm.tsx:318
+#, jsrealm
+msgid "Filter text"
+msgstr "סינון טקסט"
+
+#: nodepkg/export-form/ExportForm.tsx:328
+#, jsrealm
+msgid "Filter applied"
+msgstr "המסנן הוחל"
+
+#: nodepkg/export-form/ExportForm.tsx:329
+#, jsrealm
+msgid "Set filter"
+msgstr "הגדר מסנן"
+
+#: nodepkg/export-form/ExportForm.tsx:332
+#, jsrealm
+msgid "Filter"
+msgstr "לְסַנֵן"
+
+#: nodepkg/export-form/ExportForm.tsx:337
+#, jsrealm
+msgid "Zip archive"
+msgstr "ארכיון זיפ"
+
+#: nodepkg/export-form/ExportForm.tsx:390
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
+#: nodepkg/versioning-settings/VersioningSettings.tsx:71
+#, jsrealm
+msgid "Save"
+msgstr "לְהַצִיל"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:28
+#, jsrealm
+msgid "Cancel"
+msgstr "לְבַטֵל"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
+#, jsrealm
+msgid "Are you sure?"
+msgstr "אתה בטוח?"
+
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:22
+#, jsrealm
+msgid "Unsaved changes will be lost if you close the window."
+msgstr "שינויים שלא נשמרו יאבדו אם תסגור את החלון."
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
+#, jsrealm
+msgid "Loading..."
+msgstr "טְעִינָה..."
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:42
+#, jsrealm
+msgid "OK"
+msgstr "בְּסֵדֶר"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
+#, jsrealm
+msgid "Reset"
+msgstr "אִתחוּל"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:45
+#, jsrealm
+msgid "Feature saved"
+msgstr "התכונה נשמרה"
+
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:46
+#, jsrealm
+msgid "No changes to save"
+msgstr "אין שינויים לשמירה"
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:25
+#, jsrealm
+msgid "Constructor"
+msgstr "בַּנַאִי"
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:26
+#, jsrealm
+msgid "JSON"
+msgstr "JSON"
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:27
+#, jsrealm
+msgid "Apply"
+msgstr "לִפְנוֹת"
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:29
+#, jsrealm
+msgid "Clear"
+msgstr "בָּרוּר"
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:62
+#, jsrealm
+msgid "Filter is invalid. Please fix errors before applying."
+msgstr "המסנן אינו תקין. אנא תקן שגיאות לפני היישום."
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:71
+#, jsrealm
+msgid "Filter applied successfully"
+msgstr "המסנן הוחל בהצלחה"
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:73
+#, jsrealm
+msgid "Failed to apply filter"
+msgstr "החלת המסנן נכשלה"
+
+#: nodepkg/feature-filter/FilterEditorStore.ts:106
+#, jsrealm
+msgid "Failed to generate JSON from filter state:"
+msgstr "נכשלה יצירת JSON ממצב המסנן:"
+
+#: nodepkg/feature-filter/FilterEditorStore.ts:127
+#, jsrealm
+msgid "Failed to parse JSON, falling back to JSON tab."
+msgstr "ניתוח JSON נכשל, חוזר לטאב JSON."
+
+#: nodepkg/feature-filter/FilterEditorStore.ts:239
+#, jsrealm
+msgid "Cannot delete the root group."
+msgstr "לא ניתן למחוק את קבוצת השורש."
+
+#: nodepkg/feature-filter/FilterEditorStore.ts:343
+#, jsrealm
+msgid "Failed to parse filter expression:"
+msgstr "ניתוח ביטוי המסנן נכשל:"
+
+#: nodepkg/feature-filter/FilterEditorStore.ts:349
+#, jsrealm
+msgid "Invalid filter value"
+msgstr "ערך סינון לא חוקי"
+
+#: nodepkg/feature-filter/FilterEditorStore.ts:363
+#: nodepkg/feature-filter/FilterEditorStore.ts:387
+#, jsrealm
+msgid "Invalid JSON or filter structure"
+msgstr "JSON או מבנה מסנן לא חוקיים"
+
+#: nodepkg/feature-filter/FilterEditorStore.ts:638
+#, jsrealm
+msgid "Validation failed"
+msgstr "האימות נכשל"
+
+#: nodepkg/feature-filter/component/FilterCondition.tsx:38
+#, jsrealm
+msgid "Delete condition"
+msgstr "מחיקת תנאי"
+
+#: nodepkg/feature-filter/component/FilterCondition.tsx:40
+#, jsrealm
+msgid "Select field"
+msgstr "בחירת שדה"
+
+#: nodepkg/feature-filter/component/FilterCondition.tsx:41
+#, jsrealm
+msgid "Operator"
+msgstr "מַפעִיל"
+
+#: nodepkg/feature-filter/component/FilterGroup.tsx:123
+#, jsrealm
+msgid "ALL"
+msgstr "כֹּל"
+
+#: nodepkg/feature-filter/component/FilterGroup.tsx:124
+#, jsrealm
+msgid "ANY"
+msgstr "כֹּל"
+
+#: nodepkg/feature-filter/component/FilterGroup.tsx:132
+#, jsrealm
+msgid "Condition"
+msgstr "מַצָב"
+
+#: nodepkg/feature-filter/component/FilterGroup.tsx:139
+#, jsrealm
+msgid "Group"
+msgstr "קְבוּצָה"
+
+#: nodepkg/feature-filter/component/FilterValueInput.tsx:33
+#: nodepkg/feature-filter/util/placeholder.ts:15
+#, jsrealm
+msgid "No value"
+msgstr "אין ערך"
+
+#: nodepkg/feature-filter/component/FilterValueInput.tsx:34
+#: nodepkg/feature-filter/util/placeholder.ts:16
+#, jsrealm
+msgid "Any value"
+msgstr "כל ערך"
+
+#: nodepkg/feature-filter/component/FilterValueInput.tsx:35
+#, jsrealm
+msgid "Invalid field"
+msgstr "שדה לא חוקי"
+
+#: nodepkg/feature-filter/component/FilterValueInput.tsx:36
+#, jsrealm
+msgid "Field not found"
+msgstr "השדה לא נמצא"
+
+#: nodepkg/feature-filter/testentry.tsx:120
+#, jsrealm
+msgid "Output JSON"
+msgstr "פלט JSON"
+
+#: nodepkg/feature-filter/testentry.tsx:121
+#, jsrealm
+msgid "Current filter state"
+msgstr "מצב המסנן הנוכחי"
+
+#: nodepkg/feature-filter/type.ts:167
+#, jsrealm
+msgid "Equal"
+msgstr "לְהִשְׁתַווֹת"
+
+#: nodepkg/feature-filter/type.ts:181
+#, jsrealm
+msgid "Not equal"
+msgstr "לא שווה"
+
+#: nodepkg/feature-filter/type.ts:195
+#, jsrealm
+msgid "Greater"
+msgstr "גדול יותר"
+
+#: nodepkg/feature-filter/type.ts:200
+#, jsrealm
+msgid "Less"
+msgstr "פָּחוֹת"
+
+#: nodepkg/feature-filter/type.ts:205
+#, jsrealm
+msgid "Greater or equal"
+msgstr "גדול יותר או שווה"
+
+#: nodepkg/feature-filter/type.ts:210
+#, jsrealm
+msgid "Less or equal"
+msgstr "פחות או שווה"
+
+#: nodepkg/feature-filter/type.ts:215
+#, jsrealm
+msgid "In list"
+msgstr "ברשימה"
+
+#: nodepkg/feature-filter/type.ts:220
+#, jsrealm
+msgid "Not in list"
+msgstr "לא ברשימה"
+
+#: nodepkg/feature-filter/type.ts:225
+#, jsrealm
+msgid "Is NULL"
+msgstr "הוא ריק"
+
+#: nodepkg/feature-filter/type.ts:239
+#, jsrealm
+msgid "Is not NULL"
+msgstr "אינו ריק"
+
+#: nodepkg/feature-filter/type.ts:253
+#, jsrealm
+msgid "Matches (case-insensitive)"
+msgstr "התאמות (לא תלויות רישיות)"
+
+#: nodepkg/feature-filter/type.ts:258
+#, jsrealm
+msgid "Does not match (case-insensitive)"
+msgstr "לא תואם (לא תלוי רישיות)"
+
+#: nodepkg/feature-filter/util/placeholder.ts:29
+#, jsrealm
+msgid "Enter values and press Enter"
+msgstr "הזינו ערכים ולחצו על Enter"
+
+#: nodepkg/feature-filter/util/placeholder.ts:38
+#, jsrealm
+msgid "Enter integer"
+msgstr "הזן מספר שלם"
+
+#: nodepkg/feature-filter/util/placeholder.ts:44
+#, jsrealm
+msgid "Enter big integer"
+msgstr "הזן מספר שלם גדול"
+
+#: nodepkg/feature-filter/util/placeholder.ts:50
+#, jsrealm
+msgid "Enter number"
+msgstr "הזן מספר"
+
+#: nodepkg/feature-filter/util/placeholder.ts:56
+#, jsrealm
+msgid "Select date"
+msgstr "בחר תאריך"
+
+#: nodepkg/feature-filter/util/placeholder.ts:62
+#, jsrealm
+msgid "Select time"
+msgstr "בחר זמן"
+
+#: nodepkg/feature-filter/util/placeholder.ts:68
+#, jsrealm
+msgid "Select date and time"
+msgstr "בחר תאריך ושעה"
+
+#: nodepkg/feature-filter/util/placeholder.ts:74
+#, jsrealm
+msgid "Enter value"
+msgstr "הזן ערך"
+
+#: nodepkg/feature-filter/util/validator.ts:64
+#, jsrealm
+msgid "Field expression must be ['get', fieldName] or ['fid']"
+msgstr "ביטוי השדה חייב להיות ['get', fieldName] או ['fid']"
+
+#: nodepkg/feature-filter/util/validator.ts:72
+#, jsrealm, python-brace-format
+msgid "Unknown field: '{fieldName}'"
+msgstr "שדה לא ידוע: '{fieldName}'"
+
+#: nodepkg/feature-filter/util/validator.ts:79
+#, jsrealm, python-brace-format
+msgid "Unknown virtual field: '{fieldId}'"
+msgstr "שדה וירטואלי לא ידוע: '{fieldId}'"
+
+#: nodepkg/feature-filter/util/validator.ts:97
+#, jsrealm, python-brace-format
+msgid "Field '{fieldName}' expects a string for {fieldType}, but got '{valueType}'"
+msgstr "השדה '{fieldName}' מצפה למחרוזת עבור {fieldType}, אך קיבל את '{valueType}'"
+
+#: nodepkg/feature-filter/util/validator.ts:115
+#, jsrealm, python-brace-format
+msgid ""
+"Field '{fieldName}' expects {fieldType} format '{expectedFormat}', but got "
+"'{value}'"
+msgstr ""
+"השדה '{fieldName}' מצפה לפורמט {fieldType} '{expectedFormat}', אך קיבל את "
+"הפורמט '{value}'"
+
+#: nodepkg/feature-filter/util/validator.ts:132
+#, jsrealm
+msgid "Condition expression must be an array"
+msgstr "ביטוי תנאי חייב להיות מערך"
+
+#: nodepkg/feature-filter/util/validator.ts:138
+#, jsrealm, python-brace-format
+msgid "Invalid operator: '{operator}'"
+msgstr "אופרטור לא חוקי: '{operator}'"
+
+#: nodepkg/feature-filter/util/validator.ts:144
+#: nodepkg/feature-filter/util/validator.ts:160
+#, jsrealm, python-brace-format
+msgid "Operator '{operator}' expects 1 argument, but got '{length}'"
+msgstr "האופרטור '{operator}' מצפה לארגומנט אחד, אך קיבל את '{length}'"
+
+#: nodepkg/feature-filter/util/validator.ts:152
+#, jsrealm, python-brace-format
+msgid "Operator '{operator}' expects at least {min} value argument"
+msgstr "האופרטור '{operator}' מצפה לפחות לערך ארגומנט {min}"
+
+#: nodepkg/feature-filter/util/validator.ts:178
+#, jsrealm, python-brace-format
+msgid "Operator '{operator}' is not supported for field type '{fieldType}'"
+msgstr "האופרטור '{operator}' אינו נתמך עבור סוג השדה '{fieldType}'"
+
+#: nodepkg/feature-filter/util/validator.ts:189
+#, jsrealm
+msgid ""
+"Values for 'in' operator cannot be arrays (must be flattened) or property "
+"references."
+msgstr ""
+"ערכים עבור האופרטור 'in' אינם יכולים להיות מערכים (חייבים להיות שטוחים) או "
+"הפניות למאפיינים."
+
+#: nodepkg/feature-filter/util/validator.ts:214
+#, jsrealm, python-brace-format
+msgid "Field '{fieldName}' expects a number, but got '{valueType}'"
+msgstr "השדה '{fieldName}' מצפה למספר, אך קיבל את '{valueType}'"
+
+#: nodepkg/feature-filter/util/validator.ts:221
+#, jsrealm, python-brace-format
+msgid "Field '{fieldName}' expects a string, but got '{valueType}'"
+msgstr "השדה '{fieldName}' מצפה למחרוזת, אך קיבל את '{valueType}'"
+
+#: nodepkg/feature-filter/util/validator.ts:238
+#, jsrealm
+msgid "Expression must be an array"
+msgstr "הביטוי חייב להיות מערך"
+
+#: nodepkg/feature-filter/util/validator.ts:250
+#, jsrealm
+msgid "Group operator must have at least one argument"
+msgstr "אופרטור הקבוצה חייב לכלול לפחות ארגומנט אחד"
+
+#: nodepkg/feature-filter/util/validator.ts:256
+#, jsrealm
+msgid "All arguments to group operator must be arrays"
+msgstr "כל הארגומנטים לאופרטור הקבוצה חייבים להיות מערכים"
+
+#: nodepkg/feature-filter/util/validator.ts:270
+#, jsrealm, python-brace-format
+msgid "Unknown or invalid root operator: '{operator}'"
+msgstr "אופרטור שורש לא ידוע או לא חוקי: '{operator}'"
+
+#: nodepkg/feature-filter/util/virtual-fields.ts:10
+#, jsrealm
+msgid "Feature ID"
+msgstr "מזהה תכונה"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:24
+#, jsrealm
+msgid "Open table settings"
+msgstr "פתח את הגדרות הטבלה"
+
+#: nodepkg/feature-grid/FeatureGrid.tsx:25
+#: nodepkg/version-history/VersionHistory.tsx:225
+#, jsrealm
+msgid "Refresh table"
+msgstr "רענון הטבלה"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:38
+#, jsrealm
+msgid "Open"
+msgstr "לִפְתוֹחַ"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:39
+#, jsrealm
+msgid "Open on a new page"
+msgstr "פתח בדף חדש"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:40
+#, jsrealm
+msgid "Delete"
+msgstr "לִמְחוֹק"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:41
+#, jsrealm
+msgid "Edit"
+msgstr "לַעֲרוֹך"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:42
+#, jsrealm
+msgid "Edit on a new page"
+msgstr "עריכה בעמוד חדש"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:43
+#, jsrealm
+msgid "Create"
+msgstr "לִיצוֹר"
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:45
+#, jsrealm
+msgid "Search..."
+msgstr "לְחַפֵּשׂ..."
+
+#: nodepkg/feature-grid/FeatureGridActions.tsx:46
+#, jsrealm
+msgid "Advanced filter"
+msgstr "סינון מתקדם"
+
+#: nodepkg/feature-grid/FeatureTable.tsx:89
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:49
+#, jsrealm
+msgid "Last changed"
+msgstr "שונה לאחרונה"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:30
+#: nodepkg/resource-action-plugin.tsx:63 view.py:88 view.py:112
+#, jsrealm, server
+msgid "Save as"
+msgstr "שמור בשם"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:31
+#, jsrealm
+msgid "Advanced export"
+msgstr "ייצוא מתקדם"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:32
+#, jsrealm
+msgid "Quick export"
+msgstr "ייצוא מהיר"
+
+#: nodepkg/feature-grid/component/ExportAction.tsx:33
+#, jsrealm
+msgid "Filters are applied"
+msgstr "מסננים מוחלים"
+
+#: nodepkg/feature-grid/util/renderFeatureFieldValue.ts:13
+#, jsrealm
+msgid "True"
+msgstr "נָכוֹן"
+
+#: nodepkg/feature-grid/util/renderFeatureFieldValue.ts:13
+#, jsrealm
+msgid "False"
+msgstr "שֶׁקֶר"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:23
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:31
+#: nodepkg/version-history/component/menu-items/copy-menu-item/CopyForm.tsx:75
+#, jsrealm
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:24
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:19
+#, jsrealm
+msgid "Keyname"
+msgstr "שם מפתח"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:25
+#: nodepkg/resource-section/FeatureLayerResourceSection.tsx:25
+#, jsrealm
+msgid "Type"
+msgstr "סוּג"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:26
+#, jsrealm
+msgid "Lookup table"
+msgstr "טבלת חיפוש"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:28
+#, jsrealm
+msgid "Text search"
+msgstr "חיפוש טקסט"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:29
+#, jsrealm
+msgid "Label attribute"
+msgstr "תכונת תווית"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:30
+#, jsrealm
+msgid "Delete field?"
+msgstr "למחוק שדה?"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:31
+#, jsrealm
+msgid ""
+"Deleting this field will permanently erase all its version history from this "
+"layer."
+msgstr "מחיקת שדה זה תמחק לצמיתות את כל היסטוריית הגרסאות שלו משכבה זו."
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:32
+#, jsrealm
+msgid "Please select"
+msgstr "אנא בחר"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:33
+#, jsrealm
+msgid "Not used"
+msgstr "לא בשימוש"
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:115
+#, jsrealm
+msgid "Field"
+msgstr "שָׂדֶה"
+
+#: nodepkg/filtered-count/FilteredCount.tsx:66
+#, jsrealm, python-brace-format
+msgid "{filtered_count} of {total_count}"
+msgstr "{filtered_count} מתוך {total_count}"
+
+#: nodepkg/filtered-count/FilteredCount.tsx:72
+#: nodepkg/filtered-count/FilteredCount.tsx:103
+#, jsrealm
+msgid "Feature count"
+msgstr "ספירת תכונות"
+
+#: nodepkg/geometry-editor/plugin.ts:10
+#, jsrealm
+msgid "Geometry"
+msgstr "גֵאוֹמֶטרִיָה"
+
+#: nodepkg/geometry-editor/util/component/ZoomToResourceBtn.tsx:36
+#, jsrealm
+msgid "Zoom to layer extent"
+msgstr "זום לגודל השכבה"
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:46
+#, jsrealm
+msgid "Load geometry info..."
+msgstr "טען מידע גיאומטריה..."
+
+#: nodepkg/geometry-info/GeometryInfo.tsx:54
+#, jsrealm
+msgid "Failed to get information about the geometry"
+msgstr "נכשל בקבלת מידע על הגיאומטריה"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:34
+#, jsrealm
+msgid "Perimeter"
+msgstr "היקפי"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:35
+#, jsrealm
+msgid "Length"
+msgstr "מֶשֶׁך"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:43
+#, jsrealm
+msgid "Area"
+msgstr "אֵזוֹר"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:52
+#, jsrealm
+msgid "Geometry type"
+msgstr "סוג גיאומטריה"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:58
+#, jsrealm
+msgid "Extent (xMin)"
+msgstr "היקף (xMin)"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:62
+#, jsrealm
+msgid "Extent (yMin)"
+msgstr "היקף (yMin)"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:66
+#, jsrealm
+msgid "Extent (xMax)"
+msgstr "היקף (xMax)"
+
+#: nodepkg/geometry-info/component/GeometryInfoTable.tsx:70
+#, jsrealm
+msgid "Extent (yMax)"
+msgstr "היקף (yMax)"
+
+#: nodepkg/resource-action-plugin.tsx:22
+#: nodepkg/version-history/hook/useColumns.tsx:73
+#, jsrealm
+msgid "Features"
+msgstr "תכונות"
+
+#: nodepkg/resource-action-plugin.tsx:29
+#, jsrealm
+msgid "Table"
+msgstr "לוּחַ"
+
+#: nodepkg/resource-action-plugin.tsx:45 view.py:101
+#, jsrealm, server
+msgid "Version history"
+msgstr "היסטוריית גרסאות"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:13
+#, jsrealm
+msgid "Disable feature versioning?"
+msgstr "להשבית ניהול גרסאות של תכונות?"
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:14
+#, jsrealm
+msgid ""
+"Turning off feature versioning will truncate the history and keep only the "
+"latest state."
+msgstr "כיבוי ניהול גרסאות של תכונות יקצר את ההיסטוריה וישמור רק את המצב העדכני ביותר."
+
+#: nodepkg/settings-widget/SettingsWidget.tsx:51
+#, jsrealm
+msgid "Settings"
+msgstr "הגדרות"
+
+#: nodepkg/version-history/VersionHistory.tsx:107
+#, jsrealm
+msgid "Today"
+msgstr "הַיוֹם"
+
+#: nodepkg/version-history/VersionHistory.tsx:108
+#, jsrealm
+msgid "Yesterday"
+msgstr "אֶתמוֹל"
+
+#: nodepkg/version-history/VersionHistory.tsx:109
+#, jsrealm
+msgid "Last 24 hours"
+msgstr "24 השעות האחרונות"
+
+#: nodepkg/version-history/VersionHistory.tsx:110
+#, jsrealm
+msgid "Last 3 days"
+msgstr "3 הימים האחרונים"
+
+#: nodepkg/version-history/VersionHistory.tsx:111
+#, jsrealm
+msgid "Last week"
+msgstr "בשבוע שעבר"
+
+#: nodepkg/version-history/VersionHistory.tsx:112
+#, jsrealm
+msgid "Last month"
+msgstr "בחודש שעבר"
+
+#: nodepkg/version-history/VersionHistory.tsx:113
+#, jsrealm
+msgid "This month"
+msgstr "החודש הזה"
+
+#: nodepkg/version-history/VersionHistory.tsx:114
+#, jsrealm
+msgid "Previous month"
+msgstr "חודש קודם"
+
+#: nodepkg/version-history/VersionHistory.tsx:218
+#, jsrealm
+msgid "Group edits"
+msgstr "עריכות קבוצתיות"
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:31
+#, jsrealm
+msgid "Created"
+msgstr "נוצר"
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:33
+#, jsrealm
+msgid "Updated"
+msgstr "מְעוּדכָּן"
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:35
+#, jsrealm
+msgid "Deleted"
+msgstr "נמחק"
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:37
+#, jsrealm
+msgid "Restored"
+msgstr "מְשׁוּחזָר"
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:92
+#, jsrealm
+msgid "Updated geometry"
+msgstr "גיאומטריה מעודכנת"
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:96
+#, jsrealm, python-brace-format
+msgid "Updated {} attribute"
+msgid_plural "Updated {} attributes"
+msgstr[0] "מאפיין {} עודכן"
+msgstr[1] ""
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:102
+#, jsrealm, python-brace-format
+msgid "{} attribute"
+msgid_plural "{} attributes"
+msgstr[0] "תכונה {}"
+msgstr[1] ""
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:112
+#, jsrealm
+msgid "and"
+msgstr "ו"
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:121
+#, jsrealm
+msgid "Feature"
+msgstr "תכונה"
+
+#: nodepkg/version-history/component/VersionHistoryGroupDetails.tsx:127
+#, jsrealm
+msgid "Action"
+msgstr "פְּעוּלָה"
+
+#: nodepkg/version-history/component/menu-items/copy-menu-item/CopyForm.tsx:54
+#, jsrealm, python-brace-format
+msgid "{dn} copy"
+msgstr "עותק"
+
+#: nodepkg/version-history/component/menu-items/copy-menu-item/CopyForm.tsx:61
+#, jsrealm
+msgid "Create copy in"
+msgstr "צור עותק ב"
+
+#: nodepkg/version-history/component/menu-items/copy-menu-item/CopyForm.tsx:163
+#: nodepkg/version-history/component/menu-items/copy-menu-item/CopyModal.tsx:21
+#: nodepkg/version-history/component/menu-items/copy-menu-item/useCopyMenuItem.tsx:27
+#, jsrealm
+msgid "Create copy"
+msgstr "צור עותק"
+
+#: nodepkg/version-history/component/menu-items/useRevertMenuItem.tsx:21
+#, jsrealm
+msgid "Revert to this version"
+msgstr "חזור לגרסה זו"
+
+#: nodepkg/version-history/component/menu-items/useRevertMenuItem.tsx:22
+#, jsrealm
+msgid "Confirmation required"
+msgstr "נדרש אישור"
+
+#: nodepkg/version-history/component/menu-items/useRevertMenuItem.tsx:23
+#, jsrealm, python-brace-format
+msgid ""
+"Please confirm reversion of the layer to version {timestamp} by {author}. "
+"This will revert all feature changes made after {timestamp}, but the changes "
+"will be kept in the history."
+msgstr ""
+"אנא אשר את החזרת השכבה לגרסה {timestamp} על ידי {author}. פעולה זו תבטל את כל"
+" השינויים בתכונות שבוצעו לאחר {timestamp}, אך השינויים יישמרו בהיסטוריה."
+
+#: nodepkg/version-history/component/menu-items/useRevertMenuItem.tsx:24
+#, jsrealm
+msgid "Revert"
+msgstr "לַחֲזוֹר"
+
+#: nodepkg/version-history/component/menu-items/useRevertMenuItem.tsx:25
+#, jsrealm
+msgid "Reverted"
+msgstr "בוטל"
+
+#: nodepkg/version-history/hook/useColumns.tsx:16
+#, jsrealm
+msgctxt "column"
+msgid "Created"
+msgstr "נוצר"
+
+#: nodepkg/version-history/hook/useColumns.tsx:17
+#, jsrealm
+msgctxt "column"
+msgid "Updated"
+msgstr "מְעוּדכָּן"
+
+#: nodepkg/version-history/hook/useColumns.tsx:18
+#, jsrealm
+msgctxt "column"
+msgid "Deleted"
+msgstr "נמחק"
+
+#: nodepkg/version-history/hook/useColumns.tsx:19
+#, jsrealm
+msgctxt "column"
+msgid "Restored"
+msgstr "מְשׁוּחזָר"
+
+#: nodepkg/version-history/hook/useColumns.tsx:53
+#, jsrealm
+msgid "Date and time"
+msgstr "תאריך ושעה"
+
+#: nodepkg/version-history/hook/useColumns.tsx:61
+#, jsrealm
+msgid "User"
+msgstr "מִשׁתַמֵשׁ"
+
+#: nodepkg/versioning-settings/VersioningSettings.tsx:13
+#, jsrealm
+msgid ""
+"Select the default feature versioning setting for new layers. This affects "
+"layers created via UI and HTTP API. You can always change the versioning "
+"setting for individual layers later."
+msgstr ""
+"בחר את הגדרת ניהול הגרסאות של התכונות המוגדרת כברירת מחדל עבור שכבות חדשות. "
+"פעולה זו משפיעה על שכבות שנוצרו דרך ממשק המשתמש ו-HTTP API. תמיד תוכל לשנות "
+"את הגדרת ניהול הגרסאות עבור שכבות בודדות מאוחר יותר."
+
+#: nodepkg/versioning-settings/VersioningSettings.tsx:14
+#, jsrealm
+msgid "Auto: follow system-wide settings"
+msgstr "אוטומטי: עקוב אחר הגדרות כלל-מערכתיות"
+
+#: nodepkg/versioning-settings/VersioningSettings.tsx:15
+#, jsrealm
+msgid "Enable feature versioning by default"
+msgstr "הפעל ניהול גרסאות של תכונות כברירת מחדל"
+
+#: nodepkg/versioning-settings/VersioningSettings.tsx:16
+#, jsrealm
+msgid "Disable feature versioning by default"
+msgstr "השבתת גרסאות של תכונות כברירת מחדל"
+
+#: nodepkg/versioning-settings/VersioningSettings.tsx:44
+#, jsrealm
+msgid "The setting is saved."
+msgstr "ההגדרה נשמרת."
+
+#: numutil.py:28
+#, python-brace-format, server
+msgid "The value must be within the inclusive range of {min} to {max}."
+msgstr "הערך חייב להיות בטווח הכולל של {min} עד {max}."
+
+#: numutil.py:42
+#, python-brace-format, server
+msgid "Got an invalid INTEGER value: {}."
+msgstr "קיבלתי ערך INTEGER לא חוקי: {}."
+
+#: numutil.py:48
+#, python-brace-format, server
+msgid "Got an invalid BIGINT value: {}."
+msgstr "קיבלתי ערך BIGINT לא חוקי: {}."
+
+#: numutil.py:92
+#, python-brace-format, server
+msgid "Got an invalid BOOLEAN value: {}."
+msgstr "קיבלתי ערך בוליאני לא חוקי: {}."
+
+#: transaction/exception.py:7
+#, server
+msgid "Transaction not found"
+msgstr "העסקה לא נמצאה"
+
+#: transaction/exception.py:12
+#, server
+msgid "Operation conflict in transaction"
+msgstr "התנגשות פעולה בעסקה"
+
+#: transaction/exception.py:20
+#, server
+msgid "Transaction not committed"
+msgstr "העסקה לא בוצעה"
+
+#: versioning/exception.py:17
+#, server
+msgid "Not implemented for feature versioning"
+msgstr "לא מיושם עבור ניהול גרסאות של תכונות"
+
+#: versioning/exception.py:19
+#, server
+msgid ""
+"This operation cannot be performed on a resource with feature versioning "
+"enabled. Disable feature versioning for the resource first, and then try "
+"again."
+msgstr ""
+"לא ניתן לבצע פעולה זו על משאב כאשר ניהול גרסאות תכונות מופעל. תחילה יש להשבית"
+" את ניהול גרסאות התכונות עבור המשאב ולאחר מכן לנסות שוב."
+
+#: versioning/exception.py:27
+#, server
+msgid "Feature versioning required"
+msgstr "נדרשת ניהול גרסאות של תכונות"
+
+#: versioning/exception.py:32
+#, server
+msgid "Feature versioning is not supported for this resource."
+msgstr "ניהול גרסאות של תכונות אינו נתמך עבור משאב זה."
+
+#: versioning/exception.py:34
+#, server
+msgid "Feature versioning is not enabled for this resource."
+msgstr "ניהול גרסאות של תכונות אינו מופעל עבור משאב זה."
+
+#: versioning/exception.py:41
+#, server
+msgid "Epoch required"
+msgstr "נדרשת תקופה"
+
+#: versioning/exception.py:45
+#, server
+msgid "Epoch mismatch"
+msgstr "אי התאמה בין עידנים"
+
+#: versioning/exception.py:55
+#, server
+msgid "Version out of range"
+msgstr "גרסה מחוץ לטווח"
+
+#: versioning/exception.py:65
+#, server
+msgid "Invalid range"
+msgstr "טווח לא חוקי"
+
+#: view.py:61 view.py:77
+#, python-format, server
+msgid "Feature #%d"
+msgstr "תכונה #%d"
+
+#: view.py:119
+#, server
+msgid "MVT Vector Tiles"
+msgstr "אריחי וקטור MVT"
+
+#: view.py:121
+#, server
+msgid ""
+"The Mapbox Vector Tile is an efficient encoding for map data into vector "
+"tiles that can be rendered dynamically."
+msgstr ""
+"אריח הווקטורי של Mapbox הוא קידוד יעיל עבור נתוני מפה לאריחי וקטור הניתנים "
+"לעיבוד דינמי."

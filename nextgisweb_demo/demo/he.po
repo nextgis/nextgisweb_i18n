@@ -1,0 +1,584 @@
+#: model.py:10
+#, server
+msgid "Demo project"
+msgstr "פרויקט הדגמה"
+
+#: nodepkg/resource-action-plugin.tsx:12
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:17
+#: project/base.py:58 view.py:25
+#, jsrealm, server
+msgid "Demo data and projects"
+msgstr "נתוני הדגמה ופרויקטים"
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:14
+#, jsrealm
+msgid "This is your demo project."
+msgstr "זהו פרויקט ההדגמה שלך."
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:15
+#, jsrealm
+msgid ""
+"Here you can add data, change resources, and see inside the maps and data "
+"layers."
+msgstr "כאן ניתן להוסיף נתונים, לשנות משאבים ולראות בתוך המפות ושכבות הנתונים."
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:16
+#, jsrealm
+msgid ""
+"You can even reset the whole project and revert to the original you got from "
+"us."
+msgstr "אתם יכולים אפילו לאפס את כל הפרויקט ולחזור למקור שקיבלת מאיתנו."
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:43
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:49
+#, jsrealm
+msgid "Reset"
+msgstr "אִתחוּל"
+
+#: nodepkg/resource-section/demo-project/DemoResourceSectionDemoProject.tsx:48
+#, jsrealm
+msgid ""
+"Resetting the project will revert to the original version and delete any "
+"changes you may have made."
+msgstr "איפוס הפרויקט יחזיר את הגרסה המקורית וימחק כל שינוי שביצעת."
+
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:8
+#, jsrealm
+msgid "Don't know where to start?"
+msgstr "לא יודעים מאיפה להתחיל?"
+
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:9
+#: nodepkg/selector/Selector.tsx:25
+#, jsrealm
+msgid "Test drive one of our demo projects with ready-made layers, styles, and maps."
+msgstr "נסו את אחד מפרויקטי ההדגמה שלנו עם שכבות, סגנונות ומפות מוכנים מראש."
+
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:10
+#: nodepkg/selector/Selector.tsx:26
+#, jsrealm
+msgid "When you clone a demo project, it is yours to edit, reset or delete."
+msgstr "כשאתה משכפל פרויקט הדגמה, זכותך לערוך, לאפס או למחוק אותו."
+
+#: nodepkg/resource-section/start/DemoResourceSectionStart.tsx:11
+#: nodepkg/selector/Selector.tsx:27
+#, jsrealm
+msgid "You can also explore a read-only copy without cloning."
+msgstr "ניתן גם לחקור עותק לקריאה בלבד ללא שכפול."
+
+#: nodepkg/selector/Selector.tsx:72
+#, jsrealm
+msgid "Go to"
+msgstr "עבור אל"
+
+#: nodepkg/selector/Selector.tsx:77
+#, jsrealm
+msgid "Explore read-only copy"
+msgstr "סקירת עותק לקריאה בלבד"
+
+#: nodepkg/selector/Selector.tsx:90
+#, jsrealm
+msgid "Clone for me"
+msgstr "שיבוט בשבילי"
+
+#: project/__init__.py:7
+#, server
+msgid "Switzerland"
+msgstr "שוויץ"
+
+#: project/__init__.py:19
+#, server
+msgid "Las Vegas"
+msgstr "לאס וגאס"
+
+#: project/__init__.py:29
+#, server
+msgid "OpenStreetMap cartography for Boston"
+msgstr "קרטוגרפיה של OpenStreetMap עבור בוסטון"
+
+#: project/__init__.py:41
+#, server
+msgid "Flooding in Alicante province (2019)"
+msgstr "שיטפונות במחוז אליקנטה (2019)"
+
+#: project/__init__.py:54
+#, server
+msgid "Ambulance availablity in Graz"
+msgstr "זמינות אמבולנס בגראץ"
+
+#: project/__init__.py:63
+#, server
+msgid "Monitoring of wild animals in Altai mountains"
+msgstr "ניטור חיות בר בהרי אלטאי"
+
+#: project/__init__.py:73
+#, server
+msgid "Hydrology"
+msgstr "הידרולוגיה"
+
+#: project/__init__.py:85
+#, server
+msgid "Buffer states on the eastern borders of Byzantium"
+msgstr "מדינות חיץ בגבולות המזרחיים של ביזנטיון"
+
+#: project/__init__.py:96
+#, server
+msgid "Cadastral map"
+msgstr "מפת קדסטרלית"
+
+#: project/__init__.py:106
+#, server
+msgid "Diagrams"
+msgstr "דיאגרמות"
+
+#: project/__init__.py:116
+#, server
+msgid "Distribution heatmap"
+msgstr "מפת חום של הפצה"
+
+#: project/__init__.py:127
+#, server
+msgid "Tracking"
+msgstr "מַעֲקָב"
+
+#: project/ambulance/__init__.py:11
+#, server
+msgid "Name"
+msgstr "שֵׁם"
+
+#: project/ambulance/__init__.py:12
+#, server
+msgid "Minutes, from"
+msgstr "דקות, מ"
+
+#: project/ambulance/__init__.py:13
+#, server
+msgid "Minutes, to"
+msgstr "דקות, עד"
+
+#: project/ambulance/__init__.py:22
+#, server
+msgid "Ambulance stations"
+msgstr "תחנות אמבולנס"
+
+#: project/ambulance/__init__.py:29
+#, server
+msgid "Residential areas outside 15-minutes ambulance availability"
+msgstr "אזורי מגורים מחוץ לזמינות אמבולנס של 15 דקות"
+
+#: project/ambulance/__init__.py:36
+#, server
+msgid "Graz administrative border"
+msgstr "גבול מנהלי של גראץ"
+
+#: project/ambulance/__init__.py:43
+#, server
+msgid "Ambulance availability, minutes"
+msgstr "זמינות אמבולנס, דקות"
+
+#: project/byzantium/__init__.py:24
+#, server
+msgid "Settlements"
+msgstr "התנחלויות"
+
+#: project/byzantium/__init__.py:46 project/byzantium/__init__.py:50
+#, server
+msgid "Natural features"
+msgstr "מאפיינים טבעיים"
+
+#: project/byzantium/__init__.py:58
+#, server
+msgid "Rivers"
+msgstr "נהרות"
+
+#: project/byzantium/__init__.py:59
+#, server
+msgid "Lakes"
+msgstr "אגמים"
+
+#: project/byzantium/__init__.py:60
+#, server
+msgid "Seas"
+msgstr "ימים"
+
+#: project/byzantium/__init__.py:87 project/byzantium/__init__.py:91
+#, server
+msgid "Bounds"
+msgstr "גבולות"
+
+#: project/byzantium/__init__.py:108
+#, python-brace-format, server
+msgid "Labels {}"
+msgstr "תוויות {}"
+
+#: project/byzantium/__init__.py:121 project/byzantium/__init__.py:128
+#: project/byzantium/__init__.py:141 project/byzantium/__init__.py:148
+#, python-brace-format, server
+msgid "Territories {}"
+msgstr "טריטוריות {}"
+
+#: project/byzantium/__init__.py:134 project/byzantium/__init__.py:154
+#: project/byzantium/__init__.py:161
+#, python-brace-format, server
+msgid "Bounds {}"
+msgstr "גבולות {}"
+
+#: project/cadastral/__init__.py:17
+#, server
+msgid "Cadastral data"
+msgstr "נתוני קדסטרל"
+
+#: project/cadastral/__init__.py:18
+#, server
+msgid "Infrastructure"
+msgstr "תַשׁתִית"
+
+#: project/cadastral/__init__.py:19
+#, server
+msgid "Planning and zoning"
+msgstr "תכנון ואזור בנייה"
+
+#: project/cadastral/__init__.py:21
+#, server
+msgid "Zones with special conditions of use"
+msgstr "אזורים עם תנאי שימוש מיוחדים"
+
+#: project/cadastral/__init__.py:23
+#, server
+msgid "Vegetation and terrain"
+msgstr "צמחייה ושטח"
+
+#: project/cadastral/__init__.py:29
+#, server
+msgid "Redevelopment area"
+msgstr "אזור פיתוח מחדש"
+
+#: project/cadastral/__init__.py:36
+#, server
+msgid "Cadastral districts"
+msgstr "מחוזות קדסטרליים"
+
+#: project/cadastral/__init__.py:42 project/district/__init__.py:35
+#: project/osmdata/__init__.py:21
+#, server
+msgid "Buildings"
+msgstr "בניינים"
+
+#: project/cadastral/__init__.py:48
+#, server
+msgid "Cadastral parcels"
+msgstr "חלקות קדסטרליות"
+
+#: project/cadastral/__init__.py:54
+#, server
+msgid "Cadastral parcels cost"
+msgstr "עלות חלקות קדסטרליות"
+
+#: project/cadastral/__init__.py:61
+#, server
+msgid "Bus stations"
+msgstr "תחנות אוטובוס"
+
+#: project/cadastral/__init__.py:67
+#, server
+msgid "Roads"
+msgstr "כבישים"
+
+#: project/cadastral/__init__.py:74
+#, server
+msgid "Land use zoning"
+msgstr "ייעוד שימושי קרקע"
+
+#: project/cadastral/__init__.py:81
+#, server
+msgid "Water protection zone"
+msgstr "אזור הגנת מים"
+
+#: project/cadastral/__init__.py:88
+#, server
+msgid "Parks and woods"
+msgstr "פארקים ויערות"
+
+#: project/cadastral/__init__.py:94
+#, server
+msgid "Major water bodies"
+msgstr "גופי מים עיקריים"
+
+#: project/cadastral/__init__.py:124
+#, server
+msgid "Bus station area"
+msgstr "אזור תחנת האוטובוס"
+
+#: project/country/__init__.py:22
+#, server
+msgid "Major cities"
+msgstr "ערים גדולות"
+
+#: project/country/__init__.py:28
+#, server
+msgid "Largest lakes"
+msgstr "האגמים הגדולים ביותר"
+
+#: project/country/__init__.py:34
+#, server
+msgid "Highest peaks"
+msgstr "הפסגות הגבוהות ביותר"
+
+#: project/country/__init__.py:42
+#, server
+msgid "SVG markers"
+msgstr "סמני SVG"
+
+#: project/diagrams/__init__.py:16
+#, server
+msgid "Bars, restaurants, fast food"
+msgstr "ברים, מסעדות, אוכל מהיר"
+
+#: project/diagrams/__init__.py:22
+#, server
+msgid "St. Petersburg districts"
+msgstr "מחוזות סנט פטרסבורג"
+
+#: project/district/__init__.py:17
+#, server
+msgid "Places"
+msgstr "מקומות"
+
+#: project/district/__init__.py:23
+#, server
+msgid "My country house"
+msgstr "בית הכפר שלי"
+
+#: project/district/__init__.py:29
+#, server
+msgid "Routes"
+msgstr "מסלולים"
+
+#: project/flooding/__init__.py:18
+#, server
+msgid "Monitoring area"
+msgstr "אזור ניטור"
+
+#: project/flooding/__init__.py:24
+#, server
+msgid "Buildings in affected areas"
+msgstr "מבנים באזורים שנפגעו"
+
+#: project/flooding/__init__.py:30
+#, server
+msgid "Most affected areas"
+msgstr "האזורים הנפגעים ביותר"
+
+#: project/flooding/__init__.py:38
+#, server
+msgid "Sentinel-2 image, 19 Aug 2019"
+msgstr "תמונה של סנטינל-2, 19 באוגוסט 2019"
+
+#: project/flooding/__init__.py:45
+#, server
+msgid "Sentinel-2 image, 18 Sep 2019"
+msgstr "תמונה של סנטינל-2, 18 בספטמבר 2019"
+
+#: project/heatmap/__init__.py:16
+#, server
+msgid "Coffeehouses"
+msgstr "בתי קפה"
+
+#: project/heatmap/__init__.py:31
+#, server
+msgid "Density of coffeehouses"
+msgstr "צפיפות בתי הקפה"
+
+#: project/hydrology/__init__.py:14 project/hydrology/__init__.py:129
+#, server
+msgid "Calculations"
+msgstr "חישובים"
+
+#: project/hydrology/__init__.py:15 project/hydrology/__init__.py:140
+#, server
+msgid "Elevation"
+msgstr "גוֹבַה"
+
+#: project/hydrology/__init__.py:20
+#, server
+msgid "Stream gaging stations"
+msgstr "תחנות מדידת זרמים"
+
+#: project/hydrology/__init__.py:26
+#, server
+msgid "Watershed basins"
+msgstr "אגני פרשת המים"
+
+#: project/hydrology/__init__.py:32
+#, server
+msgid "Calculated channel network"
+msgstr "רשת ערוצים מחושבת"
+
+#: project/hydrology/__init__.py:39
+#, server
+msgid "Horizontal dissection"
+msgstr "דיסקציה אופקית"
+
+#: project/hydrology/__init__.py:50
+#, server
+msgid "Elevation slope"
+msgstr "שיפוע גובה"
+
+#: project/hydrology/__init__.py:58
+#, server
+msgid "Flow accumulation raster"
+msgstr "רסטר צבירת זרימה"
+
+#: project/hydrology/__init__.py:66
+#, server
+msgid "Digital elevation model"
+msgstr "מודל גובה דיגיטלי"
+
+#: project/hydrology/__init__.py:74
+#, server
+msgid "Hillshade"
+msgstr "הילשייד"
+
+#: project/osmdata/__init__.py:27 project/osmdata/__init__.py:190
+#, server
+msgid "Points of interest"
+msgstr "נקודות עניין"
+
+#: project/osmdata/__init__.py:30 project/osmdata/__init__.py:200
+#, server
+msgid "Transport"
+msgstr "תַחְבּוּרָה"
+
+#: project/osmdata/__init__.py:35
+#, server
+msgid "Highways"
+msgstr "כבישים מהירים"
+
+#: project/osmdata/__init__.py:42
+#, server
+msgid "Railways"
+msgstr "מסילות ברזל"
+
+#: project/osmdata/__init__.py:49
+#, server
+msgid "Airports"
+msgstr "שדות תעופה"
+
+#: project/osmdata/__init__.py:56
+#, server
+msgid "Hydrography"
+msgstr "הידרוגרפיה"
+
+#: project/osmdata/__init__.py:62
+#, server
+msgid "Lakes, large rivers, wetlands"
+msgstr "אגמים, נהרות גדולים, ביצות"
+
+#: project/osmdata/__init__.py:68
+#, server
+msgid "Surfaces"
+msgstr "משטחים"
+
+#: project/osmdata/__init__.py:74
+#, server
+msgid "Islands"
+msgstr "איים"
+
+#: project/osmdata/__init__.py:80
+#, server
+msgid "Vegetation"
+msgstr "צִמחִיָה"
+
+#: project/osmdata/__init__.py:86
+#, server
+msgid "Land area"
+msgstr "שטח הקרקע"
+
+#: project/osmdata/__init__.py:92
+#, server
+msgid "Water surface"
+msgstr "פני המים"
+
+#: project/osmdata/__init__.py:109
+#, server
+msgid "Tourism"
+msgstr "תיירות"
+
+#: project/osmdata/__init__.py:115
+#, server
+msgid "Leisure"
+msgstr "פְּנַאִי"
+
+#: project/osmdata/__init__.py:121
+#, server
+msgid "Sport"
+msgstr "ספּוֹרט"
+
+#: project/snowleo/__init__.py:12
+#, server
+msgid "What was the animal doing"
+msgstr "מה עשתה החיה"
+
+#: project/snowleo/__init__.py:13
+#, server
+msgid "Author"
+msgstr "מְחַבֵּר"
+
+#: project/snowleo/__init__.py:14
+#, server
+msgid "Species of animal"
+msgstr "מיני בעלי חיים"
+
+#: project/snowleo/__init__.py:15
+#, server
+msgid "Type of trace"
+msgstr "סוג המעקב"
+
+#: project/snowleo/__init__.py:16
+#, server
+msgid "Encounters"
+msgstr "מפגשים"
+
+#: project/snowleo/__init__.py:17
+#, server
+msgid "Traces"
+msgstr "עקבות"
+
+#: project/snowleo/__init__.py:18
+#, server
+msgid "GPS tracks distance, m."
+msgstr "מרחק מעקב GPS, מטר."
+
+#: project/snowleo/__init__.py:19
+#, server
+msgid "Events per km."
+msgstr "אירועים לקילומטר."
+
+#: project/snowleo/__init__.py:28
+#, server
+msgid "Inspector GPS tracks"
+msgstr "עקבות GPS של המפקח"
+
+#: project/snowleo/__init__.py:35
+#, server
+msgid "Visual encounters"
+msgstr "מפגשים חזותיים"
+
+#: project/snowleo/__init__.py:42
+#, server
+msgid "Traces of vital activity"
+msgstr "עקבות של פעילות חיונית"
+
+#: project/snowleo/__init__.py:49
+#, server
+msgid "Grid analysis of encounters and traces"
+msgstr "ניתוח רשת של מפגשים ועקבות"
+
+#: project/snowleo/__init__.py:69
+#, server
+msgid "Per kilometer of GPS tracks"
+msgstr "לכל קילומטר של מסלולי GPS"
+
+#: project/snowleo/__init__.py:73
+#, server
+msgid "Per grid cell"
+msgstr "לכל תא רשת"

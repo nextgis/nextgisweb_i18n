@@ -1,0 +1,93 @@
+#: model.py:24 nodepkg/layer-widget/LayerWidget.tsx:211
+#, jsrealm, server
+msgid "Basemap"
+msgstr "מפת בסיס"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:18
+#, jsrealm
+msgid "Pick from QMS"
+msgstr "בחירה ממערכת ניהול איכות (QMS)"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:19
+#, jsrealm
+msgid "Search for geoservices provided by "
+msgstr "חפש שירותים גיאוגרפיים המסופקים על ידי "
+
+#: nodepkg/layer-widget/LayerWidget.tsx:20
+#, jsrealm
+msgid "You can search by name or ID"
+msgstr "ניתן לחפש לפי שם או תעודת זהות"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:21
+#, jsrealm
+msgid "If a service from QMS is selected, this field cannot be edited."
+msgstr "אם נבחר שירות מ-QMS, לא ניתן לערוך שדה זה."
+
+#: nodepkg/layer-widget/LayerWidget.tsx:22
+#, jsrealm
+msgid ""
+"Above this zoom level, no new tiles are fetched but tiles from the nearest "
+"allowed zoom are displayed and upscaled."
+msgstr ""
+"מעל רמת זום זו, לא מאוחרים אריחים חדשים, אך אריחים מהזום המותר הקרוב ביותר "
+"מוצגים ומוגדלים."
+
+#: nodepkg/layer-widget/LayerWidget.tsx:23
+#, jsrealm
+msgid "Below this zoom level, the layer is hidden and no new tiles are fetched."
+msgstr "מתחת לרמת זום זו, השכבה מוסתרת ולא ייאספו אריחים חדשים."
+
+#: nodepkg/layer-widget/LayerWidget.tsx:106
+#, jsrealm
+msgid "URL"
+msgstr "כתובת אתר"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:113
+#, jsrealm
+msgid "Copyright text"
+msgstr "טקסט זכויות יוצרים"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:121
+#, jsrealm
+msgid "Copyright URL"
+msgstr "כתובת אתר לזכויות יוצרים"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:128
+#, jsrealm
+msgid "Min zoom level"
+msgstr "רמת זום מינימלית"
+
+#: nodepkg/layer-widget/LayerWidget.tsx:140
+#, jsrealm
+msgid "Max zoom level"
+msgstr "רמת זום מקסימלית"
+
+#: nodepkg/plugin/base-map/BasemapLayers.tsx:95
+#, jsrealm
+msgid "No basemap"
+msgstr "אין מפת בסיס"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:24
+#, jsrealm
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:31
+#, jsrealm
+msgid "Default basemap"
+msgstr "מפת בסיס ברירת מחדל"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:34
+#, jsrealm
+msgid "Opacity"
+msgstr "אֲטִימוּת"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:39
+#, jsrealm
+msgid "Resource"
+msgstr "מַשׁאָב"
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:101
+#, jsrealm
+msgid "Basemaps"
+msgstr "מפות בסיס"

@@ -1,0 +1,111 @@
+#: component.py:94
+#, server
+msgid "NextGIS geoinformation system"
+msgstr "מערכת גיאו-אינפורמציה NextGIS"
+
+#: component.py:289
+#, server
+msgid "CPU"
+msgstr "מעבד"
+
+#: component.py:291
+#, server
+msgid "RAM"
+msgstr "אַיִל"
+
+#: component.py:293
+#, server
+msgid "Linux kernel"
+msgstr "ליבת לינוקס"
+
+#: component.py:295
+#, server
+msgid "OS distribution"
+msgstr "הפצת מערכת הפעלה"
+
+#: component.py:323
+#, server
+msgid "Instance ID"
+msgstr "מזהה מופע"
+
+#: component.py:327
+#, server
+msgid "Last backup"
+msgstr "גיבוי אחרון"
+
+#: component.py:331
+#, server
+msgid "Last maintenance"
+msgstr "תחזוקה אחרונה"
+
+#: exception.py:67
+#, server
+msgid "Validation error"
+msgstr "שגיאת אימות"
+
+#: exception.py:72
+#, server
+msgid "Forbidden"
+msgstr "אָסוּר"
+
+#: exception.py:78
+#, server
+msgid "Insufficient permissions"
+msgstr "הרשאות לא מספיקות"
+
+#: exception.py:84
+#, server
+msgid "Operational error"
+msgstr "טעות תפעולית"
+
+#: exception.py:89
+#, server
+msgid "External service error"
+msgstr "שגיאת שירות חיצונית"
+
+#: exception.py:98
+#, server
+msgid "Not configured"
+msgstr "לא מוגדר"
+
+#: fontconfig.py:111
+#, python-brace-format, server
+msgid "Font not found: {}!"
+msgstr "גופן לא נמצא: {}!"
+
+#: storage.py:310
+#, server
+msgid "Storage full"
+msgstr "אחסון מלא"
+
+#: storage.py:312
+#, python-brace-format, server
+msgid ""
+"The operation cannot be completed because the storage is over limit by "
+"{excess_size}. You currently have {storage_used} of {storage_limit} used. "
+"Free up some storage space before proceeding."
+msgstr ""
+"לא ניתן להשלים את הפעולה מכיוון שנפח האחסון חורג מ-{excess_size}. כרגע ניצלת "
+"{storage_used} מתוך {storage_limit}. פנה שטח אחסון לפני שתמשיך."
+
+#: storage.py:332
+#, server
+msgid "Not enough storage"
+msgstr "אין מספיק אחסון"
+
+#: storage.py:334
+#, python-format, server
+msgid ""
+"This operation requires %s of storage and can't be performed because only %s "
+"available."
+msgstr "פעולה זו דורשת %s של אחסון ולא ניתן לבצע אותה מכיוון שרק %s זמין."
+
+#: storage.py:355
+#, server
+msgid "Estimation is already running"
+msgstr "ההערכה כבר פועלת"
+
+#: test/test_exception.py:28
+#, python-format, server
+msgid "The answer is %d"
+msgstr "התשובה היא %d"

@@ -1,0 +1,90 @@
+#: api.py:34
+#, server
+msgid "Uploaded file too large"
+msgstr "הקובץ שהועלה גדול מדי"
+
+#: component.py:84
+#, server
+msgid "Uploaded file size limit"
+msgstr "מגבלת גודל הקובץ שהועלה"
+
+#: exception.py:11
+#, server
+msgid "Unsupported file"
+msgstr "קובץ לא נתמך"
+
+#: exception.py:13
+#, python-brace-format, server
+msgid ""
+"The file '{fn}' could not be processed. Please verify that it is provided in "
+"a supported format and try again. If the problem persists, contact support."
+msgstr ""
+"לא ניתן היה לעבד את הקובץ '{fn}'. אנא ודא שהוא מסופק בפורמט נתמך ונסה שוב. אם"
+" הבעיה נמשכת, צור קשר עם התמיכה."
+
+#: exception.py:29
+#, python-brace-format, server
+msgid ""
+"The file you are trying to upload is {file_size} and cannot be uploaded as it"
+" would exceed the total storage limit by {excess_size}. You currently have "
+"only {storage_free} of {storage_limit} available. Free up some storage space "
+"before uploading."
+msgstr ""
+"הקובץ שאתה מנסה להעלות הוא {file_size} ולא ניתן להעלותו מכיוון שהוא יחרוג "
+"ממגבלת האחסון הכוללת ב-{excess_size}. כרגע יש לך רק {storage_free} מתוך "
+"{storage_limit} זמין. פנה שטח אחסון לפני ההעלאה."
+
+#: model.py:136
+#, server
+msgid "Uploaded file not found"
+msgstr "הקובץ שהועלה לא נמצא"
+
+#: model.py:140
+#, server
+msgid "Upload is not completed"
+msgstr "ההעלאה לא הושלמה"
+
+#: nodepkg/file-uploader/FileUploader.tsx:18
+#: nodepkg/image-uploader/ImageUploader.tsx:19
+#, jsrealm
+msgid "Select a file"
+msgstr "בחר קובץ"
+
+#: nodepkg/file-uploader/FileUploader.tsx:19
+#, jsrealm
+msgid "or drag and drop here"
+msgstr "או גרור ושחרר כאן"
+
+#: nodepkg/file-uploader/FileUploader.tsx:20
+#, jsrealm
+msgid "Stop"
+msgstr "לְהַפְסִיק"
+
+#: nodepkg/file-uploader/FileUploader.tsx:80
+#, jsrealm
+msgid "max"
+msgstr "מקסימום"
+
+#: nodepkg/file-uploader/FileUploaderButton.tsx:9
+#, jsrealm
+msgid "Upload"
+msgstr "העלאה"
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:20
+#, jsrealm, python-brace-format
+msgid "{} uploaded..."
+msgstr "{} העלה..."
+
+#: nodepkg/file-uploader/hook/useFileUploader.ts:22
+#, jsrealm, python-brace-format
+msgid ""
+"The file you are trying to upload is {file_size}. The maximum allowed size is"
+" {max_size}, which means it exceeds the limit by {excess_size}."
+msgstr ""
+"הקובץ שאתה מנסה להעלות הוא {file_size}. הגודל המרבי המותר הוא {max_size}, מה "
+"שאומר שהוא חורג מהמגבלה ב-{excess_size}."
+
+#: nodepkg/image-uploader/ImageUploader.tsx:20
+#, jsrealm
+msgid "Clear"
+msgstr "בָּרוּר"

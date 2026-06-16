@@ -1,0 +1,474 @@
+#: api/device_types.py:26
+#, server
+msgid "NextGIS Tracker Hub is unavailable. Try later, please."
+msgstr "מרכז המעקב של NextGIS אינו זמין. אנא נסה מאוחר יותר."
+
+#: api/tracks.py:233 nodepkg/reports/report-type/StopsReport.tsx:68
+#: nodepkg/webmap/StopsLayer.ts:23
+#, jsrealm, server
+msgid "Duration"
+msgstr "מֶשֶׁך"
+
+#: component.py:15 nodepkg/control-panel-plugin.tsx:11
+#: nodepkg/reports/Reports.tsx:305 nodepkg/trackers-panel/plugin.tsx:11
+#: plugin.py:29
+#, jsrealm, server
+msgid "Trackers"
+msgstr "עוקבים"
+
+#: model.py:22
+#, server
+msgid "Trackers group"
+msgstr "קבוצת עוקבים"
+
+#: model.py:34
+#, server
+msgid "Tracker"
+msgstr "גַשָׁשׁ"
+
+#: model.py:52
+#, server
+msgid "Tracker UID is not unique"
+msgstr "UID של המעקב אינו ייחודי"
+
+#: model.py:78
+#, python-brace-format, server
+msgid ""
+"The '{}' attribute is immutable and cannot be changed once the tracker is "
+"created."
+msgstr "התכונה '{}' אינה ניתנת לשינוי ואינה ניתנת לשינוי לאחר יצירת המעקב."
+
+#: nodepkg/gpx-button/GpxButton.tsx:60
+#, jsrealm
+msgid "Download GPX file"
+msgstr "הורד קובץ GPX"
+
+#: nodepkg/reports/Reports.tsx:101
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:54
+#: nodepkg/reports/report-type/MileageReport.tsx:41
+#, jsrealm
+msgid "Mileage"
+msgstr "מִספָּר הַמַיִלִים"
+
+#: nodepkg/reports/Reports.tsx:102
+#, jsrealm
+msgid "Top speed"
+msgstr "מהירות מרבית"
+
+#: nodepkg/reports/Reports.tsx:103
+#, jsrealm
+msgid "Average speed"
+msgstr "מהירות ממוצעת"
+
+#: nodepkg/reports/Reports.tsx:104
+#, jsrealm
+msgid "Fuel consumed"
+msgstr "דלק שנצרך"
+
+#: nodepkg/reports/Reports.tsx:105 nodepkg/trackers-panel/TrackersPanel.tsx:65
+#, jsrealm
+msgid "Stops"
+msgstr "עצירות"
+
+#: nodepkg/reports/Reports.tsx:106
+#, jsrealm
+msgid "GPX file"
+msgstr "קובץ GPX"
+
+#: nodepkg/reports/Reports.tsx:110
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:36
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:49
+#: nodepkg/reports/report-type/MileageReport.tsx:36
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:36
+#, jsrealm
+msgid "Days"
+msgstr "ימים"
+
+#: nodepkg/reports/Reports.tsx:111
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:36
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:49
+#: nodepkg/reports/report-type/MileageReport.tsx:36
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:36
+#, jsrealm
+msgid "Hours"
+msgstr "שעות"
+
+#: nodepkg/reports/Reports.tsx:116 nodepkg/reports/Reports.tsx:117
+#: nodepkg/trackers-panel/TrackersPanel.tsx:135
+#: nodepkg/trackers-panel/TrackersPanel.tsx:136
+#, jsrealm
+msgid "Unknown"
+msgstr "לֹא יְדוּעַ"
+
+#: nodepkg/reports/Reports.tsx:261
+#, jsrealm
+msgid "Result"
+msgstr "תוֹצָאָה"
+
+#: nodepkg/reports/Reports.tsx:269
+#, jsrealm
+msgid "Settings"
+msgstr "הגדרות"
+
+#: nodepkg/reports/Reports.tsx:273
+#, jsrealm
+msgid "Report type"
+msgstr "סוג הדוח"
+
+#: nodepkg/reports/Reports.tsx:283 nodepkg/trackers-panel/TrackersPanel.tsx:392
+#, jsrealm
+msgid "Time range"
+msgstr "טווח זמן"
+
+#: nodepkg/reports/Reports.tsx:296
+#, jsrealm
+msgid "Group by"
+msgstr "קיבוץ לפי"
+
+#: nodepkg/reports/Reports.tsx:313
+#, jsrealm
+msgid "Create report"
+msgstr "צור דוח"
+
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:22
+#, jsrealm
+msgid "Avg speed report"
+msgstr "דוח מהירות ממוצעת"
+
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:27
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:40
+#: nodepkg/reports/report-type/MileageReport.tsx:27
+#: nodepkg/reports/report-type/StopsReport.tsx:46
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:27
+#, jsrealm
+msgid "No data for selected period"
+msgstr "אין נתונים לתקופה שנבחרה"
+
+#: nodepkg/reports/report-type/AvgSpeedReport.tsx:41
+#, jsrealm
+msgid "Avg speed"
+msgstr "מהירות ממוצעת"
+
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:27
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:59
+#, jsrealm
+msgid "Fuel consumption"
+msgstr "צריכת דלק"
+
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:33
+#, jsrealm
+msgid "Fuel consumption, liters per 100 km"
+msgstr "צריכת דלק, ליטר ל-100 ק\"מ"
+
+#: nodepkg/reports/report-type/ConsumptionFuelReport.tsx:37
+#, jsrealm
+msgid "Fuel consumption is not defined"
+msgstr "צריכת דלק לא מוגדרת"
+
+#: nodepkg/reports/report-type/MileageReport.tsx:22
+#, jsrealm
+msgid "Mileage report"
+msgstr "דוח קילומטראז'"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:41
+#, jsrealm
+msgid "Stops report"
+msgstr "דוח עצירות"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:58
+#, jsrealm
+msgid "Start stop"
+msgstr "התחלה ועצור"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:63
+#, jsrealm
+msgid "End stop"
+msgstr "תחנת קצה"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:78
+#, jsrealm
+msgid "Count of stops"
+msgstr "ספירת עצירות"
+
+#: nodepkg/reports/report-type/StopsReport.tsx:81
+#, jsrealm
+msgid "Total duration"
+msgstr "משך זמן כולל"
+
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:22
+#, jsrealm
+msgid "Top speed report"
+msgstr "דוח מהירות מרבית"
+
+#: nodepkg/reports/report-type/TopSpeedReport.tsx:41
+#, jsrealm
+msgid "Max speed"
+msgstr "מהירות מקסימלית"
+
+#: nodepkg/tracker-activity/ChartHelper.ts:76
+#, jsrealm
+msgid "No data available"
+msgstr "אין נתונים זמינים"
+
+#: nodepkg/tracker-activity/ChartHelper.ts:170
+#, jsrealm
+msgid "Hourly intervals"
+msgstr "מרווחי זמן של שעה"
+
+#: nodepkg/tracker-activity/ChartHelper.ts:178
+#, jsrealm
+msgid "Number of points"
+msgstr "מספר נקודות"
+
+#: nodepkg/tracker-activity/ChartHelper.ts:206
+#, jsrealm
+msgid "Points per hour"
+msgstr "נקודות לשעה"
+
+#: nodepkg/tracker-activity/TrackerActivity.tsx:85
+#, jsrealm
+msgid "Cancel"
+msgstr "לְבַטֵל"
+
+#: nodepkg/tracker-activity/TrackerActivity.tsx:98
+#, jsrealm
+msgid "Device activity"
+msgstr "פעילות המכשיר"
+
+#: nodepkg/tracker-settings/TrackerSettings.tsx:55
+#, jsrealm
+msgid "Settings saved"
+msgstr "ההגדרות נשמרו"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:41
+#, jsrealm
+msgid "Common settings"
+msgstr "הגדרות נפוצות"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:47
+#, jsrealm
+msgid "Interval for splitting tracks, min"
+msgstr "מרווח זמן לפיצול רצועות, דקות"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:59
+#, jsrealm
+msgid "Stops detecting"
+msgstr "מפסיק לזהות"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:65
+#, jsrealm
+msgid "Minimal speed, km/h"
+msgstr "מהירות מינימלית, קמ\"ש"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:78
+#, jsrealm
+msgid "Minimal time stop, sec"
+msgstr "זמן עצירה מינימלי, שניות"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:90
+#, jsrealm
+msgid "Timezone settings"
+msgstr "הגדרות אזור זמן"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:94
+#, jsrealm
+msgid "Time zone"
+msgstr "אזור זמן"
+
+#: nodepkg/tracker-settings/TrackerSettingsForm.tsx:111
+#, jsrealm
+msgid "Save"
+msgstr "לְהַצִיל"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:12
+#, jsrealm
+msgid "Values cannot be changed after the tracker is created."
+msgstr "לא ניתן לשנות ערכים לאחר יצירת המעקב."
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:27
+#, jsrealm
+msgid "Unique id (IMEI by default)"
+msgstr "מזהה ייחודי (IMEI כברירת מחדל)"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:34
+#, jsrealm
+msgid "Description"
+msgstr "תֵאוּר"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:39
+#, jsrealm
+msgid "Device type"
+msgstr "סוג המכשיר"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:50
+#, jsrealm
+msgid "Fuel consumption, L/100km (for reports)"
+msgstr "צריכת דלק, ליטר/100 ק\"מ (לדיווחים)"
+
+#: nodepkg/tracker-widget/TrackerWidget.tsx:61
+#, jsrealm
+msgid "Tracker detail"
+msgstr "פרטי מעקב"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:52
+#, jsrealm
+msgid "Last known point"
+msgstr "נקודה ידועה אחרונה"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:57
+#, jsrealm
+msgid "GPS tracks"
+msgstr "מסלולי GPS"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:62
+#, jsrealm
+msgid "Track points"
+msgstr "נקודות מסלול"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:80
+#, jsrealm
+msgid "Zoom to layer"
+msgstr "התקרבות לשכבה"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:87
+#, jsrealm
+msgid "Zoom to last point"
+msgstr "זום לנקודה האחרונה"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:94
+#, jsrealm
+msgid "Set filter to last day with data"
+msgstr "הגדר את המסנן ליום האחרון עם נתונים"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:100
+#, jsrealm
+msgid "Show last activity"
+msgstr "הצג את הפעילות האחרונה"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:244
+#, jsrealm
+msgid "Sort by"
+msgstr "מיין לפי"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:245 nodepkg/webmap/utils.ts:61
+#: nodepkg/webmap/utils.ts:67
+#, jsrealm
+msgid "Time"
+msgstr "זְמַן"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:246
+#, jsrealm
+msgid "Name"
+msgstr "שֵׁם"
+
+#: nodepkg/trackers-panel/TrackersPanel.tsx:416
+#, jsrealm
+msgid "Reports"
+msgstr "דוחות"
+
+#: nodepkg/utils/getRangePresets.ts:19
+#, jsrealm
+msgid "Today"
+msgstr "הַיוֹם"
+
+#: nodepkg/utils/getRangePresets.ts:23
+#, jsrealm
+msgid "Yesterday"
+msgstr "אֶתמוֹל"
+
+#: nodepkg/utils/getRangePresets.ts:28
+#, jsrealm
+msgid "Last 24 hours"
+msgstr "24 השעות האחרונות"
+
+#: nodepkg/utils/getRangePresets.ts:32
+#, jsrealm
+msgid "Last 3 days"
+msgstr "3 הימים האחרונים"
+
+#: nodepkg/utils/getRangePresets.ts:36
+#, jsrealm
+msgid "Last week"
+msgstr "בשבוע שעבר"
+
+#: nodepkg/utils/getRangePresets.ts:40
+#, jsrealm
+msgid "Last month"
+msgstr "בחודש שעבר"
+
+#: nodepkg/utils/getRangePresets.ts:44
+#, jsrealm
+msgid "This month"
+msgstr "החודש הזה"
+
+#: nodepkg/utils/getRangePresets.ts:48
+#, jsrealm
+msgid "Previous month"
+msgstr "חודש קודם"
+
+#: nodepkg/webmap/StopsLayer.ts:21
+#, jsrealm
+msgid "Start"
+msgstr "הַתחָלָה"
+
+#: nodepkg/webmap/StopsLayer.ts:22
+#, jsrealm
+msgid "End"
+msgstr "סוֹף"
+
+#: nodepkg/webmap/utils.ts:55 nodepkg/webmap/utils.ts:66
+#, jsrealm
+msgid "Date"
+msgstr "תַאֲרִיך"
+
+#: nodepkg/webmap/utils.ts:72
+#, jsrealm
+msgid "Speed, km/h"
+msgstr "מהירות, קמ\"ש"
+
+#: nodepkg/webmap/utils.ts:78
+#, jsrealm
+msgid "Height, m"
+msgstr "גובה, מטר"
+
+#: nodepkg/webmap/utils.ts:84
+#, jsrealm
+msgid "Course"
+msgstr "קוּרס"
+
+#: nodepkg/webmap/utils.ts:90
+#, jsrealm
+msgid "Satellites"
+msgstr "לוויינים"
+
+#: nodepkg/webmap/utils.ts:96
+#, jsrealm
+msgid "HDOP"
+msgstr "HDOP"
+
+#: pyramid_tracker/register.py:24 pyramid_tracker/register.py:55
+#, server
+msgid "Device is not registered on NextGIS Tracker System. Try later, please."
+msgstr "המכשיר אינו רשום במערכת המעקב של NextGIS. נסה מאוחר יותר, בבקשה."
+
+#: pyramid_tracker/register.py:31
+#, server
+msgid ""
+"A tracker with this unique identifier is already registered in the Tracking "
+"system."
+msgstr "מכשיר מעקב עם מזהה ייחודי זה כבר רשום במערכת המעקב."
+
+#: pyramid_tracker/register.py:35 pyramid_tracker/register.py:58
+#, server
+msgid "NextGIS Tracker System is unavailable. Try later, please."
+msgstr "מערכת המעקב NextGIS אינה זמינה. אנא נסה מאוחר יותר."
+
+#: view/__init__.py:21
+#, server
+msgid "Trackers settings"
+msgstr "הגדרות עוקבים"
+
+#: view/reports.py:20
+#, server
+msgid "Trackers reports"
+msgstr "דוחות עוקבים"

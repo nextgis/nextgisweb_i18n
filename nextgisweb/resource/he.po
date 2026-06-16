@@ -1,0 +1,886 @@
+#: api.py:447
+#, server
+msgid "Permission not found"
+msgstr "לא נמצאה הרשאה"
+
+#: attr/resource.py:108
+#, server
+msgid "Resource ID"
+msgstr "מזהה משאב"
+
+#: attr/resource.py:110 nodepkg/page/search/ResultsTable.tsx:17
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:145
+#, jsrealm, server
+msgid "Type"
+msgstr "סוּג"
+
+#: attr/resource.py:113 nodepkg/editor-widget/EditorWidget.tsx:58
+#, jsrealm, server
+msgid "Keyname"
+msgstr "שם מפתח"
+
+#: attr/resource.py:118 nodepkg/effective-permissions/EffectivePermissions.tsx:15
+#, jsrealm, server
+msgid "Yes"
+msgstr "כֵּן"
+
+#: attr/resource.py:118 nodepkg/effective-permissions/EffectivePermissions.tsx:15
+#, jsrealm, server
+msgid "No"
+msgstr "לֹא"
+
+#: attr/resource.py:121 nodepkg/editor-widget/EditorWidget.tsx:46
+#: nodepkg/page/search/ResultsTable.tsx:18
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:152
+#, jsrealm, server
+msgid "Owner"
+msgstr "בַּעַל"
+
+#: category.py:38
+#, server
+msgid "Layers and styles"
+msgstr "שכבות וסגנונות"
+
+#: category.py:43
+#, server
+msgid "Maps and services"
+msgstr "מפות ושירותים"
+
+#: category.py:48
+#, server
+msgid "Field data collection"
+msgstr "איסוף נתוני שדה"
+
+#: category.py:53 scope.py:39
+#, server
+msgid "External connections"
+msgstr "חיבורים חיצוניים"
+
+#: category.py:58
+#, server
+msgid "Miscellaneous"
+msgstr "שונות"
+
+#: component.py:130
+#, server
+msgid "Main resource group"
+msgstr "קבוצת משאבים ראשית"
+
+#: exception.py:7
+#, server
+msgid "Resource not found"
+msgstr "המשאב לא נמצא"
+
+#: exception.py:8
+#, python-format, server
+msgid "Resource with id = %d was not found."
+msgstr "משאב עם המזהה %d לא נמצא."
+
+#: exception.py:10
+#, server
+msgid ""
+"The resource may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired resource."
+msgstr ""
+"ייתכן שהמשאב נמחק או שיש שגיאה בכתובת. תקן את הכתובת או עבור לדף הבית ונסה "
+"למצוא את המשאב הרצוי."
+
+#: exception.py:28
+#, python-brace-format, server
+msgid ""
+"Modification of the '{attribute}' attribute requires the '{permission}' "
+"permission."
+msgstr "שינוי המאפיין '{attribute}' דורש את ההרשאה '{permission}'."
+
+#: exception.py:34
+#, python-brace-format, server
+msgid "The '{attribute}' attribute is read-only and cannot be updated."
+msgstr "המאפיין '{attribute}' הוא לקריאה בלבד ולא ניתן לעדכן אותו."
+
+#: exception.py:40
+#, server
+msgid "Interface not supported"
+msgstr "ממשק לא נתמך"
+
+#: exception.py:45
+#, server
+msgid "Resource display name is not unique"
+msgstr "שם התצוגה של המשאב אינו ייחודי"
+
+#: exception.py:46
+#, python-format, server
+msgid "Resource with same display name already exists (id = %d)."
+msgstr "משאב עם שם תצוגה זהה כבר קיים (id = %d)."
+
+#: exception.py:48
+#, server
+msgid ""
+"Within a single parent resource, each resource must have unique display name."
+" Give the resource a different display name or rename existing."
+msgstr ""
+"בתוך משאב אב יחיד, לכל משאב חייב להיות שם תצוגה ייחודי. תן למשאב שם תצוגה "
+"שונה או שנה שם של משאב קיים."
+
+#: exception.py:59
+#, server
+msgid "Hierarchy error"
+msgstr "שגיאת היררכיה"
+
+#: exception.py:63
+#, server
+msgid "Root resource could not be deleted."
+msgstr "לא ניתן היה למחוק את משאב הבסיס."
+
+#: exception.py:67
+#, python-format, server
+msgid "Resource class '%s' disabled."
+msgstr "מחלקת המשאבים '%s' מושבתת."
+
+#: exception.py:76
+#, server
+msgid "Quota exceeded"
+msgstr "חריגה מהמכסה"
+
+#: exception.py:82
+#, python-format, server
+msgid "Maximum number of resources exceeded. The limit is %s."
+msgstr "חריגה ממספר המשאבים המרבי. המגבלה היא %s."
+
+#: exception.py:84
+#, python-brace-format, server
+msgid "Not enough resource quota: {0} required, but only {1} available."
+msgstr "מכסת משאבים לא מספקת: נדרש {0}, אך רק {1} זמין."
+
+#: exception.py:88
+#, python-brace-format, server
+msgid "Resource type - {}."
+msgstr "סוג משאב - {}."
+
+#: favorite/__init__.py:8
+#, server
+msgid "Go to"
+msgstr "עבור אל"
+
+#: favorite/__init__.py:9 nodepkg/favorite/FavoritePage.tsx:366
+#, jsrealm, server
+msgid "Edit"
+msgstr "לַעֲרוֹך"
+
+#: favorite/view.py:14 nodepkg/favorite/Avatar.tsx:54
+#, jsrealm, server
+msgid "Favorites"
+msgstr "מועדפים"
+
+#: home.py:22
+#, server
+msgid "User resources"
+msgstr "משאבי משתמשים"
+
+#: model.py:116 nodepkg/editor-widget/EditorWidget.tsx:73
+#: nodepkg/resource-section/registry.ts:122 scope.py:12
+#, jsrealm, server
+msgid "Resource"
+msgstr "מַשׁאָב"
+
+#: model.py:309
+#, server
+msgid "Resource can not be a parent himself."
+msgstr "משאב לא יכול להיות הורה בעצמו."
+
+#: model.py:322
+#, server
+msgid "Resource keyname is not unique."
+msgstr "שם מפתח המשאב אינו ייחודי."
+
+#: model.py:354
+#, server
+msgid "Default style"
+msgstr "סגנון ברירת מחדל"
+
+#: model.py:472
+#, server
+msgid "Resource can not be without a parent."
+msgstr "משאב לא יכול להיות בלי הורה."
+
+#: model.py:475
+#, python-brace-format, server
+msgid "You are not allowed to create or move a resource of type '{}' here."
+msgstr "אינך רשאי ליצור או להעביר משאב מסוג '{}' כאן."
+
+#: model.py:483
+#, python-format, server
+msgid "You are not allowed to manage children of resource with id = %d."
+msgstr "אינך רשאי לנהל צאצאים של משאב עם מזהה = %d."
+
+#: model.py:495
+#, python-format, server
+msgid "Resource can not be a child of resource id = %d."
+msgstr "המשאב לא יכול להיות צאצא של מזהה המשאב = %d."
+
+#: model.py:571
+#, python-brace-format, server
+msgid ""
+"Unable to revoke '{permission}' permission for '{user}' as the user belongs "
+"to the administrators group. Administrators must always have ability to "
+"configure permissions of resources."
+msgstr ""
+"לא ניתן לבטל את ההרשאה '{permission}' עבור '{user}' מכיוון שהמשתמש שייך "
+"לקבוצת מנהלי המערכת. מנהלי המערכת חייבים תמיד להיות מסוגלים להגדיר הרשאות של "
+"משאבים."
+
+#: model.py:669
+#, server
+msgid "Resource group"
+msgstr "קבוצת משאבים"
+
+#: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:32
+#: nodepkg/editor-widget/EditorWidget.tsx:19
+#: nodepkg/page/search/ResultsTable.tsx:16
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:131
+#, jsrealm
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: nodepkg/component/resource-picker/ResourcePickerChildren.tsx:33
+#, jsrealm
+msgid "Select first eligible child resource"
+msgstr "בחר משאב צאצא ראשון המתאים"
+
+#: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:30
+#, jsrealm
+msgid "Create group"
+msgstr "צור קבוצה"
+
+#: nodepkg/component/resource-picker/ResourcePickerFooter.tsx:31
+#, jsrealm
+msgid "Clear selection"
+msgstr "נקה את הבחירה"
+
+#: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:18
+#, jsrealm
+msgid "Go to initial group"
+msgstr "עבור לקבוצה הראשונית"
+
+#: nodepkg/component/resource-picker/ResourcePickerTitle.tsx:19
+#, jsrealm
+msgid "Refresh"
+msgstr "לְרַעֲנֵן"
+
+#: nodepkg/component/resource-picker/pickToFocusTable.tsx:51
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:27
+#, jsrealm
+msgid "Add"
+msgstr "לְהוֹסִיף"
+
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:34
+#, jsrealm
+msgid "Pick this group"
+msgstr "בחר את הקבוצה הזו"
+
+#: nodepkg/component/resource-picker/store/ResourcePickerStore.ts:35
+#, jsrealm
+msgid "Pick selected"
+msgstr "בחר נבחרים"
+
+#: nodepkg/composite/CompositeStore.ts:244
+#, jsrealm
+msgid "Errors found during data validation. Tabs with errors marked in red."
+msgstr "שגיאות שנמצאו במהלך אימות הנתונים. כרטיסיות עם שגיאות מסומנות באדום."
+
+#: nodepkg/composite/CompositeStore.ts:247
+#, jsrealm
+msgid "Validation error"
+msgstr "שגיאת אימות"
+
+#: nodepkg/composite/CompositeWidget.tsx:34
+#, jsrealm
+msgid "Create"
+msgstr "לִיצוֹר"
+
+#: nodepkg/composite/CompositeWidget.tsx:35
+#, jsrealm
+msgid "Create and edit"
+msgstr "יצירה ועריכה"
+
+#: nodepkg/composite/CompositeWidget.tsx:36
+#: nodepkg/export-settings/ExportSettings.tsx:80
+#, jsrealm
+msgid "Save"
+msgstr "לְהַצִיל"
+
+#: nodepkg/composite/CompositeWidget.tsx:37
+#, jsrealm
+msgid "Please wait. Processing request..."
+msgstr "אנא המתן. מעבד את הבקשה..."
+
+#: nodepkg/composite/CompositeWidgetModal.tsx:16
+#, jsrealm
+msgid "Unsaved changes"
+msgstr "שינויים שלא נשמרו"
+
+#: nodepkg/composite/CompositeWidgetModal.tsx:17
+#, jsrealm
+msgid "There are unsaved changes. Close without saving?"
+msgstr "ישנם שינויים שלא נשמרו. לסגור מבלי לשמור?"
+
+#: nodepkg/composite/CompositeWidgetModal.tsx:20
+#, jsrealm
+msgid "Close without saving"
+msgstr "סגור ללא שמירה"
+
+#: nodepkg/composite/CompositeWidgetModal.tsx:114
+#: nodepkg/delete-page/DeletePage.tsx:120
+#, jsrealm
+msgid "Cancel"
+msgstr "לְבַטֵל"
+
+#: nodepkg/control-panel-plugin.tsx:11 view.py:231
+#, jsrealm, server
+msgid "Resource export"
+msgstr "ייצוא משאבים"
+
+#: nodepkg/delete-page/DeletePageModal.tsx:18
+#, jsrealm
+msgid "Confirmation required"
+msgstr "נדרש אישור"
+
+#: nodepkg/delete-page/util.ts:5
+#, jsrealm, python-brace-format
+msgid "Delete {} resource"
+msgid_plural "Delete {} resources"
+msgstr[0] "מחק את המשאב {}"
+msgstr[1] ""
+
+#: nodepkg/delete-page/util.ts:13
+#, jsrealm
+msgid "resource"
+msgid_plural "resources"
+msgstr[0] "מַשׁאָב"
+msgstr[1] ""
+
+#: nodepkg/delete-page/util.ts:20
+#, jsrealm
+msgid ""
+"The selected resource cannot be deleted. You may not have sufficient "
+"permissions, or this resource is being referenced by other resources."
+msgstr ""
+"לא ניתן למחוק את המשאב שנבחר. ייתכן שאין לך הרשאות מספיקות, או שמשאב זה מנוהל"
+" על ידי משאבים אחרים."
+
+#: nodepkg/delete-page/util.ts:24
+#, jsrealm
+msgid ""
+"Please confirm the deletion of the selected resource. This action is "
+"irreversible, and the resource will be permanently deleted."
+msgstr "אנא אשר את מחיקת המשאב שנבחר. פעולה זו אינה הפיכה, והמשאב יימחק לצמיתות."
+
+#: nodepkg/delete-page/util.ts:29
+#, jsrealm
+msgid ""
+"Please confirm the deletion of the selected resource and all its child "
+"resources."
+msgstr "אנא אשר את מחיקת המשאב שנבחר וכל משאבי הצאצא שלו."
+
+#: nodepkg/delete-page/util.ts:33
+#, jsrealm, python-brace-format
+msgid "{} resource will be permanently deleted."
+msgid_plural "{} resources will be permanently deleted."
+msgstr[0] "המשאב {} יימחק לצמיתות."
+msgstr[1] ""
+
+#: nodepkg/delete-page/util.ts:41
+#, jsrealm, python-brace-format
+msgid "{} resource cannot be deleted."
+msgid_plural "{} resources cannot be deleted."
+msgstr[0] "לא ניתן למחוק את המשאב {}."
+msgstr[1] ""
+
+#: nodepkg/delete-page/util.ts:47
+#, jsrealm, python-brace-format
+msgid "Please confirm the permanent deletion of {} resource."
+msgid_plural "Please confirm the permanent deletion of {} resources."
+msgstr[0] "אנא אשר את המחיקה הקבועה של משאב {}."
+msgstr[1] ""
+
+#: nodepkg/description-editor/DescriptionEditorWidget.tsx:30
+#, jsrealm
+msgid "Description"
+msgstr "תֵאוּר"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:13
+#, jsrealm
+msgid "Identifier for API integration (optional)"
+msgstr "מזהה עבור שילוב API (אופציונלי)"
+
+#: nodepkg/editor-widget/EditorWidget.tsx:30
+#, jsrealm
+msgid "Parent"
+msgstr "הוֹרֶה"
+
+#: nodepkg/export-settings/ExportSettings.tsx:19
+#, jsrealm
+msgid ""
+"* This will not affect REST API use which will continue to be governed by "
+"permissions."
+msgstr "* זה לא ישפיע על השימוש ב-REST API, אשר ימשיך להיות כפוף להרשאות."
+
+#: nodepkg/export-settings/ExportSettings.tsx:40
+#, jsrealm
+msgid "The setting is saved."
+msgstr "ההגדרה נשמרת."
+
+#: nodepkg/export-settings/ExportSettings.tsx:62
+#, jsrealm
+msgid ""
+"Select the category of users who can use the \"Save as\" link to download "
+"resource data."
+msgstr ""
+"בחר את קטגוריית המשתמשים שיכולים להשתמש בקישור \"שמירה בשם\" כדי להוריד נתוני"
+" משאבים."
+
+#: nodepkg/export-settings/ExportSettings.tsx:69
+#, jsrealm
+msgid "Users with \"Data: Read\" permission"
+msgstr "משתמשים עם הרשאת \"נתונים: קריאה\""
+
+#: nodepkg/export-settings/ExportSettings.tsx:72
+#, jsrealm
+msgid "Users with \"Data: Modify\" permission"
+msgstr "משתמשים עם הרשאת \"נתונים: שינוי\""
+
+#: nodepkg/export-settings/ExportSettings.tsx:74
+#, jsrealm
+msgid "Administrators"
+msgstr "מנהלים"
+
+#: nodepkg/favorite/FavoritePage.tsx:26
+#, jsrealm, python-brace-format
+msgid ""
+"No favorite resources have been added yet. Use the star icon ({}) in the "
+"user's context menu to add items here."
+msgstr ""
+"עדיין לא נוספו משאבים מועדפים. השתמש בסמל הכוכב ({}) בתפריט ההקשר של המשתמש "
+"כדי להוסיף פריטים כאן."
+
+#: nodepkg/favorite/FavoritePage.tsx:366
+#, jsrealm
+msgid "Done"
+msgstr "נַעֲשָׂה"
+
+#: nodepkg/favorite/useFavorites.tsx:33
+#, jsrealm
+msgid "Added to favorites"
+msgstr "נוסף למועדפים"
+
+#: nodepkg/favorite/useFavorites.tsx:48
+#, jsrealm
+msgid "Removed from favorites"
+msgstr "הוסר מהמועדפים"
+
+#: nodepkg/hook/useResourceNotify.ts:14
+#, jsrealm, python-brace-format
+msgid "The resource has been deleted"
+msgid_plural "{} resources have been deleted"
+msgstr[0] "המשאב נמחק"
+msgstr[1] ""
+
+#: nodepkg/hook/useResourceNotify.ts:23 nodepkg/hook/useResourceNotify.ts:47
+#, jsrealm, python-brace-format
+msgid "The resource has been moved"
+msgid_plural "{} resources have been moved"
+msgstr[0] "המשאב הועבר"
+msgstr[1] ""
+
+#: nodepkg/hook/useResourceNotify.ts:61
+#, jsrealm
+msgid "Please confirm resource deletion. This action cannot be undone."
+msgstr "אנא אשר את מחיקת המשאב. לא ניתן לבטל פעולה זו."
+
+#: nodepkg/page/search/FilterBar.tsx:18
+#, jsrealm
+msgid "All resource types"
+msgstr "כל סוגי המשאבים"
+
+#: nodepkg/page/search/FilterBar.tsx:19
+#, jsrealm
+msgid "All owners"
+msgstr "כל הבעלים"
+
+#: nodepkg/page/search/FilterBar.tsx:20
+#, jsrealm
+msgid "Root resource"
+msgstr "משאב שורש"
+
+#: nodepkg/page/search/KeynameFilter.tsx:8
+#, jsrealm
+msgid "Keynames"
+msgstr "שמות מפתח"
+
+#: nodepkg/page/search/KeynameFilter.tsx:9
+#, jsrealm
+msgid "Enter one or more keynames"
+msgstr "הזן שם מפתח אחד או יותר"
+
+#: nodepkg/page/search/MetadataFilter.tsx:11
+#, jsrealm
+msgid "Metadata"
+msgstr "מטא-דאטה"
+
+#: nodepkg/page/search/MetadataFilter.tsx:12
+#, jsrealm
+msgid "Key"
+msgstr "מַפְתֵחַ"
+
+#: nodepkg/page/search/MetadataFilter.tsx:13
+#, jsrealm
+msgid "Value"
+msgstr "עֵרֶך"
+
+#: nodepkg/page/search/MetadataFilter.tsx:14
+#, jsrealm
+msgid "Add metadata filter"
+msgstr "הוסף מסנן מטא-דאטה"
+
+#: nodepkg/page/search/MetadataFilter.tsx:15
+#, jsrealm
+msgid "Remove"
+msgstr "לְהַסִיר"
+
+#: nodepkg/page/search/MetadataFilter.tsx:16
+#, jsrealm
+msgid "Duplicate key"
+msgstr "מפתח כפול"
+
+#: nodepkg/page/search/ResourceSearchPage.tsx:18
+#: nodepkg/resource-section/main/CreateResourceModal.tsx:21
+#, jsrealm
+msgid "Search"
+msgstr "לְחַפֵּשׂ"
+
+#: nodepkg/page/search/ResourceSearchPage.tsx:19
+#, jsrealm
+msgid "Filter by display name"
+msgstr "סנן לפי שם תצוגה"
+
+#: nodepkg/page/search/ResourceSearchPage.tsx:20
+#, jsrealm
+msgid "Advanced filters"
+msgstr "מסננים מתקדמים"
+
+#: nodepkg/page/search/ResourceSearchPage.tsx:21
+#, jsrealm
+msgid "Found"
+msgstr "נמצא"
+
+#: nodepkg/page/search/ResultsTable.tsx:19
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:160
+#, jsrealm
+msgid "Created"
+msgstr "נוצר"
+
+#: nodepkg/page/search/ResultsTable.tsx:20
+#, jsrealm
+msgid "Loading more results..."
+msgstr "טוען תוצאות נוספות..."
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:14
+#, jsrealm
+msgid "All fields are required"
+msgstr "כל השדות נדרשים"
+
+#: nodepkg/permissions-widget/PermissionStoreItem.ts:15
+#, jsrealm
+msgid "Row conflicts with another"
+msgstr "שורה מתנגשת עם שורה אחרת"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:22
+#, jsrealm
+msgid "Action"
+msgstr "פְּעוּלָה"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:23
+#, jsrealm
+msgid "Principal"
+msgstr "קֶרֶן"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:24
+#, jsrealm
+msgid "Apply to"
+msgstr "הגש מועמדות ל"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:25
+#, jsrealm
+msgid "Permission"
+msgstr "רְשׁוּת"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:28
+#, jsrealm
+msgid "Allow"
+msgstr "לְהַתִיר"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:29
+#, jsrealm
+msgid "Deny"
+msgstr "לְהַכּחִישׁ"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:31
+#, jsrealm
+msgid "This and subresources"
+msgstr "זה ומשאבים משניים"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:32
+#, jsrealm
+msgid "This resource only"
+msgstr "משאב זה בלבד"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:34
+#, jsrealm
+msgid "All permissions"
+msgstr "כל ההרשאות"
+
+#: nodepkg/permissions-widget/PermissionsWidget.tsx:241
+#, jsrealm
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: nodepkg/resource-action-plugin.tsx:28
+#, jsrealm
+msgid "Update"
+msgstr "לְעַדְכֵּן"
+
+#: nodepkg/resource-action-plugin.tsx:39
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:225
+#, jsrealm
+msgid "Delete"
+msgstr "לִמְחוֹק"
+
+#: nodepkg/resource-action-plugin.tsx:70 nodepkg/resource-action-plugin.tsx:80
+#: view.py:151
+#, jsrealm, server
+msgid "User permissions"
+msgstr "הרשאות משתמש"
+
+#: nodepkg/resource-action-plugin.tsx:93 nodepkg/resource-action-plugin.tsx:103
+#: view.py:140
+#, jsrealm, server
+msgid "JSON view"
+msgstr "תצוגת JSON"
+
+#: nodepkg/resource-section/children/ResourceSectionChildren.tsx:178
+#, jsrealm
+msgid "Volume"
+msgstr "כֶּרֶך"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:99
+#, jsrealm
+msgid "Moving resources"
+msgstr "העברת משאבים"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:160
+#, jsrealm
+msgid "Deleting resources"
+msgstr "מחיקת משאבים"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:186
+#, jsrealm
+msgid "Turn off multiple selection"
+msgstr "כבה את הבחירה המרובה"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:187
+#, jsrealm
+msgid "Select multiple resources"
+msgstr "בחר מספר משאבים"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:197
+#, jsrealm
+msgid "Hide resource volume"
+msgstr "הסתר נפח משאבים"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:198
+#, jsrealm
+msgid "Show resource volume"
+msgstr "הצג נפח משאבים"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:210
+#, jsrealm
+msgid "Hide resource creation date"
+msgstr "הסתר את תאריך יצירת המשאב"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:211
+#, jsrealm
+msgid "Show resource creation date"
+msgstr "הצג תאריך יצירת המשאב"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:231
+#, jsrealm
+msgid "Not all of the selected can be deleted."
+msgstr "לא ניתן למחוק את כל הנבחרים."
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:245
+#, jsrealm
+msgid "Move"
+msgstr "מַהֲלָך"
+
+#: nodepkg/resource-section/children/component/MenuDropdown.tsx:264
+#, jsrealm
+msgid "Export vector layers"
+msgstr "ייצוא שכבות וקטוריות"
+
+#: nodepkg/resource-section/children/util/forEachSelected.ts:9
+#, jsrealm
+msgid "Operation in progress"
+msgstr "המבצע בעיצומו"
+
+#: nodepkg/resource-section/external-access/ResourceSectionExternalAccess.tsx:12
+#, jsrealm
+msgid "Use these links to plug data into external applications."
+msgstr "השתמש בקישורים אלה כדי לחבר נתונים ליישומים חיצוניים."
+
+#: nodepkg/resource-section/external-access/ResourceSectionExternalAccess.tsx:13
+#, jsrealm
+msgid "Read more"
+msgstr "קרא עוד"
+
+#: nodepkg/resource-section/external-access/ResourceSectionExternalAccess.tsx:82
+#, jsrealm
+msgid "External access"
+msgstr "גישה חיצונית"
+
+#: nodepkg/resource-section/main/CreateResourceButton.tsx:7
+#: nodepkg/resource-section/main/CreateResourceModal.tsx:20 view.py:198
+#, jsrealm, server
+msgid "Create resource"
+msgstr "צור משאב"
+
+#: nodepkg/resource-section/main/CreateResourceModal.tsx:51
+#, jsrealm
+msgid "Everything"
+msgstr "הַכֹּל"
+
+#: nodepkg/resource-section/registry.ts:127
+#, jsrealm
+msgid "Extra"
+msgstr "תוֹסֶפֶת"
+
+#: nodepkg/resources-filter/ResourcesFilter.tsx:137
+#, jsrealm
+msgid "Resources not found"
+msgstr "משאבים לא נמצאו"
+
+#: nodepkg/resources-filter/ResourcesFilter.tsx:144
+#, jsrealm
+msgid "Search resources"
+msgstr "חיפוש משאבים"
+
+#: nodepkg/resources-filter/ResourcesFilter.tsx:146
+#, jsrealm
+msgid "Advanced search"
+msgstr "חיפוש מתקדם"
+
+#: scope.py:14
+#, server
+msgctxt "permission"
+msgid "Read"
+msgstr "לִקְרוֹא"
+
+#: scope.py:15
+#, server
+msgctxt "permission"
+msgid "Create"
+msgstr "לִיצוֹר"
+
+#: scope.py:16
+#, server
+msgctxt "permission"
+msgid "Modify"
+msgstr "לְשַׁנוֹת"
+
+#: scope.py:17
+#, server
+msgctxt "permission"
+msgid "Delete"
+msgstr "לִמְחוֹק"
+
+#: scope.py:18
+#, server
+msgctxt "permission"
+msgid "Manage subresources"
+msgstr "ניהול משאבי משנה"
+
+#: scope.py:19
+#, server
+msgctxt "permission"
+msgid "Configure permissions"
+msgstr "הגדרת הרשאות"
+
+#: scope.py:26
+#, server
+msgid "Data"
+msgstr "נְתוּנִים"
+
+#: scope.py:28
+#, server
+msgctxt "permission"
+msgid "Read data"
+msgstr "קריאת נתונים"
+
+#: scope.py:29
+#, server
+msgctxt "permission"
+msgid "Modify data"
+msgstr "שינוי נתונים"
+
+#: scope.py:41
+#, server
+msgctxt "permission"
+msgid "Read connection parameters"
+msgstr "קריאת פרמטרי חיבור"
+
+#: scope.py:42
+#, server
+msgctxt "permission"
+msgid "Configure connection"
+msgstr "הגדרת חיבור"
+
+#: scope.py:43
+#, server
+msgctxt "permission"
+msgid "Use connection"
+msgstr "השתמש בחיבור"
+
+#: scope.py:53
+#, server
+msgid "Web GIS services"
+msgstr "שירותי GIS באינטרנט"
+
+#: scope.py:55
+#, server
+msgctxt "permission"
+msgid "Access service"
+msgstr "שירות גישה"
+
+#: scope.py:56
+#, server
+msgctxt "permission"
+msgid "Configure service"
+msgstr "הגדרת שירות"
+
+#: view.py:128
+#, server
+msgid "Resource search"
+msgstr "חיפוש משאבים"
+
+#: view.py:210
+#, server
+msgid "Update resource"
+msgstr "עדכון משאב"
+
+#: view.py:221
+#, server
+msgid "Delete resource"
+msgstr "מחיקת משאב"
+
+#: view.py:290
+#, python-format, server
+msgid "Insufficient '%s' permission in scope '%s' on resource id = %d."
+msgstr "הרשאת '%s' לא מספקת בטווח '%s' על מזהה המשאב = %d."

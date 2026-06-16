@@ -1,0 +1,746 @@
+#: api.py:181
+#, server
+msgid "Storage management is not enabled on this server."
+msgstr "ניהול אחסון אינו מופעל בשרת זה."
+
+#: api.py:278
+#, python-brace-format, server
+msgid ""
+"Invalid font file name: '{}'. Only latin letters, digits, hyphens and "
+"underscores are allowed. The *.ttf or *.otf extension is required."
+msgstr ""
+"שם קובץ גופן לא חוקי: '{}'. מותרים רק אותיות לטיניות, ספרות, מקפים וקו תחתון."
+" נדרשת הסיומת *.ttf או *.otf."
+
+#: api.py:285
+#, python-brace-format, server
+msgid "Font '{0}' is larger than {1} bytes."
+msgstr "הגופן '{0}' גדול מ-{1} בייט."
+
+#: api.py:485
+#, python-brace-format, server
+msgid ""
+"The '{}' query parameter should not contain additional values if 'all' is "
+"specified."
+msgstr "פרמטר השאילתה '{}' לא אמור להכיל ערכים נוספים אם צוין 'all'."
+
+#: api.py:614
+#, python-brace-format, server
+msgid "Got an unsupported MIME type: '{}'."
+msgstr "קיבלתי סוג MIME שאינו נתמך: '{}'."
+
+#: api.py:617
+#, python-brace-format, server
+msgid "{}KiB should be enough for a logo."
+msgstr "{}KiB אמור להספיק ללוגו."
+
+#: api.py:780
+#, server
+msgid "Your Web GIS at nextgis.com"
+msgstr "ה-GIS האינטרנטי שלך ב-nextgis.com"
+
+#: component.py:166
+#, server
+msgid "Request timeout"
+msgstr "בקשה לפסק זמן"
+
+#: component.py:169
+#, server
+msgid "Enabled"
+msgstr "מופעל"
+
+#: component.py:169
+#, server
+msgid "Disabled"
+msgstr "נָכֶה"
+
+#: exception.py:171
+#, server
+msgid "Internal server error"
+msgstr "שגיאת שרת פנימית"
+
+#: exception.py:173
+#, server
+msgid ""
+"The server encountered an internal error or misconfiguration and was unable "
+"to complete your request."
+msgstr "השרת נתקל בשגיאה פנימית או בתצורה שגויה ולא הצליח להשלים את בקשתך."
+
+#: exception.py:192
+#, server
+msgid "Bad request"
+msgstr "בקשה שגויה"
+
+#: exception.py:194
+#, server
+msgid ""
+"The server could not comply with the request since it is either malformed or "
+"otherwise incorrect."
+msgstr ""
+"השרת לא יכול היה להיענות לבקשה מכיוון שהיא עוצבה בצורה פגומה או שגויה בדרך "
+"אחרת."
+
+#: exception.py:200
+#, server
+msgid "Payment required"
+msgstr "נדרש תשלום"
+
+#: exception.py:201
+#, server
+msgid "Access was denied for financial reasons."
+msgstr "הגישה נדחתה מסיבות כלכליות."
+
+#: exception.py:205
+#, server
+msgid "Forbidden"
+msgstr "אָסוּר"
+
+#: exception.py:206
+#, server
+msgid "Access was denied to this resource."
+msgstr "הגישה למשאב זה נדחתה."
+
+#: exception.py:210
+#, server
+msgid "Page not found"
+msgstr "הדף לא נמצא"
+
+#: exception.py:212
+#, server
+msgid ""
+"The page may have been deleted or an error in the address. Correct the "
+"address or go to the home page and try to find the desired page."
+msgstr ""
+"ייתכן שהדף נמחק או שיש שגיאה בכתובת. תקן את הכתובת או עבור לדף הבית ונסה "
+"למצוא את הדף הרצוי."
+
+#: exception.py:219
+#, server
+msgid "Unprocessable entity"
+msgstr "ישות שאינה ניתנת לעיבוד"
+
+#: exception.py:220
+#, server
+msgid "Unable to process the contained instructions."
+msgstr "לא ניתן לעבד את ההוראות הכלולות."
+
+#: exception.py:224 exception.py:225
+#, server
+msgid "Not implemented"
+msgstr "לא יושם"
+
+#: exception.py:229
+#, server
+msgid "Service unavailable"
+msgstr "השירות אינו זמין"
+
+#: exception.py:230
+#, server
+msgid "The server is currently unavailable. Please try again at a later time."
+msgstr "השרת אינו זמין כעת. אנא נסה שוב במועד מאוחר יותר."
+
+#: lunkwill.py:15
+#, server
+msgid "Lunkwill not enabled"
+msgstr "לאנקוויל לא מופעל"
+
+#: lunkwill.py:16
+#, server
+msgid "The Lunkwill extension is not configured on this server."
+msgstr "התוסף Lunkwill אינו מוגדר בשרת זה."
+
+#: lunkwill.py:20
+#, server
+msgid "Interception expected"
+msgstr "יירוט צפוי"
+
+#: lunkwill.py:21
+#, server
+msgid "The Lunkwill extension expects external request interception."
+msgstr "התוסף Lunkwill מצפה ליירוט בקשה חיצונית."
+
+#: nodepkg/api/error.ts:23
+#, jsrealm
+msgid "Unknown API error"
+msgstr "שגיאת API לא ידועה"
+
+#: nodepkg/api/error.ts:24 nodepkg/api/error.ts:50
+#, jsrealm
+msgid "Something went wrong."
+msgstr "משהו השתבש."
+
+#: nodepkg/api/error.ts:39
+#, jsrealm
+msgid "Network error"
+msgstr "שגיאת רשת"
+
+#: nodepkg/api/error.ts:40
+#, jsrealm
+msgid "There is no response from the server or problem connecting to server."
+msgstr "אין תגובה מהשרת או בעיה בחיבור לשרת."
+
+#: nodepkg/api/error.ts:43
+#, jsrealm
+msgid "Check network connectivity and try again later."
+msgstr "בדוק את קישוריות הרשת ונסה שוב מאוחר יותר."
+
+#: nodepkg/api/error.ts:49
+#, jsrealm
+msgid "Unexpected server response"
+msgstr "תגובת שרת בלתי צפויה"
+
+#: nodepkg/api/error.ts:72
+#, jsrealm
+msgid "Long-running request error"
+msgstr "שגיאת בקשה ממושכת"
+
+#: nodepkg/api/error.ts:73
+#, jsrealm
+msgid "Unexpected error while processing long-running request."
+msgstr "שגיאה בלתי צפויה בעת עיבוד בקשה ארוכת טווח."
+
+#: nodepkg/api/error.ts:83
+#, jsrealm
+msgid "Long-running request was cancelled."
+msgstr "בקשה ארוכת טווח בוטלה."
+
+#: nodepkg/api/error.ts:87
+#, jsrealm
+msgid "Long-running request timeout."
+msgstr "פסק זמן ארוך של בקשה."
+
+#: nodepkg/backup-browse/BackupBrowse.tsx:23
+#, jsrealm
+msgid "Filename"
+msgstr "שם הקובץ"
+
+#: nodepkg/backup-browse/BackupBrowse.tsx:37
+#, jsrealm
+msgid "Timestamp (UTC)"
+msgstr "חותמת זמן (UTC)"
+
+#: nodepkg/backup-browse/BackupBrowse.tsx:43
+#, jsrealm
+msgid "Size"
+msgstr "גוֹדֶל"
+
+#: nodepkg/control-panel-plugin.tsx:16 view.py:274
+#, jsrealm, server
+msgid "Storage"
+msgstr "אִחסוּן"
+
+#: nodepkg/control-panel-plugin.tsx:25 view.py:253
+#, jsrealm, server
+msgid "System information"
+msgstr "מידע על המערכת"
+
+#: nodepkg/control-panel-plugin.tsx:34 permission.py:5 view.py:304
+#, jsrealm, server
+msgid "Cross-origin resource sharing (CORS)"
+msgstr "שיתוף משאבים בין מקורות (CORS)"
+
+#: nodepkg/control-panel-plugin.tsx:43 view.py:262
+#, jsrealm, server
+msgid "Font management"
+msgstr "ניהול גופנים"
+
+#: nodepkg/control-panel-plugin.tsx:52 view.py:329
+#, jsrealm, server
+msgid "Web GIS name"
+msgstr "שם GIS אינטרנטי"
+
+#: nodepkg/control-panel-plugin.tsx:61 view.py:313
+#, jsrealm, server
+msgid "Custom CSS"
+msgstr "CSS מותאם אישית"
+
+#: nodepkg/control-panel-plugin.tsx:70 view.py:321
+#, jsrealm, server
+msgid "Custom logo"
+msgstr "לוגו מותאם אישית"
+
+#: nodepkg/control-panel-plugin.tsx:79 view.py:337
+#, jsrealm, server
+msgid "Home path"
+msgstr "נתיב הבית"
+
+#: nodepkg/control-panel-plugin.tsx:88 view.py:345
+#, jsrealm, server
+msgid "Metrics and analytics"
+msgstr "מדדים ואנליטיקה"
+
+#: nodepkg/control-panel-plugin.tsx:97 view.py:287
+#, jsrealm, server
+msgid "Backups"
+msgstr "גיבויים"
+
+#: nodepkg/control-panel/registry.ts:85
+#, jsrealm
+msgid "Info"
+msgstr "מידע"
+
+#: nodepkg/control-panel/registry.ts:90
+#, jsrealm
+msgid "Settings"
+msgstr "הגדרות"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:18
+#, jsrealm
+msgid ""
+"Enter allowed origins for cross domain requests to use HTTP API of this Web "
+"GIS on other websites. One origin per line."
+msgstr ""
+"הזן מקורות מותרים עבור בקשות בין-דומיינים לשימוש ב-HTTP API של Web GIS זה "
+"באתרי אינטרנט אחרים. מקור אחד בכל שורה."
+
+#: nodepkg/cors-settings/CORSSettings.tsx:19
+#, jsrealm
+msgid ""
+"Please note that different protocols (HTTP and HTTPS) and subdomains "
+"(example.com and www.example.com) are different origins. Wildcards are "
+"allowed for third-level domains and higher."
+msgstr ""
+"שימו לב שפרוטוקולים שונים (HTTP ו-HTTPS) ותת-דומיינים (example.com "
+"ו-www.example.com) הם מקורות שונים. תווים כלליים מותרים עבור דומיינים ברמה "
+"שלישית ומעלה."
+
+#: nodepkg/cors-settings/CORSSettings.tsx:57
+#, jsrealm
+msgid "CORS settings updated"
+msgstr "הגדרות CORS עודכנו"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:62
+#, jsrealm
+msgid "Fix the form errors first"
+msgstr "תקן תחילה את שגיאות הטופס"
+
+#: nodepkg/cors-settings/CORSSettings.tsx:78
+#, jsrealm
+msgid "The value entered is not valid"
+msgstr "הערך שהוזן אינו תקין"
+
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:12
+#, jsrealm
+msgid "Custom styles saved. Reload the page to get them applied."
+msgstr "סגנונות מותאמים אישית נשמרו. טען מחדש את הדף כדי להחיל אותם."
+
+#: nodepkg/custom-css-form/CustomCSSForm.tsx:13
+#, jsrealm
+msgid ""
+"Enter custom CSS rules here. They will be used to redefine styles, design for"
+" all pages of your Web GIS."
+msgstr ""
+"הזן כאן כללי CSS מותאמים אישית. הם ישמשו להגדרה מחדש של סגנונות ועיצוב עבור "
+"כל דפי ה-GIS שלך."
+
+#: nodepkg/fonts/FontsPanel.tsx:28
+#, jsrealm
+msgid ""
+"During operation, the Web GIS will restart. All existing requests will be "
+"aborted. Proceed?"
+msgstr ""
+"במהלך הפעולה, מערכת ה-GIS האינטרנטית תופעל מחדש. כל הבקשות הקיימות יבוטלו. "
+"האם להמשיך?"
+
+#: nodepkg/fonts/FontsPanel.tsx:29
+#, jsrealm
+msgid "Web GIS is restarting, please wait..."
+msgstr "מערכת ה-GIS של האינטרנט מופעל מחדש, אנא המתן..."
+
+#: nodepkg/fonts/FontsPanel.tsx:31
+#, jsrealm
+msgid "Custom"
+msgstr "מִנְהָג"
+
+#: nodepkg/fonts/FontsPanel.tsx:31
+#, jsrealm
+msgid "System"
+msgstr "מַעֲרֶכֶת"
+
+#: nodepkg/fonts/FontsPanel.tsx:106
+#, jsrealm
+msgid "Font"
+msgstr "גוֹפָן"
+
+#: nodepkg/fonts/FontsPanel.tsx:111
+#, jsrealm
+msgid "Format"
+msgstr "פוּרמָט"
+
+#: nodepkg/fonts/FontsPanel.tsx:116
+#, jsrealm
+msgid "Type"
+msgstr "סוּג"
+
+#: nodepkg/fonts/FontsPanel.tsx:173
+#, jsrealm
+msgid "Delete"
+msgstr "לִמְחוֹק"
+
+#: nodepkg/fonts/FontsPanel.tsx:180
+#, jsrealm
+msgid "Show system fonts"
+msgstr "הצג גופני מערכת"
+
+#: nodepkg/home-path/HomePath.tsx:4
+#, jsrealm
+msgid "The home path setting is saved."
+msgstr "הגדרת נתיב הבית נשמרת."
+
+#: nodepkg/i18n/testentry.ts:9 nodepkg/i18n/testentry.ts:13 test/test_i18n.py:15
+#, jsrealm, server
+msgctxt "test"
+msgid "unit"
+msgid_plural "units"
+msgstr[0] "יְחִידָה"
+msgstr[1] ""
+
+#: nodepkg/layout/Avatar.tsx:13
+#, jsrealm
+msgid "Sign in"
+msgstr "כניסה"
+
+#: nodepkg/layout/Avatar.tsx:21
+#, jsrealm
+msgid "Invitation session"
+msgstr "מפגש הזמנה"
+
+#: nodepkg/layout/Avatar.tsx:24
+#, jsrealm
+msgid "User settings"
+msgstr "הגדרות משתמש"
+
+#: nodepkg/layout/Avatar.tsx:26
+#, jsrealm
+msgid "Sign out"
+msgstr "יציאה"
+
+#: nodepkg/layout/store.ts:71
+#, jsrealm
+msgid "Resources"
+msgstr "אֶמְצָעִי"
+
+#: nodepkg/layout/store.ts:77 view.py:200
+#, jsrealm, server
+msgid "Control panel"
+msgstr "לוּחַ בַּקָרָה"
+
+#: nodepkg/layout/store.ts:84
+#, jsrealm
+msgid "Help"
+msgstr "עֶזרָה"
+
+#: nodepkg/layout/store.ts:94
+#, jsrealm
+msgid "Contact Web GIS administrator"
+msgstr "צור קשר עם מנהל האינטרנט של GIS"
+
+#: nodepkg/layout/store.ts:101 view.py:189
+#, jsrealm, server
+msgid "OpenAPI documentation"
+msgstr "תיעוד OpenAPI"
+
+#: nodepkg/logo-form/LogoForm.tsx:5
+#, jsrealm
+msgid "We recommend height of 45 px and width of up to 200 px."
+msgstr "אנו ממליצים על גובה של 45 פיקסלים ורוחב של עד 200 פיקסלים."
+
+#: nodepkg/logo-form/LogoForm.tsx:6
+#, jsrealm
+msgid "Only PNG and SVG images are supported."
+msgstr "רק תמונות PNG ו-SVG נתמכות."
+
+#: nodepkg/metrics/GoogleAnalyticsTab.tsx:30
+#, jsrealm
+msgid "Measurement ID"
+msgstr "מזהה מדידה"
+
+#: nodepkg/metrics/MetricSettings.tsx:21
+#, jsrealm
+msgid "Add"
+msgstr "לְהוֹסִיף"
+
+#: nodepkg/metrics/MetricSettings.tsx:22
+#, jsrealm
+msgid "The setting is saved."
+msgstr "ההגדרה נשמרת."
+
+#: nodepkg/metrics/MetricSettings.tsx:23
+#, jsrealm
+msgid "Reload the page to get them applied."
+msgstr "טען מחדש את הדף כדי להחיל אותם."
+
+#: nodepkg/metrics/MetricSettings.tsx:24
+#, jsrealm
+msgid "Add one or more counters to your Web GIS."
+msgstr "הוסף מונה אחד או יותר למערכת ה-GIS האינטרנטית שלך."
+
+#: nodepkg/metrics/MetricSettings.tsx:25
+#, jsrealm
+msgid ""
+"HTML code of these counters will be embeded into each page and will allow you"
+" to track user activity."
+msgstr "קוד ה-HTML של מונים אלה יוטמע בכל עמוד ויאפשר לך לעקוב אחר פעילות המשתמש."
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:31
+#, jsrealm
+msgid "Tag number"
+msgstr "מספר תג"
+
+#: nodepkg/metrics/YandexMetricaTab.tsx:50
+#, jsrealm
+msgid "Webvisor"
+msgstr "וובוויזור"
+
+#: nodepkg/metrics/tab.ts:32
+#, jsrealm
+msgid "Google Analytics"
+msgstr "גוגל אנליטיקס"
+
+#: nodepkg/metrics/tab.ts:38
+#, jsrealm
+msgid "Yandex.Metrica"
+msgstr "Yandex.Metrica"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:24
+#, jsrealm
+msgid "Some changes may be reflected only after full estimation."
+msgstr "ייתכן שחלק מהשינויים יבואו לידי ביטוי רק לאחר הערכה מלאה."
+
+#: nodepkg/storage-summary/StorageSummary.tsx:25
+#, jsrealm, python-brace-format
+msgid "Storage usage was fully estimated at {f}."
+msgstr "ניצול האחסון הוערך במלואו ב-{f}."
+
+#: nodepkg/storage-summary/StorageSummary.tsx:26
+#, jsrealm, python-brace-format
+msgid "Storage usage was fully estimated at {f} and updated at {u}."
+msgstr "ניצול האחסון הוערך במלואו ב-{f} ועודכן ב-{u}."
+
+#: nodepkg/storage-summary/StorageSummary.tsx:27
+#, jsrealm, python-brace-format
+msgid "Storage usage hasn't been estimated yet but was updated at {u}."
+msgstr "ניצול האחסון טרם הוערך אך עודכן ב-{u}."
+
+#: nodepkg/storage-summary/StorageSummary.tsx:28
+#, jsrealm
+msgid "Storage usage hasn't been estimated yet."
+msgstr "ניצול האחסון עדיין לא הוערך."
+
+#: nodepkg/storage-summary/StorageSummary.tsx:114
+#, jsrealm
+msgid "Kind of data"
+msgstr "סוג הנתונים"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:120
+#, jsrealm
+msgid "Volume"
+msgstr "כֶּרֶך"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:139
+#, jsrealm
+msgid "Total"
+msgstr "סַך הַכֹּל"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:144
+#, jsrealm
+msgid "of"
+msgstr "שֶׁל"
+
+#: nodepkg/storage-summary/StorageSummary.tsx:209
+#, jsrealm
+msgid "Estimate storage"
+msgstr "הערכת אחסון"
+
+#: nodepkg/system-info/SystemInfo.tsx:59
+#, jsrealm
+msgid "Package"
+msgstr "חֲבִילָה"
+
+#: nodepkg/system-info/SystemInfo.tsx:60
+#, jsrealm
+msgid "Version"
+msgstr "גִרְסָה"
+
+#: nodepkg/system-info/SystemInfo.tsx:75
+#, jsrealm
+msgid "Platform"
+msgstr "פּלַטפוֹרמָה"
+
+#: nodepkg/system-info/SystemInfo.tsx:87
+#, jsrealm
+msgid "Browser support"
+msgstr "תמיכה בדפדפנים"
+
+#: nodepkg/system-info/SystemInfo.tsx:95
+#, jsrealm
+msgid "or higher"
+msgstr "או גבוה יותר"
+
+#: nodepkg/system-info/SystemInfo.tsx:96
+#, jsrealm
+msgid "Not supported"
+msgstr "לא נתמך"
+
+#: nodepkg/system-info/SystemInfo.tsx:102
+#, jsrealm
+msgid "Your browser"
+msgstr "הדפדפן שלך"
+
+#: nodepkg/system-info/SystemInfoUpdate.tsx:16
+#, jsrealm
+msgid "Checking for updates..."
+msgstr "בודק עדכונים..."
+
+#: nodepkg/system-info/SystemInfoUpdate.tsx:17
+#, jsrealm
+msgid "<a>Contact support</a> for update."
+msgstr "<a>צור קשר עם התמיכה</a> לקבלת עדכון."
+
+#: nodepkg/system-info/SystemInfoUpdate.tsx:18
+#, jsrealm
+msgid "Show details"
+msgstr "הצג פרטים"
+
+#: nodepkg/system-info/SystemInfoUpdate.tsx:19
+#, jsrealm, python-brace-format
+msgid ""
+"Critical updates are available: {version}. Please consider updating an soon "
+"as possible."
+msgstr "עדכונים קריטיים זמינים: {version}. אנא שקול לעדכן בהקדם האפשרי."
+
+#: nodepkg/system-info/SystemInfoUpdate.tsx:20
+#, jsrealm, python-brace-format
+msgid "New version of {distribution} is available: {version}."
+msgstr "גרסה חדשה של {distribution} זמינה: {version}."
+
+#: nodepkg/system-info/SystemInfoUpdate.tsx:21
+#, jsrealm, python-brace-format
+msgid "Your {distribution} is up-to-date."
+msgstr "ה-{distribution} שלך מעודכן."
+
+#: nodepkg/system-name-form/SystemNameForm.tsx:4
+#, jsrealm
+msgid "The system name setting is saved."
+msgstr "הגדרת שם המערכת נשמרת."
+
+#: nodepkg/update/index.tsx:24
+#, jsrealm
+msgid "Critical updates are available"
+msgstr "עדכונים קריטיים זמינים"
+
+#: nodepkg/update/index.tsx:25
+#, jsrealm
+msgid "Updates are available"
+msgstr "עדכונים זמינים"
+
+#: nodepkg/update/index.tsx:32
+#, jsrealm
+msgid "Click to see what's new"
+msgstr "לחץ כדי לראות מה חדש"
+
+#: template/uacompat.mako:3
+#, server
+msgid "Browser compatibility test"
+msgstr "בדיקת תאימות דפדפנים"
+
+#: template/uacompat.mako:22
+#, python-format, server
+msgid "%(name)s %(current)s supported"
+msgstr "נתמך"
+
+#: template/uacompat.mako:23
+#, server
+msgid ""
+"Web GIS browser compatibility test has been passed! The Web GIS should work "
+"fine."
+msgstr "בדיקת תאימות דפדפן Web GIS עברה בהצלחה! Web GIS אמור לעבוד כשורה."
+
+#: template/uacompat.mako:26
+#, python-format, server
+msgid "%(name)s not supported"
+msgstr "%(name)s לא נתמך"
+
+#: template/uacompat.mako:27
+#, python-format, server
+msgid ""
+"You're using %(name)s although it's not supported by the Web GIS. It's an "
+"outdated browser lacking required features. Try a different browser or "
+"contact your system administrator if another browser isn't available."
+msgstr ""
+"אתה משתמש ב-%(name)s למרות שהוא אינו נתמך על ידי Web GIS. זהו דפדפן מיושן חסר"
+" תכונות נדרשות. נסה דפדפן אחר או צור קשר עם מנהל המערכת שלך אם דפדפן אחר אינו"
+" זמין."
+
+#: template/uacompat.mako:29
+#, python-format, server
+msgid "%(name)s %(current)s not supported"
+msgstr "%(name)s %(current)s לא נתמך"
+
+#: template/uacompat.mako:30
+#, python-format, server
+msgid ""
+"You're using %(name)s %(current)s although it's not supported by the Web GIS."
+" It's an outdated version lacking required features. Contact your system "
+"administrator for upgrading to %(name)s %(required)s+ or try a different "
+"browser."
+msgstr ""
+"אתה משתמש ב- %(name)s %(current)s למרות שהוא אינו נתמך על ידי Web GIS. זוהי "
+"גרסה מיושנת וחסרת תכונות נדרשות. צור קשר עם מנהל המערכת שלך כדי לשדרג ל- "
+"%(name)s %(required)s+ או נסה דפדפן אחר."
+
+#: template/uacompat.mako:34
+#, server
+msgid ""
+"If you still want to continue using the current browser, click the link below"
+" to bypass the compatibility test. The Web GIS or some features may degrade "
+"or fail  in this case."
+msgstr ""
+"אם עדיין ברצונך להמשיך להשתמש בדפדפן הנוכחי, לחץ על הקישור למטה כדי לעקוף את "
+"בדיקת התאימות. במקרה זה, ייתכן ש-Web GIS או חלק מהתכונות שלו ייפגעו או "
+"ייכשלו."
+
+#: template/uacompat.mako:35
+#, server
+msgid "I understood but want to proceed at my own risk. Skip the test!"
+msgstr "הבנתי אבל אני רוצה להמשיך על אחריותי בלבד. דלג על המבחן!"
+
+#: template/uacompat.mako:37
+#, server
+msgid "Unknown browser"
+msgstr "דפדפן לא ידוע"
+
+#: template/uacompat.mako:38
+#, server
+msgid "If you are using an up-to-date browser the Web GIS should be fine."
+msgstr "אם אתם משתמשים בדפדפן מעודכן, Web GIS אמור להיות בסדר."
+
+#: tomb/config.py:98
+#, server
+msgid "Parameter required"
+msgstr "פרמטר נדרש"
+
+#: tomb/config.py:99
+#, python-brace-format, server
+msgid "The '{}' query parameter is required."
+msgstr "פרמטר השאילתה '{}' נדרש."
+
+#: tomb/config.py:101
+#, server
+msgid "Invalid parameter"
+msgstr "פרמטר לא חוקי"
+
+#: tomb/config.py:102
+#, python-brace-format, server
+msgid "The '{}' query parameter has an invalid value."
+msgstr "לפרמטר השאילתה '{}' יש ערך לא חוקי."
+
+#: tomb/exception.py:7
+#, server
+msgid "Malformed JSON body"
+msgstr "גוף JSON פגום"
+
+#: tomb/exception.py:8
+#, server
+msgid "The JSON body of the request is malformed or invalid."
+msgstr "גוף ה-JSON של הבקשה אינו תקין או אינו חוקי."

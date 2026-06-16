@@ -1,0 +1,117 @@
+#: interface.py:14
+#, server
+msgid "POI"
+msgstr "נקודת נקודת ציון"
+
+#: interface.py:15 model.py:15 nodepkg/style-3d-widget/Style3d.tsx:395
+#, jsrealm, server
+msgid "3D style"
+msgstr "סגנון תלת-ממדי"
+
+#: interface.py:16
+#, server
+msgid "3D model"
+msgstr "מודל תלת-ממדי"
+
+#: interface.py:17
+#, server
+msgid "Sphere"
+msgstr "כַּדוּר"
+
+#: interface.py:18
+#, server
+msgid "Ellipsoid"
+msgstr "אליפסואיד"
+
+#: interface.py:29
+#, server
+msgid "Value"
+msgstr "עֵרֶך"
+
+#: interface.py:30
+#, server
+msgid "From attribute"
+msgstr "מאפיין"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:121
+#, jsrealm
+msgid "Style type"
+msgstr "סוג סגנון"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:133
+#, jsrealm
+msgid "POI icon"
+msgstr "סמל נקודת ציון"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:144
+#, jsrealm
+msgid "POI color"
+msgstr "צבע נקודת נקודת המבט"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:155
+#, jsrealm
+msgid "Priority"
+msgstr "עֲדִיפוּת"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:166
+#, jsrealm
+msgid "Inverse"
+msgstr "הָפוּך"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:178 nodepkg/style-3d-widget/Style3d.tsx:270
+#: nodepkg/style-3d-widget/Style3d.tsx:316
+#, jsrealm
+msgid "Stroke color"
+msgstr "צבע קו"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:189 nodepkg/style-3d-widget/Style3d.tsx:281
+#: nodepkg/style-3d-widget/Style3d.tsx:327
+#, jsrealm
+msgid "Stroke width"
+msgstr "רוחב קו"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:200 nodepkg/style-3d-widget/Style3d.tsx:292
+#: nodepkg/style-3d-widget/Style3d.tsx:338
+#, jsrealm
+msgid "Fill color"
+msgstr "צבע מילוי"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:211 nodepkg/style-3d-widget/Style3d.tsx:371
+#, jsrealm
+msgid "Height"
+msgstr "גוֹבַה"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:224
+#, jsrealm
+msgid "3D model ID"
+msgstr "מזהה מודל תלת-ממדי"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:246
+#, jsrealm
+msgid "Scale"
+msgstr "סוּלָם"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:257
+#, jsrealm
+msgid "Rotate, deg."
+msgstr "סובב, מעלות."
+
+#: nodepkg/style-3d-widget/Style3d.tsx:303
+#, jsrealm
+msgid "Radius"
+msgstr "רַדִיוּס"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:349
+#, jsrealm
+msgid "Length"
+msgstr "מֶשֶׁך"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:360
+#, jsrealm
+msgid "Width"
+msgstr "רוֹחַב"
+
+#: nodepkg/style-3d-widget/Style3d.tsx:384
+#, jsrealm
+msgid "Z offset"
+msgstr "היסט Z"

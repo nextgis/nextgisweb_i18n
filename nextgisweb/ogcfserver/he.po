@@ -1,0 +1,43 @@
+#: model.py:16 nodepkg/service-widget/ServiceWidget.tsx:110
+#, jsrealm, server
+msgid "OGC API Features service"
+msgstr "שירות תכונות API של OGC"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:24
+#, jsrealm
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:29
+#, jsrealm
+msgid "Keyname"
+msgstr "שם מפתח"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:34
+#, jsrealm
+msgid "Features per request"
+msgstr "תכונות לפי בקשה"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:39
+#, jsrealm
+msgid "Not set"
+msgstr "לא מוגדר"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:44
+#, jsrealm
+msgid "Resource"
+msgstr "מַשׁאָב"
+
+#: view.py:17
+#, server
+msgid "OGC API Features"
+msgstr "תכונות ה-API של OGC"
+
+#: view.py:19
+#, server
+msgid ""
+"OGC API Features provides API building blocks to create, modify and query "
+"features on the Web."
+msgstr ""
+"תכונות ה-API של OGC מספקות אבני בניין של API ליצירה, שינוי ושאילתה של תכונות "
+"באינטרנט."

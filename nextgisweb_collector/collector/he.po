@@ -1,0 +1,326 @@
+#: api.py:82
+#, server
+msgid ""
+"Unfortunately, you cannot add a new collector. Your collector users limit in "
+"the Web GIS is"
+msgstr "למרבה הצער, לא ניתן להוסיף אספן חדש. מגבלת משתמשי האספנים שלך ב-Web GIS היא"
+
+#: api.py:114
+#, python-brace-format, server
+msgid "User with email '{}' already exists. Email addresses are case-insensitive."
+msgstr ""
+"משתמש עם כתובת הדוא\"ל '{}' כבר קיים. כתובות דוא\"ל אינן תלויות אותיות "
+"גדולות/קטנות."
+
+#: model.py:87
+#, server
+msgid "Collector project"
+msgstr "פרויקט אספנים"
+
+#: nodepkg/collector-setup/CollectorFieldsWidget.tsx:10
+#, jsrealm
+msgid "Project name"
+msgstr "שם הפרויקט"
+
+#: nodepkg/collector-setup/CollectorFieldsWidget.tsx:11
+#, jsrealm
+msgid "The name of the collector project"
+msgstr "שם פרויקט האספנים"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:44
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:74
+#, jsrealm
+msgid "Project"
+msgstr "פּרוֹיֶקט"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:53
+#: nodepkg/resource-items/ItemsWidget.tsx:248
+#, jsrealm
+msgid "Items"
+msgstr "פריטים"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:62
+#: nodepkg/resource-users/CollectorUsersWidget.tsx:37
+#, jsrealm
+msgid "Collectors"
+msgstr "אספנים"
+
+#: nodepkg/collector-setup/CollectorSetupWidget.tsx:76
+#, jsrealm
+msgid "Create project"
+msgstr "צור פרויקט"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:74
+#, jsrealm
+msgid "Contact Web GIS administrator to change the list of collectors"
+msgstr "צור קשר עם מנהל Web GIS כדי לשנות את רשימת האוספים"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:146
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:165
+#: nodepkg/userMessages.ts:12
+#, jsrealm
+msgid "Collector deleted"
+msgstr "אספן נמחק"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:202
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:26
+#, jsrealm
+msgid "NextGIS ID"
+msgstr "מזהה NextGIS"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:208
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:38
+#, jsrealm
+msgid "Description"
+msgstr "תֵאוּר"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:214
+#, jsrealm
+msgid "Added"
+msgstr "נוסף"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:236
+#, jsrealm
+msgid "Edit"
+msgstr "לַעֲרוֹך"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:244
+#, jsrealm
+msgid "Delete"
+msgstr "לִמְחוֹק"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:279
+#, jsrealm
+msgid "You cannot add a new collector. Your collector users limit"
+msgstr "לא ניתן להוסיף אספן חדש. מגבלת המשתמשים שלך באספנים"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:329
+#, jsrealm
+msgid "Create"
+msgstr "לִיצוֹר"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351
+#, jsrealm
+msgid "Create new collector"
+msgstr "צור אספן חדש"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:352
+#, jsrealm
+msgid "Edit collector"
+msgstr "עריכת אספן"
+
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:367
+#, jsrealm
+msgid "Delete selected collectors?"
+msgstr "למחוק את האספנים שנבחרו?"
+
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:31
+#, jsrealm
+msgid "The value entered is not valid"
+msgstr "הערך שהוזן אינו תקין"
+
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:13
+#, jsrealm
+msgid "Collector users:"
+msgstr "משתמשי אספן:"
+
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:13
+#, jsrealm
+msgid "out of"
+msgstr "מִתוֹך"
+
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:20
+#, jsrealm
+msgid "Each collector must have "
+msgstr "כל אספן חייב "
+
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:21
+#, jsrealm
+msgid "NextGIS ID account"
+msgstr "חשבון NextGIS ID"
+
+#: nodepkg/control-panel-plugin.tsx:9
+#, jsrealm
+msgid "Collector projects"
+msgstr "פרויקטים של אספנים"
+
+#: nodepkg/resource-action-plugin.tsx:11 view.py:46
+#, jsrealm, server
+msgid "Set up Collector project"
+msgstr "הגדר פרויקט Collector"
+
+#: nodepkg/resource-items/Item.ts:104
+#, jsrealm
+msgid "Group members have errors"
+msgstr "יש שגיאות לחברי הקבוצה"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:26
+#, jsrealm
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:27
+#, jsrealm
+msgid "Expanded"
+msgstr "מוּרחָב"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:28
+#, jsrealm
+msgid "Editable"
+msgstr "ניתן לעריכה"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:29
+#, jsrealm
+msgid "Visible"
+msgstr "נִרְאֶה"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:30
+#, jsrealm
+msgid "Syncable"
+msgstr "ניתן לסנכרון"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:31
+#, jsrealm
+msgid "Lifetime for tiles (in min)"
+msgstr "אורך חיים של אריחים (במינימום)"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:32
+#, jsrealm
+msgid "Resource"
+msgstr "מַשׁאָב"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:33
+#, jsrealm
+msgid "Zoom level visibility"
+msgstr "נראות ברמת הזום"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:34
+#, jsrealm
+msgid "Min zoom"
+msgstr "זום מינימלי"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:35
+#, jsrealm
+msgid "Max zoom"
+msgstr "זום מקסימלי"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:36
+#, jsrealm
+msgid "Item"
+msgstr "פָּרִיט"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:37
+#, jsrealm
+msgid "Form, layer or style"
+msgstr "צורה, שכבה או סגנון"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:38
+#, jsrealm
+msgid "Group"
+msgstr "קְבוּצָה"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:14
+#, jsrealm
+msgid "Initial extent"
+msgstr "היקף ראשוני"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:15
+#, jsrealm
+msgid "Project will start at this extent"
+msgstr "הפרויקט יתחיל בהיקף זה"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:17
+#, jsrealm
+msgid "Starting screen"
+msgstr "מסך פתיחה"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:19
+#, jsrealm
+msgid "The starting screen in the NextGIS Collector mobile app"
+msgstr "מסך הפתיחה באפליקציית NextGIS Collector לנייד"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:22
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:207
+#, jsrealm
+msgid "Mobile project setup configuration"
+msgstr "תצורת הגדרת פרויקט נייד"
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:24
+#, jsrealm
+msgid ""
+"Automate project delivery to multiple mobile GIS with this setup. Recommended"
+" for advanced users only."
+msgstr ""
+"אוטומציה של מסירת פרויקטים למספר מערכות GIS ניידות בעזרת הגדרה זו. מומלץ "
+"למשתמשים מתקדמים בלבד."
+
+#: nodepkg/resource-project/CollectorProjectWidget.tsx:29
+#, jsrealm
+msgid "Edit config"
+msgstr "עריכת תצורה"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:17
+#, jsrealm
+msgid "List of forms"
+msgstr "רשימת טפסים"
+
+#: nodepkg/resource-project/CollectorTypeSelect.tsx:21
+#, jsrealm
+msgid "Map"
+msgstr "מַפָּה"
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:21
+#, jsrealm
+msgid ""
+"Provide the mobile project configuration by typing it in or importing it from"
+" a JSON file"
+msgstr "ספק את תצורת הפרויקט הנייד על ידי הקלדתה או ייבואה מקובץ JSON"
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:25
+#, jsrealm
+msgid ""
+"Please enter data in the NextGIS Mobile configuration format (using a valid "
+"JSON dictionary)"
+msgstr "אנא הזן נתונים בפורמט התצורה של NextGIS Mobile (תוך שימוש במילון JSON תקף)"
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:34
+#, jsrealm
+msgid "Loading editor..."
+msgstr "טוען את העורך..."
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:229
+#, jsrealm
+msgid "Load"
+msgstr "לִטעוֹן"
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:233
+#, jsrealm
+msgid "Close"
+msgstr "לִסְגוֹר"
+
+#: nodepkg/resource-project/mobile-json-config/MobileJsonConfig.tsx:236
+#, jsrealm
+msgid "OK"
+msgstr "בְּסֵדֶר"
+
+#: nodepkg/userMessages.ts:5
+#, jsrealm
+msgid "Delete collector?"
+msgstr "למחוק את האספן?"
+
+#: nodepkg/userMessages.ts:6
+#, jsrealm
+msgid ""
+"Deleting this collector will remove it from all projects where it is "
+"currently assigned."
+msgstr "מחיקת אספן זה תסיר אותו מכל הפרויקטים שאליהם הוא מוקצה כעת."
+
+#: nodepkg/userMessages.ts:9
+#, jsrealm
+msgid "Uncheck the box to remove the collector from the current project only."
+msgstr "בטל את הסימון בתיבה כדי להסיר את האספן מהפרויקט הנוכחי בלבד."
+
+#: view.py:38
+#, server
+msgid "List of collectors"
+msgstr "רשימת אספנים"

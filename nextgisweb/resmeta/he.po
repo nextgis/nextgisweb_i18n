@@ -1,0 +1,59 @@
+#: nodepkg/editor/EditorWidget.tsx:45
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:29
+#, jsrealm
+msgid "False"
+msgstr "שֶׁקֶר"
+
+#: nodepkg/editor/EditorWidget.tsx:46
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:29
+#, jsrealm
+msgid "True"
+msgstr "נָכוֹן"
+
+#: nodepkg/editor/EditorWidget.tsx:68
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:13
+#, jsrealm
+msgid "String"
+msgstr "חוּט"
+
+#: nodepkg/editor/EditorWidget.tsx:69
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:15
+#, jsrealm
+msgid "Number"
+msgstr "מִספָּר"
+
+#: nodepkg/editor/EditorWidget.tsx:70
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:17
+#, jsrealm
+msgid "Boolean"
+msgstr "בוליאני"
+
+#: nodepkg/editor/EditorWidget.tsx:71
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:11
+#, jsrealm
+msgid "Empty"
+msgstr "רֵיק"
+
+#: nodepkg/editor/EditorWidget.tsx:82
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:43
+#, jsrealm
+msgid "Key"
+msgstr "מַפְתֵחַ"
+
+#: nodepkg/editor/EditorWidget.tsx:88
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:49
+#, jsrealm
+msgid "Type"
+msgstr "סוּג"
+
+#: nodepkg/editor/EditorWidget.tsx:94
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:56
+#, jsrealm
+msgid "Value"
+msgstr "עֵרֶך"
+
+#: nodepkg/editor/EditorWidget.tsx:109
+#: nodepkg/resource-section/ResmetaResourceSection.tsx:85
+#, jsrealm
+msgid "Metadata"
+msgstr "מטא-דאטה"

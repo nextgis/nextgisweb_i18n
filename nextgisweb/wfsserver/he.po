@@ -1,0 +1,43 @@
+#: model.py:20 nodepkg/service-widget/ServiceWidget.tsx:110
+#, jsrealm, server
+msgid "WFS service"
+msgstr "שירות WFS"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:24
+#, jsrealm
+msgid "Display name"
+msgstr "שם תצוגה"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:29
+#, jsrealm
+msgid "Keyname"
+msgstr "שם מפתח"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:34
+#, jsrealm
+msgid "Features per request"
+msgstr "תכונות לפי בקשה"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:39
+#, jsrealm
+msgid "Not set"
+msgstr "לא מוגדר"
+
+#: nodepkg/service-widget/ServiceWidget.tsx:44
+#, jsrealm
+msgid "Resource"
+msgstr "מַשׁאָב"
+
+#: view.py:17
+#, server
+msgid "Web Feature Service (WFS)"
+msgstr "שירות תכונות אינטרנט (WFS)"
+
+#: view.py:19
+#, server
+msgid ""
+"Web Feature Service (WFS) provides an interface allowing requests for "
+"geographical features across the web using platform-independent calls."
+msgstr ""
+"שירות תכונות אינטרנט (WFS) מספק ממשק המאפשר בקשות לתכונות גיאוגרפיות ברחבי "
+"האינטרנט באמצעות קריאות בלתי תלויות בפלטפורמה."

@@ -1,0 +1,208 @@
+#: api_import.py:26
+#, server
+msgid "Invalid ZIP archive."
+msgstr "ארכיון ZIP לא חוקי."
+
+#: api_import.py:55
+#, python-brace-format, server
+msgid "File '{}' isn't found in metadata."
+msgstr "הקובץ '{}' לא נמצא במטא-דאטה."
+
+#: api_import.py:61
+#, python-brace-format, server
+msgid "Invalid feature ID for file '{}'."
+msgstr "מזהה תכונה לא חוקי עבור הקובץ '{}'."
+
+#: api_import.py:68
+#, python-brace-format, server
+msgid "Invalid keyname for file '{}'."
+msgstr "שם מפתח לא חוקי עבור הקובץ '{}'."
+
+#: api_import.py:74
+#, python-brace-format, server
+msgid "Invalid name for file '{}'."
+msgstr "שם לא חוקי לקובץ '{}'."
+
+#: api_import.py:80
+#, python-brace-format, server
+msgid "Invalid MIME type for file '{}'."
+msgstr "סוג MIME לא חוקי עבור הקובץ '{}'."
+
+#: api_import.py:87
+#, python-brace-format, server
+msgid "Invalid description for file '{}'."
+msgstr "תיאור לא חוקי עבור הקובץ '{}'."
+
+#: api_import.py:100
+#, python-brace-format, server
+msgid "Could not determine feature ID for file '{}'."
+msgstr "לא ניתן היה לקבוע את מזהה המאפיין עבור הקובץ '{}'."
+
+#: api_import.py:118
+#, python-brace-format, server
+msgid "File '{}' isn't found in the archive."
+msgstr "הקובץ '{}' לא נמצא בארכיון."
+
+#: component.py:14
+#, server
+msgid "Feature attachments"
+msgstr "קבצים מצורפים לתכונות"
+
+#: exception.py:7
+#, server
+msgid "Attachment not found"
+msgstr "קובץ מצורף לא נמצא"
+
+#: exception.py:8
+#, python-format, server
+msgid "Attachment with id = %d was not found in feature with id = %d."
+msgstr "קובץ מצורף עם מזהה %d לא נמצא בתכונה עם מזהה %d."
+
+#: exception.py:9
+#, server
+msgid "The attachment may have been deleted or an error in the address."
+msgstr "ייתכן שהקובץ המצורף נמחק או שיש שגיאה בכתובת."
+
+#: nodepkg/attachment-bundle/ol-control/plugin.ts:10
+#: nodepkg/attachment-bundle/ol-control/plugin.ts:12
+#: nodepkg/attachment-editor/plugin.ts:8
+#: nodepkg/attachment-table-view/AttachmentTableView.tsx:23
+#, jsrealm
+msgid "Attachments"
+msgstr "קבצים מצורפים"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:34
+#, jsrealm
+msgid "Draw the geometry on the map to visualize the attachments to the objects"
+msgstr "צייר את הגיאומטריה על המפה כדי להמחיש את ההיקשרות לאובייקטים"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:130
+#, jsrealm
+msgid "Object: "
+msgstr "אובייקט: "
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:137
+#, jsrealm
+msgid "Identify object"
+msgstr "זיהוי אובייקט"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:158
+#, jsrealm
+msgid "Attachments: "
+msgstr "קבצים מצורפים: "
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:185
+#, jsrealm
+msgid "No attachments"
+msgstr "אין קבצים מצורפים"
+
+#: nodepkg/attachment-bundle/tab/AttachmentsTab.tsx:251
+#, jsrealm
+msgid "Download all attachments"
+msgstr "הורד את כל הקבצים המצורפים"
+
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:138
+#: nodepkg/attachment-table/AttachmentTable.tsx:41
+#, jsrealm
+msgid "File name"
+msgstr "שם הקובץ"
+
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:144
+#: nodepkg/attachment-table/AttachmentTable.tsx:59
+#, jsrealm
+msgid "Size"
+msgstr "גוֹדֶל"
+
+#: nodepkg/attachment-editor/AttachmentEditor.tsx:150
+#: nodepkg/attachment-table/AttachmentTable.tsx:74
+#, jsrealm
+msgid "Description"
+msgstr "תֵאוּר"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:54
+#, jsrealm
+msgid ""
+"Use export to copy feature attachments between different layers or to create "
+"a backup. The resulting ZIP archive will contain all of the attachments put "
+"in directories named after feature IDs. Attachment metadata are put into a "
+"separate JSON file."
+msgstr ""
+"השתמשו בייצוא כדי להעתיק קבצים מצורפים של מאפיינים בין שכבות שונות או כדי "
+"ליצור גיבוי. ארכיון ה-ZIP שייווצר יכיל את כל הקבצים המצורפים שהוכנסו לספריות "
+"בשם מזהי מאפיינים. המטא-נתונים של הקבצים המצורפים מוכנסים לקובץ JSON נפרד."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:64
+#, jsrealm
+msgid "Export attachments to ZIP archive"
+msgstr "ייצוא קבצים מצורפים לארכיון ZIP"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:82
+#, jsrealm
+msgid "Back to resource"
+msgstr "חזרה למשאב"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:84
+#, jsrealm
+msgid "Close"
+msgstr "לִסְגוֹר"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:87
+#, jsrealm
+msgid "The archive has been successfully imported."
+msgstr "הארכיון יובא בהצלחה."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:89
+#, jsrealm, python-brace-format
+msgid "Attachments imported - {i}, skipped - {s}."
+msgstr "קבצים מצורפים יובאו - {i}, דילגו עליהם - {s}."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:124
+#, jsrealm
+msgid ""
+"Upload a ZIP archive to batch append attachments to existing features. An "
+"archive must contain directories named after feature IDs. Each folder can "
+"contain one or many attachments. Duplicates will be ignored."
+msgstr ""
+"העלה ארכיון ZIP כדי להוסיף קבצים מצורפים לתכונות קיימות. ארכיון חייב להכיל "
+"ספריות בשם מזהי תכונות. כל תיקייה יכולה להכיל קובץ מצורף אחד או יותר. "
+"כפילויות יתעלמו."
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:133
+#, jsrealm
+msgid "Delete existing attachments"
+msgstr "מחיקת קבצים מצורפים קיימים"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:158
+#, jsrealm
+msgid "Import attachments from ZIP archive"
+msgstr "ייבוא ​​קבצים מצורפים מארכיון ZIP"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:170
+#, jsrealm
+msgid "Export"
+msgstr "יְצוּא"
+
+#: nodepkg/attachment-form/AttachmentForm.tsx:175
+#, jsrealm
+msgid "Import"
+msgstr "יְבוּא"
+
+#: nodepkg/attachment-table/AttachmentTable.tsx:51
+#, jsrealm
+msgid "Unnamed"
+msgstr "ללא שם"
+
+#: nodepkg/attachment-table/AttachmentTable.tsx:68
+#, jsrealm
+msgid "MIME type"
+msgstr "סוג MIME"
+
+#: nodepkg/image-thumbnail/component/AttachmentPreviewToolbar.tsx:34
+#, jsrealm
+msgid "Toggle panorama viewer"
+msgstr "הפעל/הפעל מציג פנורמה"
+
+#: nodepkg/resource-action-plugin.tsx:12 view.py:23
+#, jsrealm, server
+msgid "Manage attachments"
+msgstr "ניהול קבצים מצורפים"

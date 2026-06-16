@@ -1,0 +1,56 @@
+#: api.py:27
+#, server
+msgid "Raster mosaic item id not provided."
+msgstr "לא סופק מזהה פריט פסיפס רסטר."
+
+#: api.py:33
+#, server
+msgid "Raster mosaic item not found."
+msgstr "פריט פסיפס רסטר לא נמצא."
+
+#: model.py:37
+#, server
+msgid "Raster mosaic"
+msgstr "פסיפס רסטר"
+
+#: model.py:125
+#, server
+msgid "GDAL library was unable to open the file."
+msgstr "ספריית GDAL לא הצליחה לפתוח את הקובץ."
+
+#: model.py:128
+#, server
+msgid "Only RGB and RGBA rasters are supported."
+msgstr "רק רסטרי RGB ו-RGBA נתמכים."
+
+#: model.py:137
+#, python-format, server
+msgid ""
+"Raster has format '%(format)s', however only following formats are supported:"
+" %(all_formats)s."
+msgstr "לרסטר יש את הפורמט '%(format)s', אך רק הפורמטים הבאים נתמכים: %(all_formats)s."
+
+#: model.py:144
+#, server
+msgid "Raster files without projection info are not supported."
+msgstr "קבצי רסטר ללא מידע על הקרנה אינם נתמכים."
+
+#: model.py:156
+#, server
+msgid "Complex data types are not supported."
+msgstr "סוגי נתונים מורכבים אינם נתמכים."
+
+#: nodepkg/resource-widget/Store.ts:85
+#, jsrealm, python-brace-format
+msgid "File '{}' has an invalid extension."
+msgstr "לקובץ '{}' יש סיומת לא חוקית."
+
+#: nodepkg/resource-widget/Widget.tsx:44
+#, jsrealm
+msgid "Upload"
+msgstr "העלאה"
+
+#: nodepkg/resource-widget/Widget.tsx:66
+#, jsrealm
+msgid "Rasters"
+msgstr "רסטרים"
