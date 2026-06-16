@@ -1,55 +1,55 @@
-#: api.py:117 api_identify.py:27
+#: api.py:119 api_identify.py:27
 msgid "Geometry is not valid."
 msgstr "La geometría no es válida."
 
-#: api.py:383
+#: api.py:385
 msgid "Unknown spatial reference system"
 msgstr ""
 
-#: api.py:470 api_export.py:215
+#: api.py:472 api_export.py:213
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "El parámetro 'intersects' de la geometría no es válido."
 
-#: api.py:713
+#: api.py:715
 msgid "Aggregation is not supported for this layer."
 msgstr ""
 
-#: api.py:722
+#: api.py:724
 #, python-brace-format
 msgid "Aggregation '{}' is not supported for this layer."
 msgstr ""
 
-#: api.py:728 api.py:735
+#: api.py:730 api.py:737
 #, python-brace-format
 msgid "Field '{}' not found."
 msgstr ""
 
-#: api_export.py:111
+#: api_export.py:108
 #, python-brace-format
 msgid "Couldn't add FID field '{}'. Such field already exists."
 msgstr ""
 
-#: api_export.py:254
+#: api_export.py:252
 #, python-brace-format
 msgid "The selected format does not support {} geometry type."
 msgstr ""
 
-#: api_export.py:267
+#: api_export.py:265
 #, python-brace-format
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
 "El límite de exportación está establecido en {limit} entidades, pero la capa "
 "contiene {count}."
 
-#: api_export.py:280
+#: api_export.py:278
 msgid "Failed to reproject 'intersects' geometry."
 msgstr "No se pudo reproyectar la geometría de 'intersección'."
 
-#: api_export.py:291
+#: api_export.py:289
 msgid "Filter expressions are not supported."
 msgstr ""
 
-#: api_export.py:461
+#: api_export.py:459
 #, python-brace-format
 msgid "File name parameter '{}' is not valid."
 msgstr "El parámetro de nombre de archivo '{}' no es válido."
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Unable to restore the #{} feature as it is not deleted."
 msgstr ""
 
-#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:44
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:43
 msgid "Feature table"
 msgstr "Tabla de objetos geográficos"
 
@@ -105,26 +105,32 @@ msgstr "Tabla de objetos geográficos"
 msgid "Invalid filter expression"
 msgstr ""
 
-#: model.py:196
+#: model.py:197
 #, python-format
 msgid "Field not found (ID=%d)."
 msgstr "Campo no encontrado (ID=%d)."
 
-#: model.py:273
+#: model.py:274
 msgid "Versioning not supported"
 msgstr ""
 
-#: nodepkg/attribute-editor/AttributeEditor.tsx:34
+#: nodepkg/attribute-editor/AttributeEditor.tsx:38
 msgid "Set field value to NULL (No data)"
 msgstr "Colocar el valor del campo en NULL (sin datos)"
 
-#: nodepkg/attribute-editor/AttributeEditor.tsx:35
+#: nodepkg/attribute-editor/AttributeEditor.tsx:39
 msgid "There are no attributes in the vector layer"
 msgstr ""
 
 #: nodepkg/attribute-editor/plugin.ts:10
 msgid "Attributes"
 msgstr "Atributos"
+
+#: nodepkg/control-panel-plugin.tsx:11
+#: nodepkg/settings-widget/SettingsWidget.tsx:12 versioning/model.py:106
+#: view.py:148
+msgid "Feature versioning"
+msgstr ""
 
 #: nodepkg/export-form/ExportForm.tsx:242
 msgid "Resources"
@@ -186,16 +192,16 @@ msgstr "Archivo zip"
 msgid "Save"
 msgstr "Guardar"
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
 #: nodepkg/feature-filter/FeatureFilterEditor.tsx:28
 msgid "Cancel"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:22
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
 msgid "Are you sure?"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:23
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:22
 msgid "Unsaved changes will be lost if you close the window."
 msgstr ""
 
@@ -247,32 +253,32 @@ msgstr ""
 msgid "Failed to apply filter"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:102
+#: nodepkg/feature-filter/FilterEditorStore.ts:106
 msgid "Failed to generate JSON from filter state:"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:123
+#: nodepkg/feature-filter/FilterEditorStore.ts:127
 msgid "Failed to parse JSON, falling back to JSON tab."
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:235
+#: nodepkg/feature-filter/FilterEditorStore.ts:239
 msgid "Cannot delete the root group."
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:339
+#: nodepkg/feature-filter/FilterEditorStore.ts:343
 msgid "Failed to parse filter expression:"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:345
+#: nodepkg/feature-filter/FilterEditorStore.ts:349
 msgid "Invalid filter value"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:359
-#: nodepkg/feature-filter/FilterEditorStore.ts:383
+#: nodepkg/feature-filter/FilterEditorStore.ts:363
+#: nodepkg/feature-filter/FilterEditorStore.ts:387
 msgid "Invalid JSON or filter structure"
 msgstr ""
 
-#: nodepkg/feature-filter/FilterEditorStore.ts:628
+#: nodepkg/feature-filter/FilterEditorStore.ts:638
 msgid "Validation failed"
 msgstr ""
 
@@ -288,19 +294,19 @@ msgstr ""
 msgid "Operator"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterGroup.tsx:122
+#: nodepkg/feature-filter/component/FilterGroup.tsx:123
 msgid "ALL"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterGroup.tsx:123
+#: nodepkg/feature-filter/component/FilterGroup.tsx:124
 msgid "ANY"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterGroup.tsx:131
+#: nodepkg/feature-filter/component/FilterGroup.tsx:132
 msgid "Condition"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterGroup.tsx:138
+#: nodepkg/feature-filter/component/FilterGroup.tsx:139
 msgid "Group"
 msgstr ""
 
@@ -330,51 +336,51 @@ msgstr ""
 msgid "Current filter state"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:165
+#: nodepkg/feature-filter/type.ts:167
 msgid "Equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:178
+#: nodepkg/feature-filter/type.ts:181
 msgid "Not equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:191
+#: nodepkg/feature-filter/type.ts:195
 msgid "Greater"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:196
+#: nodepkg/feature-filter/type.ts:200
 msgid "Less"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:201
+#: nodepkg/feature-filter/type.ts:205
 msgid "Greater or equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:206
+#: nodepkg/feature-filter/type.ts:210
 msgid "Less or equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:211
+#: nodepkg/feature-filter/type.ts:215
 msgid "In list"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:216
+#: nodepkg/feature-filter/type.ts:220
 msgid "Not in list"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:221
+#: nodepkg/feature-filter/type.ts:225
 msgid "Is NULL"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:234
+#: nodepkg/feature-filter/type.ts:239
 msgid "Is not NULL"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:247
+#: nodepkg/feature-filter/type.ts:253
 msgid "Matches (case-insensitive)"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:252
+#: nodepkg/feature-filter/type.ts:258
 msgid "Does not match (case-insensitive)"
 msgstr ""
 
@@ -410,86 +416,86 @@ msgstr ""
 msgid "Enter value"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:50
+#: nodepkg/feature-filter/util/validator.ts:64
 msgid "Field expression must be ['get', fieldName] or ['fid']"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:58
+#: nodepkg/feature-filter/util/validator.ts:72
 #, python-brace-format
 msgid "Unknown field: '{fieldName}'"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:65
+#: nodepkg/feature-filter/util/validator.ts:79
 #, python-brace-format
 msgid "Unknown virtual field: '{fieldId}'"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:83
+#: nodepkg/feature-filter/util/validator.ts:97
 #, python-brace-format
 msgid "Field '{fieldName}' expects a string for {fieldType}, but got '{valueType}'"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:101
+#: nodepkg/feature-filter/util/validator.ts:115
 #, python-brace-format
 msgid ""
 "Field '{fieldName}' expects {fieldType} format '{expectedFormat}', but got "
 "'{value}'"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:118
+#: nodepkg/feature-filter/util/validator.ts:132
 msgid "Condition expression must be an array"
-msgstr ""
-
-#: nodepkg/feature-filter/util/validator.ts:124
-#, python-brace-format
-msgid "Invalid operator: '{operator}'"
-msgstr ""
-
-#: nodepkg/feature-filter/util/validator.ts:130
-#: nodepkg/feature-filter/util/validator.ts:146
-#, python-brace-format
-msgid "Operator '{operator}' expects 1 argument, but got '{length}'"
 msgstr ""
 
 #: nodepkg/feature-filter/util/validator.ts:138
 #, python-brace-format
+msgid "Invalid operator: '{operator}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:144
+#: nodepkg/feature-filter/util/validator.ts:160
+#, python-brace-format
+msgid "Operator '{operator}' expects 1 argument, but got '{length}'"
+msgstr ""
+
+#: nodepkg/feature-filter/util/validator.ts:152
+#, python-brace-format
 msgid "Operator '{operator}' expects at least {min} value argument"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:164
+#: nodepkg/feature-filter/util/validator.ts:178
 #, python-brace-format
 msgid "Operator '{operator}' is not supported for field type '{fieldType}'"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:175
+#: nodepkg/feature-filter/util/validator.ts:189
 msgid ""
 "Values for 'in' operator cannot be arrays (must be flattened) or property "
 "references."
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:200
+#: nodepkg/feature-filter/util/validator.ts:214
 #, python-brace-format
 msgid "Field '{fieldName}' expects a number, but got '{valueType}'"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:207
+#: nodepkg/feature-filter/util/validator.ts:221
 #, python-brace-format
 msgid "Field '{fieldName}' expects a string, but got '{valueType}'"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:224
+#: nodepkg/feature-filter/util/validator.ts:238
 msgid "Expression must be an array"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:236
+#: nodepkg/feature-filter/util/validator.ts:250
 msgid "Group operator must have at least one argument"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:242
+#: nodepkg/feature-filter/util/validator.ts:256
 msgid "All arguments to group operator must be arrays"
 msgstr ""
 
-#: nodepkg/feature-filter/util/validator.ts:256
+#: nodepkg/feature-filter/util/validator.ts:270
 #, python-brace-format
 msgid "Unknown or invalid root operator: '{operator}'"
 msgstr ""
@@ -503,39 +509,39 @@ msgid "Open table settings"
 msgstr ""
 
 #: nodepkg/feature-grid/FeatureGrid.tsx:25
-#: nodepkg/version-history/VersionHistory.tsx:224
+#: nodepkg/version-history/VersionHistory.tsx:225
 msgid "Refresh table"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:37
+#: nodepkg/feature-grid/FeatureGridActions.tsx:38
 msgid "Open"
 msgstr "Abrir"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:38
+#: nodepkg/feature-grid/FeatureGridActions.tsx:39
 msgid "Open on a new page"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:39
+#: nodepkg/feature-grid/FeatureGridActions.tsx:40
 msgid "Delete"
 msgstr "Eliminar"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:40
+#: nodepkg/feature-grid/FeatureGridActions.tsx:41
 msgid "Edit"
 msgstr "Editar"
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:41
+#: nodepkg/feature-grid/FeatureGridActions.tsx:42
 msgid "Edit on a new page"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:42
+#: nodepkg/feature-grid/FeatureGridActions.tsx:43
 msgid "Create"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:44
+#: nodepkg/feature-grid/FeatureGridActions.tsx:45
 msgid "Search..."
 msgstr "Buscando..."
 
-#: nodepkg/feature-grid/FeatureGridActions.tsx:45
+#: nodepkg/feature-grid/FeatureGridActions.tsx:46
 msgid "Advanced filter"
 msgstr ""
 
@@ -545,7 +551,7 @@ msgid "Last changed"
 msgstr ""
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:30
-#: nodepkg/resource-action-plugin.tsx:63 view.py:91 view.py:115
+#: nodepkg/resource-action-plugin.tsx:63 view.py:88 view.py:112
 msgid "Save as"
 msgstr "Guardar como"
 
@@ -559,6 +565,14 @@ msgstr ""
 
 #: nodepkg/feature-grid/component/ExportAction.tsx:33
 msgid "Filters are applied"
+msgstr ""
+
+#: nodepkg/feature-grid/util/renderFeatureFieldValue.ts:13
+msgid "True"
+msgstr ""
+
+#: nodepkg/feature-grid/util/renderFeatureFieldValue.ts:13
+msgid "False"
 msgstr ""
 
 #: nodepkg/fields-widget/FieldsWidget.tsx:23
@@ -678,13 +692,8 @@ msgstr "Objetos geográficos"
 msgid "Table"
 msgstr "Tabla"
 
-#: nodepkg/resource-action-plugin.tsx:45 view.py:104
+#: nodepkg/resource-action-plugin.tsx:45 view.py:101
 msgid "Version history"
-msgstr ""
-
-#: nodepkg/settings-widget/SettingsWidget.tsx:12 versioning/model.py:106
-#: view.py:151 view.py:230
-msgid "Feature versioning"
 msgstr ""
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:13
@@ -701,39 +710,39 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: nodepkg/version-history/VersionHistory.tsx:106
+#: nodepkg/version-history/VersionHistory.tsx:107
 msgid "Today"
 msgstr ""
 
-#: nodepkg/version-history/VersionHistory.tsx:107
+#: nodepkg/version-history/VersionHistory.tsx:108
 msgid "Yesterday"
 msgstr ""
 
-#: nodepkg/version-history/VersionHistory.tsx:108
+#: nodepkg/version-history/VersionHistory.tsx:109
 msgid "Last 24 hours"
 msgstr ""
 
-#: nodepkg/version-history/VersionHistory.tsx:109
+#: nodepkg/version-history/VersionHistory.tsx:110
 msgid "Last 3 days"
 msgstr ""
 
-#: nodepkg/version-history/VersionHistory.tsx:110
+#: nodepkg/version-history/VersionHistory.tsx:111
 msgid "Last week"
 msgstr ""
 
-#: nodepkg/version-history/VersionHistory.tsx:111
+#: nodepkg/version-history/VersionHistory.tsx:112
 msgid "Last month"
 msgstr ""
 
-#: nodepkg/version-history/VersionHistory.tsx:112
+#: nodepkg/version-history/VersionHistory.tsx:113
 msgid "This month"
 msgstr ""
 
-#: nodepkg/version-history/VersionHistory.tsx:113
+#: nodepkg/version-history/VersionHistory.tsx:114
 msgid "Previous month"
 msgstr ""
 
-#: nodepkg/version-history/VersionHistory.tsx:217
+#: nodepkg/version-history/VersionHistory.tsx:218
 msgid "Group edits"
 msgstr ""
 
@@ -888,6 +897,11 @@ msgstr ""
 msgid "Got an invalid BIGINT value: {}."
 msgstr ""
 
+#: numutil.py:92
+#, python-brace-format
+msgid "Got an invalid BOOLEAN value: {}."
+msgstr ""
+
 #: transaction/exception.py:7
 msgid "Transaction not found"
 msgstr ""
@@ -939,16 +953,16 @@ msgstr ""
 msgid "Invalid range"
 msgstr ""
 
-#: view.py:62 view.py:79
+#: view.py:61 view.py:77
 #, python-format
 msgid "Feature #%d"
 msgstr "Objeto geográfico #%d"
 
-#: view.py:122
+#: view.py:119
 msgid "MVT Vector Tiles"
 msgstr "MVT Teselas Vectoriales"
 
-#: view.py:124
+#: view.py:121
 msgid ""
 "The Mapbox Vector Tile is an efficient encoding for map data into vector "
 "tiles that can be rendered dynamically."

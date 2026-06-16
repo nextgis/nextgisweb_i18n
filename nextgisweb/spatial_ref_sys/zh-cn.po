@@ -14,7 +14,7 @@ msgstr ""
 msgid "SRS #{} already exists."
 msgstr ""
 
-#: model.py:69 model.py:70 view.py:19 view.py:110
+#: model.py:69 model.py:70 nodepkg/control-panel-plugin.tsx:33 view.py:18
 msgid "Spatial reference systems"
 msgstr "空间参照系"
 
@@ -61,6 +61,18 @@ msgstr "OGC WKT 定义"
 msgid "View details"
 msgstr "视图详情"
 
+#: nodepkg/control-panel-plugin.tsx:39
+msgid "List"
+msgstr "目录"
+
+#: nodepkg/control-panel-plugin.tsx:48
+msgid "Catalog"
+msgstr "目录"
+
+#: nodepkg/control-panel-plugin.tsx:57
+msgid "Create"
+msgstr "创建"
+
 #: nodepkg/srs-browse/SrsBrowse.tsx:25
 msgid "Import from catalog"
 msgstr ""
@@ -93,34 +105,14 @@ msgstr "无效的MapInfo空间参照系统 : %s"
 msgid "Unknown spatial reference system format: %s!"
 msgstr "未知空间参照系格式：%s!"
 
-#: view.py:30
+#: view.py:28
 msgid "Create new Spatial reference system"
 msgstr "创建新的空间参照系"
 
-#: view.py:53
+#: view.py:49
 msgid "Spatial reference system catalog"
 msgstr "空间参照系目录"
 
-#: view.py:66
+#: view.py:61
 msgid "Spatial reference system"
 msgstr "空间参照系"
-
-#: view.py:114
-msgid "List"
-msgstr "目录"
-
-#: view.py:121
-msgid "Create"
-msgstr "创建"
-
-#: view.py:127
-msgid "Catalog"
-msgstr "目录"
-
-#: view.py:134
-msgid "Edit"
-msgstr "编辑"
-
-#: view.py:141
-msgid "Delete"
-msgstr "删除"

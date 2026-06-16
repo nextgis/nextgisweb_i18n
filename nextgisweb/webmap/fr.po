@@ -18,7 +18,7 @@ msgstr "Affichage"
 msgid "Fragment"
 msgstr "Fragment"
 
-#: model.py:46 model.py:64 view.py:222
+#: model.py:46 model.py:64 nodepkg/control-panel-plugin.tsx:9
 msgid "Web map"
 msgstr "Carte Web"
 
@@ -45,7 +45,7 @@ msgstr "Cloner"
 msgid "Resource group"
 msgstr "Groupe de ressources"
 
-#: nodepkg/clone-webmap/CloneWebmap.tsx:78 nodepkg/items-widget/ItemsWidget.tsx:30
+#: nodepkg/clone-webmap/CloneWebmap.tsx:78 nodepkg/items-widget/ItemsWidget.tsx:31
 msgid "Display name"
 msgstr "Afficher un nom"
 
@@ -75,11 +75,11 @@ msgstr "Désactiver"
 msgid "Open full map"
 msgstr "Ouvrir la carte complète"
 
-#: nodepkg/display/Display.ts:251
+#: nodepkg/display/Display.ts:285
 msgid "Object not found"
 msgstr "Objet non trouvé"
 
-#: nodepkg/display/Display.ts:252
+#: nodepkg/display/Display.ts:286
 msgid "Object from URL parameters not found"
 msgstr "Objet des paramètres d'URL non trouvé"
 
@@ -88,7 +88,7 @@ msgid "Radius:"
 msgstr ""
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:61
-#: nodepkg/utils/format-units.tsx:13
+#: nodepkg/utils/format-units.tsx:14
 msgid "m"
 msgstr "m"
 
@@ -97,7 +97,7 @@ msgid "Circle"
 msgstr "Cercle"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:88
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:147
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:128
 msgid "Line"
 msgstr "Doubler"
 
@@ -107,7 +107,7 @@ msgid "Rectangle"
 msgstr "Rectangle"
 
 #: nodepkg/filter-extent-btn/FilterExtentBtn.tsx:101
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:151
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:132
 #: nodepkg/utils/geometry-types.ts:18
 msgid "Polygon"
 msgstr "Polygone"
@@ -146,73 +146,73 @@ msgstr "Retour aux calques et aux groupes"
 
 #: nodepkg/items-widget/DrawOrder.tsx:26
 msgid "Use default draw order"
-msgstr "Utiliser l'ordre de tirage par défaut"
+msgstr "Utiliser l'ordre d'affichage par défaut"
 
-#: nodepkg/items-widget/Item.ts:107
+#: nodepkg/items-widget/Item.ts:112
 msgid "Group members have errors"
 msgstr "Les membres du groupe ont des erreurs"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:31
+#: nodepkg/items-widget/ItemsWidget.tsx:32
 msgid "Expanded"
 msgstr "Étendu"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:32
+#: nodepkg/items-widget/ItemsWidget.tsx:33
 msgid "Exclusive"
 msgstr "Exclusif"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:33
+#: nodepkg/items-widget/ItemsWidget.tsx:34
 msgid "Enabled"
 msgstr "Activé"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:34
+#: nodepkg/items-widget/ItemsWidget.tsx:35
 #: nodepkg/plugin/layer-identifiable/LayerIdentifiablePlugin.tsx:26
 msgid "Identifiable"
 msgstr "Identifiable"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:35
+#: nodepkg/items-widget/ItemsWidget.tsx:36
 msgid "Resource"
 msgstr "Ressource"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:36
+#: nodepkg/items-widget/ItemsWidget.tsx:37
 msgid "Transparency"
 msgstr "Transparence"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:37
+#: nodepkg/items-widget/ItemsWidget.tsx:38
 msgid "Min scale"
 msgstr "Échelle min"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:38
+#: nodepkg/items-widget/ItemsWidget.tsx:39
 msgid "Max scale"
 msgstr "Échelle max"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:39
+#: nodepkg/items-widget/ItemsWidget.tsx:40
 #: nodepkg/panel/print/component/PrintElementsSettings.tsx:25
 #: nodepkg/settings-widget/SettingsWidget.tsx:27
-#: nodepkg/settings/SettingsForm.tsx:230
+#: nodepkg/settings/SettingsForm.tsx:232
 msgid "Legend"
 msgstr "Légende"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:40
+#: nodepkg/items-widget/ItemsWidget.tsx:41
 msgid "Adapter"
 msgstr "Adaptateur"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:41
+#: nodepkg/items-widget/ItemsWidget.tsx:42
 msgid "Layer"
 msgstr "Couche"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:42
+#: nodepkg/items-widget/ItemsWidget.tsx:43
 msgid "Group"
 msgstr "Groupe"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:43
-msgid "Edit draw order"
-msgstr "Modifier l'ordre de tirage"
-
 #: nodepkg/items-widget/ItemsWidget.tsx:44
-msgid "Customize draw order"
-msgstr "Personnaliser l'ordre de tirage"
+msgid "Edit draw order"
+msgstr "Modifier l'ordre d'affichage"
 
-#: nodepkg/items-widget/ItemsWidget.tsx:231 nodepkg/panel/layers/plugin.tsx:11
+#: nodepkg/items-widget/ItemsWidget.tsx:45
+msgid "Customize draw order"
+msgstr "Personnaliser l'ordre d'affichage"
+
+#: nodepkg/items-widget/ItemsWidget.tsx:267 nodepkg/panel/layers/plugin.tsx:11
 msgid "Layers"
 msgstr "Couches"
 
@@ -220,24 +220,29 @@ msgstr "Couches"
 msgid "Opacity"
 msgstr "Opacité"
 
-#: nodepkg/layer/annotations/AnnotationFeature.ts:54
+#: nodepkg/layer/annotations/AnnotationFeature.ts:51
 msgid "Your annotation text"
 msgstr "Votre texte d'annotation"
 
-#: nodepkg/layer/annotations/AnnotationFeature.ts:184
+#: nodepkg/layer/annotations/AnnotationFeature.ts:167
 msgid "Public annotation"
 msgstr "Annotation publique"
 
-#: nodepkg/layer/annotations/AnnotationFeature.ts:186
+#: nodepkg/layer/annotations/AnnotationFeature.ts:169
 msgid "My private annotation"
 msgstr "Mes annotations personnelles"
+
+#: nodepkg/layer/annotations/AnnotationPopupContent.tsx:11
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:154
+msgid "Edit annotation"
+msgstr "Modifier l'annotation"
 
 #: nodepkg/layers-tree/FilterAction.tsx:12
 #: nodepkg/plugin/layer-filter/LayerFilterPlugin.tsx:28
 msgid "Filter"
 msgstr ""
 
-#: nodepkg/layers-tree/LayerTreeItemTitle.tsx:17
+#: nodepkg/layers-tree/LayerTreeItemTitle.tsx:18
 msgid ""
 "This layer is not visible at the current map scale. Zoom to make the layer "
 "visible."
@@ -276,12 +281,12 @@ msgid "Current zoom level"
 msgstr ""
 
 #: nodepkg/map-component/control/ZoomControl.tsx:81
-#: nodepkg/map-component/tool/ToolZoom.tsx:22 nodepkg/map-controls/map-tools.ts:12
+#: nodepkg/map-component/tool/ToolZoom.tsx:22 nodepkg/map-controls/map-tools.ts:10
 msgid "Zoom in"
 msgstr "Zoomer en avant"
 
 #: nodepkg/map-component/control/ZoomControl.tsx:82
-#: nodepkg/map-component/tool/ToolZoom.tsx:22 nodepkg/map-controls/map-tools.ts:22
+#: nodepkg/map-component/tool/ToolZoom.tsx:22 nodepkg/map-controls/map-tools.ts:20
 msgid "Zoom out"
 msgstr "Zoomer en arrière"
 
@@ -289,13 +294,19 @@ msgstr "Zoomer en arrière"
 msgid "Back to the initial extent"
 msgstr "Retour à l'étendue initiale"
 
-#: nodepkg/map-component/tool/ToolMeasure/ToolMeasure.tsx:69
-#: nodepkg/map-controls/map-tools.ts:42
+#: nodepkg/map-component/hook/useNGWLayer.tsx:30
+#: nodepkg/panel/identify/component/RasterInfoSection.tsx:14
+#, python-brace-format
+msgid "Band {}"
+msgstr "Groupe {}"
+
+#: nodepkg/map-component/tool/ToolMeasure/ToolMeasure.tsx:67
+#: nodepkg/map-controls/map-tools.ts:40
 msgid "Measure distance"
 msgstr "Mesurer la distance"
 
-#: nodepkg/map-component/tool/ToolMeasure/ToolMeasure.tsx:70
-#: nodepkg/map-controls/map-tools.ts:52
+#: nodepkg/map-component/tool/ToolMeasure/ToolMeasure.tsx:68
+#: nodepkg/map-controls/map-tools.ts:50
 msgid "Measure area"
 msgstr "Zone de mesure"
 
@@ -328,7 +339,7 @@ msgid "Layer is not visible"
 msgstr ""
 
 #: nodepkg/map-component/tool/ToolSwipe/ToolSwipe.tsx:46
-#: nodepkg/map-controls/map-tools.ts:32
+#: nodepkg/map-controls/map-tools.ts:30
 msgid "Vertical swipe"
 msgstr "Swipe verticale"
 
@@ -366,80 +377,76 @@ msgid "Locate me"
 msgstr "Localisez-moi"
 
 #: nodepkg/map-controls/map-controls.ts:111
-#: nodepkg/map-controls/map-controls.ts:116 nodepkg/settings/SettingsForm.tsx:80
-#: option/base.py:42
+#: nodepkg/map-controls/map-controls.ts:116 nodepkg/settings/SettingsForm.tsx:81
+#: option/base.py:40
 msgid "Identification"
 msgstr "Identification"
 
-#: nodepkg/map-controls/map-tools.ts:62
+#: nodepkg/map-controls/map-tools.ts:60
 msgid "Cursor coordinates / extent"
 msgstr "Coordonnées / étendue du curseur"
 
-#: nodepkg/map-controls/map-tools.ts:72
-msgid "Editor"
-msgstr ""
-
-#: nodepkg/map-viewer-info/MapViewerInfo.tsx:88
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:89
 msgid "Show extent"
 msgstr "Afficher l'étendue"
 
-#: nodepkg/map-viewer-info/MapViewerInfo.tsx:89
+#: nodepkg/map-viewer-info/MapViewerInfo.tsx:90
 msgid "Show cursor coordinates"
 msgstr "Afficher les coordonnées du curseur"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:112
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:93
 msgid "Show annotations"
 msgstr "Afficher les annotations"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:118
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:99
 #: nodepkg/settings-widget/OptionsWidget.tsx:37
 msgid "No"
 msgstr "Non"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:119
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:100
 #: nodepkg/settings-widget/OptionsWidget.tsx:36
 msgid "Yes"
 msgstr "Oui"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:122
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:103
 msgid "With messages"
 msgstr "Avec des messages"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:130
-#: nodepkg/plugin/layer-editor/LayerEditor.tsx:65
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:111
+#: nodepkg/plugin/layer-editor/LayerEditor.tsx:54
 msgid "Edit"
 msgstr "Modifier"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:133
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:114
 msgid "Edit annotations"
 msgstr "Modifier les annotations"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:137
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:118
 msgid "Geometry type"
 msgstr "Type de géométrie"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:144
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:125
 #: nodepkg/utils/geometry-types.ts:9
 msgid "Point"
 msgstr "Indiquer"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:159
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:140
 msgid "Private annotations"
 msgstr "Annotations privées"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:167
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:148
 msgid "Public annotations"
 msgstr "Annotations publiques"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:178
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:159
 msgid "My private annotations"
 msgstr "Mes annotations personnelles"
 
-#: nodepkg/panel/annotations/AnnotationsPanel.tsx:190
+#: nodepkg/panel/annotations/AnnotationsPanel.tsx:171
 msgid "Other private annotations"
 msgstr "Autres annotations privées"
 
-#: nodepkg/panel/annotations/plugin.tsx:14
+#: nodepkg/panel/annotations/plugin.tsx:16
 #: nodepkg/settings-widget/SettingsWidget.tsx:28
 msgid "Annotations"
 msgstr "Annotations"
@@ -458,15 +465,27 @@ msgstr ""
 msgid "Description"
 msgstr "Description"
 
-#: nodepkg/panel/editWebmap/plugin.tsx:24
+#: nodepkg/panel/editWebmap/SaveWebmapButton.tsx:26
+msgid "No layer changes to save"
+msgstr ""
+
+#: nodepkg/panel/editWebmap/SaveWebmapButton.tsx:45
+msgid "Layers configuration saved"
+msgstr ""
+
+#: nodepkg/panel/editWebmap/plugin.tsx:33
 msgid "Edit web map"
 msgstr ""
 
-#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:177
+#: nodepkg/panel/editWebmap/plugin.tsx:46
+msgid "Save layers configuration"
+msgstr ""
+
+#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:176
 msgid "Zoom to identification point"
 msgstr "Zoom sur le point d'identification"
 
-#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:188
+#: nodepkg/panel/identify/CoordinatesSwitcher.tsx:187
 msgid "Copy identification point coordinates"
 msgstr "Copier les coordonnées du point d'identification"
 
@@ -491,11 +510,11 @@ msgstr "Récupération des informations sur l'objet..."
 msgid "No objects were found at the click location."
 msgstr "Aucun objet n'a été trouvé à l'endroit du clic."
 
-#: nodepkg/panel/identify/KeyValueTable.tsx:14
+#: nodepkg/panel/identify/KeyValueTable.tsx:16
 msgid "Attribute"
 msgstr "Attribut"
 
-#: nodepkg/panel/identify/KeyValueTable.tsx:19
+#: nodepkg/panel/identify/KeyValueTable.tsx:26
 msgid "Value"
 msgstr "Valeur"
 
@@ -511,15 +530,11 @@ msgstr "Géométrie"
 msgid "Zoom to feature"
 msgstr "Zoom sur la fonctionnalité"
 
-#: nodepkg/panel/identify/component/RasterInfoSection.tsx:14
-msgid "Band {}"
-msgstr "Groupe {}"
-
 #: nodepkg/panel/identify/component/RasterInfoSection.tsx:26
 msgid "Raster"
 msgstr "Trame"
 
-#: nodepkg/panel/identify/fields.tsx:112
+#: nodepkg/panel/identify/fields.tsx:115
 msgid "N/A"
 msgstr "N / A"
 
@@ -527,17 +542,40 @@ msgstr "N / A"
 msgid "Identify"
 msgstr "Identifier"
 
-#: nodepkg/panel/layers/LayersDropdown.tsx:59
+#: nodepkg/panel/layers/LayersDropdown.tsx:87
 msgid "Zoom to all layers"
 msgstr "Zoom sur tous les calques"
 
-#: nodepkg/panel/layers/LayersDropdown.tsx:65
+#: nodepkg/panel/layers/LayersDropdown.tsx:93
 msgid "Hide all layers"
 msgstr ""
 
-#: nodepkg/panel/layers/LayersDropdown.tsx:72
+#: nodepkg/panel/layers/LayersDropdown.tsx:101
 msgid "Reset layers"
 msgstr ""
+
+#: nodepkg/panel/layers/LayersDropdown.tsx:112
+msgid "Add layers"
+msgstr ""
+
+#: nodepkg/panel/layers/useAddItem.tsx:16
+msgid "New group"
+msgstr ""
+
+#: nodepkg/panel/layers/useAddItem.tsx:114
+msgid "Add group"
+msgstr ""
+
+#: nodepkg/panel/layers/useAddItem.tsx:115
+msgid "Add"
+msgstr ""
+
+#: nodepkg/panel/layers/useAddItem.tsx:116
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:177
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:184
+#: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:59
+msgid "Cancel"
+msgstr "Annuler"
 
 #: nodepkg/panel/print/PrintMapExport/PrintMapExport.tsx:145
 msgid "Print"
@@ -637,15 +675,15 @@ msgstr "PDF"
 msgid "Print map"
 msgstr "Imprimer la carte"
 
-#: nodepkg/panel/search/SearchPanel.tsx:358
+#: nodepkg/panel/search/SearchPanel.tsx:359
 msgid "Enter at least 2 characters"
 msgstr "Entrez au moins 2 caractères"
 
-#: nodepkg/panel/search/SearchPanel.tsx:457
+#: nodepkg/panel/search/SearchPanel.tsx:458
 msgid "Not found"
 msgstr "Pas trouvé"
 
-#: nodepkg/panel/search/SearchPanel.tsx:461
+#: nodepkg/panel/search/SearchPanel.tsx:462
 msgid "Refine search criterion. Displayed first 100 search results."
 msgstr "Affiner les critères de recherche. Les 100 premiers résultats sont affichés."
 
@@ -715,7 +753,7 @@ msgstr "px"
 msgid "Map tools"
 msgstr "Outils cartographiques"
 
-#: nodepkg/panel/share/SharePanel.tsx:400 option/base.py:32
+#: nodepkg/panel/share/SharePanel.tsx:400 option/base.py:30
 msgid "Panels"
 msgstr "Panneaux"
 
@@ -755,7 +793,7 @@ msgstr "Table des entités"
 msgid "Undo the last change"
 msgstr ""
 
-#: nodepkg/plugin/layer-editor/LayerEditor.tsx:65
+#: nodepkg/plugin/layer-editor/LayerEditor.tsx:54
 #: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:32
 msgid "Stop editing"
 msgstr "Arrêter l'édition"
@@ -769,10 +807,11 @@ msgid "Enable snapping"
 msgstr ""
 
 #: nodepkg/plugin/layer-editor/ToolEditor.tsx:189
+#, python-brace-format
 msgid "Stop editing layer: {layer}"
 msgstr ""
 
-#: nodepkg/plugin/layer-editor/modes/AttributeMode.tsx:120
+#: nodepkg/plugin/layer-editor/modes/AttributeMode.tsx:121
 msgid "Edit attributes"
 msgstr ""
 
@@ -781,12 +820,12 @@ msgid "Delete all"
 msgstr ""
 
 #: nodepkg/plugin/layer-editor/modes/DeleteMode.tsx:70
-#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:153
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:175
 msgid "Delete"
 msgstr "Effacer"
 
 #: nodepkg/plugin/layer-editor/modes/DrawMode.tsx:117
-#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:164
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:186
 msgid "Create"
 msgstr "Créer"
 
@@ -804,6 +843,31 @@ msgstr ""
 
 #: nodepkg/plugin/layer-editor/modes/MoveMode.tsx:87
 msgid "Move"
+msgstr ""
+
+#: nodepkg/plugin/layer-properties/LayerPropertiesModal.tsx:20
+#: nodepkg/plugin/layer-properties/LayerPropertiesPlugin.tsx:24
+msgid "Layer properties"
+msgstr ""
+
+#: nodepkg/plugin/layer-properties/LayerPropertiesModal.tsx:21
+msgid "Use current map scale"
+msgstr ""
+
+#: nodepkg/plugin/layer-remove/LayerRemovePlugin.tsx:15
+msgid "Remove layer"
+msgstr ""
+
+#: nodepkg/plugin/layer-resource-editor/LayerResourceEditor.tsx:23
+msgid "Edit layer resource"
+msgstr ""
+
+#: nodepkg/plugin/layer-resource-editor/LayerResourceEditor.tsx:24
+msgid "Edit resource"
+msgstr ""
+
+#: nodepkg/plugin/style-resource-editor/StyleResourceEditor.tsx:30
+msgid "Edit style resource"
 msgstr ""
 
 #: nodepkg/plugin/zoom-to-layer/ZoomToLayerPlugin.tsx:19
@@ -828,7 +892,7 @@ msgstr ""
 "Pour générer un aperçu, revenez à la page de la carte Web et cliquez sur « "
 "Aperçu »."
 
-#: nodepkg/resource-action-plugin.tsx:44 view.py:102
+#: nodepkg/resource-action-plugin.tsx:44 view.py:101
 msgid "Clone web map"
 msgstr "Cloner une carte Web"
 
@@ -849,7 +913,7 @@ msgid "Select resource"
 msgstr "Sélectionner une ressource"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:32
-#: nodepkg/settings/SettingsForm.tsx:151
+#: nodepkg/settings/SettingsForm.tsx:152
 msgid "Measurement SRS"
 msgstr "Mesure SRS"
 
@@ -886,7 +950,7 @@ msgid "Show with messages"
 msgstr "Afficher avec des messages"
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:52
-#: nodepkg/settings/SettingsForm.tsx:170
+#: nodepkg/settings/SettingsForm.tsx:171
 msgid "Enable"
 msgstr "Permettre"
 
@@ -902,72 +966,76 @@ msgstr ""
 msgid "Settings saved"
 msgstr "Paramètres enregistrés"
 
-#: nodepkg/settings/SettingsForm.tsx:65
+#: nodepkg/settings/SettingsForm.tsx:66
 msgid "General"
 msgstr "Général"
 
-#: nodepkg/settings/SettingsForm.tsx:74
+#: nodepkg/settings/SettingsForm.tsx:75
 msgid "Hide navigation menu for guest"
 msgstr "Masquer le menu de navigation pour les invités"
 
-#: nodepkg/settings/SettingsForm.tsx:93
+#: nodepkg/settings/SettingsForm.tsx:94
 msgid "Show feature attributes"
 msgstr "Afficher les attributs d'entité"
 
-#: nodepkg/settings/SettingsForm.tsx:107
+#: nodepkg/settings/SettingsForm.tsx:108
 msgid "Show geometry info"
 msgstr "Afficher les informations géométriques"
 
-#: nodepkg/settings/SettingsForm.tsx:117
+#: nodepkg/settings/SettingsForm.tsx:118
 msgid "Radius, px"
 msgstr "Rayon, px"
 
-#: nodepkg/settings/SettingsForm.tsx:129
+#: nodepkg/settings/SettingsForm.tsx:130
 msgid "Measurement"
 msgstr "Mesure"
 
-#: nodepkg/settings/SettingsForm.tsx:133
+#: nodepkg/settings/SettingsForm.tsx:134
 msgid "Length units"
 msgstr "Unités de longueur"
 
-#: nodepkg/settings/SettingsForm.tsx:138
+#: nodepkg/settings/SettingsForm.tsx:139
 msgid "Area units"
 msgstr "Unités de surface"
 
-#: nodepkg/settings/SettingsForm.tsx:143
+#: nodepkg/settings/SettingsForm.tsx:144
 msgid "Degree format"
 msgstr "Format de degrés"
 
-#: nodepkg/settings/SettingsForm.tsx:157
+#: nodepkg/settings/SettingsForm.tsx:158
 msgid "Address search"
 msgstr "Recherche d'adresse"
 
-#: nodepkg/settings/SettingsForm.tsx:184
+#: nodepkg/settings/SettingsForm.tsx:185
 msgid "Limit by web map initial extent"
 msgstr "Limite par étendue initiale de la carte Web"
 
-#: nodepkg/settings/SettingsForm.tsx:192
+#: nodepkg/settings/SettingsForm.tsx:193
 msgid "Provider"
 msgstr "Fournisseur"
 
-#: nodepkg/settings/SettingsForm.tsx:203
+#: nodepkg/settings/SettingsForm.tsx:204
 msgid "Limit search results to countries"
 msgstr "Limiter les résultats de recherche aux pays"
 
-#: nodepkg/settings/SettingsForm.tsx:211
+#: nodepkg/settings/SettingsForm.tsx:212
 msgid "Invalid countries. For example ru or gb,de"
 msgstr "Pays invalides. Par exemple ru ou gb,de"
 
-#: nodepkg/settings/SettingsForm.tsx:222
+#: nodepkg/settings/SettingsForm.tsx:223
 msgid "Yandex.Maps API Geocoder Key"
 msgstr "Yandex.Maps API Geocoder Key"
 
-#: nodepkg/settings/SettingsForm.tsx:241
+#: nodepkg/settings/SettingsForm.tsx:224
+msgid "API key is required"
+msgstr ""
+
+#: nodepkg/settings/SettingsForm.tsx:243
 msgid "Visibility"
 msgstr "Visibilité"
 
-#: nodepkg/settings/SettingsForm.tsx:262
-#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:157
+#: nodepkg/settings/SettingsForm.tsx:264
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:179
 #: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:62
 msgid "Save"
 msgstr "Enregistrer"
@@ -1048,27 +1116,21 @@ msgstr "Nominatim (OSM)"
 msgid "Yandex.Maps API Geocoder"
 msgstr "Yandex.Maps API Geocoder"
 
-#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:119
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:17
+msgid "Are you sure you want to delete this annotation? This action cannot be undone."
+msgstr ""
+
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:139
 msgid "Create as public"
 msgstr "Créer en tant que public"
 
-#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:126
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:146
 msgid "Create as private"
 msgstr "Créer en tant que privé"
 
-#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:134
-msgid "Edit annotation"
-msgstr "Modifier l'annotation"
-
-#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:135
+#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:155
 msgid "Create annotation"
 msgstr "Créer une annotation"
-
-#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:155
-#: nodepkg/ui/annotation-dialog/AnnotationsModal.tsx:162
-#: nodepkg/ui/finish-editing-dialog/FinishEditingDialog.tsx:59
-msgid "Cancel"
-msgstr "Annuler"
 
 #: nodepkg/ui/annotation-dialog/AnnotationsSettings.tsx:56
 msgid "Stroke: width / color"
@@ -1095,23 +1157,23 @@ msgstr "Voulez-vous enregistrer les modifications ?"
 msgid "Don't save"
 msgstr "Ne pas enregistrer"
 
-#: nodepkg/utils/format-units.tsx:14
+#: nodepkg/utils/format-units.tsx:15
 msgid "km"
 msgstr "km"
 
-#: nodepkg/utils/format-units.tsx:15
+#: nodepkg/utils/format-units.tsx:16
 msgid "ft"
 msgstr "ft"
 
-#: nodepkg/utils/format-units.tsx:16
+#: nodepkg/utils/format-units.tsx:17
 msgid "mi"
 msgstr "mi"
 
-#: nodepkg/utils/format-units.tsx:17
+#: nodepkg/utils/format-units.tsx:18
 msgid "ha"
 msgstr "ha"
 
-#: nodepkg/utils/format-units.tsx:18
+#: nodepkg/utils/format-units.tsx:19
 msgid "ac"
 msgstr "ac"
 
@@ -1139,11 +1201,11 @@ msgstr "MultiPolygon"
 msgid "GeometryCollection"
 msgstr "Collection Géométrie"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:26
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:28
 msgid "Go to"
 msgstr "Aller à"
 
-#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:151
+#: nodepkg/webmap-feature-grid-tab/WebMapFeatureGridTab.tsx:154
 msgid "Selected feature has no geometry"
 msgstr "L'entité sélectionnée n'a pas de géométrie"
 
@@ -1167,28 +1229,30 @@ msgstr "Informations sur la géométrie"
 msgid "Request multiplexing"
 msgstr ""
 
-#: option/base.py:37
+#: option/base.py:35
 msgid "Tools"
 msgstr "Outils"
 
-#: option/base.py:47
+#: option/base.py:45
 msgid "Miscellaneous"
 msgstr "Divers"
 
 #: template/invalid_origin.mako:3
+#, python-format
 msgid "Web map embedding is not allowed for %s in the Web GIS settings."
 msgstr ""
 "L'intégration de cartes Web n'est pas autorisée pour %s dans les paramètres "
 "SIG Web."
 
 #: template/invalid_origin.mako:5
+#, python-format
 msgid "View the map on %s"
 msgstr ""
 
-#: view.py:114
+#: view.py:113
 msgid "Embedded webmap preview"
 msgstr "Aperçu de la carte web intégrée"
 
-#: view.py:125
+#: view.py:124
 msgid "Web map settings"
 msgstr "Paramètres de carte Web"

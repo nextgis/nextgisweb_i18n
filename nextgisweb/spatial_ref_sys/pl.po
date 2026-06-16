@@ -14,7 +14,7 @@ msgstr "Atrybuty autorytetu SRS muszą być zdefiniowane podczas importu z katal
 msgid "SRS #{} already exists."
 msgstr "Układ odniesienia SRS #{} już istnieje."
 
-#: model.py:69 model.py:70 view.py:19 view.py:110
+#: model.py:69 model.py:70 nodepkg/control-panel-plugin.tsx:33 view.py:18
 msgid "Spatial reference systems"
 msgstr "System odniesienia przestrzennego"
 
@@ -61,6 +61,18 @@ msgstr "Definicja OGC WKT"
 msgid "View details"
 msgstr "Zobacz szczegóły"
 
+#: nodepkg/control-panel-plugin.tsx:39
+msgid "List"
+msgstr "Lista"
+
+#: nodepkg/control-panel-plugin.tsx:48
+msgid "Catalog"
+msgstr "Katalog"
+
+#: nodepkg/control-panel-plugin.tsx:57
+msgid "Create"
+msgstr "Stwórz"
+
 #: nodepkg/srs-browse/SrsBrowse.tsx:25
 msgid "Import from catalog"
 msgstr "Pobierz z katalogu"
@@ -93,34 +105,14 @@ msgstr "Nieprawidłowy system odniesienia przestrzennego MapInfo: %s"
 msgid "Unknown spatial reference system format: %s!"
 msgstr "Nieznany format odniesienia przestrzennego: %s!"
 
-#: view.py:30
+#: view.py:28
 msgid "Create new Spatial reference system"
 msgstr "Stwórz nowy system odniesienia przestrzennego"
 
-#: view.py:53
+#: view.py:49
 msgid "Spatial reference system catalog"
 msgstr "Katalog systemów odniesienia przestrzennego"
 
-#: view.py:66
+#: view.py:61
 msgid "Spatial reference system"
 msgstr "System odniesienia przestrzennego"
-
-#: view.py:114
-msgid "List"
-msgstr "Lista"
-
-#: view.py:121
-msgid "Create"
-msgstr "Stwórz"
-
-#: view.py:127
-msgid "Catalog"
-msgstr "Katalog"
-
-#: view.py:134
-msgid "Edit"
-msgstr "Edytuj"
-
-#: view.py:141
-msgid "Delete"
-msgstr "Usuń"

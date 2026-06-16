@@ -16,7 +16,7 @@ msgstr ""
 msgid "SRS #{} already exists."
 msgstr "КС #{} вече съществува."
 
-#: model.py:69 model.py:70 view.py:19 view.py:110
+#: model.py:69 model.py:70 nodepkg/control-panel-plugin.tsx:33 view.py:18
 msgid "Spatial reference systems"
 msgstr "Координатни системи"
 
@@ -63,6 +63,18 @@ msgstr "OGC WKT определение"
 msgid "View details"
 msgstr "Покажи детайлите"
 
+#: nodepkg/control-panel-plugin.tsx:39
+msgid "List"
+msgstr "Списък"
+
+#: nodepkg/control-panel-plugin.tsx:48
+msgid "Catalog"
+msgstr "Каталог"
+
+#: nodepkg/control-panel-plugin.tsx:57
+msgid "Create"
+msgstr "Създай"
+
 #: nodepkg/srs-browse/SrsBrowse.tsx:25
 msgid "Import from catalog"
 msgstr "Добави от каталога"
@@ -95,34 +107,14 @@ msgstr "Невалидна координатна система MapInfo: %s"
 msgid "Unknown spatial reference system format: %s!"
 msgstr "Грешен формат на координатна система: %s!"
 
-#: view.py:30
+#: view.py:28
 msgid "Create new Spatial reference system"
 msgstr "Създай нова Координатна система"
 
-#: view.py:53
+#: view.py:49
 msgid "Spatial reference system catalog"
 msgstr "Каталог на координатни системи"
 
-#: view.py:66
+#: view.py:61
 msgid "Spatial reference system"
 msgstr "Координатна система"
-
-#: view.py:114
-msgid "List"
-msgstr "Списък"
-
-#: view.py:121
-msgid "Create"
-msgstr "Създай"
-
-#: view.py:127
-msgid "Catalog"
-msgstr "Каталог"
-
-#: view.py:134
-msgid "Edit"
-msgstr "Редактирай"
-
-#: view.py:141
-msgid "Delete"
-msgstr "Изтрий"

@@ -1,4 +1,4 @@
-#: api.py:84 api.py:158
+#: api.py:82
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
@@ -6,15 +6,11 @@ msgstr ""
 "Niestety, nie możesz dodać nowego kolektora. Twój limit użytkowników "
 "kolektorów w Web GIS to"
 
-#: api.py:116
+#: api.py:114
 msgid "User with email '{}' already exists. Email addresses are case-insensitive."
 msgstr ""
 
-#: api.py:166
-msgid "User with email '{}' already exists."
-msgstr ""
-
-#: models/model_db.py:101
+#: model.py:87
 msgid "Collector project"
 msgstr "Projekt zbierania danych Collector"
 
@@ -32,7 +28,7 @@ msgid "Project"
 msgstr "Projekt"
 
 #: nodepkg/collector-setup/CollectorSetupWidget.tsx:53
-#: nodepkg/resource-items/ItemsWidget.tsx:252
+#: nodepkg/resource-items/ItemsWidget.tsx:248
 msgid "Items"
 msgstr "Elementy"
 
@@ -45,79 +41,83 @@ msgstr "Lista kolektorów"
 msgid "Create project"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:73
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:74
 msgid "Contact Web GIS administrator to change the list of collectors"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:145
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:164
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:146
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:165
 #: nodepkg/userMessages.ts:12
 msgid "Collector deleted"
 msgstr "Kolektor usunięty"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:201
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:25
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:202
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:26
 msgid "NextGIS ID"
 msgstr "NextGIS ID"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:207
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:37
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:208
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:38
 msgid "Description"
 msgstr "Opis kolektora"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:213
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:214
 msgid "Added"
 msgstr "Dodane"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:235
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:236
 msgid "Edit"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:243
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:244
 msgid "Delete"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:278
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:279
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr "Nie możesz dodać nowego kolektora. Twój limit użytkowników kolektorów"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:328
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:329
 msgid "Create"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:350 view.py:74
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351
 msgid "Create new collector"
 msgstr "Stwórz nowy kolektor"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351 view.py:81
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:352
 msgid "Edit collector"
 msgstr "Edytuj kolektor"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:366
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:367
 msgid "Delete selected collectors?"
 msgstr ""
 
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:31
 msgid "The value entered is not valid"
 msgstr "Wprowadzona wartość jest nieprawidłowa"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:13
 msgid "Collector users:"
 msgstr "Użytkownicy kolektora:"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:13
 msgid "out of"
 msgstr "z"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:20
 msgid "Each collector must have "
 msgstr "Każdy kolektor musi mieć "
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:21
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:21
 msgid "NextGIS ID account"
 msgstr "Konto NextGIS ID"
 
-#: nodepkg/resource-action-plugin.tsx:11 view.py:90
+#: nodepkg/control-panel-plugin.tsx:9
+msgid "Collector projects"
+msgstr "Projekty kolektora"
+
+#: nodepkg/resource-action-plugin.tsx:11 view.py:46
 msgid "Set up Collector project"
 msgstr ""
 
@@ -125,55 +125,55 @@ msgstr ""
 msgid "Group members have errors"
 msgstr "Członkowie grupy mają błędy"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:27
+#: nodepkg/resource-items/ItemsWidget.tsx:26
 msgid "Display name"
 msgstr "Nazwa wyświetlana"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:28
+#: nodepkg/resource-items/ItemsWidget.tsx:27
 msgid "Expanded"
 msgstr "Rozwinięta"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:29
+#: nodepkg/resource-items/ItemsWidget.tsx:28
 msgid "Editable"
 msgstr "Edytowalny"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:30
+#: nodepkg/resource-items/ItemsWidget.tsx:29
 msgid "Visible"
 msgstr "Widoczność"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:31
+#: nodepkg/resource-items/ItemsWidget.tsx:30
 msgid "Syncable"
 msgstr "Możliwy do synchronizacji"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:32
+#: nodepkg/resource-items/ItemsWidget.tsx:31
 msgid "Lifetime for tiles (in min)"
 msgstr "Czas życia kafelków (w minutach)"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:33
+#: nodepkg/resource-items/ItemsWidget.tsx:32
 msgid "Resource"
 msgstr "Źródło"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:34
+#: nodepkg/resource-items/ItemsWidget.tsx:33
 msgid "Zoom level visibility"
 msgstr "Widoczność poziomu powiększenia"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:35
+#: nodepkg/resource-items/ItemsWidget.tsx:34
 msgid "Min zoom"
 msgstr "Minimalne powiększenie"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:36
+#: nodepkg/resource-items/ItemsWidget.tsx:35
 msgid "Max zoom"
 msgstr "Maksymalne powiększenie"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:37
+#: nodepkg/resource-items/ItemsWidget.tsx:36
 msgid "Item"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:38
+#: nodepkg/resource-items/ItemsWidget.tsx:37
 msgid "Form, layer or style"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:39
+#: nodepkg/resource-items/ItemsWidget.tsx:38
 msgid "Group"
 msgstr "Grupa"
 
@@ -262,10 +262,6 @@ msgstr ""
 msgid "Uncheck the box to remove the collector from the current project only."
 msgstr ""
 
-#: view.py:62
+#: view.py:38
 msgid "List of collectors"
 msgstr "Lista kolektorów"
-
-#: view.py:146
-msgid "Collector projects"
-msgstr "Projekty kolektora"

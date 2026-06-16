@@ -1,18 +1,14 @@
-#: api.py:84 api.py:158
+#: api.py:82
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
 msgstr "很遗憾，您不能添加新的参与者。在Web GIS 中，您的参与者用户上限是"
 
-#: api.py:116
+#: api.py:114
 msgid "User with email '{}' already exists. Email addresses are case-insensitive."
 msgstr ""
 
-#: api.py:166
-msgid "User with email '{}' already exists."
-msgstr ""
-
-#: models/model_db.py:101
+#: model.py:87
 msgid "Collector project"
 msgstr "收集器方案"
 
@@ -30,7 +26,7 @@ msgid "Project"
 msgstr "项目"
 
 #: nodepkg/collector-setup/CollectorSetupWidget.tsx:53
-#: nodepkg/resource-items/ItemsWidget.tsx:252
+#: nodepkg/resource-items/ItemsWidget.tsx:248
 msgid "Items"
 msgstr "（选）项"
 
@@ -43,79 +39,83 @@ msgstr "参与者"
 msgid "Create project"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:73
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:74
 msgid "Contact Web GIS administrator to change the list of collectors"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:145
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:164
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:146
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:165
 #: nodepkg/userMessages.ts:12
 msgid "Collector deleted"
 msgstr "参与者已删除"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:201
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:25
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:202
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:26
 msgid "NextGIS ID"
 msgstr "NextGIS ID"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:207
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:37
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:208
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:38
 msgid "Description"
 msgstr "说明"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:213
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:214
 msgid "Added"
 msgstr "已添加"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:235
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:236
 msgid "Edit"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:243
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:244
 msgid "Delete"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:278
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:279
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr "您不能添加新的参与者。您的参与者用户上限"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:328
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:329
 msgid "Create"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:350 view.py:74
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351
 msgid "Create new collector"
 msgstr "创建一个新的参与者"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351 view.py:81
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:352
 msgid "Edit collector"
 msgstr "更换参与者"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:366
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:367
 msgid "Delete selected collectors?"
 msgstr ""
 
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:31
 msgid "The value entered is not valid"
 msgstr "输入的值无效"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:13
 msgid "Collector users:"
 msgstr "参与者用户数量"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:13
 msgid "out of"
 msgstr "超出...."
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:20
 msgid "Each collector must have "
 msgstr "每一个参与者应该有......"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:21
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:21
 msgid "NextGIS ID account"
 msgstr "NextGIS ID 账户"
 
-#: nodepkg/resource-action-plugin.tsx:11 view.py:90
+#: nodepkg/control-panel-plugin.tsx:9
+msgid "Collector projects"
+msgstr "收集器方案"
+
+#: nodepkg/resource-action-plugin.tsx:11 view.py:46
 msgid "Set up Collector project"
 msgstr ""
 
@@ -123,55 +123,55 @@ msgstr ""
 msgid "Group members have errors"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:27
+#: nodepkg/resource-items/ItemsWidget.tsx:26
 msgid "Display name"
 msgstr "显示名称"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:28
+#: nodepkg/resource-items/ItemsWidget.tsx:27
 msgid "Expanded"
 msgstr "已扩展"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:29
+#: nodepkg/resource-items/ItemsWidget.tsx:28
 msgid "Editable"
 msgstr "可编辑的"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:30
+#: nodepkg/resource-items/ItemsWidget.tsx:29
 msgid "Visible"
 msgstr "可视的"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:31
+#: nodepkg/resource-items/ItemsWidget.tsx:30
 msgid "Syncable"
 msgstr "可同步的"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:32
+#: nodepkg/resource-items/ItemsWidget.tsx:31
 msgid "Lifetime for tiles (in min)"
 msgstr "瓦片寿命（按分钟计算）"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:33
+#: nodepkg/resource-items/ItemsWidget.tsx:32
 msgid "Resource"
 msgstr "资源"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:34
+#: nodepkg/resource-items/ItemsWidget.tsx:33
 msgid "Zoom level visibility"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:35
+#: nodepkg/resource-items/ItemsWidget.tsx:34
 msgid "Min zoom"
 msgstr "最小缩放"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:36
+#: nodepkg/resource-items/ItemsWidget.tsx:35
 msgid "Max zoom"
 msgstr "最大缩放"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:37
+#: nodepkg/resource-items/ItemsWidget.tsx:36
 msgid "Item"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:38
+#: nodepkg/resource-items/ItemsWidget.tsx:37
 msgid "Form, layer or style"
 msgstr ""
 
-#: nodepkg/resource-items/ItemsWidget.tsx:39
+#: nodepkg/resource-items/ItemsWidget.tsx:38
 msgid "Group"
 msgstr ""
 
@@ -256,10 +256,6 @@ msgstr ""
 msgid "Uncheck the box to remove the collector from the current project only."
 msgstr ""
 
-#: view.py:62
+#: view.py:38
 msgid "List of collectors"
 msgstr "参与者目录"
-
-#: view.py:146
-msgid "Collector projects"
-msgstr "收集器方案"

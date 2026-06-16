@@ -1,40 +1,32 @@
-#: model.py:34 nodepkg/editor/EditorWidget.tsx:171
-#, jsrealm, server
+#: model.py:34 nodepkg/editor/EditorWidget.tsx:201
 msgid "Lookup table"
 msgstr "Tabela wyszukiwania"
 
-#: nodepkg/component/lookup-select/LookupSelect.tsx:48
-#, jsrealm
+#: nodepkg/component/lookup-select/LookupSelect.tsx:78
 msgid "Loading..."
 msgstr "Ładowanie..."
 
-#: nodepkg/editor/EditorWidget.tsx:31
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:28
 msgid "Export"
 msgstr "Eksportuj"
 
-#: nodepkg/editor/EditorWidget.tsx:32
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:29
 msgid "Import"
 msgstr "Importuj"
 
-#: nodepkg/editor/EditorWidget.tsx:33
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:30
 msgid "Sort order"
 msgstr "Kolejność sortowania"
 
-#: nodepkg/editor/EditorWidget.tsx:34
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:31
 msgid "Resort rows"
 msgstr "Przefiltruj wiersze"
 
-#: nodepkg/editor/EditorWidget.tsx:35
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:32
 msgid "Clear"
 msgstr "Wyczyść"
 
-#: nodepkg/editor/EditorWidget.tsx:38
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:33
 msgid ""
 "All existing records will be deleted after import. Are you sure you want to "
 "proceed?"
@@ -42,44 +34,42 @@ msgstr ""
 "Wszystkie istniejące rekordy zostaną usunięte po imporcie. Czy na pewno "
 "chcesz kontynuować?"
 
-#: nodepkg/editor/EditorWidget.tsx:45
+#: nodepkg/editor/EditorWidget.tsx:34
+msgid "All progress will be lost. Are you sure you want to cancel import?"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:41 nodepkg/editor/EditorWidget.tsx:67
+#: nodepkg/editor/EditorWidget.tsx:68 nodepkg/editor/EditorWidget.tsx:88
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:23
-#, jsrealm
 msgid "Key"
 msgstr "Klucz"
 
-#: nodepkg/editor/EditorWidget.tsx:51
+#: nodepkg/editor/EditorWidget.tsx:47 nodepkg/editor/EditorWidget.tsx:72
+#: nodepkg/editor/EditorWidget.tsx:73 nodepkg/editor/EditorWidget.tsx:88
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:30
-#, jsrealm
 msgid "Value"
 msgstr "Wartość"
 
-#: nodepkg/editor/EditorWidget.tsx:61
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:57
 msgid "Key, ascending"
 msgstr "Klucz, rosnąco"
 
-#: nodepkg/editor/EditorWidget.tsx:62
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:58
 msgid "Key, descending"
 msgstr "Klucz, malejąco"
 
-#: nodepkg/editor/EditorWidget.tsx:63
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:59
 msgid "Value, ascending"
 msgstr "Wartość, rosnąco"
 
-#: nodepkg/editor/EditorWidget.tsx:64
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:60
 msgid "Value, descending"
 msgstr "Wartość, malejąco"
 
-#: nodepkg/editor/EditorWidget.tsx:65
-#, jsrealm
+#: nodepkg/editor/EditorWidget.tsx:61
 msgid "Custom"
 msgstr "Niestandardowe"
 
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:55
-#, jsrealm
 msgid "Items"
 msgstr "Elementy"

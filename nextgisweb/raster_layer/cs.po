@@ -32,24 +32,30 @@ msgid "Mixed band data types are not supported."
 msgstr "Smíšené datové typy pásma nejsou podporovány."
 
 #: model.py:121 nodepkg/editor-widget/EditorWidget.tsx:19
-#: nodepkg/storage-widget/StorageWidget.tsx:68
+#: nodepkg/storage-widget/StorageWidget.tsx:80
 msgid "Raster layer storage"
 msgstr ""
 
-#: model.py:194 nodepkg/editor-widget/EditorWidget.tsx:141
+#: model.py:205
+msgid ""
+"Access key and secret key must both be set (private bucket) or both be empty "
+"(public bucket)."
+msgstr ""
+
+#: model.py:214 nodepkg/editor-widget/EditorWidget.tsx:141
 msgid "Raster layer"
 msgstr "Rastrová vrstva"
 
-#: model.py:250
+#: model.py:270
 msgid "No supported files found in the archive."
 msgstr ""
 
-#: model.py:254
+#: model.py:274
 #, python-brace-format
 msgid "The archive contains multiple supported files: {supported_zip_items}."
 msgstr ""
 
-#: model.py:315
+#: model.py:335
 msgid ""
 "The source raster has a local coordinate system and can't be reprojected to "
 "the target coordinate system."
@@ -57,52 +63,56 @@ msgstr ""
 "Zdrojový rastr má lokální souřadnicový systém a nelze jej přeprojektovat do "
 "cílového souřadnicového systému."
 
-#: model.py:333
+#: model.py:355
 msgid "Failed to reproject the raster to the target coordinate system."
 msgstr "Nepodařilo se přeprojektovat rastr do cílového souřadnicového systému."
 
-#: model.py:337
+#: model.py:359
 #, python-format
 msgid "GDAL error message: %s"
 msgstr "Chybová zpráva GDAL: %s"
 
-#: model.py:352
+#: model.py:374
 msgid "Raster too large"
 msgstr ""
 
-#: model.py:354
+#: model.py:376
 #, python-brace-format
 msgid ""
 "The uncompressed raster size ({uncompressed_size}) exceeds the limit "
 "({max_size}) by {excess_size}. Reduce the raster size to fit the limit."
 msgstr ""
 
-#: model.py:508
+#: model.py:501
+msgid "Uploading files to a public (read-only) bucket is not allowed."
+msgstr ""
+
+#: model.py:534
 msgid "Failed to open raster file at the specified storage path."
 msgstr ""
 
-#: model.py:514
+#: model.py:540
 msgid "The raster file must be a Cloud Optimized GeoTIFF (COG)."
 msgstr ""
 
-#: model.py:522
+#: model.py:548
 msgid "The raster has a local coordinate system and is not supported."
 msgstr ""
 
-#: model.py:538
+#: model.py:564
 msgid ""
 "The raster coordinate system could not be identified. Make sure the file has "
 "a recognized EPSG coordinate system."
 msgstr ""
 
-#: model.py:544
+#: model.py:570
 #, python-brace-format
 msgid ""
 "The raster coordinate system ({auth}:{code}) is not registered in NextGIS "
 "Web. Add it to the list of supported coordinate systems first."
 msgstr ""
 
-#: model.py:631
+#: model.py:657
 #, python-brace-format
 msgid "{n} band with {t} data type"
 msgid_plural "{n} bands with {t} data type"
@@ -110,23 +120,23 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: model.py:637
+#: model.py:663
 msgid "Band summary"
 msgstr ""
 
-#: model.py:638
+#: model.py:664
 msgid "Pixel dimensions"
 msgstr ""
 
-#: model.py:639 nodepkg/editor-widget/EditorWidget.tsx:22
+#: model.py:665 nodepkg/editor-widget/EditorWidget.tsx:22
 msgid "Cloud Optimized GeoTIFF (COG)"
 msgstr ""
 
-#: model.py:640
+#: model.py:666
 msgid "Persistent auxiliary metadata (PAM)"
 msgstr ""
 
-#: model.py:696
+#: model.py:722
 #, python-brace-format
 msgid ""
 "The uncompressed raster you are trying to upload is {uncompressed_size}. At "
@@ -135,7 +145,7 @@ msgid ""
 "some storage space."
 msgstr ""
 
-#: model.py:828
+#: model.py:854
 msgid "Storage must be selected before specifying a storage filename."
 msgstr ""
 
@@ -163,23 +173,23 @@ msgstr ""
 msgid "Keep existing raster"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:57
+#: nodepkg/export-form/ExportForm.tsx:58
 msgid "Band"
 msgstr "Kapela"
 
-#: nodepkg/export-form/ExportForm.tsx:80
+#: nodepkg/export-form/ExportForm.tsx:81
 msgid "Format"
 msgstr "Formát"
 
-#: nodepkg/export-form/ExportForm.tsx:92
+#: nodepkg/export-form/ExportForm.tsx:93
 msgid "SRS"
 msgstr "SRS"
 
-#: nodepkg/export-form/ExportForm.tsx:97
+#: nodepkg/export-form/ExportForm.tsx:98
 msgid "Bands"
 msgstr "Kapely"
 
-#: nodepkg/export-form/ExportForm.tsx:130
+#: nodepkg/export-form/ExportForm.tsx:131
 msgid "Save"
 msgstr "Uložit"
 
@@ -191,27 +201,31 @@ msgstr ""
 msgid "Save as"
 msgstr "Uložit jako"
 
-#: nodepkg/storage-widget/StorageWidget.tsx:30
+#: nodepkg/storage-widget/StorageWidget.tsx:35
 msgid "Type"
 msgstr ""
 
-#: nodepkg/storage-widget/StorageWidget.tsx:34
+#: nodepkg/storage-widget/StorageWidget.tsx:39
 msgid "Endpoint"
 msgstr ""
 
-#: nodepkg/storage-widget/StorageWidget.tsx:39
+#: nodepkg/storage-widget/StorageWidget.tsx:44
 msgid "Bucket"
 msgstr ""
 
-#: nodepkg/storage-widget/StorageWidget.tsx:44
+#: nodepkg/storage-widget/StorageWidget.tsx:49
+msgid "Public access"
+msgstr ""
+
+#: nodepkg/storage-widget/StorageWidget.tsx:54
 msgid "Access key"
 msgstr ""
 
-#: nodepkg/storage-widget/StorageWidget.tsx:49
+#: nodepkg/storage-widget/StorageWidget.tsx:60
 msgid "Secret key"
 msgstr ""
 
-#: nodepkg/storage-widget/StorageWidget.tsx:58
+#: nodepkg/storage-widget/StorageWidget.tsx:70
 msgid "Prefix"
 msgstr ""
 

@@ -50,6 +50,14 @@ msgstr ""
 msgid "Copy to clipboard"
 msgstr "Copier dans le presse-papiers"
 
+#: nodepkg/component/BooleanInput.tsx:20
+msgid "True"
+msgstr ""
+
+#: nodepkg/component/BooleanInput.tsx:21
+msgid "False"
+msgstr ""
+
 #: nodepkg/component/InputScaleDenom.tsx:6
 msgid "Not set"
 msgstr "Non défini"
@@ -58,12 +66,12 @@ msgstr "Non défini"
 msgid "Save"
 msgstr "Enregistrer"
 
-#: nodepkg/component/expandable-text/ExpandableText.tsx:22
-msgid "Less"
+#: nodepkg/component/expandable-text/ExpandableText.tsx:7
+msgid "More"
 msgstr ""
 
-#: nodepkg/component/expandable-text/ExpandableText.tsx:22
-msgid "More"
+#: nodepkg/component/expandable-text/ExpandableText.tsx:8
+msgid "Less"
 msgstr ""
 
 #: nodepkg/component/extent-editor-modal/ExtentEditorModal.tsx:150
@@ -126,6 +134,127 @@ msgstr "Améliorer ou ajouter une nouvelle traduction"
 msgid "Browser default"
 msgstr "Navigateur par défaut"
 
+#: nodepkg/csv-importer/CsvImporter.tsx:18
+msgid "Field mapping"
+msgstr ""
+
+#: nodepkg/csv-importer/CsvImporter.tsx:19
+msgid "Preview CSV table"
+msgstr ""
+
+#: nodepkg/csv-importer/CsvImporter.tsx:20
+msgid "Parsing options"
+msgstr ""
+
+#: nodepkg/csv-importer/CsvImporter.tsx:21
+msgid "Rows in file"
+msgstr ""
+
+#: nodepkg/csv-importer/CsvImporter.tsx:22
+msgid "File"
+msgstr ""
+
+#: nodepkg/csv-importer/CsvImporter.tsx:23
+msgid "Size"
+msgstr ""
+
+#: nodepkg/csv-importer/CsvImporter.tsx:24
+msgid "Clear file"
+msgstr ""
+
+#: nodepkg/csv-importer/CsvImporterModal.tsx:10
+msgid "Import from CSV"
+msgstr ""
+
+#: nodepkg/csv-importer/CsvImporterModal.tsx:11
+#: nodepkg/progress-modal/ProgressModal.tsx:8
+msgid "Cancel"
+msgstr "Annuler"
+
+#: nodepkg/csv-importer/CsvImporterModal.tsx:12
+msgid "Import"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:12
+msgid "Delimiter"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:13
+msgid "Quote character"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:14
+msgid "Escape character"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:15
+msgid "Encoding"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvFileSelect.tsx:10
+msgid "Select a CSV file"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvFileSelect.tsx:11
+msgid "or drag and drop here"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvFileSelect.tsx:12
+msgid "Please select a CSV file"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvManualMapping.tsx:14
+msgid "Unset"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvManualMapping.tsx:15
+msgid "This field can be auto-mapped by"
+msgstr ""
+
+#: nodepkg/csv-importer/component/CsvPreviewTable.tsx:17
+msgid "Failed to parse CSV file"
+msgstr ""
+
+#: nodepkg/csv-importer/hooks/useCsvParser.ts:57
+msgid "Column"
+msgstr ""
+
+#: nodepkg/csv-importer/settings.ts:6
+msgid "Auto-detected"
+msgstr ""
+
+#: nodepkg/csv-importer/settings.ts:7
+msgid "Comma"
+msgstr ""
+
+#: nodepkg/csv-importer/settings.ts:8
+msgid "Semicolon"
+msgstr ""
+
+#: nodepkg/csv-importer/settings.ts:9
+msgid "Tab"
+msgstr ""
+
+#: nodepkg/csv-importer/settings.ts:10
+msgid "Pipe"
+msgstr ""
+
+#: nodepkg/csv-importer/settings.ts:14 nodepkg/csv-importer/settings.ts:20
+msgid "Double quote"
+msgstr ""
+
+#: nodepkg/csv-importer/settings.ts:15
+msgid "Single quote"
+msgstr ""
+
+#: nodepkg/csv-importer/settings.ts:16 nodepkg/csv-importer/settings.ts:22
+msgid "None"
+msgstr ""
+
+#: nodepkg/csv-importer/settings.ts:21
+msgid "Backslash"
+msgstr ""
+
 #: nodepkg/edi-table/EdiTableKeyValue.tsx:11
 msgid "Type here to add a new item..."
 msgstr "Tapez ici pour ajouter un nouvel élément..."
@@ -138,11 +267,11 @@ msgstr "Clé requise"
 msgid "Key not unique"
 msgstr "Clé non unique"
 
-#: nodepkg/edi-table/RowAction.tsx:70
+#: nodepkg/edi-table/RowAction.tsx:71
 msgid "Clone"
 msgstr "Cloner"
 
-#: nodepkg/edi-table/RowAction.tsx:75 nodepkg/focus-table/action.tsx:27
+#: nodepkg/edi-table/RowAction.tsx:76 nodepkg/focus-table/action.tsx:27
 #: nodepkg/hook/useConfirm.tsx:54 nodepkg/model-browse/ModelBrowse.tsx:276
 #: nodepkg/model-browse/ModelBrowse.tsx:343 nodepkg/model-form/ModelForm.tsx:53
 msgid "Delete"
@@ -184,7 +313,7 @@ msgstr "Cette valeur est obligatoire"
 msgid "The value entered is not valid"
 msgstr "La valeur saisie n'est pas valide"
 
-#: nodepkg/focus-table/FocusTable.tsx:23
+#: nodepkg/focus-table/FocusTable.tsx:24
 msgid "Hide details"
 msgstr "Masquer les détails"
 
@@ -259,10 +388,6 @@ msgstr "Logo enregistré. Actualisez la page pour l'appliquer."
 #: nodepkg/progress-modal/ProgressModal.tsx:7
 msgid "Operation in progress"
 msgstr "Opération en cours"
-
-#: nodepkg/progress-modal/ProgressModal.tsx:8
-msgid "Cancel"
-msgstr "Annuler"
 
 #: nodepkg/single-setting-form/SingleSettingForm.tsx:24
 msgid "The setting is saved."

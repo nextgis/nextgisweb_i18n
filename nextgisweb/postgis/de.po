@@ -1,196 +1,204 @@
-#: api.py:84
+#: api.py:89
 msgid "Table (%s) not found in schema (%s)."
 msgstr "Tabelle (%s) fehlt im Schema (%s)."
 
-#: api.py:150
+#: api.py:158
 msgid "PostGIS layer {} not found!"
 msgstr ""
 
-#: api.py:174
+#: api.py:182
 msgid "PostGIS connection {} not found!"
 msgstr ""
 
-#: diagnostics.py:99
+#: diagnostics.py:102
 msgid "Got an unexpected error."
 msgstr ""
 
-#: diagnostics.py:157
+#: diagnostics.py:160
 msgid "PostgreSQL connection"
 msgstr ""
 
-#: diagnostics.py:163
+#: diagnostics.py:166
 msgid "Host name resolution failed: {}."
 msgstr ""
 
-#: diagnostics.py:184
+#: diagnostics.py:188
 msgid "Failed to connect to the database."
 msgstr ""
 
-#: diagnostics.py:188
+#: diagnostics.py:192
 msgid "Connected to the database."
 msgstr ""
 
-#: diagnostics.py:191
+#: diagnostics.py:195
 msgid "Executed {} query."
 msgstr ""
 
-#: diagnostics.py:194
+#: diagnostics.py:198
 msgid "PostgreSQL version {}."
 msgstr ""
 
-#: diagnostics.py:199
+#: diagnostics.py:203
 msgid "SSL is used."
 msgstr ""
 
-#: diagnostics.py:199
+#: diagnostics.py:203
 msgid "SSL is not used."
 msgstr ""
 
-#: diagnostics.py:208
-msgid "PostGIS extension"
-msgstr ""
-
-#: diagnostics.py:218
-msgid "PostGIS extension not found."
-msgstr ""
-
-#: diagnostics.py:220
-msgid "PostGIS extension version {}."
+#: diagnostics.py:219
+msgid "The statement_timeout startup parameter is supported."
 msgstr ""
 
 #: diagnostics.py:223
+msgid "The statement_timeout startup parameter is not supported."
+msgstr ""
+
+#: diagnostics.py:232
+msgid "PostGIS extension"
+msgstr ""
+
+#: diagnostics.py:242
+msgid "PostGIS extension not found."
+msgstr ""
+
+#: diagnostics.py:244
+msgid "PostGIS extension version {}."
+msgstr ""
+
+#: diagnostics.py:247
 msgid "Number of geometry columns: {}."
 msgstr ""
 
-#: diagnostics.py:226
+#: diagnostics.py:250
 msgid "Number of spatial reference systems: {}."
 msgstr ""
 
-#: diagnostics.py:266
+#: diagnostics.py:294
 msgid "Layer table"
 msgstr ""
 
-#: diagnostics.py:272
+#: diagnostics.py:300
 msgid "Table not found."
 msgstr ""
 
-#: diagnostics.py:274
+#: diagnostics.py:302
 msgid "Table found, table type is {}."
 msgstr ""
 
-#: diagnostics.py:292
+#: diagnostics.py:320
 msgid "{} privilege is present."
 msgstr ""
 
-#: diagnostics.py:294 diagnostics.py:296
+#: diagnostics.py:322 diagnostics.py:324
 msgid "{} privilege is absent."
 msgstr ""
 
-#: diagnostics.py:299
+#: diagnostics.py:327
 msgid "Number of records: {}."
 msgstr ""
 
-#: diagnostics.py:302
+#: diagnostics.py:330
 msgid "ID or geometry column isn't set."
 msgstr ""
 
-#: diagnostics.py:309 nodepkg/layer-widget/LayerWidget.tsx:23
+#: diagnostics.py:337 nodepkg/layer-widget/LayerWidget.tsx:20
 msgid "ID column"
 msgstr "ID-Spalte"
 
-#: diagnostics.py:314 diagnostics.py:387
+#: diagnostics.py:342 diagnostics.py:415
 msgid "Column not found."
 msgstr ""
 
-#: diagnostics.py:319
+#: diagnostics.py:347
 msgid "Column found, but has non-integer type - {}."
 msgstr ""
 
-#: diagnostics.py:321 diagnostics.py:399
+#: diagnostics.py:349 diagnostics.py:428
 msgid "Column found, type is {}."
 msgstr ""
 
-#: diagnostics.py:326
+#: diagnostics.py:354
 msgid "Column is the primary key."
 msgstr ""
 
-#: diagnostics.py:329
+#: diagnostics.py:357
 msgid "Column is not the primary key."
 msgstr ""
 
-#: diagnostics.py:338
+#: diagnostics.py:366
 msgid "Column can be NULL."
 msgstr ""
 
-#: diagnostics.py:343
+#: diagnostics.py:371
 msgid "NULL values in the column."
 msgstr ""
 
-#: diagnostics.py:345
+#: diagnostics.py:373
 msgid "No NULL values in the column."
 msgstr ""
 
-#: diagnostics.py:347
+#: diagnostics.py:375
 msgid "Column cannot be NULL."
 msgstr ""
 
-#: diagnostics.py:351
+#: diagnostics.py:379
 msgid "Unique index not found."
 msgstr ""
 
-#: diagnostics.py:353
+#: diagnostics.py:381
 msgid "Unique index found."
 msgstr ""
 
-#: diagnostics.py:369
+#: diagnostics.py:397
 msgid "Non-unique values in the column."
 msgstr ""
 
-#: diagnostics.py:371
+#: diagnostics.py:399
 msgid "All values are unique."
 msgstr ""
 
-#: diagnostics.py:376
+#: diagnostics.py:404
 msgid "Column is auto-incrementable."
 msgstr ""
 
-#: diagnostics.py:378
+#: diagnostics.py:406
 msgid "Column isn't auto-incrementable."
 msgstr ""
 
-#: diagnostics.py:382 nodepkg/layer-widget/LayerWidget.tsx:24
+#: diagnostics.py:410 nodepkg/layer-widget/LayerWidget.tsx:21
 msgid "Geometry column"
 msgstr "Geometriespalte"
 
-#: diagnostics.py:397
+#: diagnostics.py:425
 msgid "Column found, but has an incompatible type - {}."
 msgstr ""
 
-#: diagnostics.py:402
+#: diagnostics.py:431
 msgid "Geometry SRID mismatch."
 msgstr ""
 
-#: diagnostics.py:417
+#: diagnostics.py:446
 msgid "Failed to reproject extent to SRID {}."
 msgstr ""
 
-#: diagnostics.py:421
+#: diagnostics.py:453
 msgid "Extent (SRID {}): {}."
 msgstr ""
 
-#: diagnostics.py:425
+#: diagnostics.py:457
 msgid "Field columns"
 msgstr ""
 
-#: diagnostics.py:431
+#: diagnostics.py:463
 msgid "Column of field '{}' not found."
 msgstr ""
 
-#: diagnostics.py:440
+#: diagnostics.py:472
 msgid "Column of field '{}' found, but has an incompatible type - {}."
 msgstr ""
 
-#: diagnostics.py:446
+#: diagnostics.py:478
 msgid "Column of field '{}' found, type is {}."
 msgstr ""
 
@@ -198,85 +206,85 @@ msgstr ""
 msgid "External database error"
 msgstr ""
 
-#: model.py:79 nodepkg/layer-widget/LayerWidget.tsx:70
+#: model.py:81 nodepkg/layer-widget/LayerWidget.tsx:67
 msgid "Point"
 msgstr "Punkt"
 
-#: model.py:80 nodepkg/layer-widget/LayerWidget.tsx:71
+#: model.py:82 nodepkg/layer-widget/LayerWidget.tsx:68
 msgid "Line"
 msgstr "LineString"
 
-#: model.py:81 nodepkg/layer-widget/LayerWidget.tsx:72
+#: model.py:83 nodepkg/layer-widget/LayerWidget.tsx:69
 msgid "Polygon"
 msgstr "Polygon"
 
-#: model.py:82 nodepkg/layer-widget/LayerWidget.tsx:73
+#: model.py:84 nodepkg/layer-widget/LayerWidget.tsx:70
 msgid "Multipoint"
 msgstr "Multipunkt"
 
-#: model.py:83 nodepkg/layer-widget/LayerWidget.tsx:74
+#: model.py:85 nodepkg/layer-widget/LayerWidget.tsx:71
 msgid "Multiline"
 msgstr "MultiLineString"
 
-#: model.py:84 nodepkg/layer-widget/LayerWidget.tsx:75
+#: model.py:86 nodepkg/layer-widget/LayerWidget.tsx:72
 msgid "Multipolygon"
 msgstr "Multipolygon"
 
-#: model.py:85 nodepkg/layer-widget/LayerWidget.tsx:76
+#: model.py:87 nodepkg/layer-widget/LayerWidget.tsx:73
 msgid "Point Z"
 msgstr ""
 
-#: model.py:86 nodepkg/layer-widget/LayerWidget.tsx:77
+#: model.py:88 nodepkg/layer-widget/LayerWidget.tsx:74
 msgid "Line Z"
 msgstr ""
 
-#: model.py:87 nodepkg/layer-widget/LayerWidget.tsx:78
+#: model.py:89 nodepkg/layer-widget/LayerWidget.tsx:75
 msgid "Polygon Z"
 msgstr ""
 
-#: model.py:88 nodepkg/layer-widget/LayerWidget.tsx:79
+#: model.py:90 nodepkg/layer-widget/LayerWidget.tsx:76
 msgid "Multipoint Z"
 msgstr ""
 
-#: model.py:89 nodepkg/layer-widget/LayerWidget.tsx:80
+#: model.py:91 nodepkg/layer-widget/LayerWidget.tsx:77
 msgid "Multiline Z"
 msgstr ""
 
-#: model.py:90 nodepkg/layer-widget/LayerWidget.tsx:81
+#: model.py:92 nodepkg/layer-widget/LayerWidget.tsx:78
 msgid "Multipolygon Z"
 msgstr ""
 
-#: model.py:136 nodepkg/connection-widget/ConnectionWidget.tsx:99
+#: model.py:138 nodepkg/connection-widget/ConnectionWidget.tsx:89
 msgid "PostGIS connection"
 msgstr "PostGIS-Verbindung"
 
-#: model.py:228
+#: model.py:227
 msgid "Cannot connect to the database!"
 msgstr "Es kann keine Verbindung mit der Datenbank hergestellt werden!"
 
-#: model.py:264 nodepkg/layer-widget/LayerWidget.tsx:228
+#: model.py:264 nodepkg/layer-widget/LayerWidget.tsx:224
 msgid "PostGIS layer"
 msgstr "PostGIS-Layer"
 
-#: model.py:318
+#: model.py:325
 msgid "Table '%(table)s' not found!"
 msgstr "Tabelle '%(table)s' nicht gefunden!"
 
-#: model.py:336
+#: model.py:344
 msgid "SRID missing in geometry_columns table! You should specify it manually."
 msgstr "SRID fehlt in der Tabelle geometry_columns! Sie sollten es manuell angeben."
 
-#: model.py:342
+#: model.py:349
 msgid "0 is an invalid SRID."
 msgstr "0 ist eine ungültige SRID."
 
-#: model.py:350
+#: model.py:357
 msgid "SRID in geometry_columns table does not match specified!"
 msgstr ""
 "SRID in der Tabelle geometry_columns stimmt nicht mit den angegebenen Daten "
 "überein!"
 
-#: model.py:361
+#: model.py:369
 msgid ""
 "Geometry type missing in geometry_columns table! You should specify it "
 "manually."
@@ -284,45 +292,45 @@ msgstr ""
 "Geometrietyp fehlt in der Tabelle geometry_columns! Sie sollten es manuell "
 "angeben."
 
-#: model.py:373
+#: model.py:381
 msgid "Geometry type in geometry_columns table does not match specified!"
 msgstr ""
 "Der Geometrietyp in der Tabelle geometry_columns stimmt nicht mit den "
 "angegebenen Daten überein!"
 
-#: model.py:385
+#: model.py:392
 msgid "To use column as ID it should have integer type!"
 msgstr "Um die Spalte als ID zu verwenden, sollte sie den Ganzzahltyp haben!"
 
-#: model.py:428 model.py:433
+#: model.py:434 model.py:439
 msgid "Column '%(column)s' not found!"
 msgstr "Spalte '%(column)s' wurde nicht gefunden!"
 
-#: model.py:439 nodepkg/layer-widget/LayerWidget.tsx:26
+#: model.py:445 nodepkg/layer-widget/LayerWidget.tsx:23
 msgid "Geometry type"
 msgstr "Geometrietyp"
 
-#: nodepkg/connection-widget/ConnectionWidget.tsx:46
+#: nodepkg/connection-widget/ConnectionWidget.tsx:35
 msgid "Host"
 msgstr "Host"
 
-#: nodepkg/connection-widget/ConnectionWidget.tsx:51
+#: nodepkg/connection-widget/ConnectionWidget.tsx:40
 msgid "Port"
 msgstr "Port"
 
-#: nodepkg/connection-widget/ConnectionWidget.tsx:62
+#: nodepkg/connection-widget/ConnectionWidget.tsx:51
 msgid "SSL mode"
 msgstr ""
 
-#: nodepkg/connection-widget/ConnectionWidget.tsx:74
+#: nodepkg/connection-widget/ConnectionWidget.tsx:63
 msgid "User"
 msgstr "Benutzer"
 
-#: nodepkg/connection-widget/ConnectionWidget.tsx:80
+#: nodepkg/connection-widget/ConnectionWidget.tsx:69
 msgid "Password"
 msgstr "Passwort"
 
-#: nodepkg/connection-widget/ConnectionWidget.tsx:90
+#: nodepkg/connection-widget/ConnectionWidget.tsx:79
 msgid "Database"
 msgstr "Datenbank"
 
@@ -342,46 +350,46 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: nodepkg/layer-widget/LayerStore.ts:14
+#: nodepkg/layer-widget/LayerStore.ts:13
 msgid "Fields need to be updated due to autodetection"
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:20
+#: nodepkg/layer-widget/LayerWidget.tsx:17
 msgid "Connection"
 msgstr "Verbindung"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:21
+#: nodepkg/layer-widget/LayerWidget.tsx:18
 msgid "Schema"
 msgstr "Schema"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:22
+#: nodepkg/layer-widget/LayerWidget.tsx:19
 msgid "Table"
 msgstr "Tabelle"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:25
+#: nodepkg/layer-widget/LayerWidget.tsx:22
 msgid "Autodetect"
 msgstr "Automatische Erkennung"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:27
+#: nodepkg/layer-widget/LayerWidget.tsx:24
 msgid "SRID"
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:28
+#: nodepkg/layer-widget/LayerWidget.tsx:25
 msgid "Fields"
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:85
+#: nodepkg/layer-widget/LayerWidget.tsx:82
 msgid "Keep existing definitions untouched"
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:86
+#: nodepkg/layer-widget/LayerWidget.tsx:83
 msgid "Update definitions from the database"
 msgstr ""
 
-#: view.py:42
+#: nodepkg/resource-action-plugin.tsx:11
 msgid "Diagnostics"
 msgstr ""
 
-#: view.py:63
+#: view.py:47
 msgid "PostGIS diagnostics"
 msgstr ""

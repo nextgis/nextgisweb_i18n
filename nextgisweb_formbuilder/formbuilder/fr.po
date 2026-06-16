@@ -50,8 +50,8 @@ msgstr ""
 "Le champ '{dn}' (nom de clé '{kn}') n'est lié à aucun élément et doit être "
 "supprimé du formulaire."
 
-#: model.py:194 nodepkg/editor-widget/FormbuilderEditorWidget.tsx:308
-#: nodepkg/form-widget/FormWidget.tsx:132 view.py:20
+#: model.py:194 nodepkg/editor-widget/FormbuilderEditorWidget.tsx:257
+#: nodepkg/form-widget/FormWidget.tsx:132
 msgid "Form"
 msgstr "Forme"
 
@@ -64,56 +64,79 @@ msgstr "Fichier NGFP non valide."
 msgid "NGFP file size exceeds {} bytes."
 msgstr "La taille du fichier NGFP dépasse {} octets."
 
-#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:16
-#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:25
+#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:17
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:31
 msgid "Add"
 msgstr "Ajouter"
 
-#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:17
-#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:26
+#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:18
 msgid "New field"
 msgstr ""
 
 #: nodepkg/editor-widget/component/AddFieldModalButton.tsx:19
-#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:28
-msgid "Keyname"
-msgstr ""
-
-#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:20
-#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:29
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:33
 msgid "Display name"
 msgstr ""
 
+#: nodepkg/editor-widget/component/AddFieldModalButton.tsx:20
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:32
+msgid "Keyname"
+msgstr ""
+
 #: nodepkg/editor-widget/component/AddFieldModalButton.tsx:21
-#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:30
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:34
 msgid "Data type"
 msgstr ""
 
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:19
-#: nodepkg/editor-widget/component/OptionsInput.tsx:13
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:29
+#: nodepkg/editor-widget/component/OptionsInput.tsx:24
 msgid "Edit"
 msgstr "Modifier"
 
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:20
-#: nodepkg/editor-widget/component/OptionsInput.tsx:14
-#: nodepkg/editor-widget/element.tsx:641 nodepkg/editor-widget/element.tsx:723
-#: nodepkg/editor-widget/element.tsx:813 nodepkg/editor-widget/element.tsx:905
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:30
+#: nodepkg/editor-widget/component/OptionsInput.tsx:25
+msgid "View"
+msgstr ""
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:31
+#: nodepkg/editor-widget/component/OptionsInput.tsx:26
+#: nodepkg/editor-widget/element.tsx:627 nodepkg/editor-widget/element.tsx:696
+#: nodepkg/editor-widget/element.tsx:766 nodepkg/editor-widget/element.tsx:840
 msgid "Options"
 msgstr "Options"
 
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:21
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:32
+#: nodepkg/editor-widget/component/OptionsInput.tsx:27
+msgid "Export"
+msgstr ""
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:33
+#: nodepkg/editor-widget/component/OptionsInput.tsx:28
+msgid "Import"
+msgstr ""
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:34
+#: nodepkg/editor-widget/component/OptionsInput.tsx:29
+msgid "Done"
+msgstr ""
+
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:35
 msgid "Select or add an option in the table above to see dependent options"
 msgstr ""
 "Sélectionnez ou ajoutez une option dans le tableau ci-dessus pour voir les "
 "options dépendantes"
 
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:301
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:425
 msgid "Dependent options"
 msgstr "Options dépendantes"
 
 #: nodepkg/editor-widget/component/ElementsPanel.tsx:10
 msgid "Elements"
 msgstr "Éléments"
+
+#: nodepkg/editor-widget/component/FieldPropertiesModalConent.tsx:336
+msgid "Element type"
+msgstr ""
 
 #: nodepkg/editor-widget/component/FieldsPanel.tsx:34
 msgid "Fields"
@@ -127,28 +150,28 @@ msgstr "Ajouter des champs absents à la couche"
 msgid "Data binding"
 msgstr ""
 
-#: nodepkg/editor-widget/component/PropertiesPanel.tsx:28
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:29
 msgid "Properties"
 msgstr "Propriétés"
 
-#: nodepkg/editor-widget/component/PropertiesPanel.tsx:127
-#: nodepkg/editor-widget/element.tsx:52
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:128
+#: nodepkg/editor-widget/element.tsx:59
 msgid "Current date"
 msgstr "Date du jour"
 
-#: nodepkg/editor-widget/component/PropertiesPanel.tsx:133
-#: nodepkg/editor-widget/element.tsx:53
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:135
+#: nodepkg/editor-widget/element.tsx:60
 msgid "Current time"
 msgstr "Heure actuelle"
 
-#: nodepkg/editor-widget/component/PropertiesPanel.tsx:139
-#: nodepkg/editor-widget/element.tsx:54
+#: nodepkg/editor-widget/component/PropertiesPanel.tsx:142
+#: nodepkg/editor-widget/element.tsx:61
 msgid "Current date & time"
 msgstr "Date et heure actuelles"
 
-#: nodepkg/editor-widget/component/TabsCustomModifier.tsx:74
+#: nodepkg/editor-widget/component/TabsCustomModifier.tsx:73
 #: nodepkg/editor-widget/component/TabsFormComponent.tsx:93
-#: nodepkg/editor-widget/element.tsx:1027 nodepkg/editor-widget/element.tsx:1035
+#: nodepkg/editor-widget/element.tsx:950 nodepkg/editor-widget/element.tsx:958
 #, python-brace-format
 msgid "Tab {}"
 msgstr "Onglet {}"
@@ -158,184 +181,195 @@ msgid "Type here to add an option..."
 msgstr "Tapez ici pour ajouter une option..."
 
 #: nodepkg/editor-widget/component/valueInputs.tsx:11
-#: nodepkg/editor-widget/element.tsx:244 nodepkg/editor-widget/element.tsx:292
-#: nodepkg/editor-widget/element.tsx:350
+#: nodepkg/editor-widget/element.tsx:276 nodepkg/editor-widget/element.tsx:318
+#: nodepkg/editor-widget/element.tsx:370
 msgid "Initial value"
 msgstr "Valeur initiale"
 
-#: nodepkg/editor-widget/element.tsx:58
+#: nodepkg/editor-widget/element.tsx:65
 msgid "NextGIS ID username"
 msgstr "Nom d'utilisateur NextGIS ID"
 
-#: nodepkg/editor-widget/element.tsx:59
+#: nodepkg/editor-widget/element.tsx:66
 msgid "NextGIS Web username"
 msgstr ""
 
-#: nodepkg/editor-widget/element.tsx:151 nodepkg/editor-widget/element.tsx:156
-#: nodepkg/editor-widget/element.tsx:283 nodepkg/editor-widget/element.tsx:651
-#: nodepkg/editor-widget/element.tsx:823 nodepkg/editor-widget/element.tsx:915
-#: nodepkg/editor-widget/element.tsx:940
+#: nodepkg/editor-widget/element.tsx:202 nodepkg/editor-widget/element.tsx:207
+#: nodepkg/editor-widget/element.tsx:309 nodepkg/editor-widget/element.tsx:637
+#: nodepkg/editor-widget/element.tsx:776 nodepkg/editor-widget/element.tsx:850
+#: nodepkg/editor-widget/element.tsx:872
+#: nodepkg/editor-widget/util/csvOptions.ts:14
 msgid "Label"
 msgstr "Étiquette"
 
-#: nodepkg/editor-widget/element.tsx:160 nodepkg/editor-widget/element.tsx:305
+#: nodepkg/editor-widget/element.tsx:211 nodepkg/editor-widget/element.tsx:331
 msgid "Text"
 msgstr "Texte"
 
-#: nodepkg/editor-widget/element.tsx:183
+#: nodepkg/editor-widget/element.tsx:228
 msgid "Spacer"
 msgstr "Entretoise"
 
-#: nodepkg/editor-widget/element.tsx:206 nodepkg/editor-widget/element.tsx:1023
+#: nodepkg/editor-widget/element.tsx:243 nodepkg/editor-widget/element.tsx:946
 msgid "Tabs"
 msgstr "Onglets"
 
-#: nodepkg/editor-widget/element.tsx:234 nodepkg/editor-widget/element.tsx:287
-#: nodepkg/editor-widget/element.tsx:336 nodepkg/editor-widget/element.tsx:455
-#: nodepkg/editor-widget/element.tsx:488 nodepkg/editor-widget/element.tsx:579
-#: nodepkg/editor-widget/element.tsx:624 nodepkg/editor-widget/element.tsx:706
-#: nodepkg/editor-widget/element.tsx:803
+#: nodepkg/editor-widget/element.tsx:266 nodepkg/editor-widget/element.tsx:313
+#: nodepkg/editor-widget/element.tsx:356 nodepkg/editor-widget/element.tsx:466
+#: nodepkg/editor-widget/element.tsx:493 nodepkg/editor-widget/element.tsx:571
+#: nodepkg/editor-widget/element.tsx:610 nodepkg/editor-widget/element.tsx:679
+#: nodepkg/editor-widget/element.tsx:756
 msgid "Field"
 msgstr "Champ"
 
-#: nodepkg/editor-widget/element.tsx:239
+#: nodepkg/editor-widget/element.tsx:271
 msgid "Max. lines"
 msgstr "Lignes max."
 
-#: nodepkg/editor-widget/element.tsx:248 nodepkg/editor-widget/element.tsx:296
-#: nodepkg/editor-widget/element.tsx:354 nodepkg/editor-widget/element.tsx:629
-#: nodepkg/editor-widget/element.tsx:711 nodepkg/editor-widget/element.tsx:808
-#: nodepkg/editor-widget/element.tsx:900
+#: nodepkg/editor-widget/element.tsx:280 nodepkg/editor-widget/element.tsx:322
+#: nodepkg/editor-widget/element.tsx:374 nodepkg/editor-widget/element.tsx:615
+#: nodepkg/editor-widget/element.tsx:684 nodepkg/editor-widget/element.tsx:761
+#: nodepkg/editor-widget/element.tsx:835
 msgid "Remember last value"
 msgstr "Se souvenir de la dernière valeur"
 
-#: nodepkg/editor-widget/element.tsx:254
+#: nodepkg/editor-widget/element.tsx:286
 msgid "Text box"
 msgstr "Zone de texte"
 
-#: nodepkg/editor-widget/element.tsx:301
+#: nodepkg/editor-widget/element.tsx:327
 msgid "Check box"
 msgstr "Case à cocher"
 
-#: nodepkg/editor-widget/element.tsx:341 nodepkg/editor-widget/element.tsx:584
+#: nodepkg/editor-widget/element.tsx:361 nodepkg/editor-widget/element.tsx:576
 msgid "Type"
 msgstr "Taper"
 
-#: nodepkg/editor-widget/element.tsx:343
+#: nodepkg/editor-widget/element.tsx:363
 msgid "Date"
 msgstr "Date"
 
-#: nodepkg/editor-widget/element.tsx:344
+#: nodepkg/editor-widget/element.tsx:364
 msgid "Time"
 msgstr "Temps"
 
-#: nodepkg/editor-widget/element.tsx:345 nodepkg/editor-widget/element.tsx:359
+#: nodepkg/editor-widget/element.tsx:365 nodepkg/editor-widget/element.tsx:379
 msgid "Date & time"
 msgstr "Date et heure"
 
-#: nodepkg/editor-widget/element.tsx:405
+#: nodepkg/editor-widget/element.tsx:419
 msgid "Longitude field"
 msgstr "Champ de longitude"
 
-#: nodepkg/editor-widget/element.tsx:410
+#: nodepkg/editor-widget/element.tsx:424
 msgid "Lattitude field"
 msgstr "Champ de latitude"
 
-#: nodepkg/editor-widget/element.tsx:415
+#: nodepkg/editor-widget/element.tsx:429
 msgid "Hide"
 msgstr "Cacher"
 
-#: nodepkg/editor-widget/element.tsx:420
+#: nodepkg/editor-widget/element.tsx:434
 msgid "Coordinates"
 msgstr "Coordonnées"
 
-#: nodepkg/editor-widget/element.tsx:461
+#: nodepkg/editor-widget/element.tsx:472
 msgid "Distance meter"
 msgstr "Télémètre"
 
-#: nodepkg/editor-widget/element.tsx:477
+#: nodepkg/editor-widget/element.tsx:482
 msgid "m"
 msgstr "m"
 
-#: nodepkg/editor-widget/element.tsx:493
+#: nodepkg/editor-widget/element.tsx:498
 msgid "Number of samples"
 msgstr "Nombre d'échantillons"
 
-#: nodepkg/editor-widget/element.tsx:499
+#: nodepkg/editor-widget/element.tsx:504
 msgid "Average calculator"
 msgstr "Calculateur de moyenne"
 
-#: nodepkg/editor-widget/element.tsx:522
+#: nodepkg/editor-widget/element.tsx:520
 msgid "Count"
 msgstr "Compter"
 
-#: nodepkg/editor-widget/element.tsx:535
+#: nodepkg/editor-widget/element.tsx:533
 msgid "Max number"
 msgstr "Nombre maximum"
 
-#: nodepkg/editor-widget/element.tsx:541
+#: nodepkg/editor-widget/element.tsx:539
 msgid "Comment"
 msgstr "Commentaire"
 
-#: nodepkg/editor-widget/element.tsx:546
+#: nodepkg/editor-widget/element.tsx:544
 msgid "Photo"
 msgstr "Photo"
 
-#: nodepkg/editor-widget/element.tsx:593
+#: nodepkg/editor-widget/element.tsx:585
 msgid "System field"
 msgstr "Champ système"
 
-#: nodepkg/editor-widget/element.tsx:633
+#: nodepkg/editor-widget/element.tsx:619
 msgid "Enable search"
 msgstr "Activer la recherche"
 
-#: nodepkg/editor-widget/element.tsx:637
+#: nodepkg/editor-widget/element.tsx:623
 msgid "Allow free input"
 msgstr "Autoriser la saisie libre"
 
-#: nodepkg/editor-widget/element.tsx:645 nodepkg/editor-widget/element.tsx:727
-#: nodepkg/editor-widget/element.tsx:817 nodepkg/editor-widget/element.tsx:909
-#: nodepkg/editor-widget/element.tsx:934
+#: nodepkg/editor-widget/element.tsx:631 nodepkg/editor-widget/element.tsx:700
+#: nodepkg/editor-widget/element.tsx:770 nodepkg/editor-widget/element.tsx:844
+#: nodepkg/editor-widget/element.tsx:866
+#: nodepkg/editor-widget/util/csvOptions.ts:13
 msgid "Value"
 msgstr "Valeur"
 
-#: nodepkg/editor-widget/element.tsx:666 nodepkg/editor-widget/element.tsx:763
-#: nodepkg/editor-widget/element.tsx:838 nodepkg/editor-widget/element.tsx:926
-#: nodepkg/editor-widget/element.tsx:951
+#: nodepkg/editor-widget/element.tsx:645 nodepkg/editor-widget/element.tsx:722
+#: nodepkg/editor-widget/element.tsx:784 nodepkg/editor-widget/element.tsx:858
+#: nodepkg/editor-widget/element.tsx:880
+#: nodepkg/editor-widget/util/csvOptions.ts:15
 msgid "Initial"
 msgstr "Initial"
 
-#: nodepkg/editor-widget/element.tsx:675 nodepkg/editor-widget/element.tsx:695
+#: nodepkg/editor-widget/element.tsx:654 nodepkg/editor-widget/element.tsx:668
 msgid "Dropdown"
 msgstr "Dérouler"
 
-#: nodepkg/editor-widget/element.tsx:715 nodepkg/editor-widget/element.tsx:733
+#: nodepkg/editor-widget/element.tsx:688 nodepkg/editor-widget/element.tsx:706
 msgid "First label"
 msgstr "Première étiquette"
 
-#: nodepkg/editor-widget/element.tsx:719 nodepkg/editor-widget/element.tsx:748
+#: nodepkg/editor-widget/element.tsx:692 nodepkg/editor-widget/element.tsx:714
 msgid "Second label"
 msgstr "Deuxième étiquette"
 
-#: nodepkg/editor-widget/element.tsx:772 nodepkg/editor-widget/element.tsx:792
+#: nodepkg/editor-widget/element.tsx:731 nodepkg/editor-widget/element.tsx:745
 msgid "Dual dropdown"
 msgstr "Menu déroulant double"
 
-#: nodepkg/editor-widget/element.tsx:847 nodepkg/editor-widget/element.tsx:878
+#: nodepkg/editor-widget/element.tsx:793 nodepkg/editor-widget/element.tsx:813
 msgid "Radio group"
 msgstr "Groupe radio"
 
-#: nodepkg/editor-widget/element.tsx:890
+#: nodepkg/editor-widget/element.tsx:825
 msgid "Primary field"
 msgstr "Champ principal"
 
-#: nodepkg/editor-widget/element.tsx:895
+#: nodepkg/editor-widget/element.tsx:830
 msgid "Secondary field"
 msgstr "Champ secondaire"
 
-#: nodepkg/editor-widget/element.tsx:960 nodepkg/editor-widget/element.tsx:979
+#: nodepkg/editor-widget/element.tsx:889 nodepkg/editor-widget/element.tsx:902
 msgid "Dependent dropdowns"
 msgstr "Listes déroulantes dépendantes"
+
+#: nodepkg/editor-widget/util/csvOptions.ts:11
+msgid "Yes"
+msgstr ""
+
+#: nodepkg/editor-widget/util/csvOptions.ts:12
+msgid "Group"
+msgstr ""
 
 #: nodepkg/editor-widget/util/useFieldValidationRules.ts:6
 msgid "Mandatory field"
@@ -347,6 +381,16 @@ msgstr ""
 
 #: nodepkg/editor-widget/util/useFieldValidationRules.ts:8
 msgid "Display name must be unique"
+msgstr ""
+
+#: nodepkg/editor-widget/util/useImportFlow.ts:7
+msgid ""
+"All existing options will be deleted after import. Are you sure you want to "
+"proceed?"
+msgstr ""
+
+#: nodepkg/editor-widget/util/useImportFlow.ts:8
+msgid "All progress will be lost. Are you sure you want to cancel import?"
 msgstr ""
 
 #: nodepkg/form-widget/FormWidget.tsx:20
@@ -365,6 +409,10 @@ msgstr "Sélectionnez un fichier de formulaire"
 msgid "It should be in NGFP format."
 msgstr "Il devrait être au format NGFP."
 
-#: view.py:23
+#: nodepkg/resource-action-plugin.tsx:11
 msgid "Download as NGFP"
 msgstr "Télécharger en NGFP"
+
+#: nodepkg/resource-section/FormbuilderResourceSection.tsx:7
+msgid "Form preview"
+msgstr ""

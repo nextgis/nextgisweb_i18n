@@ -1,4 +1,4 @@
-#: api.py:84 api.py:158
+#: api.py:82
 msgid ""
 "Unfortunately, you cannot add a new collector. Your collector users limit in "
 "the Web GIS is"
@@ -6,25 +6,22 @@ msgstr ""
 "За съжаление, не можете да добавите нов участник. Максимално достъпен за Вас "
 "брой участници в Уеб GIS е"
 
-#: api.py:116
+#: api.py:114
+#, python-brace-format
 msgid "User with email '{}' already exists. Email addresses are case-insensitive."
-msgstr ""
+msgstr "Участник с имейл '{}' вече е добавен. Регистърър на буквите не се зачита."
 
-#: api.py:166
-msgid "User with email '{}' already exists."
-msgstr ""
-
-#: models/model_db.py:101
+#: model.py:87
 msgid "Collector project"
 msgstr "Проект Collector"
 
 #: nodepkg/collector-setup/CollectorFieldsWidget.tsx:10
 msgid "Project name"
-msgstr ""
+msgstr "Название на проекта"
 
 #: nodepkg/collector-setup/CollectorFieldsWidget.tsx:11
 msgid "The name of the collector project"
-msgstr ""
+msgstr "Название на проекта"
 
 #: nodepkg/collector-setup/CollectorSetupWidget.tsx:44
 #: nodepkg/resource-project/CollectorProjectWidget.tsx:74
@@ -32,7 +29,7 @@ msgid "Project"
 msgstr "Проект"
 
 #: nodepkg/collector-setup/CollectorSetupWidget.tsx:53
-#: nodepkg/resource-items/ItemsWidget.tsx:252
+#: nodepkg/resource-items/ItemsWidget.tsx:248
 msgid "Items"
 msgstr "Елементи"
 
@@ -43,137 +40,141 @@ msgstr "Участници"
 
 #: nodepkg/collector-setup/CollectorSetupWidget.tsx:76
 msgid "Create project"
-msgstr ""
+msgstr "Създай проект"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:73
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:74
 msgid "Contact Web GIS administrator to change the list of collectors"
-msgstr ""
+msgstr "Свържете се с администратора на Уеб ГИС да промените списък участници"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:145
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:164
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:146
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:165
 #: nodepkg/userMessages.ts:12
 msgid "Collector deleted"
 msgstr "Участникът е премахнат"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:201
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:25
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:202
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:26
 msgid "NextGIS ID"
 msgstr "NextGIS ID"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:207
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:37
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:208
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:38
 msgid "Description"
 msgstr "Описание"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:213
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:214
 msgid "Added"
 msgstr "Добавен"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:235
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:236
 msgid "Edit"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:243
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:244
 msgid "Delete"
-msgstr ""
+msgstr "Премахни"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:278
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:279
 msgid "You cannot add a new collector. Your collector users limit"
 msgstr "Не може да добавите нов участник. Максимален брой участници"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:328
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:329
 msgid "Create"
-msgstr ""
+msgstr "Създай"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:350 view.py:74
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351
 msgid "Create new collector"
 msgstr "Създаване на нов участник"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351 view.py:81
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:352
 msgid "Edit collector"
 msgstr "Редактиране на участника"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:366
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:367
 msgid "Delete selected collectors?"
-msgstr ""
+msgstr "Да премахна ли отбелязаните участници?"
 
-#: nodepkg/collector-user-editor/CollectorUserEditor.tsx:30
+#: nodepkg/collector-user-browse/CollectorUserEditor.tsx:31
 msgid "The value entered is not valid"
 msgstr "Въведеното значение не е валидно"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:13
 msgid "Collector users:"
 msgstr "Брой участници:"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:13
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:13
 msgid "out of"
 msgstr "от"
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:20
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:20
 msgid "Each collector must have "
 msgstr "Всеки участник трябва да има "
 
-#: nodepkg/collector-users-message/CollectorUsersMessage.tsx:21
+#: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:21
 msgid "NextGIS ID account"
 msgstr "профил NextGIS ID"
 
-#: nodepkg/resource-action-plugin.tsx:11 view.py:90
+#: nodepkg/control-panel-plugin.tsx:9
+msgid "Collector projects"
+msgstr "Проекти Collector"
+
+#: nodepkg/resource-action-plugin.tsx:11 view.py:46
 msgid "Set up Collector project"
-msgstr ""
+msgstr "Създаване на проект за събиране на данни"
 
 #: nodepkg/resource-items/Item.ts:104
 msgid "Group members have errors"
 msgstr "Грешка на членуване в групата"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:27
+#: nodepkg/resource-items/ItemsWidget.tsx:26
 msgid "Display name"
 msgstr "Показвано име"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:28
+#: nodepkg/resource-items/ItemsWidget.tsx:27
 msgid "Expanded"
 msgstr "Разширена"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:29
+#: nodepkg/resource-items/ItemsWidget.tsx:28
 msgid "Editable"
 msgstr "Редактиращ се"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:30
+#: nodepkg/resource-items/ItemsWidget.tsx:29
 msgid "Visible"
 msgstr "Видим"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:31
+#: nodepkg/resource-items/ItemsWidget.tsx:30
 msgid "Syncable"
 msgstr "Синхронизиращ се"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:32
+#: nodepkg/resource-items/ItemsWidget.tsx:31
 msgid "Lifetime for tiles (in min)"
 msgstr "Срок съществуване на плочка (мин)"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:33
+#: nodepkg/resource-items/ItemsWidget.tsx:32
 msgid "Resource"
 msgstr "Ресурс"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:34
+#: nodepkg/resource-items/ItemsWidget.tsx:33
 msgid "Zoom level visibility"
 msgstr "Видимост на мащабни нива"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:35
+#: nodepkg/resource-items/ItemsWidget.tsx:34
 msgid "Min zoom"
 msgstr "Минимално приближаване"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:36
+#: nodepkg/resource-items/ItemsWidget.tsx:35
 msgid "Max zoom"
 msgstr "Максимално приближаване"
 
-#: nodepkg/resource-items/ItemsWidget.tsx:37
+#: nodepkg/resource-items/ItemsWidget.tsx:36
 msgid "Item"
-msgstr ""
+msgstr "Елемент"
+
+#: nodepkg/resource-items/ItemsWidget.tsx:37
+msgid "Form, layer or style"
+msgstr "Форма, слой или стил"
 
 #: nodepkg/resource-items/ItemsWidget.tsx:38
-msgid "Form, layer or style"
-msgstr ""
-
-#: nodepkg/resource-items/ItemsWidget.tsx:39
 msgid "Group"
 msgstr "Група"
 
@@ -259,15 +260,13 @@ msgid ""
 "Deleting this collector will remove it from all projects where it is "
 "currently assigned."
 msgstr ""
+"Ако премахнете този участник, ще бъде премахнат от всички проекти, в които в "
+"момента е назначен."
 
 #: nodepkg/userMessages.ts:9
 msgid "Uncheck the box to remove the collector from the current project only."
 msgstr ""
 
-#: view.py:62
+#: view.py:38
 msgid "List of collectors"
 msgstr "Списък на участници"
-
-#: view.py:146
-msgid "Collector projects"
-msgstr "Проекти Collector"

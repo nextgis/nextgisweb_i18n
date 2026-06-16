@@ -1,64 +1,70 @@
-#: model.py:34 nodepkg/editor/EditorWidget.tsx:171
+#: model.py:34 nodepkg/editor/EditorWidget.tsx:201
 msgid "Lookup table"
 msgstr "Tabella di lookup"
 
-#: nodepkg/component/lookup-select/LookupSelect.tsx:48
+#: nodepkg/component/lookup-select/LookupSelect.tsx:78
 msgid "Loading..."
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:31
+#: nodepkg/editor/EditorWidget.tsx:28
 msgid "Export"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:32
+#: nodepkg/editor/EditorWidget.tsx:29
 msgid "Import"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:33
+#: nodepkg/editor/EditorWidget.tsx:30
 msgid "Sort order"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:34
+#: nodepkg/editor/EditorWidget.tsx:31
 msgid "Resort rows"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:35
+#: nodepkg/editor/EditorWidget.tsx:32
 msgid "Clear"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:38
+#: nodepkg/editor/EditorWidget.tsx:33
 msgid ""
 "All existing records will be deleted after import. Are you sure you want to "
 "proceed?"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:45
+#: nodepkg/editor/EditorWidget.tsx:34
+msgid "All progress will be lost. Are you sure you want to cancel import?"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:41 nodepkg/editor/EditorWidget.tsx:67
+#: nodepkg/editor/EditorWidget.tsx:68 nodepkg/editor/EditorWidget.tsx:88
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:23
 msgid "Key"
 msgstr "Chiave"
 
-#: nodepkg/editor/EditorWidget.tsx:51
+#: nodepkg/editor/EditorWidget.tsx:47 nodepkg/editor/EditorWidget.tsx:72
+#: nodepkg/editor/EditorWidget.tsx:73 nodepkg/editor/EditorWidget.tsx:88
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:30
 msgid "Value"
 msgstr "Valore"
 
-#: nodepkg/editor/EditorWidget.tsx:61
+#: nodepkg/editor/EditorWidget.tsx:57
 msgid "Key, ascending"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:62
+#: nodepkg/editor/EditorWidget.tsx:58
 msgid "Key, descending"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:63
+#: nodepkg/editor/EditorWidget.tsx:59
 msgid "Value, ascending"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:64
+#: nodepkg/editor/EditorWidget.tsx:60
 msgid "Value, descending"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:65
+#: nodepkg/editor/EditorWidget.tsx:61
 msgid "Custom"
 msgstr ""
 
