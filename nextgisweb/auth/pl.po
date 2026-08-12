@@ -1,12 +1,15 @@
 #: api.py:119
+#, python-format
 msgid "The '%s' attribute of the system principal can't be changed."
 msgstr "Atrybut '%s' głównego konta systemowego nie może być zmieniony."
 
 #: api.py:126
+#, python-format
 msgid "Principal '%s' already exists."
 msgstr "Konto '%s' już istnieje."
 
 #: api.py:128
+#, python-format
 msgid "Principal with full name '%s' already exists."
 msgstr "Konto o nazwie '%s' już istnieje."
 
@@ -15,14 +18,17 @@ msgid "Password is not set."
 msgstr "Hasło nie zostało ustawione."
 
 #: api.py:249
+#, python-brace-format
 msgid "To disable the user '{dn}', remove them from the team."
 msgstr ""
 
 #: api.py:251
+#, python-brace-format
 msgid "To enable the user '{dn}', add them to the team."
 msgstr ""
 
 #: api.py:718
+#, python-format
 msgid "User '%s' can't be a member of a group."
 msgstr "Użytkownik '%s' nie może należeć do grupy."
 
@@ -31,6 +37,7 @@ msgid "System principals can't be deleted."
 msgstr "Kont systemowych nie można usuwać."
 
 #: api.py:733
+#, python-brace-format
 msgid "To delete the user '{dn}', remove them from the team first."
 msgstr ""
 
@@ -55,12 +62,14 @@ msgid "Administrator"
 msgstr "Administrator"
 
 #: component.py:246
+#, python-format
 msgid "Maximum number of users is reached. Your current plan user number limit is %d."
 msgstr ""
 "Osiągnięto maksymalną ilość użytkowników. Obecne ograniczenie liczby "
 "użytkowników to %d."
 
 #: component.py:259
+#, python-brace-format
 msgid ""
 "Maximum number of local users is reached. Your current plan local user number"
 " limit is {}."
@@ -148,6 +157,7 @@ msgid "Permissions"
 msgstr "Uprawnienia"
 
 #: nodepkg/group-widget/GroupWidget.tsx:65
+#, python-brace-format
 msgid "{dn} mapping"
 msgstr "Mapowanie {dn}"
 
@@ -156,12 +166,13 @@ msgid "Description"
 msgstr "Uprawnienia"
 
 #: nodepkg/login/LoginForm.tsx:22
+#, python-brace-format
 msgid "Sign in with {}"
 msgstr "Zaloguj się przez {}"
 
 #: nodepkg/login/LoginForm.tsx:23 view.py:61
 msgid "Sign in to Web GIS"
-msgstr "Zaloguj się do Web GIS"
+msgstr "Zaloguj się do Geoportalu"
 
 #: nodepkg/login/LoginForm.tsx:24 nodepkg/session-invite/SessionInvite.tsx:18
 msgid "Sign in"
@@ -230,6 +241,7 @@ msgid "Users with a password can sign in with login and password."
 msgstr "Użytkownicy z hasłem mogą się logować za pomocą loginu i hasła."
 
 #: nodepkg/user-browse/UserBrowse.tsx:34
+#, python-brace-format
 msgid "Users bound to {dn} can sign in with {dn}."
 msgstr "Użytkownicy powiązani z {dn} mogą się logować przez {dn}."
 
@@ -262,6 +274,7 @@ msgid "Enable"
 msgstr "Włączone"
 
 #: nodepkg/user-widget/UserWidget.tsx:22
+#, python-brace-format
 msgid ""
 "Consider adding {name} user to your team instead of creating a new user with "
 "a password."
@@ -301,14 +314,17 @@ msgid "The generated link will be available after saving."
 msgstr "Wygenerowany link będzie dostępny po zapisaniu."
 
 #: nodepkg/user-widget/UserWidgetPassword.tsx:19
+#, python-brace-format
 msgid "{name} only"
 msgstr "Tylko {name}"
 
 #: oauth.py:327
+#, python-brace-format
 msgid "{} binding error"
 msgstr "Błąd powiązania {}"
 
 #: oauth.py:329
+#, python-brace-format
 msgid ""
 "This {dn} account ({sub}) is already bound to the different user ({id}). Log "
 "in using this account instead of binding it."
@@ -329,8 +345,8 @@ msgid ""
 "You are not a member of this Web GIS team. Contact Web GIS administrator and "
 "ask to be added to the team."
 msgstr ""
-"Nie jesteś członkiem tego zespołu Web GIS. Skontaktuj się z administratorem "
-"Web GIS i poproś o dodanie do zespołu."
+"Nie jesteś członkiem tego zespołu tego Geoportalu. Skontaktuj się z "
+"administratorem Geoportalu i poproś o dodanie do zespołu."
 
 #: oauth.py:732
 msgid "Invalid OAuth token"

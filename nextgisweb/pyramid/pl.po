@@ -198,7 +198,7 @@ msgid ""
 "GIS on other websites. One origin per line."
 msgstr ""
 "Wprowadź dozwolone źródła dla zadań międzydomenowych, aby korzystać z HTTP "
-"API tego Web GIS na innych stronach internetowych. Jedno źródło w jednej "
+"API tego Geoportalu na innych stronach internetowych. Jedno źródło w jednej "
 "linii."
 
 #: nodepkg/cors-settings/CORSSettings.tsx:19
@@ -233,19 +233,19 @@ msgid ""
 " all pages of your Web GIS."
 msgstr ""
 "Wprowadź tutaj własne zasady CSS. Będą używane do redefiniowania stylów i "
-"projektu dla wszystkich stron Web GIS."
+"projektu dla wszystkich stron Geoportalu."
 
 #: nodepkg/fonts/FontsPanel.tsx:28
 msgid ""
 "During operation, the Web GIS will restart. All existing requests will be "
 "aborted. Proceed?"
 msgstr ""
-"Podczas operacji Web GIS zostanie uruchomiony ponownie. Wszystkie trwające "
+"Podczas operacji Geoportal zostanie uruchomiony ponownie. Wszystkie trwające "
 "żądania zostaną przerwane. Kontynuować?"
 
 #: nodepkg/fonts/FontsPanel.tsx:29
 msgid "Web GIS is restarting, please wait..."
-msgstr "Web GIS jest ponownie uruchamiany, proszę czekać..."
+msgstr "Geoportal jest ponownie uruchamiany, proszę czekać..."
 
 #: nodepkg/fonts/FontsPanel.tsx:31
 msgid "Custom"
@@ -349,7 +349,7 @@ msgstr "Przeładuj stronę, aby zastosować ustawienia."
 
 #: nodepkg/metrics/MetricSettings.tsx:24
 msgid "Add one or more counters to your Web GIS."
-msgstr "Dodaj jeden lub więcej liczników do swojej sieci GIS."
+msgstr "Dodaj jeden lub więcej liczników do swojego Geoportalu."
 
 #: nodepkg/metrics/MetricSettings.tsx:25
 msgid ""
@@ -513,8 +513,8 @@ msgid ""
 "Web GIS browser compatibility test has been passed! The Web GIS should work "
 "fine."
 msgstr ""
-"Test kompatybilności przeglądarki Web GIS zakończony pomyślnie! Przeglądarka "
-"Web GIS powinna pracować dobrze."
+"Test kompatybilności przeglądarki z Geoportalem zakończony pomyślnie! "
+"Geoportal powinien pracować dobrze."
 
 #: template/uacompat.mako:26
 #, python-format
@@ -528,8 +528,10 @@ msgid ""
 "outdated browser lacking required features. Try a different browser or "
 "contact your system administrator if another browser isn't available."
 msgstr ""
-"Używasz %(name)s, która nie jest obsługiwana przez Web GIS. Przeglądarka jest"
-" przestarzała. Spróbuj innej lub skontaktuj się z administratorem."
+"Używasz przeglądarki %(name)s, która nie jest obsługiwana przez Geoportal. To"
+" przestarzała przeglądarka, której brakuje wymaganych funkcji. Spróbuj innej "
+"przeglądarki lub skontaktuj się z administratorem systemu, jeśli inna "
+"przeglądarka nie jest dostępna.."
 
 #: template/uacompat.mako:29
 #, python-format
@@ -544,9 +546,10 @@ msgid ""
 "administrator for upgrading to %(name)s %(required)s+ or try a different "
 "browser."
 msgstr ""
-"Używasz %(name)s %(current)s, która nie jest obsługiwana przez Web GIS. "
-"Przeglądarka jest przestarzała. Skontaktuj się z administratorem w sprawie "
-"aktualizacji do %(name)s %(required)s+ lub użyj innej przeglądarki."
+"Używasz przeglądarki %(name)s %(current)s, która nie jest obsługiwana przez "
+"Geoportal. To przestarzała wersja, której brakuje wymaganych funkcji. "
+"Skontaktuj się z administratorem systemu w sprawie aktualizacji do wersji "
+"%(name)s %(required)s+ lub spróbuj innej przeglądarki."
 
 #: template/uacompat.mako:34
 msgid ""
@@ -555,7 +558,7 @@ msgid ""
 "or fail  in this case."
 msgstr ""
 "Jeśli mimo to chcesz kontynuować, kliknij, aby pominąć test kompatybilności. "
-"Niektóre funkcje Web GIS mogą nie działać."
+"Niektóre funkcje Geoportalu mogą nie działać."
 
 #: template/uacompat.mako:35
 msgid "I understood but want to proceed at my own risk. Skip the test!"
@@ -567,7 +570,9 @@ msgstr "Nieznana przeglądarka"
 
 #: template/uacompat.mako:38
 msgid "If you are using an up-to-date browser the Web GIS should be fine."
-msgstr "Jeśli korzystasz z aktualnej przeglądarki, Web GIS powinien działać poprawnie."
+msgstr ""
+"Jeśli korzystasz z aktualnej przeglądarki, Geoportal powinien działać "
+"poprawnie."
 
 #: tomb/config.py:98
 msgid "Parameter required"
@@ -621,7 +626,7 @@ msgstr "Własne logo"
 
 #: view.py:336 view.py:775
 msgid "Web GIS name"
-msgstr "Nazwa strony internetowej GIS"
+msgstr "Nazwa Geoportalu"
 
 #: view.py:345 view.py:793
 msgid "Home path"

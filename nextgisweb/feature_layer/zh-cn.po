@@ -1,25 +1,25 @@
-#: api.py:119 api_identify.py:27
+#: api.py:120 api_identify.py:27
 msgid "Geometry is not valid."
 msgstr "几何形状是无效的。"
 
-#: api.py:385
+#: api.py:388
 msgid "Unknown spatial reference system"
 msgstr ""
 
-#: api.py:472 api_export.py:213
+#: api.py:475 api_export.py:214
 msgid "Parameter 'intersects' geometry is not valid."
 msgstr "参数'intersects'为无效的几何形状。"
 
-#: api.py:715
+#: api.py:718
 msgid "Aggregation is not supported for this layer."
 msgstr ""
 
-#: api.py:724
+#: api.py:727
 #, python-brace-format
 msgid "Aggregation '{}' is not supported for this layer."
 msgstr ""
 
-#: api.py:730 api.py:737
+#: api.py:733 api.py:740
 #, python-brace-format
 msgid "Field '{}' not found."
 msgstr ""
@@ -29,27 +29,32 @@ msgstr ""
 msgid "Couldn't add FID field '{}'. Such field already exists."
 msgstr ""
 
-#: api_export.py:252
+#: api_export.py:253
 #, python-brace-format
 msgid "The selected format does not support {} geometry type."
 msgstr ""
 
-#: api_export.py:265
+#: api_export.py:266
 #, python-brace-format
 msgid "The export limit is set to {limit} features, but the layer contains {count}."
 msgstr ""
 
-#: api_export.py:278
+#: api_export.py:279
 msgid "Failed to reproject 'intersects' geometry."
 msgstr ""
 
-#: api_export.py:289
+#: api_export.py:290
 msgid "Filter expressions are not supported."
 msgstr ""
 
-#: api_export.py:459
+#: api_export.py:461
 #, python-brace-format
 msgid "File name parameter '{}' is not valid."
+msgstr ""
+
+#: api_mvt.py:95
+#, python-brace-format
+msgid "Resource (ID={}) has no geometry, MVT tiles are not available."
 msgstr ""
 
 #: dtutil.py:28
@@ -93,7 +98,7 @@ msgstr ""
 msgid "Unable to restore the #{} feature as it is not deleted."
 msgstr ""
 
-#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:27 view.py:43
+#: favorite.py:6 nodepkg/fields-widget/FieldsWidget.tsx:28 view.py:45
 msgid "Feature table"
 msgstr "要素列表"
 
@@ -101,152 +106,170 @@ msgstr "要素列表"
 msgid "Invalid filter expression"
 msgstr ""
 
-#: model.py:197
+#: model.py:109
+msgid "Spatial reference system"
+msgstr ""
+
+#: model.py:266
 #, python-format
 msgid "Field not found (ID=%d)."
 msgstr "字段未找到（ID=%d）"
 
-#: model.py:274
+#: model.py:336
 msgid "Versioning not supported"
 msgstr ""
 
-#: nodepkg/attribute-editor/AttributeEditor.tsx:38
+#: nodepkg/attribute-editor/AttributeEditor.tsx:39
 msgid "Set field value to NULL (No data)"
 msgstr "将字段值设置为NULL（无数据）"
 
-#: nodepkg/attribute-editor/AttributeEditor.tsx:39
+#: nodepkg/attribute-editor/AttributeEditor.tsx:40
 msgid "There are no attributes in the vector layer"
 msgstr ""
 
-#: nodepkg/attribute-editor/plugin.ts:10
+#: nodepkg/attribute-editor/plugin.ts:14
 msgid "Attributes"
 msgstr "属性"
 
 #: nodepkg/control-panel-plugin.tsx:11
 #: nodepkg/settings-widget/SettingsWidget.tsx:12 versioning/model.py:106
-#: view.py:148
+#: view.py:154
 msgid "Feature versioning"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:242
+#: nodepkg/export-form/ExportForm.tsx:269
 msgid "Resources"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:264
+#: nodepkg/export-form/ExportForm.tsx:291
 msgid "Format"
 msgstr "格式"
 
-#: nodepkg/export-form/ExportForm.tsx:277
+#: nodepkg/export-form/ExportForm.tsx:304
 msgid "SRS"
 msgstr "SRS坐标系统"
 
-#: nodepkg/export-form/ExportForm.tsx:282
+#: nodepkg/export-form/ExportForm.tsx:310
 msgid "Encoding"
 msgstr "编码"
 
-#: nodepkg/export-form/ExportForm.tsx:296
+#: nodepkg/export-form/ExportForm.tsx:324
 msgid "FID field"
 msgstr "字段FID"
 
-#: nodepkg/export-form/ExportForm.tsx:300
+#: nodepkg/export-form/ExportForm.tsx:328
 msgid "Use field display names instead of keynames"
 msgstr "使用字段显示名称，而不是密钥名称"
 
-#: nodepkg/export-form/ExportForm.tsx:306
-#: nodepkg/fields-widget/FieldsWidget.tsx:201
+#: nodepkg/export-form/ExportForm.tsx:334
+#: nodepkg/fields-widget/FieldsWidget.tsx:215
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:51
 msgid "Fields"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:312
+#: nodepkg/export-form/ExportForm.tsx:340
 msgid "Limit by extent"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:318
+#: nodepkg/export-form/ExportForm.tsx:347
 msgid "Filter text"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:328
+#: nodepkg/export-form/ExportForm.tsx:357
 msgid "Filter applied"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:329
+#: nodepkg/export-form/ExportForm.tsx:358
 msgid "Set filter"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:332
+#: nodepkg/export-form/ExportForm.tsx:361
 msgid "Filter"
 msgstr ""
 
-#: nodepkg/export-form/ExportForm.tsx:337
+#: nodepkg/export-form/ExportForm.tsx:366
 msgid "Zip archive"
 msgstr "ZIP-档案"
 
-#: nodepkg/export-form/ExportForm.tsx:390
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
+#: nodepkg/export-form/ExportForm.tsx:422
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:36
 #: nodepkg/versioning-settings/VersioningSettings.tsx:71
 msgid "Save"
 msgstr "保存"
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:28
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:17
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:30
+#: nodepkg/json-value/JsonValuePreview.tsx:12
 msgid "Cancel"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:21
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:19
 msgid "Are you sure?"
 msgstr ""
 
-#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:22
+#: nodepkg/feature-editor-modal/FeatureEditorModal.tsx:20
 msgid "Unsaved changes will be lost if you close the window."
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:35
 msgid "Loading..."
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:42
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:37
 msgid "OK"
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:43
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:38
 msgid "Reset"
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:45
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:40
 msgid "Feature saved"
 msgstr ""
 
-#: nodepkg/feature-editor/FeatureEditorWidget.tsx:46
+#: nodepkg/feature-editor/FeatureEditorWidget.tsx:41
 msgid "No changes to save"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:25
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:27
 msgid "Constructor"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:26
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:28
 msgid "JSON"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:27
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:29
+#: nodepkg/json-value/JsonValueModal.tsx:9
 msgid "Apply"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:29
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:31
 msgid "Clear"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:62
-msgid "Filter is invalid. Please fix errors before applying."
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:32
+msgid "Generate with AI"
+msgstr ""
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:33
+msgid "Describe the filter in plain language…"
 msgstr ""
 
 #: nodepkg/feature-filter/FeatureFilterEditor.tsx:71
+msgid "Filter is invalid. Please fix errors before applying."
+msgstr ""
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:80
 msgid "Filter applied successfully"
 msgstr ""
 
-#: nodepkg/feature-filter/FeatureFilterEditor.tsx:73
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:82
 msgid "Failed to apply filter"
+msgstr ""
+
+#: nodepkg/feature-filter/FeatureFilterEditor.tsx:109
+msgid "Failed to generate filter"
 msgstr ""
 
 #: nodepkg/feature-filter/FilterEditorStore.ts:106
@@ -278,15 +301,15 @@ msgstr ""
 msgid "Validation failed"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:38
+#: nodepkg/feature-filter/component/FilterCondition.tsx:39
 msgid "Delete condition"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:40
+#: nodepkg/feature-filter/component/FilterCondition.tsx:41
 msgid "Select field"
 msgstr ""
 
-#: nodepkg/feature-filter/component/FilterCondition.tsx:41
+#: nodepkg/feature-filter/component/FilterCondition.tsx:42
 msgid "Operator"
 msgstr ""
 
@@ -324,59 +347,59 @@ msgstr ""
 msgid "Field not found"
 msgstr ""
 
-#: nodepkg/feature-filter/testentry.tsx:120
+#: nodepkg/feature-filter/testentry.tsx:127
 msgid "Output JSON"
 msgstr ""
 
-#: nodepkg/feature-filter/testentry.tsx:121
+#: nodepkg/feature-filter/testentry.tsx:128
 msgid "Current filter state"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:167
+#: nodepkg/feature-filter/type.ts:168
 msgid "Equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:181
+#: nodepkg/feature-filter/type.ts:182
 msgid "Not equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:195
+#: nodepkg/feature-filter/type.ts:196
 msgid "Greater"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:200
+#: nodepkg/feature-filter/type.ts:209
 msgid "Less"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:205
+#: nodepkg/feature-filter/type.ts:222
 msgid "Greater or equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:210
+#: nodepkg/feature-filter/type.ts:235
 msgid "Less or equal"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:215
+#: nodepkg/feature-filter/type.ts:248
 msgid "In list"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:220
+#: nodepkg/feature-filter/type.ts:253
 msgid "Not in list"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:225
+#: nodepkg/feature-filter/type.ts:258
 msgid "Is NULL"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:239
+#: nodepkg/feature-filter/type.ts:272
 msgid "Is not NULL"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:253
+#: nodepkg/feature-filter/type.ts:286
 msgid "Matches (case-insensitive)"
 msgstr ""
 
-#: nodepkg/feature-filter/type.ts:258
+#: nodepkg/feature-filter/type.ts:291
 msgid "Does not match (case-insensitive)"
 msgstr ""
 
@@ -541,83 +564,107 @@ msgstr "搜索"
 msgid "Advanced filter"
 msgstr ""
 
-#: nodepkg/feature-grid/FeatureTable.tsx:89
-#: nodepkg/feature-grid/component/TableConfigModal.tsx:49
+#: nodepkg/feature-grid/FeatureTable.tsx:91
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:98
 msgid "Last changed"
 msgstr ""
 
-#: nodepkg/feature-grid/component/ExportAction.tsx:30
-#: nodepkg/resource-action-plugin.tsx:63 view.py:88 view.py:112
+#: nodepkg/feature-grid/component/ExportAction.tsx:27
+#: nodepkg/resource-action-plugin.tsx:63 view.py:90 view.py:114
 msgid "Save as"
 msgstr "保存为"
 
-#: nodepkg/feature-grid/component/ExportAction.tsx:31
+#: nodepkg/feature-grid/component/ExportAction.tsx:28
 msgid "Advanced export"
 msgstr ""
 
-#: nodepkg/feature-grid/component/ExportAction.tsx:32
+#: nodepkg/feature-grid/component/ExportAction.tsx:29
 msgid "Quick export"
 msgstr ""
 
-#: nodepkg/feature-grid/component/ExportAction.tsx:33
+#: nodepkg/feature-grid/component/ExportAction.tsx:30
 msgid "Filters are applied"
 msgstr ""
 
-#: nodepkg/feature-grid/util/renderFeatureFieldValue.ts:13
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:34
+msgid "Configure table columns"
+msgstr ""
+
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:35
+msgid "Search columns"
+msgstr ""
+
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:36
+msgid "Enable all"
+msgstr ""
+
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:37
+msgid "Disable all"
+msgstr ""
+
+#: nodepkg/feature-grid/component/TableConfigModal.tsx:38
+msgid "No fields"
+msgstr ""
+
+#: nodepkg/feature-grid/util/renderFeatureFieldValue.ts:15
 msgid "True"
 msgstr ""
 
-#: nodepkg/feature-grid/util/renderFeatureFieldValue.ts:13
+#: nodepkg/feature-grid/util/renderFeatureFieldValue.ts:15
 msgid "False"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:23
+#: nodepkg/fields-widget/FieldsWidget.tsx:24
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:31
 #: nodepkg/version-history/component/menu-items/copy-menu-item/CopyForm.tsx:75
 msgid "Display name"
 msgstr "显示名字"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:24
+#: nodepkg/fields-widget/FieldsWidget.tsx:25
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:19
 msgid "Keyname"
 msgstr "密钥名称"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:25
+#: nodepkg/fields-widget/FieldsWidget.tsx:26
 #: nodepkg/resource-section/FeatureLayerResourceSection.tsx:25
 msgid "Type"
 msgstr "类型"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:26
+#: nodepkg/fields-widget/FieldsWidget.tsx:27
 msgid "Lookup table"
 msgstr "参考表"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:28
+#: nodepkg/fields-widget/FieldsWidget.tsx:29
 msgid "Text search"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:29
+#: nodepkg/fields-widget/FieldsWidget.tsx:30
 msgid "Label attribute"
 msgstr "标签属性"
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:30
+#: nodepkg/fields-widget/FieldsWidget.tsx:31
+msgid "Required"
+msgstr ""
+
+#: nodepkg/fields-widget/FieldsWidget.tsx:32
 msgid "Delete field?"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:31
+#: nodepkg/fields-widget/FieldsWidget.tsx:33
 msgid ""
 "Deleting this field will permanently erase all its version history from this "
 "layer."
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:32
+#: nodepkg/fields-widget/FieldsWidget.tsx:34
 msgid "Please select"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:33
+#: nodepkg/fields-widget/FieldsWidget.tsx:35
 msgid "Not used"
 msgstr ""
 
-#: nodepkg/fields-widget/FieldsWidget.tsx:115
+#: nodepkg/fields-widget/FieldsWidget.tsx:123
 msgid "Field"
 msgstr ""
 
@@ -631,7 +678,7 @@ msgstr ""
 msgid "Feature count"
 msgstr ""
 
-#: nodepkg/geometry-editor/plugin.ts:10
+#: nodepkg/geometry-editor/plugin.ts:14
 msgid "Geometry"
 msgstr ""
 
@@ -679,6 +726,19 @@ msgstr ""
 msgid "Extent (yMax)"
 msgstr ""
 
+#: nodepkg/json-value/JsonValueModal.tsx:8
+#: nodepkg/json-value/JsonValuePreview.tsx:14
+msgid "Invalid JSON"
+msgstr ""
+
+#: nodepkg/json-value/JsonValuePreview.tsx:13
+msgid "Edit JSON"
+msgstr ""
+
+#: nodepkg/json-value/JsonValuePreview.tsx:15
+msgid "View JSON"
+msgstr ""
+
 #: nodepkg/resource-action-plugin.tsx:22
 #: nodepkg/version-history/hook/useColumns.tsx:73
 msgid "Features"
@@ -688,7 +748,7 @@ msgstr "要素"
 msgid "Table"
 msgstr "列表"
 
-#: nodepkg/resource-action-plugin.tsx:45 view.py:101
+#: nodepkg/resource-action-plugin.tsx:45 view.py:103
 msgid "Version history"
 msgstr ""
 
@@ -704,6 +764,38 @@ msgstr ""
 
 #: nodepkg/settings-widget/SettingsWidget.tsx:51
 msgid "Settings"
+msgstr ""
+
+#: nodepkg/util/geometry-types.ts:9
+msgid "Point"
+msgstr ""
+
+#: nodepkg/util/geometry-types.ts:12
+msgid "LineString"
+msgstr ""
+
+#: nodepkg/util/geometry-types.ts:15
+msgid "LinearRing"
+msgstr ""
+
+#: nodepkg/util/geometry-types.ts:18
+msgid "Polygon"
+msgstr ""
+
+#: nodepkg/util/geometry-types.ts:21
+msgid "MultiPoint"
+msgstr ""
+
+#: nodepkg/util/geometry-types.ts:24
+msgid "MultiLineString"
+msgstr ""
+
+#: nodepkg/util/geometry-types.ts:27
+msgid "MultiPolygon"
+msgstr ""
+
+#: nodepkg/util/geometry-types.ts:30
+msgid "GeometryCollection"
 msgstr ""
 
 #: nodepkg/version-history/VersionHistory.tsx:107
@@ -797,7 +889,7 @@ msgstr ""
 
 #: nodepkg/version-history/component/menu-items/copy-menu-item/CopyForm.tsx:163
 #: nodepkg/version-history/component/menu-items/copy-menu-item/CopyModal.tsx:21
-#: nodepkg/version-history/component/menu-items/copy-menu-item/useCopyMenuItem.tsx:27
+#: nodepkg/version-history/component/menu-items/copy-menu-item/useCopyMenuItem.tsx:29
 msgid "Create copy"
 msgstr ""
 
@@ -947,16 +1039,16 @@ msgstr ""
 msgid "Invalid range"
 msgstr ""
 
-#: view.py:61 view.py:77
+#: view.py:63 view.py:79
 #, python-format
 msgid "Feature #%d"
 msgstr "要素#%d"
 
-#: view.py:119
+#: view.py:121
 msgid "MVT Vector Tiles"
 msgstr "MVT矢量瓦片"
 
-#: view.py:121
+#: view.py:123
 msgid ""
 "The Mapbox Vector Tile is an efficient encoding for map data into vector "
 "tiles that can be rendered dynamically."

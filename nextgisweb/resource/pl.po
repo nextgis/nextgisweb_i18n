@@ -290,7 +290,7 @@ msgstr "Anuluj"
 
 #: nodepkg/control-panel-plugin.tsx:11 view.py:231
 msgid "Resource export"
-msgstr "Ekspert zasobu"
+msgstr "Eksport zasobów"
 
 #: nodepkg/delete-page/DeletePageModal.tsx:18
 msgid "Confirmation required"
@@ -729,7 +729,7 @@ msgstr "Użyj połączenia"
 
 #: scope.py:53
 msgid "Web GIS services"
-msgstr "Usługi Web GIS"
+msgstr "Usługi Geoportalu"
 
 #: scope.py:55
 msgctxt "permission"

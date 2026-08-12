@@ -1,4 +1,4 @@
-#: model.py:34 nodepkg/editor/EditorWidget.tsx:201
+#: model.py:38 nodepkg/editor/EditorWidget.tsx:201
 msgid "Lookup table"
 msgstr "Vyhledávací tabulka"
 
@@ -39,29 +39,29 @@ msgstr ""
 #: nodepkg/editor/EditorWidget.tsx:41 nodepkg/editor/EditorWidget.tsx:67
 #: nodepkg/editor/EditorWidget.tsx:68 nodepkg/editor/EditorWidget.tsx:88
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:23
-msgid "Key"
-msgstr "Klíč"
+msgid "Value"
+msgstr "Hodnota"
 
 #: nodepkg/editor/EditorWidget.tsx:47 nodepkg/editor/EditorWidget.tsx:72
 #: nodepkg/editor/EditorWidget.tsx:73 nodepkg/editor/EditorWidget.tsx:88
 #: nodepkg/resource-section/LookupTableResourceSection.tsx:30
-msgid "Value"
-msgstr "Hodnota"
+msgid "Label"
+msgstr ""
 
 #: nodepkg/editor/EditorWidget.tsx:57
-msgid "Key, ascending"
-msgstr ""
-
-#: nodepkg/editor/EditorWidget.tsx:58
-msgid "Key, descending"
-msgstr ""
-
-#: nodepkg/editor/EditorWidget.tsx:59
 msgid "Value, ascending"
 msgstr ""
 
-#: nodepkg/editor/EditorWidget.tsx:60
+#: nodepkg/editor/EditorWidget.tsx:58
 msgid "Value, descending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:59
+msgid "Label, ascending"
+msgstr ""
+
+#: nodepkg/editor/EditorWidget.tsx:60
+msgid "Label, descending"
 msgstr ""
 
 #: nodepkg/editor/EditorWidget.tsx:61

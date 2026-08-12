@@ -1,8 +1,8 @@
-#: model.py:24 nodepkg/layer-widget/LayerWidget.tsx:206
+#: model.py:26 nodepkg/layer-widget/LayerWidget.tsx:208
 msgid "Basemap"
 msgstr "Базова карта"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:17
+#: nodepkg/layer-widget/LayerWidget.tsx:18
 msgid "Pick from QMS"
 msgstr "Избери от QMS"
 
@@ -14,11 +14,11 @@ msgstr "Търсене на услуги от "
 msgid "You can search by name or ID"
 msgstr "Търсене по име или ID"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:24
+#: nodepkg/layer-widget/LayerWidget.tsx:21
 msgid "If a service from QMS is selected, this field cannot be edited."
 msgstr "Ако е избрана услуга от QMS, полето не може да се редактира."
 
-#: nodepkg/layer-widget/LayerWidget.tsx:25
+#: nodepkg/layer-widget/LayerWidget.tsx:22
 msgid ""
 "Above this zoom level, no new tiles are fetched but tiles from the nearest "
 "allowed zoom are displayed and upscaled."
@@ -26,50 +26,66 @@ msgstr ""
 "Над това ниво на приближаване плочките не се запитват, но се отобразяват "
 "увеличените плочки от най-близкото разрешено ниво."
 
-#: nodepkg/layer-widget/LayerWidget.tsx:26
+#: nodepkg/layer-widget/LayerWidget.tsx:23
 msgid "Below this zoom level, the layer is hidden and no new tiles are fetched."
 msgstr "Под това ниво на приближаване слоят е скрит и плочките не се запитват."
 
-#: nodepkg/layer-widget/LayerWidget.tsx:101
+#: nodepkg/layer-widget/LayerWidget.tsx:106
 msgid "URL"
 msgstr "URL"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:108
+#: nodepkg/layer-widget/LayerWidget.tsx:113
 msgid "Copyright text"
 msgstr "Текст на копирайта"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:116
+#: nodepkg/layer-widget/LayerWidget.tsx:121
 msgid "Copyright URL"
 msgstr "Линк към копирайта"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:123
+#: nodepkg/layer-widget/LayerWidget.tsx:128
 msgid "Min zoom level"
 msgstr "Минимално приближаване"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:135
+#: nodepkg/layer-widget/LayerWidget.tsx:140
 msgid "Max zoom level"
 msgstr "Максимално приближаване"
 
-#: nodepkg/plugin/base-map/BaseMap.ts:59
+#: nodepkg/plugin/base-map/BasemapLayers.tsx:118
 msgid "No basemap"
 msgstr "Без базова карта"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:24
+#: nodepkg/webmap-widget/AdditionalSettingsWidget.tsx:10
+msgid "Disable basemaps"
+msgstr ""
+
+#: nodepkg/webmap-widget/AdditionalSettingsWidget.tsx:11
+msgid "Background color"
+msgstr ""
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:26
+msgid "Additional settings"
+msgstr ""
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:27
+msgid "Back to basemaps"
+msgstr ""
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:35
 msgid "Display name"
 msgstr "Показвано име"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:31
+#: nodepkg/webmap-widget/WebMapWidget.tsx:42
 msgid "Default basemap"
 msgstr "Базова карта по подразбиране"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:34
+#: nodepkg/webmap-widget/WebMapWidget.tsx:45
 msgid "Opacity"
 msgstr "Непрозрачност"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:39
+#: nodepkg/webmap-widget/WebMapWidget.tsx:50
 msgid "Resource"
 msgstr "Ресурс"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:103
+#: nodepkg/webmap-widget/WebMapWidget.tsx:155
 msgid "Basemaps"
 msgstr "Базови карти"

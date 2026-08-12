@@ -1,8 +1,20 @@
-#: amd/ngw-feature-description/DisplayWidget.js:7
-#: nodepkg/description-editor/index.ts:7
-msgid "Description"
-msgstr "Beschreibung"
-
-#: util.py:19
+#: api_import.py:22
 msgid "Invalid ZIP archive."
 msgstr ""
+
+#: api_import.py:35
+msgid "Files must be named using the format '{0}.html', but got '{1}'."
+msgstr ""
+
+#: api_import.py:36
+msgid "{feature ID}"
+msgstr ""
+
+#: api_import.py:64
+msgid "The file '{0}' does not contain a <body> element and cannot be processed."
+msgstr ""
+
+#: nodepkg/description-editor/plugin.ts:12
+#: nodepkg/description-view/DescriptionView.tsx:16
+msgid "Description"
+msgstr "Beschreibung"

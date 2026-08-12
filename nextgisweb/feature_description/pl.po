@@ -1,10 +1,20 @@
-#: nodepkg/description-editor/plugin.ts:8
-#: nodepkg/description-view/DescriptionView.tsx:15
-#, jsrealm
-msgid "Description"
-msgstr "Opis funkcji"
-
-#: util.py:19
-#, server
+#: api_import.py:22
 msgid "Invalid ZIP archive."
 msgstr "Nieprawidłowe archiwum ZIP."
+
+#: api_import.py:35
+msgid "Files must be named using the format '{0}.html', but got '{1}'."
+msgstr ""
+
+#: api_import.py:36
+msgid "{feature ID}"
+msgstr ""
+
+#: api_import.py:64
+msgid "The file '{0}' does not contain a <body> element and cannot be processed."
+msgstr ""
+
+#: nodepkg/description-editor/plugin.ts:12
+#: nodepkg/description-view/DescriptionView.tsx:16
+msgid "Description"
+msgstr "Opis funkcji"

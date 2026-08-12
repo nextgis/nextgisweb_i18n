@@ -1,7 +1,7 @@
 #: model.py:47 nodepkg/tmsclient-connection/TmsClientConnectionWidget.tsx:115
 #: nodepkg/tmsclient-layer/TmsClientLayerWidget.tsx:113
 msgid "TMS connection"
-msgstr "Połączenia TMS"
+msgstr "Połączenie TMS"
 
 #: model.py:109
 msgid "API key required."

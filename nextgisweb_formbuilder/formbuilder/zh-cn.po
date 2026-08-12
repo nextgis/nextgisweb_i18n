@@ -45,7 +45,7 @@ msgid ""
 "removed from the form."
 msgstr ""
 
-#: model.py:194 nodepkg/editor-widget/FormbuilderEditorWidget.tsx:257
+#: model.py:194 nodepkg/editor-widget/FormbuilderEditorWidget.tsx:252
 #: nodepkg/form-widget/FormWidget.tsx:132
 msgid "Form"
 msgstr "表单"
@@ -83,43 +83,21 @@ msgstr ""
 msgid "Data type"
 msgstr ""
 
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:29
-#: nodepkg/editor-widget/component/OptionsInput.tsx:24
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:24
+#: nodepkg/editor-widget/component/OptionsInput.tsx:20
 msgid "Edit"
 msgstr ""
 
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:30
-#: nodepkg/editor-widget/component/OptionsInput.tsx:25
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:25
+#: nodepkg/editor-widget/component/OptionsInput.tsx:21
 msgid "View"
 msgstr ""
 
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:31
-#: nodepkg/editor-widget/component/OptionsInput.tsx:26
-#: nodepkg/editor-widget/element.tsx:627 nodepkg/editor-widget/element.tsx:696
-#: nodepkg/editor-widget/element.tsx:766 nodepkg/editor-widget/element.tsx:840
-msgid "Options"
-msgstr ""
-
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:32
-#: nodepkg/editor-widget/component/OptionsInput.tsx:27
-msgid "Export"
-msgstr ""
-
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:33
-#: nodepkg/editor-widget/component/OptionsInput.tsx:28
-msgid "Import"
-msgstr ""
-
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:34
-#: nodepkg/editor-widget/component/OptionsInput.tsx:29
-msgid "Done"
-msgstr ""
-
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:35
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:26
 msgid "Select or add an option in the table above to see dependent options"
 msgstr ""
 
-#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:425
+#: nodepkg/editor-widget/component/CascadeOptionsInput.tsx:372
 msgid "Dependent options"
 msgstr ""
 
@@ -141,6 +119,32 @@ msgstr ""
 
 #: nodepkg/editor-widget/component/Mockup.tsx:25
 msgid "Data binding"
+msgstr ""
+
+#: nodepkg/editor-widget/component/OptionsModal.tsx:25
+#: nodepkg/editor-widget/element.tsx:627 nodepkg/editor-widget/element.tsx:696
+#: nodepkg/editor-widget/element.tsx:766 nodepkg/editor-widget/element.tsx:840
+msgid "Options"
+msgstr ""
+
+#: nodepkg/editor-widget/component/OptionsModal.tsx:26
+msgid "Export"
+msgstr ""
+
+#: nodepkg/editor-widget/component/OptionsModal.tsx:27
+msgid "Import"
+msgstr ""
+
+#: nodepkg/editor-widget/component/OptionsModal.tsx:28
+msgid "From file"
+msgstr ""
+
+#: nodepkg/editor-widget/component/OptionsModal.tsx:29
+msgid "From lookup table"
+msgstr ""
+
+#: nodepkg/editor-widget/component/OptionsModal.tsx:30
+msgid "Done"
 msgstr ""
 
 #: nodepkg/editor-widget/component/PropertiesPanel.tsx:29
@@ -364,15 +368,15 @@ msgstr ""
 msgid "Group"
 msgstr ""
 
-#: nodepkg/editor-widget/util/useFieldValidationRules.ts:6
+#: nodepkg/editor-widget/util/useFieldValidationRules.ts:8
 msgid "Mandatory field"
 msgstr ""
 
-#: nodepkg/editor-widget/util/useFieldValidationRules.ts:7
+#: nodepkg/editor-widget/util/useFieldValidationRules.ts:9
 msgid "Key must be unique"
 msgstr ""
 
-#: nodepkg/editor-widget/util/useFieldValidationRules.ts:8
+#: nodepkg/editor-widget/util/useFieldValidationRules.ts:10
 msgid "Display name must be unique"
 msgstr ""
 

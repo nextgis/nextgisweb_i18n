@@ -90,7 +90,7 @@ msgstr "כותרת הרשאה לא חוקית"
 #: exception.py:12
 #, server
 msgid "Invalid credentials"
-msgstr "אישורים לא חוקיים"
+msgstr "פרטי התחברות שגויים"
 
 #: exception.py:17
 #, server
@@ -125,7 +125,7 @@ msgstr "מְאוּמָת"
 #: model.py:101
 #, server
 msgid "Owner"
-msgstr "בַּעַל"
+msgstr "בעלים"
 
 #: model.py:221
 #, server
@@ -200,7 +200,7 @@ msgstr "מיפוי {dn}"
 #: nodepkg/group-widget/GroupWidget.tsx:72 nodepkg/user-widget/UserWidget.tsx:119
 #, jsrealm
 msgid "Description"
-msgstr "תֵאוּר"
+msgstr "תיאור"
 
 #: nodepkg/login/LoginForm.tsx:22
 #, jsrealm, python-brace-format
@@ -272,7 +272,7 @@ msgstr "נשמר"
 #: nodepkg/user-browse/UserBrowse.tsx:24 nodepkg/user-widget/UserWidget.tsx:92
 #, jsrealm
 msgid "Disabled"
-msgstr "נָכֶה"
+msgstr "מושבת"
 
 #: nodepkg/user-browse/UserBrowse.tsx:25
 #, jsrealm

@@ -1,28 +1,28 @@
-#: lockable_feature.py:74
+#: lockable_feature.py:71
 msgid "Use on other websites (CORS)"
 msgstr "Utiliser sur d'autres sites Web (CORS)"
 
-#: lockable_feature.py:92
+#: lockable_feature.py:84
 msgid "Custom domain and branding"
 msgstr "Domaine et image de marque personnalisés"
 
-#: lockable_feature.py:98
+#: lockable_feature.py:90
 msgid "Improved performance"
 msgstr "Performances améliorées"
 
-#: lockable_feature.py:105
+#: lockable_feature.py:96
 msgid "Access management"
 msgstr "Gestion des accès"
 
-#: lockable_feature.py:177
+#: lockable_feature.py:168
 msgid "Technical support"
 msgstr "Support technique"
 
-#: lockable_feature.py:182
+#: lockable_feature.py:173
 msgid "On-demand backup restore"
 msgstr "Restauration de sauvegarde à la demande"
 
-#: lockable_feature.py:203
+#: lockable_feature.py:194
 msgid "Tile caching"
 msgstr "Mise en cache des tuiles"
 
@@ -48,6 +48,26 @@ msgstr ""
 
 #: nodepkg/bf2025/BF2025Banner.tsx:12
 msgid "Plan it now!"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:54
+msgid "Chat with us"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:55
+msgid "Need help?"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:56
+msgid "We're here to support you."
+msgstr ""
+
+#: nodepkg/chatwoot.ts:57
+msgid "We're online and ready to chat!"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:58
+msgid "We're currently offline."
 msgstr ""
 
 #: nodepkg/hook.ts:54
@@ -80,7 +100,7 @@ msgstr "Modifier le plan"
 msgid "More about plans"
 msgstr "En savoir plus sur les plans"
 
-#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:48 view.py:15
+#: nodepkg/plugin.ts:12 nodepkg/upgrade-button/UpgradeButton.tsx:48 view.py:15
 msgid "Plan and features"
 msgstr "Plan et caractéristiques"
 
@@ -112,11 +132,11 @@ msgstr "Téléchargez vos couches et projets sur votre SIG Web"
 msgid "Learn more"
 msgstr "Apprendre encore plus"
 
-#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:61
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:65
 msgid "Hide"
 msgstr "Cacher"
 
-#: nodepkg/resource-widget/base.tsx:24 service_plan.py:256
+#: nodepkg/resource-widget/base.tsx:24 service_plan.py:252
 msgid "{} feature is not available on your plan."
 msgstr "La fonctionnalité {} n'est pas disponible sur votre forfait."
 
@@ -162,14 +182,14 @@ msgstr "Limite d'utilisateurs"
 msgid "GPS trackers"
 msgstr "Traceurs GPS"
 
-#: service_plan.py:249
+#: service_plan.py:245
 msgid "Plan upgrade required"
 msgstr "Mise à niveau du plan requise"
 
-#: service_plan.py:253
+#: service_plan.py:249
 msgid "This is not available on your plan."
 msgstr "Ceci n'est pas disponible avec votre forfait."
 
-#: service_plan.py:264
+#: service_plan.py:260
 msgid "To use this feature, please upgrade."
 msgstr "Pour utiliser cette fonctionnalité, veuillez effectuer une mise à niveau."

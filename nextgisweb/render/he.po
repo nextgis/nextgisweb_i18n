@@ -30,7 +30,7 @@ msgstr "מופעל"
 #: component.py:44
 #, server
 msgid "Disabled"
-msgstr "נָכֶה"
+msgstr "מושבת"
 
 #: nodepkg/resource-section/legend-symbols/ResourceSectionLegendSymbols.tsx:30
 #, jsrealm

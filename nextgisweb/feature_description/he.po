@@ -1,10 +1,23 @@
-#: api_import.py:19
-#, server
+#: api_import.py:22
 msgid "Invalid ZIP archive."
 msgstr "ארכיון ZIP לא חוקי."
 
-#: nodepkg/description-editor/plugin.ts:8
+#: api_import.py:35
+#, python-brace-format
+msgid "Files must be named using the format '{0}.html', but got '{1}'."
+msgstr ""
+
+#: api_import.py:36
+#, python-brace-format
+msgid "{feature ID}"
+msgstr ""
+
+#: api_import.py:64
+#, python-brace-format
+msgid "The file '{0}' does not contain a <body> element and cannot be processed."
+msgstr ""
+
+#: nodepkg/description-editor/plugin.ts:12
 #: nodepkg/description-view/DescriptionView.tsx:16
-#, jsrealm
 msgid "Description"
-msgstr "תֵאוּר"
+msgstr "תיאור"

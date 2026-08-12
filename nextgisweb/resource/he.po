@@ -34,7 +34,7 @@ msgstr "לֹא"
 #: nodepkg/resource-section/children/ResourceSectionChildren.tsx:152
 #, jsrealm, server
 msgid "Owner"
-msgstr "בַּעַל"
+msgstr "בעלים"
 
 #: category.py:38
 #, server
@@ -295,7 +295,7 @@ msgstr "שגיאת אימות"
 #: nodepkg/composite/CompositeWidget.tsx:34
 #, jsrealm
 msgid "Create"
-msgstr "לִיצוֹר"
+msgstr "יצירה"
 
 #: nodepkg/composite/CompositeWidget.tsx:35
 #, jsrealm
@@ -405,7 +405,7 @@ msgstr[1] ""
 #: nodepkg/description-editor/DescriptionEditorWidget.tsx:30
 #, jsrealm
 msgid "Description"
-msgstr "תֵאוּר"
+msgstr "תיאור"
 
 #: nodepkg/editor-widget/EditorWidget.tsx:13
 #, jsrealm

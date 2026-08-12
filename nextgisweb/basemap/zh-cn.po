@@ -1,8 +1,8 @@
-#: model.py:24 nodepkg/layer-widget/LayerWidget.tsx:206
+#: model.py:26 nodepkg/layer-widget/LayerWidget.tsx:208
 msgid "Basemap"
 msgstr "底图"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:17
+#: nodepkg/layer-widget/LayerWidget.tsx:18
 msgid "Pick from QMS"
 msgstr ""
 
@@ -14,60 +14,76 @@ msgstr ""
 msgid "You can search by name or ID"
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:24
+#: nodepkg/layer-widget/LayerWidget.tsx:21
 msgid "If a service from QMS is selected, this field cannot be edited."
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:25
+#: nodepkg/layer-widget/LayerWidget.tsx:22
 msgid ""
 "Above this zoom level, no new tiles are fetched but tiles from the nearest "
 "allowed zoom are displayed and upscaled."
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:26
+#: nodepkg/layer-widget/LayerWidget.tsx:23
 msgid "Below this zoom level, the layer is hidden and no new tiles are fetched."
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:101
+#: nodepkg/layer-widget/LayerWidget.tsx:106
 msgid "URL"
 msgstr "URL"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:108
+#: nodepkg/layer-widget/LayerWidget.tsx:113
 msgid "Copyright text"
 msgstr "版权文本"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:116
+#: nodepkg/layer-widget/LayerWidget.tsx:121
 msgid "Copyright URL"
 msgstr "URL版权链接"
 
-#: nodepkg/layer-widget/LayerWidget.tsx:123
+#: nodepkg/layer-widget/LayerWidget.tsx:128
 msgid "Min zoom level"
 msgstr ""
 
-#: nodepkg/layer-widget/LayerWidget.tsx:135
+#: nodepkg/layer-widget/LayerWidget.tsx:140
 msgid "Max zoom level"
 msgstr ""
 
-#: nodepkg/plugin/base-map/BaseMap.ts:59
+#: nodepkg/plugin/base-map/BasemapLayers.tsx:118
 msgid "No basemap"
 msgstr ""
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:24
+#: nodepkg/webmap-widget/AdditionalSettingsWidget.tsx:10
+msgid "Disable basemaps"
+msgstr ""
+
+#: nodepkg/webmap-widget/AdditionalSettingsWidget.tsx:11
+msgid "Background color"
+msgstr ""
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:26
+msgid "Additional settings"
+msgstr ""
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:27
+msgid "Back to basemaps"
+msgstr ""
+
+#: nodepkg/webmap-widget/WebMapWidget.tsx:35
 msgid "Display name"
 msgstr "显示名称"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:31
+#: nodepkg/webmap-widget/WebMapWidget.tsx:42
 msgid "Default basemap"
 msgstr ""
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:34
+#: nodepkg/webmap-widget/WebMapWidget.tsx:45
 msgid "Opacity"
 msgstr "不透明度"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:39
+#: nodepkg/webmap-widget/WebMapWidget.tsx:50
 msgid "Resource"
 msgstr "资源"
 
-#: nodepkg/webmap-widget/WebMapWidget.tsx:103
+#: nodepkg/webmap-widget/WebMapWidget.tsx:155
 msgid "Basemaps"
 msgstr "底图"

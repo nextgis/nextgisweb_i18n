@@ -34,7 +34,7 @@ msgstr "Mieszane typy danych pasm nie są obsługiwane."
 #: model.py:121 nodepkg/editor-widget/EditorWidget.tsx:19
 #: nodepkg/storage-widget/StorageWidget.tsx:80
 msgid "Raster layer storage"
-msgstr ""
+msgstr "Magazyn warstw rastrowych"
 
 #: model.py:205
 msgid ""
@@ -44,7 +44,7 @@ msgstr ""
 
 #: model.py:214 nodepkg/editor-widget/EditorWidget.tsx:141
 msgid "Raster layer"
-msgstr "Warstwa rastra"
+msgstr "Warstwa rastrowa"
 
 #: model.py:270
 msgid "No supported files found in the archive."
@@ -142,6 +142,10 @@ msgid ""
 "of {storage_limit} is available. Reduce the size of the raster or free up "
 "some storage space."
 msgstr ""
+"Nieskompresowany raster, który próbujesz przesłać, ma rozmiar "
+"{uncompressed_size}. Wymagane jest co najmniej {required_space} miejsca, ale "
+"dostępne jest tylko {storage_free} z {storage_limit}. Zmniejsz rozmiar rastra"
+" lub zwolnij trochę miejsca."
 
 #: model.py:854
 msgid "Storage must be selected before specifying a storage filename."

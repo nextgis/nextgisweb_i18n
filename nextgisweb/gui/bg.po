@@ -62,7 +62,7 @@ msgstr ""
 msgid "Not set"
 msgstr "Не е зададен"
 
-#: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:52
+#: nodepkg/component/SaveButton.tsx:16 nodepkg/model-form/ModelForm.tsx:52
 msgid "Save"
 msgstr "Запазване"
 
@@ -134,33 +134,32 @@ msgstr "Поправяне или предлагане на превод"
 msgid "Browser default"
 msgstr "По подразбиране в браузъра"
 
-#: nodepkg/csv-importer/CsvImporter.tsx:18
-msgid "Field mapping"
+#: nodepkg/csv-importer/CsvImporter.tsx:17
+msgid "Column mapping"
 msgstr ""
 
-#: nodepkg/csv-importer/CsvImporter.tsx:19
+#: nodepkg/csv-importer/CsvImporter.tsx:18
 msgid "Preview CSV table"
 msgstr ""
 
-#: nodepkg/csv-importer/CsvImporter.tsx:20
+#: nodepkg/csv-importer/CsvImporter.tsx:19
 msgid "Parsing options"
 msgstr ""
 
+#: nodepkg/csv-importer/CsvImporter.tsx:20
+msgid "Failed to parse CSV file"
+msgstr ""
+
 #: nodepkg/csv-importer/CsvImporter.tsx:21
-msgid "Rows in file"
+msgid "Clear file"
 msgstr ""
 
 #: nodepkg/csv-importer/CsvImporter.tsx:22
-msgid "File"
-msgstr ""
-
-#: nodepkg/csv-importer/CsvImporter.tsx:23
-msgid "Size"
-msgstr ""
-
-#: nodepkg/csv-importer/CsvImporter.tsx:24
-msgid "Clear file"
-msgstr ""
+#, python-brace-format
+msgid "{} row"
+msgid_plural "{} rows"
+msgstr[0] ""
+msgstr[1] ""
 
 #: nodepkg/csv-importer/CsvImporterModal.tsx:10
 msgid "Import from CSV"
@@ -175,44 +174,36 @@ msgstr "Откажи"
 msgid "Import"
 msgstr ""
 
-#: nodepkg/csv-importer/component/CsvDialectForm.tsx:12
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:13
 msgid "Delimiter"
 msgstr ""
 
-#: nodepkg/csv-importer/component/CsvDialectForm.tsx:13
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:14
 msgid "Quote character"
 msgstr ""
 
-#: nodepkg/csv-importer/component/CsvDialectForm.tsx:14
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:15
 msgid "Escape character"
 msgstr ""
 
-#: nodepkg/csv-importer/component/CsvDialectForm.tsx:15
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:16
 msgid "Encoding"
 msgstr ""
 
 #: nodepkg/csv-importer/component/CsvFileSelect.tsx:10
 msgid "Select a CSV file"
-msgstr ""
+msgstr "Изберете файл CSV"
 
 #: nodepkg/csv-importer/component/CsvFileSelect.tsx:11
 msgid "or drag and drop here"
-msgstr ""
+msgstr "или пуснете тук"
 
 #: nodepkg/csv-importer/component/CsvFileSelect.tsx:12
 msgid "Please select a CSV file"
-msgstr ""
+msgstr "Изберете файл CSV, моля"
 
 #: nodepkg/csv-importer/component/CsvManualMapping.tsx:14
-msgid "Unset"
-msgstr ""
-
-#: nodepkg/csv-importer/component/CsvManualMapping.tsx:15
-msgid "This field can be auto-mapped by"
-msgstr ""
-
-#: nodepkg/csv-importer/component/CsvPreviewTable.tsx:17
-msgid "Failed to parse CSV file"
+msgid "Select column"
 msgstr ""
 
 #: nodepkg/csv-importer/hooks/useCsvParser.ts:57
@@ -337,7 +328,7 @@ msgstr "Потвърдете изтриването."
 msgid "Failed to delete."
 msgstr "Неуспешно изтриване."
 
-#: nodepkg/model-browse/ModelBrowse.tsx:130 nodepkg/model-form/ModelForm.tsx:76
+#: nodepkg/model-browse/ModelBrowse.tsx:130 nodepkg/model-form/ModelForm.tsx:77
 msgid "Confirmation"
 msgstr "Confirmation"
 
@@ -377,7 +368,7 @@ msgstr "Търсене"
 msgid "Create"
 msgstr "Създаване"
 
-#: nodepkg/model-form/ModelForm.tsx:121
+#: nodepkg/model-form/ModelForm.tsx:122
 msgid "Fix the form errors first"
 msgstr "Трябва да поправите грешките във формата"
 
@@ -389,10 +380,10 @@ msgstr "Логото е запазено. За да използвате пре�
 msgid "Operation in progress"
 msgstr "В процес на изпълнение"
 
-#: nodepkg/single-setting-form/SingleSettingForm.tsx:24
+#: nodepkg/single-setting-form/SingleSettingForm.tsx:21
 msgid "The setting is saved."
 msgstr "Настройката е запазена."
 
-#: nodepkg/single-setting-form/SingleSettingForm.tsx:25
+#: nodepkg/single-setting-form/SingleSettingForm.tsx:22
 msgid "Reload the page to get them applied."
 msgstr "За да използвате презаредете страницата."

@@ -54,7 +54,7 @@ msgstr "יְבוּא"
 #: nodepkg/catalog-browse/CatalogBrowse.tsx:142
 #, jsrealm
 msgid "Search"
-msgstr "לְחַפֵּשׂ"
+msgstr "חיפוש"
 
 #: nodepkg/catalog-browse/CatalogBrowse.tsx:160
 #, jsrealm
@@ -89,7 +89,7 @@ msgstr "קָטָלוֹג"
 #: nodepkg/control-panel-plugin.tsx:57
 #, jsrealm
 msgid "Create"
-msgstr "לִיצוֹר"
+msgstr "יצירה"
 
 #: nodepkg/srs-browse/SrsBrowse.tsx:25
 #, jsrealm

@@ -1,28 +1,28 @@
-#: lockable_feature.py:74
+#: lockable_feature.py:71
 msgid "Use on other websites (CORS)"
 msgstr ""
 
-#: lockable_feature.py:92
+#: lockable_feature.py:84
 msgid "Custom domain and branding"
 msgstr ""
 
-#: lockable_feature.py:98
+#: lockable_feature.py:90
 msgid "Improved performance"
 msgstr ""
 
-#: lockable_feature.py:105
+#: lockable_feature.py:96
 msgid "Access management"
 msgstr ""
 
-#: lockable_feature.py:177
+#: lockable_feature.py:168
 msgid "Technical support"
 msgstr ""
 
-#: lockable_feature.py:182
+#: lockable_feature.py:173
 msgid "On-demand backup restore"
 msgstr ""
 
-#: lockable_feature.py:203
+#: lockable_feature.py:194
 msgid "Tile caching"
 msgstr ""
 
@@ -48,6 +48,26 @@ msgstr ""
 
 #: nodepkg/bf2025/BF2025Banner.tsx:12
 msgid "Plan it now!"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:54
+msgid "Chat with us"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:55
+msgid "Need help?"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:56
+msgid "We're here to support you."
+msgstr ""
+
+#: nodepkg/chatwoot.ts:57
+msgid "We're online and ready to chat!"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:58
+msgid "We're currently offline."
 msgstr ""
 
 #: nodepkg/hook.ts:54
@@ -80,7 +100,7 @@ msgstr "Змяніць план"
 msgid "More about plans"
 msgstr "Больш падрабязна аб планах"
 
-#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:48 view.py:15
+#: nodepkg/plugin.ts:12 nodepkg/upgrade-button/UpgradeButton.tsx:48 view.py:15
 msgid "Plan and features"
 msgstr ""
 
@@ -110,11 +130,11 @@ msgstr ""
 msgid "Learn more"
 msgstr ""
 
-#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:61
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:65
 msgid "Hide"
 msgstr ""
 
-#: nodepkg/resource-widget/base.tsx:24 service_plan.py:256
+#: nodepkg/resource-widget/base.tsx:24 service_plan.py:252
 msgid "{} feature is not available on your plan."
 msgstr ""
 
@@ -160,14 +180,14 @@ msgstr ""
 msgid "GPS trackers"
 msgstr ""
 
-#: service_plan.py:249
+#: service_plan.py:245
 msgid "Plan upgrade required"
 msgstr ""
 
-#: service_plan.py:253
+#: service_plan.py:249
 msgid "This is not available on your plan."
 msgstr ""
 
-#: service_plan.py:264
+#: service_plan.py:260
 msgid "To use this feature, please upgrade."
 msgstr ""

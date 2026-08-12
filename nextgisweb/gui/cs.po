@@ -64,7 +64,7 @@ msgstr ""
 msgid "Not set"
 msgstr ""
 
-#: nodepkg/component/SaveButton.tsx:19 nodepkg/model-form/ModelForm.tsx:52
+#: nodepkg/component/SaveButton.tsx:16 nodepkg/model-form/ModelForm.tsx:52
 msgid "Save"
 msgstr "Uložit"
 
@@ -136,33 +136,33 @@ msgstr ""
 msgid "Browser default"
 msgstr "Výchozí nastavení prohlížeče"
 
-#: nodepkg/csv-importer/CsvImporter.tsx:18
-msgid "Field mapping"
+#: nodepkg/csv-importer/CsvImporter.tsx:17
+msgid "Column mapping"
 msgstr ""
 
-#: nodepkg/csv-importer/CsvImporter.tsx:19
+#: nodepkg/csv-importer/CsvImporter.tsx:18
 msgid "Preview CSV table"
 msgstr ""
 
-#: nodepkg/csv-importer/CsvImporter.tsx:20
+#: nodepkg/csv-importer/CsvImporter.tsx:19
 msgid "Parsing options"
 msgstr ""
 
+#: nodepkg/csv-importer/CsvImporter.tsx:20
+msgid "Failed to parse CSV file"
+msgstr ""
+
 #: nodepkg/csv-importer/CsvImporter.tsx:21
-msgid "Rows in file"
+msgid "Clear file"
 msgstr ""
 
 #: nodepkg/csv-importer/CsvImporter.tsx:22
-msgid "File"
-msgstr ""
-
-#: nodepkg/csv-importer/CsvImporter.tsx:23
-msgid "Size"
-msgstr ""
-
-#: nodepkg/csv-importer/CsvImporter.tsx:24
-msgid "Clear file"
-msgstr ""
+#, python-brace-format
+msgid "{} row"
+msgid_plural "{} rows"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: nodepkg/csv-importer/CsvImporterModal.tsx:10
 msgid "Import from CSV"
@@ -177,19 +177,19 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
-#: nodepkg/csv-importer/component/CsvDialectForm.tsx:12
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:13
 msgid "Delimiter"
 msgstr ""
 
-#: nodepkg/csv-importer/component/CsvDialectForm.tsx:13
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:14
 msgid "Quote character"
 msgstr ""
 
-#: nodepkg/csv-importer/component/CsvDialectForm.tsx:14
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:15
 msgid "Escape character"
 msgstr ""
 
-#: nodepkg/csv-importer/component/CsvDialectForm.tsx:15
+#: nodepkg/csv-importer/component/CsvDialectForm.tsx:16
 msgid "Encoding"
 msgstr ""
 
@@ -206,15 +206,7 @@ msgid "Please select a CSV file"
 msgstr ""
 
 #: nodepkg/csv-importer/component/CsvManualMapping.tsx:14
-msgid "Unset"
-msgstr ""
-
-#: nodepkg/csv-importer/component/CsvManualMapping.tsx:15
-msgid "This field can be auto-mapped by"
-msgstr ""
-
-#: nodepkg/csv-importer/component/CsvPreviewTable.tsx:17
-msgid "Failed to parse CSV file"
+msgid "Select column"
 msgstr ""
 
 #: nodepkg/csv-importer/hooks/useCsvParser.ts:57
@@ -339,7 +331,7 @@ msgstr ""
 msgid "Failed to delete."
 msgstr ""
 
-#: nodepkg/model-browse/ModelBrowse.tsx:130 nodepkg/model-form/ModelForm.tsx:76
+#: nodepkg/model-browse/ModelBrowse.tsx:130 nodepkg/model-form/ModelForm.tsx:77
 msgid "Confirmation"
 msgstr "Potvrzení"
 
@@ -379,7 +371,7 @@ msgstr "Vyhledávání"
 msgid "Create"
 msgstr "Vytvořit"
 
-#: nodepkg/model-form/ModelForm.tsx:121
+#: nodepkg/model-form/ModelForm.tsx:122
 msgid "Fix the form errors first"
 msgstr "Nejprve opravte chyby formuláře"
 
@@ -391,10 +383,10 @@ msgstr "Logo uloženo. Znovu načtěte stránku, abyste je mohli použít."
 msgid "Operation in progress"
 msgstr ""
 
-#: nodepkg/single-setting-form/SingleSettingForm.tsx:24
+#: nodepkg/single-setting-form/SingleSettingForm.tsx:21
 msgid "The setting is saved."
 msgstr "Nastavení se uloží."
 
-#: nodepkg/single-setting-form/SingleSettingForm.tsx:25
+#: nodepkg/single-setting-form/SingleSettingForm.tsx:22
 msgid "Reload the page to get them applied."
 msgstr "Znovu načtěte stránku, abyste je mohli použít."

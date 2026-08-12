@@ -10,201 +10,212 @@ msgstr ""
 msgid "PostGIS connection {} not found!"
 msgstr ""
 
-#: diagnostics.py:102
+#: diagnostics.py:104
 msgid "Got an unexpected error."
 msgstr ""
 
-#: diagnostics.py:160
+#: diagnostics.py:162
 msgid "PostgreSQL connection"
 msgstr ""
 
-#: diagnostics.py:166
+#: diagnostics.py:168
 msgid "Host name resolution failed: {}."
 msgstr ""
 
-#: diagnostics.py:188
+#: diagnostics.py:189
 msgid "Failed to connect to the database."
 msgstr ""
 
-#: diagnostics.py:192
+#: diagnostics.py:193
 msgid "Connected to the database."
 msgstr ""
 
-#: diagnostics.py:195
+#: diagnostics.py:196
 msgid "Executed {} query."
 msgstr ""
 
-#: diagnostics.py:198
+#: diagnostics.py:199
 msgid "PostgreSQL version {}."
 msgstr ""
 
-#: diagnostics.py:203
+#: diagnostics.py:204
 msgid "SSL is used."
 msgstr ""
 
-#: diagnostics.py:203
+#: diagnostics.py:204
 msgid "SSL is not used."
 msgstr ""
 
-#: diagnostics.py:219
+#: diagnostics.py:220
 msgid "The statement_timeout startup parameter is supported."
 msgstr ""
 
-#: diagnostics.py:223
+#: diagnostics.py:224
 msgid "The statement_timeout startup parameter is not supported."
 msgstr ""
 
-#: diagnostics.py:232
+#: diagnostics.py:233
 msgid "PostGIS extension"
 msgstr ""
 
-#: diagnostics.py:242
+#: diagnostics.py:243
 msgid "PostGIS extension not found."
 msgstr ""
 
-#: diagnostics.py:244
+#: diagnostics.py:245
 msgid "PostGIS extension version {}."
 msgstr ""
 
-#: diagnostics.py:247
+#: diagnostics.py:248
 msgid "Number of geometry columns: {}."
 msgstr ""
 
-#: diagnostics.py:250
+#: diagnostics.py:251
 msgid "Number of spatial reference systems: {}."
 msgstr ""
 
-#: diagnostics.py:294
+#: diagnostics.py:295
 msgid "Layer table"
 msgstr ""
 
-#: diagnostics.py:300
+#: diagnostics.py:301
 msgid "Table not found."
 msgstr ""
 
-#: diagnostics.py:302
+#: diagnostics.py:303
 msgid "Table found, table type is {}."
 msgstr ""
 
-#: diagnostics.py:320
+#: diagnostics.py:321
 msgid "{} privilege is present."
 msgstr ""
 
-#: diagnostics.py:322 diagnostics.py:324
+#: diagnostics.py:323 diagnostics.py:325
 msgid "{} privilege is absent."
 msgstr ""
 
-#: diagnostics.py:327
+#: diagnostics.py:328
 msgid "Number of records: {}."
 msgstr ""
 
-#: diagnostics.py:330
+#: diagnostics.py:331
 msgid "ID or geometry column isn't set."
 msgstr ""
 
-#: diagnostics.py:337 nodepkg/layer-widget/LayerWidget.tsx:20
+#: diagnostics.py:338 nodepkg/layer-widget/LayerWidget.tsx:20
 msgid "ID column"
 msgstr "Sloupec ID"
 
-#: diagnostics.py:342 diagnostics.py:415
+#: diagnostics.py:343 diagnostics.py:416
 msgid "Column not found."
 msgstr ""
 
-#: diagnostics.py:347
+#: diagnostics.py:348
 msgid "Column found, but has non-integer type - {}."
 msgstr ""
 
-#: diagnostics.py:349 diagnostics.py:428
+#: diagnostics.py:350 diagnostics.py:429
 msgid "Column found, type is {}."
 msgstr ""
 
-#: diagnostics.py:354
+#: diagnostics.py:355
 msgid "Column is the primary key."
 msgstr ""
 
-#: diagnostics.py:357
+#: diagnostics.py:358
 msgid "Column is not the primary key."
 msgstr ""
 
-#: diagnostics.py:366
+#: diagnostics.py:367
 msgid "Column can be NULL."
 msgstr ""
 
-#: diagnostics.py:371
+#: diagnostics.py:372
 msgid "NULL values in the column."
 msgstr ""
 
-#: diagnostics.py:373
+#: diagnostics.py:374
 msgid "No NULL values in the column."
 msgstr ""
 
-#: diagnostics.py:375
+#: diagnostics.py:376
 msgid "Column cannot be NULL."
 msgstr ""
 
-#: diagnostics.py:379
+#: diagnostics.py:380
 msgid "Unique index not found."
 msgstr ""
 
-#: diagnostics.py:381
+#: diagnostics.py:382
 msgid "Unique index found."
 msgstr ""
 
-#: diagnostics.py:397
+#: diagnostics.py:398
 msgid "Non-unique values in the column."
 msgstr ""
 
-#: diagnostics.py:399
+#: diagnostics.py:400
 msgid "All values are unique."
 msgstr ""
 
-#: diagnostics.py:404
+#: diagnostics.py:405
 msgid "Column is auto-incrementable."
 msgstr ""
 
-#: diagnostics.py:406
+#: diagnostics.py:407
 msgid "Column isn't auto-incrementable."
 msgstr ""
 
-#: diagnostics.py:410 nodepkg/layer-widget/LayerWidget.tsx:21
+#: diagnostics.py:411 nodepkg/layer-widget/LayerWidget.tsx:21
 msgid "Geometry column"
 msgstr "Sloupec geometrie"
 
-#: diagnostics.py:425
+#: diagnostics.py:426
 msgid "Column found, but has an incompatible type - {}."
 msgstr ""
 
-#: diagnostics.py:431
+#: diagnostics.py:432
 msgid "Geometry SRID mismatch."
 msgstr ""
 
-#: diagnostics.py:446
+#: diagnostics.py:447
 msgid "Failed to reproject extent to SRID {}."
 msgstr ""
 
-#: diagnostics.py:453
+#: diagnostics.py:454
 msgid "Extent (SRID {}): {}."
 msgstr ""
 
-#: diagnostics.py:457
+#: diagnostics.py:458
 msgid "Field columns"
 msgstr ""
 
-#: diagnostics.py:463
+#: diagnostics.py:464
 msgid "Column of field '{}' not found."
 msgstr ""
 
-#: diagnostics.py:472
+#: diagnostics.py:473
 msgid "Column of field '{}' found, but has an incompatible type - {}."
 msgstr ""
 
-#: diagnostics.py:478
+#: diagnostics.py:479
 msgid "Column of field '{}' found, type is {}."
 msgstr ""
 
 #: exception.py:9
 msgid "External database error"
 msgstr "Chyba externí databáze"
+
+#: exception.py:10
+msgid "An error occurred while accessing the external database."
+msgstr ""
+
+#: exception.py:13
+msgid ""
+"PostgreSQL error code: {}. An explanation of the error code can be found "
+"here: https://www.postgresql.org/docs/current/errcodes-appendix.html. "
+"Additional details may be available in the external database logs."
+msgstr ""
 
 #: model.py:81 nodepkg/layer-widget/LayerWidget.tsx:67
 msgid "Point"
@@ -258,49 +269,49 @@ msgstr "Multipolygon Z"
 msgid "PostGIS connection"
 msgstr "Připojení PostGIS"
 
-#: model.py:227
+#: model.py:226
 msgid "Cannot connect to the database!"
 msgstr "Nelze se připojit k databázi!"
 
-#: model.py:264 nodepkg/layer-widget/LayerWidget.tsx:224
+#: model.py:263 nodepkg/layer-widget/LayerWidget.tsx:224
 msgid "PostGIS layer"
 msgstr "Vrstva PostGIS"
 
-#: model.py:325
+#: model.py:323
 msgid "Table '%(table)s' not found!"
 msgstr "Tabulka '%(tabulka)s' nebyla nalezena!"
 
-#: model.py:344
+#: model.py:342
 msgid "SRID missing in geometry_columns table! You should specify it manually."
 msgstr "V tabulce geometry_columns chybí SRID! Měli byste to zadat ručně."
 
-#: model.py:349
+#: model.py:347
 msgid "0 is an invalid SRID."
 msgstr "SR0 je neplatný SRID."
 
-#: model.py:357
+#: model.py:355
 msgid "SRID in geometry_columns table does not match specified!"
 msgstr "SRID v tabulce geometry_columns neodpovídá zadané!"
 
-#: model.py:369
+#: model.py:367
 msgid ""
 "Geometry type missing in geometry_columns table! You should specify it "
 "manually."
 msgstr "V tabulce geometry_columns chybí typ geometrie! Měli byste to zadat ručně."
 
-#: model.py:381
+#: model.py:379
 msgid "Geometry type in geometry_columns table does not match specified!"
 msgstr "Typ geometrie v tabulce geometry_columns neodpovídá zadanému!"
 
-#: model.py:392
+#: model.py:390
 msgid "To use column as ID it should have integer type!"
 msgstr "Chcete-li použít sloupec jako ID, měl by mít celočíselný typ!"
 
-#: model.py:434 model.py:439
+#: model.py:439 model.py:444
 msgid "Column '%(column)s' not found!"
 msgstr "Sloupec '%(sloupec)s' nebyl nalezen!"
 
-#: model.py:445 nodepkg/layer-widget/LayerWidget.tsx:23
+#: model.py:450 nodepkg/layer-widget/LayerWidget.tsx:23
 msgid "Geometry type"
 msgstr "Typ geometrie"
 

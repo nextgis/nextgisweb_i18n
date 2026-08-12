@@ -1,13 +1,11 @@
-#: api.py:82
+#: api.py:82 nodepkg/collector-user-browse/CollectorUserBrowse.tsx:281
 msgid ""
-"Unfortunately, you cannot add a new collector. Your collector users limit in "
-"the Web GIS is"
+"Unfortunately, you cannot add a new collector. Your collectors limit in the "
+"Web GIS is {}."
 msgstr ""
-"Malheureusement, vous ne pouvez pas ajouter de nouveau collecteur. Votre "
-"limite d'utilisateurs de collecteurs dans le SIG Web est de"
 
 #: api.py:114
-msgid "User with email '{}' already exists. Email addresses are case-insensitive."
+msgid "Collector '{}' already exists. Email addresses are case-insensitive."
 msgstr ""
 
 #: model.py:87
@@ -33,7 +31,8 @@ msgid "Items"
 msgstr "éléments"
 
 #: nodepkg/collector-setup/CollectorSetupWidget.tsx:62
-#: nodepkg/resource-users/CollectorUsersWidget.tsx:37
+#: nodepkg/control-panel-plugin.tsx:9
+#: nodepkg/resource-users/CollectorUsersWidget.tsx:37 view.py:38
 msgid "Collectors"
 msgstr "Collectionneurs"
 
@@ -73,25 +72,19 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:279
-msgid "You cannot add a new collector. Your collector users limit"
-msgstr ""
-"Vous ne pouvez pas ajouter de nouveau collecteur. Votre limite d'utilisateurs"
-" de collecteurs"
-
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:329
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:328
 msgid "Create"
 msgstr ""
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:350
 msgid "Create new collector"
 msgstr "Créer un nouveau collecteur"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:352
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:351
 msgid "Edit collector"
 msgstr "Modifier le collectionneur"
 
-#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:367
+#: nodepkg/collector-user-browse/CollectorUserBrowse.tsx:366
 msgid "Delete selected collectors?"
 msgstr ""
 
@@ -114,10 +107,6 @@ msgstr "Chaque collectionneur doit avoir "
 #: nodepkg/collector-user-browse/CollectorUsersMessage.tsx:21
 msgid "NextGIS ID account"
 msgstr "Compte d'identification NextGIS"
-
-#: nodepkg/control-panel-plugin.tsx:9
-msgid "Collector projects"
-msgstr "Projets de Collector"
 
 #: nodepkg/resource-action-plugin.tsx:11 view.py:46
 msgid "Set up Collector project"
@@ -265,7 +254,3 @@ msgstr ""
 #: nodepkg/userMessages.ts:9
 msgid "Uncheck the box to remove the collector from the current project only."
 msgstr ""
-
-#: view.py:38
-msgid "List of collectors"
-msgstr "Liste des collectionneurs"

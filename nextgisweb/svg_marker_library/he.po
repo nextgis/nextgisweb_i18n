@@ -22,7 +22,7 @@ msgstr "לקובץ '{}' יש פורמט שונה מ-SVG."
 #: nodepkg/resource-action-plugin.tsx:11
 #, jsrealm
 msgid "Export"
-msgstr "יְצוּא"
+msgstr "ייצוא"
 
 #: nodepkg/resource-section/SvgMarkerLibraryResourceSection.tsx:28
 #, jsrealm

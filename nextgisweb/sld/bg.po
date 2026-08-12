@@ -30,7 +30,7 @@ msgstr "Син канал"
 msgid "Label"
 msgstr ""
 
-#: nodepkg/style-editor/component/KindEditor.tsx:24
+#: nodepkg/style-editor/component/KindEditor.tsx:23
 msgid "Symbolizer unknown!"
 msgstr "Непозната симвология!"
 
@@ -98,6 +98,18 @@ msgstr ""
 msgid "Label field"
 msgstr ""
 
+#: nodepkg/style-editor/component/editor/TextEditor.tsx:18
+msgid "Offset"
+msgstr ""
+
+#: nodepkg/style-editor/component/editor/TextEditor.tsx:19
+msgid "Text buffer size"
+msgstr ""
+
+#: nodepkg/style-editor/component/editor/TextEditor.tsx:20
+msgid "Text buffer color"
+msgstr ""
+
 #: nodepkg/style-editor/field/ColorInput.tsx:18
 msgid "None"
 msgstr "Няма"
@@ -106,11 +118,11 @@ msgstr "Няма"
 msgid "Transparent"
 msgstr "Прозрачен"
 
-#: nodepkg/style-editor/field/DashInput.tsx:10
+#: nodepkg/style-editor/field/DashInput.tsx:11
 msgid "Dash"
 msgstr "Пунктир"
 
-#: nodepkg/style-editor/field/DashInput.tsx:11
+#: nodepkg/style-editor/field/DashInput.tsx:12
 msgid "Gap"
 msgstr "Интервал"
 

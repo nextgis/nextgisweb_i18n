@@ -1,28 +1,28 @@
-#: lockable_feature.py:74
+#: lockable_feature.py:71
 msgid "Use on other websites (CORS)"
 msgstr "Użycie na innych stronach (CORS)"
 
-#: lockable_feature.py:92
+#: lockable_feature.py:84
 msgid "Custom domain and branding"
 msgstr "Niestandardowa domena i branding"
 
-#: lockable_feature.py:98
+#: lockable_feature.py:90
 msgid "Improved performance"
 msgstr "Zwiększona wydajność"
 
-#: lockable_feature.py:105
+#: lockable_feature.py:96
 msgid "Access management"
 msgstr "Zarządzanie dostępem"
 
-#: lockable_feature.py:177
+#: lockable_feature.py:168
 msgid "Technical support"
 msgstr "Wsparcie techniczne"
 
-#: lockable_feature.py:182
+#: lockable_feature.py:173
 msgid "On-demand backup restore"
 msgstr "Przywracanie kopii zapasowej na żądanie"
 
-#: lockable_feature.py:203
+#: lockable_feature.py:194
 msgid "Tile caching"
 msgstr "Buforowanie kafli"
 
@@ -31,6 +31,7 @@ msgid "CYBER FRIDAY"
 msgstr ""
 
 #: nodepkg/bf2025/BF2025Banner.tsx:8
+#, python-format
 msgid "50% off"
 msgstr ""
 
@@ -48,6 +49,26 @@ msgstr ""
 
 #: nodepkg/bf2025/BF2025Banner.tsx:12
 msgid "Plan it now!"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:54
+msgid "Chat with us"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:55
+msgid "Need help?"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:56
+msgid "We're here to support you."
+msgstr ""
+
+#: nodepkg/chatwoot.ts:57
+msgid "We're online and ready to chat!"
+msgstr ""
+
+#: nodepkg/chatwoot.ts:58
+msgid "We're currently offline."
 msgstr ""
 
 #: nodepkg/hook.ts:54
@@ -80,7 +101,7 @@ msgstr "Zmień plan"
 msgid "More about plans"
 msgstr "Więcej o planach"
 
-#: nodepkg/plugin.ts:8 nodepkg/upgrade-button/UpgradeButton.tsx:48 view.py:15
+#: nodepkg/plugin.ts:12 nodepkg/upgrade-button/UpgradeButton.tsx:48 view.py:15
 msgid "Plan and features"
 msgstr "Plan i funkcje"
 
@@ -102,21 +123,22 @@ msgstr "Zainstaluj wtyczkę NextGIS Connect dla QGIS"
 
 #: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:40
 msgid "Connect the plugin to your Web GIS"
-msgstr "Połącz wtyczkę z Web GIS"
+msgstr "Połącz wtyczkę z Geoportalem"
 
 #: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:42
 msgid "Upload your layers and projects to your Web GIS"
-msgstr "Prześlij swoje warstwy i projekty dla QGIS"
+msgstr "Prześlij swoje warstwy i projekty do Geoportalu"
 
 #: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:57
 msgid "Learn more"
 msgstr "Dowiedz się więcej"
 
-#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:61
+#: nodepkg/resource-section/qgis-banner/NgwclusterResourceSectionQgisBanner.tsx:65
 msgid "Hide"
 msgstr "Ukryj"
 
-#: nodepkg/resource-widget/base.tsx:24 service_plan.py:256
+#: nodepkg/resource-widget/base.tsx:24 service_plan.py:252
+#, python-brace-format
 msgid "{} feature is not available on your plan."
 msgstr "Funkcja {} nie jest dostępna w Twoim planie."
 
@@ -162,14 +184,14 @@ msgstr "Limit użytkowników"
 msgid "GPS trackers"
 msgstr "Rejestratory GPS"
 
-#: service_plan.py:249
+#: service_plan.py:245
 msgid "Plan upgrade required"
 msgstr "Wymagana aktualizacja planu"
 
-#: service_plan.py:253
+#: service_plan.py:249
 msgid "This is not available on your plan."
 msgstr "To nie jest dostępne w Twoim planie."
 
-#: service_plan.py:264
+#: service_plan.py:260
 msgid "To use this feature, please upgrade."
 msgstr "Aby skorzystać z tej funkcji, proszę zaktualizować plan."
